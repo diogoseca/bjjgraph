@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Collar Sleeve Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "Within the open guard game, this transition marks the moment a bottom player stops playing a generic, reactive guard and commits to building a specific, offense-ready system. It converts the general, less defined open guard position into a structured guard with clear offensive pathways including sweeps, triangles, and omoplatas, all anchored on the asymmetric cross-collar and same-side sleeve grips. The transition requires winning a grip fighting exchange against an opponent who is actively trying to establish their own passing grips, making timing and sequencing the primary determinants of success.\n\nThe technical core of this transition lies in the grip sequencing hierarchy: the cross-collar grip must be established first because it provides posture control that makes the subsequent sleeve grip much easier to obtain. Reaching for the sleeve first without collar control allows the opponent to posture freely and strip your grip before you can build the full guard structure. Once the collar grip anchors your control over their upper body, the sleeve grip completes the asymmetric structure that generates the rotational off-balancing forces characteristic of collar sleeve guard.\n\nStrategically, this transition represents a critical decision point in open guard play. Rather than remaining in a generic open guard where neither player has established dominant grips, the bottom player proactively builds a specific guard system that immediately creates offensive threats. The transition is most effective against opponents who are methodical passers, as the grip establishment disrupts their passing setup before it develops. Against explosive passers, the transition must be executed during the brief windows between passing attempts when the opponent resets their grips and base.",
   "conditions": [
     "You are playing open guard bottom with legs between you and opponent",
@@ -242,38 +254,147 @@
     "flashcards": [
       {
         "question": "Why must the cross-collar grip be established before the sleeve grip in this transition?",
-        "answer": "The collar grip anchors your control over the opponent's posture, which creates the off-balancing reaction that makes sleeve capture dramatically easier. When you pull the collar, the opponent must post or adjust their base, momentarily freeing the arm you need to grip. Without collar control, the opponent can freely strip an isolated sleeve grip using their other hand while maintaining upright posture. The collar-first sequence is a force multiplier that converts a difficult two-grip problem into two sequential single-grip tasks."
+        "answer": "The collar grip anchors your control over the opponent's posture, which creates the off-balancing reaction that makes sleeve capture dramatically easier. When you pull the collar, the opponent must post or adjust their base, momentarily freeing the arm you need to grip. Without collar control, the opponent can freely strip an isolated sleeve grip using their other hand while maintaining upright posture. The collar-first sequence is a force multiplier that converts a difficult two-grip problem into two sequential single-grip tasks.",
+        "answer_line": "Collar first breaks their posture",
+        "distractors": {
+          "plausible": [
+            "Sleeve first, easier target",
+            "Grip both hands at once"
+          ],
+          "trap": [
+            "Ignore collar, double sleeve grip"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for reaching for the initial collar grip?",
-        "answer": "The best window occurs during opponent transitions: when they shift from standing to kneeling, when they change their base, when they reset after a failed pass attempt, or when they reach down to grip your pants. During these moments, their hands are occupied and cannot immediately defend the collar reach. Reaching during static moments when the opponent is set and their hands are free makes the grip fight significantly harder and often results in your reach being blocked before contact."
+        "answer": "The best window occurs during opponent transitions: when they shift from standing to kneeling, when they change their base, when they reset after a failed pass attempt, or when they reach down to grip your pants. During these moments, their hands are occupied and cannot immediately defend the collar reach. Reaching during static moments when the opponent is set and their hands are free makes the grip fight significantly harder and often results in your reach being blocked before contact.",
+        "answer_line": "Reach during opponent's transitions",
+        "distractors": {
+          "plausible": [
+            "Reach when opponent is set and still",
+            "Reach as soon as guard is on"
+          ],
+          "trap": [
+            "Reach with both hands together"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your collar grip just as you reach for the sleeve - how do you adjust?",
-        "answer": "Rather than fighting to re-establish the same collar grip, immediately evaluate whether you can transition to an alternative guard system using whatever grip connection you have. If your hand is already near their arm, capture a sleeve for spider guard or lasso guard entry. If you have foot positioning, use De La Riva or reverse De La Riva hooks. The key principle is to flow into an alternative guard rather than resetting to zero and re-attempting the exact same collar reach against an opponent who is now specifically defending it."
+        "answer": "Rather than fighting to re-establish the same collar grip, immediately evaluate whether you can transition to an alternative guard system using whatever grip connection you have. If your hand is already near their arm, capture a sleeve for spider guard or lasso guard entry. If you have foot positioning, use De La Riva or reverse De La Riva hooks. The key principle is to flow into an alternative guard rather than resetting to zero and re-attempting the exact same collar reach against an opponent who is now specifically defending it.",
+        "answer_line": "Flow to alternative guard",
+        "distractors": {
+          "plausible": [
+            "Reset and retry same grip",
+            "Switch grips to double sleeve"
+          ],
+          "trap": [
+            "Release all grips, disengage"
+          ]
+        }
       },
       {
         "question": "What foot placement is most critical during the collar grip establishment phase?",
-        "answer": "Feet on the opponent's hips are the most critical placement because they create the distance frame that buys time for grip establishment while preventing the opponent from closing distance into pressure passing range. The hip frames also give you the ability to push the opponent away if they drive forward aggressively, creating reset opportunities. Without feet on hips, you are vulnerable to being smashed or stacked before your hands can complete the grip fighting sequence."
+        "answer": "Feet on the opponent's hips are the most critical placement because they create the distance frame that buys time for grip establishment while preventing the opponent from closing distance into pressure passing range. The hip frames also give you the ability to push the opponent away if they drive forward aggressively, creating reset opportunities. Without feet on hips, you are vulnerable to being smashed or stacked before your hands can complete the grip fighting sequence.",
+        "answer_line": "Feet on hips for frame",
+        "distractors": {
+          "plausible": [
+            "Feet on opponent's biceps",
+            "Feet on the mat, base wide"
+          ],
+          "trap": [
+            "Feet tucked under yourself"
+          ]
+        }
       },
       {
         "question": "How deep should the cross-collar grip be inserted and why does depth matter?",
-        "answer": "Insert four fingers inside the collar to the depth of at least the second knuckle, ideally reaching the shoulder seam area. Grip depth directly correlates with leverage and strip resistance. A shallow fingertip grip provides minimal rotational force and can be broken with a simple posture-up, while a deep grip near the shoulder creates maximum leverage over the opponent's upper body and requires a deliberate two-on-one grip break to remove. The deeper the grip, the more effective every subsequent pull and angle change becomes."
+        "answer": "Insert four fingers inside the collar to the depth of at least the second knuckle, ideally reaching the shoulder seam area. Grip depth directly correlates with leverage and strip resistance. A shallow fingertip grip provides minimal rotational force and can be broken with a simple posture-up, while a deep grip near the shoulder creates maximum leverage over the opponent's upper body and requires a deliberate two-on-one grip break to remove. The deeper the grip, the more effective every subsequent pull and angle change becomes.",
+        "answer_line": "Deep grip to shoulder seam",
+        "distractors": {
+          "plausible": [
+            "Fingertip grip is enough",
+            "Grip at the collar's edge"
+          ],
+          "trap": [
+            "Thumb-in grip for strength"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward with heavy pressure as you reach for the collar - what is your response?",
-        "answer": "Absorb the forward drive with your feet on their hips, using leg extension to maintain distance. If your feet are already positioned, you can use their forward momentum against them by pulling the collar during their drive, which amplifies the off-balancing force. If the pressure is too strong to maintain distance, abandon the collar sleeve attempt and transition to butterfly guard hooks (using their forward pressure for elevation sweeps) or close your legs for closed guard. Never fight for collar sleeve grips from a compromised, compressed position."
+        "answer": "Absorb the forward drive with your feet on their hips, using leg extension to maintain distance. If your feet are already positioned, you can use their forward momentum against them by pulling the collar during their drive, which amplifies the off-balancing force. If the pressure is too strong to maintain distance, abandon the collar sleeve attempt and transition to butterfly guard hooks (using their forward pressure for elevation sweeps) or close your legs for closed guard. Never fight for collar sleeve grips from a compromised, compressed position.",
+        "answer_line": "Frame with feet, keep distance",
+        "distractors": {
+          "plausible": [
+            "Pull guard closed immediately",
+            "Push through with upper body"
+          ],
+          "trap": [
+            "Reach for collar under pressure"
+          ]
+        }
       },
       {
         "question": "What hip angle should you achieve after both grips are established, and why?",
-        "answer": "Rotate your hips 30-45 degrees toward the sleeve-grip side once both grips are secured. This angle creates the asymmetric geometry that generates rotational off-balancing forces through the collar pull. A square hip position allows the opponent to distribute weight symmetrically against your grips, neutralizing the control. The angled position also pre-loads your body for sweeps (pendulum, flower, scissor) and creates the leg positioning necessary for triangle entries by bringing your hip closer to their neck line."
+        "answer": "Rotate your hips 30-45 degrees toward the sleeve-grip side once both grips are secured. This angle creates the asymmetric geometry that generates rotational off-balancing forces through the collar pull. A square hip position allows the opponent to distribute weight symmetrically against your grips, neutralizing the control. The angled position also pre-loads your body for sweeps (pendulum, flower, scissor) and creates the leg positioning necessary for triangle entries by bringing your hip closer to their neck line.",
+        "answer_line": "Angle hips 30-45 degrees",
+        "distractors": {
+          "plausible": [
+            "Square hips for stability",
+            "Angle hips away from grip"
+          ],
+          "trap": [
+            "Rotate hips a full 90 degrees"
+          ]
+        }
       },
       {
         "question": "What are the chain attack options if the opponent successfully defends your collar sleeve establishment by retreating to standing?",
-        "answer": "When the opponent retreats to standing to avoid collar sleeve, you gain several offensive options. Sit up and pursue with a technical stand-up to re-engage in the grip fight from standing. Alternatively, use your existing foot positioning to enter De La Riva guard by hooking their far leg, which is highly effective against standing opponents. If they retreat far enough to break all connection, pull guard with a collar drag or arm drag to immediately re-establish close-range guard play. The retreat itself is a defensive concession that creates offensive opportunities."
+        "answer": "When the opponent retreats to standing to avoid collar sleeve, you gain several offensive options. Sit up and pursue with a technical stand-up to re-engage in the grip fight from standing. Alternatively, use your existing foot positioning to enter De La Riva guard by hooking their far leg, which is highly effective against standing opponents. If they retreat far enough to break all connection, pull guard with a collar drag or arm drag to immediately re-establish close-range guard play. The retreat itself is a defensive concession that creates offensive opportunities.",
+        "answer_line": "Pursue with technical stand-up",
+        "distractors": {
+          "plausible": [
+            "Wait for them to sit back down",
+            "Chase on hands and knees"
+          ],
+          "trap": [
+            "Let them fully disengage, reset"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Transition to Collar Sleeve Guard is a low-risk positional transition with minimal injury potential. The primary safety concern involves finger and grip strain from aggressive collar gripping against resistance. Tape fingers before training sessions focused on grip-intensive guard work. Avoid death-gripping the collar with a single hand for extended periods, which can cause finger flexor tendon inflammation. Release grips periodically during drilling to allow blood flow recovery. Partners should communicate clearly during grip fighting exchanges to prevent accidental finger bending or joint hyperextension."
+    "safety_considerations": "Transition to Collar Sleeve Guard is a low-risk positional transition with minimal injury potential. The primary safety concern involves finger and grip strain from aggressive collar gripping against resistance. Tape fingers before training sessions focused on grip-intensive guard work. Avoid death-gripping the collar with a single hand for extended periods, which can cause finger flexor tendon inflammation. Release grips periodically during drilling to allow blood flow recovery. Partners should communicate clearly during grip fighting exchanges to prevent accidental finger bending or joint hyperextension.",
+    "clips": [
+      {
+        "id": "s1l1pyN6DsE",
+        "title": "One-grip guard pull into collar sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 139,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DOy6y-Z-wK4",
+        "title": "Getting to inside collar sleeve",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1piAnOs7xpA",
+        "title": "Modified collar sleeve introduction",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 158,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Open Guard to Collar Sleeve Guard Defender",
@@ -353,19 +474,59 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive priority when facing a bottom player attempting to establish collar sleeve guard?",
-        "answer": "Denying the cross-collar grip is the single most important priority because without it, collar sleeve guard cannot function as an attacking system. The collar grip provides posture control and rotational leverage that powers all subsequent attacks. The sleeve grip alone without collar control is easily managed and does not create the off-balancing forces that make collar sleeve dangerous. All defensive resources should prioritize collar grip prevention and stripping."
+        "answer": "Denying the cross-collar grip is the single most important priority because without it, collar sleeve guard cannot function as an attacking system. The collar grip provides posture control and rotational leverage that powers all subsequent attacks. The sleeve grip alone without collar control is easily managed and does not create the off-balancing forces that make collar sleeve dangerous. All defensive resources should prioritize collar grip prevention and stripping.",
+        "answer_line": "Deny the cross-collar grip",
+        "distractors": {
+          "plausible": [
+            "Deny the sleeve grip first",
+            "Control both wrists equally"
+          ],
+          "trap": [
+            "Focus on posting hands wide"
+          ]
+        }
       },
       {
         "question": "Why is early grip stripping more effective than late grip stripping against collar sleeve establishment?",
-        "answer": "Early grip stripping targets a partially seated collar grip that lacks full leverage, making two-on-one breaks highly reliable with minimal energy expenditure. Late grip stripping must overcome a deep, set collar grip where the bottom player's fingers are fully engaged and their arm is positioned for maximum retention strength. Additionally, late stripping gives the bottom player time to capture the sleeve, meaning you must break two grips instead of one. The energy cost and difficulty increase exponentially with each second the grip remains."
+        "answer": "Early grip stripping targets a partially seated collar grip that lacks full leverage, making two-on-one breaks highly reliable with minimal energy expenditure. Late grip stripping must overcome a deep, set collar grip where the bottom player's fingers are fully engaged and their arm is positioned for maximum retention strength. Additionally, late stripping gives the bottom player time to capture the sleeve, meaning you must break two grips instead of one. The energy cost and difficulty increase exponentially with each second the grip remains.",
+        "answer_line": "Strip grip early, before it sets",
+        "distractors": {
+          "plausible": [
+            "Strip grip late for certainty",
+            "Wait until sleeve is also gripped"
+          ],
+          "trap": [
+            "Let them finish both grips"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured the collar grip and is reaching for your sleeve - what is your immediate response?",
-        "answer": "Retract the arm they are reaching for by pulling your elbow tight to your ribs and turning your wrist inward, making the sleeve fabric harder to capture. Simultaneously use your free hand to begin a two-on-one break on the collar grip while driving your hips backward to create distance that reduces the collar grip's effectiveness. The combination of sleeve denial and collar strip forces the bottom player to restart their grip sequence from zero rather than completing the collar sleeve structure."
+        "answer": "Retract the arm they are reaching for by pulling your elbow tight to your ribs and turning your wrist inward, making the sleeve fabric harder to capture. Simultaneously use your free hand to begin a two-on-one break on the collar grip while driving your hips backward to create distance that reduces the collar grip's effectiveness. The combination of sleeve denial and collar strip forces the bottom player to restart their grip sequence from zero rather than completing the collar sleeve structure.",
+        "answer_line": "Retract arm, break the collar grip",
+        "distractors": {
+          "plausible": [
+            "Pull away and stand up",
+            "Grip fight for the sleeve back"
+          ],
+          "trap": [
+            "Extend arm to block the reach"
+          ]
+        }
       },
       {
         "question": "How does your posture affect the bottom player's ability to establish collar sleeve guard?",
-        "answer": "Upright posture with hips back places your collar at maximum distance from the bottom player's reaching hand, forcing them to extend fully to make contact. This extended reach is slower, more telegraphed, and results in a shallower initial grip that is easier to strip. Conversely, forward-bent posture brings your collar directly into their optimal grip zone and allows them to establish deep collar grips with minimal effort. Posture is your first line of defense before any active grip fighting begins."
+        "answer": "Upright posture with hips back places your collar at maximum distance from the bottom player's reaching hand, forcing them to extend fully to make contact. This extended reach is slower, more telegraphed, and results in a shallower initial grip that is easier to strip. Conversely, forward-bent posture brings your collar directly into their optimal grip zone and allows them to establish deep collar grips with minimal effort. Posture is your first line of defense before any active grip fighting begins.",
+        "answer_line": "Stay upright, hips back",
+        "distractors": {
+          "plausible": [
+            "Bend forward to control head",
+            "Keep shoulders square and low"
+          ],
+          "trap": [
+            "Lean forward to pressure down"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -383,6 +544,26 @@
         "phase": "Phase 3: Integrated Passing Against Grip Attempts",
         "focus": "Converting grip defense into passing offense",
         "description": "Partner attempts to establish collar sleeve guard while you use their grip-reaching moments as passing windows. When they reach for the collar, their framing capacity decreases - use this moment to initiate knee slice or toreando passes. Practice the transition from defensive grip fighting to offensive passing within a single exchange."
+      }
+    ],
+    "clips": [
+      {
+        "id": "N4M0VWhDkMA",
+        "title": "Two ways to pass the collar and sleeve",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zuLPD05QWKI",
+        "title": "Breaking collar and sleeve grips",
+        "by": "Martial Arts Unlimited",
+        "vertical": false,
+        "channel": "Martial Arts Unlimited",
+        "duration": 216,
+        "verified": "2026-07-15"
       }
     ]
   }

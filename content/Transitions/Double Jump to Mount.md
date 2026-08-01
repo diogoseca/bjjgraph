@@ -34,6 +34,43 @@ description: "Master the Double Jump to Mount transition in BJJ. Complete guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Jump to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Flattening the Turtle to Rear Mount",
+      "description": "Double Jump to Mount film study: Flattening the Turtle to Rear Mount, taught by For\u00e7a Martial Arts \u0026 Fitness.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4zfbOxHi-Ps/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4zfbOxHi-Ps",
+      "url": "https://www.youtube.com/watch?v=4zfbOxHi-Ps",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts \u0026 Fitness" },
+      "duration": "PT308S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dead Man\u0027s Pass: Flat Opponent to Mount",
+      "description": "Double Jump to Mount film study: Dead Man\u0027s Pass: Flat Opponent to Mount, taught by GrapplingMechanics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KYzylIe6OEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KYzylIe6OEw",
+      "url": "https://www.youtube.com/watch?v=KYzylIe6OEw",
+      "creator": { "@type": "Person", "name": "GrapplingMechanics" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The Double Jump to Mount pathway represents a critical secondary option within t
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Jump to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4zfbOxHi-Ps)
+
+<p class="clip-credit"><strong>Flattening the Turtle to Rear Mount</strong> — taught by Força Martial Arts &amp; Fitness · 5:08 · <a href="https://www.youtube.com/watch?v=4zfbOxHi-Ps" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KYzylIe6OEw)
+
+<p class="clip-credit"><strong>Dead Man&#39;s Pass: Flat Opponent to Mount</strong> — taught by GrapplingMechanics · 1:16 · <a href="https://www.youtube.com/watch?v=KYzylIe6OEw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -35,6 +35,65 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Omoplata, Keenan style",
+      "description": "Omoplata film study: Reverse Omoplata, Keenan style, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TNvcL55uvrE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TNvcL55uvrE",
+      "url": "https://www.youtube.com/watch?v=TNvcL55uvrE",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Teaching the reverse omoplata",
+      "description": "Omoplata film study: Teaching the reverse omoplata, taught by Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zZv3V0b3tqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zZv3V0b3tqg",
+      "url": "https://www.youtube.com/watch?v=zZv3V0b3tqg",
+      "creator": { "@type": "Person", "name": "Bradley" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata to armbar transition",
+      "description": "Omoplata film study: Omoplata to armbar transition, taught by Asbury Park Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HtMbIJCiz-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HtMbIJCiz-4",
+      "url": "https://www.youtube.com/watch?v=HtMbIJCiz-4",
+      "creator": { "@type": "Person", "name": "Asbury Park Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Omoplata to armbar",
+      "description": "Omoplata film study: Omoplata to armbar, taught by Bicudo Maciel.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hZMbgWNh7MI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hZMbgWNh7MI",
+      "url": "https://www.youtube.com/watch?v=hZMbgWNh7MI",
+      "creator": { "@type": "Person", "name": "Bicudo Maciel" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +113,7 @@ description: "Master the Omoplata shoulder lock in BJJ. Complete guide covering 
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Omoplata?", "acceptedAnswer": { "@type": "Answer", "text": "The Omoplata is a guard-based shoulder lock that traps the opponent\u0027s arm with the legs and rotates the shoulder by sitting up and driving the chest forward, doubling as a control hub with sweep and back-take options when the finish is defended." } },
-    { "@type": "Question", "name": "What positions can you finish the Omoplata from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Omoplata from Overhook Guard, Armbar Control, Butterfly Guard, Crackhead Control, De La Riva Guard, Double Sleeve Guard, Inverted Guard, Omoplata Control, Rubber Guard, Russian Leg Lasso, Spider Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Omoplata from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Omoplata from Butterfly Guard, Spider Guard, Crackhead Control, De La Riva Guard, Double Sleeve Guard, Overhook Guard, Inverted Guard, Omoplata Control, Rubber Guard, Russian Leg Lasso, Armbar Control." } },
     { "@type": "Question", "name": "Is the Omoplata dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Omoplata targets the Shoulder joint (rotator cuff, capsule, AC joint). Primary risk: Rotator cuff tear or strain. Tap early and release immediately on the tap." } }
   ]
 }
@@ -90,6 +149,50 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TNvcL55uvrE)
+
+<p class="clip-credit"><strong>Reverse Omoplata, Keenan style</strong> — taught by Keenan Cornelius · 0:22 · <a href="https://www.youtube.com/watch?v=TNvcL55uvrE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zZv3V0b3tqg)
+
+<p class="clip-credit"><strong>Teaching the reverse omoplata</strong> — taught by Bradley · 1:46 · <a href="https://www.youtube.com/watch?v=zZv3V0b3tqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HtMbIJCiz-4)
+
+<p class="clip-credit"><strong>Omoplata to armbar transition</strong> — taught by Asbury Park Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=HtMbIJCiz-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hZMbgWNh7MI)
+
+<p class="clip-credit"><strong>Omoplata to armbar</strong> — taught by Bicudo Maciel · 0:25 · <a href="https://www.youtube.com/watch?v=hZMbgWNh7MI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -99,18 +202,18 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Omoplata/from Guard|Overhook Guard]] | Bottom | 60% | [[Submissions/Omoplata/from Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Guard/Defender|Defend →]] |
-| [[Submissions/Omoplata/from Armbar Control|Armbar Control]] | Top | 52% | [[Submissions/Omoplata/from Armbar Control/Attacker|Attack →]] | [[Submissions/Omoplata/from Armbar Control/Defender|Defend →]] |
-| [[Submissions/Omoplata/from Butterfly Guard|Butterfly Guard]] | Bottom | 52% | [[Submissions/Omoplata/from Butterfly Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Butterfly Guard/Defender|Defend →]] |
+| [[Submissions/Omoplata/from Butterfly Guard|Butterfly Guard]] | Bottom | 62% | [[Submissions/Omoplata/from Butterfly Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Butterfly Guard/Defender|Defend →]] |
+| [[Submissions/Omoplata/from Spider Guard|Spider Guard]] | Bottom | 62% | [[Submissions/Omoplata/from Spider Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Spider Guard/Defender|Defend →]] |
 | [[Submissions/Omoplata/from Crackhead Control|Crackhead Control]] | Bottom | 52% | [[Submissions/Omoplata/from Crackhead Control/Attacker|Attack →]] | [[Submissions/Omoplata/from Crackhead Control/Defender|Defend →]] |
 | [[Submissions/Omoplata/from De La Riva Guard|De La Riva Guard]] | Bottom | 52% | [[Submissions/Omoplata/from De La Riva Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from De La Riva Guard/Defender|Defend →]] |
 | [[Submissions/Omoplata/from Double Sleeve Guard|Double Sleeve Guard]] | Bottom | 52% | [[Submissions/Omoplata/from Double Sleeve Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Double Sleeve Guard/Defender|Defend →]] |
+| [[Submissions/Omoplata/from Guard|Overhook Guard]] | Bottom | 52% | [[Submissions/Omoplata/from Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Guard/Defender|Defend →]] |
 | [[Submissions/Omoplata/from Inverted Guard|Inverted Guard]] | Bottom | 52% | [[Submissions/Omoplata/from Inverted Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Inverted Guard/Defender|Defend →]] |
 | [[Submissions/Omoplata/from Omoplata Control|Omoplata Control]] | Top | 52% | [[Submissions/Omoplata/from Omoplata Control/Attacker|Attack →]] | [[Submissions/Omoplata/from Omoplata Control/Defender|Defend →]] |
 | [[Submissions/Omoplata/from Rubber Guard|Rubber Guard]] | Bottom | 52% | [[Submissions/Omoplata/from Rubber Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Rubber Guard/Defender|Defend →]] |
 | [[Submissions/Omoplata/from Russian Leg Lasso|Russian Leg Lasso]] | Bottom | 52% | [[Submissions/Omoplata/from Russian Leg Lasso/Attacker|Attack →]] | [[Submissions/Omoplata/from Russian Leg Lasso/Defender|Defend →]] |
+| [[Submissions/Omoplata/from Armbar Control|Armbar Control]] | Top | 50% | [[Submissions/Omoplata/from Armbar Control/Attacker|Attack →]] | [[Submissions/Omoplata/from Armbar Control/Defender|Defend →]] |
 | [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control|Omoplata Control]] | Bottom | 50% | [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Attacker|Attack →]] | [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Defender|Defend →]] |
-| [[Submissions/Omoplata/from Spider Guard|Spider Guard]] | Bottom | 40% | [[Submissions/Omoplata/from Spider Guard/Attacker|Attack →]] | [[Submissions/Omoplata/from Spider Guard/Defender|Defend →]] |
 
 
 </div>

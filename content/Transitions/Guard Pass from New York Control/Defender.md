@@ -148,6 +148,54 @@ description: "Complete guide to defending against guard pass attempts from New Y
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from New York Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard quick fix to stop the pass",
+      "description": "Guard Pass from New York Control (Defender) film study: Rubber guard quick fix to stop the pass, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
+      "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard Back Up Plan",
+      "description": "Guard Pass from New York Control (Defender) film study: Rubber Guard Back Up Plan, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kajcUNpjGho/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kajcUNpjGho",
+      "url": "https://www.youtube.com/watch?v=kajcUNpjGho",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Late Stage Guard Retention Using the Rubber Guard",
+      "description": "Guard Pass from New York Control (Defender) film study: Late Stage Guard Retention Using the Rubber Guard, taught by Robert Diggle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xNc_Cdh9VVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xNc_Cdh9VVg",
+      "url": "https://www.youtube.com/watch?v=xNc_Cdh9VVg",
+      "creator": { "@type": "Person", "name": "Robert Diggle" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against the guard pass from New York Control requires understanding th
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from New York Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
+
+<p class="clip-credit"><strong>Rubber guard quick fix to stop the pass</strong> — taught by Brandon Mccaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kajcUNpjGho)
+
+<p class="clip-credit"><strong>Rubber Guard Back Up Plan</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=kajcUNpjGho" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xNc_Cdh9VVg)
+
+<p class="clip-credit"><strong>Late Stage Guard Retention Using the Rubber Guard</strong> — taught by Robert Diggle · 3:09 · <a href="https://www.youtube.com/watch?v=xNc_Cdh9VVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

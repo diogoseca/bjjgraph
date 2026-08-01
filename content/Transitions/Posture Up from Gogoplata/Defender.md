@@ -148,6 +148,54 @@ description: "Defend against posture recovery attempts from Gogoplata Control. M
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Up from Gogoplata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard quick fix to keep them broken down",
+      "description": "Posture Up from Gogoplata (Defender) film study: Rubber guard quick fix to keep them broken down, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
+      "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two simple rubber guard tips",
+      "description": "Posture Up from Gogoplata (Defender) film study: Two simple rubber guard tips, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
+      "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard philosophy",
+      "description": "Posture Up from Gogoplata (Defender) film study: Rubber guard philosophy, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tWAZbCiWQ9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tWAZbCiWQ9E",
+      "url": "https://www.youtube.com/watch?v=tWAZbCiWQ9E",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender in the Posture Up from Gogoplata scenario, you are the bottom pl
 **Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Up from Gogoplata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
+
+<p class="clip-credit"><strong>Rubber guard quick fix to keep them broken down</strong> — taught by Brandon McCaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
+
+<p class="clip-credit"><strong>Two simple rubber guard tips</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tWAZbCiWQ9E)
+
+<p class="clip-credit"><strong>Rubber guard philosophy</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tWAZbCiWQ9E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

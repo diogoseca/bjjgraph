@@ -380,35 +380,144 @@
   "flashcards": [
     {
       "question": "What is the mechanical difference between bridging and shrimping?",
-      "answer": "Bridging drives the hips vertically off the mat to unload the opponent's weight, while shrimping (hip escape) displaces the hips laterally to create the angle needed to insert a knee and recover guard."
+      "answer": "Bridging drives the hips vertically off the mat to unload the opponent's weight, while shrimping (hip escape) displaces the hips laterally to create the angle needed to insert a knee and recover guard.",
+      "answer_line": "Bridge vertical, shrimp lateral",
+      "distractors": {
+        "plausible": [
+          "Both create angle for guard",
+          "Shrimp unloads their weight"
+        ],
+        "trap": [
+          "Turn belly-down to slip out"
+        ]
+      }
     },
     {
       "question": "Why should you bridge before you shrimp when escaping a pin?",
-      "answer": "The bridge momentarily lifts the opponent's weight off your hips so the following shrimp meets little resistance; shrimping under full weight only slides you along the mat without creating real separation."
+      "answer": "The bridge momentarily lifts the opponent's weight off your hips so the following shrimp meets little resistance; shrimping under full weight only slides you along the mat without creating real separation.",
+      "answer_line": "Bridge first to unweight hips",
+      "distractors": {
+        "plausible": [
+          "Shrimp first, bridge to finish",
+          "Bridge and shrimp simultaneously"
+        ],
+        "trap": [
+          "Shrimp hard under full weight"
+        ]
+      }
     },
     {
       "question": "Which contact points generate maximum bridging power?",
-      "answer": "Driving simultaneously from both shoulders and both feet forms a stable base that channels leg drive into hip elevation; bridging from the hips alone produces little height and wastes energy."
+      "answer": "Driving simultaneously from both shoulders and both feet forms a stable base that channels leg drive into hip elevation; bridging from the hips alone produces little height and wastes energy.",
+      "answer_line": "Both shoulders and both feet",
+      "distractors": {
+        "plausible": [
+          "Push off the hips for height",
+          "Drive one foot, one shoulder"
+        ],
+        "trap": [
+          "Yank with the arms for lift"
+        ]
+      }
     },
     {
       "question": "How do frames preserve the space created by a bridge and shrimp?",
-      "answer": "Forearms braced against the opponent's shoulder, hip, or neck stop them from following your hips and re-closing the gap, holding the separation long enough to complete knee recovery or guard insertion."
+      "answer": "Forearms braced against the opponent's shoulder, hip, or neck stop them from following your hips and re-closing the gap, holding the separation long enough to complete knee recovery or guard insertion.",
+      "answer_line": "Forearm frames block re-closing",
+      "distractors": {
+        "plausible": [
+          "Grip their gi to hold distance",
+          "Keep bridging to hold the gap"
+        ],
+        "trap": [
+          "Drop frames, shrimp again fast"
+        ]
+      }
     },
     {
       "question": "When is the optimal moment to initiate a bridge or shrimp?",
-      "answer": "During the opponent's weight shifts, hand posts, or positional adjustments when their base is unstable; moving against a settled, fully committed top game makes escapes far harder and more tiring."
+      "answer": "During the opponent's weight shifts, hand posts, or positional adjustments when their base is unstable; moving against a settled, fully committed top game makes escapes far harder and more tiring.",
+      "answer_line": "During their weight shifts or posts",
+      "distractors": {
+        "plausible": [
+          "Right after they secure base",
+          "As soon as the pin is set"
+        ],
+        "trap": [
+          "Wait for fully committed pressure"
+        ]
+      }
     },
     {
       "question": "Why are small chained repetitions preferred over one maximal bridge?",
-      "answer": "Incremental bridge-shrimp cycles build escape space cumulatively while conserving energy, whereas a single all-out attempt rarely creates enough room and leaves you exhausted for follow-up efforts."
+      "answer": "Incremental bridge-shrimp cycles build escape space cumulatively while conserving energy, whereas a single all-out attempt rarely creates enough room and leaves you exhausted for follow-up efforts.",
+      "answer_line": "Chain small reps, save energy",
+      "distractors": {
+        "plausible": [
+          "One max bridge clears space",
+          "Go all-out on the first try"
+        ],
+        "trap": [
+          "Explode maximally every rep"
+        ]
+      }
     },
     {
       "question": "What is the most common shrimping error and how do you correct it?",
-      "answer": "Shrimping in a random direction leads away from guard or toward worse positions; instead shrimp with directional intent toward guard recovery, creating a hip angle that lets you insert a knee or frame."
+      "answer": "Shrimping in a random direction leads away from guard or toward worse positions; instead shrimp with directional intent toward guard recovery, creating a hip angle that lets you insert a knee or frame.",
+      "answer_line": "Shrimp with directional intent",
+      "distractors": {
+        "plausible": [
+          "Shrimp away from the top player",
+          "Shrimp toward nearest space"
+        ],
+        "trap": [
+          "Shrimp randomly, adjust after"
+        ]
+      }
     },
     {
       "question": "How does breathing affect bridge and shrimp performance?",
-      "answer": "Holding your breath drains oxygen and saps power across repetitions; exhaling during explosive efforts and inhaling during transitions sustains energy and power output through long escape sequences."
+      "answer": "Holding your breath drains oxygen and saps power across repetitions; exhaling during explosive efforts and inhaling during transitions sustains energy and power output through long escape sequences.",
+      "answer_line": "Exhale on drive, inhale between",
+      "distractors": {
+        "plausible": [
+          "Inhale on bridge, exhale rest",
+          "Breathe rapid and shallow"
+        ],
+        "trap": [
+          "Hold breath through the sequence"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "w_0fqd8aQco",
+      "title": "How to shrimp",
+      "by": "BJJ Fanatics",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 39,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "vHDqBGNTnfY",
+      "title": "Introduction to the defensive BJJ system",
+      "by": "Priit Mihkelson",
+      "vertical": false,
+      "channel": "Defensive BJJ",
+      "duration": 325,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "VSdnYRHtCpc",
+      "title": "Why the power shrimp is essential to escapes",
+      "by": "SBG PDX",
+      "vertical": false,
+      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+      "duration": 247,
+      "verified": "2026-07-15"
     }
   ]
 }

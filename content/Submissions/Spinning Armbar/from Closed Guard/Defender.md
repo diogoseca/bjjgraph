@@ -150,6 +150,43 @@ description: "How to defend against the Spinning Armbar from Closed Guard in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spinning Armbar from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "My Favorite Armbar Escape",
+      "description": "Spinning Armbar from Closed Guard (Defender) film study: My Favorite Armbar Escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Best Armbar Escape When They\u0027re Close to Finishing",
+      "description": "Spinning Armbar from Closed Guard (Defender) film study: Best Armbar Escape When They\u0027re Close to Finishing, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ntIcP_zf4s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_ntIcP_zf4s",
+      "url": "https://www.youtube.com/watch?v=_ntIcP_zf4s",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT245S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ Defensive strategy follows a time-based hierarchy: prevent the initial arm isola
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spinning Armbar from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>My Favorite Armbar Escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_ntIcP_zf4s)
+
+<p class="clip-credit"><strong>Best Armbar Escape When They&#39;re Close to Finishing</strong> — taught by Chewjitsu · 4:05 · <a href="https://www.youtube.com/watch?v=_ntIcP_zf4s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

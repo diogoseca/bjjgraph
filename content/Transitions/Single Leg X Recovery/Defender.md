@@ -148,6 +148,54 @@ description: "How to defend against Single Leg X Recovery in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Five counters to ashi garami leg entanglement",
+      "description": "Single Leg X Recovery (Defender) film study: Five counters to ashi garami leg entanglement, taught by BJJBlackBeltDad.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QMgsMSTRSBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QMgsMSTRSBI",
+      "url": "https://www.youtube.com/watch?v=QMgsMSTRSBI",
+      "creator": { "@type": "Person", "name": "BJJBlackBeltDad" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg defense from ashi garami",
+      "description": "Single Leg X Recovery (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Danaher\u0027s irimi ashi garami counter",
+      "description": "Single Leg X Recovery (Defender) film study: Danaher\u0027s irimi ashi garami counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires proactive control maintenance rather than reactive s
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QMgsMSTRSBI)
+
+<p class="clip-credit"><strong>Five counters to ashi garami leg entanglement</strong> — taught by BJJBlackBeltDad · 1:33 · <a href="https://www.youtube.com/watch?v=QMgsMSTRSBI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Danaher&#39;s irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

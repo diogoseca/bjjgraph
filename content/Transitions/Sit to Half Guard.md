@@ -34,6 +34,43 @@ description: "Learn Sit to Half Guard escape from Buggy Choke. Step-by-step defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sit to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle to Half Guard",
+      "description": "Sit to Half Guard film study: Turtle to Half Guard, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pTLNsCv1aCw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pTLNsCv1aCw",
+      "url": "https://www.youtube.com/watch?v=pTLNsCv1aCw",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT216S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle Guard Sweeps and Reversals",
+      "description": "Sit to Half Guard film study: Turtle Guard Sweeps and Reversals, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jNC34nzjpOg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jNC34nzjpOg",
+      "url": "https://www.youtube.com/watch?v=jNC34nzjpOg",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT249S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This escape operates on the principle that Half Guard, while still a bottom posi
 Strategically, this technique is most valuable when grip prevention has failed and the opponent has begun establishing deep collar access. Rather than continuing a losing grip fight from turtle, the proactive sit creates immediate positional change that forces the top player to abandon their choking mechanics and address the new guard configuration. The timing window is critical—execute too early and you create unnecessary back exposure, too late and the choke is already locked.
 
 **From Position**: [[Positions/Buggy Choke]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 43%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sit to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pTLNsCv1aCw)
+
+<p class="clip-credit"><strong>Turtle to Half Guard</strong> — taught by Bernardo Faria · 3:36 · <a href="https://www.youtube.com/watch?v=pTLNsCv1aCw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jNC34nzjpOg)
+
+<p class="clip-credit"><strong>Turtle Guard Sweeps and Reversals</strong> — taught by Stephan Kesting · 4:09 · <a href="https://www.youtube.com/watch?v=jNC34nzjpOg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

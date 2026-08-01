@@ -34,6 +34,43 @@ description: "Master Technical Mount in BJJ. Advanced mount variation with stepp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount attacks overview",
+      "description": "Technical Mount film study: Technical mount attacks overview, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pa4Aj431Yds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pa4Aj431Yds",
+      "url": "https://www.youtube.com/watch?v=pa4Aj431Yds",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting to technical mount from mount",
+      "description": "Technical Mount film study: Getting to technical mount from mount, taught by Danny Fung.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pNp2-2-r2Ec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pNp2-2-r2Ec",
+      "url": "https://www.youtube.com/watch?v=pNp2-2-r2Ec",
+      "creator": { "@type": "Person", "name": "Danny Fung" },
+      "duration": "PT175S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position's effectiveness stems from the biomechanical advantages created by 
 Technical Mount is most commonly entered from regular mount during armbar attempts, when the opponent extends their arms defensively, or when standard mount attacks are being effectively defended. The position requires less sustained energy than full mount due to weight distribution on the posted leg, but demands precise timing and technique to enter and maintain effectively. Modern competition BJJ has elevated Technical Mount from a specialized technique to an essential component of mount offense, particularly as defensive skills have advanced and traditional mount attacks have become more difficult to execute against high-level opponents.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pa4Aj431Yds)
+
+<p class="clip-credit"><strong>Technical mount attacks overview</strong> — taught by Soma Academy · 1:50 · <a href="https://www.youtube.com/watch?v=pa4Aj431Yds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pNp2-2-r2Ec)
+
+<p class="clip-credit"><strong>Getting to technical mount from mount</strong> — taught by Danny Fung · 2:55 · <a href="https://www.youtube.com/watch?v=pNp2-2-r2Ec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,21 +202,21 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (40% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (18% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (10% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (11% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (10% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (13% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (5% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
-- **[[Transitions/Back Turn from Technical Mount/Attacker|Back Turn from Technical Mount]]** (3% of attempts)
+- **[[Transitions/Back Turn from Technical Mount/Attacker|Back Turn from Technical Mount]]** (8% of attempts)
 
-- **[[Transitions/Escape Technical Mount to Half Guard/Attacker|Escape Technical Mount to Half Guard]]** (15% of attempts)
+- **[[Transitions/Escape Technical Mount to Half Guard/Attacker|Escape Technical Mount to Half Guard]]** (14% of attempts)
 
-- **[[Transitions/Bridge from Technical Mount/Attacker|Bridge from Technical Mount]]** (4% of attempts)
+- **[[Transitions/Bridge from Technical Mount/Attacker|Bridge from Technical Mount]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -208,25 +273,21 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** (42% of attempts)
+- **[[Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** (14% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (19% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (13% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (6% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (11% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (6% of attempts)
+- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (17% of attempts)
 
-- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (4% of attempts)
+- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (11% of attempts)
 
-- **[[Transitions/Technical Mount to Back Control/Attacker|Technical Mount to Back Control]]** (4% of attempts)
+- **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (9% of attempts)
 
-- **[[Transitions/Technical Mount to Mount/Attacker|Technical Mount to Mount]]** (4% of attempts)
-
-- **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (4% of attempts)
-
-- **[[Americana from Technical Mount/Attacker|Americana from Technical Mount]]** (4% of attempts)
+- **[[Americana from Technical Mount/Attacker|Americana from Technical Mount]]** (6% of attempts)
 
 
 ### Common Mistakes

@@ -150,6 +150,54 @@ description: "Learn to defend and escape the Inverted Triangle from Triangle Con
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Triangle from Triangle Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle Posture Up Escape",
+      "description": "Inverted Triangle from Triangle Control (Defender) film study: Triangle Posture Up Escape, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
+      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering a Full Inversion",
+      "description": "Inverted Triangle from Triangle Control (Defender) film study: Countering a Full Inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to Escape a Triangle Choke",
+      "description": "Inverted Triangle from Triangle Control (Defender) film study: How to Escape a Triangle Choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the inverted triangle from triangle control requires recognizing the t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Triangle from Triangle Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
+
+<p class="clip-credit"><strong>Triangle Posture Up Escape</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to Escape a Triangle Choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

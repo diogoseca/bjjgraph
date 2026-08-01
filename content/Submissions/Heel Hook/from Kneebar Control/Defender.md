@@ -144,6 +144,43 @@ description: "Defend the heel hook from kneebar control in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Kneebar Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending Heel Hooks",
+      "description": "Heel Hook from Kneebar Control (Defender) film study: Defending Heel Hooks, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Bar Submission Escape from Guard",
+      "description": "Heel Hook from Kneebar Control (Defender) film study: Knee Bar Submission Escape from Guard, taught by ConwayToe2Toe.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E8oQH0salp4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E8oQH0salp4",
+      "url": "https://www.youtube.com/watch?v=E8oQH0salp4",
+      "creator": { "@type": "Person", "name": "ConwayToe2Toe" },
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the heel hook from kneebar control requires awareness that your kneeba
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Kneebar Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending Heel Hooks</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E8oQH0salp4)
+
+<p class="clip-credit"><strong>Knee Bar Submission Escape from Guard</strong> — taught by ConwayToe2Toe · 1:36 · <a href="https://www.youtube.com/watch?v=E8oQH0salp4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

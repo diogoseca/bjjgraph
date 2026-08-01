@@ -15,22 +15,34 @@
   "from_position": "Carni/Bottom",
   "outcomes": [
     {
-      "to": "Kneebar",
-      "probability": 65,
+      "to": "Kneebar from Carni",
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Carni/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "conditions": [
     "Established Carni position with inside leg control over opponent's hip",
     "Opponent has extended their trapped leg past approximately 150 degrees",
@@ -225,46 +237,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Kneebar Finish from Carni?",
-        "answer": "The primary goal is to hyperextend the opponent's knee joint by creating a fulcrum with your hip crease against their knee while controlling their ankle and preventing leg bend. This attacks the hyperextension plane of the knee, causing damage to the posterior ligament structures if the opponent does not tap."
+        "answer": "The primary goal is to hyperextend the opponent's knee joint by creating a fulcrum with your hip crease against their knee while controlling their ankle and preventing leg bend. This attacks the hyperextension plane of the knee, causing damage to the posterior ligament structures if the opponent does not tap.",
+        "answer_line": "Hyperextend knee via hip fulcrum",
+        "distractors": {
+          "plausible": [
+            "Compress calf against shin",
+            "Rotate ankle to attack ligament"
+          ],
+          "trap": [
+            "Release the ankle to sit up"
+          ]
+        }
       },
       {
         "question": "What triggers the transition from heel hook threat to kneebar attempt?",
-        "answer": "The trigger is when the opponent extends their trapped leg, typically either defensively trying to create distance from your heel hook threat, or actively attempting to extract their leg from the Carni entanglement. The leg must be relatively straight (greater than 150 degrees) for the kneebar to be effective."
+        "answer": "The trigger is when the opponent extends their trapped leg, typically either defensively trying to create distance from your heel hook threat, or actively attempting to extract their leg from the Carni entanglement. The leg must be relatively straight (greater than 150 degrees) for the kneebar to be effective.",
+        "answer_line": "Opponent extends the trapped leg",
+        "distractors": {
+          "plausible": [
+            "Opponent bends the knee sharply",
+            "Opponent grips your collar"
+          ],
+          "trap": [
+            "Release ankle to switch grips"
+          ]
+        }
       },
       {
         "question": "Where exactly should you position the opponent's knee joint for maximum finish leverage?",
-        "answer": "Position their knee joint directly across your hip crease - the natural fold where your thigh meets your torso. This creates the ideal fulcrum point for hyperextension. Too high reduces leverage, too low allows them to bend and escape. The hip crease provides a hard bone structure to drive their knee against."
+        "answer": "Position their knee joint directly across your hip crease - the natural fold where your thigh meets your torso. This creates the ideal fulcrum point for hyperextension. Too high reduces leverage, too low allows them to bend and escape. The hip crease provides a hard bone structure to drive their knee against.",
+        "answer_line": "Across your hip crease",
+        "distractors": {
+          "plausible": [
+            "High on your chest",
+            "Low near your knee"
+          ],
+          "trap": [
+            "Against your shin bone"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bending their knee as you apply pressure - how do you adjust?",
-        "answer": "Immediately pinch your knees tighter together around their thigh just above their knee to prevent further bend. Simultaneously pull their ankle harder toward your chest to maintain extension. If they successfully bend past the point of no return, abandon the kneebar and transition back to heel hook threat or calf slicer."
+        "answer": "Immediately pinch your knees tighter together around their thigh just above their knee to prevent further bend. Simultaneously pull their ankle harder toward your chest to maintain extension. If they successfully bend past the point of no return, abandon the kneebar and transition back to heel hook threat or calf slicer.",
+        "answer_line": "Pinch knees, pull ankle to chest",
+        "distractors": {
+          "plausible": [
+            "Push their knee down harder",
+            "Switch immediately to armbar"
+          ],
+          "trap": [
+            "Release ankle, grab their heel"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use on the opponent's leg during the kneebar finish?",
-        "answer": "Both hands control the ankle, pulling it firmly toward your chest to maintain complete leg extension with zero slack. Your knees pinch together around their thigh above the knee to prevent rotation and bending. Your hip crease serves as the fulcrum point. The finish comes from hip extension, not arm pulling."
+        "answer": "Both hands control the ankle, pulling it firmly toward your chest to maintain complete leg extension with zero slack. Your knees pinch together around their thigh above the knee to prevent rotation and bending. Your hip crease serves as the fulcrum point. The finish comes from hip extension, not arm pulling.",
+        "answer_line": "Both hands ankle, knees pinch thigh",
+        "distractors": {
+          "plausible": [
+            "One hand ankle, one on collar",
+            "Grip behind their knee joint"
+          ],
+          "trap": [
+            "Grab their toes and twist"
+          ]
+        }
       },
       {
         "question": "Your opponent rolls toward you during the kneebar attempt - what is your response?",
-        "answer": "Follow their roll while maintaining leg control and transition to the belly-down kneebar variant. As they roll, rotate with them so you end up on top of their leg. Apply downward hip pressure against their knee from the new position. This often results in even tighter control than the original position."
+        "answer": "Follow their roll while maintaining leg control and transition to the belly-down kneebar variant. As they roll, rotate with them so you end up on top of their leg. Apply downward hip pressure against their knee from the new position. This often results in even tighter control than the original position.",
+        "answer_line": "Follow roll, belly-down kneebar",
+        "distractors": {
+          "plausible": [
+            "Release leg, follow to their back",
+            "Stay flat and resist the roll"
+          ],
+          "trap": [
+            "Let go and reset to heel hook"
+          ]
+        }
       },
       {
         "question": "Why is gradual pressure application critical for kneebar safety?",
-        "answer": "The kneebar attacks ligament structures that can tear suddenly without the gradual pain warning that joint locks like armbars provide. The posterior cruciate ligament and joint capsule can be severely damaged before the opponent feels enough discomfort to tap. Always apply pressure progressively with momentary pauses to allow tap."
+        "answer": "The kneebar attacks ligament structures that can tear suddenly without the gradual pain warning that joint locks like armbars provide. The posterior cruciate ligament and joint capsule can be severely damaged before the opponent feels enough discomfort to tap. Always apply pressure progressively with momentary pauses to allow tap.",
+        "answer_line": "Ligaments tear before pain warns",
+        "distractors": {
+          "plausible": [
+            "Pauses let you reset your grips",
+            "Slow pressure builds more torque"
+          ],
+          "trap": [
+            "Crank fast to beat their defense"
+          ]
+        }
       },
       {
         "question": "If the kneebar is well-defended, what are your best chain attack options from Carni?",
-        "answer": "When the kneebar is defended through knee bending, immediately transition to either the calf slicer by threading your leg through, or return to the heel hook threat by re-establishing heel control. The opponent's defensive movement of bending their knee actually facilitates heel hook positioning. This creates the constant dilemma that makes Carni effective."
+        "answer": "When the kneebar is defended through knee bending, immediately transition to either the calf slicer by threading your leg through, or return to the heel hook threat by re-establishing heel control. The opponent's defensive movement of bending their knee actually facilitates heel hook positioning. This creates the constant dilemma that makes Carni effective.",
+        "answer_line": "Calf slicer or heel hook re-entry",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to armbar",
+            "Pass to mount position"
+          ],
+          "trap": [
+            "Abandon leg, go for guillotine"
+          ]
+        }
       },
       {
         "question": "How does the kneebar finish create a dilemma system with the heel hook from Carni?",
-        "answer": "The heel hook requires the opponent to keep their knee bent to protect the heel, while the kneebar requires them to keep it extended to prevent hyperextension. Any defensive movement toward one threat opens vulnerability to the other. This is why opponents in Carni face an impossible defensive choice - there is no neutral safe position."
+        "answer": "The heel hook requires the opponent to keep their knee bent to protect the heel, while the kneebar requires them to keep it extended to prevent hyperextension. Any defensive movement toward one threat opens vulnerability to the other. This is why opponents in Carni face an impossible defensive choice - there is no neutral safe position.",
+        "answer_line": "Bent knee vs straight knee conflict",
+        "distractors": {
+          "plausible": [
+            "Both attacks need same grip",
+            "Defender must pick which arm"
+          ],
+          "trap": [
+            "Opponent can safely stay neutral"
+          ]
+        }
       },
       {
         "question": "What body position should you maintain during hip extension for the finish?",
-        "answer": "Keep your chest facing their leg with shoulders square to their ankle. Your core should be engaged to transmit hip power into the finish. Avoid twisting or rotating which dissipates pressure. The extension comes from driving your hips forward while your upper body remains stable and your hands anchor the ankle to your chest."
+        "answer": "Keep your chest facing their leg with shoulders square to their ankle. Your core should be engaged to transmit hip power into the finish. Avoid twisting or rotating which dissipates pressure. The extension comes from driving your hips forward while your upper body remains stable and your hands anchor the ankle to your chest.",
+        "answer_line": "Chest square, hips drive forward",
+        "distractors": {
+          "plausible": [
+            "Twist torso for extra torque",
+            "Lean back and pull with arms"
+          ],
+          "trap": [
+            "Rotate shoulders away from leg"
+          ]
+        }
       }
     ],
-    "safety_considerations": "WARNING: The kneebar is an extremely dangerous submission that can cause severe knee ligament damage with very little warning. Unlike joint locks where pain precedes injury, the kneebar can damage the posterior cruciate ligament, joint capsule, and surrounding structures before the opponent recognizes the danger. Always apply pressure gradually and progressively, pausing to allow your training partner time to tap. Never explosively extend into a kneebar. When drilling, communicate clearly with your partner about pressure levels. Stop immediately at any tap signal. Avoid this technique entirely on training partners with previous knee injuries. In competition, be aware of ruleset restrictions on kneebars and leg locks. Tap early when caught in a kneebar - ego injuries heal faster than reconstructed knees."
+    "safety_considerations": "WARNING: The kneebar is an extremely dangerous submission that can cause severe knee ligament damage with very little warning. Unlike joint locks where pain precedes injury, the kneebar can damage the posterior cruciate ligament, joint capsule, and surrounding structures before the opponent recognizes the danger. Always apply pressure gradually and progressively, pausing to allow your training partner time to tap. Never explosively extend into a kneebar. When drilling, communicate clearly with your partner about pressure levels. Stop immediately at any tap signal. Avoid this technique entirely on training partners with previous knee injuries. In competition, be aware of ruleset restrictions on kneebars and leg locks. Tap early when caught in a kneebar - ego injuries heal faster than reconstructed knees.",
+    "clips": [
+      {
+        "id": "12rNXPlqVXo",
+        "title": "No-Gi Kneebar Finish Mechanics",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4dnPuMo_-W8",
+        "title": "Knee Bar Finish",
+        "by": "Ken Shamrock",
+        "vertical": false,
+        "channel": "Gracie Jiu Jitsu Goldsboro",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v4lhLkKgVvU",
+        "title": "Go Behind Kneebar",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar Finish Defender",
@@ -353,23 +494,73 @@
     "flashcards": [
       {
         "question": "What is the single most important thing to avoid doing when trapped in Carni to prevent the kneebar?",
-        "answer": "Never fully extend your trapped leg while in Carni. Leg extension is the primary trigger that enables the attacker to transition from heel hook control to kneebar mechanics. Maintain a slight bend in your knee at all times, using hip movement and upper body positioning to create distance rather than straightening your leg. The attacker is specifically waiting for this extension to switch attacks."
+        "answer": "Never fully extend your trapped leg while in Carni. Leg extension is the primary trigger that enables the attacker to transition from heel hook control to kneebar mechanics. Maintain a slight bend in your knee at all times, using hip movement and upper body positioning to create distance rather than straightening your leg. The attacker is specifically waiting for this extension to switch attacks.",
+        "answer_line": "Never fully extend trapped leg",
+        "distractors": {
+          "plausible": [
+            "Never grip their collar",
+            "Never look away from opponent"
+          ],
+          "trap": [
+            "Straighten leg to create distance"
+          ]
+        }
       },
       {
         "question": "You feel the attacker's hands shift from your heel to your ankle - what is your immediate response?",
-        "answer": "Immediately contract your hamstring with maximum force to bend your knee and close the hyperextension angle. This grip transition from heel to ankle is the primary recognition cue that the kneebar attempt is beginning. You have approximately one to two seconds before the attacker establishes hip positioning and knee pinch that will make bending extremely difficult. Speed of response is critical because the window to defend shrinks rapidly."
+        "answer": "Immediately contract your hamstring with maximum force to bend your knee and close the hyperextension angle. This grip transition from heel to ankle is the primary recognition cue that the kneebar attempt is beginning. You have approximately one to two seconds before the attacker establishes hip positioning and knee pinch that will make bending extremely difficult. Speed of response is critical because the window to defend shrinks rapidly.",
+        "answer_line": "Contract hamstring, bend knee fast",
+        "distractors": {
+          "plausible": [
+            "Push off with your free leg",
+            "Grab their wrist and pull"
+          ],
+          "trap": [
+            "Extend leg to create space"
+          ]
+        }
       },
       {
         "question": "Why should you roll toward the attacker rather than away when defending the kneebar?",
-        "answer": "Rolling toward the attacker collapses the distance between your bodies and disrupts the precise hip alignment they need across your knee joint. Rolling away actually presents your leg at a better finishing angle and allows the attacker to follow into a belly-down kneebar where gravity assists their hip extension. By rolling inward, you compress the space they need for the fulcrum and create an opportunity to recover your knee bend."
+        "answer": "Rolling toward the attacker collapses the distance between your bodies and disrupts the precise hip alignment they need across your knee joint. Rolling away actually presents your leg at a better finishing angle and allows the attacker to follow into a belly-down kneebar where gravity assists their hip extension. By rolling inward, you compress the space they need for the fulcrum and create an opportunity to recover your knee bend.",
+        "answer_line": "Collapses their hip alignment",
+        "distractors": {
+          "plausible": [
+            "Rolling away tires the attacker",
+            "Rolling toward frees your leg"
+          ],
+          "trap": [
+            "Roll away to escape faster"
+          ]
+        }
       },
       {
         "question": "At what point should you tap to a kneebar rather than continuing to fight the defense?",
-        "answer": "Tap immediately when you feel hyperextension pressure on your knee and you cannot bend your leg despite maximum hamstring effort. Unlike chokes where you have a gradual window, the kneebar can damage the posterior cruciate ligament and joint capsule with sudden structural failure before you feel adequate warning pain. If their hips are extending, your knee is straight, and your leg is locked in their pinch, the submission is complete and fighting it risks catastrophic injury."
+        "answer": "Tap immediately when you feel hyperextension pressure on your knee and you cannot bend your leg despite maximum hamstring effort. Unlike chokes where you have a gradual window, the kneebar can damage the posterior cruciate ligament and joint capsule with sudden structural failure before you feel adequate warning pain. If their hips are extending, your knee is straight, and your leg is locked in their pinch, the submission is complete and fighting it risks catastrophic injury.",
+        "answer_line": "Hyperextension, knee can't bend",
+        "distractors": {
+          "plausible": [
+            "When your leg is forced straight",
+            "The moment they trap your foot"
+          ],
+          "trap": [
+            "Wait for a clear pain warning"
+          ]
+        }
       },
       {
         "question": "How can you use the kneebar defense as an opportunity to escape Carni entirely?",
-        "answer": "When you successfully bend your knee to defeat the kneebar, use that defensive momentum to continue extracting your leg from the entanglement entirely. Push their hips away with your free leg while hip escaping backward. The attacker is momentarily committed to the failed kneebar position and must reset their grips, giving you a window to recover to half guard. Converting defensive success into positional improvement prevents the attacker from simply cycling back to the heel hook."
+        "answer": "When you successfully bend your knee to defeat the kneebar, use that defensive momentum to continue extracting your leg from the entanglement entirely. Push their hips away with your free leg while hip escaping backward. The attacker is momentarily committed to the failed kneebar position and must reset their grips, giving you a window to recover to half guard. Converting defensive success into positional improvement prevents the attacker from simply cycling back to the heel hook.",
+        "answer_line": "Push hips away, hip escape",
+        "distractors": {
+          "plausible": [
+            "Immediately attempt a takedown",
+            "Stand up and fully disengage"
+          ],
+          "trap": [
+            "Let go and shoot for guillotine"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -392,6 +583,26 @@
         "phase": "Week 7+",
         "focus": "Live defense with full attack chains",
         "description": "Full positional sparring from Carni where attacker has all submission options. Practice defending kneebar within the context of the complete Carni attack system including heel hooks, calf slicers, and saddle transitions. Develop real-time decision-making under pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kUuJ03CcIUQ",
+        "title": "Kneebar Defense vs Garry Tonon",
+        "by": "AJ Agazarm",
+        "vertical": false,
+        "channel": "FloGrappling",
+        "duration": 23,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NuWBh3LN-SY",
+        "title": "Knee Bar Defense to Back Take",
+        "by": "Bicudo BJJ",
+        "vertical": false,
+        "channel": "Bicudo BJJ",
+        "duration": 22,
+        "verified": "2026-07-15"
       }
     ]
   }

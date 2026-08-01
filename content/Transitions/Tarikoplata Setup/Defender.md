@@ -148,6 +148,54 @@ description: "How to defend against Tarikoplata Setup in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tarikoplata Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tarikoplata mechanics and how it traps the arm",
+      "description": "Tarikoplata Setup (Defender) film study: Tarikoplata mechanics and how it traps the arm, taught by Miha Perhavec.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jpNqecvfuFg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jpNqecvfuFg",
+      "url": "https://www.youtube.com/watch?v=jpNqecvfuFg",
+      "creator": { "@type": "Person", "name": "Miha Perhavec" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Best way to escape the omoplata shoulder lock",
+      "description": "Tarikoplata Setup (Defender) film study: Best way to escape the omoplata shoulder lock, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Baratoplata shoulder lock defense",
+      "description": "Tarikoplata Setup (Defender) film study: Baratoplata shoulder lock defense, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rx4XoCFWeq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rx4XoCFWeq8",
+      "url": "https://www.youtube.com/watch?v=rx4XoCFWeq8",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense demands choosing a direction of movement rather than remainin
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tarikoplata Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jpNqecvfuFg)
+
+<p class="clip-credit"><strong>Tarikoplata mechanics and how it traps the arm</strong> — taught by Miha Perhavec · 1:03 · <a href="https://www.youtube.com/watch?v=jpNqecvfuFg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>Best way to escape the omoplata shoulder lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rx4XoCFWeq8)
+
+<p class="clip-credit"><strong>Baratoplata shoulder lock defense</strong> — taught by Animal · 1:15 · <a href="https://www.youtube.com/watch?v=rx4XoCFWeq8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

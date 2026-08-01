@@ -34,6 +34,54 @@ description: "Learn Triangle Clear to Side escape in BJJ. Step-by-step body tria
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Clear to Side \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the topside body triangle",
+      "description": "Triangle Clear to Side film study: Escaping the topside body triangle, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ys398a2Trrw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ys398a2Trrw",
+      "url": "https://www.youtube.com/watch?v=ys398a2Trrw",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Concepts on escaping the body triangle",
+      "description": "Triangle Clear to Side film study: Concepts on escaping the body triangle, taught by Alavanca.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gMuZi4hwUwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gMuZi4hwUwo",
+      "url": "https://www.youtube.com/watch?v=gMuZi4hwUwo",
+      "creator": { "@type": "Person", "name": "Alavanca" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the body triangle",
+      "description": "Triangle Clear to Side film study: Escaping the body triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgaULMND3ag/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hgaULMND3ag",
+      "url": "https://www.youtube.com/watch?v=hgaULMND3ag",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this escape pairs with neck defense as a dual-priority system. Yo
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Clear to Side in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ys398a2Trrw)
+
+<p class="clip-credit"><strong>Escaping the topside body triangle</strong> — taught by Fox Den Martial Arts · 0:48 · <a href="https://www.youtube.com/watch?v=ys398a2Trrw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gMuZi4hwUwo)
+
+<p class="clip-credit"><strong>Concepts on escaping the body triangle</strong> — taught by Alavanca · 1:58 · <a href="https://www.youtube.com/watch?v=gMuZi4hwUwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hgaULMND3ag)
+
+<p class="clip-credit"><strong>Escaping the body triangle</strong> — taught by Coach Brian · 2:09 · <a href="https://www.youtube.com/watch?v=hgaULMND3ag" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

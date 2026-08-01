@@ -144,6 +144,43 @@ description: "Defend the Ezekiel Choke from side control bottom. Recognize cross
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ezekiel Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two-Hand Choke Defense with Hip Throw",
+      "description": "Ezekiel Choke from Side Control (Defender) film study: Two-Hand Choke Defense with Hip Throw, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9QA0L4aOOKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9QA0L4aOOKk",
+      "url": "https://www.youtube.com/watch?v=9QA0L4aOOKk",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping side control as opponent switches base",
+      "description": "Ezekiel Choke from Side Control (Defender) film study: Escaping side control as opponent switches base, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uzDPYRi92D0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uzDPYRi92D0",
+      "url": "https://www.youtube.com/watch?v=uzDPYRi92D0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the Ezekiel Choke from side control bottom requires recognizing that t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ezekiel Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9QA0L4aOOKk)
+
+<p class="clip-credit"><strong>Two-Hand Choke Defense with Hip Throw</strong> — taught by Gracie Charlottesville · 0:23 · <a href="https://www.youtube.com/watch?v=9QA0L4aOOKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uzDPYRi92D0)
+
+<p class="clip-credit"><strong>Escaping side control as opponent switches base</strong> — taught by Jean Jacques Machado · 2:16 · <a href="https://www.youtube.com/watch?v=uzDPYRi92D0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,26 +21,20 @@ description: "Escape the Standing Rear Clinch in BJJ. Defensive guide to survivi
     {
       "@type": "HowToStep",
       "name": "Execute Defense from Standing Rear Clinch",
-      "text": "From this position, attempt Defense from Standing Rear Clinch. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Defense from Standing Rear Clinch. This technique is attempted in 53% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Switch from Rear Clinch",
-      "text": "From this position, attempt Standing Switch from Rear Clinch. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Standing Switch from Rear Clinch. This technique is attempted in 34% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Snap Down to Front Headlock",
-      "text": "From this position, attempt Snap Down to Front Headlock. This technique is attempted in 25% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Counter Throw from Standing Rear Clinch",
-      "text": "From this position, attempt Counter Throw from Standing Rear Clinch. This technique is attempted in 20% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Counter Throw from Standing Rear Clinch. This technique is attempted in 13% of exchanges from this position.",
+      "position": 3
     }
   ],
   "totalTime": "PT2M"
@@ -141,6 +135,54 @@ description: "Escape the Standing Rear Clinch in BJJ. Defensive guide to survivi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Rear Clinch (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Up Escape 5",
+      "description": "Standing Rear Clinch (Bottom) film study: Standing Up Escape 5, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Break a Body Lock",
+      "description": "Standing Rear Clinch (Bottom) film study: How to Break a Body Lock, taught by Nick Diaz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lGGo0H8ems4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lGGo0H8ems4",
+      "url": "https://www.youtube.com/watch?v=lGGo0H8ems4",
+      "creator": { "@type": "Person", "name": "Nick Diaz" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear Body Lock Counters: Granby \u0026 Kneebar",
+      "description": "Standing Rear Clinch (Bottom) film study: Rear Body Lock Counters: Granby \u0026 Kneebar, taught by GFAMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aW0nNv2UWh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aW0nNv2UWh0",
+      "url": "https://www.youtube.com/watch?v=aW0nNv2UWh0",
+      "creator": { "@type": "Person", "name": "GFAMMA" },
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +194,42 @@ The defensive priority sequence is strict and non-negotiable: protect the neck f
 Time is the defining constraint. Every second the opponent spends consolidating—settling their weight, offsetting their hips, deepening a seatbelt—shrinks your odds dramatically, which is why elite defense is proactive hand-fighting and immediate level change rather than waiting to feel what the attacker does. For the serious no-gi and MMA competitor this is a must-own skill set, since standing back exposure happens constantly off failed shots, scrambles, and guard-pull attempts; the ability to reliably escape here is what prevents a momentary lapse from becoming a match-ending sequence through the rear naked choke or a completed back take.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Rear Clinch (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing Up Escape 5</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lGGo0H8ems4)
+
+<p class="clip-credit"><strong>How to Break a Body Lock</strong> — taught by Nick Diaz · 1:02 · <a href="https://www.youtube.com/watch?v=lGGo0H8ems4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aW0nNv2UWh0)
+
+<p class="clip-credit"><strong>Rear Body Lock Counters: Granby &amp; Kneebar</strong> — taught by GFAMMA · 2:50 · <a href="https://www.youtube.com/watch?v=aW0nNv2UWh0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

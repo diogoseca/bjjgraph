@@ -174,6 +174,43 @@ description: "Master the attacking mechanics of underhook pummeling from the dis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Pummeling from Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pummel to underhook in the clinch",
+      "description": "Underhook Pummeling from Clinch (Attacker) film study: Pummel to underhook in the clinch, taught by Matt Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S4Ghvm7FZeI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S4Ghvm7FZeI",
+      "url": "https://www.youtube.com/watch?v=S4Ghvm7FZeI",
+      "creator": { "@type": "Person", "name": "Matt Brown" },
+      "duration": "PT223S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pummel to side clinch drill",
+      "description": "Underhook Pummeling from Clinch (Attacker) film study: Pummel to side clinch drill, taught by Fargo BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SKj1Lc16y6I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SKj1Lc16y6I",
+      "url": "https://www.youtube.com/watch?v=SKj1Lc16y6I",
+      "creator": { "@type": "Person", "name": "Fargo BJJ coach" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing underhook pummeling from the disadvantaged clinch requires a systemati
 **From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Pummeling from Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S4Ghvm7FZeI)
+
+<p class="clip-credit"><strong>Pummel to underhook in the clinch</strong> — taught by Matt Brown · 3:43 · <a href="https://www.youtube.com/watch?v=S4Ghvm7FZeI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SKj1Lc16y6I)
+
+<p class="clip-credit"><strong>Pummel to side clinch drill</strong> — taught by Fargo BJJ coach · 0:50 · <a href="https://www.youtube.com/watch?v=SKj1Lc16y6I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

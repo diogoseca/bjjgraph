@@ -170,6 +170,54 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke from Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear triangle from the back",
+      "description": "Rear Triangle Choke from Back Control (Attacker) film study: Rear triangle from the back, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l5ayCZh3W78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/l5ayCZh3W78",
+      "url": "https://www.youtube.com/watch?v=l5ayCZh3W78",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ushiro sankaku rear triangle from seated back",
+      "description": "Rear Triangle Choke from Back Control (Attacker) film study: Ushiro sankaku rear triangle from seated back, taught by Chris Reymann.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LQUICOJ82xk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LQUICOJ82xk",
+      "url": "https://www.youtube.com/watch?v=LQUICOJ82xk",
+      "creator": { "@type": "Person", "name": "Chris Reymann" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear triangle setup from back control",
+      "description": "Rear Triangle Choke from Back Control (Attacker) film study: Rear triangle setup from back control, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4h-lxaNIqzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4h-lxaNIqzw",
+      "url": "https://www.youtube.com/watch?v=4h-lxaNIqzw",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -184,6 +232,42 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke from Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=l5ayCZh3W78)
+
+<p class="clip-credit"><strong>Rear triangle from the back</strong> — taught by Gracie Charlottesville · 0:32 · <a href="https://www.youtube.com/watch?v=l5ayCZh3W78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LQUICOJ82xk)
+
+<p class="clip-credit"><strong>Ushiro sankaku rear triangle from seated back</strong> — taught by Chris Reymann · 0:40 · <a href="https://www.youtube.com/watch?v=LQUICOJ82xk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4h-lxaNIqzw)
+
+<p class="clip-credit"><strong>Rear triangle setup from back control</strong> — taught by Hellfish MMA · 3:09 · <a href="https://www.youtube.com/watch?v=4h-lxaNIqzw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

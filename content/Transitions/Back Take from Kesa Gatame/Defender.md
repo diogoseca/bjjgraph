@@ -140,6 +140,54 @@ description: "Defend against the Back Take from Kesa Gatame. Guide for top playe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the back take from a top pin",
+      "description": "Back Take from Kesa Gatame (Defender) film study: Preventing the back take from a top pin, taught by Fargo BJJ Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xzqs0S2n3BI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xzqs0S2n3BI",
+      "url": "https://www.youtube.com/watch?v=xzqs0S2n3BI",
+      "creator": { "@type": "Person", "name": "Fargo BJJ Academy" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame troubleshoot: stop the back take",
+      "description": "Back Take from Kesa Gatame (Defender) film study: Kesa gatame troubleshoot: stop the back take, taught by Roy Marsh.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kmDlIvorWRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kmDlIvorWRc",
+      "url": "https://www.youtube.com/watch?v=kmDlIvorWRc",
+      "creator": { "@type": "Person", "name": "Roy Marsh" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Number one escape from kesa gatame",
+      "description": "Back Take from Kesa Gatame (Defender) film study: Number one escape from kesa gatame, taught by Chad Hardy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aSF633klG8k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aSF633klG8k",
+      "url": "https://www.youtube.com/watch?v=aSF633klG8k",
+      "creator": { "@type": "Person", "name": "Chad Hardy" },
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the top player in Kesa Gatame, defending against the back take is a fundament
 **Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xzqs0S2n3BI)
+
+<p class="clip-credit"><strong>Preventing the back take from a top pin</strong> — taught by Fargo BJJ Academy · 2:13 · <a href="https://www.youtube.com/watch?v=xzqs0S2n3BI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kmDlIvorWRc)
+
+<p class="clip-credit"><strong>Kesa gatame troubleshoot: stop the back take</strong> — taught by Roy Marsh · 1:49 · <a href="https://www.youtube.com/watch?v=kmDlIvorWRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aSF633klG8k)
+
+<p class="clip-credit"><strong>Number one escape from kesa gatame</strong> — taught by Chad Hardy · 2:07 · <a href="https://www.youtube.com/watch?v=aSF633klG8k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

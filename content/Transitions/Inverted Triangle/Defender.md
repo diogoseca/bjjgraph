@@ -148,6 +148,43 @@ description: "How to defend against the Inverted Triangle in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle defense and escape",
+      "description": "Inverted Triangle (Defender) film study: Triangle defense and escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping a fully locked triangle",
+      "description": "Inverted Triangle (Defender) film study: Escaping a fully locked triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q2ttnL90Js8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q2ttnL90Js8",
+      "url": "https://www.youtube.com/watch?v=q2ttnL90Js8",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -156,9 +193,37 @@ Defending the Inverted Triangle requires understanding that this attack exploits
 
 The defensive hierarchy mirrors standard triangle defense principles but with critical adjustments for the reversed angle. First priority is preventing the rotation from completing by recovering posture and creating distance during the transition. Second priority is extracting your trapped arm before the new configuration locks in. Third priority, if caught in the completed inverted triangle, is addressing the choking angle by squaring your hips and working systematic escape sequences. The inverted angle creates unique challenges because many practitioners have never drilled specific defenses against it, making recognition and early intervention even more important than technical escape ability.
 
-**Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
+
+<p class="clip-credit"><strong>Triangle defense and escape</strong> — taught by Daniel Frank · 0:24 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q2ttnL90Js8)
+
+<p class="clip-credit"><strong>Escaping a fully locked triangle</strong> — taught by Coach Brian · 3:27 · <a href="https://www.youtube.com/watch?v=q2ttnL90Js8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

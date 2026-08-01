@@ -20,7 +20,10 @@
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "While the inside heel hook remains the primary threat from Honey Hole, the outside variation serves as a critical chain attack that capitalizes on the dominant inside leg entanglement to attack the knee's lateral structures. It becomes available when opponents defend the standard inside rotation by hiding their heel or rotating their knee inward to close the inside angle.\n\nExecuting the outside heel hook from this position requires a deliberate grip transition from the inside heel hook configuration. The attacker repositions their forearm across the outside of the opponent's foot, cupping the heel from the lateral side, then drives rotational force that turns the heel laterally away from the opponent's centerline while the knee remains pinned by the leg triangle. This attacks different ligament structures than the inside variant, primarily targeting the LCL and posterolateral corner of the knee.\n\nThe strategic value of this technique lies in its complementary relationship with the inside heel hook, creating a dual-threat rotational attack system. Opponents who commit heavily to inside heel hook defense expose themselves to the outside grip, and the grip transition itself generates confusion about the direction of attack. Practitioners who develop proficiency with both rotational directions from Honey Hole achieve significantly higher finishing rates by eliminating the predictability of single-direction attacks.",
   "safety_considerations": {
     "injury_risks": [
@@ -140,17 +143,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],
@@ -306,52 +318,181 @@
       {
         "question": "What anatomical structures does the outside heel hook from Honey Hole primarily attack?",
         "answer": "The outside heel hook primarily attacks the lateral collateral ligament and posterolateral corner of the knee by driving rotational force that turns the heel laterally away from the opponent's centerline. Secondary stress is placed on the ACL and meniscus through the combined rotational and extension forces created by the leg triangle maintaining knee position while the heel is rotated in the lateral direction.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "LCL and posterolateral corner",
+        "distractors": {
+          "plausible": [
+            "MCL and medial meniscus",
+            "Hamstring insertion at the knee"
+          ],
+          "trap": [
+            "Ankle only, safe to ride it out"
+          ]
+        }
       },
       {
         "question": "What physical indicators tell you the outside heel hook is reaching the breaking point?",
         "answer": "You will feel progressive tightening as slack is eliminated, followed by resistance increasing sharply as the ligaments reach their tension limit. The opponent's body may involuntarily tense or twist. Any verbal distress, sharp intake of breath, frantic tapping, or sudden body rigidity means you must immediately release all rotational pressure without any delay. The LCL can fail with minimal warning compared to other ligaments.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Progressive tightening, slack gone",
+        "distractors": {
+          "plausible": [
+            "Sudden body twist comes first",
+            "Grip suddenly feels loose"
+          ],
+          "trap": [
+            "Wait for the knee to give out"
+          ]
+        }
       },
       {
         "question": "What control must be maintained before transitioning from inside to outside heel hook grip?",
         "answer": "The inside leg triangle must remain secure around the opponent's thigh with constant squeezing pressure. Your outside leg must continue driving across their hip to prevent rotation. Hip pressure must stay tight against their trapped leg throughout the grip change. Releasing any of these control points during the transition creates an escape window that skilled opponents will immediately exploit to extract their leg or counter-entangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep leg triangle and hip pressure",
+        "distractors": {
+          "plausible": [
+            "Maintain grip, ease hip pressure",
+            "Keep hips tight, loosen triangle"
+          ],
+          "trap": [
+            "Release triangle to free hands"
+          ]
+        }
       },
       {
         "question": "At what point during the outside heel hook application is escape no longer viable for the defender?",
         "answer": "Once the heel cup is fully secured with figure-four grip locked and the attacker's elbows are pinched to their chest, escape becomes extremely difficult. When rotational pressure begins with the attacker's torso engaged, the submission is effectively locked. The defender's only remaining safe option at this stage is to tap immediately before the rotational force causes ligament damage to the lateral knee structures.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Figure-four locked, rotation begun",
+        "distractors": {
+          "plausible": [
+            "Heel cup secured, before lock",
+            "Torso engaged, grip still loose"
+          ],
+          "trap": [
+            "Wait, escape still possible"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that allows opponents to escape the outside heel hook?",
         "answer": "The most common finishing error is using only arm strength to apply rotation instead of engaging the entire torso. Arms alone cannot generate sufficient torque against a resisting opponent and fatigue rapidly. The correct technique uses core rotation with elbows pinched to the chest, letting the turning of the shoulders and trunk generate breaking force while the arms maintain the grip configuration and transfer that torque to the heel.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arms only, no torso rotation",
+        "distractors": {
+          "plausible": [
+            "Grip too deep under the heel",
+            "Hips too close to their thigh"
+          ],
+          "trap": [
+            "Rip it fast and explosively"
+          ]
+        }
       },
       {
         "question": "How do you adjust your grip if the opponent begins straightening their leg during the outside heel hook?",
         "answer": "Drive your hips forward into the back of their knee to prevent full extension while tightening your leg triangle to maintain the bend. If the leg extends, reposition your grip deeper by sliding your cupping hand further under the heel bone and increasing the clamp of your figure-four. You can also use your outside leg to hook behind their knee and re-bend it into the optimal finishing angle for rotational pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip pressure, re-bend with hook",
+        "distractors": {
+          "plausible": [
+            "Loosen triangle to reposition",
+            "Pull straight back harder"
+          ],
+          "trap": [
+            "Let leg extend, then re-attack"
+          ]
+        }
       },
       {
         "question": "What safety protocols must you follow when applying the outside heel hook during training?",
         "answer": "Apply rotation at minimum 5-7 seconds progressive pressure, never with sudden force. Monitor continuously for tap signals including verbal tap, physical tap on body or mat, foot tap, vocal distress, or panicked movement. Release immediately upon any indication of discomfort. Never apply at competition speed in training. Only train with partners who understand leg lock mechanics and have established clear communication protocols beforehand.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure, watch for taps",
+        "distractors": {
+          "plausible": [
+            "Check only for a hand tap",
+            "Trust partner to pull leg free"
+          ],
+          "trap": [
+            "Apply at full competition speed"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their hips away during your grip transition - what adjustment prevents their escape?",
         "answer": "Immediately drive your outside leg deeper across their hip and follow their rotation by shifting your hips in the same direction. Tighten the leg triangle by pulling your inside ankle deeper behind their thigh. The key is maintaining perpendicular alignment relative to their body even as they move. If they create significant space, abort the outside grip attempt and re-establish the inside heel hook threat to reset their defense and close the distance.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow rotation, tighten triangle",
+        "distractors": {
+          "plausible": [
+            "Pull straight back to stall them",
+            "Square your hips to theirs"
+          ],
+          "trap": [
+            "Reach out with arms to chase"
+          ]
+        }
       },
       {
         "question": "How do you set up the outside heel hook when your opponent consistently defends the inside variation?",
         "answer": "Establish a pattern of threatening the inside heel hook across multiple exchanges to condition their defensive response. When they commit to inside defense by rotating their knee inward and hiding the heel, their foot naturally opens to the outside angle. Time your grip transition to coincide with their maximum defensive commitment to the inside direction, as this is when they are most vulnerable to the unexpected direction change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bait inside, switch outside",
+        "distractors": {
+          "plausible": [
+            "Crank inside harder to finish",
+            "Grab outside before conditioning"
+          ],
+          "trap": [
+            "Let the knee line go to reach heel"
+          ]
+        }
       },
       {
         "question": "You have secured the outside grip but the opponent is actively scooting away - how do you maintain finishing position?",
         "answer": "Follow their movement by hip-walking with them while maintaining the grip and leg triangle tension. Use your triangle to prevent them from creating sufficient distance to extract their leg. Drive your hips into their trapped leg to close any gap they create. If they continue creating space, maintain your finishing rotation at progressive pressure. Never chase by extending your arms away from your body as this weakens the grip and reduces torque.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip-walk with them, keep triangle",
+        "distractors": {
+          "plausible": [
+            "Pull them back by the grip",
+            "Chase with longer steps"
+          ],
+          "trap": [
+            "Extend arms away from body"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "PGQ7YYfu76Q",
+        "title": "Honey hole to heel hook finish",
+        "by": "Ilya Bodnya",
+        "vertical": false,
+        "channel": "Ilya Bodnya",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6gu-n4P9JXo",
+        "title": "Heel hook breaking mechanics",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Altay Pirge",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n6EoUkDwUVc",
+        "title": "4 heel hook finishes from the saddle",
+        "by": "The Grappling Bloke",
+        "vertical": false,
+        "channel": "The Grappling Bloke",
+        "duration": 102,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -441,27 +582,77 @@
       {
         "question": "How do you recognize that your opponent is switching from inside to outside heel hook grip?",
         "answer": "The primary recognition cue is the withdrawal of their inside grip hand followed by repositioning of their forearm to cross the outside of your foot. You may also feel a brief reduction in grip pressure during the transition and notice their elbow tracking from inside to outside your ankle. Their body angle may shift slightly as they adjust alignment for the outside rotational finishing mechanics.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand withdraws, forearm crosses out",
+        "distractors": {
+          "plausible": [
+            "Grip pressure suddenly increases",
+            "Their hips square to yours"
+          ],
+          "trap": [
+            "Wait until it hurts to react"
+          ]
+        }
       },
       {
         "question": "When should you tap to the outside heel hook from Honey Hole to prevent injury?",
         "answer": "Tap immediately when you feel any rotational pressure being applied to the lateral side of your knee after the figure-four grip is locked. The outside heel hook attacks the LCL and posterolateral corner which can fail catastrophically with minimal pain warning. If you feel any discomfort, tightness, or unusual sensation in the lateral knee area, tap without hesitation. It is always better to tap early than to test your ligament integrity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Any rotation felt after grip locks",
+        "distractors": {
+          "plausible": [
+            "Once your knee starts to ache",
+            "When you run out of grip fights"
+          ],
+          "trap": [
+            "Wait to hear a pop"
+          ]
+        }
       },
       {
         "question": "What is your best defensive option when you feel the outside heel hook grip being established?",
         "answer": "Your best option depends on timing. If the grip transition has just begun, explosive hip rotation toward 50-50 guard exploits the weakened control during the switch. If the cup is forming but the figure-four is not locked, commit both hands to two-on-one grip stripping of the cupping hand. If the figure-four is already locked with rotational pressure beginning, tap immediately. The worst decision is to freeze and assess the situation because every defensive option has a narrow timing window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stage-dependent: strip, rotate, tap",
+        "distractors": {
+          "plausible": [
+            "Always spin to 50-50 first",
+            "Yank the trapped foot straight out"
+          ],
+          "trap": [
+            "Turn away from the attack"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun rotating for the outside heel hook but has not fully secured the figure-four - what do you do?",
         "answer": "Attack the cupping hand with both of your hands using a two-on-one grip strip, peeling their fingers off your heel while simultaneously initiating a hip rotation toward 50-50. This dual-action approach works because the grip is at its weakest before the figure-four locks it in place. If you successfully strip the grip, immediately commit to a full positional escape attempt before they can re-establish any heel hook grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one strip cupping hand",
+        "distractors": {
+          "plausible": [
+            "Hand-fight one grip at a time",
+            "Point your toes and flex hard"
+          ],
+          "trap": [
+            "Kick free with sudden force"
+          ]
+        }
       },
       {
         "question": "How does defending the outside heel hook differ from defending the inside heel hook from the same position?",
         "answer": "The key difference is the direction of dangerous rotation. Inside heel hook defense involves preventing inward heel rotation toward your centerline, while outside heel hook defense requires preventing outward, lateral heel rotation away from your centerline. The common inside heel hook defense of rotating your knee inward actually exposes the lateral heel and feeds the outside heel hook. Effective defense against dual threats requires recognizing which direction the grip is configured for and adjusting accordingly, or escaping the position entirely before any grip is secured.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Block outward heel rotation",
+        "distractors": {
+          "plausible": [
+            "Same defense both directions",
+            "Focus only on grip stripping"
+          ],
+          "trap": [
+            "Rotate knee inward, feeds heel"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -484,6 +675,26 @@
         "phase": "Phase 4: Live Defense Integration",
         "focus": "Full-speed positional defense",
         "description": "Positional sparring starting from Honey Hole bottom against partner with full submission chain including inside heel hook, outside heel hook, kneebar, and toe hold. Practice recognizing and defending all threats while seeking escape opportunities. Emphasize tapping early and analyzing defensive decisions after each round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pCX38nCUGD0",
+        "title": "Saddle heel hook escape to 50/50",
+        "by": "ZombieProof BJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks fundamentals",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

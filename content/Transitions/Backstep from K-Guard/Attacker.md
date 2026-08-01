@@ -174,6 +174,54 @@ description: "Learn to execute the Backstep from K-Guard as the top player. Step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from K-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K guard to 411 leg entanglement",
+      "description": "Backstep from K-Guard (Attacker) film study: K guard to 411 leg entanglement, taught by 10th Planet St Louis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wkPHi2q1Cbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wkPHi2q1Cbo",
+      "url": "https://www.youtube.com/watch?v=wkPHi2q1Cbo",
+      "creator": { "@type": "Person", "name": "10th Planet St Louis" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back step pass into the saddle",
+      "description": "Backstep from K-Guard (Attacker) film study: Back step pass into the saddle, taught by Rich Close Quarters BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i8nOBcGeXv8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i8nOBcGeXv8",
+      "url": "https://www.youtube.com/watch?v=i8nOBcGeXv8",
+      "creator": { "@type": "Person", "name": "Rich Close Quarters BJJ" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi back-step attacks",
+      "description": "Backstep from K-Guard (Attacker) film study: No-gi back-step attacks, taught by C4 Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oh-3fjFUImY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oh-3fjFUImY",
+      "url": "https://www.youtube.com/watch?v=oh-3fjFUImY",
+      "creator": { "@type": "Person", "name": "C4 Brazilian Jiu Jitsu" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 **From Position**: [[Positions/K-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from K-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wkPHi2q1Cbo)
+
+<p class="clip-credit"><strong>K guard to 411 leg entanglement</strong> — taught by 10th Planet St Louis · 0:41 · <a href="https://www.youtube.com/watch?v=wkPHi2q1Cbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i8nOBcGeXv8)
+
+<p class="clip-credit"><strong>Back step pass into the saddle</strong> — taught by Rich Close Quarters BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=i8nOBcGeXv8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oh-3fjFUImY)
+
+<p class="clip-credit"><strong>No-gi back-step attacks</strong> — taught by C4 Brazilian Jiu Jitsu · 1:05 · <a href="https://www.youtube.com/watch?v=oh-3fjFUImY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

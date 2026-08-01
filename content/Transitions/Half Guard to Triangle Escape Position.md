@@ -34,6 +34,54 @@ description: "Learn how to recognize and transition into triangle escape positio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Triangle Escape Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle escape: hips down, posture up",
+      "description": "Half Guard to Triangle Escape Position film study: Triangle escape: hips down, posture up, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HLWwfq8FNMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HLWwfq8FNMI",
+      "url": "https://www.youtube.com/watch?v=HLWwfq8FNMI",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Posture-up escape from the triangle choke",
+      "description": "Half Guard to Triangle Escape Position film study: Posture-up escape from the triangle choke, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
+      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape a triangle choke",
+      "description": "Half Guard to Triangle Escape Position film study: How to escape a triangle choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Success in this transition depends on early recognition and immediate defensive 
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Triangle Escape Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HLWwfq8FNMI)
+
+<p class="clip-credit"><strong>Triangle escape: hips down, posture up</strong> — taught by Mat Life Training Center · 0:19 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
+
+<p class="clip-credit"><strong>Posture-up escape from the triangle choke</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

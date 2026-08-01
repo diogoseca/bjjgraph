@@ -176,6 +176,43 @@ description: "Learn to attack with the Kimura from Modified Mount. Step-by-step 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Modified Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from Mount",
+      "description": "Kimura from Modified Mount (Attacker) film study: Kimura from Mount, taught by Tom Dinklage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lkh8kQG8ArA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Lkh8kQG8ArA",
+      "url": "https://www.youtube.com/watch?v=Lkh8kQG8ArA",
+      "creator": { "@type": "Person", "name": "Tom Dinklage" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from Mount Position",
+      "description": "Kimura from Modified Mount (Attacker) film study: Kimura from Mount Position, taught by Victory MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GDc3HlhB5rM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GDc3HlhB5rM",
+      "url": "https://www.youtube.com/watch?v=GDc3HlhB5rM",
+      "creator": { "@type": "Person", "name": "Victory MMA" },
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking the Kimura from Modified Mount gives you a structural advantage that s
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Modified Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Lkh8kQG8ArA)
+
+<p class="clip-credit"><strong>Kimura from Mount</strong> — taught by Tom Dinklage · 1:06 · <a href="https://www.youtube.com/watch?v=Lkh8kQG8ArA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GDc3HlhB5rM)
+
+<p class="clip-credit"><strong>Kimura from Mount Position</strong> — taught by Victory MMA · 1:31 · <a href="https://www.youtube.com/watch?v=GDc3HlhB5rM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

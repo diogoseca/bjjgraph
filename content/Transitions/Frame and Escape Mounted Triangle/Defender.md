@@ -140,6 +140,43 @@ description: "Counter the frame and escape from mounted triangle. Techniques for
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Escape Mounted Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keeping top control when the mounted triangle fails",
+      "description": "Frame and Escape Mounted Triangle (Defender) film study: Keeping top control when the mounted triangle fails, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a6SPEOcuNzs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a6SPEOcuNzs",
+      "url": "https://www.youtube.com/watch?v=a6SPEOcuNzs",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mounted triangle to armbar switch",
+      "description": "Frame and Escape Mounted Triangle (Defender) film study: Mounted triangle to armbar switch, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8ys-uZnBgYM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8ys-uZnBgYM",
+      "url": "https://www.youtube.com/watch?v=8ys-uZnBgYM",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT26S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against the frame and escape from mounted triangle requires the top pl
 **Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Escape Mounted Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a6SPEOcuNzs)
+
+<p class="clip-credit"><strong>Keeping top control when the mounted triangle fails</strong> — taught by Thunderdome BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=a6SPEOcuNzs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8ys-uZnBgYM)
+
+<p class="clip-credit"><strong>Mounted triangle to armbar switch</strong> — taught by Thunderdome BJJ · 0:26 · <a href="https://www.youtube.com/watch?v=8ys-uZnBgYM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

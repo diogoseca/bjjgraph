@@ -22,7 +22,10 @@
   "target_area": "Lumbar spine, thoracic vertebrae, spinal column",
   "starting_position": "Truck",
   "from_position": "Truck/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "variant_uniqueness": "Vertebral compression creates systemic spinal pressure",
   "overview": "The Spine Lock is an advanced spinal compression submission that targets the opponent's vertebral column through hyperextension and rotational pressure. Popularized within the 10th Planet system, this technique creates extreme discomfort through mechanical pressure on the spine rather than joint manipulation. The submission is primarily accessed from the Truck position, where the attacker controls one leg while the opponent's body is inverted and vulnerable. The Spine Lock exemplifies the principle of using body positioning and leverage to create inescapable pressure without relying on limb isolation. This technique requires exceptional body awareness, precise control, and absolute commitment to safety protocols due to the vulnerability of the spinal column.\n\nThe effectiveness of the Spine Lock comes from the combination of hip pressure driving into the opponent's lower back while maintaining rotational control that prevents escape. Unlike joint locks that target a single articulation point, spinal compression affects multiple vertebrae simultaneously, creating a compound pressure that is difficult to defend once fully established. The technique is particularly effective in no-gi competition where traditional gi-based controls are unavailable and modern leg entanglement systems dominate.",
   "safety_considerations": {
@@ -148,7 +151,7 @@
       "relationship": "Shoulder lock available during truck and back control sequences"
     },
     {
-      "name": "Neck Crank",
+      "name": "Neck Crank from Twister Control",
       "relationship": "Related cervical spine submission with similar safety considerations"
     },
     {
@@ -192,6 +195,26 @@
     {
       "name": "Electric Chair",
       "relationship": "Half guard position that can lead to Truck and spine lock entries"
+    }
+  ],
+  "clips": [
+    {
+      "id": "sCBGkcJCQYY",
+      "title": "The Truck in Transition",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Y693ZHlCd2Q",
+      "title": "Two Entries Into the Truck",
+      "by": "Geo Martinez",
+      "vertical": false,
+      "channel": "FloGrappling",
+      "duration": 100,
+      "verified": "2026-07-14"
     }
   ]
 }

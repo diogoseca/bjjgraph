@@ -34,6 +34,43 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Armbar Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roger Gracie armbars",
+      "description": "Armbar from Armbar Control film study: Roger Gracie armbars, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from mount when they bump you off",
+      "description": "Armbar from Armbar Control film study: Armbar from mount when they bump you off, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gDn6uThIABM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gDn6uThIABM",
+      "url": "https://www.youtube.com/watch?v=gDn6uThIABM",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +91,7 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Hyperextension</span>
 <span class="meta-chip">Targets Elbow</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">54% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +115,34 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 **Starting Position**: [[Positions/Armbar Control]] · **From**: [[Positions/Armbar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Armbar Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Roger Gracie armbars</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gDn6uThIABM)
+
+<p class="clip-credit"><strong>Armbar from mount when they bump you off</strong> — taught by Kyle Dimmitt · 1:16 · <a href="https://www.youtube.com/watch?v=gDn6uThIABM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -254,14 +319,14 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Positions/Armbar Control]] - Starting position - must establish this control before attempting the finish
 - [[Positions/Triangle Control]] - Primary chain attack when opponent stacks or postures to defend armbar
 - [[Positions/Omoplata Control]] - Chain attack when opponent bends arm defensively during finish attempt
 - [[Transitions/Armbar from Crucifix]] - Entry path from crucifix control establishing armbar control for the finish
 - [[Transitions/Armbar from Clamp Guard]] - Entry path from clamp guard establishing armbar control for the finish
 - [[Transitions/Armbar from North-South]] - Entry path from north-south establishing armbar control for the finish
-- [[Transitions/Hitchhiker Escape]] - Primary defensive counter the opponent uses against this finish
+- [[Transitions/Hitchhiker Escape from Armbar]] - Primary defensive counter the opponent uses against this finish
 - [[Transitions/Armbar from Back Transition]] - Entry path from back control establishing armbar control for the finish
 
 </section>

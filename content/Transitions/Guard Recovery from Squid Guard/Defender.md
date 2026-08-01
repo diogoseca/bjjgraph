@@ -142,6 +142,54 @@ description: "Prevent guard recovery from Squid Guard as the top player in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Squid Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shutting down the opponent\u0027s guard recovery",
+      "description": "Guard Recovery from Squid Guard (Defender) film study: Shutting down the opponent\u0027s guard recovery, taught by Jason Rau.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YU4eCp4FXrA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YU4eCp4FXrA",
+      "url": "https://www.youtube.com/watch?v=YU4eCp4FXrA",
+      "creator": { "@type": "Person", "name": "Jason Rau" },
+      "duration": "PT234S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass the lapel squid guard",
+      "description": "Guard Recovery from Squid Guard (Defender) film study: How to pass the lapel squid guard, taught by Nick Salles and Danny Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nPT4tqORpOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nPT4tqORpOA",
+      "url": "https://www.youtube.com/watch?v=nPT4tqORpOA",
+      "creator": { "@type": "Person", "name": "Nick Salles and Danny Maira" },
+      "duration": "PT672S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Best guard pass against the lapel guard",
+      "description": "Guard Recovery from Squid Guard (Defender) film study: Best guard pass against the lapel guard, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kS0xQoF6jmU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kS0xQoF6jmU",
+      "url": "https://www.youtube.com/watch?v=kS0xQoF6jmU",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT651S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ As the top player against Squid Guard, the moment you strip the lapel grip or cl
 **Opponent's Starting Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Squid Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YU4eCp4FXrA)
+
+<p class="clip-credit"><strong>Shutting down the opponent&#39;s guard recovery</strong> — taught by Jason Rau · 3:54 · <a href="https://www.youtube.com/watch?v=YU4eCp4FXrA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nPT4tqORpOA)
+
+<p class="clip-credit"><strong>How to pass the lapel squid guard</strong> — taught by Nick Salles and Danny Maira · 11:12 · <a href="https://www.youtube.com/watch?v=nPT4tqORpOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kS0xQoF6jmU)
+
+<p class="clip-credit"><strong>Best guard pass against the lapel guard</strong> — taught by Andre Galvao · 10:51 · <a href="https://www.youtube.com/watch?v=kS0xQoF6jmU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,43 @@ description: "How to defend against Lapel Triangle Setup in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Triangle Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape a triangle choke",
+      "description": "Lapel Triangle Setup (Defender) film study: How to escape a triangle choke, taught by Rener \u0026 Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener \u0026 Ryron Gracie" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle escape and counter",
+      "description": "Lapel Triangle Setup (Defender) film study: Triangle escape and counter, taught by John Manzella.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UH19FJlx60U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UH19FJlx60U",
+      "url": "https://www.youtube.com/watch?v=UH19FJlx60U",
+      "creator": { "@type": "Person", "name": "John Manzella" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The key defensive principle is to prevent the conditions that enable the triangl
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Triangle Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener &amp; Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UH19FJlx60U)
+
+<p class="clip-credit"><strong>Triangle escape and counter</strong> — taught by John Manzella · 0:25 · <a href="https://www.youtube.com/watch?v=UH19FJlx60U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

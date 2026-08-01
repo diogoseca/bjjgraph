@@ -21,7 +21,7 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
@@ -38,20 +38,20 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Arm Extraction to Turtle",
+      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction to Turtle",
-      "text": "From this position, attempt Arm Extraction to Turtle. This technique is attempted in 32% of exchanges from this position.",
+      "name": "Execute Arm Recovery to Guard",
+      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Recovery to Guard",
-      "text": "From this position, attempt Arm Recovery to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Hip Escape from Russian Cowboy",
+      "text": "From this position, attempt Hip Escape from Russian Cowboy. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Defensive guide to escaping Russian Cowboy position. Learn surviva
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Russian Cowboy (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the truck by flipping it",
+      "description": "Russian Cowboy (Bottom) film study: Counter the truck by flipping it, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
+      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT640S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the rolling back take and truck roll",
+      "description": "Russian Cowboy (Bottom) film study: Defending the rolling back take and truck roll, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ From the bottom perspective, the Russian Cowboy presents a complex defensive puz
 The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, controlling the hooking leg second, and creating escape opportunities third. Understanding this priority system allows the bottom practitioner to make intelligent defensive decisions under pressure. The position's asymmetric nature actually provides certain escape opportunities not available against traditional back control, particularly the ability to turn into the top player's free leg side if proper frames are established. Advanced defensive players recognize Russian Cowboy as a transitional moment where proactive defense can prevent advancement to more dangerous positions while creating opportunities to return to guard or achieve standing position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Russian Cowboy (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+
+<p class="clip-credit"><strong>Counter the truck by flipping it</strong> — taught by Brandon Mccaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the rolling back take and truck roll</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

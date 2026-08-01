@@ -144,6 +144,43 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Top (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar Defense + Take the Back",
+      "description": "Kneebar from Top (Defender) film study: Kneebar Defense + Take the Back, taught by Bicudo BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
+      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
+      "creator": { "@type": "Person", "name": "Bicudo BJJ" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Bar Defense",
+      "description": "Kneebar from Top (Defender) film study: Knee Bar Defense, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NHyBpBC4apY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NHyBpBC4apY",
+      "url": "https://www.youtube.com/watch?v=NHyBpBC4apY",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the kneebar from top position requires a fundamentally different minds
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Top (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
+
+<p class="clip-credit"><strong>Kneebar Defense + Take the Back</strong> — taught by Bicudo BJJ · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NHyBpBC4apY)
+
+<p class="clip-credit"><strong>Knee Bar Defense</strong> — taught by Clark Gracie · 2:18 · <a href="https://www.youtube.com/watch?v=NHyBpBC4apY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -16,7 +16,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Crucifix",
   "from_position": "Crucifix/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "Strategically, this choke represents the culmination of the crucifix's weapons-denial logic: once both arms are isolated, the finish becomes a matter of time rather than a contest of strength. Because the opponent cannot bring a single hand to their neck, the defensive responses that rescue most chokes—grip stripping, hand fighting, the two-on-one—are simply unavailable, which is why high-level competitors treat reaching the crucifix as a near-guaranteed submission threat rather than merely a control position.\n\nThe choke can be executed with multiple grips including rear naked choke mechanics, short chokes, or gi-based collar attacks. What makes this submission particularly effective is the opponent's complete inability to defend their neck with their hands, as both arms are controlled by the attacker's legs and body positioning. The psychological pressure of the crucifix position often causes opponents to panic, making the finish easier to secure.\n\nThis technique is commonly seen in high-level competition and represents excellent understanding of positional hierarchy in grappling. The bilateral carotid compression creates rapid unconsciousness when applied correctly, making it one of the highest-percentage finishes available from any dominant position. Understanding the systematic approach of position consolidation before submission attempt is essential for consistent success with this technique.",
   "safety_considerations": {
     "injury_risks": [
@@ -62,17 +65,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Crucifix/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -276,62 +288,211 @@
       {
         "question": "What must be established before attempting any choke from crucifix position?",
         "answer": "Complete crucifix control with both of the opponent's arms fully trapped and neutralized must be established first. This means your top leg securely hooks their far arm, your bottom leg controls their near arm, and they are flattened onto their side or back. Position dominates submission - attempting the choke before securing this control will result in escape or defensive hand fighting. The crucifix arm traps are what make this choke defenseless.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trap both arms before choking",
+        "distractors": {
+          "plausible": [
+            "Get a tight grip first",
+            "Trap one arm is enough"
+          ],
+          "trap": [
+            "Rush the choke immediately"
+          ]
+        }
       },
       {
         "question": "What is the correct anatomical target for choke from crucifix, and what is the dangerous incorrect target?",
         "answer": "The correct target is bilateral compression of the carotid arteries on both sides of the neck using a V-shaped arm position - bicep on one carotid, forearm blade on the other. The dangerous incorrect target is crushing the trachea (windpipe) with flat forearm pressure. Trachea crushing causes unnecessary pain, potential serious injury to the throat, and is actually less effective for achieving the tap. Proper technique should restrict blood flow to the brain (opponent cannot think clearly) rather than air flow (opponent feels pain and panic).",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Carotids, not the windpipe",
+        "distractors": {
+          "plausible": [
+            "Bicep and forearm on one side",
+            "Pressure on the jaw and chin"
+          ],
+          "trap": [
+            "Flat forearm crushing the trachea"
+          ]
+        }
       },
       {
         "question": "What are the tap signals that require immediate release when applying this choke?",
         "answer": "All of the following require immediate release: verbal tap or any vocalization, physical hand tap on your body or the mat, physical foot tap on the mat, any distress signal or body convulsion, and loss of resistance or the opponent going limp. Additionally, if your training partner stops moving or their resistance suddenly ceases, release immediately and check their consciousness. In training, when in doubt about whether they tapped, release and ask. Partner safety is infinitely more important than finishing the submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Any tap or distress—release now",
+        "distractors": {
+          "plausible": [
+            "Wait for a second tap to confirm",
+            "Only a hand tap counts as a tap"
+          ],
+          "trap": [
+            "Hold until they go fully limp"
+          ]
+        }
       },
       {
         "question": "Why is maintaining leg control on the opponent's arms critical throughout the choking sequence?",
         "answer": "The entire effectiveness of choke from crucifix depends on the opponent's inability to use their hands to defend their neck. If either arm escapes the leg traps, they can immediately defend by stripping your grip, breaking your choking structure, or protecting their neck with their freed hand. The crucifix position creates a defenseless situation specifically because both arms are controlled. Loosening leg pressure while focusing on the choke is a common error that leads to escape. You must maintain dual focus: legs tight on arms, arms executing choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Freed arm breaks the choke",
+        "distractors": {
+          "plausible": [
+            "Legs mainly stop them standing",
+            "Arm strength alone finishes it"
+          ],
+          "trap": [
+            "Release legs to grip collar"
+          ]
+        }
       },
       {
         "question": "What body mechanics make the choke effective beyond just arm strength?",
         "answer": "Effective choke from crucifix uses full-body structure rather than isolated arm strength. This includes: expanding your chest to create width and pressure, driving your hips forward into their shoulder for leverage, using your back and core muscles to generate squeezing power, maintaining heavy chest pressure on their back to prevent escape, and using your secondary hand to control their head position. The choking arm is simply the point of contact - the power comes from your entire body working as a unified system. This makes the technique sustainable and effective even against larger opponents.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Whole-body squeeze, not just arm",
+        "distractors": {
+          "plausible": [
+            "Grip strength wins the choke",
+            "Pull with the choking arm only"
+          ],
+          "trap": [
+            "Yank the neck for extra force"
+          ]
+        }
       },
       {
         "question": "What is the appropriate application speed for this choke in training versus competition?",
         "answer": "In training, apply pressure slowly and progressively over 3-5 seconds minimum, giving your partner ample time to recognize the danger and tap. Never use explosive or sudden pressure in training. In competition, you can apply pressure more quickly while still using progressive mechanics, but you must still release immediately upon tap. The critical distinction is that training partners are there to help you improve and must be protected, while competition is a test of skill where both participants accept higher risk. However, even in competition, deliberate technique is more effective than explosive force.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow build in training, 3-5s",
+        "distractors": {
+          "plausible": [
+            "Rely on them to tap in time",
+            "Progressive pace for beginners only"
+          ],
+          "trap": [
+            "Snap it on before they can tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins attempting to roll forward while you have the crucifix locked - how do you adjust your grip and body position to finish the choke?",
         "answer": "When the opponent attempts to roll forward, immediately widen your base by extending your legs further from your body and dropping your hips to the mat. This creates a heavy anchor that prevents them from completing the roll. Keep your chest pressure heavy on their upper back while maintaining the leg traps. If they commit hard to the roll and begin to turn, you can follow the roll and transition to mounted crucifix, which provides even better choking angles. Throughout this adjustment, never release your choking grip - the choke often finishes precisely as they run out of rolling momentum.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, drop hips, stay heavy",
+        "distractors": {
+          "plausible": [
+            "Sit up to block the roll",
+            "Squeeze the choke harder"
+          ],
+          "trap": [
+            "Let go and re-establish crucifix"
+          ]
+        }
       },
       {
         "question": "What indicates that the choke is positioned correctly on the carotid arteries rather than crushing the windpipe?",
         "answer": "The key indicators are: (1) Your opponent can still breathe but becomes visibly disoriented or their resistance weakens rapidly, (2) Your forearm blade is angled across their neck in a V-shape rather than flat against their throat, (3) Your bicep is pressing against one side of the neck while your forearm presses the other side, (4) Your opponent is not gasping or making choking sounds - blood chokes are silent. If your opponent is coughing, gagging, or their face is turning red rather than pale, you are crushing the trachea and need to adjust your angle immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Disoriented, quiet, no gagging",
+        "distractors": {
+          "plausible": [
+            "Gasping means choke is working",
+            "Red face confirms good pressure"
+          ],
+          "trap": [
+            "Push forearm flat on the throat"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if your initial choking arm insertion is blocked by the opponent's chin tuck?",
         "answer": "When facing a strong chin tuck, you have several options: First, try switching to a short choke variation where you grip your own lapel or their far collar and pull across without needing to get under the chin. Second, use your free hand to apply pressure to their forehead or jaw to force the chin up, then quickly slide your choking arm into position. Third, flatten them further onto their back where the chin tuck becomes mechanically weaker. Fourth, patiently wait with forearm pressure against their jaw - the discomfort eventually forces them to move their chin, creating your opening. Never try to force under a locked chin with explosive movement.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to short choke variation",
+        "distractors": {
+          "plausible": [
+            "Squeeze tighter on same grip",
+            "Hold and wait them out"
+          ],
+          "trap": [
+            "Sit up, releasing the leg traps"
+          ]
+        }
       },
       {
         "question": "How do you recognize when your opponent has reached the point of no escape in this choke?",
         "answer": "The point of no escape occurs when: (1) Both arms remain fully trapped with no possibility of freeing either hand, (2) Your choking arm is seated deep under the chin with bicep and forearm positioned on both carotids, (3) Your grip structure is locked (bicep grip for RNC, collar grip for short choke), (4) Your body position is consolidated with chest tight to their back and hips driving forward. At this point, even minimal additional squeeze will produce the tap. The opponent's only remaining option is to tap - any attempt to escape requires either arm freedom or the ability to turn, both of which are eliminated by proper crucifix control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Can't free a hand or turn away",
+        "distractors": {
+          "plausible": [
+            "One arm is trapped and controlled",
+            "Forearm crushes across the windpipe"
+          ],
+          "trap": [
+            "They stop moving, ease the squeeze"
+          ]
+        }
       },
       {
         "question": "What finishing strategy should you employ in competition when your opponent is experienced at defending crucifix chokes?",
         "answer": "Against experienced defenders, employ a multi-threat approach: Begin attacking the choke to force their defensive focus upward, then immediately switch to threatening the armbar on their trapped arm when they commit fully to neck defense. This creates a dilemma - defending the choke exposes the arm, defending the arm exposes the neck. Additionally, vary your choke entries unpredictably between RNC grip, short choke, and arm-in variations. Finally, use continuous hip pressure and positional adjustments to drain their energy - a fatigued opponent makes defensive errors. The finish often comes after the third or fourth transition in the chain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten armbar as choke bait",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder from same entry",
+            "Stall and win on points"
+          ],
+          "trap": [
+            "Abandon crucifix to pass guard"
+          ]
+        }
       },
       {
         "question": "If you notice your training partner has gone unconscious but you only realized after 1-2 seconds, what is the correct response protocol?",
         "answer": "Immediately release all pressure and carefully position your partner on their side in the recovery position with their airway clear. Do not shake them or slap them - unconsciousness from blood chokes typically resolves within 10-20 seconds naturally as blood flow returns to the brain. Stay with them and monitor their breathing. If they do not regain consciousness within 20-30 seconds, signal for help immediately. When they wake up, keep them lying down and monitor for confusion, headache, or nausea. Do not allow them to immediately return to training - they should rest and be checked. Report the incident to your instructor regardless of outcome.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, recovery position, monitor",
+        "distractors": {
+          "plausible": [
+            "Shake them awake quickly",
+            "Sit them straight up to talk"
+          ],
+          "trap": [
+            "Keep rolling once eyes open"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "3t6j9HT6Mr8",
+        "title": "Crucifix to Rear Naked Choke",
+        "by": "Greg Ferguson",
+        "vertical": false,
+        "channel": "Greg Ferguson",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "A6H5KUCB_0E",
+        "title": "Crucifix to Assassin Choke",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vCCarCZUPpM",
+        "title": "Assassin Choke from Back Crucifix",
+        "by": "Hellfish MMA",
+        "vertical": false,
+        "channel": "Hellfish Mixed Martial Arts",
+        "duration": 175,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -418,27 +579,77 @@
       {
         "question": "What is the first defensive priority when you recognize a choke attempt from crucifix bottom?",
         "answer": "The first priority is immediate neck protection through aggressive chin tuck to the chest and shoulder elevation toward the ears. This creates physical barriers that prevent the attacker's forearm from sliding under your chin. Because both arms are trapped, you cannot use traditional grip-fighting defense, so your neck positioning is your primary and often only line of defense against the choke. This must happen instantly upon recognition - every second of delay allows the attacker to improve their choking angle and insertion depth.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tuck chin, shrug shoulders up",
+        "distractors": {
+          "plausible": [
+            "Strip the choking grip first",
+            "Turn head away from arm"
+          ],
+          "trap": [
+            "Relax neck to conserve energy"
+          ]
+        }
       },
       {
         "question": "Why is freeing a trapped arm more important than directly fighting the choking grip?",
         "answer": "With both arms trapped by the attacker's legs, you lack the range of motion and leverage to effectively reach or strip the choking grip. Attempting to fight the choke with trapped arms wastes energy on an impossible task. Freeing even one arm restores your ability to create defensive frames, strip grips, protect your neck with your hand, and execute standard back escape sequences. Arm freedom is the prerequisite that enables all other defensive options. The correct hierarchy is: protect neck with chin, extract an arm, then fight the choke with your freed hand.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trapped arms can't reach grip",
+        "distractors": {
+          "plausible": [
+            "Grip fighting is faster",
+            "Free arm to attack a submission"
+          ],
+          "trap": [
+            "Stay still, defend with neck only"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt an escape from the crucifix during a choke attempt?",
         "answer": "The optimal escape window occurs when the attacker commits both hands to the choking sequence and shifts their weight forward to insert their arm under your chin. During this transition, their leg pressure on your trapped arms often decreases momentarily as their focus and body mechanics shift toward the choke finish. This brief reduction in leg control creates the highest-probability window for arm extraction through hip rotation and angle change. Timing your defensive movement to this weight shift rather than fighting against fully consolidated control dramatically increases escape success rates.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When attacker shifts to insert arm",
+        "distractors": {
+          "plausible": [
+            "After the choke is fully sunk",
+            "Once you feel light-headed"
+          ],
+          "trap": [
+            "Wait passively for a leg lapse"
+          ]
+        }
       },
       {
         "question": "What should you do if you feel the choke beginning to take effect with dimming vision or lightheadedness?",
         "answer": "If you feel the choke taking effect - indicated by dimming vision, tunnel vision, warmth spreading through your face, or lightheadedness - you must tap immediately. Do not attempt to tough it out or wait for an escape opportunity. Blood chokes can produce unconsciousness within 4-8 seconds of full bilateral carotid compression. The window between feeling the effects and losing consciousness is extremely narrow and unreliable. Tap using whatever method is available: verbal tap, foot tap on mat, or any vocalization. Continuing to resist at this point risks unconsciousness and potential injury. In training, there is zero shame in tapping to a properly applied choke from crucifix.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Exhale to ease the pressure",
+            "Wait for the ref to stop it"
+          ],
+          "trap": [
+            "Tough it out and find the escape"
+          ]
+        }
       },
       {
         "question": "How does the forward roll escape work against a crucifix choke, and what are its risks?",
         "answer": "The forward roll involves using your hips and legs to generate momentum rolling toward the attacker and over your own shoulder, aiming to tumble through the crucifix structure and break the arm traps. This works best when the attacker has a high base with their hips elevated above your shoulder line, as their elevated position provides space for the rolling motion. The primary risk is that a well-positioned attacker can follow the roll and transition to mounted crucifix, which provides even greater control and choking angles. The roll should only be attempted when the attacker's base is compromised and before the choke is deeply seated. It is a high-commitment escape that either works decisively or worsens your position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Roll through when their base is high",
+        "distractors": {
+          "plausible": [
+            "Roll only when choke is deep",
+            "Roll toward your own back"
+          ],
+          "trap": [
+            "Roll against a low base"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -461,6 +672,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Realistic defense against full-speed crucifix choke attempts",
         "description": "Positional sparring starting from crucifix bottom with partner attacking at competition intensity. Defend and escape or survive for timed rounds. Develop the ability to remain calm and execute technical defense under realistic pressure. Track success rates across rounds and identify which defensive responses work best against specific choke variations and attacker body types."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Wt2NW_hfTd0",
+        "title": "Crucifix Escape vs Bulldog Choke",
+        "by": "Mick Hall",
+        "vertical": false,
+        "channel": "Mick Hall",
+        "duration": 228,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "qk65WMnB4Ts",
+        "title": "Escaping the crucifix position",
+        "by": "Ben Price",
+        "vertical": false,
+        "channel": "Wisconsin Submission Network",
+        "duration": 170,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gUy0ycrx7mM",
+        "title": "Fundamental crucifix escape tutorial",
+        "by": "BIG OSS Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BIG OSS Jiu-Jitsu Channel",
+        "duration": 743,
+        "verified": "2026-07-15"
       }
     ]
   },

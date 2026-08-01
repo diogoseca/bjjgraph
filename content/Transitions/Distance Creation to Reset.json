@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "De La Riva Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Distance Creation to Reset represents a tactical retreat strategy when facing complex lapel guard configurations that resist direct passing solutions. Rather than expending significant energy fighting through entangled lapel wraps, this technique prioritizes disengaging cleanly to reset the exchange from a neutral standing position.\n\nThe strategic value of this transition lies in recognizing when continued engagement yields diminishing returns. Against sophisticated lapel players who have established ringworm configurations or multiple lapel wraps, the energy cost of direct clearing often exceeds the benefit. Creating distance allows you to reset without conceding points while preserving grip endurance for subsequent passing attempts.\n\nThis approach requires precise timing and grip sequencing. Premature disengagement exposes you to sweeps and back takes, while delayed attempts face increasingly complex lapel entanglements. The key is identifying the optimal window—when you've neutralized immediate threats but before the bottom player deepens their configuration. Executed properly, distance creation transforms a losing positional battle into a neutral restart where your passing skills can be applied fresh.",
   "related_content": [
     {
@@ -202,46 +214,166 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Distance Creation to Reset?",
-        "answer": "The primary goal is to disengage from complex lapel guard configurations when direct passing solutions require excessive energy expenditure. This creates a neutral restart where you preserve grip endurance and can re-engage with fresh passing attempts rather than fighting through increasingly entangled positions."
+        "answer": "The primary goal is to disengage from complex lapel guard configurations when direct passing solutions require excessive energy expenditure. This creates a neutral restart where you preserve grip endurance and can re-engage with fresh passing attempts rather than fighting through increasingly entangled positions.",
+        "answer_line": "Disengage, reset with fresh grips",
+        "distractors": {
+          "plausible": [
+            "Clear lapel wrap immediately",
+            "Advance to full guard pass"
+          ],
+          "trap": [
+            "Abandon grips and stand up"
+          ]
+        }
       },
       {
         "question": "What position do you start Distance Creation to Reset from?",
-        "answer": "This technique starts from Lapel Guard Top when an opponent has established a lapel configuration (worm, squid, or ringworm) that is restricting your passing options and direct clearing has proven difficult or energy-intensive."
+        "answer": "This technique starts from Lapel Guard Top when an opponent has established a lapel configuration (worm, squid, or ringworm) that is restricting your passing options and direct clearing has proven difficult or energy-intensive.",
+        "answer_line": "Lapel Guard Top",
+        "distractors": {
+          "plausible": [
+            "Lapel Guard Bottom",
+            "Closed Guard Top"
+          ],
+          "trap": [
+            "Turtle Bottom"
+          ]
+        }
       },
       {
         "question": "What grip must you establish before initiating backward movement?",
-        "answer": "You must control opponent's gripping hand—the hand maintaining their primary lapel grip—using wrist control or sleeve grip. This prevents them from tightening the configuration as you move backward and stops them from loading sweep mechanics during your disengagement."
+        "answer": "You must control opponent's gripping hand—the hand maintaining their primary lapel grip—using wrist control or sleeve grip. This prevents them from tightening the configuration as you move backward and stops them from loading sweep mechanics during your disengagement.",
+        "answer_line": "Control their gripping hand",
+        "distractors": {
+          "plausible": [
+            "Collar and sleeve control",
+            "Underhook their far arm"
+          ],
+          "trap": [
+            "Release all grips first"
+          ]
+        }
       },
       {
         "question": "Your opponent has worm guard with strong lapel grip around your lead knee—what is the clearing sequence before you can safely backstep?",
-        "answer": "First control their gripping hand with wrist or sleeve grip. Establish upright posture using hip extension, not arm pulling. Use your free hand to technically unwind the lapel fabric over your knee using rotational unwinding rather than forceful pulling. Only after the wrap is cleared should you execute the explosive backstep."
+        "answer": "First control their gripping hand with wrist or sleeve grip. Establish upright posture using hip extension, not arm pulling. Use your free hand to technically unwind the lapel fabric over your knee using rotational unwinding rather than forceful pulling. Only after the wrap is cleared should you execute the explosive backstep.",
+        "answer_line": "Control hand, posture, unwind, step",
+        "distractors": {
+          "plausible": [
+            "Backstep first, then clear wrap",
+            "Pull wrap off with force"
+          ],
+          "trap": [
+            "Yank knee free and stand"
+          ]
+        }
       },
       {
         "question": "How do you counter an opponent who sits up aggressively pursuing your back as you create distance?",
-        "answer": "Anticipate the sit-up and use their forward momentum against them by sprawling or circling away from their rotation. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt. If they commit fully to the sit-up, their forward momentum actually aids your disengagement."
+        "answer": "Anticipate the sit-up and use their forward momentum against them by sprawling or circling away from their rotation. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt. If they commit fully to the sit-up, their forward momentum actually aids your disengagement.",
+        "answer_line": "Sprawl, use momentum, keep pressure",
+        "distractors": {
+          "plausible": [
+            "Pull guard and reset flat",
+            "Grab a fresh underhook"
+          ],
+          "trap": [
+            "Turn away, expose your back"
+          ]
+        }
       },
       {
         "question": "What is the most common error when executing distance creation, and why is it dangerous?",
-        "answer": "The most common error is attempting to create distance before neutralizing opponent's gripping hand. This is dangerous because the opponent can tighten the lapel configuration as you move backward, making the wrap more restrictive and potentially loading sweep mechanics that use your backward momentum against you."
+        "answer": "The most common error is attempting to create distance before neutralizing opponent's gripping hand. This is dangerous because the opponent can tighten the lapel configuration as you move backward, making the wrap more restrictive and potentially loading sweep mechanics that use your backward momentum against you.",
+        "answer_line": "Moving before controlling hand",
+        "distractors": {
+          "plausible": [
+            "Backstepping too explosively",
+            "Not clearing the lapel wrap"
+          ],
+          "trap": [
+            "Sprinting backward blindly"
+          ]
+        }
       },
       {
         "question": "Why should you use hip extension and posture rather than arm pulling to create initial tension?",
-        "answer": "Hip extension and postural structure use larger muscle groups and skeletal alignment, providing sustainable power that doesn't fatigue quickly. Arm pulling uses smaller muscles that exhaust rapidly and typically cannot overcome opponent's grip strength. Structural tension preserves your energy for the explosive backstep and subsequent passing."
+        "answer": "Hip extension and postural structure use larger muscle groups and skeletal alignment, providing sustainable power that doesn't fatigue quickly. Arm pulling uses smaller muscles that exhaust rapidly and typically cannot overcome opponent's grip strength. Structural tension preserves your energy for the explosive backstep and subsequent passing.",
+        "answer_line": "Hips outlast and overpower arms",
+        "distractors": {
+          "plausible": [
+            "Arm strength closes distance faster",
+            "Grip strength beats hip power"
+          ],
+          "trap": [
+            "Pull opponent's collar hard"
+          ]
+        }
       },
       {
         "question": "When is distance creation the wrong tactical choice against lapel guard?",
-        "answer": "Distance creation is wrong when opponent's configuration is simple or loosely established—direct passing or backstep techniques would be more efficient. It's also wrong when you're winning the positional exchange and should capitalize rather than reset. Over-relying on distance creation prevents developing proper lapel clearing skills."
+        "answer": "Distance creation is wrong when opponent's configuration is simple or loosely established—direct passing or backstep techniques would be more efficient. It's also wrong when you're winning the positional exchange and should capitalize rather than reset. Over-relying on distance creation prevents developing proper lapel clearing skills.",
+        "answer_line": "Simple wrap or you're winning",
+        "distractors": {
+          "plausible": [
+            "You're fatigued mid-match",
+            "Opponent has weak grips"
+          ],
+          "trap": [
+            "Anytime lapel guard appears"
+          ]
+        }
       },
       {
         "question": "What must you do immediately after completing the backstep to make the reset effective?",
-        "answer": "Immediately establish dominant passing grips (pants and collar control) before opponent can sit up and re-extract their lapel. The reset is not complete until you have grip advantage. Pausing after creating distance allows opponent to establish fresh configuration, negating the entire reset."
+        "answer": "Immediately establish dominant passing grips (pants and collar control) before opponent can sit up and re-extract their lapel. The reset is not complete until you have grip advantage. Pausing after creating distance allows opponent to establish fresh configuration, negating the entire reset.",
+        "answer_line": "Grab dominant passing grips fast",
+        "distractors": {
+          "plausible": [
+            "Rest before next attack",
+            "Circle to find best angle"
+          ],
+          "trap": [
+            "Pause to check your position"
+          ]
+        }
       },
       {
         "question": "How does the lateral reset variant differ from the standard backstep, and when should you use it?",
-        "answer": "The lateral reset circles around the lapel configuration rather than stepping directly backward. This clears the wrap through angle change rather than direct extraction. Use it when opponent has active foot hooks preventing direct backward movement—the lateral angle defeats their hook placement while still achieving disengagement."
+        "answer": "The lateral reset circles around the lapel configuration rather than stepping directly backward. This clears the wrap through angle change rather than direct extraction. Use it when opponent has active foot hooks preventing direct backward movement—the lateral angle defeats their hook placement while still achieving disengagement.",
+        "answer_line": "Circle around active foot hooks",
+        "distractors": {
+          "plausible": [
+            "Step straight back faster",
+            "Switch base and sit through"
+          ],
+          "trap": [
+            "Force through the foot hook"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Distance Creation to Reset is a low-injury-risk technique as it involves disengagement rather than submission application. The primary safety concern is maintaining balance throughout the backstep—losing balance while disengaging can result in falling into opponent's guard or landing awkwardly. Avoid explosive backsteps when your base is compromised. When clearing lapel wraps, use technical unwinding rather than forceful jerking that could strain your fingers or opponent's fabric grip. In training, communicate with partners about intensity level, especially when practicing the explosive backstep phase. If opponent is aggressively pursuing back takes during your reset, avoid turning your back completely—maintain shoulder position facing them throughout the disengage."
+    "safety_considerations": "Distance Creation to Reset is a low-injury-risk technique as it involves disengagement rather than submission application. The primary safety concern is maintaining balance throughout the backstep—losing balance while disengaging can result in falling into opponent's guard or landing awkwardly. Avoid explosive backsteps when your base is compromised. When clearing lapel wraps, use technical unwinding rather than forceful jerking that could strain your fingers or opponent's fabric grip. In training, communicate with partners about intensity level, especially when practicing the explosive backstep phase. If opponent is aggressively pursuing back takes during your reset, avoid turning your back completely—maintain shoulder position facing them throughout the disengage.",
+    "clips": [
+      {
+        "id": "oCiaKS1psd8",
+        "title": "Grip Stripping: How to Break Grips for BJJ",
+        "by": "rflxtraining",
+        "vertical": false,
+        "channel": "rflxtraining",
+        "duration": 190,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "86SrcnnJ6BY",
+        "title": "Grip Fighting Rule Every White Belt Should Know",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 294,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Distance Creation to Reset Defender",
@@ -324,23 +456,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a distance creation reset rather than a passing attempt?",
-        "answer": "The earliest cue is when opponent secures wrist control on your lapel-gripping hand while simultaneously straightening their posture rather than driving forward. A passer drives into you with pressure; a resetter controls your grip hand and extends upward. This two-action combination—grip control plus postural extension—distinguishes reset intent from passing intent."
+        "answer": "The earliest cue is when opponent secures wrist control on your lapel-gripping hand while simultaneously straightening their posture rather than driving forward. A passer drives into you with pressure; a resetter controls your grip hand and extends upward. This two-action combination—grip control plus postural extension—distinguishes reset intent from passing intent.",
+        "answer_line": "Grip control plus posture up",
+        "distractors": {
+          "plausible": [
+            "Opponent drives forward hard",
+            "Opponent loosens their grip"
+          ],
+          "trap": [
+            "Opponent grips your collar tight"
+          ]
+        }
       },
       {
         "question": "Your opponent has just cleared your worm guard wrap and is beginning the explosive backstep—what is the optimal defensive response?",
-        "answer": "Sit up aggressively and pursue the back take, using their backward momentum to create the angle for your rotation behind them. Their weight shifting backward during the backstep means their base is momentarily compromised and their arms are occupied. Alternatively, insert a De La Riva hook on their stepping leg to maintain guard connection even if the lapel configuration is lost."
+        "answer": "Sit up aggressively and pursue the back take, using their backward momentum to create the angle for your rotation behind them. Their weight shifting backward during the backstep means their base is momentarily compromised and their arms are occupied. Alternatively, insert a De La Riva hook on their stepping leg to maintain guard connection even if the lapel configuration is lost.",
+        "answer_line": "Sit up, pursue back, or DLR hook",
+        "distractors": {
+          "plausible": [
+            "Chase their legs immediately",
+            "Reset to closed guard"
+          ],
+          "trap": [
+            "Let them retreat unchallenged"
+          ]
+        }
       },
       {
         "question": "Why is transitioning to De La Riva guard preferable to conceding open guard when your lapel configuration is stripped?",
-        "answer": "De La Riva guard maintains an active offensive position with hook control and upper body grips, preserving your ability to sweep and attack. Conceding open guard gives the opponent exactly what they wanted—a neutral restart where their passing skills apply against your flat guard. DLR forces them to solve a new guard problem rather than enjoying a clean reset to their preferred passing stance."
+        "answer": "De La Riva guard maintains an active offensive position with hook control and upper body grips, preserving your ability to sweep and attack. Conceding open guard gives the opponent exactly what they wanted—a neutral restart where their passing skills apply against your flat guard. DLR forces them to solve a new guard problem rather than enjoying a clean reset to their preferred passing stance.",
+        "answer_line": "DLR stays offensive, denies reset",
+        "distractors": {
+          "plausible": [
+            "Butterfly guard is safer here",
+            "Closed guard rebuilds control"
+          ],
+          "trap": [
+            "Concede open guard, reset even"
+          ]
+        }
       },
       {
         "question": "How should you layer your defensive responses when you sense a reset attempt beginning?",
-        "answer": "Layer three responses in sequence: first, fight to maintain your gripping hand and tighten the lapel configuration to prevent clearing. Second, if the wrap is being stripped, threaten a sit-up back take to make the backstep dangerous. Third, if both fail, immediately transition to De La Riva or spider guard rather than conceding open guard. Each layer forces the opponent to solve an additional problem before achieving a clean reset."
+        "answer": "Layer three responses in sequence: first, fight to maintain your gripping hand and tighten the lapel configuration to prevent clearing. Second, if the wrap is being stripped, threaten a sit-up back take to make the backstep dangerous. Third, if both fail, immediately transition to De La Riva or spider guard rather than conceding open guard. Each layer forces the opponent to solve an additional problem before achieving a clean reset.",
+        "answer_line": "Grip fight, threaten back, then DLR",
+        "distractors": {
+          "plausible": [
+            "Attack submission immediately",
+            "Retreat to full guard first"
+          ],
+          "trap": [
+            "Give up grips, wait it out"
+          ]
+        }
       },
       {
         "question": "What is the primary risk of attempting the sit-up back take too aggressively during opponent's distance creation?",
-        "answer": "If your timing is off and opponent anticipates the sit-up, they can sprawl or circle away, leaving you in a seated position without any guard configuration while they stand in dominant posture with fresh grips. The sit-up must be timed to the backstep moment when their weight is shifting and their arms are occupied with clearing—committing too early or too late turns your counter into their opportunity."
+        "answer": "If your timing is off and opponent anticipates the sit-up, they can sprawl or circle away, leaving you in a seated position without any guard configuration while they stand in dominant posture with fresh grips. The sit-up must be timed to the backstep moment when their weight is shifting and their arms are occupied with clearing—committing too early or too late turns your counter into their opportunity.",
+        "answer_line": "Mistimed sit-up leaves you exposed",
+        "distractors": {
+          "plausible": [
+            "Losing grip strength too soon",
+            "Committing to wrong angle"
+          ],
+          "trap": [
+            "Always sit up on first movement"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -363,6 +545,26 @@
         "phase": "Week 7+",
         "focus": "Live Situational Sparring",
         "description": "Full resistance rounds starting in established lapel guard. Top player chooses freely between passing and resetting. Develop real-time decision making for when to fight the reset versus accepting guard transition. Track success rates across rounds to identify which defensive layers need additional drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2x2ySnQlRRQ",
+        "title": "Guard Retention 101: The Heisenberg Heist",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 459,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UTaZzbHMr-s",
+        "title": "The 8 Layers of Guard Retention (Part 1)",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 598,
+        "verified": "2026-07-15"
       }
     ]
   },

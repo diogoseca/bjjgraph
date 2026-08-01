@@ -148,6 +148,54 @@ description: "How to defend against 50-50 Pass in BJJ. Recognition cues, defensi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll under to backside 50/50",
+      "description": "50-50 Pass (Defender) film study: Roll under to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting to backside 50/50",
+      "description": "50-50 Pass (Defender) film study: Getting to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "50/50 to back using berimbolo",
+      "description": "50-50 Pass (Defender) film study: 50/50 to back using berimbolo, taught by Silva jiujutieros coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i5KlsZLgKGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i5KlsZLgKGs",
+      "url": "https://www.youtube.com/watch?v=i5KlsZLgKGs",
+      "creator": { "@type": "Person", "name": "Silva jiujutieros coach" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the 50-50 Pass requires maintaining the leg entanglement while prevent
 **Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i5KlsZLgKGs)
+
+<p class="clip-credit"><strong>50/50 to back using berimbolo</strong> — taught by Silva jiujutieros coach · 0:23 · <a href="https://www.youtube.com/watch?v=i5KlsZLgKGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

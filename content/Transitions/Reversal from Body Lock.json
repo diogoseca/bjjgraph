@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Body Lock/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The Reversal from Body Lock is a critical defensive transition that converts one of grappling's most disadvantageous standing positions into a recoverable ground guard. When an opponent establishes a locked body lock from behind, the bottom player faces immediate threats of mat returns to back control, suplex-style throws, and trips that all lead to dominant ground positions. Rather than passively absorbing these attacks, the reversal employs systematic grip breaking, hip repositioning, and controlled descent to recover half guard where the bottom player regains offensive options.\n\nThe technique operates on the principle that a controlled transition to half guard bottom, while not ideal in isolation, represents a massive positional improvement compared to remaining in body lock bottom where all outcomes trend toward opponent dominance. By timing the grip break with hip rotation and knee insertion, the practitioner converts standing vulnerability into ground-based offense. The half guard recovery provides immediate access to underhook battles, sweep attempts, and submission entries that shift the match dynamic entirely.\n\nModern no-gi competition has made this reversal essential as body lock control has become a primary offensive weapon at the highest levels. Competitors who cannot escape the body lock consistently find themselves taken down into back control or side control, making grip breaking mechanics and guard recovery timing non-negotiable skills for competitive success.",
   "conditions": [
     "Opponent has established body lock with hands locked behind your back or at your centerline",
@@ -239,46 +251,166 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the grip break during the body lock reversal?",
-        "answer": "The optimal timing window is within the first two to three seconds after the body lock is established, before the opponent can fully settle their chest connection and begin driving hip pressure. During this initial window, the opponent is still adjusting their grip and positioning, meaning the lock is not yet at maximum strength. Additionally, they have not yet committed to a specific attack direction, which means their weight distribution is relatively neutral rather than driving in a specific direction that you must resist. Delaying beyond this window allows the opponent to optimize their grip configuration, establish crushing chest-to-back pressure, and begin loading your weight for throws or mat returns."
+        "answer": "The optimal timing window is within the first two to three seconds after the body lock is established, before the opponent can fully settle their chest connection and begin driving hip pressure. During this initial window, the opponent is still adjusting their grip and positioning, meaning the lock is not yet at maximum strength. Additionally, they have not yet committed to a specific attack direction, which means their weight distribution is relatively neutral rather than driving in a specific direction that you must resist. Delaying beyond this window allows the opponent to optimize their grip configuration, establish crushing chest-to-back pressure, and begin loading your weight for throws or mat returns.",
+        "answer_line": "Break grip in first 2-3 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to settle",
+            "Break once pressure builds"
+          ],
+          "trap": [
+            "Stall to conserve energy first"
+          ]
+        }
       },
       {
         "question": "Why is the thumb-side connection targeted as the primary breaking point for the body lock grip?",
-        "answer": "The thumb-side connection is the biomechanically weakest point in all common grip configurations because the thumb lacks the structural strength of the four opposing fingers. In a gable grip, the thumbs sit on top and provide the least resistance to outward peeling force. In an S-grip, the curved finger hooks create their primary strength through the finger flexors, while the thumb side provides the opening where the hooks can be separated. The two-on-one attack concentrates your combined hand strength against the opponent's single weakest connection point, creating a force advantage that makes the break achievable even against significantly stronger grapplers."
+        "answer": "The thumb-side connection is the biomechanically weakest point in all common grip configurations because the thumb lacks the structural strength of the four opposing fingers. In a gable grip, the thumbs sit on top and provide the least resistance to outward peeling force. In an S-grip, the curved finger hooks create their primary strength through the finger flexors, while the thumb side provides the opening where the hooks can be separated. The two-on-one attack concentrates your combined hand strength against the opponent's single weakest connection point, creating a force advantage that makes the break achievable even against significantly stronger grapplers.",
+        "answer_line": "Attack the thumb-side connection",
+        "distractors": {
+          "plausible": [
+            "Attack the pinky-side connection",
+            "Pry straight up on both hands"
+          ],
+          "trap": [
+            "Pull straight back against grip"
+          ]
+        }
       },
       {
         "question": "Your opponent tightens their body lock and drives heavy forward hip pressure as you attempt the grip break - how do you adjust?",
-        "answer": "When the opponent counters with increased pressure and grip tightening, abandon the standing grip break and switch to the controlled guard pull variant. Accept the forward drive but control your descent by hooking one of their legs with your inside leg as you sit. Close the half guard entanglement during the descent itself rather than after landing. This converts their aggressive forward pressure into your guard recovery momentum. The key is recognizing within one to two seconds that the standing grip break is not working and making the tactical switch before their pressure overwhelms your base entirely."
+        "answer": "When the opponent counters with increased pressure and grip tightening, abandon the standing grip break and switch to the controlled guard pull variant. Accept the forward drive but control your descent by hooking one of their legs with your inside leg as you sit. Close the half guard entanglement during the descent itself rather than after landing. This converts their aggressive forward pressure into your guard recovery momentum. The key is recognizing within one to two seconds that the standing grip break is not working and making the tactical switch before their pressure overwhelms your base entirely.",
+        "answer_line": "Switch to controlled guard pull",
+        "distractors": {
+          "plausible": [
+            "Keep fighting standing grip break",
+            "Push back against the pressure"
+          ],
+          "trap": [
+            "Turtle and try to stand back up"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the knee insertion phase of the reversal?",
-        "answer": "The knee insertion must occur during the standing-to-ground transition, not after you have already landed on the mat. As you rotate and descend, your inside knee drives between the opponent's legs and your lower legs immediately hook their near leg to establish the half guard entanglement. If you land flat without the entanglement established, the opponent has a clear pathway to pass directly to side control or mount. The timing of the knee insertion during descent rather than after landing is what separates successful guard recovery from being passed immediately upon hitting the ground."
+        "answer": "The knee insertion must occur during the standing-to-ground transition, not after you have already landed on the mat. As you rotate and descend, your inside knee drives between the opponent's legs and your lower legs immediately hook their near leg to establish the half guard entanglement. If you land flat without the entanglement established, the opponent has a clear pathway to pass directly to side control or mount. The timing of the knee insertion during descent rather than after landing is what separates successful guard recovery from being passed immediately upon hitting the ground.",
+        "answer_line": "Insert knee during the descent",
+        "distractors": {
+          "plausible": [
+            "Insert knee after landing flat",
+            "Insert knee before opponent lowers"
+          ],
+          "trap": [
+            "Land flat, then hook the leg"
+          ]
+        }
       },
       {
         "question": "What grip must you secure immediately after breaking the body lock, and why is it critical?",
-        "answer": "You must immediately secure wrist control on the opponent's near arm the instant their grip separates. This wrist control serves three essential functions: it prevents the opponent from re-locking their hands which would reset the entire escape to zero, it provides a connection point that allows you to control the transition from standing to ground, and it gives you directional control over the opponent's arm during the rotation phase which facilitates the knee insertion for half guard. Without this wrist control, opponents re-lock their grip within one to two seconds in approximately eighty percent of cases, wasting the energy invested in the grip break."
+        "answer": "You must immediately secure wrist control on the opponent's near arm the instant their grip separates. This wrist control serves three essential functions: it prevents the opponent from re-locking their hands which would reset the entire escape to zero, it provides a connection point that allows you to control the transition from standing to ground, and it gives you directional control over the opponent's arm during the rotation phase which facilitates the knee insertion for half guard. Without this wrist control, opponents re-lock their grip within one to two seconds in approximately eighty percent of cases, wasting the energy invested in the grip break.",
+        "answer_line": "Secure wrist control on near arm",
+        "distractors": {
+          "plausible": [
+            "Grab a fresh body lock grip",
+            "Control the far-side arm instead"
+          ],
+          "trap": [
+            "Let go and sprint to guard"
+          ]
+        }
       },
       {
         "question": "In which direction should your hips rotate during the transition from standing to half guard, and what determines this direction?",
-        "answer": "Your hips should rotate toward the opponent, turning to face them rather than turning away. The direction is determined by which arm you have wrist control on - you rotate toward the controlled arm side. Turning to face the opponent allows you to insert your knee between their legs from the front and establish half guard with the proper orientation for underhook battles and sweeps. Turning away would expose your back and potentially give the opponent an even better angle for back control. The rotation must be coordinated with the knee insertion so that as your hips face the opponent, your inside leg is already threading between their legs."
+        "answer": "Your hips should rotate toward the opponent, turning to face them rather than turning away. The direction is determined by which arm you have wrist control on - you rotate toward the controlled arm side. Turning to face the opponent allows you to insert your knee between their legs from the front and establish half guard with the proper orientation for underhook battles and sweeps. Turning away would expose your back and potentially give the opponent an even better angle for back control. The rotation must be coordinated with the knee insertion so that as your hips face the opponent, your inside leg is already threading between their legs.",
+        "answer_line": "Rotate hips toward the opponent",
+        "distractors": {
+          "plausible": [
+            "Rotate away to hide the back",
+            "Rotate toward your free-hand side"
+          ],
+          "trap": [
+            "Turn your back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent counters your initial grip break by re-locking at a higher position around your chest - what is your chain attack?",
-        "answer": "Each re-lock is mechanically weaker than the previous one because the opponent loses their optimal hand positioning during the transition. Attack the new lock immediately rather than allowing them to settle it. Target the re-locking moment itself when their hands are in transition as your next breaking window. If the higher lock persists, use the additional space created below the lock to work your elbows deeper inside the gap and create a stronger wedge. Chain three to four rapid grip break attempts from alternating angles, as the cumulative fatigue on the opponent's grip strength and the repeated positional adjustments degrade their lock quality progressively."
+        "answer": "Each re-lock is mechanically weaker than the previous one because the opponent loses their optimal hand positioning during the transition. Attack the new lock immediately rather than allowing them to settle it. Target the re-locking moment itself when their hands are in transition as your next breaking window. If the higher lock persists, use the additional space created below the lock to work your elbows deeper inside the gap and create a stronger wedge. Chain three to four rapid grip break attempts from alternating angles, as the cumulative fatigue on the opponent's grip strength and the repeated positional adjustments degrade their lock quality progressively.",
+        "answer_line": "Attack the re-lock in transition",
+        "distractors": {
+          "plausible": [
+            "Wait for higher lock to settle",
+            "Restart with one big break"
+          ],
+          "trap": [
+            "Stop breaking, accept the re-lock"
+          ]
+        }
       },
       {
         "question": "Why is lowering your center of gravity essential before attempting the grip break?",
-        "answer": "Lowering your center of gravity by bending your knees and dropping your hips serves multiple essential functions. First, it creates a stable base that resists throws, lifts, and mat returns during the vulnerable grip break window when you are focused on hand fighting rather than takedown defense. Second, the bent-knee position loads your legs with potential energy for the explosive hip drive that powers the grip break. Third, it makes your body heavier and harder to manipulate because your weight is distributed lower and wider. An upright stance with straight knees provides no base against throws, generates no hip power for the break, and makes you easy to off-balance in any direction."
+        "answer": "Lowering your center of gravity by bending your knees and dropping your hips serves multiple essential functions. First, it creates a stable base that resists throws, lifts, and mat returns during the vulnerable grip break window when you are focused on hand fighting rather than takedown defense. Second, the bent-knee position loads your legs with potential energy for the explosive hip drive that powers the grip break. Third, it makes your body heavier and harder to manipulate because your weight is distributed lower and wider. An upright stance with straight knees provides no base against throws, generates no hip power for the break, and makes you easy to off-balance in any direction.",
+        "answer_line": "Bend knees to build base and power",
+        "distractors": {
+          "plausible": [
+            "Stay upright to save energy",
+            "Lean forward into the lock"
+          ],
+          "trap": [
+            "Stand tall and straighten legs"
+          ]
+        }
       },
       {
         "question": "What are the three defensive structures you must establish immediately upon recovering half guard from the reversal?",
-        "answer": "The three immediate priorities upon establishing half guard are: first, create forearm frames against the opponent's shoulders to prevent them from driving chest-to-chest pressure that would flatten you. Second, fight for the underhook on the trapped-leg side which provides your primary offensive pathway to sweeps and back takes from half guard. Third, establish your hip angle by turning onto your side facing the opponent rather than remaining flat on your back. These three structures must be established within the first two to three seconds of landing because the opponent will immediately attempt to consolidate top half guard with crossface and pressure. Failing to establish these structures converts your successful reversal into an immediate passing situation."
+        "answer": "The three immediate priorities upon establishing half guard are: first, create forearm frames against the opponent's shoulders to prevent them from driving chest-to-chest pressure that would flatten you. Second, fight for the underhook on the trapped-leg side which provides your primary offensive pathway to sweeps and back takes from half guard. Third, establish your hip angle by turning onto your side facing the opponent rather than remaining flat on your back. These three structures must be established within the first two to three seconds of landing because the opponent will immediately attempt to consolidate top half guard with crossface and pressure. Failing to establish these structures converts your successful reversal into an immediate passing situation.",
+        "answer_line": "Frames, underhook, hip angle",
+        "distractors": {
+          "plausible": [
+            "Crossface, posture, base only",
+            "Underhook, flat back, grips"
+          ],
+          "trap": [
+            "Stay flat and push on their hips"
+          ]
+        }
       },
       {
         "question": "If the grip break fails completely after multiple attempts and you cannot sit to guard, what alternative escape pathway remains?",
-        "answer": "If both standing grip breaks and controlled guard pulls have failed, the remaining option is the pummeling escape where you work to get both arms inside the body lock gap and use systematic pummeling to progressively widen the space until the lock fails. Each pummel cycle drives your elbows and forearms deeper between the opponent's arms and your torso, creating incremental separation. This is a slower, more energy-intensive method but works against grips too strong for explosive breaks. The pummeling can also be combined with lateral movement to create angular changes that stress the grip from multiple directions simultaneously."
+        "answer": "If both standing grip breaks and controlled guard pulls have failed, the remaining option is the pummeling escape where you work to get both arms inside the body lock gap and use systematic pummeling to progressively widen the space until the lock fails. Each pummel cycle drives your elbows and forearms deeper between the opponent's arms and your torso, creating incremental separation. This is a slower, more energy-intensive method but works against grips too strong for explosive breaks. The pummeling can also be combined with lateral movement to create angular changes that stress the grip from multiple directions simultaneously.",
+        "answer_line": "Pummel arms in and widen the gap",
+        "distractors": {
+          "plausible": [
+            "Repeat the same explosive break",
+            "Wait it out for them to tire"
+          ],
+          "trap": [
+            "Go limp and accept the lock"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Practice grip breaks with progressive resistance to avoid wrist and finger injuries from explosive pulling against locked grips. During controlled descent training, ensure adequate mat space and communicate with your partner about the speed of the takedown. Avoid slamming or dropping with excessive force during the standing-to-ground transition. When drilling the knee insertion, be mindful of your partner's knee ligaments and avoid torquing their trapped leg during rotation. Stop immediately if either partner reports any sharp pain in wrists, fingers, or knees during grip break or entanglement work."
+    "safety_considerations": "Practice grip breaks with progressive resistance to avoid wrist and finger injuries from explosive pulling against locked grips. During controlled descent training, ensure adequate mat space and communicate with your partner about the speed of the takedown. Avoid slamming or dropping with excessive force during the standing-to-ground transition. When drilling the knee insertion, be mindful of your partner's knee ligaments and avoid torquing their trapped leg during rotation. Stop immediately if either partner reports any sharp pain in wrists, fingers, or knees during grip break or entanglement work.",
+    "clips": [
+      {
+        "id": "ZGgfRpUJvHU",
+        "title": "Body lock counter and submission",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "FreeChannelOpen",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DFXdqByRxNg",
+        "title": "Standing rear body lock: counters and reversals",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 318,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reversal from Body Lock Defender",
@@ -363,23 +495,73 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that indicates your opponent is attempting the body lock reversal?",
-        "answer": "The earliest cue is feeling the opponent's hands or fingers begin to attack your locked grip connection, typically targeting the thumb-side overlap where the grip is weakest. You will feel pulling, prying, or peeling pressure against your fingers or wrists before any other physical change occurs. This hand activity precedes the hip lowering and wedge insertion by one to two seconds, giving you a critical early warning window to either tighten your grip, increase pressure, or commit to an immediate takedown before the escape develops further."
+        "answer": "The earliest cue is feeling the opponent's hands or fingers begin to attack your locked grip connection, typically targeting the thumb-side overlap where the grip is weakest. You will feel pulling, prying, or peeling pressure against your fingers or wrists before any other physical change occurs. This hand activity precedes the hip lowering and wedge insertion by one to two seconds, giving you a critical early warning window to either tighten your grip, increase pressure, or commit to an immediate takedown before the escape develops further.",
+        "answer_line": "Fingers prying at thumb-side grip",
+        "distractors": {
+          "plausible": [
+            "Sudden hip lowering pressure",
+            "Opponent's weight shifting back"
+          ],
+          "trap": [
+            "No warning until they're on the mat"
+          ]
+        }
       },
       {
         "question": "Why should you execute a takedown rather than fight the grip break when you feel reversal attempts beginning?",
-        "answer": "The body lock is designed as an offensive platform for throws and mat returns, not as a static holding position. Engaging in a grip-fighting battle plays into the bottom player's strategy because they only need one successful break while you must maintain the grip indefinitely. Your locked grip is at maximum strength in the first seconds of establishment and degrades with each passing moment as the opponent creates wedges and separation. Using the grip offensively through immediate takedown execution converts your diminishing asset into a positional advancement before the opponent can neutralize it through systematic grip breaking."
+        "answer": "The body lock is designed as an offensive platform for throws and mat returns, not as a static holding position. Engaging in a grip-fighting battle plays into the bottom player's strategy because they only need one successful break while you must maintain the grip indefinitely. Your locked grip is at maximum strength in the first seconds of establishment and degrades with each passing moment as the opponent creates wedges and separation. Using the grip offensively through immediate takedown execution converts your diminishing asset into a positional advancement before the opponent can neutralize it through systematic grip breaking.",
+        "answer_line": "Use the grip now, it's strongest",
+        "distractors": {
+          "plausible": [
+            "Grip fighting wins over time",
+            "Hold the lock to tire them out"
+          ],
+          "trap": [
+            "Wait for a bigger opening"
+          ]
+        }
       },
       {
         "question": "How should you adjust when the opponent lowers their base significantly during the reversal attempt?",
-        "answer": "Match the opponent's level change immediately by lowering your own hips and bending your knees to maintain chest-to-back connection at the new height. If you remain upright while they lower, your chest loses contact with their back, creating the space they need for the grip break. Additionally, maintain your hip drive into their lower back at the adjusted angle. The opponent's level drop is designed to create a stable base for their grip break, so your response must neutralize that stability by driving your weight through them at whatever height they choose."
+        "answer": "Match the opponent's level change immediately by lowering your own hips and bending your knees to maintain chest-to-back connection at the new height. If you remain upright while they lower, your chest loses contact with their back, creating the space they need for the grip break. Additionally, maintain your hip drive into their lower back at the adjusted angle. The opponent's level drop is designed to create a stable base for their grip break, so your response must neutralize that stability by driving your weight through them at whatever height they choose.",
+        "answer_line": "Match their level, keep chest tight",
+        "distractors": {
+          "plausible": [
+            "Stay high and drive down harder",
+            "Step back to reset your angle"
+          ],
+          "trap": [
+            "Stand tall and lift them up"
+          ]
+        }
       },
       {
         "question": "What is the correct response when you feel the opponent beginning a controlled guard pull to escape the body lock?",
-        "answer": "Immediately sprawl your hips backward and downward while maintaining your grip to prevent the opponent from hooking your legs as they descend. Your goal is to follow them to the ground while preventing any leg entanglement that would establish half guard or closed guard. If they complete the sit successfully, immediately release the body lock and transition to a passing position by establishing crossface and hip control. Racing to establish top pressure before they can consolidate guard structure is critical because the first two to three seconds after landing determine whether you are passing or playing into their guard."
+        "answer": "Immediately sprawl your hips backward and downward while maintaining your grip to prevent the opponent from hooking your legs as they descend. Your goal is to follow them to the ground while preventing any leg entanglement that would establish half guard or closed guard. If they complete the sit successfully, immediately release the body lock and transition to a passing position by establishing crossface and hip control. Racing to establish top pressure before they can consolidate guard structure is critical because the first two to three seconds after landing determine whether you are passing or playing into their guard.",
+        "answer_line": "Sprawl back, block leg entanglement",
+        "distractors": {
+          "plausible": [
+            "Sit down with them immediately",
+            "Pull them back up to standing"
+          ],
+          "trap": [
+            "Chase them down onto your back"
+          ]
+        }
       },
       {
         "question": "When is re-locking the grip after a partial break the correct tactical choice versus committing to a takedown?",
-        "answer": "Re-locking is correct when the opponent has broken the initial grip but has not yet secured wrist control on your arm, and you are still in a position to re-establish the lock at a different height quickly. This typically occurs in a sub-second window immediately after the break. However, if the opponent has secured wrist control or created significant body separation, attempting to re-lock will fail and wastes the final moments of your positional advantage. In that case, use whatever grip connection remains to drive forward into a takedown or scramble for top position rather than chasing a grip that is already compromised."
+        "answer": "Re-locking is correct when the opponent has broken the initial grip but has not yet secured wrist control on your arm, and you are still in a position to re-establish the lock at a different height quickly. This typically occurs in a sub-second window immediately after the break. However, if the opponent has secured wrist control or created significant body separation, attempting to re-lock will fail and wastes the final moments of your positional advantage. In that case, use whatever grip connection remains to drive forward into a takedown or scramble for top position rather than chasing a grip that is already compromised.",
+        "answer_line": "Re-lock before wrist control",
+        "distractors": {
+          "plausible": [
+            "Always re-lock after any break",
+            "Never re-lock, always takedown"
+          ],
+          "trap": [
+            "Chase the lock once space is big"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -402,6 +584,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed body lock retention and conversion against all reversal variants",
         "description": "Start from standing body lock with full resistance. Top player works to complete mat return or throw while bottom player attempts all reversal variants. Two-minute rounds with role switching. Track conversion rate to back control or side control versus opponent achieving half guard recovery. Target seventy percent or higher conversion rate against equal-level partners."
+      }
+    ],
+    "clips": [
+      {
+        "id": "we3wrU-Ctbw",
+        "title": "Body lock pass details: holding it through resistance",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "The B-Team",
+        "duration": 466,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "y-gsdLH2YBs",
+        "title": "Beating the step over from body lock",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 242,
+        "verified": "2026-07-15"
       }
     ]
   }

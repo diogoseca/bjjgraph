@@ -142,6 +142,54 @@ description: "How to defend against Scramble to Guard in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scramble to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the turtle escape: circle the reguard",
+      "description": "Scramble to Guard (Defender) film study: Countering the turtle escape: circle the reguard, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A7d7qR0oH8k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A7d7qR0oH8k",
+      "url": "https://www.youtube.com/watch?v=A7d7qR0oH8k",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT147S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control escape vs a bigger stronger opponent",
+      "description": "Scramble to Guard (Defender) film study: Side control escape vs a bigger stronger opponent, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
+      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Recovering hooks from back control",
+      "description": "Scramble to Guard (Defender) film study: Recovering hooks from back control, taught by Carnage BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sxU42xfnX9s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sxU42xfnX9s",
+      "url": "https://www.youtube.com/watch?v=sxU42xfnX9s",
+      "creator": { "@type": "Person", "name": "Carnage BJJ" },
+      "duration": "PT99S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +201,42 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 **Opponent's Starting Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scramble to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A7d7qR0oH8k)
+
+<p class="clip-credit"><strong>Countering the turtle escape: circle the reguard</strong> — taught by JitzLive · 2:27 · <a href="https://www.youtube.com/watch?v=A7d7qR0oH8k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_JPZaIcr90c)
+
+<p class="clip-credit"><strong>Side control escape vs a bigger stronger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sxU42xfnX9s)
+
+<p class="clip-credit"><strong>Recovering hooks from back control</strong> — taught by Carnage BJJ · 1:39 · <a href="https://www.youtube.com/watch?v=sxU42xfnX9s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -142,6 +142,54 @@ description: "Complete defensive guide against the calf slicer from saddle inclu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mir Lock vs Saddle Escape",
+      "description": "Calf Slicer from Saddle (Defender) film study: Mir Lock vs Saddle Escape, taught by ZombieProof BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ah7Eb5ewXAM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ah7Eb5ewXAM",
+      "url": "https://www.youtube.com/watch?v=Ah7Eb5ewXAM",
+      "creator": { "@type": "Person", "name": "ZombieProof BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and escaping the saddle",
+      "description": "Calf Slicer from Saddle (Defender) film study: Defending and escaping the saddle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CFTLb8iywJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CFTLb8iywJg",
+      "url": "https://www.youtube.com/watch?v=CFTLb8iywJg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT383S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clearing the knee line to defend leg locks",
+      "description": "Calf Slicer from Saddle (Defender) film study: Clearing the knee line to defend leg locks, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
+      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +200,42 @@ Defending the calf slicer from saddle requires recognizing that you are already 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ah7Eb5ewXAM)
+
+<p class="clip-credit"><strong>Mir Lock vs Saddle Escape</strong> — taught by ZombieProof BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=Ah7Eb5ewXAM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CFTLb8iywJg)
+
+<p class="clip-credit"><strong>Defending and escaping the saddle</strong> — taught by Lachlan Giles · 6:23 · <a href="https://www.youtube.com/watch?v=CFTLb8iywJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+
+<p class="clip-credit"><strong>Clearing the knee line to defend leg locks</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

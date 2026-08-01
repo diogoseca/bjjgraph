@@ -34,6 +34,43 @@ description: "Master the toe hold from Honey Hole in BJJ. Complete finishing gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Honey Hole \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Time Lock from the Honey Hole",
+      "description": "Toe Hold from Honey Hole film study: Time Lock from the Honey Hole, taught by The Muscular Octopus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Qx4xodJU_9Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Qx4xodJU_9Q",
+      "url": "https://www.youtube.com/watch?v=Qx4xodJU_9Q",
+      "creator": { "@type": "Person", "name": "The Muscular Octopus" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking the Toe Hold from the Saddle",
+      "description": "Toe Hold from Honey Hole film study: Attacking the Toe Hold from the Saddle, taught by Kieran Davern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eHl1rNrv_k0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eHl1rNrv_k0",
+      "url": "https://www.youtube.com/watch?v=eHl1rNrv_k0",
+      "creator": { "@type": "Person", "name": "Kieran Davern" },
+      "duration": "PT232S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ In competition, this technique forces opponents to choose between defending the 
 **Starting Position**: [[Positions/Ashi Garami/Honey Hole]] · **From**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Honey Hole in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Qx4xodJU_9Q)
+
+<p class="clip-credit"><strong>Time Lock from the Honey Hole</strong> — taught by The Muscular Octopus · 1:01 · <a href="https://www.youtube.com/watch?v=Qx4xodJU_9Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eHl1rNrv_k0)
+
+<p class="clip-credit"><strong>Attacking the Toe Hold from the Saddle</strong> — taught by Kieran Davern · 3:52 · <a href="https://www.youtube.com/watch?v=eHl1rNrv_k0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -243,9 +308,9 @@ In competition, this technique forces opponents to choose between defending the 
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Achilles Lock]]
 - [[Positions/Ashi Garami/Honey Hole]] - Primary starting position providing inside leg triangle control for the toe hold
 - [[Positions/Ashi Garami/Saddle]] - Related control position with similar leg configuration enabling the same attack

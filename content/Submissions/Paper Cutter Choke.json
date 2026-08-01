@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries (bilateral compression)",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "variant_uniqueness": "Scissoring collar-and-forearm blood choke from top control",
   "summary": "The Paper Cutter Choke is a gi blood choke from side control and other top pins, where the attacker feeds a deep cross-collar grip and saws the forearm across the far carotid to force the tap.",
   "overview": "The Paper Cutter Choke is a highly effective blood choke executed primarily from side control, though it can also be applied from various transitional positions including north-south and turtle. The technique derives its name from the cutting motion of the choking arm across the opponent's neck, similar to how paper is cut with a blade. This submission targets both carotid arteries simultaneously through a combination of the gi collar and the attacker's forearm, creating a powerful constriction that leads to rapid unconsciousness if not defended. The Paper Cutter Choke is particularly dangerous because it can be applied with relatively little warning and often catches opponents by surprise during position transitions. The technique is valued for its mechanical efficiency—once the grip is secured and the angle is correct, very little strength is required to finish. This makes it an excellent submission for practitioners of all sizes and is especially effective against larger, stronger opponents who might resist other collar chokes. The choke is frequently taught as part of side control attack sequences and integrates seamlessly with other submissions like the cross collar choke and arm triangle.",
@@ -180,6 +183,35 @@
       "variation_name": "Reverse Paper Cutter (Clock Choke Variation)",
       "description": "Establish the collar grip from the opposite side, with your choking hand in the near collar instead of far collar. Transition your position toward their head (similar to clock choke setup), then use your forearm across their neck while pulling the near collar. This variation requires more mobility but can catch opponents who defend the traditional paper cutter well.",
       "when_to_use": "When opponent defends their far collar effectively; as a combination attack with traditional paper cutter to create dilemma"
+    }
+  ],
+  "clips": [
+    {
+      "id": "AKfEIInO9Tk",
+      "title": "Kesa Gatame to Paper Cutter Choke",
+      "by": "AMAGFightTeam",
+      "vertical": false,
+      "channel": "AMAGFightTeam",
+      "duration": 38,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "5z7hF2YJxeo",
+      "title": "Kesa to Paper Cutter Choke",
+      "by": "Global MMA",
+      "vertical": false,
+      "channel": "global mma",
+      "duration": 112,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "vhFpxC1vCag",
+      "title": "Paper Cutter Choke with Lapel",
+      "by": "Robert Hugus",
+      "vertical": false,
+      "channel": "Robert Hugus BJJ Videos",
+      "duration": 42,
+      "verified": "2026-07-14"
     }
   ]
 }

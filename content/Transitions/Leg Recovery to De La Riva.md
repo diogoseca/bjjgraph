@@ -34,6 +34,54 @@ description: "Master Leg Recovery to De La Riva from leg drag bottom. Extract tr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Recovery to De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tips to make your de la Riva guard unpassable",
+      "description": "Leg Recovery to De La Riva film study: Tips to make your de la Riva guard unpassable, taught by Juanjo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wLSe23vSbP0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wLSe23vSbP0",
+      "url": "https://www.youtube.com/watch?v=wLSe23vSbP0",
+      "creator": { "@type": "Person", "name": "Juanjo" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention vs knee through pass",
+      "description": "Leg Recovery to De La Riva film study: Guard retention vs knee through pass, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KoJEv3ipDdk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KoJEv3ipDdk",
+      "url": "https://www.youtube.com/watch?v=KoJEv3ipDdk",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT134S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Leg Recovery to De La Riva film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition exploits a fundamental vulnerability in the leg d
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Recovery to De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wLSe23vSbP0)
+
+<p class="clip-credit"><strong>Tips to make your de la Riva guard unpassable</strong> — taught by Juanjo · 1:42 · <a href="https://www.youtube.com/watch?v=wLSe23vSbP0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KoJEv3ipDdk)
+
+<p class="clip-credit"><strong>Guard retention vs knee through pass</strong> — taught by Lachlan Giles · 2:14 · <a href="https://www.youtube.com/watch?v=KoJEv3ipDdk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

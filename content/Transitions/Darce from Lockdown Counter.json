@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Darce from Lockdown Counter is a powerful offensive response to the Electric Chair position that transforms a defensive situation into a submission threat. When trapped in the Electric Chair from top position, the bottom player's commitment to the underhook and extension mechanics creates a window for the Darce choke entry. Rather than fighting to extract the leg, this technique exploits the opponent's arm positioning and neck exposure that naturally occurs during aggressive Electric Chair attacks.\n\nThis counter represents an advanced understanding of positional warfare in half guard. The lockdown system's effectiveness relies on the bottom player maintaining specific grips and body alignment. By attacking the Darce, you force them to release their controls or risk being choked, fundamentally disrupting the lockdown system's mechanics. The technique works particularly well in no-gi where the lockdown system is most commonly employed.\n\nFrom a strategic perspective, having this counter in your arsenal changes the dynamic of the Electric Chair exchange entirely. Bottom players who know you threaten the Darce must be more conservative with their underhook depth and extension, which reduces the effectiveness of their sweeps and submissions. This creates a dilemma-based defense that exemplifies high-level guard passing against the lockdown system.",
   "related_content": [
     {
@@ -200,46 +212,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Darce from Lockdown Counter?",
-        "answer": "The primary goal is to transform a defensive position (being trapped in Electric Chair) into an offensive submission threat. By attacking the Darce choke, you force the bottom player to abandon their lockdown controls to defend, either submitting them or creating an opportunity to escape and pass."
+        "answer": "The primary goal is to transform a defensive position (being trapped in Electric Chair) into an offensive submission threat. By attacking the Darce choke, you force the bottom player to abandon their lockdown controls to defend, either submitting them or creating an opportunity to escape and pass.",
+        "answer_line": "Turn defense into a Darce threat",
+        "distractors": {
+          "plausible": [
+            "Free the trapped leg first",
+            "Sweep to top before attacking"
+          ],
+          "trap": [
+            "Turn belly-down to slip free"
+          ]
+        }
       },
       {
         "question": "What position do you start Darce from Lockdown Counter from?",
-        "answer": "This technique starts from Electric Chair Top, specifically when your opponent has you in the lockdown from half guard bottom and is attacking with the Electric Chair position. Your leg is trapped in their lockdown and they have a deep underhook reaching across your back."
+        "answer": "This technique starts from Electric Chair Top, specifically when your opponent has you in the lockdown from half guard bottom and is attacking with the Electric Chair position. Your leg is trapped in their lockdown and they have a deep underhook reaching across your back.",
+        "answer_line": "Electric Chair Top, leg trapped",
+        "distractors": {
+          "plausible": [
+            "Half guard top, no underhook yet",
+            "Knee slice pass position"
+          ],
+          "trap": [
+            "Back control with hooks in"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Darce from Lockdown Counter?",
-        "answer": "The key grip is the Darce figure-four configuration: your choking arm threads across opponent's neck (over their far shoulder, under their near armpit) and connects to your opposite bicep. Your free hand then cups behind your choking arm's elbow or grabs your own wrist. Gable grip variation also works."
+        "answer": "The key grip is the Darce figure-four configuration: your choking arm threads across opponent's neck (over their far shoulder, under their near armpit) and connects to your opposite bicep. Your free hand then cups behind your choking arm's elbow or grabs your own wrist. Gable grip variation also works.",
+        "answer_line": "Figure-four arm to own bicep",
+        "distractors": {
+          "plausible": [
+            "Single collar tie, no figure-four",
+            "Double underhooks around waist"
+          ],
+          "trap": [
+            "Grab opponent's far wrist only"
+          ]
+        }
       },
       {
         "question": "How do you counter Darce from Lockdown Counter?",
-        "answer": "Primary counters include: immediately releasing the underhook and framing to create distance before the grip connects, tucking the chin and turning into the opponent to prevent arm threading, or rolling toward the opponent to relieve pressure (though this can tighten the choke if done poorly)."
+        "answer": "Primary counters include: immediately releasing the underhook and framing to create distance before the grip connects, tucking the chin and turning into the opponent to prevent arm threading, or rolling toward the opponent to relieve pressure (though this can tighten the choke if done poorly).",
+        "answer_line": "Release underhook, frame distance",
+        "distractors": {
+          "plausible": [
+            "Push their head away and wait",
+            "Grip fight the choking hand"
+          ],
+          "trap": [
+            "Pull them tighter into your chest"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Darce from Lockdown Counter?",
-        "answer": "The optimal timing is when the opponent fully commits to their underhook during the Electric Chair extension. When their arm reaches deeply across your back and their head drops toward your hip, they cannot quickly retract their arm, creating the perfect window for Darce entry."
+        "answer": "The optimal timing is when the opponent fully commits to their underhook during the Electric Chair extension. When their arm reaches deeply across your back and their head drops toward your hip, they cannot quickly retract their arm, creating the perfect window for Darce entry.",
+        "answer_line": "When underhook is fully committed",
+        "distractors": {
+          "plausible": [
+            "Right as lockdown first locks",
+            "After they've already retracted"
+          ],
+          "trap": [
+            "While they're building to a sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent feels the Darce coming and starts to retract their underhook - what do you do?",
-        "answer": "If they retract early, immediately abandon the Darce and transition to passing their now-weakened guard. Their primary lockdown control (the deep underhook) is compromised. Use knee slice pass or smash pass before they can re-establish grips. The Darce threat accomplished its goal of breaking their control."
+        "answer": "If they retract early, immediately abandon the Darce and transition to passing their now-weakened guard. Their primary lockdown control (the deep underhook) is compromised. Use knee slice pass or smash pass before they can re-establish grips. The Darce threat accomplished its goal of breaking their control.",
+        "answer_line": "Abandon Darce, pass the guard",
+        "distractors": {
+          "plausible": [
+            "Chase the arm and force the grip",
+            "Stay still and reset position"
+          ],
+          "trap": [
+            "Release all control and stand up"
+          ]
+        }
       },
       {
         "question": "What is the critical hip and shoulder movement during the finishing sequence?",
-        "answer": "During the finish, sprawl your hips back and down while driving your shoulder into the side of opponent's head. Walk your body perpendicular to theirs, ending at a 90-degree angle. Squeeze your elbows together and drive your sprawling hip toward the mat. This combination maximizes pressure on the carotid arteries."
+        "answer": "During the finish, sprawl your hips back and down while driving your shoulder into the side of opponent's head. Walk your body perpendicular to theirs, ending at a 90-degree angle. Squeeze your elbows together and drive your sprawling hip toward the mat. This combination maximizes pressure on the carotid arteries.",
+        "answer_line": "Sprawl hips, shoulder into head",
+        "distractors": {
+          "plausible": [
+            "Sit back and pull with arms only",
+            "Stay square, squeeze elbows"
+          ],
+          "trap": [
+            "Lean back and crank the neck up"
+          ]
+        }
       },
       {
         "question": "How should you position your legs during the Darce attempt while still in the lockdown?",
-        "answer": "Use your free leg to hook opponent's hip or post on the mat for base. Even with one leg trapped in lockdown, hip control prevents opponent from rolling away or creating distance. Prioritize stopping their hip movement over immediately extracting your trapped leg - the choke can finish with your leg still locked."
+        "answer": "Use your free leg to hook opponent's hip or post on the mat for base. Even with one leg trapped in lockdown, hip control prevents opponent from rolling away or creating distance. Prioritize stopping their hip movement over immediately extracting your trapped leg - the choke can finish with your leg still locked.",
+        "answer_line": "Free leg hooks hip, controls it",
+        "distractors": {
+          "plausible": [
+            "Rip trapped leg free first",
+            "Stand up on both feet"
+          ],
+          "trap": [
+            "Ignore hips, chase the arm only"
+          ]
+        }
       },
       {
         "question": "Your Darce grip is connected but opponent rolls toward you - how do you respond?",
-        "answer": "Follow the roll while maintaining your Darce grip. Often the roll actually tightens the choke rather than relieving it. If they complete the roll and you end up on bottom, you can still finish the Darce from guard position. If you end up on top, you have superior finishing position with gravity assisting the choke."
+        "answer": "Follow the roll while maintaining your Darce grip. Often the roll actually tightens the choke rather than relieving it. If they complete the roll and you end up on bottom, you can still finish the Darce from guard position. If you end up on top, you have superior finishing position with gravity assisting the choke.",
+        "answer_line": "Follow the roll, keep the grip",
+        "distractors": {
+          "plausible": [
+            "Release grip to avoid being rolled",
+            "Post out and stop the roll"
+          ],
+          "trap": [
+            "Let go and scramble to top"
+          ]
+        }
       },
       {
         "question": "What distinguishes a properly placed Darce from a neck crank?",
-        "answer": "A properly placed Darce has the crook of your elbow positioned at the front of opponent's throat, compressing the carotid arteries bilaterally. If your grip is too high (on the jaw), you're cranking the neck rather than choking. Always check that your arm threading goes across the neck at throat level, not jaw level."
+        "answer": "A properly placed Darce has the crook of your elbow positioned at the front of opponent's throat, compressing the carotid arteries bilaterally. If your grip is too high (on the jaw), you're cranking the neck rather than choking. Always check that your arm threading goes across the neck at throat level, not jaw level.",
+        "answer_line": "Elbow crook at throat level",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder to finish it",
+            "Blade of wrist under the chin"
+          ],
+          "trap": [
+            "Torque the jaw grip until they tap"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Darce choke creates significant pressure on the neck and can cause unconsciousness rapidly when applied correctly. Partners should tap early and often during training, and the person applying the choke must release immediately upon tap. When drilling, apply the choke slowly and give your partner time to tap before full pressure is achieved. The transition from Electric Chair involves potential torque on the trapped knee - be mindful not to explosively change position while your leg is in the lockdown. If practicing with newer training partners, communicate clearly about the choke's power and watch for signs of a blood choke taking effect (face color change, going limp) even before they tap."
+    "safety_considerations": "The Darce choke creates significant pressure on the neck and can cause unconsciousness rapidly when applied correctly. Partners should tap early and often during training, and the person applying the choke must release immediately upon tap. When drilling, apply the choke slowly and give your partner time to tap before full pressure is achieved. The transition from Electric Chair involves potential torque on the trapped knee - be mindful not to explosively change position while your leg is in the lockdown. If practicing with newer training partners, communicate clearly about the choke's power and watch for signs of a blood choke taking effect (face color change, going limp) even before they tap.",
+    "clips": [
+      {
+        "id": "22EYQ2uhxQw",
+        "title": "Side control to north-south d'arce",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R54Wr2lYfEQ",
+        "title": "Countering the Whip Up with the Darce Choke",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 130,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Xb4-phb4BhE",
+        "title": "How to Break the Lockdown Half Guard",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 251,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Darce from Lockdown Counter Defender",
@@ -324,23 +465,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting Darce from Lockdown Counter?",
-        "answer": "The earliest cue is the top player's nearside arm beginning to move across your neck instead of defending the lockdown or maintaining crossface control. You will feel bicep pressure against the side of your neck combined with their shoulder driving forward into your head. This threading motion is the initiation of the Darce and must be addressed immediately before the grip connects."
+        "answer": "The earliest cue is the top player's nearside arm beginning to move across your neck instead of defending the lockdown or maintaining crossface control. You will feel bicep pressure against the side of your neck combined with their shoulder driving forward into your head. This threading motion is the initiation of the Darce and must be addressed immediately before the grip connects.",
+        "answer_line": "Nearside arm threading across neck",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure into your jaw",
+            "Their hips sliding toward your head"
+          ],
+          "trap": [
+            "Nothing until the grip locks"
+          ]
+        }
       },
       {
         "question": "Why is retracting the underhook the primary defensive response rather than continuing the Electric Chair attack?",
-        "answer": "The deep underhook is the exact arm configuration that enables the Darce choke. Keeping it extended provides the top player with the trapped arm they need to complete the figure-four around your neck. The Darce choke can be finished faster than most Electric Chair sweeps, so the risk-reward calculation strongly favors immediate arm retraction. You can always re-establish the underhook once the choke threat passes."
+        "answer": "The deep underhook is the exact arm configuration that enables the Darce choke. Keeping it extended provides the top player with the trapped arm they need to complete the figure-four around your neck. The Darce choke can be finished faster than most Electric Chair sweeps, so the risk-reward calculation strongly favors immediate arm retraction. You can always re-establish the underhook once the choke threat passes.",
+        "answer_line": "Extended arm feeds the Darce",
+        "distractors": {
+          "plausible": [
+            "Reset hips for a stronger sweep",
+            "Pull free to break their grip"
+          ],
+          "trap": [
+            "Drive the underhook deeper in"
+          ]
+        }
       },
       {
         "question": "Your opponent has started threading the Darce arm but the grip is not yet connected - which defense should you prioritize?",
-        "answer": "Prioritize retracting your underhook immediately while framing on their bicep and neck to create distance. This is the highest-percentage defense because removing the trapped arm eliminates the arm-in configuration entirely. Simultaneously tuck your chin to deny the arm full passage across your neck. Speed is critical here - every fraction of a second the grip remains unconnected is time you have to prevent the choke."
+        "answer": "Prioritize retracting your underhook immediately while framing on their bicep and neck to create distance. This is the highest-percentage defense because removing the trapped arm eliminates the arm-in configuration entirely. Simultaneously tuck your chin to deny the arm full passage across your neck. Speed is critical here - every fraction of a second the grip remains unconnected is time you have to prevent the choke.",
+        "answer_line": "Retract underhook, frame and tuck",
+        "distractors": {
+          "plausible": [
+            "Grab their threading wrist and pull",
+            "Turn belly-down away from them"
+          ],
+          "trap": [
+            "Push into them to jam the thread"
+          ]
+        }
       },
       {
         "question": "How should awareness of the Darce counter change the way you attack with the Electric Chair?",
-        "answer": "Awareness should make you more disciplined with underhook depth and chin positioning. Maintain your chin tucked even during extension, reach deep enough for effective sweeps but keep your arm retractable, and constantly monitor the top player's arm position. Develop the ability to threaten Electric Chair while keeping your neck angle closed to the Darce threading path. This measured approach reduces your exposure without abandoning the lockdown system."
+        "answer": "Awareness should make you more disciplined with underhook depth and chin positioning. Maintain your chin tucked even during extension, reach deep enough for effective sweeps but keep your arm retractable, and constantly monitor the top player's arm position. Develop the ability to threaten Electric Chair while keeping your neck angle closed to the Darce threading path. This measured approach reduces your exposure without abandoning the lockdown system.",
+        "answer_line": "Keep chin tucked, arm retractable",
+        "distractors": {
+          "plausible": [
+            "Reach as deep as possible always",
+            "Abandon underhooks entirely"
+          ],
+          "trap": [
+            "Extend arm fully to speed the sweep"
+          ]
+        }
       },
       {
         "question": "The Darce grip is locked and your opponent begins sprawling - what is your last-resort defense?",
-        "answer": "With a locked grip and sprawl pressure, release the lockdown entirely and hip escape away to create maximum distance. Use your free hand to push on their hip to prevent them from following. Tuck your chin as tightly as possible and try to extract your trapped arm by walking your hand toward your own hip. If you can create enough distance to break the chest-to-chest connection, the choke loses much of its finishing power. Accept the positional loss to half guard bottom rather than allowing the choke to finish."
+        "answer": "With a locked grip and sprawl pressure, release the lockdown entirely and hip escape away to create maximum distance. Use your free hand to push on their hip to prevent them from following. Tuck your chin as tightly as possible and try to extract your trapped arm by walking your hand toward your own hip. If you can create enough distance to break the chest-to-chest connection, the choke loses much of its finishing power. Accept the positional loss to half guard bottom rather than allowing the choke to finish.",
+        "answer_line": "Release lockdown, hip escape away",
+        "distractors": {
+          "plausible": [
+            "Bridge hard and try to roll them",
+            "Grip fight to strip the figure-four"
+          ],
+          "trap": [
+            "Pull guard tighter to stall it out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -363,6 +554,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full-resistance positional sparring from Electric Chair position. Bottom player attacks with sweeps and submissions while defending Darce counters. Top player works all lockdown escapes including Darce. Develop real-time decision-making for when to commit to attacks versus when to defend."
+      }
+    ],
+    "clips": [
+      {
+        "id": "t-7Q49INbe8",
+        "title": "Reversing the darce from half guard bottom",
+        "by": "Chosen Few BJJ coach",
+        "vertical": false,
+        "channel": "Chosen Few BJJ",
+        "duration": 174,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cirdExlsSOM",
+        "title": "Escaping the darce into a heel hook",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "420jits",
+        "duration": 248,
+        "verified": "2026-07-15"
       }
     ]
   },

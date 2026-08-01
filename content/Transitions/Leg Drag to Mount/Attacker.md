@@ -168,6 +168,43 @@ description: "How to execute Leg Drag to Mount in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag pass mechanics",
+      "description": "Leg Drag to Mount (Attacker) film study: Leg drag pass mechanics, taught by Procel BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8VT4dxSqCvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8VT4dxSqCvI",
+      "url": "https://www.youtube.com/watch?v=8VT4dxSqCvI",
+      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg drag pass from De La Riva",
+      "description": "Leg Drag to Mount (Attacker) film study: Leg drag pass from De La Riva, taught by BJJ4Breakfast coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j3VqFZ5LULQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j3VqFZ5LULQ",
+      "url": "https://www.youtube.com/watch?v=j3VqFZ5LULQ",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
+      "duration": "PT134S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ From a competitive standpoint, the leg drag to mount sequence scores points imme
 **From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8VT4dxSqCvI)
+
+<p class="clip-credit"><strong>Leg drag pass mechanics</strong> — taught by Procel BJJ coach · 1:34 · <a href="https://www.youtube.com/watch?v=8VT4dxSqCvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j3VqFZ5LULQ)
+
+<p class="clip-credit"><strong>Leg drag pass from De La Riva</strong> — taught by BJJ4Breakfast coach · 2:14 · <a href="https://www.youtube.com/watch?v=j3VqFZ5LULQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -19,7 +19,10 @@
   "target_area": "Shoulder joint (specifically glenohumeral joint and rotator cuff)",
   "starting_position": "Shoulder of Justice",
   "from_position": "Shoulder of Justice/Top",
-  "success_rate": 68,
+  "success_rate": {
+    "gi": 68,
+    "nogi": 68
+  },
   "summary": "The Americana from Shoulder of Justice is a figure-four shoulder lock that uses crushing jaw pressure to provoke the opponent's near-arm extension, then externally rotates the trapped arm against a pinned elbow to attack the shoulder joint.",
   "overview": "The Americana from Shoulder of Justice exploits one of the most punishing pin positions in Brazilian Jiu-Jitsu to create a high-percentage shoulder lock finish. The Shoulder of Justice's defining characteristic—intense shoulder pressure driven directly into the opponent's jaw—naturally forces defensive arm reactions that expose the near arm for the figure-four keylock grip. Unlike the Americana from standard side control, this variant benefits from the opponent's compromised mental state and severely restricted head movement, making defensive hand fighting significantly more difficult.\n\nThe mechanics of this finish rely on maintaining devastating jaw pressure while transitioning to wrist control on the trapped near arm. The opponent's instinct to push away from the shoulder creates the exact arm extension needed to establish the figure-four grip. Once secured, the top player paints the opponent's hand toward the mat in an arc while keeping the elbow pinned to the ground, using continued shoulder pressure as additional leverage to prevent the opponent from rotating their torso defensively. The combination of positional misery and mechanical advantage makes this one of the highest-percentage Americana setups available in the entire art.\n\nStrategically, this submission functions as the centerpiece of the Shoulder of Justice attack system. The threat of the Americana forces opponents to keep their arms tight, which in turn allows transitions to mount, north-south, or alternative submissions like the kimura and arm triangle. Understanding this dilemma structure is essential for both attackers seeking to finish and defenders attempting to survive the position.",
   "safety_considerations": {
@@ -116,17 +119,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 68,
+      "probability": {
+        "gi": 68,
+        "nogi": 68
+      },
       "result": "success"
     },
     {
       "to": "Shoulder of Justice/Top",
-      "probability": 21,
+      "probability": {
+        "gi": 21,
+        "nogi": 21
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 11,
+      "probability": {
+        "gi": 11,
+        "nogi": 11
+      },
       "result": "counter"
     }
   ],
@@ -310,51 +322,180 @@
       {
         "question": "What specific anatomical structures does the Americana from Shoulder of Justice attack?",
         "answer": "The Americana attacks the glenohumeral joint through forced external rotation of the humerus with the elbow pinned as a fulcrum. The primary structures under stress are the rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), the shoulder capsule and labrum, and the AC joint. The figure-four grip creates a lever that forces the humerus into external rotation beyond its safe range of motion, stressing these structures progressively until the opponent taps or injury occurs.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder: forced external rotation",
+        "distractors": {
+          "plausible": [
+            "Elbow joint, like an armbar",
+            "Wrist joint via hyperflexion"
+          ],
+          "trap": [
+            "Internal rotation (a Kimura)"
+          ]
+        }
       },
       {
         "question": "What physical and tactile indicators tell you the Americana is approaching the breaking point?",
         "answer": "Key indicators include increasing resistance in the paint motion as the rotator cuff reaches its end range, visible tensing of the opponent's shoulder and neck muscles, involuntary sounds or changes in breathing pattern, the opponent's body beginning to arch or bridge reflexively, and a distinct feeling of the shoulder joint reaching its mechanical limit where further rotation requires significantly more force. At this point you should be especially attentive to tap signals and apply pressure very slowly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rising resistance at end range",
+        "distractors": {
+          "plausible": [
+            "Grip suddenly feels looser",
+            "Opponent goes limp and quiet"
+          ],
+          "trap": [
+            "Loud breathing means keep cranking"
+          ]
+        }
       },
       {
         "question": "What control elements must be established before attempting the figure-four grip?",
         "answer": "Before the figure-four grip, you must have: shoulder pressure maintained in the opponent's jaw at 45 degrees toward their far shoulder preventing head rotation, hips connected to their near hip line preventing shrimps, the near-side arm accessible and partially extended through pressure-induced reaction, your base established with far knee posted wide for stability, and the opponent's far arm accounted for so it cannot interfere with the grip transition. Missing any of these elements significantly reduces finish probability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Jaw pressure, hip control, base",
+        "distractors": {
+          "plausible": [
+            "Far arm free, near hip open",
+            "Underhook on far side first"
+          ],
+          "trap": [
+            "Skip base, rush the grip"
+          ]
+        }
       },
       {
         "question": "At what point during the Americana execution is the opponent unable to escape?",
         "answer": "The point of no escape occurs when the figure-four grip is locked tight with the elbow firmly pinned to the mat and the hand has been painted below shoulder level. Once the hand passes below the shoulder line, the rotational force on the glenohumeral joint makes it biomechanically impossible for the opponent to straighten their arm or rotate their torso enough to relieve pressure. Before this point, defenders can still grip their belt, straighten the arm, or bridge to create escape opportunities.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand painted below shoulder line",
+        "distractors": {
+          "plausible": [
+            "When the figure-four first locks",
+            "When jaw pressure first bites"
+          ],
+          "trap": [
+            "Crank hard before elbow is pinned"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to bridge and roll toward you during the paint motion — what adjustment prevents escape?",
         "answer": "Post your far knee wider to stabilize your base against the bridge force and drop your hips heavier onto their near hip line. Do not fight the bridge directly — ride it while maintaining your figure-four grip and elbow pin. As the opponent returns to the mat after the bridge exhausts, immediately resume the paint motion with added pressure. If they continue rolling, follow to north-south while keeping the figure-four locked, as the grip translates well to the north-south angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post wide, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Flatten out and stop the bridge",
+            "Let go and rebuild your base"
+          ],
+          "trap": [
+            "Sit up tall to block their hips"
+          ]
+        }
       },
       {
         "question": "The opponent grabs their own belt to prevent you from painting their hand down — how do you break this defensive grip?",
         "answer": "Three options in order of preference: First, slide your figure-four grip further down toward their fingers to attack the weakest part of their grip — finger strength fails faster than wrist strength. Second, use sharp hip bumps to jar their grip loose while maintaining your own figure-four. Third, if the grip persists for more than 3 seconds, abandon the americana and immediately switch to a kimura by reversing the rotational direction, as their grip on their own belt actually assists the kimura finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Slide grip to attack fingers",
+        "distractors": {
+          "plausible": [
+            "Pry the wrist straight up",
+            "Wait out the grip, hold still"
+          ],
+          "trap": [
+            "Yank the arm, force the paint"
+          ]
+        }
       },
       {
         "question": "How should you adjust your figure-four grip if the opponent begins to straighten their arm during the finish?",
         "answer": "If the arm starts straightening, you are losing the americana angle. Immediately tighten your figure-four by squeezing your elbows together and pulling your grip hand closer to your chest to re-bend the elbow. If the arm continues straightening despite this, transition to a kimura grip by maintaining wrist control and switching to an overhand grip on the wrist while your other hand controls the elbow — the straight arm position actually makes the kimura easier to establish. Do not waste energy fighting to re-bend a nearly straight arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten figure-four, re-bend",
+        "distractors": {
+          "plausible": [
+            "Force the paint motion harder",
+            "Switch to a collar grip"
+          ],
+          "trap": [
+            "Release control, chase the arm"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the Americana from Shoulder of Justice in training?",
         "answer": "Apply the paint motion with slow progressive pressure over 3-5 seconds minimum — never jerk or spike. Use only 10-20% pressure in drilling. Always ensure your partner has a free hand available to tap. Stop immediately at any vocalization or sign of discomfort without waiting for a formal tap. Never repeatedly submit the same shoulder in one session. Be especially careful with partners who have existing shoulder injuries and only train with their explicit permission and medical clearance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure, 10-20% force",
+        "distractors": {
+          "plausible": [
+            "Repeat reps on the same arm",
+            "Finish fast before they defend"
+          ],
+          "trap": [
+            "Spike pressure to test the joint"
+          ]
+        }
       },
       {
         "question": "How do you properly release the Americana after your opponent taps?",
         "answer": "Immediately cease all rotational pressure on the shoulder — this is the highest priority. Then release the figure-four grip and carefully lower the arm back to a neutral position beside their body without dropping it suddenly. Release elbow control and allow your partner to move freely. Verbally check that they are okay. If they report any lingering pain, encourage them to keep the shoulder gently mobile and seek medical evaluation if discomfort persists beyond a few minutes.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop pressure, lower arm slow",
+        "distractors": {
+          "plausible": [
+            "Release the elbow grip first",
+            "Slide back to side control"
+          ],
+          "trap": [
+            "Hold the crank one beat longer"
+          ]
+        }
       },
       {
         "question": "How do you adjust the Americana finish approach for competition versus training?",
-        "answer": "In competition, you can apply the paint motion with full progressive speed and body weight commitment since the opponent is actively resisting and the stakes require efficiency. Establish the grip quickly during transitions before the opponent can set defensive grips. In training, use 10-20% pressure maximum, apply the finish over 3-5 seconds minimum, and prioritize your partner's safety over completion rate. In both contexts, never use sudden jerking force — the difference is speed of progressive application, not the use of explosive spikes."
+        "answer": "In competition, you can apply the paint motion with full progressive speed and body weight commitment since the opponent is actively resisting and the stakes require efficiency. Establish the grip quickly during transitions before the opponent can set defensive grips. In training, use 10-20% pressure maximum, apply the finish over 3-5 seconds minimum, and prioritize your partner's safety over completion rate. In both contexts, never use sudden jerking force — the difference is speed of progressive application, not the use of explosive spikes.",
+        "answer_line": "Full speed live, slow in drilling",
+        "distractors": {
+          "plausible": [
+            "Same pressure in both contexts",
+            "Slow in comp, fast in drilling"
+          ],
+          "trap": [
+            "Spike finish to end match fast"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "NFbf-Yi9BOU",
+        "title": "Slick Americana setup",
+        "by": "Joel Bouhey",
+        "vertical": false,
+        "channel": "JOEL BOUHEY",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wpZfDVXOeJw",
+        "title": "Side control Americana armlock",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 122,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "wckW_4r7vbk",
+        "title": "Americana from side control",
+        "by": "Roy Dean",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 194,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -444,27 +585,77 @@
       {
         "question": "How do you recognize the Americana setup from Shoulder of Justice before the grip is locked?",
         "answer": "The key recognition cues are: the opponent's top hand begins sliding along your near-side forearm toward your wrist while maintaining jaw pressure, you feel their bottom hand threading under your upper arm, and you notice a slight weight shift toward your legs as they prepare the paint motion. The grip transition is the critical recognition window — once you feel the figure-four lock forming, you must act immediately as defense becomes exponentially harder with each passing second.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their hand slides to your wrist",
+        "distractors": {
+          "plausible": [
+            "Weight shifts toward your head",
+            "They grab your collar first"
+          ],
+          "trap": [
+            "Reach across to strip their grip"
+          ]
+        }
       },
       {
         "question": "What is the safest approach to tapping to the Americana from Shoulder of Justice?",
         "answer": "Tap early and clearly using your free hand — slap the opponent's body or the mat at least twice with a firm, unmistakable signal. If your free hand is trapped, use verbal tapping by saying 'tap' loudly or tap with your feet on the mat. The critical safety rule is to tap before the hand passes significantly below shoulder level during the paint motion. Once the rotator cuff reaches end-range, injury can occur in fractions of a second. Never attempt to tough it out or wait for a better escape opportunity when the lock is deep.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, slap twice clearly",
+        "distractors": {
+          "plausible": [
+            "Tap once, softly, on the mat",
+            "Tug their sleeve to signal"
+          ],
+          "trap": [
+            "Hold out past end-range"
+          ]
+        }
       },
       {
         "question": "What defensive options are available once the figure-four grip is locked but the paint has not started?",
         "answer": "Your best option is to immediately grip your own wrist, belt, or lapel with your near hand to create a secondary barrier against the paint motion. Simultaneously attempt to bridge toward the trapped arm side to disrupt the opponent's base and reduce the effective paint angle. If you can time a shrimp during the opponent's weight adjustment before they pin the elbow, you may create enough space to begin guard recovery. The key is acting immediately — every second of delay reduces your success probability as the opponent consolidates the grip and pins the elbow.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip own wrist, bridge trapped side",
+        "distractors": {
+          "plausible": [
+            "Turn away and shrimp your hips",
+            "Frame on their head with far hand"
+          ],
+          "trap": [
+            "Straighten the arm to push free"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to straighten your arm as a defense against the Americana setup?",
         "answer": "While straightening the arm prevents the figure-four from locking in the bent-arm position needed for the americana, it directly exposes you to kimura and armbar attacks. A skilled opponent will immediately transition to a kimura grip on your straight arm or step over your head for an armbar. You are essentially trading one submission threat for another, and experienced attackers from Shoulder of Justice specifically train to capitalize on this defensive reaction as part of their submission chain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Exposes you to kimura, armbar",
+        "distractors": {
+          "plausible": [
+            "Strains your own elbow joint",
+            "Only risks the americana lock"
+          ],
+          "trap": [
+            "Best defense, always straighten"
+          ]
+        }
       },
       {
         "question": "What is the single most important defensive principle against the Americana from Shoulder of Justice?",
         "answer": "Keep your near arm tight to your body at all times despite the intense jaw pressure. The entire americana attack depends on you extending your near arm — the shoulder pressure exists specifically to provoke this reaction. By gripping your own collar, belt, or opposite wrist and keeping your elbow pinned to your ribs, you deny the opponent the arm extension they need. Accept the jaw discomfort as temporary and focus on systematic escape timing rather than reactive arm extension that plays directly into the opponent's attack plan.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep near arm tight to body",
+        "distractors": {
+          "plausible": [
+            "Push through jaw pressure fast",
+            "Grip opponent's far sleeve"
+          ],
+          "trap": [
+            "Extend arm to create space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -487,6 +678,35 @@
         "phase": "Phase 4: Progressive Resistance Defense",
         "focus": "Defending against increasingly committed americana attacks",
         "description": "Partner attempts the americana at 50% speed and progresses to 75% over multiple rounds. Practice the full defensive sequence: recognition, prevention, grip defense, escape attempt, and tap decision. The focus is on making the correct decision at each stage — including tapping early when the defense fails rather than risking injury. Track which defenses succeed at each resistance level."
+      }
+    ],
+    "clips": [
+      {
+        "id": "FNyL93v5fGs",
+        "title": "Defending the Americana",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 91,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Unz1euhI2y8",
+        "title": "Escape Americana/key lock from side",
+        "by": "Chuck Jack",
+        "vertical": false,
+        "channel": "Chuck Jack21",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "NuweBGC8xz8",
+        "title": "Ultimate side control escape",
+        "by": "Pedro Sauer",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 162,
+        "verified": "2026-07-14"
       }
     ]
   }

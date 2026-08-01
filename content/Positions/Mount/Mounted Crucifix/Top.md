@@ -21,37 +21,37 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Crucifix",
-      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Armbar",
-      "text": "From this position, attempt Straight Armbar. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke from Mounted Crucifix",
+      "text": "From this position, attempt Rear Naked Choke from Mounted Crucifix. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke from Mounted Crucifix",
-      "text": "From this position, attempt Rear Naked Choke from Mounted Crucifix. This technique is attempted in 9% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 9% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 3% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar on Free Arm",
       "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
-      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 11% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Neck Crank from Mounted Crucifix",
+      "text": "From this position, attempt Neck Crank from Mounted Crucifix. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Isolating the near arm in crucifix",
+      "description": "Mounted Crucifix (Top) film study: Isolating the near arm in crucifix, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rh7TUm0ysww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rh7TUm0ysww",
+      "url": "https://www.youtube.com/watch?v=rh7TUm0ysww",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix attack chain",
+      "description": "Mounted Crucifix (Top) film study: Crucifix attack chain, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WFCq8CASHeA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WFCq8CASHeA",
+      "url": "https://www.youtube.com/watch?v=WFCq8CASHeA",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Top crucifix breakdown",
+      "description": "Mounted Crucifix (Top) film study: Top crucifix breakdown, taught by Thomas Kincaid.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JT4v_EQyq5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JT4v_EQyq5k",
+      "url": "https://www.youtube.com/watch?v=JT4v_EQyq5k",
+      "creator": { "@type": "Person", "name": "Thomas Kincaid" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -172,6 +220,42 @@ The progression from mounted crucifix follows a logical hierarchy: establish pos
 From a teaching perspective, the mounted crucifix demonstrates critical concepts about control progression, defensive tool removal, and submission hunting. It shows how systematic control development creates submission opportunities, how removing opponent options forces errors, and how positional dominance enables finishing techniques. These lessons extend beyond this specific position into broader principles about establishing and maintaining dominant positions throughout your jiu-jitsu game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rh7TUm0ysww)
+
+<p class="clip-credit"><strong>Isolating the near arm in crucifix</strong> — taught by Gordon Ryan · 2:31 · <a href="https://www.youtube.com/watch?v=rh7TUm0ysww" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WFCq8CASHeA)
+
+<p class="clip-credit"><strong>Crucifix attack chain</strong> — taught by Johnny Jitsu · 1:46 · <a href="https://www.youtube.com/watch?v=WFCq8CASHeA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JT4v_EQyq5k)
+
+<p class="clip-credit"><strong>Top crucifix breakdown</strong> — taught by Thomas Kincaid · 1:00 · <a href="https://www.youtube.com/watch?v=JT4v_EQyq5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -226,7 +310,7 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 **If opponent's neck is exposed and both arms are trapped:**
 - Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Submissions/Neck Crank/Attacker|Neck Crank]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Neck Crank from Twister Control/Attacker|Neck Crank from Twister Control]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent extends trapped arm attempting extraction:**

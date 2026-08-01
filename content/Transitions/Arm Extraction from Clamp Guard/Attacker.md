@@ -180,6 +180,43 @@ description: "Learn to extract your trapped arm from clamp guard in BJJ. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction from Clamp Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the Lockdown Half Guard",
+      "description": "Arm Extraction from Clamp Guard (Attacker) film study: Breaking the Lockdown Half Guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
+      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT251S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping a Tight Half Guard Lockdown",
+      "description": "Arm Extraction from Clamp Guard (Attacker) film study: Escaping a Tight Half Guard Lockdown, taught by Nick Albin (Chewjitsu).",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tcS7oBdpRW0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tcS7oBdpRW0",
+      "url": "https://www.youtube.com/watch?v=tcS7oBdpRW0",
+      "creator": { "@type": "Person", "name": "Nick Albin (Chewjitsu)" },
+      "duration": "PT305S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the top player caught in clamp guard, your immediate priority is freeing your
 **From Position**: [[Positions/Clamp Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction from Clamp Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+
+<p class="clip-credit"><strong>Breaking the Lockdown Half Guard</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tcS7oBdpRW0)
+
+<p class="clip-credit"><strong>Escaping a Tight Half Guard Lockdown</strong> — taught by Nick Albin (Chewjitsu) · 5:05 · <a href="https://www.youtube.com/watch?v=tcS7oBdpRW0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

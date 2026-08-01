@@ -150,6 +150,43 @@ description: "Defend the Bow and Arrow Choke from Truck. Recognition cues, colla
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Truck (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the truck roll back take",
+      "description": "Bow and Arrow Choke from Truck (Defender) film study: Defending the truck roll back take, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the truck by flipping it",
+      "description": "Bow and Arrow Choke from Truck (Defender) film study: Countering the truck by flipping it, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
+      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT640S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Bow and Arrow Choke from the Truck position requires addressing tw
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Truck (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the truck roll back take</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+
+<p class="clip-credit"><strong>Countering the truck by flipping it</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

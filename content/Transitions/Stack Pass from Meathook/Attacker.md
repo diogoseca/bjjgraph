@@ -174,6 +174,43 @@ description: "Execute the Stack Pass from Meathook as the top player. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Meathook (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping and passing the rubber guard",
+      "description": "Stack Pass from Meathook (Attacker) film study: Escaping and passing the rubber guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard break into stack pass",
+      "description": "Stack Pass from Meathook (Attacker) film study: Guard break into stack pass, taught by Einar Fri\u00f0geirs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xQIZEMLolpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xQIZEMLolpU",
+      "url": "https://www.youtube.com/watch?v=xQIZEMLolpU",
+      "creator": { "@type": "Person", "name": "Einar Fri\u00f0geirs" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 **From Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Meathook (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Escaping and passing the rubber guard</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xQIZEMLolpU)
+
+<p class="clip-credit"><strong>Guard break into stack pass</strong> — taught by Einar Friðgeirs · 0:21 · <a href="https://www.youtube.com/watch?v=xQIZEMLolpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the transition to Diamond Guard from closed guard. Complete
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Transition to Diamond Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The minimum essence of guard",
+      "description": "Transition to Diamond Guard film study: The minimum essence of guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DptKK7yOBvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DptKK7yOBvU",
+      "url": "https://www.youtube.com/watch?v=DptKK7yOBvU",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Overhook sweep from closed guard with figure-4 grip",
+      "description": "Transition to Diamond Guard film study: Overhook sweep from closed guard with figure-4 grip, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sV5xgfCXWsQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sV5xgfCXWsQ",
+      "url": "https://www.youtube.com/watch?v=sV5xgfCXWsQ",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The strategic value of this transition lies in converting a position of balanced
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Transition to Diamond Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DptKK7yOBvU)
+
+<p class="clip-credit"><strong>The minimum essence of guard</strong> — taught by Jean Jacques Machado · 1:14 · <a href="https://www.youtube.com/watch?v=DptKK7yOBvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sV5xgfCXWsQ)
+
+<p class="clip-credit"><strong>Overhook sweep from closed guard with figure-4 grip</strong> — taught by Matrix Jiu Jitsu · 2:06 · <a href="https://www.youtube.com/watch?v=sV5xgfCXWsQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

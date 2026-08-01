@@ -180,6 +180,43 @@ description: "Complete attacker guide for the SLX to Ashi Garami transition. Ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "SLX to Ashi Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin-to-shin to single leg X to outside ashi",
+      "description": "SLX to Ashi Garami (Attacker) film study: Shin-to-shin to single leg X to outside ashi, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o0TTMzFEG0Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o0TTMzFEG0Q",
+      "url": "https://www.youtube.com/watch?v=o0TTMzFEG0Q",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg entry when your single leg X is crushed",
+      "description": "SLX to Ashi Garami (Attacker) film study: Leg entry when your single leg X is crushed, taught by Factory Fresh Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/El_icnQ7GKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/El_icnQ7GKg",
+      "url": "https://www.youtube.com/watch?v=El_icnQ7GKg",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu coach" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the attacker executing the SLX to Ashi Garami transition, your objective is t
 **From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch SLX to Ashi Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o0TTMzFEG0Q)
+
+<p class="clip-credit"><strong>Shin-to-shin to single leg X to outside ashi</strong> — taught by Robyn Sheehan · 2:08 · <a href="https://www.youtube.com/watch?v=o0TTMzFEG0Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=El_icnQ7GKg)
+
+<p class="clip-credit"><strong>Leg entry when your single leg X is crushed</strong> — taught by Factory Fresh Jiu Jitsu coach · 2:20 · <a href="https://www.youtube.com/watch?v=El_icnQ7GKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

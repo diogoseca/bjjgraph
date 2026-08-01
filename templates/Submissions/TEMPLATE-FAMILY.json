@@ -38,13 +38,18 @@
       "type": "array",
       "description": "Content tags (minimum 3)",
       "minItems": 3,
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
     "aliases": {
       "type": "array",
       "description": "Strict synonyms — other names for THIS EXACT submission family. DO NOT use for variants. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "family": {
       "type": "string",
@@ -55,16 +60,26 @@
       "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
       "additionalProperties": true,
       "properties": {
-        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
-        "optimization_pass": { "type": "string" },
-        "last_improved_by": { "type": "string" }
+        "last_improved": {
+          "type": "string",
+          "description": "ISO date (YYYY-MM-DD) of the last bot edit"
+        },
+        "optimization_pass": {
+          "type": "string"
+        },
+        "last_improved_by": {
+          "type": "string"
+        }
       }
     },
     "sameAs": {
       "type": "array",
       "description": "Authoritative external URLs for THIS technique (Wikipedia article and/or Wikidata entity). schema.org sameAs — feeds Google's Knowledge Graph entity reconciliation and surfaces cross-language names. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "format": "uri" }
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
     },
     "disambiguations": {
       "type": "array",
@@ -73,10 +88,19 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "reason"],
+        "required": [
+          "name",
+          "reason"
+        ],
         "properties": {
-          "name": { "type": "string", "minLength": 1 },
-          "reason": { "type": "string", "minLength": 10 }
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 10
+          }
         }
       }
     },
@@ -87,7 +111,12 @@
     },
     "submission_category": {
       "type": "string",
-      "enum": ["Choke", "Joint Lock", "Compression", "Combination"]
+      "enum": [
+        "Choke",
+        "Joint Lock",
+        "Compression",
+        "Combination"
+      ]
     },
     "submission_type": {
       "type": "string",
@@ -106,10 +135,40 @@
       "description": "Primary position/role (optional for hubs, since variants each have their own)"
     },
     "success_rate": {
-      "type": "integer",
-      "description": "Average success rate across variants (0-100)",
-      "minimum": 0,
-      "maximum": 100
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        {
+          "type": "object",
+          "properties": {
+            "gi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "nogi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "gi",
+            "nogi"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Average success rate across variants (0-100)"
     },
     "variant_uniqueness": {
       "type": "string",
@@ -146,18 +205,54 @@
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["injury", "severity", "recovery_time"],
+            "required": [
+              "injury",
+              "severity",
+              "recovery_time"
+            ],
             "properties": {
-              "injury": { "type": "string" },
-              "severity": { "type": "string", "enum": ["Low", "Medium", "High", "CRITICAL"] },
-              "recovery_time": { "type": "string" }
+              "injury": {
+                "type": "string"
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "Low",
+                  "Medium",
+                  "High",
+                  "CRITICAL"
+                ]
+              },
+              "recovery_time": {
+                "type": "string"
+              }
             }
           }
         },
-        "application_speed": { "type": "string" },
-        "tap_signals": { "type": "array", "minItems": 3, "items": { "type": "string" } },
-        "release_protocol": { "type": "array", "minItems": 3, "items": { "type": "string" } },
-        "training_restrictions": { "type": "array", "minItems": 2, "items": { "type": "string" } }
+        "application_speed": {
+          "type": "string"
+        },
+        "tap_signals": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "release_protocol": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "string"
+          }
+        },
+        "training_restrictions": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "variations": {
@@ -167,7 +262,10 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "slug"],
+        "required": [
+          "name",
+          "slug"
+        ],
         "properties": {
           "name": {
             "type": "string",
@@ -188,7 +286,9 @@
       "type": "array",
       "description": "All positions where this submission family can be applied (2-20 items)",
       "minItems": 1,
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
     "related_submissions": {
       "type": "array",
@@ -196,8 +296,12 @@
       "items": {
         "type": "object",
         "properties": {
-          "name": { "type": "string" },
-          "relationship": { "type": "string" }
+          "name": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          }
         }
       }
     },
@@ -207,8 +311,12 @@
       "items": {
         "type": "object",
         "properties": {
-          "name": { "type": "string" },
-          "relationship": { "type": "string" }
+          "name": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          }
         }
       }
     },
@@ -218,9 +326,84 @@
       "items": {
         "type": "object",
         "properties": {
-          "variation_name": { "type": "string" },
-          "description": { "type": "string" },
-          "when_to_use": { "type": "string" }
+          "variation_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "when_to_use": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "clips": {
+      "type": "array",
+      "description": "Curated YouTube film-study clips (family-hub overview). Sourced by scripts/source_clips.py, machine-verified, hand-pruned. The content bot must never add, remove, or modify this field.",
+      "maxItems": 4,
+      "items": {
+        "$ref": "#/$defs/clip"
+      }
+    }
+  },
+  "$defs": {
+    "clip": {
+      "type": "object",
+      "description": "One curated YouTube film-study clip. Machine-verified by scripts/source_clips.py / verify_clips.py; pruned by hand. NEVER AI-authored.",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{11}$",
+          "description": "YouTube video ID (11 chars)"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 80,
+          "description": "Short display title for the clip"
+        },
+        "by": {
+          "type": "string",
+          "description": "Display credit — the instructor/legend teaching the clip"
+        },
+        "start": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Loop start in seconds (default 0)"
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Loop end in seconds; omit to play the full video"
+        },
+        "vertical": {
+          "type": "boolean",
+          "description": "True for YouTube Shorts / portrait video"
+        },
+        "channel": {
+          "type": "string",
+          "description": "Provenance: uploader channel name from search"
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Provenance: full video duration in seconds"
+        },
+        "verified": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Provenance: date of last machine verification (oEmbed + shorts check)"
+        },
+        "upload_date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Provenance: video publish date. Filled by a future yt-dlp enrichment pass (residential IP; per-video fetches are bot-checked from datacenter IPs). When present, emitted as VideoObject.uploadDate in generated markdown."
         }
       }
     }

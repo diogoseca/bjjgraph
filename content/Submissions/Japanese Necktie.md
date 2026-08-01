@@ -34,6 +34,43 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Japanese Necktie \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock to necktie choke",
+      "description": "Japanese Necktie film study: Front headlock to necktie choke, taught by Gile23.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4ob2ZrEH3Yc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4ob2ZrEH3Yc",
+      "url": "https://www.youtube.com/watch?v=4ob2ZrEH3Yc",
+      "creator": { "@type": "Person", "name": "Gile23" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Schultz choke from front headlock",
+      "description": "Japanese Necktie film study: Schultz choke from front headlock, taught by Sonny Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hfifEH_SNVc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hfifEH_SNVc",
+      "url": "https://www.youtube.com/watch?v=hfifEH_SNVc",
+      "creator": { "@type": "Person", "name": "Sonny Brown" },
+      "duration": "PT187S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +119,34 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Japanese Necktie in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4ob2ZrEH3Yc)
+
+<p class="clip-credit"><strong>Front headlock to necktie choke</strong> — taught by Gile23 · 1:53 · <a href="https://www.youtube.com/watch?v=4ob2ZrEH3Yc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hfifEH_SNVc)
+
+<p class="clip-credit"><strong>Schultz choke from front headlock</strong> — taught by Sonny Brown · 3:07 · <a href="https://www.youtube.com/watch?v=hfifEH_SNVc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -91,7 +156,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Japanese Necktie/from Front Headlock|Front Headlock]] | Top | 58% | [[Submissions/Japanese Necktie/from Front Headlock/Attacker|Attack →]] | [[Submissions/Japanese Necktie/from Front Headlock/Defender|Defend →]] |
+| [[Submissions/Japanese Necktie/from Front Headlock|Front Headlock]] | Top | 52% | [[Submissions/Japanese Necktie/from Front Headlock/Attacker|Attack →]] | [[Submissions/Japanese Necktie/from Front Headlock/Defender|Defend →]] |
 
 
 </div>
@@ -115,15 +180,15 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]] - Alternative front headlock choke sharing head control setup and entry positions
+- [[Submissions/Guillotine Choke]] - Alternative front headlock choke sharing head control setup and entry positions
 - [[Transitions/Anaconda Choke]] - Chain attack when opponent extracts trapped arm during Japanese Necktie attempt
-- [[Transitions/Darce Choke]] - Alternative arm-in choke from front headlock using opposite arm threading
+- [[Submissions/Darce Choke]] - Alternative arm-in choke from front headlock using opposite arm threading
 - [[Submissions/Peruvian Necktie]] - Related necktie family submission with different leg positioning and finishing mechanics
-- [[Transitions/Arm Triangle]] - Head-and-arm choke sharing shoulder pressure and arm trap mechanics
+- [[Submissions/Arm Triangle]] - Head-and-arm choke sharing shoulder pressure and arm trap mechanics
 - [[Submissions/Rear Naked Choke]] - High-percentage blood choke sharing bilateral carotid compression principles
 - [[Submissions/High Elbow Guillotine]] - Advanced guillotine variation with similar front headlock entry
 - [[Submissions/Arm in Guillotine]] - Arm-in guillotine variation sharing trapped arm choking mechanics
-- [[Transitions/North-South Choke]] - Alternative top pressure choke accessible from nearby control positions
+- [[Submissions/North-South Choke]] - Alternative top pressure choke accessible from nearby control positions
 - [[Submissions/Baseball Bat Choke]] - Gi-specific choke with cross-grip pressure principles from top control
 - [[Submissions/Brabo Choke]] - Related lapel-assisted arm-in choke from front headlock position
 - [[Positions/Front Headlock]] - Primary position for Japanese Necktie setups and entries

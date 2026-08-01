@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries and windpipe",
   "starting_position": "Twister Control",
   "from_position": "Twister Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The guillotine choke from Twister Control exploits one of the most predictable defensive reactions in the 10th Planet rotational control system. When an opponent caught in Twister Control turns their head and upper body toward the top player to relieve spinal rotation pressure, they create a direct pathway for the guillotine. This submission represents a critical branch in the Twister Control attack tree, punishing the most natural escape attempt with an immediate choking threat.\n\nWhat distinguishes this guillotine variant from standing or guard-based entries is the pre-existing leg control and positional dominance. The top player retains lower body entanglement from the truck position, which severely limits the defender's ability to posture, strip grips, or create the distance needed to survive a standard guillotine defense. The combination of residual rotational control with anterior neck compression creates a compound threat that attacks through two distinct mechanical pathways simultaneously.\n\nStrategically, this submission functions as a trap within the broader Twister system. The top player pressures the spine through rotation, forcing the opponent to either accept the Twister or turn into the attacker. Turning in exposes the neck, and the attacker transitions from spinal rotation to neck compression. This dilemma-based approach makes the combination significantly more effective than either attack in isolation, as defending one directly opens vulnerability to the other.",
   "safety_considerations": {
     "injury_risks": [
@@ -76,7 +79,7 @@
     "Arm in Guillotine",
     "Japanese Necktie",
     "Darce Choke",
-    "Chin Strap Guillotine",
+    "Chin Strap Guillotine from Front Headlock",
     "Anaconda Choke"
   ],
   "related_content": [
@@ -104,17 +107,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -287,47 +299,157 @@
       {
         "question": "What anatomical structures does the guillotine choke from Twister Control primarily attack?",
         "answer": "The guillotine primarily compresses the bilateral carotid arteries to restrict blood flow to the brain, causing unconsciousness. Secondary pressure may affect the trachea and windpipe. The high-elbow variation targets the carotids more precisely by angling the blade of the wrist into the arterial groove on the side of the neck, reducing trachea contact.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bilateral carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Trachea and windpipe mainly",
+            "Equal carotid and trachea"
+          ],
+          "trap": [
+            "Crank the spine to force the tap"
+          ]
+        }
       },
       {
         "question": "What defensive reaction from the opponent creates the guillotine opportunity from Twister Control?",
         "answer": "The opponent turning their head and upper body toward the top player to escape spinal rotation creates the guillotine opportunity. This turn-in reaction is the most common escape attempt from Twister Control and it exposes the anterior neck by lifting the chin and rotating the throat toward the attacker's arms, creating a clear path for the choking forearm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turning in to escape the twist",
+        "distractors": {
+          "plausible": [
+            "Bridging to create space",
+            "Posturing straight upward"
+          ],
+          "trap": [
+            "Lift your chin to look at them"
+          ]
+        }
       },
       {
         "question": "Why must leg entanglement be maintained during the transition from Twister Control to guillotine?",
         "answer": "Leg entanglement prevents the opponent from posturing up, creating distance, or generating the explosive hip movements needed to strip the guillotine grip. Without leg control, the opponent can simply stand up, stack, or posture out of the choke. The entanglement preserves the positional advantage that makes this guillotine variant more effective than entries from neutral positions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stops posture, distance, hip escape",
+        "distractors": {
+          "plausible": [
+            "Keeps back-control points scored",
+            "Adds pressure to the choke arm"
+          ],
+          "trap": [
+            "Drop the legs to squeeze harder"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender once the guillotine from Twister Control is locked?",
         "answer": "The point of no escape occurs when the high-elbow grip is fully clasped with correct wrist-to-carotid alignment and the attacker's hips are angled to the choking side. Once the elbows are pulled tight to the ribs and the torso is curled, defensive posturing becomes insufficient to relieve the arterial compression. At this stage the defender should tap immediately rather than risk unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "High-elbow clasp with hips angled",
+        "distractors": {
+          "plausible": [
+            "First forearm contact on the neck",
+            "When the legs first cross behind"
+          ],
+          "trap": [
+            "Wait until the defender goes limp"
+          ]
+        }
       },
       {
         "question": "How should you release the guillotine from Twister Control after your training partner taps?",
         "answer": "Upon any tap signal, immediately release the choking arm pressure by opening the grip and removing the forearm from the neck. Disengage head and neck control before releasing any remaining leg entanglement. Help your partner to a seated position and monitor their breathing and consciousness. If they show any signs of delayed recovery, call for medical assistance immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Open grip, remove forearm from neck",
+        "distractors": {
+          "plausible": [
+            "Free the leg lace, then the neck",
+            "Sit them up before untangling"
+          ],
+          "trap": [
+            "Hold a beat to confirm the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up aggressively as you transition to the guillotine grip. What adjustment prevents escape?",
         "answer": "Pull guard immediately by releasing leg entanglement and wrapping your legs around the opponent's waist in closed guard. Use your legs to break their posture by pulling your heels toward your glutes. This removes their base and leverages your entire lower body to prevent the postural escape. Once their posture is broken in guard, re-tighten the grip and finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull guard, break posture with legs",
+        "distractors": {
+          "plausible": [
+            "Lean back hard to tighten it",
+            "Post a hand on the mat for base"
+          ],
+          "trap": [
+            "Stand up with them, hang on grip"
+          ]
+        }
       },
       {
         "question": "What grip adjustment maximizes blood choke effectiveness versus creating a neck crank from this position?",
         "answer": "Angle your hips to the choking arm side so the blade of the forearm aligns with the carotid artery rather than pressing across the trachea. Use a high-elbow grip where the non-choking hand clasps the choking wrist with the elbow pointing upward. Curl the torso rather than pulling laterally. A properly angled blood choke finishes faster, causes less pain, and is safer than a crank.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blade on carotid, not trachea",
+        "distractors": {
+          "plausible": [
+            "Clasp wrist, elbow pointing down",
+            "Angle hips away from choke arm"
+          ],
+          "trap": [
+            "Uncross feet, pull sideways hard"
+          ]
+        }
       },
       {
         "question": "When should you abandon the guillotine attempt and return to Twister Control?",
         "answer": "Abandon the guillotine if the grip is not cleanly secured within the first two to three seconds of the attempt, if the opponent successfully tucks their chin before the forearm clears the chin line, or if your leg control has deteriorated to the point where the opponent can posture freely. A poorly positioned guillotine wastes energy and compromises the Twister Control you already held.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip not clean in first 2–3 sec",
+        "distractors": {
+          "plausible": [
+            "Wait 10 seconds, then reassess",
+            "Once your forearms start to fatigue"
+          ],
+          "trap": [
+            "Roll to your back to finish it"
+          ]
+        }
       },
       {
         "question": "In competition, how does the scoring change when you transition from Twister Control to a guillotine with guard pull?",
         "answer": "Transitioning from Twister Control top to pulling guard for the guillotine finish results in losing any advantage or control points associated with the top position. Under most rulesets, pulling guard scores no points and may result in a penalty in some organizations. The trade-off is worthwhile only if the guillotine grip is secure enough to finish, because failing the submission from guard bottom is a significant positional downgrade.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "You lose top-control points",
+        "distractors": {
+          "plausible": [
+            "You gain guard-pull points",
+            "No change to the score at all"
+          ],
+          "trap": [
+            "Pull guard with a loose grip"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side attacks (MTS 207)",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "k3GU_7rKFYk",
+        "title": "Alternate guillotine / twister entry",
+        "by": "Catch Wrestling Alliance",
+        "vertical": false,
+        "channel": "Catch Wrestling Alliance",
+        "duration": 193,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -413,27 +535,77 @@
       {
         "question": "What visual and tactile cues indicate the attacker is transitioning from Twister Control to a guillotine?",
         "answer": "The primary cues are the release of the attacker's Twister grip on your head or arm, the feeling of their forearm threading under your chin, and a shift in chest pressure from your back toward your neck and shoulders. A turn-in escape that feels unexpectedly easy often indicates the attacker is encouraging the turn to access your neck for the guillotine.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forearm threads under your chin",
+        "distractors": {
+          "plausible": [
+            "Grip tightens across your face",
+            "Chest pressure drives into back"
+          ],
+          "trap": [
+            "Turn in hard toward open space"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the guillotine from Twister Control?",
         "answer": "Tap clearly and repeatedly with your hand on the opponent's body, your own body, or the mat. If your hands are trapped, use a verbal tap by saying 'tap' clearly. You can also tap with your feet on the mat. Tap early when you recognize the grip is locked and you cannot escape, as the combined rotational and choking pressure in this position causes rapid unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hand, mat, or shout 'tap'",
+        "distractors": {
+          "plausible": [
+            "Tap once softly and wait",
+            "Squeeze their arm to signal"
+          ],
+          "trap": [
+            "Wait until your vision blurs"
+          ]
+        }
       },
       {
         "question": "Why is the chin tuck essential before attempting any turn-in escape from Twister Control?",
         "answer": "The chin tuck creates a physical barrier that prevents the attacker's forearm from reaching the throat and carotid arteries. Without the chin tuck, turning into the attacker exposes the entire front of the neck, providing a clean path for the guillotine. The chin must be buried into the collarbone before any rotational escape is attempted, making it the single most important preemptive defensive action.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Blocks the forearm from your throat",
+        "distractors": {
+          "plausible": [
+            "Relieves the spinal crank",
+            "Frees your bottom shoulder"
+          ],
+          "trap": [
+            "Look up to spot the escape"
+          ]
+        }
       },
       {
         "question": "When should you prioritize the grip strip versus attempting a spin-through escape?",
         "answer": "Prioritize the grip strip when the guillotine is not yet fully clasped and the attacker still has partial leg entanglement. Attempt the spin-through when the grip is locked but the attacker has lost leg control or has not yet pulled guard. The grip strip is safer because it eliminates the choke directly, while the spin-through risks temporarily tightening the choke during the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip the grip before it's clasped",
+        "distractors": {
+          "plausible": [
+            "Spin through the moment it locks",
+            "Wait until your legs come free"
+          ],
+          "trap": [
+            "Posture straight up into the choke"
+          ]
+        }
       },
       {
         "question": "What makes the guillotine from Twister Control more dangerous than a standard standing guillotine?",
         "answer": "The pre-existing spinal rotation from Twister Control compromises your core strength and defensive posture before the guillotine is even applied. Your neck muscles are already under strain from the twist, reducing your ability to resist the choke. The residual leg entanglement prevents the posturing and distance creation that normally defeats guillotine attempts, and the combined rotational and compressive forces create faster submission than either attack alone.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Twist strain plus leg entanglement",
+        "distractors": {
+          "plausible": [
+            "Attacker gets both hands free",
+            "It scores more competition points"
+          ],
+          "trap": [
+            "Ride it out instead of tapping"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -456,6 +628,35 @@
         "phase": "Phase 4: Full Defense Integration",
         "focus": "Complete defensive decision-making from Twister Control through guillotine defense",
         "description": "Full positional sparring starting from Twister Control bottom. Partner attacks freely with Twister, guillotine, and other options. Practice the full defensive sequence: prevent the Twister, protect chin on turn-in, fight the guillotine grip, escape or tap. Builds complete defensive pattern recognition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v-CRBRea_KY",
+        "title": "Guillotine choke escape and defense",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 319,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "46LaXNe6rJo",
+        "title": "Guillotine defence details",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 594,
+        "verified": "2026-07-15"
       }
     ]
   }

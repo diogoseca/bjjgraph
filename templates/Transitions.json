@@ -86,9 +86,39 @@
             "description": "Target position/role"
           },
           "probability": {
-            "type": "integer",
-            "minimum": 0,
-            "maximum": 100
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "gi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "nogi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                },
+                "required": [
+                  "gi",
+                  "nogi"
+                ],
+                "additionalProperties": false
+              }
+            ]
           },
           "result": {
             "type": "string",
@@ -102,10 +132,40 @@
       }
     },
     "success_rate": {
-      "type": "integer",
-      "description": "Overall success rate percentage (0-100)",
-      "minimum": 0,
-      "maximum": 100
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        {
+          "type": "object",
+          "properties": {
+            "gi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "nogi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "gi",
+            "nogi"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Overall success rate percentage (0-100)"
     },
     "summary": {
       "type": "string",
@@ -307,6 +367,34 @@
           "answer": {
             "type": "string",
             "minLength": 50
+          },
+          "distractors": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Optional authored MC distractor tiers (graded options): plausible = nearly-right beginner beliefs, trap = dangerous misconceptions. Rendered by the Neural app's multiple-choice mode; runtime pooling is the fallback when absent.",
+            "properties": {
+              "plausible": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 200
+                }
+              },
+              "trap": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 200
+                }
+              }
+            }
+          },
+          "answer_line": {
+            "type": "string",
+            "maxLength": 60,
+            "description": "Optional one-line MC answer / recall cue (<=36 chars target); the full 'answer' stays as the post-reveal detail."
           }
         }
       }

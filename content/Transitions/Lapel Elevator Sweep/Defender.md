@@ -148,6 +148,43 @@ description: "How to defend against Lapel Elevator Sweep in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Elevator Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape Lapel Guard: 3 Variations",
+      "description": "Lapel Elevator Sweep (Defender) film study: How to Escape Lapel Guard: 3 Variations, taught by Modern BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U9tV9gNze9A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U9tV9gNze9A",
+      "url": "https://www.youtube.com/watch?v=U9tV9gNze9A",
+      "creator": { "@type": "Person", "name": "Modern BJJ" },
+      "duration": "PT533S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the Spider Lapel and Lasso Guard",
+      "description": "Lapel Elevator Sweep (Defender) film study: Countering the Spider Lapel and Lasso Guard, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SWqXV8bfl5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SWqXV8bfl5A",
+      "url": "https://www.youtube.com/watch?v=SWqXV8bfl5A",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The most important defensive principle is addressing the lapel configuration ear
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Elevator Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U9tV9gNze9A)
+
+<p class="clip-credit"><strong>How to Escape Lapel Guard: 3 Variations</strong> — taught by Modern BJJ · 8:53 · <a href="https://www.youtube.com/watch?v=U9tV9gNze9A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SWqXV8bfl5A)
+
+<p class="clip-credit"><strong>Countering the Spider Lapel and Lasso Guard</strong> — taught by Bernardo Faria · 3:47 · <a href="https://www.youtube.com/watch?v=SWqXV8bfl5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

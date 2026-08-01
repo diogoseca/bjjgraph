@@ -34,6 +34,54 @@ description: "Master the Double Sleeve Sweep in BJJ. Complete guide to executing
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Double sleeve guard sweep breakdown",
+      "description": "Double Sleeve Sweep film study: Double sleeve guard sweep breakdown, taught by Black Dragon BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RHe0Is-Ax6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RHe0Is-Ax6M",
+      "url": "https://www.youtube.com/watch?v=RHe0Is-Ax6M",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ coach" },
+      "duration": "PT198S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double Sleeve Guard Attacks and Sweeps",
+      "description": "Double Sleeve Sweep film study: Double Sleeve Guard Attacks and Sweeps, taught by Jay Wadsworth.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kqRa84RqJXM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kqRa84RqJXM",
+      "url": "https://www.youtube.com/watch?v=kqRa84RqJXM",
+      "creator": { "@type": "Person", "name": "Jay Wadsworth" },
+      "duration": "PT324S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double Sleeve Scissor Sweep Breakdown",
+      "description": "Double Sleeve Sweep film study: Double Sleeve Scissor Sweep Breakdown, taught by Andrew Riddles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zAz7Zu5Nf58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zAz7Zu5Nf58",
+      "url": "https://www.youtube.com/watch?v=zAz7Zu5Nf58",
+      "creator": { "@type": "Person", "name": "Andrew Riddles" },
+      "duration": "PT257S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ At intermediate and advanced levels, the Double Sleeve Sweep becomes the entry p
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RHe0Is-Ax6M)
+
+<p class="clip-credit"><strong>Double sleeve guard sweep breakdown</strong> — taught by Black Dragon BJJ coach · 3:18 · <a href="https://www.youtube.com/watch?v=RHe0Is-Ax6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kqRa84RqJXM)
+
+<p class="clip-credit"><strong>Double Sleeve Guard Attacks and Sweeps</strong> — taught by Jay Wadsworth · 5:24 · <a href="https://www.youtube.com/watch?v=kqRa84RqJXM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zAz7Zu5Nf58)
+
+<p class="clip-credit"><strong>Double Sleeve Scissor Sweep Breakdown</strong> — taught by Andrew Riddles · 4:17 · <a href="https://www.youtube.com/watch?v=zAz7Zu5Nf58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

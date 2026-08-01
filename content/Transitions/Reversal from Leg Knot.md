@@ -34,6 +34,54 @@ description: "Master the Reversal from Leg Knot in BJJ. Learn this systematic sw
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reversal from Leg Knot \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling leg knot control",
+      "description": "Reversal from Leg Knot film study: Rolling leg knot control, taught by Tom Dinklage.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8VfldffVsFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8VfldffVsFU",
+      "url": "https://www.youtube.com/watch?v=8VfldffVsFU",
+      "creator": { "@type": "Person", "name": "Tom Dinklage" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling out of heel hooks",
+      "description": "Reversal from Leg Knot film study: Rolling out of heel hooks, taught by Craig Jones and Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
+      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
+      "creator": { "@type": "Person", "name": "Craig Jones and Lachlan Giles" },
+      "duration": "PT243S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clearing the kneeline to escape leg entanglement",
+      "description": "Reversal from Leg Knot film study: Clearing the kneeline to escape leg entanglement, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
+      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technical foundation rests on a critical insight about weight distribution. 
 This reversal holds strategic significance beyond its direct application. The credible threat of reversal forces top players to maintain conservative base positioning in the leg knot, which limits their submission finishing ability and creates a fundamental tactical dilemma. Practitioners who develop proficiency with this technique transform Leg Knot Bottom from a purely defensive survival position into a dynamic counter-attacking platform that demands respect from even the most aggressive leg lock specialists.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 35%
+**Success Rate**: 18%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reversal from Leg Knot in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8VfldffVsFU)
+
+<p class="clip-credit"><strong>Rolling leg knot control</strong> — taught by Tom Dinklage · 1:31 · <a href="https://www.youtube.com/watch?v=8VfldffVsFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
+
+<p class="clip-credit"><strong>Rolling out of heel hooks</strong> — taught by Craig Jones and Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+
+<p class="clip-credit"><strong>Clearing the kneeline to escape leg entanglement</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

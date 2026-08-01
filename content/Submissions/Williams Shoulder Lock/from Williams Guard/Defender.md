@@ -150,6 +150,54 @@ description: "Defend the Williams Shoulder Lock from Williams Guard. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Williams Shoulder Lock from Williams Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Williams Guard cartwheel escape counter",
+      "description": "Williams Shoulder Lock from Williams Guard (Defender) film study: Williams Guard cartwheel escape counter, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZEf9jXzCYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZEf9jXzCYA",
+      "url": "https://www.youtube.com/watch?v=NZEf9jXzCYA",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating no-gi closed guard: head up, hips in posture",
+      "description": "Williams Shoulder Lock from Williams Guard (Defender) film study: Beating no-gi closed guard: head up, hips in posture, taught by Neil Melanson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p_GndPm6n0g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p_GndPm6n0g",
+      "url": "https://www.youtube.com/watch?v=p_GndPm6n0g",
+      "creator": { "@type": "Person", "name": "Neil Melanson" },
+      "duration": "PT410S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Williams guard armbar counter",
+      "description": "Williams Shoulder Lock from Williams Guard (Defender) film study: Williams guard armbar counter, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M__MeC_XCIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M__MeC_XCIM",
+      "url": "https://www.youtube.com/watch?v=M__MeC_XCIM",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Williams Shoulder Lock from Williams Guard requires immediate reco
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Williams Shoulder Lock from Williams Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZEf9jXzCYA)
+
+<p class="clip-credit"><strong>Williams Guard cartwheel escape counter</strong> — taught by Sam Wilkinson · 1:20 · <a href="https://www.youtube.com/watch?v=NZEf9jXzCYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p_GndPm6n0g)
+
+<p class="clip-credit"><strong>Beating no-gi closed guard: head up, hips in posture</strong> — taught by Neil Melanson · 6:50 · <a href="https://www.youtube.com/watch?v=p_GndPm6n0g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M__MeC_XCIM)
+
+<p class="clip-credit"><strong>Williams guard armbar counter</strong> — taught by Sam Wilkinson · 1:06 · <a href="https://www.youtube.com/watch?v=M__MeC_XCIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Reverse Half Guard in BJJ. Strategic guide covering inverte
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse half guard sweep to leg drag",
+      "description": "Reverse Half Guard film study: Reverse half guard sweep to leg drag, taught by Fernando Reis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VsPTkiq_OM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VsPTkiq_OM4",
+      "url": "https://www.youtube.com/watch?v=VsPTkiq_OM4",
+      "creator": { "@type": "Person", "name": "Fernando Reis" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse guard basics",
+      "description": "Reverse Half Guard film study: Reverse guard basics, taught by Krishna Mirjah.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0Cu3rm5TSIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0Cu3rm5TSIw",
+      "url": "https://www.youtube.com/watch?v=0Cu3rm5TSIw",
+      "creator": { "@type": "Person", "name": "Krishna Mirjah" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The reverse orientation fundamentally changes the mechanical dynamics of half gu
 This position appears more frequently in advanced BJJ and no-gi grappling where dynamic movement and scrambling are emphasized. The position serves dual purposes: as a transitional state during scrambles and as a deliberate attacking platform. Understanding both perspectives—bottom and top—is essential for developing complete half guard mastery. While riskier than standard configurations due to back exposure concerns, reverse half guard offers surprising offensive potential when executed with proper timing and technical precision.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VsPTkiq_OM4)
+
+<p class="clip-credit"><strong>Reverse half guard sweep to leg drag</strong> — taught by Fernando Reis · 1:02 · <a href="https://www.youtube.com/watch?v=VsPTkiq_OM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0Cu3rm5TSIw)
+
+<p class="clip-credit"><strong>Reverse guard basics</strong> — taught by Krishna Mirjah · 1:05 · <a href="https://www.youtube.com/watch?v=0Cu3rm5TSIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,25 +198,25 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (12% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (28% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (14% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (9% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (10% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (5% of attempts)
 
-- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (14% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (16% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (9% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (5% of attempts)
 
-- **[[Transitions/Guard Recovery from Reverse Half Guard/Attacker|Guard Recovery from Reverse Half Guard]]** (9% of attempts)
+- **[[Transitions/Guard Recovery from Reverse Half Guard/Attacker|Guard Recovery from Reverse Half Guard]]** (16% of attempts)
 
-- **[[Transitions/Escape Reverse Half Guard/Attacker|Escape Reverse Half Guard]]** (4% of attempts)
+- **[[Transitions/Escape Reverse Half Guard/Attacker|Escape Reverse Half Guard]]** (16% of attempts)
 
-- **[[Transitions/Invert from Reverse Half Guard/Attacker|Invert from Reverse Half Guard]]** (3% of attempts)
+- **[[Transitions/Invert from Reverse Half Guard/Attacker|Invert from Reverse Half Guard]]** (5% of attempts)
 
-- **[[Transitions/Sweep from Reverse Half Guard/Attacker|Sweep from Reverse Half Guard]]** (2% of attempts)
+- **[[Transitions/Sweep from Reverse Half Guard/Attacker|Sweep from Reverse Half Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -212,23 +277,23 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (24% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (12% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (10% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (11% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (5% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (12% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (10% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (11% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (10% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (13% of attempts)
 
-- **[[Transitions/Backstep from Reverse Half/Attacker|Backstep from Reverse Half]]** (5% of attempts)
+- **[[Transitions/Backstep from Reverse Half/Attacker|Backstep from Reverse Half]]** (17% of attempts)
 
-- **[[Transitions/Pass Reverse Half/Attacker|Pass Reverse Half]]** (3% of attempts)
+- **[[Transitions/Pass Reverse Half/Attacker|Pass Reverse Half]]** (15% of attempts)
 
 
 ### Common Mistakes

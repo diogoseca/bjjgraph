@@ -158,6 +158,54 @@ description: "Defend and escape the North-South Choke from Reverse Scarf Hold. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Choke from Reverse Scarf (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kesa Gatame escape to back take",
+      "description": "North-South Choke from Reverse Scarf (Defender) film study: Reverse Kesa Gatame escape to back take, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hook-Plata North-South choke escape",
+      "description": "North-South Choke from Reverse Scarf (Defender) film study: Hook-Plata North-South choke escape, taught by Erik Koehne.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-2iSvT8zDk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-2iSvT8zDk",
+      "url": "https://www.youtube.com/watch?v=O-2iSvT8zDk",
+      "creator": { "@type": "Person", "name": "Erik Koehne" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bottom North/South escape - roll back",
+      "description": "North-South Choke from Reverse Scarf (Defender) film study: Bottom North/South escape - roll back, taught by Cosens Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pafncZwJurg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pafncZwJurg",
+      "url": "https://www.youtube.com/watch?v=pafncZwJurg",
+      "creator": { "@type": "Person", "name": "Cosens Martial Arts" },
+      "duration": "PT109S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ Defending the North-South Choke from Reverse Scarf Hold requires early recogniti
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Choke from Reverse Scarf (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse Kesa Gatame escape to back take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O-2iSvT8zDk)
+
+<p class="clip-credit"><strong>Hook-Plata North-South choke escape</strong> — taught by Erik Koehne · 0:59 · <a href="https://www.youtube.com/watch?v=O-2iSvT8zDk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pafncZwJurg)
+
+<p class="clip-credit"><strong>Bottom North/South escape - roll back</strong> — taught by Cosens Martial Arts · 1:49 · <a href="https://www.youtube.com/watch?v=pafncZwJurg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

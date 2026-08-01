@@ -34,6 +34,54 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Kneebar Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dog Bar Kneebar Finish",
+      "description": "Kneebar from Kneebar Control film study: Dog Bar Kneebar Finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Go Behind Kneebar",
+      "description": "Kneebar from Kneebar Control film study: Go Behind Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing Grapevine to Kneebar",
+      "description": "Kneebar from Kneebar Control film study: Standing Grapevine to Kneebar, taught by Scientific Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NzkSekbRmZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NzkSekbRmZ4",
+      "url": "https://www.youtube.com/watch?v=NzkSekbRmZ4",
+      "creator": { "@type": "Person", "name": "Scientific Wrestling" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Leg Lock</span>
 <span class="meta-chip">Targets Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)</span>
-<span class="meta-chip">60% success</span>
+<span class="meta-chip">45% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 **Starting Position**: [[Positions/Kneebar Control]] · **From**: [[Positions/Kneebar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Kneebar Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar Kneebar Finish</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NzkSekbRmZ4)
+
+<p class="clip-credit"><strong>Standing Grapevine to Kneebar</strong> — taught by Scientific Wrestling · 1:03 · <a href="https://www.youtube.com/watch?v=NzkSekbRmZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -237,12 +321,12 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Flying Kneebar]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Kneebar Control]] - Starting control position for this submission finish
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary leg entanglement entry leading to kneebar control
 - [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement position when opponent defends kneebar by rotating

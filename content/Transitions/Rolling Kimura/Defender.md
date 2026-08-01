@@ -148,6 +148,43 @@ description: "How to defend against the Rolling Kimura in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kimura (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to the rolling kimura",
+      "description": "Rolling Kimura (Defender) film study: Counter to the rolling kimura, taught by Brandon Olsen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wyaWWm8sUQE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wyaWWm8sUQE",
+      "url": "https://www.youtube.com/watch?v=wyaWWm8sUQE",
+      "creator": { "@type": "Person", "name": "Brandon Olsen" },
+      "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep half guard counter to rolling kimura",
+      "description": "Rolling Kimura (Defender) film study: Deep half guard counter to rolling kimura, taught by Scott Ryan Chiriboga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MO0PFxgjuJ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MO0PFxgjuJ4",
+      "url": "https://www.youtube.com/watch?v=MO0PFxgjuJ4",
+      "creator": { "@type": "Person", "name": "Scott Ryan Chiriboga" },
+      "duration": "PT155S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Rolling Kimura means stopping a bottom player who has already secu
 **Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kimura (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wyaWWm8sUQE)
+
+<p class="clip-credit"><strong>Counter to the rolling kimura</strong> — taught by Brandon Olsen · 2:17 · <a href="https://www.youtube.com/watch?v=wyaWWm8sUQE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MO0PFxgjuJ4)
+
+<p class="clip-credit"><strong>Deep half guard counter to rolling kimura</strong> — taught by Scott Ryan Chiriboga · 2:35 · <a href="https://www.youtube.com/watch?v=MO0PFxgjuJ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

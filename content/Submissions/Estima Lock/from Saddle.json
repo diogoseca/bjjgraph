@@ -20,7 +20,10 @@
   "target_area": "Foot and ankle joints (forced dorsiflexion targeting tarsometatarsal and ankle ligaments)",
   "starting_position": "Saddle",
   "from_position": "Saddle/Top",
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Estima Lock from Saddle exploits the secure leg entanglement of the Saddle position to attack the foot and ankle through forced dorsiflexion. Unlike standalone Estima Lock attempts from open guard positions, the Saddle provides a structural base of leg control that prevents the opponent from simply retracting their foot, making this one of the highest-percentage Estima Lock entries available. The position naturally creates the submission opportunity when the opponent defends heel hook attempts by hiding their heel and rotating their knee inward, exposing the dorsal surface of the foot to capture.\n\nThe finishing mechanics involve trapping the opponent's foot tightly in the crook of your elbow and armpit while maintaining the Saddle leg entanglement throughout. Pressure is generated primarily through back extension and lat engagement rather than isolated arm strength. This body-mechanics-driven approach allows smaller practitioners to generate significant breaking force on the tarsometatarsal joint complex and ankle ligaments. The submission functions as a natural complement to heel hook attacks from Saddle, creating a submission dilemma where defending one threat directly exposes the other.\n\nStrategically, the Estima Lock from Saddle occupies a critical role in modern leg lock systems as the secondary attack that punishes heel hook defense. Practitioners who develop proficiency with both the heel hook and Estima Lock from this position become exponentially more dangerous, as the opponent faces a genuine two-threat problem with no safe defensive resting position. The technique demands careful attention to safety protocols given how rapidly foot and ankle damage can occur, particularly at the Lisfranc joint where injury consequences are severe and recovery times are prolonged.",
   "safety_considerations": {
     "injury_risks": [
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Saddle/Top",
-      "probability": 29,
+      "probability": {
+        "gi": 29,
+        "nogi": 29
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 16,
+      "probability": {
+        "gi": 16,
+        "nogi": 16
+      },
       "result": "counter"
     }
   ],
@@ -295,42 +307,142 @@
       {
         "question": "What anatomical structures does the Estima Lock from Saddle primarily attack?",
         "answer": "The Estima Lock targets the tarsometatarsal (Lisfranc) joint complex and surrounding ligaments in the midfoot, along with the deltoid and talofibular ligaments of the ankle. Forced dorsiflexion creates stress across the arch of the foot and the ankle joint capsule. The midfoot is particularly vulnerable because these small bones and ligaments are not designed to withstand rotational and bending forces, making injury onset rapid once the breaking mechanism fully engages.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lisfranc joint & ankle ligaments",
+        "distractors": {
+          "plausible": [
+            "Achilles tendon and calf",
+            "Toe flexor tendons only"
+          ],
+          "trap": [
+            "Nothing structural, just pain"
+          ]
+        }
       },
       {
         "question": "You feel your opponent's foot resistance decrease during the Estima Lock but they have not tapped—what indicators suggest the breaking point is near?",
         "answer": "Decreasing resistance often indicates ligament fatigue or the beginning of partial tearing rather than voluntary relaxation. Key indicators include the foot becoming progressively more compliant to dorsiflexion pressure, subtle popping or crepitus sensations transmitted through your grip, and the opponent's body language shifting from active technical defense to distress signals. At this point, slow application speed dramatically and verbally check with your training partner. In competition, maintain controlled pressure without jerking to allow adequate tap opportunity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Compliance, crepitus, distress cues",
+        "distractors": {
+          "plausible": [
+            "Foot turning cold and numb",
+            "Attacker's grip slipping"
+          ],
+          "trap": [
+            "Less resistance = crank harder"
+          ]
+        }
       },
       {
         "question": "What control elements must be established before transitioning from heel hook threat to Estima Lock grip?",
         "answer": "Before transitioning, you need a secure Saddle leg entanglement with perpendicular body alignment, active hip pressure preventing opponent rotation, inside position maintained by your leg configuration, and the opponent's heel-hiding defense that exposes the dorsal foot surface. Additionally, clear any frames the opponent has on your hips, as free hands during the grip transition window can allow them to strip your control before the Estima Lock is secured. Continuous ankle control with your non-gripping hand bridges the gap between submissions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Saddle locked, hip frames cleared",
+        "distractors": {
+          "plausible": [
+            "Heel grip alone is enough",
+            "Switch to knee-line control first"
+          ],
+          "trap": [
+            "Open the entanglement to reach"
+          ]
+        }
       },
       {
         "question": "At what point during the Estima Lock execution does escape become nearly impossible for the defender?",
         "answer": "Escape becomes extremely difficult once the foot is fully seated in the armpit with the elbow closed tight against the ribs, locking the foot with zero rotational freedom. Before this point, the defender can still pull the foot free or rotate to relieve pressure. After the armpit trap is sealed, the attacker's entire upper body acts as a unified lever against the foot while the Saddle entanglement prevents the defender from generating the hip movement needed to extract it. The combination of upper body lock and lower body entanglement creates a closed system with no accessible escape vectors.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Foot sealed in armpit, elbow shut",
+        "distractors": {
+          "plausible": [
+            "Once Saddle entry is set",
+            "When ankle starts to bend"
+          ],
+          "trap": [
+            "Ignore it until pain starts"
+          ]
+        }
       },
       {
         "question": "Your Estima Lock attempts from Saddle keep failing because opponents pull their foot free during the grip transition—what adjustment corrects this?",
         "answer": "The most common cause is releasing too much of the Saddle leg entanglement while reaching for the foot, creating slack that enables extraction. Keep your legs actively engaged in the entanglement throughout the entire transition. Use your non-gripping hand to maintain ankle or shin control first, then slide toward the foot progressively. The grip change should be incremental, maintaining contact with some part of the leg at all times rather than releasing everything to grab the foot in one explosive motion. Treat the transition as a hand walk, not a release and re-grab.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand-walk grip, keep legs locked",
+        "distractors": {
+          "plausible": [
+            "Grab foot in one fast motion",
+            "Reach over top immediately"
+          ],
+          "trap": [
+            "Release entanglement, grab foot"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their foot inside the armpit trap to reduce dorsiflexion pressure—what grip adjustment prevents this?",
         "answer": "Tighten the elbow against your ribs to eliminate any rotational space within the armpit trap, engaging your lat and pectoral muscles to compress the gap. Use your free hand to control the opponent's toes or the ball of the foot, preventing them from spinning the foot inside your grip. You can also adjust your body angle slightly to realign dorsiflexion pressure with the opponent's new foot orientation. The priority is maintaining the armpit seal—if the foot can rotate freely inside the trap, finishing pressure dissipates regardless of how much force you apply.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tighten elbow, control toes/foot",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder on the ankle",
+            "Reposition to original angle only"
+          ],
+          "trap": [
+            "Let go and re-trap the foot"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when applying the Estima Lock from Saddle in training?",
         "answer": "Apply pressure over a minimum of five to seven seconds from initial foot capture to full force. The Lisfranc joint area can sustain permanent structural damage with minimal warning sensation—there is often no gradual pain increase before ligament failure. Always ensure your training partner knows all tap signals before drilling begins. Maintain verbal communication throughout application, checking that they feel pressure building progressively. Release immediately and completely upon any tap signal. Never continue applying pressure to test whether a tap was genuine. In drilling, use fifty percent pressure maximum until both partners are comfortable with the mechanics.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow 5-7s ramp, release on tap",
+        "distractors": {
+          "plausible": [
+            "Review tap signals after drilling",
+            "Silence keeps partner focused"
+          ],
+          "trap": [
+            "Hold through the pop to be sure"
+          ]
+        }
       },
       {
         "question": "In a competition match with limited time remaining, how do you efficiently set up the Estima Lock against an opponent defending heel hooks from Saddle?",
         "answer": "Use aggressive heel hook attacks to force the committed defensive reaction that exposes the foot. Apply genuine heel hook threat with full finishing intent rather than a token feint—the opponent must believe the heel hook is your primary attack to commit fully to hiding the heel. As they rotate the knee inward and flex the ankle defensively, immediately transition to the foot capture without pause. The speed of your grip transition is the critical competition variable—practice this switch until the heel hook threat and Estima Lock capture flow as one continuous movement. Avoid telegraphing the switch by reaching over the foot prematurely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Genuine heel hook, instant switch",
+        "distractors": {
+          "plausible": [
+            "Light feint, then grab foot",
+            "Bait with early over-the-top reach"
+          ],
+          "trap": [
+            "Drop the Saddle to chase the foot"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "kZL3SjFwZNw",
+        "title": "Estima Lock",
+        "by": "Blacklist MMA",
+        "vertical": false,
+        "channel": "블랙리스트mma",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "I-Jb4qHOFZA",
+        "title": "50/50 Estima Lock",
+        "by": "Coach Ninos",
+        "vertical": false,
+        "channel": "Renegade BJJ",
+        "duration": 86,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -423,27 +535,77 @@
       {
         "question": "How do you recognize that your opponent is transitioning from a heel hook attack to an Estima Lock from Saddle?",
         "answer": "Watch for the attacker releasing their heel hook grip configuration and repositioning their arm toward the top of your foot or toes. You will feel the pressure shift from rotational force on your heel to a pulling or trapping sensation on your forefoot and dorsal foot surface. The attacker's arm position changes from cupping under your heel to reaching over the top of your foot toward their armpit. This grip transition is the critical recognition window where defensive action is most effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm shifts from heel to foot-top",
+        "distractors": {
+          "plausible": [
+            "Attacker sits up and posts a hand",
+            "Grip suddenly loosens fully"
+          ],
+          "trap": [
+            "Wait for full pressure to react"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Estima Lock from Saddle to prevent serious injury?",
         "answer": "Tap immediately when you feel the foot fully trapped in the attacker's armpit with the elbow closed and any back extension pressure beginning. Do not wait for pain—the Lisfranc joint area can sustain ligament tears and fractures with minimal warning sensation before structural failure. If you feel any popping, sharp pain in the midfoot or ankle, or your foot being bent beyond its normal range, tap instantly. In training, err heavily toward early tapping. A missed training session is always preferable to a foot injury requiring weeks or months of rehabilitation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap as extension pressure begins",
+        "distractors": {
+          "plausible": [
+            "Only tap once it hurts sharply",
+            "Wait for a pop before tapping"
+          ],
+          "trap": [
+            "Twist the trapped foot free"
+          ]
+        }
       },
       {
         "question": "What defensive options are available during the grip transition phase of the Estima Lock from Saddle?",
         "answer": "During the grip transition, actively pull your foot back toward your body while flexing your ankle to make the foot difficult to capture in the armpit. Use your free leg to frame on the attacker's hip, pushing them away to extend the distance between your foot and their armpit. You can also rotate your foot to prevent it from seating properly in the armpit trap. If these fail and the foot is partially captured, fight the elbow closure with both hands before the lock is fully sealed—once the armpit trap is complete, defensive options diminish dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract foot, frame their hip",
+        "distractors": {
+          "plausible": [
+            "Point toes and relax the ankle",
+            "Bridge into the entanglement"
+          ],
+          "trap": [
+            "Rip the leg out explosively"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for escaping the Estima Lock from Saddle?",
         "answer": "The best escape window is during the attacker's grip transition from heel hook to Estima Lock, when they momentarily have reduced control over your foot and their hand is repositioning. The second opportunity comes before the armpit trap is fully closed—you can still extract the foot if any space exists between the attacker's arm and body. Once the foot is fully sealed and back extension begins, escape is extremely difficult and the priority must shift to tapping before injury. Training should focus primarily on exploiting the first two windows.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "During grip switch, before seal",
+        "distractors": {
+          "plausible": [
+            "Right after armpit trap seals",
+            "Once back extension begins"
+          ],
+          "trap": [
+            "Explode out at max pressure"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous defensive mistake when caught in an Estima Lock from Saddle?",
         "answer": "The most dangerous error is pulling your leg explosively toward your body while the foot is trapped in the attacker's armpit. This generates kinetic energy that the attacker's body position converts directly into breaking force on your foot and ankle joints. The explosive pull can cause the submission to reach injury threshold faster than either you or your training partner can react. Instead, push the attacker's body away from you to create space, or work to free the foot from the armpit trap through controlled rotation and systematic grip fighting.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Explosive pull of trapped leg",
+        "distractors": {
+          "plausible": [
+            "Grabbing your own foot to pry",
+            "Sitting up to watch the grip"
+          ],
+          "trap": [
+            "Wait for pain before reacting"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -466,6 +628,26 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Integrating Estima Lock defense into complete Saddle escape systems",
         "description": "Full resistance rounds starting in Saddle. Defender must manage the complete submission dilemma between heel hook and Estima Lock while working systematic Saddle escapes. Track escape success rate and identify which phase of the defense breaks down most frequently for targeted improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "Escaping the Toehold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle Lock Escape - Put on the Boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-14"
       }
     ]
   }

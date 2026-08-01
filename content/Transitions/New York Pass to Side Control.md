@@ -34,6 +34,43 @@ description: "Master the New York pass to side control in BJJ. Complete guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Pass to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "10th Planet passing drill with Danny Gutierrez",
+      "description": "New York Pass to Side Control film study: 10th Planet passing drill with Danny Gutierrez, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4E5IQ9ouZfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4E5IQ9ouZfA",
+      "url": "https://www.youtube.com/watch?v=4E5IQ9ouZfA",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing basics breakdown",
+      "description": "New York Pass to Side Control film study: Passing basics breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SYl7QbIRELM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SYl7QbIRELM",
+      "url": "https://www.youtube.com/watch?v=SYl7QbIRELM",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT119S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this pass is most effective when the bottom player has committed 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Pass to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4E5IQ9ouZfA)
+
+<p class="clip-credit"><strong>10th Planet passing drill with Danny Gutierrez</strong> — taught by Eddie Bravo · 0:51 · <a href="https://www.youtube.com/watch?v=4E5IQ9ouZfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SYl7QbIRELM)
+
+<p class="clip-credit"><strong>Passing basics breakdown</strong> — taught by Eddie Bravo · 1:59 · <a href="https://www.youtube.com/watch?v=SYl7QbIRELM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

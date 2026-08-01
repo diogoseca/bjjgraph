@@ -140,6 +140,54 @@ description: "Complete defensive guide for the Backstep Pass from Reverse X-Guar
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep Pass from Reverse X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Imanari roll to counter the backstep from reverse X",
+      "description": "Backstep Pass from Reverse X-Guard (Defender) film study: Imanari roll to counter the backstep from reverse X, taught by Alex Fialho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UYSDyiPraRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UYSDyiPraRQ",
+      "url": "https://www.youtube.com/watch?v=UYSDyiPraRQ",
+      "creator": { "@type": "Person", "name": "Alex Fialho" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backstep counter from reverse X into the saddle",
+      "description": "Backstep Pass from Reverse X-Guard (Defender) film study: Backstep counter from reverse X into the saddle, taught by Kieran Davern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2hJO3DwdFK4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2hJO3DwdFK4",
+      "url": "https://www.youtube.com/watch?v=2hJO3DwdFK4",
+      "creator": { "@type": "Person", "name": "Kieran Davern" },
+      "duration": "PT198S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the backstep pass and recovering De La Riva",
+      "description": "Backstep Pass from Reverse X-Guard (Defender) film study: Defending the backstep pass and recovering De La Riva, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a3ModDEKY6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a3ModDEKY6s",
+      "url": "https://www.youtube.com/watch?v=a3ModDEKY6s",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Backstep Pass from Reverse X-Guard requires early recognition of t
 **Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep Pass from Reverse X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UYSDyiPraRQ)
+
+<p class="clip-credit"><strong>Imanari roll to counter the backstep from reverse X</strong> — taught by Alex Fialho · 1:56 · <a href="https://www.youtube.com/watch?v=UYSDyiPraRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2hJO3DwdFK4)
+
+<p class="clip-credit"><strong>Backstep counter from reverse X into the saddle</strong> — taught by Kieran Davern · 3:18 · <a href="https://www.youtube.com/watch?v=2hJO3DwdFK4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a3ModDEKY6s)
+
+<p class="clip-credit"><strong>Defending the backstep pass and recovering De La Riva</strong> — taught by Inverted Gear · 2:25 · <a href="https://www.youtube.com/watch?v=a3ModDEKY6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

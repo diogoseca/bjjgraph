@@ -168,6 +168,54 @@ description: "How to execute Mounted Crucifix to S Mount in BJJ. Attacking persp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix to S Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Switch side armbar from S-mount",
+      "description": "Mounted Crucifix to S Mount (Attacker) film study: Switch side armbar from S-mount, taught by Darrin Lillian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
+      "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
+      "creator": { "@type": "Person", "name": "Darrin Lillian" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "S-mount armbar setup",
+      "description": "Mounted Crucifix to S Mount (Attacker) film study: S-mount armbar setup, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NSQos3RARTk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NSQos3RARTk",
+      "url": "https://www.youtube.com/watch?v=NSQos3RARTk",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from S-mount",
+      "description": "Mounted Crucifix to S Mount (Attacker) film study: Armbar from S-mount, taught by Fenrir Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
+      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 **From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix to S Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5UtNLw7usQk)
+
+<p class="clip-credit"><strong>Switch side armbar from S-mount</strong> — taught by Darrin Lillian · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NSQos3RARTk)
+
+<p class="clip-credit"><strong>S-mount armbar setup</strong> — taught by Team Daruma Dojo · 1:01 · <a href="https://www.youtube.com/watch?v=NSQos3RARTk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
+
+<p class="clip-credit"><strong>Armbar from S-mount</strong> — taught by Fenrir Jiu-Jitsu · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

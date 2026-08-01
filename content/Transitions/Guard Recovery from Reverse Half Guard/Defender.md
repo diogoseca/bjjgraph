@@ -148,6 +148,43 @@ description: "Prevent guard recovery from Reverse Half Guard as the top player i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Reverse Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing half guard before the recovery",
+      "description": "Guard Recovery from Reverse Half Guard (Defender) film study: Passing half guard before the recovery, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zo6aygjOgcQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Zo6aygjOgcQ",
+      "url": "https://www.youtube.com/watch?v=Zo6aygjOgcQ",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT188S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Retention: Linking Reverse Half Guard",
+      "description": "Guard Recovery from Reverse Half Guard (Defender) film study: Guard Retention: Linking Reverse Half Guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NlrI7ZiECXM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NlrI7ZiECXM",
+      "url": "https://www.youtube.com/watch?v=NlrI7ZiECXM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the top player in reverse half guard, you hold a significant positional advan
 **Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Reverse Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Zo6aygjOgcQ)
+
+<p class="clip-credit"><strong>Passing half guard before the recovery</strong> — taught by Gordon Ryan · 3:08 · <a href="https://www.youtube.com/watch?v=Zo6aygjOgcQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NlrI7ZiECXM)
+
+<p class="clip-credit"><strong>Guard Retention: Linking Reverse Half Guard</strong> — taught by Lachlan Giles · 1:20 · <a href="https://www.youtube.com/watch?v=NlrI7ZiECXM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

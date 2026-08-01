@@ -140,6 +140,54 @@ description: "Defend the Kimura setup from Shoulder of Justice bottom. Learn rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shoulder of Justice Kimura Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late kimura defense from bottom side control",
+      "description": "Shoulder of Justice Kimura Setup (Defender) film study: Late kimura defense from bottom side control, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
+      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura defense fundamentals",
+      "description": "Shoulder of Justice Kimura Setup (Defender) film study: Kimura defense fundamentals, taught by Jon Satava.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gvRGrvtKd1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gvRGrvtKd1U",
+      "url": "https://www.youtube.com/watch?v=gvRGrvtKd1U",
+      "creator": { "@type": "Person", "name": "Jon Satava" },
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura defense 101 from bottom side control",
+      "description": "Shoulder of Justice Kimura Setup (Defender) film study: Kimura defense 101 from bottom side control, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MM9rddEgJ58/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MM9rddEgJ58",
+      "url": "https://www.youtube.com/watch?v=MM9rddEgJ58",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ From the defender's perspective, the Shoulder of Justice Kimura Setup represents
 **Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shoulder of Justice Kimura Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+
+<p class="clip-credit"><strong>Late kimura defense from bottom side control</strong> — taught by Fox Den Martial Arts · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gvRGrvtKd1U)
+
+<p class="clip-credit"><strong>Kimura defense fundamentals</strong> — taught by Jon Satava · 2:22 · <a href="https://www.youtube.com/watch?v=gvRGrvtKd1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MM9rddEgJ58)
+
+<p class="clip-credit"><strong>Kimura defense 101 from bottom side control</strong> — taught by Gracie Westchase · 2:36 · <a href="https://www.youtube.com/watch?v=MM9rddEgJ58" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Headquarters Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 72,
+  "success_rate": {
+    "gi": 72,
+    "nogi": 72
+  },
   "overview": "Drawn from modern systematic guard passing, the Headquarters Pass converts the headquarters control platform into a finishing route to side control against a half guard player. Popularized by modern no-gi grapplers, it creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.",
   "related_content": [
     {
@@ -213,54 +225,203 @@
     "flashcards": [
       {
         "question": "What is the primary control point that must be maintained throughout the entire headquarters pass sequence?",
-        "answer": "The crossface or shoulder pressure across the opponent's face/chest is the primary control point. This prevents the opponent from sitting up, creating frames, or establishing defensive posture. Without constant upper body control, the opponent can recover guard or create sweeping opportunities regardless of leg positioning."
+        "answer": "The crossface or shoulder pressure across the opponent's face/chest is the primary control point. This prevents the opponent from sitting up, creating frames, or establishing defensive posture. Without constant upper body control, the opponent can recover guard or create sweeping opportunities regardless of leg positioning.",
+        "answer_line": "Crossface pressure on face/chest",
+        "distractors": {
+          "plausible": [
+            "Near-leg control on hip",
+            "Posted free leg base"
+          ],
+          "trap": [
+            "Stand upright for space"
+          ]
+        }
       },
       {
         "question": "Why must the far leg be cleared before attempting to extract the trapped leg?",
-        "answer": "Clearing the far leg first prevents the opponent from re-establishing a knee shield or recovering full guard during your extraction. If you attempt to extract your trapped leg while the opponent's far leg is still active, they can use that leg to create frames, block your movement, or immediately recover half guard position. Proper sequencing ensures minimal risk of re-guard."
+        "answer": "Clearing the far leg first prevents the opponent from re-establishing a knee shield or recovering full guard during your extraction. If you attempt to extract your trapped leg while the opponent's far leg is still active, they can use that leg to create frames, block your movement, or immediately recover half guard position. Proper sequencing ensures minimal risk of re-guard.",
+        "answer_line": "Clear far leg first",
+        "distractors": {
+          "plausible": [
+            "Extract trapped leg first",
+            "Clear both legs simultaneously"
+          ],
+          "trap": [
+            "Ignore far leg entirely"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent establishes a strong underhook while you are in headquarters position?",
-        "answer": "If the opponent secures a strong underhook, you should immediately circle your hips away from the underhook direction to prevent them from coming up or creating sweeping angles. Maintain your crossface pressure while either establishing a whizzer on their underhooking arm or transitioning to a different passing angle such as backstep or long step. Never allow them to use the underhook to sit up or square their hips to you."
+        "answer": "If the opponent secures a strong underhook, you should immediately circle your hips away from the underhook direction to prevent them from coming up or creating sweeping angles. Maintain your crossface pressure while either establishing a whizzer on their underhooking arm or transitioning to a different passing angle such as backstep or long step. Never allow them to use the underhook to sit up or square their hips to you.",
+        "answer_line": "Circle hips away, keep crossface",
+        "distractors": {
+          "plausible": [
+            "Post base, wait for shift",
+            "Strip the underhook grip"
+          ],
+          "trap": [
+            "Let them square hips to you"
+          ]
+        }
       },
       {
         "question": "What is the key difference between headquarters position and standard half guard top position?",
-        "answer": "Headquarters position is a specific controlling position within half guard top where the passer has established crossface control, near leg control, and has positioned their free leg in a headquarters stance (knee up, shin potentially blocking). Standard half guard top can be any position where you are on top in half guard, but headquarters is a specific, more controlled platform that neutralizes most half guard attacks and sets up high-percentage passing sequences."
+        "answer": "Headquarters position is a specific controlling position within half guard top where the passer has established crossface control, near leg control, and has positioned their free leg in a headquarters stance (knee up, shin potentially blocking). Standard half guard top can be any position where you are on top in half guard, but headquarters is a specific, more controlled platform that neutralizes most half guard attacks and sets up high-percentage passing sequences.",
+        "answer_line": "Crossface, leg control, posted knee",
+        "distractors": {
+          "plausible": [
+            "Any top position in half guard",
+            "Same as standard half guard top"
+          ],
+          "trap": [
+            "Loose grip, both legs free"
+          ]
+        }
       },
       {
         "question": "What are the most common mistakes that cause headquarters passes to fail?",
-        "answer": "The most common mistakes include: losing crossface pressure which allows opponent to create frames or sit up; standing too upright which reduces control and allows guard recovery; attempting to extract the trapped leg before clearing the far leg; leaving space at the hips during transition which enables re-guard; and rushing the position without establishing proper controls. Each of these errors gives the opponent opportunities to defend, retain guard, or even sweep."
+        "answer": "The most common mistakes include: losing crossface pressure which allows opponent to create frames or sit up; standing too upright which reduces control and allows guard recovery; attempting to extract the trapped leg before clearing the far leg; leaving space at the hips during transition which enables re-guard; and rushing the position without establishing proper controls. Each of these errors gives the opponent opportunities to defend, retain guard, or even sweep.",
+        "answer_line": "Losing crossface pressure",
+        "distractors": {
+          "plausible": [
+            "Standing too upright",
+            "Extracting leg before clearing far"
+          ],
+          "trap": [
+            "Rushing to finish quickly"
+          ]
+        }
       },
       {
         "question": "How does weight distribution change throughout the headquarters pass sequence and why is this important?",
-        "answer": "Weight distribution should remain primarily forward throughout the sequence, with your chest pressure on the opponent's torso. During leg extraction, there may be a momentary shift, but you must immediately return pressure forward as you transition to side control. This constant forward pressure prevents the opponent from sitting up, creating space, or establishing defensive frames. If you shift your weight backward or upward during any phase, you give the opponent the space they need to recover guard or initiate defensive tactics."
+        "answer": "Weight distribution should remain primarily forward throughout the sequence, with your chest pressure on the opponent's torso. During leg extraction, there may be a momentary shift, but you must immediately return pressure forward as you transition to side control. This constant forward pressure prevents the opponent from sitting up, creating space, or establishing defensive frames. If you shift your weight backward or upward during any phase, you give the opponent the space they need to recover guard or initiate defensive tactics.",
+        "answer_line": "Stay forward, chest pressure",
+        "distractors": {
+          "plausible": [
+            "Shift back during extraction",
+            "Rise up for extraction room"
+          ],
+          "trap": [
+            "Sit back to load hips"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the leg extraction phase of the headquarters pass?",
-        "answer": "The optimal timing window is immediately after you have cleared and controlled the opponent's far leg and while their hips are still pinned flat from your crossface and shoulder pressure. If they have just exhausted an escape attempt such as a failed underhook or hip escape, their defensive structure will be momentarily weakened. Extract during this recovery window rather than when they are actively framing or creating movement, as their defensive capacity is at its lowest point."
+        "answer": "The optimal timing window is immediately after you have cleared and controlled the opponent's far leg and while their hips are still pinned flat from your crossface and shoulder pressure. If they have just exhausted an escape attempt such as a failed underhook or hip escape, their defensive structure will be momentarily weakened. Extract during this recovery window rather than when they are actively framing or creating movement, as their defensive capacity is at its lowest point.",
+        "answer_line": "Right after far leg is cleared",
+        "distractors": {
+          "plausible": [
+            "After they fully settle down",
+            "Before controlling the far leg"
+          ],
+          "trap": [
+            "While they actively frame"
+          ]
+        }
       },
       {
         "question": "Your opponent gets a pant grip on your trapped leg ankle and is preventing extraction - what do you do?",
-        "answer": "Strip the grip by using your free hand to peel their fingers from the fabric while maintaining crossface with your shoulder and head pressure alone. If the grip is too strong to strip directly, switch to the knee slice variation by driving your trapped knee across their thighs rather than pulling it backward. The knee slice angle changes the vector of extraction and makes their ankle grip ineffective because you are moving laterally through their guard rather than pulling away from their grip direction."
+        "answer": "Strip the grip by using your free hand to peel their fingers from the fabric while maintaining crossface with your shoulder and head pressure alone. If the grip is too strong to strip directly, switch to the knee slice variation by driving your trapped knee across their thighs rather than pulling it backward. The knee slice angle changes the vector of extraction and makes their ankle grip ineffective because you are moving laterally through their guard rather than pulling away from their grip direction.",
+        "answer_line": "Strip grip or knee-slice through",
+        "distractors": {
+          "plausible": [
+            "Pull harder straight back",
+            "Release crossface to peel grip"
+          ],
+          "trap": [
+            "Yank leg free forcefully"
+          ]
+        }
       },
       {
         "question": "What grip configurations are required for the standard headquarters pass versus the underhook variation?",
-        "answer": "The standard headquarters pass requires a crossface grip where your far arm reaches across the opponent's face or neck and controls their far shoulder, while your near hand controls their bottom knee or thigh. The underhook variation replaces the crossface with a deep underhook on the opponent's far side, scooping under their armpit and gripping the shoulder or lat. The near hand still controls the bottom leg. The underhook variation sacrifices some head control for the ability to lift and turn the opponent, which facilitates leg extraction."
+        "answer": "The standard headquarters pass requires a crossface grip where your far arm reaches across the opponent's face or neck and controls their far shoulder, while your near hand controls their bottom knee or thigh. The underhook variation replaces the crossface with a deep underhook on the opponent's far side, scooping under their armpit and gripping the shoulder or lat. The near hand still controls the bottom leg. The underhook variation sacrifices some head control for the ability to lift and turn the opponent, which facilitates leg extraction.",
+        "answer_line": "Crossface arm, near hand on knee",
+        "distractors": {
+          "plausible": [
+            "Deep underhook, near hand on knee",
+            "Both hands crossface grip"
+          ],
+          "trap": [
+            "Drop head control entirely"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force application during the leg extraction phase?",
-        "answer": "The primary force direction during extraction is a diagonal pull combining backward hip movement with a slight lateral angle away from the opponent's guard retention side. Your knee should thread through the gap created by the cleared far leg, moving in a direction roughly 45 degrees between straight back and laterally away from the opponent. Pulling straight back alone allows them to follow your hips and re-close the guard. The lateral component creates an angle their legs cannot track, making the extraction decisive and preventing immediate re-guard."
+        "answer": "The primary force direction during extraction is a diagonal pull combining backward hip movement with a slight lateral angle away from the opponent's guard retention side. Your knee should thread through the gap created by the cleared far leg, moving in a direction roughly 45 degrees between straight back and laterally away from the opponent. Pulling straight back alone allows them to follow your hips and re-close the guard. The lateral component creates an angle their legs cannot track, making the extraction decisive and preventing immediate re-guard.",
+        "answer_line": "Diagonal pull, 45-degree angle",
+        "distractors": {
+          "plausible": [
+            "Straight back pull only",
+            "Pure lateral pull sideways"
+          ],
+          "trap": [
+            "Push knee straight forward"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning away from you during the headquarters pass to attempt a turtle position - how do you capitalize?",
-        "answer": "When the opponent turns away, maintain your crossface pressure and follow their rotation by transitioning your chest pressure to their back rather than fighting to keep them flat. As they expose their back, slide your near knee across their hip line to establish a back control hook. Use your crossface arm to secure a seatbelt grip around their torso. Their attempt to turtle has actually given you a more dominant position than side control. Do not try to flatten them back out, as this wastes the positional gift they have given you by turning."
+        "answer": "When the opponent turns away, maintain your crossface pressure and follow their rotation by transitioning your chest pressure to their back rather than fighting to keep them flat. As they expose their back, slide your near knee across their hip line to establish a back control hook. Use your crossface arm to secure a seatbelt grip around their torso. Their attempt to turtle has actually given you a more dominant position than side control. Do not try to flatten them back out, as this wastes the positional gift they have given you by turning.",
+        "answer_line": "Follow turn, take the back",
+        "distractors": {
+          "plausible": [
+            "Flatten them back to guard",
+            "Stay in side control position"
+          ],
+          "trap": [
+            "Force them flat again"
+          ]
+        }
       },
       {
         "question": "If your initial headquarters pass attempt stalls and the opponent recovers knee shield, what chain attack sequence should you follow?",
-        "answer": "When the opponent recovers knee shield, do not force the same pass again. Instead, use the knee shield as a fulcrum by gripping below their knee and collapsing their shield inward with a smash pass motion, or switch to a long step variation by stepping your free leg completely over their far leg to attack from the opposite angle. You can also threaten a kimura grip on their bottom arm to force them to address the submission threat, which often breaks their knee shield structure as they redirect their defensive attention. The key principle is never repeating a failed passing angle - always chain to a different vector."
+        "answer": "When the opponent recovers knee shield, do not force the same pass again. Instead, use the knee shield as a fulcrum by gripping below their knee and collapsing their shield inward with a smash pass motion, or switch to a long step variation by stepping your free leg completely over their far leg to attack from the opposite angle. You can also threaten a kimura grip on their bottom arm to force them to address the submission threat, which often breaks their knee shield structure as they redirect their defensive attention. The key principle is never repeating a failed passing angle - always chain to a different vector.",
+        "answer_line": "Switch angle, don't repeat pass",
+        "distractors": {
+          "plausible": [
+            "Force the same pass again",
+            "Wait for opponent to move"
+          ],
+          "trap": [
+            "Repeat identical pass attempt"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The headquarters pass is generally a safe technique for both practitioners when executed with proper control. The passer should be mindful of maintaining shoulder pressure without driving their shoulder point directly into the opponent's face or throat, which can cause discomfort or injury. When extracting the trapped leg, avoid explosive or jerking motions that could strain your own knee or the opponent's leg if they are holding tight grips. During training, both partners should communicate if grips or pressure become uncomfortable. The bottom player should tap if they feel their neck is being cranked or if they experience any joint discomfort from leg entanglement. Practice this technique progressively with cooperative partners before attempting it at full intensity to develop proper mechanics and avoid injury during the learning phase."
+    "safety_considerations": "The headquarters pass is generally a safe technique for both practitioners when executed with proper control. The passer should be mindful of maintaining shoulder pressure without driving their shoulder point directly into the opponent's face or throat, which can cause discomfort or injury. When extracting the trapped leg, avoid explosive or jerking motions that could strain your own knee or the opponent's leg if they are holding tight grips. During training, both partners should communicate if grips or pressure become uncomfortable. The bottom player should tap if they feel their neck is being cranked or if they experience any joint discomfort from leg entanglement. Practice this technique progressively with cooperative partners before attempting it at full intensity to develop proper mechanics and avoid injury during the learning phase.",
+    "clips": [
+      {
+        "id": "IUvwQc_Y6RA",
+        "title": "Headquarters Position to Knee-Cut Pass",
+        "by": "Tony Casarez",
+        "vertical": false,
+        "channel": "Tony Casarez",
+        "duration": 109,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YNmgTjIxtNQ",
+        "title": "Mount Pass from Headquarters",
+        "by": "Reding Martial Arts",
+        "vertical": false,
+        "channel": "Reding Martial Arts",
+        "duration": 159,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VDsDFK-ntLE",
+        "title": "Headquarters Smash Pass",
+        "by": "OMJJJ",
+        "vertical": false,
+        "channel": "OMJJJ",
+        "duration": 195,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Headquarters Pass Defender",
@@ -344,23 +505,73 @@
     "flashcards": [
       {
         "question": "What is the most critical moment for the defender to attempt an escape during the headquarters pass sequence?",
-        "answer": "The most critical moment is during the passer's leg extraction phase, when they shift weight to pull their trapped knee free. This momentary weight transfer lightens pressure on your hips and compromises their base, creating a window for hip escapes and frame insertion. Attempting escapes when the passer is fully settled in headquarters with all controls established is far less effective than timing your movement to this transitional moment."
+        "answer": "The most critical moment is during the passer's leg extraction phase, when they shift weight to pull their trapped knee free. This momentary weight transfer lightens pressure on your hips and compromises their base, creating a window for hip escapes and frame insertion. Attempting escapes when the passer is fully settled in headquarters with all controls established is far less effective than timing your movement to this transitional moment.",
+        "answer_line": "During passer's leg extraction",
+        "distractors": {
+          "plausible": [
+            "When fully settled in position",
+            "Right when crossface is applied"
+          ],
+          "trap": [
+            "Wait until pass is finished"
+          ]
+        }
       },
       {
         "question": "Why is fighting for the underhook more important than fighting to free your trapped leg when defending headquarters?",
-        "answer": "The underhook gives you the ability to sit up, create angle, and threaten sweeps or back takes, which forces the passer to abandon their passing sequence to address your offensive threat. Freeing your trapped leg without upper body control merely delays the pass temporarily, as the passer can re-trap the leg while their crossface keeps you flat. The underhook changes the dynamic from pure defense to an offensive counter, which is strategically superior to simply stalling the pass."
+        "answer": "The underhook gives you the ability to sit up, create angle, and threaten sweeps or back takes, which forces the passer to abandon their passing sequence to address your offensive threat. Freeing your trapped leg without upper body control merely delays the pass temporarily, as the passer can re-trap the leg while their crossface keeps you flat. The underhook changes the dynamic from pure defense to an offensive counter, which is strategically superior to simply stalling the pass.",
+        "answer_line": "Underhook forces them to react",
+        "distractors": {
+          "plausible": [
+            "Freeing trapped leg first",
+            "Escaping hips before upper body"
+          ],
+          "trap": [
+            "Ignore upper body, kick leg free"
+          ]
+        }
       },
       {
         "question": "Your opponent has established headquarters with a strong crossface and is beginning to clear your far knee - what is your best defensive response?",
-        "answer": "Frame against their crossface shoulder with your forearm to create just enough space to turn your hips, then use a strong hip escape away from the passer while simultaneously pulling your far knee back tight to your chest before they can push it fully down. If the knee shield is already compromised, immediately transition to a foot-on-hip frame with your far leg to create distance. The goal is preventing the far leg clearance because once both legs are controlled, the pass is nearly complete and recovery becomes extremely difficult."
+        "answer": "Frame against their crossface shoulder with your forearm to create just enough space to turn your hips, then use a strong hip escape away from the passer while simultaneously pulling your far knee back tight to your chest before they can push it fully down. If the knee shield is already compromised, immediately transition to a foot-on-hip frame with your far leg to create distance. The goal is preventing the far leg clearance because once both legs are controlled, the pass is nearly complete and recovery becomes extremely difficult.",
+        "answer_line": "Frame crossface, hip escape",
+        "distractors": {
+          "plausible": [
+            "Push opponent's head away",
+            "Kick both legs straight out"
+          ],
+          "trap": [
+            "Let them clear far knee"
+          ]
+        }
       },
       {
         "question": "What are the three control pillars the passer needs for a successful headquarters position, and which should the defender attack first?",
-        "answer": "The three pillars are crossface or shoulder pressure controlling the head and upper body, near leg control pinning the bottom hip, and the posted free leg creating the stable headquarters base. The defender should attack the crossface first because upper body freedom enables all other defensive movements. Without the crossface, you can sit up, turn onto your side, and create the angles needed for underhooks, frames, and hip escapes. Attacking the leg controls without addressing the crossface leaves you pinned flat with limited mobility regardless of your leg position."
+        "answer": "The three pillars are crossface or shoulder pressure controlling the head and upper body, near leg control pinning the bottom hip, and the posted free leg creating the stable headquarters base. The defender should attack the crossface first because upper body freedom enables all other defensive movements. Without the crossface, you can sit up, turn onto your side, and create the angles needed for underhooks, frames, and hip escapes. Attacking the leg controls without addressing the crossface leaves you pinned flat with limited mobility regardless of your leg position.",
+        "answer_line": "Attack the crossface first",
+        "distractors": {
+          "plausible": [
+            "Attack near leg control first",
+            "Attack posted free leg first"
+          ],
+          "trap": [
+            "Ignore upper body, fight legs"
+          ]
+        }
       },
       {
         "question": "How does the deep half guard entry work as a defensive counter to headquarters, and when should you attempt it?",
-        "answer": "The deep half entry involves threading your body underneath the passer's hips by turning toward them and sliding your head and shoulders under their base while controlling their far leg with your arms. Attempt it when the passer's weight is high on your chest with their hips elevated, creating space underneath. This is a high-commitment counter - if it fails, you end up flattened with your back exposed. Only attempt it when you have enough space to get your head below their hip line and can secure a grip on their far leg to prevent them from sprawling away."
+        "answer": "The deep half entry involves threading your body underneath the passer's hips by turning toward them and sliding your head and shoulders under their base while controlling their far leg with your arms. Attempt it when the passer's weight is high on your chest with their hips elevated, creating space underneath. This is a high-commitment counter - if it fails, you end up flattened with your back exposed. Only attempt it when you have enough space to get your head below their hip line and can secure a grip on their far leg to prevent them from sprawling away.",
+        "answer_line": "Thread under when hips elevated",
+        "distractors": {
+          "plausible": [
+            "Attempt anytime under pressure",
+            "Turn away to create space"
+          ],
+          "trap": [
+            "Force entry when flattened tight"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -383,6 +594,35 @@
         "phase": "Month 3+: Live Positional Sparring",
         "focus": "Full resistance defense with counter-attacking options",
         "description": "Positional sparring starting in half guard bottom against a partner working headquarters pass at full intensity. Integrate all defensive tools including underhook battles, knee shield retention, timed hip escapes, and deep half entries. Track success rate and identify which defensive pathway works best against different body types and passing styles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rP8SOouke1s",
+        "title": "Knee-Elbow Retention vs the Knee Cut",
+        "by": "Cal McDonald",
+        "vertical": false,
+        "channel": "Cal McDonald",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lVLAROiSjNU",
+        "title": "Guard Retention: When To Sit Up Escape",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 136,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k4pZYVOwmbI",
+        "title": "Knee Shield Defense vs Headquarters",
+        "by": "Jiu Jitsu Curriculum",
+        "vertical": false,
+        "channel": "Jiu Jitsu Curriculum",
+        "duration": 117,
+        "verified": "2026-07-15"
       }
     ]
   },

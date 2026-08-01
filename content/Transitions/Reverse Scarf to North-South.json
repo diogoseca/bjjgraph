@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "North-South/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the top-game control hierarchy, this transition bridges a temporary, reversed-orientation pin and the far more sustainable north-south position. It capitalizes on the unique orientation of reverse scarf hold, where the top player already faces away from the opponent's head, requiring a controlled rotation to achieve the chest-to-chest pressure configuration that defines north-south control. The rotation arc is shorter than transitioning from standard side control, making this a natural and efficient positional progression.\n\nThe transition serves multiple strategic purposes within the top-game control hierarchy. First, it addresses the inherent instability of reverse scarf hold as a long-term control position by advancing to the more sustainable north-south pin. Second, it opens new submission pathways including the north-south choke, kimura, and armbar variations that are unavailable from the reverse scarf position. Third, it disrupts the bottom player's escape timing by fundamentally changing the pressure angle and control dynamics during the rotation, forcing them to abandon their reverse scarf escape patterns and adapt to an entirely different defensive scenario.\n\nThe critical challenge in this transition lies in maintaining constant pressure throughout the rotation. Any momentary lightening of weight creates an escape window that experienced bottom players will exploit through bridging, hip escapes, or knee insertion to recover half guard. Success requires smooth weight transfer where the chest acts as a pivot point, continuous arm control that prevents defensive framing during the vulnerable rotational phase, and the ability to read the opponent's defensive reactions to determine whether to complete the transition or abort and maintain reverse scarf hold control.",
   "conditions": [
     "Established reverse scarf hold control with hip pressure on opponent's chest",
@@ -251,42 +263,161 @@
     "flashcards": [
       {
         "question": "What body part serves as the primary pivot point during the rotation from reverse scarf to north-south?",
-        "answer": "Your chest serves as the fixed pivot point against the opponent's upper body throughout the entire rotation. The sternum maintains constant contact with the opponent's chest area while your lower body walks in an arc around that anchor point. This pivot mechanism ensures continuous pressure throughout the transition and prevents the escape windows that occur when practitioners lift their chest to reposition. The heavier and more consistent your chest pressure, the more secure the pivot and the less opportunity the opponent has to create defensive space."
+        "answer": "Your chest serves as the fixed pivot point against the opponent's upper body throughout the entire rotation. The sternum maintains constant contact with the opponent's chest area while your lower body walks in an arc around that anchor point. This pivot mechanism ensures continuous pressure throughout the transition and prevents the escape windows that occur when practitioners lift their chest to reposition. The heavier and more consistent your chest pressure, the more secure the pivot and the less opportunity the opponent has to create defensive space.",
+        "answer_line": "Chest is the fixed pivot",
+        "distractors": {
+          "plausible": [
+            "Hip is the pivot point",
+            "Shoulder anchors the pivot"
+          ],
+          "trap": [
+            "Lift chest to spin faster"
+          ]
+        }
       },
       {
         "question": "Your opponent frames on your hip with their far arm as you begin the rotation - how do you adjust?",
-        "answer": "First, do not attempt to rotate through the frame as this creates gaps the opponent will exploit. Instead, strip the frame by driving your hip into their forearm to collapse the skeletal structure of the frame, or control the framing arm by trapping it with your far hand and pulling it across their body. If the frame is particularly strong, consider attacking the exposed arm with a kimura grip rather than forcing the transition. Only reinitiate the rotation once both arms are controlled and the frame is eliminated."
+        "answer": "First, do not attempt to rotate through the frame as this creates gaps the opponent will exploit. Instead, strip the frame by driving your hip into their forearm to collapse the skeletal structure of the frame, or control the framing arm by trapping it with your far hand and pulling it across their body. If the frame is particularly strong, consider attacking the exposed arm with a kimura grip rather than forcing the transition. Only reinitiate the rotation once both arms are controlled and the frame is eliminated.",
+        "answer_line": "Strip frame, collapse structure",
+        "distractors": {
+          "plausible": [
+            "Attack kimura grip immediately",
+            "Push through with head pressure"
+          ],
+          "trap": [
+            "Force the rotation through frame"
+          ]
+        }
       },
       {
         "question": "What is the critical weight shift that must occur before initiating the leg rotation?",
-        "answer": "Before any leg movement begins, you must shift your weight forward so your chest pressure concentrates over the opponent's upper chest and shoulder area rather than their mid-torso. This forward loading serves two essential purposes: it secures the pivot point high on their body where rotation is mechanically efficient, and it eliminates the gap at hip level that the opponent would otherwise use for knee insertion or hip escape during the rotation. Without this preliminary forward shift, the rotation creates a predictable escape window at the hip line."
+        "answer": "Before any leg movement begins, you must shift your weight forward so your chest pressure concentrates over the opponent's upper chest and shoulder area rather than their mid-torso. This forward loading serves two essential purposes: it secures the pivot point high on their body where rotation is mechanically efficient, and it eliminates the gap at hip level that the opponent would otherwise use for knee insertion or hip escape during the rotation. Without this preliminary forward shift, the rotation creates a predictable escape window at the hip line.",
+        "answer_line": "Load weight onto upper chest",
+        "distractors": {
+          "plausible": [
+            "Keep weight centered on torso",
+            "Drop weight onto their hips"
+          ],
+          "trap": [
+            "Lighten pressure to move faster"
+          ]
+        }
       },
       {
         "question": "How should you sequence the grip transition from reverse scarf control to north-south underhooks?",
-        "answer": "The grip transition must be progressive rather than simultaneous to prevent both arms from being free at any point. First, thread your near arm into a north-south underhook on one side of the opponent's body while maintaining your far arm's control from the reverse scarf position. Only after the first underhook is secure should you release the remaining reverse scarf grip and transition it to the second underhook or arm control on the opposite side. This sequential approach ensures continuous arm control throughout the most vulnerable phase of the transition."
+        "answer": "The grip transition must be progressive rather than simultaneous to prevent both arms from being free at any point. First, thread your near arm into a north-south underhook on one side of the opponent's body while maintaining your far arm's control from the reverse scarf position. Only after the first underhook is secure should you release the remaining reverse scarf grip and transition it to the second underhook or arm control on the opposite side. This sequential approach ensures continuous arm control throughout the most vulnerable phase of the transition.",
+        "answer_line": "Secure one underhook first",
+        "distractors": {
+          "plausible": [
+            "Release both grips together",
+            "Underhook far side first"
+          ],
+          "trap": [
+            "Release all grips to reset"
+          ]
+        }
       },
       {
         "question": "When should you abort the transition and return to reverse scarf hold instead of completing the rotation?",
-        "answer": "Abort when you feel the opponent establishing effective frames that mechanically block the rotation, when they successfully insert a knee between your bodies creating a half guard structure, or when their bridge generates enough space that your chest lifts off their body breaking the pivot point. The decision to abort must be immediate and committed. Return fully to reverse scarf hold control with consolidated grips and heavy pressure rather than lingering in an intermediate position. A clean abort preserves your control and allows you to reattempt when conditions improve."
+        "answer": "Abort when you feel the opponent establishing effective frames that mechanically block the rotation, when they successfully insert a knee between your bodies creating a half guard structure, or when their bridge generates enough space that your chest lifts off their body breaking the pivot point. The decision to abort must be immediate and committed. Return fully to reverse scarf hold control with consolidated grips and heavy pressure rather than lingering in an intermediate position. A clean abort preserves your control and allows you to reattempt when conditions improve.",
+        "answer_line": "Commit fully back, don't linger",
+        "distractors": {
+          "plausible": [
+            "Push through despite the frame",
+            "Pause mid-transition to reset"
+          ],
+          "trap": [
+            "Keep chest light to check position"
+          ]
+        }
       },
       {
         "question": "What is the optimal response when the opponent bridges explosively during the mid-rotation phase?",
-        "answer": "Rather than fighting the bridge directly, use it as an opportunity. Keep your chest heavy as the pivot point and widen your base by sprawling your legs outward to ride the bridge. If the bridge is strong enough to create upward momentum, redirect that energy to accelerate your rotation toward north-south rather than trying to return to reverse scarf hold. As the opponent's bridge collapses from fatigue, their descent brings them directly into your completing north-south pressure. Their escape attempt becomes your transition momentum."
+        "answer": "Rather than fighting the bridge directly, use it as an opportunity. Keep your chest heavy as the pivot point and widen your base by sprawling your legs outward to ride the bridge. If the bridge is strong enough to create upward momentum, redirect that energy to accelerate your rotation toward north-south rather than trying to return to reverse scarf hold. As the opponent's bridge collapses from fatigue, their descent brings them directly into your completing north-south pressure. Their escape attempt becomes your transition momentum.",
+        "answer_line": "Ride bridge, redirect momentum",
+        "distractors": {
+          "plausible": [
+            "Brace hard to stop the bridge",
+            "Retreat to reverse scarf hold"
+          ],
+          "trap": [
+            "Lift chest to absorb impact"
+          ]
+        }
       },
       {
         "question": "What determines whether you should pursue this transition versus hunting submissions from reverse scarf hold?",
-        "answer": "Pursue the north-south transition when the opponent is successfully defending reverse scarf submissions by protecting their arms and maintaining defensive posture, when you need a more sustainable control position for recovery or point scoring, or when the opponent's escape attempts are creating the instability that makes reverse scarf hold difficult to maintain. Stay in reverse scarf hold and hunt submissions when the opponent's arm is exposed and submission opportunities are immediate, when you have high-percentage attacks available, or when the opponent is passive and not threatening escape. The decision depends on reading whether offensive or positional opportunity is higher at that moment."
+        "answer": "Pursue the north-south transition when the opponent is successfully defending reverse scarf submissions by protecting their arms and maintaining defensive posture, when you need a more sustainable control position for recovery or point scoring, or when the opponent's escape attempts are creating the instability that makes reverse scarf hold difficult to maintain. Stay in reverse scarf hold and hunt submissions when the opponent's arm is exposed and submission opportunities are immediate, when you have high-percentage attacks available, or when the opponent is passive and not threatening escape. The decision depends on reading whether offensive or positional opportunity is higher at that moment.",
+        "answer_line": "Read which opportunity is open",
+        "distractors": {
+          "plausible": [
+            "Always finish from reverse scarf",
+            "Always transition to north-south"
+          ],
+          "trap": [
+            "Force a defended submission"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you commit to initiating the rotation to north-south?",
-        "answer": "Both of the opponent's arms must be controlled or neutralized, your base must be wide and stable with the near leg posted, the opponent should be relatively flat without an active knee shield or established frames, and your hip pressure must already be heavy on their chest. Initiating without these prerequisites — especially against an established frame — lets the opponent block the rotation mechanically and exploit the gaps your movement creates, so spend the time to consolidate before you move."
+        "answer": "Both of the opponent's arms must be controlled or neutralized, your base must be wide and stable with the near leg posted, the opponent should be relatively flat without an active knee shield or established frames, and your hip pressure must already be heavy on their chest. Initiating without these prerequisites — especially against an established frame — lets the opponent block the rotation mechanically and exploit the gaps your movement creates, so spend the time to consolidate before you move.",
+        "answer_line": "Control arms, wide stable base",
+        "distractors": {
+          "plausible": [
+            "Just get hip pressure heavy",
+            "Start once base is wide enough"
+          ],
+          "trap": [
+            "Rotate even against a knee shield"
+          ]
+        }
       },
       {
         "question": "Your rotation to north-south is blocked by a strong frame - what attacks can you chain into instead?",
-        "answer": "Treat the blocking arm as a gift rather than an obstacle: attack it directly with a kimura grip or an americana from the reverse scarf hold, since the framing arm is already isolated away from their body and exposed. If the opponent instead turns away to defend the arm, abandon the north-south rotation and follow the exposed back toward back control. A blocked transition should flow into a submission or a back take rather than stalling into a static push that drains your energy."
+        "answer": "Treat the blocking arm as a gift rather than an obstacle: attack it directly with a kimura grip or an americana from the reverse scarf hold, since the framing arm is already isolated away from their body and exposed. If the opponent instead turns away to defend the arm, abandon the north-south rotation and follow the exposed back toward back control. A blocked transition should flow into a submission or a back take rather than stalling into a static push that drains your energy.",
+        "answer_line": "Attack the framing arm (kimura)",
+        "distractors": {
+          "plausible": [
+            "Force through the blocked rotation",
+            "Abandon position and reset guard"
+          ],
+          "trap": [
+            "Keep pushing until frame breaks"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves continuous pressure on the opponent's chest and upper body which restricts breathing. Monitor your training partner for signs of respiratory distress including tapping, verbal signals, or cessation of movement. During drilling, periodically check that your partner can breathe adequately under the pressure. Avoid dropping your full weight suddenly during the rotation completion as this can cause rib injuries. The transition itself is low-risk compared to submissions, but the sustained chest compression in both the starting and ending positions requires awareness of your partner's comfort and safety throughout the positional exchange."
+    "safety_considerations": "This transition involves continuous pressure on the opponent's chest and upper body which restricts breathing. Monitor your training partner for signs of respiratory distress including tapping, verbal signals, or cessation of movement. During drilling, periodically check that your partner can breathe adequately under the pressure. Avoid dropping your full weight suddenly during the rotation completion as this can cause rib injuries. The transition itself is low-risk compared to submissions, but the sustained chest compression in both the starting and ending positions requires awareness of your partner's comfort and safety throughout the positional exchange.",
+    "clips": [
+      {
+        "id": "LurZB_PfUmA",
+        "title": "Modified scarf hold to north-south choke",
+        "by": "Todd Blatchley",
+        "vertical": false,
+        "channel": "Todd Blatchley",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dfcnBQnz4ag",
+        "title": "Ushiro kesa gatame reverse scarf hold",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 40,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9Q6g6Jx27qg",
+        "title": "Osaekomi waza: pinning and transition for BJJ",
+        "by": "Samir Seif",
+        "vertical": false,
+        "channel": "Samir Seif",
+        "duration": 222,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reverse Scarf to North-South Defender",
@@ -372,23 +503,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Reverse Scarf to North-South transition is being initiated?",
-        "answer": "The earliest cue is the forward weight shift where the attacker moves their pressure from your mid-chest toward your upper chest and shoulder area. This forward loading precedes the leg rotation by several seconds and represents the preparation phase of the transition. You may also feel their grip adjusting as they prepare to release reverse scarf arm control. Recognizing this weight shift is critical because it gives you maximum time to establish your defensive frame before the rotation builds momentum."
+        "answer": "The earliest cue is the forward weight shift where the attacker moves their pressure from your mid-chest toward your upper chest and shoulder area. This forward loading precedes the leg rotation by several seconds and represents the preparation phase of the transition. You may also feel their grip adjusting as they prepare to release reverse scarf arm control. Recognizing this weight shift is critical because it gives you maximum time to establish your defensive frame before the rotation builds momentum.",
+        "answer_line": "Forward weight shift to shoulder",
+        "distractors": {
+          "plausible": [
+            "Sudden hip pressure increase",
+            "Legs stepping into base first"
+          ],
+          "trap": [
+            "Wait for the rotation to start"
+          ]
+        }
       },
       {
         "question": "When is the optimal window to attempt a hip escape or knee insertion during this transition?",
-        "answer": "The optimal window is during the mid-rotation phase when the attacker's legs are in transition between their reverse scarf base and north-south base configuration. During this walking arc, their base width is temporarily at its narrowest point, their weight distribution is shifting, and their arms may be transitioning between grip configurations. This window typically lasts only one to two seconds, so your defensive response must be pre-loaded and ready to execute the moment you feel the rotation initiate."
+        "answer": "The optimal window is during the mid-rotation phase when the attacker's legs are in transition between their reverse scarf base and north-south base configuration. During this walking arc, their base width is temporarily at its narrowest point, their weight distribution is shifting, and their arms may be transitioning between grip configurations. This window typically lasts only one to two seconds, so your defensive response must be pre-loaded and ready to execute the moment you feel the rotation initiate.",
+        "answer_line": "Mid-rotation, base narrowest",
+        "distractors": {
+          "plausible": [
+            "Right as rotation begins",
+            "After north-south is secured"
+          ],
+          "trap": [
+            "Wait until pressure fully settles"
+          ]
+        }
       },
       {
         "question": "How do you prevent the attacker from establishing north-south underhooks after the rotation completes?",
-        "answer": "Keep your elbows tight to your body and your forearms actively framing against their chest throughout the entire transition. When you feel the grip transition phase where the attacker releases reverse scarf grips to seek north-south underhooks, immediately fight for inside arm position by swimming your elbows inward and pressing your forearms against their chest. The goal is to maintain frames that prevent their arms from threading under your armpits. If they secure one underhook, prioritize defending the second side to maintain at least partial defensive structure."
+        "answer": "Keep your elbows tight to your body and your forearms actively framing against their chest throughout the entire transition. When you feel the grip transition phase where the attacker releases reverse scarf grips to seek north-south underhooks, immediately fight for inside arm position by swimming your elbows inward and pressing your forearms against their chest. The goal is to maintain frames that prevent their arms from threading under your armpits. If they secure one underhook, prioritize defending the second side to maintain at least partial defensive structure.",
+        "answer_line": "Elbows tight, frame the chest",
+        "distractors": {
+          "plausible": [
+            "Push their head away with hands",
+            "Grab their far leg for control"
+          ],
+          "trap": [
+            "Let one underhook go to save energy"
+          ]
+        }
       },
       {
         "question": "What should your immediate priority be if the transition completes and you find yourself in north-south bottom?",
-        "answer": "Immediately establish forearm frames against the attacker's chest to create breathing room and prevent full pressure consolidation. Begin small hip escapes to create cumulative space, and protect both arms from being isolated for submissions. Your most important early action is controlled breathing under the chest pressure to prevent panic and energy depletion. From there, work systematic escape sequences targeting half guard recovery through hip escape and knee insertion during the attacker's submission attempts or positional adjustments."
+        "answer": "Immediately establish forearm frames against the attacker's chest to create breathing room and prevent full pressure consolidation. Begin small hip escapes to create cumulative space, and protect both arms from being isolated for submissions. Your most important early action is controlled breathing under the chest pressure to prevent panic and energy depletion. From there, work systematic escape sequences targeting half guard recovery through hip escape and knee insertion during the attacker's submission attempts or positional adjustments.",
+        "answer_line": "Frame chest, breathe, hip escape",
+        "distractors": {
+          "plausible": [
+            "Immediately fight for an underhook",
+            "Bridge hard to reverse position"
+          ],
+          "trap": [
+            "Turtle up to hide your arms"
+          ]
+        }
       },
       {
         "question": "Why is it strategically acceptable to remain in reverse scarf hold rather than risk the transition to north-south?",
-        "answer": "Reverse scarf hold, while still a disadvantageous bottom position, has more mechanical vulnerabilities from the top player's perspective than north-south. The reversed orientation limits the attacker's visibility, creates base compromises from the unusual facing angle, and offers specific escape pathways through bridging toward the attacker's back. North-south provides the attacker with superior pressure distribution, more sustainable control, better submission access, and easier transitions to mount. Preventing the advancement preserves your position in a less disadvantageous pin where your escape probability is higher."
+        "answer": "Reverse scarf hold, while still a disadvantageous bottom position, has more mechanical vulnerabilities from the top player's perspective than north-south. The reversed orientation limits the attacker's visibility, creates base compromises from the unusual facing angle, and offers specific escape pathways through bridging toward the attacker's back. North-south provides the attacker with superior pressure distribution, more sustainable control, better submission access, and easier transitions to mount. Preventing the advancement preserves your position in a less disadvantageous pin where your escape probability is higher.",
+        "answer_line": "Reverse scarf has more escapes",
+        "distractors": {
+          "plausible": [
+            "North-south is easier to escape",
+            "Both positions are equally bad"
+          ],
+          "trap": [
+            "North-south lets you recover faster"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -411,6 +592,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full integration into live defensive sequences",
         "description": "Start in reverse scarf hold bottom during live positional sparring. Partner works all available attacks and transitions including the north-south transition. Practice recognizing and defending the specific transition within the broader context of reverse scarf hold escape sequences where multiple threats must be addressed simultaneously."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2EZfzJb_-tA",
+        "title": "Quick north-south escape",
+        "by": "Moncaio Brothers",
+        "vertical": false,
+        "channel": "Moncaio Brothers Jiujitsu",
+        "duration": 24,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse kesa gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QzegNgUUfZs",
+        "title": "Reverse kesa gatame side control escape",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   }

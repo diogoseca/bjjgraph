@@ -168,6 +168,54 @@ description: "How to execute Return to Outside Ashi in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Return to Outside Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside ashi garami entry and control",
+      "description": "Return to Outside Ashi (Attacker) film study: Outside ashi garami entry and control, taught by Team Strela.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xvx03k3jiWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xvx03k3jiWo",
+      "url": "https://www.youtube.com/watch?v=xvx03k3jiWo",
+      "creator": { "@type": "Person", "name": "Team Strela" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside ashi control and finishing mechanics",
+      "description": "Return to Outside Ashi (Attacker) film study: Outside ashi control and finishing mechanics, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X-guard to cross ashi leg entanglement entry",
+      "description": "Return to Outside Ashi (Attacker) film study: X-guard to cross ashi leg entanglement entry, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HVc2CKdAfN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HVc2CKdAfN0",
+      "url": "https://www.youtube.com/watch?v=HVc2CKdAfN0",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, this transition represents a positional improvement rather than a
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Return to Outside Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xvx03k3jiWo)
+
+<p class="clip-credit"><strong>Outside ashi garami entry and control</strong> — taught by Team Strela · 0:26 · <a href="https://www.youtube.com/watch?v=xvx03k3jiWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tLcHN042w48)
+
+<p class="clip-credit"><strong>Outside ashi control and finishing mechanics</strong> — taught by Fox Den Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HVc2CKdAfN0)
+
+<p class="clip-credit"><strong>X-guard to cross ashi leg entanglement entry</strong> — taught by Johnny Jitsu · 2:00 · <a href="https://www.youtube.com/watch?v=HVc2CKdAfN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

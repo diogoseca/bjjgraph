@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Gift Wrap/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "Within the mount attack hierarchy, the Gift Wrap occupies the rung between raw positional control and direct submission, refining Mount's dominance into systematic limb isolation. By stripping away half of the opponent's defensive capability in a single action, it converts the already dominant mount into a submission-rich control configuration. The technique derives its name from the visual appearance of the trapped arm being 'wrapped' like a present across the defender's chest.\n\nStrategically, the Gift Wrap serves as a critical transitional hub within the mount attack system. Once the arm is trapped across the opponent's chest toward their opposite shoulder, multiple high-percentage attack paths become available: the rear naked choke becomes substantially easier due to reduced hand fighting, back control transitions open as the opponent is forced to turn away, and the free arm becomes an isolated target for armbar attacks. The Gift Wrap exemplifies modern positional methodology where control is refined before submission attempts.\n\nThe key to successful Gift Wrap entries lies in understanding opponent reactions. When you threaten submissions from mount—armbars, collar chokes, or Ezekiels—the opponent naturally extends or repositions their arms defensively. These defensive movements create the arm isolation opportunities that facilitate the Gift Wrap entry. Patient practitioners who set up the wrap through positional pressure and submission threats achieve significantly higher success rates than those who attempt to force the arm across.",
   "conditions": [
     "Mount position established with solid base and weight distribution",
@@ -223,50 +235,189 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Gift Wrap transition from Mount?",
-        "answer": "The primary goal is to trap one of the opponent's arms across their own body, eliminating half of their defensive capability. This creates a dominant control position that serves as a gateway to back takes, rear naked chokes, and armbars on the free arm. The Gift Wrap transforms Mount into a systematic attack platform where defensive options are progressively eliminated."
+        "answer": "The primary goal is to trap one of the opponent's arms across their own body, eliminating half of their defensive capability. This creates a dominant control position that serves as a gateway to back takes, rear naked chokes, and armbars on the free arm. The Gift Wrap transforms Mount into a systematic attack platform where defensive options are progressively eliminated.",
+        "answer_line": "Trap one arm across their body",
+        "distractors": {
+          "plausible": [
+            "Control both wrists tightly",
+            "Go straight for a choke"
+          ],
+          "trap": [
+            "Abandon mount to chase the arm"
+          ]
+        }
       },
       {
         "question": "What is the optimal height to maintain the trapped arm across the opponent's body?",
-        "answer": "The trapped arm should be pulled high across the opponent's chest toward their opposite shoulder. This high positioning prevents arm recovery through shoulder rotation and maintains maximum control effectiveness. If the arm drifts too low toward the hip or waist, the opponent gains mechanical advantage to extract the arm through rotational movements."
+        "answer": "The trapped arm should be pulled high across the opponent's chest toward their opposite shoulder. This high positioning prevents arm recovery through shoulder rotation and maintains maximum control effectiveness. If the arm drifts too low toward the hip or waist, the opponent gains mechanical advantage to extract the arm through rotational movements.",
+        "answer_line": "Chest-high, toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "High, toward the near shoulder",
+            "Mid-chest height is sufficient"
+          ],
+          "trap": [
+            "Let it rest near the waist"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps both arms tight to their body from mount bottom—how do you create the Gift Wrap entry?",
-        "answer": "Use submission feints to force defensive arm extension. Attack an Ezekiel choke, collar choke, or americana—any threat that forces them to use their arms defensively. As they push on your attacking arm or extend to create frames, immediately abandon the submission attempt and attack the exposed arm for the Gift Wrap entry. Their defensive reaction creates the arm isolation you need."
+        "answer": "Use submission feints to force defensive arm extension. Attack an Ezekiel choke, collar choke, or americana—any threat that forces them to use their arms defensively. As they push on your attacking arm or extend to create frames, immediately abandon the submission attempt and attack the exposed arm for the Gift Wrap entry. Their defensive reaction creates the arm isolation you need.",
+        "answer_line": "Feint a submission to bait extension",
+        "distractors": {
+          "plausible": [
+            "Pry the arms apart by force",
+            "Wait for them to move first"
+          ],
+          "trap": [
+            "Lunge for the arm and get rolled"
+          ]
+        }
       },
       {
         "question": "What is the critical relationship between mount control and the Gift Wrap transition?",
-        "answer": "Mount control must be maintained throughout the transition—the Gift Wrap is an enhancement to mount, not a replacement for it. Your knees must stay tight, your weight must stay forward, and your hips must stay heavy. If you neglect mount fundamentals while focusing on the arm trap, you risk losing the entire position. Establish solid mount first, then add the arm trap while maintaining all mount control principles."
+        "answer": "Mount control must be maintained throughout the transition—the Gift Wrap is an enhancement to mount, not a replacement for it. Your knees must stay tight, your weight must stay forward, and your hips must stay heavy. If you neglect mount fundamentals while focusing on the arm trap, you risk losing the entire position. Establish solid mount first, then add the arm trap while maintaining all mount control principles.",
+        "answer_line": "Keep mount control throughout",
+        "distractors": {
+          "plausible": [
+            "Prioritize the arm trap first",
+            "Loosen your knees to reach the arm"
+          ],
+          "trap": [
+            "Sit up to free the trapping arm"
+          ]
+        }
       },
       {
         "question": "Your threading arm is in position but opponent is grip-fighting your wrist control—what adjustment do you make?",
-        "answer": "Their grip fighting on your wrist control hand is occupying their free arm. Threaten their exposed neck with your threading arm side—this forces a defensive priority shift. They must choose between continuing to fight your wrist grip or defending their neck. Either choice opens opportunity: if they release your wrist to defend neck, complete the wrap immediately; if they continue grip fighting, attack the neck."
+        "answer": "Their grip fighting on your wrist control hand is occupying their free arm. Threaten their exposed neck with your threading arm side—this forces a defensive priority shift. They must choose between continuing to fight your wrist grip or defending their neck. Either choice opens opportunity: if they release your wrist to defend neck, complete the wrap immediately; if they continue grip fighting, attack the neck.",
+        "answer_line": "Threaten the neck to force a choice",
+        "distractors": {
+          "plausible": [
+            "Rip the wrist free with strength",
+            "Switch straight to an armbar"
+          ],
+          "trap": [
+            "Release the wrist grip to reset"
+          ]
+        }
       },
       {
         "question": "How do you respond when the opponent bridges explosively during the Gift Wrap entry?",
-        "answer": "Post your free hand wide toward their head to create a stable tripod base while driving your hips down into their chest. The key is anticipating the bridge and loading your weight forward before they complete the explosive movement. If already committed to threading, continue the wrap—your forward pressure should absorb their bridge. Use their settling movement after the bridge fails to complete the arm trap."
+        "answer": "Post your free hand wide toward their head to create a stable tripod base while driving your hips down into their chest. The key is anticipating the bridge and loading your weight forward before they complete the explosive movement. If already committed to threading, continue the wrap—your forward pressure should absorb their bridge. Use their settling movement after the bridge fails to complete the arm trap.",
+        "answer_line": "Post wide, drive hips down",
+        "distractors": {
+          "plausible": [
+            "Sit back to absorb the bridge",
+            "Abandon the wrap, regain grips"
+          ],
+          "trap": [
+            "Post hands narrow on their chest"
+          ]
+        }
       },
       {
         "question": "After establishing Gift Wrap, your opponent begins turning toward you—how do you capitalize?",
-        "answer": "Their turn toward you is an opportunity rather than an escape. Follow their rotation while maintaining the Gift Wrap arm control and transition to Technical Mount or back control. Use your hooks to guide their rotation rather than fighting it. The arm trap remains intact throughout, and you end in an even more dominant position. Flow with their movement to advance position."
+        "answer": "Their turn toward you is an opportunity rather than an escape. Follow their rotation while maintaining the Gift Wrap arm control and transition to Technical Mount or back control. Use your hooks to guide their rotation rather than fighting it. The arm trap remains intact throughout, and you end in an even more dominant position. Flow with their movement to advance position.",
+        "answer_line": "Follow rotation to back control",
+        "distractors": {
+          "plausible": [
+            "Stop the turn and reset mount",
+            "Release the arm to block the turn"
+          ],
+          "trap": [
+            "Back off and let them recover guard"
+          ]
+        }
       },
       {
         "question": "What creates the mechanical leverage to thread your arm across a resistant opponent's body?",
-        "answer": "First control their wrist to prevent retraction, then use your chest weight pressing down on their upper arm and shoulder to pin their elbow. This creates a lever where the pinned elbow is the fulcrum. Without this elbow pressure, you're trying to muscle their entire arm across. With elbow controlled, you only need to guide their forearm, requiring far less force."
+        "answer": "First control their wrist to prevent retraction, then use your chest weight pressing down on their upper arm and shoulder to pin their elbow. This creates a lever where the pinned elbow is the fulcrum. Without this elbow pressure, you're trying to muscle their entire arm across. With elbow controlled, you only need to guide their forearm, requiring far less force.",
+        "answer_line": "Pin the elbow with chest weight",
+        "distractors": {
+          "plausible": [
+            "Pull the wrist with both hands",
+            "Push down on their shoulder blade"
+          ],
+          "trap": [
+            "Reach hard and get bridged over"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their arm explosively as you begin the wrap—what is the correct response?",
-        "answer": "Convert immediately to armbar attack. Their defensive straightening actually exposes the arm for submission. Do not chase the Gift Wrap against an extended arm—the straightening is a mistake that creates a better submission opportunity. Secure the extended wrist, control the elbow, and transition to the armbar appropriate for their arm angle. Take what the opponent gives you."
+        "answer": "Convert immediately to armbar attack. Their defensive straightening actually exposes the arm for submission. Do not chase the Gift Wrap against an extended arm—the straightening is a mistake that creates a better submission opportunity. Secure the extended wrist, control the elbow, and transition to the armbar appropriate for their arm angle. Take what the opponent gives you.",
+        "answer_line": "Immediately armbar the straight arm",
+        "distractors": {
+          "plausible": [
+            "Isolate the elbow before attacking",
+            "Trap the wrist, then re-secure wrap"
+          ],
+          "trap": [
+            "Keep forcing the wrap, lose the back"
+          ]
+        }
       },
       {
         "question": "What determines when to attack Gift Wrap versus maintaining mount pressure?",
-        "answer": "Attack Gift Wrap when opponent creates arm isolation through defensive movement—when they push on your hips or chest, when they reach across their body, or when they defend submission attempts with extended arms. Maintain mount pressure when both of their arms are tucked tight to their body. Use submission threats to create the defensive reactions that expose arms for Gift Wrap entries."
+        "answer": "Attack Gift Wrap when opponent creates arm isolation through defensive movement—when they push on your hips or chest, when they reach across their body, or when they defend submission attempts with extended arms. Maintain mount pressure when both of their arms are tucked tight to their body. Use submission threats to create the defensive reactions that expose arms for Gift Wrap entries.",
+        "answer_line": "Attack when their arm isolates",
+        "distractors": {
+          "plausible": [
+            "Attack the instant mount is secured",
+            "Wait until back control is close"
+          ],
+          "trap": [
+            "Force the wrap against tucked arms"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest Gift Wrap control during the consolidation phase?",
-        "answer": "The threading arm grips opponent's wrist or lower forearm on the far side of their chest, with the arm running diagonally under their armpit. Your free hand controls behind their head or cups the back of their neck, creating a clamp between the head control and the arm trap. This configuration prevents both arm recovery and the head turn needed to initiate escapes. The diagonal line of the threading arm is the structural backbone of the entire control."
+        "answer": "The threading arm grips opponent's wrist or lower forearm on the far side of their chest, with the arm running diagonally under their armpit. Your free hand controls behind their head or cups the back of their neck, creating a clamp between the head control and the arm trap. This configuration prevents both arm recovery and the head turn needed to initiate escapes. The diagonal line of the threading arm is the structural backbone of the entire control.",
+        "answer_line": "Wrist grip diagonal, hand on neck",
+        "distractors": {
+          "plausible": [
+            "Grip the wrist, free hand on hip",
+            "Both hands grip the trapped wrist"
+          ],
+          "trap": [
+            "Let go of the head to hunt legs"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Gift Wrap transition is generally low-risk when executed with proper technique. The primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain or rotator cuff injury. Pull the arm across the chest using positional pressure rather than cranking force. During training, communicate immediately if the shoulder position becomes uncomfortable—tap early rather than risking injury. Partners should release the trap immediately upon tap, as continued pressure on an isolated shoulder joint can cause lasting damage. Avoid explosive jerking movements when establishing the wrap; smooth, steady pressure is both more effective and safer for training partners."
+    "safety_considerations": "The Gift Wrap transition is generally low-risk when executed with proper technique. The primary safety concern is avoiding excessive force on the trapped arm, which could cause shoulder strain or rotator cuff injury. Pull the arm across the chest using positional pressure rather than cranking force. During training, communicate immediately if the shoulder position becomes uncomfortable—tap early rather than risking injury. Partners should release the trap immediately upon tap, as continued pressure on an isolated shoulder joint can cause lasting damage. Avoid explosive jerking movements when establishing the wrap; smooth, steady pressure is both more effective and safer for training partners.",
+    "clips": [
+      {
+        "id": "eKTd-9SkrVk",
+        "title": "Gift wrap to taking the back",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "X3yIMfhGHnk",
+        "title": "Mount to gift wrap to the finish",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5bw7poxVJ1E",
+        "title": "The gift wrap in two minutes, no-gi",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 112,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap Defender",
@@ -357,23 +508,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Gift Wrap attempt is beginning from mount?",
-        "answer": "The earliest cue is the attacker securing same-side wrist control on one of your arms while in mount. This wrist control is the foundation of the entire Gift Wrap sequence—without it, the attacker cannot prevent arm retraction during the threading phase. Recognizing this grip as a Gift Wrap precursor rather than a generic mount control allows you to initiate your defensive response at the stage where you have the most options."
+        "answer": "The earliest cue is the attacker securing same-side wrist control on one of your arms while in mount. This wrist control is the foundation of the entire Gift Wrap sequence—without it, the attacker cannot prevent arm retraction during the threading phase. Recognizing this grip as a Gift Wrap precursor rather than a generic mount control allows you to initiate your defensive response at the stage where you have the most options.",
+        "answer_line": "Same-side wrist control taken",
+        "distractors": {
+          "plausible": [
+            "Attacker's hand near your collar",
+            "Attacker basing on your hips"
+          ],
+          "trap": [
+            "Wait until the arm is fully trapped"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker during a Gift Wrap the worst possible defensive response?",
-        "answer": "Turning away exposes your back directly to the attacker who already has one of your arms trapped. The Gift Wrap arm control translates seamlessly into back control—the attacker follows your rotation, inserts hooks, and arrives in back mount with the arm still trapped. This converts a bad position into a catastrophic one. Always turn toward the attacker if you must rotate, or hip escape laterally without rotating your shoulders."
+        "answer": "Turning away exposes your back directly to the attacker who already has one of your arms trapped. The Gift Wrap arm control translates seamlessly into back control—the attacker follows your rotation, inserts hooks, and arrives in back mount with the arm still trapped. This converts a bad position into a catastrophic one. Always turn toward the attacker if you must rotate, or hip escape laterally without rotating your shoulders.",
+        "answer_line": "It exposes your back to them",
+        "distractors": {
+          "plausible": [
+            "It only costs valuable time",
+            "It just gives up half guard"
+          ],
+          "trap": [
+            "It's fine if you turn quickly"
+          ]
+        }
       },
       {
         "question": "Your arm is fully wrapped and locked high across your chest—what is your immediate defensive priority?",
-        "answer": "Shift from arm recovery to positional escape. Once the wrap is locked with the arm high, the mechanical advantage prevents muscular extraction. Use your free arm to frame on the attacker's hip, begin hip escaping toward the trapped arm side, and work to insert your knee for half guard recovery. Accept the arm trap temporarily and focus on preventing further positional advancement while working toward guard recovery."
+        "answer": "Shift from arm recovery to positional escape. Once the wrap is locked with the arm high, the mechanical advantage prevents muscular extraction. Use your free arm to frame on the attacker's hip, begin hip escaping toward the trapped arm side, and work to insert your knee for half guard recovery. Accept the arm trap temporarily and focus on preventing further positional advancement while working toward guard recovery.",
+        "answer_line": "Shift to positional escape",
+        "distractors": {
+          "plausible": [
+            "Keep yanking to free the arm",
+            "Bridge hard to buck them off"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "When during the Gift Wrap sequence is the attacker's control at its weakest and most vulnerable to disruption?",
-        "answer": "The grip transfer moment—when the attacker releases their initial wrist control hand to let the threading arm take over the grip—represents the weakest link in the sequence. For a brief instant, neither hand has a secure locked grip on your wrist. Time an explosive arm retraction or bridge to this exact moment. Reading the grip transfer requires drilling against the technique repeatedly to develop the timing sensitivity."
+        "answer": "The grip transfer moment—when the attacker releases their initial wrist control hand to let the threading arm take over the grip—represents the weakest link in the sequence. For a brief instant, neither hand has a secure locked grip on your wrist. Time an explosive arm retraction or bridge to this exact moment. Reading the grip transfer requires drilling against the technique repeatedly to develop the timing sensitivity.",
+        "answer_line": "During the grip transfer",
+        "distractors": {
+          "plausible": [
+            "The moment wrist control starts",
+            "Once back control is threatened"
+          ],
+          "trap": [
+            "Wait passively for a chance"
+          ]
+        }
       },
       {
         "question": "How should you use your free arm when your opponent has partially established the Gift Wrap and is threatening your neck?",
-        "answer": "Your free arm must prioritize neck defense above all other tasks. Tuck your chin and use your free hand to create a defensive frame against the attacker's choking arm, gripping their wrist or forearm to prevent it from sliding under your chin. Do not use the free arm to attempt arm recovery when neck threats are active—losing the neck battle ends the match immediately, while the arm trap alone does not. Once the choke threat is neutralized, you can briefly redirect the free hand to assist positional escape."
+        "answer": "Your free arm must prioritize neck defense above all other tasks. Tuck your chin and use your free hand to create a defensive frame against the attacker's choking arm, gripping their wrist or forearm to prevent it from sliding under your chin. Do not use the free arm to attempt arm recovery when neck threats are active—losing the neck battle ends the match immediately, while the arm trap alone does not. Once the choke threat is neutralized, you can briefly redirect the free hand to assist positional escape.",
+        "answer_line": "Frame the neck, not the trapped arm",
+        "distractors": {
+          "plausible": [
+            "Split focus between neck and arm",
+            "Prioritize freeing the trapped arm"
+          ],
+          "trap": [
+            "Ignore the neck, escape the arm"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -396,6 +597,35 @@
         "phase": "Week 7+",
         "focus": "Full resistance positional sparring",
         "description": "Full resistance rounds starting from mount with the attacker actively hunting the Gift Wrap. Defender uses complete defensive toolkit including prevention, active defense, and escape. Track how often the Gift Wrap is prevented versus established, and success rate of escapes when it is locked."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OMzki0Uu7vA",
+        "title": "Escaping the gift wrap",
+        "by": "The Jiu Jitsu Pedia",
+        "vertical": false,
+        "channel": "thejiujitsupedia",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "j5y349B6Go8",
+        "title": "Simple gift wrap escape",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 160,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dKsWGZXo3Zw",
+        "title": "Escaping the modified mount",
+        "by": "Fenrir Jiu-Jitsu Academy",
+        "vertical": false,
+        "channel": "Fenrir Jiu-Jitsu Academy",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   },

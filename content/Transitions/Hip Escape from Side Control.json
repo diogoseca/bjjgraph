@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The hip escape from consolidated side control is the foundational escape technique for recovering guard when pinned under heavy top pressure. Unlike escapes attempted during transitional scrambles, this technique addresses the specific challenge of a fully settled opponent who has established crossface control, chest pressure, and hip connection. The bottom player must create space through coordinated framing, bridging, and shrimping movements to insert a knee shield and recover half guard, all while managing energy expenditure under sustained pressure.\n\nThe technique's effectiveness hinges on precise timing and sequential movement rather than explosive athleticism. The bottom player must first establish a structural frame that prevents the opponent from following the escape, then bridge to momentarily unweight the hips, and finally execute the shrimping motion to create the angle needed for knee insertion. Each phase builds on the previous one, and skipping steps dramatically reduces success probability. Against a skilled top player who has properly consolidated, this escape requires patience to wait for genuine windows rather than burning energy on premature attempts.\n\nThe hip escape from consolidated side control serves as the primary escape pathway in most defensive game plans because it recovers a playable guard position rather than merely creating a scramble. Recovering half guard provides immediate offensive options through sweeps and back takes, making this escape both defensively sound and strategically advantageous. Understanding the mechanical principles behind each phase of the escape allows practitioners to adapt the technique to different side control variations and opponent body types.",
   "conditions": [
     "Bottom player must have at least one active defensive frame against opponent's chest or hip",
@@ -256,38 +268,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the hip escape against a fully consolidated side control?",
-        "answer": "The optimal timing window occurs when the opponent adjusts their position - reaching for new grips, shifting from crossface to underhook control, preparing to advance to mount or knee on belly, or during their exhalation when chest pressure naturally lightens. These transitional moments reduce their effective weight distribution and create brief windows where the bridge-and-shrimp sequence has the highest probability of creating sufficient space for knee insertion. Attempting the escape against fully settled, static pressure has the lowest success rate."
+        "answer": "The optimal timing window occurs when the opponent adjusts their position - reaching for new grips, shifting from crossface to underhook control, preparing to advance to mount or knee on belly, or during their exhalation when chest pressure naturally lightens. These transitional moments reduce their effective weight distribution and create brief windows where the bridge-and-shrimp sequence has the highest probability of creating sufficient space for knee insertion. Attempting the escape against fully settled, static pressure has the lowest success rate.",
+        "answer_line": "During their transitions/exhale",
+        "distractors": {
+          "plausible": [
+            "Right when side control settles",
+            "After pressure fully stabilizes"
+          ],
+          "trap": [
+            "Never move, wait them out"
+          ]
+        }
       },
       {
         "question": "Why must you turn to your side before executing the shrimping motion?",
-        "answer": "Shrimping requires lateral hip displacement, which is mechanically impossible when lying flat on your back. The flat position only allows vertical bridging, not the horizontal movement needed to create space between your hips and the opponent's control points. Turning to your side positions your hip joint to generate lateral force, engages the gluteal muscles for shrimping power, and creates the angle needed for subsequent knee insertion. The side-lying position also improves breathing capacity under pressure."
+        "answer": "Shrimping requires lateral hip displacement, which is mechanically impossible when lying flat on your back. The flat position only allows vertical bridging, not the horizontal movement needed to create space between your hips and the opponent's control points. Turning to your side positions your hip joint to generate lateral force, engages the gluteal muscles for shrimping power, and creates the angle needed for subsequent knee insertion. The side-lying position also improves breathing capacity under pressure.",
+        "answer_line": "Enables lateral hip movement",
+        "distractors": {
+          "plausible": [
+            "Makes your bridge more powerful",
+            "Improves breathing, main reason"
+          ],
+          "trap": [
+            "Lie flatter to add base pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent increases crossface pressure the moment they feel you begin to create a frame - how do you proceed?",
-        "answer": "Do not abandon the frame. Maintain the structural forearm wedge and ride out the increased pressure using controlled breathing. Their pressure increase is reactive and will stabilize within seconds. During this time, focus on turning slightly more onto your side and positioning your feet for the bridge. Once their pressure normalizes, execute the bridge-and-shrimp in rapid succession before they can react with another pressure increase. The key insight is that their counter-pressure is unsustainable at maximum intensity, and the escape window opens as they settle back to baseline."
+        "answer": "Do not abandon the frame. Maintain the structural forearm wedge and ride out the increased pressure using controlled breathing. Their pressure increase is reactive and will stabilize within seconds. During this time, focus on turning slightly more onto your side and positioning your feet for the bridge. Once their pressure normalizes, execute the bridge-and-shrimp in rapid succession before they can react with another pressure increase. The key insight is that their counter-pressure is unsustainable at maximum intensity, and the escape window opens as they settle back to baseline.",
+        "answer_line": "Hold frame, ride it, then move",
+        "distractors": {
+          "plausible": [
+            "Abandon frame, reset position",
+            "Push back harder immediately"
+          ],
+          "trap": [
+            "Let go and turtle away"
+          ]
+        }
       },
       {
         "question": "What are the critical grip and frame requirements before initiating the hip escape?",
-        "answer": "The minimum requirement is one active forearm frame against the opponent's hip or lower ribcage, positioned with the elbow bent at approximately 90 degrees for structural integrity. The near-side arm should create a secondary barrier at the neck or jaw area to prevent the crossface from deepening during the escape. Both feet must be flat on the mat with knees bent to generate bridging power. Optionally, gripping the opponent's far hip with your framing hand provides an anchor point that improves shrimping power by giving you something to push against."
+        "answer": "The minimum requirement is one active forearm frame against the opponent's hip or lower ribcage, positioned with the elbow bent at approximately 90 degrees for structural integrity. The near-side arm should create a secondary barrier at the neck or jaw area to prevent the crossface from deepening during the escape. Both feet must be flat on the mat with knees bent to generate bridging power. Optionally, gripping the opponent's far hip with your framing hand provides an anchor point that improves shrimping power by giving you something to push against.",
+        "answer_line": "Forearm frame, near-arm, feet set",
+        "distractors": {
+          "plausible": [
+            "Underhook far arm, feet flat",
+            "Crossface defense, knees straight"
+          ],
+          "trap": [
+            "Push chest, ignore leg base"
+          ]
+        }
       },
       {
         "question": "Your first shrimp creates some space but the opponent follows your hips before you can insert your knee - what is the correct response?",
-        "answer": "Immediately chain a second shrimp without pausing. The first shrimp moved you several inches away, and even though the opponent followed, they cannot settle their full weight while in motion. The second shrimp catches them mid-adjustment and creates additional displacement. Insert the knee during or immediately after the second shrimp. If two shrimps are still insufficient, execute a third while maintaining your frame. The key is continuous movement - stopping between shrimps allows the opponent to re-settle their pressure completely."
+        "answer": "Immediately chain a second shrimp without pausing. The first shrimp moved you several inches away, and even though the opponent followed, they cannot settle their full weight while in motion. The second shrimp catches them mid-adjustment and creates additional displacement. Insert the knee during or immediately after the second shrimp. If two shrimps are still insufficient, execute a third while maintaining your frame. The key is continuous movement - stopping between shrimps allows the opponent to re-settle their pressure completely.",
+        "answer_line": "Chain a second shrimp instantly",
+        "distractors": {
+          "plausible": [
+            "Pause, reset frame, then retry",
+            "Force the knee in against resistance"
+          ],
+          "trap": [
+            "Stop and re-frame from scratch"
+          ]
+        }
       },
       {
         "question": "How does bridge direction affect the success of the hip escape from consolidated side control?",
-        "answer": "The bridge should be directed slightly toward and into the opponent rather than straight up or away. Bridging into the opponent momentarily lifts their weight off your hips by redirecting their center of gravity forward, creating a gap between your hips and the mat. As your hips descend from the bridge, you execute the shrimp in the opposite direction, using the opponent's displaced weight to maximize lateral distance. Bridging straight up creates less space because the opponent's weight settles back into the same position, and bridging away from the opponent is ineffective because it drives you into the mat."
+        "answer": "The bridge should be directed slightly toward and into the opponent rather than straight up or away. Bridging into the opponent momentarily lifts their weight off your hips by redirecting their center of gravity forward, creating a gap between your hips and the mat. As your hips descend from the bridge, you execute the shrimp in the opposite direction, using the opponent's displaced weight to maximize lateral distance. Bridging straight up creates less space because the opponent's weight settles back into the same position, and bridging away from the opponent is ineffective because it drives you into the mat.",
+        "answer_line": "Bridge into them, then shrimp away",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up for height",
+            "Bridge away to create a gap"
+          ],
+          "trap": [
+            "Turn away and expose your back"
+          ]
+        }
       },
       {
         "question": "What defensive adjustments should you make if the opponent attempts to advance to mount during your hip escape?",
-        "answer": "The moment you feel the opponent's leg lifting to step over for mount, immediately accelerate your knee insertion to block their hip before the step-over completes. Your near-side knee must race to position between their hip and your body. If the knee insertion beats their step-over, you establish half guard with a dominant knee shield. If you are too late, immediately transition to mount escape defense by establishing elbow-knee frames and preventing them from settling high mount. The recognition cue is their hip elevation, which you feel as a lightening of pressure on your near-side ribs."
+        "answer": "The moment you feel the opponent's leg lifting to step over for mount, immediately accelerate your knee insertion to block their hip before the step-over completes. Your near-side knee must race to position between their hip and your body. If the knee insertion beats their step-over, you establish half guard with a dominant knee shield. If you are too late, immediately transition to mount escape defense by establishing elbow-knee frames and preventing them from settling high mount. The recognition cue is their hip elevation, which you feel as a lightening of pressure on your near-side ribs.",
+        "answer_line": "Race knee in to block their hip",
+        "distractors": {
+          "plausible": [
+            "Push their hip down with hands",
+            "Wait to see mount fully settle"
+          ],
+          "trap": [
+            "Relax base and let mount land"
+          ]
+        }
       },
       {
         "question": "How should you manage energy expenditure when multiple escape attempts are needed against heavy top pressure?",
-        "answer": "Adopt the 80/20 approach: spend 80% of the time in energy-conserving defensive posture maintaining frames and controlled breathing, and commit full effort only during genuine timing windows that represent the remaining 20% of the time. Between escape attempts, focus on breathing recovery and frame maintenance rather than constant movement. Each escape attempt should be a committed, multi-shrimp sequence rather than half-hearted single movements that waste energy without result. Recognize that failed attempts are not wasted if they force the opponent to adjust, as these adjustments often create the timing windows for subsequent attempts."
+        "answer": "Adopt the 80/20 approach: spend 80% of the time in energy-conserving defensive posture maintaining frames and controlled breathing, and commit full effort only during genuine timing windows that represent the remaining 20% of the time. Between escape attempts, focus on breathing recovery and frame maintenance rather than constant movement. Each escape attempt should be a committed, multi-shrimp sequence rather than half-hearted single movements that waste energy without result. Recognize that failed attempts are not wasted if they force the opponent to adjust, as these adjustments often create the timing windows for subsequent attempts.",
+        "answer_line": "80% conserve, 20% full commit",
+        "distractors": {
+          "plausible": [
+            "Constant movement, never rest",
+            "Half-effort shrimps to save gas"
+          ],
+          "trap": [
+            "Explode maximally the entire time"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The hip escape from side control consolidation carries moderate physical risk primarily to the neck and shoulders. Avoid explosive bridging movements without proper head positioning, as forced bridges under heavy crossface pressure can strain the cervical spine. If the opponent's crossface is extremely deep and restricting breathing, prioritize frame creation for breathing space before attempting the full escape sequence. During training, communicate with partners about pressure intensity to prevent rib compression injuries. Practitioners with existing neck or shoulder injuries should modify the bridge height and focus on shrimping-dominant variants that reduce cervical loading."
+    "safety_considerations": "The hip escape from side control consolidation carries moderate physical risk primarily to the neck and shoulders. Avoid explosive bridging movements without proper head positioning, as forced bridges under heavy crossface pressure can strain the cervical spine. If the opponent's crossface is extremely deep and restricting breathing, prioritize frame creation for breathing space before attempting the full escape sequence. During training, communicate with partners about pressure intensity to prevent rib compression injuries. Practitioners with existing neck or shoulder injuries should modify the bridge height and focus on shrimping-dominant variants that reduce cervical loading.",
+    "clips": [
+      {
+        "id": "4L25UQntnPg",
+        "title": "Reverse hip escape from side control",
+        "by": "Fox Den coach",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 25,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "br0-osUjx7c",
+        "title": "Hip escape to guard recovery",
+        "by": "Science of JiuJitsu coach",
+        "vertical": false,
+        "channel": "Science Of JiuJitsu",
+        "duration": 42,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QH9-1I5XqO4",
+        "title": "Guard recovery from bottom side control",
+        "by": "Academy Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 105,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Hip Escape from Side Control Defender",
@@ -373,19 +494,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is preparing a hip escape from consolidated side control?",
-        "answer": "The earliest cue is the opponent establishing or strengthening a far-side forearm frame against your hip or chest. This frame creation precedes any hip movement and signals that they are building the structural support needed for the bridge-and-shrimp sequence. Before they can shrimp, they must create a frame that prevents you from following, so the frame attempt is your first warning. Immediately address this by collapsing the frame through increased crossface pressure and weight distribution before they can progress to the bridge phase."
+        "answer": "The earliest cue is the opponent establishing or strengthening a far-side forearm frame against your hip or chest. This frame creation precedes any hip movement and signals that they are building the structural support needed for the bridge-and-shrimp sequence. Before they can shrimp, they must create a frame that prevents you from following, so the frame attempt is your first warning. Immediately address this by collapsing the frame through increased crossface pressure and weight distribution before they can progress to the bridge phase.",
+        "answer_line": "Their far-side frame forming",
+        "distractors": {
+          "plausible": [
+            "Their hips starting to bridge",
+            "Their far hand gripping your gi"
+          ],
+          "trap": [
+            "Wait until they fully shrimp"
+          ]
+        }
       },
       {
         "question": "How should you use the opponent's bridge against them when they initiate the hip escape sequence?",
-        "answer": "When the opponent bridges, their hips lift temporarily, creating the space they intend to use for shrimping. Rather than fighting against the bridge direction, use this moment to tighten your connections. As they bridge up, drive your crossface deeper and walk your hips slightly forward. When their bridge collapses, your improved control position settles onto them with greater authority than before. The bridge is actually a moment of vulnerability for the escaping player because their weight is committed upward, and any lateral movement during the bridge is mechanically limited."
+        "answer": "When the opponent bridges, their hips lift temporarily, creating the space they intend to use for shrimping. Rather than fighting against the bridge direction, use this moment to tighten your connections. As they bridge up, drive your crossface deeper and walk your hips slightly forward. When their bridge collapses, your improved control position settles onto them with greater authority than before. The bridge is actually a moment of vulnerability for the escaping player because their weight is committed upward, and any lateral movement during the bridge is mechanically limited.",
+        "answer_line": "Deepen crossface as they bridge",
+        "distractors": {
+          "plausible": [
+            "Back off and let them reset",
+            "Sit back and absorb the bridge"
+          ],
+          "trap": [
+            "Jump to the far side immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully executes a shrimp and begins inserting their knee - what is your emergency response?",
-        "answer": "Immediately drive your hip weight downward onto their near-side thigh to block the knee insertion before it completes. If the knee is partially in, use your underhook hand to push their knee back down while simultaneously driving forward with your chest. If the knee shield is fully established, do not force through it - instead, transition to a half guard passing strategy such as knee slice or smash pass. Recognizing the point of no return is critical: once a full knee shield is established with both legs trapping your leg, the hip escape has succeeded and you must shift to half guard top strategy."
+        "answer": "Immediately drive your hip weight downward onto their near-side thigh to block the knee insertion before it completes. If the knee is partially in, use your underhook hand to push their knee back down while simultaneously driving forward with your chest. If the knee shield is fully established, do not force through it - instead, transition to a half guard passing strategy such as knee slice or smash pass. Recognizing the point of no return is critical: once a full knee shield is established with both legs trapping your leg, the hip escape has succeeded and you must shift to half guard top strategy.",
+        "answer_line": "Drive hips down, block the knee",
+        "distractors": {
+          "plausible": [
+            "Force through the knee shield",
+            "Backstep off to reset posture"
+          ],
+          "trap": [
+            "Yank leg back, stand up tall"
+          ]
+        }
       },
       {
         "question": "When is it better to advance to mount rather than prevent the hip escape, and how do you read this opportunity?",
-        "answer": "Advance to mount when the opponent commits fully to turning onto their side and their far hip lifts off the mat. This turning motion, while necessary for their shrimp, exposes a pathway for your far leg to step over their body. The reading is in the hip elevation and body angle: if their hips are more than 45 degrees off the mat, the mount step-over becomes higher percentage than trying to drive them flat again. The key timing is before their knee can enter the gap - you must complete the step-over while they are mid-turn, not after they have already inserted the knee shield."
+        "answer": "Advance to mount when the opponent commits fully to turning onto their side and their far hip lifts off the mat. This turning motion, while necessary for their shrimp, exposes a pathway for your far leg to step over their body. The reading is in the hip elevation and body angle: if their hips are more than 45 degrees off the mat, the mount step-over becomes higher percentage than trying to drive them flat again. The key timing is before their knee can enter the gap - you must complete the step-over while they are mid-turn, not after they have already inserted the knee shield.",
+        "answer_line": "Step over once hip is 45°+ up",
+        "distractors": {
+          "plausible": [
+            "Wait for their full turn to finish",
+            "Drive them flat again first"
+          ],
+          "trap": [
+            "Hesitate until knee shield forms"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -408,6 +569,35 @@
         "phase": "Phase 4: Live Pressure Testing",
         "focus": "Full resistance retention and counter-attacking",
         "description": "Positional sparring where partner uses full resistance hip escape attempts and you maintain consolidated side control or advance. Track how many escape attempts you successfully counter per round and whether you can convert attempts into mount advancement. Identify which opponent body types or styles give you the most difficulty."
+      }
+    ],
+    "clips": [
+      {
+        "id": "T1LCZzkhG80",
+        "title": "Maintaining side control against the hip escape",
+        "by": "Reding Martial Arts coach",
+        "vertical": false,
+        "channel": "Reding Martial Arts",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0BJFebGfwh4",
+        "title": "Side control elbow push to shrimp to guard escape",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 149,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "myIsFYohrNA",
+        "title": "Elbow escape: shrimping to replace guard",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "Champions Jiu Jitsu & Muay Thai",
+        "duration": 32,
+        "verified": "2026-07-16"
       }
     ]
   }

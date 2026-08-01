@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Scramble to Guard represents a critical survival technique when trapped in the dangerous Twister Control position. This escape exploits the momentary transitions and adjustments that occur when the top player attempts to deepen their control or hunt for submissions. Rather than accepting the compromised spinal rotation of Twister Control, this technique creates chaotic movement that disrupts the opponent's leg control and upper body positioning, allowing you to reduce rotation and recover to a defensive guard position.\n\nThe technique operates on the principle that scrambles favor the person who initiates them with purpose. While Twister Control is mechanically devastating when static, the position requires precise coordination between the top player's leg hooks and upper body grips. By creating explosive, directional movement at the right moment, you can break this coordination and force a transition to a more neutral scramble where standard guard recovery principles apply.\n\nFrom a strategic perspective, this technique should be attempted before Twister Control is fully locked in or during the opponent's submission attempts when their focus shifts from control to finishing. The window for this escape narrows significantly once deep rotation is established, making timing recognition essential. Success requires maintaining composure despite the discomfort of the twisted position while waiting for or creating the optimal moment to explode into the scramble sequence.",
   "related_content": [
     {
@@ -217,46 +232,166 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the Scramble to Guard escape?",
-        "answer": "The best windows are when the opponent loosens leg control to adjust position, when they reach for submission grips shifting focus from control to attack, or when they transition between attacks. These moments represent breaks in the coordinated leg and upper body control that makes Twister Control effective. Initiating during these windows maximizes the chance of disrupting their control structure before they can re-consolidate."
+        "answer": "The best windows are when the opponent loosens leg control to adjust position, when they reach for submission grips shifting focus from control to attack, or when they transition between attacks. These moments represent breaks in the coordinated leg and upper body control that makes Twister Control effective. Initiating during these windows maximizes the chance of disrupting their control structure before they can re-consolidate.",
+        "answer_line": "When leg control loosens or shifts",
+        "distractors": {
+          "plausible": [
+            "Wait until they fully settle",
+            "Right after hooks are locked"
+          ],
+          "trap": [
+            "During their tightest control window"
+          ]
+        }
       },
       {
         "question": "Why must you address the trapped leg before attempting the explosive hip turn?",
-        "answer": "The leg control is the mechanical foundation of Twister Control that maintains rotational constraint on your spine. Attempting to turn your hips while the leg is still trapped will be ineffective because the entanglement acts as an anchor preventing hip realignment. Worse, forcing the turn against an anchored leg can increase spinal torque and risk injury. Freeing the leg removes the rotational fulcrum."
+        "answer": "The leg control is the mechanical foundation of Twister Control that maintains rotational constraint on your spine. Attempting to turn your hips while the leg is still trapped will be ineffective because the entanglement acts as an anchor preventing hip realignment. Worse, forcing the turn against an anchored leg can increase spinal torque and risk injury. Freeing the leg removes the rotational fulcrum.",
+        "answer_line": "Free the leg first, it's the anchor",
+        "distractors": {
+          "plausible": [
+            "Strip the head grip to start",
+            "Sit up to relieve back pressure"
+          ],
+          "trap": [
+            "Bridge hard into the spinal lock"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement direction during the scramble and what happens if you turn the wrong way?",
-        "answer": "You should turn your hips into your opponent to align them with your shoulders, reducing spinal rotation. Turning away from your opponent exposes your back and allows them to follow your movement directly into traditional back control with hooks, which though more escapable than Twister Control, gives them a dominant position. The correct rotation direction is determined by which way reduces the twist between your shoulder line and hip line."
+        "answer": "You should turn your hips into your opponent to align them with your shoulders, reducing spinal rotation. Turning away from your opponent exposes your back and allows them to follow your movement directly into traditional back control with hooks, which though more escapable than Twister Control, gives them a dominant position. The correct rotation direction is determined by which way reduces the twist between your shoulder line and hip line.",
+        "answer_line": "Turn hips into your opponent",
+        "distractors": {
+          "plausible": [
+            "Turn hips away to create space",
+            "Turn shoulders first, hips later"
+          ],
+          "trap": [
+            "Turn away and expose your back"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains a death grip on your trapped leg and you cannot extract it after two attempts. What adjustments do you make?",
-        "answer": "Stop attempting full explosive escapes and switch to persistent, incremental hand-fighting to strip their leg hooks. Push on their knee and ankle with small, constant movements rather than large bursts. Simultaneously, use your free leg to pry and create wedges against their entanglement. Wait for or create a micro-window when their grip fatigue allows partial extraction, then immediately commit to the full scramble. Repeated failed explosive attempts deplete your energy and allow them to recalibrate."
+        "answer": "Stop attempting full explosive escapes and switch to persistent, incremental hand-fighting to strip their leg hooks. Push on their knee and ankle with small, constant movements rather than large bursts. Simultaneously, use your free leg to pry and create wedges against their entanglement. Wait for or create a micro-window when their grip fatigue allows partial extraction, then immediately commit to the full scramble. Repeated failed explosive attempts deplete your energy and allow them to recalibrate.",
+        "answer_line": "Grind incrementally, not explosively",
+        "distractors": {
+          "plausible": [
+            "Keep exploding until it breaks",
+            "Switch legs and abandon escape"
+          ],
+          "trap": [
+            "Repeat the same explosive burst"
+          ]
+        }
       },
       {
         "question": "Your opponent catches a guillotine grip as you turn into them during the scramble. How do you respond?",
-        "answer": "Immediately prioritize the guillotine defense before continuing guard recovery. Tuck your chin firmly to your chest and use both hands to fight the choking grip, stripping their wrist control and working to get your head to the safe side, which is the same side as their choking arm. Only continue the guard recovery sequence after the guillotine threat is neutralized. Attempting to power through the scramble while a guillotine is locked risks going unconscious."
+        "answer": "Immediately prioritize the guillotine defense before continuing guard recovery. Tuck your chin firmly to your chest and use both hands to fight the choking grip, stripping their wrist control and working to get your head to the safe side, which is the same side as their choking arm. Only continue the guard recovery sequence after the guillotine threat is neutralized. Attempting to power through the scramble while a guillotine is locked risks going unconscious.",
+        "answer_line": "Defend guillotine first, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Turn head away from choking arm",
+            "Continue scramble while defending"
+          ],
+          "trap": [
+            "Power through the choke to finish"
+          ]
+        }
       },
       {
         "question": "What specific grip or frame must you establish immediately after reducing spinal rotation and beginning to face your opponent?",
-        "answer": "Immediately establish a forearm frame against their chest or collarbone with your primary arm, and get your near-side knee between your bodies as a secondary frame. The forearm prevents them from driving chest-to-chest to flatten you, while the knee creates the structural space necessary for hip escape movements. Without these frames, the opponent will immediately close distance and either re-establish Twister Control or advance to side control before you can complete guard recovery."
+        "answer": "Immediately establish a forearm frame against their chest or collarbone with your primary arm, and get your near-side knee between your bodies as a secondary frame. The forearm prevents them from driving chest-to-chest to flatten you, while the knee creates the structural space necessary for hip escape movements. Without these frames, the opponent will immediately close distance and either re-establish Twister Control or advance to side control before you can complete guard recovery.",
+        "answer_line": "Forearm frame plus knee wedge",
+        "distractors": {
+          "plausible": [
+            "Underhook first, frame later",
+            "Push off with both hands only"
+          ],
+          "trap": [
+            "Let them close distance to flatten"
+          ]
+        }
       },
       {
         "question": "Why is accepting half guard considered a successful outcome rather than insisting on full closed guard recovery?",
-        "answer": "Half guard removes you from the immediate submission danger of Twister Control and gives you a functional offensive platform with sweep, back take, and guard recovery options. Insisting on closed guard during the scramble extends the chaotic transition period where you are vulnerable to guillotines, neck cranks, and re-establishment of back control. Half guard is a stable intermediate position with well-developed offensive systems, making it a strategic win compared to the life-threatening Twister Control."
+        "answer": "Half guard removes you from the immediate submission danger of Twister Control and gives you a functional offensive platform with sweep, back take, and guard recovery options. Insisting on closed guard during the scramble extends the chaotic transition period where you are vulnerable to guillotines, neck cranks, and re-establishment of back control. Half guard is a stable intermediate position with well-developed offensive systems, making it a strategic win compared to the life-threatening Twister Control.",
+        "answer_line": "Escapes danger, gives offense",
+        "distractors": {
+          "plausible": [
+            "Only a fallback, not a real win",
+            "Push for closed guard regardless"
+          ],
+          "trap": [
+            "Stay in scramble seeking full guard"
+          ]
+        }
       },
       {
         "question": "What distinguishes a purpose-driven scramble from panicked random movement, and how does each affect the opponent?",
-        "answer": "A purpose-driven scramble has directional intent where each movement targets leg extraction, rotation reduction, or frame establishment. This forces the opponent to make specific defensive choices, creating windows as they react. Panicked random movement is undirected energy expenditure that the opponent can simply ride out by maintaining their existing controls and making minor adjustments. Purpose-driven scrambles degrade the opponent's position incrementally; panicked movement depletes your energy while leaving their position intact."
+        "answer": "A purpose-driven scramble has directional intent where each movement targets leg extraction, rotation reduction, or frame establishment. This forces the opponent to make specific defensive choices, creating windows as they react. Panicked random movement is undirected energy expenditure that the opponent can simply ride out by maintaining their existing controls and making minor adjustments. Purpose-driven scrambles degrade the opponent's position incrementally; panicked movement depletes your energy while leaving their position intact.",
+        "answer_line": "Targeted moves force reactions",
+        "distractors": {
+          "plausible": [
+            "More speed beats more direction",
+            "Constant motion tires opponent"
+          ],
+          "trap": [
+            "Thrash randomly to create chaos"
+          ]
+        }
       },
       {
         "question": "After successfully recovering closed guard, what are your immediate priorities before launching any offense?",
-        "answer": "First, break any remaining grips the opponent has from the scramble, particularly any collar, wrist, or head control that could be used to immediately re-pass or attack. Second, establish your own control grips on their collar, sleeves, or wrists. Third, reset your breathing and composure after the high-energy scramble. Launching attacks immediately from a destabilized guard with compromised grips and elevated heart rate leads to sloppy technique and potential re-passing. Consolidation first, offense second."
+        "answer": "First, break any remaining grips the opponent has from the scramble, particularly any collar, wrist, or head control that could be used to immediately re-pass or attack. Second, establish your own control grips on their collar, sleeves, or wrists. Third, reset your breathing and composure after the high-energy scramble. Launching attacks immediately from a destabilized guard with compromised grips and elevated heart rate leads to sloppy technique and potential re-passing. Consolidation first, offense second.",
+        "answer_line": "Break grips, then grip, then breathe",
+        "distractors": {
+          "plausible": [
+            "Attack immediately with momentum",
+            "Reset breathing before anything"
+          ],
+          "trap": [
+            "Launch a submission right away"
+          ]
+        }
       },
       {
         "question": "Your opponent bases out wide and flattens you during the hip turn attempt, preventing rotation. What is your contingency plan?",
-        "answer": "When flattened and unable to complete the hip turn, accept turtle as an intermediate position. Frame against their chest and work to get your knees underneath you by turning into them rather than continuing to fight for the full hip rotation. From turtle you have established escape sequences including sit-outs, Granby rolls, and standard guard recoveries. Turtle removes the dangerous spinal rotation and provides a stable defensive platform, making it a significant positional improvement over remaining in Twister Control."
+        "answer": "When flattened and unable to complete the hip turn, accept turtle as an intermediate position. Frame against their chest and work to get your knees underneath you by turning into them rather than continuing to fight for the full hip rotation. From turtle you have established escape sequences including sit-outs, Granby rolls, and standard guard recoveries. Turtle removes the dangerous spinal rotation and provides a stable defensive platform, making it a significant positional improvement over remaining in Twister Control.",
+        "answer_line": "Accept turtle, frame and rise",
+        "distractors": {
+          "plausible": [
+            "Keep forcing the hip turn",
+            "Sit-out immediately from flat"
+          ],
+          "trap": [
+            "Fight to full extension flattened"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This escape involves explosive movements from a compromised spinal position, which creates inherent injury risk. Never attempt explosive movements when deep rotation is already established - this can increase spinal torque and risk cervical spine injury. During training, start with cooperative partners and gradually increase resistance. Tap early if you feel sharp pain in your neck or spine during escape attempts. Communicate clearly with training partners about resistance levels. If the Twister submission is locked in, tap immediately rather than attempting a late escape - spinal and neck safety always outweighs positional pride. Practitioners with pre-existing neck or spine injuries should consult with medical professionals before drilling this technique."
+    "safety_considerations": "This escape involves explosive movements from a compromised spinal position, which creates inherent injury risk. Never attempt explosive movements when deep rotation is already established - this can increase spinal torque and risk cervical spine injury. During training, start with cooperative partners and gradually increase resistance. Tap early if you feel sharp pain in your neck or spine during escape attempts. Communicate clearly with training partners about resistance levels. If the Twister submission is locked in, tap immediately rather than attempting a late escape - spinal and neck safety always outweighs positional pride. Practitioners with pre-existing neck or spine injuries should consult with medical professionals before drilling this technique.",
+    "clips": [
+      {
+        "id": "gawKiLxmZbc",
+        "title": "Spinning back door escape from side control",
+        "by": "Science Of JiuJitsu",
+        "vertical": false,
+        "channel": "Science Of JiuJitsu",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rjvvLBRxa8s",
+        "title": "No-gi side control escape to guard",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 62,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Scramble to Guard Defender",
@@ -334,23 +469,73 @@
     "flashcards": [
       {
         "question": "What are the earliest indicators that the bottom player is preparing to initiate the Scramble to Guard?",
-        "answer": "The earliest indicators are persistent hand-fighting against your leg hooks with increasing urgency, a shift from panicked shallow breathing to deliberate controlled breaths, the bottom player tucking their chin and creating neck protection frames, and their free leg beginning to load against the mat or your body in preparation for explosive hip drive. These signs typically appear 3-5 seconds before the actual scramble initiation."
+        "answer": "The earliest indicators are persistent hand-fighting against your leg hooks with increasing urgency, a shift from panicked shallow breathing to deliberate controlled breaths, the bottom player tucking their chin and creating neck protection frames, and their free leg beginning to load against the mat or your body in preparation for explosive hip drive. These signs typically appear 3-5 seconds before the actual scramble initiation.",
+        "answer_line": "Hand-fighting, breathing, leg load",
+        "distractors": {
+          "plausible": [
+            "Sudden stillness and silence",
+            "Tapping out or verbal surrender"
+          ],
+          "trap": [
+            "Increased grip on your collar"
+          ]
+        }
       },
       {
         "question": "Your opponent frees their trapped leg during a scramble attempt. Should you fight to re-establish Twister Control or transition?",
-        "answer": "Transition immediately to the best available alternative position rather than fighting to re-establish Twister Control. Once the leg is free, the mechanical foundation for rotational control is gone. Attempting to re-trap the leg while the bottom player has momentum wastes energy and time. Instead, follow their turning movement and work to establish back control with hooks, or if their neck is exposed during the turn, transition to guillotine or front headlock. Securing a dominant alternative position is far superior to chasing a lost one."
+        "answer": "Transition immediately to the best available alternative position rather than fighting to re-establish Twister Control. Once the leg is free, the mechanical foundation for rotational control is gone. Attempting to re-trap the leg while the bottom player has momentum wastes energy and time. Instead, follow their turning movement and work to establish back control with hooks, or if their neck is exposed during the turn, transition to guillotine or front headlock. Securing a dominant alternative position is far superior to chasing a lost one.",
+        "answer_line": "Transition, don't chase the leg",
+        "distractors": {
+          "plausible": [
+            "Re-trap the leg immediately",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Fight to re-establish Twister"
+          ]
+        }
       },
       {
         "question": "How do you use the bottom player's turning momentum to transition into a guillotine threat?",
-        "answer": "As the bottom player initiates their hip turn toward you, their neck naturally becomes exposed as they rotate through the transition. Rather than resisting the turn, allow it while sliding your near-side arm under their chin to establish a guillotine grip. Their own turning momentum drives their neck deeper into your choking arm. Secure the grip with your other hand and begin squeezing before they complete the turn and establish defensive frames. The key timing is catching the grip during the rotation, not after they have settled into a facing position."
+        "answer": "As the bottom player initiates their hip turn toward you, their neck naturally becomes exposed as they rotate through the transition. Rather than resisting the turn, allow it while sliding your near-side arm under their chin to establish a guillotine grip. Their own turning momentum drives their neck deeper into your choking arm. Secure the grip with your other hand and begin squeezing before they complete the turn and establish defensive frames. The key timing is catching the grip during the rotation, not after they have settled into a facing position.",
+        "answer_line": "Slide arm under chin mid-turn",
+        "distractors": {
+          "plausible": [
+            "Wait until they fully face you",
+            "Resist their turn to keep grip"
+          ],
+          "trap": [
+            "Let go and reset the position"
+          ]
+        }
       },
       {
         "question": "What is the single most important control point to maintain when you sense a scramble attempt is coming?",
-        "answer": "The leg entanglement is the single most critical control point. Without the trapped leg, the bottom player can freely rotate their hips to reduce spinal twist and face you for guard recovery. Tighten your hooks by squeezing your knees together, pulling your heels in, and using your hand to reinforce the leg control if necessary. Every other aspect of Twister Control - the rotation, the submission threat, the positional dominance - depends on maintaining this leg anchor. Upper body control is secondary to leg entanglement integrity."
+        "answer": "The leg entanglement is the single most critical control point. Without the trapped leg, the bottom player can freely rotate their hips to reduce spinal twist and face you for guard recovery. Tighten your hooks by squeezing your knees together, pulling your heels in, and using your hand to reinforce the leg control if necessary. Every other aspect of Twister Control - the rotation, the submission threat, the positional dominance - depends on maintaining this leg anchor. Upper body control is secondary to leg entanglement integrity.",
+        "answer_line": "Leg entanglement above all else",
+        "distractors": {
+          "plausible": [
+            "Upper body control matters most",
+            "Submission threat is the anchor"
+          ],
+          "trap": [
+            "Loosen legs to free your hands"
+          ]
+        }
       },
       {
         "question": "The bottom player successfully turns to face you but you maintain head control. What is your best positional transition?",
-        "answer": "If you have head control as they complete the turn, immediately work to establish a front headlock or guillotine position. Drive your weight onto their shoulders and sprawl your hips back to prevent them from sitting up into guard. From front headlock you can threaten guillotine, darce, anaconda, or transition to back control by spinning behind them. This converts their partially successful escape into a new controlling position where you retain offensive initiative. The critical action is sprawling heavy immediately so they cannot complete guard recovery while you hold their head."
+        "answer": "If you have head control as they complete the turn, immediately work to establish a front headlock or guillotine position. Drive your weight onto their shoulders and sprawl your hips back to prevent them from sitting up into guard. From front headlock you can threaten guillotine, darce, anaconda, or transition to back control by spinning behind them. This converts their partially successful escape into a new controlling position where you retain offensive initiative. The critical action is sprawling heavy immediately so they cannot complete guard recovery while you hold their head.",
+        "answer_line": "Sprawl into front headlock",
+        "distractors": {
+          "plausible": [
+            "Release head, chase back control",
+            "Sit back and reset positioning"
+          ],
+          "trap": [
+            "Let them sit up into guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -373,6 +558,35 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring integration",
         "description": "Full resistance positional rounds starting from Twister Control. Top player works to maintain position or convert to submission while bottom player works the full Scramble to Guard sequence. Track which defensive responses are most effective and which scramble variants give you the most difficulty. Integrate counter-scramble awareness into full rolling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "A7d7qR0oH8k",
+        "title": "Countering the turtle escape: circle the reguard",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 147,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_JPZaIcr90c",
+        "title": "Side control escape vs a bigger stronger opponent",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 69,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "sxU42xfnX9s",
+        "title": "Recovering hooks from back control",
+        "by": "Carnage BJJ",
+        "vertical": false,
+        "channel": "Carnage BJJ",
+        "duration": 99,
+        "verified": "2026-07-16"
       }
     ]
   },

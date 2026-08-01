@@ -34,6 +34,43 @@ description: "Master the Elbow Escape from Mount in BJJ. Systematic hip escape t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape from Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee and elbow escape from mount",
+      "description": "Elbow Escape from Mount film study: Knee and elbow escape from mount, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUZcLTWHAzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUZcLTWHAzk",
+      "url": "https://www.youtube.com/watch?v=pUZcLTWHAzk",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Advanced elbow-knee mount escape concepts",
+      "description": "Elbow Escape from Mount film study: Advanced elbow-knee mount escape concepts, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MohD353qSw4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MohD353qSw4",
+      "url": "https://www.youtube.com/watch?v=MohD353qSw4",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique is strategically essential because mount is the highest-scoring a
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape from Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUZcLTWHAzk)
+
+<p class="clip-credit"><strong>Knee and elbow escape from mount</strong> — taught by Jamie · 1:11 · <a href="https://www.youtube.com/watch?v=pUZcLTWHAzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MohD353qSw4)
+
+<p class="clip-credit"><strong>Advanced elbow-knee mount escape concepts</strong> — taught by Peter Mettler · 1:29 · <a href="https://www.youtube.com/watch?v=MohD353qSw4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

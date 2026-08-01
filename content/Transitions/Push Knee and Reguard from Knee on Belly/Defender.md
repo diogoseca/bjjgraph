@@ -140,6 +140,43 @@ description: "Learn to defend against the push knee reguard escape from Knee on 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Push Knee and Reguard from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the knee on belly escape to armbar",
+      "description": "Push Knee and Reguard from Knee on Belly (Defender) film study: Countering the knee on belly escape to armbar, taught by Grappling Instructionals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/647EFIw4r5o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/647EFIw4r5o",
+      "url": "https://www.youtube.com/watch?v=647EFIw4r5o",
+      "creator": { "@type": "Person", "name": "Grappling Instructionals" },
+      "duration": "PT218S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from knee on belly",
+      "description": "Push Knee and Reguard from Knee on Belly (Defender) film study: Kimura from knee on belly, taught by Mauricio Gomes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mEmlkI3zbeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mEmlkI3zbeE",
+      "url": "https://www.youtube.com/watch?v=mEmlkI3zbeE",
+      "creator": { "@type": "Person", "name": "Mauricio Gomes" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player defending against the Push Knee and Reguard escape, your objec
 **Opponent's Starting Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Push Knee and Reguard from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=647EFIw4r5o)
+
+<p class="clip-credit"><strong>Countering the knee on belly escape to armbar</strong> — taught by Grappling Instructionals · 3:38 · <a href="https://www.youtube.com/watch?v=647EFIw4r5o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mEmlkI3zbeE)
+
+<p class="clip-credit"><strong>Kimura from knee on belly</strong> — taught by Mauricio Gomes · 0:50 · <a href="https://www.youtube.com/watch?v=mEmlkI3zbeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -174,6 +174,54 @@ description: "Complete guide to executing the knee slice pass from butterfly hal
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Butterfly Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half butterfly guard pass for no-gi",
+      "description": "Knee Slice from Butterfly Half (Attacker) film study: Half butterfly guard pass for no-gi, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
+      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing butterfly guard with the knee slide",
+      "description": "Knee Slice from Butterfly Half (Attacker) film study: Passing butterfly guard with the knee slide, taught by Coach William.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yo6xI2LammA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yo6xI2LammA",
+      "url": "https://www.youtube.com/watch?v=yo6xI2LammA",
+      "creator": { "@type": "Person", "name": "Coach William" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half butterfly guard pass to knee slice",
+      "description": "Knee Slice from Butterfly Half (Attacker) film study: Half butterfly guard pass to knee slice, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jsy9oRpq998/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jsy9oRpq998",
+      "url": "https://www.youtube.com/watch?v=jsy9oRpq998",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT183S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the knee slice from butterfly half guard top requires a disciplined se
 **From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Butterfly Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
+
+<p class="clip-credit"><strong>Half butterfly guard pass for no-gi</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yo6xI2LammA)
+
+<p class="clip-credit"><strong>Passing butterfly guard with the knee slide</strong> — taught by Coach William · 1:38 · <a href="https://www.youtube.com/watch?v=yo6xI2LammA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jsy9oRpq998)
+
+<p class="clip-credit"><strong>Half butterfly guard pass to knee slice</strong> — taught by Factory Fresh Jiu Jitsu · 3:03 · <a href="https://www.youtube.com/watch?v=jsy9oRpq998" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

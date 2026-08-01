@@ -174,6 +174,54 @@ description: "Learn to execute Kiss of the Dragon from Reverse De La Riva Guard.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kiss of the Dragon from RDLR (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kiss of the dragon back take from RDLR",
+      "description": "Kiss of the Dragon from RDLR (Attacker) film study: Kiss of the dragon back take from RDLR, taught by Louis Armezzani.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Nj002G_Btm4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Nj002G_Btm4",
+      "url": "https://www.youtube.com/watch?v=Nj002G_Btm4",
+      "creator": { "@type": "Person", "name": "Louis Armezzani" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kiss of the dragon sweep",
+      "description": "Kiss of the Dragon from RDLR (Attacker) film study: Kiss of the dragon sweep, taught by Q.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yMPxcUHeK38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yMPxcUHeK38",
+      "url": "https://www.youtube.com/watch?v=yMPxcUHeK38",
+      "creator": { "@type": "Person", "name": "Q" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kiss of the dragon drill",
+      "description": "Kiss of the Dragon from RDLR (Attacker) film study: Kiss of the dragon drill, taught by OpenRollBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mLz3HoS2XLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mLz3HoS2XLw",
+      "url": "https://www.youtube.com/watch?v=mLz3HoS2XLw",
+      "creator": { "@type": "Person", "name": "OpenRollBJJ" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Kiss of the Dragon from RDLR is executed by the bottom guard player who init
 **From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kiss of the Dragon from RDLR (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Nj002G_Btm4)
+
+<p class="clip-credit"><strong>Kiss of the dragon back take from RDLR</strong> — taught by Louis Armezzani · 1:05 · <a href="https://www.youtube.com/watch?v=Nj002G_Btm4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yMPxcUHeK38)
+
+<p class="clip-credit"><strong>Kiss of the dragon sweep</strong> — taught by Q · 0:54 · <a href="https://www.youtube.com/watch?v=yMPxcUHeK38" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mLz3HoS2XLw)
+
+<p class="clip-credit"><strong>Kiss of the dragon drill</strong> — taught by OpenRollBJJ · 0:27 · <a href="https://www.youtube.com/watch?v=mLz3HoS2XLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

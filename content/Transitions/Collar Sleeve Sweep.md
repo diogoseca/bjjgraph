@@ -34,6 +34,54 @@ description: "Master the Collar Sleeve Sweep in BJJ. Step-by-step guide covering
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Five sweeps from collar and sleeve guard",
+      "description": "Collar Sleeve Sweep film study: Five sweeps from collar and sleeve guard, taught by Oneonta Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I2xn1bMaBdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I2xn1bMaBdg",
+      "url": "https://www.youtube.com/watch?v=I2xn1bMaBdg",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tripod sweep from collar sleeve guard",
+      "description": "Collar Sleeve Sweep film study: Tripod sweep from collar sleeve guard, taught by Golden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sXMtbCGzpvs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sXMtbCGzpvs",
+      "url": "https://www.youtube.com/watch?v=sXMtbCGzpvs",
+      "creator": { "@type": "Person", "name": "Golden State BJJ" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three attacks from collar and sleeve guard",
+      "description": "Collar Sleeve Sweep film study: Three attacks from collar and sleeve guard, taught by Giancarlo Bodoni.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SehIaBibwYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SehIaBibwYY",
+      "url": "https://www.youtube.com/watch?v=SehIaBibwYY",
+      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Collar Sleeve Sweep serves as the anchor technique within the
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I2xn1bMaBdg)
+
+<p class="clip-credit"><strong>Five sweeps from collar and sleeve guard</strong> — taught by Oneonta Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=I2xn1bMaBdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sXMtbCGzpvs)
+
+<p class="clip-credit"><strong>Tripod sweep from collar sleeve guard</strong> — taught by Golden State BJJ · 1:35 · <a href="https://www.youtube.com/watch?v=sXMtbCGzpvs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SehIaBibwYY)
+
+<p class="clip-credit"><strong>Three attacks from collar and sleeve guard</strong> — taught by Giancarlo Bodoni · 0:16 · <a href="https://www.youtube.com/watch?v=SehIaBibwYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

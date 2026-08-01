@@ -168,6 +168,54 @@ description: "How to execute Gift Wrap Control in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Taking the back from gift wrap control",
+      "description": "Gift Wrap Control (Attacker) film study: Taking the back from gift wrap control, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eKTd-9SkrVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eKTd-9SkrVk",
+      "url": "https://www.youtube.com/watch?v=eKTd-9SkrVk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount to gift wrap to finish",
+      "description": "Gift Wrap Control (Attacker) film study: Mount to gift wrap to finish, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
+      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gift wrap setup from side control",
+      "description": "Gift Wrap Control (Attacker) film study: Gift wrap setup from side control, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CfDk7hmt87c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CfDk7hmt87c",
+      "url": "https://www.youtube.com/watch?v=CfDk7hmt87c",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 **From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eKTd-9SkrVk)
+
+<p class="clip-credit"><strong>Taking the back from gift wrap control</strong> — taught by Henry Akins · 1:21 · <a href="https://www.youtube.com/watch?v=eKTd-9SkrVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
+
+<p class="clip-credit"><strong>Mount to gift wrap to finish</strong> — taught by Henry Akins · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CfDk7hmt87c)
+
+<p class="clip-credit"><strong>Gift wrap setup from side control</strong> — taught by Mat Life Training Center · 0:28 · <a href="https://www.youtube.com/watch?v=CfDk7hmt87c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

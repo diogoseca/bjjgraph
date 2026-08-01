@@ -148,6 +148,54 @@ description: "Master defensive responses to the Cross Ashi to 50-50 transition. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Ashi to 50-50 (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 escape for no-gi leg locks",
+      "description": "Cross Ashi to 50-50 (Defender) film study: 50/50 escape for no-gi leg locks, taught by Elite Team Monterey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cYEzCp2l4rQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cYEzCp2l4rQ",
+      "url": "https://www.youtube.com/watch?v=cYEzCp2l4rQ",
+      "creator": { "@type": "Person", "name": "Elite Team Monterey" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "What to do if you are being ambushed (heel hook defense)",
+      "description": "Cross Ashi to 50-50 (Defender) film study: What to do if you are being ambushed (heel hook defense), taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AsGMkATAqqw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AsGMkATAqqw",
+      "url": "https://www.youtube.com/watch?v=AsGMkATAqqw",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Outside heel hook defense to inside heel hook",
+      "description": "Cross Ashi to 50-50 (Defender) film study: Outside heel hook defense to inside heel hook, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Cross Ashi to 50-50 transition, your primary objecti
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Ashi to 50-50 (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cYEzCp2l4rQ)
+
+<p class="clip-credit"><strong>50/50 escape for no-gi leg locks</strong> — taught by Elite Team Monterey · 0:46 · <a href="https://www.youtube.com/watch?v=cYEzCp2l4rQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AsGMkATAqqw)
+
+<p class="clip-credit"><strong>What to do if you are being ambushed (heel hook defense)</strong> — taught by John Danaher · 0:53 · <a href="https://www.youtube.com/watch?v=AsGMkATAqqw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside heel hook defense to inside heel hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

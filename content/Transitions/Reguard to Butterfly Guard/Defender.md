@@ -148,6 +148,54 @@ description: "Master the Reguard to Butterfly Guard defense from the top perspec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard to Butterfly Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing butterfly guard with a cross butterfly hook",
+      "description": "Reguard to Butterfly Guard (Defender) film study: Passing butterfly guard with a cross butterfly hook, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IKs6ZDfahHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IKs6ZDfahHE",
+      "url": "https://www.youtube.com/watch?v=IKs6ZDfahHE",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "One-minute butterfly guard pass",
+      "description": "Reguard to Butterfly Guard (Defender) film study: One-minute butterfly guard pass, taught by Phil Migliarese.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cUTZ4bpZVUU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cUTZ4bpZVUU",
+      "url": "https://www.youtube.com/watch?v=cUTZ4bpZVUU",
+      "creator": { "@type": "Person", "name": "Phil Migliarese" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quick butterfly guard pass to cowboy mount",
+      "description": "Reguard to Butterfly Guard (Defender) film study: Quick butterfly guard pass to cowboy mount, taught by Bakari \u0026 Jesus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8c74OPVlFek/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8c74OPVlFek",
+      "url": "https://www.youtube.com/watch?v=8c74OPVlFek",
+      "creator": { "@type": "Person", "name": "Bakari \u0026 Jesus" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender facing the reguard to butterfly guard, you are the top player wo
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard to Butterfly Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IKs6ZDfahHE)
+
+<p class="clip-credit"><strong>Passing butterfly guard with a cross butterfly hook</strong> — taught by Thunderdome BJJ · 0:44 · <a href="https://www.youtube.com/watch?v=IKs6ZDfahHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cUTZ4bpZVUU)
+
+<p class="clip-credit"><strong>One-minute butterfly guard pass</strong> — taught by Phil Migliarese · 1:12 · <a href="https://www.youtube.com/watch?v=cUTZ4bpZVUU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8c74OPVlFek)
+
+<p class="clip-credit"><strong>Quick butterfly guard pass to cowboy mount</strong> — taught by Bakari &amp; Jesus · 0:44 · <a href="https://www.youtube.com/watch?v=8c74OPVlFek" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

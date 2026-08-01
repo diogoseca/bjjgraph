@@ -21,37 +21,37 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,54 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "K-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "K Guard entry to knee bar",
+      "description": "K-Guard (Bottom) film study: K Guard entry to knee bar, taught by Marshall Stamper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L7OCTtMGt4M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L7OCTtMGt4M",
+      "url": "https://www.youtube.com/watch?v=L7OCTtMGt4M",
+      "creator": { "@type": "Person", "name": "Marshall Stamper" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K guard to 411 saddle",
+      "description": "K-Guard (Bottom) film study: K guard to 411 saddle, taught by 10th Planet St Louis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wkPHi2q1Cbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wkPHi2q1Cbo",
+      "url": "https://www.youtube.com/watch?v=wkPHi2q1Cbo",
+      "creator": { "@type": "Person", "name": "10th Planet St Louis" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "K-Guard entry to backside heel hook",
+      "description": "K-Guard (Bottom) film study: K-Guard entry to backside heel hook, taught by Leg Lock Systems.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LAKiTjpAQ9g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LAKiTjpAQ9g",
+      "url": "https://www.youtube.com/watch?v=LAKiTjpAQ9g",
+      "creator": { "@type": "Person", "name": "Leg Lock Systems" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -166,6 +214,42 @@ K-Guard Bottom is a dynamic half guard variation characterized by an inverted bu
 The position excels as both a retention platform and an offensive launching point, particularly effective against pressure passers who attempt to flatten or smash through traditional half guard structures. The inverted hook configuration naturally creates angles that disrupt the top player's base while maintaining connection points that prevent disengagement. This makes K-Guard particularly valuable in modern no-gi competition where traditional half guard grips may be unavailable. The bottom practitioner can seamlessly transition between retention mode and explosive attack sequences, making it difficult for opponents to settle into effective passing positions while constantly threatening position advancement.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch K-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L7OCTtMGt4M)
+
+<p class="clip-credit"><strong>K Guard entry to knee bar</strong> — taught by Marshall Stamper · 0:55 · <a href="https://www.youtube.com/watch?v=L7OCTtMGt4M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wkPHi2q1Cbo)
+
+<p class="clip-credit"><strong>K guard to 411 saddle</strong> — taught by 10th Planet St Louis · 0:41 · <a href="https://www.youtube.com/watch?v=wkPHi2q1Cbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LAKiTjpAQ9g)
+
+<p class="clip-credit"><strong>K-Guard entry to backside heel hook</strong> — taught by Leg Lock Systems · 0:47 · <a href="https://www.youtube.com/watch?v=LAKiTjpAQ9g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

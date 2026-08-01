@@ -164,6 +164,54 @@ description: "Master creating deliberate opponent responses and exploiting predi
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Action and Reaction \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Action and reaction concept applied in grappling",
+      "description": "Action and Reaction film study: Action and reaction concept applied in grappling, taught by IPPON.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UhLeghq_8TM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UhLeghq_8TM",
+      "url": "https://www.youtube.com/watch?v=UhLeghq_8TM",
+      "creator": { "@type": "Person", "name": "IPPON" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Combinations and sequencing off opponent reactions",
+      "description": "Action and Reaction film study: Combinations and sequencing off opponent reactions, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X0pxgQGcvgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X0pxgQGcvgI",
+      "url": "https://www.youtube.com/watch?v=X0pxgQGcvgI",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT872S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The philosophy of jiu-jitsu: acting on reactions",
+      "description": "Action and Reaction film study: The philosophy of jiu-jitsu: acting on reactions, taught by Ryan Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BivcEB-1MCY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BivcEB-1MCY",
+      "url": "https://www.youtube.com/watch?v=BivcEB-1MCY",
+      "creator": { "@type": "Person", "name": "Ryan Hall" },
+      "duration": "PT615S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Action and Reaction?
@@ -173,6 +221,42 @@ description: "Master creating deliberate opponent responses and exploiting predi
 In modern BJJ, the practitioners who attack most effectively against committed, defensively sound opponents rarely win by forcing techniques through resistance — they win by manufacturing the openings they need. Unlike random technique application, action and reaction is a comprehensive tactical framework that applies across all positions and phases of the game: the creation of controlled stimuli, the reading of opponent responses, and the strategic exploitation of the defensive movements those stimuli provoke. It serves as both an offensive mechanism that creates openings through forced opponent commitment, and a defensive strategy that uses an opponent's own offensive actions against them. The ability to systematically generate and exploit reactions often determines whether a practitioner can attack successfully against defensive opponents or remains stymied by passive resistance, making it one of the most important strategic elements in modern grappling.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Action and Reaction in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UhLeghq_8TM)
+
+<p class="clip-credit"><strong>Action and reaction concept applied in grappling</strong> — taught by IPPON · 1:58 · <a href="https://www.youtube.com/watch?v=UhLeghq_8TM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X0pxgQGcvgI)
+
+<p class="clip-credit"><strong>Combinations and sequencing off opponent reactions</strong> — taught by Marcelo Garcia · 14:32 · <a href="https://www.youtube.com/watch?v=X0pxgQGcvgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BivcEB-1MCY)
+
+<p class="clip-credit"><strong>The philosophy of jiu-jitsu: acting on reactions</strong> — taught by Ryan Hall · 10:15 · <a href="https://www.youtube.com/watch?v=BivcEB-1MCY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

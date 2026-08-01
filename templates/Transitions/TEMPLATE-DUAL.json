@@ -45,7 +45,10 @@
       "type": "array",
       "description": "Strict synonyms — other names for THIS EXACT technique. Examples: ['Bullfighter Pass'] on Toreando Pass. DO NOT use for variants. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "family": {
       "type": "string",
@@ -56,16 +59,26 @@
       "description": "Automation bookkeeping written by the content bots (not hand-authored). select_oldest_files.sh reads last_improved to skip recently-improved files.",
       "additionalProperties": true,
       "properties": {
-        "last_improved": { "type": "string", "description": "ISO date (YYYY-MM-DD) of the last bot edit" },
-        "optimization_pass": { "type": "string" },
-        "last_improved_by": { "type": "string" }
+        "last_improved": {
+          "type": "string",
+          "description": "ISO date (YYYY-MM-DD) of the last bot edit"
+        },
+        "optimization_pass": {
+          "type": "string"
+        },
+        "last_improved_by": {
+          "type": "string"
+        }
       }
     },
     "sameAs": {
       "type": "array",
       "description": "Authoritative external URLs for THIS technique (Wikipedia article and/or Wikidata entity). schema.org sameAs — feeds Google's Knowledge Graph entity reconciliation and surfaces cross-language names. See docs/Synonyms.md.",
       "uniqueItems": true,
-      "items": { "type": "string", "format": "uri" }
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
     },
     "disambiguations": {
       "type": "array",
@@ -74,10 +87,19 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "reason"],
+        "required": [
+          "name",
+          "reason"
+        ],
         "properties": {
-          "name": { "type": "string", "minLength": 1 },
-          "reason": { "type": "string", "minLength": 10 }
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 10
+          }
         }
       }
     },
@@ -108,9 +130,39 @@
             "description": "Target Position/Role (e.g., 'Mount/Top', 'Closed Guard/Top', 'game-over')"
           },
           "probability": {
-            "type": "integer",
-            "minimum": 0,
-            "maximum": 100
+            "oneOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "gi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  },
+                  "nogi": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                },
+                "required": [
+                  "gi",
+                  "nogi"
+                ],
+                "additionalProperties": false
+              }
+            ]
           },
           "result": {
             "type": "string",
@@ -124,10 +176,40 @@
       }
     },
     "success_rate": {
-      "type": "integer",
-      "description": "Overall success rate percentage (0-100)",
-      "minimum": 0,
-      "maximum": 100
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        {
+          "type": "object",
+          "properties": {
+            "gi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "nogi": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "gi",
+            "nogi"
+          ],
+          "additionalProperties": false
+        }
+      ],
+      "description": "Overall success rate percentage (0-100)"
     },
     "summary": {
       "type": "string",
@@ -375,6 +457,34 @@
               "answer": {
                 "type": "string",
                 "minLength": 50
+              },
+              "distractors": {
+                "type": "object",
+                "additionalProperties": false,
+                "description": "Optional authored MC distractor tiers (graded options): plausible = nearly-right beginner beliefs, trap = dangerous misconceptions. Rendered by the Neural app's multiple-choice mode; runtime pooling is the fallback when absent.",
+                "properties": {
+                  "plausible": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 200
+                    }
+                  },
+                  "trap": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 200
+                    }
+                  }
+                }
+              },
+              "answer_line": {
+                "type": "string",
+                "maxLength": 60,
+                "description": "Optional one-line MC answer / recall cue (<=36 chars target); the full 'answer' stays as the post-reveal detail."
               }
             }
           }
@@ -383,6 +493,14 @@
           "type": "string",
           "description": "Safety notes and precautions (100+ characters)",
           "minLength": 100
+        },
+        "clips": {
+          "type": "array",
+          "description": "Curated YouTube film-study clips (executing the technique). Sourced by scripts/source_clips.py, machine-verified, hand-pruned. The content bot must never add, remove, or modify this field.",
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/clip"
+          }
         }
       }
     },
@@ -536,6 +654,34 @@
               "answer": {
                 "type": "string",
                 "minLength": 50
+              },
+              "distractors": {
+                "type": "object",
+                "additionalProperties": false,
+                "description": "Optional authored MC distractor tiers (graded options): plausible = nearly-right beginner beliefs, trap = dangerous misconceptions. Rendered by the Neural app's multiple-choice mode; runtime pooling is the fallback when absent.",
+                "properties": {
+                  "plausible": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 200
+                    }
+                  },
+                  "trap": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 3,
+                      "maxLength": 200
+                    }
+                  }
+                }
+              },
+              "answer_line": {
+                "type": "string",
+                "maxLength": 60,
+                "description": "Optional one-line MC answer / recall cue (<=36 chars target); the full 'answer' stays as the post-reveal detail."
               }
             }
           }
@@ -564,6 +710,83 @@
               }
             }
           }
+        },
+        "clips": {
+          "type": "array",
+          "description": "Curated YouTube film-study clips (defending/escaping the technique). Sourced by scripts/source_clips.py, machine-verified, hand-pruned. The content bot must never add, remove, or modify this field.",
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/clip"
+          }
+        }
+      }
+    },
+    "clips": {
+      "type": "array",
+      "description": "Curated YouTube film-study clips (general/hub-level). Sourced by scripts/source_clips.py, machine-verified, hand-pruned. The content bot must never add, remove, or modify this field.",
+      "maxItems": 4,
+      "items": {
+        "$ref": "#/$defs/clip"
+      }
+    }
+  },
+  "$defs": {
+    "clip": {
+      "type": "object",
+      "description": "One curated YouTube film-study clip. Machine-verified by scripts/source_clips.py / verify_clips.py; pruned by hand. NEVER AI-authored.",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{11}$",
+          "description": "YouTube video ID (11 chars)"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 80,
+          "description": "Short display title for the clip"
+        },
+        "by": {
+          "type": "string",
+          "description": "Display credit — the instructor/legend teaching the clip"
+        },
+        "start": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Loop start in seconds (default 0)"
+        },
+        "end": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Loop end in seconds; omit to play the full video"
+        },
+        "vertical": {
+          "type": "boolean",
+          "description": "True for YouTube Shorts / portrait video"
+        },
+        "channel": {
+          "type": "string",
+          "description": "Provenance: uploader channel name from search"
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Provenance: full video duration in seconds"
+        },
+        "verified": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Provenance: date of last machine verification (oEmbed + shorts check)"
+        },
+        "upload_date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Provenance: video publish date. Filled by a future yt-dlp enrichment pass (residential IP; per-video fetches are bot-checked from datacenter IPs). When present, emitted as VideoObject.uploadDate in generated markdown."
         }
       }
     }

@@ -148,6 +148,54 @@ description: "Defend against the Worm to Squid Guard transition as the top playe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Worm to Squid Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Polish worm rider",
+      "description": "Worm to Squid Guard (Defender) film study: Passing the Polish worm rider, taught by Daniel Maira and Nicholas Salles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
+      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
+      "creator": { "@type": "Person", "name": "Daniel Maira and Nicholas Salles" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the lapel squid guard",
+      "description": "Worm to Squid Guard (Defender) film study: Passing the lapel squid guard, taught by Nick Salles \u0026 Danny Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nPT4tqORpOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nPT4tqORpOA",
+      "url": "https://www.youtube.com/watch?v=nPT4tqORpOA",
+      "creator": { "@type": "Person", "name": "Nick Salles \u0026 Danny Maira" },
+      "duration": "PT672S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Neutralizing the lapel guard",
+      "description": "Worm to Squid Guard (Defender) film study: Neutralizing the lapel guard, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fciqhG8QErg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fciqhG8QErg",
+      "url": "https://www.youtube.com/watch?v=fciqhG8QErg",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against the Worm to Squid Guard transition requires recognizing the re
 **Opponent's Starting Position**: [[Positions/Worm Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Worm to Squid Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+
+<p class="clip-credit"><strong>Passing the Polish worm rider</strong> — taught by Daniel Maira and Nicholas Salles · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nPT4tqORpOA)
+
+<p class="clip-credit"><strong>Passing the lapel squid guard</strong> — taught by Nick Salles &amp; Danny Maira · 11:12 · <a href="https://www.youtube.com/watch?v=nPT4tqORpOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fciqhG8QErg)
+
+<p class="clip-credit"><strong>Neutralizing the lapel guard</strong> — taught by Lucas Lepri · 0:47 · <a href="https://www.youtube.com/watch?v=fciqhG8QErg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

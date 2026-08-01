@@ -34,6 +34,43 @@ description: "Master Cross Body Ride position in BJJ. Advanced back attack contr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Body Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back-taking concepts from turtle",
+      "description": "Cross Body Ride film study: Back-taking concepts from turtle, taught by Chase Namba.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-OJPjHh2F7A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-OJPjHh2F7A",
+      "url": "https://www.youtube.com/watch?v=-OJPjHh2F7A",
+      "creator": { "@type": "Person", "name": "Chase Namba" },
+      "duration": "PT245S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Peel back: leg riding from the sit-out",
+      "description": "Cross Body Ride film study: Peel back: leg riding from the sit-out, taught by WrestlingTournaments.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P47fz4EuVWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P47fz4EuVWQ",
+      "url": "https://www.youtube.com/watch?v=P47fz4EuVWQ",
+      "creator": { "@type": "Person", "name": "WrestlingTournaments.com" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ Mastery of Cross Body Ride requires understanding weight distribution mechanics,
 From a systematic perspective, Cross Body Ride functions as a forcing position within the turtle attack hierarchy. The top player's perpendicular orientation creates asymmetric pressure that the bottom player cannot neutralize through standard turtle defenses. Every defensive reaction from the bottom player opens a specific offensive pathway for the top player, whether that is a back take when they flatten, a crucifix when they post, or a crab ride transition when they attempt to stand. This branching decision tree makes Cross Body Ride one of the most strategically rich positions in the turtle attack ecosystem, rewarding practitioners who invest time in reading and responding to defensive patterns.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Body Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-OJPjHh2F7A)
+
+<p class="clip-credit"><strong>Back-taking concepts from turtle</strong> — taught by Chase Namba · 4:05 · <a href="https://www.youtube.com/watch?v=-OJPjHh2F7A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P47fz4EuVWQ)
+
+<p class="clip-credit"><strong>Peel back: leg riding from the sit-out</strong> — taught by WrestlingTournaments.com · 1:43 · <a href="https://www.youtube.com/watch?v=P47fz4EuVWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -141,21 +206,21 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 
 - **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (15% of attempts)
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (38% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (15% of attempts)
 
 - **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (15% of attempts)
 
-- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (13% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (15% of attempts)
 
-- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (7% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (9% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape from Cross Body Ride/Attacker|Hip Escape from Cross Body Ride]]** (3% of attempts)
+- **[[Transitions/Hip Escape from Cross Body Ride/Attacker|Hip Escape from Cross Body Ride]]** (8% of attempts)
 
-- **[[Transitions/Roll Escape from Cross Body Ride/Attacker|Roll Escape from Cross Body Ride]]** (1% of attempts)
+- **[[Transitions/Roll Escape from Cross Body Ride/Attacker|Roll Escape from Cross Body Ride]]** (6% of attempts)
 
-- **[[Transitions/Escape from Cross Body Ride/Attacker|Escape from Cross Body Ride]]** (1% of attempts)
+- **[[Transitions/Escape from Cross Body Ride/Attacker|Escape from Cross Body Ride]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -216,27 +281,27 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (50% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (19% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (17% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Twister from Cross Body Ride/Attacker|Twister from Cross Body Ride]]** (3% of attempts)
+- **[[Twister from Cross Body Ride/Attacker|Twister from Cross Body Ride]]** (8% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (8% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (10% of attempts)
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (6% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (13% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (6% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (10% of attempts)
 
-- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (2% of attempts)
+- **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (8% of attempts)
 
-- **[[Transitions/Cross Body to Back Control/Attacker|Cross Body to Back Control]]** (2% of attempts)
+- **[[Transitions/Cross Body to Back Control/Attacker|Cross Body to Back Control]]** (8% of attempts)
 
-- **[[Transitions/Cross Body to Side Control/Attacker|Cross Body to Side Control]]** (2% of attempts)
+- **[[Transitions/Cross Body to Side Control/Attacker|Cross Body to Side Control]]** (6% of attempts)
 
-- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (2% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (4% of attempts)
 
-- **[[Short Choke from Cross Body/Attacker|Short Choke from Cross Body]]** (2% of attempts)
+- **[[Short Choke from Cross Body/Attacker|Short Choke from Cross Body]]** (4% of attempts)
 
 
 ### Common Mistakes

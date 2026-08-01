@@ -170,6 +170,54 @@ description: "Learn to attack the kneebar from Inside Sankaku. Step-by-step exec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Inside Sankaku (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar from 411 / Inside Sankaku",
+      "description": "Kneebar from Inside Sankaku (Attacker) film study: Kneebar from 411 / Inside Sankaku, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H7nUDNYPavw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H7nUDNYPavw",
+      "url": "https://www.youtube.com/watch?v=H7nUDNYPavw",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar from the Saddle",
+      "description": "Kneebar from Inside Sankaku (Attacker) film study: Kneebar from the Saddle, taught by Sickness Ferro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDwhA_MeFbU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wDwhA_MeFbU",
+      "url": "https://www.youtube.com/watch?v=wDwhA_MeFbU",
+      "creator": { "@type": "Person", "name": "Sickness Ferro" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sumi Gaeshi to Kneebar from Inside Sankaku",
+      "description": "Kneebar from Inside Sankaku (Attacker) film study: Sumi Gaeshi to Kneebar from Inside Sankaku, taught by PartyBearBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HXf9Q8Axhyg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HXf9Q8Axhyg",
+      "url": "https://www.youtube.com/watch?v=HXf9Q8Axhyg",
+      "creator": { "@type": "Person", "name": "PartyBearBJJ" },
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking the kneebar from Inside Sankaku requires transitioning from heel hook 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Inside Sankaku (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H7nUDNYPavw)
+
+<p class="clip-credit"><strong>Kneebar from 411 / Inside Sankaku</strong> — taught by BOWERHOUSE MMA · 0:42 · <a href="https://www.youtube.com/watch?v=H7nUDNYPavw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wDwhA_MeFbU)
+
+<p class="clip-credit"><strong>Kneebar from the Saddle</strong> — taught by Sickness Ferro · 2:23 · <a href="https://www.youtube.com/watch?v=wDwhA_MeFbU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HXf9Q8Axhyg)
+
+<p class="clip-credit"><strong>Sumi Gaeshi to Kneebar from Inside Sankaku</strong> — taught by PartyBearBJJ · 3:59 · <a href="https://www.youtube.com/watch?v=HXf9Q8Axhyg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

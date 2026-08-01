@@ -34,6 +34,43 @@ description: "Master the heel strip escape from Ashi Garami in BJJ. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Strip from Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock escape: rolling through out of ashi garami",
+      "description": "Heel Strip from Ashi Garami film study: Leg lock escape: rolling through out of ashi garami, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping ashi garami \u2014 leg lock defense",
+      "description": "Heel Strip from Ashi Garami film study: Escaping ashi garami \u2014 leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Execution requires understanding the attacker's grip mechanics. The heel hook re
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Strip from Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape: rolling through out of ashi garami</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami — leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

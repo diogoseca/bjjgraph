@@ -148,6 +148,10 @@ description: "How to defend against Limp Leg Extraction to Half Guard in BJJ. Ma
 </script>
 
 
+
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +165,8 @@ Advanced defenders treat extraction attempts as offensive opportunities rather t
 **Opponent's Starting Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
+
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -149,6 +149,43 @@ description: "How to defend against Kosoto Gake in BJJ. Recognition cues, defens
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kosoto Gake (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kosoto gake as a defense to an attack",
+      "description": "Kosoto Gake (Defender) film study: Kosoto gake as a defense to an attack, taught by Aberdeen Judo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R32NoE1_CL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R32NoE1_CL8",
+      "url": "https://www.youtube.com/watch?v=R32NoE1_CL8",
+      "creator": { "@type": "Person", "name": "Aberdeen Judo" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering big judo throws",
+      "description": "Kosoto Gake (Defender) film study: Countering big judo throws, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
+      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -161,6 +198,34 @@ Defending Kosoto Gake requires early recognition and immediate action because th
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kosoto Gake (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R32NoE1_CL8)
+
+<p class="clip-credit"><strong>Kosoto gake as a defense to an attack</strong> — taught by Aberdeen Judo · 0:50 · <a href="https://www.youtube.com/watch?v=R32NoE1_CL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
+
+<p class="clip-credit"><strong>Countering big judo throws</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

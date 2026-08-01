@@ -156,6 +156,43 @@ description: "How to defend against Advance to Chill Dog in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Advance to Chill Dog (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber guard quick fix",
+      "description": "Advance to Chill Dog (Defender) film study: Rubber guard quick fix, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/huzjQNiJu7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/huzjQNiJu7Y",
+      "url": "https://www.youtube.com/watch?v=huzjQNiJu7Y",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "2 simple rubber guard tips",
+      "description": "Advance to Chill Dog (Defender) film study: 2 simple rubber guard tips, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
+      "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -169,6 +206,34 @@ Timing is the defender's greatest asset. The transition requires the bottom play
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Advance to Chill Dog (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=huzjQNiJu7Y)
+
+<p class="clip-credit"><strong>Rubber guard quick fix</strong> — taught by Brandon McCaghren · 1:05 · <a href="https://www.youtube.com/watch?v=huzjQNiJu7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
+
+<p class="clip-credit"><strong>2 simple rubber guard tips</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -176,6 +176,54 @@ description: "Step-by-step guide to finishing the Arm Triangle from Scarf Hold P
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Scarf Hold Position (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Triangle from Scarf Hold Position",
+      "description": "Arm Triangle from Scarf Hold Position (Attacker) film study: Arm Triangle from Scarf Hold Position, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xz9-FEBFFIo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xz9-FEBFFIo",
+      "url": "https://www.youtube.com/watch?v=xz9-FEBFFIo",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Attack Options from Scarf Hold",
+      "description": "Arm Triangle from Scarf Hold Position (Attacker) film study: Arm Attack Options from Scarf Hold, taught by Alexey Olynick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/17m6bnarNdE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/17m6bnarNdE",
+      "url": "https://www.youtube.com/watch?v=17m6bnarNdE",
+      "creator": { "@type": "Person", "name": "Alexey Olynick" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm Triangle from Scarf Hold",
+      "description": "Arm Triangle from Scarf Hold Position (Attacker) film study: Arm Triangle from Scarf Hold, taught by Sowilo Mob BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ms6mDg91dY4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ms6mDg91dY4",
+      "url": "https://www.youtube.com/watch?v=Ms6mDg91dY4",
+      "creator": { "@type": "Person", "name": "Sowilo Mob BJJ" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the Arm Triangle from Scarf Hold Position requires recognizing when th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Scarf Hold Position (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xz9-FEBFFIo)
+
+<p class="clip-credit"><strong>Arm Triangle from Scarf Hold Position</strong> — taught by Mat Life Training Center · 0:32 · <a href="https://www.youtube.com/watch?v=xz9-FEBFFIo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=17m6bnarNdE)
+
+<p class="clip-credit"><strong>Arm Attack Options from Scarf Hold</strong> — taught by Alexey Olynick · 1:29 · <a href="https://www.youtube.com/watch?v=17m6bnarNdE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ms6mDg91dY4)
+
+<p class="clip-credit"><strong>Arm Triangle from Scarf Hold</strong> — taught by Sowilo Mob BJJ · 2:56 · <a href="https://www.youtube.com/watch?v=Ms6mDg91dY4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

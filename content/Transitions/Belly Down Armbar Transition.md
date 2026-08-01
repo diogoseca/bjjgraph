@@ -34,6 +34,54 @@ description: "Master the belly down armbar transition from armbar control. Learn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook attacks: triangle and belly down armbar",
+      "description": "Belly Down Armbar Transition film study: Overhook attacks: triangle and belly down armbar, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/134Ibutiqxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/134Ibutiqxg",
+      "url": "https://www.youtube.com/watch?v=134Ibutiqxg",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly down armbar from mount",
+      "description": "Belly Down Armbar Transition film study: Belly down armbar from mount, taught by One Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZKmdEwOYI28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZKmdEwOYI28",
+      "url": "https://www.youtube.com/watch?v=ZKmdEwOYI28",
+      "creator": { "@type": "Person", "name": "One Jiu-Jitsu" },
+      "duration": "PT157S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Belly down armbar from closed guard",
+      "description": "Belly Down Armbar Transition film study: Belly down armbar from closed guard, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1uhVD0tAQYc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1uhVD0tAQYc",
+      "url": "https://www.youtube.com/watch?v=1uhVD0tAQYc",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,13 +118,49 @@ The belly-down position offers distinct mechanical advantages for the attacker. 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=134Ibutiqxg)
+
+<p class="clip-credit"><strong>Overhook attacks: triangle and belly down armbar</strong> — taught by Kameron Ross · 0:51 · <a href="https://www.youtube.com/watch?v=134Ibutiqxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZKmdEwOYI28)
+
+<p class="clip-credit"><strong>Belly down armbar from mount</strong> — taught by One Jiu-Jitsu · 2:37 · <a href="https://www.youtube.com/watch?v=ZKmdEwOYI28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1uhVD0tAQYc)
+
+<p class="clip-credit"><strong>Belly down armbar from closed guard</strong> — taught by Hellfish MMA · 2:32 · <a href="https://www.youtube.com/watch?v=1uhVD0tAQYc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="possible-outcomes" class="content-section">
 
 ## Possible Outcomes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Belly Down Armbar]] | 50% |
+| Success | [[Belly Down Armbar from Armbar Control]] | 50% |
 | Failure | [[Positions/Armbar Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 20% |
 

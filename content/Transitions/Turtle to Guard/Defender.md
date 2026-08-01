@@ -148,6 +148,43 @@ description: "How to prevent Turtle to Guard recovery in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag back take vs turtle guard recovery",
+      "description": "Turtle to Guard (Defender) film study: Arm drag back take vs turtle guard recovery, taught by Irm\u00e3os Lisboa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xhfjKDfwBY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xhfjKDfwBY",
+      "url": "https://www.youtube.com/watch?v=0xhfjKDfwBY",
+      "creator": { "@type": "Person", "name": "Irm\u00e3os Lisboa" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle to side control before guard recovers",
+      "description": "Turtle to Guard (Defender) film study: Turtle to side control before guard recovers, taught by Rickson Gracie Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8YvYkGr5FIU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8YvYkGr5FIU",
+      "url": "https://www.youtube.com/watch?v=8YvYkGr5FIU",
+      "creator": { "@type": "Person", "name": "Rickson Gracie Academy" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the top player against the Turtle to Guard recovery, your objective is to pre
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0xhfjKDfwBY)
+
+<p class="clip-credit"><strong>Arm drag back take vs turtle guard recovery</strong> — taught by Irmãos Lisboa · 1:44 · <a href="https://www.youtube.com/watch?v=0xhfjKDfwBY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8YvYkGr5FIU)
+
+<p class="clip-credit"><strong>Turtle to side control before guard recovers</strong> — taught by Rickson Gracie Academy · 0:47 · <a href="https://www.youtube.com/watch?v=8YvYkGr5FIU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

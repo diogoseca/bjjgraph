@@ -34,6 +34,54 @@ description: "Master the arm-in guillotine from guillotine control. Learn grip m
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm in Guillotine from Guillotine Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Marcelotine Arm-In Guillotine",
+      "description": "Arm in Guillotine from Guillotine Control film study: The Marcelotine Arm-In Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
+      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm-in Guillotine (Lapel-assisted)",
+      "description": "Arm in Guillotine from Guillotine Control film study: Arm-in Guillotine (Lapel-assisted), taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8AGCNn4ElSA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8AGCNn4ElSA",
+      "url": "https://www.youtube.com/watch?v=8AGCNn4ElSA",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Double Elbow to High Elbow Guillotine",
+      "description": "Arm in Guillotine from Guillotine Control film study: Double Elbow to High Elbow Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
+      "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT171S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 **Starting Position**: [[Positions/Guillotine Control]] · **From**: [[Positions/Guillotine Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm in Guillotine from Guillotine Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+
+<p class="clip-credit"><strong>The Marcelotine Arm-In Guillotine</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=8AGCNn4ElSA)
+
+<p class="clip-credit"><strong>Arm-in Guillotine (Lapel-assisted)</strong> — taught by Johnny Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=8AGCNn4ElSA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IvSVZuezQGo)
+
+<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -245,12 +329,10 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 ## Related
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Positions/Guillotine Control]] - Primary starting position for this submission variant
 - [[Positions/Front Headlock]] - Parent position category - precursor before securing guillotine grip
 - [[Positions/Closed Guard]] - Common guard position used to consolidate control during finish

@@ -148,6 +148,54 @@ description: "How to defend against Two-on-One to Back Take in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Two-on-One to Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2-on-1 counter offense",
+      "description": "Two-on-One to Back Take (Defender) film study: 2-on-1 counter offense, taught by JO Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w6_9x5bBmBw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w6_9x5bBmBw",
+      "url": "https://www.youtube.com/watch?v=w6_9x5bBmBw",
+      "creator": { "@type": "Person", "name": "JO Wrestling" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Russian tie counters",
+      "description": "Two-on-One to Back Take (Defender) film study: Russian tie counters, taught by Barry Mraz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r5oJK-OE8rU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r5oJK-OE8rU",
+      "url": "https://www.youtube.com/watch?v=r5oJK-OE8rU",
+      "creator": { "@type": "Person", "name": "Barry Mraz" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "2-on-1 defense",
+      "description": "Two-on-One to Back Take (Defender) film study: 2-on-1 defense, taught by Youssif Hemida.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uVsLdcUuxJg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uVsLdcUuxJg",
+      "url": "https://www.youtube.com/watch?v=uVsLdcUuxJg",
+      "creator": { "@type": "Person", "name": "Youssif Hemida" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the two-on-one to back take requires immediate recognition that your a
 **Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Two-on-One to Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w6_9x5bBmBw)
+
+<p class="clip-credit"><strong>2-on-1 counter offense</strong> — taught by JO Wrestling · 0:31 · <a href="https://www.youtube.com/watch?v=w6_9x5bBmBw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r5oJK-OE8rU)
+
+<p class="clip-credit"><strong>Russian tie counters</strong> — taught by Barry Mraz · 1:56 · <a href="https://www.youtube.com/watch?v=r5oJK-OE8rU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uVsLdcUuxJg)
+
+<p class="clip-credit"><strong>2-on-1 defense</strong> — taught by Youssif Hemida · 2:38 · <a href="https://www.youtube.com/watch?v=uVsLdcUuxJg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

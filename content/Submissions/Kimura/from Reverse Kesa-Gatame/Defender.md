@@ -150,6 +150,54 @@ description: "Complete defensive guide against the Kimura from Reverse Kesa-Gata
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Reverse Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kesa Gatame escape to back take",
+      "description": "Kimura from Reverse Kesa-Gatame (Defender) film study: Reverse Kesa Gatame escape to back take, taught by Gymnanigains.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ORpUBUxK1QE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ORpUBUxK1QE",
+      "url": "https://www.youtube.com/watch?v=ORpUBUxK1QE",
+      "creator": { "@type": "Person", "name": "Gymnanigains" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse kesa gatame escape",
+      "description": "Kimura from Reverse Kesa-Gatame (Defender) film study: Reverse kesa gatame escape, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JM9nDge0arQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JM9nDge0arQ",
+      "url": "https://www.youtube.com/watch?v=JM9nDge0arQ",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT238S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending and escaping reverse scarf hold",
+      "description": "Kimura from Reverse Kesa-Gatame (Defender) film study: Defending and escaping reverse scarf hold, taught by Meerkatsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FEQ9pcD1uQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FEQ9pcD1uQA",
+      "url": "https://www.youtube.com/watch?v=FEQ9pcD1uQA",
+      "creator": { "@type": "Person", "name": "Meerkatsu" },
+      "duration": "PT191S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Kimura from Reverse Kesa-Gatame requires recognizing the grip tran
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Reverse Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ORpUBUxK1QE)
+
+<p class="clip-credit"><strong>Reverse Kesa Gatame escape to back take</strong> — taught by Gymnanigains · 0:26 · <a href="https://www.youtube.com/watch?v=ORpUBUxK1QE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JM9nDge0arQ)
+
+<p class="clip-credit"><strong>Reverse kesa gatame escape</strong> — taught by MMA Leech · 3:58 · <a href="https://www.youtube.com/watch?v=JM9nDge0arQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FEQ9pcD1uQA)
+
+<p class="clip-credit"><strong>Defending and escaping reverse scarf hold</strong> — taught by Meerkatsu · 3:11 · <a href="https://www.youtube.com/watch?v=FEQ9pcD1uQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

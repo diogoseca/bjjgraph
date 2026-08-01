@@ -150,6 +150,43 @@ description: "How to defend against Triangle from De La Riva in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Choke from De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle defense and escape",
+      "description": "Triangle Choke from De La Riva (Defender) film study: Triangle defense and escape, taught by Daniel Frank.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DLmrzSs1hWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DLmrzSs1hWI",
+      "url": "https://www.youtube.com/watch?v=DLmrzSs1hWI",
+      "creator": { "@type": "Person", "name": "Daniel Frank" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shutting down a strong De La Riva guard",
+      "description": "Triangle Choke from De La Riva (Defender) film study: Shutting down a strong De La Riva guard, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-XU_JoO9Hhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-XU_JoO9Hhg",
+      "url": "https://www.youtube.com/watch?v=-XU_JoO9Hhg",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Triangle from De La Riva requires understanding the attack's progr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Choke from De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DLmrzSs1hWI)
+
+<p class="clip-credit"><strong>Triangle defense and escape</strong> — taught by Daniel Frank · 0:24 · <a href="https://www.youtube.com/watch?v=DLmrzSs1hWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-XU_JoO9Hhg)
+
+<p class="clip-credit"><strong>Shutting down a strong De La Riva guard</strong> — taught by Mikey Musumeci · 2:18 · <a href="https://www.youtube.com/watch?v=-XU_JoO9Hhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

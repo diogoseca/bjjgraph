@@ -21,37 +21,37 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Half Guard to Back Take",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair from Deep Half Guard",
-      "text": "From this position, attempt Electric Chair from Deep Half Guard. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair from Deep Half Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 3% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Deep Half Faria Sweep",
+      "description": "Deep Half Guard (Bottom) film study: Deep Half Faria Sweep, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4EpYNsTwjWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4EpYNsTwjWY",
+      "url": "https://www.youtube.com/watch?v=4EpYNsTwjWY",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep Half Guard Sweep",
+      "description": "Deep Half Guard (Bottom) film study: Deep Half Guard Sweep, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
+      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep Half Guard Sweep (No Gi)",
+      "description": "Deep Half Guard (Bottom) film study: Deep Half Guard Sweep (No Gi), taught by Prism Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v7MopqNBzwY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v7MopqNBzwY",
+      "url": "https://www.youtube.com/watch?v=v7MopqNBzwY",
+      "creator": { "@type": "Person", "name": "Prism Jiu Jitsu" },
+      "duration": "PT53S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ This position is particularly effective against pressure passers who commit thei
 Deep Half Guard Bottom requires excellent hip mobility, core strength, and timing to enter and maintain. While it appears defensive, it is actually a highly offensive position with multiple pathways to dominant positions. The position is a cornerstone of modern no-gi grappling and has been refined into a comprehensive attacking system by elite competitors worldwide.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4EpYNsTwjWY)
+
+<p class="clip-credit"><strong>Deep Half Faria Sweep</strong> — taught by Team Daruma Dojo · 1:11 · <a href="https://www.youtube.com/watch?v=4EpYNsTwjWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
+
+<p class="clip-credit"><strong>Deep Half Guard Sweep</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v7MopqNBzwY)
+
+<p class="clip-credit"><strong>Deep Half Guard Sweep (No Gi)</strong> — taught by Prism Jiu Jitsu · 0:53 · <a href="https://www.youtube.com/watch?v=v7MopqNBzwY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

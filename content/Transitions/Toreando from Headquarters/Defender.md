@@ -140,6 +140,43 @@ description: "Complete defensive guide against the Toreando pass from Headquarte
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Headquarters (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Toreando from Headquarters (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: recovering around the legs",
+      "description": "Toreando from Headquarters (Defender) film study: Guard retention: recovering around the legs, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Toreando from Headquarters requires recognizing the transition fro
 **Opponent's Starting Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Headquarters (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Guard retention: recovering around the legs</strong> — taught by Lachlan Giles · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

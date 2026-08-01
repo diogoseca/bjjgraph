@@ -148,6 +148,54 @@ description: "How to defend against Estima Lock to Saddle in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock to Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle escape into leg drag flow",
+      "description": "Estima Lock to Saddle (Defender) film study: Saddle escape into leg drag flow, taught by Travis Anderson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C3bPRoMwGPo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C3bPRoMwGPo",
+      "url": "https://www.youtube.com/watch?v=C3bPRoMwGPo",
+      "creator": { "@type": "Person", "name": "Travis Anderson" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside sankaku counter to the inside heel hook",
+      "description": "Estima Lock to Saddle (Defender) film study: Inside sankaku counter to the inside heel hook, taught by Pedro Rocha.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q1JgpfFRDA4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q1JgpfFRDA4",
+      "url": "https://www.youtube.com/watch?v=q1JgpfFRDA4",
+      "creator": { "@type": "Person", "name": "Pedro Rocha" },
+      "duration": "PT163S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three escapes from the saddle",
+      "description": "Estima Lock to Saddle (Defender) film study: Three escapes from the saddle, taught by Because Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8D4EFJ3kG9w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8D4EFJ3kG9w",
+      "url": "https://www.youtube.com/watch?v=8D4EFJ3kG9w",
+      "creator": { "@type": "Person", "name": "Because Jitsu" },
+      "duration": "PT200S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires balancing two competing demands: defending the origi
 **Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock to Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C3bPRoMwGPo)
+
+<p class="clip-credit"><strong>Saddle escape into leg drag flow</strong> — taught by Travis Anderson · 1:10 · <a href="https://www.youtube.com/watch?v=C3bPRoMwGPo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q1JgpfFRDA4)
+
+<p class="clip-credit"><strong>Inside sankaku counter to the inside heel hook</strong> — taught by Pedro Rocha · 2:43 · <a href="https://www.youtube.com/watch?v=q1JgpfFRDA4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8D4EFJ3kG9w)
+
+<p class="clip-credit"><strong>Three escapes from the saddle</strong> — taught by Because Jitsu · 3:20 · <a href="https://www.youtube.com/watch?v=8D4EFJ3kG9w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

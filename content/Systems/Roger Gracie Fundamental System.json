@@ -350,35 +350,115 @@
   "flashcards": [
     {
       "question": "What is the core philosophy of the Roger Gracie Fundamental System?",
-      "answer": "That perfectly executed fundamental techniques beat complex advanced techniques performed poorly. Mastery comes from refining a small set of high-percentage moves to perfection rather than collecting many techniques superficially."
+      "answer": "That perfectly executed fundamental techniques beat complex advanced techniques performed poorly. Mastery comes from refining a small set of high-percentage moves to perfection rather than collecting many techniques superficially.",
+      "answer_line": "Perfect basics beat sloppy advanced",
+      "distractors": {
+        "plausible": [
+          "Learn as many techniques as possible",
+          "Advanced moves win at any level"
+        ],
+        "trap": [
+          "Skip basics for advanced attacks"
+        ]
+      }
     },
     {
       "question": "Which positional sequence does the system follow?",
-      "answer": "The classical hierarchy without skipping steps: guard pass to side control, side control to mount, and mount to submission, establishing and maintaining complete control at each stage before advancing."
+      "answer": "The classical hierarchy without skipping steps: guard pass to side control, side control to mount, and mount to submission, establishing and maintaining complete control at each stage before advancing.",
+      "answer_line": "Pass to side, mount, then submit",
+      "distractors": {
+        "plausible": [
+          "Pass guard straight to mount",
+          "Submit first, secure position after"
+        ],
+        "trap": [
+          "Jump straight for the choke"
+        ]
+      }
     },
     {
       "question": "What is Roger Gracie's signature submission and from where is it finished?",
-      "answer": "The cross collar choke finished from mount, executed with world-class precision. Opponents recognize it but cannot defend it because of perfect grip depth, angle creation, and systematic tightening mechanics."
+      "answer": "The cross collar choke finished from mount, executed with world-class precision. Opponents recognize it but cannot defend it because of perfect grip depth, angle creation, and systematic tightening mechanics.",
+      "answer_line": "Cross collar choke from mount",
+      "distractors": {
+        "plausible": [
+          "Armbar from mount",
+          "Ezekiel choke from mount"
+        ],
+        "trap": [
+          "Baseball bat choke, sit up"
+        ]
+      }
     },
     {
       "question": "Why do opponents fail to escape Roger's mount even when they know the escapes?",
-      "answer": "Because of perfect weight distribution, hip mobility to follow escape attempts, and hand positioning that prevents bridging and shrimping, making the mount feel impossibly heavy without relying on physical strength."
+      "answer": "Because of perfect weight distribution, hip mobility to follow escape attempts, and hand positioning that prevents bridging and shrimping, making the mount feel impossibly heavy without relying on physical strength.",
+      "answer_line": "Weight control blocks bridge/shrimp",
+      "distractors": {
+        "plausible": [
+          "Pure strength holds them down",
+          "Heavy base alone stops escapes"
+        ],
+        "trap": [
+          "Post hands wide, sit up high"
+        ]
+      }
     },
     {
       "question": "How does this system define defense?",
-      "answer": "Defense means preventing opponents from achieving favorable positions in the first place — through guard retention, immediate frame creation, and hand fighting — rather than escaping bad positions after they have already developed."
+      "answer": "Defense means preventing opponents from achieving favorable positions in the first place — through guard retention, immediate frame creation, and hand fighting — rather than escaping bad positions after they have already developed.",
+      "answer_line": "Stop bad position before it happens",
+      "distractors": {
+        "plausible": [
+          "Escape bad positions quickly",
+          "React fast once passed"
+        ],
+        "trap": [
+          "Wait, then bridge and escape"
+        ]
+      }
     },
     {
       "question": "What drilling philosophy underpins the system?",
-      "answer": "Quality over quantity: drilling fundamental techniques with perfect form thousands of times under progressive resistance, focusing on one position or transition per week until correct responses become automatic and unconscious."
+      "answer": "Quality over quantity: drilling fundamental techniques with perfect form thousands of times under progressive resistance, focusing on one position or transition per week until correct responses become automatic and unconscious.",
+      "answer_line": "Drill one move weekly to perfection",
+      "distractors": {
+        "plausible": [
+          "Drill many moves each session",
+          "Spar hard instead of drilling"
+        ],
+        "trap": [
+          "Switch techniques every day"
+        ]
+      }
     },
     {
       "question": "A common mistake is rushing toward submissions, so what does the system prescribe instead?",
-      "answer": "Establish complete positional control first, because perfect position makes the submission inevitable. Chasing the finish before securing control invites scrambles and surrenders the dominant position."
+      "answer": "Establish complete positional control first, because perfect position makes the submission inevitable. Chasing the finish before securing control invites scrambles and surrenders the dominant position.",
+      "answer_line": "Secure position, then submission",
+      "distractors": {
+        "plausible": [
+          "Attempt submissions early often",
+          "Chain submissions until one lands"
+        ],
+        "trap": [
+          "Chase the tap, abandon position"
+        ]
+      }
     },
     {
       "question": "How should a practitioner respond when athletic opponents escape fundamental positions?",
-      "answer": "Develop sensitivity to recognize escape attempts earlier, adjust weight distribution and grips preemptively, and accept that some positions will be lost while focusing on immediate re-establishment of control."
+      "answer": "Develop sensitivity to recognize escape attempts earlier, adjust weight distribution and grips preemptively, and accept that some positions will be lost while focusing on immediate re-establishment of control.",
+      "answer_line": "Sense escapes early, adjust grips",
+      "distractors": {
+        "plausible": [
+          "Grip harder to stop escapes",
+          "Switch to more advanced moves"
+        ],
+        "trap": [
+          "Chase the escape, abandon base"
+        ]
+      }
     }
   ]
 }

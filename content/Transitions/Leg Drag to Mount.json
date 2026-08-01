@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Leg Drag to Mount transition represents one of the most direct pathways from leg drag control to a dominant scoring position. When an opponent stays relatively flat on their back rather than turning away to protect their guard, the mount becomes the highest-percentage consolidation option. This transition capitalizes on the hip control already established in leg drag position, using the crossed leg as a pivot point to swing into full mount.\n\nThe strategic value of this transition lies in its simplicity and directional efficiency. Unlike the back take which requires following the opponent's rotation, the mount transition works when the opponent resists turning—creating a decision tree where any defensive choice opens a high-percentage advancement. The key mechanical principle involves maintaining continuous hip pressure while stepping over the opponent's body, ensuring no space exists for knee shield insertion or hip escape during the transition.\n\nFrom a competitive standpoint, the leg drag to mount sequence scores points immediately upon achieving the mount position (typically 4 points) while simultaneously opening a wide array of submission opportunities. Advanced practitioners use this transition as part of a systematic approach where the threat of the mount forces defensive reactions that expose the back, creating the dilemma-based passing system that characterizes elite-level guard passing.",
   "conditions": [
     "Opponent remains relatively flat on their back rather than turning away toward turtle",
@@ -207,46 +219,166 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the mount transition from leg drag control?",
-        "answer": "The optimal window is when your opponent stays flat on their back and commits to fighting your upper body control rather than turning away. You should initiate within 2-3 seconds of establishing leg drag control, because the longer you wait the more time they have to build frames. The moment you feel them resist turning, begin the step-over immediately."
+        "answer": "The optimal window is when your opponent stays flat on their back and commits to fighting your upper body control rather than turning away. You should initiate within 2-3 seconds of establishing leg drag control, because the longer you wait the more time they have to build frames. The moment you feel them resist turning, begin the step-over immediately.",
+        "answer_line": "Strike within 2-3 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait for them to relax",
+            "Hold until crossface locks"
+          ],
+          "trap": [
+            "Dive across, lose the pin"
+          ]
+        }
       },
       {
         "question": "Which leg should you step over with first during the mount transition and why?",
-        "answer": "Step over with your far leg first while your near knee maintains pressure against the opponent's hip. This ensures continuous control throughout the transition and prevents the opponent from inserting frames or recovering guard during the movement. The near knee acts as a seal against their hip while the far leg travels."
+        "answer": "Step over with your far leg first while your near knee maintains pressure against the opponent's hip. This ensures continuous control throughout the transition and prevents the opponent from inserting frames or recovering guard during the movement. The near knee acts as a seal against their hip while the far leg travels.",
+        "answer_line": "Far leg steps, near knee seals",
+        "distractors": {
+          "plausible": [
+            "Near leg first, far knee seals",
+            "Step both legs over together"
+          ],
+          "trap": [
+            "Release near knee to step faster"
+          ]
+        }
       },
       {
         "question": "What is the critical hip pressure principle during the leg drag to mount transition?",
-        "answer": "Hip pressure must remain constant throughout the entire transition—it should never decrease until mount is fully established. Your chest drives forward into the opponent's near hip, pinning them to the mat. This continuous pressure prevents them from creating the space needed for frames, hip escapes, or guard recovery."
+        "answer": "Hip pressure must remain constant throughout the entire transition—it should never decrease until mount is fully established. Your chest drives forward into the opponent's near hip, pinning them to the mat. This continuous pressure prevents them from creating the space needed for frames, hip escapes, or guard recovery.",
+        "answer_line": "Never let hip pressure drop",
+        "distractors": {
+          "plausible": [
+            "Ease pressure once knee is over",
+            "Pressure matters most at the end"
+          ],
+          "trap": [
+            "Rise up to see their reaction"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging explosively as you begin stepping over—how do you adjust?",
-        "answer": "Keep your weight low and forward rather than fighting the bridge. Post your hands wide for base and ride the bridge motion. Once the bridge fails (which it will if your weight is properly distributed), immediately complete the mount transition before they can attempt another escape. Never rise up to fight the bridge—stay heavy and let gravity work."
+        "answer": "Keep your weight low and forward rather than fighting the bridge. Post your hands wide for base and ride the bridge motion. Once the bridge fails (which it will if your weight is properly distributed), immediately complete the mount transition before they can attempt another escape. Never rise up to fight the bridge—stay heavy and let gravity work.",
+        "answer_line": "Stay low, ride the bridge out",
+        "distractors": {
+          "plausible": [
+            "Rise up to block the bridge",
+            "Sprawl back to reset position"
+          ],
+          "trap": [
+            "Stand up to avoid being bridged"
+          ]
+        }
       },
       {
         "question": "What grip and upper body control must be established before you initiate the step-over?",
-        "answer": "You need either a crossface driving their head away or direct shoulder pressure pinning them flat, combined with your free arm controlling their far shoulder, head, or establishing an underhook. This dual control system prevents them from sitting up or rotating during the vulnerable step-over phase. Without upper body control, the step-over creates a scramble."
+        "answer": "You need either a crossface driving their head away or direct shoulder pressure pinning them flat, combined with your free arm controlling their far shoulder, head, or establishing an underhook. This dual control system prevents them from sitting up or rotating during the vulnerable step-over phase. Without upper body control, the step-over creates a scramble.",
+        "answer_line": "Crossface plus far-side control",
+        "distractors": {
+          "plausible": [
+            "Underhook only, no crossface",
+            "Grip the far wrist first"
+          ],
+          "trap": [
+            "Release upper grips to step over"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts a knee shield as you slide your near knee across—what is the correct response?",
-        "answer": "Do not force the mount against an established knee shield. Instead, redirect immediately to knee on belly by posting your knee on their belly while maintaining upper body control, or backstep to re-establish leg drag position. Fighting through a knee shield wastes energy and creates scramble opportunities that favor the bottom player."
+        "answer": "Do not force the mount against an established knee shield. Instead, redirect immediately to knee on belly by posting your knee on their belly while maintaining upper body control, or backstep to re-establish leg drag position. Fighting through a knee shield wastes energy and creates scramble opportunities that favor the bottom player.",
+        "answer_line": "Redirect to knee-on-belly",
+        "distractors": {
+          "plausible": [
+            "Kick the shield leg away",
+            "Lie flat to smother them"
+          ],
+          "trap": [
+            "Force the knee through shield"
+          ]
+        }
       },
       {
         "question": "How do you decide between transitioning to mount versus following to back control from leg drag?",
-        "answer": "The decision is based on the opponent's reaction. If they stay relatively flat and fight your upper body control, transition to mount. If they turn away to protect their guard (exposing their back), follow immediately for back control. The leg drag creates a decision tree where either reaction gives you a dominant position. Read hip rotation—toward you means mount, away means back take."
+        "answer": "The decision is based on the opponent's reaction. If they stay relatively flat and fight your upper body control, transition to mount. If they turn away to protect their guard (exposing their back), follow immediately for back control. The leg drag creates a decision tree where either reaction gives you a dominant position. Read hip rotation—toward you means mount, away means back take.",
+        "answer_line": "Read hip rotation direction",
+        "distractors": {
+          "plausible": [
+            "Always default to mount",
+            "Choose based on your grip strength"
+          ],
+          "trap": [
+            "Force mount when they turn away"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply with your chest during the step-over phase?",
-        "answer": "Your force direction should be forward and diagonal, driving into the opponent's near hip at roughly a 45-degree angle across their body. This angle pins their hips flat while preventing them from hip escaping in either direction. Straight-down pressure allows hip escapes; diagonal pressure eliminates the angle they need to shrimp effectively."
+        "answer": "Your force direction should be forward and diagonal, driving into the opponent's near hip at roughly a 45-degree angle across their body. This angle pins their hips flat while preventing them from hip escaping in either direction. Straight-down pressure allows hip escapes; diagonal pressure eliminates the angle they need to shrimp effectively.",
+        "answer_line": "45-degree diagonal into hip",
+        "distractors": {
+          "plausible": [
+            "Push toward their head",
+            "Angle away from their hips"
+          ],
+          "trap": [
+            "Straight down onto their chest"
+          ]
+        }
       },
       {
         "question": "Your opponent frames on your shoulder and begins creating space—how do you clear the frame and continue?",
-        "answer": "Swim through the frame by threading an underhook beneath their framing arm, or push their framing arm across their body using your shoulder and head pressure. You can also walk your pressure point past the frame by shifting from shoulder control to head control. Once the frame is cleared, immediately continue the mount transition before they rebuild defensive structure."
+        "answer": "Swim through the frame by threading an underhook beneath their framing arm, or push their framing arm across their body using your shoulder and head pressure. You can also walk your pressure point past the frame by shifting from shoulder control to head control. Once the frame is cleared, immediately continue the mount transition before they rebuild defensive structure.",
+        "answer_line": "Swim underhook through frame",
+        "distractors": {
+          "plausible": [
+            "Push frame away and wait",
+            "Grab wrist and pull down"
+          ],
+          "trap": [
+            "Back off to reset position"
+          ]
+        }
       },
       {
         "question": "What chain attacks become available if the mount is blocked and you must redirect to knee on belly?",
-        "answer": "From knee on belly you can threaten baseball bat choke, armbar, or use the pressure to force a reaction that reopens the mount path. If they push your knee, transition to mount. If they turn away from the pressure, follow to back take. If they stay flat and try to frame, attack the near arm with Americana or kimura. Knee on belly serves as a secondary pressure point that resets the dilemma."
+        "answer": "From knee on belly you can threaten baseball bat choke, armbar, or use the pressure to force a reaction that reopens the mount path. If they push your knee, transition to mount. If they turn away from the pressure, follow to back take. If they stay flat and try to frame, attack the near arm with Americana or kimura. Knee on belly serves as a secondary pressure point that resets the dilemma.",
+        "answer_line": "Baseball bat choke or armbar",
+        "distractors": {
+          "plausible": [
+            "Only leglocks are open",
+            "Nothing, just hold pressure"
+          ],
+          "trap": [
+            "Abandon position, reset guard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The leg drag to mount transition is generally a low-risk technique with minimal injury potential when executed properly. The primary safety concern involves the step-over phase where sudden weight shifts can cause knee strain if the foot catches on the mat. Ensure training surfaces are clear of obstructions and practice smooth, controlled movements before adding speed. Partners should communicate if they feel any joint stress during the transition. When drilling, avoid dropping full weight aggressively during the mount settlement phase—gradually increase intensity as both partners become comfortable with the movement. There is minimal submission threat during the transition itself, making this a relatively safe technique for all skill levels to practice."
+    "safety_considerations": "The leg drag to mount transition is generally a low-risk technique with minimal injury potential when executed properly. The primary safety concern involves the step-over phase where sudden weight shifts can cause knee strain if the foot catches on the mat. Ensure training surfaces are clear of obstructions and practice smooth, controlled movements before adding speed. Partners should communicate if they feel any joint stress during the transition. When drilling, avoid dropping full weight aggressively during the mount settlement phase—gradually increase intensity as both partners become comfortable with the movement. There is minimal submission threat during the transition itself, making this a relatively safe technique for all skill levels to practice.",
+    "clips": [
+      {
+        "id": "8VT4dxSqCvI",
+        "title": "Leg drag pass mechanics",
+        "by": "Procel BJJ coach",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "j3VqFZ5LULQ",
+        "title": "Leg drag pass from De La Riva",
+        "by": "BJJ4Breakfast coach",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 134,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to Mount Defender",
@@ -331,23 +463,73 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for defending the leg drag to mount transition?",
-        "answer": "The most critical window is the moment the passer releases their grip on your crossed leg and begins stepping their far leg over your torso. During this brief phase, they must shift weight and temporarily lose their primary control point. This is when knee shield insertion or a well-timed hip escape has the highest success rate because the passer is mid-transition and cannot easily abort."
+        "answer": "The most critical window is the moment the passer releases their grip on your crossed leg and begins stepping their far leg over your torso. During this brief phase, they must shift weight and temporarily lose their primary control point. This is when knee shield insertion or a well-timed hip escape has the highest success rate because the passer is mid-transition and cannot easily abort.",
+        "answer_line": "When they release your leg",
+        "distractors": {
+          "plausible": [
+            "Right after mount settles",
+            "Before they grip your leg"
+          ],
+          "trap": [
+            "Wait until crossface fully locks"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stepping their far leg over while driving heavy crossface pressure—what is your immediate defensive sequence?",
-        "answer": "First, use your far hand to block or redirect the crossface to prevent being flattened completely. Simultaneously, hip escape slightly away from the passer to create space at your near hip. Then drive your near knee between your body and the passer's torso as they step over, establishing a knee shield. The frame buys time, the hip escape creates space, and the knee shield stops the mount. All three happen nearly simultaneously."
+        "answer": "First, use your far hand to block or redirect the crossface to prevent being flattened completely. Simultaneously, hip escape slightly away from the passer to create space at your near hip. Then drive your near knee between your body and the passer's torso as they step over, establishing a knee shield. The frame buys time, the hip escape creates space, and the knee shield stops the mount. All three happen nearly simultaneously.",
+        "answer_line": "Frame face, hip escape, knee in",
+        "distractors": {
+          "plausible": [
+            "Bridge hard and muscle up",
+            "Grab their stepping ankle"
+          ],
+          "trap": [
+            "Turn away and turtle up"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the passer a dangerous defensive choice during the mount transition?",
-        "answer": "Turning away exposes your back and gives the passer a clear path to abandon the mount attempt in favor of back control, which is an even more dominant and dangerous position. Skilled passers build their leg drag system around this exact dilemma—turn away and they take the back, stay flat and they take mount. The correct response is to turn slightly toward them with frames, denying both options."
+        "answer": "Turning away exposes your back and gives the passer a clear path to abandon the mount attempt in favor of back control, which is an even more dominant and dangerous position. Skilled passers build their leg drag system around this exact dilemma—turn away and they take the back, stay flat and they take mount. The correct response is to turn slightly toward them with frames, denying both options.",
+        "answer_line": "Turn toward them with frames",
+        "distractors": {
+          "plausible": [
+            "Stay flat and do nothing",
+            "Push their head down to stall"
+          ],
+          "trap": [
+            "Turn away to protect your guard"
+          ]
+        }
       },
       {
         "question": "What are the primary recognition cues that tell you the mount transition is about to begin?",
-        "answer": "The key cues are: the passer loosens or releases their grip on your crossed leg while increasing upper body pressure; the passer shifts their hands from leg control to head or shoulder control positions; you feel increased flattening pressure through the crossface or shoulder; and most visibly, the passer's far leg begins lifting off the mat to initiate the step-over arc. Any of these cues should trigger immediate defensive action."
+        "answer": "The key cues are: the passer loosens or releases their grip on your crossed leg while increasing upper body pressure; the passer shifts their hands from leg control to head or shoulder control positions; you feel increased flattening pressure through the crossface or shoulder; and most visibly, the passer's far leg begins lifting off the mat to initiate the step-over arc. Any of these cues should trigger immediate defensive action.",
+        "answer_line": "Grip loosens, leg lifts to step",
+        "distractors": {
+          "plausible": [
+            "Increased hip pressure only",
+            "They grab your far ankle"
+          ],
+          "trap": [
+            "Wait for them to grab your collar"
+          ]
+        }
       },
       {
         "question": "If the mount has already been partially completed with one leg over, what is your best remaining defensive option?",
-        "answer": "If one leg is already over but they haven't settled their weight, immediately begin your mount escape rather than trying to prevent the mount. Bridge toward the side where they stepped over to disrupt their settling, then hip escape to insert a knee before they establish grapevines or hooks. The transition from partial mount to settled mount is itself a window—act before they consolidate. Waiting for them to settle makes escape significantly harder."
+        "answer": "If one leg is already over but they haven't settled their weight, immediately begin your mount escape rather than trying to prevent the mount. Bridge toward the side where they stepped over to disrupt their settling, then hip escape to insert a knee before they establish grapevines or hooks. The transition from partial mount to settled mount is itself a window—act before they consolidate. Waiting for them to settle makes escape significantly harder.",
+        "answer_line": "Escape before they settle in",
+        "distractors": {
+          "plausible": [
+            "Bridge away from stepped leg",
+            "Frame on far hip immediately"
+          ],
+          "trap": [
+            "Wait for grapevines to lock in"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -370,6 +552,26 @@
         "phase": "Week 7+",
         "focus": "Live integration and decision-making",
         "description": "Incorporate defense into live positional sparring starting from leg drag control. Partner chooses between mount transition and back take, and you must read and respond to each appropriately. Develop automatic defensive reactions that fire on recognition cues without conscious decision-making."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fFqoFDE2yyw",
+        "title": "Guard retention against the leg drag",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uTuPvxQUOo4",
+        "title": "Quick mount escape",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 23,
+        "verified": "2026-07-15"
       }
     ]
   },

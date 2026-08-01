@@ -176,6 +176,54 @@ description: "Learn to attack with the heel hook from Carni. Step-by-step finish
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Carni (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Heel hook breaking mechanics",
+      "description": "Heel Hook from Carni (Attacker) film study: Heel hook breaking mechanics, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gu-n4P9JXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gu-n4P9JXo",
+      "url": "https://www.youtube.com/watch?v=6gu-n4P9JXo",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside heel hook tip",
+      "description": "Heel Hook from Carni (Attacker) film study: Inside heel hook tip, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_J_isfR1y9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_J_isfR1y9E",
+      "url": "https://www.youtube.com/watch?v=_J_isfR1y9E",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X guard to heel hook",
+      "description": "Heel Hook from Carni (Attacker) film study: X guard to heel hook, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
+      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the heel hook from Carni leverages the unique inside positioning 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Carni (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gu-n4P9JXo)
+
+<p class="clip-credit"><strong>Heel hook breaking mechanics</strong> — taught by Craig Jones · 1:17 · <a href="https://www.youtube.com/watch?v=6gu-n4P9JXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_J_isfR1y9E)
+
+<p class="clip-credit"><strong>Inside heel hook tip</strong> — taught by Brandon McCaghren · 1:00 · <a href="https://www.youtube.com/watch?v=_J_isfR1y9E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+
+<p class="clip-credit"><strong>X guard to heel hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

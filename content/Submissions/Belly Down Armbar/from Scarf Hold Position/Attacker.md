@@ -176,6 +176,54 @@ description: "Complete attacking guide for the belly down armbar finish from sca
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Scarf Hold Position (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "12 Kesa Gatame Attacks",
+      "description": "Belly Down Armbar from Scarf Hold Position (Attacker) film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing juji gatame on your side",
+      "description": "Belly Down Armbar from Scarf Hold Position (Attacker) film study: Finishing juji gatame on your side, taught by Steve Scott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8IFYNPkWS5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8IFYNPkWS5w",
+      "url": "https://www.youtube.com/watch?v=8IFYNPkWS5w",
+      "creator": { "@type": "Person", "name": "Steve Scott" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbars from cross body control",
+      "description": "Belly Down Armbar from Scarf Hold Position (Attacker) film study: Armbars from cross body control, taught by Igor Yakimov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BAo1jf-eVAw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BAo1jf-eVAw",
+      "url": "https://www.youtube.com/watch?v=BAo1jf-eVAw",
+      "creator": { "@type": "Person", "name": "Igor Yakimov" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the belly down armbar from scarf hold requires mastering the tran
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Scarf Hold Position (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8IFYNPkWS5w)
+
+<p class="clip-credit"><strong>Finishing juji gatame on your side</strong> — taught by Steve Scott · 2:18 · <a href="https://www.youtube.com/watch?v=8IFYNPkWS5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BAo1jf-eVAw)
+
+<p class="clip-credit"><strong>Armbars from cross body control</strong> — taught by Igor Yakimov · 1:54 · <a href="https://www.youtube.com/watch?v=BAo1jf-eVAw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

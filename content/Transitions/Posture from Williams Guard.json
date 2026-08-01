@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Williams Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Posture from Williams Guard is a critical defensive transition executed by the top player trapped inside Williams Guard, where the opponent controls your arm in a shoulder lock configuration while maintaining guard structure with active legs. The primary objective is to systematically recover upright posture, neutralize the shoulder lock threat, and transition to closed guard top—a more manageable position where standard guard passing sequences can begin without the constant danger of shoulder manipulation.\n\nUnlike standard closed guard posture recovery where the primary obstacles are grip strength and leg squeeze, Williams Guard adds a joint lock dimension that requires specific defensive mechanics. The top player must address the shoulder manipulation through circular arm extraction before any meaningful postural advancement can occur. Attempting to posture without first reducing shoulder lock pressure dramatically increases both injury risk and the likelihood of being swept, as the upward movement creates exploitable base instability.\n\nSuccess depends on recognizing that the shoulder lock and guard structure are mechanically interdependent—disrupting one element weakens the other. By systematically degrading the figure-four grip through controlled circular elbow movement and weight redistribution, the top player creates cascading failures in the bottom player's guard architecture. The posture recovery becomes possible once shoulder lock pressure is sufficiently reduced, allowing the practitioner to drive hips back and chest up into a structurally sound position from which proven guard passing methodologies apply.",
   "conditions": [
     "Opponent has established Williams Guard with shoulder lock grip configuration on your arm",
@@ -233,38 +245,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating posture recovery from Williams Guard?",
-        "answer": "The optimal timing window opens when you detect a momentary relaxation in the opponent's shoulder lock pressure—typically during their transition between offensive options or when they shift focus from shoulder lock maintenance to setting up a sweep or alternative submission. Initiating during their active shoulder lock tightening phase dramatically increases injury risk and sweep vulnerability. You can also create your own timing window through small movements that force the opponent to readjust their grip, exploiting the brief loosening during their re-establishment of control."
+        "answer": "The optimal timing window opens when you detect a momentary relaxation in the opponent's shoulder lock pressure—typically during their transition between offensive options or when they shift focus from shoulder lock maintenance to setting up a sweep or alternative submission. Initiating during their active shoulder lock tightening phase dramatically increases injury risk and sweep vulnerability. You can also create your own timing window through small movements that force the opponent to readjust their grip, exploiting the brief loosening during their re-establishment of control.",
+        "answer_line": "When their lock pressure eases",
+        "distractors": {
+          "plausible": [
+            "Once you've already been swept",
+            "The moment they grip your arm"
+          ],
+          "trap": [
+            "Turn away and stand up"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely begin the posture recovery sequence?",
-        "answer": "Three conditions must be present: first, your shoulder joint must be defended with elbow bent and close to your body rather than extended into submission danger. Second, your free arm must be positioned for structural support near your centerline with a wide knee base providing lateral stability. Third, you must have identified the specific figure-four grip configuration to determine the correct direction for circular extraction. Attempting posture recovery without all three conditions present creates unacceptable risk of injury or sweep."
+        "answer": "Three conditions must be present: first, your shoulder joint must be defended with elbow bent and close to your body rather than extended into submission danger. Second, your free arm must be positioned for structural support near your centerline with a wide knee base providing lateral stability. Third, you must have identified the specific figure-four grip configuration to determine the correct direction for circular extraction. Attempting posture recovery without all three conditions present creates unacceptable risk of injury or sweep.",
+        "answer_line": "Defend elbow, brace base, ID grip",
+        "distractors": {
+          "plausible": [
+            "Base first, worry about elbow later",
+            "Free arm reaches toward their hip"
+          ],
+          "trap": [
+            "Straighten elbow to ease tension"
+          ]
+        }
       },
       {
         "question": "Why must arm extraction use circular rather than linear movement, and what specific direction should the elbow rotate?",
-        "answer": "Linear pulling works directly against the figure-four grip's mechanical advantage, increasing pressure on the shoulder joint rather than reducing it. Circular movement changes the angle of force application, gradually disengaging the grip structure by working around its strength rather than against it. The elbow should rotate inward toward your own centerline, as this direction opposes the figure-four's rotational control and reduces the shoulder lock angle. The rotation must be small and controlled—large circles telegraph your intent and allow the opponent to adjust their grip."
+        "answer": "Linear pulling works directly against the figure-four grip's mechanical advantage, increasing pressure on the shoulder joint rather than reducing it. Circular movement changes the angle of force application, gradually disengaging the grip structure by working around its strength rather than against it. The elbow should rotate inward toward your own centerline, as this direction opposes the figure-four's rotational control and reduces the shoulder lock angle. The rotation must be small and controlled—large circles telegraph your intent and allow the opponent to adjust their grip.",
+        "answer_line": "Small circles, elbow toward center",
+        "distractors": {
+          "plausible": [
+            "Rotate elbow away from body",
+            "Large circles for more leverage"
+          ],
+          "trap": [
+            "Pull straight against the grip"
+          ]
+        }
       },
       {
         "question": "What are the most common failure points during posture recovery and how do you recognize them?",
-        "answer": "The three primary failure points are: rushing extraction and triggering increased shoulder lock pressure, which you recognize by sharp joint discomfort; making explosive weight shifts that create sweep-exploitable instability, recognized by feeling your base narrow or tilt; and pausing after achieving posture without transitioning to passing, recognized when you feel the opponent beginning to re-isolate your arm. Each failure point has a specific physical sensation that serves as an early warning signal—developing sensitivity to these signals through drilling is essential for reliable execution."
+        "answer": "The three primary failure points are: rushing extraction and triggering increased shoulder lock pressure, which you recognize by sharp joint discomfort; making explosive weight shifts that create sweep-exploitable instability, recognized by feeling your base narrow or tilt; and pausing after achieving posture without transitioning to passing, recognized when you feel the opponent beginning to re-isolate your arm. Each failure point has a specific physical sensation that serves as an early warning signal—developing sensitivity to these signals through drilling is essential for reliable execution.",
+        "answer_line": "Rushing, bad shifts, pausing after",
+        "distractors": {
+          "plausible": [
+            "Only worry about pain signals",
+            "Rush early to beat their grip"
+          ],
+          "trap": [
+            "Explode your weight shift for speed"
+          ]
+        }
       },
       {
         "question": "What grips should you establish with your free hand during posture recovery and which grips are dangerous?",
-        "answer": "Your free hand should prioritize positional support near your own centerline during extraction phases, then transition to head control or hip control once posture is partially recovered. Never post your free hand on the mat near the opponent's hip—this creates immediate vulnerability to triangle setup and provides a sweep fulcrum. Once posture is achieved, establish bilateral grip control on the opponent's biceps or hips to prevent Williams Guard re-establishment and begin closed guard passing work."
+        "answer": "Your free hand should prioritize positional support near your own centerline during extraction phases, then transition to head control or hip control once posture is partially recovered. Never post your free hand on the mat near the opponent's hip—this creates immediate vulnerability to triangle setup and provides a sweep fulcrum. Once posture is achieved, establish bilateral grip control on the opponent's biceps or hips to prevent Williams Guard re-establishment and begin closed guard passing work.",
+        "answer_line": "Centerline first, then head or hip",
+        "distractors": {
+          "plausible": [
+            "Grip biceps immediately",
+            "Post hand flat on the mat for base"
+          ],
+          "trap": [
+            "Post free hand near their hip"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force during each phase of the posture recovery?",
-        "answer": "Phase one uses rotational force—small circular elbow movement directed inward toward your centerline. Phase two uses posterior force—hips driving backward away from the opponent to create distance. Phase three uses upward force—chest and head driving toward the ceiling while maintaining backward hip position. Phase four uses downward force—hip pressure into the opponent's guard to break the Williams Guard structure. Each direction serves the specific mechanical objective of that phase and should not be applied prematurely."
+        "answer": "Phase one uses rotational force—small circular elbow movement directed inward toward your centerline. Phase two uses posterior force—hips driving backward away from the opponent to create distance. Phase three uses upward force—chest and head driving toward the ceiling while maintaining backward hip position. Phase four uses downward force—hip pressure into the opponent's guard to break the Williams Guard structure. Each direction serves the specific mechanical objective of that phase and should not be applied prematurely.",
+        "answer_line": "Rotate, then back, up, then down",
+        "distractors": {
+          "plausible": [
+            "Push forward the whole sequence",
+            "Up first, then rotate elbow"
+          ],
+          "trap": [
+            "Drive forward into their guard"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their hips for an omoplata as you create space during extraction—how do you respond?",
-        "answer": "Drive forward immediately to stack and prevent the hip rotation from completing. The omoplata requires a specific hip angle relative to your shoulder that forward stacking pressure collapses. This is one of the few moments where forward drive is appropriate during Williams Guard escape—the stack simultaneously addresses the omoplata threat and can accelerate your arm extraction as the compressed position changes the shoulder lock angle. Once the omoplata threat is neutralized, resume your systematic posture recovery from the improved position."
+        "answer": "Drive forward immediately to stack and prevent the hip rotation from completing. The omoplata requires a specific hip angle relative to your shoulder that forward stacking pressure collapses. This is one of the few moments where forward drive is appropriate during Williams Guard escape—the stack simultaneously addresses the omoplata threat and can accelerate your arm extraction as the compressed position changes the shoulder lock angle. Once the omoplata threat is neutralized, resume your systematic posture recovery from the improved position.",
+        "answer_line": "Stack forward to kill the angle",
+        "distractors": {
+          "plausible": [
+            "Pull hips back to create space",
+            "Post free arm to block the leg"
+          ],
+          "trap": [
+            "Keep extracting, ignore the setup"
+          ]
+        }
       },
       {
         "question": "After recovering posture and reaching closed guard top, what passing sequence should you initiate and why is immediate action critical?",
-        "answer": "Initiate your highest-percentage guard opening sequence immediately—typically standing guard break or systematic grip establishment leading to knee pressure break. Immediate action is critical because the opponent will begin working to re-isolate your arm and rebuild Williams Guard, and the window between posture recovery and guard re-establishment is narrow. Your recent escape also means the opponent's grips are disrupted and their guard structure is transitional, creating a temporary vulnerability that disappears within seconds if you allow them to resettle."
+        "answer": "Initiate your highest-percentage guard opening sequence immediately—typically standing guard break or systematic grip establishment leading to knee pressure break. Immediate action is critical because the opponent will begin working to re-isolate your arm and rebuild Williams Guard, and the window between posture recovery and guard re-establishment is narrow. Your recent escape also means the opponent's grips are disrupted and their guard structure is transitional, creating a temporary vulnerability that disappears within seconds if you allow them to resettle.",
+        "answer_line": "Pass immediately, window closes fast",
+        "distractors": {
+          "plausible": [
+            "Rest and reset grips first",
+            "Wait for opponent to settle"
+          ],
+          "trap": [
+            "Let them recover before passing"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Shoulder joint protection is paramount during posture recovery from Williams Guard. The figure-four shoulder lock creates genuine submission danger that can cause rotator cuff tears, labrum injuries, or shoulder dislocations if handled carelessly. Never yank your trapped arm aggressively—sudden jerking movements dramatically increase injury risk. If you feel sharp or escalating pain in your shoulder during extraction, immediately tap and reset rather than fighting through the lock. During training, communicate with your partner about pressure levels and establish clear tap protocols before beginning positional work. Avoid explosive movements that could compromise either practitioner's joint integrity. The shoulder lock in Williams Guard should be treated with the same respect as any other joint lock—controlled, patient escape is always safer than desperate resistance."
+    "safety_considerations": "Shoulder joint protection is paramount during posture recovery from Williams Guard. The figure-four shoulder lock creates genuine submission danger that can cause rotator cuff tears, labrum injuries, or shoulder dislocations if handled carelessly. Never yank your trapped arm aggressively—sudden jerking movements dramatically increase injury risk. If you feel sharp or escalating pain in your shoulder during extraction, immediately tap and reset rather than fighting through the lock. During training, communicate with your partner about pressure levels and establish clear tap protocols before beginning positional work. Avoid explosive movements that could compromise either practitioner's joint integrity. The shoulder lock in Williams Guard should be treated with the same respect as any other joint lock—controlled, patient escape is always safer than desperate resistance.",
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Countering Williams guard with a cartwheel escape",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "M__MeC_XCIM",
+        "title": "Williams Guard part 3 - armbar counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AvivOVuYcCk",
+        "title": "Simple (but risky) rubber guard escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 131,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Posture from Williams Guard Defender",
@@ -350,19 +471,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting systematic posture recovery rather than simply resisting the shoulder lock?",
-        "answer": "The earliest and most reliable cue is small circular elbow movements rather than static resistance or linear pulling. Linear pulling indicates untrained escape attempts, while circular movement signals a systematic extraction sequence that will progress through defined phases. Additional confirming cues include widening their knee base, repositioning their free arm toward centerline, and controlled breathing—all indicating a practiced approach that must be countered proactively before it gains momentum."
+        "answer": "The earliest and most reliable cue is small circular elbow movements rather than static resistance or linear pulling. Linear pulling indicates untrained escape attempts, while circular movement signals a systematic extraction sequence that will progress through defined phases. Additional confirming cues include widening their knee base, repositioning their free arm toward centerline, and controlled breathing—all indicating a practiced approach that must be countered proactively before it gains momentum.",
+        "answer_line": "Small circular elbow movement",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive linear pull",
+            "Heavy static resistance only"
+          ],
+          "trap": [
+            "Ignore it, they're just resisting"
+          ]
+        }
       },
       {
         "question": "Why is the opponent's backward weight shift the optimal moment for hip bump sweep, and how do you time it correctly?",
-        "answer": "During the backward weight shift, the opponent has deliberately reduced their forward base resistance and committed their center of gravity posteriorly. A hip bump sweep directed forward at this moment encounters minimal resistance because their weight is already moving in the opposite direction. Time the sweep by feeling for the pressure reduction on your hips—when their chest lifts away and hip pressure decreases, they have committed to the backward shift and your bridge will meet their weakest defensive angle."
+        "answer": "During the backward weight shift, the opponent has deliberately reduced their forward base resistance and committed their center of gravity posteriorly. A hip bump sweep directed forward at this moment encounters minimal resistance because their weight is already moving in the opposite direction. Time the sweep by feeling for the pressure reduction on your hips—when their chest lifts away and hip pressure decreases, they have committed to the backward shift and your bridge will meet their weakest defensive angle.",
+        "answer_line": "Bump forward as their chest lifts",
+        "distractors": {
+          "plausible": [
+            "Bump the instant lock tightens",
+            "Wait until they fully stand up"
+          ],
+          "trap": [
+            "Bridge into their forward pressure"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defensive strategy if the opponent achieves partial arm extraction but has not yet recovered posture?",
-        "answer": "Partial extraction without posture recovery represents a transitional moment where the opponent is between defensive phases. Immediately attempt to re-isolate the arm by swimming your grip back to figure-four position before they can complete extraction. If re-isolation fails, transition your strategy from Williams Guard maintenance to active closed guard attacks—pull them into broken posture using legs and collar control, establishing traditional closed guard offense where your sweep and submission chains remain viable even without the shoulder lock."
+        "answer": "Partial extraction without posture recovery represents a transitional moment where the opponent is between defensive phases. Immediately attempt to re-isolate the arm by swimming your grip back to figure-four position before they can complete extraction. If re-isolation fails, transition your strategy from Williams Guard maintenance to active closed guard attacks—pull them into broken posture using legs and collar control, establishing traditional closed guard offense where your sweep and submission chains remain viable even without the shoulder lock.",
+        "answer_line": "Re-isolate arm, else attack guard",
+        "distractors": {
+          "plausible": [
+            "Abandon guard, stand up to pass",
+            "Wait passively for full posture"
+          ],
+          "trap": [
+            "Release all grips to reset position"
+          ]
+        }
       },
       {
         "question": "What offensive transitions become available when your opponent attempts to posture from Williams Guard?",
-        "answer": "Multiple offensive transitions open during posture attempts. The space created during arm extraction enables omoplata entry by swinging your leg over the exposed shoulder. Their backward weight shift opens hip bump sweeps and flower sweeps. If they post their free arm for base, triangle and kimura entries become available. If they stand, the angle change may enable back take entries or leg entanglements. Each phase of their escape corresponds to specific offensive windows—the skilled defender converts escape attempts into attacking opportunities."
+        "answer": "Multiple offensive transitions open during posture attempts. The space created during arm extraction enables omoplata entry by swinging your leg over the exposed shoulder. Their backward weight shift opens hip bump sweeps and flower sweeps. If they post their free arm for base, triangle and kimura entries become available. If they stand, the angle change may enable back take entries or leg entanglements. Each phase of their escape corresponds to specific offensive windows—the skilled defender converts escape attempts into attacking opportunities.",
+        "answer_line": "Omoplata, sweep, triangle, back take",
+        "distractors": {
+          "plausible": [
+            "Only defend, no counters exist",
+            "Attack solely with kimura grip"
+          ],
+          "trap": [
+            "Release guard and reset to neutral"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -385,6 +546,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed application with unrestricted opponent",
         "description": "Start in Williams Guard Bottom with shoulder lock established. Partner uses any escape method at full intensity. Work to maintain Williams Guard, counter escape attempts, and score sweeps or submissions. Three-minute rounds with position resets. Track retention rate and offensive conversion rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Williams guard cartwheel escape counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "M__MeC_XCIM",
+        "title": "Williams guard armbar counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 66,
+        "verified": "2026-07-15"
       }
     ]
   }

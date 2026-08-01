@@ -34,6 +34,43 @@ description: "Master the rear triangle choke finish from rear triangle position.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke from Rear Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Triangle Choke",
+      "description": "Rear Triangle Choke from Rear Triangle film study: Back Triangle Choke, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w8vzr24_n0s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w8vzr24_n0s",
+      "url": "https://www.youtube.com/watch?v=w8vzr24_n0s",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Triangle Choke",
+      "description": "Rear Triangle Choke from Rear Triangle film study: Back Triangle Choke, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMJHL8SXlA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMJHL8SXlA",
+      "url": "https://www.youtube.com/watch?v=-lMJHL8SXlA",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 **Starting Position**: [[Positions/Triangle Control/Rear Triangle]] · **From**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke from Rear Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w8vzr24_n0s)
+
+<p class="clip-credit"><strong>Back Triangle Choke</strong> — taught by Dr. Deng · 0:30 · <a href="https://www.youtube.com/watch?v=w8vzr24_n0s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMJHL8SXlA)
+
+<p class="clip-credit"><strong>Back Triangle Choke</strong> — taught by Dr. Deng · 0:23 · <a href="https://www.youtube.com/watch?v=-lMJHL8SXlA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -229,7 +294,7 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 ## Related
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Bow and Arrow Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Triangle Control/Rear Triangle]] - Primary starting position for this submission finish
 - [[Positions/Back Control]] - Parent position from which rear triangle is entered

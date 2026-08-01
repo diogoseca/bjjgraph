@@ -156,6 +156,54 @@ description: "Defend against the gogoplata to armbar chain attack. Learn recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata to Armbar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar escape when they are close to finishing",
+      "description": "Gogoplata to Armbar (Defender) film study: Armbar escape when they are close to finishing, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Gogoplata Defense",
+      "description": "Gogoplata to Armbar (Defender) film study: The Gogoplata Defense, taught by RedBeltJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ROgt8e30a3s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ROgt8e30a3s",
+      "url": "https://www.youtube.com/watch?v=ROgt8e30a3s",
+      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Why Rubber Guard Doesn\u0027t Work (Counters)",
+      "description": "Gogoplata to Armbar (Defender) film study: Why Rubber Guard Doesn\u0027t Work (Counters), taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT792S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ Defending the gogoplata to armbar transition requires awareness of the chain att
 **Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata to Armbar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Armbar escape when they are close to finishing</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ROgt8e30a3s)
+
+<p class="clip-credit"><strong>The Gogoplata Defense</strong> — taught by RedBeltJiuJitsu · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Why Rubber Guard Doesn&#39;t Work (Counters)</strong> — taught by Brandon McCaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

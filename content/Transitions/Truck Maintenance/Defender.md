@@ -148,6 +148,54 @@ description: "Learn to escape and survive the Truck position in BJJ. Systematic 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck Maintenance (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Truck defense with knee-elbow escape",
+      "description": "Truck Maintenance (Defender) film study: Truck defense with knee-elbow escape, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y-asW9hrB3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y-asW9hrB3o",
+      "url": "https://www.youtube.com/watch?v=Y-asW9hrB3o",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Truck escape",
+      "description": "Truck Maintenance (Defender) film study: Truck escape, taught by Elevate MMA Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TSUbl6HmLiw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TSUbl6HmLiw",
+      "url": "https://www.youtube.com/watch?v=TSUbl6HmLiw",
+      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
+      "duration": "PT182S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reversing the Truck",
+      "description": "Truck Maintenance (Defender) film study: Reversing the Truck, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dWAZQ2VQcjw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dWAZQ2VQcjw",
+      "url": "https://www.youtube.com/watch?v=dWAZQ2VQcjw",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT229S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against truck maintenance requires a systematic approach to dismantlin
 **Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck Maintenance (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y-asW9hrB3o)
+
+<p class="clip-credit"><strong>Truck defense with knee-elbow escape</strong> — taught by Matrix Jiu Jitsu · 2:09 · <a href="https://www.youtube.com/watch?v=Y-asW9hrB3o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TSUbl6HmLiw)
+
+<p class="clip-credit"><strong>Truck escape</strong> — taught by Elevate MMA Academy · 3:02 · <a href="https://www.youtube.com/watch?v=TSUbl6HmLiw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dWAZQ2VQcjw)
+
+<p class="clip-credit"><strong>Reversing the Truck</strong> — taught by Coach Brian · 3:49 · <a href="https://www.youtube.com/watch?v=dWAZQ2VQcjw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

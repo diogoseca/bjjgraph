@@ -174,6 +174,54 @@ description: "Execute the Guard Pass from Leg Entanglement as the top player. St
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Leg Entanglement (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg pommeling to pass the leg entanglement",
+      "description": "Guard Pass from Leg Entanglement (Attacker) film study: Leg pommeling to pass the leg entanglement, taught by Michael Wong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kQrTYXOO1To/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kQrTYXOO1To",
+      "url": "https://www.youtube.com/watch?v=kQrTYXOO1To",
+      "creator": { "@type": "Person", "name": "Michael Wong" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roll through escape from leg entanglement",
+      "description": "Guard Pass from Leg Entanglement (Attacker) film study: Roll through escape from leg entanglement, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing single leg X guard",
+      "description": "Guard Pass from Leg Entanglement (Attacker) film study: Passing single leg X guard, taught by Profectus Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UpNhZl5nkcM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UpNhZl5nkcM",
+      "url": "https://www.youtube.com/watch?v=UpNhZl5nkcM",
+      "creator": { "@type": "Person", "name": "Profectus Jiu-Jitsu" },
+      "duration": "PT187S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Guard Pass from Leg Entanglement, your objective i
 **From Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Leg Entanglement (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kQrTYXOO1To)
+
+<p class="clip-credit"><strong>Leg pommeling to pass the leg entanglement</strong> — taught by Michael Wong · 0:22 · <a href="https://www.youtube.com/watch?v=kQrTYXOO1To" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Roll through escape from leg entanglement</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UpNhZl5nkcM)
+
+<p class="clip-credit"><strong>Passing single leg X guard</strong> — taught by Profectus Jiu-Jitsu · 3:07 · <a href="https://www.youtube.com/watch?v=UpNhZl5nkcM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

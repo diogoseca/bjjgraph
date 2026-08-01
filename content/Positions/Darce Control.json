@@ -232,69 +232,195 @@
     "transitions": [
       {
         "transition": "Darce Choke from Darce Control",
-        "attempt_probability": 53
+        "attempt_probability": {
+          "gi": 34,
+          "nogi": 34
+        }
       },
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Switch to Anaconda Configuration",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Darce Control Maintenance",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Darce to Anaconda Switch",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Darce Choke",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What adjustment should you make when your opponent starts turning their shoulders toward you while you have Darce control?",
-        "answer": "When the opponent begins turning their shoulders toward you, immediately sprawl your hips back and increase shoulder pressure into the side of their head to prevent the turn from completing. If they continue turning, transition to mount by stepping your leg over their body or take the back if they fully commit to the turn. Never allow them to establish inside position by getting their chest to face yours, as this compromises the arm-in choke structure."
+        "answer": "When the opponent begins turning their shoulders toward you, immediately sprawl your hips back and increase shoulder pressure into the side of their head to prevent the turn from completing. If they continue turning, transition to mount by stepping your leg over their body or take the back if they fully commit to the turn. Never allow them to establish inside position by getting their chest to face yours, as this compromises the arm-in choke structure.",
+        "answer_line": "Sprawl hips, drive shoulder pressure",
+        "distractors": {
+          "plausible": [
+            "Let chest turn, then take back",
+            "Step over to mount immediately"
+          ],
+          "trap": [
+            "Release grip to re-adjust angle"
+          ]
+        }
       },
       {
         "question": "What are the essential grip configurations for maintaining Darce control position?",
-        "answer": "The primary grip is a figure-four lock where your choking arm threads under opponent's armpit, around their neck, and your hand grabs your own bicep while your free hand controls opponent's shoulder or head. Alternative grips include gable grip (palm-to-palm) for maximum squeezing power and S-grip for faster transitions. The key is keeping elbows pinched tight to eliminate any gaps that would allow arm extraction."
+        "answer": "The primary grip is a figure-four lock where your choking arm threads under opponent's armpit, around their neck, and your hand grabs your own bicep while your free hand controls opponent's shoulder or head. Alternative grips include gable grip (palm-to-palm) for maximum squeezing power and S-grip for faster transitions. The key is keeping elbows pinched tight to eliminate any gaps that would allow arm extraction.",
+        "answer_line": "Figure-four, elbows pinched tight",
+        "distractors": {
+          "plausible": [
+            "Gable grip for max squeeze power",
+            "S-grip for faster transitions"
+          ],
+          "trap": [
+            "Loose grip to conserve energy"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin and brings their elbows tight to their body - what is your best response?",
-        "answer": "When the opponent establishes a strong defensive shell with chin tucked and elbows tight, you have two high-percentage options: transition to mount by driving your hips around and stepping over, using their defensive posture against them since they cannot frame effectively; or advance to north-south to establish new attacking angles. Trying to force the choke against a committed chin tuck wastes energy and time - positional advancement creates new opportunities."
+        "answer": "When the opponent establishes a strong defensive shell with chin tucked and elbows tight, you have two high-percentage options: transition to mount by driving your hips around and stepping over, using their defensive posture against them since they cannot frame effectively; or advance to north-south to establish new attacking angles. Trying to force the choke against a committed chin tuck wastes energy and time - positional advancement creates new opportunities.",
+        "answer_line": "Advance position, don't force it",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder to break the tuck",
+            "Wait for them to relax grip"
+          ],
+          "trap": [
+            "Extend arm to reset the choke"
+          ]
+        }
       },
       {
         "question": "How should your weight be distributed to maintain Darce control position effectively?",
-        "answer": "Weight should be distributed primarily through your shoulder and chest driving into the side of opponent's head and trapped shoulder, creating a wedge effect. Your hips stay mobile and positioned perpendicular to opponent's spine rather than directly on top of them. Approximately 70% of your weight should be on the choking side through shoulder pressure, with 30% distributed through your base leg and posting arm for mobility and adjustment capability."
+        "answer": "Weight should be distributed primarily through your shoulder and chest driving into the side of opponent's head and trapped shoulder, creating a wedge effect. Your hips stay mobile and positioned perpendicular to opponent's spine rather than directly on top of them. Approximately 70% of your weight should be on the choking side through shoulder pressure, with 30% distributed through your base leg and posting arm for mobility and adjustment capability.",
+        "answer_line": "70% shoulder pressure, hips mobile",
+        "distractors": {
+          "plausible": [
+            "Weight centered, hips squared down",
+            "All weight through choking arm"
+          ],
+          "trap": [
+            "Sit back, weight on hips"
+          ]
+        }
       },
       {
         "question": "What is the primary escape your opponent will attempt and how do you shut it down?",
-        "answer": "The primary escape is arm extraction where the opponent works to pull their trapped arm free from the choke configuration. Shut this down by maintaining constant inward pressure with your choking arm's bicep against their neck, keeping your elbow past their spine with your hand reaching toward their far hip. If they begin extracting, immediately drive your shoulder deeper and increase chest pressure to eliminate the space they need to complete the extraction."
+        "answer": "The primary escape is arm extraction where the opponent works to pull their trapped arm free from the choke configuration. Shut this down by maintaining constant inward pressure with your choking arm's bicep against their neck, keeping your elbow past their spine with your hand reaching toward their far hip. If they begin extracting, immediately drive your shoulder deeper and increase chest pressure to eliminate the space they need to complete the extraction.",
+        "answer_line": "Inward elbow pressure past spine",
+        "distractors": {
+          "plausible": [
+            "Squeeze the neck harder to stop it",
+            "Track their hand with your grip"
+          ],
+          "trap": [
+            "Loosen grip to feel for movement"
+          ]
+        }
       },
       {
         "question": "How do you apply shoulder pressure correctly from Darce control top?",
-        "answer": "Correct shoulder pressure comes from driving your shoulder blade into the side of opponent's head and neck while keeping your head down next to theirs. The pressure vector should be perpendicular to their spine, pushing their head toward the mat. Use your entire upper body weight by keeping arms tight rather than extended. The shoulder acts as a wedge that prevents posture recovery and simultaneously tightens the choking mechanism through compression."
+        "answer": "Correct shoulder pressure comes from driving your shoulder blade into the side of opponent's head and neck while keeping your head down next to theirs. The pressure vector should be perpendicular to their spine, pushing their head toward the mat. Use your entire upper body weight by keeping arms tight rather than extended. The shoulder acts as a wedge that prevents posture recovery and simultaneously tightens the choking mechanism through compression.",
+        "answer_line": "Shoulder blade drives head down",
+        "distractors": {
+          "plausible": [
+            "Push straight down on the skull",
+            "Drive chest weight, arms extended"
+          ],
+          "trap": [
+            "Extend arms for more leverage"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges to create space - what adjustment should you make?",
-        "answer": "When opponent bridges, maintain your chest connection and seatbelt-style grip configuration while riding the bridge by keeping your hips mobile and base wide. Do not post your hands out as this releases pressure. As they return from the bridge, immediately re-apply heavy shoulder pressure and advance your grip deeper if any space was created. Use their landing moment to tighten your position since they momentarily lose defensive tension."
+        "answer": "When opponent bridges, maintain your chest connection and seatbelt-style grip configuration while riding the bridge by keeping your hips mobile and base wide. Do not post your hands out as this releases pressure. As they return from the bridge, immediately re-apply heavy shoulder pressure and advance your grip deeper if any space was created. Use their landing moment to tighten your position since they momentarily lose defensive tension.",
+        "answer_line": "Ride bridge, keep chest connected",
+        "distractors": {
+          "plausible": [
+            "Sit up to block the bridge",
+            "Squeeze harder during the bridge"
+          ],
+          "trap": [
+            "Post hands out to stop it"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining Darce control for extended periods?",
-        "answer": "Energy management requires using body weight and positioning rather than muscular squeezing. Establish your shoulder and chest pressure through structural alignment, keeping your core engaged but arms relatively relaxed in the grip. Breathe steadily through your nose. Make micro-adjustments rather than constant movement. When opponent stops escaping, reduce active squeezing while maintaining positional pressure - only increase grip tension when they attempt movement or when finishing the submission."
+        "answer": "Energy management requires using body weight and positioning rather than muscular squeezing. Establish your shoulder and chest pressure through structural alignment, keeping your core engaged but arms relatively relaxed in the grip. Breathe steadily through your nose. Make micro-adjustments rather than constant movement. When opponent stops escaping, reduce active squeezing while maintaining positional pressure - only increase grip tension when they attempt movement or when finishing the submission.",
+        "answer_line": "Body weight, not muscle, breathe",
+        "distractors": {
+          "plausible": [
+            "Squeeze constantly to hold on",
+            "Move often to stay dominant"
+          ],
+          "trap": [
+            "Relax fully when they stop moving"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "pnLk6jW0qeI",
+        "title": "3 darce choke finishes",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 15,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "BMU1_wfjYTw",
+        "title": "Darce choke from the front headlock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 101,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8Idnp8DpSHU",
+        "title": "Finishing the darce on big guys",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 151,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -498,70 +624,346 @@
     "transitions": [
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 27
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 20
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       },
       {
         "transition": "Back Door Escape",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 13
+        }
       },
       {
         "transition": "Counter Roll to Top",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 7
+        }
       },
       {
         "transition": "Step Over Escape",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 12
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
       },
       {
         "transition": "Frame Escape from Darce",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 15
+        }
       }
     ],
     "flashcards": [
       {
         "question": "Your opponent starts driving their shoulder deeper into your neck - what immediate adjustment do you make?",
-        "answer": "When opponent increases shoulder pressure, immediately turn your body toward them rather than away. Tuck your chin tighter to your chest to block deeper penetration of the choke. Use your free hand to frame on their hip or shoulder to prevent them from fully flattening you. The counter-intuitive movement toward the choke reduces the angle needed for carotid compression and creates space for arm extraction."
+        "answer": "When opponent increases shoulder pressure, immediately turn your body toward them rather than away. Tuck your chin tighter to your chest to block deeper penetration of the choke. Use your free hand to frame on their hip or shoulder to prevent them from fully flattening you. The counter-intuitive movement toward the choke reduces the angle needed for carotid compression and creates space for arm extraction.",
+        "answer_line": "Turn toward pressure, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Push their head away with palm",
+            "Brace and wait for space"
+          ],
+          "trap": [
+            "Turn away to create distance"
+          ]
+        }
       },
       {
         "question": "What are the essential defensive frames for surviving Darce control bottom?",
-        "answer": "The primary frame is your free hand (the arm not trapped in the choke) placed against opponent's hip, shoulder, or head to prevent them from advancing or flattening you. Secondary frames include keeping your chin tucked tight as a structural defense against the choke, and maintaining some base on your knees or hip rather than being completely flat. These frames create the time and space needed to execute escape sequences."
+        "answer": "The primary frame is your free hand (the arm not trapped in the choke) placed against opponent's hip, shoulder, or head to prevent them from advancing or flattening you. Secondary frames include keeping your chin tucked tight as a structural defense against the choke, and maintaining some base on your knees or hip rather than being completely flat. These frames create the time and space needed to execute escape sequences.",
+        "answer_line": "Frame hand, tuck chin, keep base",
+        "distractors": {
+          "plausible": [
+            "Grip their sleeve to pull away",
+            "Use both hands to peel the arm"
+          ],
+          "trap": [
+            "Go flat to conserve energy"
+          ]
+        }
       },
       {
         "question": "Your opponent begins walking their hips around to finish the choke - how do you respond?",
-        "answer": "When opponent starts walking their hips around to improve their finishing angle, you must move with them to maintain the defensive angle. Turn your body in the same direction they're moving, keeping your chin tucked and trying to get your chest facing theirs. As they walk around, look for opportunities to extract your trapped arm through the space created by their movement. If they fully commit to the hip walk, consider a granby roll in the direction of their movement to create an escape scramble."
+        "answer": "When opponent starts walking their hips around to improve their finishing angle, you must move with them to maintain the defensive angle. Turn your body in the same direction they're moving, keeping your chin tucked and trying to get your chest facing theirs. As they walk around, look for opportunities to extract your trapped arm through the space created by their movement. If they fully commit to the hip walk, consider a granby roll in the direction of their movement to create an escape scramble.",
+        "answer_line": "Turn with hips, seek extraction",
+        "distractors": {
+          "plausible": [
+            "Stay still and wait it out",
+            "Frame on their far hip only"
+          ],
+          "trap": [
+            "Turn away from the hip walk"
+          ]
+        }
       },
       {
         "question": "How should you manage your breathing when caught in Darce control bottom?",
-        "answer": "Breathe slowly and deliberately through your nose to conserve oxygen and maintain composure. Avoid mouth breathing which accelerates panic response. Take controlled breaths during moments when pressure lessens slightly. Never hold your breath as this depletes oxygen faster and increases panic. The calm breathing pattern helps you think clearly and execute systematic escape sequences rather than explosive, energy-wasting movements that often make the choke tighter."
+        "answer": "Breathe slowly and deliberately through your nose to conserve oxygen and maintain composure. Avoid mouth breathing which accelerates panic response. Take controlled breaths during moments when pressure lessens slightly. Never hold your breath as this depletes oxygen faster and increases panic. The calm breathing pattern helps you think clearly and execute systematic escape sequences rather than explosive, energy-wasting movements that often make the choke tighter.",
+        "answer_line": "Breathe slow through nose, stay calm",
+        "distractors": {
+          "plausible": [
+            "Take short quick breaths",
+            "Breathe deep through the mouth"
+          ],
+          "trap": [
+            "Hold breath to brace for escape"
+          ]
+        }
       },
       {
         "question": "What is the primary escape you should attempt and what makes it effective?",
-        "answer": "Arm extraction is the primary escape because it eliminates the arm-in choke structure that makes the Darce effective. Use your free hand to grip your trapped arm's wrist or forearm and pull it toward your body while simultaneously turning into your opponent. The extraction works because the Darce requires your arm trapped against your neck to create the compression - once the arm is free, the choke mechanics fail and you can recover to turtle or guard positions."
+        "answer": "Arm extraction is the primary escape because it eliminates the arm-in choke structure that makes the Darce effective. Use your free hand to grip your trapped arm's wrist or forearm and pull it toward your body while simultaneously turning into your opponent. The extraction works because the Darce requires your arm trapped against your neck to create the compression - once the arm is free, the choke mechanics fail and you can recover to turtle or guard positions.",
+        "answer_line": "Extract trapped arm, turn in",
+        "distractors": {
+          "plausible": [
+            "Pull opponent's grip apart",
+            "Push off with both hands"
+          ],
+          "trap": [
+            "Pull trapped arm outward, away"
+          ]
+        }
       },
       {
         "question": "How do you apply outward pressure correctly as the defender to prevent the choke from tightening?",
-        "answer": "Apply outward pressure with your trapped shoulder by rotating it away from your neck, creating space between your neck and opponent's choking arm. Push into opponent's body with your free hand frame to prevent them from settling their weight and closing the space. Drive your hips away from opponent while keeping your shoulders turned into them. This combination of outward shoulder rotation and frame pressure prevents the compression needed to finish the choke."
+        "answer": "Apply outward pressure with your trapped shoulder by rotating it away from your neck, creating space between your neck and opponent's choking arm. Push into opponent's body with your free hand frame to prevent them from settling their weight and closing the space. Drive your hips away from opponent while keeping your shoulders turned into them. This combination of outward shoulder rotation and frame pressure prevents the compression needed to finish the choke.",
+        "answer_line": "Rotate shoulder out, frame in",
+        "distractors": {
+          "plausible": [
+            "Pull head down to create room",
+            "Push both hands against neck"
+          ],
+          "trap": [
+            "Drive hips into opponent"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts to flatten you completely - what adjustment should you make?",
-        "answer": "When opponent tries to flatten you, immediately post your free hand on the mat or against their hip to create a base that prevents going fully flat. Hip escape away while maintaining your chin tuck, working to get on your side rather than your back. If partially flattened, immediately work to get your knees under you or create a butterfly hook with your bottom leg. Being flat eliminates your ability to create frames and makes the choke finish much easier for your opponent."
+        "answer": "When opponent tries to flatten you, immediately post your free hand on the mat or against their hip to create a base that prevents going fully flat. Hip escape away while maintaining your chin tuck, working to get on your side rather than your back. If partially flattened, immediately work to get your knees under you or create a butterfly hook with your bottom leg. Being flat eliminates your ability to create frames and makes the choke finish much easier for your opponent.",
+        "answer_line": "Post hand, hip escape to side",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively to reverse",
+            "Pull knees to chest and cover"
+          ],
+          "trap": [
+            "Stay flat and cover your neck"
+          ]
+        }
       },
       {
         "question": "How do you recognize early that a Darce attempt is coming and what preventive action should you take?",
-        "answer": "Early recognition signs include opponent threading their arm under your armpit while controlling your head, reaching across the back of your neck toward your far shoulder, and walking their hips to your side from front headlock or turtle positions. Preventive action requires immediately tucking your chin, bringing your elbows tight to your body to prevent the arm from threading through, and either standing up explosively or sitting back to guard before the grip is locked. Once the figure-four grip is secured, escape becomes significantly harder."
+        "answer": "Early recognition signs include opponent threading their arm under your armpit while controlling your head, reaching across the back of your neck toward your far shoulder, and walking their hips to your side from front headlock or turtle positions. Preventive action requires immediately tucking your chin, bringing your elbows tight to your body to prevent the arm from threading through, and either standing up explosively or sitting back to guard before the grip is locked. Once the figure-four grip is secured, escape becomes significantly harder.",
+        "answer_line": "Tuck chin, tight elbows, stand up",
+        "distractors": {
+          "plausible": [
+            "Grab their wrist to stop the thread",
+            "Turtle up immediately"
+          ],
+          "trap": [
+            "Post hands wide for base"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce choke defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rgf9QUebMWE",
+        "title": "Darce killer: the defense you need",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 78,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What arm configuration defines the Darce Control position?",
+      "answer": "Darce Control is defined by an arm-in front-headlock structure where one player threads their choking arm under the opponent's near armpit and drives it across the back of the neck toward the far shoulder, then catches their own bicep with the opposite hand to complete a figure-four. The opponent's near arm is trapped between their own body and the choking forearm, so that arm becomes part of the strangle rather than a defensive tool. The locked loop compresses both carotid arteries by squeezing the trapped shoulder and the choking forearm toward each other. This arm-in figure-four is the single feature that makes the configuration a Darce rather than a bare front headlock.",
+      "answer_line": "Arm-in figure-four, own bicep grip",
+      "distractors": {
+        "plausible": [
+          "Both hands clasped, no arm trap",
+          "Overhook trapping both arms"
+        ],
+        "trap": [
+          "Free arm, hands gable gripped"
+        ]
+      }
+    },
+    {
+      "question": "Why is the trapped near arm considered a load-bearing structural element of Darce Control rather than incidental?",
+      "answer": "The trapped near arm supplies half of the constricting surface that closes the choke, acting as the wedge on one side of the neck while the choking forearm presses from the other. Without the arm threaded inside the loop, the figure-four has nothing to compress against and the strangle mechanism collapses into a loose headlock. This is why the position is called an arm-in choke: freeing that arm is simultaneously the whole defensive game and the event that defines loss of the position. Both players organize their effort around whether the near arm stays trapped or gets extracted.",
+      "answer_line": "Arm forms half the choke's wedge",
+      "distractors": {
+        "plausible": [
+          "Arm only limits their posture",
+          "Arm mainly controls their hips"
+        ],
+        "trap": [
+          "Arm is incidental, easy to ignore"
+        ]
+      }
+    },
+    {
+      "question": "What are the primary control points that hold the Darce Control configuration together?",
+      "answer": "The three control points are the figure-four grip locked on the far side of the neck, the chest-and-shoulder pressure wedging into the side of the opponent's head and trapped shoulder, and the pinning of the near arm inside the loop. The figure-four supplies the compressive frame, the shoulder pressure prevents posture recovery and drives the head down, and the trapped arm completes the closed circuit around the neck. Weakening any one of these points degrades the whole structure, which is why the top player fights to keep all three intact and the bottom player attacks whichever is loosest. The points reinforce each other, so pressure applied at one tends to tighten the others.",
+      "answer_line": "Grip, shoulder pressure, pinned arm",
+      "distractors": {
+        "plausible": [
+          "Head control and hip pressure",
+          "Leg pressure and neck crank"
+        ],
+        "trap": [
+          "Squeeze grip only, ignore shoulder"
+        ]
+      }
+    },
+    {
+      "question": "How is weight and pressure distributed across the Darce Control configuration?",
+      "answer": "The dominant vector runs through the top player's shoulder and chest driving into the side of the opponent's head and trapped shoulder, creating a forward-and-down wedge roughly perpendicular to the spine. The hips stay mobile and offset to the side rather than square on top, which preserves the choking angle while allowing the player to follow rotation. The compressed player's head and shoulders are forced below their hips, eliminating the posture needed to defend or stand. This asymmetric loading, heavy through the upper body and light through a mobile base, is what lets the configuration both strangle and steer the exchange.",
+      "answer_line": "Shoulder wedge, hips mobile offset",
+      "distractors": {
+        "plausible": [
+          "Full body weight square on top",
+          "Weight on hips, shoulders light"
+        ],
+        "trap": [
+          "Square hips directly on top"
+        ]
+      }
+    },
+    {
+      "question": "How does the Darce Control configuration differ from Anaconda Control, its sister front-headlock position?",
+      "answer": "Both are arm-in front-headlock chokes that thread under the near armpit, but they differ in hand path and finishing geometry. In the Darce, the choking arm reaches deep across the back of the neck and the player catches their own far bicep, tending to finish flattened out to the side. In the Anaconda, the arm wraps under and the hands clasp to constrict as the top player rolls the opponent through onto their trapped shoulder. Practically they occupy the same entries and often flow into one another when the opponent's arm position shifts, which is why they are treated as adjacent configurations rather than unrelated positions.",
+      "answer_line": "Catch far bicep, finish flat",
+      "distractors": {
+        "plausible": [
+          "Clasp hands, roll to shoulder",
+          "Gable grip, no bicep catch"
+        ],
+        "trap": [
+          "Thread over neck, skip armpit"
+        ]
+      }
+    },
+    {
+      "question": "What separates Darce Control from a standard front headlock or a guillotine, given all three arise from the same head-and-arm entries?",
+      "answer": "A plain front headlock controls the head and often an arm but has no strangling loop locked around the neck, so it is a control platform rather than an active submission structure. A guillotine is an arm-in-front or arm-out chin-strap choke that attacks from the front of the neck, typically with the opponent between the legs or pressed to the chest. Darce Control is distinguished by threading the choking arm from under the near armpit across the back of the neck and locking a figure-four on the far side, attacking the sides of the neck rather than the front. The under-the-armpit entry and far-side figure-four are the defining departure from both adjacent positions.",
+      "answer_line": "Arm under armpit, far-side figure-4",
+      "distractors": {
+        "plausible": [
+          "Chin strap on front of neck",
+          "Figure-four locked near side"
+        ],
+        "trap": [
+          "Clamp head only, arm left free"
+        ]
+      }
+    },
+    {
+      "question": "Why does moving into the choke, toward the trapped arm, tend to relieve pressure while pulling away tends to tighten it?",
+      "answer": "Pulling away straightens the neck and lengthens the trapped arm, which enlarges the loop and gives the choking forearm a longer lever and cleaner line into the carotids. Turning into the trapped-arm side shortens that loop, misaligns the compressive vector, and opens a seam through which the near arm can begin to extract. This is why the shared dynamic of the position runs counter to instinct: the direction that feels like escape actually feeds the strangle. Both players understand this, so the exchange often becomes a contest over rotation toward or away from the trapped arm.",
+      "answer_line": "Turning in shortens the loop",
+      "distractors": {
+        "plausible": [
+          "Pulling away shortens the arm",
+          "Turning in tightens the neck"
+        ],
+        "trap": [
+          "Pull away to loosen the grip"
+        ]
+      }
+    },
+    {
+      "question": "What makes Darce Control function as a dilemma-based hub rather than a single-outcome position?",
+      "answer": "Every defensive reaction available to the compressed player tends to open a different attacking line for the controlling player, creating layered dilemmas. Relieving neck pressure usually exposes the back or invites a positional advance to mount or north-south, while attempts to improve position or stand typically tighten the figure-four and feed the choke. Because the same control structure threatens a strangle and simultaneously governs the opponent's posture and rotation, it links directly to back takes, the anaconda switch, and positional passes. This branching of forced choices, rather than one path to a finish, is what makes the configuration a hub position for both players' decision-making.",
+      "answer_line": "Each defense opens a new attack",
+      "distractors": {
+        "plausible": [
+          "It forces one path to the finish",
+          "It only threatens the choke itself"
+        ],
+        "trap": [
+          "Stand up to escape the control"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "jeHPHHtBbAo",
+      "title": "Darce choke details",
+      "by": "Chad Lyman",
+      "vertical": false,
+      "channel": "Code 4 Concepts Chad Lyman",
+      "duration": 53,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "22EYQ2uhxQw",
+      "title": "Side control to north-south darce",
+      "by": "Gracie Westchase",
+      "vertical": false,
+      "channel": "Gracie Westchase ",
+      "duration": 75,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Pc2yhqtRxJA",
+      "title": "How to do a darce from front headlock",
+      "by": "LI MMA",
+      "vertical": false,
+      "channel": "LI MMA",
+      "duration": 150,
+      "verified": "2026-07-14"
+    }
+  ]
 }

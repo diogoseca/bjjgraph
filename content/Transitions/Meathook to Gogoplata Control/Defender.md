@@ -148,6 +148,43 @@ description: "How to defend against Meathook to Gogoplata Control in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook to Gogoplata Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the Rubber Guard: Why It Fails",
+      "description": "Meathook to Gogoplata Control (Defender) film study: Countering the Rubber Guard: Why It Fails, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT792S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why Your Rubber Guard Never Works - Passing It",
+      "description": "Meathook to Gogoplata Control (Defender) film study: Why Your Rubber Guard Never Works - Passing It, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5jKZpFnxYbE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5jKZpFnxYbE",
+      "url": "https://www.youtube.com/watch?v=5jKZpFnxYbE",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT307S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Defensive success depends primarily on posture management and pressure direction
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook to Gogoplata Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Countering the Rubber Guard: Why It Fails</strong> — taught by Brandon McCaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5jKZpFnxYbE)
+
+<p class="clip-credit"><strong>Why Your Rubber Guard Never Works - Passing It</strong> — taught by Brandon McCaghren · 5:07 · <a href="https://www.youtube.com/watch?v=5jKZpFnxYbE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

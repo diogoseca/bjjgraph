@@ -17,7 +17,10 @@
   "target_area": "Neck",
   "starting_position": "Rear Triangle",
   "from_position": "Rear Triangle/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The rear triangle choke from the rear triangle position is one of the highest-percentage finishes available from back control. Once the triangle configuration is locked—with one leg threaded under the opponent's armpit and across the back of the neck while the other leg secures the figure-four—the attacker controls both the head and one trapped arm. The choking mechanism compresses the carotid arteries bilaterally: the shin blade presses one side while the opponent's own trapped shoulder drives into the other. This dual compression creates a blood choke that can produce unconsciousness in four to six seconds once fully engaged.\n\nWhat distinguishes the rear triangle finish from other back attacks is that the legs perform the primary choking work, leaving both hands free for secondary control and adjustment. The attacker can use their hands to break defensive grips, control the free arm, or adjust hip angle to optimize squeeze mechanics. The finish requires precise hip positioning—angling toward the trapped arm side to maximize the cutting angle across the neck. Combined with knee compression and controlled hip extension, this creates a submission that is mechanically efficient and extremely difficult to defend once the triangle is properly locked.\n\nStrategically, this finish sits at the apex of a submission chain from rear triangle position. Opponents who defend the choke expose the trapped arm to armbars; those who address the arm expose the neck to tighter compression. This dilemma-based attack structure makes the rear triangle choke a high-percentage competition finish that rewards patience and systematic tightening over explosive force.",
   "safety_considerations": {
     "injury_risks": [
@@ -94,17 +97,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -260,52 +272,172 @@
       {
         "question": "What anatomical structures does the rear triangle choke attack and how does the triangle configuration create bilateral compression?",
         "answer": "The rear triangle choke targets both carotid arteries simultaneously. The shin blade of the choking leg compresses one carotid artery against the side of the neck, while the opponent's own trapped shoulder is driven into the opposite carotid by the knee squeeze. This bilateral compression restricts blood flow to the brain, causing unconsciousness in four to six seconds when fully engaged. The triangle's figure-four structure creates a self-tightening mechanism where the squeeze is amplified by the geometric lock of ankle behind knee.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids, shin plus shoulder",
+        "distractors": {
+          "plausible": [
+            "Air choke on the windpipe",
+            "Only one side gets pressure"
+          ],
+          "trap": [
+            "Wrench the neck like a crank"
+          ]
+        }
       },
       {
         "question": "What are the indicators that the choke has reached the breaking point and the opponent is approaching unconsciousness?",
         "answer": "Key indicators include the opponent's defensive movements becoming slower or less coordinated, grip strength weakening noticeably on your legs, facial color changing to deep red or purple, eyes becoming glassy or unfocused, body stiffening followed by sudden relaxation, unusual vocalizations or gurgling sounds, and cessation of all voluntary movement. Any of these signals requires immediate attention. If the opponent stops moving entirely, release the choke instantly—they may already be unconscious.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slowed defense, glassy eyes",
+        "distractors": {
+          "plausible": [
+            "Louder, faster struggling",
+            "Grip suddenly tightens up"
+          ],
+          "trap": [
+            "Keep squeezing after they fade"
+          ]
+        }
       },
       {
         "question": "Why must you squeeze the knees together before extending the hips, and what happens if you reverse this sequence?",
         "answer": "Squeezing knees first eliminates dead space within the triangle structure, creating a sealed compression chamber around the neck and trapped arm. If you extend hips first without knee compression, the gaps in the triangle allow the opponent to relieve pressure, potentially extract their arm, or shift their neck to a position where the carotids are no longer compressed. The correct sequence—compress then extend—ensures the choke tightens progressively without creating defensive windows.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees first kills the dead space",
+        "distractors": {
+          "plausible": [
+            "Extend hips, then squeeze knees",
+            "Hip extension seals the choke"
+          ],
+          "trap": [
+            "Loosen knees to adjust the neck"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pulling their trapped arm free during your finishing attempt—what is your immediate adjustment?",
         "answer": "Immediately squeeze your knees together more tightly to collapse the space around the arm. Use your free hand to control their wrist and push the arm back into the triangle. Simultaneously angle your hips more aggressively toward the trapped arm side, which pins the arm between your inner thigh and their neck. If they continue the extraction attempt, consider switching to an armbar on the now-extended arm—their extraction effort actually sets up the armbar transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze knees, control the wrist",
+        "distractors": {
+          "plausible": [
+            "Let arm go, finish choke anyway",
+            "Switch to armbar immediately"
+          ],
+          "trap": [
+            "Release legs to grab the arm"
+          ]
+        }
       },
       {
         "question": "How should you release the rear triangle choke when your training partner taps, and what is the protocol if they lose consciousness?",
         "answer": "Release immediately upon any tap signal by opening your knees and removing your legs from the triangle configuration—do not simply reduce pressure, fully disengage the lock. If the opponent goes limp without tapping, release instantly, lay them flat on their back, elevate their legs slightly, and alert the instructor. Do not shake them or attempt to wake them forcefully. If they do not regain consciousness within ten to fifteen seconds, call for emergency medical assistance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Open knees fully, disengage now",
+        "distractors": {
+          "plausible": [
+            "Ease pressure but stay locked",
+            "Loosen slowly over a few seconds"
+          ],
+          "trap": [
+            "Shake them awake if limp"
+          ]
+        }
       },
       {
         "question": "What hip angle optimizes the rear triangle choke finish and why is this angle biomechanically important?",
         "answer": "Angle your hips approximately 45 degrees toward the trapped arm side. This orientation aligns the shin blade to cross the neck where it compresses the carotid artery most effectively against the underlying cervical structures. Without this angle, the shin tends to slide across the back of the neck without creating sufficient lateral compression on the arteries, resulting in general pressure rather than a targeted blood choke. The 45-degree angle also optimizes the trapped shoulder's compression against the opposite carotid.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "45° toward the trapped arm",
+        "distractors": {
+          "plausible": [
+            "Square hips at 90°",
+            "Twist toward the free side"
+          ],
+          "trap": [
+            "Flatten out, let them turn in"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make with your hands during the finishing sequence as the opponent's defense evolves?",
         "answer": "Initially, use both hands to strip any grips the opponent has on your choking leg or locking ankle. As you begin the squeeze, transition one hand to wrist control on the free arm to prevent new defensive grips. During hip extension, release wrist control and use one hand to cup the back of the opponent's head, pushing it forward to enhance posture breaking. If the opponent's defense stalls, use both hands to control the free arm and eliminate their last remaining tool for grip defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grips, then wrist, then head",
+        "distractors": {
+          "plausible": [
+            "Grab collar throughout finish",
+            "Control head first, wrist last"
+          ],
+          "trap": [
+            "Release all grips, squeeze only"
+          ]
+        }
       },
       {
         "question": "In competition with the clock running down, what strategies accelerate the finish without compromising safety?",
         "answer": "Increase the rate of progressive tightening by shortening the pause between adjustment cycles. Focus on posture breaking as the primary accelerator—driving the opponent's chin to their chest dramatically increases choke effectiveness. Use one hand to pull down on the top of their head while squeezing. Consider transitioning briefly to armbar threat to force them to open their defense, then immediately return to the choke when their arm moves. Stay patient despite time pressure—an explosive squeeze rarely finishes a well-defended opponent and wastes energy you cannot recover.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Break posture, chin to chest",
+        "distractors": {
+          "plausible": [
+            "Stall to run out the clock",
+            "Stand up and disengage"
+          ],
+          "trap": [
+            "Rip an all-out explosive squeeze"
+          ]
+        }
       },
       {
         "question": "At what point during the rear triangle choke sequence does the position become functionally inescapable for the defender?",
         "answer": "The position becomes functionally inescapable once three conditions converge simultaneously: the knees are fully compressed eliminating all space in the triangle, the hips are angled at 45 degrees toward the trapped arm creating the cutting line across both carotids, and the defender's posture is broken forward with chin driven to chest. At this convergence point, the self-tightening geometry of the figure-four means any defensive movement by the opponent actually increases compression rather than relieving it. Before this convergence, arm extraction remains viable; after it, even successful arm extraction may not relieve pressure fast enough.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees sealed, 45°, posture broken",
+        "distractors": {
+          "plausible": [
+            "The instant the ankle locks",
+            "As soon as you take the back"
+          ],
+          "trap": [
+            "Quit defending once it locks"
+          ]
+        }
       },
       {
         "question": "What three control checkpoints must be verified before committing to the finishing squeeze from the rear triangle?",
         "answer": "First, verify figure-four lock integrity by confirming the ankle is seated deep in the knee crook and the shin crosses behind the neck rather than the front of the throat. Second, confirm chest-to-back connection is maintained with your torso pressed against the opponent's back, preventing them from rotating or creating distance during the squeeze. Third, establish control over the opponent's free arm through wrist grip, overhook, or positional pinning to prevent last-moment defensive grips that could disrupt the finish. Committing to the squeeze without all three checkpoints secured significantly reduces finishing probability and creates escape windows.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lock, chest connection, arm control",
+        "distractors": {
+          "plausible": [
+            "Just lock the figure-four",
+            "Chest connection is optional"
+          ],
+          "trap": [
+            "Squeeze immediately, skip checks"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "w8vzr24_n0s",
+        "title": "Back Triangle Choke",
+        "by": "Dr. Deng",
+        "vertical": false,
+        "channel": "Dr. Deng",
+        "duration": 30,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-lMJHL8SXlA",
+        "title": "Back Triangle Choke",
+        "by": "Dr. Deng",
+        "vertical": false,
+        "channel": "Dr. Deng",
+        "duration": 23,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -400,37 +532,107 @@
       {
         "question": "How do you recognize the rear triangle choke is being set up from back control before it is fully locked?",
         "answer": "The primary recognition cue is feeling a leg thread under your armpit from behind with the shin moving across the back of your neck. You will also feel increasing pressure on one side of your neck as the opponent works to lock the figure-four. The moment you feel a leg moving under your armpit, immediately clamp your elbow tight to your ribs to prevent the arm from being trapped. Early recognition—before the ankle locks behind the knee—is the most effective defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feel leg thread, clamp elbow",
+        "distractors": {
+          "plausible": [
+            "Wait until ankle locks fully",
+            "Ignore leg, defend hands only"
+          ],
+          "trap": [
+            "Relax and let leg thread through"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the rear triangle choke to prevent injury during training?",
         "answer": "Tap early and clearly using multiple signals simultaneously. Tap with your free hand on the attacker's body, leg, or the mat with rapid repeated strikes that are unmistakable. Simultaneously verbalize 'tap' loudly. If your free hand is controlled, tap with your feet on the mat. Do not wait until you feel lightheaded or your vision narrows—these are signs that unconsciousness is seconds away. Tapping early preserves your health and allows you to drill the escape afterward.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap fast, tap loud, tap early",
+        "distractors": {
+          "plausible": [
+            "Tap once, wait and see",
+            "Wait for lightheadedness to tap"
+          ],
+          "trap": [
+            "Grit through the dizziness"
+          ]
+        }
       },
       {
         "question": "Why is trapped arm extraction the highest priority when defending the rear triangle choke?",
         "answer": "The trapped arm is the mechanical key to the choke. Without the arm inside the triangle, the opponent's legs cannot create bilateral carotid compression—there is too much space between the legs and the neck. The trapped shoulder functions as a wedge that presses one carotid artery while the shin compresses the other. Removing the arm eliminates this wedge, immediately reducing the choke from life-threatening to merely uncomfortable positional control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm is the wedge for the choke",
+        "distractors": {
+          "plausible": [
+            "Arm just blocks striking",
+            "Legs alone create the choke"
+          ],
+          "trap": [
+            "Ignore arm, defend neck only"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the rear triangle choke at different stages of the attack?",
         "answer": "Before the lock: clamp the elbow to prevent arm entrapment and fight the threading leg. During the lock: grip the locking ankle and attempt to peel it from the knee crook while keeping the chin tucked. After the lock but before the squeeze: prioritize arm extraction by pulling the elbow to the ribs and threading the forearm across the centerline. During the squeeze: wedge the free hand between the knees to create space and attempt an emergency roll to disrupt the angle. At every stage, chin protection and controlled breathing extend the survival window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clamp elbow, peel ankle, extract",
+        "distractors": {
+          "plausible": [
+            "Only defend once fully locked",
+            "Tap out at first leg contact"
+          ],
+          "trap": [
+            "Relax and go limp to survive"
+          ]
+        }
       },
       {
         "question": "How do you manage breathing and oxygen conservation when caught in a tightening rear triangle choke?",
         "answer": "Breathe exclusively through the nose using controlled diaphragmatic patterns rather than gasping through the mouth. Avoid holding your breath, which accelerates panic and oxygen depletion. Minimize unnecessary muscular exertion by using technical escape movements rather than explosive strength. Accept that your airway is partially compromised and focus on efficient, deliberate defensive actions. Mental calm directly reduces oxygen demand. If you feel lightheadedness or visual changes, tap immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Nose breathe, stay calm, no panic",
+        "distractors": {
+          "plausible": [
+            "Hold breath to protect airway",
+            "Gasp through mouth for air"
+          ],
+          "trap": [
+            "Fight explosively to escape fast"
+          ]
+        }
       },
       {
         "question": "What immediate body positioning adjustments should you make upon recognizing the rear triangle is being locked to maximize your survival window?",
         "answer": "Immediately tuck your chin tightly to your chest and turn your face toward the non-choking leg side to protect the carotid arteries from full compression. Simultaneously clamp your soon-to-be-trapped elbow tight against your ribs to prevent the arm from being fully isolated inside the triangle. Drop your weight and sink your hips low to resist the attacker's posture-breaking efforts. These three adjustments performed within the first two seconds of recognition can extend your defensive window from mere seconds to thirty seconds or more, providing critical time for systematic escape execution.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tuck, clamp elbow, sink hips",
+        "distractors": {
+          "plausible": [
+            "Turn face into the choking leg",
+            "Posture up tall immediately"
+          ],
+          "trap": [
+            "Relax posture, save energy"
+          ]
+        }
       },
       {
         "question": "If your initial arm extraction attempt fails and the attacker retightens the triangle, what is your secondary escape strategy?",
         "answer": "Shift focus to breaking the figure-four structure itself by using your free hand to grip the attacker's locking ankle and peel it away from the knee crook. If the ankle grip is too tight, wedge your free hand between the attacker's knees to create space and relieve compression while buying time for a second extraction attempt. As a last resort, commit fully to a roll toward the non-choking leg side during the attacker's next hip extension, using the momentary space between their chest and your back as the escape window. If none of these options succeed and you feel lightheadedness or visual changes, tap immediately without hesitation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Peel the ankle, wedge, then roll",
+        "distractors": {
+          "plausible": [
+            "Yank the same arm free again",
+            "Bench-press the leg off you"
+          ],
+          "trap": [
+            "Stop moving, wait to tap out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -453,6 +655,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance escape attempts under competitive conditions",
         "description": "Positional rounds starting from locked rear triangle with full resistance. Defender earns points for arm extraction and escape; attacker earns points for submission or maintained control. Builds the ability to execute escapes under fatigue and adrenaline."
+      }
+    ],
+    "clips": [
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "L1KeviYu1FQ",
+        "title": "Back Escape + RNC Defence",
+        "by": "Arete BJJ Malta",
+        "vertical": false,
+        "channel": "Arete Brazilian Jiu Jitsu Malta",
+        "duration": 25,
+        "verified": "2026-07-14"
       }
     ]
   }

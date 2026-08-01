@@ -176,6 +176,54 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Backside 50-50 (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backside 50/50 inside heel hook finish",
+      "description": "Heel Hook from Backside 50-50 (Attacker) film study: Backside 50/50 inside heel hook finish, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sIYeSMSkqeE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sIYeSMSkqeE",
+      "url": "https://www.youtube.com/watch?v=sIYeSMSkqeE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 heel hook finishing details",
+      "description": "Heel Hook from Backside 50-50 (Attacker) film study: 50/50 heel hook finishing details, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB3FYb-Jx_0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB3FYb-Jx_0",
+      "url": "https://www.youtube.com/watch?v=fB3FYb-Jx_0",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "True 50/50 heel hook",
+      "description": "Heel Hook from Backside 50-50 (Attacker) film study: True 50/50 heel hook, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U1vlUbJN3sc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U1vlUbJN3sc",
+      "url": "https://www.youtube.com/watch?v=U1vlUbJN3sc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT34S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Backside 50-50 (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sIYeSMSkqeE)
+
+<p class="clip-credit"><strong>Backside 50/50 inside heel hook finish</strong> — taught by Craig Jones · 0:18 · <a href="https://www.youtube.com/watch?v=sIYeSMSkqeE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB3FYb-Jx_0)
+
+<p class="clip-credit"><strong>50/50 heel hook finishing details</strong> — taught by Thunderdome BJJ · 0:27 · <a href="https://www.youtube.com/watch?v=fB3FYb-Jx_0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U1vlUbJN3sc)
+
+<p class="clip-credit"><strong>True 50/50 heel hook</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=U1vlUbJN3sc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

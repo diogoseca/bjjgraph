@@ -180,6 +180,54 @@ description: "Complete guide to executing the Cartwheel Escape from Omoplata in 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cartwheel Escape from Omoplata (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata escape by jumping over the leg",
+      "description": "Cartwheel Escape from Omoplata (Attacker) film study: Omoplata escape by jumping over the leg, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_2dhd21ffbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_2dhd21ffbc",
+      "url": "https://www.youtube.com/watch?v=_2dhd21ffbc",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT8S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cartwheel over the head to escape the omoplata",
+      "description": "Cartwheel Escape from Omoplata (Attacker) film study: Cartwheel over the head to escape the omoplata, taught by David Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i1SFYSZvMJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i1SFYSZvMJU",
+      "url": "https://www.youtube.com/watch?v=i1SFYSZvMJU",
+      "creator": { "@type": "Person", "name": "David Thomas" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quick omoplata escape",
+      "description": "Cartwheel Escape from Omoplata (Attacker) film study: Quick omoplata escape, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HszTUEYJ-xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HszTUEYJ-xE",
+      "url": "https://www.youtube.com/watch?v=HszTUEYJ-xE",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT36S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Cartwheel Escape, your objective is to exploit the
 **From Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cartwheel Escape from Omoplata (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_2dhd21ffbc)
+
+<p class="clip-credit"><strong>Omoplata escape by jumping over the leg</strong> — taught by Ritchie Yip · 0:08 · <a href="https://www.youtube.com/watch?v=_2dhd21ffbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i1SFYSZvMJU)
+
+<p class="clip-credit"><strong>Cartwheel over the head to escape the omoplata</strong> — taught by David Thomas · 0:30 · <a href="https://www.youtube.com/watch?v=i1SFYSZvMJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HszTUEYJ-xE)
+
+<p class="clip-credit"><strong>Quick omoplata escape</strong> — taught by Adam Bradley · 0:36 · <a href="https://www.youtube.com/watch?v=HszTUEYJ-xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

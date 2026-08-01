@@ -148,6 +148,54 @@ description: "How to defend against Sitting Guard Pull in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sitting Guard Pull (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to counter the sit-up guard",
+      "description": "Sitting Guard Pull (Defender) film study: How to counter the sit-up guard, taught by Avant-Garde BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G1PKGe_q9P0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G1PKGe_q9P0",
+      "url": "https://www.youtube.com/watch?v=G1PKGe_q9P0",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ coach" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Intercepting the guard pull",
+      "description": "Sitting Guard Pull (Defender) film study: Intercepting the guard pull, taught by Riccardo Ammendolia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oaOB2XovGYE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oaOB2XovGYE",
+      "url": "https://www.youtube.com/watch?v=oaOB2XovGYE",
+      "creator": { "@type": "Person", "name": "Riccardo Ammendolia" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Four ways to counter the guard pull",
+      "description": "Sitting Guard Pull (Defender) film study: Four ways to counter the guard pull, taught by For\u00e7a Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YPg7dUaYsBI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YPg7dUaYsBI",
+      "url": "https://www.youtube.com/watch?v=YPg7dUaYsBI",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts coach" },
+      "duration": "PT225S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against the Sitting Guard Pull requires recognizing the technique earl
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sitting Guard Pull (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G1PKGe_q9P0)
+
+<p class="clip-credit"><strong>How to counter the sit-up guard</strong> — taught by Avant-Garde BJJ coach · 0:58 · <a href="https://www.youtube.com/watch?v=G1PKGe_q9P0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oaOB2XovGYE)
+
+<p class="clip-credit"><strong>Intercepting the guard pull</strong> — taught by Riccardo Ammendolia · 0:49 · <a href="https://www.youtube.com/watch?v=oaOB2XovGYE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YPg7dUaYsBI)
+
+<p class="clip-credit"><strong>Four ways to counter the guard pull</strong> — taught by Força Martial Arts coach · 3:45 · <a href="https://www.youtube.com/watch?v=YPg7dUaYsBI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

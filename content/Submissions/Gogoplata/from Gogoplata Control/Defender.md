@@ -150,6 +150,43 @@ description: "How to defend against Gogoplata in BJJ. Recognition, escape paths,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata from Gogoplata Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gogoplata Defense: escaping the shin choke",
+      "description": "Gogoplata from Gogoplata Control (Defender) film study: Gogoplata Defense: escaping the shin choke, taught by RedBeltJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ROgt8e30a3s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ROgt8e30a3s",
+      "url": "https://www.youtube.com/watch?v=ROgt8e30a3s",
+      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Using posture to escape guard attacks",
+      "description": "Gogoplata from Gogoplata Control (Defender) film study: Using posture to escape guard attacks, taught by Ante Dzolic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MvZ3fKl6rtk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MvZ3fKl6rtk",
+      "url": "https://www.youtube.com/watch?v=MvZ3fKl6rtk",
+      "creator": { "@type": "Person", "name": "Ante Dzolic" },
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ The most effective gogoplata defense operates on a timeline: early recognition w
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata from Gogoplata Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ROgt8e30a3s)
+
+<p class="clip-credit"><strong>Gogoplata Defense: escaping the shin choke</strong> — taught by RedBeltJiuJitsu · 0:42 · <a href="https://www.youtube.com/watch?v=ROgt8e30a3s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MvZ3fKl6rtk)
+
+<p class="clip-credit"><strong>Using posture to escape guard attacks</strong> — taught by Ante Dzolic · 2:50 · <a href="https://www.youtube.com/watch?v=MvZ3fKl6rtk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Learn the Crucifix from Turtle transition in BJJ. Step-by-step gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle rollover into the crucifix",
+      "description": "Crucifix from Turtle film study: Turtle rollover into the crucifix, taught by South Island BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dtyrCY42OQg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dtyrCY42OQg",
+      "url": "https://www.youtube.com/watch?v=dtyrCY42OQg",
+      "creator": { "@type": "Person", "name": "South Island BJJ" },
+      "duration": "PT52S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Taking the crucifix from turtle",
+      "description": "Crucifix from Turtle film study: Taking the crucifix from turtle, taught by Serge Self Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JTw40IV1QlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JTw40IV1QlU",
+      "url": "https://www.youtube.com/watch?v=JTw40IV1QlU",
+      "creator": { "@type": "Person", "name": "Serge Self Defense" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle to crucifix armbar setup",
+      "description": "Crucifix from Turtle film study: Turtle to crucifix armbar setup, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6NupGdJyV3o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6NupGdJyV3o",
+      "url": "https://www.youtube.com/watch?v=6NupGdJyV3o",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT26S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ From a strategic standpoint, the crucifix from turtle punishes opponents who rel
 The transition demands precise sequencing: arm control must precede the leg thread, chest pressure must remain constant throughout, and the final perpendicular angle must be established before any submission attempts. Rushing any phase collapses the attack chain and allows recovery. When executed correctly, the resulting crucifix position offers rear naked chokes, armbars, and wrist locks while being extraordinarily difficult to escape.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 37%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dtyrCY42OQg)
+
+<p class="clip-credit"><strong>Turtle rollover into the crucifix</strong> — taught by South Island BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=dtyrCY42OQg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JTw40IV1QlU)
+
+<p class="clip-credit"><strong>Taking the crucifix from turtle</strong> — taught by Serge Self Defense · 0:25 · <a href="https://www.youtube.com/watch?v=JTw40IV1QlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6NupGdJyV3o)
+
+<p class="clip-credit"><strong>Turtle to crucifix armbar setup</strong> — taught by Mat Life Training Center · 0:26 · <a href="https://www.youtube.com/watch?v=6NupGdJyV3o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

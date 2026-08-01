@@ -34,6 +34,43 @@ description: "Master the Old School to Half Guard transition in BJJ. Recover fro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Old school entry from half guard",
+      "description": "Old School to Half Guard film study: Old school entry from half guard, taught by Coach SUL.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WGa86Z8B44Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WGa86Z8B44Q",
+      "url": "https://www.youtube.com/watch?v=WGa86Z8B44Q",
+      "creator": { "@type": "Person", "name": "Coach SUL" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Old school sweep from half guard",
+      "description": "Old School to Half Guard film study: Old school sweep from half guard, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Successful execution demands reading the positional dynamics accurately. When th
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WGa86Z8B44Q)
+
+<p class="clip-credit"><strong>Old school entry from half guard</strong> — taught by Coach SUL · 0:20 · <a href="https://www.youtube.com/watch?v=WGa86Z8B44Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school sweep from half guard</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -247,7 +312,7 @@ The Old School to Half Guard transition serves as a critical reset mechanism wit
 
 - [[Transitions/Old School Sweep]] - Primary attack that may have been defended, prompting this reset
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Follow-up offensive option available from recovered half guard
+- [[Transitions/Deep Half Entry]] - Follow-up offensive option available from recovered half guard
 
 - [[Transitions/Half Guard to X-Guard]] - Alternative follow-up transition available from standard half guard
 

@@ -174,6 +174,54 @@ description: "How to execute Seat Belt Control Back in BJJ. Attacking perspectiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt Control Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the seatbelt position",
+      "description": "Seat Belt Control Back (Attacker) film study: Holding the seatbelt position, taught by Kyuzo Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y_GjhMb6Qf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y_GjhMb6Qf8",
+      "url": "https://www.youtube.com/watch?v=y_GjhMb6Qf8",
+      "creator": { "@type": "Person", "name": "Kyuzo Brazilian Jiu Jitsu" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse seat belt mount trap back take",
+      "description": "Seat Belt Control Back (Attacker) film study: Reverse seat belt mount trap back take, taught by David Avellan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a_4vNWWM7gU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a_4vNWWM7gU",
+      "url": "https://www.youtube.com/watch?v=a_4vNWWM7gU",
+      "creator": { "@type": "Person", "name": "David Avellan" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard pass to seat belt to the back",
+      "description": "Seat Belt Control Back (Attacker) film study: Guard pass to seat belt to the back, taught by Anker Fugslang.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pV10eiTh1qQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pV10eiTh1qQ",
+      "url": "https://www.youtube.com/watch?v=pV10eiTh1qQ",
+      "creator": { "@type": "Person", "name": "Anker Fugslang" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The seat belt grip configuration (one arm over the shoulder, one under the armpi
 **From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt Control Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y_GjhMb6Qf8)
+
+<p class="clip-credit"><strong>Holding the seatbelt position</strong> — taught by Kyuzo Brazilian Jiu Jitsu · 0:26 · <a href="https://www.youtube.com/watch?v=y_GjhMb6Qf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a_4vNWWM7gU)
+
+<p class="clip-credit"><strong>Reverse seat belt mount trap back take</strong> — taught by David Avellan · 1:32 · <a href="https://www.youtube.com/watch?v=a_4vNWWM7gU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pV10eiTh1qQ)
+
+<p class="clip-credit"><strong>Guard pass to seat belt to the back</strong> — taught by Anker Fugslang · 2:16 · <a href="https://www.youtube.com/watch?v=pV10eiTh1qQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

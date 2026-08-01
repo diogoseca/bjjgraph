@@ -148,6 +148,54 @@ description: "How to defend against X-Guard Sweep in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X-Guard Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense",
+      "description": "X-Guard Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to pass X guard",
+      "description": "X-Guard Sweep (Defender) film study: How to pass X guard, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C1lYVhDXwvw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C1lYVhDXwvw",
+      "url": "https://www.youtube.com/watch?v=C1lYVhDXwvw",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Four ways to shut down X guard",
+      "description": "X-Guard Sweep (Defender) film study: Four ways to shut down X guard, taught by Big Oss.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7X2lmPZ4EdI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7X2lmPZ4EdI",
+      "url": "https://www.youtube.com/watch?v=7X2lmPZ4EdI",
+      "creator": { "@type": "Person", "name": "Big Oss" },
+      "duration": "PT731S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive hierarchy follows three priorities: first, prevent the sweeper fro
 **Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X-Guard Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C1lYVhDXwvw)
+
+<p class="clip-credit"><strong>How to pass X guard</strong> — taught by Kaynan Duarte · 1:56 · <a href="https://www.youtube.com/watch?v=C1lYVhDXwvw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7X2lmPZ4EdI)
+
+<p class="clip-credit"><strong>Four ways to shut down X guard</strong> — taught by Big Oss · 12:11 · <a href="https://www.youtube.com/watch?v=7X2lmPZ4EdI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

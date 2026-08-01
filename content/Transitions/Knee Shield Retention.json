@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Knee Shield Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "Knee Shield Retention is the active half guard defense where the bottom player uses their top-leg shin as a dynamic frame against the opponent's torso, preserving distance to block pressure passing while opening sweeps and back takes.",
   "overview": "Sitting at the heart of every modern half guard system, knee shield retention is what keeps the bottom player off their back and in the fight. The system turns the top leg into a dynamic barrier that creates distance, manages angles, and prevents the opponent from consolidating chest-to-chest pressure. The shield functions as a structural frame that lets the bottom player control distance while keeping both offensive and defensive options live.\n\nUnlike passive defensive positions, knee shield retention is an active management system that requires constant adjustment of angles, frames, and connection points based on the opponent's pressure and passing tactics. The effectiveness of knee shield retention lies in understanding it as a dynamic system rather than a static position - the shield must constantly adapt to maintain optimal distance and angle control.\n\nThis technique serves as the foundation for modern half guard systems, providing a platform for sweeps, back takes, and submissions while simultaneously defending against the most common passing sequences. The bottom player who masters knee shield retention transforms half guard from a survival position into a launching point for offensive chains.",
   "conditions": [
@@ -252,46 +264,175 @@
     "flashcards": [
       {
         "question": "Why is staying on your side crucial for knee shield retention rather than allowing yourself to flatten to your back?",
-        "answer": "Staying on your side maintains hip mobility and allows you to adjust angles and create distance through hip escapes. When flattened to your back, you lose this mobility and your shield becomes a static barrier that can be easily collapsed. Being on your side also allows you to see your opponent clearly and react to their movements, while being flat limits your vision and defensive options."
+        "answer": "Staying on your side maintains hip mobility and allows you to adjust angles and create distance through hip escapes. When flattened to your back, you lose this mobility and your shield becomes a static barrier that can be easily collapsed. Being on your side also allows you to see your opponent clearly and react to their movements, while being flat limits your vision and defensive options.",
+        "answer_line": "Side keeps hip mobility & vision",
+        "distractors": {
+          "plausible": [
+            "Flat back is a more stable base",
+            "Side only helps you see them"
+          ],
+          "trap": [
+            "Flatten out to build a stronger base"
+          ]
+        }
       },
       {
         "question": "What is the relationship between your knee shield and your bottom leg control, and why must both work together?",
-        "answer": "The knee shield controls opponent's upper body and creates distance, while the bottom leg prevents them from extracting their trapped leg. These must work in coordination because if you only focus on the shield, opponent can simply step their leg out and pass around. If you only focus on bottom leg control without the shield, opponent can drive chest-to-chest pressure and flatten you. They form a complete system where upper body distance management and lower body positional control work together."
+        "answer": "The knee shield controls opponent's upper body and creates distance, while the bottom leg prevents them from extracting their trapped leg. These must work in coordination because if you only focus on the shield, opponent can simply step their leg out and pass around. If you only focus on bottom leg control without the shield, opponent can drive chest-to-chest pressure and flatten you. They form a complete system where upper body distance management and lower body positional control work together.",
+        "answer_line": "Shield distance + leg blocks exit",
+        "distractors": {
+          "plausible": [
+            "Shield alone stops the pass",
+            "Bottom leg alone stops pressure"
+          ],
+          "trap": [
+            "Grab a collar and drop the leg"
+          ]
+        }
       },
       {
         "question": "How should you adjust your knee shield angle when opponent attempts to drive straight versus when they circle around the shield?",
-        "answer": "Against straight pressure, angle your shield across their chest perpendicular to their body, creating maximum barrier. When they circle around the shield, you must rotate your hips and redirect your knee to intercept their new angle of attack, essentially following their movement like a radar dish. If they circle to your head side, push your knee more toward their far shoulder. If they circle to your leg side, bring your knee more across their chest and prepare to transition to butterfly or deep half."
+        "answer": "Against straight pressure, angle your shield across their chest perpendicular to their body, creating maximum barrier. When they circle around the shield, you must rotate your hips and redirect your knee to intercept their new angle of attack, essentially following their movement like a radar dish. If they circle to your head side, push your knee more toward their far shoulder. If they circle to your leg side, bring your knee more across their chest and prepare to transition to butterfly or deep half.",
+        "answer_line": "Rotate hips, track their angle",
+        "distractors": {
+          "plausible": [
+            "Keep shield still, let them move",
+            "Push knee straight regardless"
+          ],
+          "trap": [
+            "Drop the shield to reset angle"
+          ]
+        }
       },
       {
         "question": "Why is grip control on opponent's arms considered equally important to the physical shield structure itself?",
-        "answer": "The knee shield creates distance in your lower body, but without arm control, opponent can establish crossface or underhook which gives them the leverage to collapse your shield structure. Controlling their sleeve or wrist prevents them from establishing these dominant grips. The complete retention system is shield plus arm control - the shield manages distance while arm control prevents them from getting the grips they need to break through that distance."
+        "answer": "The knee shield creates distance in your lower body, but without arm control, opponent can establish crossface or underhook which gives them the leverage to collapse your shield structure. Controlling their sleeve or wrist prevents them from establishing these dominant grips. The complete retention system is shield plus arm control - the shield manages distance while arm control prevents them from getting the grips they need to break through that distance.",
+        "answer_line": "Control grips or shield collapses",
+        "distractors": {
+          "plausible": [
+            "Shield alone stops crossface",
+            "Grips only matter late in pass"
+          ],
+          "trap": [
+            "Let go of grips to move faster"
+          ]
+        }
       },
       {
         "question": "When should you abandon knee shield retention and transition to a different guard retention strategy?",
-        "answer": "Transition when opponent has successfully established crossface with heavy pressure, when they have secured deep underhook with chest-to-chest control, or when your shield has been collapsed and you're being flattened. Fighting to maintain a compromised shield wastes energy. Better to recognize when retention has failed early enough to transition smoothly to lockdown, deep half, or other retention structure rather than waiting until you're completely flat."
+        "answer": "Transition when opponent has successfully established crossface with heavy pressure, when they have secured deep underhook with chest-to-chest control, or when your shield has been collapsed and you're being flattened. Fighting to maintain a compromised shield wastes energy. Better to recognize when retention has failed early enough to transition smoothly to lockdown, deep half, or other retention structure rather than waiting until you're completely flat.",
+        "answer_line": "Bail early on crossface/underhook",
+        "distractors": {
+          "plausible": [
+            "Fight to save the shield always",
+            "Wait until fully flattened out"
+          ],
+          "trap": [
+            "Turn to your knees under crossface"
+          ]
+        }
       },
       {
         "question": "How does proper knee shield retention create offensive opportunities rather than being purely defensive?",
-        "answer": "When opponent commits pressure against your shield, it creates predictable reactions you can exploit. If they drive hard forward, their weight distribution sets up Old School sweep. If they stand up to avoid shield pressure, it creates space for deep half guard entry or technical standup. If they circle around the shield, it opens back take opportunities. The shield acts as a probe that forces opponent to make decisions, and each decision creates specific offensive entries. High-level knee shield is about creating a platform for attacks."
+        "answer": "When opponent commits pressure against your shield, it creates predictable reactions you can exploit. If they drive hard forward, their weight distribution sets up Old School sweep. If they stand up to avoid shield pressure, it creates space for deep half guard entry or technical standup. If they circle around the shield, it opens back take opportunities. The shield acts as a probe that forces opponent to make decisions, and each decision creates specific offensive entries. High-level knee shield is about creating a platform for attacks.",
+        "answer_line": "Pressure reactions open sweeps",
+        "distractors": {
+          "plausible": [
+            "Shield is purely defensive",
+            "Only works if opponent retreats"
+          ],
+          "trap": [
+            "Wait passively for them to quit"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat to avoid your shield pressure - how do you exploit this?",
-        "answer": "A posted hand means their weight is distributed onto that arm rather than driving into you, and that arm is no longer available for gripping or controlling you. Immediately attack the posted arm with a grip and use the reduced forward pressure to create a bigger angle with your hips. If they post on your shield side, you can swim for the underhook on their far side. If they post on the far side, their near arm is unprotected for kimura grip or wrist control. The posted hand is a defensive commitment that creates offensive openings."
+        "answer": "A posted hand means their weight is distributed onto that arm rather than driving into you, and that arm is no longer available for gripping or controlling you. Immediately attack the posted arm with a grip and use the reduced forward pressure to create a bigger angle with your hips. If they post on your shield side, you can swim for the underhook on their far side. If they post on the far side, their near arm is unprotected for kimura grip or wrist control. The posted hand is a defensive commitment that creates offensive openings.",
+        "answer_line": "Attack the posted arm, angle out",
+        "distractors": {
+          "plausible": [
+            "A post means they've stopped passing",
+            "Wait for them to unpost themselves"
+          ],
+          "trap": [
+            "Flatten out chasing the grip"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement when your opponent begins collapsing your knee shield with heavy shoulder pressure?",
-        "answer": "The critical movement is a sharp hip escape (shrimp) away from their pressure before they complete the collapse. You must move your hips backward and slightly away from them, not just push with your shield leg. This creates a new angle that makes their pressure less effective because they are now driving past you rather than into you. The timing is essential - you must hip escape at the moment they commit their weight forward, using their momentum against them rather than trying to out-muscle their pressure."
+        "answer": "The critical movement is a sharp hip escape (shrimp) away from their pressure before they complete the collapse. You must move your hips backward and slightly away from them, not just push with your shield leg. This creates a new angle that makes their pressure less effective because they are now driving past you rather than into you. The timing is essential - you must hip escape at the moment they commit their weight forward, using their momentum against them rather than trying to out-muscle their pressure.",
+        "answer_line": "Sharp hip escape as they commit",
+        "distractors": {
+          "plausible": [
+            "Push harder with your shield leg",
+            "Wait, then hip escape later"
+          ],
+          "trap": [
+            "Muscle through their pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent begins standing up from knee shield top to attempt a standing pass - what is your immediate grip priority?",
-        "answer": "Your immediate priority is controlling their ankle or pants on the trapped leg side to prevent them from extracting their leg as they stand. Secondary grip should control their far sleeve or collar to maintain connection and prevent them from creating distance on their terms. As they stand, your knee shield transitions from a horizontal barrier to an elevator that can hook under their thigh for X-guard or single leg X-guard entry. The grip on their lower body is critical because without it, standing gives them the freedom to disengage from half guard entirely."
+        "answer": "Your immediate priority is controlling their ankle or pants on the trapped leg side to prevent them from extracting their leg as they stand. Secondary grip should control their far sleeve or collar to maintain connection and prevent them from creating distance on their terms. As they stand, your knee shield transitions from a horizontal barrier to an elevator that can hook under their thigh for X-guard or single leg X-guard entry. The grip on their lower body is critical because without it, standing gives them the freedom to disengage from half guard entirely.",
+        "answer_line": "Control ankle/pants, block leg exit",
+        "distractors": {
+          "plausible": [
+            "Grip collar first, ankle later",
+            "Let them stand, reset guard"
+          ],
+          "trap": [
+            "Release legs, grab for collar choke"
+          ]
+        }
       },
       {
         "question": "How do you chain from a failed knee shield retention into an offensive sweep sequence rather than simply recovering guard?",
-        "answer": "When your shield begins to fail, the opponent is typically committing significant forward pressure and weight. Rather than purely recovering, use their committed weight against them. If they drive your shield down and to one side, underhook on the opposite side and initiate the Old School sweep, using their own pressure as the energy source. If they flatten your shield centrally, dive underneath them into deep half guard where their forward momentum carries them over your body. If they step through the shield, immediately hook their advancing leg with a butterfly hook and elevate for a sweep. Every failed retention creates a specific sweep opportunity based on how the opponent is loading their weight."
+        "answer": "When your shield begins to fail, the opponent is typically committing significant forward pressure and weight. Rather than purely recovering, use their committed weight against them. If they drive your shield down and to one side, underhook on the opposite side and initiate the Old School sweep, using their own pressure as the energy source. If they flatten your shield centrally, dive underneath them into deep half guard where their forward momentum carries them over your body. If they step through the shield, immediately hook their advancing leg with a butterfly hook and elevate for a sweep. Every failed retention creates a specific sweep opportunity based on how the opponent is loading their weight.",
+        "answer_line": "Use their momentum for sweep",
+        "distractors": {
+          "plausible": [
+            "Recover guard, skip the sweep",
+            "Wait for a clean reset first"
+          ],
+          "trap": [
+            "Push back against their weight"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Knee Shield Retention is a relatively safe technique with minimal injury risk when practiced properly. The primary safety concern is avoiding knee hyperextension when opponent smashes down on your shield leg - always keep some bend in your knee and be ready to retract if heavy pressure comes down on top of your shin. For training partners working as the passer, avoid driving excessive weight onto the shield leg's knee joint, especially when the bottom player is new and may not have developed the muscular stability to support that pressure. When transitioning between positions, both partners should maintain control to avoid sudden weight shifts that could cause knee or ankle injuries. Practitioners with previous knee injuries should be especially cautious about maintaining proper angle on their shield leg and avoiding positions where the knee is exposed to lateral stress."
+    "safety_considerations": "Knee Shield Retention is a relatively safe technique with minimal injury risk when practiced properly. The primary safety concern is avoiding knee hyperextension when opponent smashes down on your shield leg - always keep some bend in your knee and be ready to retract if heavy pressure comes down on top of your shin. For training partners working as the passer, avoid driving excessive weight onto the shield leg's knee joint, especially when the bottom player is new and may not have developed the muscular stability to support that pressure. When transitioning between positions, both partners should maintain control to avoid sudden weight shifts that could cause knee or ankle injuries. Practitioners with previous knee injuries should be especially cautious about maintaining proper angle on their shield leg and avoiding positions where the knee is exposed to lateral stress.",
+    "clips": [
+      {
+        "id": "R0P8BvcJLAs",
+        "title": "Getting the underhook from knee shield half guard",
+        "by": "Bowerhouse MMA",
+        "vertical": false,
+        "channel": "BOWERHOUSE MMA",
+        "duration": 131,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mPDafcPeF7s",
+        "title": "How to build and hold a perfect knee shield",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 247,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rja-2KKDGb0",
+        "title": "Holding half guard against the switch base",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 284,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Shield Retention Defender",
@@ -388,23 +529,73 @@
     "flashcards": [
       {
         "question": "Why is angling your body at 45 degrees more effective than driving straight into the knee shield?",
-        "answer": "The knee shield operates as a structural frame that is strongest when force is applied perpendicular to the shin. By angling at 45 degrees, you redirect the force vector so it slides along the shin rather than being stopped by it. This reduces the frame's structural advantage and allows your body weight to progress past the barrier rather than stacking directly into it. The oblique angle also creates passing lanes that don't exist when facing the shield head-on."
+        "answer": "The knee shield operates as a structural frame that is strongest when force is applied perpendicular to the shin. By angling at 45 degrees, you redirect the force vector so it slides along the shin rather than being stopped by it. This reduces the frame's structural advantage and allows your body weight to progress past the barrier rather than stacking directly into it. The oblique angle also creates passing lanes that don't exist when facing the shield head-on.",
+        "answer_line": "Angle 45° to slide past frame",
+        "distractors": {
+          "plausible": [
+            "Angle only wins the grip battle",
+            "Any angle works equally well"
+          ],
+          "trap": [
+            "Drive straight in and get elevated"
+          ]
+        }
       },
       {
         "question": "What should your first priority be before attempting to collapse or bypass the knee shield?",
-        "answer": "Your first priority is winning the upper body grip battle, specifically establishing crossface or collar control while stripping the bottom player's controlling grips on your sleeves or wrists. The knee shield works as part of a coordinated system where their arm control supports the shield structure. Without neutralizing their grips first, the bottom player can adjust their shield angle and recover from any progress you make against the physical barrier. Grip dominance transforms the shield from an active defense into a static frame you can systematically dismantle."
+        "answer": "Your first priority is winning the upper body grip battle, specifically establishing crossface or collar control while stripping the bottom player's controlling grips on your sleeves or wrists. The knee shield works as part of a coordinated system where their arm control supports the shield structure. Without neutralizing their grips first, the bottom player can adjust their shield angle and recover from any progress you make against the physical barrier. Grip dominance transforms the shield from an active defense into a static frame you can systematically dismantle.",
+        "answer_line": "Win grips before attacking shield",
+        "distractors": {
+          "plausible": [
+            "Attack shield first, grips later",
+            "Force the pass, ignore grips"
+          ],
+          "trap": [
+            "Release your grips, pure pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps redirecting their knee shield to intercept every angle you attack from - how do you break this pattern?",
-        "answer": "A dynamically adjusting shield indicates strong hip mobility from the bottom player. To break this pattern, control their shield leg at the ankle or knee with one hand to physically limit their ability to redirect. Simultaneously apply crossface pressure to limit their ability to see and react to your movement. If they are tracking your movement with the shield, feint a pass in one direction to draw the shield that way, then explosively change direction to the opposite side before they can readjust. You can also grab their shield foot and physically redirect it rather than trying to go around it."
+        "answer": "A dynamically adjusting shield indicates strong hip mobility from the bottom player. To break this pattern, control their shield leg at the ankle or knee with one hand to physically limit their ability to redirect. Simultaneously apply crossface pressure to limit their ability to see and react to your movement. If they are tracking your movement with the shield, feint a pass in one direction to draw the shield that way, then explosively change direction to the opposite side before they can readjust. You can also grab their shield foot and physically redirect it rather than trying to go around it.",
+        "answer_line": "Control shield leg, feint direction",
+        "distractors": {
+          "plausible": [
+            "Keep circling faster than them",
+            "Attack straight through shield"
+          ],
+          "trap": [
+            "Grab their far leg and pull hard"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to stand up and disengage rather than continuing ground-based passing attempts?",
-        "answer": "Stand up when repeated ground-based attempts have failed and the bottom player has established strong retention with coordinated shield and grip control. Standing changes the entire dynamic by removing your body from their shield's effective range and creating new passing angles. However, standing must be done with control of their legs to prevent X-guard or single leg X entries. Grab their pants or hook their legs before standing, and immediately threaten toreando or leg drag passes that exploit the new standing angle before they can adapt their retention system to the vertical threat."
+        "answer": "Stand up when repeated ground-based attempts have failed and the bottom player has established strong retention with coordinated shield and grip control. Standing changes the entire dynamic by removing your body from their shield's effective range and creating new passing angles. However, standing must be done with control of their legs to prevent X-guard or single leg X entries. Grab their pants or hook their legs before standing, and immediately threaten toreando or leg drag passes that exploit the new standing angle before they can adapt their retention system to the vertical threat.",
+        "answer_line": "Stand after controlling their legs",
+        "distractors": {
+          "plausible": [
+            "Stand anytime pass attempts fail",
+            "Never stand, stay heavy instead"
+          ],
+          "trap": [
+            "Stand without controlling legs"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from converting successful retention into an offensive sweep?",
-        "answer": "Maintain a wide base at all times with your knees spread beyond their hip width to resist hip bump and elevation sweeps. Never fully commit your weight forward into the shield because the bottom player can redirect that momentum underneath them for sweeps like the Old School or lumberjack. Keep one hand posted or ready to post if you feel your base being compromised. If they begin threatening a sweep, immediately abandon the pass attempt and re-establish your base before they can complete the reversal. It is better to reset and try again than to lose the position entirely to a sweep."
+        "answer": "Maintain a wide base at all times with your knees spread beyond their hip width to resist hip bump and elevation sweeps. Never fully commit your weight forward into the shield because the bottom player can redirect that momentum underneath them for sweeps like the Old School or lumberjack. Keep one hand posted or ready to post if you feel your base being compromised. If they begin threatening a sweep, immediately abandon the pass attempt and re-establish your base before they can complete the reversal. It is better to reset and try again than to lose the position entirely to a sweep.",
+        "answer_line": "Wide base, don't commit weight",
+        "distractors": {
+          "plausible": [
+            "Keep your knees tight together",
+            "Post your forehead on the mat"
+          ],
+          "trap": [
+            "Lean fully into the shield"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -427,6 +618,35 @@
         "phase": "Week 8+: Live Positional Sparring",
         "focus": "Full resistance passing against trained knee shield retention",
         "description": "Two-minute rounds starting from knee shield half guard. Top player must pass to side control or better. Bottom player uses full retention and offensive threats. Track success rate and identify which passing sequences work best against different body types and retention styles. Refine your approach based on real data."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Y815hmtzGZA",
+        "title": "Knee shield half guard pass",
+        "by": "Adam Metcalf",
+        "vertical": false,
+        "channel": "ADAM METCALF",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "yj_6xcl2emA",
+        "title": "Passing the knee shield with an inside knee cut",
+        "by": "War Room Jiu Jitsu",
+        "vertical": false,
+        "channel": "War Room Jiu Jitsu",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MvsgiCFdQPA",
+        "title": "Passing the knee shield from over-under",
+        "by": "Paragon Jiu-Jitsu Austin",
+        "vertical": false,
+        "channel": "Paragon Jiu-Jitsu Academy Austin",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   },

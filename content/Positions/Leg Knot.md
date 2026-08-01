@@ -34,6 +34,43 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Knot \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg entanglement transitions overview",
+      "description": "Leg Knot film study: Leg entanglement transitions overview, taught by Clever Combat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FVVBFlEjhVc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FVVBFlEjhVc",
+      "url": "https://www.youtube.com/watch?v=FVVBFlEjhVc",
+      "creator": { "@type": "Person", "name": "Clever Combat" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg entanglement control drill",
+      "description": "Leg Knot film study: Leg entanglement control drill, taught by Training Grounds.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2QDZMqBV2kQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2QDZMqBV2kQ",
+      "url": "https://www.youtube.com/watch?v=2QDZMqBV2kQ",
+      "creator": { "@type": "Person", "name": "Training Grounds" },
+      "duration": "PT33S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The strategic significance of Leg Knot Position lies in its dual nature as both 
 Modern leg lock systems have elevated Leg Knot Position from a scramble scenario to a deliberate strategic choice, with practitioners intentionally creating these configurations to access specific submission pathways or to neutralize opponents' leg attack systems. The position exemplifies contemporary BJJ's evolution toward complex positional exchanges where traditional top-bottom hierarchies are replaced by nuanced technical battles requiring deep systematic knowledge and positional fluency.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Knot in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FVVBFlEjhVc)
+
+<p class="clip-credit"><strong>Leg entanglement transitions overview</strong> — taught by Clever Combat · 2:13 · <a href="https://www.youtube.com/watch?v=FVVBFlEjhVc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2QDZMqBV2kQ)
+
+<p class="clip-credit"><strong>Leg entanglement control drill</strong> — taught by Training Grounds · 0:33 · <a href="https://www.youtube.com/watch?v=2QDZMqBV2kQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,17 +202,17 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (26% of attempts)
+- **[[Transitions/Reverse the entanglement to Outside Ashi/Attacker|Reverse the entanglement to Outside Ashi]]** (15% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (18% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (19% of attempts)
 
 - **[[Transitions/Extract leg and establish Single Leg X/Attacker|Extract leg and establish Single Leg X]]** (18% of attempts)
 
-- **[[Transitions/Limp leg extraction to Half Guard/Attacker|Limp leg extraction to Half Guard]]** (18% of attempts)
+- **[[Transitions/Limp leg extraction to Half Guard/Attacker|Limp leg extraction to Half Guard]]** (23% of attempts)
 
-- **[[Transitions/Clear leg and transition to X-Guard/Attacker|Clear leg and transition to X-Guard]]** (13% of attempts)
+- **[[Transitions/Clear leg and transition to X-Guard/Attacker|Clear leg and transition to X-Guard]]** (15% of attempts)
 
-- **[[Transitions/Reversal from Leg Knot/Attacker|Reversal from Leg Knot]]** (7% of attempts)
+- **[[Transitions/Reversal from Leg Knot/Attacker|Reversal from Leg Knot]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -212,15 +277,15 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (35% of attempts)
+- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (30% of attempts)
 
 - **[[Transitions/Backstep from Leg Knot/Attacker|Backstep from Leg Knot]]** (20% of attempts)
 
-- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (20% of attempts)
+- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (14% of attempts)
 
-- **[[Transitions/Pressure Pass from Leg Knot/Attacker|Pressure Pass from Leg Knot]]** (15% of attempts)
+- **[[Transitions/Pressure Pass from Leg Knot/Attacker|Pressure Pass from Leg Knot]]** (18% of attempts)
 
-- **[[Transitions/Leg Extraction from Leg Knot/Attacker|Leg Extraction from Leg Knot]]** (10% of attempts)
+- **[[Transitions/Leg Extraction from Leg Knot/Attacker|Leg Extraction from Leg Knot]]** (18% of attempts)
 
 
 ### Common Mistakes

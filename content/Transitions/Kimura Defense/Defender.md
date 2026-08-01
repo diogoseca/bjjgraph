@@ -134,6 +134,43 @@ description: "How to maintain Kimura control when your opponent defends. Grip re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the kimura back take",
+      "description": "Kimura Defense (Defender) film study: Countering the kimura back take, taught by Placido Santos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qKj5Y-jDEeM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qKj5Y-jDEeM",
+      "url": "https://www.youtube.com/watch?v=qKj5Y-jDEeM",
+      "creator": { "@type": "Person", "name": "Placido Santos" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura defense details",
+      "description": "Kimura Defense (Defender) film study: Kimura defense details, taught by Jon Satava.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gvRGrvtKd1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gvRGrvtKd1U",
+      "url": "https://www.youtube.com/watch?v=gvRGrvtKd1U",
+      "creator": { "@type": "Person", "name": "Jon Satava" },
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -145,6 +182,34 @@ The key challenge is maintaining the figure-four grip structure while the oppone
 **Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qKj5Y-jDEeM)
+
+<p class="clip-credit"><strong>Countering the kimura back take</strong> — taught by Placido Santos · 0:32 · <a href="https://www.youtube.com/watch?v=qKj5Y-jDEeM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gvRGrvtKd1U)
+
+<p class="clip-credit"><strong>Kimura defense details</strong> — taught by Jon Satava · 2:22 · <a href="https://www.youtube.com/watch?v=gvRGrvtKd1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

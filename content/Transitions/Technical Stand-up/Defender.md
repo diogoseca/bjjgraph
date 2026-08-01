@@ -148,6 +148,43 @@ description: "How to defend against Technical Stand-up in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Technical Stand-up (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the sit-up guard as the standing player",
+      "description": "Technical Stand-up (Defender) film study: Countering the sit-up guard as the standing player, taught by Avant-Garde BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G1PKGe_q9P0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G1PKGe_q9P0",
+      "url": "https://www.youtube.com/watch?v=G1PKGe_q9P0",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ coach" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping the stand-up and re-guard",
+      "description": "Technical Stand-up (Defender) film study: Stopping the stand-up and re-guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4e8HHp7avk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q4e8HHp7avk",
+      "url": "https://www.youtube.com/watch?v=q4e8HHp7avk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The most sophisticated defensive approach combines grip maintenance to prevent t
 **Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Technical Stand-up (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G1PKGe_q9P0)
+
+<p class="clip-credit"><strong>Countering the sit-up guard as the standing player</strong> — taught by Avant-Garde BJJ coach · 0:58 · <a href="https://www.youtube.com/watch?v=G1PKGe_q9P0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q4e8HHp7avk)
+
+<p class="clip-credit"><strong>Stopping the stand-up and re-guard</strong> — taught by Jon Thomas · 2:27 · <a href="https://www.youtube.com/watch?v=q4e8HHp7avk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Modified Scarf Hold to Mount transition in BJJ. Learn w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Scarf to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame position, transition and submission",
+      "description": "Modified Scarf to Mount film study: Kesa gatame position, transition and submission, taught by Merge Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XDBq3B6_P2Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XDBq3B6_P2Y",
+      "url": "https://www.youtube.com/watch?v=XDBq3B6_P2Y",
+      "creator": { "@type": "Person", "name": "Merge Grappling" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame to Mount Transition",
+      "description": "Modified Scarf to Mount film study: Kesa Gatame to Mount Transition, taught by Amy Campo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QEu2mgUsukA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QEu2mgUsukA",
+      "url": "https://www.youtube.com/watch?v=QEu2mgUsukA",
+      "creator": { "@type": "Person", "name": "Amy Campo" },
+      "duration": "PT207S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame to Mount Instruction",
+      "description": "Modified Scarf to Mount film study: Kesa Gatame to Mount Instruction, taught by Mark Massey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xv02YMCdbwQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xv02YMCdbwQ",
+      "url": "https://www.youtube.com/watch?v=Xv02YMCdbwQ",
+      "creator": { "@type": "Person", "name": "Mark Massey" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The transition requires coordinated leg clearance, sustained crossface control, 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Scarf to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XDBq3B6_P2Y)
+
+<p class="clip-credit"><strong>Kesa gatame position, transition and submission</strong> — taught by Merge Grappling · 2:18 · <a href="https://www.youtube.com/watch?v=XDBq3B6_P2Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QEu2mgUsukA)
+
+<p class="clip-credit"><strong>Kesa Gatame to Mount Transition</strong> — taught by Amy Campo · 3:27 · <a href="https://www.youtube.com/watch?v=QEu2mgUsukA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xv02YMCdbwQ)
+
+<p class="clip-credit"><strong>Kesa Gatame to Mount Instruction</strong> — taught by Mark Massey · 2:42 · <a href="https://www.youtube.com/watch?v=Xv02YMCdbwQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

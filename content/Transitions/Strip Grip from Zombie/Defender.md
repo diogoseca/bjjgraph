@@ -140,6 +140,54 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Strip Grip from Zombie (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown Clinches",
+      "description": "Strip Grip from Zombie (Defender) film study: Lockdown Clinches, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dead Orchard finish: clearing the elbow to lock up",
+      "description": "Strip Grip from Zombie (Defender) film study: Dead Orchard finish: clearing the elbow to lock up, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p6M-9BVuWqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p6M-9BVuWqs",
+      "url": "https://www.youtube.com/watch?v=p6M-9BVuWqs",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Quarter Guard concepts and grip retention",
+      "description": "Strip Grip from Zombie (Defender) film study: Quarter Guard concepts and grip retention, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMsgoChdaHE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMsgoChdaHE",
+      "url": "https://www.youtube.com/watch?v=sMsgoChdaHE",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Strip Grip from Zombie (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown Clinches</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p6M-9BVuWqs)
+
+<p class="clip-credit"><strong>Dead Orchard finish: clearing the elbow to lock up</strong> — taught by Ben Eddy · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMsgoChdaHE)
+
+<p class="clip-credit"><strong>Quarter Guard concepts and grip retention</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sMsgoChdaHE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

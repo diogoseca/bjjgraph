@@ -34,6 +34,54 @@ description: "Master the sit-out escape from side control in BJJ. Wrestling-base
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sit Out from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bottom side control escape to wrestler\u0027s sit out",
+      "description": "Sit Out from Side Control film study: Bottom side control escape to wrestler\u0027s sit out, taught by Brian Cusack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dobi1iR8ldE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dobi1iR8ldE",
+      "url": "https://www.youtube.com/watch?v=Dobi1iR8ldE",
+      "creator": { "@type": "Person", "name": "Brian Cusack" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control escape to back take",
+      "description": "Sit Out from Side Control film study: Side control escape to back take, taught by BJJ Recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BKWRQ3UJpu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BKWRQ3UJpu8",
+      "url": "https://www.youtube.com/watch?v=BKWRQ3UJpu8",
+      "creator": { "@type": "Person", "name": "BJJ Recap" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side control escape to single leg",
+      "description": "Sit Out from Side Control film study: Side control escape to single leg, taught by BJJ Recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G4aGPfYXVa8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G4aGPfYXVa8",
+      "url": "https://www.youtube.com/watch?v=G4aGPfYXVa8",
+      "creator": { "@type": "Person", "name": "BJJ Recap" },
+      "duration": "PT36S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the sit-out carries higher risk than standard escapes due to the 
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sit Out from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dobi1iR8ldE)
+
+<p class="clip-credit"><strong>Bottom side control escape to wrestler&#39;s sit out</strong> — taught by Brian Cusack · 0:37 · <a href="https://www.youtube.com/watch?v=Dobi1iR8ldE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BKWRQ3UJpu8)
+
+<p class="clip-credit"><strong>Side control escape to back take</strong> — taught by BJJ Recap · 0:28 · <a href="https://www.youtube.com/watch?v=BKWRQ3UJpu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G4aGPfYXVa8)
+
+<p class="clip-credit"><strong>Side control escape to single leg</strong> — taught by BJJ Recap · 0:36 · <a href="https://www.youtube.com/watch?v=G4aGPfYXVa8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

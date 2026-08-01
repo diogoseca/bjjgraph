@@ -34,6 +34,54 @@ description: "Learn the Hindulotine choke, an advanced guillotine variation usin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hindulotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hindulotine Breakdown",
+      "description": "Hindulotine film study: Hindulotine Breakdown, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YbOV4vESByc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YbOV4vESByc",
+      "url": "https://www.youtube.com/watch?v=YbOV4vESByc",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hindulotine Finish",
+      "description": "Hindulotine film study: Hindulotine Finish, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6UwoAQt6u6o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6UwoAQt6u6o",
+      "url": "https://www.youtube.com/watch?v=6UwoAQt6u6o",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Easy Hindulotine Variation",
+      "description": "Hindulotine film study: Easy Hindulotine Variation, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/99Mq930QVfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/99Mq930QVfY",
+      "url": "https://www.youtube.com/watch?v=99Mq930QVfY",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +134,42 @@ Strategically, the Hindulotine serves as both a primary finishing technique and 
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hindulotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YbOV4vESByc)
+
+<p class="clip-credit"><strong>Hindulotine Breakdown</strong> — taught by Ben Eddy · 1:37 · <a href="https://www.youtube.com/watch?v=YbOV4vESByc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6UwoAQt6u6o)
+
+<p class="clip-credit"><strong>Hindulotine Finish</strong> — taught by Ben Eddy · 1:00 · <a href="https://www.youtube.com/watch?v=6UwoAQt6u6o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=99Mq930QVfY)
+
+<p class="clip-credit"><strong>Easy Hindulotine Variation</strong> — taught by Danny Mitchell · 2:39 · <a href="https://www.youtube.com/watch?v=99Mq930QVfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,7 +179,7 @@ Strategically, the Hindulotine serves as both a primary finishing technique and 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Hindulotine/from Hindulotine|Hindulotine]] | Top | 40% | [[Submissions/Hindulotine/from Hindulotine/Attacker|Attack →]] | [[Submissions/Hindulotine/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/Hindulotine/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Hindulotine/from Hindulotine/Attacker|Attack →]] | [[Submissions/Hindulotine/from Hindulotine/Defender|Defend →]] |
 
 
 </div>
@@ -120,11 +204,10 @@ Strategically, the Hindulotine serves as both a primary finishing technique and 
 ## Related
 - [[Submissions/High Elbow Guillotine]] - Similar guillotine variation with different grip mechanics for comparison and cross-training
 - [[Submissions/Arm in Guillotine]] - Alternative guillotine finish when opponent's arm becomes trapped inside the choke
-- [[Submissions/Chin Strap Guillotine]] - Related chin strap grip technique with similar finishing mechanics
 - [[Transitions/Anaconda Choke]] - Chain submission when opponent tucks chin and turns to defend the Hindulotine
-- [[Transitions/Darce Choke]] - Chain submission when opponent exposes far arm while defending
+- [[Submissions/Darce Choke]] - Chain submission when opponent exposes far arm while defending
 - [[Submissions/Brabo Choke]] - Related front headlock choke with gi-specific grip variation
-- [[Transitions/Guillotine Choke]] - Parent technique from which the Hindulotine variation derives
+- [[Submissions/Guillotine Choke]] - Parent technique from which the Hindulotine variation derives
 - [[Positions/Front Headlock]] - Alternative entry position and fallback when grip is lost
 - [[Transitions/Hindulotine to Anaconda Choke]] - Chain submission transition when opponent defends by tucking chin
 - [[Transitions/Hindulotine to Darce Choke]] - Alternative finish transition when opponent exposes the far arm defending

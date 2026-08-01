@@ -15,7 +15,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "summary": "The Triangle Choke from Closed Guard is a blood choke applied from the bottom that traps one of the opponent's arms and their neck between your legs, using your thigh and their own shoulder to compress both carotid arteries.",
   "overview": "The Triangle Choke from Closed Guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu, representing the perfect marriage of control and finishing mechanics from the guard position. This blood choke uses your legs to create a triangular configuration around the opponent's neck and their own shoulder, compressing the carotid arteries and jugular veins to induce unconsciousness if not defended or escaped. The beauty of the triangle lies in its structural efficiency - once properly locked, the opponent's own posture and trapped arm work against them, making escape increasingly difficult as they tire.\n\nWhat makes the triangle from closed guard particularly powerful is its accessibility from the most fundamental guard position in BJJ. Unlike submissions that require specific grips or advanced positioning, the triangle can be attacked whenever the opponent posts a hand inside your guard or breaks their posture forward. This makes it an essential weapon for guard players at all levels, from white belts learning fundamental attacks to black belts using it as a high-percentage finishing option in competition. The triangle also serves as the gateway to an entire attack system, seamlessly connecting to armbars, omoplatas, and sweep options that create true dilemmas for the opponent.\n\nThe technical execution of the triangle from closed guard requires precise angle creation, hip mobility, and an understanding of how to break the opponent's defensive posture while maintaining control throughout the transition. Success depends not on strength or speed, but on proper positioning of the legs, correct angle relative to the opponent, and the ability to control their posture and arm placement. When executed with proper technique, the triangle becomes nearly unstoppable, which is why it remains a cornerstone submission across all levels of competition from local tournaments to the highest levels of professional grappling.",
   "safety_considerations": {
@@ -70,17 +73,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -313,63 +325,222 @@
     "flashcards": [
       {
         "question": "Why is creating approximately 90 degrees of angle essential for triangle effectiveness, and what happens if you stay directly underneath your opponent?",
-        "answer": "The 90-degree angle prevents the opponent from stacking you and driving forward with their weight, which would break the triangle's structure and potentially pass your guard. When you're directly underneath them, they can use gravity and forward pressure to compress you, making it impossible to maintain the triangle configuration or extend your hips for the finish. The perpendicular angle also optimizes the choking geometry by ensuring their neck is properly positioned relative to your leg and their own trapped shoulder.",
-        "safety_critical": false
+        "answer": "The 90-degree angle prevents the opponent from stacking you and driving forward with their weight to break the triangle's structure. When you're directly underneath them, they can use gravity and forward pressure to compress you, making it impossible to maintain the triangle configuration or extend your hips for the finish, and their driving pressure can lead to a guard pass. The perpendicular angle also optimizes the choking geometry by ensuring their neck is properly positioned relative to your leg and their own trapped shoulder.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Extra angle helps armbar setup",
+            "Only matters for gi grips"
+          ],
+          "trap": [
+            "Stay square underneath them"
+          ]
+        },
+        "answer_line": "Stops stacking, aligns the choke"
       },
       {
         "question": "What is the actual mechanism that creates unconsciousness in a properly executed triangle choke, and which anatomical structures are being compressed?",
         "answer": "The triangle choke creates unconsciousness by compressing both carotid arteries and jugular veins simultaneously, cutting off blood flow to the brain. One side of the neck is compressed by your choking knee/shin, while the other side is compressed by the opponent's own trapped shoulder being driven into their neck. This bilateral compression of the vascular structures (not the trachea/airway) causes rapid loss of consciousness typically within 5-10 seconds if not defended. The shoulder wedge is critical - without the opponent's shoulder trapped inside, the choke cannot compress both sides of the neck effectively.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Knee + shoulder compress both sides",
+        "distractors": {
+          "plausible": [
+            "Chokes the trachea/airway",
+            "Leg squeeze cuts blood alone"
+          ],
+          "trap": [
+            "Crank the spine like a neck crank"
+          ]
+        }
       },
       {
         "question": "Why does the choking pressure in triangle come from hip extension rather than squeezing your legs together, and how does this relate to energy efficiency?",
-        "answer": "Hip extension creates greater and more sustainable pressure because you're using your glutes, hamstrings, and core muscles (larger, more powerful muscle groups) rather than just your adductors (inner thigh muscles). When you extend your hips toward the ceiling while pulling the opponent's head down, you create a lever system where your entire body weight and structural alignment generate the choking force. Squeezing legs together laterally exhausts the smaller adductor muscles quickly without creating proper bilateral compression of the neck. The hip extension method allows you to maintain pressure for much longer with less fatigue.",
-        "safety_critical": false
+        "answer": "Hip extension generates more sustainable choking pressure because it uses the large glutes, hamstrings, and core rather than the small adductors. When you extend your hips toward the ceiling while pulling the opponent's head down, you create a lever system where your entire body weight and structural alignment generate the choking force. Squeezing your legs together laterally exhausts the smaller inner-thigh adductor muscles quickly without creating proper bilateral compression of the neck. The hip extension method lets you maintain pressure much longer with far less fatigue.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Pull head down with arms only",
+            "Rely on ankle-lock strength"
+          ],
+          "trap": [
+            "Clamp knees hard till you gas out"
+          ]
+        },
+        "answer_line": "Hip extension, not leg squeeze"
       },
       {
         "question": "What are the safety protocols you must follow regarding release timing and pressure application when practicing triangle chokes in training?",
         "answer": "You must release the triangle immediately upon any tap signal - verbal, physical tap with hand or foot, or any distress signal. If your partner goes limp or stops resisting, release immediately even without tap and check their awareness. During application, pressure must be applied progressively over minimum 5-7 seconds in training, never jerking or spiking the choke at full speed. Partner must always have clear access to tap with at least one arm. After release, push opponent's head away gently and allow them to recover posture slowly. Never maintain any pressure after tap or loss of consciousness, and never use competition finishing speed during drilling or positional training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly on any tap",
+        "distractors": {
+          "plausible": [
+            "Release only after verbal tap",
+            "Ease off slowly over 5-7 sec"
+          ],
+          "trap": [
+            "Keep pressure until they go limp"
+          ]
+        }
       },
       {
         "question": "How do you transition from triangle to armbar when the opponent defends by turning toward your choking leg, and why does this create a natural submission chain?",
         "answer": "When opponent turns toward the choking leg to relieve pressure on their neck, they naturally expose their trapped arm to armbar. To transition: maintain your triangle lock initially, pivot your body to follow their turn while releasing your top leg from across their back, swing that leg over their face and fall back for armbar on the trapped arm. This works because their defensive turn extends and straightens the trapped arm while removing it from defending their neck - they must choose between defending the triangle (keeping arm bent and close) or defending the armbar (keeping arm straight and away). This creates a true submission dilemma where defending one attack opens the other.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn toward leg exposes armbar",
+        "distractors": {
+          "plausible": [
+            "Turn away from leg sets up armbar",
+            "Squeeze harder until arm taps"
+          ],
+          "trap": [
+            "Release the lock, chase the arm"
+          ]
+        }
       },
       {
         "question": "What should you do immediately if your partner's breathing sounds unusual, they show distress signals, or they appear to be losing consciousness during triangle application?",
         "answer": "Immediately open your legs and release the triangle completely without waiting for a tap. Push their head away gently, allow them to recover their posture, and check their awareness by speaking to them. If they appear unconscious or unresponsive, ensure they're breathing, position them safely (recovery position if needed), and monitor them until they're fully aware. Never continue training until they've confirmed they're okay. This is critical because loss of consciousness can occur rapidly (within seconds) and continuing pressure after unconsciousness can cause serious brain injury. Unusual breathing, gurgling sounds, or sudden loss of resistance are emergency signals requiring immediate release.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Open legs, release immediately",
+        "distractors": {
+          "plausible": [
+            "Ease pressure, wait for tap",
+            "Ask if they're okay first"
+          ],
+          "trap": [
+            "Finish choke, then check them"
+          ]
+        }
       },
       {
         "question": "What is the 'point of no escape' in the triangle choke, and what control elements must be established before the opponent loses their ability to defend?",
-        "answer": "The point of no escape occurs when three conditions are simultaneously met: your angle is perpendicular to opponent's centerline (approximately 90 degrees), your ankle is locked behind the opposite knee with the choking knee tight against the neck, and the opponent's posture is fully broken with their head pulled below the level of your hips. Once all three are established with the opponent's arm trapped across their centerline, the structural mechanics make escape nearly impossible regardless of the opponent's strength or technical ability. Before this point, they can still posture up, turn out, or extract their arm. After this point, even stalling or chin tucking merely delays the finish.",
-        "safety_critical": false
+        "answer": "The point of no escape is when the 90-degree angle, the ankle locked behind the opposite knee, and fully broken posture all exist at once. Specifically: your angle is perpendicular to the opponent's centerline, your ankle is locked behind the opposite knee with the choking knee tight against the neck, and their head is pulled below the level of your hips with their arm trapped across their centerline. Once all three are established, the structural mechanics make escape nearly impossible regardless of the opponent's strength or technical ability. Before this point they can still posture up, turn out, or extract their arm; after it, even stalling or chin tucking merely delays the finish.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Angle plus a tight leg squeeze",
+            "Locked ankle and strong grip only"
+          ],
+          "trap": [
+            "Any angle works if squeezed hard"
+          ]
+        },
+        "answer_line": "Angle, locked ankle, broken posture"
       },
       {
         "question": "How do you adjust your finishing mechanics when the opponent tucks their chin aggressively to defend against the choke?",
         "answer": "Chin tucking is a stalling tactic that does not address the underlying structural problem of the triangle. To overcome it: first ensure your angle is correct at 90 degrees to their centerline. Second, pull their head even lower using grips behind the head or their collar - their chin cannot protect them if their face is pointing at your belly button. Third, increase hip elevation and extension rather than squeezing harder. Fourth, grab your own shin with both hands and pull to close any remaining space. The bilateral compression from your leg and their shoulder will eventually overcome the chin defense as long as your structure is correct.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fix angle, then pull head low",
+        "distractors": {
+          "plausible": [
+            "Push their chin up to break tuck",
+            "Wait for them to gas out"
+          ],
+          "trap": [
+            "Drop the angle to squeeze harder"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make during the triangle finish to maximize pressure while maintaining control of a defending opponent?",
-        "answer": "For maximum finishing pressure, transition from head control grips to grabbing your own shin with both hands, pulling your choking leg toward your body while extending your hips. If opponent is still defending, use one hand to pull their head down while the other controls their trapped arm at the wrist, pulling it across their centerline to deepen the shoulder wedge effect. In gi, grip their opposite collar behind their neck and pull. In no-gi, use a palm-to-palm grip behind their head or gable grip your hands behind their neck. Never release head control completely - if they posture even slightly, the finish becomes significantly harder.",
-        "safety_critical": false
+        "answer": "For maximum finishing pressure, grab your own shin with both hands, pulling the choking leg toward your body while extending your hips. If the opponent is still defending, use one hand to pull their head down while the other controls their trapped arm at the wrist, pulling it across their centerline to deepen the shoulder wedge effect. In gi, grip their opposite collar behind their neck and pull; in no-gi, use a palm-to-palm grip behind their head or gable grip your hands behind their neck. Never release head control completely — if they posture even slightly, the finish becomes significantly harder.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Grip their collar, forget the shin",
+            "Pull head only, ignore the arm"
+          ],
+          "trap": [
+            "Release head control to grab shin"
+          ]
+        },
+        "answer_line": "Grab own shin, pull and extend hips"
       },
       {
         "question": "What are the key indicators that tell you the triangle is properly locked and the opponent is at immediate risk of losing consciousness?",
-        "answer": "Key indicators include: opponent's face turns red or purple from blood pooling, their breathing becomes labored or irregular, their defensive movements become weak or uncoordinated, they stop actively defending and become still, their trapped arm goes limp rather than fighting your grip, and their free arm's movements become frantic or desperate rather than technical. In training, you should begin releasing at the first signs of these indicators rather than waiting for a tap, as some practitioners may be too stubborn to tap or may lose consciousness before they can signal. These signs indicate the choke is effective and requires immediate attention to safety.",
-        "safety_critical": true
+        "answer": "A locked triangle shows facial reddening or purpling, labored breathing, weakening uncoordinated defense, and a limp trapped arm. Other indicators include the opponent stopping active defense and becoming still, and their free arm's movements becoming frantic or desperate rather than technical. In training, you should begin releasing at the first signs of these indicators rather than waiting for a tap, as some practitioners may be too stubborn to tap or may lose consciousness before they can signal. These signs indicate the choke is effective and requires immediate attention to safety.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Strong posture and tight grips",
+            "Calm face and steady breathing"
+          ],
+          "trap": [
+            "Wait until they finally tap"
+          ]
+        },
+        "answer_line": "Purple face, limp arm, defense fades"
       },
       {
         "question": "How does the triangle from closed guard connect to other submissions in a systematic attack chain, and what reactions from your opponent lead to each alternative attack?",
         "answer": "The triangle creates a three-way dilemma connecting to armbar and omoplata. When opponent turns toward your choking leg, their trapped arm straightens and extends - transition to armbar by swinging your leg over their face and falling back. When opponent turns away from your choking leg, their shoulder rotates into omoplata position - release the triangle and rotate your hips to lock the shoulder. When opponent postures aggressively, both arms become exposed - release to armbar on whichever arm is more extended. When opponent stacks forward, use their momentum for omoplata sweep or transition to gogoplata if their posture is completely broken. This systematic approach means every defense creates a new opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Toward = armbar, away = omoplata",
+        "distractors": {
+          "plausible": [
+            "Postures up leads to omoplata",
+            "Stacking forward stops all attacks"
+          ],
+          "trap": [
+            "Release triangle if they defend"
+          ]
+        }
       },
       {
         "question": "What specific competition finishing strategies increase your success rate when attempting triangle chokes against high-level opponents?",
-        "answer": "High-level competition triangle strategies include: establish control of the far arm early to prevent posting and stacking defenses, create your angle before locking the triangle rather than trying to adjust after, use misdirection by threatening armbar or omoplata first to open the triangle opportunity, control the opponent's hips by underhooking their far leg to prevent standing escapes, grip behind your own knee rather than just crossing ankles for a tighter initial lock, and commit fully to the finish once locked rather than relaxing and allowing recovery. Additionally, practice your triangle from positions your opponents don't expect - off failed sweeps, from overhook, or after deliberately inviting guard passes that expose their arms.",
-        "safety_critical": false
+        "answer": "Control the far arm early to stop posting and stacking, and create your angle before locking the triangle rather than adjusting after. Other high-percentage strategies: use misdirection by threatening armbar or omoplata first to open the triangle opportunity, underhook their far leg to control their hips and prevent standing escapes, grip behind your own knee rather than just crossing ankles for a tighter initial lock, and commit fully to the finish once locked rather than relaxing and allowing recovery. Additionally, practice triangles from positions opponents don't expect — off failed sweeps, from overhook, or after deliberately inviting guard passes that expose their arms.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Lock ankles, adjust angle after",
+            "Squeeze legs before angling up"
+          ],
+          "trap": [
+            "Relax once the triangle locks"
+          ]
+        },
+        "answer_line": "Control far arm, set angle early"
+      }
+    ],
+    "clips": [
+      {
+        "id": "rM8HMq3o9yY",
+        "title": "Triangle from closed guard",
+        "by": "Nicholas Meregali",
+        "start": 0,
+        "end": 26,
+        "vertical": true,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "MbdpOmzThpQ",
+        "title": "Surprising triangle from guard",
+        "by": "Giancarlo Bodoni",
+        "start": 0,
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9pjdpFCr4UI",
+        "title": "No-gi triangle from guard",
+        "by": "Chewjitsu",
+        "start": 0,
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aR7JafPJ1lw",
+        "title": "Triangle off the overhook",
+        "by": "Jon Thomas · Grapplearts",
+        "start": 0,
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -470,27 +641,77 @@
       {
         "question": "Why is early recognition and prevention more effective than late-stage escape when defending the triangle from closed guard?",
         "answer": "Once the attacker achieves all three structural elements - perpendicular angle, ankle locked behind the knee, and fully broken posture - the triangle creates bilateral compression of both carotid arteries that produces unconsciousness within 5-10 seconds. At this stage, even technically correct escape attempts may not succeed before the blood choke takes effect. Prevention through posture maintenance, tight elbows, and immediate response to wrist control prevents the attacker from ever establishing these three elements, keeping the defender in a position where their escape percentage remains high.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Prevent it before elements lock",
+        "distractors": {
+          "plausible": [
+            "Escape late, trust the technique",
+            "Wait for the choking knee to seat"
+          ],
+          "trap": [
+            "Try to power out once it's locked"
+          ]
+        }
       },
       {
         "question": "What is the correct direction to turn your body when caught in a locked triangle, and why does turning the wrong way make the situation worse?",
         "answer": "Turn toward the choking leg - the leg whose knee is pressed against the side of your neck. Turning this direction compresses the space between your shoulder and the attacker's thigh, reducing the pressure the knee can apply to your neck. Turning away from the choking leg exposes the vulnerable back of your neck to the choking knee and actually increases the bilateral compression. Additionally, turning away creates the exact rotation the attacker needs to transition to omoplata on your trapped arm, adding a second submission threat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn toward the choking leg",
+        "distractors": {
+          "plausible": [
+            "Post on the mat and bridge up",
+            "Pull your head straight back"
+          ],
+          "trap": [
+            "Turn away from the choking leg"
+          ]
+        }
       },
       {
         "question": "How does the 'two arms in or two arms out' principle guide your defensive positioning against triangle setups from closed guard?",
         "answer": "The triangle choke requires asymmetric arm position - one arm trapped inside and one outside - to create the shoulder wedge that produces choking pressure. If both your arms are inside the opponent's guard (elbows tight to body, hands on their hips), they cannot isolate one arm for the triangle. Similarly, if you can get both arms outside during a triangle attempt, the choke loses its shoulder wedge and becomes ineffective. The critical error is allowing one arm to drift inside while the other stays out, which is exactly the configuration the attacker needs. Maintaining disciplined arm position in closed guard eliminates the triangle threat before it begins.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep both arms in or both out",
+        "distractors": {
+          "plausible": [
+            "Push their knee to open guard",
+            "Stand up to disengage fast"
+          ],
+          "trap": [
+            "Feed one arm inside their guard"
+          ]
+        }
       },
       {
         "question": "When caught in a triangle, why is it dangerous to simply try to pull your trapped arm out, and what submission does this expose you to?",
         "answer": "Pulling the trapped arm straight back while the triangle is locked feeds directly into an armbar. The attacker simply pivots their legs over your face while your arm is already extended from the extraction attempt, creating a fully locked armbar position. The arm extraction movement also temporarily increases space in the triangle, allowing the attacker to adjust their angle or deepen the lock. Instead of pulling the arm out directly, you must first address the triangle structure by turning toward the choking leg or stacking to change the angle, then extract the arm from a position where the armbar transition is blocked by your body positioning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn or stack before freeing arm",
+        "distractors": {
+          "plausible": [
+            "Push their hips to make space",
+            "Flatten out and bridge hard"
+          ],
+          "trap": [
+            "Yank the trapped arm straight back"
+          ]
+        }
       },
       {
         "question": "What are the physical signs that indicate you are running out of time to escape a locked triangle before losing consciousness?",
         "answer": "Physical warning signs include: vision narrowing or darkening at the edges (tunnel vision), a feeling of pressure building in your head and face, hearing becoming muffled or distant, difficulty thinking clearly or processing defensive options, involuntary relaxation of your muscles despite wanting to resist, and a warm or tingling sensation in your face and ears from blood pooling. If you experience any of these signs, you must tap immediately rather than continuing escape attempts, as unconsciousness can follow within seconds. In training, there is no tactical benefit to pushing past these warning signs - tap, reset, and drill the defense from an earlier stage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tunnel vision or muffled hearing",
+        "distractors": {
+          "plausible": [
+            "Sharp pain in your neck",
+            "Burning in your shoulders"
+          ],
+          "trap": [
+            "Push on until everything goes black"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -513,6 +734,35 @@
         "phase": "Phase 4: Live Defense Against Submission Chains",
         "focus": "Defending triangle while managing armbar and omoplata threats",
         "description": "Full resistance positional sparring where partner attacks triangle and follows up with armbar and omoplata based on defensive reactions. Defender must escape the triangle without getting caught in follow-up submissions. Builds the decision-making ability to choose defensive actions that don't feed the attacker's next technique in the chain."
+      }
+    ],
+    "clips": [
+      {
+        "id": "YG1S8nMIdjY",
+        "title": "Triangle Defense from Closed Guard",
+        "by": "Andy",
+        "vertical": false,
+        "channel": "Jiu Jitsu With Andy ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle Choke Posture Up Escape",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Z-CsRn4K0vg",
+        "title": "Escaping Triangles vs Big Opponents",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 48,
+        "verified": "2026-07-14"
       }
     ]
   },

@@ -148,6 +148,43 @@ description: "Defend and prevent the counter sweep from outside ashi-garami. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Sweep from Outside Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg defense from ashi garami",
+      "description": "Counter Sweep from Outside Ashi (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ coach" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight ankle lock defense in ashi garami",
+      "description": "Counter Sweep from Outside Ashi (Defender) film study: Straight ankle lock defense in ashi garami, taught by A BJJ Marriage coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Epb9dS7aYfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Epb9dS7aYfA",
+      "url": "https://www.youtube.com/watch?v=Epb9dS7aYfA",
+      "creator": { "@type": "Person", "name": "A BJJ Marriage coach" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the counter sweep, you are the top player in outside ash
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Sweep from Outside Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ coach · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Epb9dS7aYfA)
+
+<p class="clip-credit"><strong>Straight ankle lock defense in ashi garami</strong> — taught by A BJJ Marriage coach · 1:26 · <a href="https://www.youtube.com/watch?v=Epb9dS7aYfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

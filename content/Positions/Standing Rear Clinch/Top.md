@@ -21,37 +21,37 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 3% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 2% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mat Return to Back Mount",
-      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Mat Return to Back Mount. This technique is attempted in 21% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Finish",
-      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Finish. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Mat Return from Rear Clinch",
-      "text": "From this position, attempt Mat Return from Rear Clinch. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Mat Return from Standing Rear Clinch",
+      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 21% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Standing Rear Clinch in BJJ. Dominant back control from sta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Rear Clinch (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mat Return Drill from Rear Bodylock",
+      "description": "Standing Rear Clinch (Top) film study: Mat Return Drill from Rear Bodylock, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GKrJsIYmycM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GKrJsIYmycM",
+      "url": "https://www.youtube.com/watch?v=GKrJsIYmycM",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bodylock to Back Take",
+      "description": "Standing Rear Clinch (Top) film study: Bodylock to Back Take, taught by Diogo Reis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iPXirj0gvko/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iPXirj0gvko",
+      "url": "https://www.youtube.com/watch?v=iPXirj0gvko",
+      "creator": { "@type": "Person", "name": "Diogo Reis" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg Switch Cutback from Rear Bodylock",
+      "description": "Standing Rear Clinch (Top) film study: Leg Switch Cutback from Rear Bodylock, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2VCyaassiRI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2VCyaassiRI",
+      "url": "https://www.youtube.com/watch?v=2VCyaassiRI",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ Strategically, Standing Rear Clinch provides multiple advancement pathways inclu
 The Standing Rear Clinch holds particular importance in no-gi grappling and MMA contexts where wrestling-based positions dominate the standing phase, though it remains highly relevant in gi competition where collar and sleeve grips integrate with traditional bodylock and seatbelt controls. Mastery allows practitioners to neutralize guard pullers, force action in stalling situations, and create scoring opportunities through takedowns and back exposure while maintaining offensive initiative throughout the standing phase.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Rear Clinch (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GKrJsIYmycM)
+
+<p class="clip-credit"><strong>Mat Return Drill from Rear Bodylock</strong> — taught by Nicky Rodriguez · 1:24 · <a href="https://www.youtube.com/watch?v=GKrJsIYmycM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iPXirj0gvko)
+
+<p class="clip-credit"><strong>Bodylock to Back Take</strong> — taught by Diogo Reis · 0:36 · <a href="https://www.youtube.com/watch?v=iPXirj0gvko" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2VCyaassiRI)
+
+<p class="clip-credit"><strong>Leg Switch Cutback from Rear Bodylock</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=2VCyaassiRI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -351,7 +435,7 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Ground-based version of similar control structure with comparable grip hierarchy
 - **[[Positions/Front Headlock]]** - Alternative standing control if opponent drops level or you execute snap down
 - **[[Positions/Side Control]]** - Common destination via bodylock pass when opponent sits to guard
-- **[[Transitions/Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
+- **[[Transitions/Mat Return from Standing Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
 - **[[Transitions/Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
 - **[[Transitions/Standing Switch from Rear Clinch]]** - Primary escape reversal that must be anticipated and countered from this position
 

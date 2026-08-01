@@ -100,35 +100,115 @@
     "flashcards": [
       {
         "question": "What is the first priority when caught in gogoplata control before attempting escape?",
-        "answer": "Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for a systematic escape rather than panicking with explosive movements that typically tighten the choke."
+        "answer": "Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for a systematic escape rather than panicking with explosive movements that typically tighten the choke.",
+        "answer_line": "Turn chin toward attacking leg",
+        "distractors": {
+          "plausible": [
+            "Posture up explosively",
+            "Push away opponent's hips"
+          ],
+          "trap": [
+            "Pull head straight backward"
+          ]
+        }
       },
       {
         "question": "Why does pulling straight backward fail as an escape from gogoplata control?",
-        "answer": "The foot-behind-head configuration creates a closed loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or change angles laterally."
+        "answer": "The foot-behind-head configuration creates a closed loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or change angles laterally.",
+        "answer_line": "Foot-behind-head locks the loop",
+        "distractors": {
+          "plausible": [
+            "Not enough arm strength",
+            "Think you just need more angle"
+          ],
+          "trap": [
+            "Pull harder and drive through"
+          ]
+        }
       },
       {
         "question": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
-        "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens."
+        "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens.",
+        "answer_line": "Stack forward, extract head",
+        "distractors": {
+          "plausible": [
+            "Retreat to create space",
+            "Wait for hips to reset"
+          ],
+          "trap": [
+            "Pull straight back to escape"
+          ]
+        }
       },
       {
         "question": "What are the three alternative submissions you must defend against when escaping gogoplata?",
-        "answer": "Triangle choke if your escape movement allows them to switch the leg configuration, omoplata if you turn toward the attacking leg exposing your shoulder, and back exposure if you attempt to roll forward through the position. Each escape direction has specific counter-threats."
+        "answer": "Triangle choke if your escape movement allows them to switch the leg configuration, omoplata if you turn toward the attacking leg exposing your shoulder, and back exposure if you attempt to roll forward through the position. Each escape direction has specific counter-threats.",
+        "answer_line": "Triangle, omoplata, back take",
+        "distractors": {
+          "plausible": [
+            "Armbar, kimura, guillotine",
+            "Heel hook, kneebar, toehold"
+          ],
+          "trap": [
+            "Ignore them, focus on throat"
+          ]
+        }
       },
       {
         "question": "How should you use your hands when defending gogoplata control?",
-        "answer": "Use hands to control the opponent's hips and create base rather than grabbing at the choking leg directly. The leg is stronger than your arms making direct pulling ineffective. Hand position on hips allows you to manage distance and prevent hip elevation that maintains the choke."
+        "answer": "Use hands to control the opponent's hips and create base rather than grabbing at the choking leg directly. The leg is stronger than your arms making direct pulling ineffective. Hand position on hips allows you to manage distance and prevent hip elevation that maintains the choke.",
+        "answer_line": "Control hips, not the leg",
+        "distractors": {
+          "plausible": [
+            "Grab the ankle and pry it off",
+            "Frame on the shin directly"
+          ],
+          "trap": [
+            "Pull the choking leg with hands"
+          ]
+        }
       },
       {
         "question": "If you feel the choke tightening and have limited time, what emergency escape option exists?",
-        "answer": "Emergency tuck and roll toward turtle position, accepting the back exposure risk. This explosive movement breaks the shin angle and foot position simultaneously, though it requires immediate turtle defense skills. Only use when systematic escape time is unavailable."
+        "answer": "Emergency tuck and roll toward turtle position, accepting the back exposure risk. This explosive movement breaks the shin angle and foot position simultaneously, though it requires immediate turtle defense skills. Only use when systematic escape time is unavailable.",
+        "answer_line": "Tuck and roll to turtle",
+        "distractors": {
+          "plausible": [
+            "Bridge and shrimp away",
+            "Sit up and stack them"
+          ],
+          "trap": [
+            "Try to pass their guard"
+          ]
+        }
       },
       {
         "question": "What mistake causes many defenders to give up an omoplata when escaping gogoplata?",
-        "answer": "Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. If you must turn, always turn away from the choking leg. Better still, work on lateral head movement and systematic extraction rather than turning at all."
+        "answer": "Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. If you must turn, always turn away from the choking leg. Better still, work on lateral head movement and systematic extraction rather than turning at all.",
+        "answer_line": "Turning toward the choking leg",
+        "distractors": {
+          "plausible": [
+            "Keeping both hands on the mat",
+            "Bridging explosively upward"
+          ],
+          "trap": [
+            "Grabbing the choking leg hard"
+          ]
+        }
       },
       {
         "question": "How do you assess whether you have time for systematic escape versus needing emergency action?",
-        "answer": "Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator."
+        "answer": "Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator.",
+        "answer_line": "Check hip height and foot depth",
+        "distractors": {
+          "plausible": [
+            "Count seconds since it locked",
+            "Judge by their grip strength"
+          ],
+          "trap": [
+            "Assume you always have time"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -299,51 +379,93 @@
     "transitions": [
       {
         "transition": "Head Extraction to Posture",
-        "attempt_probability": 29
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 16
+        }
       },
       {
         "transition": "Shin Removal to Pass",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 12
+        }
       },
       {
         "transition": "Leg Extraction Escape",
-        "attempt_probability": 3
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Angle Change Escape",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       },
       {
         "transition": "Hand Control to Extract",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Roll to Turtle",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Explosive Bridge to Guard Recovery",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Gogoplata to Armbar",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Posture Up from Gogoplata",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       },
       {
         "transition": "Gogoplata from Gogoplata Control",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "VbLlhI0aZC8",
+        "title": "How to do the gogoplata",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 68,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PqAJraYllQI",
+        "title": "Gogoplata variations from a high guard",
+        "by": "SpringHill BJJ",
+        "vertical": false,
+        "channel": "SpringHillBjj",
+        "duration": 88,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -391,35 +513,115 @@
     "flashcards": [
       {
         "question": "What is the optimal shin alignment relative to the opponent's throat for maximum submission effectiveness?",
-        "answer": "The shin must be perpendicular to the trachea, not parallel or diagonal. The tibia should contact the front of the throat directly with the ankle hooking around the far side of the head. This perpendicular alignment maximizes compression on the airway and carotid arteries."
+        "answer": "The shin must be perpendicular to the trachea, not parallel or diagonal. The tibia should contact the front of the throat directly with the ankle hooking around the far side of the head. This perpendicular alignment maximizes compression on the airway and carotid arteries.",
+        "answer_line": "Shin perpendicular to trachea",
+        "distractors": {
+          "plausible": [
+            "Shin diagonal across the jaw",
+            "Shin parallel along collarbone"
+          ],
+          "trap": [
+            "Shin pressed across the chin"
+          ]
+        }
       },
       {
         "question": "Your opponent creates a small gap - how do you use this to deepen your control?",
-        "answer": "Use your hands to immediately pull your own foot deeper behind their head while maintaining shin pressure. The gap they created becomes an opportunity to tighten the configuration. Once deeper, re-establish hip elevation to lock the improved position."
+        "answer": "Use your hands to immediately pull your own foot deeper behind their head while maintaining shin pressure. The gap they created becomes an opportunity to tighten the configuration. Once deeper, re-establish hip elevation to lock the improved position.",
+        "answer_line": "Pull foot deeper, raise hips",
+        "distractors": {
+          "plausible": [
+            "Switch straight to triangle",
+            "Increase pressure with elbow"
+          ],
+          "trap": [
+            "Release the foot to reset"
+          ]
+        }
       },
       {
         "question": "Why is hip elevation critical for maintaining gogoplata control?",
-        "answer": "Elevated hips create the necessary angle for the shin to compress the throat rather than sliding off. When hips drop to mat level, the shin angle becomes parallel to the throat eliminating compression. Core engagement must keep pelvis higher than shoulders throughout control."
+        "answer": "Elevated hips create the necessary angle for the shin to compress the throat rather than sliding off. When hips drop to mat level, the shin angle becomes parallel to the throat eliminating compression. Core engagement must keep pelvis higher than shoulders throughout control.",
+        "answer_line": "Keeps shin compressing the throat",
+        "distractors": {
+          "plausible": [
+            "Prevents opponent from standing",
+            "Keeps their shoulders pinned"
+          ],
+          "trap": [
+            "Drop hips for a better base"
+          ]
+        }
       },
       {
         "question": "What hand positioning maintains optimal control while setting up the finish?",
-        "answer": "Use both hands initially to pull your own foot deep behind the opponent's head. Maintain at least one hand on your foot throughout to prevent removal. The hands control your foot position, not the opponent's head - the shin does the controlling work."
+        "answer": "Use both hands initially to pull your own foot deep behind the opponent's head. Maintain at least one hand on your foot throughout to prevent removal. The hands control your foot position, not the opponent's head - the shin does the controlling work.",
+        "answer_line": "Both hands pull your own foot",
+        "distractors": {
+          "plausible": [
+            "Both hands grip opponent's head",
+            "One hand posts, one frames hip"
+          ],
+          "trap": [
+            "Let go of foot to grip collar"
+          ]
+        }
       },
       {
         "question": "Your opponent starts turning their shoulder away from the choking shin - what transition becomes available?",
-        "answer": "The omoplata transition opens when they turn away. As their shoulder rotates toward you to escape throat pressure, redirect to omoplata control by releasing the gogoplata configuration and securing their arm across your hip. Their escape movement provides the rotation needed."
+        "answer": "The omoplata transition opens when they turn away. As their shoulder rotates toward you to escape throat pressure, redirect to omoplata control by releasing the gogoplata configuration and securing their arm across your hip. Their escape movement provides the rotation needed.",
+        "answer_line": "Omoplata as they turn away",
+        "distractors": {
+          "plausible": [
+            "Armbar as they extend the arm",
+            "Back take as they turn"
+          ],
+          "trap": [
+            "Chase the choke tighter"
+          ]
+        }
       },
       {
         "question": "What prerequisite flexibility must be developed before attempting gogoplata in live training?",
-        "answer": "Hip external rotation and hamstring flexibility sufficient for sustained leg-behind-head positioning. Test by achieving mission control in rubber guard first. If you cannot comfortably maintain your leg across your own shoulder, the gogoplata flexibility requirements are not met."
+        "answer": "Hip external rotation and hamstring flexibility sufficient for sustained leg-behind-head positioning. Test by achieving mission control in rubber guard first. If you cannot comfortably maintain your leg across your own shoulder, the gogoplata flexibility requirements are not met.",
+        "answer_line": "Mission control flexibility test",
+        "distractors": {
+          "plausible": [
+            "Strong core and grip strength",
+            "Explosive hip bridge power"
+          ],
+          "trap": [
+            "Skip flexibility, drill live"
+          ]
+        }
       },
       {
         "question": "How do you transition to triangle when the opponent successfully removes your shin from their throat?",
-        "answer": "As the shin slides off, immediately switch to triangle configuration by bringing your opposite leg over their shoulder and locking your ankles. The foot that was behind their head now assists in securing the triangle. The removed shin becomes the locking leg."
+        "answer": "As the shin slides off, immediately switch to triangle configuration by bringing your opposite leg over their shoulder and locking your ankles. The foot that was behind their head now assists in securing the triangle. The removed shin becomes the locking leg.",
+        "answer_line": "Switch to triangle, lock ankles",
+        "distractors": {
+          "plausible": [
+            "Re-thread the same shin again",
+            "Grab a collar for control"
+          ],
+          "trap": [
+            "Chase the leg back to gogoplata"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts a forward roll to escape - what position should you transition to?",
-        "answer": "Follow them to back control. As they roll forward, maintain contact and ride the roll to end up on their back. The forward momentum they generate to escape actually assists your back take transition. Release the gogoplata grip to secure back control hooks."
+        "answer": "Follow them to back control. As they roll forward, maintain contact and ride the roll to end up on their back. The forward momentum they generate to escape actually assists your back take transition. Release the gogoplata grip to secure back control hooks.",
+        "answer_line": "Ride the roll to back control",
+        "distractors": {
+          "plausible": [
+            "Stop the roll and reset guard",
+            "Chase an armbar mid-roll"
+          ],
+          "trap": [
+            "Hold the gogoplata grip through"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -589,25 +791,187 @@
     },
     "transitions": [
       {
-        "transition": "Gogoplata",
-        "attempt_probability": 35
-      },
-      {
-        "transition": "Switch to Triangle",
-        "attempt_probability": 22
-      },
-      {
-        "transition": "Back Take",
-        "attempt_probability": 18
+        "transition": "Gogoplata from Gogoplata Control",
+        "attempt_probability": {
+          "gi": 42,
+          "nogi": 43
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 17
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 17
+        }
       },
       {
         "transition": "Mission Control Recovery",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 19
+        }
+      },
+      {
+        "transition": "High Mount Transition",
+        "attempt_probability": {
+          "gi": 22,
+          "nogi": 21
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "4Opp0j7UmlU",
+        "title": "Gogoplata from guard",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 21,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uOW0otO9MPI",
+        "title": "Gogo clinch submission (10th Planet)",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 57,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What limb configuration defines Gogoplata Control and distinguishes it from other guard-based attacks?",
+      "answer": "The bottom player threads one shin across the opponent's throat while hooking that same foot behind the opponent's head, forming a closed loop around the neck. This is fundamentally a shin-based strangle rather than an arm or forearm choke, so the tibia becomes the compressing surface against the trachea. The foot-behind-head hook is what converts a mere leg-across-the-neck into a self-locking control, because the opponent cannot simply push the leg away when it is anchored on the far side of their skull. This shin-and-foot geometry is the signature that separates it from triangle, omoplata, or armbar controls that share the same rubber guard origin.",
+      "answer_line": "Shin across throat, foot behind head",
+      "distractors": {
+        "plausible": [
+          "Arm across throat, hand gripping gi",
+          "Knee on chest, foot on hip"
+        ],
+        "trap": [
+          "Forearm choke, figure-four grip"
+        ]
+      }
+    },
+    {
+      "question": "Why must the shin be oriented perpendicular to the trachea rather than parallel or diagonal across the neck?",
+      "answer": "A perpendicular shin drives the narrow ridge of the tibia directly into the front of the windpipe, concentrating compression on a small surface for maximum airway restriction. When the shin lies parallel or diagonal, its length distributes pressure broadly across the jaw, cheek, or collarbone and slides off the trachea, eliminating the choke. Positioning the shin across the face or chin instead of the windpipe likewise produces no submission threat, letting the opponent turn their head free. Maintaining this ninety-degree relationship to the trachea is the single geometric requirement that keeps the position a live submission rather than an uncomfortable pin.",
+      "answer_line": "Concentrates pressure on windpipe",
+      "distractors": {
+        "plausible": [
+          "Distributes pressure evenly",
+          "Pins the jaw for control"
+        ],
+        "trap": [
+          "Angled across the chin instead"
+        ]
+      }
+    },
+    {
+      "question": "How does hip elevation function as the shared control mechanism that keeps this position alive for either player?",
+      "answer": "The bottom player must keep the pelvis raised higher than the shoulders so the shin meets the throat at a downward compressing angle rather than resting flat. When the hips are elevated, gravity and core tension load the tibia into the windpipe; when the hips drop to the mat, the shin angle flattens toward parallel and the compression disappears. This makes hip height the pivot point of the entire exchange, which is exactly why the top player's core defensive goal is to force those hips back down. Both players are essentially fighting over a single variable: whether the bottom player's pelvis stays above shoulder line.",
+      "answer_line": "Pelvis stays above shoulder line",
+      "distractors": {
+        "plausible": [
+          "Shoulders stay above the hips",
+          "Knees stay pinned to the mat"
+        ],
+        "trap": [
+          "Let hips sag for stability"
+        ]
+      }
+    },
+    {
+      "question": "What makes Gogoplata Control a self-reinforcing closed system where escape attempts can tighten the submission?",
+      "answer": "Because the bottom player's own foot is hooked behind the opponent's head, the loop around the neck has no open end for the trapped player to slide out of by pulling backward. Any straight-back retreat by the top player pulls their throat deeper into the shin while the foot behind the head prevents the head from clearing the leg. The configuration therefore behaves like a noose whose far end is anchored, so linear resistance feeds the choke instead of relieving it. This closed-loop property is why escapes must attack the foot or change angles laterally rather than rely on strength or posture.",
+      "answer_line": "No open end, pulling back tightens",
+      "distractors": {
+        "plausible": [
+          "Grip strength decides the outcome",
+          "Only the shin bears the load"
+        ],
+        "trap": [
+          "Yank straight back to escape"
+        ]
+      }
+    },
+    {
+      "question": "How does Gogoplata Control differ from Triangle Control despite both being leg-based strangles from the same guard family?",
+      "answer": "A triangle uses the crook of the knee and the far leg to compress both carotids with the opponent's own shoulder trapped alongside their neck, whereas the gogoplata presses the shin bone directly across the front of the throat with no arm-in requirement. The triangle is a figure-four leg lock around the neck and one arm; the gogoplata is an open shin-across-windpipe hook that finishes without capturing an arm. Because the shin attacks the trachea rather than the carotids, the gogoplata trends toward an air choke while the triangle is primarily a blood choke. These distinct mechanics also explain why a failed gogoplata often flows into a triangle when the shin slips off the throat.",
+      "answer_line": "Shin on throat, no arm trapped",
+      "distractors": {
+        "plausible": [
+          "Both trap an arm the same way",
+          "Triangle uses the shin too"
+        ],
+        "trap": [
+          "Treat it as the same choke"
+        ]
+      }
+    },
+    {
+      "question": "Why does Gogoplata Control depend so heavily on the bottom player's flexibility compared to most guard control positions?",
+      "answer": "Threading a shin across the throat and pulling that same foot behind the opponent's head demands extreme hip external rotation and hamstring length to fold the leg into that deep loop. Positions like closed guard or side control rely on weight, framing, and grips that any body type can apply, but the gogoplata physically cannot be assembled without the requisite range of motion. This high mobility barrier is why the position is specialist-dependent and low-percentage for most practitioners rather than a universal tool. The flexibility requirement is therefore a defining structural property of the configuration, not merely a performance detail.",
+      "answer_line": "Needs extreme hip/hamstring range",
+      "distractors": {
+        "plausible": [
+          "Needs exceptional grip strength",
+          "Needs extra body weight"
+        ],
+        "trap": [
+          "Force it without flexibility work"
+        ]
+      }
+    },
+    {
+      "question": "Why is Gogoplata Control considered a submission-control hybrid rather than a distinct control-then-finish position?",
+      "answer": "In most positions a player first secures a stable controlling frame and only then begins hunting a submission from that platform, keeping the two phases separate. In the gogoplata the shin that provides control is the same shin that delivers the choke, so establishing the position simultaneously establishes the finishing pressure. There is no neutral holding phase where the opponent is controlled but safe; being trapped in the configuration means already being under submission threat. This inseparability of control and finish is the conceptual feature that most sharply distinguishes it from pin-based or grip-based control positions.",
+      "answer_line": "Same shin controls and finishes",
+      "distractors": {
+        "plausible": [
+          "Control comes before the finish",
+          "Finish needs releasing control"
+        ],
+        "trap": [
+          "Treat it as safe, static control"
+        ]
+      }
+    },
+    {
+      "question": "What role does control of the opponent's head and posture play in preventing this position from unraveling?",
+      "answer": "The loop only holds if the opponent's head stays trapped inside the shin-and-foot configuration, so the bottom player uses the hands to pull the foot deeper behind the head and keep the skull captured. If the opponent can extend and repost their head backward, the shin loses its downward angle and the foot hook loosens, letting the whole system slide apart. Breaking the opponent's posture forward is what originally allowed the leg to thread across in the first place, and maintaining that broken posture is what sustains it. Head control is thus the connective tissue linking the shin angle, the foot hook, and the elevated hips into one functioning unit.",
+      "answer_line": "Keep opponent's head captured",
+      "distractors": {
+        "plausible": [
+          "Control their far-side wrist",
+          "Flatten their hips to the mat"
+        ],
+        "trap": [
+          "Let them repost their head"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "X73jEbuUaxQ",
+      "title": "7 submissions from rubber guard",
+      "by": "Felipe Cavalcante",
+      "vertical": false,
+      "channel": "Felipe Cavalcante BJJ",
+      "duration": 51,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo explains rubber guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
+    }
+  ]
 }

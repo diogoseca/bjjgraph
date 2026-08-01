@@ -174,6 +174,43 @@ description: "Master attacking mechanics for the Reverse Scarf to Side Control t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Scarf to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Transitioning out of a failed kesa gatame",
+      "description": "Reverse Scarf to Side Control (Attacker) film study: Transitioning out of a failed kesa gatame, taught by ceedublyew.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2AiDW2rNJxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2AiDW2rNJxg",
+      "url": "https://www.youtube.com/watch?v=2AiDW2rNJxg",
+      "creator": { "@type": "Person", "name": "ceedublyew" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to scarf hold pin transition",
+      "description": "Reverse Scarf to Side Control (Attacker) film study: Side control to scarf hold pin transition, taught by Raven Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAKcSjzX4to/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAKcSjzX4to",
+      "url": "https://www.youtube.com/watch?v=aAKcSjzX4to",
+      "creator": { "@type": "Person", "name": "Raven Jiu Jitsu" },
+      "duration": "PT115S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 **From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Scarf to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2AiDW2rNJxg)
+
+<p class="clip-credit"><strong>Transitioning out of a failed kesa gatame</strong> — taught by ceedublyew · 0:47 · <a href="https://www.youtube.com/watch?v=2AiDW2rNJxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAKcSjzX4to)
+
+<p class="clip-credit"><strong>Side control to scarf hold pin transition</strong> — taught by Raven Jiu Jitsu · 1:55 · <a href="https://www.youtube.com/watch?v=aAKcSjzX4to" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to defend against Bow and Arrow Choke Setup in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and arrow choke escape",
+      "description": "Bow and Arrow Choke Setup (Defender) film study: Bow and arrow choke escape, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Iz0aesx6cKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Iz0aesx6cKk",
+      "url": "https://www.youtube.com/watch?v=Iz0aesx6cKk",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the bow and arrow choke",
+      "description": "Bow and Arrow Choke Setup (Defender) film study: Escaping the bow and arrow choke, taught by Revolution BJJ Ashland.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fEWUEDI_ng4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fEWUEDI_ng4",
+      "url": "https://www.youtube.com/watch?v=fEWUEDI_ng4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ Ashland" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bow and arrow defense drill \u2014 head and shoulder detail",
+      "description": "Bow and Arrow Choke Setup (Defender) film study: Bow and arrow defense drill \u2014 head and shoulder detail, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J91GRsql-ZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J91GRsql-ZA",
+      "url": "https://www.youtube.com/watch?v=J91GRsql-ZA",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Defenders must also recognize that the Bow and Arrow Setup exists within a broad
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Iz0aesx6cKk)
+
+<p class="clip-credit"><strong>Bow and arrow choke escape</strong> — taught by Revolution BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=Iz0aesx6cKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fEWUEDI_ng4)
+
+<p class="clip-credit"><strong>Escaping the bow and arrow choke</strong> — taught by Revolution BJJ Ashland · 1:13 · <a href="https://www.youtube.com/watch?v=fEWUEDI_ng4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J91GRsql-ZA)
+
+<p class="clip-credit"><strong>Bow and arrow defense drill — head and shoulder detail</strong> — taught by Henry Akins · 1:54 · <a href="https://www.youtube.com/watch?v=J91GRsql-ZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

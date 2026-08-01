@@ -136,6 +136,43 @@ description: "Defend against the Kimura from Knee Shield Half Guard. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Knee Shield Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the Kimura From Half Guard",
+      "description": "Kimura from Knee Shield Half Guard (Defender) film study: Counter the Kimura From Half Guard, taught by Troy Manning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JzYqwuH-Q0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JzYqwuH-Q0",
+      "url": "https://www.youtube.com/watch?v=_JzYqwuH-Q0",
+      "creator": { "@type": "Person", "name": "Troy Manning" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How To Defend the Kimura on Half Guard",
+      "description": "Kimura from Knee Shield Half Guard (Defender) film study: How To Defend the Kimura on Half Guard, taught by Francisco Lima.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2gJ7XDPyOLQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2gJ7XDPyOLQ",
+      "url": "https://www.youtube.com/watch?v=2gJ7XDPyOLQ",
+      "creator": { "@type": "Person", "name": "Francisco Lima" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +183,34 @@ Defending the Kimura from Knee Shield Half Guard requires early recognition and 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Knee Shield Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_JzYqwuH-Q0)
+
+<p class="clip-credit"><strong>Counter the Kimura From Half Guard</strong> — taught by Troy Manning · 0:51 · <a href="https://www.youtube.com/watch?v=_JzYqwuH-Q0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2gJ7XDPyOLQ)
+
+<p class="clip-credit"><strong>How To Defend the Kimura on Half Guard</strong> — taught by Francisco Lima · 1:54 · <a href="https://www.youtube.com/watch?v=2gJ7XDPyOLQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

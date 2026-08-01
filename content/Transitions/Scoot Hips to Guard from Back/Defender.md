@@ -140,6 +140,43 @@ description: "Counter the hip scoot escape from back control. Learn to maintain 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scoot Hips to Guard from Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back control escape explained simply",
+      "description": "Scoot Hips to Guard from Back (Defender) film study: Back control escape explained simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
+      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT189S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping back control, part 2",
+      "description": "Scoot Hips to Guard from Back (Defender) film study: Escaping back control, part 2, taught by Bruninho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GmFKotginx4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GmFKotginx4",
+      "url": "https://www.youtube.com/watch?v=GmFKotginx4",
+      "creator": { "@type": "Person", "name": "Bruninho" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 **Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scoot Hips to Guard from Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+
+<p class="clip-credit"><strong>Back control escape explained simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GmFKotginx4)
+
+<p class="clip-credit"><strong>Escaping back control, part 2</strong> — taught by Bruninho · 2:49 · <a href="https://www.youtube.com/watch?v=GmFKotginx4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

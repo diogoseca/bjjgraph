@@ -144,6 +144,43 @@ description: "How to defend against Reverse Armbar in BJJ. Recognition, escape p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Armbar from Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "My favorite armbar escape",
+      "description": "Reverse Armbar from Mount (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend an armbar",
+      "description": "Reverse Armbar from Mount (Defender) film study: How to defend an armbar, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CDpv10qYFLo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CDpv10qYFLo",
+      "url": "https://www.youtube.com/watch?v=CDpv10qYFLo",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the Reverse Armbar requires a fundamentally different approach than de
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Armbar from Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CDpv10qYFLo)
+
+<p class="clip-credit"><strong>How to defend an armbar</strong> — taught by Gordon Ryan · 4:34 · <a href="https://www.youtube.com/watch?v=CDpv10qYFLo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

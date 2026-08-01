@@ -34,6 +34,43 @@ description: "Master the Outside to Ushiro Ashi-Garami transition. Complete guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside to Ushiro Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top Ushiro to Kneebar entry",
+      "description": "Outside to Ushiro Ashi film study: Top Ushiro to Kneebar entry, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g3j7TZYoW14/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/g3j7TZYoW14",
+      "url": "https://www.youtube.com/watch?v=g3j7TZYoW14",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT115S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "V Grip From Top Ushiro Transition",
+      "description": "Outside to Ushiro Ashi film study: V Grip From Top Ushiro Transition, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
+      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, mastering Outside to Ushiro Ashi forces opponents to abandon inve
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside to Ushiro Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=g3j7TZYoW14)
+
+<p class="clip-credit"><strong>Top Ushiro to Kneebar entry</strong> — taught by Modesto Judo Club · 1:55 · <a href="https://www.youtube.com/watch?v=g3j7TZYoW14" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+
+<p class="clip-credit"><strong>V Grip From Top Ushiro Transition</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

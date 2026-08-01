@@ -375,7 +375,7 @@ The guillotine system requires isolation drilling of individual components befor
 - [[Guillotine Choke]] (Submission) - Primary submission finish of the system
 - [[High Elbow Guillotine]] (Submission) - Core finishing variation with optimal mechanics
 - [[Arm in Guillotine]] (Submission) - Alternative finish when opponent's posture is broken
-- [[Chin Strap Guillotine]] (Submission) - Grip variation providing additional control and finishing options within the system
+- [[Chin Strap Guillotine from Front Headlock]] (Submission) - Grip variation providing additional control and finishing options within the system
 - [[Darce Choke]] (Submission) - Related front headlock submission with similar entry patterns
 - [[Anaconda Choke]] (Submission) - Complementary front headlock submission sharing similar control positions
 - [[Grips]] (Principle) - Essential skill for establishing and maintaining guillotine grips

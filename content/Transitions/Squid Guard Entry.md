@@ -34,6 +34,43 @@ description: "Learn Squid Guard Entry in BJJ. Step-by-step lapel wrap around opp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Squid Guard Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Squid guard entry against a standing opponent",
+      "description": "Squid Guard Entry film study: Squid guard entry against a standing opponent, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mIUc5788gsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mIUc5788gsw",
+      "url": "https://www.youtube.com/watch?v=mIUc5788gsw",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Squid guard to switch X guard sweep",
+      "description": "Squid Guard Entry film study: Squid guard to switch X guard sweep, taught by BJJ Online.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MrhKi486Wr4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MrhKi486Wr4",
+      "url": "https://www.youtube.com/watch?v=MrhKi486Wr4",
+      "creator": { "@type": "Person", "name": "BJJ Online" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The strategic value of squid guard lies in its ability to shut down pressure pas
 From a systems perspective, squid guard serves as both an offensive platform and a defensive refuge. When worm guard configurations are being cleared, transitioning to squid guard maintains lapel control while changing the control point. The arm wrap also opens unique submission pathways including omoplata entries and triangle setups that exploit the opponent's compromised posture. Mastery of squid guard entry dramatically expands your lapel guard game by adding a complementary configuration that addresses worm guard's weaknesses.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 10%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Squid Guard Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mIUc5788gsw)
+
+<p class="clip-credit"><strong>Squid guard entry against a standing opponent</strong> — taught by Adam Bradley · 0:56 · <a href="https://www.youtube.com/watch?v=mIUc5788gsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MrhKi486Wr4)
+
+<p class="clip-credit"><strong>Squid guard to switch X guard sweep</strong> — taught by BJJ Online · 1:17 · <a href="https://www.youtube.com/watch?v=MrhKi486Wr4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

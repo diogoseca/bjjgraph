@@ -34,6 +34,43 @@ description: "Master leg drag to north-south transition in BJJ. Consolidate cont
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to North-South \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag pass mechanics",
+      "description": "Leg Drag to North-South film study: Leg drag pass mechanics, taught by Procel BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8VT4dxSqCvI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8VT4dxSqCvI",
+      "url": "https://www.youtube.com/watch?v=8VT4dxSqCvI",
+      "creator": { "@type": "Person", "name": "Procel BJJ coach" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toreando pass into north-south",
+      "description": "Leg Drag to North-South film study: Toreando pass into north-south, taught by Jay Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aRpubM-K7Gc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aRpubM-K7Gc",
+      "url": "https://www.youtube.com/watch?v=aRpubM-K7Gc",
+      "creator": { "@type": "Person", "name": "Jay Rodriguez" },
+      "duration": "PT165S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This transition exploits a fundamental positional reality: when opponents focus 
 From a systematic perspective, the leg drag to north-south fills an essential gap in the leg drag passing system. Without this option, determined defenders can effectively stall the leg drag position by maintaining strong shoulder frames and preventing the standard consolidation pathways. Adding north-south as a tertiary option creates a complete dilemma system: defend the back take, defend the mount, or defend north-south—but defending all three simultaneously becomes mechanically impossible. This transition is particularly effective against opponents who have strong frames but less mobile hips, as it punishes static defensive structures.
 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 53%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to North-South in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8VT4dxSqCvI)
+
+<p class="clip-credit"><strong>Leg drag pass mechanics</strong> — taught by Procel BJJ coach · 1:34 · <a href="https://www.youtube.com/watch?v=8VT4dxSqCvI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aRpubM-K7Gc)
+
+<p class="clip-credit"><strong>Toreando pass into north-south</strong> — taught by Jay Rodriguez · 2:45 · <a href="https://www.youtube.com/watch?v=aRpubM-K7Gc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -243,7 +308,7 @@ The leg drag to north-south transition serves as the third leg of a complete leg
 
 - [[Transitions/Leg Drag to Knee on Belly]] - Alternative pressure option from leg drag
 
-- [[Transitions/North-South Choke]] - High-percentage choke available upon consolidation
+- [[Submissions/North-South Choke]] - High-percentage choke available upon consolidation
 
 - [[Transitions/North-South Escape]] - Defender's primary escape technique from target position
 

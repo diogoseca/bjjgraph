@@ -148,6 +148,54 @@ description: "Learn to maintain rear triangle control when opponent attempts pos
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Defense from Rear Triangle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Entries into the rear triangle back position",
+      "description": "Posture Defense from Rear Triangle (Defender) film study: Entries into the rear triangle back position, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Python back triangle system",
+      "description": "Posture Defense from Rear Triangle (Defender) film study: The Python back triangle system, taught by Mint Flow Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BLouv3W29lg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BLouv3W29lg",
+      "url": "https://www.youtube.com/watch?v=BLouv3W29lg",
+      "creator": { "@type": "Person", "name": "Mint Flow Jiu-Jitsu" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back triangle choke",
+      "description": "Posture Defense from Rear Triangle (Defender) film study: Back triangle choke, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMJHL8SXlA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMJHL8SXlA",
+      "url": "https://www.youtube.com/watch?v=-lMJHL8SXlA",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the rear triangle top player, your opponent's posture defense represents the 
 **Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Defense from Rear Triangle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries into the rear triangle back position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BLouv3W29lg)
+
+<p class="clip-credit"><strong>The Python back triangle system</strong> — taught by Mint Flow Jiu-Jitsu · 1:00 · <a href="https://www.youtube.com/watch?v=BLouv3W29lg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMJHL8SXlA)
+
+<p class="clip-credit"><strong>Back triangle choke</strong> — taught by Dr. Deng · 0:23 · <a href="https://www.youtube.com/watch?v=-lMJHL8SXlA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

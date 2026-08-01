@@ -148,6 +148,54 @@ description: "How to defend and counter the transition from Kesa Gatame to Modif
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame to Modified Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure kesa gatame escapes",
+      "description": "Kesa Gatame to Modified Scarf Hold (Defender) film study: Kuzure kesa gatame escapes, taught by Kodokan instructor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-zFQ6h4yKT4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-zFQ6h4yKT4",
+      "url": "https://www.youtube.com/watch?v=-zFQ6h4yKT4",
+      "creator": { "@type": "Person", "name": "Kodokan instructor" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa gatame escape",
+      "description": "Kesa Gatame to Modified Scarf Hold (Defender) film study: Kesa gatame escape, taught by SBG Australia coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia coach" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa gatame back door escape",
+      "description": "Kesa Gatame to Modified Scarf Hold (Defender) film study: Kesa gatame back door escape, taught by 5am Birds of War coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OYmQpzNmvF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OYmQpzNmvF4",
+      "url": "https://www.youtube.com/watch?v=OYmQpzNmvF4",
+      "creator": { "@type": "Person", "name": "5am Birds of War coach" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against this transition, you face a critical decision window. Th
 **Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame to Modified Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-zFQ6h4yKT4)
+
+<p class="clip-credit"><strong>Kuzure kesa gatame escapes</strong> — taught by Kodokan instructor · 1:10 · <a href="https://www.youtube.com/watch?v=-zFQ6h4yKT4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by SBG Australia coach · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OYmQpzNmvF4)
+
+<p class="clip-credit"><strong>Kesa gatame back door escape</strong> — taught by 5am Birds of War coach · 0:25 · <a href="https://www.youtube.com/watch?v=OYmQpzNmvF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

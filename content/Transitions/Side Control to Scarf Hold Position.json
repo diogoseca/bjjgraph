@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Scarf Hold Position/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "The Transition to Scarf Hold Position is a fundamental positional shift from standard Side Control into the perpendicular pinning configuration known as Kesa Gatame. This transition involves rotating your body roughly 90 degrees so that you sit hip-to-hip against the opponent's ribcage while simultaneously isolating their near arm and wrapping their head. The movement changes the force vectors applied to the bottom player from parallel chest pressure to perpendicular hip-driven compression, which negates standard side control escape mechanics and opens distinct submission pathways including americana, kimura, and arm triangle variations.\n\nStrategically, this transition is most effective when the bottom player is actively defending standard side control attacks or attempting guard recovery. Their defensive frames and hip escapes, designed for parallel pressure, become largely ineffective against the perpendicular angle. The transition also serves as a platform for advancing to mount when the bottom player reacts to the scarf hold pressure by turning away, or retreating to north-south when they attempt to sit up. The key mechanical detail is maintaining continuous chest contact throughout the rotation so the bottom player cannot insert frames or recover guard during the positional shift.\n\nAt the purple and brown belt level, this transition becomes a deliberate strategic choice rather than an accidental position. Understanding when to shift from standard side control crossface pressure to the perpendicular scarf hold angle allows you to break stalemates against strong defensive bottom players and create new submission threats that were unavailable from the parallel configuration.",
   "conditions": [
     "Established side control with stable crossface and hip control",
@@ -250,50 +262,189 @@
     "flashcards": [
       {
         "question": "What is the critical body contact requirement during the hip rotation phase of this transition?",
-        "answer": "You must maintain continuous chest-to-chest contact throughout the entire rotation. The pivot should occur around the axis of the opponent's trapped arm, with your chest sliding across their torso rather than lifting off. Any separation during the rotation creates a window for the opponent to insert frames, hip escape, or recover guard. The movement is a controlled slide, not a lift-and-replace."
+        "answer": "You must maintain continuous chest-to-chest contact throughout the entire rotation. The pivot should occur around the axis of the opponent's trapped arm, with your chest sliding across their torso rather than lifting off. Any separation during the rotation creates a window for the opponent to insert frames, hip escape, or recover guard. The movement is a controlled slide, not a lift-and-replace.",
+        "answer_line": "Maintain chest-to-chest contact",
+        "distractors": {
+          "plausible": [
+            "Lift hips to reposition faster",
+            "Keep head pressure, hips light"
+          ],
+          "trap": [
+            "Pop up to speed through rotation"
+          ]
+        }
       },
       {
         "question": "Your opponent begins framing on your hip as you initiate the hip switch - how do you adjust?",
-        "answer": "Accelerate the rotation to get your hip past their frame before it becomes fully established. Simultaneously use your near arm to strip their framing hand while driving forward pressure with your chest to flatten them. If the frame is already solid, abort the transition and return to standard side control crossface before they can exploit the compromised position. Never fight a fully established frame during mid-transition."
+        "answer": "Accelerate the rotation to get your hip past their frame before it becomes fully established. Simultaneously use your near arm to strip their framing hand while driving forward pressure with your chest to flatten them. If the frame is already solid, abort the transition and return to standard side control crossface before they can exploit the compromised position. Never fight a fully established frame during mid-transition.",
+        "answer_line": "Speed rotation, strip their hand",
+        "distractors": {
+          "plausible": [
+            "Fight the frame with strength",
+            "Push through, ignore the frame"
+          ],
+          "trap": [
+            "Force scarf despite solid frame"
+          ]
+        }
       },
       {
         "question": "Why must the opponent's near arm be isolated before initiating the hip rotation?",
-        "answer": "The near arm serves as the primary control anchor in scarf hold. If it is not isolated before rotating, the opponent can use it to frame against your hip or shoulder during the transition, preventing completion. Additionally, the trapped arm becomes the foundation of scarf hold control, and attempting to isolate it after rotating is significantly harder because your body position has changed and the opponent is aware of your intention."
+        "answer": "The near arm serves as the primary control anchor in scarf hold. If it is not isolated before rotating, the opponent can use it to frame against your hip or shoulder during the transition, preventing completion. Additionally, the trapped arm becomes the foundation of scarf hold control, and attempting to isolate it after rotating is significantly harder because your body position has changed and the opponent is aware of your intention.",
+        "answer_line": "Arm control prevents hip framing",
+        "distractors": {
+          "plausible": [
+            "Isolate after rotating instead",
+            "Isolate arm to set up americana"
+          ],
+          "trap": [
+            "Skip arm control, rotate first"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for attempting this transition during a side control exchange?",
-        "answer": "The best timing is when the opponent is recovering from a failed escape attempt or defending a submission threat. After a bridge-and-shrimp fails and they return flat, they have a brief recovery window where their defensive structure is reset. Similarly, when defending an americana or kimura from side control, their arms are occupied, creating the opportunity to isolate the near arm and initiate rotation without interference."
+        "answer": "The best timing is when the opponent is recovering from a failed escape attempt or defending a submission threat. After a bridge-and-shrimp fails and they return flat, they have a brief recovery window where their defensive structure is reset. Similarly, when defending an americana or kimura from side control, their arms are occupied, creating the opportunity to isolate the near arm and initiate rotation without interference.",
+        "answer_line": "After failed escape or sub defense",
+        "distractors": {
+          "plausible": [
+            "Right after side control starts",
+            "When opponent is flat and calm"
+          ],
+          "trap": [
+            "Attempt mid-bridge, not after"
+          ]
+        }
       },
       {
         "question": "How does the direction of force change between standard side control and scarf hold, and why does this matter?",
-        "answer": "In standard side control, force is applied parallel to the opponent's body through chest-on-chest pressure directed downward. In scarf hold, force is applied perpendicularly through hip-on-ribs compression from the side. This matters because the bottom player's standard escape mechanics, particularly lateral hip escapes, are designed to counter parallel pressure. The perpendicular angle of scarf hold negates these escapes, forcing the bottom player to adopt bridge-and-roll mechanics they may be less proficient at."
+        "answer": "In standard side control, force is applied parallel to the opponent's body through chest-on-chest pressure directed downward. In scarf hold, force is applied perpendicularly through hip-on-ribs compression from the side. This matters because the bottom player's standard escape mechanics, particularly lateral hip escapes, are designed to counter parallel pressure. The perpendicular angle of scarf hold negates these escapes, forcing the bottom player to adopt bridge-and-roll mechanics they may be less proficient at.",
+        "answer_line": "Scarf uses perpendicular pressure",
+        "distractors": {
+          "plausible": [
+            "Both apply pressure the same way",
+            "Scarf uses parallel chest pressure"
+          ],
+          "trap": [
+            "Angle doesn't affect their escapes"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent successfully extracts their near arm during the transition?",
-        "answer": "Do not chase the extracted arm. Instead, immediately switch to modified scarf hold by diving your near arm to an underhook position on their far shoulder, which provides different but equally effective control. Alternatively, return to standard side control crossface and re-establish full control before attempting the transition again. Chasing a free arm during mid-transition leaves you in a compromised position with neither proper side control nor proper scarf hold."
+        "answer": "Do not chase the extracted arm. Instead, immediately switch to modified scarf hold by diving your near arm to an underhook position on their far shoulder, which provides different but equally effective control. Alternatively, return to standard side control crossface and re-establish full control before attempting the transition again. Chasing a free arm during mid-transition leaves you in a compromised position with neither proper side control nor proper scarf hold.",
+        "answer_line": "Switch to underhook, don't chase",
+        "distractors": {
+          "plausible": [
+            "Chase the arm to re-isolate it",
+            "Push through to finish scarf hold"
+          ],
+          "trap": [
+            "Abandon control to reset position"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bridge-and-roll escape immediately after completing the transition?",
-        "answer": "Widen your base by extending your far leg behind you and keeping your near knee tight to their hip. The bridge-and-roll requires the bottom player to trap your far arm and roll you over your shoulder. Prevent this by keeping your head-wrapping arm mobile and never allowing it to be pinned against their chest. Drive your hip pressure deeper into their ribs during the bridge to make elevating you nearly impossible, and ride the movement rather than posting on your hands."
+        "answer": "Widen your base by extending your far leg behind you and keeping your near knee tight to their hip. The bridge-and-roll requires the bottom player to trap your far arm and roll you over your shoulder. Prevent this by keeping your head-wrapping arm mobile and never allowing it to be pinned against their chest. Drive your hip pressure deeper into their ribs during the bridge to make elevating you nearly impossible, and ride the movement rather than posting on your hands.",
+        "answer_line": "Wide base, keep near knee tight",
+        "distractors": {
+          "plausible": [
+            "Post on hands to stop the roll",
+            "Keep head arm pinned to chest"
+          ],
+          "trap": [
+            "Let them trap your far arm free"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are needed when performing this transition in no-gi versus gi?",
-        "answer": "In gi, the head control arm can grip the far collar for a strong anchor, and the arm isolation can use sleeve or lapel material for enhanced grip. In no-gi, the head wrap relies on a gable grip or clasping behind the neck, which is less secure. The arm isolation uses a deep C-grip above the elbow or an overhook. In no-gi, the transition must be executed more quickly because grips are less reliable, and the consolidation phase requires immediately driving hip pressure to compensate for reduced grip security."
+        "answer": "In gi, the head control arm can grip the far collar for a strong anchor, and the arm isolation can use sleeve or lapel material for enhanced grip. In no-gi, the head wrap relies on a gable grip or clasping behind the neck, which is less secure. The arm isolation uses a deep C-grip above the elbow or an overhook. In no-gi, the transition must be executed more quickly because grips are less reliable, and the consolidation phase requires immediately driving hip pressure to compensate for reduced grip security.",
+        "answer_line": "No-gi: gable grip, move faster",
+        "distractors": {
+          "plausible": [
+            "No-gi grips are more secure",
+            "Gi tempo should be slower too"
+          ],
+          "trap": [
+            "Rely on no-gi grips, go slow"
+          ]
+        }
       },
       {
         "question": "Your opponent is successfully defending standard side control attacks and you cannot advance to mount - what entry conditions favor switching to this scarf hold transition?",
-        "answer": "The scarf hold transition is favored when the opponent is using strong lateral frames and hip escapes that effectively counter parallel side control pressure but would be neutralized by the perpendicular angle. Look for the opponent's near arm extended in a frame position, as this makes it accessible for isolation. Their defensive focus on preventing mount advancement often leaves them unprepared for the lateral rotation. The transition is also strong when you have already established a deep crossface that controls their head direction, since you can convert that crossface into the head wrap during rotation."
+        "answer": "The scarf hold transition is favored when the opponent is using strong lateral frames and hip escapes that effectively counter parallel side control pressure but would be neutralized by the perpendicular angle. Look for the opponent's near arm extended in a frame position, as this makes it accessible for isolation. Their defensive focus on preventing mount advancement often leaves them unprepared for the lateral rotation. The transition is also strong when you have already established a deep crossface that controls their head direction, since you can convert that crossface into the head wrap during rotation.",
+        "answer_line": "Lateral frames + exposed near arm",
+        "distractors": {
+          "plausible": [
+            "Any stalling scramble works fine",
+            "Only after mount is nearly secured"
+          ],
+          "trap": [
+            "Rotate even with arm tucked tight"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement detail that separates a successful transition from one that creates escape opportunities?",
-        "answer": "The hips must swing in a single committed arc that keeps your pelvis in contact with the mat and the opponent's torso throughout. The most common failure is lifting the hips vertically during the rotation, which creates a gap between your body and theirs. Instead, imagine your hip tracing a quarter-circle along the mat surface, pivoting around the opponent's trapped arm as the axis point. The pelvis should arrive against their ribs with downward momentum already established, so the consolidation pressure is immediate rather than requiring a separate settling phase."
+        "answer": "The hips must swing in a single committed arc that keeps your pelvis in contact with the mat and the opponent's torso throughout. The most common failure is lifting the hips vertically during the rotation, which creates a gap between your body and theirs. Instead, imagine your hip tracing a quarter-circle along the mat surface, pivoting around the opponent's trapped arm as the axis point. The pelvis should arrive against their ribs with downward momentum already established, so the consolidation pressure is immediate rather than requiring a separate settling phase.",
+        "answer_line": "Arc hips along mat, no lifting",
+        "distractors": {
+          "plausible": [
+            "Lift hips vertically for power",
+            "Rotate quickly, pressure later"
+          ],
+          "trap": [
+            "Pop hips up then drop down hard"
+          ]
+        }
       },
       {
         "question": "How do you chain this transition with a submission threat to create a dilemma for the bottom player?",
-        "answer": "Initiate an americana attack on the near arm from standard side control. The opponent must defend by pulling their elbow tight and turning their arm inward. This defensive reaction actually pre-isolates the arm in the exact configuration needed for scarf hold entry. As they commit to the americana defense, use the opportunity to thread your arm deeper under theirs and begin the hip rotation. The opponent faces a dilemma: release the americana defense and risk the submission, or maintain the defense and allow you to complete the transition to scarf hold where the arm is already trapped in an even more compromised position."
+        "answer": "Initiate an americana attack on the near arm from standard side control. The opponent must defend by pulling their elbow tight and turning their arm inward. This defensive reaction actually pre-isolates the arm in the exact configuration needed for scarf hold entry. As they commit to the americana defense, use the opportunity to thread your arm deeper under theirs and begin the hip rotation. The opponent faces a dilemma: release the americana defense and risk the submission, or maintain the defense and allow you to complete the transition to scarf hold where the arm is already trapped in an even more compromised position.",
+        "answer_line": "Americana threat pre-isolates arm",
+        "distractors": {
+          "plausible": [
+            "Finish americana before rotating",
+            "Attack far arm to distract them"
+          ],
+          "trap": [
+            "Release the arm to bait a reaction"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and chest, which can restrict breathing. Be attentive to your training partner's breathing and tap signals throughout. When drilling, apply pressure gradually rather than dropping full weight immediately. Avoid cranking the head wrap aggressively, as excessive neck torque can cause cervical strain. During live training, be prepared to release pressure if your partner signals distress, and communicate clearly about intensity levels before beginning positional drilling."
+    "safety_considerations": "This transition involves significant pressure on the opponent's ribcage and chest, which can restrict breathing. Be attentive to your training partner's breathing and tap signals throughout. When drilling, apply pressure gradually rather than dropping full weight immediately. Avoid cranking the head wrap aggressively, as excessive neck torque can cause cervical strain. During live training, be prepared to release pressure if your partner signals distress, and communicate clearly about intensity levels before beginning positional drilling.",
+    "clips": [
+      {
+        "id": "SzLuqtw6lpE",
+        "title": "Side control to scarf hold position",
+        "by": "TRITAC Martial Arts",
+        "vertical": false,
+        "channel": "TRITAC Martial Arts",
+        "duration": 104,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "Kesa gatame attack series",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JAB5RcnA7ds",
+        "title": "Kubi nage throw into kesa gatame",
+        "by": "JBBA Judo Education",
+        "vertical": false,
+        "channel": "JBBA Judo Education Channel",
+        "duration": 137,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Scarf Hold Position Defender",
@@ -379,19 +530,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning to scarf hold from side control?",
-        "answer": "The earliest cue is feeling the opponent thread their near arm underneath your near arm, gripping above your elbow or on your tricep. This arm isolation is the prerequisite for scarf hold and occurs before the hip rotation. The second cue is the head control switch from crossface to head wrap. Recognizing the arm thread gives you the maximum response window before the transition advances to the point where defense becomes significantly harder."
+        "answer": "The earliest cue is feeling the opponent thread their near arm underneath your near arm, gripping above your elbow or on your tricep. This arm isolation is the prerequisite for scarf hold and occurs before the hip rotation. The second cue is the head control switch from crossface to head wrap. Recognizing the arm thread gives you the maximum response window before the transition advances to the point where defense becomes significantly harder.",
+        "answer_line": "Feel their arm thread under yours",
+        "distractors": {
+          "plausible": [
+            "Feel their hips shift wide",
+            "See their head wrap change first"
+          ],
+          "trap": [
+            "Wait for hip rotation to react"
+          ]
+        }
       },
       {
         "question": "Why is defending during the transition more effective than escaping after scarf hold is established?",
-        "answer": "During the transition, the opponent's base is compromised as their weight shifts and their body rotates. This momentary instability makes frames and hip escapes highly effective. Once scarf hold is consolidated, the perpendicular angle negates lateral escape mechanics, the arm is fully trapped, and the crushing hip pressure restricts movement. The transition window represents a 2-3 second period of vulnerability that becomes a fully established pin if you miss it."
+        "answer": "During the transition, the opponent's base is compromised as their weight shifts and their body rotates. This momentary instability makes frames and hip escapes highly effective. Once scarf hold is consolidated, the perpendicular angle negates lateral escape mechanics, the arm is fully trapped, and the crushing hip pressure restricts movement. The transition window represents a 2-3 second period of vulnerability that becomes a fully established pin if you miss it.",
+        "answer_line": "Their base is unstable mid-move",
+        "distractors": {
+          "plausible": [
+            "Easier to escape once locked in",
+            "Both windows are equally vulnerable"
+          ],
+          "trap": [
+            "Wait until scarf is locked in first"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun rotating their hips but hasn't completed the scarf hold - what is your highest-percentage defensive action?",
-        "answer": "Frame hard on their rotating hip with your far arm and execute an aggressive hip escape toward the space opening on your far side. The hip switch creates a momentary gap between their body and yours on the side opposite the rotation. By shrimping into that space immediately, you can insert your knee and recover to half guard before the perpendicular angle is established. The key is committing to the hip escape explosively rather than waiting to see if the rotation completes."
+        "answer": "Frame hard on their rotating hip with your far arm and execute an aggressive hip escape toward the space opening on your far side. The hip switch creates a momentary gap between their body and yours on the side opposite the rotation. By shrimping into that space immediately, you can insert your knee and recover to half guard before the perpendicular angle is established. The key is committing to the hip escape explosively rather than waiting to see if the rotation completes.",
+        "answer_line": "Frame hip, shrimp to far space",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up immediately",
+            "Wait to see if rotation completes"
+          ],
+          "trap": [
+            "Turn away, expose your back"
+          ]
+        }
       },
       {
         "question": "How should your escape strategy differ once the scarf hold is fully consolidated compared to during the transition?",
-        "answer": "During the transition, use lateral hip escapes and arm extraction since the parallel angle still permits these. Once consolidated, lateral shrimping becomes ineffective due to the perpendicular angle. Switch to bridge-and-roll mechanics by trapping their far arm and rolling them over their shoulder. Alternatively, work backdoor escapes by turning into them when they shift weight forward. The fundamental mechanical difference is rotation versus lateral movement as your primary escape direction."
+        "answer": "During the transition, use lateral hip escapes and arm extraction since the parallel angle still permits these. Once consolidated, lateral shrimping becomes ineffective due to the perpendicular angle. Switch to bridge-and-roll mechanics by trapping their far arm and rolling them over their shoulder. Alternatively, work backdoor escapes by turning into them when they shift weight forward. The fundamental mechanical difference is rotation versus lateral movement as your primary escape direction.",
+        "answer_line": "Shrimp early, bridge-roll later",
+        "distractors": {
+          "plausible": [
+            "Bridge-roll works in both phases",
+            "Shrimp works after consolidation"
+          ],
+          "trap": [
+            "Stall and wait for opponent tired"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -414,6 +605,35 @@
         "phase": "Phase 4: Recovery Chain Training",
         "focus": "Escaping when defense fails and scarf hold is established",
         "description": "Partner successfully establishes scarf hold. Practice the complete escape sequence from consolidated scarf hold including bridge-and-roll, backdoor escape to turtle, and guard recovery. Build contingency skills for when the transition defense fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "C98ztdlur4E",
+        "title": "Escape kesa gatame with bridge and roll",
+        "by": "Judo Life instructor",
+        "vertical": false,
+        "channel": "Judo Life",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "dQQby7IUiDA",
+        "title": "How to escape the kesa gatame hold",
+        "by": "Andy Ede",
+        "vertical": false,
+        "channel": "WESTCROFT JUDO CLUB - ANDY EDE",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fOEaHj3d0l8",
+        "title": "Kesa gatame escape",
+        "by": "Modesto Judo Club instructor",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 52,
+        "verified": "2026-07-15"
       }
     ]
   }

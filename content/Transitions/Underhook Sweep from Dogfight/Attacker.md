@@ -180,6 +180,43 @@ description: "Execute the Underhook Sweep from Dogfight to reverse position in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Sweep from Dogfight (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield to underhook to dogfight knee tap",
+      "description": "Underhook Sweep from Dogfight (Attacker) film study: Knee shield to underhook to dogfight knee tap, taught by Kaboom BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K7U2uBUfq-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K7U2uBUfq-c",
+      "url": "https://www.youtube.com/watch?v=K7U2uBUfq-c",
+      "creator": { "@type": "Person", "name": "Kaboom BJJ coach" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dogfight basics and the old school sweep",
+      "description": "Underhook Sweep from Dogfight (Attacker) film study: Dogfight basics and the old school sweep, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fjDBmFzfhgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fjDBmFzfhgI",
+      "url": "https://www.youtube.com/watch?v=fjDBmFzfhgI",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the attacker executing the Underhook Sweep from Dogfight, you are the bottom 
 **From Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Sweep from Dogfight (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K7U2uBUfq-c)
+
+<p class="clip-credit"><strong>Knee shield to underhook to dogfight knee tap</strong> — taught by Kaboom BJJ coach · 2:09 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fjDBmFzfhgI)
+
+<p class="clip-credit"><strong>Dogfight basics and the old school sweep</strong> — taught by Brandon McCaghren · 2:25 · <a href="https://www.youtube.com/watch?v=fjDBmFzfhgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

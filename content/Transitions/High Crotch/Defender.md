@@ -148,6 +148,54 @@ description: "How to defend against High Crotch takedown in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Crotch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High crotch sprawl for BJJ",
+      "description": "High Crotch (Defender) film study: High crotch sprawl for BJJ, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s8HuRLm50c8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s8HuRLm50c8",
+      "url": "https://www.youtube.com/watch?v=s8HuRLm50c8",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg curl sprawl against the high-C",
+      "description": "High Crotch (Defender) film study: Leg curl sprawl against the high-C, taught by Jason Nolf.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p9PDDr18bqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p9PDDr18bqs",
+      "url": "https://www.youtube.com/watch?v=p9PDDr18bqs",
+      "creator": { "@type": "Person", "name": "Jason Nolf" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front headlock high-C drag defense",
+      "description": "High Crotch (Defender) film study: Front headlock high-C drag defense, taught by Cary Kolat.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aOWEmGtMDHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aOWEmGtMDHQ",
+      "url": "https://www.youtube.com/watch?v=aOWEmGtMDHQ",
+      "creator": { "@type": "Person", "name": "Cary Kolat" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The key defensive principle is that earlier recognition leads to easier defense.
 **Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Crotch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s8HuRLm50c8)
+
+<p class="clip-credit"><strong>High crotch sprawl for BJJ</strong> — taught by Factory Fresh Jiu Jitsu · 0:59 · <a href="https://www.youtube.com/watch?v=s8HuRLm50c8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p9PDDr18bqs)
+
+<p class="clip-credit"><strong>Leg curl sprawl against the high-C</strong> — taught by Jason Nolf · 1:23 · <a href="https://www.youtube.com/watch?v=p9PDDr18bqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aOWEmGtMDHQ)
+
+<p class="clip-credit"><strong>Front headlock high-C drag defense</strong> — taught by Cary Kolat · 1:15 · <a href="https://www.youtube.com/watch?v=aOWEmGtMDHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

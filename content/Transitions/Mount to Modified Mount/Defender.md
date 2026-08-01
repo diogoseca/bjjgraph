@@ -126,6 +126,43 @@ description: "Defend against the Mount to Modified Mount transition in BJJ. Lear
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount to Modified Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified mount escape",
+      "description": "Mount to Modified Mount (Defender) film study: Modified mount escape, taught by Pathfinder Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3AMEkhiCU1A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3AMEkhiCU1A",
+      "url": "https://www.youtube.com/watch?v=3AMEkhiCU1A",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu coach" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape when you can\u0027t get out",
+      "description": "Mount to Modified Mount (Defender) film study: Mount escape when you can\u0027t get out, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -135,6 +172,34 @@ Defending Mount to Modified Mount means disrupting the transition during the bri
 **Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount to Modified Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3AMEkhiCU1A)
+
+<p class="clip-credit"><strong>Modified mount escape</strong> — taught by Pathfinder Jiu-Jitsu coach · 0:20 · <a href="https://www.youtube.com/watch?v=3AMEkhiCU1A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Mount escape when you can&#39;t get out</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The gift wrap in 2 minutes",
+      "description": "Gift Wrap film study: The gift wrap in 2 minutes, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
+      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT112S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift wrap backtake (intro)",
+      "description": "Gift Wrap film study: Gift wrap backtake (intro), taught by BJJ Lab Zurich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EOv5GYpUYDw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EOv5GYpUYDw",
+      "url": "https://www.youtube.com/watch?v=EOv5GYpUYDw",
+      "creator": { "@type": "Person", "name": "BJJ Lab Zurich" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "3 back takes from mount using the gift wrap",
+      "description": "Gift Wrap film study: 3 back takes from mount using the gift wrap, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UIWX13Sx-zw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UIWX13Sx-zw",
+      "url": "https://www.youtube.com/watch?v=UIWX13Sx-zw",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT224S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ The position is particularly effective in no-gi grappling where traditional coll
 Understanding the Gift Wrap requires recognizing it as part of a larger back attack system. It connects naturally to other back control variations including the body triangle, truck position, and standard back mount. The ability to flow between these positions while maintaining the Gift Wrap's arm control creates a comprehensive attacking system that is difficult to escape from.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+
+<p class="clip-credit"><strong>The gift wrap in 2 minutes</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EOv5GYpUYDw)
+
+<p class="clip-credit"><strong>Gift wrap backtake (intro)</strong> — taught by BJJ Lab Zurich · 1:09 · <a href="https://www.youtube.com/watch?v=EOv5GYpUYDw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UIWX13Sx-zw)
+
+<p class="clip-credit"><strong>3 back takes from mount using the gift wrap</strong> — taught by MMA Leech · 3:44 · <a href="https://www.youtube.com/watch?v=UIWX13Sx-zw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -141,19 +225,19 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Transitions/Gift Wrap Arm Recovery/Attacker|Gift Wrap Arm Recovery]]** (28% of attempts)
+- **[[Transitions/Gift Wrap Arm Recovery/Attacker|Gift Wrap Arm Recovery]]** (22% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (15% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (14% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (4% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (15% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (16% of attempts)
 
-- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (12% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks/Attacker|Elbow Escape to Remove Hooks]]** (11% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (8% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -214,31 +298,29 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (30% of attempts)
+- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (25% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (7% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (11% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (13% of attempts)
 
 - **[[Transitions/Short Choke Attack/Attacker|Short Choke Attack]]** (6% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (5% of attempts)
+- **[[Transitions/Bow and Arrow Choke Setup/Attacker|Bow and Arrow Choke Setup]]** (0% of attempts)
 
-- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (6% of attempts)
+- **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (10% of attempts)
 
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (8% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Transitions/Kimura on Trapped Arm/Attacker|Kimura on Trapped Arm]]** (7% of attempts)
+- **[[Transitions/Kimura on Trapped Arm/Attacker|Kimura on Trapped Arm]]** (9% of attempts)
 
-- **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (2% of attempts)
+- **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (10% of attempts)
 
-- **[[Submissions/Gift Wrap Armbar/Attacker|Gift Wrap Armbar]]** (2% of attempts)
+- **[[Gift Wrap Armbar from Gift Wrap/Attacker|Gift Wrap Armbar from Gift Wrap]]** (3% of attempts)
 
-- **[[Gift Wrap Armbar from Gift Wrap/Attacker|Gift Wrap Armbar from Gift Wrap]]** (2% of attempts)
+- **[[Kimura from Gift Wrap/Attacker|Kimura from Gift Wrap]]** (6% of attempts)
 
-- **[[Kimura from Gift Wrap/Attacker|Kimura from Gift Wrap]]** (7% of attempts)
-
-- **[[Short Choke from Gift Wrap/Attacker|Short Choke from Gift Wrap]]** (6% of attempts)
+- **[[Short Choke from Gift Wrap/Attacker|Short Choke from Gift Wrap]]** (2% of attempts)
 
 
 ### Common Mistakes

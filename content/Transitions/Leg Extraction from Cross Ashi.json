@@ -18,21 +18,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Cross Ashi-Garami/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Leg Extraction from Cross Ashi-Garami is a systematic defensive escape designed to free the trapped leg from the opponent's crossed leg entanglement and recover to open guard. Unlike escaping standard ashi garami where the opponent's legs run parallel, cross ashi features the top player's legs crossing over each other around the trapped limb, creating a figure-four-like structure that demands a specific clearing sequence targeting the outside cross first. The crossed configuration generates a wedge effect that prevents simple linear withdrawal, making the extraction mechanically distinct from other leg entanglement escapes.\n\nThe escape operates on the principle that the cross ashi structure depends on three interdependent connection points: the outside leg cross at shin level, the inside hook behind the hip or knee, and the heel or ankle grip. Removing the outside cross first collapses the structural advantage of the position, reducing it to a much weaker control similar to loose standard ashi. The escaping practitioner must sequence their clearing actions precisely: strip the heel grip to eliminate the immediate submission threat, clear the outside cross to break the wedge geometry, then extract the trapped leg through the gap while preventing re-crossing.\n\nStrategically, leg extraction from cross ashi carries moderate success rates because the crossed configuration gives the top player superior retention compared to standard ashi. However, the escape becomes viable whenever the opponent adjusts position to advance toward saddle or reaches for a deeper heel grip, creating brief windows where the cross loosens. The timing dependency makes this escape a reactive technique that rewards patient defenders who recognize these adjustment windows rather than forcing the escape against tight control. When the extraction fails, the most common consequence is the opponent advancing to saddle, making the escape more urgent but also more risky the longer the defender waits.",
   "conditions": [
     "Opponent has established cross ashi-garami with legs crossed over your trapped leg but has not yet consolidated saddle or tight hip-to-hip pressure",
@@ -256,38 +268,147 @@
     "flashcards": [
       {
         "question": "Why must the outside crossing leg be cleared before the inside hook when escaping cross ashi specifically?",
-        "answer": "The outside cross creates the wedge geometry that distinguishes cross ashi from standard ashi garami. This crossed configuration prevents linear leg withdrawal by trapping the leg between two converging points of pressure. Clearing the inside hook first while the cross remains intact accomplishes nothing because the cross still blocks extraction. Removing the outside cross first collapses the wedge effect, reducing the entanglement to something resembling loose standard ashi where the inside hook alone provides much weaker retention. The clearing sequence must match the structural hierarchy of the position."
+        "answer": "The outside cross creates the wedge geometry that distinguishes cross ashi from standard ashi garami. This crossed configuration prevents linear leg withdrawal by trapping the leg between two converging points of pressure. Clearing the inside hook first while the cross remains intact accomplishes nothing because the cross still blocks extraction. Removing the outside cross first collapses the wedge effect, reducing the entanglement to something resembling loose standard ashi where the inside hook alone provides much weaker retention. The clearing sequence must match the structural hierarchy of the position.",
+        "answer_line": "Clear outside cross first",
+        "distractors": {
+          "plausible": [
+            "Clear inside hook first",
+            "Clear both at same time"
+          ],
+          "trap": [
+            "Drop your hook, grab their heel"
+          ]
+        }
       },
       {
         "question": "Your opponent loosens their cross to reach for a deeper heel grip - how do you exploit this adjustment window?",
-        "answer": "This is the primary extraction window in cross ashi. When the opponent releases or loosens the cross to reach for the heel, immediately use both hands to strip the heel grip attempt before it sets, then capitalize on the loosened cross by pushing their crossing shin below your ankle line. Execute the full extraction sequence during the gap before they can re-establish the cross. The key is recognizing that their grip transition creates a two to three second window where neither the cross nor the heel grip is fully secured."
+        "answer": "This is the primary extraction window in cross ashi. When the opponent releases or loosens the cross to reach for the heel, immediately use both hands to strip the heel grip attempt before it sets, then capitalize on the loosened cross by pushing their crossing shin below your ankle line. Execute the full extraction sequence during the gap before they can re-establish the cross. The key is recognizing that their grip transition creates a two to three second window where neither the cross nor the heel grip is fully secured.",
+        "answer_line": "Strip grip, push cross below ankle",
+        "distractors": {
+          "plausible": [
+            "Wait for cross to fully release",
+            "Extract leg before stripping grip"
+          ],
+          "trap": [
+            "Let them get the heel grip set"
+          ]
+        }
       },
       {
         "question": "What is the most critical body alignment to maintain throughout the extraction from cross ashi?",
-        "answer": "Straight leg alignment on the trapped leg is the single most critical factor. The knee must remain extended with the heel pointing away from the opponent throughout the entire clearing and extraction sequence. Cross ashi provides excellent heel hook finishing angles, and any bending of the trapped knee during extraction creates the exact configuration the opponent needs for a high-percentage finish. The extraction motion should feel like pulling a straight rod through a channel rather than navigating a bent leg around obstacles."
+        "answer": "Straight leg alignment on the trapped leg is the single most critical factor. The knee must remain extended with the heel pointing away from the opponent throughout the entire clearing and extraction sequence. Cross ashi provides excellent heel hook finishing angles, and any bending of the trapped knee during extraction creates the exact configuration the opponent needs for a high-percentage finish. The extraction motion should feel like pulling a straight rod through a channel rather than navigating a bent leg around obstacles.",
+        "answer_line": "Keep trapped leg fully straight",
+        "distractors": {
+          "plausible": [
+            "Keep hips squared to opponent",
+            "Keep knee slightly bent for speed"
+          ],
+          "trap": [
+            "Bend knee to slip through gap"
+          ]
+        }
       },
       {
         "question": "You begin clearing the outside cross but the opponent immediately re-crosses before you can extract - what should you do?",
-        "answer": "If the opponent re-crosses immediately, it means you released the pin on the cleared cross too early or attempted to extract before fully clearing the gap. Reset your clearing sequence and try again, but this time maintain the pin on the cleared cross with one hand throughout the entire extraction phase rather than releasing it to use both hands elsewhere. If they consistently re-cross faster than you can extract, consider switching to the Counter Entangle from Cross Ashi to enter 50-50 instead, as this alternative does not require clearing the cross entirely."
+        "answer": "If the opponent re-crosses immediately, it means you released the pin on the cleared cross too early or attempted to extract before fully clearing the gap. Reset your clearing sequence and try again, but this time maintain the pin on the cleared cross with one hand throughout the entire extraction phase rather than releasing it to use both hands elsewhere. If they consistently re-cross faster than you can extract, consider switching to the Counter Entangle from Cross Ashi to enter 50-50 instead, as this alternative does not require clearing the cross entirely.",
+        "answer_line": "Pin the cleared cross, reset",
+        "distractors": {
+          "plausible": [
+            "Release cross, extract faster",
+            "Rush extraction before re-cross"
+          ],
+          "trap": [
+            "Abandon position, stand up fast"
+          ]
+        }
       },
       {
         "question": "How does the extraction approach from cross ashi differ from extraction from standard ashi garami?",
-        "answer": "Standard ashi garami has the opponent's legs running parallel on the same side of the trapped leg, allowing a relatively direct extraction by clearing the inside hook and pulling the knee to chest. Cross ashi adds the outside crossing leg that creates a wedge effect blocking linear withdrawal entirely. This means cross ashi extraction requires an additional clearing step, targeting the outside cross first, that standard ashi extraction does not need. The angular hip shift must also be more pronounced to navigate past the wider control structure created by the crossed configuration."
+        "answer": "Standard ashi garami has the opponent's legs running parallel on the same side of the trapped leg, allowing a relatively direct extraction by clearing the inside hook and pulling the knee to chest. Cross ashi adds the outside crossing leg that creates a wedge effect blocking linear withdrawal entirely. This means cross ashi extraction requires an additional clearing step, targeting the outside cross first, that standard ashi extraction does not need. The angular hip shift must also be more pronounced to navigate past the wider control structure created by the crossed configuration.",
+        "answer_line": "Clear outside cross, extra step",
+        "distractors": {
+          "plausible": [
+            "Same as standard, just faster",
+            "Skip inside hook, less needed"
+          ],
+          "trap": [
+            "Pull knee to chest directly"
+          ]
+        }
       },
       {
         "question": "Your opponent advances from cross ashi toward saddle during your extraction attempt - what is your immediate response?",
-        "answer": "Abort the extraction immediately. Saddle configuration locks the entanglement far beyond what leg extraction can address. Transition to Boot Scoot Escape from Saddle or Forward Roll from Saddle, which are designed for the deeper control structure. The critical insight is recognizing the advancement early through their outside leg stepping over your hip and immediately switching escape methods rather than continuing an extraction that has zero chance of success against consolidated saddle control."
+        "answer": "Abort the extraction immediately. Saddle configuration locks the entanglement far beyond what leg extraction can address. Transition to Boot Scoot Escape from Saddle or Forward Roll from Saddle, which are designed for the deeper control structure. The critical insight is recognizing the advancement early through their outside leg stepping over your hip and immediately switching escape methods rather than continuing an extraction that has zero chance of success against consolidated saddle control.",
+        "answer_line": "Abort, switch to saddle escape",
+        "distractors": {
+          "plausible": [
+            "Speed up the extraction attempt",
+            "Re-clear the outside cross again"
+          ],
+          "trap": [
+            "Keep extracting, ignore advance"
+          ]
+        }
       },
       {
         "question": "What is the role of the free leg during the extraction sequence and why is the push-kick timing critical?",
-        "answer": "The free leg provides the separation force during the final extraction phase through a push-kick on the opponent's hip, shoulder, or bicep. The timing is critical because the push-kick must be applied after the outside cross is cleared and simultaneously with the trapped leg extraction. Applying the push-kick too early, before clearing the cross, wastes the separation force against the intact structure. Applying it too late, after the opponent re-crosses, means the separation cannot overcome the re-established wedge. The push-kick converts the cleared gap into decisive distance."
+        "answer": "The free leg provides the separation force during the final extraction phase through a push-kick on the opponent's hip, shoulder, or bicep. The timing is critical because the push-kick must be applied after the outside cross is cleared and simultaneously with the trapped leg extraction. Applying the push-kick too early, before clearing the cross, wastes the separation force against the intact structure. Applying it too late, after the opponent re-crosses, means the separation cannot overcome the re-established wedge. The push-kick converts the cleared gap into decisive distance.",
+        "answer_line": "Push-kick after clearing cross",
+        "distractors": {
+          "plausible": [
+            "Push-kick before clearing cross",
+            "Push-kick after re-crossing"
+          ],
+          "trap": [
+            "Skip push-kick, just pull leg"
+          ]
+        }
       },
       {
         "question": "During training, your partner begins applying rotational pressure on your heel while you are mid-extraction - what do you do?",
-        "answer": "Tap immediately. A heel hook applied during an extraction attempt creates amplified rotational force because the trapped leg is partially extended and moving. The combined forces of their rotation and your extraction movement can cause ligament damage faster than a static heel hook. In training, safety takes absolute priority over escape completion. After tapping, analyze what allowed them to secure the heel during your escape, likely the outside cross was not fully cleared or the leg bent during extraction, and drill the gap in your clearing sequence."
+        "answer": "Tap immediately. A heel hook applied during an extraction attempt creates amplified rotational force because the trapped leg is partially extended and moving. The combined forces of their rotation and your extraction movement can cause ligament damage faster than a static heel hook. In training, safety takes absolute priority over escape completion. After tapping, analyze what allowed them to secure the heel during your escape, likely the outside cross was not fully cleared or the leg bent during extraction, and drill the gap in your clearing sequence.",
+        "answer_line": "Tap immediately",
+        "distractors": {
+          "plausible": [
+            "Pull your knee toward your chest",
+            "Hand-fight their grip on your foot"
+          ],
+          "trap": [
+            "Keep extending against the rotation"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Leg extraction from cross ashi carries significant injury risk to the knee joint if performed incorrectly. Cross ashi provides excellent heel hook finishing angles, and the most dangerous error is any extraction motion that bends the trapped knee or exposes the heel during the clearing sequence. Always maintain straight leg alignment throughout the escape. Never continue extraction if the opponent has secured a grip on your heel. In training, tap immediately if you feel any rotational pressure on the knee during an escape attempt. Practice at slow speed until the mechanical clearing sequence is automatic before adding resistance. Partners should communicate clearly about heel exposure during drilling and apply entanglements with control."
+    "safety_considerations": "Leg extraction from cross ashi carries significant injury risk to the knee joint if performed incorrectly. Cross ashi provides excellent heel hook finishing angles, and the most dangerous error is any extraction motion that bends the trapped knee or exposes the heel during the clearing sequence. Always maintain straight leg alignment throughout the escape. Never continue extraction if the opponent has secured a grip on your heel. In training, tap immediately if you feel any rotational pressure on the knee during an escape attempt. Practice at slow speed until the mechanical clearing sequence is automatic before adding resistance. Partners should communicate clearly about heel exposure during drilling and apply entanglements with control.",
+    "clips": [
+      {
+        "id": "0T4T2so40C4",
+        "title": "Basic escape from the saddle (cross ashi)",
+        "by": "Travis Anderson",
+        "vertical": false,
+        "channel": "Travis Anderson",
+        "duration": 171,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0g_ALDkfU2Q",
+        "title": "Ashi Garami Escape by Pulling the Leg Free",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 107,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "KvCwwSOW11w",
+        "title": "Escaping Double Trouble Cross Ashi",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 544,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction from Cross Ashi Defender",
@@ -373,19 +494,59 @@
     "flashcards": [
       {
         "question": "What is the most effective way to prevent the opponent from clearing your outside crossing leg?",
-        "answer": "Actively press your crossing shin into the trapped leg rather than passively resting it there. Use your hip and core to drive the cross tight against their leg, making it require significantly more force to clear. When you feel them pushing on your shin, drive your hips forward to maintain the cross angle. The cross should feel like an active squeeze rather than a passive placement. Additionally, position the cross at mid-shin level where clearing requires maximum mechanical effort from the opponent."
+        "answer": "Actively press your crossing shin into the trapped leg rather than passively resting it there. Use your hip and core to drive the cross tight against their leg, making it require significantly more force to clear. When you feel them pushing on your shin, drive your hips forward to maintain the cross angle. The cross should feel like an active squeeze rather than a passive placement. Additionally, position the cross at mid-shin level where clearing requires maximum mechanical effort from the opponent.",
+        "answer_line": "Actively press shin, drive hips",
+        "distractors": {
+          "plausible": [
+            "Rest shin passively in place",
+            "Grip their far ankle tighter"
+          ],
+          "trap": [
+            "Loosen cross to save energy"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to advance from cross ashi to saddle during the opponent's extraction attempt?",
-        "answer": "The optimal advancement window is when the opponent commits both hands to stripping your heel or ankle grip. At this moment, their legs and hips are undefended because their hands are occupied with grip fighting on your foot rather than managing your leg positioning or blocking your hip advancement. Step your outside leg over their hip while their attention is focused on their hands. This creates a paradox where their successful grip strip on one connection point results in a deeper entanglement that makes extraction impossible."
+        "answer": "The optimal advancement window is when the opponent commits both hands to stripping your heel or ankle grip. At this moment, their legs and hips are undefended because their hands are occupied with grip fighting on your foot rather than managing your leg positioning or blocking your hip advancement. Step your outside leg over their hip while their attention is focused on their hands. This creates a paradox where their successful grip strip on one connection point results in a deeper entanglement that makes extraction impossible.",
+        "answer_line": "When both hands strip your heel",
+        "distractors": {
+          "plausible": [
+            "When they recover base to stand",
+            "As soon as extraction starts"
+          ],
+          "trap": [
+            "Wait until they fully extract leg"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully clears your outside cross but you maintain the inside hook - what should you do?",
-        "answer": "Immediately attempt to re-establish the cross by stepping your outside leg back over their trapped leg before they can complete the extraction. The inside hook alone provides limited retention but buys three to five seconds for re-crossing. If re-crossing is blocked by their hand pinning your leg, use the inside hook to pull their trapped leg toward you while advancing your hips to close distance, then re-cross from a tighter position. Alternatively, advance directly to saddle since the inside hook provides enough control for the transition even without the cross."
+        "answer": "Immediately attempt to re-establish the cross by stepping your outside leg back over their trapped leg before they can complete the extraction. The inside hook alone provides limited retention but buys three to five seconds for re-crossing. If re-crossing is blocked by their hand pinning your leg, use the inside hook to pull their trapped leg toward you while advancing your hips to close distance, then re-cross from a tighter position. Alternatively, advance directly to saddle since the inside hook provides enough control for the transition even without the cross.",
+        "answer_line": "Re-cross before they extract",
+        "distractors": {
+          "plausible": [
+            "Release hook, reset from scratch",
+            "Wait and see what they do"
+          ],
+          "trap": [
+            "Let go of hook to grab heel"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a genuine extraction attempt and a feint designed to draw out your saddle advancement?",
-        "answer": "A genuine extraction attempt involves the opponent recovering base to seated or standing posture, committing both hands to the entangled area, and shifting their hips laterally away from you. A feint typically skips the base recovery step and uses only one hand on the cross while keeping the other free for a counter-entanglement or arm drag if you overcommit to advancement. The telltale sign is base recovery: if they invest in posture before addressing the cross, the extraction is genuine. If they stay flat and reach for the cross with one hand, they are likely baiting your saddle advancement to create a scramble opportunity."
+        "answer": "A genuine extraction attempt involves the opponent recovering base to seated or standing posture, committing both hands to the entangled area, and shifting their hips laterally away from you. A feint typically skips the base recovery step and uses only one hand on the cross while keeping the other free for a counter-entanglement or arm drag if you overcommit to advancement. The telltale sign is base recovery: if they invest in posture before addressing the cross, the extraction is genuine. If they stay flat and reach for the cross with one hand, they are likely baiting your saddle advancement to create a scramble opportunity.",
+        "answer_line": "Base recovery signals real attempt",
+        "distractors": {
+          "plausible": [
+            "One hand on cross means genuine",
+            "Hip shift alone confirms genuine"
+          ],
+          "trap": [
+            "Advance to saddle on any reach"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -408,6 +569,35 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full-speed retention and counter-attack during rolling",
         "description": "During live rolling, focus specifically on retaining cross ashi when partners attempt extraction. Develop automatic re-crossing, hip following, and saddle advancement responses. Review which extraction methods succeed against you most often and develop specific counters for those patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nVfqMfVpTVk",
+        "title": "Fixing cross ashi control to keep the leg",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 55,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UqPMAE7TfrE",
+        "title": "Staying Entangled vs Ashi Garami Defense",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 333,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "svkYt81yBcE",
+        "title": "Drill to Maintain Ashi Garami Position",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   }

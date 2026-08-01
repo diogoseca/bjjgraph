@@ -148,6 +148,54 @@ description: "How to defend against the High Mount Transition from Gogoplata Con
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Mount Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping a high full mount",
+      "description": "High Mount Transition (Defender) film study: Escaping a high full mount, taught by Tenzan Aikido.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_05Lwonu0mw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_05Lwonu0mw",
+      "url": "https://www.youtube.com/watch?v=_05Lwonu0mw",
+      "creator": { "@type": "Person", "name": "Tenzan Aikido" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Upa mount escape beating shadow hooks",
+      "description": "High Mount Transition (Defender) film study: Upa mount escape beating shadow hooks, taught by SBG PDX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MgF9kZdPnDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MgF9kZdPnDE",
+      "url": "https://www.youtube.com/watch?v=MgF9kZdPnDE",
+      "creator": { "@type": "Person", "name": "SBG PDX" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount bottom bridge and roll escape",
+      "description": "High Mount Transition (Defender) film study: Mount bottom bridge and roll escape, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
+      "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Understanding the attacker's mechanics is essential for timing defensive respons
 **Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Mount Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_05Lwonu0mw)
+
+<p class="clip-credit"><strong>Escaping a high full mount</strong> — taught by Tenzan Aikido · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MgF9kZdPnDE)
+
+<p class="clip-credit"><strong>Upa mount escape beating shadow hooks</strong> — taught by SBG PDX · 1:44 · <a href="https://www.youtube.com/watch?v=MgF9kZdPnDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2uuP147GoBk)
+
+<p class="clip-credit"><strong>Mount bottom bridge and roll escape</strong> — taught by Academy Jiu Jitsu · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

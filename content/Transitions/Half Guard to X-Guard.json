@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "X-Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Half Guard to X-Guard transition exploits the mechanical vulnerability created when the top player's weight shifts forward or they attempt to stand from half guard. By threading a butterfly hook behind the opponent's near knee while retaining the half guard leg trap, the bottom player creates a butterfly half guard intermediate that bridges directly into the X-Guard configuration. This transition converts a defensive retention position into one of the most powerful sweeping and leg entanglement platforms in modern grappling, fundamentally changing the positional dynamic from survival to attack.\n\nThe mechanical foundation of this entry depends on getting your hips underneath the opponent's center of gravity. From half guard bottom, you must first generate sufficient angle through hip escaping and framing to create space for the butterfly hook insertion. Once the inside hook catches behind the knee joint, the outside leg threads across the opponent's hip line, establishing the characteristic X-pattern. Grip control on the ankle and far leg prevents extraction and completes the sweeping structure. The entire sequence demands precise timing because premature hook insertion without adequate angle creation leaves you vulnerable to smash passes and crossface flattening.\n\nStrategically, this transition is highest percentage when the top player commits their weight forward into crossface pressure or when they attempt to stand up in half guard. Both scenarios create space underneath for the bottom player to slide into position. The transition also functions as an effective counter to knee slice passing attempts, where the bottom player redirects the slicing knee into an X-Guard entry rather than defending the pass directly. Integration with the broader half guard system means this entry layers naturally with deep half, lockdown, and underhook sweep threats, creating multi-layered offensive dilemmas that prevent the top player from focusing on a single defensive strategy.",
   "conditions": [
     "Bottom player has half guard with at least minimal framing space to initiate hip escape",
@@ -90,7 +102,7 @@
       "relationship": "Counter outcome position when top player successfully disengages the half guard trap"
     },
     {
-      "name": "Deep Half Entry from Half Guard",
+      "name": "Deep Half Entry",
       "relationship": "Related transition using similar hip escape mechanics to get underneath opponent"
     },
     {
@@ -246,38 +258,147 @@
     "flashcards": [
       {
         "question": "What is the most critical body position adjustment before attempting to insert the butterfly hook from half guard?",
-        "answer": "You must hip escape to create an angle that positions your hips underneath the opponent before inserting the butterfly hook. Attempting hook insertion while flat on your back allows the top player to drive crossface pressure and flatten you, making the transition impossible. The hip escape creates the space and angle needed to thread your leg behind their knee joint."
+        "answer": "You must hip escape to create an angle that positions your hips underneath the opponent before inserting the butterfly hook. Attempting hook insertion while flat on your back allows the top player to drive crossface pressure and flatten you, making the transition impossible. The hip escape creates the space and angle needed to thread your leg behind their knee joint.",
+        "answer_line": "Hip escape to angle underneath",
+        "distractors": {
+          "plausible": [
+            "Insert hook before escaping",
+            "Frame off chest and push away"
+          ],
+          "trap": [
+            "Stay flat, insert hook fast"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure when you begin hip escaping - how do you adjust your entry strategy?",
-        "answer": "When heavy crossface prevents standard hip escape, redirect into a deep half guard entry instead, using the opponent's forward pressure to assist getting underneath them. From deep half, you can then thread into X-Guard from an even deeper angle. Alternatively, frame against the crossface with your forearm to create enough space for a quick hip escape, then immediately insert the hook before they can re-establish flattening pressure."
+        "answer": "When heavy crossface prevents standard hip escape, redirect into a deep half guard entry instead, using the opponent's forward pressure to assist getting underneath them. From deep half, you can then thread into X-Guard from an even deeper angle. Alternatively, frame against the crossface with your forearm to create enough space for a quick hip escape, then immediately insert the hook before they can re-establish flattening pressure.",
+        "answer_line": "Shift to deep half guard entry",
+        "distractors": {
+          "plausible": [
+            "Power through the crossface",
+            "Push away then sit up quick"
+          ],
+          "trap": [
+            "Keep escaping into the pressure"
+          ]
+        }
       },
       {
         "question": "What grip must you establish on the opponent's leg during the transition and why is it critical?",
-        "answer": "You must grip the opponent's trapped ankle with your near hand as soon as the butterfly hook is inserted. This ankle grip prevents the opponent from stepping back to extract their leg from the X-Guard configuration. Without this grip, even a deep butterfly hook can be defeated by the opponent simply backstopping and pulling their knee free of your hook through hip extension."
+        "answer": "You must grip the opponent's trapped ankle with your near hand as soon as the butterfly hook is inserted. This ankle grip prevents the opponent from stepping back to extract their leg from the X-Guard configuration. Without this grip, even a deep butterfly hook can be defeated by the opponent simply backstopping and pulling their knee free of your hook through hip extension.",
+        "answer_line": "Grip trapped ankle immediately",
+        "distractors": {
+          "plausible": [
+            "Grip their far side collar",
+            "Underhook their near arm"
+          ],
+          "trap": [
+            "Let go to adjust your base"
+          ]
+        }
       },
       {
         "question": "When should you release the half guard leg trap during the transition to X-Guard?",
-        "answer": "Release the half guard leg trap only after both X-Guard hooks are securely established - the inside butterfly hook behind the knee and the outside leg crossing the hip line. Premature release of the leg trap before hooks are set gives the opponent a free leg to step out and pass. The half guard trap serves as insurance throughout the transition until the X-Guard control structure is complete."
+        "answer": "Release the half guard leg trap only after both X-Guard hooks are securely established - the inside butterfly hook behind the knee and the outside leg crossing the hip line. Premature release of the leg trap before hooks are set gives the opponent a free leg to step out and pass. The half guard trap serves as insurance throughout the transition until the X-Guard control structure is complete.",
+        "answer_line": "Release only after both hooks set",
+        "distractors": {
+          "plausible": [
+            "Release once hook is inserted",
+            "Release when hips are angled"
+          ],
+          "trap": [
+            "Release early for more mobility"
+          ]
+        }
       },
       {
         "question": "Your opponent begins standing up when they feel your butterfly hook insertion - what opportunity does this create?",
-        "answer": "An opponent standing up actually improves your X-Guard entry by creating space underneath for you to slide into position. Follow their upward movement by deepening your hooks and elevating your hips. Their standing posture makes them more vulnerable to X-Guard sweeps because they have a higher center of gravity and reduced ability to use chest pressure to collapse your guard structure."
+        "answer": "An opponent standing up actually improves your X-Guard entry by creating space underneath for you to slide into position. Follow their upward movement by deepening your hooks and elevating your hips. Their standing posture makes them more vulnerable to X-Guard sweeps because they have a higher center of gravity and reduced ability to use chest pressure to collapse your guard structure.",
+        "answer_line": "Deepen hooks, elevate hips",
+        "distractors": {
+          "plausible": [
+            "Reset back to closed guard",
+            "Pull them back down to mat"
+          ],
+          "trap": [
+            "Release hooks and stand too"
+          ]
+        }
       },
       {
         "question": "What is the correct upper body alignment once X-Guard hooks are fully established?",
-        "answer": "Your upper body should be positioned perpendicular to the opponent's trapped leg, forming a T-shape. This perpendicular alignment maximizes sweeping leverage and creates multiple directional threats. If your body remains parallel to their trapped leg, your sweeping angles are limited and the opponent can more easily predict and defend your single available sweep direction."
+        "answer": "Your upper body should be positioned perpendicular to the opponent's trapped leg, forming a T-shape. This perpendicular alignment maximizes sweeping leverage and creates multiple directional threats. If your body remains parallel to their trapped leg, your sweeping angles are limited and the opponent can more easily predict and defend your single available sweep direction.",
+        "answer_line": "Perpendicular T-shape to leg",
+        "distractors": {
+          "plausible": [
+            "Stay parallel for a strong base",
+            "Face their hips head-on"
+          ],
+          "trap": [
+            "Turn away from the trapped leg"
+          ]
+        }
       },
       {
         "question": "The opponent grabs your outside leg to prevent the X-pattern formation - what alternative position can you transition to?",
-        "answer": "If the opponent prevents your outside leg from crossing their hip, transition to Single Leg X-Guard using only the inside butterfly hook as your primary control point. Single Leg X requires just the deep hook behind the knee plus ankle control, making it an effective fallback when the full X-Guard pattern is denied. From Single Leg X you retain strong sweep and leg entanglement options."
+        "answer": "If the opponent prevents your outside leg from crossing their hip, transition to Single Leg X-Guard using only the inside butterfly hook as your primary control point. Single Leg X requires just the deep hook behind the knee plus ankle control, making it an effective fallback when the full X-Guard pattern is denied. From Single Leg X you retain strong sweep and leg entanglement options.",
+        "answer_line": "Transition to Single Leg X",
+        "distractors": {
+          "plausible": [
+            "Force the outside leg through",
+            "Switch to De La Riva guard"
+          ],
+          "trap": [
+            "Release the inside hook to reset"
+          ]
+        }
       },
       {
         "question": "How does the knee slice pass create an X-Guard entry opportunity for the half guard bottom player?",
-        "answer": "When the opponent attempts a knee slice pass, their knee drives across your thigh line with forward momentum. Instead of defending the slice directly, redirect their slicing knee by inserting your butterfly hook behind it as it crosses. Their passing energy becomes your entry mechanics, threading them into the X-Guard configuration as their knee slides naturally into your hook placement."
+        "answer": "When the opponent attempts a knee slice pass, their knee drives across your thigh line with forward momentum. Instead of defending the slice directly, redirect their slicing knee by inserting your butterfly hook behind it as it crosses. Their passing energy becomes your entry mechanics, threading them into the X-Guard configuration as their knee slides naturally into your hook placement.",
+        "answer_line": "Hook behind the slicing knee",
+        "distractors": {
+          "plausible": [
+            "Block the knee with a frame",
+            "Roll away from the slice"
+          ],
+          "trap": [
+            "Push the knee back across"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Half Guard to X-Guard transition involves significant hip and knee loading on both players. Ensure adequate warm-up of hip flexors, groin, and knee ligaments before drilling. When the bottom player elevates with X-Guard hooks, the top player's knee can experience lateral stress if they resist rotation. Communicate clearly with training partners about knee comfort during hook insertion and elevation. Avoid explosive cranking motions when establishing hooks, as this can strain the top player's medial collateral ligament. Progress resistance gradually during drilling phases and tap immediately if knee discomfort occurs."
+    "safety_considerations": "The Half Guard to X-Guard transition involves significant hip and knee loading on both players. Ensure adequate warm-up of hip flexors, groin, and knee ligaments before drilling. When the bottom player elevates with X-Guard hooks, the top player's knee can experience lateral stress if they resist rotation. Communicate clearly with training partners about knee comfort during hook insertion and elevation. Avoid explosive cranking motions when establishing hooks, as this can strain the top player's medial collateral ligament. Progress resistance gradually during drilling phases and tap immediately if knee discomfort occurs.",
+    "clips": [
+      {
+        "id": "zbYb6sOYC8w",
+        "title": "X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "CHOKE LABORATORY",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "AhsXraebbdg",
+        "title": "Single leg X-guard sweep",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "jen jitsu",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7OnjPU1WjH4",
+        "title": "X-guard sweep and pass",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Gentle Art Media",
+        "duration": 35,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to X-Guard Defender",
@@ -363,19 +484,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the Half Guard to X-Guard transition?",
-        "answer": "The earliest cue is aggressive hip escaping toward your trapped leg side combined with angle creation underneath your base. This hip escape precedes any hook insertion and represents the moment when defensive action is easiest and most effective. Responding at this stage with forward pressure and crossface prevents the entire transition sequence from developing."
+        "answer": "The earliest cue is aggressive hip escaping toward your trapped leg side combined with angle creation underneath your base. This hip escape precedes any hook insertion and represents the moment when defensive action is easiest and most effective. Responding at this stage with forward pressure and crossface prevents the entire transition sequence from developing.",
+        "answer_line": "Their hip escape toward you",
+        "distractors": {
+          "plausible": [
+            "Feeling the butterfly hook",
+            "Grip fighting on your sleeve"
+          ],
+          "trap": [
+            "Waiting until hook goes deep"
+          ]
+        }
       },
       {
         "question": "Your opponent has inserted a shallow butterfly hook behind your knee - what is the highest percentage defensive response?",
-        "answer": "Drive your trapped knee firmly to the mat while simultaneously sprawling your hips backward. This removes the space underneath you that powers the X-Guard elevation and makes it impossible for the bottom player to deepen the hook further. Combine this with crossface pressure to flatten them and prevent the outside leg from crossing your hip to complete the X-pattern."
+        "answer": "Drive your trapped knee firmly to the mat while simultaneously sprawling your hips backward. This removes the space underneath you that powers the X-Guard elevation and makes it impossible for the bottom player to deepen the hook further. Combine this with crossface pressure to flatten them and prevent the outside leg from crossing your hip to complete the X-pattern.",
+        "answer_line": "Drive knee down, sprawl hips",
+        "distractors": {
+          "plausible": [
+            "Pull knee back and stand up",
+            "Post your hand and turn away"
+          ],
+          "trap": [
+            "Stand up right away"
+          ]
+        }
       },
       {
         "question": "Why is standing up dangerous when your opponent already has a butterfly hook behind your knee?",
-        "answer": "Standing up with a hook behind your knee creates the exact X-Guard entry conditions your opponent wants. Your standing posture elevates their hook, creates space underneath for their hips to slide into position, and raises your center of gravity, making you highly susceptible to powerful elevation sweeps. You must address the hook through knee driving and sprawling before considering standing."
+        "answer": "Standing up with a hook behind your knee creates the exact X-Guard entry conditions your opponent wants. Your standing posture elevates their hook, creates space underneath for their hips to slide into position, and raises your center of gravity, making you highly susceptible to powerful elevation sweeps. You must address the hook through knee driving and sprawling before considering standing.",
+        "answer_line": "Elevates hook, raises center",
+        "distractors": {
+          "plausible": [
+            "Standing regains your base",
+            "Standing breaks their grip"
+          ],
+          "trap": [
+            "Sprint straight to back take"
+          ]
+        }
       },
       {
         "question": "What passing strategy should you employ after successfully defending the X-Guard entry attempt?",
-        "answer": "After preventing the X-Guard entry, immediately capitalize on the bottom player's compromised position by driving a knee slice pass through their half guard. Their hip escape to attempt the X-Guard entry has already created the angle your knee slice needs for completion. Follow with heavy crossface pressure and consolidate to side control before they can reset their guard structure and attempt another transition."
+        "answer": "After preventing the X-Guard entry, immediately capitalize on the bottom player's compromised position by driving a knee slice pass through their half guard. Their hip escape to attempt the X-Guard entry has already created the angle your knee slice needs for completion. Follow with heavy crossface pressure and consolidate to side control before they can reset their guard structure and attempt another transition.",
+        "answer_line": "Knee slice through the guard",
+        "distractors": {
+          "plausible": [
+            "Retreat to reset distance",
+            "Stack pass over the top"
+          ],
+          "trap": [
+            "Wait for them to reset guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -398,6 +559,35 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance positional sparring from half guard top against X-Guard entries",
         "description": "Full speed positional sparring where bottom player actively pursues the X-Guard entry among other half guard attacks. Develop the ability to distinguish X-Guard transition attempts from underhook sweeps and deep half entries, applying the appropriate defensive response for each in real time competition conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JSOM86_1lRo",
+        "title": "Foot lock and single leg X-guard escapes",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 111,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "XhLd-CMQBUQ",
+        "title": "The Best Way To Get Out Of The X-Guard",
+        "by": "Isaque Bahiense",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 222,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "rja-2KKDGb0",
+        "title": "Dealing with the switch base from half guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 284,
+        "verified": "2026-07-16"
       }
     ]
   }

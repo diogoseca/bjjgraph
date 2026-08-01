@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
-      "to": "Clinch",
-      "probability": 15,
+      "to": "Clinch/Top",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Body Lock/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Executed the instant your opponent clasps a locked grip around your torso from behind while standing, this transition addresses one of the most urgent defensive situations in no-gi grappling, as the body lock top player threatens immediate mat returns, back takes, throws, and positional advancement. The escape requires coordinated grip fighting, explosive hip movement, and strategic base manipulation to break the controlling connection and recover to a viable position.\n\nThe technique operates on the principle that no locked grip can withstand properly directed force combined with structural manipulation. By targeting the biomechanical weakness of the opponent's grip configuration while simultaneously creating angular displacement through hip switching, you force the top player to choose between maintaining their grip or following your movement. This forced choice creates the critical window for escape. The escape must be executed with urgency, as the body lock is inherently transitional and the top player will attack within seconds of establishing control.\n\nUnderstanding this escape is essential for any serious competitor. Body lock takedowns and back takes from standing have become dominant strategies in modern no-gi competition, and without reliable escape mechanics you become vulnerable to systematic scoring sequences that begin with the body lock and end in back control or dominant ground positions. The technique chains naturally with other defensive options from body lock bottom, creating a layered defensive system where each failed attempt flows into the next.",
   "variants_and_adaptations": [
     {
@@ -184,7 +199,7 @@
         "counter": "Opponent releases grip voluntarily to transition to front headlock during your turn",
         "effectiveness": "Medium",
         "your_response": "Recognize the grip release and immediately circle away from the choking arm rather than turning directly into them. Establish defensive frames on their biceps before they can secure headlock control",
-        "targets_outcome": "Clinch"
+        "targets_outcome": "Clinch/Top"
       }
     ],
     "common_errors": [
@@ -249,38 +264,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the body lock escape?",
-        "answer": "The optimal window is within the first 1-2 seconds of your opponent locking their grip, before they can establish full chest-to-back connection and drive hip pressure. During this brief window, their grip has not yet fully tightened and their body positioning may still be adjusting. Every additional second they maintain the body lock increases their control and decreases your escape probability significantly. If the initial window passes, you must create your own window through explosive movement rather than waiting."
+        "answer": "The optimal window is within the first 1-2 seconds of your opponent locking their grip, before they can establish full chest-to-back connection and drive hip pressure. During this brief window, their grip has not yet fully tightened and their body positioning may still be adjusting. Every additional second they maintain the body lock increases their control and decreases your escape probability significantly. If the initial window passes, you must create your own window through explosive movement rather than waiting.",
+        "answer_line": "First 1-2 sec, before lock-in",
+        "distractors": {
+          "plausible": [
+            "Wait for their grip to tire",
+            "Any time before they pass"
+          ],
+          "trap": [
+            "Wait until fully locked in"
+          ]
+        }
       },
       {
         "question": "Why is the hip switch more effective than pulling directly away from your opponent?",
-        "answer": "Pulling directly backward fights against the strongest axis of their grip and body connection - they have two locked arms and their entire body weight driving forward. The hip switch creates lateral angular displacement that attacks a perpendicular axis where their grip provides minimal resistance. The rotational force also breaks the chest-to-back connection that provides their primary control, as their chest cannot follow a lateral hip switch as easily as it can follow a linear pull. This angular attack multiplies your force advantage significantly."
+        "answer": "Pulling directly backward fights against the strongest axis of their grip and body connection - they have two locked arms and their entire body weight driving forward. The hip switch creates lateral angular displacement that attacks a perpendicular axis where their grip provides minimal resistance. The rotational force also breaks the chest-to-back connection that provides their primary control, as their chest cannot follow a lateral hip switch as easily as it can follow a linear pull. This angular attack multiplies your force advantage significantly.",
+        "answer_line": "Hip switch breaks chest connection",
+        "distractors": {
+          "plausible": [
+            "Overpowers their grip strength",
+            "Adds power to the pull"
+          ],
+          "trap": [
+            "Pull straight back explosively"
+          ]
+        }
       },
       {
         "question": "What grip configuration weakness should you target when opponent uses a gable grip?",
-        "answer": "The gable grip's weakest point is where the thumbs meet at the junction of the palms. Attack this point by driving your two-on-one grip against one hand at the thumb line, peeling it away from the other hand. The gable grip provides excellent compressive strength but is vulnerable to forces that separate the palms laterally at the thumb junction. Combine the grip attack with a hip bump to add whole-body force to the peeling motion rather than relying on arm strength alone."
+        "answer": "The gable grip's weakest point is where the thumbs meet at the junction of the palms. Attack this point by driving your two-on-one grip against one hand at the thumb line, peeling it away from the other hand. The gable grip provides excellent compressive strength but is vulnerable to forces that separate the palms laterally at the thumb junction. Combine the grip attack with a hip bump to add whole-body force to the peeling motion rather than relying on arm strength alone.",
+        "answer_line": "Peel thumb junction, two-on-one",
+        "distractors": {
+          "plausible": [
+            "Pry fingers apart individually",
+            "Crush grip strength head-on"
+          ],
+          "trap": [
+            "Pull straight up against grip"
+          ]
+        }
       },
       {
         "question": "When should you accept turtle position rather than fighting for a full standing escape?",
-        "answer": "Accept turtle when your standing escape attempts have failed for 2-3 seconds and opponent's pressure is overwhelming, when you feel a throw or suplex being initiated and controlled descent is safer than being thrown, or when your grip break succeeds but opponent maintains enough connection to prevent you from turning to face them. Turtle is a tactical retreat that preserves your options rather than a surrender - it removes the throwing and lifting threats while giving you established escape paths from a known defensive position."
+        "answer": "Accept turtle when your standing escape attempts have failed for 2-3 seconds and opponent's pressure is overwhelming, when you feel a throw or suplex being initiated and controlled descent is safer than being thrown, or when your grip break succeeds but opponent maintains enough connection to prevent you from turning to face them. Turtle is a tactical retreat that preserves your options rather than a surrender - it removes the throwing and lifting threats while giving you established escape paths from a known defensive position.",
+        "answer_line": "Stall 2-3s or throw threat",
+        "distractors": {
+          "plausible": [
+            "As soon as lock is applied",
+            "Only after grip break fails"
+          ],
+          "trap": [
+            "Fight standing no matter what"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail in the two-on-one grip break?",
-        "answer": "The most critical detail is pulling their hand across your body toward your opposite hip rather than pushing it away from you. Pulling across your body uses your stronger pulling muscles and torso rotation, while pushing away isolates your weaker pushing muscles against their combined grip strength. The cross-body pull also naturally integrates with the hip switch, creating a unified movement where the grip break and angular displacement happen simultaneously rather than sequentially."
+        "answer": "The most critical detail is pulling their hand across your body toward your opposite hip rather than pushing it away from you. Pulling across your body uses your stronger pulling muscles and torso rotation, while pushing away isolates your weaker pushing muscles against their combined grip strength. The cross-body pull also naturally integrates with the hip switch, creating a unified movement where the grip break and angular displacement happen simultaneously rather than sequentially.",
+        "answer_line": "Pull across body to opposite hip",
+        "distractors": {
+          "plausible": [
+            "Pull hand to your near hip",
+            "Twist wrist to break grip"
+          ],
+          "trap": [
+            "Push their hand straight away"
+          ]
+        }
       },
       {
         "question": "Your opponent's grip breaks but they immediately reach to re-lock - how do you respond?",
-        "answer": "Use the momentary freedom to immediately change your body angle rather than trying to completely disengage. Even a brief grip break creates a window where their control is compromised. Execute a sharp hip switch or quarter turn during this window so that when they re-lock, they are in a less optimal position. Each successive break-and-relock cycle should leave them with a progressively worse angle until you can create enough space for a full escape or force them to abandon the body lock attempt entirely."
+        "answer": "Use the momentary freedom to immediately change your body angle rather than trying to completely disengage. Even a brief grip break creates a window where their control is compromised. Execute a sharp hip switch or quarter turn during this window so that when they re-lock, they are in a less optimal position. Each successive break-and-relock cycle should leave them with a progressively worse angle until you can create enough space for a full escape or force them to abandon the body lock attempt entirely.",
+        "answer_line": "Hip switch during the gap",
+        "distractors": {
+          "plausible": [
+            "Try to fully disengage now",
+            "Reset stance, wait for next chance"
+          ],
+          "trap": [
+            "Stay still, save energy"
+          ]
+        }
       },
       {
         "question": "How does the direction of your hip switch affect which escape outcome you achieve?",
-        "answer": "Switching your hips toward the side of opponent's over-arm (the arm over your shoulder in the body lock) tends to create more space for turning to face them and recovering to clinch, as you move into the gap created by their arm position. Switching toward the under-arm side tends to result in turtle position, as the under-arm blocks your rotation and you naturally descend. Reading which arm is over and which is under determines the optimal escape direction and expected outcome."
+        "answer": "Switching your hips toward the side of opponent's over-arm (the arm over your shoulder in the body lock) tends to create more space for turning to face them and recovering to clinch, as you move into the gap created by their arm position. Switching toward the under-arm side tends to result in turtle position, as the under-arm blocks your rotation and you naturally descend. Reading which arm is over and which is under determines the optimal escape direction and expected outcome.",
+        "answer_line": "Over-arm side=turn, under=turtle",
+        "distractors": {
+          "plausible": [
+            "Under-arm side=turn, over=turtle",
+            "Direction doesn't affect outcome"
+          ],
+          "trap": [
+            "Push straight into their chest"
+          ]
+        }
       },
       {
         "question": "What defensive measure prevents your opponent from taking your back during the escape attempt?",
-        "answer": "Keep your elbows tight to your body throughout the entire escape sequence, particularly during the hip switch and turning phase. Flared elbows create space for hook insertion. If you feel any leg threading between yours during the escape, immediately sit your hips to the mat and address the hook before continuing the standing escape. Maintaining chin-to-chest protects against chokes during the transition. The combination of tight elbows, seated hook defense, and chin tuck creates a defensive framework that limits back take opportunities."
+        "answer": "Keep your elbows tight to your body throughout the entire escape sequence, particularly during the hip switch and turning phase. Flared elbows create space for hook insertion. If you feel any leg threading between yours during the escape, immediately sit your hips to the mat and address the hook before continuing the standing escape. Maintaining chin-to-chest protects against chokes during the transition. The combination of tight elbows, seated hook defense, and chin tuck creates a defensive framework that limits back take opportunities.",
+        "answer_line": "Tight elbows, sit if hook threads",
+        "distractors": {
+          "plausible": [
+            "Keep chin up, watch their hips",
+            "Push elbows out to block hooks"
+          ],
+          "trap": [
+            "Ignore hooks, keep standing tall"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Explosive hip switching during the escape carries risk of lower back and oblique muscle strains, particularly when executed under load against a resisting opponent. When your opponent attempts throws during the escape, protect your neck by tucking your chin and controlling your fall trajectory. Tap immediately if a choking grip is secured during the scramble rather than fighting through a compromised position. During training, build intensity progressively and communicate with partners about resistance levels to prevent injury from unexpected explosive movements."
+    "safety_considerations": "Explosive hip switching during the escape carries risk of lower back and oblique muscle strains, particularly when executed under load against a resisting opponent. When your opponent attempts throws during the escape, protect your neck by tucking your chin and controlling your fall trajectory. Tap immediately if a choking grip is secured during the scramble rather than fighting through a compromised position. During training, build intensity progressively and communicate with partners about resistance levels to prevent injury from unexpected explosive movements.",
+    "clips": [
+      {
+        "id": "_QDpqIbTa1k",
+        "title": "Escape Rear Body Lock with a Granby Roll",
+        "by": "Nakapan MMA",
+        "vertical": false,
+        "channel": "Nakapan MMA",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2VCyaassiRI",
+        "title": "Leg Switch Cutback from Rear Body Lock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Fxpu62evbwk",
+        "title": "Body Lock Break to Kimura",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 44,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Body Lock Defender",
@@ -326,7 +450,7 @@
       {
         "action": "Release grip to transition to front headlock control",
         "when_to_use": "When opponent successfully turns to face you during escape and lowers their head level",
-        "targets_outcome": "Clinch",
+        "targets_outcome": "Clinch/Top",
         "if_successful": "Transition from body lock to front headlock control, maintaining offensive pressure despite losing locked grip",
         "risk": "If opponent frames effectively during the transition, they may recover to neutral clinch"
       }
@@ -366,19 +490,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt an escape from body lock?",
-        "answer": "The earliest cue is aggressive hand fighting against your locked grip, specifically when you feel their hands reaching behind to peel at your fingers or wrists. This precedes all physical escape movements and indicates they are targeting your grip as the first step. Secondary early cues include sudden base widening and level dropping, which signal preparation for explosive hip movement. Recognizing these pre-escape indicators allows you to increase pressure and tighten control before the escape develops momentum."
+        "answer": "The earliest cue is aggressive hand fighting against your locked grip, specifically when you feel their hands reaching behind to peel at your fingers or wrists. This precedes all physical escape movements and indicates they are targeting your grip as the first step. Secondary early cues include sudden base widening and level dropping, which signal preparation for explosive hip movement. Recognizing these pre-escape indicators allows you to increase pressure and tighten control before the escape develops momentum.",
+        "answer_line": "Hands peeling at your grip",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip movement",
+            "Base widening and level drop"
+          ],
+          "trap": [
+            "Wait for visible hip switch"
+          ]
+        }
       },
       {
         "question": "How should you respond when your opponent executes a hip switch during their escape attempt?",
-        "answer": "Rather than fighting the hip switch directly, use the angular displacement it creates to your advantage by following the rotation and inserting your near-side hook between their legs. Their hip switch actually opens space for hook insertion that did not exist in the static body lock position. Simultaneously transition your grip from locked body lock to seatbelt harness. This converts their escape attempt into your back take, upgrading from a transitional control to a dominant position worth competition points."
+        "answer": "Rather than fighting the hip switch directly, use the angular displacement it creates to your advantage by following the rotation and inserting your near-side hook between their legs. Their hip switch actually opens space for hook insertion that did not exist in the static body lock position. Simultaneously transition your grip from locked body lock to seatbelt harness. This converts their escape attempt into your back take, upgrading from a transitional control to a dominant position worth competition points.",
+        "answer_line": "Follow rotation, insert hook",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation, re-square",
+            "Tighten body lock grip harder"
+          ],
+          "trap": [
+            "Release grip and reset position"
+          ]
+        }
       },
       {
         "question": "Why is maintaining chest-to-back connection more important than grip strength alone when defending against the escape?",
-        "answer": "Chest-to-back connection provides primary control through surface area contact and weight transfer that cannot be broken by hand fighting alone. Even if your grip loosens momentarily, the chest connection prevents your opponent from creating the angular displacement needed for escape. Grip strength alone without chest connection allows opponents to rotate within the grip circle. The chest connection transfers your entire body weight into their center of mass, while the grip only uses arm strength. Prioritizing chest connection allows you to maintain control even during grip transitions."
+        "answer": "Chest-to-back connection provides primary control through surface area contact and weight transfer that cannot be broken by hand fighting alone. Even if your grip loosens momentarily, the chest connection prevents your opponent from creating the angular displacement needed for escape. Grip strength alone without chest connection allows opponents to rotate within the grip circle. The chest connection transfers your entire body weight into their center of mass, while the grip only uses arm strength. Prioritizing chest connection allows you to maintain control even during grip transitions.",
+        "answer_line": "Blocks rotation via body weight",
+        "distractors": {
+          "plausible": [
+            "Grip strength alone is enough",
+            "Both matter equally always"
+          ],
+          "trap": [
+            "Release chest, grip harder instead"
+          ]
+        }
       },
       {
         "question": "When is it strategically correct to release your body lock grip voluntarily during an escape defense?",
-        "answer": "Release the grip voluntarily only when you can immediately establish an equal or superior control position, such as transitioning to front headlock when the opponent turns and lowers their head, or switching to a seatbelt harness when hooks are being inserted. Never release the grip into empty space or based on speculation that a better position might appear. The release must be part of a planned transition with the next control already being established as the grip opens. A controlled release to front headlock maintains offensive pressure despite losing the locked configuration."
+        "answer": "Release the grip voluntarily only when you can immediately establish an equal or superior control position, such as transitioning to front headlock when the opponent turns and lowers their head, or switching to a seatbelt harness when hooks are being inserted. Never release the grip into empty space or based on speculation that a better position might appear. The release must be part of a planned transition with the next control already being established as the grip opens. A controlled release to front headlock maintains offensive pressure despite losing the locked configuration.",
+        "answer_line": "Only into a planned transition",
+        "distractors": {
+          "plausible": [
+            "When you feel tired or slipping",
+            "Once opponent starts hip switch"
+          ],
+          "trap": [
+            "Release into space, react after"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +565,26 @@
         "phase": "Phase 4: Recognition Speed Development",
         "focus": "Early escape detection and preemptive counter-timing",
         "description": "Partner mixes genuine escape attempts with feints and positional adjustments. Practice distinguishing real escape attempts from positional adjustments and initiating counters at the earliest possible moment. Develop pattern recognition that allows you to counter before escapes develop full momentum."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8e8aOjenAKs",
+        "title": "Turtle and Rear Body Lock Escape Counter",
+        "by": "Jamie Clubb",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_QDpqIbTa1k",
+        "title": "Escape rear body lock with a Granby roll",
+        "by": "Nakapan MMA",
+        "vertical": false,
+        "channel": "Nakapan MMA",
+        "duration": 65,
+        "verified": "2026-07-15"
       }
     ]
   }

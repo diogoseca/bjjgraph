@@ -174,6 +174,54 @@ description: "Learn to recover guard from Inside Ashi-Garami as the bottom playe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Inside Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg defense and escape from Ashi Garami",
+      "description": "Guard Recovery from Inside Ashi-Garami (Attacker) film study: Leg defense and escape from Ashi Garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi Garami escape: sit over the foot to mount",
+      "description": "Guard Recovery from Inside Ashi-Garami (Attacker) film study: Ashi Garami escape: sit over the foot to mount, taught by Troy Manning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4UEhHwbGfQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4UEhHwbGfQ",
+      "url": "https://www.youtube.com/watch?v=m4UEhHwbGfQ",
+      "creator": { "@type": "Person", "name": "Troy Manning" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping Ashi Garami \u2014 leg lock defense",
+      "description": "Guard Recovery from Inside Ashi-Garami (Attacker) film study: Escaping Ashi Garami \u2014 leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the bottom player in a failing Inside Ashi-Garami, your primary challenge is 
 **From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Inside Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense and escape from Ashi Garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4UEhHwbGfQ)
+
+<p class="clip-credit"><strong>Ashi Garami escape: sit over the foot to mount</strong> — taught by Troy Manning · 1:16 · <a href="https://www.youtube.com/watch?v=m4UEhHwbGfQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping Ashi Garami — leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

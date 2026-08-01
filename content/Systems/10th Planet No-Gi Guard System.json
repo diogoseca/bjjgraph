@@ -362,35 +362,115 @@
   "flashcards": [
     {
       "question": "What three subsystems form the backbone of the 10th Planet No-Gi Guard System?",
-      "answer": "Rubber guard from closed guard (Mission Control, New York, Meathook), the lockdown system from half guard, and the truck/twister series from turtle and scrambles, all connected by strategic transitions."
+      "answer": "Rubber guard from closed guard (Mission Control, New York, Meathook), the lockdown system from half guard, and the truck/twister series from turtle and scrambles, all connected by strategic transitions.",
+      "answer_line": "Rubber guard, lockdown, truck",
+      "distractors": {
+        "plausible": [
+          "Closed guard, mount, back control",
+          "Half guard, side control, mount"
+        ],
+        "trap": [
+          "Just spam armbars from guard"
+        ]
+      }
     },
     {
       "question": "Why does the 10th Planet system avoid gi grips in its control mechanics?",
-      "answer": "It is built for no-gi and MMA, so it controls posture through overhooks, leg-based clamps, and body positioning rather than collar or sleeve grips, keeping the control transferable to gi-less competition and striking range."
+      "answer": "It is built for no-gi and MMA, so it controls posture through overhooks, leg-based clamps, and body positioning rather than collar or sleeve grips, keeping the control transferable to gi-less competition and striking range.",
+      "answer_line": "Overhooks and leg-based control",
+      "distractors": {
+        "plausible": [
+          "Wrist and ankle grips only",
+          "Deep collar tie control"
+        ],
+        "trap": [
+          "Grip the collar like gi guard"
+        ]
+      }
     },
     {
       "question": "What is the primary function of the lockdown in bottom half guard?",
-      "answer": "The lockdown uses both legs to trap and stretch the opponent's leg, neutralizing pressure passing while setting up the Old School sweep and the electric chair submission from bottom half guard."
+      "answer": "The lockdown uses both legs to trap and stretch the opponent's leg, neutralizing pressure passing while setting up the Old School sweep and the electric chair submission from bottom half guard.",
+      "answer_line": "Trap the leg, stop the pass",
+      "distractors": {
+        "plausible": [
+          "Sweep immediately every time",
+          "Attack the far arm for kimura"
+        ],
+        "trap": [
+          "Release grip to create scrambles"
+        ]
+      }
     },
     {
       "question": "From which positions do you typically enter the truck for twister attacks?",
-      "answer": "The truck is most often entered from turtle, failed guard passes, and scramble exchanges when the opponent's weight is forward, using a calf-slicer style grip as the primary entry mechanism."
+      "answer": "The truck is most often entered from turtle, failed guard passes, and scramble exchanges when the opponent's weight is forward, using a calf-slicer style grip as the primary entry mechanism.",
+      "answer_line": "Turtle, scrambles, failed passes",
+      "distractors": {
+        "plausible": [
+          "Closed guard when opponent stands",
+          "Mount when opponent bridges"
+        ],
+        "trap": [
+          "Abandon top mount to chase truck"
+        ]
+      }
     },
     {
       "question": "Which physical attribute most limits rubber guard depth, and how is it addressed?",
-      "answer": "Hip and hamstring flexibility limits how deep positions like Meathook and Chill Dog can be reached; it is addressed with a dedicated daily mobility protocol and progressing gradually outward from Mission Control."
+      "answer": "Hip and hamstring flexibility limits how deep positions like Meathook and Chill Dog can be reached; it is addressed with a dedicated daily mobility protocol and progressing gradually outward from Mission Control.",
+      "answer_line": "Hip/hamstring mobility work",
+      "distractors": {
+        "plausible": [
+          "Shoulder flexibility drills",
+          "Core strength conditioning"
+        ],
+        "trap": [
+          "Force the position with strength"
+        ]
+      }
     },
     {
       "question": "What is a common mistake when applying rubber guard against a strong-postured opponent?",
-      "answer": "Forcing the position with muscle when posture is too strong; instead break posture first with overhook and leg control, or switch to lockdown or truck pathways rather than fighting the position head-on."
+      "answer": "Forcing the position with muscle when posture is too strong; instead break posture first with overhook and leg control, or switch to lockdown or truck pathways rather than fighting the position head-on.",
+      "answer_line": "Break posture first, not muscle",
+      "distractors": {
+        "plausible": [
+          "Pull harder into deep rubber guard",
+          "Switch grips faster for finish"
+        ],
+        "trap": [
+          "Muscle the leg up regardless"
+        ]
+      }
     },
     {
       "question": "How does the system create submission chains rather than isolated attacks?",
-      "answer": "Each defensive reaction opens a new attack: defending the triangle exposes the omoplata, stuffing the Old School sweep opens the back, and posting against the truck exposes the calf slicer, keeping the opponent perpetually defending."
+      "answer": "Each defensive reaction opens a new attack: defending the triangle exposes the omoplata, stuffing the Old School sweep opens the back, and posting against the truck exposes the calf slicer, keeping the opponent perpetually defending.",
+      "answer_line": "Defenses trigger next attack",
+      "distractors": {
+        "plausible": [
+          "Repeat the same attack harder",
+          "Reset to neutral guard first"
+        ],
+        "trap": [
+          "Chase the tap, ignore reactions"
+        ]
+      }
     },
     {
       "question": "How can a practitioner develop the system without 10th-Planet-experienced partners?",
-      "answer": "Use positional sparring from specific 10th Planet positions, teach partners the basic defenses to create realistic resistance, film rounds for review, and visit affiliate schools or seminars for specialized feedback."
+      "answer": "Use positional sparring from specific 10th Planet positions, teach partners the basic defenses to create realistic resistance, film rounds for review, and visit affiliate schools or seminars for specialized feedback.",
+      "answer_line": "Positional drills, film, seminars",
+      "distractors": {
+        "plausible": [
+          "Only drill solo shadow reps",
+          "Watch instructionals exclusively"
+        ],
+        "trap": [
+          "Force it on untrained partners"
+        ]
+      }
     }
   ]
 }

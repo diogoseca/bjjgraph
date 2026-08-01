@@ -34,6 +34,54 @@ description: "Master New York Control to Zombie transition in BJJ. 10th Planet r
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control to Zombie \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic entries into rubber guard",
+      "description": "New York Control to Zombie film study: Basic entries into rubber guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WliTCjEDA-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WliTCjEDA-8",
+      "url": "https://www.youtube.com/watch?v=WliTCjEDA-8",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The proper way to Zombie in rubber guard",
+      "description": "New York Control to Zombie film study: The proper way to Zombie in rubber guard, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JzSxFvNA5Uo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JzSxFvNA5Uo",
+      "url": "https://www.youtube.com/watch?v=JzSxFvNA5Uo",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard 101: Zombie, New York, Chill Dog",
+      "description": "New York Control to Zombie film study: Rubber guard 101: Zombie, New York, Chill Dog, taught by Submissions101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wUDqbU2jwxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wUDqbU2jwxg",
+      "url": "https://www.youtube.com/watch?v=wUDqbU2jwxg",
+      "creator": { "@type": "Person", "name": "Submissions101" },
+      "duration": "PT278S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategic timing distinguishes successful practitioners. The transition must occ
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control to Zombie in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WliTCjEDA-8)
+
+<p class="clip-credit"><strong>Basic entries into rubber guard</strong> — taught by BJJ4Breakfast · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JzSxFvNA5Uo)
+
+<p class="clip-credit"><strong>The proper way to Zombie in rubber guard</strong> — taught by Ben Eddy · 2:54 · <a href="https://www.youtube.com/watch?v=JzSxFvNA5Uo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wUDqbU2jwxg)
+
+<p class="clip-credit"><strong>Rubber guard 101: Zombie, New York, Chill Dog</strong> — taught by Submissions101 · 4:38 · <a href="https://www.youtube.com/watch?v=wUDqbU2jwxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -140,6 +140,43 @@ description: "Defend against the inversion from reverse half guard top. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Invert from Reverse Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering a Full Inversion",
+      "description": "Invert from Reverse Half Guard (Defender) film study: Countering a Full Inversion, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aQ2vFXXBn-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aQ2vFXXBn-o",
+      "url": "https://www.youtube.com/watch?v=aQ2vFXXBn-o",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shotgun pass to beat reverse half guard",
+      "description": "Invert from Reverse Half Guard (Defender) film study: Shotgun pass to beat reverse half guard, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4mHVpST5lLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4mHVpST5lLw",
+      "url": "https://www.youtube.com/watch?v=4mHVpST5lLw",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 **Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Invert from Reverse Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aQ2vFXXBn-o)
+
+<p class="clip-credit"><strong>Countering a Full Inversion</strong> — taught by Gordon Ryan · 1:01 · <a href="https://www.youtube.com/watch?v=aQ2vFXXBn-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4mHVpST5lLw)
+
+<p class="clip-credit"><strong>Shotgun pass to beat reverse half guard</strong> — taught by The Base Jiu Jitsu · 1:26 · <a href="https://www.youtube.com/watch?v=4mHVpST5lLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

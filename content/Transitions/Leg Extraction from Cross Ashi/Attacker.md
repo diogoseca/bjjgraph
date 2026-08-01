@@ -180,6 +180,54 @@ description: "Master Leg Extraction from Cross Ashi-Garami. Step-by-step guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Cross Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic escape from the saddle (cross ashi)",
+      "description": "Leg Extraction from Cross Ashi (Attacker) film study: Basic escape from the saddle (cross ashi), taught by Travis Anderson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0T4T2so40C4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0T4T2so40C4",
+      "url": "https://www.youtube.com/watch?v=0T4T2so40C4",
+      "creator": { "@type": "Person", "name": "Travis Anderson" },
+      "duration": "PT171S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi Garami Escape by Pulling the Leg Free",
+      "description": "Leg Extraction from Cross Ashi (Attacker) film study: Ashi Garami Escape by Pulling the Leg Free, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0g_ALDkfU2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0g_ALDkfU2Q",
+      "url": "https://www.youtube.com/watch?v=0g_ALDkfU2Q",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT107S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping Double Trouble Cross Ashi",
+      "description": "Leg Extraction from Cross Ashi (Attacker) film study: Escaping Double Trouble Cross Ashi, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KvCwwSOW11w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KvCwwSOW11w",
+      "url": "https://www.youtube.com/watch?v=KvCwwSOW11w",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT544S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the person executing the Leg Extraction from Cross Ashi, your objective is to
 **From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Cross Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0T4T2so40C4)
+
+<p class="clip-credit"><strong>Basic escape from the saddle (cross ashi)</strong> — taught by Travis Anderson · 2:51 · <a href="https://www.youtube.com/watch?v=0T4T2so40C4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0g_ALDkfU2Q)
+
+<p class="clip-credit"><strong>Ashi Garami Escape by Pulling the Leg Free</strong> — taught by Brandon McCaghren · 1:47 · <a href="https://www.youtube.com/watch?v=0g_ALDkfU2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KvCwwSOW11w)
+
+<p class="clip-credit"><strong>Escaping Double Trouble Cross Ashi</strong> — taught by Brian Glick · 9:04 · <a href="https://www.youtube.com/watch?v=KvCwwSOW11w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

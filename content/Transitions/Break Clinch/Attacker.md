@@ -180,6 +180,43 @@ description: "Complete guide to executing the clinch break in BJJ. Learn frame c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Break Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clearing the neck tie to break the clinch",
+      "description": "Break Clinch (Attacker) film study: Clearing the neck tie to break the clinch, taught by CSW Association.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yEGyEjjgkKU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yEGyEjjgkKU",
+      "url": "https://www.youtube.com/watch?v=yEGyEjjgkKU",
+      "creator": { "@type": "Person", "name": "CSW Association" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking a collar grip with technique, not strength",
+      "description": "Break Clinch (Attacker) film study: Breaking a collar grip with technique, not strength, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jTk5AaZd1Rc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jTk5AaZd1Rc",
+      "url": "https://www.youtube.com/watch?v=jTk5AaZd1Rc",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ Executing the clinch break requires a systematic approach that combines grip fig
 **From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Break Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yEGyEjjgkKU)
+
+<p class="clip-credit"><strong>Clearing the neck tie to break the clinch</strong> — taught by CSW Association · 1:23 · <a href="https://www.youtube.com/watch?v=yEGyEjjgkKU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jTk5AaZd1Rc)
+
+<p class="clip-credit"><strong>Breaking a collar grip with technique, not strength</strong> — taught by Travis Stevens · 1:53 · <a href="https://www.youtube.com/watch?v=jTk5AaZd1Rc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

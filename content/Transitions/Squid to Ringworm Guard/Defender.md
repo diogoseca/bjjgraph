@@ -148,6 +148,54 @@ description: "Learn to defend against the Squid to Ringworm Guard transition in 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Squid to Ringworm Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to pass the worm guard",
+      "description": "Squid to Ringworm Guard (Defender) film study: How to pass the worm guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Apdhlgpalgc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Apdhlgpalgc",
+      "url": "https://www.youtube.com/watch?v=Apdhlgpalgc",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT202S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single grip to slice through lapel guards",
+      "description": "Squid to Ringworm Guard (Defender) film study: Single grip to slice through lapel guards, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kMybfbRxsPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kMybfbRxsPg",
+      "url": "https://www.youtube.com/watch?v=kMybfbRxsPg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT512S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing lapel guards with leg pummel",
+      "description": "Squid to Ringworm Guard (Defender) film study: Passing lapel guards with leg pummel, taught by Adam Wardzinski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4v0oVPOz80s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4v0oVPOz80s",
+      "url": "https://www.youtube.com/watch?v=4v0oVPOz80s",
+      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
+      "duration": "PT524S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Squid to Ringworm Guard transition requires the top player to reco
 **Opponent's Starting Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Squid to Ringworm Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Apdhlgpalgc)
+
+<p class="clip-credit"><strong>How to pass the worm guard</strong> — taught by Jon Thomas · 3:22 · <a href="https://www.youtube.com/watch?v=Apdhlgpalgc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kMybfbRxsPg)
+
+<p class="clip-credit"><strong>Single grip to slice through lapel guards</strong> — taught by Keenan Cornelius · 8:32 · <a href="https://www.youtube.com/watch?v=kMybfbRxsPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4v0oVPOz80s)
+
+<p class="clip-credit"><strong>Passing lapel guards with leg pummel</strong> — taught by Adam Wardzinski · 8:44 · <a href="https://www.youtube.com/watch?v=4v0oVPOz80s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

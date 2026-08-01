@@ -174,6 +174,54 @@ description: "Complete attacker guide to the standing guard pass in BJJ. Master 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Standing Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing guard pass",
+      "description": "Guard Pass from Standing Guard (Attacker) film study: Standing guard pass, taught by 10th Planet Costa Mesa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yXNfYoZszss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yXNfYoZszss",
+      "url": "https://www.youtube.com/watch?v=yXNfYoZszss",
+      "creator": { "@type": "Person", "name": "10th Planet Costa Mesa" },
+      "duration": "PT11S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing guard pass with hip twist",
+      "description": "Guard Pass from Standing Guard (Attacker) film study: Standing guard pass with hip twist, taught by RKBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SHZxXkY9p1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SHZxXkY9p1s",
+      "url": "https://www.youtube.com/watch?v=SHZxXkY9p1s",
+      "creator": { "@type": "Person", "name": "RKBJJ" },
+      "duration": "PT112S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing pass series: leg hug detail",
+      "description": "Guard Pass from Standing Guard (Attacker) film study: Standing pass series: leg hug detail, taught by Dedeco.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CgpkrPRotcg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CgpkrPRotcg",
+      "url": "https://www.youtube.com/watch?v=CgpkrPRotcg",
+      "creator": { "@type": "Person", "name": "Dedeco" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the standing guard pass requires systematic progression through four d
 **From Position**: [[Positions/Standing Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Standing Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yXNfYoZszss)
+
+<p class="clip-credit"><strong>Standing guard pass</strong> — taught by 10th Planet Costa Mesa · 0:11 · <a href="https://www.youtube.com/watch?v=yXNfYoZszss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SHZxXkY9p1s)
+
+<p class="clip-credit"><strong>Standing guard pass with hip twist</strong> — taught by RKBJJ · 1:52 · <a href="https://www.youtube.com/watch?v=SHZxXkY9p1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CgpkrPRotcg)
+
+<p class="clip-credit"><strong>Standing pass series: leg hug detail</strong> — taught by Dedeco · 2:33 · <a href="https://www.youtube.com/watch?v=CgpkrPRotcg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

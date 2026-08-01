@@ -148,6 +148,32 @@ description: "Complete guide to preventing the Boot Scoot Escape from Saddle. Re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Boot Scoot Escape from Saddle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Controlling the saddle to shut down escapes",
+      "description": "Boot Scoot Escape from Saddle (Defender) film study: Controlling the saddle to shut down escapes, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5hhSK86xBFc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5hhSK86xBFc",
+      "url": "https://www.youtube.com/watch?v=5hhSK86xBFc",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT259S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +183,26 @@ From the defender's perspective—you are the saddle top player maintaining cont
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Boot Scoot Escape from Saddle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5hhSK86xBFc)
+
+<p class="clip-credit"><strong>Controlling the saddle to shut down escapes</strong> — taught by Mads H. · 4:19 · <a href="https://www.youtube.com/watch?v=5hhSK86xBFc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

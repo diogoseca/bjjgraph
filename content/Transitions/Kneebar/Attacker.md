@@ -168,6 +168,54 @@ description: "How to execute the Kneebar from Backside 50-50 in BJJ. Attacking p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dog bar kneebar variation",
+      "description": "Kneebar (Attacker) film study: Dog bar kneebar variation, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata to kneebar",
+      "description": "Kneebar (Attacker) film study: Omoplata to kneebar, taught by Todd Hendrickson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nlqXyzajRUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nlqXyzajRUg",
+      "url": "https://www.youtube.com/watch?v=nlqXyzajRUg",
+      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Go behind kneebar",
+      "description": "Kneebar (Attacker) film study: Go behind kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 **From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog bar kneebar variation</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nlqXyzajRUg)
+
+<p class="clip-credit"><strong>Omoplata to kneebar</strong> — taught by Todd Hendrickson · 1:28 · <a href="https://www.youtube.com/watch?v=nlqXyzajRUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go behind kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

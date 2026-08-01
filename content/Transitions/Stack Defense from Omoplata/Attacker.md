@@ -174,6 +174,54 @@ description: "Master the attacker perspective for stack defense from omoplata. L
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Defense from Omoplata (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping a locked-in omoplata by stacking",
+      "description": "Stack Defense from Omoplata (Attacker) film study: Escaping a locked-in omoplata by stacking, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
+      "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Highly effective omoplata escape",
+      "description": "Stack Defense from Omoplata (Attacker) film study: Highly effective omoplata escape, taught by Queixinho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UaZdeo4ro3E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UaZdeo4ro3E",
+      "url": "https://www.youtube.com/watch?v=UaZdeo4ro3E",
+      "creator": { "@type": "Person", "name": "Queixinho" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the omoplata off an armbar escape",
+      "description": "Stack Defense from Omoplata (Attacker) film study: Escaping the omoplata off an armbar escape, taught by AMS MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Swa-hGf7EDI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Swa-hGf7EDI",
+      "url": "https://www.youtube.com/watch?v=Swa-hGf7EDI",
+      "creator": { "@type": "Person", "name": "AMS MMA coach" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the stack defense, you are the practitioner who has es
 **From Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Defense from Omoplata (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jKdERMTQqPY)
+
+<p class="clip-credit"><strong>Escaping a locked-in omoplata by stacking</strong> — taught by Matt Arroyo · 1:12 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UaZdeo4ro3E)
+
+<p class="clip-credit"><strong>Highly effective omoplata escape</strong> — taught by Queixinho · 2:21 · <a href="https://www.youtube.com/watch?v=UaZdeo4ro3E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Swa-hGf7EDI)
+
+<p class="clip-credit"><strong>Escaping the omoplata off an armbar escape</strong> — taught by AMS MMA coach · 0:47 · <a href="https://www.youtube.com/watch?v=Swa-hGf7EDI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

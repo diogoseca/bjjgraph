@@ -34,6 +34,54 @@ description: "Master Kimura on Trapped Arm from Gift Wrap in BJJ. Step-by-step s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura on Trapped Arm \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura setup from knee on belly with arm trap",
+      "description": "Kimura on Trapped Arm film study: Kimura setup from knee on belly with arm trap, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bKEhbrZaS7Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bKEhbrZaS7Y",
+      "url": "https://www.youtube.com/watch?v=bKEhbrZaS7Y",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control step around to kimura arm trap",
+      "description": "Kimura on Trapped Arm film study: Side control step around to kimura arm trap, taught by Submission1.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wx6X2jZ-1Ec/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wx6X2jZ-1Ec",
+      "url": "https://www.youtube.com/watch?v=Wx6X2jZ-1Ec",
+      "creator": { "@type": "Person", "name": "Submission1" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "S-mount arm trap kimura",
+      "description": "Kimura on Trapped Arm film study: S-mount arm trap kimura, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yOO_TVoje9Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yOO_TVoje9Q",
+      "url": "https://www.youtube.com/watch?v=yOO_TVoje9Q",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ From a biomechanical perspective, the trapped arm position places the shoulder i
 The Kimura on Trapped Arm serves as both a direct submission threat and a control consolidation tool. Even when the submission doesn't finish, the Kimura grip provides exceptional control that can be used to transition to mounted positions, advance to the crucifix, or set up alternative attacks. Understanding this dual purpose transforms the technique from a one-dimensional submission attempt into a systematic control weapon.
 
 **From Position**: [[Positions/Gift Wrap]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura on Trapped Arm in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bKEhbrZaS7Y)
+
+<p class="clip-credit"><strong>Kimura setup from knee on belly with arm trap</strong> — taught by Jiu Jitsu Five-O · 0:32 · <a href="https://www.youtube.com/watch?v=bKEhbrZaS7Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wx6X2jZ-1Ec)
+
+<p class="clip-credit"><strong>Side control step around to kimura arm trap</strong> — taught by Submission1 · 0:41 · <a href="https://www.youtube.com/watch?v=Wx6X2jZ-1Ec" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yOO_TVoje9Q)
+
+<p class="clip-credit"><strong>S-mount arm trap kimura</strong> — taught by Kameron Ross · 2:32 · <a href="https://www.youtube.com/watch?v=yOO_TVoje9Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -76,7 +160,7 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Kimura]] | 55% |
+| Success | [[Kimura from Gift Wrap]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 

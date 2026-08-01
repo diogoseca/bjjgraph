@@ -180,6 +180,54 @@ description: "Complete guide to passing the Russian Leg Lasso guard in BJJ. Syst
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Russian Leg Lasso (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing lasso guard to the back",
+      "description": "Pass Russian Leg Lasso (Attacker) film study: Passing lasso guard to the back, taught by Gabriel Sousa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9sQAn2ESkMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9sQAn2ESkMU",
+      "url": "https://www.youtube.com/watch?v=9sQAn2ESkMU",
+      "creator": { "@type": "Person", "name": "Gabriel Sousa" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the lasso the fast way",
+      "description": "Pass Russian Leg Lasso (Attacker) film study: Passing the lasso the fast way, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u7hpmMDZfXs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u7hpmMDZfXs",
+      "url": "https://www.youtube.com/watch?v=u7hpmMDZfXs",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT311S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing deep or shallow lasso guard",
+      "description": "Pass Russian Leg Lasso (Attacker) film study: Passing deep or shallow lasso guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WWcXzbt-BRE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WWcXzbt-BRE",
+      "url": "https://www.youtube.com/watch?v=WWcXzbt-BRE",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT360S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Passing the Russian Leg Lasso from the attacker's perspective requires a discipl
 **From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Russian Leg Lasso (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9sQAn2ESkMU)
+
+<p class="clip-credit"><strong>Passing lasso guard to the back</strong> — taught by Gabriel Sousa · 1:53 · <a href="https://www.youtube.com/watch?v=9sQAn2ESkMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u7hpmMDZfXs)
+
+<p class="clip-credit"><strong>Passing the lasso the fast way</strong> — taught by Jon Thomas · 5:11 · <a href="https://www.youtube.com/watch?v=u7hpmMDZfXs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WWcXzbt-BRE)
+
+<p class="clip-credit"><strong>Passing deep or shallow lasso guard</strong> — taught by Jon Thomas · 6:00 · <a href="https://www.youtube.com/watch?v=WWcXzbt-BRE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

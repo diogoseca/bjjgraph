@@ -34,6 +34,43 @@ description: "Master the Overhook Pass to Side Control in BJJ. Complete guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Pass to Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Body lock guard pass off their underhook",
+      "description": "Overhook Pass to Side Control film study: Body lock guard pass off their underhook, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAd6OIq94X0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAd6OIq94X0",
+      "url": "https://www.youtube.com/watch?v=aAd6OIq94X0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing up to reach over the whizzer",
+      "description": "Overhook Pass to Side Control film study: Standing up to reach over the whizzer, taught by John Beresford.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mjOUm-T1Rr0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mjOUm-T1Rr0",
+      "url": "https://www.youtube.com/watch?v=mjOUm-T1Rr0",
+      "creator": { "@type": "Person", "name": "John Beresford" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique integrates naturally with the broader overhook control system as 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Pass to Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAd6OIq94X0)
+
+<p class="clip-credit"><strong>Body lock guard pass off their underhook</strong> — taught by Gordon Ryan · 3:25 · <a href="https://www.youtube.com/watch?v=aAd6OIq94X0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mjOUm-T1Rr0)
+
+<p class="clip-credit"><strong>Standing up to reach over the whizzer</strong> — taught by John Beresford · 1:25 · <a href="https://www.youtube.com/watch?v=mjOUm-T1Rr0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

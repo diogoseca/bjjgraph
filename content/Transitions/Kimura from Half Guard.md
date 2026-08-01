@@ -34,6 +34,54 @@ description: "Master the Kimura from Half Guard Bottom in BJJ. Learn grip entrie
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to kimura from bottom half guard",
+      "description": "Kimura from Half Guard film study: How to kimura from bottom half guard, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5F3ZM01oPVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5F3ZM01oPVo",
+      "url": "https://www.youtube.com/watch?v=5F3ZM01oPVo",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from half guard bottom",
+      "description": "Kimura from Half Guard film study: Kimura from half guard bottom, taught by Renato Migliaccio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VtfT_NNt69U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VtfT_NNt69U",
+      "url": "https://www.youtube.com/watch?v=VtfT_NNt69U",
+      "creator": { "@type": "Person", "name": "Renato Migliaccio" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Gi kimura from bottom half guard",
+      "description": "Kimura from Half Guard film study: Gi kimura from bottom half guard, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dLAF7Fq_zR8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dLAF7Fq_zR8",
+      "url": "https://www.youtube.com/watch?v=dLAF7Fq_zR8",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Strategically, this transition serves as the entry point into a comprehensive at
 The Kimura from Half Guard represents a paradigm shift in bottom-side grappling philosophy. Rather than purely defensive guard retention or single-threat sweeping, this technique establishes a grip-based control system that inverts the positional hierarchy. The bottom player with a secured Kimura grip often has more offensive options than the top player, making this transition one of the most important connective techniques between half guard and the modern Kimura Trap system.
 
 **From Position**: [[Positions/Half Guard]] (Bottom)
-**Success Rate**: 40%
+**Success Rate**: 22%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5F3ZM01oPVo)
+
+<p class="clip-credit"><strong>How to kimura from bottom half guard</strong> — taught by Evolve MMA · 0:41 · <a href="https://www.youtube.com/watch?v=5F3ZM01oPVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VtfT_NNt69U)
+
+<p class="clip-credit"><strong>Kimura from half guard bottom</strong> — taught by Renato Migliaccio · 1:13 · <a href="https://www.youtube.com/watch?v=VtfT_NNt69U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dLAF7Fq_zR8)
+
+<p class="clip-credit"><strong>Gi kimura from bottom half guard</strong> — taught by Hellfish MMA · 1:42 · <a href="https://www.youtube.com/watch?v=dLAF7Fq_zR8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

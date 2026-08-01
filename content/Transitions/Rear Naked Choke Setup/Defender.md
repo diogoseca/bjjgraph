@@ -148,6 +148,54 @@ description: "How to defend against Rear Naked Choke Setup in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three rear choke defenses everyone should know",
+      "description": "Rear Naked Choke Setup (Defender) film study: Three rear choke defenses everyone should know, taught by Ryron and Rener Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UQO3V3Uo3t4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UQO3V3Uo3t4",
+      "url": "https://www.youtube.com/watch?v=UQO3V3Uo3t4",
+      "creator": { "@type": "Person", "name": "Ryron and Rener Gracie" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back escape against the rear naked choke",
+      "description": "Rear Naked Choke Setup (Defender) film study: Back escape against the rear naked choke, taught by Skyhook Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dWEiE8VqqM4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dWEiE8VqqM4",
+      "url": "https://www.youtube.com/watch?v=dWEiE8VqqM4",
+      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rear naked choke escape by attacking the shin",
+      "description": "Rear Naked Choke Setup (Defender) film study: Rear naked choke escape by attacking the shin, taught by SAMA Self Defense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Hu-8hJJ3lc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Hu-8hJJ3lc",
+      "url": "https://www.youtube.com/watch?v=-Hu-8hJJ3lc",
+      "creator": { "@type": "Person", "name": "SAMA Self Defense" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 **Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UQO3V3Uo3t4)
+
+<p class="clip-credit"><strong>Three rear choke defenses everyone should know</strong> — taught by Ryron and Rener Gracie · 1:10 · <a href="https://www.youtube.com/watch?v=UQO3V3Uo3t4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dWEiE8VqqM4)
+
+<p class="clip-credit"><strong>Back escape against the rear naked choke</strong> — taught by Skyhook Martial Arts · 0:19 · <a href="https://www.youtube.com/watch?v=dWEiE8VqqM4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Hu-8hJJ3lc)
+
+<p class="clip-credit"><strong>Rear naked choke escape by attacking the shin</strong> — taught by SAMA Self Defense · 0:17 · <a href="https://www.youtube.com/watch?v=-Hu-8hJJ3lc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

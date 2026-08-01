@@ -140,6 +140,43 @@ description: "Defend against butterfly hook clearing from bottom butterfly guard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to Butterfly Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to pass the butterfly guard",
+      "description": "Butterfly Guard to Butterfly Half Guard (Defender) film study: How to pass the butterfly guard, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BkT2cQdqqgU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BkT2cQdqqgU",
+      "url": "https://www.youtube.com/watch?v=BkT2cQdqqgU",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT117S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing from smash by baiting the butterfly hook",
+      "description": "Butterfly Guard to Butterfly Half Guard (Defender) film study: Passing from smash by baiting the butterfly hook, taught by JT Torres.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s5MYmM58Ipg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s5MYmM58Ipg",
+      "url": "https://www.youtube.com/watch?v=s5MYmM58Ipg",
+      "creator": { "@type": "Person", "name": "JT Torres" },
+      "duration": "PT198S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ The defensive framework operates on three levels: prevention through active hook
 **Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to Butterfly Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BkT2cQdqqgU)
+
+<p class="clip-credit"><strong>How to pass the butterfly guard</strong> — taught by Brandon Mccaghren · 1:57 · <a href="https://www.youtube.com/watch?v=BkT2cQdqqgU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s5MYmM58Ipg)
+
+<p class="clip-credit"><strong>Passing from smash by baiting the butterfly hook</strong> — taught by JT Torres · 3:18 · <a href="https://www.youtube.com/watch?v=s5MYmM58Ipg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

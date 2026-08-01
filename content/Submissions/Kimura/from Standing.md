@@ -34,6 +34,54 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Standing \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Kimura",
+      "description": "Kimura from Standing film study: Standing Kimura, taught by Michael Currier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HDnP_Kksmf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HDnP_Kksmf8",
+      "url": "https://www.youtube.com/watch?v=HDnP_Kksmf8",
+      "creator": { "@type": "Person", "name": "Michael Currier" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Takedown",
+      "description": "Kimura from Standing film study: Kimura Takedown, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CqJrSJnGPDQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CqJrSJnGPDQ",
+      "url": "https://www.youtube.com/watch?v=CqJrSJnGPDQ",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body Lock Break to Kimura",
+      "description": "Kimura from Standing film study: Body Lock Break to Kimura, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fxpu62evbwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fxpu62evbwk",
+      "url": "https://www.youtube.com/watch?v=Fxpu62evbwk",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 **Starting Position**: [[Positions/Standing Position]] · **From**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Standing in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HDnP_Kksmf8)
+
+<p class="clip-credit"><strong>Standing Kimura</strong> — taught by Michael Currier · 0:23 · <a href="https://www.youtube.com/watch?v=HDnP_Kksmf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CqJrSJnGPDQ)
+
+<p class="clip-credit"><strong>Kimura Takedown</strong> — taught by Kinesiology College · 0:18 · <a href="https://www.youtube.com/watch?v=CqJrSJnGPDQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fxpu62evbwk)
+
+<p class="clip-credit"><strong>Body Lock Break to Kimura</strong> — taught by SBG Australia · 0:44 · <a href="https://www.youtube.com/watch?v=Fxpu62evbwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -251,8 +335,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ## Related
 - [[Submissions/Kimura]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/Far Side Armbar]]
@@ -260,8 +344,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - [[Submissions/Reverse Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Omoplata]]
-- [[Transitions/Guillotine Choke]]
-- [[Submissions/Flying Armbar]]
+- [[Submissions/Guillotine Choke]]
 - [[Positions/Kimura Trap]] - Primary control position when opponent counter-rotates to defend standing Kimura
 - [[Transitions/Rolling Kimura]] - Ground-based variation using similar shoulder lock mechanics with rotational entry
 - [[Transitions/Single Leg Entry]] - Failed single leg defense creates high-percentage standing Kimura opportunity

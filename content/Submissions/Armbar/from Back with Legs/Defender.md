@@ -150,6 +150,43 @@ description: "How to defend against Armbar from Back with Legs in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Back with Legs (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "My favorite armbar escape",
+      "description": "Armbar from Back with Legs (Defender) film study: My favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from the back and how to stop it",
+      "description": "Armbar from Back with Legs (Defender) film study: Armbar from the back and how to stop it, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s_X84S_o8_A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s_X84S_o8_A",
+      "url": "https://www.youtube.com/watch?v=s_X84S_o8_A",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT246S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ The most critical defensive principle is urgency during the transition combined 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Back with Legs (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>My favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s_X84S_o8_A)
+
+<p class="clip-credit"><strong>Armbar from the back and how to stop it</strong> — taught by Stephan Kesting · 4:06 · <a href="https://www.youtube.com/watch?v=s_X84S_o8_A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

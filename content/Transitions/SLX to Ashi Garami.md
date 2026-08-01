@@ -34,6 +34,43 @@ description: "Master SLX to Ashi Garami in BJJ. Complete guide to transitioning 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "SLX to Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin-to-shin to single leg X to outside ashi",
+      "description": "SLX to Ashi Garami film study: Shin-to-shin to single leg X to outside ashi, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o0TTMzFEG0Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o0TTMzFEG0Q",
+      "url": "https://www.youtube.com/watch?v=o0TTMzFEG0Q",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg entry when your single leg X is crushed",
+      "description": "SLX to Ashi Garami film study: Leg entry when your single leg X is crushed, taught by Factory Fresh Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/El_icnQ7GKg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/El_icnQ7GKg",
+      "url": "https://www.youtube.com/watch?v=El_icnQ7GKg",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu coach" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition serves as the gateway to the entire hierarchical 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch SLX to Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o0TTMzFEG0Q)
+
+<p class="clip-credit"><strong>Shin-to-shin to single leg X to outside ashi</strong> — taught by Robyn Sheehan · 2:08 · <a href="https://www.youtube.com/watch?v=o0TTMzFEG0Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=El_icnQ7GKg)
+
+<p class="clip-credit"><strong>Leg entry when your single leg X is crushed</strong> — taught by Factory Fresh Jiu Jitsu coach · 2:20 · <a href="https://www.youtube.com/watch?v=El_icnQ7GKg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -253,7 +318,7 @@ The SLX to Ashi Garami transition occupies a critical junction in the modern leg
 
 - [[Transitions/Straight Ankle Lock Entry]] - Primary submission follow-up available immediately after achieving inside ashi
 
-- [[Transitions/Heel Hook]] - Advanced submission threat available from inside ashi position after transition
+- [[Submissions/Heel Hook]] - Advanced submission threat available from inside ashi position after transition
 
 - [[Transitions/Backstep from Single Leg X]] - Alternative technique the opponent may attempt from SLX top during transition
 

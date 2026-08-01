@@ -89,6 +89,14 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
         "@type": "Answer",
         "text": "This is an emergency requiring immediate action in this order: 1) Release the guillotine grip completely and without hesitation—every fraction of a second you hold it deepens the choke. 2) Use the freed arm closest to their hips to push against their hip or thigh to create distance. 3) Bridge explosively toward them to disrupt their shoulder pressure and create space. 4) Insert your knee between your bodies to establish half guard. 5) If you cannot insert the knee, continue bridging and framing until you create enough space to turn toward them and recover guard. The critical first step is always releasing the guillotine—nothing else works while you are holding the grip that creates half the choke against yourself. In training, if you feel lightheaded at any point during this sequence, tap immediately."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What sensation warns you that your guillotine is exposing you to a Von Flue Choke?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You feel the passing opponent drive their shoulder and jaw into the side of your neck where your own arm wraps, with rising pressure on that carotid and sudden light-headedness — a sign your guillotine has become the seal on your own choke."
+      }
     }
   ]
 }
@@ -144,6 +152,43 @@ description: "How to defend against Von Flue Choke in BJJ. Recognition, escape p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Von Flue Choke from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the Von Flue choke",
+      "description": "Von Flue Choke from Side Control (Defender) film study: Escaping the Von Flue choke, taught by Grappling Mastery coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4eVRpNHz4cc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4eVRpNHz4cc",
+      "url": "https://www.youtube.com/watch?v=4eVRpNHz4cc",
+      "creator": { "@type": "Person", "name": "Grappling Mastery coach" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine grip release vs Von Flue",
+      "description": "Von Flue Choke from Side Control (Defender) film study: Guillotine grip release vs Von Flue, taught by Haven BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GmGrD1Zltw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GmGrD1Zltw0",
+      "url": "https://www.youtube.com/watch?v=GmGrD1Zltw0",
+      "creator": { "@type": "Person", "name": "Haven BJJ coach" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +199,34 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Von Flue Choke from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4eVRpNHz4cc)
+
+<p class="clip-credit"><strong>Escaping the Von Flue choke</strong> — taught by Grappling Mastery coach · 0:37 · <a href="https://www.youtube.com/watch?v=4eVRpNHz4cc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GmGrD1Zltw0)
+
+<p class="clip-credit"><strong>Guillotine grip release vs Von Flue</strong> — taught by Haven BJJ coach · 2:23 · <a href="https://www.youtube.com/watch?v=GmGrD1Zltw0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

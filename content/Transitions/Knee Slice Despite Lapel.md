@@ -34,6 +34,43 @@ description: "Master the Knee Slice Despite Lapel pass in BJJ. Complete guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice Despite Lapel \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapel half guard to combat knee slice",
+      "description": "Knee Slice Despite Lapel film study: Lapel half guard to combat knee slice, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fpHh5-DyeAk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fpHh5-DyeAk",
+      "url": "https://www.youtube.com/watch?v=fpHh5-DyeAk",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "X pass to knee slice",
+      "description": "Knee Slice Despite Lapel film study: X pass to knee slice, taught by Aidan Sericolo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zJkr3PfYDMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zJkr3PfYDMI",
+      "url": "https://www.youtube.com/watch?v=zJkr3PfYDMI",
+      "creator": { "@type": "Person", "name": "Aidan Sericolo" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The technique operates on the principle that lapel configurations create directi
 Strategically, this pass is most effective when combined with systematic lapel clearing sequences. Rather than fighting directly against the lapel barrier, you partially clear the obstruction, initiate the knee slice during the transition window, and complete the pass before the opponent can re-establish their configuration. The timing window is narrow, making this a technically demanding but highly effective solution for gi competition where lapel guards are prevalent.
 
 **From Position**: [[Positions/Lapel Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice Despite Lapel in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fpHh5-DyeAk)
+
+<p class="clip-credit"><strong>Lapel half guard to combat knee slice</strong> — taught by Team Daruma Dojo · 1:15 · <a href="https://www.youtube.com/watch?v=fpHh5-DyeAk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zJkr3PfYDMI)
+
+<p class="clip-credit"><strong>X pass to knee slice</strong> — taught by Aidan Sericolo · 1:33 · <a href="https://www.youtube.com/watch?v=zJkr3PfYDMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

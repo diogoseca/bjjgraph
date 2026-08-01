@@ -127,6 +127,54 @@ description: "How to defend the Russian Cowboy single-hook back ride from turtle
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Russian Cowboy (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the single hook from turtle",
+      "description": "Turtle to Russian Cowboy (Defender) film study: Defending the single hook from turtle, taught by South Boston BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JgrpnE0HyAY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JgrpnE0HyAY",
+      "url": "https://www.youtube.com/watch?v=JgrpnE0HyAY",
+      "creator": { "@type": "Person", "name": "South Boston BJJ" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle no-grips escape by rolling to guard",
+      "description": "Turtle to Russian Cowboy (Defender) film study: Turtle no-grips escape by rolling to guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly89G4iCTSQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly89G4iCTSQ",
+      "url": "https://www.youtube.com/watch?v=Ly89G4iCTSQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape and back-exposure system",
+      "description": "Turtle to Russian Cowboy (Defender) film study: Turtle escape and back-exposure system, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -141,6 +189,42 @@ The highest-percentage defense is early: fight the upper-body grip and keep movi
 **Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Russian Cowboy (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JgrpnE0HyAY)
+
+<p class="clip-credit"><strong>Defending the single hook from turtle</strong> — taught by South Boston BJJ · 2:29 · <a href="https://www.youtube.com/watch?v=JgrpnE0HyAY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly89G4iCTSQ)
+
+<p class="clip-credit"><strong>Turtle no-grips escape by rolling to guard</strong> — taught by Lachlan Giles · 1:48 · <a href="https://www.youtube.com/watch?v=Ly89G4iCTSQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+
+<p class="clip-credit"><strong>Turtle escape and back-exposure system</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

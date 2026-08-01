@@ -176,6 +176,54 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Technical Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anatomy of the Arm Bar",
+      "description": "Armbar from Technical Mount (Attacker) film study: Anatomy of the Arm Bar, taught by Tim Trevail.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/92INP2YJIMg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/92INP2YJIMg",
+      "url": "https://www.youtube.com/watch?v=92INP2YJIMg",
+      "creator": { "@type": "Person", "name": "Tim Trevail" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing arm-bars from mount",
+      "description": "Armbar from Technical Mount (Attacker) film study: Finishing arm-bars from mount, taught by Sanabul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PE61YGNeYzU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PE61YGNeYzU",
+      "url": "https://www.youtube.com/watch?v=PE61YGNeYzU",
+      "creator": { "@type": "Person", "name": "Sanabul" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Wrist Control to Arm Bar",
+      "description": "Armbar from Technical Mount (Attacker) film study: Wrist Control to Arm Bar, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/55Ux8giP_PY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/55Ux8giP_PY",
+      "url": "https://www.youtube.com/watch?v=55Ux8giP_PY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT226S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the Armbar from Technical Mount is among the most mechanically efficie
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Technical Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=92INP2YJIMg)
+
+<p class="clip-credit"><strong>Anatomy of the Arm Bar</strong> — taught by Tim Trevail · 1:21 · <a href="https://www.youtube.com/watch?v=92INP2YJIMg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PE61YGNeYzU)
+
+<p class="clip-credit"><strong>Finishing arm-bars from mount</strong> — taught by Sanabul · 1:22 · <a href="https://www.youtube.com/watch?v=PE61YGNeYzU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=55Ux8giP_PY)
+
+<p class="clip-credit"><strong>Wrist Control to Arm Bar</strong> — taught by Gordon Ryan · 3:46 · <a href="https://www.youtube.com/watch?v=55Ux8giP_PY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

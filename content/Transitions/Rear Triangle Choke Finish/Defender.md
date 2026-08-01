@@ -156,6 +156,54 @@ description: "Learn to survive and escape the Rear Triangle Choke Finish. Covers
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke Finish (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back triangle choke mechanics",
+      "description": "Rear Triangle Choke Finish (Defender) film study: Back triangle choke mechanics, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMJHL8SXlA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMJHL8SXlA",
+      "url": "https://www.youtube.com/watch?v=-lMJHL8SXlA",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Mount Triangle Escape",
+      "description": "Rear Triangle Choke Finish (Defender) film study: Back Mount Triangle Escape, taught by Eli Knight.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jOL9pqG7lwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jOL9pqG7lwo",
+      "url": "https://www.youtube.com/watch?v=jOL9pqG7lwo",
+      "creator": { "@type": "Person", "name": "Eli Knight" },
+      "duration": "PT244S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Six Triangle Choke Escapes: Early to Very Late",
+      "description": "Rear Triangle Choke Finish (Defender) film study: Six Triangle Choke Escapes: Early to Very Late, taught by Eli Knight.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XvsneDpJ18Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XvsneDpJ18Y",
+      "url": "https://www.youtube.com/watch?v=XvsneDpJ18Y",
+      "creator": { "@type": "Person", "name": "Eli Knight" },
+      "duration": "PT418S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ Defending the Rear Triangle Choke Finish requires immediate recognition that the
 **Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke Finish (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMJHL8SXlA)
+
+<p class="clip-credit"><strong>Back triangle choke mechanics</strong> — taught by Dr. Deng · 0:23 · <a href="https://www.youtube.com/watch?v=-lMJHL8SXlA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jOL9pqG7lwo)
+
+<p class="clip-credit"><strong>Back Mount Triangle Escape</strong> — taught by Eli Knight · 4:04 · <a href="https://www.youtube.com/watch?v=jOL9pqG7lwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XvsneDpJ18Y)
+
+<p class="clip-credit"><strong>Six Triangle Choke Escapes: Early to Very Late</strong> — taught by Eli Knight · 6:58 · <a href="https://www.youtube.com/watch?v=XvsneDpJ18Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

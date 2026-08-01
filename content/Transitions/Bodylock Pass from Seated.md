@@ -34,6 +34,54 @@ description: "Master the Bodylock Pass from Seated Guard in BJJ. Learn grip stra
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bodylock Pass from Seated \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Applying the body lock pass effectively",
+      "description": "Bodylock Pass from Seated film study: Applying the body lock pass effectively, taught by Lucas Barbosa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pUaS-9hIFIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pUaS-9hIFIE",
+      "url": "https://www.youtube.com/watch?v=pUaS-9hIFIE",
+      "creator": { "@type": "Person", "name": "Lucas Barbosa" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock pass variation with leg split",
+      "description": "Bodylock Pass from Seated film study: Body lock pass variation with leg split, taught by Spring Hill BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nqFlswgRLnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nqFlswgRLnE",
+      "url": "https://www.youtube.com/watch?v=nqFlswgRLnE",
+      "creator": { "@type": "Person", "name": "Spring Hill BJJ coach" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body lock passing details",
+      "description": "Bodylock Pass from Seated film study: Body lock passing details, taught by Nicky Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhFDcDU7oX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhFDcDU7oX0",
+      "url": "https://www.youtube.com/watch?v=BhFDcDU7oX0",
+      "creator": { "@type": "Person", "name": "Nicky Ryan" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This technique works particularly well when chained with other passing approache
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bodylock Pass from Seated in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pUaS-9hIFIE)
+
+<p class="clip-credit"><strong>Applying the body lock pass effectively</strong> — taught by Lucas Barbosa · 0:37 · <a href="https://www.youtube.com/watch?v=pUaS-9hIFIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nqFlswgRLnE)
+
+<p class="clip-credit"><strong>Body lock pass variation with leg split</strong> — taught by Spring Hill BJJ coach · 1:17 · <a href="https://www.youtube.com/watch?v=nqFlswgRLnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhFDcDU7oX0)
+
+<p class="clip-credit"><strong>Body lock passing details</strong> — taught by Nicky Ryan · 2:03 · <a href="https://www.youtube.com/watch?v=BhFDcDU7oX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

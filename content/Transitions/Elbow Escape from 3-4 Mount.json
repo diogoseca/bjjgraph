@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "3-4 Mount/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "Among all mount escapes, this technique stands out because it exploits a structural weakness unique to the asymmetric 3-4 configuration rather than fighting symmetric pressure head-on. Unlike escaping traditional mount where both sides present equal resistance, the 3-4 mount's asymmetric weight distribution creates a natural escape corridor toward the posted leg side where the top player has fewer contact points and compromised base stability. The technique employs systematic hip escape mechanics combined with precise frame placement to create sufficient space for knee insertion and half guard recovery.\n\nExecution centers on a three-phase sequence: first establishing a defensive frame against the mounted knee to prevent the top player from driving deeper, then bridging toward the heavier mounted side to momentarily disrupt the top player's base, and finally shrimping the hips away toward the lighter posted leg side while simultaneously inserting the knee as a wedge. The escape demands precise timing because the top player can counter by driving weight forward, switching the mounted knee to the opposite side, or advancing to full mount during the transition.\n\nStrategically, this escape represents the highest-percentage avenue out of 3-4 mount bottom because it exploits the inherent mechanical weakness of asymmetric weight distribution. The technique chains naturally into half guard recovery and subsequent guard retention or sweep attempts, making it a critical link in the mount escape system. Practitioners should develop the ability to read the top player's weight distribution instantly and execute the escape toward the correct side without hesitation, as the window of opportunity narrows significantly once the top player recognizes the escape attempt.",
   "conditions": [
     "Bottom player is under 3-4 mount with the top player's mounted knee on one side and posted leg on the other, creating identifiable asymmetric weight distribution",
@@ -260,38 +272,147 @@
     "flashcards": [
       {
         "question": "Why is the posted leg side the primary escape direction rather than the mounted knee side?",
-        "answer": "The posted leg side has fewer contact points and less direct weight on the bottom player's torso, creating inherently compromised base stability. The mounted knee drives directly into the ribs or armpit creating maximum pressure and base support on that side. Escaping toward the posted leg exploits this asymmetry because the top player cannot resist lateral hip movement as effectively on the side where their base is already compromised by the three-point configuration."
+        "answer": "The posted leg side has fewer contact points and less direct weight on the bottom player's torso, creating inherently compromised base stability. The mounted knee drives directly into the ribs or armpit creating maximum pressure and base support on that side. Escaping toward the posted leg exploits this asymmetry because the top player cannot resist lateral hip movement as effectively on the side where their base is already compromised by the three-point configuration.",
+        "answer_line": "Posted-leg side has weaker base",
+        "distractors": {
+          "plausible": [
+            "Mounted-knee side has more room",
+            "Whichever side feels more open"
+          ],
+          "trap": [
+            "Escape toward the mounted knee"
+          ]
+        }
       },
       {
         "question": "What is the critical timing relationship between the bridge and the hip escape in this technique?",
-        "answer": "The bridge must immediately precede the hip escape as a single chained movement. The bridge toward the mounted side disrupts the top player's base by shifting their weight toward the posted leg, creating a momentary window of reduced pressure on the escape side. The hip escape must execute during this window before the top player recovers their base. If the bridge and hip escape are separated by even a brief pause, the top player re-settles their weight and the escape opportunity is lost."
+        "answer": "The bridge must immediately precede the hip escape as a single chained movement. The bridge toward the mounted side disrupts the top player's base by shifting their weight toward the posted leg, creating a momentary window of reduced pressure on the escape side. The hip escape must execute during this window before the top player recovers their base. If the bridge and hip escape are separated by even a brief pause, the top player re-settles their weight and the escape opportunity is lost.",
+        "answer_line": "Bridge then hip escape, no pause",
+        "distractors": {
+          "plausible": [
+            "Hip escape first, then bridge",
+            "Bridge repeatedly, escape later"
+          ],
+          "trap": [
+            "Bridge up and hold the position"
+          ]
+        }
       },
       {
         "question": "Your frames are established but the top player is driving heavy chest pressure forward, preventing your bridge from lifting them. How do you adjust?",
-        "answer": "Switch to the double shrimp chain variant, using multiple small hip escapes rather than relying on a full bridge to disrupt base. Each micro-shrimp creates incremental space that you preserve with frame adjustment before the next movement. Against very heavy forward pressure, the bridge angle may need to be more lateral than upward, focusing on rotating the top player's weight rather than lifting it. You can also create the initial disruption by pushing the mounted knee with your elbow frame to redirect their weight before shrimping."
+        "answer": "Switch to the double shrimp chain variant, using multiple small hip escapes rather than relying on a full bridge to disrupt base. Each micro-shrimp creates incremental space that you preserve with frame adjustment before the next movement. Against very heavy forward pressure, the bridge angle may need to be more lateral than upward, focusing on rotating the top player's weight rather than lifting it. You can also create the initial disruption by pushing the mounted knee with your elbow frame to redirect their weight before shrimping.",
+        "answer_line": "Double-shrimp chain, small escapes",
+        "distractors": {
+          "plausible": [
+            "Bridge harder to lift them off",
+            "Push both hands into their chest"
+          ],
+          "trap": [
+            "Post straight up with both arms"
+          ]
+        }
       },
       {
         "question": "What grip must you establish before initiating the escape, and why is it critical?",
-        "answer": "You must grip the top player's near-side sleeve, wrist, or control their hip to prevent them from posting their hand on the mat during your bridge and hip escape. Without this grip, the top player can simply post their hand wide to maintain base against your bridge, completely neutralizing the escape attempt. The grip removes their primary base recovery tool, ensuring that your bridge actually disrupts their equilibrium rather than being absorbed by a posted hand."
+        "answer": "You must grip the top player's near-side sleeve, wrist, or control their hip to prevent them from posting their hand on the mat during your bridge and hip escape. Without this grip, the top player can simply post their hand wide to maintain base against your bridge, completely neutralizing the escape attempt. The grip removes their primary base recovery tool, ensuring that your bridge actually disrupts their equilibrium rather than being absorbed by a posted hand.",
+        "answer_line": "Trap the near-side arm/sleeve",
+        "distractors": {
+          "plausible": [
+            "Bridge first, then grab a grip",
+            "Control the far-side sleeve"
+          ],
+          "trap": [
+            "Turn belly-down to shrimp out"
+          ]
+        }
       },
       {
         "question": "You successfully create space and insert your knee, but the top player immediately begins to extract their leg. What is your response?",
-        "answer": "Immediately close both legs around the trapped leg, hooking your outside foot behind their knee or calf to establish half guard entanglement before they can extract. Simultaneously continue shrimping to create more distance while turning to face them and fighting for the underhook. If they are already partially extracting, clamp down with both legs tightly on whatever portion of their leg remains between yours and use the lockdown position if necessary to prevent complete extraction."
+        "answer": "Immediately close both legs around the trapped leg, hooking your outside foot behind their knee or calf to establish half guard entanglement before they can extract. Simultaneously continue shrimping to create more distance while turning to face them and fighting for the underhook. If they are already partially extracting, clamp down with both legs tightly on whatever portion of their leg remains between yours and use the lockdown position if necessary to prevent complete extraction.",
+        "answer_line": "Hook foot behind knee, close legs",
+        "distractors": {
+          "plausible": [
+            "Push their leg away with hands",
+            "Sit up right away for underhook"
+          ],
+          "trap": [
+            "Let the leg slide, re-shrimp later"
+          ]
+        }
       },
       {
         "question": "The top player switches their mounted knee to the opposite side mid-escape, reversing the 3-4 configuration. What do you do?",
-        "answer": "Immediately reassess weight distribution and redirect your escape toward the new posted leg side. The moment of transition between configurations is actually a high-percentage escape window because the top player's weight is unstable during the switch. Use the brief instability to accelerate your hip escape in the new direction before they can re-settle. Your frames must also switch to address the new mounted knee position, repositioning your near-side elbow against the newly mounted knee."
+        "answer": "Immediately reassess weight distribution and redirect your escape toward the new posted leg side. The moment of transition between configurations is actually a high-percentage escape window because the top player's weight is unstable during the switch. Use the brief instability to accelerate your hip escape in the new direction before they can re-settle. Your frames must also switch to address the new mounted knee position, repositioning your near-side elbow against the newly mounted knee.",
+        "answer_line": "Redirect to the new posted-leg side",
+        "distractors": {
+          "plausible": [
+            "Keep escaping the original way",
+            "Pause and reset frames first"
+          ],
+          "trap": [
+            "Bridge straight up to buy time"
+          ]
+        }
       },
       {
         "question": "Why are chained small hip escapes more effective than a single explosive movement against a settled top player?",
-        "answer": "A single explosive movement alerts the top player and provides a clear moment to counter with weight adjustment or advancement. Chained small movements accumulate space incrementally while each individual movement is too subtle to trigger a strong counter-response. Each micro-shrimp preserves gained space through frame adjustment before the next, creating a ratchet effect where space only increases. This approach also conserves energy significantly compared to explosive bursts, maintaining escape capacity over longer periods under mount pressure."
+        "answer": "A single explosive movement alerts the top player and provides a clear moment to counter with weight adjustment or advancement. Chained small movements accumulate space incrementally while each individual movement is too subtle to trigger a strong counter-response. Each micro-shrimp preserves gained space through frame adjustment before the next, creating a ratchet effect where space only increases. This approach also conserves energy significantly compared to explosive bursts, maintaining escape capacity over longer periods under mount pressure.",
+        "answer_line": "Small shrimps stay under the radar",
+        "distractors": {
+          "plausible": [
+            "One big shrimp saves more energy",
+            "Explosive shrimp surprises them"
+          ],
+          "trap": [
+            "Explode hard to shock and escape"
+          ]
+        }
       },
       {
         "question": "After recovering half guard from this escape, what is your immediate positional priority?",
-        "answer": "The immediate priority is establishing a stabilized half guard by turning to face the top player on your side rather than remaining flat, fighting for the underhook on the trapped leg side, and inserting a knee shield to prevent the top player from immediately re-passing or re-mounting. Without these stabilization actions, the half guard recovery is temporary because the top player will immediately pressure forward to flatten you and begin their passing sequence. The underhook is particularly critical as it provides access to sweeps and back takes that shift the position from defensive to offensive."
+        "answer": "The immediate priority is establishing a stabilized half guard by turning to face the top player on your side rather than remaining flat, fighting for the underhook on the trapped leg side, and inserting a knee shield to prevent the top player from immediately re-passing or re-mounting. Without these stabilization actions, the half guard recovery is temporary because the top player will immediately pressure forward to flatten you and begin their passing sequence. The underhook is particularly critical as it provides access to sweeps and back takes that shift the position from defensive to offensive.",
+        "answer_line": "Turn in, get underhook, knee shield",
+        "distractors": {
+          "plausible": [
+            "Stay flat and rest a moment",
+            "Attack a submission right away"
+          ],
+          "trap": [
+            "Flatten out to save energy"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Elbow Escape from 3-4 Mount is a low-risk technique with minimal injury potential when executed correctly. The primary safety concern is neck strain from improper bridging mechanics, particularly if the head is extended rather than chin-tucked during the bridge phase. Practitioners should avoid explosive full-extension arm frames that expose the elbow and shoulder joints to Americana and armbar attacks from the top player. During training, the top player should avoid dropping sudden full weight during the partner's escape attempts to prevent rib compression injuries. Both practitioners should communicate about pressure levels during drilling phases and immediately signal if knee or hip discomfort occurs during the knee insertion phase."
+    "safety_considerations": "The Elbow Escape from 3-4 Mount is a low-risk technique with minimal injury potential when executed correctly. The primary safety concern is neck strain from improper bridging mechanics, particularly if the head is extended rather than chin-tucked during the bridge phase. Practitioners should avoid explosive full-extension arm frames that expose the elbow and shoulder joints to Americana and armbar attacks from the top player. During training, the top player should avoid dropping sudden full weight during the partner's escape attempts to prevent rib compression injuries. Both practitioners should communicate about pressure levels during drilling phases and immediately signal if knee or hip discomfort occurs during the knee insertion phase.",
+    "clips": [
+      {
+        "id": "pUZcLTWHAzk",
+        "title": "Knee and elbow escape from mount",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cyegyon5hVg",
+        "title": "Two mount escapes to half guard",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "V2nhiny9fws",
+        "title": "Ankle-elbow escape from mount to deep half",
+        "by": "Elite Team Monterey",
+        "vertical": false,
+        "channel": "ELITE TEAM MONTEREY",
+        "duration": 82,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape from 3-4 Mount Defender",
@@ -377,23 +498,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is setting up the elbow escape rather than a bridge-and-roll?",
-        "answer": "The most distinctive early cue is the near-side elbow driving inward against your mounted knee as a wedge frame, combined with the bottom player's hips angling toward the posted leg side. A bridge-and-roll setup involves trapping your arm and same-side leg, which requires different hand positioning. The elbow escape setup focuses on creating lateral frames and hip angle rather than limb trapping, and the bottom player's feet will be positioned to drive lateral hip movement rather than upward bridging."
+        "answer": "The most distinctive early cue is the near-side elbow driving inward against your mounted knee as a wedge frame, combined with the bottom player's hips angling toward the posted leg side. A bridge-and-roll setup involves trapping your arm and same-side leg, which requires different hand positioning. The elbow escape setup focuses on creating lateral frames and hip angle rather than limb trapping, and the bottom player's feet will be positioned to drive lateral hip movement rather than upward bridging.",
+        "answer_line": "Elbow wedges knee, hips angle away",
+        "distractors": {
+          "plausible": [
+            "Trapping your arm and same-side leg",
+            "Feet driving straight up to bridge"
+          ],
+          "trap": [
+            "Both hands grabbing your sleeve"
+          ]
+        }
       },
       {
         "question": "Why should you consider consolidating to full mount rather than fighting to maintain the 3-4 configuration when the escape is progressing?",
-        "answer": "The 3-4 mount's asymmetric weight distribution creates an inherent vulnerability on the posted leg side that the bottom player is specifically targeting. Fighting to maintain an already-compromised 3-4 configuration wastes energy and gives the bottom player repeated opportunities to chain escape attempts. Consolidating to full mount eliminates the asymmetric escape corridor entirely and establishes stronger symmetric control, making it strategically superior to defending a position with a known structural weakness."
+        "answer": "The 3-4 mount's asymmetric weight distribution creates an inherent vulnerability on the posted leg side that the bottom player is specifically targeting. Fighting to maintain an already-compromised 3-4 configuration wastes energy and gives the bottom player repeated opportunities to chain escape attempts. Consolidating to full mount eliminates the asymmetric escape corridor entirely and establishes stronger symmetric control, making it strategically superior to defending a position with a known structural weakness.",
+        "answer_line": "Full mount removes escape corridor",
+        "distractors": {
+          "plausible": [
+            "Fighting to keep 3-4 saves energy",
+            "3-4 gives better submission angles"
+          ],
+          "trap": [
+            "Keep re-settling 3-4 to tire them"
+          ]
+        }
       },
       {
         "question": "The bottom player successfully inserts their knee but has not yet secured half guard hooks. What is your optimal response?",
-        "answer": "Immediately drive your trapped leg backward and outward to extract it from the loose knee position before half guard hooks are established. Simultaneously drive forward with shoulder pressure and crossface to flatten the bottom player and prevent them from turning to their side to secure the entanglement. If extraction fails, immediately transition to half guard top passing mechanics rather than attempting to re-mount, as forcing the mount recovery against an established knee shield wastes energy and often fails."
+        "answer": "Immediately drive your trapped leg backward and outward to extract it from the loose knee position before half guard hooks are established. Simultaneously drive forward with shoulder pressure and crossface to flatten the bottom player and prevent them from turning to their side to secure the entanglement. If extraction fails, immediately transition to half guard top passing mechanics rather than attempting to re-mount, as forcing the mount recovery against an established knee shield wastes energy and often fails.",
+        "answer_line": "Extract leg fast, crossface flatten",
+        "distractors": {
+          "plausible": [
+            "Wait for hooks, then defend",
+            "Sit back to re-mount immediately"
+          ],
+          "trap": [
+            "Post up high on your toes"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the bottom player beginning to shrimp toward the posted leg side?",
-        "answer": "Immediately shift weight toward the posted leg side to cut off the escape angle, driving your mounted knee deeper into the ribs while adjusting your posted leg position closer to the bottom player's hip. This places your weight directly in the path of their escape movement. Alternatively, use the lateral movement as an opportunity to switch your mounted knee to the opposite side, which reverses the 3-4 configuration and forces the bottom player to completely restart their escape sequence facing a new direction."
+        "answer": "Immediately shift weight toward the posted leg side to cut off the escape angle, driving your mounted knee deeper into the ribs while adjusting your posted leg position closer to the bottom player's hip. This places your weight directly in the path of their escape movement. Alternatively, use the lateral movement as an opportunity to switch your mounted knee to the opposite side, which reverses the 3-4 configuration and forces the bottom player to completely restart their escape sequence facing a new direction.",
+        "answer_line": "Shift weight into the escape angle",
+        "distractors": {
+          "plausible": [
+            "Lighten up to conserve energy",
+            "Post the hand wide immediately"
+          ],
+          "trap": [
+            "Sit back off their hips"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to threaten a submission during the escape defense rather than purely maintaining position?",
-        "answer": "Submission threats are appropriate when the bottom player extends an arm during framing, creating an isolation opportunity for an Americana or armbar setup. The submission threat forces the bottom player to abandon their frames to defend, eliminating the structural support they need for the escape. However, submission attempts must be controlled tightly without shifting your weight upward or creating space, as an overcommitted submission attempt that misses creates the exact space the bottom player needs to accelerate their escape."
+        "answer": "Submission threats are appropriate when the bottom player extends an arm during framing, creating an isolation opportunity for an Americana or armbar setup. The submission threat forces the bottom player to abandon their frames to defend, eliminating the structural support they need for the escape. However, submission attempts must be controlled tightly without shifting your weight upward or creating space, as an overcommitted submission attempt that misses creates the exact space the bottom player needs to accelerate their escape.",
+        "answer_line": "Isolate extended arm, stay tight",
+        "distractors": {
+          "plausible": [
+            "Always attack sub before control",
+            "Extend fully to lock the sub"
+          ],
+          "trap": [
+            "Rise up and hunt the arm hard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -416,6 +587,17 @@
         "phase": "Phase 4: Transition Integration",
         "focus": "Using escape defense to advance position or attack",
         "description": "Practice flowing from escape defense into offensive sequences: bottom player's bridge becomes your full mount consolidation, their extended arm becomes your Americana setup, their turning motion becomes your technical mount entry. Develop the ability to convert defensive situations into offensive opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "iS017eyM0eQ",
+        "title": "Maintaining mount: preventing the elbow escape",
+        "by": "St. Paul Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "St. Paul Brazilian Jiu Jitsu",
+        "duration": 264,
+        "verified": "2026-07-15"
       }
     ]
   }

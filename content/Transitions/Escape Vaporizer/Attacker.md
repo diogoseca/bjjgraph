@@ -180,6 +180,10 @@ description: "Learn to execute the Escape Vaporizer in BJJ. Step-by-step guide t
 </script>
 
 
+
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +193,8 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 **From Position**: [[Positions/Vaporizer]] (Bottom)
 
 </section>
+
+
 
 <section id="key-principles" class="content-section">
 

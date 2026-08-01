@@ -34,6 +34,54 @@ description: "Master the Bridge to Mount escape from High Mount in BJJ. Explosiv
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge to Mount from High Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping high mount with a bridge",
+      "description": "Bridge to Mount from High Mount film study: Escaping high mount with a bridge, taught by Tenzan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_05Lwonu0mw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_05Lwonu0mw",
+      "url": "https://www.youtube.com/watch?v=_05Lwonu0mw",
+      "creator": { "@type": "Person", "name": "Tenzan" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount bridge escape in one minute",
+      "description": "Bridge to Mount from High Mount film study: Mount bridge escape in one minute, taught by Just a Minute Jiu-jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z4aWuVsRTBs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z4aWuVsRTBs",
+      "url": "https://www.youtube.com/watch?v=Z4aWuVsRTBs",
+      "creator": { "@type": "Person", "name": "Just a Minute Jiu-jitsu" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bridge and roll escape from bottom mount",
+      "description": "Bridge to Mount from High Mount film study: Bridge and roll escape from bottom mount, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2uuP147GoBk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2uuP147GoBk",
+      "url": "https://www.youtube.com/watch?v=2uuP147GoBk",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategic context is essential for understanding this technique's value within t
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge to Mount from High Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_05Lwonu0mw)
+
+<p class="clip-credit"><strong>Escaping high mount with a bridge</strong> — taught by Tenzan · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z4aWuVsRTBs)
+
+<p class="clip-credit"><strong>Mount bridge escape in one minute</strong> — taught by Just a Minute Jiu-jitsu · 1:06 · <a href="https://www.youtube.com/watch?v=Z4aWuVsRTBs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2uuP147GoBk)
+
+<p class="clip-credit"><strong>Bridge and roll escape from bottom mount</strong> — taught by Academy Jiu Jitsu · 1:02 · <a href="https://www.youtube.com/watch?v=2uuP147GoBk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

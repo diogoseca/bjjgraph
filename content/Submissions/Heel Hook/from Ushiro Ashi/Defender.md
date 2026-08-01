@@ -156,6 +156,54 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Ushiro Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside Ashi Heel Hook Running Man Escape",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: Outside Ashi Heel Hook Running Man Escape, taught by Grappling Game Changer.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2RLgyzWN71Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2RLgyzWN71Y",
+      "url": "https://www.youtube.com/watch?v=2RLgyzWN71Y",
+      "creator": { "@type": "Person", "name": "Grappling Game Changer" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside Heel Hook Defense to Inside Heel Hook",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: Outside Heel Hook Defense to Inside Heel Hook, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Heel Hook Escape (Burn His Rashguard)",
+      "description": "Heel Hook from Ushiro Ashi (Defender) film study: The Heel Hook Escape (Burn His Rashguard), taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EP49pafOr_I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EP49pafOr_I",
+      "url": "https://www.youtube.com/watch?v=EP49pafOr_I",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT172S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Ushiro Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2RLgyzWN71Y)
+
+<p class="clip-credit"><strong>Outside Ashi Heel Hook Running Man Escape</strong> — taught by Grappling Game Changer · 0:54 · <a href="https://www.youtube.com/watch?v=2RLgyzWN71Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside Heel Hook Defense to Inside Heel Hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EP49pafOr_I)
+
+<p class="clip-credit"><strong>The Heel Hook Escape (Burn His Rashguard)</strong> — taught by Stephan Kesting · 2:52 · <a href="https://www.youtube.com/watch?v=EP49pafOr_I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

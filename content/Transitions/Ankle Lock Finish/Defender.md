@@ -148,6 +148,54 @@ description: "How to defend against Ankle Lock Finish in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ankle Lock Finish (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending leg locks: protecting the foot",
+      "description": "Ankle Lock Finish (Defender) film study: Defending leg locks: protecting the foot, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Proper ankle lock defense vs heel hook defense",
+      "description": "Ankle Lock Finish (Defender) film study: Proper ankle lock defense vs heel hook defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yUdB-EJaXgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yUdB-EJaXgQ",
+      "url": "https://www.youtube.com/watch?v=yUdB-EJaXgQ",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "K guard defense vs toe hold and straight foot lock",
+      "description": "Ankle Lock Finish (Defender) film study: K guard defense vs toe hold and straight foot lock, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6-HYU8Pbngg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6-HYU8Pbngg",
+      "url": "https://www.youtube.com/watch?v=6-HYU8Pbngg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Your best strategic outcomes involve either completing your original inversion e
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ankle Lock Finish (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending leg locks: protecting the foot</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yUdB-EJaXgQ)
+
+<p class="clip-credit"><strong>Proper ankle lock defense vs heel hook defense</strong> — taught by Craig Jones · 2:13 · <a href="https://www.youtube.com/watch?v=yUdB-EJaXgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6-HYU8Pbngg)
+
+<p class="clip-credit"><strong>K guard defense vs toe hold and straight foot lock</strong> — taught by Lachlan Giles · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

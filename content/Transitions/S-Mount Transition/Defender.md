@@ -156,6 +156,43 @@ description: "How to defend against S-Mount Transition in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S-Mount Transition (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount escape when standard escapes fail",
+      "description": "S-Mount Transition (Defender) film study: Mount escape when standard escapes fail, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm-under-leg mount escape",
+      "description": "S-Mount Transition (Defender) film study: Arm-under-leg mount escape, taught by Professor Aaron.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PnQdaoKyxoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PnQdaoKyxoc",
+      "url": "https://www.youtube.com/watch?v=PnQdaoKyxoc",
+      "creator": { "@type": "Person", "name": "Professor Aaron" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +202,34 @@ Defending the S-Mount Transition requires recognizing the technique during its e
 **Opponent's Starting Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S-Mount Transition (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Mount escape when standard escapes fail</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PnQdaoKyxoc)
+
+<p class="clip-credit"><strong>Arm-under-leg mount escape</strong> — taught by Professor Aaron · 2:10 · <a href="https://www.youtube.com/watch?v=PnQdaoKyxoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

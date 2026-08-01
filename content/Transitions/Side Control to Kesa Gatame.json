@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Kesa Gatame/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 72,
+  "success_rate": {
+    "gi": 72,
+    "nogi": 72
+  },
   "overview": "The transition from side control to Kesa Gatame (scarf hold) is a fundamental positional shift within the side control family that changes the control geometry from perpendicular chest-to-chest pressure to a rotated scarf hold configuration. This transition is initiated when the top player rotates their hips to face their opponent's head, wraps the near arm around the opponent's head, and traps the opponent's near arm under their armpit. The result is one of the most oppressive pinning positions in grappling, with roots in judo's classical newaza that have been refined for modern BJJ application.\n\nStrategically, the transition to Kesa Gatame serves multiple purposes in a top player's positional toolkit. It offers superior upper body immobilization compared to standard side control, creates devastating shoulder pressure and breathing restriction, and opens distinct submission pathways including americana, kimura, and arm triangle variations that are mechanically different from standard side control attacks. The position is particularly effective against opponents who are defending well against standard side control attacks or who are attempting to create frames that would otherwise make mount transitions difficult.\n\nThe critical element of this transition is the hip rotation: the top player must rotate their hips approximately 90 degrees from perpendicular alignment to face the opponent's head while simultaneously securing head control and arm isolation. This rotation must be executed smoothly while maintaining constant pressure, as any space created during the rotation allows the bottom player to insert frames or begin guard recovery. The transition is most effective when chained with other positional threats, using the opponent's defensive reactions to standard side control attacks as the entry window for the Kesa Gatame shift.",
   "related_content": [
     {
@@ -256,46 +268,175 @@
     "flashcards": [
       {
         "question": "What is the critical hip movement that defines the transition from standard side control to Kesa Gatame, and why must it be executed as a continuous motion?",
-        "answer": "The critical movement is a roughly 90-degree hip rotation from perpendicular alignment (facing across opponent's body) to parallel alignment (facing toward opponent's head). This must be continuous because any pause during the rotation creates a window where your weight is partially distributed and your base is transitional. A paused rotation leaves you in a no-man's-land where you have neither the stability of side control nor the control of Kesa Gatame, allowing the opponent to exploit the compromised position with frames or guard recovery attempts."
+        "answer": "The critical movement is a roughly 90-degree hip rotation from perpendicular alignment (facing across opponent's body) to parallel alignment (facing toward opponent's head). This must be continuous because any pause during the rotation creates a window where your weight is partially distributed and your base is transitional. A paused rotation leaves you in a no-man's-land where you have neither the stability of side control nor the control of Kesa Gatame, allowing the opponent to exploit the compromised position with frames or guard recovery attempts.",
+        "answer_line": "Continuous 90° hip rotation",
+        "distractors": {
+          "plausible": [
+            "45° rotation toward opponent head",
+            "Rotate in two controlled stages"
+          ],
+          "trap": [
+            "Pause mid-rotation to reset grips"
+          ]
+        }
       },
       {
         "question": "Why must head control be deepened from crossface to full head wrap before initiating the hip rotation?",
-        "answer": "The crossface (forearm across the jaw) provides directional pressure but not the secure head immobilization needed for Kesa Gatame. If you rotate your hips before deepening to a full head wrap (arm threaded under the neck with bicep cupping the back of the head), the opponent can turn their head to face you during the rotation, which allows them to begin turning their body into you and threatening back takes. The deep head wrap locks their head position so they cannot follow your rotation with their own body movement, maintaining the control asymmetry that makes Kesa Gatame effective."
+        "answer": "The crossface (forearm across the jaw) provides directional pressure but not the secure head immobilization needed for Kesa Gatame. If you rotate your hips before deepening to a full head wrap (arm threaded under the neck with bicep cupping the back of the head), the opponent can turn their head to face you during the rotation, which allows them to begin turning their body into you and threatening back takes. The deep head wrap locks their head position so they cannot follow your rotation with their own body movement, maintaining the control asymmetry that makes Kesa Gatame effective.",
+        "answer_line": "Deepen to full head wrap first",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure is enough",
+            "Wrap head after rotating hips"
+          ],
+          "trap": [
+            "Grip their far shoulder instead"
+          ]
+        }
       },
       {
         "question": "Your opponent begins actively framing against your face with their free arm during the transition - how do you adjust?",
-        "answer": "Rather than fighting the frame directly, use it as a submission opportunity. Their extended arm is vulnerable to americana by catching their wrist and rotating it toward the mat, or you can trap the framing arm with your near leg by posting it across their body. Alternatively, walk your head control deeper and close the space between their framing arm and their neck, threatening an arm triangle. The key principle is to convert their defensive action into an offensive opportunity rather than engaging in a strength contest against their frame."
+        "answer": "Rather than fighting the frame directly, use it as a submission opportunity. Their extended arm is vulnerable to americana by catching their wrist and rotating it toward the mat, or you can trap the framing arm with your near leg by posting it across their body. Alternatively, walk your head control deeper and close the space between their framing arm and their neck, threatening an arm triangle. The key principle is to convert their defensive action into an offensive opportunity rather than engaging in a strength contest against their frame.",
+        "answer_line": "Convert frame into americana",
+        "distractors": {
+          "plausible": [
+            "Push through frame with weight",
+            "Pin frame arm without attacking it"
+          ],
+          "trap": [
+            "Drop head wrap to fight the frame"
+          ]
+        }
       },
       {
         "question": "What are the essential grip and body positioning requirements that must be established before the hip rotation begins?",
-        "answer": "Before rotation: your arm must be threaded deep under opponent's neck with bicep controlling the back of their head; their near arm must be isolated with your near-side arm positioned to trap it under your armpit; your chest must be heavy on their upper torso with no space between bodies; and your base must be stable enough to support a smooth rotation. Without all four elements secured, the rotation creates exploitable gaps. The most commonly skipped element is the deep head wrap, and this is the element most responsible for transition failures."
+        "answer": "Before rotation: your arm must be threaded deep under opponent's neck with bicep controlling the back of their head; their near arm must be isolated with your near-side arm positioned to trap it under your armpit; your chest must be heavy on their upper torso with no space between bodies; and your base must be stable enough to support a smooth rotation. Without all four elements secured, the rotation creates exploitable gaps. The most commonly skipped element is the deep head wrap, and this is the element most responsible for transition failures.",
+        "answer_line": "Head wrap + arm trap + chest heavy",
+        "distractors": {
+          "plausible": [
+            "Crossface plus far-arm control",
+            "Arm trap alone, skip head wrap"
+          ],
+          "trap": [
+            "Secure base before any grips"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the Kesa Gatame transition from side control?",
-        "answer": "The optimal timing windows are: immediately after the opponent finishes a failed escape attempt and is momentarily recovering energy, when they turn their head away from you in response to crossface pressure (making the head wrap easier to secure), when they attempt to frame with their near arm (creating the arm isolation opportunity), or when they are focused on defending a submission threat from standard side control and their positional defense lapses. The worst timing is when the opponent has fresh energy, active frames on both sides, and is not preoccupied with any particular threat."
+        "answer": "The optimal timing windows are: immediately after the opponent finishes a failed escape attempt and is momentarily recovering energy, when they turn their head away from you in response to crossface pressure (making the head wrap easier to secure), when they attempt to frame with their near arm (creating the arm isolation opportunity), or when they are focused on defending a submission threat from standard side control and their positional defense lapses. The worst timing is when the opponent has fresh energy, active frames on both sides, and is not preoccupied with any particular threat.",
+        "answer_line": "After a failed escape attempt",
+        "distractors": {
+          "plausible": [
+            "Right when you land side control",
+            "Mid-scramble before base is set"
+          ],
+          "trap": [
+            "When opponent is fresh and framing"
+          ]
+        }
       },
       {
         "question": "How does the base leg positioning in Kesa Gatame differ from standard side control, and why is this critical for the transition?",
-        "answer": "In standard side control, base comes from knees and hip-to-hip connection. In Kesa Gatame, the far leg posts wide behind you at 45 degrees acting as a kickstand, while the near leg extends forward or hooks the opponent's far hip. This is critical during the transition because your base system fundamentally changes as you rotate. Midway through the rotation, if you have not yet established the wide posted leg, you are in a vulnerable phase with neither side control base nor Kesa Gatame base. The far leg must begin posting wide as soon as the hip rotation passes the halfway point."
+        "answer": "In standard side control, base comes from knees and hip-to-hip connection. In Kesa Gatame, the far leg posts wide behind you at 45 degrees acting as a kickstand, while the near leg extends forward or hooks the opponent's far hip. This is critical during the transition because your base system fundamentally changes as you rotate. Midway through the rotation, if you have not yet established the wide posted leg, you are in a vulnerable phase with neither side control base nor Kesa Gatame base. The far leg must begin posting wide as soon as the hip rotation passes the halfway point.",
+        "answer_line": "Far leg posts wide like kickstand",
+        "distractors": {
+          "plausible": [
+            "Both knees stay tucked in tight",
+            "Near leg posts wide instead"
+          ],
+          "trap": [
+            "Wait until fully rotated to post"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bridging hard toward your posted leg just as you complete the rotation - what is your response?",
-        "answer": "Immediately widen your posted leg further and drive your hips lower to the mat, increasing your base width and lowering your center of gravity. Simultaneously increase shoulder pressure into their face by driving forward with your upper body. If the bridge is extremely powerful and threatens to roll you, abandon Kesa Gatame and rotate back to standard side control where your base is more symmetrical and bridge-resistant. The key error would be trying to hold Kesa Gatame against a strong bridge with a narrow base - it is always better to retreat to a stable side control than to be swept from a compromised Kesa Gatame."
+        "answer": "Immediately widen your posted leg further and drive your hips lower to the mat, increasing your base width and lowering your center of gravity. Simultaneously increase shoulder pressure into their face by driving forward with your upper body. If the bridge is extremely powerful and threatens to roll you, abandon Kesa Gatame and rotate back to standard side control where your base is more symmetrical and bridge-resistant. The key error would be trying to hold Kesa Gatame against a strong bridge with a narrow base - it is always better to retreat to a stable side control than to be swept from a compromised Kesa Gatame.",
+        "answer_line": "Widen base, drop hips, add pressure",
+        "distractors": {
+          "plausible": [
+            "Post leg wider, nothing else",
+            "Sprawl back to flatten opponent"
+          ],
+          "trap": [
+            "Hold Kesa with a narrow base"
+          ]
+        }
       },
       {
         "question": "How does the Kesa Gatame transition create a positional dilemma when combined with mount and north-south threats?",
-        "answer": "From standard side control, the opponent must defend three directional threats simultaneously: mount transition (top player steps leg over), north-south transition (top player circles toward the head), and Kesa Gatame transition (top player rotates hips to face the head). Defending one threat opens the door to the others. If opponent focuses frames against the mount step-over, their near arm becomes available for the Kesa Gatame arm trap. If they focus on preventing the Kesa Gatame rotation, their far-side frames are compromised for mount. If they shrimp to prevent both, north-south becomes available. This three-way dilemma is what makes systematic side control top game effective at the advanced level."
+        "answer": "From standard side control, the opponent must defend three directional threats simultaneously: mount transition (top player steps leg over), north-south transition (top player circles toward the head), and Kesa Gatame transition (top player rotates hips to face the head). Defending one threat opens the door to the others. If opponent focuses frames against the mount step-over, their near arm becomes available for the Kesa Gatame arm trap. If they focus on preventing the Kesa Gatame rotation, their far-side frames are compromised for mount. If they shrimp to prevent both, north-south becomes available. This three-way dilemma is what makes systematic side control top game effective at the advanced level.",
+        "answer_line": "Defending one opens the others",
+        "distractors": {
+          "plausible": [
+            "Mount is the only real threat",
+            "Shrimping stops all three threats"
+          ],
+          "trap": [
+            "Fully commit to stopping one threat"
+          ]
+        }
       },
       {
         "question": "What specific error causes the near arm trap to fail during the transition, and how do you ensure a secure trap?",
-        "answer": "The most common error is attempting to trap the arm by grabbing the wrist or forearm with your hand rather than scooping the entire upper arm under your armpit. A hand grip on the wrist allows the opponent to pull free with relatively little force. The correct technique scoops their upper arm so that it is clamped between your armpit and your ribs, with your elbow squeezed tight against your side. The trap should feel like a vice on their bicep and shoulder, not a hand grip on their wrist. Test the trap by briefly releasing your hand while maintaining the armpit squeeze - if the arm stays trapped, your positioning is correct."
+        "answer": "The most common error is attempting to trap the arm by grabbing the wrist or forearm with your hand rather than scooping the entire upper arm under your armpit. A hand grip on the wrist allows the opponent to pull free with relatively little force. The correct technique scoops their upper arm so that it is clamped between your armpit and your ribs, with your elbow squeezed tight against your side. The trap should feel like a vice on their bicep and shoulder, not a hand grip on their wrist. Test the trap by briefly releasing your hand while maintaining the armpit squeeze - if the arm stays trapped, your positioning is correct.",
+        "answer_line": "Scoop the arm into your armpit",
+        "distractors": {
+          "plausible": [
+            "Scoop forearm, not upper arm",
+            "Clamp elbow, grip stays loose"
+          ],
+          "trap": [
+            "Grip the wrist tightly instead"
+          ]
+        }
       },
       {
         "question": "If this transition is blocked and you cannot complete the rotation, what are your immediate chain options to maintain dominant position?",
-        "answer": "If the Kesa Gatame rotation is blocked, your immediate options depend on what stopped the transition. If opponent's underhook prevented arm trapping, attack the underhooking arm with kimura or switch to north-south where the underhook is less effective. If opponent bridged during rotation, settle back to standard side control and use the bridge recovery moment to advance to mount instead. If opponent created frames that stopped the rotation midway, you can attack the framing arm with americana from the partial angle, or retreat to side control and threaten knee on belly to force a different defensive reaction. Never force a blocked transition - accept the information about what defense they prioritized and attack the opening it created."
+        "answer": "If the Kesa Gatame rotation is blocked, your immediate options depend on what stopped the transition. If opponent's underhook prevented arm trapping, attack the underhooking arm with kimura or switch to north-south where the underhook is less effective. If opponent bridged during rotation, settle back to standard side control and use the bridge recovery moment to advance to mount instead. If opponent created frames that stopped the rotation midway, you can attack the framing arm with americana from the partial angle, or retreat to side control and threaten knee on belly to force a different defensive reaction. Never force a blocked transition - accept the information about what defense they prioritized and attack the opening it created.",
+        "answer_line": "Attack whatever defense they showed",
+        "distractors": {
+          "plausible": [
+            "Always switch straight to mount",
+            "Retreat to guard and reset"
+          ],
+          "trap": [
+            "Force through their resistance"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The transition to Kesa Gatame is generally safe but requires awareness of several factors. The shoulder pressure and breathing restriction inherent in Kesa Gatame can be intense, especially for smaller training partners or those unfamiliar with the position. When drilling, apply pressure gradually rather than slamming into the full scarf hold. The arm trap must be controlled to avoid hyperextending the opponent's shoulder joint, particularly during the americana threat that naturally exists in the position. Partners should communicate immediately if they feel excessive pressure on their neck from the head wrap, as the combination of head pull and shoulder drive can create uncomfortable cervical compression. When training the bridge-and-roll counter, both partners should be aware of mat boundaries to avoid rolling off the training surface. Weight class differences should be considered, with heavier practitioners using less active pressure during early drilling phases."
+    "safety_considerations": "The transition to Kesa Gatame is generally safe but requires awareness of several factors. The shoulder pressure and breathing restriction inherent in Kesa Gatame can be intense, especially for smaller training partners or those unfamiliar with the position. When drilling, apply pressure gradually rather than slamming into the full scarf hold. The arm trap must be controlled to avoid hyperextending the opponent's shoulder joint, particularly during the americana threat that naturally exists in the position. Partners should communicate immediately if they feel excessive pressure on their neck from the head wrap, as the combination of head pull and shoulder drive can create uncomfortable cervical compression. When training the bridge-and-roll counter, both partners should be aware of mat boundaries to avoid rolling off the training surface. Weight class differences should be considered, with heavier practitioners using less active pressure during early drilling phases.",
+    "clips": [
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "Kesa gatame attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k5V2_rdKXW8",
+        "title": "Side control to kesa gatame series",
+        "by": "Edward Anthony",
+        "vertical": false,
+        "channel": "Edward “Scissorhands” Anthony Jiu Jitsu ",
+        "duration": 172,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jwArJKRlJ8o",
+        "title": "Basic judo hold downs including kesa gatame",
+        "by": "Shintaro Higashi",
+        "vertical": false,
+        "channel": "Shintaro Higashi",
+        "duration": 211,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Kesa Gatame Defender",
@@ -381,23 +522,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning to Kesa Gatame rather than attempting mount or north-south?",
-        "answer": "The earliest cue specific to Kesa Gatame is feeling their crossface arm threading deeper under your neck, converting from a forearm-across-jaw crossface to a full bicep-around-head wrap. This head wrap threading does not occur in mount or north-south transitions, making it the most reliable early indicator. The secondary cue is feeling their hips begin to rotate to face your head while maintaining seated contact near your shoulder, which differs from the hip elevation of a mount transition or the circling movement of a north-south transition."
+        "answer": "The earliest cue specific to Kesa Gatame is feeling their crossface arm threading deeper under your neck, converting from a forearm-across-jaw crossface to a full bicep-around-head wrap. This head wrap threading does not occur in mount or north-south transitions, making it the most reliable early indicator. The secondary cue is feeling their hips begin to rotate to face your head while maintaining seated contact near your shoulder, which differs from the hip elevation of a mount transition or the circling movement of a north-south transition.",
+        "answer_line": "Crossface deepens to head wrap",
+        "distractors": {
+          "plausible": [
+            "Hips elevate off your chest",
+            "They circle toward your head"
+          ],
+          "trap": [
+            "Base leg posts wide immediately"
+          ]
+        }
       },
       {
         "question": "Why is the turn-in back take considered the highest-reward defensive option from established Kesa Gatame?",
-        "answer": "The Kesa Gatame position inherently exposes the top player's back because they sit perpendicular with their back facing the bottom player's legs. This geometric vulnerability does not exist in standard side control. By turning into the opponent and getting chest-to-chest, the bottom player can reach around the top player's back and begin establishing back control hooks. The reward is going from a terrible defensive position directly to the most dominant offensive position in BJJ. However, the risk is also significant because a failed turn-in can result in the opponent transitioning to mount."
+        "answer": "The Kesa Gatame position inherently exposes the top player's back because they sit perpendicular with their back facing the bottom player's legs. This geometric vulnerability does not exist in standard side control. By turning into the opponent and getting chest-to-chest, the bottom player can reach around the top player's back and begin establishing back control hooks. The reward is going from a terrible defensive position directly to the most dominant offensive position in BJJ. However, the risk is also significant because a failed turn-in can result in the opponent transitioning to mount.",
+        "answer_line": "Exposed back allows hook entry",
+        "distractors": {
+          "plausible": [
+            "Bridge sweep is always safer",
+            "Any escape attempt exposes back"
+          ],
+          "trap": [
+            "Turn in slowly to test grips first"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially established Kesa Gatame but their head wrap is shallow and their base leg is narrow - what is your best defensive sequence?",
-        "answer": "With a shallow head wrap and narrow base, you have two compounding vulnerabilities to exploit. First, use your far hand to fight the head wrap by pushing their arm out from under your neck while simultaneously shrugging your shoulder to close the space. Second, time an explosive bridge toward their narrow-based posted leg. The shallow head wrap means they cannot anchor your head during the bridge, and the narrow base means the bridge has high probability of rolling them over. Combine both attacks simultaneously: as you bridge toward their posted leg, push their wrapping arm away. Even if the sweep fails, the head wrap disruption alone returns you to a more defensible position."
+        "answer": "With a shallow head wrap and narrow base, you have two compounding vulnerabilities to exploit. First, use your far hand to fight the head wrap by pushing their arm out from under your neck while simultaneously shrugging your shoulder to close the space. Second, time an explosive bridge toward their narrow-based posted leg. The shallow head wrap means they cannot anchor your head during the bridge, and the narrow base means the bridge has high probability of rolling them over. Combine both attacks simultaneously: as you bridge toward their posted leg, push their wrapping arm away. Even if the sweep fails, the head wrap disruption alone returns you to a more defensible position.",
+        "answer_line": "Bridge toward leg, fight head wrap",
+        "distractors": {
+          "plausible": [
+            "Bridge first, then fight the wrap",
+            "Only fight the head wrap"
+          ],
+          "trap": [
+            "Bridge away from the posted leg"
+          ]
+        }
       },
       {
         "question": "How should your defensive response differ when the opponent transitions to Kesa Gatame versus when they attempt to mount from side control?",
-        "answer": "Against mount, your primary defense is knee insertion between bodies and bridging toward the stepping side. Against Kesa Gatame, your primary defense targets the grip changes (preventing head wrap and arm trap) rather than leg positioning. The direction of your defensive hip movement also differs: against mount you shrimp your hips away to create space for knee insertion, while against Kesa Gatame you either frame against the rotating hips to disrupt the turn or turn into the opponent to exploit back exposure. The recognition speed is critical because choosing the wrong defensive template wastes the narrow window for effective intervention."
+        "answer": "Against mount, your primary defense is knee insertion between bodies and bridging toward the stepping side. Against Kesa Gatame, your primary defense targets the grip changes (preventing head wrap and arm trap) rather than leg positioning. The direction of your defensive hip movement also differs: against mount you shrimp your hips away to create space for knee insertion, while against Kesa Gatame you either frame against the rotating hips to disrupt the turn or turn into the opponent to exploit back exposure. The recognition speed is critical because choosing the wrong defensive template wastes the narrow window for effective intervention.",
+        "answer_line": "Fight grips, not knee insertion",
+        "distractors": {
+          "plausible": [
+            "Shrimp away like against mount",
+            "Bridge toward the stepping leg"
+          ],
+          "trap": [
+            "Insert knee like against mount"
+          ]
+        }
       },
       {
         "question": "What makes the near arm the single most important defensive asset to protect during the Kesa Gatame transition?",
-        "answer": "The near arm serves triple duty in Kesa Gatame defense: it provides the frame against the opponent's hip that can disrupt the rotation, it is the arm that must stay free to prevent the armpit trap that anchors the position, and its loss immediately creates submission vulnerability to americana and armbar. Once the near arm is trapped under the opponent's armpit, the position becomes extremely difficult to escape because both your primary frame and your primary escape tool are eliminated simultaneously. All other defensive options (bridging, turning in, guard recovery) become dramatically less effective without the near arm free to assist."
+        "answer": "The near arm serves triple duty in Kesa Gatame defense: it provides the frame against the opponent's hip that can disrupt the rotation, it is the arm that must stay free to prevent the armpit trap that anchors the position, and its loss immediately creates submission vulnerability to americana and armbar. Once the near arm is trapped under the opponent's armpit, the position becomes extremely difficult to escape because both your primary frame and your primary escape tool are eliminated simultaneously. All other defensive options (bridging, turning in, guard recovery) become dramatically less effective without the near arm free to assist.",
+        "answer_line": "It's your frame and escape tool",
+        "distractors": {
+          "plausible": [
+            "It only stops the head wrap",
+            "It's needed just for bridging"
+          ],
+          "trap": [
+            "Sacrifice it to free your other arm"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -420,6 +611,35 @@
         "phase": "Week 9+: Integrated Defense in Live Rolling",
         "focus": "Applying Kesa Gatame transition defense seamlessly within overall side control defensive game",
         "description": "Apply all defensive responses in live rolling. Practice recognizing Kesa Gatame attempts among other side control threats and selecting appropriate defensive responses in real time. Film analysis to identify missed recognition cues and delayed reactions. Develop ability to exploit the transitional moment for guard recovery or positional improvement rather than only preventing the transition."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O9H8V9BL_b0",
+        "title": "Escaping the kesa gatame position",
+        "by": "Full Metal Jiu Jitsu",
+        "vertical": false,
+        "channel": "Full Metal Jiu Jitsu",
+        "duration": 79,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Framing defense against kesa gatame pressure",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

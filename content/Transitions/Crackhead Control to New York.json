@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "New York/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Crackhead Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Crackhead Control to New York transition represents a fundamental angle adjustment within the 10th Planet Rubber Guard system, allowing practitioners to shift from the high-risk, submission-dense Crackhead Control to the more stable New York position. This transition becomes essential when the deep overhook of Crackhead Control creates excessive back exposure, when the opponent's defensive posture makes Crackhead submissions difficult, or when you need to reset your offensive chain from a different angle.\n\nThe mechanical distinction between Crackhead Control and New York centers on overhook depth and leg positioning. Crackhead Control features the deepest overhook penetration with aggressive forward leg pressure, creating maximum submission threat but significant back exposure. New York maintains a strong overhook while repositioning the controlling leg from aggressive neck pressure to a more sustainable shin-across-back configuration. This adjustment trades some immediate submission threat for improved positional stability and access to different attack chains including Invisible Collar, Zombie, and Carni progressions.\n\nStrategically, this transition serves as a positional reset that maintains offensive momentum while reducing defensive vulnerability. When opponents begin recognizing Crackhead Control patterns and timing their back take attempts during your submission extensions, transitioning to New York disrupts their defensive timing while keeping your overhook anchor intact. The transition also opens different submission pathways that may be more appropriate for the opponent's specific defensive reactions - fighters who defend gogoplata effectively often become vulnerable to the triangle and omoplata chains more accessible from New York.\n\nEnergy management considerations make this transition particularly valuable during extended guard exchanges. Crackhead Control's aggressive positioning requires significant hip flexor engagement and core tension, leading to fatigue over time. New York offers a more sustainable control structure that allows brief recovery periods while maintaining offensive threat. Experienced rubber guard players cycle between these positions strategically, using Crackhead Control for submission bursts and New York for positional consolidation.",
   "related_content": [
     {
@@ -213,46 +225,175 @@
     "flashcards": [
       {
         "question": "What must remain absolutely constant throughout the Crackhead Control to New York transition?",
-        "answer": "The deep overhook must remain locked with hand gripping behind the opponent's shoulder blade or lat muscle throughout the entire transition. The overhook is the positional anchor that keeps the opponent's arm trapped and posture controlled - if it slips during leg repositioning, the entire rubber guard structure collapses and the opponent can extract their arm and pass."
+        "answer": "The deep overhook must remain locked with hand gripping behind the opponent's shoulder blade or lat muscle throughout the entire transition. The overhook is the positional anchor that keeps the opponent's arm trapped and posture controlled - if it slips during leg repositioning, the entire rubber guard structure collapses and the opponent can extract their arm and pass.",
+        "answer_line": "Keep overhook locked throughout",
+        "distractors": {
+          "plausible": [
+            "Keep free leg hook locked",
+            "Keep shin grip tight always"
+          ],
+          "trap": [
+            "Release overhook to regrip shin"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively as you begin repositioning your leg - how do you adapt?",
-        "answer": "Accept the forward drive and immediately transition to Carni or Chill Dog setup rather than completing New York. Their forward momentum actually assists these transitions by bringing their head closer and compressing the space needed for gogoplata setups. Fighting against their momentum to complete New York wastes energy and creates unnecessary positional risk."
+        "answer": "Accept the forward drive and immediately transition to Carni or Chill Dog setup rather than completing New York. Their forward momentum actually assists these transitions by bringing their head closer and compressing the space needed for gogoplata setups. Fighting against their momentum to complete New York wastes energy and creates unnecessary positional risk.",
+        "answer_line": "Flow to Carni or Chill Dog",
+        "distractors": {
+          "plausible": [
+            "Fight to complete New York",
+            "Retract legs and reset guard"
+          ],
+          "trap": [
+            "Push back against their drive"
+          ]
+        }
       },
       {
         "question": "What is the primary mechanical difference between Crackhead Control and New York that this transition creates?",
-        "answer": "Crackhead Control positions the controlling leg across the opponent's neck or upper back with maximum downward pressure and deep overhook penetration, creating high submission density but significant back exposure. New York positions the shin across the shoulder blades with slightly less aggressive pressure but improved stability. The transition trades immediate submission threat for positional sustainability and access to different attack chains like Invisible Collar, Zombie, and Carni."
+        "answer": "Crackhead Control positions the controlling leg across the opponent's neck or upper back with maximum downward pressure and deep overhook penetration, creating high submission density but significant back exposure. New York positions the shin across the shoulder blades with slightly less aggressive pressure but improved stability. The transition trades immediate submission threat for positional sustainability and access to different attack chains like Invisible Collar, Zombie, and Carni.",
+        "answer_line": "Trades submission for stability",
+        "distractors": {
+          "plausible": [
+            "New York has deeper overhook",
+            "Crackhead is more stable position"
+          ],
+          "trap": [
+            "New York exposes the back more"
+          ]
+        }
       },
       {
         "question": "How do you prevent back exposure during the transitional moment when your primary leg is repositioning?",
-        "answer": "Your free leg must maintain active hip connection through butterfly hook, posting on opponent's hip, or hooking behind their leg. This leg becomes the primary safety mechanism during transition. Establish this connection before releasing the shin grip and maintain it throughout the leg repositioning movement. If the hip connection is lost, the opponent can immediately begin circling toward back control."
+        "answer": "Your free leg must maintain active hip connection through butterfly hook, posting on opponent's hip, or hooking behind their leg. This leg becomes the primary safety mechanism during transition. Establish this connection before releasing the shin grip and maintain it throughout the leg repositioning movement. If the hip connection is lost, the opponent can immediately begin circling toward back control.",
+        "answer_line": "Free leg keeps hip connection",
+        "distractors": {
+          "plausible": [
+            "Grip the shin tighter mid-move",
+            "Speed through the transition fast"
+          ],
+          "trap": [
+            "Release free leg to move faster"
+          ]
+        }
       },
       {
         "question": "Why would you choose to transition to New York rather than continuing to hunt submissions from Crackhead Control?",
-        "answer": "Strategic reasons include: opponent has developed defensive timing for Crackhead submissions and is threatening back takes during your extensions; your hip flexors are fatiguing from the aggressive Crackhead positioning; you want access to attack chains more easily accessed from New York like Invisible Collar or Zombie; or the opponent's posture recovery is making Crackhead submissions difficult but they remain vulnerable to New York attacks."
+        "answer": "Strategic reasons include: opponent has developed defensive timing for Crackhead submissions and is threatening back takes during your extensions; your hip flexors are fatiguing from the aggressive Crackhead positioning; you want access to attack chains more easily accessed from New York like Invisible Collar or Zombie; or the opponent's posture recovery is making Crackhead submissions difficult but they remain vulnerable to New York attacks.",
+        "answer_line": "Opponent adapting or you're fatigued",
+        "distractors": {
+          "plausible": [
+            "Always switch after a time limit",
+            "Only switch once a sub lands"
+          ],
+          "trap": [
+            "Keep attacking the same submission"
+          ]
+        }
       },
       {
         "question": "What is the correct grip position when re-establishing shin control after the leg repositions to New York?",
-        "answer": "Grip the shin between the ankle and lower calf with a full hand wrap. Gripping too low near the knee allows the opponent to easily strip the control and restore posture. The ankle-adjacent grip provides maximum leverage and makes grip stripping significantly more difficult. The hand should wrap fully around the shin rather than just grabbing with fingers."
+        "answer": "Grip the shin between the ankle and lower calf with a full hand wrap. Gripping too low near the knee allows the opponent to easily strip the control and restore posture. The ankle-adjacent grip provides maximum leverage and makes grip stripping significantly more difficult. The hand should wrap fully around the shin rather than just grabbing with fingers.",
+        "answer_line": "Grip shin near the ankle",
+        "distractors": {
+          "plausible": [
+            "Grip shin near the knee",
+            "Grip with fingers only"
+          ],
+          "trap": [
+            "Let the shin float ungripped"
+          ]
+        }
       },
       {
         "question": "You notice your opponent attempting to establish double underhooks as you transition - what is your immediate response?",
-        "answer": "Double underhooks during transition signal critical danger requiring immediate position abandonment regardless of transition progress. Stop the New York transition and either return to closed guard by releasing the overhook and closing your legs, or initiate technical standup. Double underhooks make stack passes and back takes extremely high percentage, overriding any offensive considerations."
+        "answer": "Double underhooks during transition signal critical danger requiring immediate position abandonment regardless of transition progress. Stop the New York transition and either return to closed guard by releasing the overhook and closing your legs, or initiate technical standup. Double underhooks make stack passes and back takes extremely high percentage, overriding any offensive considerations.",
+        "answer_line": "Abandon position immediately",
+        "distractors": {
+          "plausible": [
+            "Speed up the New York transition",
+            "Fight the underhooks with strength"
+          ],
+          "trap": [
+            "Continue hunting the submission"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when cycling between Crackhead Control and New York during extended guard exchanges?",
-        "answer": "Use Crackhead Control for aggressive submission bursts requiring maximum hip flexor and core engagement, then transition to New York for positional consolidation and brief recovery periods. New York's more sustainable control structure allows reduced muscular tension while maintaining offensive threat. This cycling prevents the fatigue that occurs from maintaining Crackhead Control continuously while keeping the opponent under constant pressure."
+        "answer": "Use Crackhead Control for aggressive submission bursts requiring maximum hip flexor and core engagement, then transition to New York for positional consolidation and brief recovery periods. New York's more sustainable control structure allows reduced muscular tension while maintaining offensive threat. This cycling prevents the fatigue that occurs from maintaining Crackhead Control continuously while keeping the opponent under constant pressure.",
+        "answer_line": "Burst Crackhead, rest in New York",
+        "distractors": {
+          "plausible": [
+            "Stay in Crackhead the whole time",
+            "Rest in Crackhead, attack in NY"
+          ],
+          "trap": [
+            "Hold both grips maximally always"
+          ]
+        }
       },
       {
         "question": "The opponent strips your shin grip as you attempt to re-establish it in New York - what attack opportunity does this create?",
-        "answer": "Their grip fighting to strip your shin control creates the perfect opening for a triangle setup. As they reach toward your leg, shoot your repositioning leg over their shoulder while the overhook keeps their arm trapped inside. Their defensive hand movement actually positions their arm inside your guard, creating the triangle angle. Never fight the grip battle when you can immediately threaten a submission."
+        "answer": "Their grip fighting to strip your shin control creates the perfect opening for a triangle setup. As they reach toward your leg, shoot your repositioning leg over their shoulder while the overhook keeps their arm trapped inside. Their defensive hand movement actually positions their arm inside your guard, creating the triangle angle. Never fight the grip battle when you can immediately threaten a submission.",
+        "answer_line": "Shoot leg over for triangle",
+        "distractors": {
+          "plausible": [
+            "Re-grip the shin even harder",
+            "Switch to an armbar attack"
+          ],
+          "trap": [
+            "Chase their hand stripping grip"
+          ]
+        }
       },
       {
         "question": "What hip adjustment must occur immediately after completing the leg repositioning to establish proper New York control?",
-        "answer": "Rotate your hips slightly toward the overhook side to establish the characteristic New York angle. This hip rotation opens pathways to Invisible Collar, Zombie, and Carni transitions that are not available from a flat hip position. Without this adjustment, the position becomes unstable closed guard rather than proper New York, losing access to the advanced attack chains that make the transition valuable."
+        "answer": "Rotate your hips slightly toward the overhook side to establish the characteristic New York angle. This hip rotation opens pathways to Invisible Collar, Zombie, and Carni transitions that are not available from a flat hip position. Without this adjustment, the position becomes unstable closed guard rather than proper New York, losing access to the advanced attack chains that make the transition valuable.",
+        "answer_line": "Rotate hips toward overhook side",
+        "distractors": {
+          "plausible": [
+            "Keep hips flat and square",
+            "Rotate hips away from overhook"
+          ],
+          "trap": [
+            "Lift hips off the mat"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves dynamic hip movement and leg repositioning that can strain the hip flexors and external rotators if performed without adequate warm-up or flexibility. Practitioners should develop specific hip mobility before attempting the transition with resistance. The brief moment when the shin grip is released creates transitional vulnerability - never force the transition against strong posture or if the opponent has begun establishing back control. If cramping or discomfort occurs in the hip region during drilling, stop and address flexibility limitations before continuing. Both training partners should communicate clearly during positional sparring, as unexpected transitions can cause the top player to post awkwardly. Build proficiency gradually from static drilling to live application."
+    "safety_considerations": "This transition involves dynamic hip movement and leg repositioning that can strain the hip flexors and external rotators if performed without adequate warm-up or flexibility. Practitioners should develop specific hip mobility before attempting the transition with resistance. The brief moment when the shin grip is released creates transitional vulnerability - never force the transition against strong posture or if the opponent has begun establishing back control. If cramping or discomfort occurs in the hip region during drilling, stop and address flexibility limitations before continuing. Both training partners should communicate clearly during positional sparring, as unexpected transitions can cause the top player to post awkwardly. Build proficiency gradually from static drilling to live application.",
+    "clips": [
+      {
+        "id": "_3pJ2tPI0gY",
+        "title": "Crackhead Control to Invisible Collar Tie",
+        "by": "Fletcher Kirwan",
+        "vertical": false,
+        "channel": "Fletcher Kirwan",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GPWBygTM1b0",
+        "title": "Sorcerer from invisible collar",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "JiuJitsuMag",
+        "duration": 97,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "p6M-9BVuWqs",
+        "title": "Clearing the elbow to lock up the rubber guard finish",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 79,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Crackhead Control to New York Defender",
@@ -334,23 +475,73 @@
     "flashcards": [
       {
         "question": "What is the single highest percentage moment to attempt escape during the Crackhead Control to New York transition?",
-        "answer": "The moment the bottom player releases their shin grip to begin leg repositioning. During this brief window of one to two seconds, their controlling leg has no anchored grip maintaining its position, their core engagement is redirected toward facilitating the movement, and their attention is divided between multiple tasks. This creates the maximum vulnerability in their guard structure that you can exploit with explosive posture recovery or forward pressure."
+        "answer": "The moment the bottom player releases their shin grip to begin leg repositioning. During this brief window of one to two seconds, their controlling leg has no anchored grip maintaining its position, their core engagement is redirected toward facilitating the movement, and their attention is divided between multiple tasks. This creates the maximum vulnerability in their guard structure that you can exploit with explosive posture recovery or forward pressure.",
+        "answer_line": "When they release the shin grip",
+        "distractors": {
+          "plausible": [
+            "During the free leg hook set",
+            "Right after New York locks in"
+          ],
+          "trap": [
+            "Turtle away from the pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sliding their controlling leg from your neck toward your shoulder blades - should you drive forward or pull back?",
-        "answer": "Drive forward. Forward pressure compresses the space the bottom player needs to reposition their leg and disrupts the sliding motion that defines this transition. Pulling backward creates space that actually assists their leg repositioning and gives the overhook more leverage to control your posture. The forward drive also opens opportunities to flatten them before New York consolidates, and if they redirect your pressure into Carni or Chill Dog setups, you can address those threats from a more structurally sound position."
+        "answer": "Drive forward, because forward pressure compresses the space their leg needs to reposition and disrupts the slide. Pulling backward creates space that actually assists their leg repositioning and gives the overhook more leverage to control your posture. The forward drive also opens opportunities to flatten them before New York consolidates, and if they redirect your pressure into Carni or Chill Dog setups, you can address those threats from a more structurally sound position.",
+        "distractors": {
+          "plausible": [
+            "Pull back to create space",
+            "Stay neutral and wait it out"
+          ],
+          "trap": [
+            "Retreat to open the guard"
+          ]
+        },
+        "answer_line": "Drive forward into the pressure"
       },
       {
         "question": "You feel the bottom player's free leg tighten its hook on your hip during the transition - what does this signal and how should you respond?",
-        "answer": "The increased free leg pressure signals that the bottom player is compensating for the instability created by their primary leg repositioning. This confirms the transition is actively occurring. Respond by addressing the free leg hook first - use your same-side hand to strip or block the hook while simultaneously driving your weight forward. Removing this safety mechanism forces the bottom player to abort the transition or risk losing hip control entirely, which can lead to a complete guard collapse."
+        "answer": "The increased free leg pressure signals that the bottom player is compensating for the instability created by their primary leg repositioning. This confirms the transition is actively occurring. Respond by addressing the free leg hook first - use your same-side hand to strip or block the hook while simultaneously driving your weight forward. Removing this safety mechanism forces the bottom player to abort the transition or risk losing hip control entirely, which can lead to a complete guard collapse.",
+        "answer_line": "Strip the free leg hook first",
+        "distractors": {
+          "plausible": [
+            "Push through the center mass",
+            "Grab their ankle and pull"
+          ],
+          "trap": [
+            "Ignore it and keep posturing"
+          ]
+        }
       },
       {
         "question": "How does your defensive approach change if you recognize the transition late and the New York shin grip has already been re-established?",
-        "answer": "Once New York is consolidated, the transitional window has closed and you must now defend against a fully established position rather than a transition in progress. Shift your strategy to systematic New York escape: widen your base, begin grip fighting the shin-controlling hand to weaken the closed kinetic chain, and work toward overhook extraction through elbow retraction toward your hip. The escape becomes significantly harder and more time-consuming compared to intervention during the transition itself, which is why early recognition is critical."
+        "answer": "Once New York is consolidated, shift from disrupting a transition to a systematic escape of the fully established position. The transitional window has closed, so widen your base, begin grip fighting the shin-controlling hand to weaken the closed kinetic chain, and work toward overhook extraction through elbow retraction toward your hip. The escape is significantly harder and more time-consuming than intervention during the transition itself, which is why early recognition is critical.",
+        "distractors": {
+          "plausible": [
+            "Rush a fast posture explosion",
+            "Wait for them to make a mistake"
+          ],
+          "trap": [
+            "Try to re-enter the closed window"
+          ]
+        },
+        "answer_line": "Grip fight the shin, extract arm"
       },
       {
         "question": "Why is contesting the shin re-grip with your free hand a viable late-stage defense despite the risk to your base?",
-        "answer": "Without the shin grip completing the New York control structure, the bottom player's leg cannot maintain its position across your shoulder blades and will gradually slide off due to gravity and your posture recovery efforts. The shin grip is the mechanical keystone that transforms a loose leg position into a stable control platform. Even though reaching to contest the grip temporarily compromises your base, the payoff of preventing New York consolidation outweighs the sweep risk, particularly because you can immediately recover base once the grip is denied."
+        "answer": "Denying the shin grip removes the keystone of New York, so the leg cannot hold across your shoulder blades and slides off. Without that grip completing the control structure, gravity and your posture recovery efforts gradually strip the leg, because the shin grip is what transforms a loose leg position into a stable control platform. Even though reaching to contest temporarily compromises your base, preventing New York consolidation outweighs the sweep risk, particularly because you can immediately recover base once the grip is denied.",
+        "distractors": {
+          "plausible": [
+            "It locks in an immediate escape",
+            "It only works with both hands"
+          ],
+          "trap": [
+            "Abandon posture to grab both legs"
+          ]
+        },
+        "answer_line": "Denies grip, leg slides off"
       }
     ],
     "training_progressions": [
@@ -373,6 +564,35 @@
         "phase": "Week 7+",
         "focus": "Live positional defense",
         "description": "Full resistance positional sparring starting in Crackhead Control. Defend all transitions with realistic intensity while the bottom player attacks with full commitment. Measure success by tracking escape rate and time-to-escape across rounds to identify improvement trends."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "2 simple rubber guard tips",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ANxiPpAzACU",
+        "title": "Passing the Rubber Guard",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "InAction",
+        "duration": 443,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iwcfKUPNZNs",
+        "title": "Why Rubber Guard Doesn't Work: Countering It",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 792,
+        "verified": "2026-07-15"
       }
     ]
   },

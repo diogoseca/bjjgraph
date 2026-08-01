@@ -154,6 +154,43 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge and Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why your upa mount escape fails",
+      "description": "Bridge and Roll (Defender) film study: Why your upa mount escape fails, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IgYot9fcBh0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IgYot9fcBh0",
+      "url": "https://www.youtube.com/watch?v=IgYot9fcBh0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT310S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why the bridge and roll escape fails",
+      "description": "Bridge and Roll (Defender) film study: Why the bridge and roll escape fails, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ly8voPPzYaU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ly8voPPzYaU",
+      "url": "https://www.youtube.com/watch?v=Ly8voPPzYaU",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -163,6 +200,34 @@ Defending the Bridge and Roll from the top mount position requires understanding
 **Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge and Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IgYot9fcBh0)
+
+<p class="clip-credit"><strong>Why your upa mount escape fails</strong> — taught by Jean Jacques Machado · 5:10 · <a href="https://www.youtube.com/watch?v=IgYot9fcBh0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ly8voPPzYaU)
+
+<p class="clip-credit"><strong>Why the bridge and roll escape fails</strong> — taught by Henry Akins · 1:25 · <a href="https://www.youtube.com/watch?v=Ly8voPPzYaU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

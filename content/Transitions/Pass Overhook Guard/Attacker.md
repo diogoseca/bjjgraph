@@ -174,6 +174,43 @@ description: "Complete guide to passing the Overhook Guard from the top position
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Overhook Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook pass breakdown from the top",
+      "description": "Pass Overhook Guard (Attacker) film study: Overhook pass breakdown from the top, taught by Eric Laporte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NjpsGcUIo9Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NjpsGcUIo9Y",
+      "url": "https://www.youtube.com/watch?v=NjpsGcUIo9Y",
+      "creator": { "@type": "Person", "name": "Eric Laporte" },
+      "duration": "PT167S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Beating the whizzer/overhook while passing",
+      "description": "Pass Overhook Guard (Attacker) film study: Beating the whizzer/overhook while passing, taught by Pendergrass Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQ2mviobbI0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQ2mviobbI0",
+      "url": "https://www.youtube.com/watch?v=IQ2mviobbI0",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker passing the Overhook Guard, your primary objective is to neutral
 **From Position**: [[Positions/Overhook Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Overhook Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NjpsGcUIo9Y)
+
+<p class="clip-credit"><strong>Overhook pass breakdown from the top</strong> — taught by Eric Laporte · 2:47 · <a href="https://www.youtube.com/watch?v=NjpsGcUIo9Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IQ2mviobbI0)
+
+<p class="clip-credit"><strong>Beating the whizzer/overhook while passing</strong> — taught by Pendergrass Academy · 2:18 · <a href="https://www.youtube.com/watch?v=IQ2mviobbI0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

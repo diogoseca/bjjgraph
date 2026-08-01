@@ -34,6 +34,43 @@ description: "Master the Knee Shield to Closed Guard recovery in BJJ. Complete g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield to Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reclaiming closed guard from half guard",
+      "description": "Knee Shield to Closed Guard film study: Reclaiming closed guard from half guard, taught by Daniel Lima.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5sdZak2bil4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5sdZak2bil4",
+      "url": "https://www.youtube.com/watch?v=5sdZak2bil4",
+      "creator": { "@type": "Person", "name": "Daniel Lima" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee shield half guard to closed guard",
+      "description": "Knee Shield to Closed Guard film study: Knee shield half guard to closed guard, taught by Grapple Factory.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ptGVzGawGB8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ptGVzGawGB8",
+      "url": "https://www.youtube.com/watch?v=ptGVzGawGB8",
+      "creator": { "@type": "Person", "name": "Grapple Factory" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique occupies an important role in the half guard retention system, se
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield to Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5sdZak2bil4)
+
+<p class="clip-credit"><strong>Reclaiming closed guard from half guard</strong> — taught by Daniel Lima · 0:26 · <a href="https://www.youtube.com/watch?v=5sdZak2bil4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ptGVzGawGB8)
+
+<p class="clip-credit"><strong>Knee shield half guard to closed guard</strong> — taught by Grapple Factory · 2:20 · <a href="https://www.youtube.com/watch?v=ptGVzGawGB8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

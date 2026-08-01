@@ -164,6 +164,54 @@ description: "Understand air choke mechanics in BJJ. Learn tracheal compression 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Air Chokes \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Chokes: basics and principles",
+      "description": "Air Chokes film study: Chokes: basics and principles, taught by Rolls Too Hard.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bS_TpAK0kwQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bS_TpAK0kwQ",
+      "url": "https://www.youtube.com/watch?v=bS_TpAK0kwQ",
+      "creator": { "@type": "Person", "name": "Rolls Too Hard" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Strangles vs chokes: air vs blood explained",
+      "description": "Air Chokes film study: Strangles vs chokes: air vs blood explained, taught by Michael Wong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uKpQYwVJASQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uKpQYwVJASQ",
+      "url": "https://www.youtube.com/watch?v=uKpQYwVJASQ",
+      "creator": { "@type": "Person", "name": "Michael Wong" },
+      "duration": "PT275S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guillotine choke: the classic air choke mechanic",
+      "description": "Air Chokes film study: Guillotine choke: the classic air choke mechanic, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zmoyANCY4To/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zmoyANCY4To",
+      "url": "https://www.youtube.com/watch?v=zmoyANCY4To",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT301S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Air Chokes?
@@ -177,6 +225,42 @@ Several common submissions operate as air chokes or have air choke components. T
 Understanding air choke mechanics is important for two reasons. First, recognizing when you are applying an air choke rather than a blood choke allows you to adjust your technique for a more effective finish. Second, air chokes carry specific injury risks to the trachea and larynx that practitioners must understand. Tracheal compression can cause bruising, cartilage damage, or in extreme cases structural injury to the airway. Training partners should tap early when they feel windpipe pressure, and the attacker should be aware that extended tracheal compression is more likely to cause lasting discomfort than arterial compression. The goal in training should always be to refine placement toward vascular strangles, but air choke awareness ensures safety when the technique lands on the trachea.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Air Chokes in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bS_TpAK0kwQ)
+
+<p class="clip-credit"><strong>Chokes: basics and principles</strong> — taught by Rolls Too Hard · 1:45 · <a href="https://www.youtube.com/watch?v=bS_TpAK0kwQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uKpQYwVJASQ)
+
+<p class="clip-credit"><strong>Strangles vs chokes: air vs blood explained</strong> — taught by Michael Wong · 4:35 · <a href="https://www.youtube.com/watch?v=uKpQYwVJASQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zmoyANCY4To)
+
+<p class="clip-credit"><strong>Guillotine choke: the classic air choke mechanic</strong> — taught by Absolute MMA St Kilda · 5:01 · <a href="https://www.youtube.com/watch?v=zmoyANCY4To" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 
@@ -364,7 +448,7 @@ Practice applying air choke pressure as a positional control tool rather than a 
 - [[Back Control]] (Position) - Rear naked choke attempts that slip to the front of the throat become air chokes requiring mechanical adjustment
 - [[Head Position]] (Principle) - Head control determines tracheal exposure and affects whether choking pressure lands on the windpipe or the carotid arteries
 - [[Control Maintenance]] (Principle) - Air chokes require sustained positional control because they take longer to finish than blood chokes
-- [[Von Flue Choke]] (Submission) - A shoulder-pressure-based choke from side control that can produce air choke effects through throat compression
+- [[Von Flue Choke from Side Control]] (Submission) - A shoulder-pressure-based choke from side control that can produce air choke effects through throat compression
 
 
 </section>

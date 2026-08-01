@@ -348,35 +348,115 @@
   "flashcards": [
     {
       "question": "What is the role of the headquarters position in the Modern No-Gi Passing System?",
-      "answer": "Headquarters is the central control hub where the passer pins one or both legs, establishes posture, and dictates distance before launching coordinated passing chains such as knee slice and leg drag."
+      "answer": "Headquarters is the central control hub where the passer pins one or both legs, establishes posture, and dictates distance before launching coordinated passing chains such as knee slice and leg drag.",
+      "answer_line": "Control legs, posture, distance",
+      "distractors": {
+        "plausible": [
+          "Chase a fast leg drag",
+          "Isolate only one leg"
+        ],
+        "trap": [
+          "Let go of legs to hunt a sub"
+        ]
+      }
     },
     {
       "question": "Why does no-gi passing rely on connection breaking rather than grip stripping?",
-      "answer": "Without gi grips, guard players retain using underhooks, frames, and leg entanglements; systematically breaking these connections through hand fighting and pressure angles is what creates the space needed to advance and pass."
+      "answer": "Without gi grips, guard players retain using underhooks, frames, and leg entanglements; systematically breaking these connections through hand fighting and pressure angles is what creates the space needed to advance and pass.",
+      "answer_line": "Break underhooks and frames",
+      "distractors": {
+        "plausible": [
+          "Strip their gi grips first",
+          "Out-muscle their frames"
+        ],
+        "trap": [
+          "Ignore frames, drive through"
+        ]
+      }
     },
     {
       "question": "How should you safely approach leg-based guards like ashi garami or 50-50?",
-      "answer": "Recognize the entanglement early, control your trapped foot's knee line and posture, clear the legs with specific mechanics rather than yanking, and protect your heel while keeping forward passing pressure."
+      "answer": "Recognize the entanglement early, control your trapped foot's knee line and posture, clear the legs with specific mechanics rather than yanking, and protect your heel while keeping forward passing pressure.",
+      "answer_line": "Control knee, clear, guard heel",
+      "distractors": {
+        "plausible": [
+          "Yank the leg free fast",
+          "Ignore entanglement, push through"
+        ],
+        "trap": [
+          "Force the heel out blindly"
+        ]
+      }
     },
     {
       "question": "What distinguishes a floating pass from a pure pressure pass?",
-      "answer": "A floating pass uses constant movement, timing, and angle changes (bodylock, long-step, headquarters shifts) to bypass retention during transition windows, whereas a pressure pass collapses the guard with weight distribution and hip pressure."
+      "answer": "A floating pass uses constant movement, timing, and angle changes (bodylock, long-step, headquarters shifts) to bypass retention during transition windows, whereas a pressure pass collapses the guard with weight distribution and hip pressure.",
+      "answer_line": "Floating: motion; pressure: weight",
+      "distractors": {
+        "plausible": [
+          "Both rely on pure hip pressure",
+          "Floating means static heavy pins"
+        ],
+        "trap": [
+          "Rush transitions, skip angles"
+        ]
+      }
     },
     {
       "question": "What common mistake exposes a passer to guillotines or back takes?",
-      "answer": "Passing with broken posture and the head dropped forward over the opponent; keeping the head up, chin tucked, and hips driving forward prevents the neck exposure that invites guillotines and back takes."
+      "answer": "Passing with broken posture and the head dropped forward over the opponent; keeping the head up, chin tucked, and hips driving forward prevents the neck exposure that invites guillotines and back takes.",
+      "answer_line": "Head down, posture broken",
+      "distractors": {
+        "plausible": [
+          "Keeping chin tucked too long",
+          "Driving hips back not forward"
+        ],
+        "trap": [
+          "Drop head to drive through pass"
+        ]
+      }
     },
     {
       "question": "How do you prevent an opponent from re-guarding after a partial pass?",
-      "answer": "Maintain connection control through the transition, occupy the inside space, and proactively shut down framing and knee-insertion pathways before the opponent can create the space needed to recover guard."
+      "answer": "Maintain connection control through the transition, occupy the inside space, and proactively shut down framing and knee-insertion pathways before the opponent can create the space needed to recover guard.",
+      "answer_line": "Hold connection, block knee entry",
+      "distractors": {
+        "plausible": [
+          "Rush straight to next pass",
+          "Release grips to reset angle"
+        ],
+        "trap": [
+          "Back off to reset posture"
+        ]
+      }
     },
     {
       "question": "Which finishing positions confirm a successful pass in this system?",
-      "answer": "Reaching side control, knee on belly, mount, or back control confirms a completed pass, since the goal is to convert headquarters and floating entries into a stable dominant position past the legs."
+      "answer": "Reaching side control, knee on belly, mount, or back control confirms a completed pass, since the goal is to convert headquarters and floating entries into a stable dominant position past the legs.",
+      "answer_line": "Side control, KOB, mount, back",
+      "distractors": {
+        "plausible": [
+          "Half guard counts as a pass",
+          "Any top position confirms it"
+        ],
+        "trap": [
+          "Turtle counts as a finished pass"
+        ]
+      }
     },
     {
       "question": "Why is chaining passes more effective than committing to a single technique?",
-      "answer": "Skilled guard players defend the first attempt, so chaining knee slice to leg drag to bodylock based on their reactions keeps the passer ahead of defensive responses and prevents guard recovery between attacks."
+      "answer": "Skilled guard players defend the first attempt, so chaining knee slice to leg drag to bodylock based on their reactions keeps the passer ahead of defensive responses and prevents guard recovery between attacks.",
+      "answer_line": "Chain passes off their reactions",
+      "distractors": {
+        "plausible": [
+          "Repeat one pass until it works",
+          "Switch passes randomly each time"
+        ],
+        "trap": [
+          "Commit fully to first attempt"
+        ]
+      }
     }
   ]
 }

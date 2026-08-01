@@ -148,6 +148,43 @@ description: "Learn to defend and counter the Sweep from Clamp Guard. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Clamp Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and countering the clamp from closed guard",
+      "description": "Sweep from Clamp Guard (Defender) film study: Defending and countering the clamp from closed guard, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58LkTy6v3KQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58LkTy6v3KQ",
+      "url": "https://www.youtube.com/watch?v=58LkTy6v3KQ",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Wrists As the First Layer of Defense",
+      "description": "Sweep from Clamp Guard (Defender) film study: The Wrists As the First Layer of Defense, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/21BYfWzw6HI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/21BYfWzw6HI",
+      "url": "https://www.youtube.com/watch?v=21BYfWzw6HI",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Sweep from Clamp Guard begins with recognizing that your compromis
 **Opponent's Starting Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Clamp Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58LkTy6v3KQ)
+
+<p class="clip-credit"><strong>Defending and countering the clamp from closed guard</strong> — taught by The Grappling Bloke · 1:49 · <a href="https://www.youtube.com/watch?v=58LkTy6v3KQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=21BYfWzw6HI)
+
+<p class="clip-credit"><strong>The Wrists As the First Layer of Defense</strong> — taught by John Danaher · 3:40 · <a href="https://www.youtube.com/watch?v=21BYfWzw6HI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

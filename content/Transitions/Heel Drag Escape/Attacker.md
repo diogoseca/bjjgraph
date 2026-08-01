@@ -174,6 +174,43 @@ description: "Learn to execute the Heel Drag Escape from mount with precise heel
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Drag Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount escape to ankle lock",
+      "description": "Heel Drag Escape (Attacker) film study: Mount escape to ankle lock, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/to2pdxtUpVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/to2pdxtUpVU",
+      "url": "https://www.youtube.com/watch?v=to2pdxtUpVU",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape with the foot lift",
+      "description": "Heel Drag Escape (Attacker) film study: Mount escape with the foot lift, taught by P5 Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fK3On64P2cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fK3On64P2cg",
+      "url": "https://www.youtube.com/watch?v=fK3On64P2cg",
+      "creator": { "@type": "Person", "name": "P5 Academy" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Heel Drag Escape from mount leverages precise foot mechanics to bypass the o
 **From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Drag Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=to2pdxtUpVU)
+
+<p class="clip-credit"><strong>Mount escape to ankle lock</strong> — taught by Andy Tong · 0:50 · <a href="https://www.youtube.com/watch?v=to2pdxtUpVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fK3On64P2cg)
+
+<p class="clip-credit"><strong>Mount escape with the foot lift</strong> — taught by P5 Academy · 1:33 · <a href="https://www.youtube.com/watch?v=fK3On64P2cg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

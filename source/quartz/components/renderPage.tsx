@@ -409,6 +409,59 @@ function loadGraphData(): any {
 
 type RoleFilter = "attacker" | "defender" | "top" | "bottom" | null
 
+// Derive a position role's opponent moves at render time from the canonical role-split nodes
+// (the opposite POSITION role's transitions, resolved through each technique's /attacker outcomes).
+// This replaces the build-time `opponentTransitions` mirror that used to be baked onto graph.json.
+// The in-browser game consumes the identical per-page slice, so behavior is preserved — except for
+// family-hub submission targets (e.g. armbar/triangle-choke/far-side-armbar), which correctly resolve
+// to game-over here instead of the stale mid-pipeline value the old synthesis captured.
+function resolveOpponentMoves(graph: any, data: any, toUrlPath: (p: string) => string): any[] {
+  const role = data.role
+  if (role !== "top" && role !== "bottom") return []
+  const hub = data.hub
+  if (!hub) return []
+  const oppositeRole = role === "top" ? "bottom" : "top"
+  const opp = graph.positions?.[`${hub}/${oppositeRole}`]
+  if (!opp || !Array.isArray(opp.transitions)) return []
+
+  return opp.transitions.map((t: any) => {
+    const m: any = {
+      technique: t.technique || "",
+      target: t.target || "",
+      targetPath: t.targetPath || "",
+      isSubmission: t.isSubmission || false,
+      attemptProbability: t.attemptProbability ?? 0,
+      successRate: t.successRate ?? 50,
+    }
+    const targetSlug = t.target || ""
+    const attNode = graph.transitions?.[`${targetSlug}/attacker`]
+    if (attNode) {
+      const succ = (attNode.outcomes || []).find((o: any) => o.result === "success")
+      if (succ) {
+        const outcomeTo = succ.to || ""
+        m.successOutcome = outcomeTo
+        const outcomePos = outcomeTo ? outcomeTo.split("/")[0] : ""
+        if (outcomePos) {
+          if (!m.isSubmission) {
+            const hubPos = graph.positions?.[outcomePos]
+            m.successOutcomePath = hubPos?.path ? toUrlPath(hubPos.path) : outcomePos
+          } else {
+            m.successOutcomePath = ""
+          }
+        }
+      }
+    } else if (graph.submissions?.[targetSlug]) {
+      m.successOutcome = "game-over"
+      m.successOutcomePath = ""
+    }
+    // Mirror the old synthesis auto-fix: a success outcome of game-over implies a submission.
+    if (m.successOutcome === "game-over" && !m.isSubmission) {
+      m.isSubmission = true
+    }
+    return m
+  })
+}
+
 function getPageGraphData(slug: FullSlug): string | null {
   const graph = loadGraphData()
   if (!graph || Object.keys(graph).length === 0) return null
@@ -494,22 +547,29 @@ function getPageGraphData(slug: FullSlug): string | null {
       role: data.role || null,
       transitions: data.transitions,
       defenses: data.defenses,
-      opponentTransitions: data.opponentTransitions || [],
+      opponentTransitions: resolveOpponentMoves(graph, data, toUrlPath),
       flashcards: data.flashcards || [],
     })
   } else if (entry.section === "transitions" || entry.section === "submissions") {
-    // Role-filtered flashcard selection
+    // Techniques are role-split: `data` (the bare key) is the edgeless hub. The outcomes / origin
+    // live on the /attacker + /defender role-nodes. Resolve the right role-node (hub page → attacker
+    // as the canonical perspective; family hubs have no role children → fall back to `data`).
+    const sec: any = graph[entry.section] || {}
+    const roleData =
+      (role === "defender" ? sec[`${entry.key}/defender`] : sec[`${entry.key}/attacker`]) || data
+
+    // Flashcards: role page → that role's deck; hub page → the hub's combined deck.
     let flashcards: Array<{ question: string; answer: string }> = []
     if (role === "attacker") {
-      flashcards = data.attackerFlashcards || []
+      flashcards = (sec[`${entry.key}/attacker`] || {}).flashcards || data.attackerFlashcards || []
     } else if (role === "defender") {
-      flashcards = data.defenderFlashcards || []
+      flashcards = (sec[`${entry.key}/defender`] || {}).flashcards || data.defenderFlashcards || []
     } else {
       flashcards = data.flashcards || []
     }
 
     // Resolve outcome slugs to display names and URL-safe paths (spaces → hyphens)
-    const resolvedOutcomes = (data.outcomes || []).map((o: any) => {
+    const resolvedOutcomes = (roleData.outcomes || []).map((o: any) => {
       const toSlug: string = o.to || ""
       if (toSlug === "game-over") {
         return { ...o, toName: "Game Over", toPath: "Game-Over" }
@@ -529,17 +589,17 @@ function getPageGraphData(slug: FullSlug): string | null {
     const result: any = {
       type: entry.section === "transitions" ? "transition" : "submission",
       name: data.name,
-      endingPosition: data.endingPosition,
-      endingPositionPath: data.endingPositionPath,
-      startingPosition: data.startingPosition || null,
-      startingPositionPath: toUrlPath(data.startingPositionPath || ""),
-      startingPositionRole: data.startingPositionRole || null,
+      endingPosition: roleData.endingPosition,
+      endingPositionPath: roleData.endingPositionPath,
+      startingPosition: roleData.startingPosition || null,
+      startingPositionPath: toUrlPath(roleData.startingPositionPath || ""),
+      startingPositionRole: roleData.startingPositionRole || null,
       outcomes: resolvedOutcomes,
       flashcards,
     }
 
     if (entry.section === "submissions") {
-      result.isTerminal = data.isTerminal
+      result.isTerminal = roleData.isTerminal ?? data.isTerminal
       if (data.isFamily) result.isFamily = true
     }
 

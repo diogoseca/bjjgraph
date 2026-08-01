@@ -148,6 +148,54 @@ description: "How to defend against High Elbow Guillotine Variation in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Elbow Guillotine Variation (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing guillotine defense with two takedowns",
+      "description": "High Elbow Guillotine Variation (Defender) film study: Standing guillotine defense with two takedowns, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8TsrMk-cwHs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8TsrMk-cwHs",
+      "url": "https://www.youtube.com/watch?v=8TsrMk-cwHs",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT215S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape the high elbow guillotine",
+      "description": "High Elbow Guillotine Variation (Defender) film study: How to escape the high elbow guillotine, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EMkHnDqU3l0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EMkHnDqU3l0",
+      "url": "https://www.youtube.com/watch?v=EMkHnDqU3l0",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT284S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guillotine escape from bottom side head position",
+      "description": "High Elbow Guillotine Variation (Defender) film study: Guillotine escape from bottom side head position, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bkTJD6RIyKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bkTJD6RIyKY",
+      "url": "https://www.youtube.com/watch?v=bkTJD6RIyKY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT118S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The most reliable defensive framework prioritizes posture first, grip disruption
 **Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Elbow Guillotine Variation (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8TsrMk-cwHs)
+
+<p class="clip-credit"><strong>Standing guillotine defense with two takedowns</strong> — taught by Chewjitsu · 3:35 · <a href="https://www.youtube.com/watch?v=8TsrMk-cwHs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EMkHnDqU3l0)
+
+<p class="clip-credit"><strong>How to escape the high elbow guillotine</strong> — taught by John Danaher · 4:44 · <a href="https://www.youtube.com/watch?v=EMkHnDqU3l0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bkTJD6RIyKY)
+
+<p class="clip-credit"><strong>Guillotine escape from bottom side head position</strong> — taught by Gordon Ryan · 1:58 · <a href="https://www.youtube.com/watch?v=bkTJD6RIyKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Prevent the Dead Orchard Control escape as the top player in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Dead Orchard Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Prevent the Sucker Drag Escape During the Anaconda",
+      "description": "Escape Dead Orchard Control (Defender) film study: Prevent the Sucker Drag Escape During the Anaconda, taught by Drew Darce.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/guHPx-OKi0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/guHPx-OKi0M",
+      "url": "https://www.youtube.com/watch?v=guHPx-OKi0M",
+      "creator": { "@type": "Person", "name": "Drew Darce" },
+      "duration": "PT159S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Detail to Keep the Anaconda Choke Tight",
+      "description": "Escape Dead Orchard Control (Defender) film study: Detail to Keep the Anaconda Choke Tight, taught by Tommy P.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/grRBEneVtR8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/grRBEneVtR8",
+      "url": "https://www.youtube.com/watch?v=grRBEneVtR8",
+      "creator": { "@type": "Person", "name": "Tommy P" },
+      "duration": "PT124S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the practitioner maintaining Dead Orchard Control while the bottom player att
 **Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Dead Orchard Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=guHPx-OKi0M)
+
+<p class="clip-credit"><strong>Prevent the Sucker Drag Escape During the Anaconda</strong> — taught by Drew Darce · 2:39 · <a href="https://www.youtube.com/watch?v=guHPx-OKi0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=grRBEneVtR8)
+
+<p class="clip-credit"><strong>Detail to Keep the Anaconda Choke Tight</strong> — taught by Tommy P · 2:04 · <a href="https://www.youtube.com/watch?v=grRBEneVtR8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

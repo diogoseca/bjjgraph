@@ -34,6 +34,43 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Armbar from Gift Wrap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift wrap to armbar and triangle choke",
+      "description": "Gift Wrap Armbar from Gift Wrap film study: Gift wrap to armbar and triangle choke, taught by Derek Brunson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8KoRctBCxyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8KoRctBCxyo",
+      "url": "https://www.youtube.com/watch?v=8KoRctBCxyo",
+      "creator": { "@type": "Person", "name": "Derek Brunson" },
+      "duration": "PT39S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift wrap armbar from mount, no-gi",
+      "description": "Gift Wrap Armbar from Gift Wrap film study: Gift wrap armbar from mount, no-gi, taught by Ryan Robinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2YWKQ0q2bCU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2YWKQ0q2bCU",
+      "url": "https://www.youtube.com/watch?v=2YWKQ0q2bCU",
+      "creator": { "@type": "Person", "name": "Ryan Robinson" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 **Starting Position**: [[Positions/Gift Wrap]] · **From**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Armbar from Gift Wrap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8KoRctBCxyo)
+
+<p class="clip-credit"><strong>Gift wrap to armbar and triangle choke</strong> — taught by Derek Brunson · 0:39 · <a href="https://www.youtube.com/watch?v=8KoRctBCxyo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2YWKQ0q2bCU)
+
+<p class="clip-credit"><strong>Gift wrap armbar from mount, no-gi</strong> — taught by Ryan Robinson · 3:14 · <a href="https://www.youtube.com/watch?v=2YWKQ0q2bCU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

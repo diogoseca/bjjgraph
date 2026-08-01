@@ -34,6 +34,54 @@ description: "Master the heel hook finish from Honey Hole. Step-by-step guide wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Honey Hole \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "4 heel hook finishes from the saddle",
+      "description": "Heel Hook from Honey Hole film study: 4 heel hook finishes from the saddle, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n6EoUkDwUVc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n6EoUkDwUVc",
+      "url": "https://www.youtube.com/watch?v=n6EoUkDwUVc",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT102S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X to honey hole heel hook",
+      "description": "Heel Hook from Honey Hole film study: Single leg X to honey hole heel hook, taught by Ilya Bodnya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
+      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
+      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X guard to heel hook",
+      "description": "Heel Hook from Honey Hole film study: X guard to heel hook, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
+      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ This submission is the primary reason Honey Hole is considered one of the most d
 **Starting Position**: [[Positions/Ashi Garami/Honey Hole]] · **From**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Honey Hole in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n6EoUkDwUVc)
+
+<p class="clip-credit"><strong>4 heel hook finishes from the saddle</strong> — taught by The Grappling Bloke · 1:42 · <a href="https://www.youtube.com/watch?v=n6EoUkDwUVc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+
+<p class="clip-credit"><strong>Single leg X to honey hole heel hook</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+
+<p class="clip-credit"><strong>X guard to heel hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -228,10 +312,10 @@ This submission is the primary reason Honey Hole is considered one of the most d
 
 ## Related
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Transitions/Aoki Lock]]
 - [[Submissions/Calf Slicer]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Ashi Garami/Honey Hole]] - Starting position providing inside leg triangle control for heel hook access
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational leg entanglement that precedes full Honey Hole establishment
 - [[Positions/Ashi Garami/Saddle]] - Alternative terminology for the Honey Hole position configuration

@@ -34,6 +34,54 @@ description: "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baseball Bat Choke from Knee on Belly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baseball Bat Choke From Knee on Belly",
+      "description": "Baseball Bat Choke from Knee on Belly film study: Baseball Bat Choke From Knee on Belly, taught by Clayton Phillips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RxMwGEBoPYw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RxMwGEBoPYw",
+      "url": "https://www.youtube.com/watch?v=RxMwGEBoPYw",
+      "creator": { "@type": "Person", "name": "Clayton Phillips" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Baseball Bat Choke",
+      "description": "Baseball Bat Choke from Knee on Belly film study: Baseball Bat Choke, taught by Iron \u0026 Soul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JFk3ZiedLdY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JFk3ZiedLdY",
+      "url": "https://www.youtube.com/watch?v=JFk3ZiedLdY",
+      "creator": { "@type": "Person", "name": "Iron \u0026 Soul" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Baseball Bat Choke",
+      "description": "Baseball Bat Choke from Knee on Belly film study: Baseball Bat Choke, taught by Jiu-Jitsu Times.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uvr8pF7ad7k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uvr8pF7ad7k",
+      "url": "https://www.youtube.com/watch?v=uvr8pF7ad7k",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Times" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi 
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and jugular veins</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">10% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 **Starting Position**: [[Positions/Knee on Belly]] · **From**: [[Positions/Knee on Belly]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baseball Bat Choke from Knee on Belly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RxMwGEBoPYw)
+
+<p class="clip-credit"><strong>Baseball Bat Choke From Knee on Belly</strong> — taught by Clayton Phillips · 1:45 · <a href="https://www.youtube.com/watch?v=RxMwGEBoPYw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JFk3ZiedLdY)
+
+<p class="clip-credit"><strong>Baseball Bat Choke</strong> — taught by Iron &amp; Soul · 1:00 · <a href="https://www.youtube.com/watch?v=JFk3ZiedLdY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uvr8pF7ad7k)
+
+<p class="clip-credit"><strong>Baseball Bat Choke</strong> — taught by Jiu-Jitsu Times · 1:07 · <a href="https://www.youtube.com/watch?v=uvr8pF7ad7k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -231,7 +315,7 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 ## Related
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Cross Collar Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Breadcutter Choke]]
 - [[Submissions/Bow and Arrow Choke]]

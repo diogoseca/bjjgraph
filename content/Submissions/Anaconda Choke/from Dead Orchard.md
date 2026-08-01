@@ -34,6 +34,54 @@ description: "Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Choke from Dead Orchard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda finish details, S-grip",
+      "description": "Anaconda Choke from Dead Orchard film study: Anaconda finish details, S-grip, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dr66s8QK9_g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dr66s8QK9_g",
+      "url": "https://www.youtube.com/watch?v=dr66s8QK9_g",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to do an anaconda choke",
+      "description": "Anaconda Choke from Dead Orchard film study: How to do an anaconda choke, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EbhWFWp-B6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EbhWFWp-B6s",
+      "url": "https://www.youtube.com/watch?v=EbhWFWp-B6s",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sneaky anaconda submission (no-gi)",
+      "description": "Anaconda Choke from Dead Orchard film study: Sneaky anaconda submission (no-gi), taught by The Grapple Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGZUu6JbtDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGZUu6JbtDA",
+      "url": "https://www.youtube.com/watch?v=PGZUu6JbtDA",
+      "creator": { "@type": "Person", "name": "The Grapple Club" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Neck</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">37% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 **Starting Position**: [[Positions/Dead Orchard Control]] · **From**: [[Positions/Dead Orchard Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Choke from Dead Orchard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dr66s8QK9_g)
+
+<p class="clip-credit"><strong>Anaconda finish details, S-grip</strong> — taught by Ben Eddy · 1:36 · <a href="https://www.youtube.com/watch?v=dr66s8QK9_g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EbhWFWp-B6s)
+
+<p class="clip-credit"><strong>How to do an anaconda choke</strong> — taught by Brandon McCaghren · 1:21 · <a href="https://www.youtube.com/watch?v=EbhWFWp-B6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGZUu6JbtDA)
+
+<p class="clip-credit"><strong>Sneaky anaconda submission (no-gi)</strong> — taught by The Grapple Club · 1:29 · <a href="https://www.youtube.com/watch?v=PGZUu6JbtDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -246,9 +330,8 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 ## Related
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Brabo Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Arm in Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Positions/Dead Orchard Control]] - Source position—the established control state from which this finish is executed
 - [[Positions/Anaconda Control]] - Parent control position—standard anaconda configuration that precedes Dead Orchard establishment
 - [[Positions/Front Headlock]] - Entry position—common setup state where the anaconda grip is initially established

@@ -148,6 +148,43 @@ description: "Counter the leg weave escape from top position. Maintain passing p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Weave Escape to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding leg weave and finishing to knee slide",
+      "description": "Leg Weave Escape to Half Guard (Defender) film study: Holding leg weave and finishing to knee slide, taught by Modern BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aN2S7_WAhq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aN2S7_WAhq4",
+      "url": "https://www.youtube.com/watch?v=aN2S7_WAhq4",
+      "creator": { "@type": "Person", "name": "Modern BJJ coach" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the knee shield with the leg weave",
+      "description": "Leg Weave Escape to Half Guard (Defender) film study: Passing the knee shield with the leg weave, taught by BJJ4Breakfast coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4LIBFmas-oE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4LIBFmas-oE",
+      "url": "https://www.youtube.com/watch?v=4LIBFmas-oE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast coach" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 **Opponent's Starting Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Weave Escape to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aN2S7_WAhq4)
+
+<p class="clip-credit"><strong>Holding leg weave and finishing to knee slide</strong> — taught by Modern BJJ coach · 1:58 · <a href="https://www.youtube.com/watch?v=aN2S7_WAhq4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4LIBFmas-oE)
+
+<p class="clip-credit"><strong>Passing the knee shield with the leg weave</strong> — taught by BJJ4Breakfast coach · 2:33 · <a href="https://www.youtube.com/watch?v=4LIBFmas-oE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

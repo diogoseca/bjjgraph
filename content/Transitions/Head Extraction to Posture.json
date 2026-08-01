@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Gogoplata Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Triangle Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "When the top player is caught in gogoplata control, the situation is mechanically unlike an ordinary pin: the opponent's shin lies across your throat while their foot is secured behind your head, creating a closed-loop system that prevents conventional backward escape. Understanding this geometry is essential because pulling straight back only tightens the choke.\n\nThe technique prioritizes systematic extraction over explosive movement. Rather than panicking and making random movements that typically worsen the position, the defender works through a precise sequence: first creating breathing space by turning the chin, then addressing the foot-behind-head configuration, and finally extracting the head while the opponent's structural control is compromised. This methodical approach reflects the principle that some submissions cannot be escaped through strength alone.\n\nStrategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.",
   "related_content": [
     {
@@ -199,46 +211,175 @@
     "flashcards": [
       {
         "question": "Why does pulling your head straight backward fail as an escape from gogoplata?",
-        "answer": "The foot-behind-head configuration creates a closed-loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or use lateral movement to escape the geometric trap."
+        "answer": "The foot-behind-head configuration creates a closed-loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or use lateral movement to escape the geometric trap.",
+        "answer_line": "Closed-loop tightens the choke",
+        "distractors": {
+          "plausible": [
+            "Shin slides off when pulled",
+            "Backward pull frees the foot"
+          ],
+          "trap": [
+            "Pull straight back to escape"
+          ]
+        }
       },
       {
         "question": "What is the first priority when caught in gogoplata before attempting full escape?",
-        "answer": "Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for systematic escape rather than panicking with explosive movements that typically tighten the choke and expose alternative submissions."
+        "answer": "Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for systematic escape rather than panicking with explosive movements that typically tighten the choke and expose alternative submissions.",
+        "answer_line": "Turn chin toward the shin",
+        "distractors": {
+          "plausible": [
+            "Grab the choking leg first",
+            "Explode out immediately"
+          ],
+          "trap": [
+            "Turn chin away from the shin"
+          ]
+        }
       },
       {
         "question": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
-        "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens significantly."
+        "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens significantly.",
+        "answer_line": "Stack forward, extract head",
+        "distractors": {
+          "plausible": [
+            "Pull head straight back now",
+            "Switch to omoplata attack"
+          ],
+          "trap": [
+            "Relax and wait it out"
+          ]
+        }
       },
       {
         "question": "What are the two primary submission threats you must defend against if your escape movement is imperfect?",
-        "answer": "Triangle choke if your escape movement allows them to switch the leg configuration as the shin slides off, and omoplata if you turn toward the attacking leg exposing your shoulder. Each escape direction has specific counter-threats requiring different defensive responses."
+        "answer": "Triangle choke if your escape movement allows them to switch the leg configuration as the shin slides off, and omoplata if you turn toward the attacking leg exposing your shoulder. Each escape direction has specific counter-threats requiring different defensive responses.",
+        "answer_line": "Triangle and omoplata",
+        "distractors": {
+          "plausible": [
+            "Armbar and kneebar",
+            "Guillotine and armbar"
+          ],
+          "trap": [
+            "Only the gogoplata resets"
+          ]
+        }
       },
       {
         "question": "How should you position your hands during the escape and why?",
-        "answer": "Place hands on opponent's hips rather than grabbing at the choking leg. The leg is stronger than your arms making direct pulling ineffective. Hip control prevents them from elevating to maintain pressure and creates base for your forward driving movements."
+        "answer": "Place hands on opponent's hips rather than grabbing at the choking leg. The leg is stronger than your arms making direct pulling ineffective. Hip control prevents them from elevating to maintain pressure and creates base for your forward driving movements.",
+        "answer_line": "Hands on hips, not the leg",
+        "distractors": {
+          "plausible": [
+            "Grab the shin with both hands",
+            "One hand hips, one on ankle"
+          ],
+          "trap": [
+            "Pull the choking leg down"
+          ]
+        }
       },
       {
         "question": "In which direction should you move your head during extraction and why?",
-        "answer": "Move laterally in the same direction you pushed the opponent's foot, not straight backward. Lateral movement slides your head out of the shin-throat-foot triangle configuration. Backward movement pulls against the closed-loop system, tightening the choke."
+        "answer": "Move laterally in the same direction you pushed the opponent's foot, not straight backward. Lateral movement slides your head out of the shin-throat-foot triangle configuration. Backward movement pulls against the closed-loop system, tightening the choke.",
+        "answer_line": "Lateral, same way as the foot",
+        "distractors": {
+          "plausible": [
+            "Toward the opposite shoulder",
+            "Straight up and off the mat"
+          ],
+          "trap": [
+            "Straight backward, hard pull"
+          ]
+        }
       },
       {
         "question": "When is the emergency tuck-and-roll escape appropriate versus the systematic extraction?",
-        "answer": "Emergency tuck-and-roll is only for when the choke is critically tight and you have no time for systematic work. It breaks the position but exposes your back. Systematic extraction is preferable whenever breathing allows because it leaves you in closed guard rather than defending turtle."
+        "answer": "Emergency tuck-and-roll is only for when the choke is critically tight and you have no time for systematic work. It breaks the position but exposes your back. Systematic extraction is preferable whenever breathing allows because it leaves you in closed guard rather than defending turtle.",
+        "answer_line": "Only when choke is critical",
+        "distractors": {
+          "plausible": [
+            "Whenever hips are elevated",
+            "As your default first option"
+          ],
+          "trap": [
+            "Use it any time you're caught"
+          ]
+        }
       },
       {
         "question": "What mistake causes defenders to give up an omoplata when escaping gogoplata?",
-        "answer": "Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. The bottom player can redirect to omoplata control as your shoulder rotates toward them. Always turn away from the choking leg or work on direct extraction without turning."
+        "answer": "Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. The bottom player can redirect to omoplata control as your shoulder rotates toward them. Always turn away from the choking leg or work on direct extraction without turning.",
+        "answer_line": "Turning toward the choking leg",
+        "distractors": {
+          "plausible": [
+            "Keeping the shoulder squared",
+            "Posting on the mat too soon"
+          ],
+          "trap": [
+            "Turning away from the shin"
+          ]
+        }
       },
       {
         "question": "How do you assess whether you have time for systematic escape versus needing emergency action?",
-        "answer": "Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator."
+        "answer": "Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator.",
+        "answer_line": "Check hip height and foot depth",
+        "distractors": {
+          "plausible": [
+            "Count seconds since it locked",
+            "Judge grip strength only"
+          ],
+          "trap": [
+            "Assume you always have time"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after successfully extracting your head?",
-        "answer": "Immediately drive posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin passing sequences from closed guard. Speed is essential because the opponent will attempt to re-establish control."
+        "answer": "Immediately drive posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin passing sequences from closed guard. Speed is essential because the opponent will attempt to re-establish control.",
+        "answer_line": "Posture up, base on hips",
+        "distractors": {
+          "plausible": [
+            "Immediately attack the legs",
+            "Sit back to catch your breath"
+          ],
+          "trap": [
+            "Relax and reset position"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Head Extraction to Posture involves escaping a choke that restricts airway and blood flow, requiring careful attention to safety. Always tap early if the choke is fully locked and you cannot create breathing space within a few seconds. Training partners should apply gradual pressure and immediately release when you tap. During drilling, communicate clearly about pressure levels. Avoid explosive movements that could cause neck strain or cervical injury. If you feel lightheaded or experience vision changes, tap immediately rather than continuing escape attempts. When drilling the emergency tuck-and-roll variant, ensure adequate mat space and communicate with your partner to prevent collision injuries."
+    "safety_considerations": "Head Extraction to Posture involves escaping a choke that restricts airway and blood flow, requiring careful attention to safety. Always tap early if the choke is fully locked and you cannot create breathing space within a few seconds. Training partners should apply gradual pressure and immediately release when you tap. During drilling, communicate clearly about pressure levels. Avoid explosive movements that could cause neck strain or cervical injury. If you feel lightheaded or experience vision changes, tap immediately rather than continuing escape attempts. When drilling the emergency tuck-and-roll variant, ensure adequate mat space and communicate with your partner to prevent collision injuries.",
+    "clips": [
+      {
+        "id": "HLWwfq8FNMI",
+        "title": "Head Extraction: Hips Down, Posture Up",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ICSTtSCjobM",
+        "title": "Use Good Posture to Counter the Headlock",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 286,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "sqC1g6lVDCQ",
+        "title": "Breaking down the Rubber Guard - posture work",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Ripsaw Defence",
+        "duration": 541,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Head Extraction to Posture Defender",
@@ -328,23 +469,73 @@
     "flashcards": [
       {
         "question": "What is the single most important structural element to protect when the opponent begins their extraction sequence?",
-        "answer": "The foot-behind-head configuration is the structural foundation of gogoplata control. Without the foot locked behind their head, the shin cannot maintain its position across the throat regardless of squeeze pressure. Prioritize keeping this foot deep using both hands and re-pulling it whenever looseness occurs."
+        "answer": "The foot-behind-head configuration is the structural foundation of gogoplata control. Without the foot locked behind their head, the shin cannot maintain its position across the throat regardless of squeeze pressure. Prioritize keeping this foot deep using both hands and re-pulling it whenever looseness occurs.",
+        "answer_line": "Foot locked behind the head",
+        "distractors": {
+          "plausible": [
+            "Shin angle across the throat",
+            "Grip on their far shoulder"
+          ],
+          "trap": [
+            "Let the foot drift, squeeze harder"
+          ]
+        }
       },
       {
         "question": "Your opponent places both hands on your hips and begins driving forward - how should you respond?",
-        "answer": "Elevate your hips higher by engaging your core and driving your pelvis toward the ceiling to counteract their forward flattening pressure. Simultaneously pull your foot deeper behind their head with both hands. Their hands on your hips means they are not addressing the foot, so use this window to strengthen the foot position before they switch targets."
+        "answer": "Elevate your hips higher by engaging your core and driving your pelvis toward the ceiling to counteract their forward flattening pressure. Simultaneously pull your foot deeper behind their head with both hands. Their hands on your hips means they are not addressing the foot, so use this window to strengthen the foot position before they switch targets.",
+        "answer_line": "Elevate hips, pull foot deeper",
+        "distractors": {
+          "plausible": [
+            "Flatten out to add weight",
+            "Push their hands off your hips"
+          ],
+          "trap": [
+            "Let hips drop to relieve pressure"
+          ]
+        }
       },
       {
         "question": "When should you abandon gogoplata maintenance and transition to triangle instead?",
-        "answer": "Transition to triangle when you feel the foot slipping from behind their head and cannot re-secure it despite two-hand effort. The tipping point is when their lateral head movement has begun and your foot is displaced past the crown of their head. At this point, triangle transition success is much higher than attempting to rebuild a structurally compromised gogoplata."
+        "answer": "Transition to triangle when you feel the foot slipping from behind their head and cannot re-secure it despite two-hand effort. The tipping point is when their lateral head movement has begun and your foot is displaced past the crown of their head. At this point, triangle transition success is much higher than attempting to rebuild a structurally compromised gogoplata.",
+        "answer_line": "Foot slips past head's crown",
+        "distractors": {
+          "plausible": [
+            "As soon as they turn their chin",
+            "Whenever hips start to elevate"
+          ],
+          "trap": [
+            "Never abandon, keep squeezing"
+          ]
+        }
       },
       {
         "question": "How does the opponent's chin turn toward your shin create a defensive opportunity for you?",
-        "answer": "The chin turn is the earliest signal of their extraction attempt, giving you maximum reaction time. When you feel their chin rotating, immediately pull your foot deeper and elevate hips higher before they can progress to the next step. Responding at this early stage is far easier than countering later steps because the structural configuration is still intact."
+        "answer": "The chin turn is the earliest signal of their extraction attempt, giving you maximum reaction time. When you feel their chin rotating, immediately pull your foot deeper and elevate hips higher before they can progress to the next step. Responding at this early stage is far easier than countering later steps because the structural configuration is still intact.",
+        "answer_line": "Earliest signal to react",
+        "distractors": {
+          "plausible": [
+            "Sign the choke is now finished",
+            "Cue to release and re-enter"
+          ],
+          "trap": [
+            "Ignore it, chin turns are noise"
+          ]
+        }
       },
       {
         "question": "What mistake does the opponent make that opens the omoplata transition for you?",
-        "answer": "When the opponent turns their shoulder toward the choking shin to relieve throat pressure, they expose their arm and shoulder for omoplata entry. Their rotation provides the angle you need. Release the gogoplata configuration and immediately capture their arm across your hip, using their own turning momentum to establish omoplata control before they can retract."
+        "answer": "When the opponent turns their shoulder toward the choking shin to relieve throat pressure, they expose their arm and shoulder for omoplata entry. Their rotation provides the angle you need. Release the gogoplata configuration and immediately capture their arm across your hip, using their own turning momentum to establish omoplata control before they can retract.",
+        "answer_line": "Turning shoulder into the shin",
+        "distractors": {
+          "plausible": [
+            "Posting a hand on the mat",
+            "Turning chin away from shin"
+          ],
+          "trap": [
+            "Waiting for full extraction"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -367,6 +558,35 @@
         "phase": "Week 7+",
         "focus": "Full resistance offensive retention",
         "description": "Partner attempts full-speed extraction while you work to either finish the gogoplata or transition to alternative submissions. Include scenarios where the partner uses all three extraction variants. Integrate into live rolling from gogoplata control start position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "huzjQNiJu7Y",
+        "title": "Rubber Guard Quick Fix to Stop Posture",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "2 Rubber Guard Tips to Keep Head Trapped",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tWAZbCiWQ9E",
+        "title": "Rubber Guard Philosophy",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   },

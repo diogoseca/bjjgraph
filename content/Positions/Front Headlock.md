@@ -34,6 +34,43 @@ description: "Master front headlock position in BJJ. Strategic control position 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "5 basic submissions from front headlock",
+      "description": "Front Headlock film study: 5 basic submissions from front headlock, taught by Elevate MMA Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Oa4LFTysBdo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Oa4LFTysBdo",
+      "url": "https://www.youtube.com/watch?v=Oa4LFTysBdo",
+      "creator": { "@type": "Person", "name": "Elevate MMA Academy" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front headlock fundamentals",
+      "description": "Front Headlock film study: Front headlock fundamentals, taught by David Taylor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jJQ8r8nR5a4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jJQ8r8nR5a4",
+      "url": "https://www.youtube.com/watch?v=jJQ8r8nR5a4",
+      "creator": { "@type": "Person", "name": "David Taylor" },
+      "duration": "PT236S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +109,34 @@ The front headlock represents the intersection of positional control and submiss
 Understanding the front headlock requires recognizing its role as a transitional control position rather than a static holding position. You're constantly reading your opponent's defensive responses and adapting your attacks accordingly. If they turtle tight, you work your chokes. If they try to stand, you can guillotine. If they roll, you take the back. This dynamic nature requires both technical precision and tactical awareness.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Oa4LFTysBdo)
+
+<p class="clip-credit"><strong>5 basic submissions from front headlock</strong> — taught by Elevate MMA Academy · 2:45 · <a href="https://www.youtube.com/watch?v=Oa4LFTysBdo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jJQ8r8nR5a4)
+
+<p class="clip-credit"><strong>Front headlock fundamentals</strong> — taught by David Taylor · 3:56 · <a href="https://www.youtube.com/watch?v=jJQ8r8nR5a4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -143,23 +208,23 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (19% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (16% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (13% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (11% of attempts)
 
-- **[[Transitions/Stand and Circle Away/Attacker|Stand and Circle Away]]** (15% of attempts)
+- **[[Transitions/Stand and Circle Away/Attacker|Stand and Circle Away]]** (11% of attempts)
 
-- **[[Transitions/Roll Through to Reversal/Attacker|Roll Through to Reversal]]** (13% of attempts)
+- **[[Transitions/Roll Through to Reversal/Attacker|Roll Through to Reversal]]** (7% of attempts)
 
-- **[[Transitions/Arm Drag Escape/Attacker|Arm Drag Escape]]** (9% of attempts)
+- **[[Transitions/Arm Drag Escape/Attacker|Arm Drag Escape]]** (13% of attempts)
 
-- **[[Transitions/Guillotine Defense/Attacker|Guillotine Defense]]** (9% of attempts)
+- **[[Transitions/Guillotine Defense/Attacker|Guillotine Defense]]** (17% of attempts)
 
-- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (7% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape from Front Headlock/Attacker|Hip Escape from Front Headlock]]** (4% of attempts)
+- **[[Transitions/Hip Escape from Front Headlock/Attacker|Hip Escape from Front Headlock]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -220,47 +285,41 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (5% of attempts)
+- **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** (9% of attempts)
 
-- **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** (6% of attempts)
+- **[[Transitions/Front Headlock to Guillotine/Attacker|Front Headlock to Guillotine]]** (12% of attempts)
 
-- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (10% of attempts)
+- **[[Transitions/Anaconda Setup/Attacker|Anaconda Setup]]** (9% of attempts)
 
 - **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (10% of attempts)
 
-- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (10% of attempts)
+- **[[Transitions/Front Headlock to Back/Attacker|Front Headlock to Back]]** (14% of attempts)
 
-- **[[Transitions/Arm Triangle from Front Headlock/Attacker|Arm Triangle from Front Headlock]]** (5% of attempts)
+- **[[Transitions/Arm Triangle from Front Headlock/Attacker|Arm Triangle from Front Headlock]]** (2% of attempts)
 
-- **[[Transitions/Japanese Necktie Setup/Attacker|Japanese Necktie Setup]]** (6% of attempts)
+- **[[Transitions/Japanese Necktie Setup/Attacker|Japanese Necktie Setup]]** (3% of attempts)
 
-- **[[Transitions/Peruvian Necktie Setup/Attacker|Peruvian Necktie Setup]]** (6% of attempts)
+- **[[Transitions/Peruvian Necktie Setup/Attacker|Peruvian Necktie Setup]]** (4% of attempts)
 
-- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (4% of attempts)
+- **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (2% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (6% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (5% of attempts)
 
-- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (4% of attempts)
+- **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (7% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (4% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
 
-- **[[Kimura from Front Headlock/Attacker|Kimura from Front Headlock]]** (4% of attempts)
-
-- **[[Submissions/Brabo Choke/Attacker|Brabo Choke]]** (2% of attempts)
-
-- **[[Submissions/Chin Strap Guillotine/Attacker|Chin Strap Guillotine]]** (2% of attempts)
+- **[[Kimura from Front Headlock/Attacker|Kimura from Front Headlock]]** (2% of attempts)
 
 - **[[Peruvian Necktie from Front Headlock/Attacker|Peruvian Necktie from Front Headlock]]** (2% of attempts)
 
-- **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (2% of attempts)
+- **[[Arm in Guillotine from Front Headlock/Attacker|Arm in Guillotine from Front Headlock]]** (5% of attempts)
 
-- **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (2% of attempts)
-
-- **[[Submissions/Japanese Necktie/Attacker|Japanese Necktie]]** (2% of attempts)
+- **[[High Elbow Guillotine from Front Headlock/Attacker|High Elbow Guillotine from Front Headlock]]** (5% of attempts)
 
 - **[[Ten Finger Guillotine from Front Headlock/Attacker|Ten Finger Guillotine from Front Headlock]]** (2% of attempts)
 
-- **[[Brabo Choke from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (2% of attempts)
+- **[[Brabo Choke from Front Headlock/Attacker|Brabo Choke from Front Headlock]]** (1% of attempts)
 
 - **[[Chin Strap Guillotine from Front Headlock/Attacker|Chin Strap Guillotine from Front Headlock]]** (2% of attempts)
 

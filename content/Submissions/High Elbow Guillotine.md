@@ -34,6 +34,65 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Elbow Guillotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Marcelotine Choke",
+      "description": "High Elbow Guillotine film study: The Marcelotine Choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
+      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double Elbow to High Elbow Guillotine",
+      "description": "High Elbow Guillotine film study: Double Elbow to High Elbow Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
+      "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT171S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "High Elbow Guillotine (Marcelotine)",
+      "description": "High Elbow Guillotine film study: High Elbow Guillotine (Marcelotine), taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9U5nyBImGj4",
+      "url": "https://www.youtube.com/watch?v=9U5nyBImGj4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Marcelotine High Elbow Guillotine",
+      "description": "High Elbow Guillotine film study: Marcelotine High Elbow Guillotine, taught by Miguel Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HPAWgC8qxFY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HPAWgC8qxFY",
+      "url": "https://www.youtube.com/watch?v=HPAWgC8qxFY",
+      "creator": { "@type": "Person", "name": "Miguel Garcia" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master High Elbow Guillotine in BJJ. Complete guide with safety pr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the High Elbow Guillotine?", "acceptedAnswer": { "@type": "Answer", "text": "A guillotine variation where the attacker drives the choking elbow high above the opponent\u0027s shoulder so the forearm bone cuts off blood flow through both carotids, producing a rapid choke even against a tucked chin." } },
-    { "@type": "Question", "name": "What positions can you finish the High Elbow Guillotine from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the High Elbow Guillotine from Front Headlock, Guillotine Control, Hindulotine." } },
+    { "@type": "Question", "name": "What positions can you finish the High Elbow Guillotine from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the High Elbow Guillotine from Guillotine Control, Hindulotine, Front Headlock." } },
     { "@type": "Question", "name": "Is the High Elbow Guillotine dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "High Elbow Guillotine targets the Carotid arteries and trachea. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -82,6 +141,50 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Elbow Guillotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+
+<p class="clip-credit"><strong>The Marcelotine Choke</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IvSVZuezQGo)
+
+<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9U5nyBImGj4)
+
+<p class="clip-credit"><strong>High Elbow Guillotine (Marcelotine)</strong> — taught by Wrecking Crew BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HPAWgC8qxFY)
+
+<p class="clip-credit"><strong>Marcelotine High Elbow Guillotine</strong> — taught by Miguel Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=HPAWgC8qxFY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -91,9 +194,9 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/High Elbow Guillotine/from Front Headlock|Front Headlock]] | Top | 58% | [[Submissions/High Elbow Guillotine/from Front Headlock/Attacker|Attack →]] | [[Submissions/High Elbow Guillotine/from Front Headlock/Defender|Defend →]] |
-| [[Submissions/High Elbow Guillotine/from Guillotine Control|Guillotine Control]] | Top | 58% | [[Submissions/High Elbow Guillotine/from Guillotine Control/Attacker|Attack →]] | [[Submissions/High Elbow Guillotine/from Guillotine Control/Defender|Defend →]] |
-| [[Submissions/High Elbow Guillotine/from Hindulotine|Hindulotine]] | Bottom | 58% | [[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|Attack →]] | [[Submissions/High Elbow Guillotine/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/High Elbow Guillotine/from Guillotine Control|Guillotine Control]] | Top | 62% | [[Submissions/High Elbow Guillotine/from Guillotine Control/Attacker|Attack →]] | [[Submissions/High Elbow Guillotine/from Guillotine Control/Defender|Defend →]] |
+| [[Submissions/High Elbow Guillotine/from Hindulotine|Hindulotine]] | Bottom | 62% | [[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|Attack →]] | [[Submissions/High Elbow Guillotine/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/High Elbow Guillotine/from Front Headlock|Front Headlock]] | Top | 52% | [[Submissions/High Elbow Guillotine/from Front Headlock/Attacker|Attack →]] | [[Submissions/High Elbow Guillotine/from Front Headlock/Defender|Defend →]] |
 
 
 </div>
@@ -118,16 +221,14 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]] - Parent technique that the high elbow variation improves upon with superior carotid targeting
+- [[Submissions/Guillotine Choke]] - Parent technique that the high elbow variation improves upon with superior carotid targeting
 - [[Submissions/Arm in Guillotine]] - Alternative grip variation using opponent's trapped arm for additional control
 - [[Submissions/Ten Finger Guillotine]] - Related guillotine variation using ten-finger grip for different pressure angle
-- [[Submissions/Chin Strap Guillotine]] - Alternative grip variation targeting chin control for choke setup
-- [[Transitions/Darce Choke]] - Transition option when opponent turns into the high elbow guillotine defense
+- [[Submissions/Darce Choke]] - Transition option when opponent turns into the high elbow guillotine defense
 - [[Transitions/Anaconda Choke]] - Alternative front headlock choke with similar entries and setups
 - [[Submissions/Japanese Necktie]] - Related front headlock submission with cranking finish mechanics
 - [[Submissions/Peruvian Necktie]] - Front headlock submission with different finishing angle using leg pressure
-- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke accessible from similar control positions
-- [[Submissions/Von Flue Choke]] - Counter-submission exploited by defenders who pass guard while opponent holds guillotine grip
+- [[Submissions/Arm Triangle]] - Alternative head-and-arm choke accessible from similar control positions
 - [[Transitions/Guillotine Setup]] - Primary entry transition - establishes the front headlock control needed for high elbow guillotine
 - [[Positions/Front Headlock]] - Parent control position - high elbow guillotine is one option within the broader front headlock attack system
 - [[Transitions/Guillotine Defense]] - Defensive counter - understanding common defenses improves your ability to maintain the submission

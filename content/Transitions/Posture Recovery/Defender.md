@@ -140,6 +140,54 @@ description: "How to prevent Posture Recovery in BJJ. Recognition cues, grip ret
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "When they stand up from your closed guard",
+      "description": "Posture Recovery (Defender) film study: When they stand up from your closed guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TCinYYTF2BA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TCinYYTF2BA",
+      "url": "https://www.youtube.com/watch?v=TCinYYTF2BA",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking posture in closed guard",
+      "description": "Posture Recovery (Defender) film study: Breaking posture in closed guard, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dTWJ181R4uo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dTWJ181R4uo",
+      "url": "https://www.youtube.com/watch?v=dTWJ181R4uo",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Detail to strengthen your closed guard",
+      "description": "Posture Recovery (Defender) film study: Detail to strengthen your closed guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UhYqXfpluYs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UhYqXfpluYs",
+      "url": "https://www.youtube.com/watch?v=UhYqXfpluYs",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TCinYYTF2BA)
+
+<p class="clip-credit"><strong>When they stand up from your closed guard</strong> — taught by Jean Jacques Machado · 0:54 · <a href="https://www.youtube.com/watch?v=TCinYYTF2BA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dTWJ181R4uo)
+
+<p class="clip-credit"><strong>Breaking posture in closed guard</strong> — taught by Gracie Westchase · 1:21 · <a href="https://www.youtube.com/watch?v=dTWJ181R4uo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UhYqXfpluYs)
+
+<p class="clip-credit"><strong>Detail to strengthen your closed guard</strong> — taught by Jean Jacques Machado · 1:15 · <a href="https://www.youtube.com/watch?v=UhYqXfpluYs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -333,35 +333,115 @@
   "flashcards": [
     {
       "question": "What is the primary objective of the Self-Defense Application Framework compared to sport BJJ?",
-      "answer": "Personal safety through awareness, de-escalation, and escape rather than points or positional dominance. Physical engagement is the last resort, and rapid disengagement is the goal once a threat has been neutralized."
+      "answer": "Personal safety through awareness, de-escalation, and escape rather than points or positional dominance. Physical engagement is the last resort, and rapid disengagement is the goal once a threat has been neutralized.",
+      "answer_line": "De-escalate, escape, stay safe",
+      "distractors": {
+        "plausible": [
+          "Win points, control position",
+          "Submit the attacker to finish"
+        ],
+        "trap": [
+          "Pull guard, fight off your back"
+        ]
+      }
     },
     {
       "question": "Why does the framework prioritize the standing position over ground fighting in self-defense?",
-      "answer": "On the ground you sacrifice mobility and awareness and become exposed to strikes, additional attackers, and hard surfaces, with no easy way to flee. Staying on your feet preserves the ability to escape and monitor the environment."
+      "answer": "On the ground you sacrifice mobility and awareness and become exposed to strikes, additional attackers, and hard surfaces, with no easy way to flee. Staying on your feet preserves the ability to escape and monitor the environment.",
+      "answer_line": "Stay mobile to escape & stay aware",
+      "distractors": {
+        "plausible": [
+          "Standing lets you strike first",
+          "Upright gives a stronger base"
+        ],
+        "trap": [
+          "Take it to the ground and pass"
+        ]
+      }
     },
     {
       "question": "Which sport BJJ habits become dangerous in a self-defense context, and how are they corrected?",
-      "answer": "Pulling guard, playing from the bottom, and chasing points or submissions all expose you to strikes and multiple attackers. The fix is technical standup, top control, and drilling immediate escape from bottom positions."
+      "answer": "Pulling guard, playing from the bottom, and chasing points or submissions all expose you to strikes and multiple attackers. The fix is technical standup, top control, and drilling immediate escape from bottom positions.",
+      "answer_line": "Get on top; never pull guard",
+      "distractors": {
+        "plausible": [
+          "Sweep from guard to points",
+          "Chase the submission from bottom"
+        ],
+        "trap": [
+          "Turn your back to stand up"
+        ]
+      }
     },
     {
       "question": "What role does the legal use-of-force framework play in the system?",
-      "answer": "It governs every physical response, requiring force to be reasonable and proportional to the threat. Practitioners must be able to articulate why their actions were justified and understand duty-to-retreat versus stand-your-ground law in their jurisdiction."
+      "answer": "It governs every physical response, requiring force to be reasonable and proportional to the threat. Practitioners must be able to articulate why their actions were justified and understand duty-to-retreat versus stand-your-ground law in their jurisdiction.",
+      "answer_line": "Force must be proportional to threat",
+      "distractors": {
+        "plausible": [
+          "Match the attacker's force exactly",
+          "Always de-escalate before any force"
+        ],
+        "trap": [
+          "Use maximum force to end threat fast"
+        ]
+      }
     },
     {
       "question": "Why should self-defense techniques rely on gross-motor rather than fine-motor skills?",
-      "answer": "Under an adrenal dump the heart rate spikes and fine-motor control and complex coordination degrade sharply. Simple, gross-motor techniques stay reliable when dexterity and clear thinking are compromised by fear and stress."
+      "answer": "Under an adrenal dump the heart rate spikes and fine-motor control and complex coordination degrade sharply. Simple, gross-motor techniques stay reliable when dexterity and clear thinking are compromised by fear and stress.",
+      "answer_line": "Adrenaline wrecks fine-motor control",
+      "distractors": {
+        "plausible": [
+          "Gross-motor moves strike faster",
+          "Simple moves are easier to learn"
+        ],
+        "trap": [
+          "Precise joint locks end it fastest"
+        ]
+      }
     },
     {
       "question": "How does the framework recommend safely closing distance against an untrained striker?",
-      "answer": "Use defensive covering and head movement to weather the initial strikes, then enter the clinch with collar ties, underhooks, or a body lock that smothers the attacker's offense while establishing control to take them down or escape."
+      "answer": "Use defensive covering and head movement to weather the initial strikes, then enter the clinch with collar ties, underhooks, or a body lock that smothers the attacker's offense while establishing control to take them down or escape.",
+      "answer_line": "Cover up, then clinch to smother",
+      "distractors": {
+        "plausible": [
+          "Weather strikes, then trade blows",
+          "Circle out and counter-strike"
+        ],
+        "trap": [
+          "Shoot a double from distance"
+        ]
+      }
     },
     {
       "question": "What is stress inoculation and why is it central to self-defense training?",
-      "answer": "It is progressive exposure to simulated violence, including verbal aggression, protective-equipment striking, and time pressure, that conditions you to function despite the adrenal response. It bridges the gap between calm drilling and performing under real fear."
+      "answer": "It is progressive exposure to simulated violence, including verbal aggression, protective-equipment striking, and time pressure, that conditions you to function despite the adrenal response. It bridges the gap between calm drilling and performing under real fear.",
+      "answer_line": "Rehearse under adrenaline stress",
+      "distractors": {
+        "plausible": [
+          "Memorize techniques by repetition",
+          "Condition the body to take hits"
+        ],
+        "trap": [
+          "Freeze and assess before reacting"
+        ]
+      }
     },
     {
       "question": "Why is scenario-based drilling preferred over isolated technique repetition in this system?",
-      "answer": "Real confrontations begin with verbal exchange and environmental context, not a clean grip. Scenario drills train awareness, de-escalation, decision-making, and legal articulation together, rehearsing the full event rather than one isolated movement."
+      "answer": "Real confrontations begin with verbal exchange and environmental context, not a clean grip. Scenario drills train awareness, de-escalation, decision-making, and legal articulation together, rehearsing the full event rather than one isolated movement.",
+      "answer_line": "Rehearses the full encounter",
+      "distractors": {
+        "plausible": [
+          "Grooves perfect technique reps",
+          "Trains de-escalation talk first"
+        ],
+        "trap": [
+          "Strike pre-emptively to win"
+        ]
+      }
     }
   ]
 }

@@ -148,6 +148,54 @@ description: "Complete defensive guide against the Underhook Sweep from Pocket H
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Sweep from Pocket Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pick pocket method to pass the half guard",
+      "description": "Underhook Sweep from Pocket Half (Defender) film study: Pick pocket method to pass the half guard, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TwBbrjRxRRU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TwBbrjRxRRU",
+      "url": "https://www.youtube.com/watch?v=TwBbrjRxRRU",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Killing the underhook from half guard top",
+      "description": "Underhook Sweep from Pocket Half (Defender) film study: Killing the underhook from half guard top, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I9lB7whMVig/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I9lB7whMVig",
+      "url": "https://www.youtube.com/watch?v=I9lB7whMVig",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT451S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the underhook in deep half guard",
+      "description": "Underhook Sweep from Pocket Half (Defender) film study: Defending the underhook in deep half guard, taught by Jeff Glover.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MXzHindquwU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MXzHindquwU",
+      "url": "https://www.youtube.com/watch?v=MXzHindquwU",
+      "creator": { "@type": "Person", "name": "Jeff Glover" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Underhook Sweep from Pocket Half Guard, you are in t
 **Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Sweep from Pocket Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TwBbrjRxRRU)
+
+<p class="clip-credit"><strong>Pick pocket method to pass the half guard</strong> — taught by Patrick Donabedian · 1:33 · <a href="https://www.youtube.com/watch?v=TwBbrjRxRRU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I9lB7whMVig)
+
+<p class="clip-credit"><strong>Killing the underhook from half guard top</strong> — taught by Jean Jacques Machado · 7:31 · <a href="https://www.youtube.com/watch?v=I9lB7whMVig" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MXzHindquwU)
+
+<p class="clip-credit"><strong>Defending the underhook in deep half guard</strong> — taught by Jeff Glover · 1:33 · <a href="https://www.youtube.com/watch?v=MXzHindquwU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

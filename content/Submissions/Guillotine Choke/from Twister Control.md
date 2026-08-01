@@ -34,6 +34,43 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Twister Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Twister side attacks (MTS 207)",
+      "description": "Guillotine Choke from Twister Control film study: Twister side attacks (MTS 207), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Alternate guillotine / twister entry",
+      "description": "Guillotine Choke from Twister Control film study: Alternate guillotine / twister entry, taught by Catch Wrestling Alliance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k3GU_7rKFYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k3GU_7rKFYk",
+      "url": "https://www.youtube.com/watch?v=k3GU_7rKFYk",
+      "creator": { "@type": "Person", "name": "Catch Wrestling Alliance" },
+      "duration": "PT193S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, this submission functions as a trap within the broader Twister sy
 **Starting Position**: [[Positions/Twister Control]] · **From**: [[Positions/Twister Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Twister Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side attacks (MTS 207)</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k3GU_7rKFYk)
+
+<p class="clip-credit"><strong>Alternate guillotine / twister entry</strong> — taught by Catch Wrestling Alliance · 3:13 · <a href="https://www.youtube.com/watch?v=k3GU_7rKFYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -240,12 +305,11 @@ Strategically, this submission functions as a trap within the broader Twister sy
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Japanese Necktie]]
-- [[Transitions/Darce Choke]]
-- [[Submissions/Chin Strap Guillotine]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Positions/Twister Control]] - Starting position providing leg control and spinal rotation that creates the guillotine opportunity
 - [[Positions/Guillotine Control]] - Control position when the guillotine grip is partially secured but not yet finished

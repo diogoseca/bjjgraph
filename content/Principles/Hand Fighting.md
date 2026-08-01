@@ -164,6 +164,54 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fighting \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gripping and hand fighting fundamentals",
+      "description": "Hand Fighting film study: Gripping and hand fighting fundamentals, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yquAL8CBldY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yquAL8CBldY",
+      "url": "https://www.youtube.com/watch?v=yquAL8CBldY",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT243S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside position: winning the hand fight",
+      "description": "Hand Fighting film study: Inside position: winning the hand fight, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/peYJDb7LZMM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/peYJDb7LZMM",
+      "url": "https://www.youtube.com/watch?v=peYJDb7LZMM",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT499S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hand fighting concepts for short offense",
+      "description": "Hand Fighting film study: Hand fighting concepts for short offense, taught by JFLO Judo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pzJ24HqY-Bg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pzJ24HqY-Bg",
+      "url": "https://www.youtube.com/watch?v=pzJ24HqY-Bg",
+      "creator": { "@type": "Person", "name": "JFLO Judo" },
+      "duration": "PT90S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Hand Fighting?
@@ -173,6 +221,42 @@ description: "Master hand fighting fundamentals in BJJ. Learn strategic position
 Often conflated with grip fighting, hand fighting operates at a broader tactical level that governs the entire upper-body control exchange. Unlike grip fighting, which focuses specifically on establishing and breaking grips, hand fighting encompasses all aspects of upper body control through hand placement, movement, and sequencing. This concept applies across all phases of BJJ but is particularly critical in the standing phase, clinch exchanges, and upper body dominant positions. Hand fighting serves as both an offensive mechanism for establishing dominant control pathways and a defensive system for preventing opponent's preferred control structures. The ability to win the hand fighting battle often determines subsequent positional advantages and creates the foundation for effective technique application, making it one of the most fundamental yet frequently overlooked conceptual elements in BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fighting in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yquAL8CBldY)
+
+<p class="clip-credit"><strong>Gripping and hand fighting fundamentals</strong> — taught by John Danaher · 4:03 · <a href="https://www.youtube.com/watch?v=yquAL8CBldY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=peYJDb7LZMM)
+
+<p class="clip-credit"><strong>Inside position: winning the hand fight</strong> — taught by Jordan Preisinger · 8:19 · <a href="https://www.youtube.com/watch?v=peYJDb7LZMM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pzJ24HqY-Bg)
+
+<p class="clip-credit"><strong>Hand fighting concepts for short offense</strong> — taught by JFLO Judo · 1:30 · <a href="https://www.youtube.com/watch?v=pzJ24HqY-Bg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

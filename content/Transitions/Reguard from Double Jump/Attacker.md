@@ -174,6 +174,54 @@ description: "Complete guide to executing the reguard from Double Jump bottom in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard from Double Jump (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Merman guard retention",
+      "description": "Reguard from Double Jump (Attacker) film study: Merman guard retention, taught by Erik Koehne.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q0qtWj_Hwvg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q0qtWj_Hwvg",
+      "url": "https://www.youtube.com/watch?v=q0qtWj_Hwvg",
+      "creator": { "@type": "Person", "name": "Erik Koehne" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting to closed guard from half guard",
+      "description": "Reguard from Double Jump (Attacker) film study: Getting to closed guard from half guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xTtpyWLs6PM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xTtpyWLs6PM",
+      "url": "https://www.youtube.com/watch?v=xTtpyWLs6PM",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT306S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two ways to recover full guard from half guard",
+      "description": "Reguard from Double Jump (Attacker) film study: Two ways to recover full guard from half guard, taught by BIG OSS Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WmHQNFtuxRk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WmHQNFtuxRk",
+      "url": "https://www.youtube.com/watch?v=WmHQNFtuxRk",
+      "creator": { "@type": "Person", "name": "BIG OSS Jiu-Jitsu" },
+      "duration": "PT570S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 **From Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard from Double Jump (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q0qtWj_Hwvg)
+
+<p class="clip-credit"><strong>Merman guard retention</strong> — taught by Erik Koehne · 1:07 · <a href="https://www.youtube.com/watch?v=q0qtWj_Hwvg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xTtpyWLs6PM)
+
+<p class="clip-credit"><strong>Getting to closed guard from half guard</strong> — taught by Lachlan Giles · 5:06 · <a href="https://www.youtube.com/watch?v=xTtpyWLs6PM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WmHQNFtuxRk)
+
+<p class="clip-credit"><strong>Two ways to recover full guard from half guard</strong> — taught by BIG OSS Jiu-Jitsu · 9:30 · <a href="https://www.youtube.com/watch?v=WmHQNFtuxRk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

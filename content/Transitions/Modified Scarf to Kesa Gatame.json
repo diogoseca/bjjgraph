@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Kesa Gatame/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Modified Scarf Hold/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "summary": "Modified Scarf to Kesa Gatame is a side-control-family positional switch in which the top player rotates from a chest-to-chest modified scarf hold into a perpendicular scarf pin, threading the head and trapping the near arm to open americana and armbar attacks.",
   "overview": "Switching control geometries mid-pin is what keeps a skilled bottom player from settling into a single defensive rhythm, and this transition is the primary bridge between the side control family's two dominant scarf configurations. Where the modified scarf hold applies direct downward chest pressure, kesa gatame's angular wrap-and-sit configuration opens distinct submission pathways that are unavailable from the chest-to-chest pin. The movement centers on rotating the hips from a prone chest-pressure position to a seated perpendicular angle while simultaneously threading the arm around the opponent's head and trapping their near arm.\n\nStrategically, this transition is valuable when the bottom player has adapted to the modified scarf hold's chest pressure and begun creating frames or threatening escapes. Moving to kesa gatame changes the control equation entirely, forcing the bottom player to abandon their defensive structure and address a fundamentally different set of problems. The perpendicular angle of kesa gatame provides superior upper body immobilization and creates immediate americana and armbar threats that are less accessible from modified scarf hold.\n\nThe transition carries moderate risk because the hip rotation creates a brief window where the bottom player can recover guard or insert a knee shield. The key to minimizing this vulnerability is maintaining constant head and arm control throughout the rotation, never releasing one anchor before securing the next. Practitioners who master this transition add a critical layer to their top game, creating a flowing system between modified scarf hold, kesa gatame, north-south, and mount that prevents opponents from establishing stable defensive frameworks.",
   "conditions": [
@@ -258,38 +270,138 @@
     "flashcards": [
       {
         "question": "What are the minimum control points you must maintain throughout the transition from Modified Scarf Hold to Kesa Gatame?",
-        "answer": "You must maintain at least two control points at all times: the head wrap (arm threaded around their neck) and the near arm trap (their upper arm clamped against your ribs). These two anchors persist through the entire hip rotation and prevent the bottom player from exploiting the transitional movement. Releasing both simultaneously, even briefly, creates the space that allows guard recovery or escape."
+        "answer": "You must maintain at least two control points at all times: the head wrap (arm threaded around their neck) and the near arm trap (their upper arm clamped against your ribs). These two anchors persist through the entire hip rotation and prevent the bottom player from exploiting the transitional movement. Releasing both simultaneously, even briefly, creates the space that allows guard recovery or escape.",
+        "answer_line": "Head wrap and near arm trap",
+        "distractors": {
+          "plausible": [
+            "Chest pressure alone is enough",
+            "Near arm trap only, release head"
+          ],
+          "trap": [
+            "Release both to speed the rotation"
+          ]
+        }
       },
       {
         "question": "Your opponent has strong frames against your shoulder during Modified Scarf Hold - should you force the transition to Kesa Gatame?",
-        "answer": "No, forcing the transition against established frames compounds the space creation problem. First address the frames by swimming your arm inside their frame, using shoulder pressure to collapse the frame, or threatening a submission to force them to abandon the frame defensively. Only initiate the hip rotation once you have broken or bypassed their frames and re-established clean chest pressure with arm control."
+        "answer": "No, forcing the transition against established frames compounds the space creation problem. First address the frames by swimming your arm inside their frame, using shoulder pressure to collapse the frame, or threatening a submission to force them to abandon the frame defensively. Only initiate the hip rotation once you have broken or bypassed their frames and re-established clean chest pressure with arm control.",
+        "answer_line": "Break frames before rotating",
+        "distractors": {
+          "plausible": [
+            "Rotate hips to break the frame",
+            "Match pressure and wait it out"
+          ],
+          "trap": [
+            "Force the rotation through frames"
+          ]
+        }
       },
       {
         "question": "What is the most critical moment of vulnerability during this transition, and how do you minimize risk?",
-        "answer": "The most vulnerable moment is during the hip rotation phase when your weight transfers from chest pressure to seated position. During this window, there is a brief reduction in downward pressure that allows the bottom player to insert a knee or bridge. Minimize this by making the rotation smooth and continuous rather than stopping midway, sitting your weight down immediately upon completing the rotation, and maintaining tight head wrap and arm trap throughout as your constant anchors."
+        "answer": "The most vulnerable moment is during the hip rotation phase when your weight transfers from chest pressure to seated position. During this window, there is a brief reduction in downward pressure that allows the bottom player to insert a knee or bridge. Minimize this by making the rotation smooth and continuous rather than stopping midway, sitting your weight down immediately upon completing the rotation, and maintaining tight head wrap and arm trap throughout as your constant anchors.",
+        "answer_line": "Rotate smooth, sit weight fast",
+        "distractors": {
+          "plausible": [
+            "Pause mid-rotation to reset grips",
+            "Slow the rotation for full control"
+          ],
+          "trap": [
+            "Stop rotation if resistance felt"
+          ]
+        }
       },
       {
         "question": "You feel your opponent's far knee beginning to insert between your bodies during the hip rotation - what do you do?",
-        "answer": "React immediately before the knee establishes a full shield. Drive your hips forward and down to flatten their knee back while squeezing your thighs together to block the insertion path. If the knee is already too established to push back, abort the kesa gatame transition and either return to modified scarf hold by reversing the rotation, or redirect the movement into knee on belly on the far side, converting the failed transition into a different positional advancement."
+        "answer": "React immediately before the knee establishes a full shield. Drive your hips forward and down to flatten their knee back while squeezing your thighs together to block the insertion path. If the knee is already too established to push back, abort the kesa gatame transition and either return to modified scarf hold by reversing the rotation, or redirect the movement into knee on belly on the far side, converting the failed transition into a different positional advancement.",
+        "answer_line": "Drive hips down, squeeze thighs",
+        "distractors": {
+          "plausible": [
+            "Push knee away with your hand",
+            "Speed up rotation to beat the knee"
+          ],
+          "trap": [
+            "Keep rotating despite the knee"
+          ]
+        }
       },
       {
         "question": "Why is the arm-first threading approach preferred over rotating hips first and then securing the head?",
-        "answer": "Threading the arm around the head before hip rotation ensures continuous upper body control throughout the transition. If you rotate hips first, there is a window where you have neither chest pressure (from modified scarf) nor head wrap (from kesa gatame), leaving only the arm trap as a single control point. A single control point is insufficient against a skilled opponent. By threading the arm first while chest pressure is still applied, you create overlapping control that persists through the rotation."
+        "answer": "Threading the arm around the head before hip rotation ensures continuous upper body control throughout the transition. If you rotate hips first, there is a window where you have neither chest pressure (from modified scarf) nor head wrap (from kesa gatame), leaving only the arm trap as a single control point. A single control point is insufficient against a skilled opponent. By threading the arm first while chest pressure is still applied, you create overlapping control that persists through the rotation.",
+        "answer_line": "Keeps overlapping control always",
+        "distractors": {
+          "plausible": [
+            "Hips first is faster overall",
+            "Either order works equally well"
+          ],
+          "trap": [
+            "Rotate hips first, thread after"
+          ]
+        }
       },
       {
         "question": "How does this transition change the submission threats available to you compared to staying in Modified Scarf Hold?",
-        "answer": "Modified Scarf Hold provides submissions primarily through direct chest pressure and arm isolation with the arms in front of your body. Kesa Gatame opens different submission pathways: the americana becomes higher percentage because the perpendicular angle provides superior leverage on the trapped arm, the armbar from kesa gatame uses the head wrap as a fulcrum, and the arm crush using your legs becomes available. The trade-off is that kesa gatame sacrifices the chest-pressure-based chokes available from modified scarf hold."
+        "answer": "Modified Scarf Hold provides submissions primarily through direct chest pressure and arm isolation with the arms in front of your body. Kesa Gatame opens different submission pathways: the americana becomes higher percentage because the perpendicular angle provides superior leverage on the trapped arm, the armbar from kesa gatame uses the head wrap as a fulcrum, and the arm crush using your legs becomes available. The trade-off is that kesa gatame sacrifices the chest-pressure-based chokes available from modified scarf hold.",
+        "answer_line": "Americana, armbar, arm crush open",
+        "distractors": {
+          "plausible": [
+            "Same submissions, better angle only",
+            "Loses all submissions, control only"
+          ],
+          "trap": [
+            "Chest chokes stay the best option"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending Modified Scarf Hold by keeping elbows tight and breathing calmly - when is the ideal moment to initiate this transition?",
-        "answer": "A patient, disciplined defender in modified scarf hold presents the ideal transition opportunity precisely because their defensive commitment to that specific position leaves them unprepared for a geometric change. Initiate the transition during a brief pause between their micro-adjustments, when they have settled into their defensive frames. The transition forces them to completely rebuild their defensive structure for the new kesa gatame geometry, and the brief disorientation of the positional change often creates submission openings."
+        "answer": "A patient, disciplined defender in modified scarf hold presents the ideal transition opportunity precisely because their defensive commitment to that specific position leaves them unprepared for a geometric change. Initiate the transition during a brief pause between their micro-adjustments, when they have settled into their defensive frames. The transition forces them to completely rebuild their defensive structure for the new kesa gatame geometry, and the brief disorientation of the positional change often creates submission openings.",
+        "answer_line": "Mid-pause between their adjustments",
+        "distractors": {
+          "plausible": [
+            "Wait until they tire out fully",
+            "Attack immediately, no setup needed"
+          ],
+          "trap": [
+            "Stay in scarf, avoid transitioning"
+          ]
+        }
       },
       {
         "question": "What is the proper base configuration immediately after completing the transition to Kesa Gatame?",
-        "answer": "Your far leg should be posted wide at approximately 45 degrees with the foot flat on the mat, creating your primary base against bridge-and-roll attempts. Your near leg should be tucked against the opponent's far hip to prevent them from turning into you. Your hips should be seated heavy on the mat beside their torso with weight distributed through your sit bones and lower back. The head wrap pulls their head toward your near hip, and the trapped arm is clamped tight under your armpit. This tripod configuration of far leg, near leg, and seated hips provides stability from all bridge directions."
+        "answer": "Your far leg should be posted wide at approximately 45 degrees with the foot flat on the mat, creating your primary base against bridge-and-roll attempts. Your near leg should be tucked against the opponent's far hip to prevent them from turning into you. Your hips should be seated heavy on the mat beside their torso with weight distributed through your sit bones and lower back. The head wrap pulls their head toward your near hip, and the trapped arm is clamped tight under your armpit. This tripod configuration of far leg, near leg, and seated hips provides stability from all bridge directions.",
+        "answer_line": "Far leg posted wide, foot flat",
+        "distractors": {
+          "plausible": [
+            "Near leg posted, far leg tucked",
+            "Seat hips heavy, both legs relaxed"
+          ],
+          "trap": [
+            "Rise onto both knees over them"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves significant pressure changes on the bottom player's chest, neck, and head during the position shift. The head wrap must be applied around the back of the neck and head, never across the throat or trachea, as this could restrict the airway dangerously. During training, execute the transition at controlled speed to allow the bottom player to adjust their breathing and neck position. The arm trap must control the upper arm and shoulder, not hyperextend the elbow joint. Be aware that the combined head wrap and arm trap in the completed kesa gatame creates a configuration close to several submission holds, so maintain awareness of your training partner's comfort and tap signals throughout. In competition, the transition speed is appropriate at full pace, but in training, prioritize your partner's safety over transition speed."
+    "safety_considerations": "This transition involves significant pressure changes on the bottom player's chest, neck, and head during the position shift. The head wrap must be applied around the back of the neck and head, never across the throat or trachea, as this could restrict the airway dangerously. During training, execute the transition at controlled speed to allow the bottom player to adjust their breathing and neck position. The arm trap must control the upper arm and shoulder, not hyperextend the elbow joint. Be aware that the combined head wrap and arm trap in the completed kesa gatame creates a configuration close to several submission holds, so maintain awareness of your training partner's comfort and tap signals throughout. In competition, the transition speed is appropriate at full pace, but in training, prioritize your partner's safety over transition speed.",
+    "clips": [
+      {
+        "id": "TfNpVcekHGg",
+        "title": "Kesa Gatame basic scarf hold control",
+        "by": "Grappler Station",
+        "vertical": false,
+        "channel": "Grappler Station",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "PPA_xYZEFDU",
+        "title": "Turnover into Kesa Gatame from prone",
+        "by": "Nigel Bowley",
+        "vertical": false,
+        "channel": "Sentai Judo Club",
+        "duration": 37,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Modified Scarf to Kesa Gatame Defender",
@@ -371,19 +483,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from Modified Scarf Hold to Kesa Gatame?",
-        "answer": "The earliest cue is feeling your opponent threading their arm around the back of your neck while still maintaining chest pressure. This arm movement precedes the hip rotation and is the attacker's first committed step toward kesa gatame. The secondary cue is a subtle weight shift toward your head-side as they prepare to rotate. Recognizing the arm thread gives you the maximum response window before the transition progresses to the hip rotation phase."
+        "answer": "The earliest cue is feeling your opponent threading their arm around the back of your neck while still maintaining chest pressure. This arm movement precedes the hip rotation and is the attacker's first committed step toward kesa gatame. The secondary cue is a subtle weight shift toward your head-side as they prepare to rotate. Recognizing the arm thread gives you the maximum response window before the transition progresses to the hip rotation phase.",
+        "answer_line": "Feel the arm thread your neck",
+        "distractors": {
+          "plausible": [
+            "Notice hips beginning to lift",
+            "Sense a submission attempt first"
+          ],
+          "trap": [
+            "Wait for full rotation to react"
+          ]
+        }
       },
       {
         "question": "Why is the hip rotation phase the best defensive window, and how do you exploit it?",
-        "answer": "During hip rotation, the attacker must lift or shift their hips from prone to seated, which momentarily reduces the downward pressure that pins you to the mat. This pressure reduction creates the space needed to insert your far knee as a shield, execute a hip escape, or bridge effectively. You exploit this window by having your defensive response pre-loaded - the moment you feel chest pressure lighten, execute your chosen counter immediately without hesitation. Waiting even one second allows the attacker to complete the rotation and settle into kesa gatame."
+        "answer": "During hip rotation, the attacker must lift or shift their hips from prone to seated, which momentarily reduces the downward pressure that pins you to the mat. This pressure reduction creates the space needed to insert your far knee as a shield, execute a hip escape, or bridge effectively. You exploit this window by having your defensive response pre-loaded - the moment you feel chest pressure lighten, execute your chosen counter immediately without hesitation. Waiting even one second allows the attacker to complete the rotation and settle into kesa gatame.",
+        "answer_line": "Insert knee when pressure lightens",
+        "distractors": {
+          "plausible": [
+            "Bridge hard the moment they move",
+            "Wait a beat, then counter fully"
+          ],
+          "trap": [
+            "Relax and let rotation complete"
+          ]
+        }
       },
       {
         "question": "If the transition to Kesa Gatame is completed successfully, what should you immediately focus on?",
-        "answer": "Immediately abandon any attempts to reverse the transition and switch to kesa gatame-specific escape protocols. Priority one is protecting your trapped arm by keeping the elbow connected to your ribs. Priority two is establishing a frame with your free arm against their hip or face. Priority three is beginning bridge-and-turn escape mechanics specific to kesa gatame rather than the shrimping escapes used against modified scarf hold. The positional geometry has changed and your defensive responses must change with it."
+        "answer": "Immediately abandon any attempts to reverse the transition and switch to kesa gatame-specific escape protocols. Priority one is protecting your trapped arm by keeping the elbow connected to your ribs. Priority two is establishing a frame with your free arm against their hip or face. Priority three is beginning bridge-and-turn escape mechanics specific to kesa gatame rather than the shrimping escapes used against modified scarf hold. The positional geometry has changed and your defensive responses must change with it.",
+        "answer_line": "Protect elbow, frame, then escape",
+        "distractors": {
+          "plausible": [
+            "Shrimp escape like modified scarf",
+            "Try to reverse the transition"
+          ],
+          "trap": [
+            "Free the trapped arm immediately"
+          ]
+        }
       },
       {
         "question": "How does blocking the head wrap early compare to countering during the hip rotation phase?",
-        "answer": "Blocking the head wrap is a prevention strategy that stops the transition before it starts, while countering during hip rotation is a disruption strategy that exploits the transition's vulnerability. Prevention is lower energy but requires earlier recognition and may not create a positional improvement since you remain in modified scarf hold. Disruption is higher energy but offers the opportunity to recover guard. Ideally, attempt prevention first by tucking your chin and framing against the threading arm, and if that fails, shift immediately to disruption by targeting the hip rotation window with knee insertion or bridging."
+        "answer": "Blocking the head wrap is a prevention strategy that stops the transition before it starts, while countering during hip rotation is a disruption strategy that exploits the transition's vulnerability. Prevention is lower energy but requires earlier recognition and may not create a positional improvement since you remain in modified scarf hold. Disruption is higher energy but offers the opportunity to recover guard. Ideally, attempt prevention first by tucking your chin and framing against the threading arm, and if that fails, shift immediately to disruption by targeting the hip rotation window with knee insertion or bridging.",
+        "answer_line": "Block early, then disrupt rotation",
+        "distractors": {
+          "plausible": [
+            "Only disrupt during the rotation",
+            "Only block the head wrap early"
+          ],
+          "trap": [
+            "Ignore both, defend passively"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -406,6 +558,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance defensive application",
         "description": "Start in modified scarf hold bottom with full resistance. Partner attempts the kesa gatame transition among other attacks. Defend the transition when it appears while maintaining overall defensive integrity. Evaluate success rate and refine timing. Goal is preventing at least 40% of transition attempts under full resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure-kesa-gatame escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "C98ztdlur4E",
+        "title": "Escape kesa gatame by bridge and roll",
+        "by": "Judo Life",
+        "vertical": false,
+        "channel": "Judo Life",
+        "duration": 77,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -174,6 +174,43 @@ description: "Execute the bridge escape from Modified Mount with precise directi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Modified Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two mount escape options to half guard",
+      "description": "Bridge Escape from Modified Mount (Attacker) film study: Two mount escape options to half guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape when you cannot get out",
+      "description": "Bridge Escape from Modified Mount (Attacker) film study: Mount escape when you cannot get out, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 **From Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Modified Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>Two mount escape options to half guard</strong> — taught by Revolution BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Mount escape when you cannot get out</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

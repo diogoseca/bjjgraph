@@ -142,6 +142,54 @@ description: "Defend the pressure pass from Shin-to-Shin Guard bottom. Learn rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure from Shin-to-Shin (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Wrestle up counter from shin-to-shin",
+      "description": "Pressure from Shin-to-Shin (Defender) film study: Wrestle up counter from shin-to-shin, taught by FreeChannelOpen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qAV1x1_RVbg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qAV1x1_RVbg",
+      "url": "https://www.youtube.com/watch?v=qAV1x1_RVbg",
+      "creator": { "@type": "Person", "name": "FreeChannelOpen" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The basics of the shin to shin guard",
+      "description": "Pressure from Shin-to-Shin (Defender) film study: The basics of the shin to shin guard, taught by Gracie Ohio Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vG2PG5ibe4M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vG2PG5ibe4M",
+      "url": "https://www.youtube.com/watch?v=vG2PG5ibe4M",
+      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu Academy" },
+      "duration": "PT223S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shin to shin guard retention and sweep setups",
+      "description": "Pressure from Shin-to-Shin (Defender) film study: Shin to shin guard retention and sweep setups, taught by Marcos Cerqueira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pq6q_Iy_D7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pq6q_Iy_D7I",
+      "url": "https://www.youtube.com/watch?v=Pq6q_Iy_D7I",
+      "creator": { "@type": "Person", "name": "Marcos Cerqueira" },
+      "duration": "PT208S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ Defending the pressure pass from Shin-to-Shin Guard bottom requires the guard pl
 **Opponent's Starting Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure from Shin-to-Shin (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qAV1x1_RVbg)
+
+<p class="clip-credit"><strong>Wrestle up counter from shin-to-shin</strong> — taught by FreeChannelOpen · 0:45 · <a href="https://www.youtube.com/watch?v=qAV1x1_RVbg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vG2PG5ibe4M)
+
+<p class="clip-credit"><strong>The basics of the shin to shin guard</strong> — taught by Gracie Ohio Jiu-Jitsu Academy · 3:43 · <a href="https://www.youtube.com/watch?v=vG2PG5ibe4M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pq6q_Iy_D7I)
+
+<p class="clip-credit"><strong>Shin to shin guard retention and sweep setups</strong> — taught by Marcos Cerqueira · 3:28 · <a href="https://www.youtube.com/watch?v=Pq6q_Iy_D7I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

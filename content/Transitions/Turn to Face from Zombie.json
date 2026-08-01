@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Zombie/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Turn to Face from Zombie is a fundamental guard recovery technique within the 10th Planet system, enabling the bottom practitioner to rotate from the defensive Zombie position into a facing guard structure such as Half Guard or Open Guard. This transition represents one of the most critical safety-valve escapes available from Zombie bottom, where the practitioner is typically on their side with lockdown engaged but facing partially away from their opponent, limiting offensive options.\n\nThe technique requires coordinated use of frames, hip rotation, and strategic lockdown management to create the space needed for a full turn. The bottom player must balance maintaining enough control through the lockdown to prevent being passed while simultaneously creating the rotational freedom to face the opponent. Timing is essential—the turn must be initiated when the top player shifts weight or commits to a passing sequence, as attempting to turn against a settled opponent with dominant crossface control significantly reduces success rates.\n\nSuccessfully executing this transition shifts the positional dynamic dramatically, transforming a defensive survival position into an active guard where sweeps, submissions, and further guard improvements become available. While lower-percentage than dedicated sweeps like the Old School, the Turn to Face provides a reliable fallback when offensive Zombie attacks are neutralized.",
   "conditions": [
     "Bottom player is in Zombie position with lockdown engaged on opponent's leg",
@@ -248,46 +263,157 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window to initiate the Turn to Face from Zombie?",
-        "answer": "The optimal window opens when the top player's weight shifts during a passing transition or when they commit to extracting their leg from the lockdown. Specifically, look for moments when their crossface pressure temporarily lifts as they readjust position, when they pull backward to free their trapped leg, or when they begin circling toward a new passing angle. These weight transfers create brief gaps in their pressure that provide the space needed for hip rotation. Never attempt the turn when the opponent is settled with heavy crossface and stable base."
+        "answer": "The optimal window opens when the top player's weight shifts during a passing transition or when they commit to extracting their leg from the lockdown. Specifically, look for moments when their crossface pressure temporarily lifts as they readjust position, when they pull backward to free their trapped leg, or when they begin circling toward a new passing angle. These weight transfers create brief gaps in their pressure that provide the space needed for hip rotation. Never attempt the turn when the opponent is settled with heavy crossface and stable base.",
+        "answer_line": "When they shift weight to pass",
+        "distractors": {
+          "plausible": [
+            "Right after lockdown engages",
+            "As soon as frames touch"
+          ],
+          "trap": [
+            "While crossface is settled heavy"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before attempting the Turn to Face from Zombie?",
-        "answer": "Four conditions must be present: your lockdown must be actively engaged providing rotational anchor and base disruption capability; you must have at least one functional frame against the opponent's upper body; your hips must be on your side rather than flattened; and the opponent must not have fully established chest-to-chest crossface control. If any of these conditions are missing, address that deficiency first through lockdown recovery, reframing, hip escaping, or crossface defense before attempting the turn."
+        "answer": "Four conditions must be present: your lockdown must be actively engaged providing rotational anchor and base disruption capability; you must have at least one functional frame against the opponent's upper body; your hips must be on your side rather than flattened; and the opponent must not have fully established chest-to-chest crossface control. If any of these conditions are missing, address that deficiency first through lockdown recovery, reframing, hip escaping, or crossface defense before attempting the turn.",
+        "answer_line": "Active lockdown + frame + side hips",
+        "distractors": {
+          "plausible": [
+            "Lockdown alone is enough",
+            "Flat hips are fine to turn"
+          ],
+          "trap": [
+            "Turn under full crossface control"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the Turn to Face?",
-        "answer": "The critical movement is the simultaneous bottom-hip-down, top-hip-over rotation that pivots on your shoulder and lockdown connection points. The bottom hip drives into the mat creating the initial rotational force, while the top hip swings over and toward the opponent in an arc. This coupled motion must happen as a single coordinated action rather than sequentially. The rotation should feel like your hips are rolling as a unit with your lockdown leg acting as a fixed axis point that prevents the opponent from simply following your rotation."
+        "answer": "The critical movement is the simultaneous bottom-hip-down, top-hip-over rotation that pivots on your shoulder and lockdown connection points. The bottom hip drives into the mat creating the initial rotational force, while the top hip swings over and toward the opponent in an arc. This coupled motion must happen as a single coordinated action rather than sequentially. The rotation should feel like your hips are rolling as a unit with your lockdown leg acting as a fixed axis point that prevents the opponent from simply following your rotation.",
+        "answer_line": "Bottom hip down, top hip over",
+        "distractors": {
+          "plausible": [
+            "Do it in two separate steps",
+            "Top hip moves, bottom stays put"
+          ],
+          "trap": [
+            "Lead with your shoulders"
+          ]
+        }
       },
       {
         "question": "What is the most common reason practitioners fail the Turn to Face from Zombie?",
-        "answer": "The most common failure is attempting the turn without first creating sufficient space through frames and lockdown stretch. Practitioners feel urgency to escape and immediately try to rotate, but turning into settled opponent pressure results in being flattened with no guard structure. The preparation phase—establishing frames, stretching the lockdown, and waiting for a weight shift—is what makes the actual turn mechanically possible. Without this preparation, the turn becomes a strength contest that the top player wins through gravity and position."
+        "answer": "The most common failure is attempting the turn without first creating sufficient space through frames and lockdown stretch. Practitioners feel urgency to escape and immediately try to rotate, but turning into settled opponent pressure results in being flattened with no guard structure. The preparation phase—establishing frames, stretching the lockdown, and waiting for a weight shift—is what makes the actual turn mechanically possible. Without this preparation, the turn becomes a strength contest that the top player wins through gravity and position.",
+        "answer_line": "Turning before frames create space",
+        "distractors": {
+          "plausible": [
+            "Not gripping their far arm",
+            "Waiting too long to turn"
+          ],
+          "trap": [
+            "Muscling through their pressure"
+          ]
+        }
       },
       {
         "question": "What grip and frame configuration should be established before initiating the turn?",
-        "answer": "Your near-side forearm should be wedged against the opponent's shoulder or upper chest, creating a structural barrier using bone-on-bone contact rather than muscular pushing. The far arm tucks tight to your body with elbow pinched to your ribs, protecting your neck from crossface and ready to create a secondary frame once the turn progresses. Your lockdown should be actively engaged with moderate tension. This configuration creates a defensive shell that both protects you during the turn and generates the space needed for hip rotation."
+        "answer": "Your near-side forearm should be wedged against the opponent's shoulder or upper chest, creating a structural barrier using bone-on-bone contact rather than muscular pushing. The far arm tucks tight to your body with elbow pinched to your ribs, protecting your neck from crossface and ready to create a secondary frame once the turn progresses. Your lockdown should be actively engaged with moderate tension. This configuration creates a defensive shell that both protects you during the turn and generates the space needed for hip rotation.",
+        "answer_line": "Forearm wedge, far arm tucked",
+        "distractors": {
+          "plausible": [
+            "Underhook far arm for control",
+            "Push with hands, not forearm"
+          ],
+          "trap": [
+            "Extend both arms for space"
+          ]
+        }
       },
       {
         "question": "In which direction should your primary rotational force be applied during the turn?",
-        "answer": "The primary rotational force drives your hips toward the opponent—specifically, your bottom hip presses into the mat while your top hip rotates over toward the opponent's centerline. The direction is inward and downward initially, then over and facing as the rotation completes. Common mistake is trying to rotate away from the opponent, which exposes the back. You are turning to face, meaning the force brings you closer to their body while your knee shield simultaneously creates the distance barrier that prevents them from smashing through."
+        "answer": "The primary rotational force drives your hips toward the opponent—specifically, your bottom hip presses into the mat while your top hip rotates over toward the opponent's centerline. The direction is inward and downward initially, then over and facing as the rotation completes. Common mistake is trying to rotate away from the opponent, which exposes the back. You are turning to face, meaning the force brings you closer to their body while your knee shield simultaneously creates the distance barrier that prevents them from smashing through.",
+        "answer_line": "Hips rotate toward opponent",
+        "distractors": {
+          "plausible": [
+            "Push knee shield first, hips after",
+            "Rotate flat, then face up"
+          ],
+          "trap": [
+            "Rotate hips away from opponent"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure as you begin to turn—how do you adjust?",
-        "answer": "Immediately abort the Turn to Face and switch to a technique that works with heavy forward pressure rather than against it. Activate your lockdown stretch to disrupt their base and consider transitioning to a Deep Half Guard entry by ducking under their pressure, or set up the Granby Roll which uses their forward momentum. Alternatively, if their crossface commitment is so heavy that their base lifts, switch to the Old School Sweep. Never force the Turn to Face against settled crossface—address the crossface problem first or select an alternative technique."
+        "answer": "Immediately abort the Turn to Face and switch to a technique that works with heavy forward pressure rather than against it. Activate your lockdown stretch to disrupt their base and consider transitioning to a Deep Half Guard entry by ducking under their pressure, or set up the Granby Roll which uses their forward momentum. Alternatively, if their crossface commitment is so heavy that their base lifts, switch to the Old School Sweep. Never force the Turn to Face against settled crossface—address the crossface problem first or select an alternative technique.",
+        "answer_line": "Abort turn, work lockdown stretch",
+        "distractors": {
+          "plausible": [
+            "Speed up the same turn attempt",
+            "Fight grip-for-grip on crossface"
+          ],
+          "trap": [
+            "Force the turn through pressure"
+          ]
+        }
       },
       {
         "question": "If the opponent blocks your initial turn attempt and resettles their weight, what chain of follow-up techniques should you employ?",
-        "answer": "After a blocked turn attempt, immediately re-establish your Zombie frames and lockdown tension rather than attempting a second turn. Chain to Old School Sweep if the opponent drove forward during their counter, Deep Half entry if they settled heavy chest pressure, or Electric Chair setup if their lockdown leg became exposed during the exchange. The blocked turn often reveals information about the opponent's passing strategy that makes the follow-up technique more effective. If none of these are available, simply defend and wait for the next turning window rather than forcing a second attempt."
+        "answer": "After a blocked turn attempt, immediately re-establish your Zombie frames and lockdown tension rather than attempting a second turn. Chain to Old School Sweep if the opponent drove forward during their counter, Deep Half entry if they settled heavy chest pressure, or Electric Chair setup if their lockdown leg became exposed during the exchange. The blocked turn often reveals information about the opponent's passing strategy that makes the follow-up technique more effective. If none of these are available, simply defend and wait for the next turning window rather than forcing a second attempt.",
+        "answer_line": "Reset frames, chain to sweep",
+        "distractors": {
+          "plausible": [
+            "Immediately retry the same turn",
+            "Release lockdown and reset fully"
+          ],
+          "trap": [
+            "Abandon lockdown and turtle up"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from taking your back during the rotation?",
-        "answer": "Back exposure is the primary risk during the Turn to Face. Three protective measures must be maintained simultaneously: keep your far arm pinched tight to your body throughout the rotation so there is no space for the opponent to thread an underhook; lead with hips rather than shoulders so your back never fully faces the opponent during any phase of the turn; and maintain your lockdown engagement which prevents the opponent from freely circling behind you by keeping their leg trapped. If you feel the opponent beginning to circle toward your back during the turn, immediately abort and re-establish your Zombie defensive frames."
+        "answer": "Back exposure is the primary risk during the Turn to Face. Three protective measures must be maintained simultaneously: keep your far arm pinched tight to your body throughout the rotation so there is no space for the opponent to thread an underhook; lead with hips rather than shoulders so your back never fully faces the opponent during any phase of the turn; and maintain your lockdown engagement which prevents the opponent from freely circling behind you by keeping their leg trapped. If you feel the opponent beginning to circle toward your back during the turn, immediately abort and re-establish your Zombie defensive frames.",
+        "answer_line": "Pin far arm, lead with hips",
+        "distractors": {
+          "plausible": [
+            "Lead with shoulders to cover back",
+            "Release lockdown for faster turn"
+          ],
+          "trap": [
+            "Extend far arm for a frame"
+          ]
+        }
       },
       {
         "question": "What role does the lockdown play during the Turn to Face, and when should it be released?",
-        "answer": "The lockdown serves three critical functions during the Turn to Face: it anchors your lower body to prevent the opponent from simply pulling away during your rotation; it provides a rotational axis that your hips pivot around; and it disrupts the opponent's base through stretching, creating the turning window. The lockdown should only be released after you have successfully inserted a knee shield or butterfly hook and established upper body grips in your recovered guard position. Premature lockdown release before guard consolidation is the most common cause of immediate passes following otherwise successful turns."
+        "answer": "The lockdown serves three critical functions during the Turn to Face: it anchors your lower body to prevent the opponent from simply pulling away during your rotation; it provides a rotational axis that your hips pivot around; and it disrupts the opponent's base through stretching, creating the turning window. The lockdown should only be released after you have successfully inserted a knee shield or butterfly hook and established upper body grips in your recovered guard position. Premature lockdown release before guard consolidation is the most common cause of immediate passes following otherwise successful turns.",
+        "answer_line": "Release only after guard is set",
+        "distractors": {
+          "plausible": [
+            "Release once hips clear",
+            "Release as soon as you face them"
+          ],
+          "trap": [
+            "Drop lockdown before facing up"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Turn to Face from Zombie is a relatively low-risk guard recovery technique with no direct joint lock or choke threats. Primary safety concerns involve cervical spine strain if the turn is forced against heavy crossface pressure, as the rotation can create compression on the neck when the opponent's weight drives through the crossface. Practitioners should never force the turn against deep crossface control. Knee strain is possible if the lockdown is maintained at extreme angles during rapid rotation. During drilling, partners should allow controlled rotation and gradually increase resistance to prevent sudden twisting forces on the spine or trapped leg."
+    "safety_considerations": "The Turn to Face from Zombie is a relatively low-risk guard recovery technique with no direct joint lock or choke threats. Primary safety concerns involve cervical spine strain if the turn is forced against heavy crossface pressure, as the rotation can create compression on the neck when the opponent's weight drives through the crossface. Practitioners should never force the turn against deep crossface control. Knee strain is possible if the lockdown is maintained at extreme angles during rapid rotation. During drilling, partners should allow controlled rotation and gradually increase resistance to prevent sudden twisting forces on the spine or trapped leg.",
+    "clips": [
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "Two simple rubber guard tips",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Turn to Face from Zombie Defender",
@@ -373,23 +499,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is about to attempt a Turn to Face?",
-        "answer": "The earliest cues are changes in the bottom player's far arm positioning—it tucks tight to their body rather than seeking underhook or grips—and subtle hip weight shifts as they load their bottom hip for rotation. You will also feel changes in lockdown tension as they either stretch to create space or begin loosening in preparation for release. Their near-side arm will shift from underhook attempts to establishing a forearm frame against your shoulder. Recognizing these pre-turn adjustments gives you a 1-2 second window to apply counter-pressure before the turn begins."
+        "answer": "The earliest cues are changes in the bottom player's far arm positioning—it tucks tight to their body rather than seeking underhook or grips—and subtle hip weight shifts as they load their bottom hip for rotation. You will also feel changes in lockdown tension as they either stretch to create space or begin loosening in preparation for release. Their near-side arm will shift from underhook attempts to establishing a forearm frame against your shoulder. Recognizing these pre-turn adjustments gives you a 1-2 second window to apply counter-pressure before the turn begins.",
+        "answer_line": "Far arm tucks + hip weight shift",
+        "distractors": {
+          "plausible": [
+            "Sudden underhook attempt on far side",
+            "Opponent grips your far wrist tight"
+          ],
+          "trap": [
+            "Wait for the turn to fully develop"
+          ]
+        }
       },
       {
         "question": "What is the most effective counter when the bottom player begins rotating their hips toward you?",
-        "answer": "The most effective immediate counter is driving heavy crossface pressure through your shoulder into the junction of their neck and shoulder while simultaneously sprawling your hips to pin their hip rotation. This two-point pressure system—upper body through crossface and lower body through hip sprawl—creates converging forces that arrest the rotation. If they have already built significant momentum, abandon the re-flatten and instead circle toward their back to capitalize on their movement by advancing to side control."
+        "answer": "The most effective immediate counter is driving heavy crossface pressure through your shoulder into the junction of their neck and shoulder while simultaneously sprawling your hips to pin their hip rotation. This two-point pressure system—upper body through crossface and lower body through hip sprawl—creates converging forces that arrest the rotation. If they have already built significant momentum, abandon the re-flatten and instead circle toward their back to capitalize on their movement by advancing to side control.",
+        "answer_line": "Crossface pressure + hip sprawl",
+        "distractors": {
+          "plausible": [
+            "Grab a leg to stop rotation",
+            "Push down on their shoulder only"
+          ],
+          "trap": [
+            "Chase a submission instead of base"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution to prevent the Turn to Face?",
-        "answer": "Weight should project forward and downward through your chest and shoulder into the opponent's upper back and shoulder area, not through your knees or hands. Your hips should stay low and heavy, driving into the opponent rather than floating above them. The free leg posts wide for base against the lockdown stretch while your crossface side drives forward. This distribution creates a constant pressure that makes the preparation phase of the turn extremely difficult, as the bottom player cannot create the frames or space needed to initiate rotation."
+        "answer": "Weight should project forward and downward through your chest and shoulder into the opponent's upper back and shoulder area, not through your knees or hands. Your hips should stay low and heavy, driving into the opponent rather than floating above them. The free leg posts wide for base against the lockdown stretch while your crossface side drives forward. This distribution creates a constant pressure that makes the preparation phase of the turn extremely difficult, as the bottom player cannot create the frames or space needed to initiate rotation.",
+        "answer_line": "Chest/shoulder weight, hips low",
+        "distractors": {
+          "plausible": [
+            "Weight through your hands and knees",
+            "Hips high, driving through knees"
+          ],
+          "trap": [
+            "Lean back to avoid their frames"
+          ]
+        }
       },
       {
         "question": "If the bottom player successfully gets halfway through the turn, what is your best response?",
-        "answer": "Once they reach the halfway point, attempting to reverse their rotation becomes significantly harder. Instead, capitalize on their movement by circling toward the direction they came from—toward their back. As they rotate to face you, their legs often open during the transition, creating a passing lane. Drive your knee across their thigh line while maintaining upper body pressure to advance to side control. This converts their escape attempt into a passing opportunity for you, which is a better outcome than the original Zombie position."
+        "answer": "Once they reach the halfway point, attempting to reverse their rotation becomes significantly harder. Instead, capitalize on their movement by circling toward the direction they came from—toward their back. As they rotate to face you, their legs often open during the transition, creating a passing lane. Drive your knee across their thigh line while maintaining upper body pressure to advance to side control. This converts their escape attempt into a passing opportunity for you, which is a better outcome than the original Zombie position.",
+        "answer_line": "Circle to back, pass their legs",
+        "distractors": {
+          "plausible": [
+            "Reverse their rotation by force",
+            "Stay flat and wait it out"
+          ],
+          "trap": [
+            "Chase a leg lock in scramble"
+          ]
+        }
       },
       {
         "question": "What grip priority prevents the Turn to Face from succeeding?",
-        "answer": "First priority is crossface control through shoulder pressure on their face and neck—this physically prevents shoulder rotation and is the single most effective tool against the turn. Second priority is far arm control, either gripping their wrist or threading your arm over their far arm to prevent frame creation. Third priority is hip control through your sprawl pressure and weight distribution. The crossface should never be sacrificed for other grips. If you can maintain crossface while controlling their far arm, the Turn to Face becomes mechanically impossible regardless of their lockdown management."
+        "answer": "First priority is crossface control through shoulder pressure on their face and neck—this physically prevents shoulder rotation and is the single most effective tool against the turn. Second priority is far arm control, either gripping their wrist or threading your arm over their far arm to prevent frame creation. Third priority is hip control through your sprawl pressure and weight distribution. The crossface should never be sacrificed for other grips. If you can maintain crossface while controlling their far arm, the Turn to Face becomes mechanically impossible regardless of their lockdown management.",
+        "answer_line": "Crossface first, then far arm",
+        "distractors": {
+          "plausible": [
+            "Far arm control matters most",
+            "Hip sprawl is the top priority"
+          ],
+          "trap": [
+            "Trade crossface for a far-side grip"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -412,6 +588,17 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Integration with complete Zombie Top game",
         "description": "Live sparring from Zombie Top where partner uses Turn to Face alongside other Zombie escapes. Defender must identify which escape is being attempted and apply the appropriate counter while maintaining passing pressure. Measures the ratio of successful defenses to completed escapes and tracks improvement over sessions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "E3sCfrFKJDE",
+        "title": "Rubber guard: preventing the pass",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 158,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -21,37 +21,37 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lumberjack Sweep",
-      "text": "From this position, attempt Lumberjack Sweep. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Lumberjack Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Half Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Signature sweep from knee shield",
+      "description": "Knee Shield Half Guard (Bottom) film study: Signature sweep from knee shield, taught by A. Sukandar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YEVojixbKs8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YEVojixbKs8",
+      "url": "https://www.youtube.com/watch?v=YEVojixbKs8",
+      "creator": { "@type": "Person", "name": "A. Sukandar" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock entry from knee shield half guard",
+      "description": "Knee Shield Half Guard (Bottom) film study: Leg lock entry from knee shield half guard, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5abrviYxKU8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5abrviYxKU8",
+      "url": "https://www.youtube.com/watch?v=5abrviYxKU8",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ Unlike traditional half guard where the top player can establish heavy crossface
 The knee shield half guard has become a cornerstone position in modern competitive BJJ, with world-class competitors demonstrating its effectiveness at the highest levels. The position offers multiple pathways to success: maintaining retention against pressure passers, sweeping aggressive opponents, or transitioning to more offensive guard systems when opportunities arise. Understanding the knee shield is essential for developing a complete defensive guard game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Half Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YEVojixbKs8)
+
+<p class="clip-credit"><strong>Signature sweep from knee shield</strong> — taught by A. Sukandar · 1:10 · <a href="https://www.youtube.com/watch?v=YEVojixbKs8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5abrviYxKU8)
+
+<p class="clip-credit"><strong>Leg lock entry from knee shield half guard</strong> — taught by Hellfish MMA · 2:27 · <a href="https://www.youtube.com/watch?v=5abrviYxKU8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

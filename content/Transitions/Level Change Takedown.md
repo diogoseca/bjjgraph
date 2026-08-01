@@ -34,6 +34,54 @@ description: "Master the level change takedown in BJJ. Complete guide to penetra
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Level Change Takedown \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Signature double leg with level change",
+      "description": "Level Change Takedown film study: Signature double leg with level change, taught by Jordan Burroughs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wy-a8VfNsVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wy-a8VfNsVo",
+      "url": "https://www.youtube.com/watch?v=Wy-a8VfNsVo",
+      "creator": { "@type": "Person", "name": "Jordan Burroughs" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Blast double leg breakdown",
+      "description": "Level Change Takedown film study: Blast double leg breakdown, taught by Josh Dziewa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7LHzjdOADBs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7LHzjdOADBs",
+      "url": "https://www.youtube.com/watch?v=7LHzjdOADBs",
+      "creator": { "@type": "Person", "name": "Josh Dziewa" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Penetration step drill for takedowns",
+      "description": "Level Change Takedown film study: Penetration step drill for takedowns, taught by Dominik Haska.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/roTSpQlBPyg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/roTSpQlBPyg",
+      "url": "https://www.youtube.com/watch?v=roTSpQlBPyg",
+      "creator": { "@type": "Person", "name": "Dominik Haska" },
+      "duration": "PT33S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +115,42 @@ In competition, the level change takedown creates a direct path from neutral sta
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Level Change Takedown in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wy-a8VfNsVo)
+
+<p class="clip-credit"><strong>Signature double leg with level change</strong> — taught by Jordan Burroughs · 1:13 · <a href="https://www.youtube.com/watch?v=Wy-a8VfNsVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7LHzjdOADBs)
+
+<p class="clip-credit"><strong>Blast double leg breakdown</strong> — taught by Josh Dziewa · 0:54 · <a href="https://www.youtube.com/watch?v=7LHzjdOADBs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=roTSpQlBPyg)
+
+<p class="clip-credit"><strong>Penetration step drill for takedowns</strong> — taught by Dominik Haska · 0:33 · <a href="https://www.youtube.com/watch?v=roTSpQlBPyg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

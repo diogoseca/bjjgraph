@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the guard passing hierarchy, the smash from knee shield is the top player's primary answer to one of modern half guard's most stubborn defensive structures. The knee shield creates a structural barrier that prevents chest-to-chest contact and forward advancement, making it one of the most effective defensive tools in modern half guard play. The smash addresses this problem directly by using angled pressure, grip control on the shield leg, and systematic weight distribution to break down the frame and transition to a more favorable passing position where the full passing arsenal becomes available.\n\nThe technique requires patience and methodical execution rather than explosive force. Attempting to power through a well-constructed knee shield typically results in wasted energy and potential sweeps, as the bottom player can redirect the incoming force against the passer. Instead, the smash relies on redirecting the knee shield leg across the opponent's body while applying compressive shoulder pressure from an angle that bypasses the shield's strongest axis of resistance. The 45-degree body angle is critical—it transforms the shield from an impenetrable wall into a lever that can be manipulated and collapsed.\n\nStrategically, the smash from knee shield occupies a critical role in the guard passing hierarchy. It serves as the primary answer to one of the most common defensive structures encountered in half guard, and its successful execution opens pathways to knee slice passes, crossface passes, and direct side control advancement. The technique chains naturally with other pressure passes, creating a systematic approach to dismantling the knee shield defense that rewards methodical pressure over athletic explosiveness.",
   "conditions": [
     "You are established in Knee Shield Half Guard top position with stable base",
@@ -242,38 +254,138 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the smash against an established knee shield?",
-        "answer": "The optimal moment is after you have secured both crossface control and ankle grip on the knee shield leg. Initiating before both grips are established leaves you vulnerable to sweeps and allows the opponent to adjust their shield. Additionally, wait for a moment when the opponent's far arm is occupied with a grip rather than available for framing—this reduces their ability to resist the incoming pressure."
+        "answer": "The optimal moment is after you have secured both crossface control and ankle grip on the knee shield leg. Initiating before both grips are established leaves you vulnerable to sweeps and allows the opponent to adjust their shield. Additionally, wait for a moment when the opponent's far arm is occupied with a grip rather than available for framing—this reduces their ability to resist the incoming pressure.",
+        "answer_line": "Crossface + ankle grip locked",
+        "distractors": {
+          "plausible": [
+            "Once crossface is on",
+            "When shield first appears"
+          ],
+          "trap": [
+            "Rush in before grips set"
+          ]
+        }
       },
       {
         "question": "Why should you angle your body at 45 degrees rather than driving straight into the knee shield?",
-        "answer": "The knee shield is at maximum structural strength when force is applied perpendicular to the shin. At 45 degrees, you redirect the frame's resistance away from your centerline, reducing its effectiveness by approximately half. The angle also positions your shoulder to drive into the opponent's upper chest rather than into the shin bone, creating a compressive force that works from above the shield rather than against its strongest axis."
+        "answer": "The knee shield is at maximum structural strength when force is applied perpendicular to the shin. At 45 degrees, you redirect the frame's resistance away from your centerline, reducing its effectiveness by approximately half. The angle also positions your shoulder to drive into the opponent's upper chest rather than into the shin bone, creating a compressive force that works from above the shield rather than against its strongest axis.",
+        "answer_line": "Off-angle avoids strongest axis",
+        "distractors": {
+          "plausible": [
+            "Straight line is faster",
+            "90 degrees for max torque"
+          ],
+          "trap": [
+            "Drive straight into the shin"
+          ]
+        }
       },
       {
         "question": "What grips must be established before attempting to collapse the knee shield?",
-        "answer": "Two primary grips are required: crossface control with the near arm to prevent the opponent from turning and establishing an underhook, and ankle or pants grip on the knee shield leg with the far hand to control shield mobility and enable redirection. In gi, a cross-collar grip can substitute for the crossface. Without both grips, the smash becomes a scramble rather than a systematic collapse."
+        "answer": "Two primary grips are required: crossface control with the near arm to prevent the opponent from turning and establishing an underhook, and ankle or pants grip on the knee shield leg with the far hand to control shield mobility and enable redirection. In gi, a cross-collar grip can substitute for the crossface. Without both grips, the smash becomes a scramble rather than a systematic collapse.",
+        "answer_line": "Crossface + ankle/pants grip",
+        "distractors": {
+          "plausible": [
+            "Underhook + collar grip",
+            "Crossface grip alone"
+          ],
+          "trap": [
+            "Two-on-one wrist grip"
+          ]
+        }
       },
       {
         "question": "What happens if you attempt to smash without controlling the knee shield ankle?",
-        "answer": "Without ankle control, the opponent can freely adjust their shield's height and angle in real time to counter your pressure direction. They can raise the shield higher to block your shoulder advance, lower it to threaten sweeps, or re-angle it to maintain maximum structural resistance. The ankle grip is what removes the opponent's ability to dynamically adapt the shield, making the collapse possible through a fixed target."
+        "answer": "Without ankle control, the opponent can freely adjust their shield's height and angle in real time to counter your pressure direction. They can raise the shield higher to block your shoulder advance, lower it to threaten sweeps, or re-angle it to maintain maximum structural resistance. The ankle grip is what removes the opponent's ability to dynamically adapt the shield, making the collapse possible through a fixed target.",
+        "answer_line": "Opponent freely re-angles shield",
+        "distractors": {
+          "plausible": [
+            "Shield weakens slightly",
+            "Pressure passes through anyway"
+          ],
+          "trap": [
+            "Ankle grip barely matters"
+          ]
+        }
       },
       {
         "question": "In which direction should you redirect the knee shield leg to collapse the frame?",
-        "answer": "Push the knee shield leg across the opponent's body toward their far hip. This direction collapses the shield by changing the shin angle from perpendicular (strongest) to parallel with their body (weakest). The lateral redirection works in concert with your downward shoulder pressure to create a scissoring effect that breaks the frame's structural integrity. Never push the leg upward or outward as this strengthens the shield."
+        "answer": "Push the knee shield leg across the opponent's body toward their far hip. This direction collapses the shield by changing the shin angle from perpendicular (strongest) to parallel with their body (weakest). The lateral redirection works in concert with your downward shoulder pressure to create a scissoring effect that breaks the frame's structural integrity. Never push the leg upward or outward as this strengthens the shield.",
+        "answer_line": "Across body toward far hip",
+        "distractors": {
+          "plausible": [
+            "Straight down to the mat",
+            "Outward away from the body"
+          ],
+          "trap": [
+            "Push the leg upward"
+          ]
+        }
       },
       {
         "question": "Your opponent hip escapes and re-angles their knee shield as you begin the smash. How do you adjust?",
-        "answer": "Follow their hip movement with your own hips immediately—do not let them create distance between your bodies. Maintain your crossface control throughout the adjustment, as releasing it allows them to turn and establish an underhook. Re-establish your 45-degree angle relative to their new shield position and restart the progressive pressure. If they hip escape aggressively, consider switching to a knee slice or backstep that capitalizes on the angle they just created."
+        "answer": "Follow their hip movement with your own hips immediately—do not let them create distance between your bodies. Maintain your crossface control throughout the adjustment, as releasing it allows them to turn and establish an underhook. Re-establish your 45-degree angle relative to their new shield position and restart the progressive pressure. If they hip escape aggressively, consider switching to a knee slice or backstep that capitalizes on the angle they just created.",
+        "answer_line": "Follow hips, keep crossface",
+        "distractors": {
+          "plausible": [
+            "Release crossface to chase",
+            "Reset stance, fully disengage"
+          ],
+          "trap": [
+            "Let them create distance"
+          ]
+        }
       },
       {
         "question": "If the initial smash attempt fails and the opponent recovers their shield, what follow-up techniques should you chain?",
-        "answer": "Immediately chain into a knee slice attempt while maintaining your crossface—the opponent often over-commits their shield to a high defensive position after successfully defending a smash, creating space for the knee to slice through low. Alternatively, feint the smash again and backstep over the shield leg when they commit their frames forward. The long step pass is another effective follow-up as the opponent's defensive energy is directed toward forward smash defense rather than lateral passing threats."
+        "answer": "Immediately chain into a knee slice attempt while maintaining your crossface—the opponent often over-commits their shield to a high defensive position after successfully defending a smash, creating space for the knee to slice through low. Alternatively, feint the smash again and backstep over the shield leg when they commit their frames forward. The long step pass is another effective follow-up as the opponent's defensive energy is directed toward forward smash defense rather than lateral passing threats.",
+        "answer_line": "Chain knee slice or backstep",
+        "distractors": {
+          "plausible": [
+            "Repeat the same smash again",
+            "Switch to a leglock chain"
+          ],
+          "trap": [
+            "Abandon top position entirely"
+          ]
+        }
       },
       {
         "question": "What is the role of crossface control during the entire smash sequence?",
-        "answer": "The crossface serves three critical functions throughout the smash: it prevents the opponent from turning toward you to establish an underhook, it provides the primary pressure vector by driving your shoulder into their jawline and upper chest, and it controls their head position which dictates their overall body movement capabilities. Without crossface, the opponent can freely rotate their torso, adjust their hips, and counter the smash with underhook-based sweeps or back takes."
+        "answer": "The crossface serves three critical functions throughout the smash: it prevents the opponent from turning toward you to establish an underhook, it provides the primary pressure vector by driving your shoulder into their jawline and upper chest, and it controls their head position which dictates their overall body movement capabilities. Without crossface, the opponent can freely rotate their torso, adjust their hips, and counter the smash with underhook-based sweeps or back takes.",
+        "answer_line": "Blocks underhook, drives pressure",
+        "distractors": {
+          "plausible": [
+            "Only controls head position",
+            "Secondary to the ankle grip"
+          ],
+          "trap": [
+            "Release once shield collapses"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The smash from knee shield involves significant compressive pressure on the opponent's torso and knee joint. Apply pressure gradually during training to allow your partner to tap or adjust position. Be particularly cautious when redirecting the knee shield leg laterally—forcing the knee beyond its natural range of motion can strain the MCL or LCL. Avoid dropping full bodyweight explosively onto a training partner's collapsed shield position. Always respect tap signals immediately and release pressure when your training partner indicates discomfort in their knee, ribs, or neck from the crossface pressure."
+    "safety_considerations": "The smash from knee shield involves significant compressive pressure on the opponent's torso and knee joint. Apply pressure gradually during training to allow your partner to tap or adjust position. Be particularly cautious when redirecting the knee shield leg laterally—forcing the knee beyond its natural range of motion can strain the MCL or LCL. Avoid dropping full bodyweight explosively onto a training partner's collapsed shield position. Always respect tap signals immediately and release pressure when your training partner indicates discomfort in their knee, ribs, or neck from the crossface pressure.",
+    "clips": [
+      {
+        "id": "Y815hmtzGZA",
+        "title": "Knee shield smash pass",
+        "by": "Adam Metcalf",
+        "vertical": false,
+        "channel": "ADAM METCALF",
+        "duration": 30,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DmFX5HGf7Xw",
+        "title": "Smashing knee shield pass",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 159,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Smash from Knee Shield Defender",
@@ -359,23 +471,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that indicate your opponent is attempting to smash your knee shield?",
-        "answer": "The three earliest cues are: their hand reaching for your knee shield ankle or pants grip, their body beginning to angle at 45 degrees rather than facing you squarely, and their shoulder pressure shifting from horizontal push into a downward compressive drive into your upper chest. Recognizing these cues before the smash sequence is fully initiated gives you the best window to defend or counter."
+        "answer": "The three earliest cues are: their hand reaching for your knee shield ankle or pants grip, their body beginning to angle at 45 degrees rather than facing you squarely, and their shoulder pressure shifting from horizontal push into a downward compressive drive into your upper chest. Recognizing these cues before the smash sequence is fully initiated gives you the best window to defend or counter.",
+        "answer_line": "Ankle grip, angle, shoulder drive",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar",
+            "Opponent stands to pass"
+          ],
+          "trap": [
+            "Opponent pulls guard closed"
+          ]
+        }
       },
       {
         "question": "Your opponent has gripped your ankle and started angling their body. What is your immediate defensive priority?",
-        "answer": "Your immediate priority is stripping or neutralizing the ankle grip before they can begin redirecting your shin. Pull your foot back toward their far hip or circle it free from their grasp. Simultaneously, hip escape to re-angle your shield perpendicular to their new body position. If you cannot strip the grip, immediately transition to plan B—frame on their shoulder to buy time or begin your deep half guard entry before the shield fully collapses."
+        "answer": "Your immediate priority is stripping or neutralizing the ankle grip before they can begin redirecting your shin. Pull your foot back toward their far hip or circle it free from their grasp. Simultaneously, hip escape to re-angle your shield perpendicular to their new body position. If you cannot strip the grip, immediately transition to plan B—frame on their shoulder to buy time or begin your deep half guard entry before the shield fully collapses.",
+        "answer_line": "Strip ankle grip, hip escape",
+        "distractors": {
+          "plausible": [
+            "Push their head away first",
+            "Fight for the underhook"
+          ],
+          "trap": [
+            "Post up and turtle away"
+          ]
+        }
       },
       {
         "question": "When should you abandon knee shield retention and transition to an alternative guard?",
-        "answer": "Abandon shield retention when your shin has been redirected past 45 degrees across your own body, when the opponent has established chest contact on your near shoulder, or when you have lost both ankle mobility and upper body framing capability simultaneously. At these points, fighting to re-establish the shield burns energy without realistic chance of success. Transition to deep half guard by diving under their hips or recover to butterfly half guard by inserting a hook."
+        "answer": "Abandon shield retention when your shin has been redirected past 45 degrees across your own body, when the opponent has established chest contact on your near shoulder, or when you have lost both ankle mobility and upper body framing capability simultaneously. At these points, fighting to re-establish the shield burns energy without realistic chance of success. Transition to deep half guard by diving under their hips or recover to butterfly half guard by inserting a hook.",
+        "answer_line": "Shin past 45°, chest contact",
+        "distractors": {
+          "plausible": [
+            "As soon as pressure appears",
+            "Only once fully flattened"
+          ],
+          "trap": [
+            "Never abandon the shield"
+          ]
+        }
       },
       {
         "question": "How does hip escape timing affect your ability to maintain the knee shield against a smash attempt?",
-        "answer": "Hip escape timing is critical because it must occur before the opponent settles their weight and pins your hips. The hip escape re-creates the angle that makes your shield structurally effective—a flat shield perpendicular to a settled opponent is far weaker than an angled shield against a displaced opponent. Early hip escape forces them to readjust their position and restart their angle, while late hip escape is blocked by their weight already committed on top of your frame."
+        "answer": "Hip escape timing is critical because it must occur before the opponent settles their weight and pins your hips. The hip escape re-creates the angle that makes your shield structurally effective—a flat shield perpendicular to a settled opponent is far weaker than an angled shield against a displaced opponent. Early hip escape forces them to readjust their position and restart their angle, while late hip escape is blocked by their weight already committed on top of your frame.",
+        "answer_line": "Early escape resets their angle",
+        "distractors": {
+          "plausible": [
+            "Timing rarely matters much",
+            "Late escape works just as well"
+          ],
+          "trap": [
+            "Wait until they settle weight"
+          ]
+        }
       },
       {
         "question": "What is the biggest risk of attempting an underhook sweep while your opponent drives into your shield?",
-        "answer": "The primary risk is that the opponent whizzers your underhook and uses your own forward momentum combined with their downward pressure to flatten you completely without your knee shield in place. If the underhook sweep fails, you lose your primary defensive frame and end up in the worst-case scenario—flattened half guard under heavy crossface pressure with no shield to rebuild. Time the underhook attempt precisely during their maximum forward commitment when their base is weakest."
+        "answer": "The primary risk is that the opponent whizzers your underhook and uses your own forward momentum combined with their downward pressure to flatten you completely without your knee shield in place. If the underhook sweep fails, you lose your primary defensive frame and end up in the worst-case scenario—flattened half guard under heavy crossface pressure with no shield to rebuild. Time the underhook attempt precisely during their maximum forward commitment when their base is weakest.",
+        "answer_line": "Whizzered, flattened, no shield",
+        "distractors": {
+          "plausible": [
+            "Losing the grip fight tempo",
+            "Tiring out your gripping arm"
+          ],
+          "trap": [
+            "Attempt it at any moment"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -398,6 +560,26 @@
         "phase": "Phase 4: Counter-Offense",
         "focus": "Threatening sweeps during opponent's smash attempt",
         "description": "Full positional sparring from knee shield bottom against committed smash passers. Integrate sweep threats, underhook attempts, and guard transitions into your defensive game. The goal is not just surviving the smash but making the opponent pay for committing forward with sweeps and reversals that punish overcommitment."
+      }
+    ],
+    "clips": [
+      {
+        "id": "BhNZGloJ56c",
+        "title": "Guard recovery when you are getting smashed",
+        "by": "Finesse Jiujitsu coach",
+        "vertical": false,
+        "channel": "FINESSE JIUJITSU HTX",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tgm9VyvVkgI",
+        "title": "Knee shield fighting mistakes to avoid",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 148,
+        "verified": "2026-07-15"
       }
     ]
   }

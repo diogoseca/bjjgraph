@@ -150,6 +150,43 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Backside 50-50 (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll under escape to backside 50/50",
+      "description": "Heel Hook from Backside 50-50 (Defender) film study: Roll under escape to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape and counter the backside 50/50",
+      "description": "Heel Hook from Backside 50-50 (Defender) film study: How to escape and counter the backside 50/50, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
+      "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT240S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the heel hook from Backside 50-50 top requires recognizing the attack 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Backside 50-50 (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll under escape to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
+
+<p class="clip-credit"><strong>How to escape and counter the backside 50/50</strong> — taught by Matrix Jiu Jitsu · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

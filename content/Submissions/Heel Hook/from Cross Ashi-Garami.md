@@ -34,6 +34,54 @@ description: "Master the heel hook from Cross Ashi-Garami with expert finishing 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Cross Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross ashi belly-down heel hook",
+      "description": "Heel Hook from Cross Ashi-Garami film study: Cross ashi belly-down heel hook, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_SRARh0B6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
+      "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse X to cross ashi to inside heel hook",
+      "description": "Heel Hook from Cross Ashi-Garami film study: Reverse X to cross ashi to inside heel hook, taught by Bowerhouse MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GqE4UobpkMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GqE4UobpkMs",
+      "url": "https://www.youtube.com/watch?v=GqE4UobpkMs",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "X guard to heel hook",
+      "description": "Heel Hook from Cross Ashi-Garami film study: X guard to heel hook, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
+      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ This submission demands meticulous attention to safety in training. The mechanis
 **Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] · **From**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Cross Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h_SRARh0B6U)
+
+<p class="clip-credit"><strong>Cross ashi belly-down heel hook</strong> — taught by Bowerhouse MMA · 1:08 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GqE4UobpkMs)
+
+<p class="clip-credit"><strong>Reverse X to cross ashi to inside heel hook</strong> — taught by Bowerhouse MMA · 1:28 · <a href="https://www.youtube.com/watch?v=GqE4UobpkMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+
+<p class="clip-credit"><strong>X guard to heel hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -225,7 +309,7 @@ This submission demands meticulous attention to safety in training. The mechanis
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Positions/Aoki Lock Control]]
 - [[Submissions/Calf Slicer]]

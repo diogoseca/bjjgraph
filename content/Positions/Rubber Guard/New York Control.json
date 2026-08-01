@@ -224,69 +224,179 @@
     "transitions": [
       {
         "transition": "Overhook Escape",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 23
+        }
       },
       {
         "transition": "Crossface to Combat Base",
-        "attempt_probability": 24
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 16
+        }
       },
       {
         "transition": "Stack Pass",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Leg Extraction",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Standing Escape",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 16
+        }
       },
       {
         "transition": "New York Control Escape",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Guard Pass from New York Control",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the correct priority sequence when escaping New York Control from top?",
-        "answer": "The overhook must be escaped before attempting to remove the leg control. Attempting to extract the leg while the overhook remains engaged leaves your arm trapped and allows the bottom player to transition between gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg control without exposing yourself to chain submissions."
+        "answer": "The overhook must be escaped before attempting to remove the leg control. Attempting to extract the leg while the overhook remains engaged leaves your arm trapped and allows the bottom player to transition between gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg control without exposing yourself to chain submissions.",
+        "answer_line": "Escape overhook before the leg",
+        "distractors": {
+          "plausible": [
+            "Remove leg control first",
+            "Attack both at the same time"
+          ],
+          "trap": [
+            "Post hands to sit up"
+          ]
+        }
       },
       {
         "question": "Why does driving forward with pressure increase submission danger in New York Control?",
-        "answer": "Forward pressure drives the opponent's controlling leg deeper across your back and shoulder, tightening their structure and improving their angle for gogoplata and triangle submissions. It also loads your weight forward, making sweeps easier. Lateral movement and base widening provide safer escape vectors that don't feed into their submission chains."
+        "answer": "Forward pressure drives the opponent's controlling leg deeper across your back and shoulder, tightening their structure and improving their angle for gogoplata and triangle submissions. It also loads your weight forward, making sweeps easier. Lateral movement and base widening provide safer escape vectors that don't feed into their submission chains.",
+        "answer_line": "Forward pressure feeds their subs",
+        "distractors": {
+          "plausible": [
+            "Drive forward to pass guard",
+            "Sit back to break the grips"
+          ],
+          "trap": [
+            "Stack hard and drive through"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to shoot their shin across your neck for a gogoplata - what immediate defensive adjustment should you make?",
-        "answer": "Immediately tuck your chin firmly to your chest while simultaneously driving your head toward the mat on the side away from the incoming shin. Keep elbows tight to prevent arm isolation for triangle backup. If possible, stand up explosively to create distance and eliminate the angle, or stack their hips to reduce the shin pressure across your throat."
+        "answer": "Immediately tuck your chin firmly to your chest while simultaneously driving your head toward the mat on the side away from the incoming shin. Keep elbows tight to prevent arm isolation for triangle backup. If possible, stand up explosively to create distance and eliminate the angle, or stack their hips to reduce the shin pressure across your throat.",
+        "answer_line": "Tuck chin, turn head away",
+        "distractors": {
+          "plausible": [
+            "Grab their foot and pull",
+            "Push down on their knee"
+          ],
+          "trap": [
+            "Posture up and look forward"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight when stuck in New York Control from top?",
-        "answer": "Maintain a wide, low base with weight distributed laterally rather than forward. Keep hips close to the mat and spread knees wide for stability against sweeps. Avoid loading weight forward into the opponent, as this feeds their submission chains. Weight should feel centered over your knees with the ability to shift laterally quickly for escape attempts."
+        "answer": "Maintain a wide, low base with weight distributed laterally rather than forward. Keep hips close to the mat and spread knees wide for stability against sweeps. Avoid loading weight forward into the opponent, as this feeds their submission chains. Weight should feel centered over your knees with the ability to shift laterally quickly for escape attempts.",
+        "answer_line": "Wide low base, weight lateral",
+        "distractors": {
+          "plausible": [
+            "Load weight forward on them",
+            "Narrow base, knees together"
+          ],
+          "trap": [
+            "Drive weight straight down"
+          ]
+        }
       },
       {
         "question": "What makes standard posture recovery ineffective against New York Control?",
-        "answer": "The leg wrapped over your shoulder and across your back mechanically prevents vertical posture establishment. Attempting to straighten up only tightens their leg control and often drives your trapped arm deeper into their overhook. Instead, use circular base distribution and lateral movement to reduce leg effectiveness before any vertical posture attempts."
+        "answer": "The leg wrapped over your shoulder and across your back mechanically prevents vertical posture establishment. Attempting to straighten up only tightens their leg control and often drives your trapped arm deeper into their overhook. Instead, use circular base distribution and lateral movement to reduce leg effectiveness before any vertical posture attempts.",
+        "answer_line": "Leg blocks vertical posture",
+        "distractors": {
+          "plausible": [
+            "Just posture up harder",
+            "Posture faster than usual"
+          ],
+          "trap": [
+            "Force straight up through leg"
+          ]
+        }
       },
       {
         "question": "Your opponent adjusts their overhook grip - what window does this create for escape?",
-        "answer": "Grip adjustments temporarily reduce overhook control depth and pulling pressure. This creates a brief window for arm extraction. Immediately rotate your shoulder forward and pull your elbow toward your hip while their grip is compromised. Time your extraction to coincide with their grip transition, then establish defensive hand positioning before they can re-engage the overhook."
+        "answer": "Grip adjustments temporarily reduce overhook control depth and pulling pressure. This creates a brief window for arm extraction. Immediately rotate your shoulder forward and pull your elbow toward your hip while their grip is compromised. Time your extraction to coincide with their grip transition, then establish defensive hand positioning before they can re-engage the overhook.",
+        "answer_line": "Rotate shoulder, free elbow",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening",
+            "Push off their hip instead"
+          ],
+          "trap": [
+            "Yank the arm straight back"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from transitioning to triangle when defending their overhook?",
-        "answer": "Keep elbows pinned tightly to your ribs with hands protecting your neck at all times. Never extend your arms to post or push away, as extended arms provide the isolation needed for triangle setup. When escaping the overhook, rotate your shoulder while keeping the elbow connected to your body, denying the space needed for leg entry around your neck."
+        "answer": "Keep elbows pinned tightly to your ribs with hands protecting your neck at all times. Never extend your arms to post or push away, as extended arms provide the isolation needed for triangle setup. When escaping the overhook, rotate your shoulder while keeping the elbow connected to your body, denying the space needed for leg entry around your neck.",
+        "answer_line": "Pin elbows, never extend arms",
+        "distractors": {
+          "plausible": [
+            "Post a hand on their hip",
+            "Push their head away"
+          ],
+          "trap": [
+            "Extend arm to frame the neck"
+          ]
+        }
       },
       {
         "question": "What is the relationship between base widening and successful New York Control defense?",
-        "answer": "Base widening spreads your weight across a larger area, making sweeps mechanically more difficult while providing stability for systematic escape attempts. It also lowers your center of gravity, reducing the effectiveness of the opponent's leg pressure. Wide base combined with low hips creates the defensive platform needed to execute patient overhook escape without being swept during the process."
+        "answer": "Base widening spreads your weight across a larger area, making sweeps mechanically more difficult while providing stability for systematic escape attempts. It also lowers your center of gravity, reducing the effectiveness of the opponent's leg pressure. Wide base combined with low hips creates the defensive platform needed to execute patient overhook escape without being swept during the process.",
+        "answer_line": "Wide base blocks sweeps",
+        "distractors": {
+          "plausible": [
+            "Widen base to pass faster",
+            "Narrow stance for mobility"
+          ],
+          "trap": [
+            "Raise hips for leverage"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "wEedvmB_878",
+        "title": "Stoner Control from rubber guard top-side pressure",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 191,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RJ7Iutti8cY",
+        "title": "Rubber Guard system overview for the top player",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 521,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -510,90 +620,363 @@
     "transitions": [
       {
         "transition": "Gogoplata",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 7
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Triangle to Omoplata",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       },
       {
         "transition": "Omoplata to Back",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Triangle to Back",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Crackhead Control to Mission Control",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
       },
       {
         "transition": "New York to Invisible Collar",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "New York Control to Zombie",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 7
+        }
       },
       {
-        "transition": "Armbar on Free Arm",
-        "attempt_probability": 6
+        "transition": "Armbar from New York",
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
       },
       {
         "transition": "Kimura from New York Control",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 7
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       },
       {
         "transition": "New York Control to Invisible Collar",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 5
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What are the essential controls for maintaining New York Control position?",
-        "answer": "New York Control requires three simultaneous controls: the leg wrapped over the opponent's shoulder and across their back with foot near the opposite shoulder creating posture control, a deep overhook on the same side with arm fully threaded under the armpit and hand clasping shoulder or neck, and free hand control of the opponent's other arm or neck. All three must be maintained actively to prevent escape."
+        "answer": "New York Control requires three simultaneous controls: the leg wrapped over the opponent's shoulder and across their back with foot near the opposite shoulder creating posture control, a deep overhook on the same side with arm fully threaded under the armpit and hand clasping shoulder or neck, and free hand control of the opponent's other arm or neck. All three must be maintained actively to prevent escape.",
+        "answer_line": "Leg-over-shoulder, overhook, arm",
+        "distractors": {
+          "plausible": [
+            "Leg control and hip pressure",
+            "Overhook and body triangle"
+          ],
+          "trap": [
+            "Underhook and cross-face"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from escaping your overhook control?",
-        "answer": "Drive your arm as deep as possible under their armpit until your hand can clasp your own leg, their shoulder, or their neck. Keep your elbow tight to your body and actively pull their trapped arm across your centerline. If they begin rotating their shoulder to escape, immediately tighten leg pressure and transition to a submission threat, making the escape attempt cost them positionally."
+        "answer": "Drive your arm as deep as possible under their armpit until your hand can clasp your own leg, their shoulder, or their neck. Keep your elbow tight to your body and actively pull their trapped arm across your centerline. If they begin rotating their shoulder to escape, immediately tighten leg pressure and transition to a submission threat, making the escape attempt cost them positionally.",
+        "answer_line": "Thread deep, clasp shoulder",
+        "distractors": {
+          "plausible": [
+            "Grip their wrist tightly",
+            "Hook their far-side arm"
+          ],
+          "trap": [
+            "Loosen grip to reset deeper"
+          ]
+        }
       },
       {
         "question": "Your opponent begins posturing up aggressively - what adjustment maintains the position?",
-        "answer": "Increase active leg pressure by pulling your knee toward their far shoulder while simultaneously deepening the overhook and pulling their head down. Use your free hand to push their far shoulder away, breaking their structural alignment. If they persist, their posture attempt opens the gogoplata angle - shoot your shin across their throat as they create space between your bodies."
+        "answer": "Increase active leg pressure by pulling your knee toward their far shoulder while simultaneously deepening the overhook and pulling their head down. Use your free hand to push their far shoulder away, breaking their structural alignment. If they persist, their posture attempt opens the gogoplata angle - shoot your shin across their throat as they create space between your bodies.",
+        "answer_line": "Pull knee up, deepen overhook",
+        "distractors": {
+          "plausible": [
+            "Let them posture, reset guard",
+            "Pull their head down only"
+          ],
+          "trap": [
+            "Release overhook to re-angle"
+          ]
+        }
       },
       {
         "question": "What is the proper weight distribution for maintaining New York Control from bottom?",
-        "answer": "Weight should be distributed through your upper back and shoulders while keeping hips elevated and mobile. Avoid lying flat, which reduces leg pressure effectiveness. Stay slightly on your side toward the overhook to maximize control depth. Your hips need to remain free to adjust angle for submissions while your upper body provides the anchor point for all controls."
+        "answer": "Weight should be distributed through your upper back and shoulders while keeping hips elevated and mobile. Avoid lying flat, which reduces leg pressure effectiveness. Stay slightly on your side toward the overhook to maximize control depth. Your hips need to remain free to adjust angle for submissions while your upper body provides the anchor point for all controls.",
+        "answer_line": "Weight on shoulders, hips mobile",
+        "distractors": {
+          "plausible": [
+            "Lie flat for stability",
+            "Weight centered on hips"
+          ],
+          "trap": [
+            "Flatten out to trap longer"
+          ]
+        }
       },
       {
         "question": "How does the submission chain work when your triangle attempt is defended?",
-        "answer": "When the opponent defends the triangle by tucking chin and pulling posture, immediately transition to omoplata by rotating your hips under their arm while maintaining overhook control. If they base out to prevent the omoplata sweep, switch to back take as their posting arm creates space. Each defense opens a specific counter - the key is recognizing the defensive pattern and flowing to the appropriate chain link."
+        "answer": "When the opponent defends the triangle by tucking chin and pulling posture, immediately transition to omoplata by rotating your hips under their arm while maintaining overhook control. If they base out to prevent the omoplata sweep, switch to back take as their posting arm creates space. Each defense opens a specific counter - the key is recognizing the defensive pattern and flowing to the appropriate chain link.",
+        "answer_line": "Defended triangle leads to omoplata",
+        "distractors": {
+          "plausible": [
+            "Reset and retry the triangle",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Release overhook, chase legs"
+          ]
+        }
       },
       {
         "question": "Your opponent starts extracting their trapped arm - what recovery sequence should you execute?",
-        "answer": "Immediately transition to alternative control before they complete the extraction. Switch to Crackhead Control by bringing your leg to their head and controlling their posture with your shin, then re-establish Mission Control or go directly to triangle setup. The moment you feel arm slippage, you must transition rather than fight to maintain the original overhook position."
+        "answer": "Immediately transition to alternative control before they complete the extraction. Switch to Crackhead Control by bringing your leg to their head and controlling their posture with your shin, then re-establish Mission Control or go directly to triangle setup. The moment you feel arm slippage, you must transition rather than fight to maintain the original overhook position.",
+        "answer_line": "Switch to Crackhead Control",
+        "distractors": {
+          "plausible": [
+            "Fight to keep the overhook",
+            "Reset to neutral guard"
+          ],
+          "trap": [
+            "Chase the arm with both hands"
+          ]
+        }
       },
       {
         "question": "What makes flexibility critical for New York Control retention?",
-        "answer": "The leg wrap requires exceptional hip external rotation and hamstring flexibility to maintain the foot near the opponent's far shoulder while keeping active pressure. Without adequate range of motion, the leg position becomes shallow and easily cleared. The overhook also requires shoulder mobility to reach deep enough for structural control. Insufficient flexibility means you cannot achieve the angles needed for submission threats."
+        "answer": "The leg wrap requires exceptional hip external rotation and hamstring flexibility to maintain the foot near the opponent's far shoulder while keeping active pressure. Without adequate range of motion, the leg position becomes shallow and easily cleared. The overhook also requires shoulder mobility to reach deep enough for structural control. Insufficient flexibility means you cannot achieve the angles needed for submission threats.",
+        "answer_line": "Deep hip and hamstring flexibility",
+        "distractors": {
+          "plausible": [
+            "Grip strength for the overhook",
+            "Core strength for control"
+          ],
+          "trap": [
+            "Flexibility barely matters"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining constant offensive pressure from New York?",
-        "answer": "Use structural positioning rather than muscular effort for primary controls - let your leg weight and bone alignment create pressure instead of squeezing constantly. Transition between submission threats rhythmically rather than holding static positions. The opponent should feel constant pressure, but you achieve this through technique cycling rather than sustained muscular contraction. Rest comes during transitions, not during holds."
+        "answer": "Use structural positioning rather than muscular effort for primary controls - let your leg weight and bone alignment create pressure instead of squeezing constantly. Transition between submission threats rhythmically rather than holding static positions. The opponent should feel constant pressure, but you achieve this through technique cycling rather than sustained muscular contraction. Rest comes during transitions, not during holds.",
+        "answer_line": "Use structure, cycle threats",
+        "distractors": {
+          "plausible": [
+            "Squeeze constantly to tire them",
+            "Hold one static position"
+          ],
+          "trap": [
+            "Grip as hard as possible always"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "jT4wPY2Dc_U",
+        "title": "Dead Orchard Armbar from Rubber Guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "James O'Brien",
+        "duration": 88,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Cllvkg2qg-w",
+        "title": "Rubber Guard Live Drills",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines New York Control and distinguishes it from an ordinary high guard?",
+      "answer": "New York Control is a rubber guard variation where the bottom player's leg is wrapped over the opponent's shoulder and driven across the back, with the foot positioned near or on the opposite shoulder, while the same-side arm secures a deep overhook. Unlike a generic high guard, the defining feature is the simultaneous leg-over-shoulder and overhook connection on the same side, which locks the opponent's near arm and posture into one controlled unit. This shared skeleton exists regardless of who is winning the exchange, and it is what converts a retention frame into a submission-loaded structure. The configuration collapses if either the leg depth or the overhook connection is lost.",
+      "answer_line": "Leg-over-shoulder + same-side hook",
+      "distractors": {
+        "plausible": [
+          "High guard with a tight overhook",
+          "Leg hook plus crossface control"
+        ],
+        "trap": [
+          "Overhook with legs on the hips"
+        ]
+      }
+    },
+    {
+      "question": "Why is the same-side pairing of leg and overhook the mechanical heart of the position?",
+      "answer": "The leg over the shoulder and the overhook on the same side trap the opponent's near arm and head between two convergent controls, eliminating the space that arm would otherwise use to post, frame, or hand-fight. Because both controls pull toward the same line, they compound rather than compete, folding the opponent's upper body forward and inward. This pairing is what makes posture recovery mechanically difficult for the top player and what feeds the gogoplata, triangle, and omoplata angles for the bottom player. Splitting the leg from the overhook onto opposite sides destroys the position entirely.",
+      "answer_line": "Same-side pull traps arm, head",
+      "distractors": {
+        "plausible": [
+          "Opposite sides give more angles",
+          "Same side just adds stability"
+        ],
+        "trap": [
+          "Split leg and hook for reach"
+        ]
+      }
+    },
+    {
+      "question": "How does posture and weight distribution behave for both players inside New York Control?",
+      "answer": "The bottom player carries weight through the upper back and shoulders with the hips elevated and mobile, deliberately trading the flat, based stability of conventional guard for submission proximity. The top player is prevented from establishing vertical posture because the leg across the back folds them forward, so their weight tends to load onto the trapped shoulder rather than driving cleanly downward. Neither player enjoys a stable base in the traditional sense, which is why the position feels precarious to practitioners trained in orthodox guard. Stability comes from the interlocking controls, not from posting or basing.",
+      "answer_line": "Controls give stability, not base",
+      "distractors": {
+        "plausible": [
+          "Top keeps a normal solid base",
+          "Bottom stays flat and stable"
+        ],
+        "trap": [
+          "Top drives weight straight down"
+        ]
+      }
+    },
+    {
+      "question": "What role does opponent flexibility and closeness play in whether New York Control can exist at all?",
+      "answer": "The position requires the bottom player to have enough hip external rotation and hamstring range to wrap the leg over the shoulder and keep the foot near the far shoulder under active pressure. It also requires the two bodies to be close together, because any excessive gap prevents the leg from clearing the shoulder and reduces the overhook to a shallow grip. When flexibility or closeness is insufficient, the leg sits shallow and is easily cleared, meaning the configuration never truly forms. This is why range of motion is treated as a precondition rather than an optimization for either player.",
+      "answer_line": "Flexibility and closeness needed",
+      "distractors": {
+        "plausible": [
+          "Only strength sets the depth",
+          "Distance doesn't affect control"
+        ],
+        "trap": [
+          "Create space to set it deeper"
+        ]
+      }
+    },
+    {
+      "question": "Why does forward pressure from the top and posture-breaking from the bottom describe the same underlying dynamic?",
+      "answer": "In New York Control the top player's instinct to drive forward and the bottom player's goal of breaking posture push along the same mechanical axis, so forward pressure deepens the very leg-and-overhook structure that threatens submission. Driving in feeds the opponent's leg deeper across the back and shoulder, tightening the angle for gogoplata and triangle finishes. This is why the position punishes conventional pressure-passing: the aggressive response accelerates the attacker's setup rather than relieving it. The shared truth is that closing distance always favors the structure, not the person trying to escape it.",
+      "answer_line": "Closing distance favors structure",
+      "distractors": {
+        "plausible": [
+          "Distance always favors escape",
+          "Pressure and posture opposed"
+        ],
+        "trap": [
+          "Drive in hard to break free"
+        ]
+      }
+    },
+    {
+      "question": "How does New York Control relate to the adjacent rubber guard positions Mission Control, Invisible Collar, and Zombie?",
+      "answer": "All four are interconnected control points within the 10th Planet rubber guard system that share the priority of destroying the opponent's posture, but they differ in the depth and role of the controlling leg. New York Control is distinguished by the leg wrapping fully over the shoulder combined with a same-side overhook, which places it further along the submission chain because that leg-over-shoulder depth directly threatens the gogoplata. Because these positions interconvert, losing the overhook or leg depth commonly regresses New York toward Mission Control or Invisible Collar rather than fully releasing the guard. The defining variable between them is how deeply and for what purpose the leg controls the opponent's upper body.",
+      "answer_line": "They differ by leg depth",
+      "distractors": {
+        "plausible": [
+          "They're unrelated separate guards",
+          "Zombie is the deepest control"
+        ],
+        "trap": [
+          "Release leg for Mission Control"
+        ]
+      }
+    },
+    {
+      "question": "What makes the overhook a load-bearing control whose loss reopens the top player's defenses?",
+      "answer": "The overhook threads under the opponent's near armpit and clasps the shoulder, neck, or the bottom player's own leg, and it denies the top player the arm they would otherwise use to hand-fight, frame, or strip the leg. Because it isolates that near arm, the overhook indirectly protects the leg control and the submission angles that depend on a broken posture. When the overhook is compromised, the trapped arm frees, posture becomes recoverable, and the leg can be cleared, which is why both players treat the overhook connection as a pivot of the exchange. It works as a paired lock with the leg, so losing either the overhook or the leg depth is enough to unravel the structure.",
+      "answer_line": "Overhook isolates the near arm",
+      "distractors": {
+        "plausible": [
+          "Overhook mainly adds power",
+          "Losing overhook barely matters"
+        ],
+        "trap": [
+          "Trade overhook for a body lock"
+        ]
+      }
+    },
+    {
+      "question": "Why is New York Control best understood as a transitional junction rather than a static holding position?",
+      "answer": "The interlocking leg and overhook create a structure that is dynamically stable only while pressure and angles keep shifting, so holding it motionless lets the opponent gradually work free through sustained framing. It functions as a hub where each defensive reaction opens a specific next option, connecting to Mission Control, Invisible Collar, Zombie, and the triangle, omoplata, and gogoplata attack lines. The position derives its threat from this branching connectivity rather than from raw holding power. Treating it as a destination rather than a crossroads causes it to decay in both directions, toward escape for the top player and toward stalling for the bottom.",
+      "answer_line": "It's a hub, not a static hold",
+      "distractors": {
+        "plausible": [
+          "Hold still to save energy",
+          "Static holds outlast framing"
+        ],
+        "trap": [
+          "Freeze once it's locked in"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "tWAZbCiWQ9E",
+      "title": "Rubber Guard Philosophy",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "h1XzZDsUxHQ",
+      "title": "Eddie Bravo explains Rubber Guard",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JAN FERNANDEZ ",
+      "duration": 111,
+      "verified": "2026-07-14"
+    }
+  ]
 }

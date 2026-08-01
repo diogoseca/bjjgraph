@@ -34,6 +34,43 @@ description: "Enter the Aoki Lock from Turtle Top in no-gi BJJ. Isolate the arm,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Aoki Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly down ankle lock setup from turtle",
+      "description": "Turtle to Aoki Lock film study: Belly down ankle lock setup from turtle, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dyxkw13p49I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dyxkw13p49I",
+      "url": "https://www.youtube.com/watch?v=Dyxkw13p49I",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Aoki lock from butterfly ashi",
+      "description": "Turtle to Aoki Lock film study: Aoki lock from butterfly ashi, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tQWfhZiDREc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tQWfhZiDREc",
+      "url": "https://www.youtube.com/watch?v=tQWfhZiDREc",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Because the turtle is a scramble-heavy position, this entry carries genuine risk
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Aoki Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dyxkw13p49I)
+
+<p class="clip-credit"><strong>Belly down ankle lock setup from turtle</strong> — taught by Revolution BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=Dyxkw13p49I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tQWfhZiDREc)
+
+<p class="clip-credit"><strong>Aoki lock from butterfly ashi</strong> — taught by Factory Fresh Jiu Jitsu · 1:17 · <a href="https://www.youtube.com/watch?v=tQWfhZiDREc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

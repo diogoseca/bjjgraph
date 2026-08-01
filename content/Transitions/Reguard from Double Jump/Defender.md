@@ -140,6 +140,43 @@ description: "Complete guide to preventing the reguard from Double Jump top in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard from Double Jump (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to avoid getting stuck in closed guard",
+      "description": "Reguard from Double Jump (Defender) film study: How to avoid getting stuck in closed guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d_zfY7Kjezo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d_zfY7Kjezo",
+      "url": "https://www.youtube.com/watch?v=d_zfY7Kjezo",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT389S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "A simple trick to escape closed guard",
+      "description": "Reguard from Double Jump (Defender) film study: A simple trick to escape closed guard, taught by Stay Safe Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r6mDDpc5474/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r6mDDpc5474",
+      "url": "https://www.youtube.com/watch?v=r6mDDpc5474",
+      "creator": { "@type": "Person", "name": "Stay Safe Martial Arts" },
+      "duration": "PT279S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the reguard from Double Jump, your objective is to maint
 **Opponent's Starting Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard from Double Jump (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d_zfY7Kjezo)
+
+<p class="clip-credit"><strong>How to avoid getting stuck in closed guard</strong> — taught by Matt Arroyo · 6:29 · <a href="https://www.youtube.com/watch?v=d_zfY7Kjezo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r6mDDpc5474)
+
+<p class="clip-credit"><strong>A simple trick to escape closed guard</strong> — taught by Stay Safe Martial Arts · 4:39 · <a href="https://www.youtube.com/watch?v=r6mDDpc5474" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

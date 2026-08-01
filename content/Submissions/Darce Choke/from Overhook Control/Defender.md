@@ -150,6 +150,54 @@ description: "Defend the Darce Choke from Overhook Control with recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke from Overhook Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the Darce choke, stack escape",
+      "description": "Darce Choke from Overhook Control (Defender) film study: Defending the Darce choke, stack escape, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FMAWiNfgp74/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FMAWiNfgp74",
+      "url": "https://www.youtube.com/watch?v=FMAWiNfgp74",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Underhook half guard vs darce and guillotine",
+      "description": "Darce Choke from Overhook Control (Defender) film study: Underhook half guard vs darce and guillotine, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dM1xebWBFzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dM1xebWBFzc",
+      "url": "https://www.youtube.com/watch?v=dM1xebWBFzc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT369S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "D\u0027arce choke defense breakdown",
+      "description": "Darce Choke from Overhook Control (Defender) film study: D\u0027arce choke defense breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ug2Kxs54GuU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ug2Kxs54GuU",
+      "url": "https://www.youtube.com/watch?v=ug2Kxs54GuU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT714S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Darce Choke from Overhook Control demands early recognition of the
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke from Overhook Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FMAWiNfgp74)
+
+<p class="clip-credit"><strong>Defending the Darce choke, stack escape</strong> — taught by BJJ101 · 0:30 · <a href="https://www.youtube.com/watch?v=FMAWiNfgp74" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dM1xebWBFzc)
+
+<p class="clip-credit"><strong>Underhook half guard vs darce and guillotine</strong> — taught by Lachlan Giles · 6:09 · <a href="https://www.youtube.com/watch?v=dM1xebWBFzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ug2Kxs54GuU)
+
+<p class="clip-credit"><strong>D&#39;arce choke defense breakdown</strong> — taught by Lachlan Giles · 11:54 · <a href="https://www.youtube.com/watch?v=ug2Kxs54GuU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

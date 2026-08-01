@@ -140,6 +140,43 @@ description: "Learn to defend the Lasso Guard Backstep Pass. Recognition cues, t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lasso Guard Backstep Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defend a kneebar and prevent the backstep pass",
+      "description": "Lasso Guard Backstep Pass (Defender) film study: Defend a kneebar and prevent the backstep pass, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: when to sit up escape",
+      "description": "Lasso Guard Backstep Pass (Defender) film study: Guard retention: when to sit up escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Lasso Guard Backstep Pass from the bottom lasso guard position req
 **Opponent's Starting Position**: [[Positions/Lasso Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lasso Guard Backstep Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+
+<p class="clip-credit"><strong>Defend a kneebar and prevent the backstep pass</strong> — taught by Revolution BJJ · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -156,6 +156,54 @@ description: "Defend against the 3-4 Mount to Technical Mount transition in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "3-4 Mount to Technical Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Technical mount escape: out the back",
+      "description": "3-4 Mount to Technical Mount (Defender) film study: Technical mount escape: out the back, taught by smallmanbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NHrpJdU8wCQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NHrpJdU8wCQ",
+      "url": "https://www.youtube.com/watch?v=NHrpJdU8wCQ",
+      "creator": { "@type": "Person", "name": "smallmanbjj" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape",
+      "description": "3-4 Mount to Technical Mount (Defender) film study: Mount escape, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uTuPvxQUOo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uTuPvxQUOo4",
+      "url": "https://www.youtube.com/watch?v=uTuPvxQUOo4",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Common mount escape mistakes",
+      "description": "3-4 Mount to Technical Mount (Defender) film study: Common mount escape mistakes, taught by John Kelly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oQNYQGwwsYo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oQNYQGwwsYo",
+      "url": "https://www.youtube.com/watch?v=oQNYQGwwsYo",
+      "creator": { "@type": "Person", "name": "John Kelly" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +213,42 @@ From the defender's perspective, the 3-4 Mount to Technical Mount transition rep
 **Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 3-4 Mount to Technical Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NHrpJdU8wCQ)
+
+<p class="clip-credit"><strong>Technical mount escape: out the back</strong> — taught by smallmanbjj · 0:58 · <a href="https://www.youtube.com/watch?v=NHrpJdU8wCQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uTuPvxQUOo4)
+
+<p class="clip-credit"><strong>Mount escape</strong> — taught by bjjtaro · 0:23 · <a href="https://www.youtube.com/watch?v=uTuPvxQUOo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oQNYQGwwsYo)
+
+<p class="clip-credit"><strong>Common mount escape mistakes</strong> — taught by John Kelly · 1:28 · <a href="https://www.youtube.com/watch?v=oQNYQGwwsYo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

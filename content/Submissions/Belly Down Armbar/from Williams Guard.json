@@ -17,7 +17,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Williams Guard",
   "from_position": "Williams Guard/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The belly down armbar from Williams Guard converts the shoulder-lock figure-four grip into a prone armbar by rotating belly-down over the trapped arm, finishing with hip extension that neutralizes the stack defense common to guard armbars.",
   "overview": "The belly down armbar finish from Williams Guard leverages the pre-existing arm isolation of the shoulder lock grip to transition directly into a prone armbar position. Unlike standard guard armbars where the attacker remains supine and vulnerable to stacking defenses, the belly down rotation creates a dominant finishing angle that neutralizes the opponent's primary escape mechanism. The Williams Guard configuration provides an ideal launch point because the figure-four grip already controls the arm in a position that maps directly to armbar wrist control, eliminating the most difficult phase of any armbar attempt.\n\nThe technical sequence begins with the bottom practitioner creating hip angle through a shrimp, then swinging the far leg over the opponent's head while maintaining arm control. Rather than falling back for a conventional armbar, the attacker continues the rotational momentum to arrive in a prone position with knees pinched tight around the upper arm. This rotation transforms a bottom guard position into a top finishing position where gravity assists the hip extension that produces the tap.\n\nFrom a strategic perspective, this submission addresses the primary weakness of guard-based armbars: the stack defense. Experienced grapplers instinctively drive forward when they feel armbar mechanics developing from guard. The belly down transition uses this defensive reaction against the opponent, as their forward pressure actually assists the rotation. This makes the technique particularly effective in competition against defensive opponents who have trained extensively to defend conventional armbar attacks from guard positions.",
   "safety_considerations": {
@@ -103,17 +106,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Williams Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -264,42 +276,151 @@
       {
         "question": "What anatomical structure does the belly down armbar from Williams Guard primarily attack?",
         "answer": "The technique attacks the elbow joint through hyperextension, specifically stressing the ulnar collateral ligament and the joint capsule. The fulcrum is created by the attacker's hip bones pressing against the back of the elbow while the wrist is controlled and the hips extend toward the mat. Secondary stress occurs on the biceps tendon as it resists the forced extension.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Elbow: UCL hyperextension",
+        "distractors": {
+          "plausible": [
+            "Shoulder capsule strain",
+            "Wrist joint rotation"
+          ],
+          "trap": [
+            "Twist the wrist to force a tap"
+          ]
+        }
       },
       {
         "question": "Why does the belly down position eliminate the stacking defense that defeats most guard armbars?",
         "answer": "In a standard supine armbar from guard, the opponent can drive forward and stack their weight on top of the attacker to relieve extension pressure and create extraction angles. The belly down rotation moves the attacker to a prone position where they are face-down with the arm trapped beneath them. The opponent cannot stack someone who is already belly-down because there is no space beneath the attacker to drive into—their body weight works with the submission rather than against it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No space beneath to stack into",
+        "distractors": {
+          "plausible": [
+            "Opponent loses all base",
+            "Attacker's hips block posture"
+          ],
+          "trap": [
+            "Let them stack, then re-rotate"
+          ]
+        }
       },
       {
         "question": "What grip transition occurs during the rotation and how do you prevent losing arm control?",
         "answer": "The grip transitions from the Williams Guard figure-four shoulder lock configuration to a two-on-one wrist control. To prevent losing the arm, slide your hands along the opponent's arm rather than releasing and regripping. Maintain at least one point of contact throughout the transition. The figure-four provides strong initial control, and the wrist grip provides the extension leverage needed for the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four slides to wrist",
+        "distractors": {
+          "plausible": [
+            "Wrist grip shifts to figure-four",
+            "Both hands re-grip the elbow"
+          ],
+          "trap": [
+            "Release the arm to regrip fast"
+          ]
+        }
       },
       {
         "question": "Your opponent starts clasping their hands together in a prayer grip to resist the extension—what adjustment do you make?",
         "answer": "Maintain the belly down position and tighten your knee squeeze around their upper arm. Attack the prayer grip by peeling the top hand's fingers, or rotate your body slightly toward their thumb side to break the grip structure through angular pressure rather than pulling straight. You can also walk your hips slightly higher on the arm to increase leverage. The belly down position gives you time and stability to systematically break the grip without losing position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel top hand toward thumb side",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Switch to a keylock instead"
+          ],
+          "trap": [
+            "Release knee squeeze to regrip"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender during this submission sequence?",
         "answer": "The point of no escape occurs when the attacker completes the belly down rotation with tight knee squeeze, hips aligned directly over the back of the elbow, and wrist secured to the chest. Once all three elements are in place, the mechanical advantage is overwhelming and the defender cannot generate enough force to extract the arm or relieve the extension pressure. Defensive action must occur before or during the rotation to be effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees, hips, and wrist all locked",
+        "distractors": {
+          "plausible": [
+            "As soon as rotation begins",
+            "When far leg crosses their face"
+          ],
+          "trap": [
+            "Only once they verbally tap"
+          ]
+        }
       },
       {
         "question": "Why must hip extension pressure be applied slowly during the belly down finish?",
         "answer": "The belly down position generates significantly more mechanical advantage than a standard supine armbar because the attacker's full body weight reinforces the hip extension. This means the elbow can reach its breaking point much faster than practitioners expect. Applying pressure slowly gives the opponent adequate time to recognize the danger and tap before ligament damage occurs. Jerking or spiking the arm in this position frequently causes serious elbow injuries including ulnar collateral ligament tears.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lets them tap before injury",
+        "distractors": {
+          "plausible": [
+            "Slow to build up more force",
+            "Slow keeps the arm controlled"
+          ],
+          "trap": [
+            "Speed forces a quicker finish"
+          ]
+        }
       },
       {
         "question": "How does creating hip angle before the rotation affect the success of the belly down transition?",
         "answer": "The 45-degree hip angle created by the initial hip escape provides rotational momentum that carries the attacker through the belly down transition smoothly. Without this angle, the rotation stalls midway because there is insufficient energy to complete the movement while maintaining arm control. The hip escape also positions the far leg at the correct angle to swing over the opponent's head, which is geometrically impossible from a square-hips starting position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gives rotational momentum",
+        "distractors": {
+          "plausible": [
+            "Only improves grip strength",
+            "Keeps opponent flat on back"
+          ],
+          "trap": [
+            "Skip the angle, rotate faster"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending aggressively and you cannot complete the belly down rotation—what alternative attacks does Williams Guard provide?",
         "answer": "Williams Guard offers multiple alternative attacks when the belly down armbar is defended. If the opponent postures up to prevent the leg from crossing their face, transition to an omoplata by rotating your hips and threading your leg over their shoulder. If they drive forward to stack, use their momentum for a triangle setup or back take. The shoulder lock itself remains a viable submission threat throughout. These alternatives create a submission chain where defending one attack opens another.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Omoplata, triangle, back take",
+        "distractors": {
+          "plausible": [
+            "Wrist lock off the same grip",
+            "Collar drag to a single leg"
+          ],
+          "trap": [
+            "Let go and stand to pass"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "xfrzFDc5PGw",
+        "title": "Williams Guard Armbar in Competition",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 10,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "dkuNBLWny9A",
+        "title": "Far armbar from the Williams guard",
+        "by": "Shawn Williams",
+        "vertical": false,
+        "channel": "JiuJitsuMag",
+        "duration": 161,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "O9yHOpMRgtU",
+        "title": "The Williams guard armbar",
+        "by": "Shawn Williams",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 217,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -385,27 +506,77 @@
       {
         "question": "How do you recognize that a belly down armbar is being set up from Williams Guard?",
         "answer": "The primary recognition cues are sequential: first, the bottom player executes a hip escape to create angle while maintaining the shoulder lock grip. Second, their far leg begins swinging upward toward your head. Third, you feel the grip shift from the figure-four shoulder lock to wrist control. Recognizing the hip escape—the first cue—gives you the largest defensive window to intervene before the technique develops.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip escape is the earliest cue",
+        "distractors": {
+          "plausible": [
+            "They flatten out and posture up",
+            "Their collar grip suddenly tightens"
+          ],
+          "trap": [
+            "Wait for full rotation to react"
+          ]
+        }
       },
       {
         "question": "What is the safest time to tap when caught in the belly down armbar finish?",
         "answer": "Tap immediately when you feel extension pressure beginning on your elbow joint in the belly down position. Do not wait to see if you can escape once you feel the hips driving down—the mechanical advantage in prone position is enormous and the elbow can reach its breaking point much faster than in a standard armbar. Use verbal and physical tap signals simultaneously. If you cannot reach the attacker with your free hand, tap the mat loudly or verbalize immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first elbow pressure",
+        "distractors": {
+          "plausible": [
+            "Wait to test an escape first",
+            "Tap once hips drive down fully"
+          ],
+          "trap": [
+            "Fight through, arm can take it"
+          ]
+        }
       },
       {
         "question": "Why is early intervention during the hip angle phase more effective than defending the completed belly down position?",
         "answer": "During the hip angle phase, the attacker has not yet established the armbar mechanics—they are still in a modified Williams Guard position. Disrupting the angle through forward pressure or arm extraction at this stage returns you to a standard guard passing scenario. Once the belly down position is complete, the attacker has full mechanical advantage with body weight, knee squeeze, and hip extension all working together, leaving virtually no leverage available for escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Mechanics aren't locked in yet",
+        "distractors": {
+          "plausible": [
+            "Opponent tires from rotating",
+            "Grip is weakest at that point"
+          ],
+          "trap": [
+            "Wait, easier to escape prone"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when the belly down rotation is already in progress?",
         "answer": "When the rotation is in progress, your primary options are clasping your hands together in a prayer grip to prevent arm extension, and rolling through in the same direction as the attacker's rotation to create a scramble. The prayer grip buys time for arm extraction using circular movements toward your centerline. Rolling through disrupts the attacker's positioning during their most vulnerable moment—mid-rotation—and can create opportunities to free your arm during the resulting chaos.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Prayer grip or roll with them",
+        "distractors": {
+          "plausible": [
+            "Pull your arm straight back",
+            "Push their hips away hard"
+          ],
+          "trap": [
+            "Stay still and wait it out"
+          ]
+        }
       },
       {
         "question": "Why should you avoid pulling your arm straight back to escape the armbar control?",
         "answer": "Straight pulling works directly against the mechanical structure of the armbar control, where the attacker's entire body reinforces the grip. This approach is energy-intensive and often increases elbow pressure as you extend your own arm against their fulcrum. Instead, use circular extraction movements rotating your arm toward your own hip and centerline. These small circles change the force angle and disengage the grip mechanics rather than fighting them head-on.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fights the fulcrum; use circles",
+        "distractors": {
+          "plausible": [
+            "Straight pulls just tire your grip",
+            "Circles are only for wrist locks"
+          ],
+          "trap": [
+            "Yank the arm free with force"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -428,6 +599,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defense integration against varied attacks from Williams Guard",
         "description": "Start in Williams Guard with full resistance. Partner attacks with belly down armbar, omoplata, triangle, and other options. Practice recognizing which attack is developing and applying the correct defensive response. Builds pattern recognition under pressure and integrates individual defensive techniques into a complete defensive system. 3-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My Favorite Armbar Escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "58eCiNxdOiI",
+        "title": "Why Your Armbar from Guard Always Fails",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 76,
+        "verified": "2026-07-14"
       }
     ]
   }

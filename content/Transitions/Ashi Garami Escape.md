@@ -34,6 +34,54 @@ description: "Master Ashi Garami escape techniques in BJJ. Learn systematic leg 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Garami Escape \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi garami escape: sit over the foot to mount",
+      "description": "Ashi Garami Escape film study: Ashi garami escape: sit over the foot to mount, taught by Troy Manning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4UEhHwbGfQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4UEhHwbGfQ",
+      "url": "https://www.youtube.com/watch?v=m4UEhHwbGfQ",
+      "creator": { "@type": "Person", "name": "Troy Manning" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg defense from ashi garami",
+      "description": "Ashi Garami Escape film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping ashi garami",
+      "description": "Ashi Garami Escape film study: Escaping ashi garami, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Success depends on understanding the hierarchical nature of leg entanglements an
 The technique emphasizes hip positioning, frame management, and timing to create space for leg removal while maintaining constant defensive awareness of submission threats. Heel protection through proper foot positioning must be maintained throughout the entire escape sequence. This technique is essential for anyone training in modern submission grappling, as leg entanglements have become the primary offensive system in contemporary no-gi competition and training.
 
 **From Position**: [[Positions/Ashi Garami]] (Top)
-**Success Rate**: 55%
+**Success Rate**: 27%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Garami Escape in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4UEhHwbGfQ)
+
+<p class="clip-credit"><strong>Ashi garami escape: sit over the foot to mount</strong> — taught by Troy Manning · 1:16 · <a href="https://www.youtube.com/watch?v=m4UEhHwbGfQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -248,7 +332,7 @@ The ashi garami escape is a critical defensive skill within the modern leg lock 
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Related Position - Symmetrical entanglement with different bilateral escape requirements
 
-- [[Transitions/Heel Hook]] - Primary Threat - Main submission to defend against from ashi garami positions
+- [[Submissions/Heel Hook]] - Primary Threat - Main submission to defend against from ashi garami positions
 
 - [[Submissions/Straight Ankle Lock]] - Secondary Threat - Common submission attempt from standard ashi garami
 

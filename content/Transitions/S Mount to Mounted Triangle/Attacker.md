@@ -174,6 +174,54 @@ description: "Execute the S Mount to Mounted Triangle transition with precision.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "S Mount to Mounted Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mounted triangle entry and finish",
+      "description": "S Mount to Mounted Triangle (Attacker) film study: Mounted triangle entry and finish, taught by Satori BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vLUua_voKzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vLUua_voKzc",
+      "url": "https://www.youtube.com/watch?v=vLUua_voKzc",
+      "creator": { "@type": "Person", "name": "Satori BJJ coach" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the mounted triangle",
+      "description": "S Mount to Mounted Triangle (Attacker) film study: Finishing the mounted triangle, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1hjapzU7lQg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1hjapzU7lQg",
+      "url": "https://www.youtube.com/watch?v=1hjapzU7lQg",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT177S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle choke entry from top mount",
+      "description": "S Mount to Mounted Triangle (Attacker) film study: Triangle choke entry from top mount, taught by Stay Safe Martial Arts coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MZ8j0IPVS9o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MZ8j0IPVS9o",
+      "url": "https://www.youtube.com/watch?v=MZ8j0IPVS9o",
+      "creator": { "@type": "Person", "name": "Stay Safe Martial Arts coach" },
+      "duration": "PT182S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 **From Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch S Mount to Mounted Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vLUua_voKzc)
+
+<p class="clip-credit"><strong>Mounted triangle entry and finish</strong> — taught by Satori BJJ coach · 0:53 · <a href="https://www.youtube.com/watch?v=vLUua_voKzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1hjapzU7lQg)
+
+<p class="clip-credit"><strong>Finishing the mounted triangle</strong> — taught by Brandon McCaghren · 2:57 · <a href="https://www.youtube.com/watch?v=1hjapzU7lQg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MZ8j0IPVS9o)
+
+<p class="clip-credit"><strong>Triangle choke entry from top mount</strong> — taught by Stay Safe Martial Arts coach · 3:02 · <a href="https://www.youtube.com/watch?v=MZ8j0IPVS9o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

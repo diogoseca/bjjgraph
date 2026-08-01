@@ -126,6 +126,54 @@ description: "Learn to counter the Roll Defense from Anaconda as the attacker wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Defense from Anaconda (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda Choke Defense and Counter",
+      "description": "Roll Defense from Anaconda (Defender) film study: Anaconda Choke Defense and Counter, taught by Cyril Robert.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s94GexEkoQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s94GexEkoQ0",
+      "url": "https://www.youtube.com/watch?v=s94GexEkoQ0",
+      "creator": { "@type": "Person", "name": "Cyril Robert" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda Defense to Americana",
+      "description": "Roll Defense from Anaconda (Defender) film study: Anaconda Defense to Americana, taught by Gracie Barra Newcastle City.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yqz0JQuZGes/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yqz0JQuZGes",
+      "url": "https://www.youtube.com/watch?v=Yqz0JQuZGes",
+      "creator": { "@type": "Person", "name": "Gracie Barra Newcastle City" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three Ways to Prevent the Sucker Drag",
+      "description": "Roll Defense from Anaconda (Defender) film study: Three Ways to Prevent the Sucker Drag, taught by Drew Darce.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/guHPx-OKi0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/guHPx-OKi0M",
+      "url": "https://www.youtube.com/watch?v=guHPx-OKi0M",
+      "creator": { "@type": "Person", "name": "Drew Darce" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -135,6 +183,42 @@ As the person holding the anaconda grip and attempting the roll-through finish, 
 **Opponent's Starting Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Defense from Anaconda (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s94GexEkoQ0)
+
+<p class="clip-credit"><strong>Anaconda Choke Defense and Counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yqz0JQuZGes)
+
+<p class="clip-credit"><strong>Anaconda Defense to Americana</strong> — taught by Gracie Barra Newcastle City · 0:40 · <a href="https://www.youtube.com/watch?v=Yqz0JQuZGes" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=guHPx-OKi0M)
+
+<p class="clip-credit"><strong>Three Ways to Prevent the Sucker Drag</strong> — taught by Drew Darce · 2:39 · <a href="https://www.youtube.com/watch?v=guHPx-OKi0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

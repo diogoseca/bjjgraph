@@ -16,7 +16,10 @@
   "target_area": "Elbow joint",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Armbar from Side Control is a top-position joint lock that isolates the opponent's near arm, steps a leg over their head, and hyperextends the elbow across your hips to force the tap.",
   "overview": "As one of the most reliable joint locks available to the top player, this armbar converts the positional dominance and control established in side control directly into a fight-ending attack on the elbow joint. It works by isolating the opponent's arm, typically the near arm, and creating a fulcrum across your hips while extending their elbow beyond its natural range of motion.\n\nThe effectiveness of this armbar lies in the combination of positional control and precise technical execution. Unlike the armbar from mount or guard, the side control variation requires careful attention to maintaining weight distribution and preventing the opponent from turning into you or escaping their hips. The transitional phase—stepping your leg over the opponent's head while maintaining arm isolation—is the most vulnerable moment and demands methodical setup.\n\nThe submission can be entered from various side control variations including standard side control, kesa gatame, kuzure kesa-gatame, and knee on belly, making it a versatile finishing option from top position. Chain attacks to kimura, americana, and arm triangle create a comprehensive submission system where defending one threat opens another.",
   "safety_considerations": {
@@ -68,17 +71,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -298,62 +310,211 @@
       {
         "question": "What is the minimum application time for an armbar in training, and why is this critical?",
         "answer": "The minimum application time is 3-5 seconds of progressive pressure. This is critical because it gives your training partner adequate time to recognize the submission and tap before injury occurs. Elbow joints can be severely damaged in a fraction of a second if jerked or spiked, so slow, controlled application is essential for safety and allows both practitioners to learn the technique properly without fear of injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 sec of progressive pressure",
+        "distractors": {
+          "plausible": [
+            "Under one second is enough",
+            "Timing doesn't matter, angle does"
+          ],
+          "trap": [
+            "Snap it fast before they brace"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the armbar attack, and what is the breaking mechanism?",
         "answer": "The armbar attacks the elbow joint, specifically hyperextending it beyond its natural range of motion. The humerus (upper arm bone) is fixed against your hips while the radius and ulna (forearm bones) are controlled at the wrist. Your hip elevation creates a fulcrum that forces the elbow joint open against its natural hinge direction, applying pressure to the ligaments and joint capsule until submission or injury occurs.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hyperextend the elbow joint",
+        "distractors": {
+          "plausible": [
+            "Rotate the shoulder to break",
+            "Compress the biceps muscle"
+          ],
+          "trap": [
+            "Drop your hips to finish"
+          ]
+        }
       },
       {
         "question": "What direction should the opponent's thumb point when executing the armbar, and what happens if this is incorrect?",
         "answer": "The opponent's thumb should point upward toward the ceiling. If the thumb points down, the pressure is applied to the wrong part of the elbow joint, making the submission less effective and potentially dangerous to the wrong structures. Proper thumb positioning ensures the hyperextension pressure is applied to the natural hinge of the elbow joint (the back of the elbow/tricep side against the fulcrum).",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thumb points up toward ceiling",
+        "distractors": {
+          "plausible": [
+            "Point it down toward their hip",
+            "Rotate palm flat and sideways"
+          ],
+          "trap": [
+            "Crank hard before they can tap"
+          ]
+        }
       },
       {
         "question": "Your opponent starts stacking you by driving their weight forward during the finish - what adjustment maintains the submission?",
         "answer": "When stacked, immediately angle your body away from the stack direction while maintaining arm control. Use your leg across their face to prevent them from fully closing distance. If the stack is severe, transition to a belly-down armbar by rotating your hips and extending while on your stomach. The key is keeping their arm controlled and your hips as the fulcrum point regardless of your body angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Angle away, leg across face",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight harder",
+            "Flatten your back and hold on"
+          ],
+          "trap": [
+            "Cross your ankles and squeeze"
+          ]
+        }
       },
       {
         "question": "Which part of your body creates the fulcrum for the armbar finish, and which part generates the extension force?",
         "answer": "Your hip bones create the fulcrum—the opponent's elbow should be positioned directly over your hips. The extension force is generated by lifting your hips upward, not by pulling with your arms. Your arms hold the wrist in position while your hip extension creates the leverage that hyperextends the elbow. This mechanical understanding makes the technique efficient and powerful regardless of strength differential.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips fulcrum, hip lift = force",
+        "distractors": {
+          "plausible": [
+            "Arms pull, hips just hold",
+            "Shoulders drive the force"
+          ],
+          "trap": [
+            "Yank the wrist to snap it"
+          ]
+        }
       },
       {
         "question": "What are the immediate steps in the release protocol when your training partner taps to an armbar?",
         "answer": "Immediately stop all extension pressure, release hip pressure by lowering your hips, open your legs to allow the arm to bend naturally, maintain light control while removing all finishing pressure, and verbally check with your partner before resuming training. The release must be as controlled as the application—never just let go suddenly as this can also cause injury from the rapid change in forces on the joint.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop, lower hips, open legs",
+        "distractors": {
+          "plausible": [
+            "Release grip and stand up",
+            "Slide out fast and reset"
+          ],
+          "trap": [
+            "Keep extending after the tap"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own wrist or belt to prevent arm extension - what grip-breaking strategy works best?",
         "answer": "Use a combination of chest pressure and isolation mechanics. First, drive your chest weight down onto their grip hand to weaken it. Then use your hips to create an angle that places their defending arm at a mechanical disadvantage. If the grip persists, consider transitioning to a kimura grip on their defending arm, or insert your near hand behind their elbow and pry while lifting with hip pressure. Breaking their defensive grip is essential before attempting the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pressure, then isolate",
+        "distractors": {
+          "plausible": [
+            "Rip both hands on their wrist",
+            "Sit back and pull with the arms"
+          ],
+          "trap": [
+            "Let go of leg control to pry"
+          ]
+        }
       },
       {
         "question": "What positional control must be established before attempting the step-over transition?",
         "answer": "You must establish heavy chest pressure in side control, secure control of the opponent's far hip to prevent them from turning into you, break any defensive grips they have, and completely isolate the near arm. The opponent should be unable to bridge, shrimp, or create frames. Without this foundational control, the transition will likely fail and you risk losing your dominant position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pressure, far hip, isolate arm",
+        "distractors": {
+          "plausible": [
+            "Near hip control, arm loose",
+            "Crossface only, hips free"
+          ],
+          "trap": [
+            "Step over before securing arm"
+          ]
+        }
       },
       {
         "question": "At what point during the armbar does your opponent lose the ability to effectively escape, and why?",
         "answer": "The point of no escape occurs when your hips are tight against their shoulder with proper perpendicular angle, their arm is fully extended with thumb up, and your knees are pinched controlling their head and torso. At this point, the mechanical advantage is entirely in your favor—any movement they make either relieves their resistance or worsens their position. The only safe option remaining is to tap before the elbow joint reaches its structural limit.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips tight, arm extended, thumb up",
+        "distractors": {
+          "plausible": [
+            "The instant you swing the leg over",
+            "Arm bent with both wrists gripped"
+          ],
+          "trap": [
+            "Sit up mid-finish to adjust grip"
+          ]
+        }
       },
       {
         "question": "How should your body be positioned relative to your opponent's body for maximum armbar effectiveness?",
         "answer": "Your body should be perpendicular to the opponent's torso, forming a T-shape. Your hips should be high on their shoulder with the back of their elbow positioned over your hip bones. Your knees should be pinched together controlling their head and torso. This perpendicular angle maximizes leverage and prevents the opponent from escaping or relieving pressure through rotation or stacking.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular T-shape, hips high",
+        "distractors": {
+          "plausible": [
+            "Parallel alignment, hips low",
+            "Chest down, facing same way"
+          ],
+          "trap": [
+            "Square up and lean back hard"
+          ]
+        }
       },
       {
         "question": "What are the most common grip adjustments needed when your opponent defends by rotating their arm during the finish?",
         "answer": "When they rotate, first ensure you maintain control of the wrist with a firm two-handed grip. If they rotate thumb-down, use your near hand to cup under their elbow and rotate it back to proper position before continuing. If they rotate and begin extracting, switch to controlling their tricep with your legs while your hands focus on the wrist. Advanced grips include figure-four control around the wrist for rotation prevention.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cup elbow, reset thumb-up angle",
+        "distractors": {
+          "plausible": [
+            "Switch to a one-hand grip",
+            "Squeeze knees and wait it out"
+          ],
+          "trap": [
+            "Release wrist to chase tricep"
+          ]
+        }
       },
       {
         "question": "What control must your legs maintain during the armbar, and what happens if this control is lost?",
         "answer": "Your legs must maintain constant control of the opponent's head and torso. One leg should be across their face or neck preventing rotation, while both knees pinch together. If this leg control is lost, the opponent can turn into you, stack you, or extract their arm. The legs are not passive—they actively prevent escape by controlling the opponent's ability to rotate their body or posture up into you.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg over face, knees pinched",
+        "distractors": {
+          "plausible": [
+            "Both feet flat on the mat",
+            "Squeeze thighs, head uncovered"
+          ],
+          "trap": [
+            "Open the knees to adjust height"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "PSgn9TBgwfc",
+        "title": "Side control to Te Gatame armbar",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 77,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hvmfvbXgH90",
+        "title": "Arm bar from Side Control",
+        "by": "Prism Jiu Jitsu",
+        "vertical": false,
+        "channel": "Prism Jiu Jitsu",
+        "duration": 101,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5lEXzhE03BQ",
+        "title": "Armbar from Side Control",
+        "by": "Nicholas Meregali",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 164,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -454,27 +615,77 @@
       {
         "question": "What is the earliest recognition cue that an armbar from side control is being attempted, and what should your immediate response be?",
         "answer": "The earliest cue is when the attacker releases their crossface to begin controlling your near wrist or forearm, often accompanied by a weight shift toward your head. Your immediate response should be to pull your elbow tight to your ribs, denying the arm isolation. If you can prevent the arm from being separated from your body, the armbar sequence cannot proceed. This is your highest-percentage defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Push their head away first",
+            "Reach for their far collar"
+          ],
+          "trap": [
+            "Post that arm flat on the mat"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker during the step-over the most effective defensive action?",
         "answer": "Turning into the attacker prevents them from establishing the perpendicular position needed to finish the armbar. When you turn toward them, your body rotates to face them, which denies the angle their hips need to create the extension fulcrum. Additionally, turning in can transition you toward half guard recovery or even create back-take opportunities if the attacker overcommits to the step-over. The attacker needs you flat on your back to complete the submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn into attacker, deny angle",
+        "distractors": {
+          "plausible": [
+            "Stay flat and bridge hard",
+            "Push their shin off your face"
+          ],
+          "trap": [
+            "Roll away from the pressure"
+          ]
+        }
       },
       {
         "question": "When caught in the finished armbar position, what immediate action prevents the tap and what must follow?",
         "answer": "Immediately clasp your hands together (gable grip, S-grip, or grabbing your own wrist) to prevent the arm from extending. This is an emergency defense that buys 3-10 seconds at most. You must immediately follow with an active escape: stack forward by driving your weight over the attacker to close the hip extension angle, or begin rotating your elbow toward the mat to extract the arm. Stalling in the clasped-hand position without working an escape will result in the grip being broken and the submission finished.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clasp hands, then stack forward",
+        "distractors": {
+          "plausible": [
+            "Clasp hands and hold still",
+            "Pull arm back with strength"
+          ],
+          "trap": [
+            "Relax arm to reduce pressure"
+          ]
+        }
       },
       {
         "question": "What is the critical safety consideration when defending an armbar that is already being applied with pressure?",
         "answer": "If the attacker has already begun extending your elbow and you feel pressure on the joint, you must tap immediately rather than attempting a last-second escape. The elbow joint can be permanently damaged in less than a second once extension pressure is applied past the joint's natural limit. No positional recovery is worth risking a torn ligament or dislocated elbow. Tap early, tap often, and learn to defend the position earlier in the sequence during drilling.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap immediately, don't fight it",
+        "distractors": {
+          "plausible": [
+            "Tap only once real pain starts",
+            "Clasp hands and wait it out"
+          ],
+          "trap": [
+            "Power through and posture up"
+          ]
+        }
       },
       {
         "question": "Your arm is isolated but the attacker has not yet stepped over your head - what specific actions can prevent the submission from progressing?",
         "answer": "With the arm isolated but the leg not yet over your head, you have multiple options: grip fight aggressively to recover your arm to your body by bending the elbow and pulling it across your chest; bridge toward the attacker to disrupt their base before they can lift their leg; begin turning your hips toward the attacker to deny the perpendicular angle; or grab the attacker's leg as it begins to lift to physically prevent the step-over. This is the golden window for defense—exploit it aggressively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip fight, bridge, deny the angle",
+        "distractors": {
+          "plausible": [
+            "Frame on their knee and stall",
+            "Reach across for their far lapel"
+          ],
+          "trap": [
+            "Straighten the arm and yank back"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -497,6 +708,35 @@
         "phase": "Phase 4: Live Positional Rounds",
         "focus": "Integrating armbar defense into full side control escape game",
         "description": "Full resistance positional rounds starting from side control bottom. Attacker can attempt armbar along with all other submissions and transitions. Defender must survive all threats while working standard escapes, integrating armbar defense into their overall defensive framework rather than treating it as an isolated scenario."
+      }
+    ],
+    "clips": [
+      {
+        "id": "fRhm4gy-kxo",
+        "title": "Armbar escape to side control",
+        "by": "Valdir Rodrigues",
+        "vertical": false,
+        "channel": "Evolve Mixed Martial Arts",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kNdKfUdgO4I",
+        "title": "My favorite armbar escape",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 92,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Armbar escape",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-14"
       }
     ]
   },

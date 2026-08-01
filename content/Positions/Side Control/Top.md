@@ -21,31 +21,31 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 31% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Side Control",
-      "text": "From this position, attempt Arm Triangle from Side Control. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Top",
-      "text": "From this position, attempt Arm Triangle from Top. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Top. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
@@ -155,6 +155,54 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control Top Danger Control",
+      "description": "Side Control (Top) film study: Side Control Top Danger Control, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WuSBXB22-1Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WuSBXB22-1Q",
+      "url": "https://www.youtube.com/watch?v=WuSBXB22-1Q",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT156S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Buggy Choke From Top Side Control",
+      "description": "Side Control (Top) film study: Buggy Choke From Top Side Control, taught by azigarami.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mt7SMNzP4Ak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mt7SMNzP4Ak",
+      "url": "https://www.youtube.com/watch?v=mt7SMNzP4Ak",
+      "creator": { "@type": "Person", "name": "azigarami" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Top 3 Submissions From Side Control",
+      "description": "Side Control (Top) film study: Top 3 Submissions From Side Control, taught by Marcus Buchecha Almeida.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/onIP1GC3Daw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/onIP1GC3Daw",
+      "url": "https://www.youtube.com/watch?v=onIP1GC3Daw",
+      "creator": { "@type": "Person", "name": "Marcus Buchecha Almeida" },
+      "duration": "PT296S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -166,6 +214,42 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
 Side Control Top is one of the most fundamental and dominant positions in Brazilian Jiu-Jitsu, achieved when the top player pins the opponent from the side with their chest perpendicular to the opponent's torso while controlling their hips and head. Worth 3 points in IBJJF competition for passing the guard, this position offers exceptional control with minimal energy expenditure when executed correctly. It provides numerous submission opportunities, transitions to even more dominant positions like mount or back control, and presents significant defensive challenges for the bottom player. Side control is often considered the home base of top position work, as it offers stability, control, and offensive options while maintaining relatively low risk of reversal. The position's effectiveness comes from the mechanical advantage of perpendicular body positioning combined with strategic weight distribution that limits the opponent's movement while preserving the top player's mobility. Mastery of side control is essential for all BJJ practitioners, as it represents a critical stage in the positional hierarchy between guard passing and mount. From this position, the top player can methodically work toward submissions, advance to more dominant positions, or simply maintain control to manage energy and score points. The psychological advantage is also significant - being trapped under side control is one of the most uncomfortable experiences in BJJ, and the constant threat of submissions and position advancement forces the bottom player into reactive, often desperate escape attempts that can be countered and capitalized upon.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WuSBXB22-1Q)
+
+<p class="clip-credit"><strong>Side Control Top Danger Control</strong> — taught by Craig Jones · 2:36 · <a href="https://www.youtube.com/watch?v=WuSBXB22-1Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mt7SMNzP4Ak)
+
+<p class="clip-credit"><strong>Buggy Choke From Top Side Control</strong> — taught by azigarami · 1:31 · <a href="https://www.youtube.com/watch?v=mt7SMNzP4Ak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=onIP1GC3Daw)
+
+<p class="clip-credit"><strong>Top 3 Submissions From Side Control</strong> — taught by Marcus Buchecha Almeida · 4:56 · <a href="https://www.youtube.com/watch?v=onIP1GC3Daw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -231,11 +315,11 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 **If opponent turns into you attempting to recover guard:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 35%)
+- Execute **[[Submissions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 35%)
 
 
 **If opponent's far arm crosses their own neck while defending:**
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Submissions/Breadcutter Choke/Attacker|Breadcutter Choke]]** → [[game-over]] (Probability: 40%)
 
 
@@ -356,9 +440,9 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 - **[[Positions/Back Control]]** - Advanced position when opponent turns incorrectly during escape
 - **[[Submissions/Americana]]** - Primary shoulder lock submission transition from this position
 - **[[Submissions/Kimura]]** - High-percentage shoulder lock transition with back take potential
-- **[[Transitions/Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
-- **[[Transitions/Darce Choke]]** - Effective choke when opponent turns into you from bottom
-- **[[Transitions/North-South Choke]]** - Powerful submission from north-south transition
+- **[[Submissions/Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
+- **[[Submissions/Darce Choke]]** - Effective choke when opponent turns into you from bottom
+- **[[Submissions/North-South Choke]]** - Powerful submission from north-south transition
 
 
 </section>

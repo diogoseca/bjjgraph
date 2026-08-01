@@ -34,6 +34,43 @@ description: "Master the kneebar from toe hold control in BJJ. Complete guide to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Toe Hold Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toe Hold to Kneebar Attack",
+      "description": "Kneebar from Toe Hold Control film study: Toe Hold to Kneebar Attack, taught by Eliot Marshall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-HT8Vfiq5Pk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-HT8Vfiq5Pk",
+      "url": "https://www.youtube.com/watch?v=-HT8Vfiq5Pk",
+      "creator": { "@type": "Person", "name": "Eliot Marshall" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar and Toe Hold from Guard Pass",
+      "description": "Kneebar from Toe Hold Control film study: Kneebar and Toe Hold from Guard Pass, taught by Precision MA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/frFaHeQJHTA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/frFaHeQJHTA",
+      "url": "https://www.youtube.com/watch?v=frFaHeQJHTA",
+      "creator": { "@type": "Person", "name": "Precision MA" },
+      "duration": "PT57S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The positional advantage is substantial because the leg is already isolated with
 **Starting Position**: [[Positions/Toe Hold Control]] · **From**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Toe Hold Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-HT8Vfiq5Pk)
+
+<p class="clip-credit"><strong>Toe Hold to Kneebar Attack</strong> — taught by Eliot Marshall · 1:07 · <a href="https://www.youtube.com/watch?v=-HT8Vfiq5Pk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=frFaHeQJHTA)
+
+<p class="clip-credit"><strong>Kneebar and Toe Hold from Guard Pass</strong> — taught by Precision MA · 0:57 · <a href="https://www.youtube.com/watch?v=frFaHeQJHTA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -223,12 +288,12 @@ The positional advantage is substantial because the leg is already isolated with
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Inside Heel Hook]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Flying Kneebar]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Toe Hold Control]] - Primary starting position for this chain submission transition
 - [[Positions/Kneebar Control]] - Control position established when kneebar is partially secured before finishing
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement offering alternative kneebar entry pathways

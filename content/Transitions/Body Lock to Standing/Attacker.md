@@ -174,6 +174,54 @@ description: "Learn to execute the Body Lock to Standing transition. Tactical gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock to Standing (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four body lock takedowns",
+      "description": "Body Lock to Standing (Attacker) film study: Four body lock takedowns, taught by Erik Paulson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2gknwIfTeN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2gknwIfTeN0",
+      "url": "https://www.youtube.com/watch?v=2gknwIfTeN0",
+      "creator": { "@type": "Person", "name": "Erik Paulson" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking a Standing Opponent",
+      "description": "Body Lock to Standing (Attacker) film study: Attacking a Standing Opponent, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YV5_0Vl-tfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YV5_0Vl-tfY",
+      "url": "https://www.youtube.com/watch?v=YV5_0Vl-tfY",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT252S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Using Wrestling to Beat Jiu-Jitsu",
+      "description": "Body Lock to Standing (Attacker) film study: Using Wrestling to Beat Jiu-Jitsu, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pIx6-xoDifI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pIx6-xoDifI",
+      "url": "https://www.youtube.com/watch?v=pIx6-xoDifI",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT511S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 **From Position**: [[Positions/Body Lock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock to Standing (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2gknwIfTeN0)
+
+<p class="clip-credit"><strong>Four body lock takedowns</strong> — taught by Erik Paulson · 3:14 · <a href="https://www.youtube.com/watch?v=2gknwIfTeN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YV5_0Vl-tfY)
+
+<p class="clip-credit"><strong>Attacking a Standing Opponent</strong> — taught by Craig Jones · 4:12 · <a href="https://www.youtube.com/watch?v=YV5_0Vl-tfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pIx6-xoDifI)
+
+<p class="clip-credit"><strong>Using Wrestling to Beat Jiu-Jitsu</strong> — taught by Craig Jones · 8:31 · <a href="https://www.youtube.com/watch?v=pIx6-xoDifI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

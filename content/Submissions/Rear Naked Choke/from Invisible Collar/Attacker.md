@@ -176,6 +176,43 @@ description: "Learn to attack with the Rear Naked Choke from Invisible Collar. M
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Invisible Collar (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar Choke from Back Control",
+      "description": "Rear Naked Choke from Invisible Collar (Attacker) film study: Collar Choke from Back Control, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZHjfYIXgNpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZHjfYIXgNpg",
+      "url": "https://www.youtube.com/watch?v=ZHjfYIXgNpg",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible Detail of the Choke from the Back",
+      "description": "Rear Naked Choke from Invisible Collar (Attacker) film study: Invisible Detail of the Choke from the Back, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pe4jLWTzpSE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pe4jLWTzpSE",
+      "url": "https://www.youtube.com/watch?v=pe4jLWTzpSE",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT122S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the Rear Naked Choke from Invisible Collar requires mastering the
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Invisible Collar (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZHjfYIXgNpg)
+
+<p class="clip-credit"><strong>Collar Choke from Back Control</strong> — taught by Team Daruma Dojo · 0:45 · <a href="https://www.youtube.com/watch?v=ZHjfYIXgNpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pe4jLWTzpSE)
+
+<p class="clip-credit"><strong>Invisible Detail of the Choke from the Back</strong> — taught by Rickson Gracie · 2:02 · <a href="https://www.youtube.com/watch?v=pe4jLWTzpSE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Butterfly Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Butterfly/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the bottom player's guard-retention arsenal, the reguard answers a specific problem: a half butterfly whose single-hook attacks are stalling, where forcing sweeps from a deteriorating base only invites the pass. Half Butterfly provides a strong sweeping platform with its single hook, but full butterfly guard offers substantially more offensive versatility through bilateral elevation, wider sweep angles, and direct access to X-Guard entries and arm drag back takes. The reguard capitalizes on this gap by converting a partially compromised guard back into a fully active one before the top player can consolidate passing advantages.\n\nStrategically, the reguard functions as both a guard retention tool and a positional reset. When the top player begins neutralizing the half butterfly position through crossface pressure or underhook control, attempting to force sweeps from a deteriorating position wastes energy and invites passing. Instead, the reguard extracts the trapped leg and restores the dual-hook configuration before the top player can consolidate passing advantages. The technique is particularly effective after failed sweep attempts, when the opponent's defensive reaction creates weight shifts and momentary loosening of the half guard trap that facilitate extraction.\n\nThe mechanical challenge lies in creating sufficient space for leg extraction without surrendering the connections that prevent passing. The existing butterfly hook serves as the primary anchor throughout the transition, maintaining elevation pressure that keeps the top player's weight honest while the bottom player shrimps and pummels the trapped knee free. The entire sequence must flow continuously from hip escape through extraction to hook insertion, as any pause between steps creates a window where the bottom player has neither full butterfly guard nor secure half butterfly, leaving them vulnerable to passing attacks.",
   "conditions": [
     "Bottom player has one active butterfly hook on the free leg with the other leg trapped in half guard",
@@ -241,38 +253,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the reguard from half butterfly?",
-        "answer": "The optimal timing is immediately after the opponent defends a sweep attempt, when their weight shifts reactively and their squeeze on the trapped leg momentarily loosens. Post-sweep-defense is the highest percentage window because the opponent's attention is on rebalancing rather than maintaining the half guard trap. The second-best window is when the opponent commits weight forward for crossface or underhook—their forward momentum lightens the trapped-leg squeeze and loads the butterfly hook for elevation."
+        "answer": "The optimal timing is immediately after the opponent defends a sweep attempt, when their weight shifts reactively and their squeeze on the trapped leg momentarily loosens. Post-sweep-defense is the highest percentage window because the opponent's attention is on rebalancing rather than maintaining the half guard trap. The second-best window is when the opponent commits weight forward for crossface or underhook—their forward momentum lightens the trapped-leg squeeze and loads the butterfly hook for elevation.",
+        "answer_line": "Right after sweep defense",
+        "distractors": {
+          "plausible": [
+            "When they crossface for control",
+            "As soon as hook reactivates"
+          ],
+          "trap": [
+            "When their squeeze tightens"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement in this technique and why does it determine success?",
-        "answer": "The initial hip escape away from the trapped-leg side is the single most critical movement. This shrimp creates the approximately forty-five degree angle that opens the circular pummeling path for the trapped knee. Without this angle, the opponent's squeeze and body weight directly block extraction because the knee cannot clear their leg. The shrimp must be sharp and committed—a partial hip escape creates insufficient angle and merely telegraphs the attempt."
+        "answer": "The initial hip escape away from the trapped-leg side is the single most critical movement. This shrimp creates the approximately forty-five degree angle that opens the circular pummeling path for the trapped knee. Without this angle, the opponent's squeeze and body weight directly block extraction because the knee cannot clear their leg. The shrimp must be sharp and committed—a partial hip escape creates insufficient angle and merely telegraphs the attempt.",
+        "answer_line": "Shrimp away, open the angle",
+        "distractors": {
+          "plausible": [
+            "Hip escape toward trapped leg",
+            "Small partial hip shift"
+          ],
+          "trap": [
+            "Push knee through directly"
+          ]
+        }
       },
       {
         "question": "What grip or connection must be maintained throughout the entire extraction sequence?",
-        "answer": "The active butterfly hook must maintain constant upward pressure throughout the entire reguard. This hook serves three simultaneous functions: defensive anchor preventing the opponent from advancing their pass, weight displacement tool that shifts pressure off the trapped leg, and immediate offensive threat once the second hook is inserted. Losing the butterfly hook during extraction leaves you in a compromised half guard with no leverage, no elevation capability, and no offensive threat."
+        "answer": "The active butterfly hook must maintain constant upward pressure throughout the entire reguard. This hook serves three simultaneous functions: defensive anchor preventing the opponent from advancing their pass, weight displacement tool that shifts pressure off the trapped leg, and immediate offensive threat once the second hook is inserted. Losing the butterfly hook during extraction leaves you in a compromised half guard with no leverage, no elevation capability, and no offensive threat.",
+        "answer_line": "Butterfly hook stays active",
+        "distractors": {
+          "plausible": [
+            "Underhook on trapped side",
+            "Collar tie for posture control"
+          ],
+          "trap": [
+            "Release hook to free the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand to block your hip escape—how do you adjust the reguard approach?",
-        "answer": "When the opponent posts to block lateral hip movement, switch to the elevator reguard variant. Drive the butterfly hook aggressively upward to create vertical space rather than lateral space. The elevation lifts their weight off the trapped leg from a different vector that their hand post cannot block. Alternatively, attack the posted arm with a kimura grip threat—this forces them to retract the post, reopening the lateral hip escape path for the standard frame-and-shrimp variant."
+        "answer": "When the opponent posts to block lateral hip movement, switch to the elevator reguard variant. Drive the butterfly hook aggressively upward to create vertical space rather than lateral space. The elevation lifts their weight off the trapped leg from a different vector that their hand post cannot block. Alternatively, attack the posted arm with a kimura grip threat—this forces them to retract the post, reopening the lateral hip escape path for the standard frame-and-shrimp variant.",
+        "answer_line": "Switch to elevator, hook up",
+        "distractors": {
+          "plausible": [
+            "Push harder into the post",
+            "Grip the post and pull down"
+          ],
+          "trap": [
+            "Abandon hook, shrimp harder"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before you can attempt this reguard?",
-        "answer": "Four conditions must be present: an active butterfly hook with upward pressure capability on the free leg, at least one upper body frame or grip controlling the opponent's posture on the trapped-leg side, sufficient hip mobility with shoulders not completely flattened to the mat, and the opponent's weight not fully committed to pinning the trapped leg. If any condition is missing, address it first—recover posture, establish a frame, or reactivate the hook before attempting extraction."
+        "answer": "Four conditions must be present: an active butterfly hook with upward pressure capability on the free leg, at least one upper body frame or grip controlling the opponent's posture on the trapped-leg side, sufficient hip mobility with shoulders not completely flattened to the mat, and the opponent's weight not fully committed to pinning the trapped leg. If any condition is missing, address it first—recover posture, establish a frame, or reactivate the hook before attempting extraction.",
+        "answer_line": "Active hook, frame, hips, gap",
+        "distractors": {
+          "plausible": [
+            "Just an active butterfly hook",
+            "Frame and posture control only"
+          ],
+          "trap": [
+            "Force it even if flattened"
+          ]
+        }
       },
       {
         "question": "What is the correct path for the trapped knee during extraction and why is it circular?",
-        "answer": "The knee follows a circular path: first drawn toward your own chest through hip flexion, then redirected outward toward the hook insertion point under the opponent's thigh. This circular motion follows the path of least resistance around the opponent's squeeze. A direct straight pull fights against their grip strength and body weight at the narrowest point of the entanglement. The circular path routes the knee around the squeeze zone entirely, requiring significantly less force to accomplish."
+        "answer": "The knee follows a circular path: first drawn toward your own chest through hip flexion, then redirected outward toward the hook insertion point under the opponent's thigh. This circular motion follows the path of least resistance around the opponent's squeeze. A direct straight pull fights against their grip strength and body weight at the narrowest point of the entanglement. The circular path routes the knee around the squeeze zone entirely, requiring significantly less force to accomplish.",
+        "answer_line": "Knee to chest, then outward",
+        "distractors": {
+          "plausible": [
+            "Knee straight to hook point",
+            "Knee out then toward chest"
+          ],
+          "trap": [
+            "Pull knee straight through squeeze"
+          ]
+        }
       },
       {
         "question": "Your opponent initiates a knee slice pass as you create space during extraction—what is your immediate response?",
-        "answer": "Immediately abandon the extraction and insert a knee shield frame to block the incoming knee slice. Your shin across their hip or midsection stops the slice progression and establishes a defensively stable structure. From knee shield half guard you can stabilize and reattempt the reguard when conditions improve. Continuing extraction while a knee slice is in progress guarantees getting passed—the space you created for extraction becomes the passing lane."
+        "answer": "Immediately abandon the extraction and insert a knee shield frame to block the incoming knee slice. Your shin across their hip or midsection stops the slice progression and establishes a defensively stable structure. From knee shield half guard you can stabilize and reattempt the reguard when conditions improve. Continuing extraction while a knee slice is in progress guarantees getting passed—the space you created for extraction becomes the passing lane.",
+        "answer_line": "Insert knee shield frame",
+        "distractors": {
+          "plausible": [
+            "Push through extraction faster",
+            "Frame on their far hip"
+          ],
+          "trap": [
+            "Keep pulling the knee free"
+          ]
+        }
       },
       {
         "question": "If the reguard fails and you remain in half butterfly, what should you do next?",
-        "answer": "Return immediately to threatening sweeps from half butterfly rather than repeatedly forcing failed reguard attempts. The half butterfly sweep and hook elevation sweeps keep the opponent reactive and may create the weight shift needed for a future reguard attempt. If the opponent has shut down both reguard and sweeps, transition to deep half guard entry where their forward pressure becomes an advantage, or recover to knee shield half guard for a defensively stable reset position."
+        "answer": "Return immediately to threatening sweeps from half butterfly rather than repeatedly forcing failed reguard attempts. The half butterfly sweep and hook elevation sweeps keep the opponent reactive and may create the weight shift needed for a future reguard attempt. If the opponent has shut down both reguard and sweeps, transition to deep half guard entry where their forward pressure becomes an advantage, or recover to knee shield half guard for a defensively stable reset position.",
+        "answer_line": "Threaten sweeps again",
+        "distractors": {
+          "plausible": [
+            "Repeat the same reguard attempt",
+            "Force deep half immediately"
+          ],
+          "trap": [
+            "Release the hook and reset"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This guard retention technique carries minimal injury risk as no joint locks or chokes are involved. The primary safety concern is the trapped leg, which can experience knee stress if extraction is forced against heavy resistance with improper angle. Never yank the trapped leg free with explosive force—always create proper hip angle first through shrimping to open the extraction path. Partners should communicate immediately if knee discomfort occurs during drilling. The top player should increase squeeze resistance gradually during progressive resistance phases rather than applying maximum force immediately."
+    "safety_considerations": "This guard retention technique carries minimal injury risk as no joint locks or chokes are involved. The primary safety concern is the trapped leg, which can experience knee stress if extraction is forced against heavy resistance with improper angle. Never yank the trapped leg free with explosive force—always create proper hip angle first through shrimping to open the extraction path. Partners should communicate immediately if knee discomfort occurs during drilling. The top player should increase squeeze resistance gradually during progressive resistance phases rather than applying maximum force immediately.",
+    "clips": [
+      {
+        "id": "k_nh_V-RnOY",
+        "title": "Recovering butterfly guard from half guard",
+        "by": "Força Martial Arts",
+        "vertical": false,
+        "channel": "Força Martial Arts & Fitness",
+        "duration": 198,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MBBwCFkk3aQ",
+        "title": "Half butterfly guard: retaining butterfly and sweeping",
+        "by": "Aaron Benzrihem",
+        "vertical": false,
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 495,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "mo1EkNQGVr8",
+        "title": "Transition from half guard to butterfly hook sweep",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 418,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reguard from Half Butterfly Defender",
@@ -358,23 +479,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is attempting a reguard rather than a sweep?",
-        "answer": "The primary distinguishing cue is the direction of hip movement. For sweeps, the bottom player drives hips into you or creates lateral angle to generate off-balancing force. For the reguard, the bottom player shrimps away from the trapped-leg side while increasing frame pressure on your shoulder—they are creating distance rather than closing it. The trapped knee also moves toward their own chest in a circular path rather than pushing outward for sweep leverage."
+        "answer": "The primary distinguishing cue is the direction of hip movement. For sweeps, the bottom player drives hips into you or creates lateral angle to generate off-balancing force. For the reguard, the bottom player shrimps away from the trapped-leg side while increasing frame pressure on your shoulder—they are creating distance rather than closing it. The trapped knee also moves toward their own chest in a circular path rather than pushing outward for sweep leverage.",
+        "answer_line": "Hips shrimp away, not into you",
+        "distractors": {
+          "plausible": [
+            "Frame pressure increases sharply",
+            "Knee pushes outward hard"
+          ],
+          "trap": [
+            "Hips drive into you fast"
+          ]
+        }
       },
       {
         "question": "Why should you view the reguard attempt as a passing opportunity rather than simply resisting?",
-        "answer": "During the hip escape, the bottom player's attention and physical effort are committed to creating lateral space and pummeling the trapped knee. Their frame serves as a space-creation tool rather than a pass-blocking structure, and their butterfly hook functions as an anchor rather than an active sweeping tool. This divided focus creates an optimal window for passing because their defensive reactions are delayed by the ongoing extraction effort. A well-timed knee slice meets significantly less resistance than during neutral engagement."
+        "answer": "During the hip escape, the bottom player's attention and physical effort are committed to creating lateral space and pummeling the trapped knee. Their frame serves as a space-creation tool rather than a pass-blocking structure, and their butterfly hook functions as an anchor rather than an active sweeping tool. This divided focus creates an optimal window for passing because their defensive reactions are delayed by the ongoing extraction effort. A well-timed knee slice meets significantly less resistance than during neutral engagement.",
+        "answer_line": "Their focus is split, hook idle",
+        "distractors": {
+          "plausible": [
+            "They're vulnerable to submissions",
+            "Their base is fully compromised"
+          ],
+          "trap": [
+            "They can't defend the pass at all"
+          ]
+        }
       },
       {
         "question": "How should you adjust weight distribution when the butterfly hook drives upward during a reguard attempt?",
-        "answer": "Drop your hips lower and shift weight slightly toward the butterfly hook side to smother the elevation. Do not lift your hips or lean away from the hook, as this creates space underneath that facilitates extraction. Keep your chest connected to the bottom player while widening your base with your free leg. The goal is denying the upward space the hook creates while maintaining trapped-leg pressure to prevent pummeling."
+        "answer": "Drop your hips lower and shift weight slightly toward the butterfly hook side to smother the elevation. Do not lift your hips or lean away from the hook, as this creates space underneath that facilitates extraction. Keep your chest connected to the bottom player while widening your base with your free leg. The goal is denying the upward space the hook creates while maintaining trapped-leg pressure to prevent pummeling.",
+        "answer_line": "Drop hips, smother the hook",
+        "distractors": {
+          "plausible": [
+            "Lift hips to avoid the hook",
+            "Lean away from the hook side"
+          ],
+          "trap": [
+            "Post hands and stand up"
+          ]
+        }
       },
       {
         "question": "What is the correct response if the bottom player successfully extracts the trapped leg but has not yet inserted the second hook?",
-        "answer": "This brief window between extraction and hook insertion is your last chance to prevent full butterfly guard. Drive forward immediately with heavy chest pressure to flatten the bottom player before they sit up. Simultaneously pinch your knees inward to block the freed leg from inserting under your thigh as a hook. If you flatten them with only one hook active, you are in a passing-advantaged position rather than facing full butterfly guard with bilateral sweeping threats."
+        "answer": "This brief window between extraction and hook insertion is your last chance to prevent full butterfly guard. Drive forward immediately with heavy chest pressure to flatten the bottom player before they sit up. Simultaneously pinch your knees inward to block the freed leg from inserting under your thigh as a hook. If you flatten them with only one hook active, you are in a passing-advantaged position rather than facing full butterfly guard with bilateral sweeping threats.",
+        "answer_line": "Flatten them, pinch knees in",
+        "distractors": {
+          "plausible": [
+            "Circle to their back immediately",
+            "Grip fight for underhook"
+          ],
+          "trap": [
+            "Back away to reset base"
+          ]
+        }
       },
       {
         "question": "When is it strategically better to accept the reguard rather than fight extraction?",
-        "answer": "If the bottom player has already created significant angle and their knee is well into the pummeling path, forcing resistance wastes energy and often results in scrambles where the bottom player reaches butterfly guard anyway with momentum advantage. It is better to accept the transition while preemptively establishing your own grips—securing bicep control, collar or wrist grips, and dropping your base low before their hooks are fully active. Controlled acceptance with preparation beats desperate resistance that fails."
+        "answer": "If the bottom player has already created significant angle and their knee is well into the pummeling path, forcing resistance wastes energy and often results in scrambles where the bottom player reaches butterfly guard anyway with momentum advantage. It is better to accept the transition while preemptively establishing your own grips—securing bicep control, collar or wrist grips, and dropping your base low before their hooks are fully active. Controlled acceptance with preparation beats desperate resistance that fails.",
+        "answer_line": "Accept it, grip first",
+        "distractors": {
+          "plausible": [
+            "Fight until the last second",
+            "Scramble hard to escape"
+          ],
+          "trap": [
+            "Release all grips and retreat"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -397,6 +568,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Defending reguard within full competitive half butterfly top game",
         "description": "Start in half butterfly top against fully resisting partner. Bottom player attempts reguard or sweep. Top player prevents reguard and passes. Reset after each successful reguard, sweep, or pass. Integrate reguard defense with overall half butterfly top passing sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "LIITsrlsAaI",
+        "title": "Passing half butterfly guard",
+        "by": "Morto BJJ",
+        "vertical": false,
+        "channel": "Morto BJJ",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "FyQToVSEOKk",
+        "title": "Half butterfly guard passing",
+        "by": "Michael Hoffman",
+        "vertical": false,
+        "channel": "Michael Hoffman",
+        "duration": 94,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Pk_6CrydIRQ",
+        "title": "Effective half butterfly guard pass for no-gi",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-15"
       }
     ]
   }

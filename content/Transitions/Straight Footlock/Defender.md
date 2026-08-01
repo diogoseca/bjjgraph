@@ -148,6 +148,43 @@ description: "How to defend against Straight Footlock in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Footlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle lock escape: put on the boot",
+      "description": "Straight Footlock (Defender) film study: Ankle lock escape: put on the boot, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CUnX7TOpb-A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CUnX7TOpb-A",
+      "url": "https://www.youtube.com/watch?v=CUnX7TOpb-A",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "K guard vs toe hold and straight footlock",
+      "description": "Straight Footlock (Defender) film study: K guard vs toe hold and straight footlock, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6-HYU8Pbngg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6-HYU8Pbngg",
+      "url": "https://www.youtube.com/watch?v=6-HYU8Pbngg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Advanced defenders treat the Straight Footlock threat as an opportunity rather t
 **Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Footlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CUnX7TOpb-A)
+
+<p class="clip-credit"><strong>Ankle lock escape: put on the boot</strong> — taught by Ritchie Yip · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6-HYU8Pbngg)
+
+<p class="clip-credit"><strong>K guard vs toe hold and straight footlock</strong> — taught by Lachlan Giles · 2:32 · <a href="https://www.youtube.com/watch?v=6-HYU8Pbngg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -176,16 +176,100 @@ description: "Learn to attack with the Baratoplata from Crackhead Control. Step-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata from Crackhead Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baratoplata basics from rubber guard",
+      "description": "Baratoplata from Crackhead Control (Attacker) film study: Baratoplata basics from rubber guard, taught by True Believer Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1O-BoOWXhzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1O-BoOWXhzY",
+      "url": "https://www.youtube.com/watch?v=1O-BoOWXhzY",
+      "creator": { "@type": "Person", "name": "True Believer Jiu Jitsu" },
+      "duration": "PT232S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Baratoplata setup and finish",
+      "description": "Baratoplata from Crackhead Control (Attacker) film study: Baratoplata setup and finish, taught by Joao Miyao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7PzrTuuHzZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7PzrTuuHzZ4",
+      "url": "https://www.youtube.com/watch?v=7PzrTuuHzZ4",
+      "creator": { "@type": "Person", "name": "Joao Miyao" },
+      "duration": "PT362S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard control and shoulder lock attacks",
+      "description": "Baratoplata from Crackhead Control (Attacker) film study: Rubber guard control and shoulder lock attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RJ7Iutti8cY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RJ7Iutti8cY",
+      "url": "https://www.youtube.com/watch?v=RJ7Iutti8cY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT521S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
 Attacking with the Baratoplata from Crackhead Control requires understanding the unique advantages this rubber guard position provides for shoulder lock mechanics. The shin-across-neck control already breaks the opponent's posture and partially isolates the target arm, eliminating the two most difficult prerequisites for shoulder lock submissions. Your primary task as the attacker is recognizing when the arm isolation is sufficient to abandon the overhook and commit to the figure-four threading sequence. The transition from control grip to submission grip is the critical moment where most attacks succeed or fail, and the timing must account for the opponent's defensive reactions to the grip change. Mastering the hip angle adjustment and controlled extension that generates the finishing torque transforms this from a positional curiosity into a legitimate competition weapon.
 
-**From Position**: [[Positions/Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata from Crackhead Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1O-BoOWXhzY)
+
+<p class="clip-credit"><strong>Baratoplata basics from rubber guard</strong> — taught by True Believer Jiu Jitsu · 3:52 · <a href="https://www.youtube.com/watch?v=1O-BoOWXhzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7PzrTuuHzZ4)
+
+<p class="clip-credit"><strong>Baratoplata setup and finish</strong> — taught by Joao Miyao · 6:02 · <a href="https://www.youtube.com/watch?v=7PzrTuuHzZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RJ7Iutti8cY)
+
+<p class="clip-credit"><strong>Rubber guard control and shoulder lock attacks</strong> — taught by Eddie Bravo · 8:41 · <a href="https://www.youtube.com/watch?v=RJ7Iutti8cY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -242,7 +326,7 @@ Attacking with the Baratoplata from Crackhead Control requires understanding the
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 42% |
-| Failure | [[Positions/Crackhead Control]] | 38% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 38% |
 | Counter | [[Positions/Closed Guard]] | 20% |
 
 
@@ -254,9 +338,9 @@ Attacking with the Baratoplata from Crackhead Control requires understanding the
 
 <p class="section-subtitle">How might your opponent defend against Baratoplata from Crackhead Control?</p>
 
-- **Posture recovery before figure-four closes** (Effectiveness: High) - Your Response: If the opponent begins posturing during the threading, abort the baratoplata and re-establish the overhook for crackhead control. Alternatively, use the remaining leg pressure to transition to a gogoplata attempt as they posture into the shin. → Leads to [[Positions/Crackhead Control]]
-- **Arm straightening to prevent figure-four closure** (Effectiveness: High) - Your Response: When the opponent straightens their trapped arm, increase shin pressure to keep them compressed while using your free hand to bend their elbow by pushing on their wrist. If the arm stays straight, transition to an omoplata angle using the existing leg position. → Leads to [[Positions/Crackhead Control]]
-- **Elbow rotation to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Tighten the figure-four connection by pulling your shin closer to your forearm, eliminating the space needed for elbow rotation. Simultaneously increase hip extension to accelerate the finish before they can complete the rotation. → Leads to [[Positions/Crackhead Control]]
+- **Posture recovery before figure-four closes** (Effectiveness: High) - Your Response: If the opponent begins posturing during the threading, abort the baratoplata and re-establish the overhook for crackhead control. Alternatively, use the remaining leg pressure to transition to a gogoplata attempt as they posture into the shin. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Arm straightening to prevent figure-four closure** (Effectiveness: High) - Your Response: When the opponent straightens their trapped arm, increase shin pressure to keep them compressed while using your free hand to bend their elbow by pushing on their wrist. If the arm stays straight, transition to an omoplata angle using the existing leg position. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Elbow rotation to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Tighten the figure-four connection by pulling your shin closer to your forearm, eliminating the space needed for elbow rotation. Simultaneously increase hip extension to accelerate the finish before they can complete the rotation. → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Explosive bridge and stack to collapse guard** (Effectiveness: Medium) - Your Response: If the opponent bridges forward to stack you, use the momentum to angle further onto your shoulder and increase the rotational leverage. The bridge actually assists the shoulder lock if you maintain the figure-four connection and hip angle. → Leads to [[Positions/Closed Guard]]
 - **Full-body roll toward trapped arm side** (Effectiveness: Low) - Your Response: Follow the roll while maintaining the figure-four and use the rotational momentum to accelerate the finish. The roll typically worsens their position as it drives additional internal rotation through the shoulder joint. → Leads to [[Positions/Closed Guard]]
 

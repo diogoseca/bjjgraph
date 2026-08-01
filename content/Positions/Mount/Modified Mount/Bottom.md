@@ -21,13 +21,13 @@ description: "Defend Modified Mount position effectively. Learn escape sequences
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
@@ -153,6 +153,54 @@ description: "Defend Modified Mount position effectively. Learn escape sequences
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Mount (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape from a high full mount",
+      "description": "Modified Mount (Bottom) film study: Escape from a high full mount, taught by TENZAN.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_05Lwonu0mw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_05Lwonu0mw",
+      "url": "https://www.youtube.com/watch?v=_05Lwonu0mw",
+      "creator": { "@type": "Person", "name": "TENZAN" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the mount",
+      "description": "Modified Mount (Bottom) film study: Escaping the mount, taught by Gabriel Gonzaga.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9252EvCT0q4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9252EvCT0q4",
+      "url": "https://www.youtube.com/watch?v=9252EvCT0q4",
+      "creator": { "@type": "Person", "name": "Gabriel Gonzaga" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "One arm under leg mount escape",
+      "description": "Modified Mount (Bottom) film study: One arm under leg mount escape, taught by Professor Aaron.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PnQdaoKyxoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PnQdaoKyxoc",
+      "url": "https://www.youtube.com/watch?v=PnQdaoKyxoc",
+      "creator": { "@type": "Person", "name": "Professor Aaron" },
+      "duration": "PT130S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Defend Modified Mount position effectively. Learn escape sequences
 Facing Modified Mount from the bottom requires understanding how the asymmetric weight distribution creates both vulnerabilities and opportunities compared to standard mount defense. The position's defining characteristic - one posted leg and one across-body knee - fundamentally alters the escape dynamics because weight is distributed unevenly, creating a directional bias in available escape paths. The posted leg side often presents the primary escape opportunity because the opponent's base extension creates space that can be exploited through proper hip escape mechanics, though this same posting provides them stability against explosive movements. The across-body knee maintains significant control and should be respected as a structural barrier requiring systematic dismantling through frame creation and hip movement. Modified Mount escapes require reading which leg is posted and adjusting the escape direction accordingly - attempting to escape toward the across-body knee often proves futile while escape toward the posted leg leverages the position's inherent weakness. The primary defensive concern involves the increased armbar threat that Modified Mount naturally creates, as the position's asymmetry funnels directly into armbar mechanics when the top practitioner swings the posted leg over the head. Frame placement becomes critical, focusing on creating barriers between the opponent's hips and your torso while protecting the near-side arm from isolation. The mental approach involves recognizing Modified Mount as a transitional opportunity - the position's reduced control compared to standard mount means the escape window may be larger, but the submission threats remain immediate and severe. Energy management remains paramount, as Modified Mount allows the top practitioner to maintain control with less effort than standard mount while the bottom defender must work systematically to exploit the asymmetric structure. Success requires patience to identify the correct escape direction, technical precision in execution, and constant awareness of the armbar threat that defines this position's offensive potential.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Mount (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_05Lwonu0mw)
+
+<p class="clip-credit"><strong>Escape from a high full mount</strong> — taught by TENZAN · 1:18 · <a href="https://www.youtube.com/watch?v=_05Lwonu0mw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9252EvCT0q4)
+
+<p class="clip-credit"><strong>Escaping the mount</strong> — taught by Gabriel Gonzaga · 1:33 · <a href="https://www.youtube.com/watch?v=9252EvCT0q4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PnQdaoKyxoc)
+
+<p class="clip-credit"><strong>One arm under leg mount escape</strong> — taught by Professor Aaron · 2:10 · <a href="https://www.youtube.com/watch?v=PnQdaoKyxoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

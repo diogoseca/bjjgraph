@@ -34,6 +34,54 @@ description: "Learn Kneebar entry from 50-50 Guard in BJJ. Step-by-step leg cont
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 Kneebar Entry",
+      "description": "Kneebar entry film study: 50/50 Kneebar Entry, taught by The Jiu-Jitsu Foundry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbtWWX6Glw0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbtWWX6Glw0",
+      "url": "https://www.youtube.com/watch?v=BbtWWX6Glw0",
+      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 Spinning Kneebar Entry",
+      "description": "Kneebar entry film study: 50/50 Spinning Kneebar Entry, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-5BXaxHLsyo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-5BXaxHLsyo",
+      "url": "https://www.youtube.com/watch?v=-5BXaxHLsyo",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Roll Under to Backside 50/50",
+      "description": "Kneebar entry film study: Roll Under to Backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This entry is particularly effective against opponents who focus entirely on hee
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbtWWX6Glw0)
+
+<p class="clip-credit"><strong>50/50 Kneebar Entry</strong> — taught by The Jiu-Jitsu Foundry · 0:40 · <a href="https://www.youtube.com/watch?v=BbtWWX6Glw0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-5BXaxHLsyo)
+
+<p class="clip-credit"><strong>50/50 Spinning Kneebar Entry</strong> — taught by Andrew Smith · 1:37 · <a href="https://www.youtube.com/watch?v=-5BXaxHLsyo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll Under to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

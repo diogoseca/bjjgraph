@@ -161,6 +161,43 @@ description: "How to enter the Jailbreak from bottom half guard. Underhook timin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard to Jailbreak (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jailbreak frame escape into a reversal sweep",
+      "description": "Half Guard to Jailbreak (Attacker) film study: Jailbreak frame escape into a reversal sweep, taught by Redmond Fit coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kFEDU0DVQ7I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kFEDU0DVQ7I",
+      "url": "https://www.youtube.com/watch?v=kFEDU0DVQ7I",
+      "creator": { "@type": "Person", "name": "Redmond Fit coach" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Framed jailbreak drill from half guard",
+      "description": "Half Guard to Jailbreak (Attacker) film study: Framed jailbreak drill from half guard, taught by JitzLive coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j25mgRF9wE4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j25mgRF9wE4",
+      "url": "https://www.youtube.com/watch?v=j25mgRF9wE4",
+      "creator": { "@type": "Person", "name": "JitzLive coach" },
+      "duration": "PT153S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -177,6 +214,34 @@ This is a high-reward, medium-risk action characteristic of the 10th Planet half
 **From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard to Jailbreak (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kFEDU0DVQ7I)
+
+<p class="clip-credit"><strong>Jailbreak frame escape into a reversal sweep</strong> — taught by Redmond Fit coach · 1:17 · <a href="https://www.youtube.com/watch?v=kFEDU0DVQ7I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j25mgRF9wE4)
+
+<p class="clip-credit"><strong>Framed jailbreak drill from half guard</strong> — taught by JitzLive coach · 2:33 · <a href="https://www.youtube.com/watch?v=j25mgRF9wE4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

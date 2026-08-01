@@ -34,6 +34,54 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Entanglements Breakdown: Jackie Chan \u0026 411",
+      "description": "Leg Entanglement film study: Leg Entanglements Breakdown: Jackie Chan \u0026 411, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R4K-UU_bUZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R4K-UU_bUZQ",
+      "url": "https://www.youtube.com/watch?v=R4K-UU_bUZQ",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Locks: Enter the System",
+      "description": "Leg Entanglement film study: Leg Locks: Enter the System, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F5rdV0PUuDc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F5rdV0PUuDc",
+      "url": "https://www.youtube.com/watch?v=F5rdV0PUuDc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT176S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg Lock Instructional Overview",
+      "description": "Leg Entanglement film study: Leg Lock Instructional Overview, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iByvUzTk4Ko/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iByvUzTk4Ko",
+      "url": "https://www.youtube.com/watch?v=iByvUzTk4Ko",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT225S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Leg Entanglement positions in BJJ. Complete guide to ashi g
 Leg Entanglement represents a comprehensive positional system in modern Brazilian Jiu-Jitsu where practitioners control and attack their opponent's lower body through various configurations of leg positioning and entanglement. These positions form the foundation of systematic leg lock attacking, characterized by superior control mechanics that isolate specific joints (ankle, knee, hip) while maintaining positional dominance or creating submission opportunities. The entanglement configurations involve legs wrapping, hooking, or triangling around the opponent's leg or legs, creating control structures that range from neutral exchanges (50-50) to dominant attacking positions (saddle, inside ashi). This positional family has revolutionized modern no-gi grappling, with systematic approaches transforming leg attacks from opportunistic submissions into a comprehensive positional hierarchy comparable to traditional upper body control positions. Success in leg entanglements requires understanding the biomechanical principles of joint isolation, recognizing the specific finishing mechanics for different leg locks, and maintaining proper positioning to prevent escapes or counters. The positions offer multiple pathways to finishing submissions (heel hooks, kneebar variations, ankle locks) while also providing transition opportunities to other dominant positions if the opponent defends successfully. The neutral nature of many entanglement positions means both practitioners can simultaneously threaten attacks, creating dynamic exchanges that reward systematic understanding and technical precision.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R4K-UU_bUZQ)
+
+<p class="clip-credit"><strong>Leg Entanglements Breakdown: Jackie Chan &amp; 411</strong> — taught by 10th Planet Orange Park · 1:15 · <a href="https://www.youtube.com/watch?v=R4K-UU_bUZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F5rdV0PUuDc)
+
+<p class="clip-credit"><strong>Leg Locks: Enter the System</strong> — taught by John Danaher · 2:56 · <a href="https://www.youtube.com/watch?v=F5rdV0PUuDc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iByvUzTk4Ko)
+
+<p class="clip-credit"><strong>Leg Lock Instructional Overview</strong> — taught by John Danaher · 3:45 · <a href="https://www.youtube.com/watch?v=iByvUzTk4Ko" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,23 +217,23 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (18% of attempts)
+- **[[Transitions/Leg Extraction Escape from Entanglement/Attacker|Leg Extraction Escape from Entanglement]]** (20% of attempts)
 
-- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (16% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement/Attacker|Guard Recovery from Leg Entanglement]]** (17% of attempts)
 
-- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (14% of attempts)
+- **[[Transitions/Counter Sweep from Leg Entanglement/Attacker|Counter Sweep from Leg Entanglement]]** (8% of attempts)
 
-- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (12% of attempts)
+- **[[Transitions/Inversion Escape from Leg Entanglement/Attacker|Inversion Escape from Leg Entanglement]]** (11% of attempts)
 
 - **[[Transitions/Counter Leg Attack/Attacker|Counter Leg Attack]]** (12% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (10% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (13% of attempts)
 
 - **[[Transitions/Inside Heel Hook from Ushiro/Attacker|Inside Heel Hook from Ushiro]]** (8% of attempts)
 
-- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (6% of attempts)
+- **[[Transitions/Kneebar from Ushiro/Attacker|Kneebar from Ushiro]]** (4% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (4% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -218,29 +302,27 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Kneebar from Leg Entanglement/Attacker|Kneebar from Leg Entanglement]]** (13% of attempts)
+- **[[Kneebar from Leg Entanglement/Attacker|Kneebar from Leg Entanglement]]** (7% of attempts)
 
-- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (12% of attempts)
+- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (18% of attempts)
 
-- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (12% of attempts)
+- **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (10% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (10% of attempts)
-
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (12% of attempts)
 
 - **[[Toe Hold from Leg Entanglement/Attacker|Toe Hold from Leg Entanglement]]** (8% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (13% of attempts)
 
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (7% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (6% of attempts)
 
 - **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
 
-- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (5% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (10% of attempts)
 
-- **[[Transitions/Leg Extraction Pass/Attacker|Leg Extraction Pass]]** (5% of attempts)
+- **[[Transitions/Leg Extraction Pass/Attacker|Leg Extraction Pass]]** (6% of attempts)
 
-- **[[Transitions/Guard Pass from Leg Entanglement/Attacker|Guard Pass from Leg Entanglement]]** (5% of attempts)
+- **[[Transitions/Guard Pass from Leg Entanglement/Attacker|Guard Pass from Leg Entanglement]]** (4% of attempts)
 
 
 ### Common Mistakes

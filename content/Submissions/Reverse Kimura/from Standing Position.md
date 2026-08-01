@@ -34,6 +34,43 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kimura from Standing Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kimura Throw to Submission",
+      "description": "Reverse Kimura from Standing Position film study: Reverse Kimura Throw to Submission, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tW1t_KO1T4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tW1t_KO1T4",
+      "url": "https://www.youtube.com/watch?v=8tW1t_KO1T4",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Kimura Arm Drag to Back",
+      "description": "Reverse Kimura from Standing Position film study: Reverse Kimura Arm Drag to Back, taught by Grappling with Insanity.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dw9YtuvroXI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dw9YtuvroXI",
+      "url": "https://www.youtube.com/watch?v=dw9YtuvroXI",
+      "creator": { "@type": "Person", "name": "Grappling with Insanity" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +111,34 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 **Starting Position**: [[Positions/Standing Position]] · **From**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kimura from Standing Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tW1t_KO1T4)
+
+<p class="clip-credit"><strong>Reverse Kimura Throw to Submission</strong> — taught by Coach Brian · 1:09 · <a href="https://www.youtube.com/watch?v=8tW1t_KO1T4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dw9YtuvroXI)
+
+<p class="clip-credit"><strong>Reverse Kimura Arm Drag to Back</strong> — taught by Grappling with Insanity · 0:27 · <a href="https://www.youtube.com/watch?v=dw9YtuvroXI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -248,11 +313,11 @@ Belonging to the Kimura family of shoulder locks, this reverse-grip variation ev
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Baratoplata]]
-- [[Transitions/Guillotine Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Guillotine Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Submissions/High Elbow Guillotine]]

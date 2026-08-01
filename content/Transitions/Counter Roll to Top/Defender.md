@@ -148,6 +148,54 @@ description: "How to defend against Counter Roll to Top in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Roll to Top (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best Way to Control the Mount and Stop Reversals",
+      "description": "Counter Roll to Top (Defender) film study: Best Way to Control the Mount and Stop Reversals, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
+      "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT538S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift wrap control details and maintenance",
+      "description": "Counter Roll to Top (Defender) film study: Gift wrap control details and maintenance, taught by Gracie Ohio Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AFptIKE8d7k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AFptIKE8d7k",
+      "url": "https://www.youtube.com/watch?v=AFptIKE8d7k",
+      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu Academy" },
+      "duration": "PT305S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seven ways to use the gift wrap control",
+      "description": "Counter Roll to Top (Defender) film study: Seven ways to use the gift wrap control, taught by Jiu Jitsu Champloo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/igMiqxNplpE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/igMiqxNplpE",
+      "url": "https://www.youtube.com/watch?v=igMiqxNplpE",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Champloo" },
+      "duration": "PT405S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The key defensive concept is weight management during transitions. Every time yo
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Roll to Top (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kft2AkvKhWU)
+
+<p class="clip-credit"><strong>Best Way to Control the Mount and Stop Reversals</strong> — taught by Gordon Ryan · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AFptIKE8d7k)
+
+<p class="clip-credit"><strong>Gift wrap control details and maintenance</strong> — taught by Gracie Ohio Jiu-Jitsu Academy · 5:05 · <a href="https://www.youtube.com/watch?v=AFptIKE8d7k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=igMiqxNplpE)
+
+<p class="clip-credit"><strong>Seven ways to use the gift wrap control</strong> — taught by Jiu Jitsu Champloo · 6:45 · <a href="https://www.youtube.com/watch?v=igMiqxNplpE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

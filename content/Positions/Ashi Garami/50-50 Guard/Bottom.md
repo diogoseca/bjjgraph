@@ -21,37 +21,37 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
     {
       "@type": "HowToStep",
       "name": "Execute Position reversal sweep to top",
-      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Position reversal sweep to top. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter heel hook",
-      "text": "From this position, attempt Counter heel hook. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Single Leg X-Guard",
-      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Extract legs and stand up",
-      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Extract legs and stand up. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar entry",
-      "text": "From this position, attempt Kneebar entry. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter the 50/50 Heel Hook with a Wristlock",
+      "description": "50-50 Guard (Bottom) film study: Counter the 50/50 Heel Hook with a Wristlock, taught by Whangarei BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_hyZqLRwsWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_hyZqLRwsWE",
+      "url": "https://www.youtube.com/watch?v=_hyZqLRwsWE",
+      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roll Under to Backside 50/50",
+      "description": "50-50 Guard (Bottom) film study: Roll Under to Backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ From this position, you face multiple submission threats, primarily heel hook, a
 50-50 Guard Bottom is particularly dangerous against opponents with strong leg lock skills and in no-gi competition where heel hooks are legal. The position demands constant defensive attention and is not sustainable for extended periods. Energy management and strategic choice between reversal and escape are critical for survival and success from this disadvantageous position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_hyZqLRwsWE)
+
+<p class="clip-credit"><strong>Counter the 50/50 Heel Hook with a Wristlock</strong> — taught by Whangarei BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=_hyZqLRwsWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll Under to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -329,7 +394,7 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 - **[[Positions/Ashi Garami]]** - Related leg entanglement position with similar defensive requirements
 - **[[Positions/Ashi Garami/Honey Hole]]** - Related leg lock position with similar submission threats
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement with different control dynamics
-- **[[Transitions/Heel Hook]]** - Submission attacks you must defend against from this position
+- **[[Submissions/Heel Hook]]** - Submission attacks you must defend against from this position
 
 
 </section>

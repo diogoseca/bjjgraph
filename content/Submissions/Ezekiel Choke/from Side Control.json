@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Side Control",
   "from_position": "Side Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Ezekiel Choke (Sode Guruma Jime) from side control is a deceptive gi-based blood choke that exploits the natural crossface arm positioning to establish a sleeve grip without alerting the defender. Unlike the more traditional mount-based Ezekiel, the side control variant attacks from a perpendicular angle, using the scissoring action of both forearms to compress the carotid arteries while chest weight prevents the opponent from turning away. This position-specific variant is particularly effective because the crossface arm naturally sits adjacent to the opponent's neck, allowing the sleeve grip to be threaded as part of routine side control adjustments.\n\nThe strategic value of the side control Ezekiel lies in its low-risk, high-reward profile. A failed attempt leaves the attacker in the same dominant side control position, unlike Ezekiel attempts from closed guard where failure compromises posture significantly. The element of surprise remains the technique's greatest asset—most practitioners expect americanas, kimuras, or arm triangles from side control, making the Ezekiel an unexpected threat that catches even experienced defenders off guard. The perpendicular body angle does present unique finishing challenges compared to the mount version, requiring precise forearm alignment and committed weight distribution to generate sufficient arterial compression from a lateral rather than superior position.\n\nAt the advanced level, the side control Ezekiel becomes a powerful chain-attack tool. Threatening the choke forces the opponent to address the neck threat, which opens their arms for americana and kimura attacks. Conversely, arm attack threats draw the opponent's hands away from their neck, creating the opening for the Ezekiel. This constant threat cycling makes the side control top player exponentially more dangerous when the Ezekiel is integrated into their submission chain.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -286,52 +298,172 @@
       {
         "question": "What anatomical structures does the Ezekiel Choke from side control primarily compress?",
         "answer": "The Ezekiel Choke targets the carotid arteries on both sides of the neck through bilateral compression. The blade of the forearm presses against one carotid artery while the sleeve-grip forearm compresses the other side, creating a blood choke that restricts cerebral blood flow. Proper forearm angle is critical to ensure arterial compression rather than tracheal pressure, which would produce an air choke rather than the intended blood choke mechanism.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "The trachea (airway)",
+            "Just the far-side carotid"
+          ],
+          "trap": [
+            "The windpipe - crush it harder"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning their body away from you during the blade forearm placement—what adjustment prevents the choke from failing?",
         "answer": "When the opponent turns away, follow their movement by walking your knees toward their head side while maintaining hip pressure. The turning motion can actually assist the choke by exposing more of the near-side carotid to the blade forearm. Drive the blade forearm deeper as they turn and use your chest weight to prevent them from completing the turn to turtle. If they create enough angle to threaten a full turn, abandon the choke and re-establish crossface to prevent giving up the back.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow the turn, blade deeper",
+        "distractors": {
+          "plausible": [
+            "Release the grip and reset",
+            "Switch to a wrist grab"
+          ],
+          "trap": [
+            "Sit up to muscle the choke"
+          ]
+        }
       },
       {
         "question": "What specific control elements must be established before committing to the Ezekiel finish from side control?",
         "answer": "Before committing, you must have established crossface with the underhook arm positioned near the neck, heavy hip-to-hip pressure limiting the opponent's hip mobility, and ideally the opponent's hands occupied with framing rather than protecting their neck. The sleeve grip must be threaded four fingers deep past the inner seam for strip resistance. Without secured hip pressure especially, the opponent will hip escape during your grip transition, converting your dominant side control into a half guard situation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossface, hips heavy, deep grip",
+        "distractors": {
+          "plausible": [
+            "Underhook only, grip anytime",
+            "Chest-to-chest, no crossface"
+          ],
+          "trap": [
+            "Grab sleeve before securing hips"
+          ]
+        }
       },
       {
         "question": "How do you recognize that the choking structure is fully locked and the opponent has passed the point of no escape?",
         "answer": "The choke is fully locked when both forearms form a closed circuit around the neck with the blade forearm beneath the chin on the throat, no slack exists in the loop, and your chest weight is committed forward through the structure. The point of no escape is reached when your head drops beside theirs as a wedge preventing face turning, both elbows are tight to your body, and the opponent's attempts to push the forearm away with framing hands cannot overcome the combined body weight and scissoring tension in the structure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No slack, head wedged, chest driving",
+        "distractors": {
+          "plausible": [
+            "Grip is tight but arms still loose",
+            "Forearm on throat, no head wedge"
+          ],
+          "trap": [
+            "They stop moving - finish harder"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical error that converts the side control Ezekiel from a blood choke into an ineffective pressure hold?",
         "answer": "The most common error is attempting to finish with forearm squeeze alone without driving upper body weight through the choking structure. From the perpendicular side control angle, arm strength alone cannot generate sufficient bilateral closing force to compress both carotid arteries simultaneously. The correction is to drop the head and chest into the structure, using the entire upper body as a unified pressure mechanism. Think of the forearms as the frame and your body weight as the force that closes it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeezing arms without body weight",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip only two fingers deep",
+            "Starting before crossface is set"
+          ],
+          "trap": [
+            "Cranking the neck to force a tap"
+          ]
+        }
       },
       {
         "question": "During the finish, your sleeve grip begins slipping because the gi is soaked with sweat—what grip adjustment maintains the choke?",
         "answer": "When the sleeve grip slips, deepen the grip by threading more of your fingers and palm through the cuff opening rather than gripping tighter with fingertips. Curl your fingers around the inner seam of the cuff to create a hook grip that resists slipping. If the cuff is too saturated, you can grip the sleeve material higher up the forearm where there is more fabric to bunch. As an immediate alternative, commit fully to the finish before the grip deteriorates further since the choke may already have sufficient closing force to produce a tap.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen grip, hook the cuff seam",
+        "distractors": {
+          "plausible": [
+            "Pinch harder with fingertips",
+            "Grab the lapel instead of sleeve"
+          ],
+          "trap": [
+            "Sit up to re-grip, giving space"
+          ]
+        }
       },
       {
         "question": "What are the specific injury risks when finishing the Ezekiel Choke, and what signals require immediate release?",
         "answer": "The primary risks are carotid compression causing unconsciousness within four to six seconds of bilateral occlusion, and tracheal damage from improper forearm angle favoring the windpipe over the arteries. You must release immediately upon any tap signal including hand taps, foot taps, verbal indication, or sudden loss of resistance indicating possible unconsciousness. Never spike or jerk the choke. Apply progressive pressure over three to five seconds minimum. If the opponent stops defending abruptly without tapping, assume they are losing consciousness and release all pressure immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Carotid choke - release on any tap",
+        "distractors": {
+          "plausible": [
+            "Air choke - release if they cough",
+            "Only release on verbal tap"
+          ],
+          "trap": [
+            "Spike it hard for a fast tap"
+          ]
+        }
       },
       {
         "question": "In competition, how do you time the Ezekiel attempt from side control to maximize the chance of catching the opponent off guard?",
         "answer": "The optimal timing is immediately after the opponent defends a different submission attempt such as an americana or kimura, when their hands are committed to grip fighting and their mental attention is focused on the arm threat rather than neck defense. Alternatively, initiate the sleeve grip during a positional transition when the opponent expects you to advance to mount or knee on belly, using the transition feint as camouflage for the grip entry. The first thirty seconds after establishing side control are usually too early because the opponent is still fully alert to all threats.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Right after they defend an arm lock",
+        "distractors": {
+          "plausible": [
+            "The instant you land in side control",
+            "While they are actively bridging"
+          ],
+          "trap": [
+            "Attack before pinning their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin effectively to block the blade forearm from reaching the throat—how do you overcome this defense from side control?",
         "answer": "From the side control angle, approach the throat laterally rather than attempting to drive over the chin. Use the sleeve-grip hand to momentarily push the jaw upward, creating a brief opening for the blade forearm to slide underneath to the carotid. If the chin tuck remains impenetrable, the choke can still apply effective pressure across the jaw because the mandible transmits compressive force to the underlying carotid structures. You can also switch to an arm triangle setup since the opponent's chin tuck often involves bringing their arms close to their neck, creating the arm-trapped configuration needed for that choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Push jaw up, thread blade under",
+        "distractors": {
+          "plausible": [
+            "Pry the chin down with the elbow",
+            "Drive straight over the chin"
+          ],
+          "trap": [
+            "Sit up to muscle it over"
+          ]
+        }
       },
       {
         "question": "How should you safely release the Ezekiel Choke upon receiving a tap signal during training?",
         "answer": "Upon any tap signal, immediately release the sleeve grip and withdraw the blade forearm from the neck in a smooth, controlled motion. Do not release abruptly and scramble to another position. Maintain your side control position briefly to allow your partner to recover orientation and confirm consciousness. Make eye contact and verify verbally that they are responsive and feel okay before resuming training or resetting positions. If there is any doubt about consciousness or the partner seems disoriented, call for instructor assistance immediately and place them in the recovery position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow release, then check on them",
+        "distractors": {
+          "plausible": [
+            "Yank the arm out and sit up",
+            "Hold grip until they say stop"
+          ],
+          "trap": [
+            "Keep squeezing until they go limp"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "l5E5EYTOkYI",
+        "title": "Ezekiel Choke from Side Control",
+        "by": "United BJJ Hawaii",
+        "vertical": false,
+        "channel": "United BJJ Hawaii",
+        "duration": 123,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sObgbF1uXTo",
+        "title": "Ezekiel from Side Control Top and Mount",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 252,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -414,27 +546,77 @@
       {
         "question": "How do you recognize that an Ezekiel Choke is being set up from side control top?",
         "answer": "The earliest recognition cue is the attacker's crossface hand transitioning from positional control to threading fingers into their own opposite gi sleeve while maintaining proximity to your neck. Additional cues include a subtle change in crossface pressure quality, the free hand moving toward your throat rather than your hips, increased hip pressure compensating for the grip change, and the attacker's head dropping beside yours. The sleeve grip entry is the definitive warning sign and the trigger point for immediate defensive action.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossface hand threads own sleeve",
+        "distractors": {
+          "plausible": [
+            "Hand moves to grip your collar",
+            "Increased crossface pressure only"
+          ],
+          "trap": [
+            "Ignore it, hand looks like a rest"
+          ]
+        }
       },
       {
         "question": "When should you tap to an Ezekiel Choke rather than continue attempting to defend?",
         "answer": "Tap immediately if the blade forearm has crossed your throat, both of the attacker's arms are locked in the closed choking structure with their head wedged beside yours, and your attempts to push the forearm away with both hands are failing to create space. Blood chokes can cause unconsciousness in as little as four to six seconds once both carotid arteries are fully compressed. In training, there is no benefit to fighting a fully locked Ezekiel. Tap early, analyze how you missed the setup, and focus on earlier recognition next time.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Arms locked, forearm won't budge",
+        "distractors": {
+          "plausible": [
+            "Only when you feel dizzy",
+            "When blade first touches throat"
+          ],
+          "trap": [
+            "Keep fighting, chokes take time"
+          ]
+        }
       },
       {
         "question": "What escape opportunities does the attacker's Ezekiel setup create for the defender from side control bottom?",
         "answer": "The Ezekiel setup creates escape opportunities because the attacker must transition their crossface hand from positional control to sleeve grip duty, briefly weakening their head control. This window allows hip escapes that would normally be blocked by the crossface. Additionally, the attacker's mental focus shifts from maintaining position to establishing the choke, creating a split-attention moment that experienced defenders can exploit. The hip escape to half guard recovery is the highest percentage counter, timed specifically to the grip transition phase.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip escape while grip transitions",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll immediately",
+            "Push their face away and wait"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "Your top opponent has already threaded their sleeve grip and is positioning the blade forearm toward your throat—what is your highest priority action?",
         "answer": "Your highest priority is an immediate chin tuck combined with a two-on-one forearm block using both hands against the incoming blade forearm before it crosses the center of your throat. Do not attempt a hip escape at this stage because your hands are needed for the forearm defense. Once you successfully block the forearm and the attacker either abandons or loosens the attempt, immediately transition both hands to framing against the shoulder and hip for a hip escape before they can re-attempt the choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tuck, two-hand forearm block",
+        "distractors": {
+          "plausible": [
+            "Hip escape away immediately",
+            "Grab their wrist and pull down"
+          ],
+          "trap": [
+            "Turn face away from the blade"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the attacker a dangerous defensive response to the Ezekiel from side control?",
         "answer": "Turning away from the attacker exposes your back, which is an even more dominant position for the opponent. They can abandon the Ezekiel attempt and immediately transition to back control by inserting hooks, establishing a seatbelt grip, or even finishing the choke from the back position where it becomes harder to defend. If you must turn, always turn toward the attacker to close the choking angle and fight for an underhook, which gives you a constructive escape path rather than a positional disaster.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Exposes your back for a back-take",
+        "distractors": {
+          "plausible": [
+            "Feeds your arm into an armbar",
+            "Lets them mount and flatten you"
+          ],
+          "trap": [
+            "It's the fastest escape route"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -452,6 +634,26 @@
         "phase": "Phase 3: Counter-Offense Integration",
         "focus": "Combining Ezekiel defense with side control escape sequences",
         "description": "Combine defensive recognition with immediate escape transitions. After blocking the blade forearm, immediately chain into hip escape to half guard recovery. Partner attempts the Ezekiel at increasing speed and intensity while you defend and transition. Progress from isolated drilling to positional sparring rounds starting in side control with the Ezekiel as the attacker's primary goal."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9QA0L4aOOKk",
+        "title": "Two-Hand Choke Defense with Hip Throw",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 23,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "uzDPYRi92D0",
+        "title": "Escaping side control as opponent switches base",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 136,
+        "verified": "2026-07-16"
       }
     ]
   }

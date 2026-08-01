@@ -21,37 +21,37 @@ description: "Master defending and escaping gogoplata control from top position 
     {
       "@type": "HowToStep",
       "name": "Execute Head Extraction to Posture",
-      "text": "From this position, attempt Head Extraction to Posture. This technique is attempted in 29% of exchanges from this position.",
+      "text": "From this position, attempt Head Extraction to Posture. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin Removal to Pass",
-      "text": "From this position, attempt Shin Removal to Pass. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Shin Removal to Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction Escape",
-      "text": "From this position, attempt Leg Extraction Escape. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction Escape. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Angle Change Escape",
+      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Angle Change Escape",
-      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Hand Control to Extract",
+      "text": "From this position, attempt Hand Control to Extract. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Hand Control to Extract",
-      "text": "From this position, attempt Hand Control to Extract. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Roll to Turtle",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master defending and escaping gogoplata control from top position 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata Control (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to do the gogoplata",
+      "description": "Gogoplata Control (Top) film study: How to do the gogoplata, taught by jamielovesmartialarts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VbLlhI0aZC8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VbLlhI0aZC8",
+      "url": "https://www.youtube.com/watch?v=VbLlhI0aZC8",
+      "creator": { "@type": "Person", "name": "jamielovesmartialarts" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gogoplata variations from a high guard",
+      "description": "Gogoplata Control (Top) film study: Gogoplata variations from a high guard, taught by SpringHill BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PqAJraYllQI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PqAJraYllQI",
+      "url": "https://www.youtube.com/watch?v=PqAJraYllQI",
+      "creator": { "@type": "Person", "name": "SpringHill BJJ" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +207,34 @@ Strategically, the top defender must recognize that maintaining calm and avoidin
 The position also provides important lessons about submission defense principles. The gogoplata demonstrates that some submissions cannot be defended through strength or aggression alone. The anatomical configuration creates a mechanical disadvantage that requires technical understanding and precise execution to overcome. This makes it an excellent teaching position for advanced practitioners learning to defend against unconventional attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata Control (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VbLlhI0aZC8)
+
+<p class="clip-credit"><strong>How to do the gogoplata</strong> — taught by jamielovesmartialarts · 1:08 · <a href="https://www.youtube.com/watch?v=VbLlhI0aZC8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PqAJraYllQI)
+
+<p class="clip-credit"><strong>Gogoplata variations from a high guard</strong> — taught by SpringHill BJJ · 1:28 · <a href="https://www.youtube.com/watch?v=PqAJraYllQI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

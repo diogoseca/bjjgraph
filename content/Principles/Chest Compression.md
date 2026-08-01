@@ -164,6 +164,54 @@ description: "Master chest compression mechanics in BJJ. Learn diaphragm restric
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chest Compression \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Chest compression demonstrated",
+      "description": "Chest Compression film study: Chest compression demonstrated, taught by Josh Barnett.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kqPP3Of4aUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kqPP3Of4aUo",
+      "url": "https://www.youtube.com/watch?v=kqPP3Of4aUo",
+      "creator": { "@type": "Person", "name": "Josh Barnett" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chest compression, the Bas Rutten",
+      "description": "Chest Compression film study: Chest compression, the Bas Rutten, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/puYruhLh2sQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/puYruhLh2sQ",
+      "url": "https://www.youtube.com/watch?v=puYruhLh2sQ",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT206S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Timing the breathing cycle to add chest pressure",
+      "description": "Chest Compression film study: Timing the breathing cycle to add chest pressure, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/14cakPb1he0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/14cakPb1he0",
+      "url": "https://www.youtube.com/watch?v=14cakPb1he0",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT395S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Chest Compression?
@@ -177,6 +225,42 @@ The effectiveness of chest compression comes from its cumulative nature. A singl
 Chest compression is often underestimated as a finishing mechanic because it works slowly compared to chokes and joint locks. However, it is an integral part of dominant position maintenance and creates the conditions that make other submissions possible. A mounted opponent who cannot breathe fully makes poorer defensive decisions and has less energy to escape or resist submission attempts. Understanding chest compression mechanics improves both offensive pressure application and defensive breathing strategies that extend survival time under heavy opponents.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Chest Compression in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kqPP3Of4aUo)
+
+<p class="clip-credit"><strong>Chest compression demonstrated</strong> — taught by Josh Barnett · 0:58 · <a href="https://www.youtube.com/watch?v=kqPP3Of4aUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=puYruhLh2sQ)
+
+<p class="clip-credit"><strong>Chest compression, the Bas Rutten</strong> — taught by Chosen Few BJJ · 3:26 · <a href="https://www.youtube.com/watch?v=puYruhLh2sQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=14cakPb1he0)
+
+<p class="clip-credit"><strong>Timing the breathing cycle to add chest pressure</strong> — taught by Wim Deputter · 6:35 · <a href="https://www.youtube.com/watch?v=14cakPb1he0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

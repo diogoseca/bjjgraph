@@ -148,6 +148,54 @@ description: "Defend and escape the cross face pass from flattened half guard. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Face Pass from Flattened Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Cross Face Pass from Flattened Half (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Not Get Flattened, Cross-faced and Smashed in Half Guard",
+      "description": "Cross Face Pass from Flattened Half (Defender) film study: How to Not Get Flattened, Cross-faced and Smashed in Half Guard, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I05XdrbakZQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I05XdrbakZQ",
+      "url": "https://www.youtube.com/watch?v=I05XdrbakZQ",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT339S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping a Flat Half Guard Situation",
+      "description": "Cross Face Pass from Flattened Half (Defender) film study: Escaping a Flat Half Guard Situation, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HNbYkUtICYI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HNbYkUtICYI",
+      "url": "https://www.youtube.com/watch?v=HNbYkUtICYI",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT171S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the cross face pass from flattened half guard requires immediate recog
 **Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Face Pass from Flattened Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I05XdrbakZQ)
+
+<p class="clip-credit"><strong>How to Not Get Flattened, Cross-faced and Smashed in Half Guard</strong> — taught by Stephan Kesting · 5:39 · <a href="https://www.youtube.com/watch?v=I05XdrbakZQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HNbYkUtICYI)
+
+<p class="clip-credit"><strong>Escaping a Flat Half Guard Situation</strong> — taught by Carpio Jiu Jitsu · 2:51 · <a href="https://www.youtube.com/watch?v=HNbYkUtICYI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

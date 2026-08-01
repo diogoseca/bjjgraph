@@ -174,6 +174,43 @@ description: "Learn to execute the Escape from Cross Body Ride in BJJ. Step-by-s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Cross Body Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross body leg ride escape",
+      "description": "Escape from Cross Body Ride (Attacker) film study: Cross body leg ride escape, taught by Hideout Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H3UURW2F9g8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H3UURW2F9g8",
+      "url": "https://www.youtube.com/watch?v=H3UURW2F9g8",
+      "creator": { "@type": "Person", "name": "Hideout Wrestling" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Five Crossbody Escape Drills",
+      "description": "Escape from Cross Body Ride (Attacker) film study: Five Crossbody Escape Drills, taught by Clinch Academy coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S2-UjM43Luk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S2-UjM43Luk",
+      "url": "https://www.youtube.com/watch?v=S2-UjM43Luk",
+      "creator": { "@type": "Person", "name": "Clinch Academy coach" },
+      "duration": "PT152S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Escape from Cross Body Ride requires precise timing, decisive hip 
 **From Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Cross Body Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H3UURW2F9g8)
+
+<p class="clip-credit"><strong>Cross body leg ride escape</strong> — taught by Hideout Wrestling · 0:49 · <a href="https://www.youtube.com/watch?v=H3UURW2F9g8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S2-UjM43Luk)
+
+<p class="clip-credit"><strong>Five Crossbody Escape Drills</strong> — taught by Clinch Academy coach · 2:32 · <a href="https://www.youtube.com/watch?v=S2-UjM43Luk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

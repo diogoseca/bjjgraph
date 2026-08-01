@@ -148,6 +148,54 @@ description: "Defend against the Standing Guard Pull in BJJ. Recognition cues, c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard Pull (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "What to do when your opponent pulls guard",
+      "description": "Standing Guard Pull (Defender) film study: What to do when your opponent pulls guard, taught by Fabio Galeb.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TFmD-xVlkpM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TFmD-xVlkpM",
+      "url": "https://www.youtube.com/watch?v=TFmD-xVlkpM",
+      "creator": { "@type": "Person", "name": "Fabio Galeb" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the guard pull",
+      "description": "Standing Guard Pull (Defender) film study: Countering the guard pull, taught by Meerkatsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aaE1IFqvknI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aaE1IFqvknI",
+      "url": "https://www.youtube.com/watch?v=aaE1IFqvknI",
+      "creator": { "@type": "Person", "name": "Meerkatsu" },
+      "duration": "PT93S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sweep counter to the guard pull drill",
+      "description": "Standing Guard Pull (Defender) film study: Sweep counter to the guard pull drill, taught by Cobra.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u-jWz-kuERU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u-jWz-kuERU",
+      "url": "https://www.youtube.com/watch?v=u-jWz-kuERU",
+      "creator": { "@type": "Person", "name": "Cobra" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard Pull (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TFmD-xVlkpM)
+
+<p class="clip-credit"><strong>What to do when your opponent pulls guard</strong> — taught by Fabio Galeb · 0:47 · <a href="https://www.youtube.com/watch?v=TFmD-xVlkpM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aaE1IFqvknI)
+
+<p class="clip-credit"><strong>Countering the guard pull</strong> — taught by Meerkatsu · 1:33 · <a href="https://www.youtube.com/watch?v=aaE1IFqvknI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u-jWz-kuERU)
+
+<p class="clip-credit"><strong>Sweep counter to the guard pull drill</strong> — taught by Cobra · 1:28 · <a href="https://www.youtube.com/watch?v=u-jWz-kuERU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

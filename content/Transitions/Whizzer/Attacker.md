@@ -174,6 +174,43 @@ description: "How to execute the Whizzer overhook in BJJ. Complete attacking gui
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Whizzer (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using an overhook to attack",
+      "description": "Whizzer (Attacker) film study: Using an overhook to attack, taught by Patrick Spano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DfUHvTQpzCg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DfUHvTQpzCg",
+      "url": "https://www.youtube.com/watch?v=DfUHvTQpzCg",
+      "creator": { "@type": "Person", "name": "Patrick Spano" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darkside whizzer entry",
+      "description": "Whizzer (Attacker) film study: Darkside whizzer entry, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VopGHIx2g4w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VopGHIx2g4w",
+      "url": "https://www.youtube.com/watch?v=VopGHIx2g4w",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 **From Position**: [[Positions/Overhook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Whizzer (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DfUHvTQpzCg)
+
+<p class="clip-credit"><strong>Using an overhook to attack</strong> — taught by Patrick Spano · 0:40 · <a href="https://www.youtube.com/watch?v=DfUHvTQpzCg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VopGHIx2g4w)
+
+<p class="clip-credit"><strong>Darkside whizzer entry</strong> — taught by Craig Jones · 0:29 · <a href="https://www.youtube.com/watch?v=VopGHIx2g4w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

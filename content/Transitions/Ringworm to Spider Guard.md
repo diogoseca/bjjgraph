@@ -34,6 +34,43 @@ description: "Master the Ringworm to Spider Guard transition in BJJ. Convert lap
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm to Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Keymaster Guard to Spider Guard Sweep",
+      "description": "Ringworm to Spider Guard film study: Keymaster Guard to Spider Guard Sweep, taught by UFAI Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RKSB3YVVxTQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RKSB3YVVxTQ",
+      "url": "https://www.youtube.com/watch?v=RKSB3YVVxTQ",
+      "creator": { "@type": "Person", "name": "UFAI Grappling" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider Guard Overhead Sweep to Knee on Belly",
+      "description": "Ringworm to Spider Guard film study: Spider Guard Overhead Sweep to Knee on Belly, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2j0T2PHb1z4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2j0T2PHb1z4",
+      "url": "https://www.youtube.com/watch?v=2j0T2PHb1z4",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT43S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition sits within the broader lapel guard ecosystem as 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm to Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RKSB3YVVxTQ)
+
+<p class="clip-credit"><strong>Keymaster Guard to Spider Guard Sweep</strong> — taught by UFAI Grappling · 0:20 · <a href="https://www.youtube.com/watch?v=RKSB3YVVxTQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2j0T2PHb1z4)
+
+<p class="clip-credit"><strong>Spider Guard Overhead Sweep to Knee on Belly</strong> — taught by Evolve MMA · 0:43 · <a href="https://www.youtube.com/watch?v=2j0T2PHb1z4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

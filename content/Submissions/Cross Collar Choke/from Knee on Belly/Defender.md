@@ -150,6 +150,54 @@ description: "Defend against the cross collar choke from knee on belly. Complete
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the knee on belly position",
+      "description": "Cross Collar Choke from Knee on Belly (Defender) film study: How to escape the knee on belly position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on belly escape to ankle pick",
+      "description": "Cross Collar Choke from Knee on Belly (Defender) film study: Knee on belly escape to ankle pick, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/52LxBaUJdcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/52LxBaUJdcw",
+      "url": "https://www.youtube.com/watch?v=52LxBaUJdcw",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escape the knee on belly before it\u0027s too late",
+      "description": "Cross Collar Choke from Knee on Belly (Defender) film study: Escape the knee on belly before it\u0027s too late, taught by Ryan Robinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XgcesjuXZq4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XgcesjuXZq4",
+      "url": "https://www.youtube.com/watch?v=XgcesjuXZq4",
+      "creator": { "@type": "Person", "name": "Ryan Robinson" },
+      "duration": "PT169S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the cross collar choke from knee on belly requires managing two simult
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How to escape the knee on belly position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=52LxBaUJdcw)
+
+<p class="clip-credit"><strong>Knee on belly escape to ankle pick</strong> — taught by Lucas Lepri · 2:11 · <a href="https://www.youtube.com/watch?v=52LxBaUJdcw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XgcesjuXZq4)
+
+<p class="clip-credit"><strong>Escape the knee on belly before it&#39;s too late</strong> — taught by Ryan Robinson · 2:49 · <a href="https://www.youtube.com/watch?v=XgcesjuXZq4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

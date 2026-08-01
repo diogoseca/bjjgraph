@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Chill Dog/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Advance to Chill Dog represents a critical progression within the 10th Planet Rubber Guard system, moving from the foundational New York control into a deeper attacking position that sets up the gogoplata and other high-percentage finishes. This transition capitalizes on the broken posture and overhook control established in New York, threading the controlling leg deeper across the opponent's back to create the distinctive Chill Dog configuration.\n\nThe strategic value of this advancement lies in its ability to convert positional control into immediate submission threat. While New York offers multiple attack pathways, Chill Dog narrows the focus to neck attacks - particularly the gogoplata - while maintaining the fundamental overhook control that prevents the opponent from posturing. The transition exploits the opponent's compromised structure, using their forward-driven posture as the mechanism for deepening leg control.\n\nBiomechanically, the move requires threading the shin that was across the opponent's back deeper until the instep can hook around their neck. This demands significant hip flexibility combined with precise timing - attempting the thread while the opponent is fighting posture creates the space needed for the leg to travel. The overhook arm maintains constant pressure throughout, preventing any explosive posture recovery that would shut down the transition.\n\nFrom a game theory perspective, Advance to Chill Dog forces the opponent into increasingly desperate defensive decisions. Once the leg begins threading deeper, they must choose between accepting the deeper control or attempting explosive escapes that often expose them to armbar, triangle, or omoplata attacks. This dilemma-based approach exemplifies the 10th Planet philosophy of creating no-win situations through systematic positional advancement.",
   "related_content": [
     {
@@ -224,54 +236,203 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Advance to Chill Dog?",
-        "answer": "The primary goal is to progress from New York's positional control into Chill Dog's attacking configuration, where the shin hooks across the opponent's neck to threaten the gogoplata. This converts control into immediate submission threat while maintaining the overhook that prevents escape."
+        "answer": "The primary goal is to progress from New York's positional control into Chill Dog's attacking configuration, where the shin hooks across the opponent's neck to threaten the gogoplata. This converts control into immediate submission threat while maintaining the overhook that prevents escape.",
+        "answer_line": "Shin to neck, threaten gogoplata",
+        "distractors": {
+          "plausible": [
+            "Sweep opponent to top position",
+            "Pass to mount from New York"
+          ],
+          "trap": [
+            "Release overhook to free hands"
+          ]
+        }
       },
       {
         "question": "What position do you start Advance to Chill Dog from?",
-        "answer": "This technique starts from New York Bottom in the Rubber Guard system. You must have established deep overhook control, your shin across opponent's upper back, same-side hand gripping your shin, and opponent's posture fully broken forward before initiating the transition."
+        "answer": "This technique starts from New York Bottom in the Rubber Guard system. You must have established deep overhook control, your shin across opponent's upper back, same-side hand gripping your shin, and opponent's posture fully broken forward before initiating the transition.",
+        "answer_line": "New York Bottom, overhook set",
+        "distractors": {
+          "plausible": [
+            "Rubber Guard neutral position",
+            "Mission Control bottom"
+          ],
+          "trap": [
+            "Any closed guard with overhook"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Advance to Chill Dog?",
-        "answer": "The deep overhook with shoulder-to-armpit contact is the critical anchor throughout. Initially, your same-side hand grips your own shin near the ankle. During the transition, this hand releases to guide your foot around the neck, then re-grips your shin or ankle to lock the Chill Dog configuration."
+        "answer": "The deep overhook with shoulder-to-armpit contact is the critical anchor throughout. Initially, your same-side hand grips your own shin near the ankle. During the transition, this hand releases to guide your foot around the neck, then re-grips your shin or ankle to lock the Chill Dog configuration.",
+        "answer_line": "Deep overhook plus shin grip",
+        "distractors": {
+          "plausible": [
+            "Overhook plus collar grip",
+            "Underhook plus ankle grip"
+          ],
+          "trap": [
+            "Release overhook to grip both shins"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Advance to Chill Dog?",
-        "answer": "The optimal timing is when the opponent drives forward with pressure, attempting to flatten you or recover posture. Their forward momentum assists the leg threading by creating the space and force needed for your shin to travel across their neck. Never attempt when opponent is postured up or leaning back."
+        "answer": "The optimal timing is when the opponent drives forward with pressure, attempting to flatten you or recover posture. Their forward momentum assists the leg threading by creating the space and force needed for your shin to travel across their neck. Never attempt when opponent is postured up or leaning back.",
+        "answer_line": "When opponent drives forward",
+        "distractors": {
+          "plausible": [
+            "When opponent postures up",
+            "When opponent stays stationary"
+          ],
+          "trap": [
+            "When opponent leans back"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip to prevent the leg from threading - how do you adjust?",
-        "answer": "Use your guiding hand to strip their posting grip while continuing the thread in one motion. Alternatively, attack their posting arm with a kimura grip threat - this forces them to retract the arm to defend, removing the obstacle. You can also increase overhook pressure to break their posture further, which compromises their ability to maintain the post."
+        "answer": "Use your guiding hand to strip their posting grip while continuing the thread in one motion. Alternatively, attack their posting arm with a kimura grip threat - this forces them to retract the arm to defend, removing the obstacle. You can also increase overhook pressure to break their posture further, which compromises their ability to maintain the post.",
+        "answer_line": "Strip grip or threaten kimura",
+        "distractors": {
+          "plausible": [
+            "Push their hand away and pause",
+            "Switch to a different position"
+          ],
+          "trap": [
+            "Release overhook to fight the hand"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement required during this transition?",
-        "answer": "Your hips must rotate toward the overhook side, opening the angle for your leg to travel from across their back to around their neck. This rotation loads your weight onto the opposite hip and creates the pathway. Without this hip rotation, the leg cannot physically travel the required distance regardless of flexibility."
+        "answer": "Your hips must rotate toward the overhook side, opening the angle for your leg to travel from across their back to around their neck. This rotation loads your weight onto the opposite hip and creates the pathway. Without this hip rotation, the leg cannot physically travel the required distance regardless of flexibility.",
+        "answer_line": "Rotate hips toward overhook side",
+        "distractors": {
+          "plausible": [
+            "Rotate hips away from overhook",
+            "Square hips flat to opponent"
+          ],
+          "trap": [
+            "Post on far hip and sit up"
+          ]
+        }
       },
       {
         "question": "If the Chill Dog is blocked, what are your best chain attack options?",
-        "answer": "If blocked mid-transition: triangle setup using the elevated leg, armbar on the trapped arm by pivoting your hips, or omoplata by continuing the hip rotation past Chill Dog angle. If they escape completely: return to New York and threaten Invisible Collar or Zombie instead. The key is recognizing failure early and flowing to the alternative rather than forcing a failed Chill Dog."
+        "answer": "If blocked mid-transition: triangle setup using the elevated leg, armbar on the trapped arm by pivoting your hips, or omoplata by continuing the hip rotation past Chill Dog angle. If they escape completely: return to New York and threaten Invisible Collar or Zombie instead. The key is recognizing failure early and flowing to the alternative rather than forcing a failed Chill Dog.",
+        "answer_line": "Triangle, armbar, or omoplata",
+        "distractors": {
+          "plausible": [
+            "Return to closed guard and reset",
+            "Switch to De La Riva guard"
+          ],
+          "trap": [
+            "Force the leg through anyway"
+          ]
+        }
       },
       {
         "question": "How does maintaining the overhook throughout the transition affect your opponent's defense options?",
-        "answer": "The deep overhook eliminates their primary escape mechanism - arm extraction and posture recovery. With one arm trapped and posture broken, they cannot generate the explosive movement needed to prevent the leg threading. Any loosening of the overhook immediately gives them space to pull their arm back and stand up out of the entire Rubber Guard position."
+        "answer": "The deep overhook eliminates their primary escape mechanism - arm extraction and posture recovery. With one arm trapped and posture broken, they cannot generate the explosive movement needed to prevent the leg threading. Any loosening of the overhook immediately gives them space to pull their arm back and stand up out of the entire Rubber Guard position.",
+        "answer_line": "Blocks arm extraction and posture",
+        "distractors": {
+          "plausible": [
+            "Blocks their hip escape only",
+            "Prevents their leg from moving"
+          ],
+          "trap": [
+            "Loosen overhook to bait a reaction"
+          ]
+        }
       },
       {
         "question": "What body positioning indicates your opponent is vulnerable to this transition?",
-        "answer": "Vulnerability indicators include: head pulled low toward your chest, weight driving forward rather than back, trapped arm unable to post or push, and hips close to yours rather than elevated. When you feel their weight committed forward and their arm deeply trapped, initiate immediately - these conditions are optimal and may not persist."
+        "answer": "Vulnerability indicators include: head pulled low toward your chest, weight driving forward rather than back, trapped arm unable to post or push, and hips close to yours rather than elevated. When you feel their weight committed forward and their arm deeply trapped, initiate immediately - these conditions are optimal and may not persist.",
+        "answer_line": "Head low, weight forward, arm pinned",
+        "distractors": {
+          "plausible": [
+            "Opponent postured up and relaxed",
+            "Hips elevated, arm free to post"
+          ],
+          "trap": [
+            "Opponent pulling guard tightly"
+          ]
+        }
       },
       {
         "question": "Why is fluid continuous motion emphasized over segmented steps?",
-        "answer": "Each pause in segmented execution gives the opponent time to identify your intention and implement defensive adjustments. Continuous fluid motion moves faster than their defensive recognition and reaction cycle. By the time they recognize the Chill Dog entry, the position should already be secured. Segmented attempts also telegraph the attack, allowing preemptive defense."
+        "answer": "Each pause in segmented execution gives the opponent time to identify your intention and implement defensive adjustments. Continuous fluid motion moves faster than their defensive recognition and reaction cycle. By the time they recognize the Chill Dog entry, the position should already be secured. Segmented attempts also telegraph the attack, allowing preemptive defense.",
+        "answer_line": "Beats their defensive reaction time",
+        "distractors": {
+          "plausible": [
+            "Looks smoother for the coach",
+            "Conserves energy during transition"
+          ],
+          "trap": [
+            "Lets you check grips each step"
+          ]
+        }
       },
       {
         "question": "What role does hip flexibility play in this technique, and how do you compensate for limited flexibility?",
-        "answer": "Hip flexibility determines how easily your shin can travel from back position to neck position. With excellent flexibility, the leg threads naturally with minimal assistance. With limited flexibility, use the Assisted Thread variant where your hand physically lifts and guides the ankle. You can also work through Crackhead Control as an intermediate position that requires less range of motion."
+        "answer": "Hip flexibility determines how easily your shin can travel from back position to neck position. With excellent flexibility, the leg threads naturally with minimal assistance. With limited flexibility, use the Assisted Thread variant where your hand physically lifts and guides the ankle. You can also work through Crackhead Control as an intermediate position that requires less range of motion.",
+        "answer_line": "Use Assisted Thread if limited",
+        "distractors": {
+          "plausible": [
+            "Skip the transition entirely",
+            "Force the leg through faster"
+          ],
+          "trap": [
+            "Release overhook for more room"
+          ]
+        }
       },
       {
         "question": "Your opponent begins extracting their trapped arm mid-thread - what is your immediate response?",
-        "answer": "Immediately clamp down on the overhook by driving your shoulder deeper into their armpit and pulling your elbow tight to your ribs. If extraction has progressed past the point of recovery, abandon the Chill Dog attempt and transition to a triangle by shooting your threading leg over their newly freed shoulder. Their arm extraction creates the exact space needed for a triangle entry, turning their escape into your submission opportunity."
+        "answer": "Immediately clamp down on the overhook by driving your shoulder deeper into their armpit and pulling your elbow tight to your ribs. If extraction has progressed past the point of recovery, abandon the Chill Dog attempt and transition to a triangle by shooting your threading leg over their newly freed shoulder. Their arm extraction creates the exact space needed for a triangle entry, turning their escape into your submission opportunity.",
+        "answer_line": "Clamp overhook or switch triangle",
+        "distractors": {
+          "plausible": [
+            "Let arm go and reset position",
+            "Push harder into New York"
+          ],
+          "trap": [
+            "Release grip to re-establish later"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves significant pressure on both practitioners' bodies and requires careful training progression. For the bottom player, hip flexibility limitations can cause strain if the technique is forced - always warm up thoroughly and respect your body's range of motion. For the top player, the eventual Chill Dog position creates neck compression that can be dangerous if applied explosively. Train the transition with control, tap early during the learning phase, and communicate clearly with training partners about pressure levels. Avoid this technique if you have existing hip, knee, or neck injuries. In competition, be aware that some rulesets restrict certain Rubber Guard finishing techniques - verify legality before relying on this pathway."
+    "safety_considerations": "This transition involves significant pressure on both practitioners' bodies and requires careful training progression. For the bottom player, hip flexibility limitations can cause strain if the technique is forced - always warm up thoroughly and respect your body's range of motion. For the top player, the eventual Chill Dog position creates neck compression that can be dangerous if applied explosively. Train the transition with control, tap early during the learning phase, and communicate clearly with training partners about pressure levels. Avoid this technique if you have existing hip, knee, or neck injuries. In competition, be aware that some rulesets restrict certain Rubber Guard finishing techniques - verify legality before relying on this pathway.",
+    "clips": [
+      {
+        "id": "Q2aYW-20B44",
+        "title": "Meathook to Chill Dog to kimura finishes",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2zillrf6gGs",
+        "title": "Closed guard entry to Chill Dog to omoplata",
+        "by": "Marshall Stamper",
+        "vertical": false,
+        "channel": "The Bear's Den BJJ & MMA  熊派巴西柔術及MMA學院",
+        "duration": 195,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wUDqbU2jwxg",
+        "title": "Rubber guard positions: Zombie, New York, Chill Dog",
+        "by": "Submissions101",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 278,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Advance to Chill Dog Defender",
@@ -363,27 +524,87 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is beginning the Advance to Chill Dog transition?",
-        "answer": "The earliest cue is the hip rotation toward the overhook side. Before the bottom player releases their shin grip or begins threading, their hips must rotate to create the angle for the leg to travel. You will feel this as a shift in their weight distribution and a change in the direction of pressure from their legs. This rotation precedes the actual leg movement by one to two seconds, giving you a critical early warning window."
+        "answer": "The earliest cue is the hip rotation toward the overhook side. Before the bottom player releases their shin grip or begins threading, their hips must rotate to create the angle for the leg to travel. You will feel this as a shift in their weight distribution and a change in the direction of pressure from their legs. This rotation precedes the actual leg movement by one to two seconds, giving you a critical early warning window.",
+        "answer_line": "Hips rotate toward overhook side",
+        "distractors": {
+          "plausible": [
+            "Shin grip releases first",
+            "Overhook pressure suddenly drops"
+          ],
+          "trap": [
+            "Opponent's head moves first"
+          ]
+        }
       },
       {
         "question": "Why should you avoid driving forward when you feel the leg threading begin?",
-        "answer": "Forward pressure compresses the distance between the bottom player's shin and your neck, making the thread easier to complete. Your forward drive also adds momentum that the bottom player redirects into their leg movement. The correct response is always to drive your hips backward and posture up, increasing the distance the shin must travel and removing the compression that assists the transition. Forward driving is the single most common defensive error in this position."
+        "answer": "Forward pressure compresses the distance between the bottom player's shin and your neck, making the thread easier to complete. Your forward drive also adds momentum that the bottom player redirects into their leg movement. The correct response is always to drive your hips backward and posture up, increasing the distance the shin must travel and removing the compression that assists the transition. Forward driving is the single most common defensive error in this position.",
+        "answer_line": "Drive hips back and posture up",
+        "distractors": {
+          "plausible": [
+            "Drive forward to smother the leg",
+            "Stay still and wait it out"
+          ],
+          "trap": [
+            "Push down to flatten their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent releases their shin grip to guide their foot around your neck - what defensive opportunity does this create?",
-        "answer": "The shin grip release temporarily reduces their control system from three anchor points to two - just the overhook and their leg position. This is the highest-percentage escape window because their leg is momentarily unsupported and their guiding hand is occupied. Use this window to either explosively recover posture by driving hips back, or begin corkscrew arm extraction on the trapped arm. The window lasts approximately one to two seconds before they re-establish grip on their shin in the Chill Dog configuration."
+        "answer": "The shin grip release temporarily reduces their control system from three anchor points to two - just the overhook and their leg position. This is the highest-percentage escape window because their leg is momentarily unsupported and their guiding hand is occupied. Use this window to either explosively recover posture by driving hips back, or begin corkscrew arm extraction on the trapped arm. The window lasts approximately one to two seconds before they re-establish grip on their shin in the Chill Dog configuration.",
+        "answer_line": "Recover posture or extract arm",
+        "distractors": {
+          "plausible": [
+            "Grab their ankle immediately",
+            "Wait for the full lock to land"
+          ],
+          "trap": [
+            "Push forward into the leg"
+          ]
+        }
       },
       {
         "question": "The Chill Dog is partially established with the shin across the side of your neck but not locked - what is your priority?",
-        "answer": "Your immediate priority is preventing the lock from being secured. Use your free hand to grip their ankle or foot and push it back off your neck before they can re-grip their shin. Simultaneously turn your head toward the threading leg side, using your jaw and shoulder to create a wedge that blocks the shin from settling deeper. If you cannot dislodge the shin, begin stacking by driving your weight forward and up to flatten their hips, which removes the hip elevation needed to maintain the position."
+        "answer": "Your immediate priority is preventing the lock from being secured. Use your free hand to grip their ankle or foot and push it back off your neck before they can re-grip their shin. Simultaneously turn your head toward the threading leg side, using your jaw and shoulder to create a wedge that blocks the shin from settling deeper. If you cannot dislodge the shin, begin stacking by driving your weight forward and up to flatten their hips, which removes the hip elevation needed to maintain the position.",
+        "answer_line": "Push shin off, turn head, stack",
+        "distractors": {
+          "plausible": [
+            "Wait for the lock to finish",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Turn head away from the leg"
+          ]
+        }
       },
       {
         "question": "How does the defender's head position affect the success of this transition?",
-        "answer": "Head position is critical because the shin must cross the back of your neck to establish Chill Dog. If you turn your head and tuck your chin toward the threading leg side, you create a physical barrier with your jaw and shoulder that significantly increases the distance the shin must travel. Conversely, keeping your head neutral or turning away from the thread exposes the back of your neck completely. Active head positioning can add several inches of required travel distance, which often makes the difference between successful and failed defense."
+        "answer": "Head position is critical because the shin must cross the back of your neck to establish Chill Dog. If you turn your head and tuck your chin toward the threading leg side, you create a physical barrier with your jaw and shoulder that significantly increases the distance the shin must travel. Conversely, keeping your head neutral or turning away from the thread exposes the back of your neck completely. Active head positioning can add several inches of required travel distance, which often makes the difference between successful and failed defense.",
+        "answer_line": "Tuck chin toward threading leg",
+        "distractors": {
+          "plausible": [
+            "Keep head neutral and relaxed",
+            "Turn head away from the leg"
+          ],
+          "trap": [
+            "Look up to posture immediately"
+          ]
+        }
       },
       {
         "question": "You have successfully stalled the Advance to Chill Dog and returned to New York Top - what should your defensive priorities be now?",
-        "answer": "After successfully defending the Chill Dog advancement, immediately resume your systematic New York Top escape sequence: widen your base to prevent sweeps, begin grip fighting on the opponent's shin-controlling hand, and work toward posture recovery through combined hip and chest extension. Do not remain static celebrating the successful defense - the bottom player will attempt the transition again or switch to an alternative attack pathway like Invisible Collar or Zombie. Use the momentum of your successful defense to advance your escape before they can re-establish their offensive rhythm."
+        "answer": "After successfully defending the Chill Dog advancement, immediately resume your systematic New York Top escape sequence: widen your base to prevent sweeps, begin grip fighting on the opponent's shin-controlling hand, and work toward posture recovery through combined hip and chest extension. Do not remain static celebrating the successful defense - the bottom player will attempt the transition again or switch to an alternative attack pathway like Invisible Collar or Zombie. Use the momentum of your successful defense to advance your escape before they can re-establish their offensive rhythm.",
+        "answer_line": "Widen base, grip fight, posture",
+        "distractors": {
+          "plausible": [
+            "Rest and celebrate the stop",
+            "Wait for their next attempt"
+          ],
+          "trap": [
+            "Stay static and hold position"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -406,6 +627,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Begin from New York with partner attempting full Rubber Guard progression including Chill Dog advancement. Defend with full resistance and chain defenses together when individual techniques fail. Track which recognition cues you respond to fastest and which defensive options yield the highest success rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "huzjQNiJu7Y",
+        "title": "Rubber guard quick fix",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 65,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "2 simple rubber guard tips",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
       }
     ]
   },

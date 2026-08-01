@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Zombie/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Strip Grip from Zombie is a systematic grip-breaking sequence executed from the top position against an opponent utilizing the Zombie lockdown structure from the 10th Planet system. This technique addresses the fundamental challenge of neutralizing the bottom player's lockdown, underhook, and frame grips that constitute the Zombie's defensive architecture, transforming a complex and frustrating passing problem into a manageable open guard scenario.\n\nThe technique involves methodical breaking of connection points rather than explosive force. The top player systematically addresses each grip in priority order: first neutralizing the underhook through whizzer or crossface pressure, then clearing defensive frames, and finally breaking the lockdown through hip positioning and leg extraction mechanics. The sequence must be executed with constant chest pressure to prevent the bottom player from capitalizing on momentary openings to sweep or recover guard.\n\nStrip Grip from Zombie represents a critical utility technique in the passing toolkit against 10th Planet practitioners. While not flashy, mastering this grip-stripping sequence is the gateway to applying standard passing strategies against an otherwise highly resilient defensive structure. The technique emphasizes patience and positional control over athletic ability, rewarding practitioners who develop sensitivity to grip tension and the discipline to follow a systematic sequence rather than forcing through the position.",
   "variants_and_adaptations": [
     {
@@ -234,38 +246,138 @@
     "flashcards": [
       {
         "question": "What is the correct priority order for stripping grips from the Zombie position?",
-        "answer": "The correct order is: first neutralize the underhook using a deep whizzer and shoulder pressure, then clear near-side frames by pinning or redirecting the framing arm, and finally address the lockdown through steady hip pressure and leg extraction. This order works because the underhook is the keystone grip — without it, the opponent cannot effectively use their frames or lockdown for sweeps. Attacking the lockdown first while the underhook is active invites Old School Sweeps and Electric Chair attempts."
+        "answer": "The correct order is: first neutralize the underhook using a deep whizzer and shoulder pressure, then clear near-side frames by pinning or redirecting the framing arm, and finally address the lockdown through steady hip pressure and leg extraction. This order works because the underhook is the keystone grip — without it, the opponent cannot effectively use their frames or lockdown for sweeps. Attacking the lockdown first while the underhook is active invites Old School Sweeps and Electric Chair attempts.",
+        "answer_line": "Underhook, frames, then lockdown",
+        "distractors": {
+          "plausible": [
+            "Frames first, then underhook",
+            "Lockdown first, then underhook"
+          ],
+          "trap": [
+            "Break lockdown before underhook"
+          ]
+        }
       },
       {
         "question": "Why should you avoid using explosive force to break the lockdown?",
-        "answer": "Explosive pulling against the lockdown creates backward momentum that the bottom player can redirect into sweeps, particularly the Old School Sweep. It also compromises your base and chest pressure, creating space for the opponent to re-frame and re-establish their defensive structure. Instead, use steady progressive hip pressure combined with leg straightening to gradually break the figure-four configuration. This method preserves your base, maintains top pressure, and prevents the opponent from using your own movement against you."
+        "answer": "Explosive pulling against the lockdown creates backward momentum that the bottom player can redirect into sweeps, particularly the Old School Sweep. It also compromises your base and chest pressure, creating space for the opponent to re-frame and re-establish their defensive structure. Instead, use steady progressive hip pressure combined with leg straightening to gradually break the figure-four configuration. This method preserves your base, maintains top pressure, and prevents the opponent from using your own movement against you.",
+        "answer_line": "Steady hip pressure, not yanking",
+        "distractors": {
+          "plausible": [
+            "Quick pull once they relax",
+            "Break it fast before they adjust"
+          ],
+          "trap": [
+            "Yank hard to snap it open"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps re-pumping their underhook every time you begin working on the lockdown — how do you adjust?",
-        "answer": "This indicates your whizzer control is insufficient. Before moving to the lockdown, establish a deeper whizzer by threading your arm further over their underhook arm and squeezing your elbow tightly against your ribs. Simultaneously drive your shoulder forward to collapse their arm against their body. Only proceed to lockdown work when their underhook arm is pinned and immobile. If they continue to re-pump, switch to a crossface grip which removes their underhook entirely by controlling their head position and preventing chest-to-chest connection."
+        "answer": "This indicates your whizzer control is insufficient. Before moving to the lockdown, establish a deeper whizzer by threading your arm further over their underhook arm and squeezing your elbow tightly against your ribs. Simultaneously drive your shoulder forward to collapse their arm against their body. Only proceed to lockdown work when their underhook arm is pinned and immobile. If they continue to re-pump, switch to a crossface grip which removes their underhook entirely by controlling their head position and preventing chest-to-chest connection.",
+        "answer_line": "Deepen whizzer, pin the arm",
+        "distractors": {
+          "plausible": [
+            "Grip harder on their wrist",
+            "Switch to lockdown work instead"
+          ],
+          "trap": [
+            "Ignore it, push to lockdown"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the bottom player is about to attempt an Old School Sweep during your grip stripping?",
-        "answer": "Watch for the bottom player posting their far foot on the mat, driving their hips upward toward you, and pulling with their underhook to create an angle. You will feel a distinct shift in their energy from defensive holding to active driving. Their lockdown tension will increase as they prepare to use it as a fulcrum for the sweep. The moment you feel upward hip pressure combined with pulling force on your upper body, immediately drop your weight forward and drive heavy crossface pressure to flatten them before the sweep develops."
+        "answer": "Watch for the bottom player posting their far foot on the mat, driving their hips upward toward you, and pulling with their underhook to create an angle. You will feel a distinct shift in their energy from defensive holding to active driving. Their lockdown tension will increase as they prepare to use it as a fulcrum for the sweep. The moment you feel upward hip pressure combined with pulling force on your upper body, immediately drop your weight forward and drive heavy crossface pressure to flatten them before the sweep develops.",
+        "answer_line": "Far foot posts, hips drive up",
+        "distractors": {
+          "plausible": [
+            "They loosen their lockdown",
+            "They grab a new underhook"
+          ],
+          "trap": [
+            "They breathe heavy and pause"
+          ]
+        }
       },
       {
         "question": "How do you maintain effective chest pressure while simultaneously working to strip grips with your hands?",
-        "answer": "The key is using your forehead, shoulder, and chest as your primary pressure tools rather than your hands. Position your forehead against the side of their face, drive your shoulder directly into their jaw or chest, and let gravity do the work through your upper body. Your hands then work to strip grips while your skeletal structure maintains the pressure. Never lift your shoulder or chest to gain hand mobility — instead, work your hands underneath your pressure points so the opponent feels constant weight even as your hands are active."
+        "answer": "The key is using your forehead, shoulder, and chest as your primary pressure tools rather than your hands. Position your forehead against the side of their face, drive your shoulder directly into their jaw or chest, and let gravity do the work through your upper body. Your hands then work to strip grips while your skeletal structure maintains the pressure. Never lift your shoulder or chest to gain hand mobility — instead, work your hands underneath your pressure points so the opponent feels constant weight even as your hands are active.",
+        "answer_line": "Forehead, shoulder, chest weight",
+        "distractors": {
+          "plausible": [
+            "Push down hard with your hands",
+            "Use your hips to hold pressure"
+          ],
+          "trap": [
+            "Lift your chest for hand room"
+          ]
+        }
       },
       {
         "question": "After successfully stripping all grips, what is the most common mistake that allows the opponent to re-establish guard?",
-        "answer": "The most common mistake is pausing to reassess after clearing the lockdown instead of immediately transitioning to a passing sequence. The window between clearing the Zombie structure and the opponent establishing a new guard variation such as butterfly hooks, knee shield, or de la riva is extremely short — typically two to three seconds. You must have your passing sequence pre-planned and transition into it without hesitation. Immediately control their knees, establish passing grips, and begin your preferred passing chain the moment your leg clears the lockdown."
+        "answer": "The most common mistake is pausing to reassess after clearing the lockdown instead of immediately transitioning to a passing sequence. The window between clearing the Zombie structure and the opponent establishing a new guard variation such as butterfly hooks, knee shield, or de la riva is extremely short — typically two to three seconds. You must have your passing sequence pre-planned and transition into it without hesitation. Immediately control their knees, establish passing grips, and begin your preferred passing chain the moment your leg clears the lockdown.",
+        "answer_line": "Pausing instead of passing",
+        "distractors": {
+          "plausible": [
+            "Resetting your base first",
+            "Checking opponent's hands"
+          ],
+          "trap": [
+            "Celebrate the grip strip"
+          ]
+        }
       },
       {
         "question": "What grip should you establish immediately after extracting your leg from the lockdown?",
-        "answer": "Immediately control both of the opponent's knees by gripping their pants or pinching their knees together. This prevents them from inserting butterfly hooks, establishing knee shield, or creating any new guard structure. Push their knees to one side to begin your toreando or leg drag passing sequence. If you cannot control both knees, at minimum control the near knee and pin it to the mat while driving forward with chest pressure to prevent guard recovery. Speed in establishing this post-extraction control is the difference between a successful grip strip and a wasted effort."
+        "answer": "Immediately control both of the opponent's knees by gripping their pants or pinching their knees together. This prevents them from inserting butterfly hooks, establishing knee shield, or creating any new guard structure. Push their knees to one side to begin your toreando or leg drag passing sequence. If you cannot control both knees, at minimum control the near knee and pin it to the mat while driving forward with chest pressure to prevent guard recovery. Speed in establishing this post-extraction control is the difference between a successful grip strip and a wasted effort.",
+        "answer_line": "Control both knees immediately",
+        "distractors": {
+          "plausible": [
+            "Grip the far collar",
+            "Secure an underhook first"
+          ],
+          "trap": [
+            "Sit back to reset posture"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back and drives forward to defend the lockdown extraction — what chain attack does their defensive posture open up?",
-        "answer": "When the bottom player commits to sprawling and driving forward to stop the leg extraction, they typically turn away from your pressure and expose their back and neck. Rather than continuing to fight the lockdown, follow them toward turtle and switch your objective from passing to back exposure: secure a seat belt grip and attack a back take or front headlock series. The energy they invest in defending the trapped leg leaves their upper body vulnerable, so a stalled grip strip converts directly into a higher-value back-control or front-headlock attack. Recognize the turn early and ride it rather than forcing the now-defended extraction."
+        "answer": "When the bottom player commits to sprawling and driving forward to stop the leg extraction, they typically turn away from your pressure and expose their back and neck. Rather than continuing to fight the lockdown, follow them toward turtle and switch your objective from passing to back exposure: secure a seat belt grip and attack a back take or front headlock series. The energy they invest in defending the trapped leg leaves their upper body vulnerable, so a stalled grip strip converts directly into a higher-value back-control or front-headlock attack. Recognize the turn early and ride it rather than forcing the now-defended extraction.",
+        "answer_line": "Ride to back take/headlock",
+        "distractors": {
+          "plausible": [
+            "Force the leg extraction harder",
+            "Switch to guillotine attempt"
+          ],
+          "trap": [
+            "Keep fighting the trapped leg"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Avoid explosive yanking movements when breaking the lockdown as this can cause knee or ankle injuries to both players. Use steady progressive pressure for leg extraction. Be aware that the lockdown configuration places stress on the trapped leg's knee joint — if you feel sharp pain, communicate and reset rather than forcing through. During grip stripping, avoid cranking the opponent's wrist or fingers when clearing frames. Both training partners should agree on intensity levels before drilling this sequence."
+    "safety_considerations": "Avoid explosive yanking movements when breaking the lockdown as this can cause knee or ankle injuries to both players. Use steady progressive pressure for leg extraction. Be aware that the lockdown configuration places stress on the trapped leg's knee joint — if you feel sharp pain, communicate and reset rather than forcing through. During grip stripping, avoid cranking the opponent's wrist or fingers when clearing frames. Both training partners should agree on intensity levels before drilling this sequence.",
+    "clips": [
+      {
+        "id": "cY1xCIx-9-I",
+        "title": "Two rubber guard grip details in one minute",
+        "by": "Brandon Mccaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "g0gKqgv_Bbc",
+        "title": "Eddie Bravo: Lockdown Strategies",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Strip Grip from Zombie Defender",
@@ -350,19 +462,59 @@
     "flashcards": [
       {
         "question": "What is the most important grip to defend when the opponent begins their stripping sequence?",
-        "answer": "The underhook is the most critical grip to defend because it serves as the keystone of the entire Zombie defensive structure. Without the underhook, you cannot create the angles needed for Old School Sweeps, Electric Chair threats, or effective guard recovery. The lockdown alone without an underhook becomes a passive leg entanglement that the opponent can systematically defeat with patience and pressure. If you can maintain only one grip, keep the underhook and use it to re-establish your other connections."
+        "answer": "The underhook is the most critical grip to defend because it serves as the keystone of the entire Zombie defensive structure. Without the underhook, you cannot create the angles needed for Old School Sweeps, Electric Chair threats, or effective guard recovery. The lockdown alone without an underhook becomes a passive leg entanglement that the opponent can systematically defeat with patience and pressure. If you can maintain only one grip, keep the underhook and use it to re-establish your other connections.",
+        "answer_line": "The underhook",
+        "distractors": {
+          "plausible": [
+            "The lockdown hook",
+            "The near-side frame"
+          ],
+          "trap": [
+            "Let underhook go, keep frame"
+          ]
+        }
       },
       {
         "question": "When during the opponent's grip stripping sequence is the best window to attempt a sweep?",
-        "answer": "The best sweep window occurs during the transition between the opponent stripping your underhook and beginning to work on your lockdown. At this point, they have typically committed their upper body to a whizzer or crossface position and are beginning to redirect attention to their trapped leg. This weight redistribution temporarily compromises their base. The Old School Sweep is particularly effective here because the opponent's forward pressure and committed upper body positioning provides the momentum needed for the sweep."
+        "answer": "The best sweep window occurs during the transition between the opponent stripping your underhook and beginning to work on your lockdown. At this point, they have typically committed their upper body to a whizzer or crossface position and are beginning to redirect attention to their trapped leg. This weight redistribution temporarily compromises their base. The Old School Sweep is particularly effective here because the opponent's forward pressure and committed upper body positioning provides the momentum needed for the sweep.",
+        "answer_line": "After underhook, before lockdown",
+        "distractors": {
+          "plausible": [
+            "Right when lockdown is applied",
+            "The instant they get crossface"
+          ],
+          "trap": [
+            "While underhook is still yours"
+          ]
+        }
       },
       {
         "question": "How do you recognize that your Zombie structure is failing and you need to transition to an alternative guard?",
-        "answer": "Your structure is critically failing when both your underhook and near-side frame have been neutralized, leaving only the lockdown as your remaining connection point. At this stage, maintaining the Zombie is futile — the opponent will extract their leg within seconds. The correct response is to proactively release the lockdown and immediately transition to either deep half guard by shooting underneath them, knee shield half guard by inserting your top knee, or butterfly guard by extracting your bottom hook. Making this transition voluntarily while you still have some control is far superior to having the structure completely dismantled."
+        "answer": "Your structure is critically failing when both your underhook and near-side frame have been neutralized, leaving only the lockdown as your remaining connection point. At this stage, maintaining the Zombie is futile — the opponent will extract their leg within seconds. The correct response is to proactively release the lockdown and immediately transition to either deep half guard by shooting underneath them, knee shield half guard by inserting your top knee, or butterfly guard by extracting your bottom hook. Making this transition voluntarily while you still have some control is far superior to having the structure completely dismantled.",
+        "answer_line": "Only lockdown left, switch guards",
+        "distractors": {
+          "plausible": [
+            "Once frame breaks, bail out",
+            "When they get any grip back"
+          ],
+          "trap": [
+            "Fight to keep zombie alive"
+          ]
+        }
       },
       {
         "question": "What body positioning adjustments help you maintain your grips longer against a skilled grip stripper?",
-        "answer": "Stay turned aggressively onto your side rather than allowing yourself to be flattened. Your underhook is strongest when your chest is connected to the opponent's body. Squeeze your lockdown with your thigh adductors rather than relying on your foot hook alone — the thigh squeeze is biomechanically harder to break. Keep your framing arm with a bent elbow anchored against your ribs rather than extended, making it structurally resistant to being stripped. Most importantly, keep your hips moving with constant micro-adjustments to prevent the opponent from settling into a stable grip-breaking position."
+        "answer": "Stay turned aggressively onto your side rather than allowing yourself to be flattened. Your underhook is strongest when your chest is connected to the opponent's body. Squeeze your lockdown with your thigh adductors rather than relying on your foot hook alone — the thigh squeeze is biomechanically harder to break. Keep your framing arm with a bent elbow anchored against your ribs rather than extended, making it structurally resistant to being stripped. Most importantly, keep your hips moving with constant micro-adjustments to prevent the opponent from settling into a stable grip-breaking position.",
+        "answer_line": "Stay on side, squeeze with thighs",
+        "distractors": {
+          "plausible": [
+            "Flatten out to conserve energy",
+            "Extend your framing arm fully"
+          ],
+          "trap": [
+            "Relax hips to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -385,6 +537,35 @@
         "phase": "Integrated Defense and Counter",
         "focus": "Combining grip defense with offensive threats",
         "description": "Advanced positional sparring where you must simultaneously defend grip strips while threatening sweeps and guard transitions. The goal is making your defense itself threatening, so the opponent cannot freely strip grips without risking being swept or losing positional advantage."
+      }
+    ],
+    "clips": [
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown Clinches",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "p6M-9BVuWqs",
+        "title": "Dead Orchard finish: clearing the elbow to lock up",
+        "by": "Ben Eddy",
+        "vertical": false,
+        "channel": "Ben Eddy Bravo",
+        "duration": 79,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "sMsgoChdaHE",
+        "title": "Quarter Guard concepts and grip retention",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-16"
       }
     ]
   }

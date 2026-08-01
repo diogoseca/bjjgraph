@@ -20,38 +20,38 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Stack Pass",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Pressure Pass",
+      "text": "From this position, attempt Pressure Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pressure Pass",
-      "text": "From this position, attempt Pressure Pass. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Posture Recovery",
+      "text": "From this position, attempt Posture Recovery. This technique is attempted in 19% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Posture from Williams Guard",
+      "text": "From this position, attempt Posture from Williams Guard. This technique is attempted in 22% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture from Williams Guard",
-      "text": "From this position, attempt Posture from Williams Guard. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Stack from Williams Guard",
+      "text": "From this position, attempt Stack from Williams Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Williams Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Williams Guard cartwheel escape counter",
+      "description": "Williams Guard (Top) film study: Williams Guard cartwheel escape counter, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZEf9jXzCYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZEf9jXzCYA",
+      "url": "https://www.youtube.com/watch?v=NZEf9jXzCYA",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Williams Guard armbar counter",
+      "description": "Williams Guard (Top) film study: Williams Guard armbar counter, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M__MeC_XCIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M__MeC_XCIM",
+      "url": "https://www.youtube.com/watch?v=M__MeC_XCIM",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT66S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ description: "Master Williams Guard Top defense and passing strategies. Learn to
 Williams Guard Top represents the challenging defensive and passing position faced when an opponent secures Williams Guard Bottom control with a shoulder lock threat on your arm. This position requires technical understanding of shoulder lock defense mechanics combined with systematic guard passing principles. The top practitioner must simultaneously defend the shoulder lock submission threat while working to extract their trapped arm and establish guard passing control. Success in this position demands patience, proper defensive posture, and recognition of the opponent's transition triggers. Williams Guard Top exemplifies modern guard passing challenges where submission threats and positional control are integrated, requiring the passer to address multiple layers of offense while advancing their passing game. Understanding the mechanical relationship between shoulder lock defense and guard passing is essential for navigating this position effectively and preventing the bottom player from transitioning to more dominant attacking positions. The fundamental challenge lies in the mechanical hierarchy of defensive priorities—submission defense must take absolute precedence over passing advancement, as attempting to pass while your arm remains compromised virtually guarantees either submission or sweep. Systematic arm extraction combined with proper base maintenance and transition recognition transforms this challenging position into a manageable defensive problem with clear pathways to guard passing success.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Williams Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZEf9jXzCYA)
+
+<p class="clip-credit"><strong>Williams Guard cartwheel escape counter</strong> — taught by Sam Wilkinson · 1:20 · <a href="https://www.youtube.com/watch?v=NZEf9jXzCYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M__MeC_XCIM)
+
+<p class="clip-credit"><strong>Williams Guard armbar counter</strong> — taught by Sam Wilkinson · 1:06 · <a href="https://www.youtube.com/watch?v=M__MeC_XCIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

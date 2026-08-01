@@ -148,6 +148,54 @@ description: "Defend the Homer Simpson Sweep from deep half guard top. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Homer Simpson Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering deep half guard with a back take",
+      "description": "Homer Simpson Sweep (Defender) film study: Countering deep half guard with a back take, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
+      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing against deep half guard",
+      "description": "Homer Simpson Sweep (Defender) film study: Passing against deep half guard, taught by Koji Shibamoto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qqheiIgQrfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qqheiIgQrfY",
+      "url": "https://www.youtube.com/watch?v=qqheiIgQrfY",
+      "creator": { "@type": "Person", "name": "Koji Shibamoto" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three ways to defend deep half guard",
+      "description": "Homer Simpson Sweep (Defender) film study: Three ways to defend deep half guard, taught by Six Blades Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JEDoJOZWQHY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JEDoJOZWQHY",
+      "url": "https://www.youtube.com/watch?v=JEDoJOZWQHY",
+      "creator": { "@type": "Person", "name": "Six Blades Jiu-Jitsu" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ Successful defense requires understanding that the sweep's power comes from the 
 **Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Homer Simpson Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+
+<p class="clip-credit"><strong>Countering deep half guard with a back take</strong> — taught by JiuJitsu.com · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qqheiIgQrfY)
+
+<p class="clip-credit"><strong>Passing against deep half guard</strong> — taught by Koji Shibamoto · 0:33 · <a href="https://www.youtube.com/watch?v=qqheiIgQrfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JEDoJOZWQHY)
+
+<p class="clip-credit"><strong>Three ways to defend deep half guard</strong> — taught by Six Blades Jiu-Jitsu · 3:27 · <a href="https://www.youtube.com/watch?v=JEDoJOZWQHY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

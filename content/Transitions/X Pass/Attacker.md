@@ -168,6 +168,43 @@ description: "How to execute X Pass in BJJ. Attacking perspective with setup, ex
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X Pass (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing open guard",
+      "description": "X Pass (Attacker) film study: Passing open guard, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u6d8_QqbqGM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u6d8_QqbqGM",
+      "url": "https://www.youtube.com/watch?v=u6d8_QqbqGM",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT755S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified toreando guard pass",
+      "description": "X Pass (Attacker) film study: Modified toreando guard pass, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S65D0wxPZ7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S65D0wxPZ7c",
+      "url": "https://www.youtube.com/watch?v=S65D0wxPZ7c",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT752S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ The X Pass from the attacker's perspective centers on establishing overwhelming 
 **From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X Pass (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u6d8_QqbqGM)
+
+<p class="clip-credit"><strong>Passing open guard</strong> — taught by Andre Galvao · 12:35 · <a href="https://www.youtube.com/watch?v=u6d8_QqbqGM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S65D0wxPZ7c)
+
+<p class="clip-credit"><strong>Modified toreando guard pass</strong> — taught by Andre Galvao · 12:32 · <a href="https://www.youtube.com/watch?v=S65D0wxPZ7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

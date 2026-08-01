@@ -140,6 +140,54 @@ description: "Master defending against hand fights from seat belt back control. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fight from Seat Belt Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the seatbelt position from the back",
+      "description": "Hand Fight from Seat Belt Control (Defender) film study: Holding the seatbelt position from the back, taught by Kyuzo BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y_GjhMb6Qf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y_GjhMb6Qf8",
+      "url": "https://www.youtube.com/watch?v=y_GjhMb6Qf8",
+      "creator": { "@type": "Person", "name": "Kyuzo BJJ coach" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quick fix for a stronger seatbelt grip",
+      "description": "Hand Fight from Seat Belt Control (Defender) film study: Quick fix for a stronger seatbelt grip, taught by Ben Kool.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "creator": { "@type": "Person", "name": "Ben Kool" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Keeping the seatbelt grip in back control",
+      "description": "Hand Fight from Seat Belt Control (Defender) film study: Keeping the seatbelt grip in back control, taught by Academy Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wga4PfuShEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wga4PfuShEg",
+      "url": "https://www.youtube.com/watch?v=Wga4PfuShEg",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu coach" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against hand fighting from seat belt back control requires the top pla
 **Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fight from Seat Belt Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y_GjhMb6Qf8)
+
+<p class="clip-credit"><strong>Holding the seatbelt position from the back</strong> — taught by Kyuzo BJJ coach · 0:26 · <a href="https://www.youtube.com/watch?v=y_GjhMb6Qf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
+
+<p class="clip-credit"><strong>Quick fix for a stronger seatbelt grip</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wga4PfuShEg)
+
+<p class="clip-credit"><strong>Keeping the seatbelt grip in back control</strong> — taught by Academy Jiu Jitsu coach · 1:54 · <a href="https://www.youtube.com/watch?v=Wga4PfuShEg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

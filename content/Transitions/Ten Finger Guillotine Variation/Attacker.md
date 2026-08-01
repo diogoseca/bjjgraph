@@ -174,6 +174,54 @@ description: "Master the attacking mechanics of the Ten Finger Guillotine Variat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine Variation (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg grab ten finger guillotine, no-gi",
+      "description": "Ten Finger Guillotine Variation (Attacker) film study: Leg grab ten finger guillotine, no-gi, taught by Denny Prokopos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vNjdZQOI-cs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vNjdZQOI-cs",
+      "url": "https://www.youtube.com/watch?v=vNjdZQOI-cs",
+      "creator": { "@type": "Person", "name": "Denny Prokopos" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ten finger guillotine off a guard pull",
+      "description": "Ten Finger Guillotine Variation (Attacker) film study: Ten finger guillotine off a guard pull, taught by Jacek Rozwadowski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ULXHSiYaDgg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ULXHSiYaDgg",
+      "url": "https://www.youtube.com/watch?v=ULXHSiYaDgg",
+      "creator": { "@type": "Person", "name": "Jacek Rozwadowski" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to do the ten finger guillotine",
+      "description": "Ten Finger Guillotine Variation (Attacker) film study: How to do the ten finger guillotine, taught by Howcast instructor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tsofKYcYqaA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tsofKYcYqaA",
+      "url": "https://www.youtube.com/watch?v=tsofKYcYqaA",
+      "creator": { "@type": "Person", "name": "Howcast instructor" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 **From Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine Variation (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vNjdZQOI-cs)
+
+<p class="clip-credit"><strong>Leg grab ten finger guillotine, no-gi</strong> — taught by Denny Prokopos · 1:29 · <a href="https://www.youtube.com/watch?v=vNjdZQOI-cs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ULXHSiYaDgg)
+
+<p class="clip-credit"><strong>Ten finger guillotine off a guard pull</strong> — taught by Jacek Rozwadowski · 1:32 · <a href="https://www.youtube.com/watch?v=ULXHSiYaDgg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tsofKYcYqaA)
+
+<p class="clip-credit"><strong>How to do the ten finger guillotine</strong> — taught by Howcast instructor · 1:53 · <a href="https://www.youtube.com/watch?v=tsofKYcYqaA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -237,7 +321,7 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Ten Finger Guillotine]] | 55% |
+| Success | [[Ten Finger Guillotine from Guillotine Control]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 30% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 

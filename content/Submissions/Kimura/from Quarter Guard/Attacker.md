@@ -176,6 +176,43 @@ description: "Learn to attack with the Kimura from Quarter Guard top position. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Quarter Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Trap from Half/Quarter Guard",
+      "description": "Kimura from Quarter Guard (Attacker) film study: Kimura Trap from Half/Quarter Guard, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P0AuQRSfHfs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P0AuQRSfHfs",
+      "url": "https://www.youtube.com/watch?v=P0AuQRSfHfs",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Trap Counter to Single Leg",
+      "description": "Kimura from Quarter Guard (Attacker) film study: Kimura Trap Counter to Single Leg, taught by Dynamic Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U3tD96avjXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U3tD96avjXc",
+      "url": "https://www.youtube.com/watch?v=U3tD96avjXc",
+      "creator": { "@type": "Person", "name": "Dynamic Martial Arts" },
+      "duration": "PT101S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking the Kimura from Quarter Guard requires integrating submission mechanic
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Quarter Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P0AuQRSfHfs)
+
+<p class="clip-credit"><strong>Kimura Trap from Half/Quarter Guard</strong> — taught by Clark Gracie · 1:14 · <a href="https://www.youtube.com/watch?v=P0AuQRSfHfs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U3tD96avjXc)
+
+<p class="clip-credit"><strong>Kimura Trap Counter to Single Leg</strong> — taught by Dynamic Martial Arts · 1:41 · <a href="https://www.youtube.com/watch?v=U3tD96avjXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -180,6 +180,54 @@ description: "Complete guide to executing the Ashi Entry from Leg Entanglement. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ashi Entry from Leg Entanglement (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Easy entry to the saddle from cross ashi",
+      "description": "Ashi Entry from Leg Entanglement (Attacker) film study: Easy entry to the saddle from cross ashi, taught by Ilya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
+      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
+      "creator": { "@type": "Person", "name": "Ilya" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross ashi and saddle entry",
+      "description": "Ashi Entry from Leg Entanglement (Attacker) film study: Cross ashi and saddle entry, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N2weatRR_V4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N2weatRR_V4",
+      "url": "https://www.youtube.com/watch?v=N2weatRR_V4",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Saddle entry from standard ashi garami",
+      "description": "Ashi Entry from Leg Entanglement (Attacker) film study: Saddle entry from standard ashi garami, taught by Hellfish MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yyIdx96a9eA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yyIdx96a9eA",
+      "url": "https://www.youtube.com/watch?v=yyIdx96a9eA",
+      "creator": { "@type": "Person", "name": "Hellfish MMA" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 **From Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ashi Entry from Leg Entanglement (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HniaoFWTsmI)
+
+<p class="clip-credit"><strong>Easy entry to the saddle from cross ashi</strong> — taught by Ilya · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N2weatRR_V4)
+
+<p class="clip-credit"><strong>Cross ashi and saddle entry</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=N2weatRR_V4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yyIdx96a9eA)
+
+<p class="clip-credit"><strong>Saddle entry from standard ashi garami</strong> — taught by Hellfish MMA · 3:21 · <a href="https://www.youtube.com/watch?v=yyIdx96a9eA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

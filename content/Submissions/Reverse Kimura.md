@@ -34,6 +34,43 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Kimura \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Kimura Throw to Submission",
+      "description": "Reverse Kimura film study: Reverse Kimura Throw to Submission, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8tW1t_KO1T4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8tW1t_KO1T4",
+      "url": "https://www.youtube.com/watch?v=8tW1t_KO1T4",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Kimura Arm Drag to Back",
+      "description": "Reverse Kimura film study: Reverse Kimura Arm Drag to Back, taught by Grappling with Insanity.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dw9YtuvroXI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dw9YtuvroXI",
+      "url": "https://www.youtube.com/watch?v=dw9YtuvroXI",
+      "creator": { "@type": "Person", "name": "Grappling with Insanity" },
+      "duration": "PT27S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +119,34 @@ Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the 
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Kimura in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8tW1t_KO1T4)
+
+<p class="clip-credit"><strong>Reverse Kimura Throw to Submission</strong> — taught by Coach Brian · 1:09 · <a href="https://www.youtube.com/watch?v=8tW1t_KO1T4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dw9YtuvroXI)
+
+<p class="clip-credit"><strong>Reverse Kimura Arm Drag to Back</strong> — taught by Grappling with Insanity · 0:27 · <a href="https://www.youtube.com/watch?v=dw9YtuvroXI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -117,11 +182,11 @@ Within the broader Kimura shoulder-lock system, the Reverse Kimura occupies the 
 ## Related
 - [[Submissions/Kimura]] - Standard Kimura with traditional grip behind the arm in the same shoulder lock family
 - [[Submissions/Americana]] - Reverse-direction shoulder lock targeting external rotation from pin positions
-- [[Transitions/Arm Triangle]] - Front headlock submission system sharing similar control positions and entries
+- [[Submissions/Arm Triangle]] - Front headlock submission system sharing similar control positions and entries
 - [[Submissions/Far Side Armbar]] - Joint lock option when opponent extends arm defending the reverse grip
 - [[Submissions/Baratoplata]] - Advanced shoulder lock sharing reversed grip mechanics and similar arm isolation
-- [[Transitions/Guillotine Choke]] - Primary alternative submission from front headlock and standing positions
-- [[Transitions/Darce Choke]] - Front headlock choke system with overlapping entry positions and setups
+- [[Submissions/Guillotine Choke]] - Primary alternative submission from front headlock and standing positions
+- [[Submissions/Darce Choke]] - Front headlock choke system with overlapping entry positions and setups
 - [[Transitions/Anaconda Choke]] - Arm-in choke from front headlock sharing common control and entry mechanics
 - [[Submissions/Japanese Necktie]] - Front headlock neck crank sharing similar turtle and front headlock entries
 - [[Submissions/High Elbow Guillotine]] - Standing choke alternative when reverse Kimura grip is denied at the neck

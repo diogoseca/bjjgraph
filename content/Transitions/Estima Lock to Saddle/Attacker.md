@@ -168,6 +168,54 @@ description: "How to execute Estima Lock to Saddle in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock to Saddle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Randy roll entry into the saddle",
+      "description": "Estima Lock to Saddle (Attacker) film study: Randy roll entry into the saddle, taught by Greg Melita.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQ8qh6az6_Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fQ8qh6az6_Y",
+      "url": "https://www.youtube.com/watch?v=fQ8qh6az6_Y",
+      "creator": { "@type": "Person", "name": "Greg Melita" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder roll into cross ashi saddle",
+      "description": "Estima Lock to Saddle (Attacker) film study: Shoulder roll into cross ashi saddle, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eRQVlYxFx1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eRQVlYxFx1Y",
+      "url": "https://www.youtube.com/watch?v=eRQVlYxFx1Y",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "K guard entry to the saddle",
+      "description": "Estima Lock to Saddle (Attacker) film study: K guard entry to the saddle, taught by bjj doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KBkoWJtMeNA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KBkoWJtMeNA",
+      "url": "https://www.youtube.com/watch?v=KBkoWJtMeNA",
+      "creator": { "@type": "Person", "name": "bjj doug" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Timing is critical for this transition. Executing too early abandons a potential
 **From Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock to Saddle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fQ8qh6az6_Y)
+
+<p class="clip-credit"><strong>Randy roll entry into the saddle</strong> — taught by Greg Melita · 0:26 · <a href="https://www.youtube.com/watch?v=fQ8qh6az6_Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eRQVlYxFx1Y)
+
+<p class="clip-credit"><strong>Shoulder roll into cross ashi saddle</strong> — taught by bjj doug · 0:42 · <a href="https://www.youtube.com/watch?v=eRQVlYxFx1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KBkoWJtMeNA)
+
+<p class="clip-credit"><strong>K guard entry to the saddle</strong> — taught by bjj doug · 0:28 · <a href="https://www.youtube.com/watch?v=KBkoWJtMeNA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

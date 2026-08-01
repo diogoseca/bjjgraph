@@ -34,6 +34,43 @@ description: "Learn the Arm Triangle Transition from bottom Hindulotine in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle Transition \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head and arm choke from mount: finishing details",
+      "description": "Arm Triangle Transition film study: Head and arm choke from mount: finishing details, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wrZCRBlAB3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wrZCRBlAB3Y",
+      "url": "https://www.youtube.com/watch?v=wrZCRBlAB3Y",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT265S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Triangle Transition to Darce",
+      "description": "Arm Triangle Transition film study: Arm Triangle Transition to Darce, taught by Rich Castro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9k39jlEzqB4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9k39jlEzqB4",
+      "url": "https://www.youtube.com/watch?v=9k39jlEzqB4",
+      "creator": { "@type": "Person", "name": "Rich Castro" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The technique demands precise timing during the grip transition. Releasing the g
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle Transition in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wrZCRBlAB3Y)
+
+<p class="clip-credit"><strong>Head and arm choke from mount: finishing details</strong> — taught by Roger Gracie · 4:25 · <a href="https://www.youtube.com/watch?v=wrZCRBlAB3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9k39jlEzqB4)
+
+<p class="clip-credit"><strong>Arm Triangle Transition to Darce</strong> — taught by Rich Castro · 0:29 · <a href="https://www.youtube.com/watch?v=9k39jlEzqB4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -237,11 +302,11 @@ The Arm Triangle Transition occupies a critical role in the Hindulotine attack s
 
 - [[Positions/Side Control]] - Target position for finishing the arm triangle
 
-- [[Transitions/Arm Triangle]] - The submission finish available after completing the transition
+- [[Submissions/Arm Triangle]] - The submission finish available after completing the transition
 
 - [[Transitions/Arm Triangle Setup]] - Related transition establishing arm triangle from North-South
 
-- [[Transitions/Guillotine Choke]] - Alternative finish if opponent removes the frame
+- [[Submissions/Guillotine Choke]] - Alternative finish if opponent removes the frame
 
 - [[Transitions/Back Take from Bottom]] - Alternative transition when opponent turns away from both threats
 

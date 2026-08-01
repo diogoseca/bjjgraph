@@ -136,16 +136,100 @@ description: "Defend against the omoplata from Crackhead Control. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Crackhead Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quick omoplata escape",
+      "description": "Omoplata from Crackhead Control (Defender) film study: Quick omoplata escape, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HszTUEYJ-xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HszTUEYJ-xE",
+      "url": "https://www.youtube.com/watch?v=HszTUEYJ-xE",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Submission escape from the omoplata",
+      "description": "Omoplata from Crackhead Control (Defender) film study: Submission escape from the omoplata, taught by Thiago Stefanutti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
+      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
+      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata escape to front headlock",
+      "description": "Omoplata from Crackhead Control (Defender) film study: Omoplata escape to front headlock, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-SG9igq40E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-SG9igq40E",
+      "url": "https://www.youtube.com/watch?v=0-SG9igq40E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
 
 Defending the omoplata from Crackhead Control requires early recognition and prevention rather than late-stage escape attempts. The Rubber Guard system's pre-existing posture control means the omoplata setup begins from an already disadvantaged position, making the initial leg thread the critical defensive window. Once the perpendicular angle is established with hip control, escape options narrow dramatically and injury risk increases with each second of delay. Successful defense depends on recognizing the transition from Crackhead Control retention to omoplata attack and responding within the narrow window before the leg threads across the shoulder.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Crackhead Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HszTUEYJ-xE)
+
+<p class="clip-credit"><strong>Quick omoplata escape</strong> — taught by Adam Bradley · 0:36 · <a href="https://www.youtube.com/watch?v=HszTUEYJ-xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqBK1Y2BdSg)
+
+<p class="clip-credit"><strong>Submission escape from the omoplata</strong> — taught by Thiago Stefanutti · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-SG9igq40E)
+
+<p class="clip-credit"><strong>Omoplata escape to front headlock</strong> — taught by Asaf Mich · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -186,14 +270,14 @@ Defending the omoplata from Crackhead Control requires early recognition and pre
 ### 1. Posture up explosively before the leg thread completes
 
 - **When to use**: When you feel the opponent releasing the shin from behind your neck and beginning the leg swing - this is the earliest and best defensive window
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Opponent loses arm isolation and must reset to Crackhead Control or another Rubber Guard position
 - **Risk**: If timed late, opponent may switch to triangle choke using the partially threaded leg
 
 ### 2. Forward roll escape before hip control is established
 
 - **When to use**: After the leg has threaded across your shoulder but before the opponent grips your far hip with both hands
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Completely relieves shoulder pressure and may result in achieving top position after the roll
 - **Risk**: If opponent follows the roll maintaining arm control, you may end up in mount with the arm still trapped
 
@@ -227,7 +311,7 @@ Defending the omoplata from Crackhead Control requires early recognition and pre
 
 <p class="section-subtitle">What is the best outcome when defending Omoplata from Crackhead Control?</p>
 
-### → [[Positions/Crackhead Control]]
+### → [[Positions/Rubber Guard/Crackhead Control]]
 
 Posture up early before the leg thread completes, extracting your arm and forcing the opponent to reset their Rubber Guard position from scratch
 

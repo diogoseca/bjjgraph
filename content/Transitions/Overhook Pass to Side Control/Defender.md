@@ -148,6 +148,54 @@ description: "Defend the Overhook Pass to Side Control in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Pass to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up to escape the pass",
+      "description": "Overhook Pass to Side Control (Defender) film study: Guard retention: when to sit up to escape the pass, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the half guard overhook from bottom",
+      "description": "Overhook Pass to Side Control (Defender) film study: Countering the half guard overhook from bottom, taught by Marcos Escobar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kyDmvr3qvY0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kyDmvr3qvY0",
+      "url": "https://www.youtube.com/watch?v=kyDmvr3qvY0",
+      "creator": { "@type": "Person", "name": "Marcos Escobar" },
+      "duration": "PT132S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Underhook and whizzer mechanics explained",
+      "description": "Overhook Pass to Side Control (Defender) film study: Underhook and whizzer mechanics explained, taught by Nemesis Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/suO88QKHwMw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/suO88QKHwMw",
+      "url": "https://www.youtube.com/watch?v=suO88QKHwMw",
+      "creator": { "@type": "Person", "name": "Nemesis Jiu Jitsu" },
+      "duration": "PT216S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Overhook Pass to Side Control requires early recognition and proac
 **Opponent's Starting Position**: [[Positions/Overhook Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Pass to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up to escape the pass</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kyDmvr3qvY0)
+
+<p class="clip-credit"><strong>Countering the half guard overhook from bottom</strong> — taught by Marcos Escobar · 2:12 · <a href="https://www.youtube.com/watch?v=kyDmvr3qvY0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=suO88QKHwMw)
+
+<p class="clip-credit"><strong>Underhook and whizzer mechanics explained</strong> — taught by Nemesis Jiu Jitsu · 3:36 · <a href="https://www.youtube.com/watch?v=suO88QKHwMw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

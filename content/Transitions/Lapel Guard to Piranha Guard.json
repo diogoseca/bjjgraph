@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Piranha Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Lapel Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Lapel Guard to Piranha Guard is a gi guard transition in which the bottom player reconfigures existing lapel control by threading the opponent's collar between their own legs, creating pulley-like leverage that powers sweeps, back takes, and posture breaks.",
   "overview": "The Transition to Piranha Guard represents an evolution within the lapel guard system where the bottom player reconfigures their existing lapel control by threading the opponent's collar through their own legs. Rather than maintaining the standard lapel guard grip where fabric wraps around the opponent's limbs externally, Piranha Guard routes the collar between the practitioner's legs to create a pulley-like mechanical advantage that dramatically amplifies posture-breaking leverage and sweep power.\n\nThis transition is fundamentally a grip reconfiguration performed from an already-established lapel guard position. The bottom player must temporarily release or adjust their primary lapel grip to feed the material through their legs while maintaining enough secondary control — typically through hooks, frames, or a remaining sleeve grip — to prevent the opponent from capitalizing on the momentary vulnerability. The threading window is the critical phase where the guard is most exposed, making timing and setup essential.\n\nStrategically, this transition is most effective when the opponent has settled into a predictable passing pattern against standard lapel guard. By evolving into Piranha Guard, the bottom player resets the technical puzzle the top player must solve, often catching them unprepared for the different control vectors and sweep angles. The transition pairs naturally with other lapel guard evolutions like Worm Guard and Squid Guard entries, creating a dynamic system where the bottom player can flow between configurations based on the opponent's reactions.",
   "variants_and_adaptations": [
@@ -230,38 +242,138 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the collar threading from Lapel Guard?",
-        "answer": "The optimal window occurs when the opponent resets their stance, adjusts their grips, or pauses between passing attempts. These neutral moments provide 1-2 seconds where the opponent is not actively advancing, giving you time to execute the grip transfer and threading. Never initiate during an active passing attempt, as the momentary vulnerability during threading coincides with their forward pressure."
+        "answer": "The optimal window occurs when the opponent resets their stance, adjusts their grips, or pauses between passing attempts. These neutral moments provide 1-2 seconds where the opponent is not actively advancing, giving you time to execute the grip transfer and threading. Never initiate during an active passing attempt, as the momentary vulnerability during threading coincides with their forward pressure.",
+        "answer_line": "Reset stance or grip pause",
+        "distractors": {
+          "plausible": [
+            "Right after taking the guard",
+            "Whenever grips feel secure"
+          ],
+          "trap": [
+            "During their active pass attempt"
+          ]
+        }
       },
       {
         "question": "What secondary control must be established before releasing the primary lapel grip for threading?",
-        "answer": "A De La Riva hook on the opponent's lead leg combined with a same-side sleeve grip provides the most reliable secondary anchor. The hook maintains distance control and prevents the opponent from advancing through guard, while the sleeve grip limits their ability to strip the lapel during the transfer. Test the anchor by pulling lightly before committing to the grip release."
+        "answer": "A De La Riva hook on the opponent's lead leg combined with a same-side sleeve grip provides the most reliable secondary anchor. The hook maintains distance control and prevents the opponent from advancing through guard, while the sleeve grip limits their ability to strip the lapel during the transfer. Test the anchor by pulling lightly before committing to the grip release.",
+        "answer_line": "DLR hook plus same-side sleeve",
+        "distractors": {
+          "plausible": [
+            "DLR hook only, no sleeve grip",
+            "Sleeve grip and body triangle"
+          ],
+          "trap": [
+            "Release lapel grip immediately"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the collar feeding phase?",
-        "answer": "The legs must be separated with knees open to create a clear channel for the fabric before beginning the feed. Guide the collar through with fingertips rather than pushing with a closed fist, as this allows smoother passage and faster threading. Feed at least 15-20 centimeters of material through to ensure the exit-side grip has enough leverage. Close the legs to trap the collar only after it has fully passed through the gap."
+        "answer": "The legs must be separated with knees open to create a clear channel for the fabric before beginning the feed. Guide the collar through with fingertips rather than pushing with a closed fist, as this allows smoother passage and faster threading. Feed at least 15-20 centimeters of material through to ensure the exit-side grip has enough leverage. Close the legs to trap the collar only after it has fully passed through the gap.",
+        "answer_line": "Open knees, feed with fingertips",
+        "distractors": {
+          "plausible": [
+            "Push collar through with a fist",
+            "Close knees while feeding it"
+          ],
+          "trap": [
+            "Close knees before it's through"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point in this transition, and how do you recognize it is happening?",
-        "answer": "The most common failure is releasing the primary lapel grip before the secondary anchor is solid. You recognize this is happening when you feel the opponent's weight shift forward immediately after you release the lapel — this means your anchor failed to hold distance. The correction is to immediately re-grip the collar in standard Lapel Guard configuration rather than trying to complete a compromised thread."
+        "answer": "The most common failure is releasing the primary lapel grip before the secondary anchor is solid. You recognize this is happening when you feel the opponent's weight shift forward immediately after you release the lapel — this means your anchor failed to hold distance. The correction is to immediately re-grip the collar in standard Lapel Guard configuration rather than trying to complete a compromised thread.",
+        "answer_line": "Releasing grip before anchor set",
+        "distractors": {
+          "plausible": [
+            "Feeding too much collar material",
+            "Opening knees too early"
+          ],
+          "trap": [
+            "Force the thread through anyway"
+          ]
+        }
       },
       {
         "question": "What grip configuration do you need on the collar once it is threaded through your legs?",
-        "answer": "You need bilateral grips — one hand on the collar on the entry side (front of your legs) using a pistol grip or collar tie, and one hand on the collar on the exit side (behind your hips) using a deep four-finger hook or pistol grip. Both hands pull in opposing directions with your legs acting as the fulcrum between them. This creates the pulley-like mechanical advantage that defines Piranha Guard's posture-breaking power."
+        "answer": "You need bilateral grips — one hand on the collar on the entry side (front of your legs) using a pistol grip or collar tie, and one hand on the collar on the exit side (behind your hips) using a deep four-finger hook or pistol grip. Both hands pull in opposing directions with your legs acting as the fulcrum between them. This creates the pulley-like mechanical advantage that defines Piranha Guard's posture-breaking power.",
+        "answer_line": "Bilateral grips, opposing pull",
+        "distractors": {
+          "plausible": [
+            "One deep grip on the rear collar",
+            "Both hands pulling same direction"
+          ],
+          "trap": [
+            "Release front grip, grab belt"
+          ]
+        }
       },
       {
         "question": "In which direction should force be applied once bilateral tension is established on the threaded collar?",
-        "answer": "The front hand pulls the collar toward your chest and slightly upward, while the rear hand pulls toward your hip and downward. This opposing force vector creates a rotational pull through the leg fulcrum that breaks the opponent's posture forward and down. The legs act as a force multiplier — small hand movements translate into large postural disruptions because the fulcrum converts linear pulls into angular breaking pressure."
+        "answer": "The front hand pulls the collar toward your chest and slightly upward, while the rear hand pulls toward your hip and downward. This opposing force vector creates a rotational pull through the leg fulcrum that breaks the opponent's posture forward and down. The legs act as a force multiplier — small hand movements translate into large postural disruptions because the fulcrum converts linear pulls into angular breaking pressure.",
+        "answer_line": "Front up-in, rear down-back",
+        "distractors": {
+          "plausible": [
+            "Both hands pull straight up",
+            "Front down, rear pulls up"
+          ],
+          "trap": [
+            "Push opponent away with legs"
+          ]
+        }
       },
       {
         "question": "Your opponent recognizes the threading attempt and postures up hard while pulling their collar back — how do you adjust?",
-        "answer": "Abort the thread immediately and re-establish standard Lapel Guard grips using whatever collar material remains accessible. Use your De La Riva hook to prevent them from capitalizing on the momentary grip disruption. Once standard Lapel Guard is re-established, wait for the next neutral window before reattempting. Forcing the thread against active resistance results in either a failed configuration or a guard pass during the vulnerable transition."
+        "answer": "Abort the thread immediately and re-establish standard Lapel Guard grips using whatever collar material remains accessible. Use your De La Riva hook to prevent them from capitalizing on the momentary grip disruption. Once standard Lapel Guard is re-established, wait for the next neutral window before reattempting. Forcing the thread against active resistance results in either a failed configuration or a guard pass during the vulnerable transition.",
+        "answer_line": "Abort, reset to Lapel Guard",
+        "distractors": {
+          "plausible": [
+            "Chase the collar with both hands",
+            "Switch immediately to Worm Guard"
+          ],
+          "trap": [
+            "Force the thread through anyway"
+          ]
+        }
       },
       {
         "question": "If the transition is blocked, what chain attacks are available from the failed threading position?",
-        "answer": "A failed thread that retains your secondary anchor (DLR hook and sleeve grip) leaves you in a strong position for several attacks: a collar drag using the remaining lapel material, an immediate transition to Worm Guard by wrapping the collar around the opponent's leg instead of threading through yours, or a Berimbolo entry using the DLR hook as your primary control. The failed thread often creates momentary confusion in the opponent's grip fighting that opens windows for these alternative attacks."
+        "answer": "A failed thread that retains your secondary anchor (DLR hook and sleeve grip) leaves you in a strong position for several attacks: a collar drag using the remaining lapel material, an immediate transition to Worm Guard by wrapping the collar around the opponent's leg instead of threading through yours, or a Berimbolo entry using the DLR hook as your primary control. The failed thread often creates momentary confusion in the opponent's grip fighting that opens windows for these alternative attacks.",
+        "answer_line": "Collar drag, Worm Guard, Berimbolo",
+        "distractors": {
+          "plausible": [
+            "Reset guard and wait it out",
+            "Switch grips and re-attempt"
+          ],
+          "trap": [
+            "Let go of all grips and reset"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves grip reconfiguration rather than joint manipulation or choking, so injury risk is relatively low compared to submission techniques. The primary safety concern is finger strain from repetitive lapel threading during drilling — take breaks if your fingers feel fatigued and avoid death-gripping the collar fabric. Partners should communicate if the collar threading creates uncomfortable pressure around the neck area. During training progressions, start with cooperative drilling before adding resistance to avoid finger injuries from sudden grip strips."
+    "safety_considerations": "This transition involves grip reconfiguration rather than joint manipulation or choking, so injury risk is relatively low compared to submission techniques. The primary safety concern is finger strain from repetitive lapel threading during drilling — take breaks if your fingers feel fatigued and avoid death-gripping the collar fabric. Partners should communicate if the collar threading creates uncomfortable pressure around the neck area. During training progressions, start with cooperative drilling before adding resistance to avoid finger injuries from sudden grip strips.",
+    "clips": [
+      {
+        "id": "kyIOqdPhYd8",
+        "title": "New Lapel Guard Concept: Preview",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 534,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5M1TLgoOBNU",
+        "title": "How to Play Squid Guard: Top 5 Sweep Tricks",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 564,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Lapel Guard to Piranha Guard Defender",
@@ -345,23 +457,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt the Transition to Piranha Guard?",
-        "answer": "The earliest cue is the bottom player opening their knees to create the threading channel between their legs. This happens before the grip transfer begins and signals that the bottom player is preparing the path for the collar feed. Recognizing this knee separation gives you an additional 1-2 seconds of reaction time compared to waiting until you feel the grip transfer on the collar."
+        "answer": "The earliest cue is the bottom player opening their knees to create the threading channel between their legs. This happens before the grip transfer begins and signals that the bottom player is preparing the path for the collar feed. Recognizing this knee separation gives you an additional 1-2 seconds of reaction time compared to waiting until you feel the grip transfer on the collar.",
+        "answer_line": "Their knees open early",
+        "distractors": {
+          "plausible": [
+            "Grip transfer on the collar",
+            "They shift their hips back"
+          ],
+          "trap": [
+            "Wait until collar starts feeding"
+          ]
+        }
       },
       {
         "question": "Why is pulling backward without stripping the collar a counterproductive defensive response?",
-        "answer": "Pulling backward draws the collar material through the bottom player's legs using your own retreating force, effectively completing the threading for them. The fabric follows your body as you retreat, and their legs act as a guide channel that routes the material exactly where they want it. The correct response is to either posture up while stripping the collar or drive forward to close the threading gap — both address the fabric directly rather than inadvertently assisting the reconfiguration."
+        "answer": "Pulling backward draws the collar material through the bottom player's legs using your own retreating force, effectively completing the threading for them. The fabric follows your body as you retreat, and their legs act as a guide channel that routes the material exactly where they want it. The correct response is to either posture up while stripping the collar or drive forward to close the threading gap — both address the fabric directly rather than inadvertently assisting the reconfiguration.",
+        "answer_line": "It completes the thread for them",
+        "distractors": {
+          "plausible": [
+            "It only wastes their time",
+            "It slightly loosens their grip"
+          ],
+          "trap": [
+            "It safely resets the position"
+          ]
+        }
       },
       {
         "question": "If the Piranha Guard is already fully established, what is your best immediate response?",
-        "answer": "Once bilateral tension is established through the threaded collar, your priority shifts to base maintenance and systematic grip clearing rather than attempting to extract the collar by force. Widen your stance, drop your hips, and begin clearing the most dangerous grip first (typically the rear grip that pulls you forward). Avoid the temptation to rip the collar free, as this wastes energy and rarely works against properly threaded material with leg compression holding it in place."
+        "answer": "Once bilateral tension is established through the threaded collar, your priority shifts to base maintenance and systematic grip clearing rather than attempting to extract the collar by force. Widen your stance, drop your hips, and begin clearing the most dangerous grip first (typically the rear grip that pulls you forward). Avoid the temptation to rip the collar free, as this wastes energy and rarely works against properly threaded material with leg compression holding it in place.",
+        "answer_line": "Base out, clear grips in order",
+        "distractors": {
+          "plausible": [
+            "Rip the collar free immediately",
+            "Sit back and pull away hard"
+          ],
+          "trap": [
+            "Try to strip the collar by force"
+          ]
+        }
       },
       {
         "question": "How should you position your body to close the threading gap and prevent the collar feed?",
-        "answer": "Drive your hips forward and low while keeping your weight centered over the bottom player's torso. This closes the space between their legs by compressing their guard structure and eliminating the channel needed for the collar to pass through. Simultaneously control their knees or legs with your hands to prevent them from creating the gap artificially. The key is forward pressure that pins their legs together rather than allowing them to open for the feed."
+        "answer": "Drive your hips forward and low while keeping your weight centered over the bottom player's torso. This closes the space between their legs by compressing their guard structure and eliminating the channel needed for the collar to pass through. Simultaneously control their knees or legs with your hands to prevent them from creating the gap artificially. The key is forward pressure that pins their legs together rather than allowing them to open for the feed.",
+        "answer_line": "Drive hips forward, pin their legs",
+        "distractors": {
+          "plausible": [
+            "Sit back to create space",
+            "Grab the collar and pull it away"
+          ],
+          "trap": [
+            "Open your stance to disengage"
+          ]
+        }
       },
       {
         "question": "What is the relationship between the DLR hook and the threading attempt that you must account for defensively?",
-        "answer": "The De La Riva hook serves as the bottom player's secondary anchor that maintains distance control and prevents you from advancing while they execute the grip transfer and threading. If you focus only on the collar without addressing the DLR hook, the bottom player retains enough control to retry the thread or transition to alternative attacks. Effective defense requires contesting both the threading attempt and the secondary anchor — clearing one without addressing the other leaves you vulnerable to the remaining control point."
+        "answer": "The De La Riva hook serves as the bottom player's secondary anchor that maintains distance control and prevents you from advancing while they execute the grip transfer and threading. If you focus only on the collar without addressing the DLR hook, the bottom player retains enough control to retry the thread or transition to alternative attacks. Effective defense requires contesting both the threading attempt and the secondary anchor — clearing one without addressing the other leaves you vulnerable to the remaining control point.",
+        "answer_line": "Contest both collar and DLR hook",
+        "distractors": {
+          "plausible": [
+            "Only focus on the collar",
+            "Only strip the DLR hook"
+          ],
+          "trap": [
+            "Ignore the hook, it's harmless"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -379,6 +541,26 @@
         "phase": "Live Defense Integration",
         "focus": "Applying counters in dynamic rolling situations",
         "description": "Start in standard Lapel Guard with partner playing bottom. Partner mixes threading attempts with standard Lapel Guard attacks at 80-100% intensity. Defend the threading while simultaneously working your passing game. The goal is integrating threading defense into your overall guard passing strategy rather than treating it as a separate skill."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JvQ3m64ScsA",
+        "title": "Modern Lapel Guard Passing",
+        "by": "Nick Salles and Danny Maira",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 672,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kMybfbRxsPg",
+        "title": "Single Grip to Slice Through Lapel Guards",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 512,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -35,6 +35,65 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The mounted arm triangle",
+      "description": "Arm Triangle film study: The mounted arm triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tc-XXMg7v48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tc-XXMg7v48",
+      "url": "https://www.youtube.com/watch?v=tc-XXMg7v48",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT145S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing head-and-arm chokes the right way",
+      "description": "Arm Triangle film study: Finishing head-and-arm chokes the right way, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YHCZ7SHep5k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YHCZ7SHep5k",
+      "url": "https://www.youtube.com/watch?v=YHCZ7SHep5k",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Head and arm choke from mount finishing details",
+      "description": "Arm Triangle film study: Head and arm choke from mount finishing details, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wrZCRBlAB3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wrZCRBlAB3Y",
+      "url": "https://www.youtube.com/watch?v=wrZCRBlAB3Y",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT265S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Von Flu and arm triangle",
+      "description": "Arm Triangle film study: Von Flu and arm triangle, taught by Pure Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WSz5MbUhb_0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WSz5MbUhb_0",
+      "url": "https://www.youtube.com/watch?v=WSz5MbUhb_0",
+      "creator": { "@type": "Person", "name": "Pure Grappling" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +113,7 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Arm Triangle?", "acceptedAnswer": { "@type": "Answer", "text": "The Arm Triangle, or Kata Gatame, is a head-and-arm blood choke applied from dominant top positions such as side control, mount, and north-south, converting an opponent\u0027s defensive arm into the lever that cuts off blood flow to the brain." } },
-    { "@type": "Question", "name": "What positions can you finish the Arm Triangle from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Arm Triangle from High Mount, Hindulotine, Kesa Gatame, Kuzure Kesa-Gatame, Modified Scarf Hold, Reverse Kesa-Gatame, Reverse Scarf Hold, Scarf Hold Position, Shoulder of Justice, Side Control, Turtle, Twister Side Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Arm Triangle from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Arm Triangle from High Mount, Reverse Kesa-Gatame, Reverse Scarf Hold, Shoulder of Justice, Hindulotine, Turtle, Kesa Gatame, Kuzure Kesa-Gatame, Modified Scarf Hold, Scarf Hold Position, Side Control, Twister Side Control." } },
     { "@type": "Question", "name": "Is the Arm Triangle dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Arm Triangle targets the Carotid arteries (compressed by opponent\u0027s own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early and release immediately on the tap." } }
   ]
 }
@@ -86,6 +145,50 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tc-XXMg7v48)
+
+<p class="clip-credit"><strong>The mounted arm triangle</strong> — taught by Coach Brian · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YHCZ7SHep5k)
+
+<p class="clip-credit"><strong>Finishing head-and-arm chokes the right way</strong> — taught by Henry Akins · 1:28 · <a href="https://www.youtube.com/watch?v=YHCZ7SHep5k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wrZCRBlAB3Y)
+
+<p class="clip-credit"><strong>Head and arm choke from mount finishing details</strong> — taught by Roger Gracie · 4:25 · <a href="https://www.youtube.com/watch?v=wrZCRBlAB3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WSz5MbUhb_0)
+
+<p class="clip-credit"><strong>Von Flu and arm triangle</strong> — taught by Pure Grappling · 0:52 · <a href="https://www.youtube.com/watch?v=WSz5MbUhb_0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,18 +198,18 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Arm Triangle/from High Mount|High Mount]] | Top | 62% | [[Submissions/Arm Triangle/from High Mount/Attacker|Attack →]] | [[Submissions/Arm Triangle/from High Mount/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from High Mount|High Mount]] | Top | 68% | [[Submissions/Arm Triangle/from High Mount/Attacker|Attack →]] | [[Submissions/Arm Triangle/from High Mount/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Reverse Kesa-Gatame|Reverse Kesa-Gatame]] | Top | 68% | [[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Reverse Scarf Hold|Reverse Scarf Hold]] | Top | 68% | [[Submissions/Arm Triangle/from Reverse Scarf Hold/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Reverse Scarf Hold/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Shoulder of Justice|Shoulder of Justice]] | Top | 68% | [[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Shoulder of Justice/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Arm Triangle/from Hindulotine/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Hindulotine/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Kesa Gatame|Kesa Gatame]] | Top | 62% | [[Submissions/Arm Triangle/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kesa Gatame/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 62% | [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 62% | [[Submissions/Arm Triangle/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Modified Scarf Hold/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Reverse Kesa-Gatame|Reverse Kesa-Gatame]] | Top | 62% | [[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Reverse Scarf Hold|Reverse Scarf Hold]] | Top | 62% | [[Submissions/Arm Triangle/from Reverse Scarf Hold/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Reverse Scarf Hold/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Scarf Hold Position|Scarf Hold Position]] | Top | 62% | [[Submissions/Arm Triangle/from Scarf Hold Position/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Scarf Hold Position/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Shoulder of Justice|Shoulder of Justice]] | Top | 62% | [[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Shoulder of Justice/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Side Control|Side Control]] | Top | 62% | [[Submissions/Arm Triangle/from Side Control/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Side Control/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Turtle|Turtle]] | Top | 62% | [[Submissions/Arm Triangle/from Turtle/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Turtle/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Twister Side Control|Twister Side Control]] | Top | 62% | [[Submissions/Arm Triangle/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Twister Side Control/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/Arm Triangle/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kesa Gatame/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 50% | [[Submissions/Arm Triangle/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Modified Scarf Hold/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Scarf Hold Position|Scarf Hold Position]] | Top | 50% | [[Submissions/Arm Triangle/from Scarf Hold Position/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Scarf Hold Position/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Side Control|Side Control]] | Top | 50% | [[Submissions/Arm Triangle/from Side Control/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Side Control/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Twister Side Control|Twister Side Control]] | Top | 40% | [[Submissions/Arm Triangle/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Twister Side Control/Defender|Defend →]] |
 
 
 </div>
@@ -130,9 +233,9 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]] - Sister head-and-arm choke with opposite arm threading direction
+- [[Submissions/Darce Choke]] - Sister head-and-arm choke with opposite arm threading direction
 - [[Transitions/Anaconda Choke]] - Related front headlock choke using similar compression mechanics
-- [[Transitions/Guillotine Choke]] - Complementary neck choke available when arm triangle defense creates space
+- [[Submissions/Guillotine Choke]] - Complementary neck choke available when arm triangle defense creates space
 - [[Submissions/Ezekiel Choke]] - Alternative choke from mount and side control positions
 - [[Transitions/Clock Choke]] - Gi-based choke sharing similar shoulder pressure mechanics
 - [[Submissions/Brabo Choke]] - Variation using lapel to enhance head-and-arm compression

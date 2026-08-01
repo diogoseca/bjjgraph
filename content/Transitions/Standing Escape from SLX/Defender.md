@@ -140,6 +140,54 @@ description: "Defend against the Standing Escape from SLX by maintaining hooks, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Escape from SLX (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X sweep as they stand",
+      "description": "Standing Escape from SLX (Defender) film study: Single leg X sweep as they stand, taught by Won Hee Cho.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TVQXVTX6Szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TVQXVTX6Szw",
+      "url": "https://www.youtube.com/watch?v=TVQXVTX6Szw",
+      "creator": { "@type": "Person", "name": "Won Hee Cho" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X to X guard sweep retention",
+      "description": "Standing Escape from SLX (Defender) film study: Single leg X to X guard sweep retention, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aoyScppYR1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aoyScppYR1E",
+      "url": "https://www.youtube.com/watch?v=aoyScppYR1E",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT160S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single leg X off-balancing and sweeping system",
+      "description": "Standing Escape from SLX (Defender) film study: Single leg X off-balancing and sweeping system, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iCxvIhNqLlI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iCxvIhNqLlI",
+      "url": "https://www.youtube.com/watch?v=iCxvIhNqLlI",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT222S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender in the Standing Escape from SLX, you are the bottom player worki
 **Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Escape from SLX (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TVQXVTX6Szw)
+
+<p class="clip-credit"><strong>Single leg X sweep as they stand</strong> — taught by Won Hee Cho · 0:23 · <a href="https://www.youtube.com/watch?v=TVQXVTX6Szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aoyScppYR1E)
+
+<p class="clip-credit"><strong>Single leg X to X guard sweep retention</strong> — taught by BJJ4Breakfast · 2:40 · <a href="https://www.youtube.com/watch?v=aoyScppYR1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iCxvIhNqLlI)
+
+<p class="clip-credit"><strong>Single leg X off-balancing and sweeping system</strong> — taught by Mads H. · 3:42 · <a href="https://www.youtube.com/watch?v=iCxvIhNqLlI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

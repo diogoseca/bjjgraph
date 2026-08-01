@@ -168,6 +168,43 @@ description: "How to execute Float Passing in BJJ. Attacking perspective with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Float Passing (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Monitoring the feet while float passing",
+      "description": "Float Passing (Attacker) film study: Monitoring the feet while float passing, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
+      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "ADCC 2022 guard pass breakdown",
+      "description": "Float Passing (Attacker) film study: ADCC 2022 guard pass breakdown, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9VdMAXqLXHA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9VdMAXqLXHA",
+      "url": "https://www.youtube.com/watch?v=9VdMAXqLXHA",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT154S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ Float passing from the attacker's perspective is about maintaining constant late
 **From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Float Passing (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YLPNsyHtREs)
+
+<p class="clip-credit"><strong>Monitoring the feet while float passing</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9VdMAXqLXHA)
+
+<p class="clip-credit"><strong>ADCC 2022 guard pass breakdown</strong> — taught by Gordon Ryan · 2:34 · <a href="https://www.youtube.com/watch?v=9VdMAXqLXHA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

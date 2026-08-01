@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Kuzure Kesa-Gatame/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Side Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Side Control to Kuzure Kesa-Gatame is a deliberate positional shift within the side control family in which the top player converts a standard perpendicular pin into the modified scarf hold (Kuzure Kesa-Gatame) by scooping and trapping the opponent's near arm across their own torso, clamping it between armpit and ribs while driving hip pressure into the opponent's lower ribs. Unlike the classical Kesa Gatame, which relies on a deep head wrap, this variation trades head control for an isolated arm, immediately opening armbar, americana, and kimura threats while preserving a stable, bridge-resistant base.\n\nStrategically, this transition is one of the highest-value lateral shifts available from side control. It converts positional dominance into instant submission proximity: where standard side control requires several setup steps to reach the arm, Kuzure Kesa-Gatame arrives there in a single connected movement. The position is especially useful against opponents who defend the classical scarf hold by pinning their chin to their chest and denying the head wrap, or against larger opponents where head-and-arm control is hard to secure but a clean arm isolation remains achievable. It carries roots in judo's ne-waza and has been refined in modern no-gi grappling where gi-dependent scarf grips are unavailable.\n\nThe critical element of this transition is the arm isolation paired with a small hip shift toward the opponent's head. The top player must scoop the near arm and clamp it tightly under the armpit before shifting their hips, because any hip movement before the arm is secured allows the opponent to swim the arm free and frame into a guard recovery. Executed correctly, the transition flows directly out of failed standard side control submission attempts, using the opponent's defensive arm movement as the entry window to capture the arm and establish the scarf hold.",
   "related_content": [
     {
@@ -242,38 +254,138 @@
     "flashcards": [
       {
         "question": "What single element must be secured before shifting your hips toward the opponent's head, and why is its order non-negotiable?",
-        "answer": "The near-arm trap must be fully clamped under your armpit before any hip movement begins. The order is non-negotiable because shifting your hips first creates space and momentarily changes your pressure distribution, and an unsecured arm gives the opponent the freedom to swim it free and frame into that space for guard recovery. With the arm already isolated, the hip shift simply consolidates a control you already own, whereas shifting first turns the transition into a race the opponent can win by extracting their arm."
+        "answer": "The near-arm trap must be fully clamped under your armpit before any hip movement begins. The order is non-negotiable because shifting your hips first creates space and momentarily changes your pressure distribution, and an unsecured arm gives the opponent the freedom to swim it free and frame into that space for guard recovery. With the arm already isolated, the hip shift simply consolidates a control you already own, whereas shifting first turns the transition into a race the opponent can win by extracting their arm.",
+        "answer_line": "Clamp near arm before hips move",
+        "distractors": {
+          "plausible": [
+            "Shift hips first, trap arm after",
+            "Crossface deep before arm trap"
+          ],
+          "trap": [
+            "Release arm to secure head wrap"
+          ]
+        }
       },
       {
         "question": "How does Kuzure Kesa-Gatame differ from classical Kesa Gatame in what it controls, and how does that change the entry from side control?",
-        "answer": "Classical Kesa Gatame anchors on a deep head wrap, threading your arm under the opponent's neck so their head is locked against your ribs. Kuzure Kesa-Gatame instead trades the head wrap for an isolated arm clamped across your torso. This changes the entry: rather than deepening a crossface into a head wrap before rotating, you scoop and clamp the near arm under your armpit before shifting your hips. The arm, not the head, becomes the anchor, which makes this entry more reliable against opponents who pin their chin to deny the head wrap or against larger opponents where head-and-arm control is hard to secure."
+        "answer": "Classical Kesa Gatame anchors on a deep head wrap, threading your arm under the opponent's neck so their head is locked against your ribs. Kuzure Kesa-Gatame instead trades the head wrap for an isolated arm clamped across your torso. This changes the entry: rather than deepening a crossface into a head wrap before rotating, you scoop and clamp the near arm under your armpit before shifting your hips. The arm, not the head, becomes the anchor, which makes this entry more reliable against opponents who pin their chin to deny the head wrap or against larger opponents where head-and-arm control is hard to secure.",
+        "answer_line": "Arm trap replaces head wrap",
+        "distractors": {
+          "plausible": [
+            "Same head wrap, deeper crossface",
+            "Head wrap first, then arm scoop"
+          ],
+          "trap": [
+            "Ignore the arm, chase headwrap"
+          ]
+        }
       },
       {
         "question": "Why must the trapped arm be controlled at both the shoulder and the wrist, rather than at just one point?",
-        "answer": "Controlling only the wrist lets the opponent rotate their shoulder and thread the arm free during a hip escape, while controlling only the shoulder lets them extend the arm into a pushing frame. Clamping the upper arm under your armpit (shoulder control) and reinforcing with a grip on the wrist or forearm creates a closed kinetic chain that denies both escape paths simultaneously. This two-point control is also what sets the immediate angle for an armbar or americana, so it serves both retention and offense at once."
+        "answer": "Controlling only the wrist lets the opponent rotate their shoulder and thread the arm free during a hip escape, while controlling only the shoulder lets them extend the arm into a pushing frame. Clamping the upper arm under your armpit (shoulder control) and reinforcing with a grip on the wrist or forearm creates a closed kinetic chain that denies both escape paths simultaneously. This two-point control is also what sets the immediate angle for an armbar or americana, so it serves both retention and offense at once.",
+        "answer_line": "Control shoulder and wrist both",
+        "distractors": {
+          "plausible": [
+            "Wrist grip alone is enough",
+            "Shoulder clamp alone suffices"
+          ],
+          "trap": [
+            "Let wrist go, pin the elbow"
+          ]
+        }
       },
       {
         "question": "Your americana attempt from standard side control fails because the opponent retracts their arm to defend - how do you convert this into the transition?",
-        "answer": "The defensive retraction is the capture window. As the opponent pulls their arm back toward their body to defend the shoulder lock, follow the arm and scoop it up under your armpit, clamping the upper arm against your ribs before they can re-pin it to their torso. With the arm now isolated, reinforce at the wrist, then shift your hips toward their head into the modified scarf hold. The failed submission becomes the entry, turning their defensive reaction into the exact arm movement you needed to establish the position."
+        "answer": "The defensive retraction is the capture window. As the opponent pulls their arm back toward their body to defend the shoulder lock, follow the arm and scoop it up under your armpit, clamping the upper arm against your ribs before they can re-pin it to their torso. With the arm now isolated, reinforce at the wrist, then shift your hips toward their head into the modified scarf hold. The failed submission becomes the entry, turning their defensive reaction into the exact arm movement you needed to establish the position.",
+        "answer_line": "Follow retraction, scoop the arm",
+        "distractors": {
+          "plausible": [
+            "Reset and re-attack the americana",
+            "Push the arm back to attack it"
+          ],
+          "trap": [
+            "Release the arm, reset to guard"
+          ]
+        }
       },
       {
         "question": "What is the correct direction and angle of hip pressure once the modified scarf hold is established, and why does it matter more than simply being heavy?",
-        "answer": "Hip pressure should be directed at roughly a 45-degree angle toward the opponent's far hip, not straight down into the mat. Angular pressure pins their torso so they cannot turn into you or away from you, whereas straight-down weight only resists them sinking and still allows rotation. Driving your hip through their body toward their far hip bone is far more controlling than merely being heavy, because it actively defeats the two directions of escape rotation rather than passively resisting downward movement."
+        "answer": "Hip pressure should be directed at roughly a 45-degree angle toward the opponent's far hip, not straight down into the mat. Angular pressure pins their torso so they cannot turn into you or away from you, whereas straight-down weight only resists them sinking and still allows rotation. Driving your hip through their body toward their far hip bone is far more controlling than merely being heavy, because it actively defeats the two directions of escape rotation rather than passively resisting downward movement.",
+        "answer_line": "Angle hips toward their far hip",
+        "distractors": {
+          "plausible": [
+            "Drive straight down, stay heavy",
+            "Angle pressure toward near hip"
+          ],
+          "trap": [
+            "Post hands, lift hips off them"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bridging hard toward your posted leg just after you complete the hip shift - what is your response?",
-        "answer": "Immediately widen your far posted leg further and drop your hips lower toward the mat, increasing base width and lowering your center of gravity while driving your chest pressure forward so the bridge force passes across your wide base. If the bridge is overwhelming and threatens to roll you, abandon the scarf hold and rotate your hips back to square standard side control, where your base is symmetric and bridge-resistant. It is always better to retreat to stable side control than to be swept from a compromised modified scarf hold."
+        "answer": "Immediately widen your far posted leg further and drop your hips lower toward the mat, increasing base width and lowering your center of gravity while driving your chest pressure forward so the bridge force passes across your wide base. If the bridge is overwhelming and threatens to roll you, abandon the scarf hold and rotate your hips back to square standard side control, where your base is symmetric and bridge-resistant. It is always better to retreat to stable side control than to be swept from a compromised modified scarf hold.",
+        "answer_line": "Widen base, retreat if needed",
+        "distractors": {
+          "plausible": [
+            "Sprawl the far leg, stay put",
+            "Post the near hand, sit up"
+          ],
+          "trap": [
+            "Chase the submission, ignore bridge"
+          ]
+        }
       },
       {
         "question": "If the opponent turns into you while you are establishing Kuzure Kesa-Gatame, why is this both a danger and an opportunity?",
-        "answer": "It is a danger because turning in is the primary path to taking your back from any scarf hold, since the position exposes your back to their legs. It is an opportunity because their rotation opens the mount: as they turn in, you can slide your near knee across their belly and step over into mount, letting their own turning motion carry you to a more dominant position. The dilemma you impose is that staying flat keeps them under the arm-trap pin while turning in surrenders the mount, so their escape attempt enables your advancement either way."
+        "answer": "It is a danger because turning in is the primary path to taking your back from any scarf hold, since the position exposes your back to their legs. It is an opportunity because their rotation opens the mount: as they turn in, you can slide your near knee across their belly and step over into mount, letting their own turning motion carry you to a more dominant position. The dilemma you impose is that staying flat keeps them under the arm-trap pin while turning in surrenders the mount, so their escape attempt enables your advancement either way.",
+        "answer_line": "Slide knee across, take mount",
+        "distractors": {
+          "plausible": [
+            "Chase the far-side head wrap",
+            "Follow them, retake scarf hold"
+          ],
+          "trap": [
+            "Stay flat, let them turn fully"
+          ]
+        }
       },
       {
         "question": "How does this transition combine with mount, north-south, and classical Kesa Gatame to create a positional dilemma from side control?",
-        "answer": "From standard side control the opponent must simultaneously defend four directional threats: the mount step-over, the north-south circle, the classical head-wrap scarf hold, and this arm-trap scarf hold. Each defensive commitment opens the others. If they bury their near arm to deny the arm trap, their frames against the mount step-over weaken. If they pin their chin to deny the head wrap, the near arm becomes available for this transition. If they shrimp away to prevent both scarf holds, north-south opens. This multi-threat dilemma is what makes systematic side control top game effective, and capturing the arm via this transition is how you punish them for defending the other three threats."
+        "answer": "From standard side control the opponent must simultaneously defend four directional threats: the mount step-over, the north-south circle, the classical head-wrap scarf hold, and this arm-trap scarf hold. Each defensive commitment opens the others. If they bury their near arm to deny the arm trap, their frames against the mount step-over weaken. If they pin their chin to deny the head wrap, the near arm becomes available for this transition. If they shrimp away to prevent both scarf holds, north-south opens. This multi-threat dilemma is what makes systematic side control top game effective, and capturing the arm via this transition is how you punish them for defending the other three threats.",
+        "answer_line": "Each defense opens another threat",
+        "distractors": {
+          "plausible": [
+            "Only the arm trap matters here",
+            "Mount threat alone forces errors"
+          ],
+          "trap": [
+            "Defend one threat, ignore rest"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The transition to Kuzure Kesa-Gatame is generally safe but carries specific risks tied to the arm isolation. The trapped arm sits one motion away from an armbar, so apply any extension or rotation gradually and release immediately on a tap, as the shoulder and elbow are vulnerable to fast or forceful finishes. The modified scarf hold also restricts breathing through hip and chest pressure, which can be intense for smaller or less experienced partners, so build pressure progressively rather than slamming into the position. Avoid wrenching the clamped arm during the capture, since the opponent's shoulder can be hyperextended if the arm is forced rather than scooped. When drilling the bridge-and-roll counter, both partners should be aware of mat boundaries, and heavier practitioners should moderate their weight during early learning phases."
+    "safety_considerations": "The transition to Kuzure Kesa-Gatame is generally safe but carries specific risks tied to the arm isolation. The trapped arm sits one motion away from an armbar, so apply any extension or rotation gradually and release immediately on a tap, as the shoulder and elbow are vulnerable to fast or forceful finishes. The modified scarf hold also restricts breathing through hip and chest pressure, which can be intense for smaller or less experienced partners, so build pressure progressively rather than slamming into the position. Avoid wrenching the clamped arm during the capture, since the opponent's shoulder can be hyperextended if the arm is forced rather than scooped. When drilling the bridge-and-roll counter, both partners should be aware of mat boundaries, and heavier practitioners should moderate their weight during early learning phases.",
+    "clips": [
+      {
+        "id": "oXzrusNRq70",
+        "title": "Kuzure Kesa Gatame (broken scarf hold) no-gi demo",
+        "by": "Sampson Judo",
+        "vertical": false,
+        "channel": "Sampson Judo",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aTsvuZ1vM48",
+        "title": "Kuzure Kesa Gatame study and application",
+        "by": "Judo Life",
+        "vertical": false,
+        "channel": "Judo Life",
+        "duration": 33,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Side Control to Kuzure Kesa-Gatame Defender",
@@ -359,19 +471,59 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive asset to protect against the Kuzure Kesa-Gatame transition, and why?",
-        "answer": "The near arm is the single most important asset, because the arm trap, not a head wrap, is the anchor of the modified scarf hold. The near arm serves triple duty: it provides the frame against the opponent's hip that can disrupt the shift, it must stay free to prevent the armpit clamp that anchors the position, and its loss immediately creates submission vulnerability to armbar, americana, and kimura. Once it is trapped under the opponent's armpit, both your primary frame and your primary escape tool are eliminated at once, and every other escape becomes dramatically harder."
+        "answer": "The near arm is the single most important asset, because the arm trap, not a head wrap, is the anchor of the modified scarf hold. The near arm serves triple duty: it provides the frame against the opponent's hip that can disrupt the shift, it must stay free to prevent the armpit clamp that anchors the position, and its loss immediately creates submission vulnerability to armbar, americana, and kimura. Once it is trapped under the opponent's armpit, both your primary frame and your primary escape tool are eliminated at once, and every other escape becomes dramatically harder.",
+        "answer_line": "Protect the near arm",
+        "distractors": {
+          "plausible": [
+            "Protect your neck from the wrap",
+            "Protect your far-side underhook"
+          ],
+          "trap": [
+            "Free the arm, block their hips"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that distinguishes a Kuzure Kesa-Gatame attempt from a mount or north-south attempt?",
-        "answer": "The earliest specific cue is feeling the top player scoop your near arm upward toward their armpit rather than merely controlling it at the wrist or elbow. This upward arm capture does not occur in mount or north-south transitions, making it the most reliable early indicator. The secondary cue is feeling their hips shift from a square perpendicular pin to an angled pressure beside your shoulder while their near knee slides toward your head, which differs from the hip elevation of a mount attempt or the circling movement of a north-south transition."
+        "answer": "The earliest specific cue is feeling the top player scoop your near arm upward toward their armpit rather than merely controlling it at the wrist or elbow. This upward arm capture does not occur in mount or north-south transitions, making it the most reliable early indicator. The secondary cue is feeling their hips shift from a square perpendicular pin to an angled pressure beside your shoulder while their near knee slides toward your head, which differs from the hip elevation of a mount attempt or the circling movement of a north-south transition.",
+        "answer_line": "Feel arm scooped toward armpit",
+        "distractors": {
+          "plausible": [
+            "Feel hips rise for a mount step",
+            "Feel them circle toward your head"
+          ],
+          "trap": [
+            "Wait for a tight far-side crossface"
+          ]
+        }
       },
       {
         "question": "How does defending Kuzure Kesa-Gatame differ from defending the classical Kesa Gatame head wrap?",
-        "answer": "Against classical Kesa Gatame, the priority is preventing the head wrap by tucking your chin, shrugging your shoulder, and pushing the threading arm out from under your neck. Against Kuzure Kesa-Gatame, the head is not the anchor, so your priority shifts entirely to the near arm: keep the elbow tight to your ribs and prevent it from being scooped under the armpit. Misapplying head-wrap defenses against the arm-trap variation wastes the narrow intervention window, so correctly identifying which scarf hold is being established determines which defensive template you deploy."
+        "answer": "Against classical Kesa Gatame, the priority is preventing the head wrap by tucking your chin, shrugging your shoulder, and pushing the threading arm out from under your neck. Against Kuzure Kesa-Gatame, the head is not the anchor, so your priority shifts entirely to the near arm: keep the elbow tight to your ribs and prevent it from being scooped under the armpit. Misapplying head-wrap defenses against the arm-trap variation wastes the narrow intervention window, so correctly identifying which scarf hold is being established determines which defensive template you deploy.",
+        "answer_line": "Protect the arm, not the neck",
+        "distractors": {
+          "plausible": [
+            "Tuck chin like the classical hold",
+            "Shrug shoulder to block headwrap"
+          ],
+          "trap": [
+            "Relax the elbow, defend the neck"
+          ]
+        }
       },
       {
         "question": "Why is turning into the opponent considered a high-reward defensive option from an established modified scarf hold, and what is the trade-off?",
-        "answer": "Any scarf hold positions the top player perpendicular with their back facing your legs, a geometric vulnerability that standard side control does not have. Turning into the opponent and coming chest-to-chest lets you reach around their back and begin establishing back control, going from a bad defensive spot directly toward the most dominant offensive position. The trade-off is significant: if the opponent reads the turn-in, they can step over into mount as you rotate, so a failed turn-in can leave you worse off than the scarf hold you started in."
+        "answer": "Any scarf hold positions the top player perpendicular with their back facing your legs, a geometric vulnerability that standard side control does not have. Turning into the opponent and coming chest-to-chest lets you reach around their back and begin establishing back control, going from a bad defensive spot directly toward the most dominant offensive position. The trade-off is significant: if the opponent reads the turn-in, they can step over into mount as you rotate, so a failed turn-in can leave you worse off than the scarf hold you started in.",
+        "answer_line": "Turn in to attack their back",
+        "distractors": {
+          "plausible": [
+            "Turn away to reset base first",
+            "Frame and push to create space"
+          ],
+          "trap": [
+            "Bridge hard to escape the hold"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -389,6 +541,35 @@
         "phase": "Week 6-8: Escape from Established Position",
         "focus": "Developing escape options when prevention fails and the modified scarf hold is established",
         "description": "Start with the partner in an established Kuzure Kesa-Gatame. Practice bridge-and-roll escapes with proper far-arm control, turn-in back-take attempts that exploit the scarf hold back exposure, and trapped-arm recovery sequences while keeping the arm bent and protected. Include positional sparring rounds starting from the bottom of the modified scarf hold where the defender scores for escaping within 60 seconds, chaining one escape into the next when the first fails."
+      }
+    ],
+    "clips": [
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure kesa-gatame escapes",
+        "by": "Kodokan instructor",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_HjmunOXVtY",
+        "title": "Kuzure kesa gatame escapes",
+        "by": "Utah Shudokan instructor",
+        "vertical": false,
+        "channel": "Utah Shudokan USA",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa gatame escape",
+        "by": "SBG Australia coach",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-15"
       }
     ]
   }

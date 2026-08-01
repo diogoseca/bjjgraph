@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "High Mount/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "S Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Frame Escape from High Mount is a defensive transition where the bottom player uses short forearm frames and timed hip movement to walk a knees-to-armpits high mount back down to standard mount, where conventional escapes become viable.",
   "overview": "The Frame Escape from High Mount is a fundamental defensive technique used when trapped under an opponent who has walked their knees high toward the armpits, creating maximum submission proximity. Rather than attempting a full escape directly from this extremely disadvantaged position, this technique focuses on reducing the severity of the mount by using skeletal frames to push the opponent's hips back down toward the waist, converting high mount into standard mount where traditional escape methods become mechanically viable.\n\nThe technique relies on creating rigid forearm frames against the opponent's pelvis and hip bones, then combining hip movement with sustained pushing force to gradually walk the opponent's base back down the torso. The critical challenge lies in creating frames without extending the arms, which would immediately expose them to armbar and americana attacks. Short, bent-arm frames using the forearm and elbow against the opponent's hip crease provide the structural integrity needed without the submission vulnerability.\n\nTiming is essential because the top player in high mount generates significant downward pressure through gravity and forward lean. Attempting to frame when the opponent is settled and static wastes energy against their full weight. Instead, the frame must be established during moments of transition—when the opponent reaches for grips, shifts weight for a submission attempt, or adjusts position. These weight shifts create brief windows where the top player's pressure is reduced, allowing the bottom player to insert frames and begin the process of walking the hips back down.",
   "conditions": [
@@ -243,46 +255,166 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for inserting frames against a settled high mount?",
-        "answer": "The optimal window occurs when the top player shifts weight during grip changes, submission attempts, or positional adjustments. When they reach for a collar grip their weight moves forward and off their hips, when they adjust knees their base temporarily lifts, and when they post a hand their downward pressure redirects. These moments reduce downward force significantly, creating sufficient space for frame insertion that would be impossible against fully settled weight."
+        "answer": "The optimal window occurs when the top player shifts weight during grip changes, submission attempts, or positional adjustments. When they reach for a collar grip their weight moves forward and off their hips, when they adjust knees their base temporarily lifts, and when they post a hand their downward pressure redirects. These moments reduce downward force significantly, creating sufficient space for frame insertion that would be impossible against fully settled weight.",
+        "answer_line": "Weight shifts: grips, subs, posts",
+        "distractors": {
+          "plausible": [
+            "Right when mount is first secured",
+            "Only during submission attempts"
+          ],
+          "trap": [
+            "When their weight is fully settled"
+          ]
+        }
       },
       {
         "question": "What forearm positioning creates the strongest frame without exposing arms to submission attack?",
-        "answer": "Place the blade of your forearm—the ulna bone—directly against the opponent's hip crease with your elbow bent at approximately ninety degrees and connected to your ribcage. Your hands should remain near your own body rather than extending toward the opponent. This positioning uses bone-on-bone contact for maximum structural integrity while keeping the elbow angle too acute for the opponent to straighten your arm for an armbar or americana setup."
+        "answer": "Place the blade of your forearm—the ulna bone—directly against the opponent's hip crease with your elbow bent at approximately ninety degrees and connected to your ribcage. Your hands should remain near your own body rather than extending toward the opponent. This positioning uses bone-on-bone contact for maximum structural integrity while keeping the elbow angle too acute for the opponent to straighten your arm for an armbar or americana setup.",
+        "answer_line": "Ulna to hip crease, elbow at ribs",
+        "distractors": {
+          "plausible": [
+            "Palm push against their hip",
+            "Wrist grip on their waistband"
+          ],
+          "trap": [
+            "Extend arm straight into their hip"
+          ]
+        }
       },
       {
         "question": "Your opponent pins your right arm to the mat while maintaining high mount—how do you adjust your frame escape?",
-        "answer": "Use your free left arm to create a single-sided frame against their left hip while simultaneously hip escaping toward the trapped arm side. The hip escape creates an angle that makes it harder for them to maintain the arm pin. If the pin is too strong, bridge toward the pinned side to create space, then retract the arm to defensive position before re-attempting the frame escape with both forearms available."
+        "answer": "Use your free left arm to create a single-sided frame against their left hip while simultaneously hip escaping toward the trapped arm side. The hip escape creates an angle that makes it harder for them to maintain the arm pin. If the pin is too strong, bridge toward the pinned side to create space, then retract the arm to defensive position before re-attempting the frame escape with both forearms available.",
+        "answer_line": "Frame with free arm, hip escape",
+        "distractors": {
+          "plausible": [
+            "Yank trapped arm free first",
+            "Frame both arms, ignore pin"
+          ],
+          "trap": [
+            "Bridge away from the pinned side"
+          ]
+        }
       },
       {
         "question": "What is the most common failure point during the frame escape sequence?",
-        "answer": "The most common failure is creating initial frame pressure without combining hip movement. Frames alone cannot generate enough force to move a committed opponent's base. The hip bump must coincide with frame pressure to create compound force that multiplies effectiveness. Additionally, many practitioners create the initial frame but fail to maintain continuous pressure while executing the progressive hip escapes needed to walk the opponent's base all the way down to the waist."
+        "answer": "The most common failure is creating initial frame pressure without combining hip movement. Frames alone cannot generate enough force to move a committed opponent's base. The hip bump must coincide with frame pressure to create compound force that multiplies effectiveness. Additionally, many practitioners create the initial frame but fail to maintain continuous pressure while executing the progressive hip escapes needed to walk the opponent's base all the way down to the waist.",
+        "answer_line": "Frame pressure without hip bump",
+        "distractors": {
+          "plausible": [
+            "Bridging without any frame first",
+            "Stopping frame mid hip escape"
+          ],
+          "trap": [
+            "Reaching for grips before framing"
+          ]
+        }
       },
       {
         "question": "What grip or hand position should you maintain during the frame escape?",
-        "answer": "Hands should remain in a closed fist or open palm pressed against your own chest or neck area, with the forearm blade doing the work against the opponent's hips rather than your hands. Gripping the opponent's pants or belt at the hip is acceptable if available, but reaching for distant grips extends your arms dangerously. The priority is maintaining bent-arm structural integrity rather than establishing traditional grips that would compromise frame architecture."
+        "answer": "Hands should remain in a closed fist or open palm pressed against your own chest or neck area, with the forearm blade doing the work against the opponent's hips rather than your hands. Gripping the opponent's pants or belt at the hip is acceptable if available, but reaching for distant grips extends your arms dangerously. The priority is maintaining bent-arm structural integrity rather than establishing traditional grips that would compromise frame architecture.",
+        "answer_line": "Hands at own chest, forearm frames",
+        "distractors": {
+          "plausible": [
+            "Grip their collar for control",
+            "Extend hands to grab their belt"
+          ],
+          "trap": [
+            "Reach far for a cross-body grip"
+          ]
+        }
       },
       {
         "question": "In which direction should force be applied during the frame escape?",
-        "answer": "Force should be directed along the opponent's torso axis—pushing their hips diagonally downward toward your own waist rather than straight up or away from you. Pushing upward lifts them momentarily but they return to the same position. Pushing laterally creates rotation but not positional change. The downward-along-torso vector slides their base from your upper chest to your waist, which is the specific positional improvement this technique achieves."
+        "answer": "Force should be directed along the opponent's torso axis—pushing their hips diagonally downward toward your own waist rather than straight up or away from you. Pushing upward lifts them momentarily but they return to the same position. Pushing laterally creates rotation but not positional change. The downward-along-torso vector slides their base from your upper chest to your waist, which is the specific positional improvement this technique achieves.",
+        "answer_line": "Push hips down along torso",
+        "distractors": {
+          "plausible": [
+            "Push straight up off your chest",
+            "Push laterally to rotate them"
+          ],
+          "trap": [
+            "Pull them upward off your hips"
+          ]
+        }
       },
       {
         "question": "Your opponent responds to your frame escape by transitioning to S Mount—what immediate adjustment do you make?",
-        "answer": "Immediately abandon the frame escape and defend the trapped arm by clasping your hands together or gripping your own lapel. Turn your body toward the trapped arm to prevent the opponent from extending it for the armbar finish. Use your free arm to push on their crossing knee and work to collapse their S Mount structure back to standard mount. The S Mount transition means your frame escape generated movement, so address the new positional threat before continuing escape attempts."
+        "answer": "Immediately abandon the frame escape and defend the trapped arm by clasping your hands together or gripping your own lapel. Turn your body toward the trapped arm to prevent the opponent from extending it for the armbar finish. Use your free arm to push on their crossing knee and work to collapse their S Mount structure back to standard mount. The S Mount transition means your frame escape generated movement, so address the new positional threat before continuing escape attempts.",
+        "answer_line": "Clasp hands, defend trapped arm",
+        "distractors": {
+          "plausible": [
+            "Keep framing to regain mount",
+            "Push their far knee away"
+          ],
+          "trap": [
+            "Extend arm to strip their grip"
+          ]
+        }
       },
       {
         "question": "How do you chain the frame escape into an effective mount escape sequence?",
-        "answer": "Pre-select your follow-up escape before beginning the frame escape. As the opponent's hips reach your waist level, immediately execute your chosen technique: for upa, trap their arm and same-side foot then bridge explosively; for elbow escape, establish a frame on their hip and begin shrimping to insert your knee. The transition must be seamless because the opponent will attempt to re-advance within two to three seconds of reaching standard mount. There is no rest phase between the frame escape and the mount escape."
+        "answer": "Pre-select your follow-up escape before beginning the frame escape. As the opponent's hips reach your waist level, immediately execute your chosen technique: for upa, trap their arm and same-side foot then bridge explosively; for elbow escape, establish a frame on their hip and begin shrimping to insert your knee. The transition must be seamless because the opponent will attempt to re-advance within two to three seconds of reaching standard mount. There is no rest phase between the frame escape and the mount escape.",
+        "answer_line": "Pre-select upa or elbow escape",
+        "distractors": {
+          "plausible": [
+            "Pause to reset before escaping",
+            "Wait for a bigger space window"
+          ],
+          "trap": [
+            "Rest once hips reach your waist"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains a tight high mount with both knees wedged against your armpits and no weight shifts—how do you create a frame insertion window?",
-        "answer": "When the opponent refuses to shift weight, you must manufacture the window yourself. Use a sharp hip bump to momentarily lift their base and immediately insert elbow wedges into their inner thighs during that split-second of space. Alternatively, bait a submission attempt by slightly exposing your neck or arm—their reach for the attack creates the weight shift you need. The key principle is that a perfectly static opponent must be provoked into movement before passive frame insertion becomes possible."
+        "answer": "When the opponent refuses to shift weight, you must manufacture the window yourself. Use a sharp hip bump to momentarily lift their base and immediately insert elbow wedges into their inner thighs during that split-second of space. Alternatively, bait a submission attempt by slightly exposing your neck or arm—their reach for the attack creates the weight shift you need. The key principle is that a perfectly static opponent must be provoked into movement before passive frame insertion becomes possible.",
+        "answer_line": "Hip bump or bait a submission",
+        "distractors": {
+          "plausible": [
+            "Wait patiently for them to shift",
+            "Push straight up with both arms"
+          ],
+          "trap": [
+            "Expose neck fully to force a choke"
+          ]
+        }
       },
       {
         "question": "What role do your feet and legs play during the frame escape from high mount?",
-        "answer": "Your feet serve as the primary force generators for hip bumps and hip escapes that power the frame escape. Plant your feet flat on the mat near your hips for maximum upward drive during bumps. During hip escapes, push off one foot to angle your body while maintaining frame pressure. Once the opponent's hips reach your midsection, your knees and shins become barriers pressed against their inner thighs to prevent re-advancement. Without active lower body engagement, your arms alone cannot generate sufficient force to move the opponent's base."
+        "answer": "Your feet serve as the primary force generators for hip bumps and hip escapes that power the frame escape. Plant your feet flat on the mat near your hips for maximum upward drive during bumps. During hip escapes, push off one foot to angle your body while maintaining frame pressure. Once the opponent's hips reach your midsection, your knees and shins become barriers pressed against their inner thighs to prevent re-advancement. Without active lower body engagement, your arms alone cannot generate sufficient force to move the opponent's base.",
+        "answer_line": "Feet drive bumps and hip escapes",
+        "distractors": {
+          "plausible": [
+            "Keep legs straight and passive",
+            "Hook their legs with your feet"
+          ],
+          "trap": [
+            "Cross your ankles for stability"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Frame escapes from high mount involve significant compressive forces on the torso and ribcage from the opponent's weight. Train progressively, starting with cooperative drilling at zero resistance before increasing intensity. Communicate with training partners about pressure levels, particularly regarding breathing restriction under sustained high mount pressure. Avoid explosive neck movements during frame attempts, as the opponent's weight on the upper chest creates vulnerability to cervical strain. Tap immediately if any choke becomes fully secured during the escape attempt rather than continuing to frame against a locked submission."
+    "safety_considerations": "Frame escapes from high mount involve significant compressive forces on the torso and ribcage from the opponent's weight. Train progressively, starting with cooperative drilling at zero resistance before increasing intensity. Communicate with training partners about pressure levels, particularly regarding breathing restriction under sustained high mount pressure. Avoid explosive neck movements during frame attempts, as the opponent's weight on the upper chest creates vulnerability to cervical strain. Tap immediately if any choke becomes fully secured during the escape attempt rather than continuing to frame against a locked submission.",
+    "clips": [
+      {
+        "id": "koJqUOC3P98",
+        "title": "Escaping high mount with arms pinned",
+        "by": "Arashi-Do Sylvan Lake",
+        "vertical": false,
+        "channel": "Arashi-Do Sylvan Lake ",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R21vtm5BHF4",
+        "title": "How to escape the mount",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Frame Escape from High Mount Defender",
@@ -368,19 +500,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting a frame escape from high mount?",
-        "answer": "The earliest cue is feeling deliberate forearm bone pressure against your hip creases or inner thigh area, distinguishing it from general defensive arm flailing. The opponent's elbows shift from a passive tucked position to an active angled position directed outward at your pelvis. This forearm-to-hip contact precedes any hip movement and is your first opportunity to neutralize the escape before it gains momentum through combined frame-and-bump technique."
+        "answer": "The earliest cue is feeling deliberate forearm bone pressure against your hip creases or inner thigh area, distinguishing it from general defensive arm flailing. The opponent's elbows shift from a passive tucked position to an active angled position directed outward at your pelvis. This forearm-to-hip contact precedes any hip movement and is your first opportunity to neutralize the escape before it gains momentum through combined frame-and-bump technique.",
+        "answer_line": "Forearm bone pressure at hips",
+        "distractors": {
+          "plausible": [
+            "Sudden hip bump upward",
+            "Hands gripping your collar"
+          ],
+          "trap": [
+            "Wait until they shrimp away"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes strong forearm frames and begins generating hip bumps—what is your optimal counter-strategy?",
-        "answer": "Rather than fighting the frames directly with opposing force, transition to S Mount by stepping one leg over their arm that is most exposed by the frame commitment. Their dedicated framing position isolates at least one arm in an extended configuration, which is the ideal setup for S Mount entry and subsequent armbar attack. Alternatively, drive weight aggressively forward while walking knees higher to compress the available frame space, but only if the frames have not yet established full structural integrity."
+        "answer": "Rather than fighting the frames directly with opposing force, transition to S Mount by stepping one leg over their arm that is most exposed by the frame commitment. Their dedicated framing position isolates at least one arm in an extended configuration, which is the ideal setup for S Mount entry and subsequent armbar attack. Alternatively, drive weight aggressively forward while walking knees higher to compress the available frame space, but only if the frames have not yet established full structural integrity.",
+        "answer_line": "Step to S-Mount over exposed arm",
+        "distractors": {
+          "plausible": [
+            "Fight the frames with pure strength",
+            "Sit back and reset base fully"
+          ],
+          "trap": [
+            "Let go and stand up to reset"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from timing their frame insertion during your submission attempts?",
-        "answer": "Minimize weight shifts during submission setups by establishing grips incrementally rather than reaching with your full body weight commitment. Use collar grips that keep your weight forward rather than wrist grips that require leaning laterally. When you must shift weight for a submission entry, do so quickly and decisively, committing fully rather than creating prolonged windows of reduced pressure. Pin the near-side arm before reaching for the submission grip to eliminate at least one potential frame."
+        "answer": "Minimize weight shifts during submission setups by establishing grips incrementally rather than reaching with your full body weight commitment. Use collar grips that keep your weight forward rather than wrist grips that require leaning laterally. When you must shift weight for a submission entry, do so quickly and decisively, committing fully rather than creating prolonged windows of reduced pressure. Pin the near-side arm before reaching for the submission grip to eliminate at least one potential frame.",
+        "answer_line": "Pin near arm, use collar grips",
+        "distractors": {
+          "plausible": [
+            "Lean hard for a wrist grip",
+            "Take your time settling grips"
+          ],
+          "trap": [
+            "Reach far and commit slowly"
+          ]
+        }
       },
       {
         "question": "What position should you transition to if the opponent successfully walks your hips back to their waist level?",
-        "answer": "If you lose high mount and return to standard mount, immediately re-establish heavy hip pressure and begin walking your knees back up toward the armpits. If the opponent is actively chaining into mount escapes, consider transitioning to Technical Mount if they begin to turn to their side, or re-establishing high mount through grip-assisted knee advancement before they can execute a full escape. Standard mount is still extremely dominant, so maintaining composure and systematic re-advancement is more effective than panicking about the positional loss."
+        "answer": "If you lose high mount and return to standard mount, immediately re-establish heavy hip pressure and begin walking your knees back up toward the armpits. If the opponent is actively chaining into mount escapes, consider transitioning to Technical Mount if they begin to turn to their side, or re-establishing high mount through grip-assisted knee advancement before they can execute a full escape. Standard mount is still extremely dominant, so maintaining composure and systematic re-advancement is more effective than panicking about the positional loss.",
+        "answer_line": "Re-pressure and walk knees up",
+        "distractors": {
+          "plausible": [
+            "Panic and scramble for a submission",
+            "Immediately abandon mount position"
+          ],
+          "trap": [
+            "Chase a submission before resettling"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -403,6 +575,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Integrating frame escape counters into comprehensive high mount retention",
         "description": "Full resistance positional rounds starting from high mount top. Apply recognition, counter, and transition skills against partners attempting all available high mount escapes including frame escapes, bridges, and hip escapes in combination sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "_jeIL_n2UcY",
+        "title": "Maintaining mount by swimming through the arms",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RTMJDbZnFO0",
+        "title": "Holding the middle mount",
+        "by": "SBG PDX",
+        "vertical": false,
+        "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+        "duration": 154,
+        "verified": "2026-07-15"
       }
     ]
   }

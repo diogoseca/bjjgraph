@@ -140,6 +140,43 @@ description: "How to defend against the Arm Drag Sweep in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Defend the Arm Drag",
+      "description": "Arm Drag Sweep (Defender) film study: How to Defend the Arm Drag, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
+      "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm drag defense: head in seatbelt",
+      "description": "Arm Drag Sweep (Defender) film study: Arm drag defense: head in seatbelt, taught by Erik Paulson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yAWOJlx-dkE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yAWOJlx-dkE",
+      "url": "https://www.youtube.com/watch?v=yAWOJlx-dkE",
+      "creator": { "@type": "Person", "name": "Erik Paulson" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ The most critical defensive concept is that your response to the arm drag direct
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bmCjXADzgo4)
+
+<p class="clip-credit"><strong>How to Defend the Arm Drag</strong> — taught by Matt Arroyo · 1:43 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yAWOJlx-dkE)
+
+<p class="clip-credit"><strong>Arm drag defense: head in seatbelt</strong> — taught by Erik Paulson · 1:03 · <a href="https://www.youtube.com/watch?v=yAWOJlx-dkE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

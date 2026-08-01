@@ -260,35 +260,115 @@
     "flashcards": [
       {
         "question": "What are the essential grips for maintaining toe hold control from the top position?",
-        "answer": "The essential grips involve a figure-four or gable grip configuration with both hands clasped around the opponent's foot and lower ankle. The opponent's foot should be secured deeply in the armpit with the blade of the foot pressed against the lateral ribs. Elbows must stay tight to the body to create a closed system that isolates the ankle joint and prevents foot extraction."
+        "answer": "The essential grips involve a figure-four or gable grip configuration with both hands clasped around the opponent's foot and lower ankle. The opponent's foot should be secured deeply in the armpit with the blade of the foot pressed against the lateral ribs. Elbows must stay tight to the body to create a closed system that isolates the ankle joint and prevents foot extraction.",
+        "answer_line": "Figure-four grip, foot in armpit",
+        "distractors": {
+          "plausible": [
+            "Overhook grip around the knee",
+            "Single hand grip on the ankle"
+          ],
+          "trap": [
+            "Let elbows flare for reach"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to sit up and post on their elbows - what adjustment do you make?",
-        "answer": "Immediately apply forward pressure with your chest over their lower leg to drive them back down. Simultaneously adjust your hip positioning to maintain knee line control. If they continue to posture, transition to saddle entry by crossing your legs over their trapped leg, which converts their sit-up momentum into a deeper entanglement rather than allowing escape."
+        "answer": "Immediately apply forward pressure with your chest over their lower leg to drive them back down. Simultaneously adjust your hip positioning to maintain knee line control. If they continue to posture, transition to saddle entry by crossing your legs over their trapped leg, which converts their sit-up momentum into a deeper entanglement rather than allowing escape.",
+        "answer_line": "Chest pressure to flatten them",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the ankle grip",
+            "Sit back to reset your angle"
+          ],
+          "trap": [
+            "Release control to reposition"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to maintain positional dominance in toe hold control?",
-        "answer": "Weight should be distributed across your knees and hips with forward pressure applied through your chest onto the opponent's lower leg. This prevents them from sitting up while maintaining mobility for angle adjustments. Avoid settling your full weight static in one place - maintain dynamic balance that allows quick repositioning in response to escape attempts."
+        "answer": "Weight should be distributed across your knees and hips with forward pressure applied through your chest onto the opponent's lower leg. This prevents them from sitting up while maintaining mobility for angle adjustments. Avoid settling your full weight static in one place - maintain dynamic balance that allows quick repositioning in response to escape attempts.",
+        "answer_line": "Dynamic weight, chest pressure",
+        "distractors": {
+          "plausible": [
+            "Full weight statically on hips",
+            "Weight back on your heels"
+          ],
+          "trap": [
+            "Lean back to crank the ankle"
+          ]
+        }
       },
       {
         "question": "What is the primary escape your opponent will attempt and how do you shut it down?",
-        "answer": "The primary escape is the sit-up combined with leg extraction through hip extension. Shut this down by maintaining constant forward pressure on the knee line with your chest, keeping their leg isolated from their hip. Control their free leg positioning with your hips or knees to prevent them from generating pushing power that creates the space needed for extraction."
+        "answer": "The primary escape is the sit-up combined with leg extraction through hip extension. Shut this down by maintaining constant forward pressure on the knee line with your chest, keeping their leg isolated from their hip. Control their free leg positioning with your hips or knees to prevent them from generating pushing power that creates the space needed for extraction.",
+        "answer_line": "Chest pressure blocks the sit-up",
+        "distractors": {
+          "plausible": [
+            "Chase the ankle rotation faster",
+            "Control their posture only"
+          ],
+          "trap": [
+            "Free their far leg for base"
+          ]
+        }
       },
       {
         "question": "Your opponent rotates their knee outward attempting to clear the entanglement - what do you do?",
-        "answer": "Follow their rotation by transitioning to outside ashi-garami position. Their outward knee rotation actually improves your angle for outside heel hook entries. Maintain your grip on their foot while repositioning your legs to control the new angle. This converts their defensive movement into an offensive opportunity rather than allowing escape."
+        "answer": "Follow their rotation by transitioning to outside ashi-garami position. Their outward knee rotation actually improves your angle for outside heel hook entries. Maintain your grip on their foot while repositioning your legs to control the new angle. This converts their defensive movement into an offensive opportunity rather than allowing escape.",
+        "answer_line": "Follow to outside ashi, heel hook",
+        "distractors": {
+          "plausible": [
+            "Fight to keep them square",
+            "Release grip to re-angle"
+          ],
+          "trap": [
+            "Let them clear the entanglement"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you establish before attempting any rotational pressure?",
-        "answer": "First secure deep foot positioning with the blade pressed firmly against your ribs. Then establish the figure-four grip with hands clasped below the ankle joint. Control the knee line through hip positioning before any rotation. Only apply rotational pressure once these three control points are absolute - rushing the finish before complete control typically results in position loss."
+        "answer": "First secure deep foot positioning with the blade pressed firmly against your ribs. Then establish the figure-four grip with hands clasped below the ankle joint. Control the knee line through hip positioning before any rotation. Only apply rotational pressure once these three control points are absolute - rushing the finish before complete control typically results in position loss.",
+        "answer_line": "Foot, grip, knee line, then rotate",
+        "distractors": {
+          "plausible": [
+            "Rotate first, control later",
+            "Skip knee line, grip is enough"
+          ],
+          "trap": [
+            "Crank hard before foot is deep"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure progressively rather than explosively from toe hold control?",
-        "answer": "Begin with positional control and grip establishment without any rotational force. Then slowly increase rotational tension through controlled wrist rotation while monitoring your partner's response. This progressive application gives them clear tap opportunity and prevents injury. The distinction between controlled technique and dangerous force is the speed and warning - technical application is slow enough for recognition and tap."
+        "answer": "Begin with positional control and grip establishment without any rotational force. Then slowly increase rotational tension through controlled wrist rotation while monitoring your partner's response. This progressive application gives them clear tap opportunity and prevents injury. The distinction between controlled technique and dangerous force is the speed and warning - technical application is slow enough for recognition and tap.",
+        "answer_line": "Slow rotation gives time to tap",
+        "distractors": {
+          "plausible": [
+            "Wait for a verbal tap only",
+            "Squeeze grips harder instead"
+          ],
+          "trap": [
+            "Jerk the twist to beat the tap"
+          ]
+        }
       },
       {
         "question": "After your opponent partially escapes but you maintain some grip control, how do you recover full position?",
-        "answer": "Do not attempt to re-establish the exact same position from weakened control. Instead, transition systematically through the leg lock hierarchy - if they've created distance, pursue outside ashi entry. If they've straightened their leg, transition to kneebar. Use their partial escape to enter a fresh attacking position rather than fighting to rebuild the degraded toe hold control."
+        "answer": "Do not attempt to re-establish the exact same position from weakened control. Instead, transition systematically through the leg lock hierarchy - if they've created distance, pursue outside ashi entry. If they've straightened their leg, transition to kneebar. Use their partial escape to enter a fresh attacking position rather than fighting to rebuild the degraded toe hold control.",
+        "answer_line": "Enter fresh attack, don't rebuild",
+        "distractors": {
+          "plausible": [
+            "Fight to restore the same grip",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Chase the leg across the mat"
+          ]
+        }
       }
     ],
     "name": "Toe Hold Control Top",
@@ -305,39 +385,72 @@
     "transitions": [
       {
         "transition": "Toe Hold from Toe Hold Control",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 34,
+          "nogi": 30
+        }
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 21
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 12
+        }
       },
       {
         "transition": "Saddle Entry from Top",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 15
+        }
       },
       {
         "transition": "Ankle Lock Finish",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kneebar Finish",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
+        }
       },
       {
         "transition": "Toe Hold to Ashi Garami",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 10
+        }
       },
       {
         "transition": "Toe Hold to Straight Ankle Lock",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 12
+        }
       },
       {
         "transition": "Kneebar from Toe Hold Control",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 10
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Crossover Toe Hold from control",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "B_StkmaI3Nc",
+        "title": "Toe Hold from 50/50 finish",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 17,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -560,35 +673,115 @@
     "flashcards": [
       {
         "question": "What is your immediate priority the moment you recognize you are caught in toe hold control?",
-        "answer": "The immediate priority is protecting the ankle by internally rotating your trapped foot (pointing toes toward your opposite leg) to hide the heel and limit rotational leverage. Simultaneously, use both hands to control opponent's wrists and prevent them from completing the figure-four grip or applying additional rotational pressure. This buys time for systematic escape rather than allowing immediate submission threat."
+        "answer": "The immediate priority is protecting the ankle by internally rotating your trapped foot (pointing toes toward your opposite leg) to hide the heel and limit rotational leverage. Simultaneously, use both hands to control opponent's wrists and prevent them from completing the figure-four grip or applying additional rotational pressure. This buys time for systematic escape rather than allowing immediate submission threat.",
+        "answer_line": "Rotate foot in, control wrists",
+        "distractors": {
+          "plausible": [
+            "Yank leg straight out immediately",
+            "Grab their far leg instead"
+          ],
+          "trap": [
+            "Point toes outward to twist free"
+          ]
+        }
       },
       {
         "question": "Your opponent begins applying rotational pressure to your ankle - what are the warning signs you should tap?",
-        "answer": "Tap immediately when you feel significant rotational stress on the ankle joint with no escape available, when the knee begins to torque in an unnatural direction, or when grip breaking attempts are failing against locked submission mechanics. With toe holds, the injury timeline is extremely short - ligament damage can occur within fractions of a second once the breaking mechanics are applied. Career longevity is more valuable than any single training round."
+        "answer": "Tap immediately when you feel significant rotational stress on the ankle joint with no escape available, when the knee begins to torque in an unnatural direction, or when grip breaking attempts are failing against locked submission mechanics. With toe holds, the injury timeline is extremely short - ligament damage can occur within fractions of a second once the breaking mechanics are applied. Career longevity is more valuable than any single training round.",
+        "answer_line": "Tap at first ankle rotation stress",
+        "distractors": {
+          "plausible": [
+            "Tap only when pain turns sharp",
+            "Tap once the grip fully locks"
+          ],
+          "trap": [
+            "Power through to break the grip"
+          ]
+        }
       },
       {
         "question": "How should you use your free leg defensively from toe hold control bottom?",
-        "answer": "Keep your free leg actively engaged by framing on opponent's hips to create distance, hooking their far leg to limit their mobility, or preparing counter-entanglement positions. Never leave it passive or straight. The free leg creates space for grip breaks, prevents opponent from tightening control, and sets up escape pathways to single leg X or 50-50 positions when grips are cleared."
+        "answer": "Keep your free leg actively engaged by framing on opponent's hips to create distance, hooking their far leg to limit their mobility, or preparing counter-entanglement positions. Never leave it passive or straight. The free leg creates space for grip breaks, prevents opponent from tightening control, and sets up escape pathways to single leg X or 50-50 positions when grips are cleared.",
+        "answer_line": "Frame, hook, or counter-entangle",
+        "distractors": {
+          "plausible": [
+            "Keep leg straight and passive",
+            "Kick to create separation"
+          ],
+          "trap": [
+            "Tuck free leg under your body"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for escaping - grip break first or leg extraction first?",
-        "answer": "Always prioritize grip breaking before leg extraction. Attempting to extract your leg while opponent maintains the toe hold grip is ineffective and dangerous - they simply re-establish control after failed escape attempts. Use two-on-one wrist control to break the figure-four configuration first, eliminating the submission threat, then systematically extract your leg through angular movement rather than straight pulling."
+        "answer": "Always prioritize grip breaking before leg extraction. Attempting to extract your leg while opponent maintains the toe hold grip is ineffective and dangerous - they simply re-establish control after failed escape attempts. Use two-on-one wrist control to break the figure-four configuration first, eliminating the submission threat, then systematically extract your leg through angular movement rather than straight pulling.",
+        "answer_line": "Break grip first, then extract",
+        "distractors": {
+          "plausible": [
+            "Yank leg free before breaking grip",
+            "Pull leg straight to slip out"
+          ],
+          "trap": [
+            "Force leg out against toe hold"
+          ]
+        }
       },
       {
         "question": "Your opponent loosens their grip momentarily to transition to heel hook - what opportunity does this create?",
-        "answer": "This grip transition creates a critical window for escape. Use this moment to establish inside position on their leg through inside ashi entry, or immediately work guard replacement to open guard. The grip loosening during transitions is often the best escape opportunity you'll get - recognize and exploit it immediately rather than waiting for them to settle into a new control position."
+        "answer": "This grip transition creates a critical window for escape. Use this moment to establish inside position on their leg through inside ashi entry, or immediately work guard replacement to open guard. The grip loosening during transitions is often the best escape opportunity you'll get - recognize and exploit it immediately rather than waiting for them to settle into a new control position.",
+        "answer_line": "Exploit the gap - inside ashi entry",
+        "distractors": {
+          "plausible": [
+            "Wait for them to settle first",
+            "Reset to neutral position"
+          ],
+          "trap": [
+            "Stay still to avoid detection"
+          ]
+        }
       },
       {
         "question": "Why is maintaining upper body posture so important from toe hold control bottom?",
-        "answer": "Upper body posture on elbows or sitting provides the ability to create angles, generate leverage for grip breaks, and use your upper body weight to assist escapes. When flattened completely on your back, you lose all these mechanical advantages - you cannot effectively fight grips, create hip movement, or transition to counter positions. Active upper body posture maintains your defensive options throughout the escape sequence."
+        "answer": "Upper body posture on elbows or sitting provides the ability to create angles, generate leverage for grip breaks, and use your upper body weight to assist escapes. When flattened completely on your back, you lose all these mechanical advantages - you cannot effectively fight grips, create hip movement, or transition to counter positions. Active upper body posture maintains your defensive options throughout the escape sequence.",
+        "answer_line": "Posture creates angles to escape",
+        "distractors": {
+          "plausible": [
+            "Posture only matters offensively",
+            "Flat back saves energy"
+          ],
+          "trap": [
+            "Flatten out to absorb pressure"
+          ]
+        }
       },
       {
         "question": "What knee orientation should you maintain with your trapped leg and why?",
-        "answer": "Keep your endangered knee pointed toward your opponent throughout the defensive sequence. External knee rotation dramatically increases rotational leverage on your ankle joint, accelerating submission danger exponentially. Use hip internal rotation to protect ankle alignment - this reduces the mechanical advantage your opponent has for the toe hold finish while you work systematic grip breaks and escape."
+        "answer": "Keep your endangered knee pointed toward your opponent throughout the defensive sequence. External knee rotation dramatically increases rotational leverage on your ankle joint, accelerating submission danger exponentially. Use hip internal rotation to protect ankle alignment - this reduces the mechanical advantage your opponent has for the toe hold finish while you work systematic grip breaks and escape.",
+        "answer_line": "Point knee toward opponent",
+        "distractors": {
+          "plausible": [
+            "Point knee away for space",
+            "Keep knee neutral, relaxed"
+          ],
+          "trap": [
+            "Rotate knee outward to escape"
+          ]
+        }
       },
       {
         "question": "After successfully breaking opponent's grip control, how do you safely complete the escape?",
-        "answer": "Extract your leg through controlled angular movement rather than straight pulling - circle your knee toward your chest while maintaining internal rotation of the foot. Immediately establish distance by recovering to open guard, single leg X-guard, or 50-50 guard with your free leg creating hooks for control. Never remain in range after grip clearance as this allows immediate re-entry to the leg entanglement."
+        "answer": "Extract your leg through controlled angular movement rather than straight pulling - circle your knee toward your chest while maintaining internal rotation of the foot. Immediately establish distance by recovering to open guard, single leg X-guard, or 50-50 guard with your free leg creating hooks for control. Never remain in range after grip clearance as this allows immediate re-entry to the leg entanglement.",
+        "answer_line": "Circle knee out, recover to guard",
+        "distractors": {
+          "plausible": [
+            "Yank leg straight and disengage",
+            "Stand up immediately to reset"
+          ],
+          "trap": [
+            "Linger in range after clearing"
+          ]
+        }
       }
     ],
     "name": "Toe Hold Control Bottom",
@@ -605,37 +798,224 @@
     ],
     "transitions": [
       {
-        "transition": "Angle Change Escape",
-        "attempt_probability": 25
+        "transition": "Leg Extraction Escape from Entanglement",
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 15
+        }
       },
       {
-        "transition": "Ashi Garami Escape",
-        "attempt_probability": 15
+        "transition": "Inversion Escape from Leg Entanglement",
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 14
+        }
       },
       {
         "transition": "Counter-entangle to 50-50 Guard",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       },
       {
         "transition": "Guard Recovery from Leg Entanglement",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 12
+        }
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Boot Defense from Toe Hold",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 15
+        }
       },
       {
         "transition": "Counter Rotation from Toe Hold",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 13
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to escape the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock / toe hold defense",
+        "by": "Kuwy Jitsu",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "Leglock counters from ashi garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What grip configuration defines Toe Hold Control and distinguishes it from other leg entanglements?",
+      "answer": "Toe Hold Control is defined by one player's figure-four grip locking around the opponent's foot, where one hand caps the blade or top of the foot and the second hand clasps that gripping wrist to close the loop. The trapped leg is isolated inside a base entanglement such as ashi garami or the saddle so the hip and knee cannot generate defensive power. Unlike heel hook control, which loads the heel to torque the knee, the toe hold configuration concentrates rotational force on the ankle and foot itself. The defining feature is that the foot is captured as a lever independent of the rest of the leg, making the ankle the primary joint under threat.",
+      "answer_line": "Figure-four traps foot as a lever",
+      "distractors": {
+        "plausible": [
+          "Heel loaded to torque the knee",
+          "Overhook traps the whole leg"
+        ],
+        "trap": [
+          "Foot free, only knee isolated"
+        ]
+      }
+    },
+    {
+      "question": "Why is the figure-four grip the mechanical heart of this position for both players?",
+      "answer": "The figure-four creates a closed kinetic chain: the gripping hand caps the foot while the second hand clasps the first wrist, so force applied by the shoulders and back transmits directly into the foot without leaking through open grip points. This closed loop is what lets the controlling player rotate the foot as a rigid unit and what the trapped player must break to neutralize the threat. Because the loop is self-reinforcing, small grip adjustments translate into large changes in rotational leverage on the ankle. Both players orient their entire game around whether this loop is intact, tightening, or being pried open at the wrist.",
+      "answer_line": "Closed loop channels full torque",
+      "distractors": {
+        "plausible": [
+          "Open grip allows more mobility",
+          "Wrist grip is just for balance"
+        ],
+        "trap": [
+          "Loosen loop for finishing speed"
+        ]
+      }
+    },
+    {
+      "question": "How does control of the knee line govern the amount of rotational leverage available in this position?",
+      "answer": "The ankle can only be torqued effectively when the knee is pinned so the lower leg cannot follow the foot's rotation and dissipate the force. Whoever controls the knee line, typically through hip and chest positioning against the thigh, determines whether foot rotation loads the ankle joint or simply spins the whole leg harmlessly. When the knee is free to rotate with the foot, the submission leverage evaporates; when the knee is trapped, the foot becomes a lever against a fixed point. This is why the contest over the position is really a contest over knee-line control, not just the foot grip itself.",
+      "answer_line": "Pinned knee makes foot a lever",
+      "distractors": {
+        "plausible": [
+          "Free knee increases ankle torque",
+          "Hip position is irrelevant here"
+        ],
+        "trap": [
+          "Let knee spin to add pressure"
+        ]
+      }
+    },
+    {
+      "question": "What role does body angle relative to the trapped leg play in the position's dynamics?",
+      "answer": "Rotational effectiveness peaks when the controlling player's body sits roughly perpendicular to the trapped leg, because this alignment lets the shoulders and back drive the foot's rotation along the ankle's weakest plane. As the angle drifts toward parallel, the same grip produces far less torque and the leg gains room to extract. Both players therefore fight over angle constantly: one works to establish and hold perpendicularity, the other to spin the hips and flatten the angle. The position is inherently dynamic because a few degrees of body rotation dramatically changes how much danger the ankle is under.",
+      "answer_line": "Perpendicular body maximizes torque",
+      "distractors": {
+        "plausible": [
+          "Parallel angle gives more leverage",
+          "Angle doesn't affect the finish"
+        ],
+        "trap": [
+          "Flatten angle to speed the finish"
+        ]
+      }
+    },
+    {
+      "question": "Why does the direction the foot is rotated matter to the injury mechanics of this position?",
+      "answer": "The toe hold applies force by rotating the foot against a pinned knee, and the plane of that rotation dictates which ankle structures are loaded, primarily the ligaments and joint capsule of the ankle. Because these structures have a short range before failure, the position offers little warning time compared with slower-tapping chokes. When the knee is allowed to rotate externally with the foot, the stress no longer isolates at the ankle and can spread dangerously into the knee. Understanding this mechanism is what makes progressive, controlled rotation and early tapping a shared safety imperative for both players.",
+      "answer_line": "Direction sets which tissue loads",
+      "distractors": {
+        "plausible": [
+          "Knee absorbs stress either way",
+          "Speed matters, direction doesn't"
+        ],
+        "trap": [
+          "Push through mild rotation pain"
+        ]
+      }
+    },
+    {
+      "question": "How does Toe Hold Control relate to the surrounding leg entanglement hierarchy?",
+      "answer": "Toe Hold Control is a control layer that sits on top of a base entanglement rather than a standalone position, most often built from outside or inside ashi garami or the saddle. It functions as a transitional hub: when the foot grip or knee line is lost, the exchange naturally flows toward adjacent controls like straight ankle lock, kneebar, or heel hook depending on how the leg reorients. This interconnection means the position rarely exists in isolation and is best understood as one node in a web of leg attacks. The same knee-line and angle principles that govern the toe hold carry directly over to those neighboring entanglements.",
+      "answer_line": "Hub linking ashi, saddle, kneebar",
+      "distractors": {
+        "plausible": [
+          "Standalone position, no flow",
+          "Only leads to straight ankle lock"
+        ],
+        "trap": [
+          "Dead end once grip is lost"
+        ]
+      }
+    },
+    {
+      "question": "Why does Toe Hold Control carry particular strategic weight in rulesets that restrict heel hooks?",
+      "answer": "Many gi and beginner-division rulesets ban heel hooks but permit toe holds, so the toe hold becomes the primary rotational ankle attack legally available in those settings. Because it isolates the foot rather than loading the heel, it delivers a comparable finishing threat from the same family of entanglements without crossing the rule line. This makes the position strategically central wherever the heel hook is off the table, shaping how both players approach leg entanglements in those competitions. It also serves as a foundational teaching tool for the joint-isolation and control-before-submission principles that underpin all leg locks.",
+      "answer_line": "Primary legal ankle attack option",
+      "distractors": {
+        "plausible": [
+          "Backup move, rarely prioritized",
+          "Same rules apply as heel hook"
+        ],
+        "trap": [
+          "Substitute with a banned heel hook"
+        ]
+      }
+    },
+    {
+      "question": "Why is control considered a prerequisite to the finish rather than something applied simultaneously in this position?",
+      "answer": "The rotational break happens over a very short window, so if the foot grip, knee line, and body angle are not already locked when rotation begins, the opponent can spin the knee or extract the leg the instant they feel pressure. Applying torque before control is established simply telegraphs the threat and triggers a defensive scramble. Both players understand the position as a sequence in which control must be absolute first, because a premature finish attempt usually surrenders the position entirely. This control-before-submission logic is the defining tempo of the position and the reason it doubles as a positional hub rather than a pure finishing move.",
+      "answer_line": "Lock control fully before rotating",
+      "distractors": {
+        "plausible": [
+          "Rotate while establishing grips",
+          "Speed matters more than control"
+        ],
+        "trap": [
+          "Crank early to catch them relaxed"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "Kx8gZ3QdO8s",
+      "title": "Toe Hold control and finish",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "Bence Romanek",
+      "duration": 51,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "B_StkmaI3Nc",
+      "title": "Toe Hold entry from 50/50",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Dohn Janaher ",
+      "duration": 17,
+      "verified": "2026-07-14"
+    }
+  ]
 }

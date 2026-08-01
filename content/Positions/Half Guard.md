@@ -34,6 +34,54 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard to the Dogfight",
+      "description": "Half Guard film study: Half Guard to the Dogfight, taught by The Base Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X4jR2wWOy2M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X4jR2wWOy2M",
+      "url": "https://www.youtube.com/watch?v=X4jR2wWOy2M",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Black X Sweep from Half Guard",
+      "description": "Half Guard film study: Black X Sweep from Half Guard, taught by Bruno Bastos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N_NGkZs9I-M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N_NGkZs9I-M",
+      "url": "https://www.youtube.com/watch?v=N_NGkZs9I-M",
+      "creator": { "@type": "Person", "name": "Bruno Bastos" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Octopus Half Guard Sweep",
+      "description": "Half Guard film study: Octopus Half Guard Sweep, taught by Khabib Nurmagomedov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/llsV9Gn_usg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/llsV9Gn_usg",
+      "url": "https://www.youtube.com/watch?v=llsV9Gn_usg",
+      "creator": { "@type": "Person", "name": "Khabib Nurmagomedov" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ The fundamental asymmetry of Half Guard creates a unique positional dynamic wher
 Modern Half Guard play emphasizes constant movement, systematic position improvement, and the creation of offensive dilemmas that force opponents into defensive reactions. The position rewards technical knowledge and tactical decision-making over raw athleticism, making it an essential component of any complete guard system. Understanding Half Guard's sub-variations and the transitions between them is critical for both players, as the specific configuration of legs, hips, and upper body grips determines which techniques are available and which threats must be addressed.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X4jR2wWOy2M)
+
+<p class="clip-credit"><strong>Half Guard to the Dogfight</strong> — taught by The Base Jiu Jitsu · 1:19 · <a href="https://www.youtube.com/watch?v=X4jR2wWOy2M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N_NGkZs9I-M)
+
+<p class="clip-credit"><strong>Black X Sweep from Half Guard</strong> — taught by Bruno Bastos · 1:01 · <a href="https://www.youtube.com/watch?v=N_NGkZs9I-M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=llsV9Gn_usg)
+
+<p class="clip-credit"><strong>Octopus Half Guard Sweep</strong> — taught by Khabib Nurmagomedov · 1:01 · <a href="https://www.youtube.com/watch?v=llsV9Gn_usg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -142,43 +226,43 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (16% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (14% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (10% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
 
-- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (6% of attempts)
+- **[[Transitions/Knee Shield Retention/Attacker|Knee Shield Retention]]** (12% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (4% of attempts)
 
-- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (7% of attempts)
 
-- **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (4% of attempts)
+- **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (1% of attempts)
 
 - **[[Transitions/Half Guard to X-Guard/Attacker|Half Guard to X-Guard]]** (4% of attempts)
 
-- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (4% of attempts)
+- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (7% of attempts)
 
-- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (3% of attempts)
+- **[[Transitions/Half Guard Recovery/Attacker|Half Guard Recovery]]** (6% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (3% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to K-Guard/Attacker|Half Guard to K-Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to K-Guard/Attacker|Half Guard to K-Guard]]** (4% of attempts)
 
 - **[[Transitions/Back Door Escape from Half Guard/Attacker|Back Door Escape from Half Guard]]** (2% of attempts)
 
 - **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (2% of attempts)
 
-- **[[Positions/Buggy Choke/Attacker|Buggy Choke]]** (2% of attempts)
+- **[[Buggy Choke from Half Guard/Attacker|Buggy Choke from Half Guard]]** (2% of attempts)
 
-- **[[Buggy Choke from Half Guard/Attacker|Buggy Choke from Half Guard]]** (4% of attempts)
+- **[[Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (2% of attempts)
 
-- **[[Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (3% of attempts)
+- **[[Transitions/Half Guard to Jailbreak/Attacker|Half Guard to Jailbreak]]** (4% of attempts)
 
-- **[[Transitions/Half Guard to Jailbreak/Attacker|Half Guard to Jailbreak]]** (7% of attempts)
+- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -239,47 +323,43 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (22% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (16% of attempts)
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (11% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (9% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (14% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (4% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (4% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (7% of attempts)
 
-- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (3% of attempts)
+- **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (4% of attempts)
 
-- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to Double Jump/Attacker|Half Guard to Double Jump]]** (1% of attempts)
 
-- **[[Transitions/Half Guard to Double Jump/Attacker|Half Guard to Double Jump]]** (2% of attempts)
-
-- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (7% of attempts)
 
 - **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (2% of attempts)
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (2% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (5% of attempts)
 
-- **[[Transitions/Half Guard to Leg Hook/Attacker|Half Guard to Leg Hook]]** (2% of attempts)
+- **[[Transitions/Half Guard to Leg Hook/Attacker|Half Guard to Leg Hook]]** (1% of attempts)
 
-- **[[Transitions/Half Guard to Pocket Half Guard/Attacker|Half Guard to Pocket Half Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to Pocket Half Guard/Attacker|Half Guard to Pocket Half Guard]]** (1% of attempts)
 
 - **[[Transitions/Half Guard to Quarter Guard/Attacker|Half Guard to Quarter Guard]]** (2% of attempts)
 
-- **[[Transitions/Half Guard to Triangle Escape Position/Attacker|Half Guard to Triangle Escape Position]]** (2% of attempts)
+- **[[Transitions/Half Guard to Triangle Escape Position/Attacker|Half Guard to Triangle Escape Position]]** (1% of attempts)
 
-- **[[Submissions/Suloev Stretch/Attacker|Suloev Stretch]]** (2% of attempts)
+- **[[Loop Choke from Half Guard/Attacker|Loop Choke from Half Guard]]** (0% of attempts)
 
-- **[[Loop Choke from Half Guard/Attacker|Loop Choke from Half Guard]]** (2% of attempts)
+- **[[Suloev Stretch from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (2% of attempts)
 
-- **[[Suloev Stretch from Half Guard/Attacker|Suloev Stretch from Half Guard]]** (1% of attempts)
+- **[[Transitions/Half Guard to Leg Weave/Attacker|Half Guard to Leg Weave]]** (5% of attempts)
 
-- **[[Transitions/Half Guard to Leg Weave/Attacker|Half Guard to Leg Weave]]** (10% of attempts)
-
-- **[[Transitions/Half Guard Whizzer Counter/Attacker|Half Guard Whizzer Counter]]** (8% of attempts)
+- **[[Transitions/Half Guard Whizzer Counter/Attacker|Half Guard Whizzer Counter]]** (5% of attempts)
 
 
 ### Common Mistakes

@@ -140,6 +140,54 @@ description: "Complete guide to defending the rotation from 50-50 Guard to Backs
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Backside 50-50 (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape and counter the backside 50/50",
+      "description": "50-50 Guard to Backside 50-50 (Defender) film study: Escape and counter the backside 50/50, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
+      "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT240S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "50/50 defense: protecting your leg",
+      "description": "50-50 Guard to Backside 50-50 (Defender) film study: 50/50 defense: protecting your leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7lPdQWLOus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R7lPdQWLOus",
+      "url": "https://www.youtube.com/watch?v=R7lPdQWLOus",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Backside 50/50 defense",
+      "description": "50-50 Guard to Backside 50-50 (Defender) film study: Backside 50/50 defense, taught by Giancarlo Bodoni.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zhApZgQzWVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zhApZgQzWVk",
+      "url": "https://www.youtube.com/watch?v=zhApZgQzWVk",
+      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
+      "duration": "PT174S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Transition to Backside 50-50, your primary objective
 **Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Backside 50-50 (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
+
+<p class="clip-credit"><strong>Escape and counter the backside 50/50</strong> — taught by Matrix Jiu Jitsu · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R7lPdQWLOus)
+
+<p class="clip-credit"><strong>50/50 defense: protecting your leg</strong> — taught by Lachlan Giles · 2:41 · <a href="https://www.youtube.com/watch?v=R7lPdQWLOus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zhApZgQzWVk)
+
+<p class="clip-credit"><strong>Backside 50/50 defense</strong> — taught by Giancarlo Bodoni · 2:54 · <a href="https://www.youtube.com/watch?v=zhApZgQzWVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

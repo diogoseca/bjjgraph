@@ -174,6 +174,43 @@ description: "Master the Step Over pass from X-Guard as the attacker. Detailed e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Step Over from X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backstep pass against X-guard",
+      "description": "Step Over from X-Guard (Attacker) film study: Backstep pass against X-guard, taught by Wakizashi Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WsQy2bzQqL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WsQy2bzQqL8",
+      "url": "https://www.youtube.com/watch?v=WsQy2bzQqL8",
+      "creator": { "@type": "Person", "name": "Wakizashi Jiu Jitsu" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Five passes against single leg X-guard",
+      "description": "Step Over from X-Guard (Attacker) film study: Five passes against single leg X-guard, taught by Oneonta Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v2thEjJ0ES0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v2thEjJ0ES0",
+      "url": "https://www.youtube.com/watch?v=v2thEjJ0ES0",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 **From Position**: [[Positions/X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Step Over from X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WsQy2bzQqL8)
+
+<p class="clip-credit"><strong>Backstep pass against X-guard</strong> — taught by Wakizashi Jiu Jitsu · 1:16 · <a href="https://www.youtube.com/watch?v=WsQy2bzQqL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v2thEjJ0ES0)
+
+<p class="clip-credit"><strong>Five passes against single leg X-guard</strong> — taught by Oneonta Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=v2thEjJ0ES0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

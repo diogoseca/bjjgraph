@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Kneebar Control",
   "from_position": "Kneebar Control/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "The toe hold from kneebar control represents one of the most reliable chain attacks in modern leg lock systems. When an opponent defends the kneebar by bending their knee and pulling their leg tight, they inadvertently expose their foot to a toe hold grip. This defensive reaction creates a predictable opening that skilled leg lock practitioners exploit systematically, making the kneebar-to-toe-hold sequence a fundamental combination in competition grappling.\n\nThe mechanics of this transition center on grip switching. From kneebar control, the attacker already has the opponent's leg secured across their torso. When the opponent bends their knee to prevent hyperextension, the attacker releases the kneebar grip configuration and reaches for the opponent's toes and forefoot. The attacking hand wraps over the top of the foot, cupping the toes, while the other arm threads under the ankle to establish a figure-four grip on the attacking wrist. The finish involves twisting the foot inward while pulling the toes toward the attacker's chest, creating rotational stress on the ankle joint.\n\nWhat makes this combination particularly effective is the dilemma it creates for the defender. Straightening the leg to prevent the toe hold re-exposes the knee to the kneebar. Keeping the knee bent invites the toe hold. This binary defensive problem forces the opponent to choose which submission to defend, dramatically increasing the attacker's finishing rate compared to attacking either technique in isolation.",
   "safety_considerations": {
     "injury_risks": [
@@ -110,17 +113,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Kneebar Control/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],
@@ -288,42 +300,142 @@
       {
         "question": "What defensive reaction from the opponent creates the opening for the toe hold from kneebar control?",
         "answer": "The opponent bending their knee to defend the kneebar is the primary reaction that creates toe hold access. When they pull their leg tight to prevent knee hyperextension, their foot becomes exposed and accessible for the toe hold grip. This is why the kneebar threat must be genuine - opponents who do not respect the kneebar will not create this opening.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bends knee to defend kneebar",
+        "distractors": {
+          "plausible": [
+            "Pushes your head to posture up",
+            "Grips your belt and stalls"
+          ],
+          "trap": [
+            "Fake the kneebar, grab the foot"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the toe hold from kneebar control primarily attack?",
         "answer": "The toe hold primarily attacks the ankle ligaments through rotational force, specifically the lateral and medial collateral ligaments of the ankle. Secondary targets include the small joints of the toes and forefoot, the plantar fascia on the sole of the foot, and in severe cases, the Lisfranc joint of the midfoot. The twisting motion creates shear forces across multiple structures simultaneously.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ankle ligaments, rotational shear",
+        "distractors": {
+          "plausible": [
+            "Achilles tendon compression",
+            "Patellar tendon strain"
+          ],
+          "trap": [
+            "Harmless twist, crank it freely"
+          ]
+        }
       },
       {
         "question": "What is the most vulnerable moment during the kneebar-to-toe-hold transition, and how do you minimize risk?",
         "answer": "The most vulnerable moment is when both hands release the kneebar grip configuration and reach for the toe hold grip. During this window, arm control is temporarily absent and the opponent can attempt to extract their leg. Minimize risk by maintaining strong leg entanglement hooks throughout the transition and executing the grip switch as quickly as possible while keeping hips connected to the opponent's knee.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip switch: keep hooks, be fast",
+        "distractors": {
+          "plausible": [
+            "Initial kneebar entry",
+            "Final rotational finish"
+          ],
+          "trap": [
+            "Release both hooks to reset"
+          ]
+        }
       },
       {
         "question": "How should you properly release the toe hold after your training partner taps?",
         "answer": "Immediately stop all rotational pressure upon hearing or feeling the tap. Release the toe grip completely, then release heel control. Allow the opponent's foot to return to neutral position naturally without abrupt release. Maintain light contact until they signal they are comfortable. Check verbally with your training partner before resuming any activity. Never continue applying any pressure after a tap signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Kill torque, toe grip out first",
+        "distractors": {
+          "plausible": [
+            "Let go of the heel wedge first",
+            "Yank the foot straight at once"
+          ],
+          "trap": [
+            "Hold the twist till they move"
+          ]
+        }
       },
       {
         "question": "Your opponent starts straightening their leg while you have a partially established toe hold grip - what should you do?",
         "answer": "Immediately release the toe hold grip and transition back to the kneebar attack. The leg extension that strips the toe hold simultaneously re-exposes the knee joint to hyperextension, which is the core mechanic of this chain attack. Fighting to maintain the toe hold against a straightening leg wastes the better submission opportunity and reduces your finishing percentage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Release toe hold, attack kneebar",
+        "distractors": {
+          "plausible": [
+            "Fight to keep the toe hold grip",
+            "Sit back and re-pummel hooks"
+          ],
+          "trap": [
+            "Drop hooks and chase the foot"
+          ]
+        }
       },
       {
         "question": "Why must rotational pressure be applied gradually rather than quickly when finishing the toe hold?",
         "answer": "Toe holds attack small ligaments and joints that can fail suddenly and catastrophically with minimal warning. Unlike chokes where the opponent gradually loses consciousness, ankle ligaments can tear instantly under sudden rotational load. The 5-7 second minimum application window gives the defender adequate time to recognize the submission threat and tap before structural damage occurs. Snapping the toe hold risks severe, potentially career-ending ankle injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ankle ligaments fail with no warning",
+        "distractors": {
+          "plausible": [
+            "Muscles need time to warm up",
+            "Referees penalize fast finishes"
+          ],
+          "trap": [
+            "Crank it fast to force the tap"
+          ]
+        }
       },
       {
         "question": "What grip adjustment should you make if the opponent dorsiflexes their foot aggressively to deny the toe hold?",
         "answer": "When the opponent boots or dorsiflexes to deny the grip, you have two primary options. First, you can wait for the dorsiflexion to fatigue, which typically occurs within 10-15 seconds of sustained effort, then re-establish the grip as their foot relaxes. Second, you can shift your attack angle and approach the foot from underneath the ankle rather than over the top, or transition to a straight ankle lock targeting the Achilles tendon instead.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wait out the boot, then re-grip",
+        "distractors": {
+          "plausible": [
+            "Abandon the leg and stand up",
+            "Squeeze the knee harder instead"
+          ],
+          "trap": [
+            "Crank rotation through the boot"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic advantage does the kneebar-to-toe-hold chain provide over attacking either submission individually?",
         "answer": "The chain creates a binary defensive dilemma where each defense opens the other attack. Bending the knee to defend the kneebar exposes the foot for the toe hold. Straightening the leg to defend the toe hold re-exposes the knee for the kneebar. This forces the opponent to choose which submission to defend rather than having a single defensive strategy, dramatically increasing the attacker's finishing probability compared to isolated attacks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forces a lose-lose defense",
+        "distractors": {
+          "plausible": [
+            "Tires out their grip strength",
+            "Earns advantage points faster"
+          ],
+          "trap": [
+            "Commit fully to one submission"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "uDoUFh3gXxo",
+        "title": "Toe Hold from Failed Kneebar",
+        "by": "Jaime Jara",
+        "vertical": false,
+        "channel": "Jaime Jara",
+        "duration": 67,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0Ikomr3uYBU",
+        "title": "Kneebar to Toe Hold from Guard",
+        "by": "Kinesiology College",
+        "vertical": false,
+        "channel": "Kinesiology College",
+        "duration": 14,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -405,27 +517,77 @@
       {
         "question": "How do you recognize that a toe hold from kneebar control is being set up rather than a continued kneebar attack?",
         "answer": "The primary recognition cue is feeling the attacker release their kneebar grip around your lower leg and redirect their hands toward your foot and toes. You will feel the pressure shift from linear hyperextension against your knee to a reaching or cupping sensation around your forefoot. If you feel a hand wrapping over the top of your toes and another arm threading under your ankle, the toe hold transition is underway.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip shifts from shin to foot",
+        "distractors": {
+          "plausible": [
+            "Knee pressure suddenly increases",
+            "Hands reposition on your hip"
+          ],
+          "trap": [
+            "Ignore it, keep defending knee"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in a toe hold from kneebar control?",
         "answer": "Tap immediately using multiple clear signals. Verbal tap by saying 'tap' loudly is the fastest and most reliable signal. Simultaneously tap physically on the attacker's body or the mat with your free hand, using multiple rapid taps. If hands are trapped, tap with your free foot. Do not wait to see if you can escape once rotational pressure begins - toe holds cause sudden ligament damage and the window between discomfort and injury is extremely narrow.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shout tap plus rapid hand taps",
+        "distractors": {
+          "plausible": [
+            "One firm tap, then wait",
+            "Nod and let go of your grips"
+          ],
+          "trap": [
+            "Wait it out and try to escape"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each stage of the toe hold from kneebar control?",
         "answer": "During the grip transition (highest percentage window): dorsiflexion and foot retraction to prevent grip establishment. During partial grip (medium window): explosive leg extension to strip the incomplete figure-four, with immediate preparation to defend the kneebar. During full figure-four lock (lowest percentage window): hip rotation toward the attacker to relieve ankle torque while working to disentangle legs and recover guard. At each stage, earlier intervention provides better escape probability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Dorsiflex and retract before grip",
+        "distractors": {
+          "plausible": [
+            "Extend leg after figure-four locks",
+            "Rotate hips during grip transition"
+          ],
+          "trap": [
+            "Point the toes to slide foot free"
+          ]
+        }
       },
       {
         "question": "Why is the toe hold considered more dangerous than many other submissions in terms of injury risk?",
         "answer": "The toe hold attacks small ligaments and joints in the ankle and foot that can fail suddenly and catastrophically with minimal warning sensation. Unlike chokes which produce gradual unconsciousness, or armbars which create progressive elbow pressure, ankle ligaments can tear instantly once their structural threshold is exceeded. The rotational force vector distributes across multiple small structures simultaneously, meaning damage can be severe and affect multiple ligaments in a single failure event.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Sudden failure, minimal warning",
+        "distractors": {
+          "plausible": [
+            "Threatens knee ligaments most",
+            "Compresses the Achilles tendon"
+          ],
+          "trap": [
+            "You can tap once you feel it"
+          ]
+        }
       },
       {
         "question": "What is the defensive dilemma created by the kneebar-to-toe-hold chain, and how should you manage it?",
         "answer": "The dilemma is that bending the knee to defend the kneebar exposes the foot for the toe hold, while straightening the leg to defend the toe hold re-exposes the knee for the kneebar. Managing this requires alternating defensive postures rather than committing entirely to one position. The best strategy is to defend the kneebar with a bent knee while actively managing foot position through dorsiflexion and toe concealment, then use hip rotation to escape the entanglement entirely rather than trading between the two submission threats indefinitely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Guard knee, hide foot, rotate out",
+        "distractors": {
+          "plausible": [
+            "Commit fully to straightening leg",
+            "Flatten out and wait it out"
+          ],
+          "trap": [
+            "Turn away and give up the back"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -448,6 +610,26 @@
         "phase": "Live Positional Defense",
         "focus": "Full resistance defense from kneebar control against the complete chain",
         "description": "Start in kneebar control with attacker working the kneebar-toe hold chain at competition pace. Defender uses all available tools - grip prevention, leg straightening, hip rotation, guard recovery. Track escape rate and tap timing to measure defensive development."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hze1WyTvkzA",
+        "title": "Defending the Kneebar to Toe Hold",
+        "by": "Garden State BJJ",
+        "vertical": false,
+        "channel": "Garden State Brazilian Jiu-Jitsu Academy",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "How to Escape the Toe Hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-14"
       }
     ]
   }

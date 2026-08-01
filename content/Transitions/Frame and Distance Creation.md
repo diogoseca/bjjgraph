@@ -34,6 +34,54 @@ description: "Learn Frame and Distance Creation defense from ankle lock control.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Distance Creation \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle lock escape: putting on the boot",
+      "description": "Frame and Distance Creation film study: Ankle lock escape: putting on the boot, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CUnX7TOpb-A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CUnX7TOpb-A",
+      "url": "https://www.youtube.com/watch?v=CUnX7TOpb-A",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Ankle Lock Defense",
+      "description": "Frame and Distance Creation film study: Straight Ankle Lock Defense, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G_pDwabnbAU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G_pDwabnbAU",
+      "url": "https://www.youtube.com/watch?v=G_pDwabnbAU",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT224S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the Straight Ankle Lock",
+      "description": "Frame and Distance Creation film study: Escaping the Straight Ankle Lock, taught by Daniel De Groot.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_d9buGzaHoA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_d9buGzaHoA",
+      "url": "https://www.youtube.com/watch?v=_d9buGzaHoA",
+      "creator": { "@type": "Person", "name": "Daniel De Groot" },
+      "duration": "PT276S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Distance Creation in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CUnX7TOpb-A)
+
+<p class="clip-credit"><strong>Ankle lock escape: putting on the boot</strong> — taught by Ritchie Yip · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G_pDwabnbAU)
+
+<p class="clip-credit"><strong>Straight Ankle Lock Defense</strong> — taught by MMA Leech · 3:44 · <a href="https://www.youtube.com/watch?v=G_pDwabnbAU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_d9buGzaHoA)
+
+<p class="clip-credit"><strong>Escaping the Straight Ankle Lock</strong> — taught by Daniel De Groot · 4:36 · <a href="https://www.youtube.com/watch?v=_d9buGzaHoA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,54 @@ description: "How to prevent the Defensive Roll escape from Twister Control. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Defensive Roll (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape and counter the twister roll",
+      "description": "Defensive Roll (Defender) film study: Escape and counter the twister roll, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Twister Roll from Twister Side Control",
+      "description": "Defensive Roll (Defender) film study: Defending the Twister Roll from Twister Side Control, taught by Christian Cephus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HztNj4kvh40/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HztNj4kvh40",
+      "url": "https://www.youtube.com/watch?v=HztNj4kvh40",
+      "creator": { "@type": "Person", "name": "Christian Cephus" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Twister Side Control Escape",
+      "description": "Defensive Roll (Defender) film study: Twister Side Control Escape, taught by Pearson Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-Ht2pQtWRs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-Ht2pQtWRs",
+      "url": "https://www.youtube.com/watch?v=0-Ht2pQtWRs",
+      "creator": { "@type": "Person", "name": "Pearson Brazilian Jiu-Jitsu" },
+      "duration": "PT228S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The critical insight for the defender is that the Defensive Roll requires specif
 **Opponent's Starting Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Defensive Roll (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
+
+<p class="clip-credit"><strong>Escape and counter the twister roll</strong> — taught by Matrix Jiu Jitsu · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HztNj4kvh40)
+
+<p class="clip-credit"><strong>Defending the Twister Roll from Twister Side Control</strong> — taught by Christian Cephus · 2:18 · <a href="https://www.youtube.com/watch?v=HztNj4kvh40" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-Ht2pQtWRs)
+
+<p class="clip-credit"><strong>Twister Side Control Escape</strong> — taught by Pearson Brazilian Jiu-Jitsu · 3:48 · <a href="https://www.youtube.com/watch?v=0-Ht2pQtWRs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

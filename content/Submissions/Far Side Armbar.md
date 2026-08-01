@@ -34,6 +34,43 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Far Side Armbar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Far Side Armbar from Side Control",
+      "description": "Far Side Armbar film study: Far Side Armbar from Side Control, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XxdFHCKd568/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XxdFHCKd568",
+      "url": "https://www.youtube.com/watch?v=XxdFHCKd568",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Armlock from Side Control",
+      "description": "Far Side Armbar film study: Straight Armlock from Side Control, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iPnQx-6RYpU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iPnQx-6RYpU",
+      "url": "https://www.youtube.com/watch?v=iPnQx-6RYpU",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT198S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +123,34 @@ This submission appears frequently in both gi and no-gi competition at all level
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Far Side Armbar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XxdFHCKd568)
+
+<p class="clip-credit"><strong>Far Side Armbar from Side Control</strong> — taught by Fox Den Martial Arts · 0:49 · <a href="https://www.youtube.com/watch?v=XxdFHCKd568" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iPnQx-6RYpU)
+
+<p class="clip-credit"><strong>Straight Armlock from Side Control</strong> — taught by Roger Gracie · 3:18 · <a href="https://www.youtube.com/watch?v=iPnQx-6RYpU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,7 +160,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Far Side Armbar/from Side Control|Side Control]] | Top | 58% | [[Submissions/Far Side Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Far Side Armbar/from Side Control/Defender|Defend →]] |
+| [[Submissions/Far Side Armbar/from Side Control|Side Control]] | Top | 50% | [[Submissions/Far Side Armbar/from Side Control/Attacker|Attack →]] | [[Submissions/Far Side Armbar/from Side Control/Defender|Defend →]] |
 
 
 </div>
@@ -124,7 +189,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 - [[Submissions/Arm Crush]] - Direct arm compression attack from similar side control positions
 - [[Submissions/Kimura]] - Complementary shoulder lock that chains directly with far side armbar setups
 - [[Submissions/Americana]] - Near-arm shoulder lock creating defensive reactions that expose the far arm
-- [[Transitions/Arm Triangle]] - Head and arm choke available from similar top control positions
+- [[Submissions/Arm Triangle]] - Head and arm choke available from similar top control positions
 - [[Positions/Mount/S Mount]] - Elevated mount variation providing optimal platform for far side armbar finishing mechanics
 - [[Positions/Side Control]] - Primary starting position for far side armbar
 - [[Positions/Mount]] - Alternative starting position for far side armbar

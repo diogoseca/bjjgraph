@@ -148,6 +148,43 @@ description: "How to defend against Jailbreak to Back Take in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jailbreak to Back Take (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gordon Ryan on effective half guard passing",
+      "description": "Jailbreak to Back Take (Defender) film study: Gordon Ryan on effective half guard passing, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RQf5WZNLmEA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RQf5WZNLmEA",
+      "url": "https://www.youtube.com/watch?v=RQf5WZNLmEA",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT507S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Flattening the bottom player out from half guard",
+      "description": "Jailbreak to Back Take (Defender) film study: Flattening the bottom player out from half guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DSJJyA-2HKU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DSJJyA-2HKU",
+      "url": "https://www.youtube.com/watch?v=DSJJyA-2HKU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT813S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Understanding the biomechanics of this attack reveals its defensive vulnerabilit
 **Opponent's Starting Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jailbreak to Back Take (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RQf5WZNLmEA)
+
+<p class="clip-credit"><strong>Gordon Ryan on effective half guard passing</strong> — taught by Gordon Ryan · 8:27 · <a href="https://www.youtube.com/watch?v=RQf5WZNLmEA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DSJJyA-2HKU)
+
+<p class="clip-credit"><strong>Flattening the bottom player out from half guard</strong> — taught by Gordon Ryan · 13:33 · <a href="https://www.youtube.com/watch?v=DSJJyA-2HKU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master Sasae Tsurikomi Ashi for BJJ. Complete guide to this judo f
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sasae Tsurikomi Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "An unusual sasae variation",
+      "description": "Sasae Tsurikomi Ashi film study: An unusual sasae variation, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kj78xnbn4LA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kj78xnbn4LA",
+      "url": "https://www.youtube.com/watch?v=kj78xnbn4LA",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sasae tsurikomi ashi short demo",
+      "description": "Sasae Tsurikomi Ashi film study: Sasae tsurikomi ashi short demo, taught by Judo Advantage coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O-MLLz9UHRM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O-MLLz9UHRM",
+      "url": "https://www.youtube.com/watch?v=O-MLLz9UHRM",
+      "creator": { "@type": "Person", "name": "Judo Advantage coach" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -65,6 +102,34 @@ Originating from judo's ashi-waza (foot-technique) family, Sasae Tsurikomi Ashi 
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sasae Tsurikomi Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kj78xnbn4LA)
+
+<p class="clip-credit"><strong>An unusual sasae variation</strong> — taught by Shintaro Higashi · 1:00 · <a href="https://www.youtube.com/watch?v=kj78xnbn4LA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O-MLLz9UHRM)
+
+<p class="clip-credit"><strong>Sasae tsurikomi ashi short demo</strong> — taught by Judo Advantage coach · 0:23 · <a href="https://www.youtube.com/watch?v=O-MLLz9UHRM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

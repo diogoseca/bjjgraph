@@ -148,6 +148,54 @@ description: "Prevent Escape from Truck attempts as the defender. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Truck (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Focusing on the truck",
+      "description": "Escape from Truck (Defender) film study: Focusing on the truck, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZVAmQ2Sf-Fc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZVAmQ2Sf-Fc",
+      "url": "https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The truck in transition",
+      "description": "Escape from Truck (Defender) film study: The truck in transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Truck options from twister side control",
+      "description": "Escape from Truck (Defender) film study: Truck options from twister side control, taught by Jeremiah Vance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/im8KbQUyxLY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/im8KbQUyxLY",
+      "url": "https://www.youtube.com/watch?v=im8KbQUyxLY",
+      "creator": { "@type": "Person", "name": "Jeremiah Vance" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ Your defensive strategy centers on maintaining the integrity of your control lay
 **Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Truck (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc)
+
+<p class="clip-credit"><strong>Focusing on the truck</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=im8KbQUyxLY)
+
+<p class="clip-credit"><strong>Truck options from twister side control</strong> — taught by Jeremiah Vance · 0:42 · <a href="https://www.youtube.com/watch?v=im8KbQUyxLY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

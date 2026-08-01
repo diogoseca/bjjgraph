@@ -176,6 +176,54 @@ description: "Learn to finish the Cross Collar Choke from Mount with proper grip
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Chokes breakdown",
+      "description": "Cross Collar Choke from Mount (Attacker) film study: Cross Collar Chokes breakdown, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the cross choke from mount",
+      "description": "Cross Collar Choke from Mount (Attacker) film study: Finishing the cross choke from mount, taught by Saulo Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wA1QP2bpENA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wA1QP2bpENA",
+      "url": "https://www.youtube.com/watch?v=wA1QP2bpENA",
+      "creator": { "@type": "Person", "name": "Saulo Ribeiro" },
+      "duration": "PT112S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Palm-up palm-up cross choke (Helio variation)",
+      "description": "Cross Collar Choke from Mount (Attacker) film study: Palm-up palm-up cross choke (Helio variation), taught by Avant-Garde BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrAxA8KUxbo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrAxA8KUxbo",
+      "url": "https://www.youtube.com/watch?v=DrAxA8KUxbo",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The Cross Collar Choke from Mount leverages the dominant top position to establi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross Collar Chokes breakdown</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wA1QP2bpENA)
+
+<p class="clip-credit"><strong>Finishing the cross choke from mount</strong> — taught by Saulo Ribeiro · 1:52 · <a href="https://www.youtube.com/watch?v=wA1QP2bpENA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrAxA8KUxbo)
+
+<p class="clip-credit"><strong>Palm-up palm-up cross choke (Helio variation)</strong> — taught by Avant-Garde BJJ · 1:01 · <a href="https://www.youtube.com/watch?v=DrAxA8KUxbo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

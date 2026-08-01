@@ -150,6 +150,54 @@ description: "How to defend and escape the Ten Finger Guillotine from Guillotine
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine from Guillotine Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Positional Check Against the Guillotine",
+      "description": "Ten Finger Guillotine from Guillotine Control (Defender) film study: Positional Check Against the Guillotine, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nGpAcI79frk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nGpAcI79frk",
+      "url": "https://www.youtube.com/watch?v=nGpAcI79frk",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Choke Defense",
+      "description": "Ten Finger Guillotine from Guillotine Control (Defender) film study: Guillotine Choke Defense, taught by Todd Hendrickson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OQYU2BXdEEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OQYU2BXdEEw",
+      "url": "https://www.youtube.com/watch?v=OQYU2BXdEEw",
+      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing guillotine escape",
+      "description": "Ten Finger Guillotine from Guillotine Control (Defender) film study: Standing guillotine escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Ten Finger Guillotine from Guillotine Control requires early recog
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine from Guillotine Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nGpAcI79frk)
+
+<p class="clip-credit"><strong>Positional Check Against the Guillotine</strong> — taught by Priit Mihkelson · 1:56 · <a href="https://www.youtube.com/watch?v=nGpAcI79frk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OQYU2BXdEEw)
+
+<p class="clip-credit"><strong>Guillotine Choke Defense</strong> — taught by Todd Hendrickson · 0:51 · <a href="https://www.youtube.com/watch?v=OQYU2BXdEEw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

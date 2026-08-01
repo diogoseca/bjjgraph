@@ -164,6 +164,54 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forward Pressure \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pressure: the science behind your jiu jitsu",
+      "description": "Forward Pressure film study: Pressure: the science behind your jiu jitsu, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mzAgY0QUtnc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mzAgY0QUtnc",
+      "url": "https://www.youtube.com/watch?v=mzAgY0QUtnc",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT785S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gordon Ryan\u0027s no-gi pressure passing system",
+      "description": "Forward Pressure film study: Gordon Ryan\u0027s no-gi pressure passing system, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OdscGUlottI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OdscGUlottI",
+      "url": "https://www.youtube.com/watch?v=OdscGUlottI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT761S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Danaher on driving forward into the opponent",
+      "description": "Forward Pressure film study: Danaher on driving forward into the opponent, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GZbesQUVTao/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GZbesQUVTao",
+      "url": "https://www.youtube.com/watch?v=GZbesQUVTao",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT15S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Forward Pressure?
@@ -173,6 +221,42 @@ description: "Master Forward Pressure in BJJ. Learn strategic force application,
 Across every offensive phase of jiu-jitsu - guard passing, pin consolidation, and submission setups - the difference between a practitioner who advances and one who stalls often comes down to the quality of their advancing force. Forward pressure is a conceptual framework rather than a single technique, encompassing the mechanical principles, directional control, and psychological aspects of creating consistent, purposeful advancing force that compromises an opponent's defensive structures. It functions both as an offensive weapon that breaks through resistance and as a control mechanism that limits an opponent's mobility and recovery options. The ability to apply effective forward pressure often determines whether a practitioner can overcome sophisticated defensive systems or remains neutralized by an opponent's frames and space creation, making it one of the most essential conceptual elements for offensive BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Forward Pressure in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mzAgY0QUtnc)
+
+<p class="clip-credit"><strong>Pressure: the science behind your jiu jitsu</strong> — taught by RVV BJJ · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OdscGUlottI)
+
+<p class="clip-credit"><strong>Gordon Ryan&#39;s no-gi pressure passing system</strong> — taught by Gordon Ryan · 12:41 · <a href="https://www.youtube.com/watch?v=OdscGUlottI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GZbesQUVTao)
+
+<p class="clip-credit"><strong>Danaher on driving forward into the opponent</strong> — taught by John Danaher · 0:15 · <a href="https://www.youtube.com/watch?v=GZbesQUVTao" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

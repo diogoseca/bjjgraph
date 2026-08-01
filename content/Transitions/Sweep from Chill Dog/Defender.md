@@ -148,6 +148,54 @@ description: "Learn to defend the Chill Dog sweep reversal. Recognize setup cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Chill Dog (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shoot, sprawl and sit out defense",
+      "description": "Sweep from Chill Dog (Defender) film study: Shoot, sprawl and sit out defense, taught by Erik Paulson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/taus4FKiXww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/taus4FKiXww",
+      "url": "https://www.youtube.com/watch?v=taus4FKiXww",
+      "creator": { "@type": "Person", "name": "Erik Paulson" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Turtle escape and back-exposure defense system",
+      "description": "Sweep from Chill Dog (Defender) film study: Turtle escape and back-exposure defense system, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle defense: sit-out with head on back",
+      "description": "Sweep from Chill Dog (Defender) film study: Turtle defense: sit-out with head on back, taught by Mjolnir Fight Club coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d312j3n9fIw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d312j3n9fIw",
+      "url": "https://www.youtube.com/watch?v=d312j3n9fIw",
+      "creator": { "@type": "Person", "name": "Mjolnir Fight Club coach" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Sweep from Chill Dog, you are the top player working
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Chill Dog (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=taus4FKiXww)
+
+<p class="clip-credit"><strong>Shoot, sprawl and sit out defense</strong> — taught by Erik Paulson · 0:58 · <a href="https://www.youtube.com/watch?v=taus4FKiXww" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+
+<p class="clip-credit"><strong>Turtle escape and back-exposure defense system</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d312j3n9fIw)
+
+<p class="clip-credit"><strong>Turtle defense: sit-out with head on back</strong> — taught by Mjolnir Fight Club coach · 0:30 · <a href="https://www.youtube.com/watch?v=d312j3n9fIw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

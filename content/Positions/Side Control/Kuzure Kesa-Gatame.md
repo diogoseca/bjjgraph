@@ -34,6 +34,43 @@ description: "Master modified scarf hold in BJJ. Strategic guide covering contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kuzure Kesa-Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kuzure Kesa Gatame: Study It",
+      "description": "Kuzure Kesa-Gatame film study: Kuzure Kesa Gatame: Study It, taught by Judo Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aTsvuZ1vM48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aTsvuZ1vM48",
+      "url": "https://www.youtube.com/watch?v=aTsvuZ1vM48",
+      "creator": { "@type": "Person", "name": "Judo Life" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame - Basic Scarf Hold",
+      "description": "Kuzure Kesa-Gatame film study: Kesa Gatame - Basic Scarf Hold, taught by Grappler Station.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TfNpVcekHGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TfNpVcekHGg",
+      "url": "https://www.youtube.com/watch?v=TfNpVcekHGg",
+      "creator": { "@type": "Person", "name": "Grappler Station" },
+      "duration": "PT121S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ From the bottom perspective, Kuzure Kesa-Gatame presents unique defensive challe
 The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstated. It serves as a bridge position between standard side control and mount, offering superior submission opportunities compared to traditional side control while maintaining better base and stability than certain other variations. Competitors frequently transition to this position when they sense an opponent beginning to defend standard side control effectively, using the arm isolation to reset the control dynamic and create new attacking opportunities. The position also plays a crucial role in no-gi grappling, where the absence of gi grips makes traditional scarf hold controls less reliable, while the fundamental mechanics of Kuzure Kesa-Gatame remain highly effective.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kuzure Kesa-Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aTsvuZ1vM48)
+
+<p class="clip-credit"><strong>Kuzure Kesa Gatame: Study It</strong> — taught by Judo Life · 0:33 · <a href="https://www.youtube.com/watch?v=aTsvuZ1vM48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TfNpVcekHGg)
+
+<p class="clip-credit"><strong>Kesa Gatame - Basic Scarf Hold</strong> — taught by Grappler Station · 2:01 · <a href="https://www.youtube.com/watch?v=TfNpVcekHGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,19 +204,19 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (22% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (21% of attempts)
 
-- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (16% of attempts)
+- **[[Transitions/Arm Recovery to Guard/Attacker|Arm Recovery to Guard]]** (20% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (13% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (17% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
 
-- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (15% of attempts)
+- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (13% of attempts)
 
-- **[[Transitions/Frame Escape from Kuzure Kesa/Attacker|Frame Escape from Kuzure Kesa]]** (6% of attempts)
+- **[[Transitions/Frame Escape from Kuzure Kesa/Attacker|Frame Escape from Kuzure Kesa]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -212,27 +277,25 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Americana from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (10% of attempts)
+- **[[Americana from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (18% of attempts)
 
-- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (10% of attempts)
+- **[[Kimura from Kuzure Kesa-Gatame/Attacker|Kimura from Kuzure Kesa-Gatame]]** (16% of attempts)
 
-- **[[Kimura from Kuzure Kesa-Gatame/Attacker|Kimura from Kuzure Kesa-Gatame]]** (10% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (10% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
+- **[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
 
-- **[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (9% of attempts)
+- **[[Arm Triangle from Kuzure Kesa-Gatame/Attacker|Arm Triangle from Kuzure Kesa-Gatame]]** (13% of attempts)
 
-- **[[Arm Triangle from Kuzure Kesa-Gatame/Attacker|Arm Triangle from Kuzure Kesa-Gatame]]** (10% of attempts)
+- **[[Breadcutter Choke from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (0% of attempts)
 
-- **[[Breadcutter Choke from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (8% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (10% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
+- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (10% of attempts)
 
-- **[[Transitions/Gift Wrap Control/Attacker|Gift Wrap Control]]** (9% of attempts)
-
-- **[[Belly Down Armbar from Kuzure Kesa-Gatame/Attacker|Belly Down Armbar from Kuzure Kesa-Gatame]]** (4% of attempts)
+- **[[Belly Down Armbar from Kuzure Kesa-Gatame/Attacker|Belly Down Armbar from Kuzure Kesa-Gatame]]** (7% of attempts)
 
 
 ### Common Mistakes

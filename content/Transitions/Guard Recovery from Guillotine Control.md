@@ -34,6 +34,43 @@ description: "Master guard recovery from guillotine control in BJJ. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Guillotine Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweep From Failed Guillotine In The Guard",
+      "description": "Guard Recovery from Guillotine Control film study: Sweep From Failed Guillotine In The Guard, taught by GrapplingMechanics Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aMzd1nLGvMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aMzd1nLGvMs",
+      "url": "https://www.youtube.com/watch?v=aMzd1nLGvMs",
+      "creator": { "@type": "Person", "name": "GrapplingMechanics Coach" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Running escape to guard recovery, no-gi",
+      "description": "Guard Recovery from Guillotine Control film study: Running escape to guard recovery, no-gi, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQ-niRwUvqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQ-niRwUvqg",
+      "url": "https://www.youtube.com/watch?v=IQ-niRwUvqg",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The transition is fundamentally a race condition: the bottom player must convert
 Strategically, this recovery represents a critical decision point in bottom-game flow. Holding a failing guillotine bleeds grip endurance and telegraphs desperation, while releasing too late allows the opponent to plan their passing sequence during the choke attempt. The highest-level practitioners treat the guillotine-to-guard transition as a planned contingency rather than a panic response, pre-positioning legs and mentally committing to the switch before the choke fully deteriorates.
 
 **From Position**: [[Positions/Guillotine Control]] (Bottom)
-**Success Rate**: 45%
+**Success Rate**: 47%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Guillotine Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aMzd1nLGvMs)
+
+<p class="clip-credit"><strong>Sweep From Failed Guillotine In The Guard</strong> — taught by GrapplingMechanics Coach · 0:56 · <a href="https://www.youtube.com/watch?v=aMzd1nLGvMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IQ-niRwUvqg)
+
+<p class="clip-credit"><strong>Running escape to guard recovery, no-gi</strong> — taught by Robyn Sheehan · 2:11 · <a href="https://www.youtube.com/watch?v=IQ-niRwUvqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

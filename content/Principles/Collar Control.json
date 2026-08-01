@@ -386,39 +386,158 @@
   "flashcards": [
     {
       "question": "What is the primary advantage of a deep collar grip over a shallow one?",
-      "answer": "A palm- or knuckle-deep grip seated toward the far side of the neck resists stripping, anchors the head and spine for posture control, and pre-positions the hand for chokes, while shallow grips offer little control and are easily peeled off."
+      "answer": "A palm- or knuckle-deep grip seated toward the far side of the neck resists stripping, anchors the head and spine for posture control, and pre-positions the hand for chokes, while shallow grips offer little control and are easily peeled off.",
+      "answer_line": "Deep grip: hard to strip, sets choke",
+      "distractors": {
+        "plausible": [
+          "Grip depth matters less than angle",
+          "Shallow grip is quicker to attach"
+        ],
+        "trap": [
+          "Loose grip lets you catch chokes too"
+        ]
+      }
     },
     {
       "question": "Why must a collar grip stay active rather than passive?",
-      "answer": "A static collar grip lets the opponent keep their posture and drive forward pressure; constant pulling breaks their posture, kills their base, and forces them to react defensively instead of advancing their own position."
+      "answer": "A static collar grip lets the opponent keep their posture and drive forward pressure; constant pulling breaks their posture, kills their base, and forces them to react defensively instead of advancing their own position.",
+      "answer_line": "Active pull breaks posture & base",
+      "distractors": {
+        "plausible": [
+          "Static grip still limits opponent",
+          "Pull only when finishing the choke"
+        ],
+        "trap": [
+          "Relax grip to save energy mid-roll"
+        ]
+      }
     },
     {
       "question": "How do collar and sleeve grips work together to build comprehensive control?",
-      "answer": "The collar manages posture and head position while the sleeve removes a defending or framing arm, forming a two-point upper-body harness where each grip covers the other's weakness and dramatically limits the opponent's escape options."
+      "answer": "The collar manages posture and head position while the sleeve removes a defending or framing arm, forming a two-point upper-body harness where each grip covers the other's weakness and dramatically limits the opponent's escape options.",
+      "answer_line": "Collar+sleeve: two-point harness",
+      "distractors": {
+        "plausible": [
+          "Sleeve grip alone controls posture",
+          "Two collar grips cover both jobs"
+        ],
+        "trap": [
+          "Drop sleeve once collar is set"
+        ]
+      }
     },
     {
       "question": "Which submissions become available once deep collar penetration is achieved?",
-      "answer": "Deep grips unlock the cross collar choke, bow and arrow, baseball bat choke, and loop choke, plus ezekiel variations from top positions, since each of these chokes requires the hand already seated deep in the collar."
+      "answer": "Deep grips unlock the cross collar choke, bow and arrow, baseball bat choke, and loop choke, plus ezekiel variations from top positions, since each of these chokes requires the hand already seated deep in the collar.",
+      "answer_line": "Cross collar, bow & arrow, baseball",
+      "distractors": {
+        "plausible": [
+          "Armbar and kimura from deep grip",
+          "Only cross collar choke needs depth"
+        ],
+        "trap": [
+          "Shallow grip works fine for chokes"
+        ]
+      }
     },
     {
       "question": "What is a collar drag and when is it most effective?",
-      "answer": "A collar drag pulls the opponent laterally or diagonally off their base to create an attacking angle; it works best when timed against their forward pressure and combined with footwork or hip movement to maximize displacement."
+      "answer": "A collar drag pulls the opponent laterally or diagonally off their base to create an attacking angle; it works best when timed against their forward pressure and combined with footwork or hip movement to maximize displacement.",
+      "answer_line": "Drag off-base to open attack angle",
+      "distractors": {
+        "plausible": [
+          "Drag straight back to pass guard",
+          "Time drag against their retreat"
+        ],
+        "trap": [
+          "Drag hardest when they're passive"
+        ]
+      }
     },
     {
       "question": "What is the consequence of releasing a collar grip prematurely during a transition?",
-      "answer": "Letting go mid-transition surrenders positional advantage, allows the opponent to recover posture or escape, and can hand them a counter-attack, so the grip should be held as long as possible and re-established the instant position stabilizes."
+      "answer": "Letting go mid-transition surrenders positional advantage, allows the opponent to recover posture or escape, and can hand them a counter-attack, so the grip should be held as long as possible and re-established the instant position stabilizes.",
+      "answer_line": "Regrip instantly once stable",
+      "distractors": {
+        "plausible": [
+          "Release to switch grips faster",
+          "Hold grip only until posture breaks"
+        ],
+        "trap": [
+          "Let go early to free up your hands"
+        ]
+      }
     },
     {
       "question": "How should collar grip configuration differ between closed guard and side control?",
-      "answer": "Configuration must match the objective: same-side or cross-collar grips break posture and set chokes from guard, while far-side or baseball grips from side control block the turn-in and set up paper cutter and baseball chokes."
+      "answer": "Configuration must match the objective: same-side or cross-collar grips break posture and set chokes from guard, while far-side or baseball grips from side control block the turn-in and set up paper cutter and baseball chokes.",
+      "answer_line": "Same-side guard, far-side control",
+      "distractors": {
+        "plausible": [
+          "Same grip works everywhere",
+          "Cross-collar for side control passes"
+        ],
+        "trap": [
+          "Use guard grip in side control too"
+        ]
+      }
     },
     {
       "question": "Why is winning the grip-fighting exchange a prerequisite for collar control?",
-      "answer": "If the opponent secures their preferred grips first, they can deny collar access and force you into reactive defense; proactive hand fighting establishes collar priority early and lets you dictate the tactical direction of the exchange."
+      "answer": "If the opponent secures their preferred grips first, they can deny collar access and force you into reactive defense; proactive hand fighting establishes collar priority early and lets you dictate the tactical direction of the exchange.",
+      "answer_line": "Win grip fight first, dictate pace",
+      "distractors": {
+        "plausible": [
+          "React to their grips as needed",
+          "Grip fighting matters less than pace"
+        ],
+        "trap": [
+          "Let them grip first, counter later"
+        ]
+      }
     },
     {
       "question": "What mistake do practitioners make when they overcommit to a collar choke too early?",
-      "answer": "Lunging for a choke before the grip is deep enough or the position is secure burns the attack, telegraphs intent, and often costs the dominant position; secure depth and control first, then attack only the high-percentage window."
+      "answer": "Lunging for a choke before the grip is deep enough or the position is secure burns the attack, telegraphs intent, and often costs the dominant position; secure depth and control first, then attack only the high-percentage window.",
+      "answer_line": "Secure depth first, then attack",
+      "distractors": {
+        "plausible": [
+          "Depth matters less than timing",
+          "Set grip, then rush the finish"
+        ],
+        "trap": [
+          "Attack instantly when you feel it"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "X93MdMlmrUg",
+      "title": "The one grip detail that makes the collar choke work",
+      "by": "Henry Akins",
+      "vertical": false,
+      "channel": "Henry Akins' Hidden Jiu-Jitsu",
+      "duration": 77,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "P5SeCRensWQ",
+      "title": "Collar and sleeve control from closed guard",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "FloGrappling",
+      "duration": 930,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "Y2XDKeuSOA0",
+      "title": "Understanding and breaking gi collar grips",
+      "by": "RVV BJJ",
+      "vertical": false,
+      "channel": "RVV BJJ",
+      "duration": 657,
+      "verified": "2026-07-15"
     }
   ]
 }

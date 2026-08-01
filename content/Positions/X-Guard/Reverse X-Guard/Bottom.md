@@ -21,13 +21,13 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X-Guard Sweep",
-      "text": "From this position, attempt Reverse X-Guard Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X-Guard Sweep. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elevation Sweep to Mount",
-      "text": "From this position, attempt Elevation Sweep to Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Elevation Sweep to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X-Guard to Standard X-Guard",
-      "text": "From this position, attempt Reverse X-Guard to Standard X-Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X-Guard to Standard X-Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X to Single Leg X Entry",
-      "text": "From this position, attempt Reverse X to Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X to Single Leg X Entry. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X to Ashi Garami Entry",
-      "text": "From this position, attempt Reverse X to Ashi Garami Entry. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X to Ashi Garami Entry. This technique is attempted in 18% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse X-Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "X-Guard to Heel Hook",
+      "description": "Reverse X-Guard (Bottom) film study: X-Guard to Heel Hook, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lr7rlj7WV-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lr7rlj7WV-E",
+      "url": "https://www.youtube.com/watch?v=lr7rlj7WV-E",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half-guard to Reverse X saddle sweep",
+      "description": "Reverse X-Guard (Bottom) film study: Half-guard to Reverse X saddle sweep, taught by Gracie Barra Jupiter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V81JTcD_fTU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V81JTcD_fTU",
+      "url": "https://www.youtube.com/watch?v=V81JTcD_fTU",
+      "creator": { "@type": "Person", "name": "Gracie Barra Jupiter" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse X crossover to toe hold",
+      "description": "Reverse X-Guard (Bottom) film study: Reverse X crossover to toe hold, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ Developed as a counter to modern passing systems and standing guards, Reverse X-
 The position requires high technical proficiency, hip mobility, and timing to execute effectively. Success depends on maintaining constant pressure with the hooks while using grip control to manipulate the opponent's upper body. Practitioners must understand the relationship between hook placement, angle creation, and sweep mechanics to maximize effectiveness. Reverse X-Guard Bottom serves as a hub position within modern guard systems, offering pathways to multiple advanced positions and submissions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse X-Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lr7rlj7WV-E)
+
+<p class="clip-credit"><strong>X-Guard to Heel Hook</strong> — taught by Craig Jones · 1:34 · <a href="https://www.youtube.com/watch?v=lr7rlj7WV-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V81JTcD_fTU)
+
+<p class="clip-credit"><strong>Half-guard to Reverse X saddle sweep</strong> — taught by Gracie Barra Jupiter · 2:21 · <a href="https://www.youtube.com/watch?v=V81JTcD_fTU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Reverse X crossover to toe hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

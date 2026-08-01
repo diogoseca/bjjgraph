@@ -148,6 +148,54 @@ description: "How to defend and escape the Kneebar from Backside 50-50 in BJJ. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to defend a kneebar",
+      "description": "Kneebar (Defender) film study: How to defend a kneebar, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBRG0fY94fs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wBRG0fY94fs",
+      "url": "https://www.youtube.com/watch?v=wBRG0fY94fs",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar defense to taking the back",
+      "description": "Kneebar (Defender) film study: Kneebar defense to taking the back, taught by Bicudo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NuWBh3LN-SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NuWBh3LN-SY",
+      "url": "https://www.youtube.com/watch?v=NuWBh3LN-SY",
+      "creator": { "@type": "Person", "name": "Bicudo" },
+      "duration": "PT22S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar defense vs Garry Tonon",
+      "description": "Kneebar (Defender) film study: Kneebar defense vs Garry Tonon, taught by AJ Agazarm.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kUuJ03CcIUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kUuJ03CcIUQ",
+      "url": "https://www.youtube.com/watch?v=kUuJ03CcIUQ",
+      "creator": { "@type": "Person", "name": "AJ Agazarm" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wBRG0fY94fs)
+
+<p class="clip-credit"><strong>How to defend a kneebar</strong> — taught by Andrew Smith · 0:59 · <a href="https://www.youtube.com/watch?v=wBRG0fY94fs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NuWBh3LN-SY)
+
+<p class="clip-credit"><strong>Kneebar defense to taking the back</strong> — taught by Bicudo · 0:22 · <a href="https://www.youtube.com/watch?v=NuWBh3LN-SY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kUuJ03CcIUQ)
+
+<p class="clip-credit"><strong>Kneebar defense vs Garry Tonon</strong> — taught by AJ Agazarm · 0:23 · <a href="https://www.youtube.com/watch?v=kUuJ03CcIUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries (bilateral compression)",
   "starting_position": "Kuzure Kesa-Gatame",
   "from_position": "Kuzure Kesa-Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The paper cutter choke from kuzure kesa-gatame exploits the modified scarf hold's unique body positioning to create one of the tightest collar chokes available from any side control variation. Unlike the standard paper cutter applied from conventional side control, the kuzure kesa-gatame entry provides superior lapel access because your body is already angled toward the opponent's head, and the arm isolation removes their primary defensive hand from the equation. The choking mechanics rely on feeding the far-side lapel deep behind the opponent's neck, then cutting your forearm blade across the exposed carotid arteries while your shoulder weight drives the lapel into the opposite side.\n\nWhat makes this variation particularly dangerous is the positional pressure that masks the choke setup. The hip pressure inherent to kuzure kesa-gatame occupies the opponent's defensive attention, and the trapped arm prevents them from addressing the lapel feed until the choke is already locked. Many opponents do not recognize the threat until the forearm begins cutting across the neck, at which point escape options are severely limited. The finishing angle naturally compresses both carotid arteries simultaneously due to the angular relationship between your forearm and the opponent's neck, producing rapid unconsciousness if the tap is not immediate.\n\nStrategically, this choke pairs exceptionally well with the americana and armbar threats already present from kuzure kesa-gatame. When the opponent defends the arm attacks by keeping their elbow tight, they expose the neck. When they address the choke threat by reaching for your choking hand, they expose the arm. This creates a genuine submission dilemma where every defensive action opens a different finishing path.",
   "safety_considerations": {
     "injury_risks": [
@@ -101,17 +104,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Kuzure Kesa-Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -263,47 +275,166 @@
       {
         "question": "What anatomical structures does the paper cutter choke target and how does the kuzure kesa-gatame angle optimize compression?",
         "answer": "The paper cutter choke targets bilateral compression of the carotid arteries. The forearm blade compresses the near-side carotid while the lapel pulled tight behind the neck compresses the far-side carotid. The kuzure kesa-gatame angle is optimal because your body is already positioned toward the opponent's head, creating a natural perpendicular cutting angle across the neck without requiring repositioning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Only compresses the windpipe",
+            "Choke works through jugular veins"
+          ],
+          "trap": [
+            "Cranks the cervical spine"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin aggressively to block your forearm from sliding across the neck - what adjustment completes the choke?",
         "answer": "Use your free hand to crossface or post on their forehead to create space for the forearm insertion. A tucked chin only delays the choke because the compression comes from both sides of the neck simultaneously. If the lapel is fed deep enough behind the neck, even a tucked chin cannot prevent bilateral carotid compression when you apply shoulder drive and rotation to finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Crossface to open forearm gap",
+        "distractors": {
+          "plausible": [
+            "Force forearm under the chin",
+            "Re-grip lapel higher instead"
+          ],
+          "trap": [
+            "Release lapel to fight the chin"
+          ]
+        }
       },
       {
         "question": "What is the breaking point indicator that tells you the choke is fully locked and the opponent must tap or lose consciousness?",
         "answer": "The choke is fully locked when the forearm blade is seated flush against the near-side neck with no gap, and the lapel behind the neck has zero slack. You will feel the opponent's pulse against your forearm weaken or disappear. Their defensive hand fighting becomes weaker and less coordinated. From full lock, unconsciousness can occur within 8-10 seconds of sustained bilateral compression.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Forearm flush, lapel fully taut",
+        "distractors": {
+          "plausible": [
+            "Opponent's pulse throbs stronger",
+            "Their defense gets more frantic"
+          ],
+          "trap": [
+            "Ease grip as their defense fades"
+          ]
+        }
       },
       {
         "question": "Why must the lapel be fed deep behind the neck rather than across the top of the shoulder?",
         "answer": "A shallow lapel feed rests on the trapezius muscle and cannot tighten against the far-side carotid artery, causing the choke to degenerate into a crank rather than a blood choke. Verify depth by pulling the lapel tight before committing to the forearm cut. If fabric bunches on top of the shoulder, it is too shallow. The lapel should disappear behind the neck and pull taut against the posterior cervical area.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep feed compresses far carotid",
+        "distractors": {
+          "plausible": [
+            "Shallow feed just chokes slower",
+            "Shoulder feed grips more fabric"
+          ],
+          "trap": [
+            "Feed lapel over the shoulder top"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying this choke in training?",
         "answer": "Apply the choke slowly and progressively over 3-5 seconds minimum in training. Watch constantly for tap signals including verbal taps, hand taps, foot taps, and distress sounds. Release the grip immediately upon any tap signal. Blood chokes can cause unconsciousness in 8-10 seconds from full lock. If your partner goes limp or stops fighting, release immediately and check responsiveness. Never apply sudden jerking force to the neck.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, watch for taps",
+        "distractors": {
+          "plausible": [
+            "Squeeze fast before they defend",
+            "Only verbal taps count"
+          ],
+          "trap": [
+            "Ignore limpness, keep squeezing"
+          ]
+        }
       },
       {
         "question": "How should you release this choke after your partner taps to prevent injury?",
         "answer": "Immediately release the lapel grip completely and remove your forearm from across the neck. Allow the opponent's head to return to a neutral position without forcing movement. Verbally check responsiveness. If the partner is unconscious, position them on their side in recovery position and monitor breathing. Never shake or roughly move an unconscious training partner. Wait for them to regain awareness before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, check responsiveness",
+        "distractors": {
+          "plausible": [
+            "Slowly ease pressure over time",
+            "Shake partner to wake them"
+          ],
+          "trap": [
+            "Hold position until they respond"
+          ]
+        }
       },
       {
         "question": "Your opponent begins grip-fighting your lapel hand - how does this create an alternative submission opportunity?",
         "answer": "When the opponent commits their free hand to fighting your lapel grip, they cannot simultaneously frame against your body for positional escapes. Their defensive focus on the choke opens direct arm attack opportunities on the trapped arm, particularly the americana. Transition to the arm attack when they commit to choke defense, then return to the choke when they address the arm, creating a systematic submission dilemma.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Americana while they fight lapel",
+        "distractors": {
+          "plausible": [
+            "Switch to armbar immediately",
+            "Muscle the choke through the grip"
+          ],
+          "trap": [
+            "Release lapel to grip fight back"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if the initial lapel feed is blocked by the opponent's far-side hand?",
         "answer": "If the opponent blocks your initial feed with their far hand, use your free hand to strip their grip first or re-route the lapel feed from underneath their blocking arm. Alternatively, use their hand commitment against them by transitioning to wrist control that isolates their second arm, removing all defensive tools before re-attempting the lapel feed. Their blocking hand is now committed and cannot frame for escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip blocking hand, re-feed lapel",
+        "distractors": {
+          "plausible": [
+            "Switch to a different choke",
+            "Push through the blocking arm"
+          ],
+          "trap": [
+            "Let go of trapped arm control"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing strategies maximize your success rate with this choke?",
         "answer": "In competition, disguise the lapel feed as a normal grip adjustment to avoid telegraphing the choke. Build pressure gradually rather than attempting a sudden finish, which allows the opponent to spike their defensive effort. Time the final commitment when the opponent is fatigued from defending arm isolation and hip pressure. Once locked, finish decisively with shoulder drive rather than squeezing, as structural pressure is sustainable and cannot be outlasted.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Disguise feed, drive with shoulder",
+        "distractors": {
+          "plausible": [
+            "Rush the finish before ref sees",
+            "Squeeze harder to force tap"
+          ],
+          "trap": [
+            "Abandon the pin to crank the neck"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "AKfEIInO9Tk",
+        "title": "Kesa Gatame to Paper Cutter Choke",
+        "by": "AMAGFightTeam",
+        "vertical": false,
+        "channel": "AMAGFightTeam",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5z7hF2YJxeo",
+        "title": "Kesa to Paper Cutter Choke",
+        "by": "Global MMA",
+        "vertical": false,
+        "channel": "global mma",
+        "duration": 112,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vhFpxC1vCag",
+        "title": "Paper Cutter Choke with Lapel",
+        "by": "Robert Hugus",
+        "vertical": false,
+        "channel": "Robert Hugus BJJ Videos",
+        "duration": 42,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -398,22 +529,62 @@
       {
         "question": "How do you recognize that the paper cutter choke is being set up before it becomes dangerous?",
         "answer": "The earliest cues are the opponent's free hand reaching across your body toward your far collar and the sensation of fabric being pulled behind the back of your neck. You may also notice their grip shifting from controlling your trapped arm to working the collar area. React at the lapel feed stage because once the forearm blade crosses your neck, defensive options are severely limited.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand reaching for far collar",
+        "distractors": {
+          "plausible": [
+            "Forearm already across neck",
+            "Sudden hip pressure increase"
+          ],
+          "trap": [
+            "Wait until pressure is felt"
+          ]
+        }
       },
       {
         "question": "When should you tap to the paper cutter choke to prevent injury?",
         "answer": "Tap immediately when you feel bilateral pressure on both sides of your neck and cannot strip the grip or escape the forearm position. Blood chokes produce unconsciousness within 8-10 seconds of full compression. If you feel lightheaded, experience vision changes, or sense your defensive grip strength fading, tap without delay. Use verbal, hand, or foot taps as appropriate.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at bilateral neck pressure",
+        "distractors": {
+          "plausible": [
+            "Tap only when vision blurs",
+            "Tap only if you can't breathe"
+          ],
+          "trap": [
+            "Try to power out before tapping"
+          ]
+        }
       },
       {
         "question": "What defensive options are available at each stage of the paper cutter choke setup?",
         "answer": "During the lapel feed stage, block with your free hand on your own collar to deny access. During the grip transfer, explode with a bridge and turn-in to disrupt structure. Once the forearm is positioned but not tight, attempt two-on-one grip stripping. Once the choke is fully locked with shoulder drive applied, tap immediately as effective defensive options are exhausted at this final stage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Block early, bridge at transfer",
+        "distractors": {
+          "plausible": [
+            "Strip grip after lock is set",
+            "Bridge once forearm is tight"
+          ],
+          "trap": [
+            "Wait for shoulder drive, then bridge"
+          ]
+        }
       },
       {
         "question": "Why is the grip transfer moment the best window for escape attempts?",
         "answer": "During the grip transfer, the opponent must release their control hand to accept the lapel from the feeding hand. This creates a brief structural weakness where they have reduced arm control and compromised base due to the hand movement. An explosive bridge or turn timed to this exact moment catches them at their weakest point. Mistiming by even one second means escaping against a fully locked structure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Escape during the grip transfer",
+        "distractors": {
+          "plausible": [
+            "Escape once forearm is seated",
+            "Escape after lapel goes taut"
+          ],
+          "trap": [
+            "Wait for full lock, then explode"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -436,6 +607,26 @@
         "phase": "Phase 4: Full Resistance Defense",
         "focus": "Complete defensive chain against committed attack",
         "description": "Partner attacks with full intent and resistance. Combine recognition, early blocking, grip stripping, and timed escapes into a complete defensive chain. Emphasize knowing when to tap versus when to continue defending. Build realistic defensive confidence."
+      }
+    ],
+    "clips": [
+      {
+        "id": "JSQ2Hc6KQbA",
+        "title": "Paper Cutter Choke Escape",
+        "by": "Beto Vilanova",
+        "vertical": false,
+        "channel": "Beto Vilanova",
+        "duration": 155,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "iaHCShqMFvs",
+        "title": "Paper Cutter Choke Escape",
+        "by": "Vilanova BJJ",
+        "vertical": false,
+        "channel": "Vilanova Brazilian Jiu Jitsu",
+        "duration": 228,
+        "verified": "2026-07-14"
       }
     ]
   }

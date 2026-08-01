@@ -34,6 +34,54 @@ description: "Master the Spinning Armbar in BJJ. Dynamic rotational submission t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spinning Armbar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from Closed Guard",
+      "description": "Spinning Armbar film study: Armbar from Closed Guard, taught by Gracie Barra Boston.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/D2tutut1zio/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/D2tutut1zio",
+      "url": "https://www.youtube.com/watch?v=D2tutut1zio",
+      "creator": { "@type": "Person", "name": "Gracie Barra Boston" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed Guard Pull to Armbar",
+      "description": "Spinning Armbar film study: Closed Guard Pull to Armbar, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F4Ns40AnI3Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F4Ns40AnI3Q",
+      "url": "https://www.youtube.com/watch?v=F4Ns40AnI3Q",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from Closed Guard: Hand Positioning",
+      "description": "Spinning Armbar film study: Armbar from Closed Guard: Hand Positioning, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FBDG7u5lOjk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FBDG7u5lOjk",
+      "url": "https://www.youtube.com/watch?v=FBDG7u5lOjk",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT138S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +134,42 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spinning Armbar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=D2tutut1zio)
+
+<p class="clip-credit"><strong>Armbar from Closed Guard</strong> — taught by Gracie Barra Boston · 1:43 · <a href="https://www.youtube.com/watch?v=D2tutut1zio" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F4Ns40AnI3Q)
+
+<p class="clip-credit"><strong>Closed Guard Pull to Armbar</strong> — taught by Satori BJJ · 0:41 · <a href="https://www.youtube.com/watch?v=F4Ns40AnI3Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FBDG7u5lOjk)
+
+<p class="clip-credit"><strong>Armbar from Closed Guard: Hand Positioning</strong> — taught by Jean Jacques Machado · 2:18 · <a href="https://www.youtube.com/watch?v=FBDG7u5lOjk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,7 +179,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Spinning Armbar/from Closed Guard|Closed Guard]] | Bottom | 60% | [[Submissions/Spinning Armbar/from Closed Guard/Attacker|Attack →]] | [[Submissions/Spinning Armbar/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Spinning Armbar/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Spinning Armbar/from Closed Guard/Attacker|Attack →]] | [[Submissions/Spinning Armbar/from Closed Guard/Defender|Defend →]] |
 
 
 </div>
@@ -122,8 +206,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 ## Related
 - [[Transitions/Armbar from Crucifix]] - Arm isolation submission sharing similar extension and control principles
 - [[Submissions/Americana]] - Alternative shoulder lock when spinning armbar rotation is blocked
-- [[Transitions/Arm Triangle]] - Complementary upper body submission chaining from failed spinning armbar scrambles
-- [[Submissions/Flying Armbar]] - Another explosive armbar variation requiring timing and commitment
+- [[Submissions/Arm Triangle]] - Complementary upper body submission chaining from failed spinning armbar scrambles
 - [[Submissions/Far Side Armbar]] - Alternative armbar finishing position when spinning past the opponent's centerline
 - [[Submissions/Triangle Choke]] - Creates arm isolation that can lead to spinning armbar entry
 - [[Submissions/Omoplata]] - Alternative dynamic attack from similar positions

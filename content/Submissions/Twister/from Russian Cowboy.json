@@ -17,7 +17,10 @@
   "target_area": "Thoracic and Cervical Spine",
   "starting_position": "Russian Cowboy",
   "from_position": "Russian Cowboy/Top",
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "Within the 10th Planet no-gi system, the Russian Cowboy ride is one of the most reliable on-ramps to the Twister, and this entry is what makes the position so feared from the asymmetric back. Unlike entering the Twister from a fully established Truck, this pathway lets you begin loading rotational pressure off a single hook before the figure-four is even completed, shrinking the window your opponent has to align their spine. The attacker's job is to convert that single hook into a full leg entanglement while threading head and shoulder control, building the opposed rotational forces that the finish depends on.\n\nStrategically, the Twister Finish from Russian Cowboy represents a high-commitment attack that sacrifices positional stability for submission opportunity. The transition requires threading the free leg across the opponent's body to complete the figure-four while maintaining chest-to-back contact and upper body control. This creates a narrow execution window where the opponent can defend by preventing the second leg from crossing or by aligning their spine before the rotation locks in. Successful execution depends on reading the opponent's defensive reactions and committing to the finish only when the control sequence is complete.\n\nThe submission's danger profile demands extreme caution in training. The spinal compression created by opposing the locked hips against the rotating shoulders can cause serious cervical and thoracic injury if applied too quickly. Progressive pressure over a minimum of five to seven seconds is mandatory, and both training partners must have established clear communication protocols before attempting this technique. The Twister Finish is most effective when the opponent has already exhausted their primary escape options from Russian Cowboy and is committed to a defensive posture that exposes their spine to rotational attack.",
   "safety_considerations": {
     "injury_risks": [
@@ -65,17 +68,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Russian Cowboy/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -288,52 +300,181 @@
       {
         "question": "What anatomical structures does the Twister primarily attack, and how do the opposed forces create the submission mechanism?",
         "answer": "The Twister primarily attacks the thoracic spine and secondarily the cervical spine through opposed rotational forces. The figure-four leg lock anchors the opponent's hips facing one direction while the arm controls rotate the shoulders and head in the opposite direction. This creates a corkscrew compression across the thoracic vertebrae, compressing the intervertebral discs and stretching the spinal ligaments. The thoracic spine has limited rotational range compared to the cervical spine, so the distributed torque across multiple vertebral segments creates submission pressure before any single structure reaches failure. The chest acts as the fulcrum point where the opposing forces converge.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Corkscrew rotation on thoracic spine",
+        "distractors": {
+          "plausible": [
+            "Neck compression is main target",
+            "Hip lock alone creates submission"
+          ],
+          "trap": [
+            "Targets shoulder joint only"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical difference between finishing the Twister from Russian Cowboy versus from an established Truck position?",
         "answer": "From Russian Cowboy, you must first convert the single asymmetric hook into a figure-four leg lock, which creates a vulnerable transition window where the opponent can defend. The Truck position already has the figure-four established, so you skip this conversion step and can proceed directly to upper body control and rotation. The Russian Cowboy pathway requires maintaining chest-to-back contact during the leg threading to prevent the opponent from exploiting the transition, while from Truck the position is already stabilized for the finish sequence.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Convert hook to figure-four first",
+        "distractors": {
+          "plausible": [
+            "Truck needs conversion, RC doesn't",
+            "Both skip straight to rotation"
+          ],
+          "trap": [
+            "Rush the leg thread to save time"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rolling forward as you attempt to thread your free leg for the figure-four - how do you adjust?",
         "answer": "Use their forward rolling momentum to your advantage by following the roll with your chest while simultaneously threading your free leg across their body during the movement. Their roll actually creates the space needed for your leg to cross over. Maintain your seatbelt grip throughout and ride the roll into an established leg entanglement position. The key is staying connected through chest pressure and grip rather than trying to stop their roll, effectively converting their escape attempt into your figure-four completion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Follow the roll, thread leg with it",
+        "distractors": {
+          "plausible": [
+            "Stop the roll, reset position",
+            "Release grip to reposition"
+          ],
+          "trap": [
+            "Fight the roll and pull back hard"
+          ]
+        }
       },
       {
         "question": "What conditions must exist in Russian Cowboy before you should commit to the Twister Finish attempt?",
         "answer": "The single hook must be deep across the opponent's inner thigh with your heel pulled toward your buttock. The seatbelt or equivalent upper body control must be secure with chest-to-back contact preventing separation. The opponent's near arm must be controlled or trapped to prevent posting during the transition. Your free leg must be positioned behind you with a clear path to thread across the opponent's body. The opponent should be on their side with spine exposed and unable to establish a defensive posture that would block the figure-four conversion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep hook, seatbelt, arm controlled",
+        "distractors": {
+          "plausible": [
+            "Just a deep hook is enough",
+            "Opponent flat on stomach ready"
+          ],
+          "trap": [
+            "Commit even if arm is free"
+          ]
+        }
       },
       {
         "question": "Why must finishing pressure be applied over a minimum of five to seven seconds, and what are the consequences of faster application?",
         "answer": "The Twister targets the spine through opposed rotational forces, and the spine can be catastrophically injured by sudden torque. Fast application can cause herniated discs, vertebral fractures, ligament damage, or permanent neurological injury before the training partner has time to recognize the danger and tap. Progressive pressure over five to seven seconds allows the partner to feel the submission developing, assess their flexibility limits, and tap safely before the danger threshold. The spine lacks the protective mechanisms that joints like the elbow have, making gradual application an absolute safety requirement.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure so partner can tap",
+        "distractors": {
+          "plausible": [
+            "3 seconds is fast enough",
+            "Only matters for the neck"
+          ],
+          "trap": [
+            "Apply pressure suddenly for effect"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own leg to block the figure-four completion - what grip-breaking strategy do you use?",
         "answer": "Use two-on-one control on their gripping wrist, placing both your hands on their wrist or forearm and peeling their grip away from their leg using your combined arm strength against their single grip. If their grip is too strong to break directly, switch your attack angle by attempting to thread your leg from the opposite direction or transition to an alternative submission such as rear naked choke setup or crucifix entry from the existing Russian Cowboy control. Never sacrifice your back control position to fight exclusively for the grip break.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one peel their grip",
+        "distractors": {
+          "plausible": [
+            "Pry with one hand repeatedly",
+            "Force the same angle harder"
+          ],
+          "trap": [
+            "Give up back control for the grip"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between applying a proper Twister and accidentally performing a dangerous neck crank during the finish?",
         "answer": "A proper Twister creates rotational compression distributed across the thoracic spine by opposing locked hips against rotating shoulders. The far shoulder must be pulled dramatically across the opponent's body while the head control arm steers the rotation. Your partner should feel pressure in their ribs and thoracic spine. A neck crank isolates pressure on the cervical vertebrae by cranking the head without adequate hip control or by focusing force on the neck alone. If the opponent reports only neck pain without torso compression, you are cranking rather than twisting. Verify by ensuring your leg figure-four is the anchor and the shoulder is the primary force vector.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Feel ribs and thoracic pressure",
+        "distractors": {
+          "plausible": [
+            "Neck pain alone confirms it's locked",
+            "Hip control isn't required"
+          ],
+          "trap": [
+            "Crank the head hard for finish"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for committing to the Twister Finish from Russian Cowboy?",
         "answer": "The optimal window is immediately after the opponent has committed to a defensive posture that exposes their spine to rotation, typically when they are turtled tightly with their arms defending their neck rather than their legs. This defensive commitment means they cannot simultaneously defend the figure-four leg threading and the upper body rotation. Additionally, the window opens when the opponent has been in Russian Cowboy long enough to begin fatiguing, reducing the explosiveness of their defensive reactions. Attempting the finish too early when the opponent is still fresh risks losing the position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "When they defend neck, not legs",
+        "distractors": {
+          "plausible": [
+            "Only after opponent is exhausted",
+            "Once they flatten to their belly"
+          ],
+          "trap": [
+            "Rush it before they turtle"
+          ]
+        }
       },
       {
         "question": "If the Twister Finish is blocked after you have established the figure-four but cannot secure head control, what chain attacks are available?",
         "answer": "With the figure-four secured but head control denied, you can transition to a calf slicer by attacking the opponent's trapped leg, attempt a banana split by splitting their legs apart, convert to a standard back take by releasing the figure-four and establishing double hooks, or threaten a guillotine choke by transitioning your arm position around the neck from a different angle. The figure-four leg position also allows you to maintain control while hand fighting for the head control or wait for the opponent to make a defensive error that reopens the Twister pathway.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attack calf slicer or banana split",
+        "distractors": {
+          "plausible": [
+            "Force head control at all costs",
+            "Release everything and reset"
+          ],
+          "trap": [
+            "Let go of legs to chase the neck"
+          ]
+        }
       },
       {
         "question": "What specific direction of force do your arms create during the finishing rotation, and how does this interact with the hip anchor?",
         "answer": "Your bottom arm under the head pulls the opponent's head toward their far hip in a curling motion, while your top arm pulls their far shoulder across their body toward your chest. These combined forces create a clockwise or counterclockwise rotation of the upper body depending on which side you are attacking from. This rotational force opposes the figure-four leg lock which anchors the opponent's hips facing the opposite direction. The resulting corkscrew effect compresses the thoracic vertebrae between these two opposing rotational forces. Your chest acts as the fulcrum point where the forces converge.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull head and shoulder opposite ways",
+        "distractors": {
+          "plausible": [
+            "Pull head and shoulder same way",
+            "Push shoulders down, ignore head"
+          ],
+          "trap": [
+            "Yank the neck straight back"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "RVr67Kb-6ec",
+        "title": "Twister from Turtle",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 24,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "muUDBt0i944",
+        "title": "Twister Hook Drills and Movements",
+        "by": "DS Martial Arts",
+        "vertical": false,
+        "channel": "DS Martial Arts",
+        "duration": 49,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "lv15-NuoiUc",
+        "title": "Twister Grappling Submission",
+        "by": "Emil Montes",
+        "vertical": false,
+        "channel": "Emil montes",
+        "duration": 137,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -426,27 +567,77 @@
       {
         "question": "Why is preventing the figure-four leg lock more important than fighting the head and shoulder controls?",
         "answer": "The figure-four leg lock is the foundation of the entire Twister submission because it anchors the opponent's hips in place, creating the fixed point against which upper body rotation generates spinal compression. Without the hip anchor, the attacker's upper body rotation simply turns the entire body rather than creating opposed forces on the spine. Head and shoulder controls can be re-fought multiple times, but once the figure-four is locked and the hip anchor is established, the attacker has a permanent platform from which to work the finish. Addressing the legs first removes the mechanical basis for the submission entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four is the fixed anchor",
+        "distractors": {
+          "plausible": [
+            "Head control matters more",
+            "Both are equally critical"
+          ],
+          "trap": [
+            "Ignore legs, fight the grips"
+          ]
+        }
       },
       {
         "question": "Your attacker has locked the figure-four but has not yet established head control - what is your best defensive sequence?",
         "answer": "With the figure-four locked but head control absent, immediately tuck both arms tight to your body to deny access to your far wrist and shoulder. Simultaneously, work to break the figure-four by straightening your body explosively and pushing the hooking leg away with both hands. If the figure-four loosens, immediately extract your trapped leg and turn to face the attacker to recover half guard. If the figure-four holds despite your efforts, maintain arm tuck discipline and force the attacker to hand fight, buying time while you continue working leg extraction. The worst option is reaching away from your body, which exposes your far arm to the cross-body pull.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck arms, straighten to break lock",
+        "distractors": {
+          "plausible": [
+            "Wait for them to tire out",
+            "Grab your own foot to defend"
+          ],
+          "trap": [
+            "Reach far arm away from body"
+          ]
+        }
       },
       {
         "question": "Why should you turn into the attacker rather than away when defending the Twister from Russian Cowboy?",
         "answer": "Turning away from the attacker creates the exact rotational separation between hips and shoulders that the Twister requires. Your roll assists the attacker by generating the twisting force they need against your spine. Turning into the attacker does the opposite: it aligns your shoulders and hips in the same direction, denying the opposed rotational angle, and brings your chest toward them which can lead to half guard recovery. Additionally, turning in disrupts the attacker's chest-to-back contact and may prevent the free leg from threading across your body for the figure-four completion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in to align hips, shoulders",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up and over",
+            "Direction doesn't matter much"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "At what point in the Twister sequence should you prioritize tapping over continued escape attempts?",
         "answer": "You should tap immediately at the first sensation of thoracic tightness or spinal rotation once both the figure-four hip anchor and the head-shoulder controls are established. Unlike joint locks where you can feel gradual pressure building in a single articulation, spinal compression distributes across multiple vertebrae and can transition from uncomfortable to injurious with very little warning. If you feel your upper body being rotated against immobilized hips and your escape attempts are not breaking either control point, tap without hesitation. Continuing to resist a locked Twister risks herniated discs, vertebral fractures, and permanent neurological damage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at first thoracic tightness",
+        "distractors": {
+          "plausible": [
+            "Tap only when pain is severe",
+            "Keep escaping until it's tight"
+          ],
+          "trap": [
+            "Wait it out, spine is durable"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that a Twister Finish is being attempted from Russian Cowboy?",
         "answer": "The earliest cue is the attacker's free leg lifting off the mat and beginning to swing across your hip line. In standard Russian Cowboy, the free leg stays posted behind the attacker for base. When that leg lifts, it signals the figure-four threading attempt that converts Russian Cowboy into the Twister pathway. A secondary early cue is a shift in the attacker's seatbelt grip combined with increased forward hip pressure, which creates the space they need for the leg threading. Recognizing these cues and immediately gripping your own leg to block the thread is the highest-percentage defensive window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their free leg lifts off the mat",
+        "distractors": {
+          "plausible": [
+            "They post their free leg wider",
+            "They shift more body weight down"
+          ],
+          "trap": [
+            "Ignore leg movement, watch hands"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -469,6 +660,35 @@
         "phase": "Week 9+",
         "focus": "Full-speed defensive integration in live rolling",
         "description": "Incorporate Twister defense into live rolling scenarios starting from Russian Cowboy bottom. Partner attacks at full speed with genuine commitment to the finish. Practice the complete defensive decision tree: early prevention, mid-stage escape, and timely tap when caught. Develop automatic defensive reactions that fire on recognition cues without conscious thought. Review each repetition for defensive timing accuracy."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escaping and countering the twister",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oNCcwLYDM_g",
+        "title": "Twister defense and escape breakdown",
+        "by": "Unknown",
+        "vertical": false,
+        "channel": "m mill",
+        "duration": 201,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hxMggfwKx-I",
+        "title": "Advanced back and truck escapes",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
       }
     ]
   }

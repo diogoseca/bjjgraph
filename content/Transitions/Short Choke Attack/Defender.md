@@ -156,6 +156,43 @@ description: "How to defend against Short Choke Attack in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Short Choke Attack (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the gift wrap",
+      "description": "Short Choke Attack (Defender) film study: Escaping the gift wrap, taught by Jiu Jitsu Pedia coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OMzki0Uu7vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OMzki0Uu7vA",
+      "url": "https://www.youtube.com/watch?v=OMzki0Uu7vA",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Pedia coach" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift wrap escape",
+      "description": "Short Choke Attack (Defender) film study: Gift wrap escape, taught by Chosen Few BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sD5jAuHaKKQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sD5jAuHaKKQ",
+      "url": "https://www.youtube.com/watch?v=sD5jAuHaKKQ",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ coach" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -169,6 +206,34 @@ Strategically, the defender should view Short Choke defense not as preventing a 
 **Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Short Choke Attack (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OMzki0Uu7vA)
+
+<p class="clip-credit"><strong>Escaping the gift wrap</strong> — taught by Jiu Jitsu Pedia coach · 0:48 · <a href="https://www.youtube.com/watch?v=OMzki0Uu7vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sD5jAuHaKKQ)
+
+<p class="clip-credit"><strong>Gift wrap escape</strong> — taught by Chosen Few BJJ coach · 1:03 · <a href="https://www.youtube.com/watch?v=sD5jAuHaKKQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

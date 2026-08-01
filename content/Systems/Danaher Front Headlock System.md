@@ -407,7 +407,7 @@ The front headlock system requires layered drilling that progressively builds fr
 - [[Guillotine Choke]] (Submission) - Primary finishing technique in guillotine pathway
 - [[Arm in Guillotine]] (Submission) - High-percentage guillotine variation with trapped arm
 - [[High Elbow Guillotine]] (Submission) - Power guillotine variation using elbow elevation mechanics
-- [[Chin Strap Guillotine]] (Submission) - Guillotine variation using chinstrap grip configuration
+- [[Chin Strap Guillotine from Front Headlock]] (Submission) - Guillotine variation using chinstrap grip configuration
 - [[Ten Finger Guillotine]] (Submission) - Guillotine variation with both hands clasped grip
 - [[Anaconda Choke]] (Submission) - Primary finishing technique in anaconda pathway
 - [[Darce Choke]] (Submission) - Primary finishing technique in darce pathway

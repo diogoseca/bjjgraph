@@ -164,6 +164,43 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Control Maintenance \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to maintain and control the mount",
+      "description": "Control Maintenance film study: How to maintain and control the mount, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
+      "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT538S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: never get your guard passed",
+      "description": "Control Maintenance film study: Guard retention: never get your guard passed, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/URGwWYwdoAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/URGwWYwdoAs",
+      "url": "https://www.youtube.com/watch?v=URGwWYwdoAs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT782S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Control Maintenance?
@@ -173,6 +210,34 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 In the strategic hierarchy of grappling, securing a dominant position is only half the battle—holding it against a resisting, escape-hungry opponent is what separates fleeting position from genuine positional dominance. Unlike specific techniques, control maintenance is a comprehensive conceptual framework that applies across all dominant positions and constitutes the bridge between achieving position and capitalizing on it offensively. This concept encompasses the tactical understanding that static control without adjustment creates escape opportunities, while dynamic maintenance through pressure modulation and positional micro-adjustments prevents defensive success. Control maintenance serves as both offensive foundation enabling submission attacks and transitions, and defensive capability preventing opponent from improving position. The ability to maintain dominant positions despite opponent's best escape efforts often determines overall BJJ effectiveness, making it one of the most essential conceptual elements for top game development.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Control Maintenance in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kft2AkvKhWU)
+
+<p class="clip-credit"><strong>How to maintain and control the mount</strong> — taught by Gordon Ryan · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=URGwWYwdoAs)
+
+<p class="clip-credit"><strong>Guard retention: never get your guard passed</strong> — taught by Gordon Ryan · 13:02 · <a href="https://www.youtube.com/watch?v=URGwWYwdoAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

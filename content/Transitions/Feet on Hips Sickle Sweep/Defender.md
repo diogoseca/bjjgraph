@@ -140,6 +140,54 @@ description: "Defend and counter the Feet on Hips Sickle Sweep in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips Sickle Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense",
+      "description": "Feet on Hips Sickle Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shutting Down Open Guards",
+      "description": "Feet on Hips Sickle Sweep (Defender) film study: Shutting Down Open Guards, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F2U6MNjGKF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F2U6MNjGKF4",
+      "url": "https://www.youtube.com/watch?v=F2U6MNjGKF4",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT422S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing De La Riva Open Guard",
+      "description": "Feet on Hips Sickle Sweep (Defender) film study: Passing De La Riva Open Guard, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZbnV0ln8H8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZbnV0ln8H8Q",
+      "url": "https://www.youtube.com/watch?v=ZbnV0ln8H8Q",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mecha
 **Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips Sickle Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F2U6MNjGKF4)
+
+<p class="clip-credit"><strong>Shutting Down Open Guards</strong> — taught by Andre Galvao · 7:02 · <a href="https://www.youtube.com/watch?v=F2U6MNjGKF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZbnV0ln8H8Q)
+
+<p class="clip-credit"><strong>Passing De La Riva Open Guard</strong> — taught by Andre Galvao · 1:34 · <a href="https://www.youtube.com/watch?v=ZbnV0ln8H8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

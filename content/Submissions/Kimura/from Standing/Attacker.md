@@ -176,6 +176,54 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Standing (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Kimura",
+      "description": "Kimura from Standing (Attacker) film study: Standing Kimura, taught by Michael Currier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HDnP_Kksmf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HDnP_Kksmf8",
+      "url": "https://www.youtube.com/watch?v=HDnP_Kksmf8",
+      "creator": { "@type": "Person", "name": "Michael Currier" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Takedown",
+      "description": "Kimura from Standing (Attacker) film study: Kimura Takedown, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CqJrSJnGPDQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CqJrSJnGPDQ",
+      "url": "https://www.youtube.com/watch?v=CqJrSJnGPDQ",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body Lock Break to Kimura",
+      "description": "Kimura from Standing (Attacker) film study: Body Lock Break to Kimura, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Fxpu62evbwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Fxpu62evbwk",
+      "url": "https://www.youtube.com/watch?v=Fxpu62evbwk",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Standing (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HDnP_Kksmf8)
+
+<p class="clip-credit"><strong>Standing Kimura</strong> — taught by Michael Currier · 0:23 · <a href="https://www.youtube.com/watch?v=HDnP_Kksmf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CqJrSJnGPDQ)
+
+<p class="clip-credit"><strong>Kimura Takedown</strong> — taught by Kinesiology College · 0:18 · <a href="https://www.youtube.com/watch?v=CqJrSJnGPDQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Fxpu62evbwk)
+
+<p class="clip-credit"><strong>Body Lock Break to Kimura</strong> — taught by SBG Australia · 0:44 · <a href="https://www.youtube.com/watch?v=Fxpu62evbwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -155,6 +155,54 @@ description: "Learn to defend the heel hook from Inside Sankaku. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from Inside Sankaku (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling Out of Heel Hooks",
+      "description": "Heel Hook from Inside Sankaku (Defender) film study: Rolling Out of Heel Hooks, taught by Craig Jones \u0026 Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
+      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
+      "creator": { "@type": "Person", "name": "Craig Jones \u0026 Lachlan Giles" },
+      "duration": "PT243S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic defense and escape from inside sankaku",
+      "description": "Heel Hook from Inside Sankaku (Defender) film study: Basic defense and escape from inside sankaku, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VSTMOIkVMAk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VSTMOIkVMAk",
+      "url": "https://www.youtube.com/watch?v=VSTMOIkVMAk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT217S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the inside ashi garami heel hook",
+      "description": "Heel Hook from Inside Sankaku (Defender) film study: Escaping the inside ashi garami heel hook, taught by Eddie Cummings.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3xEmPci_szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3xEmPci_szw",
+      "url": "https://www.youtube.com/watch?v=3xEmPci_szw",
+      "creator": { "@type": "Person", "name": "Eddie Cummings" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -168,6 +216,42 @@ Defending the heel hook from Inside Sankaku is among the most urgent defensive s
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from Inside Sankaku (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
+
+<p class="clip-credit"><strong>Rolling Out of Heel Hooks</strong> — taught by Craig Jones &amp; Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VSTMOIkVMAk)
+
+<p class="clip-credit"><strong>Basic defense and escape from inside sankaku</strong> — taught by BJJ4Breakfast · 3:37 · <a href="https://www.youtube.com/watch?v=VSTMOIkVMAk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3xEmPci_szw)
+
+<p class="clip-credit"><strong>Escaping the inside ashi garami heel hook</strong> — taught by Eddie Cummings · 2:44 · <a href="https://www.youtube.com/watch?v=3xEmPci_szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

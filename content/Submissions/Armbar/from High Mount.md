@@ -34,6 +34,43 @@ description: "Master the Armbar from High Mount in BJJ. Complete guide to setup 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from High Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm bar from the Mount",
+      "description": "Armbar from High Mount film study: Arm bar from the Mount, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cajDQH-ZiH8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cajDQH-ZiH8",
+      "url": "https://www.youtube.com/watch?v=cajDQH-ZiH8",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar breakdown",
+      "description": "Armbar from High Mount film study: Armbar breakdown, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vSmRbpNmf-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vSmRbpNmf-E",
+      "url": "https://www.youtube.com/watch?v=vSmRbpNmf-E",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 **Starting Position**: [[Positions/Mount/High Mount]] · **From**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from High Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cajDQH-ZiH8)
+
+<p class="clip-credit"><strong>Arm bar from the Mount</strong> — taught by Cosens MMA · 0:44 · <a href="https://www.youtube.com/watch?v=cajDQH-ZiH8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vSmRbpNmf-E)
+
+<p class="clip-credit"><strong>Armbar breakdown</strong> — taught by Roger Gracie · 1:42 · <a href="https://www.youtube.com/watch?v=vSmRbpNmf-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -248,11 +313,9 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 ## Related
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Belly Down Armbar]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Americana]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Cross Collar Choke]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Kimura]]
 - [[Positions/Mount/High Mount]] - Starting position providing elevated platform for arm isolation and submission entry
 - [[Positions/Armbar Control]] - Control position reached after successful armbar entry before finishing the submission

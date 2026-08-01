@@ -34,6 +34,54 @@ description: "Master the armbar setup from New York rubber guard. Complete guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from New York \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dead Orchard armbar from rubber guard",
+      "description": "Armbar from New York film study: Dead Orchard armbar from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jT4wPY2Dc_U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jT4wPY2Dc_U",
+      "url": "https://www.youtube.com/watch?v=jT4wPY2Dc_U",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible armbar from rubber guard",
+      "description": "Armbar from New York film study: Invisible armbar from rubber guard, taught by mean gene.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fME3fkrrZcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fME3fkrrZcA",
+      "url": "https://www.youtube.com/watch?v=fME3fkrrZcA",
+      "creator": { "@type": "Person", "name": "mean gene" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mexican Dead Orchard setup",
+      "description": "Armbar from New York film study: Mexican Dead Orchard setup, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/htWNfAakkAY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/htWNfAakkAY",
+      "url": "https://www.youtube.com/watch?v=htWNfAakkAY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Competition data and training observations suggest this technique is most effect
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from New York in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jT4wPY2Dc_U)
+
+<p class="clip-credit"><strong>Dead Orchard armbar from rubber guard</strong> — taught by Eddie Bravo · 1:28 · <a href="https://www.youtube.com/watch?v=jT4wPY2Dc_U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fME3fkrrZcA)
+
+<p class="clip-credit"><strong>Invisible armbar from rubber guard</strong> — taught by mean gene · 1:49 · <a href="https://www.youtube.com/watch?v=fME3fkrrZcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=htWNfAakkAY)
+
+<p class="clip-credit"><strong>Mexican Dead Orchard setup</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=htWNfAakkAY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master gogoplata control in BJJ. Complete technical guide covering
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "7 submissions from rubber guard",
+      "description": "Gogoplata Control film study: 7 submissions from rubber guard, taught by Felipe Cavalcante.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X73jEbuUaxQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X73jEbuUaxQ",
+      "url": "https://www.youtube.com/watch?v=X73jEbuUaxQ",
+      "creator": { "@type": "Person", "name": "Felipe Cavalcante" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo explains rubber guard",
+      "description": "Gogoplata Control film study: Eddie Bravo explains rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
+      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +111,34 @@ Tactically, practitioners must recognize that Gogoplata Control functions as bot
 The position also demonstrates important principles about submission-based control systems. Unlike pin-based positions that rely on weight distribution and pressure points, Gogoplata Control uses limb configuration and anatomical compression to achieve dominance. This makes it particularly effective in no-gi contexts where traditional grip-based controls are unavailable, though it remains viable in gi competition for practitioners with appropriate physical attributes.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X73jEbuUaxQ)
+
+<p class="clip-credit"><strong>7 submissions from rubber guard</strong> — taught by Felipe Cavalcante · 0:51 · <a href="https://www.youtube.com/watch?v=X73jEbuUaxQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+
+<p class="clip-credit"><strong>Eddie Bravo explains rubber guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -145,15 +210,13 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (35% of attempts)
-
-- **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** (22% of attempts)
-
-- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
+- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (43% of attempts)
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (17% of attempts)
 
-- **[[Transitions/Mission Control Recovery/Attacker|Mission Control Recovery]]** (8% of attempts)
+- **[[Transitions/Mission Control Recovery/Attacker|Mission Control Recovery]]** (19% of attempts)
+
+- **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** (21% of attempts)
 
 
 ### Common Mistakes
@@ -214,29 +277,25 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Transitions/Head Extraction to Posture/Attacker|Head Extraction to Posture]]** (29% of attempts)
+- **[[Transitions/Head Extraction to Posture/Attacker|Head Extraction to Posture]]** (16% of attempts)
 
-- **[[Transitions/Shin Removal to Pass/Attacker|Shin Removal to Pass]]** (3% of attempts)
+- **[[Transitions/Shin Removal to Pass/Attacker|Shin Removal to Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Extraction Escape/Attacker|Leg Extraction Escape]]** (3% of attempts)
+- **[[Transitions/Leg Extraction Escape/Attacker|Leg Extraction Escape]]** (11% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (7% of attempts)
+- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (10% of attempts)
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (12% of attempts)
+- **[[Transitions/Hand Control to Extract/Attacker|Hand Control to Extract]]** (14% of attempts)
 
-- **[[Transitions/Hand Control to Extract/Attacker|Hand Control to Extract]]** (9% of attempts)
+- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (7% of attempts)
 
-- **[[Transitions/Roll to Turtle/Attacker|Roll to Turtle]]** (12% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (14% of attempts)
 
-- **[[Transitions/Explosive Bridge to Guard Recovery/Attacker|Explosive Bridge to Guard Recovery]]** (5% of attempts)
+- **[[Transitions/Gogoplata to Armbar/Attacker|Gogoplata to Armbar]]** (4% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (9% of attempts)
+- **[[Transitions/Posture Up from Gogoplata/Attacker|Posture Up from Gogoplata]]** (9% of attempts)
 
-- **[[Transitions/Gogoplata to Armbar/Attacker|Gogoplata to Armbar]]** (2% of attempts)
-
-- **[[Transitions/Posture Up from Gogoplata/Attacker|Posture Up from Gogoplata]]** (2% of attempts)
-
-- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (7% of attempts)
+- **[[Gogoplata from Gogoplata Control/Attacker|Gogoplata from Gogoplata Control]]** (3% of attempts)
 
 
 ### Common Mistakes

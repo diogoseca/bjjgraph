@@ -21,37 +21,37 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
     {
       "@type": "HowToStep",
       "name": "Execute Outside Heel Hook from Backside 50-50",
-      "text": "From this position, attempt Outside Heel Hook from Backside 50-50. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Outside Heel Hook from Backside 50-50. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
-      "text": "From this position, attempt Standing up in Base. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Standing up in Base. This technique is attempted in 18% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 44% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backside 50-50 (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll Under Counter to Backside 50/50",
+      "description": "Backside 50-50 (Bottom) film study: Roll Under Counter to Backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escape and Counter the Backside 50/50",
+      "description": "Backside 50-50 (Bottom) film study: Escape and Counter the Backside 50/50, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
+      "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT240S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ This position is characterized by the mirrored leg entanglement typical of 50-50
 Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competition, where it often arises from scrambles, failed leg attacks, or as a defensive position when transitioning between different leg entanglements. The position demands technical knowledge of leg lock mechanics, positional awareness to prevent being overwhelmed by the top player's advantages, and systematic approach to escaping or reversing the unfavorable configuration. Success requires balancing defensive priorities (preventing back control and defending leg attacks) with offensive opportunities (sweeps and opportunistic submissions) while maintaining constant hip mobility to avoid complete flattening.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backside 50-50 (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll Under Counter to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
+
+<p class="clip-credit"><strong>Escape and Counter the Backside 50/50</strong> — taught by Matrix Jiu Jitsu · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -226,11 +291,11 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 **If opponent overcommits to leg attack and releases upper body control:**
 - Execute **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent maintains tight leg entanglement but extends their attacking leg:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[game-over]] (Probability: 45%)
 
 
@@ -352,7 +417,7 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 - **[[Positions/Ashi Garami/Saddle]]** - Common transition target when opponent advances from backside 50-50 top
 - **[[Positions/Back Control]]** - Major defensive concern - position opponent may transition to from backside 50-50 top
 - **[[Positions/Leg Entanglement]]** - Fundamental concept governing mechanics of all 50-50 variations
-- **[[Transitions/Heel Hook]]** - Primary submission transition available from this position
+- **[[Submissions/Heel Hook]]** - Primary submission transition available from this position
 - **[[Positions/X-Guard]]** - Alternative leg entanglement position accessible through proper transitions
 - **[[Positions/Open Guard]]** - Recovery position when successfully escaping leg entanglement
 

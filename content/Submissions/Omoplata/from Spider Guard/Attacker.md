@@ -176,6 +176,54 @@ description: "Master attacking the Omoplata from Spider Guard. Step-by-step entr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Spider Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider Guard to Triangle or Omoplata",
+      "description": "Omoplata from Spider Guard (Attacker) film study: Spider Guard to Triangle or Omoplata, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wl48JJRddV8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wl48JJRddV8",
+      "url": "https://www.youtube.com/watch?v=wl48JJRddV8",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Omoplata from Spider Guard",
+      "description": "Omoplata from Spider Guard (Attacker) film study: How to Omoplata from Spider Guard, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p3RN_8y_l_Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p3RN_8y_l_Y",
+      "url": "https://www.youtube.com/watch?v=p3RN_8y_l_Y",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Open Guard Omoplata Variation",
+      "description": "Omoplata from Spider Guard (Attacker) film study: Open Guard Omoplata Variation, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k8b2GBVqcco/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k8b2GBVqcco",
+      "url": "https://www.youtube.com/watch?v=k8b2GBVqcco",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the Omoplata from Spider Guard requires converting your bilateral slee
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Spider Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wl48JJRddV8)
+
+<p class="clip-credit"><strong>Spider Guard to Triangle or Omoplata</strong> — taught by Clark Gracie · 0:54 · <a href="https://www.youtube.com/watch?v=wl48JJRddV8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p3RN_8y_l_Y)
+
+<p class="clip-credit"><strong>How to Omoplata from Spider Guard</strong> — taught by Evolve MMA · 1:06 · <a href="https://www.youtube.com/watch?v=p3RN_8y_l_Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k8b2GBVqcco)
+
+<p class="clip-credit"><strong>Open Guard Omoplata Variation</strong> — taught by Clark Gracie · 0:50 · <a href="https://www.youtube.com/watch?v=k8b2GBVqcco" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

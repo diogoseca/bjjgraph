@@ -174,6 +174,54 @@ description: "How to execute the Upa Escape from bottom mount in BJJ. Step-by-st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Upa Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Upa escape from mount",
+      "description": "Upa Escape (Attacker) film study: Upa escape from mount, taught by CVL BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dPZco4xC4vQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dPZco4xC4vQ",
+      "url": "https://www.youtube.com/watch?v=dPZco4xC4vQ",
+      "creator": { "@type": "Person", "name": "CVL BJJ" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape: the upa bridge and roll",
+      "description": "Upa Escape (Attacker) film study: Mount escape: the upa bridge and roll, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ye08X4xjiUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ye08X4xjiUk",
+      "url": "https://www.youtube.com/watch?v=Ye08X4xjiUk",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bridge escape from bottom mount",
+      "description": "Upa Escape (Attacker) film study: Bridge escape from bottom mount, taught by Gracie Barra Burton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wzvR9SuLrlE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wzvR9SuLrlE",
+      "url": "https://www.youtube.com/watch?v=wzvR9SuLrlE",
+      "creator": { "@type": "Person", "name": "Gracie Barra Burton" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Upa Escape from the attacker's perspective is the art of converting the most
 **From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Upa Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dPZco4xC4vQ)
+
+<p class="clip-credit"><strong>Upa escape from mount</strong> — taught by CVL BJJ · 1:09 · <a href="https://www.youtube.com/watch?v=dPZco4xC4vQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ye08X4xjiUk)
+
+<p class="clip-credit"><strong>Mount escape: the upa bridge and roll</strong> — taught by Team Daruma Dojo · 0:38 · <a href="https://www.youtube.com/watch?v=Ye08X4xjiUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wzvR9SuLrlE)
+
+<p class="clip-credit"><strong>Bridge escape from bottom mount</strong> — taught by Gracie Barra Burton · 1:15 · <a href="https://www.youtube.com/watch?v=wzvR9SuLrlE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

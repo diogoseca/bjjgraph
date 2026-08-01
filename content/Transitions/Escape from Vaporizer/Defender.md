@@ -140,6 +140,54 @@ description: "Learn to maintain the Vaporizer and counter escape attempts in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Vaporizer (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown clinches to keep the leg trapped",
+      "description": "Escape from Vaporizer (Defender) film study: Lockdown clinches to keep the leg trapped, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Advanced lockdown retention details",
+      "description": "Escape from Vaporizer (Defender) film study: Advanced lockdown retention details, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AmOMN0S1v8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AmOMN0S1v8Q",
+      "url": "https://www.youtube.com/watch?v=AmOMN0S1v8Q",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The Vaporizer from lockdown",
+      "description": "Escape from Vaporizer (Defender) film study: The Vaporizer from lockdown, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ITZ4ZPcsY2c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ITZ4ZPcsY2c",
+      "url": "https://www.youtube.com/watch?v=ITZ4ZPcsY2c",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ The Escape from Vaporizer Defender is the bottom player who maintains the Vapori
 **Opponent's Starting Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Vaporizer (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown clinches to keep the leg trapped</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AmOMN0S1v8Q)
+
+<p class="clip-credit"><strong>Advanced lockdown retention details</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=AmOMN0S1v8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ITZ4ZPcsY2c)
+
+<p class="clip-credit"><strong>The Vaporizer from lockdown</strong> — taught by Coach Brian · 2:20 · <a href="https://www.youtube.com/watch?v=ITZ4ZPcsY2c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

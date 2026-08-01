@@ -21,37 +21,37 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Leg Attack",
-      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Counter Leg Attack. This technique is attempted in 17% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Extract to Half Guard",
-      "text": "From this position, attempt Frame and Extract to Half Guard. This technique is attempted in 26% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Extract to Half Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
-      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,54 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Sankaku (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping Honey Hole (Inside Sankaku)",
+      "description": "Inside Sankaku (Bottom) film study: Escaping Honey Hole (Inside Sankaku), taught by Oneonta Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PhS9Xj-4KbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PhS9Xj-4KbA",
+      "url": "https://www.youtube.com/watch?v=PhS9Xj-4KbA",
+      "creator": { "@type": "Person", "name": "Oneonta Jiu Jitsu" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escape the Inside Ashi Garami Heel Hook",
+      "description": "Inside Sankaku (Bottom) film study: Escape the Inside Ashi Garami Heel Hook, taught by Eddie Cummings.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3xEmPci_szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3xEmPci_szw",
+      "url": "https://www.youtube.com/watch?v=3xEmPci_szw",
+      "creator": { "@type": "Person", "name": "Eddie Cummings" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rolling Out Of Heel Hooks",
+      "description": "Inside Sankaku (Bottom) film study: Rolling Out Of Heel Hooks, taught by Craig Jones \u0026 Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
+      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
+      "creator": { "@type": "Person", "name": "Craig Jones \u0026 Lachlan Giles" },
+      "duration": "PT243S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -164,6 +212,42 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
 From the bottom perspective of Inside Sankaku, the practitioner finds themselves with their leg trapped in the opponent's figure-four entanglement, facing one of the most dangerous positions in modern leg lock systems. The bottom player's primary objective is immediate escape, as remaining in this position exposes them to high-percentage inside heel hook attacks with limited defensive options. Understanding the mechanics of how the position controls you is essential for developing effective escape strategies. The top player maintains control through hip-to-hip connection, knee line dominance, and proper leg configuration - each of these control points must be systematically addressed in the escape sequence. The bottom perspective requires recognizing the urgency of the situation while maintaining composure to execute technical escapes rather than panicking into worse positions. Common defensive priorities include protecting the heel by keeping it hidden against your own hip, preventing the top player from establishing optimal submission angles, and creating the space necessary to extract the trapped leg. Many practitioners make the critical error of attempting to pass the knee line by turning into the top player, which often leads directly into the Saddle position or exposes the heel more completely. Instead, effective defense focuses on hip mobility, creating angles that diminish the top player's control, and systematically working through escape protocols. The bottom player must also be aware that desperation attempts to escape can result in injury if the top player has already established submission grips, making it essential to defend the submission first before attempting positional escapes. Understanding both the offensive mechanics from the top perspective and defensive requirements from bottom creates a complete picture of this position's dynamics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Sankaku (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PhS9Xj-4KbA)
+
+<p class="clip-credit"><strong>Escaping Honey Hole (Inside Sankaku)</strong> — taught by Oneonta Jiu Jitsu · 0:56 · <a href="https://www.youtube.com/watch?v=PhS9Xj-4KbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3xEmPci_szw)
+
+<p class="clip-credit"><strong>Escape the Inside Ashi Garami Heel Hook</strong> — taught by Eddie Cummings · 2:44 · <a href="https://www.youtube.com/watch?v=3xEmPci_szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
+
+<p class="clip-credit"><strong>Rolling Out Of Heel Hooks</strong> — taught by Craig Jones &amp; Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

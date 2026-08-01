@@ -34,6 +34,43 @@ description: "Master the Darce Choke finish from Darce Control position. Learn g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Choke from Darce Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side Control D\u0027Arce Choke (No Gi)",
+      "description": "Darce Choke from Darce Control film study: Side Control D\u0027Arce Choke (No Gi), taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ukb_hx28qsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ukb_hx28qsM",
+      "url": "https://www.youtube.com/watch?v=ukb_hx28qsM",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to north-south D\u0027Arce",
+      "description": "Darce Choke from Darce Control film study: Side control to north-south D\u0027Arce, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT75S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +91,7 @@ description: "Master the Darce Choke finish from Darce Control position. Learn g
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">44% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +115,34 @@ From a strategic standpoint, the Darce finish from established control carries a
 **Starting Position**: [[Positions/Darce Control]] · **From**: [[Positions/Darce Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Choke from Darce Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ukb_hx28qsM)
+
+<p class="clip-credit"><strong>Side Control D&#39;Arce Choke (No Gi)</strong> — taught by ZombieProofBJJ · 1:14 · <a href="https://www.youtube.com/watch?v=ukb_hx28qsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south D&#39;Arce</strong> — taught by Gracie Westchase · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -240,11 +305,11 @@ From a strategic standpoint, the Darce finish from established control carries a
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Brabo Choke]]
 - [[Positions/Darce Control]] - Primary starting position for this submission finish

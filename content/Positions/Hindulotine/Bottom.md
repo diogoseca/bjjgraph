@@ -21,37 +21,37 @@ description: "Offensive guillotine variation from bottom guard using rotational 
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Choke from Hindulotine",
-      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine to Darce Choke",
-      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine to Darce Choke. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hindulotine to Anaconda Choke",
-      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Hindulotine to Anaconda Choke. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Bottom",
-      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Take from Bottom. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Elbow Guillotine Variation",
-      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt High Elbow Guillotine Variation. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep with Guillotine",
-      "text": "From this position, attempt Butterfly Sweep with Guillotine. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep with Guillotine. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Offensive guillotine variation from bottom guard using rotational 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hindulotine (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Guillotine Escape",
+      "description": "Hindulotine (Bottom) film study: Standing Guillotine Escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard attack: the Hindulotine breakdown",
+      "description": "Hindulotine (Bottom) film study: Rubber guard attack: the Hindulotine breakdown, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b5IOgmCdULw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b5IOgmCdULw",
+      "url": "https://www.youtube.com/watch?v=b5IOgmCdULw",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT239S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Hindu control to Hindulotine instructional",
+      "description": "Hindulotine (Bottom) film study: Hindu control to Hindulotine instructional, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y5ZQNgG2hNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y5ZQNgG2hNc",
+      "url": "https://www.youtube.com/watch?v=Y5ZQNgG2hNc",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT566S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -166,6 +214,42 @@ From bottom Hindulotine, your primary goal is to finish the submission through p
 Success from bottom Hindulotine requires understanding the interplay between your grip, your hip angle, and your leg configuration. Beginners often make the mistake of trying to muscle the submission using arm strength alone, while advanced practitioners understand that small adjustments in body position can dramatically increase pressure. The bottom perspective also requires awareness of your opponent's passing attempts, as giving up the position while loosening your grip eliminates your attacking opportunity entirely.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hindulotine (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing Guillotine Escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b5IOgmCdULw)
+
+<p class="clip-credit"><strong>Rubber guard attack: the Hindulotine breakdown</strong> — taught by Brandon McCaghren · 3:59 · <a href="https://www.youtube.com/watch?v=b5IOgmCdULw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y5ZQNgG2hNc)
+
+<p class="clip-credit"><strong>Hindu control to Hindulotine instructional</strong> — taught by Ben Eddy · 9:26 · <a href="https://www.youtube.com/watch?v=Y5ZQNgG2hNc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master Truck Position in BJJ with comprehensive bottom and top per
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Focusing on the truck",
+      "description": "Truck film study: Focusing on the truck, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZVAmQ2Sf-Fc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZVAmQ2Sf-Fc",
+      "url": "https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The truck in transition",
+      "description": "Truck film study: The truck in transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two entries into the truck",
+      "description": "Truck film study: Two entries into the truck, taught by Geo Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y693ZHlCd2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y693ZHlCd2Q",
+      "url": "https://www.youtube.com/watch?v=Y693ZHlCd2Q",
+      "creator": { "@type": "Person", "name": "Geo Martinez" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ The position exists in two distinct perspectives: from the bottom, it is a high-
 Historically, the truck evolved from wrestling's turk ride, adapted into the 10th Planet system as a submission-hunting platform rather than merely a controlling pin. The figure-four leg configuration distinguishes it from standard back control by immobilizing the opponent's hips independently of hook placement, creating a stable base for attacks that target the spine and legs simultaneously. In competition, the truck has proven effective across rule sets, from submission-only formats where the extended control time allows methodical attack chains, to points-based competitions where the position scores equivalent to back control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc)
+
+<p class="clip-credit"><strong>Focusing on the truck</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=ZVAmQ2Sf-Fc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y693ZHlCd2Q)
+
+<p class="clip-credit"><strong>Two entries into the truck</strong> — taught by Geo Martinez · 1:40 · <a href="https://www.youtube.com/watch?v=Y693ZHlCd2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,25 +223,25 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (42% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (7% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (9% of attempts)
 
-- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (12% of attempts)
+- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (15% of attempts)
 
-- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (4% of attempts)
+- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (5% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (4% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (11% of attempts)
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (7% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (8% of attempts)
 
-- **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (4% of attempts)
+- **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (10% of attempts)
 
-- **[[Transitions/Hip Escape from Truck/Attacker|Hip Escape from Truck]]** (3% of attempts)
+- **[[Transitions/Hip Escape from Truck/Attacker|Hip Escape from Truck]]** (11% of attempts)
 
-- **[[Transitions/Leg Extraction from Truck/Attacker|Leg Extraction from Truck]]** (3% of attempts)
+- **[[Transitions/Leg Extraction from Truck/Attacker|Leg Extraction from Truck]]** (15% of attempts)
 
-- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (8% of attempts)
+- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -218,35 +302,31 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (13% of attempts)
+- **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (14% of attempts)
 
-- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
+- **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (4% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (20% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (4% of attempts)
 
-- **[[Bow and Arrow Choke from Truck/Attacker|Bow and Arrow Choke from Truck]]** (7% of attempts)
+- **[[Bow and Arrow Choke from Truck/Attacker|Bow and Arrow Choke from Truck]]** (0% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (7% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (6% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (7% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
 
-- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (11% of attempts)
+- **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (6% of attempts)
 
-- **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (3% of attempts)
+- **[[Transitions/Truck Maintenance/Attacker|Truck Maintenance]]** (19% of attempts)
 
-- **[[Transitions/Truck to Back Control/Attacker|Truck to Back Control]]** (2% of attempts)
+- **[[Transitions/Truck to Back Control/Attacker|Truck to Back Control]]** (14% of attempts)
 
-- **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (3% of attempts)
+- **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (5% of attempts)
 
-- **[[Submissions/Banana Split/Attacker|Banana Split]]** (2% of attempts)
+- **[[Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (14% of attempts)
 
-- **[[Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (13% of attempts)
+- **[[Banana Split from Truck/Attacker|Banana Split from Truck]]** (9% of attempts)
 
-- **[[Submissions/Spine Lock/Attacker|Spine Lock]]** (2% of attempts)
-
-- **[[Banana Split from Truck/Attacker|Banana Split from Truck]]** (3% of attempts)
-
-- **[[Spine Lock from Truck/Attacker|Spine Lock from Truck]]** (2% of attempts)
+- **[[Spine Lock from Truck/Attacker|Spine Lock from Truck]]** (3% of attempts)
 
 
 ### Common Mistakes

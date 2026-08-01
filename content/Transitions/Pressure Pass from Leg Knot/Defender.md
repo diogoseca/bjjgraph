@@ -140,6 +140,43 @@ description: "Defend against the Pressure Pass from Leg Knot in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Pass from Leg Knot (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi garami defense and counter pass",
+      "description": "Pressure Pass from Leg Knot (Defender) film study: Ashi garami defense and counter pass, taught by The Grappling Bloke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mZp355NAIYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mZp355NAIYk",
+      "url": "https://www.youtube.com/watch?v=mZp355NAIYk",
+      "creator": { "@type": "Person", "name": "The Grappling Bloke" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock defense from entanglement",
+      "description": "Pressure Pass from Leg Knot (Defender) film study: Leg lock defense from entanglement, taught by Kuwy Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
+      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
+      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ Successful defense requires reading the attacker's intention early and respondin
 **Opponent's Starting Position**: [[Positions/Leg Knot]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Pass from Leg Knot (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mZp355NAIYk)
+
+<p class="clip-credit"><strong>Ashi garami defense and counter pass</strong> — taught by The Grappling Bloke · 1:51 · <a href="https://www.youtube.com/watch?v=mZp355NAIYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m0NLphEuFoc)
+
+<p class="clip-credit"><strong>Leg lock defense from entanglement</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

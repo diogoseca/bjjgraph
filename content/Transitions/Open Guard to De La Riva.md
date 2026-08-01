@@ -34,6 +34,54 @@ description: "Master the Open Guard to De La Riva Guard transition in BJJ. DLR h
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva shin-on-shin to the back",
+      "description": "Open Guard to De La Riva film study: De La Riva shin-on-shin to the back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a1lWupzNhkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a1lWupzNhkg",
+      "url": "https://www.youtube.com/watch?v=a1lWupzNhkg",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tip to improve your De La Riva (gi)",
+      "description": "Open Guard to De La Riva film study: Tip to improve your De La Riva (gi), taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eO0iX_6Whaw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eO0iX_6Whaw",
+      "url": "https://www.youtube.com/watch?v=eO0iX_6Whaw",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT71S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Underhook De La Riva to deep De La Riva X",
+      "description": "Open Guard to De La Riva film study: Underhook De La Riva to deep De La Riva X, taught by The Hive Martial Arts Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QO7g9Tjx6yw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QO7g9Tjx6yw",
+      "url": "https://www.youtube.com/watch?v=QO7g9Tjx6yw",
+      "creator": { "@type": "Person", "name": "The Hive Martial Arts Academy" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition serves as the gateway to the entire De La Riva system, connectin
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a1lWupzNhkg)
+
+<p class="clip-credit"><strong>De La Riva shin-on-shin to the back</strong> — taught by Carpio Jiu Jitsu · 1:21 · <a href="https://www.youtube.com/watch?v=a1lWupzNhkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eO0iX_6Whaw)
+
+<p class="clip-credit"><strong>Tip to improve your De La Riva (gi)</strong> — taught by Absolute MMA St Kilda · 1:11 · <a href="https://www.youtube.com/watch?v=eO0iX_6Whaw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QO7g9Tjx6yw)
+
+<p class="clip-credit"><strong>Underhook De La Riva to deep De La Riva X</strong> — taught by The Hive Martial Arts Academy · 1:35 · <a href="https://www.youtube.com/watch?v=QO7g9Tjx6yw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

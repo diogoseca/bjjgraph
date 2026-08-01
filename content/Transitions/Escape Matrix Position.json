@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Matrix/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "When a Matrix back take rotation is successfully defended or stalls mid-execution, the attacking practitioner finds themselves in one of BJJ's most vulnerable transitional states—partially inverted with their back potentially exposed and rotational momentum dissipated. The dynamic rolling motion of the Matrix, once blocked by the opponent's base adjustments, sprawling, or counter-pressure, demands an immediate, pre-planned response rather than continued attempts to force the failed roll.\n\nThis escape requires rapid recognition that the attack has failed and immediate commitment to position recovery rather than continued attempts to complete the rotation. The primary recovery path leads to turtle position, where the practitioner can re-establish a defensive base before working toward guard recovery or standup. A secondary path redirects remaining momentum into a guard pull recovery, threading directly into closed guard rather than stopping at turtle. The critical window for this transition is extremely narrow—delaying the bail-out by even half a second can allow the defender to capitalize with back control or dominant positioning.\n\nSuccessful execution demands exceptional body awareness, as the escaping practitioner must redirect their momentum from a rotational path into a linear recovery while simultaneously protecting their neck and managing their opponent's pressure. The technique serves as an essential safety valve within the Matrix attack system, allowing practitioners to attempt the high-risk back take while maintaining a viable exit strategy when the attack is defended. Without a reliable escape, practitioners cannot commit fully to Matrix rotations, which paradoxically makes the attack itself less effective.",
   "conditions": [
     "Matrix rotation has been blocked or stalled by opponent's defensive response",
@@ -251,38 +266,147 @@
     "flashcards": [
       {
         "question": "What is the single most important indicator that your Matrix rotation has stalled and you need to initiate the escape?",
-        "answer": "The most important indicator is loss of rotational momentum combined with feeling the opponent's weight settling onto your body. When your hips stop moving through the rotation arc and you feel downward pressure from the opponent rather than the free space of continued rotation, the attack has been successfully defended. Secondary indicators include inability to thread your legs further around the opponent and feeling their base widen against your rotation. The critical skill is recognizing this within the first half-second."
+        "answer": "The most important indicator is loss of rotational momentum combined with feeling the opponent's weight settling onto your body. When your hips stop moving through the rotation arc and you feel downward pressure from the opponent rather than the free space of continued rotation, the attack has been successfully defended. Secondary indicators include inability to thread your legs further around the opponent and feeling their base widen against your rotation. The critical skill is recognizing this within the first half-second.",
+        "answer_line": "Momentum stops, weight settles",
+        "distractors": {
+          "plausible": [
+            "Legs can't thread further",
+            "Opponent's base widens"
+          ],
+          "trap": [
+            "Wait for full stack pressure"
+          ]
+        }
       },
       {
         "question": "Why must hip retraction precede hand posting during the escape sequence?",
-        "answer": "If you post hands while your hips are still elevated, you create a suspended bridge position with no stable base. The opponent can easily collapse this structure by driving into you or circling around the elevated hips. Your arms alone cannot support your weight against an active opponent pushing from above. By retracting hips first, you lower your center of gravity and create a platform from which your hands can provide meaningful structural support. The correct sequence—hips down, then hands post—is biomechanically sound and creates progressive stability."
+        "answer": "If you post hands while your hips are still elevated, you create a suspended bridge position with no stable base. The opponent can easily collapse this structure by driving into you or circling around the elevated hips. Your arms alone cannot support your weight against an active opponent pushing from above. By retracting hips first, you lower your center of gravity and create a platform from which your hands can provide meaningful structural support. The correct sequence—hips down, then hands post—is biomechanically sound and creates progressive stability.",
+        "answer_line": "Hips down first, then hands post",
+        "distractors": {
+          "plausible": [
+            "Post hands to stop the fall",
+            "Post hands, then retract hips"
+          ],
+          "trap": [
+            "Bridge up before retracting"
+          ]
+        }
       },
       {
         "question": "Your rotation stalls and you feel the opponent beginning to slide their arm under your chin—what is your immediate response?",
-        "answer": "Immediately tuck your chin to your chest and bring your nearest hand to your jawline to create a frame blocking further penetration of their arm. Do not attempt any positional escape until the neck is secured. Once chin protection is established, use the hand that is framing your jaw to strip or redirect their choking arm while simultaneously beginning hip retraction with your core. The neck must be the absolute first priority because a choke grip established during the escape transition is extremely difficult to defend while also trying to recover position."
+        "answer": "Immediately tuck your chin to your chest and bring your nearest hand to your jawline to create a frame blocking further penetration of their arm. Do not attempt any positional escape until the neck is secured. Once chin protection is established, use the hand that is framing your jaw to strip or redirect their choking arm while simultaneously beginning hip retraction with your core. The neck must be the absolute first priority because a choke grip established during the escape transition is extremely difficult to defend while also trying to recover position.",
+        "answer_line": "Chin tuck, frame at jaw first",
+        "distractors": {
+          "plausible": [
+            "Strip the arm before framing",
+            "Retract hips, ignore the arm"
+          ],
+          "trap": [
+            "Bridge hard to buck them off"
+          ]
+        }
       },
       {
         "question": "When should you choose the guard pull redirect variant over the standard turtle recovery?",
-        "answer": "Choose the guard pull redirect when you have residual rotational momentum from the stalled Matrix and the opponent has not yet applied heavy downward pressure. The remaining momentum can be channeled into a continuous roll that threads directly into closed guard or butterfly guard, skipping the turtle waypoint entirely. If the opponent is sprawling heavily or has already established strong top pressure, the guard pull redirect lacks sufficient momentum to complete and you should default to the turtle recovery, which requires less momentum and works against downward pressure."
+        "answer": "Choose the guard pull redirect when you have residual rotational momentum from the stalled Matrix and the opponent has not yet applied heavy downward pressure. The remaining momentum can be channeled into a continuous roll that threads directly into closed guard or butterfly guard, skipping the turtle waypoint entirely. If the opponent is sprawling heavily or has already established strong top pressure, the guard pull redirect lacks sufficient momentum to complete and you should default to the turtle recovery, which requires less momentum and works against downward pressure.",
+        "answer_line": "Momentum + no heavy pressure yet",
+        "distractors": {
+          "plausible": [
+            "Always default to guard pull",
+            "Choose based on your grip only"
+          ],
+          "trap": [
+            "Guard pull under heavy sprawl"
+          ]
+        }
       },
       {
         "question": "What grip should you maintain on the opponent during the escape and why?",
-        "answer": "Maintain at least one grip on the opponent's nearest arm, sleeve, or collar throughout the escape to accomplish two objectives. First, the grip prevents them from freely circling to your back while you transition, as they must deal with your connection before repositioning. Second, the grip gives you information about their movement and weight distribution through tactile feedback, allowing you to adjust your escape path in real-time. Releasing all grips during the recovery gives the opponent complete freedom to choose their attack angle, which dramatically increases the probability of back take."
+        "answer": "Maintain at least one grip on the opponent's nearest arm, sleeve, or collar throughout the escape to accomplish two objectives. First, the grip prevents them from freely circling to your back while you transition, as they must deal with your connection before repositioning. Second, the grip gives you information about their movement and weight distribution through tactile feedback, allowing you to adjust your escape path in real-time. Releasing all grips during the recovery gives the opponent complete freedom to choose their attack angle, which dramatically increases the probability of back take.",
+        "answer_line": "Keep one grip, block back take",
+        "distractors": {
+          "plausible": [
+            "Grip only for extra power",
+            "Switch grips constantly for info"
+          ],
+          "trap": [
+            "Release all grips, move freely"
+          ]
+        }
       },
       {
         "question": "How does training a reliable Matrix escape actually improve your Matrix attack success rate?",
-        "answer": "A reliable escape removes the psychological hesitation that undermines Matrix effectiveness. The Matrix requires full commitment to the rotation—any hesitation mid-roll creates the worst possible outcome of being stuck inverted without momentum. When practitioners know they have a trained bail-out option, they commit more aggressively to rotations, which paradoxically makes the rotations harder to defend. Additionally, the escape creates a second-layer threat: opponents who over-commit to blocking the rotation become vulnerable to the escape redirecting into guard recovery, forcing them to moderate their defense."
+        "answer": "A reliable escape removes the psychological hesitation that undermines Matrix effectiveness. The Matrix requires full commitment to the rotation—any hesitation mid-roll creates the worst possible outcome of being stuck inverted without momentum. When practitioners know they have a trained bail-out option, they commit more aggressively to rotations, which paradoxically makes the rotations harder to defend. Additionally, the escape creates a second-layer threat: opponents who over-commit to blocking the rotation become vulnerable to the escape redirecting into guard recovery, forcing them to moderate their defense.",
+        "answer_line": "Escape option kills hesitation",
+        "distractors": {
+          "plausible": [
+            "Escape trains faster scrambles",
+            "Escape adds a new attack chain"
+          ],
+          "trap": [
+            "Skip escape, commit blindly"
+          ]
+        }
       },
       {
         "question": "You feel the opponent insert one hook during your transition to turtle—do you complete the turtle or change strategy?",
-        "answer": "Do not complete the turtle. One hook already inserted means turtle is no longer a viable waypoint because the opponent is already halfway to full back control. Instead, immediately redirect into a guard recovery by continuing the rolling motion and using the momentum to turn and face the opponent. Address the hook by extending your trapped leg explosively while turning into the opponent. Stopping in turtle with one hook inserted gives them a stable platform to fight for the second hook, which is much harder to prevent from turtle than from a guard recovery position."
+        "answer": "Do not complete the turtle. One hook already inserted means turtle is no longer a viable waypoint because the opponent is already halfway to full back control. Instead, immediately redirect into a guard recovery by continuing the rolling motion and using the momentum to turn and face the opponent. Address the hook by extending your trapped leg explosively while turning into the opponent. Stopping in turtle with one hook inserted gives them a stable platform to fight for the second hook, which is much harder to prevent from turtle than from a guard recovery position.",
+        "answer_line": "Redirect to guard, don't stop",
+        "distractors": {
+          "plausible": [
+            "Complete turtle, defend hook there",
+            "Stand up immediately to reset"
+          ],
+          "trap": [
+            "Settle into turtle, fight hook"
+          ]
+        }
       },
       {
         "question": "What is the optimal energy expenditure strategy for the escape sequence?",
-        "answer": "The escape should use one controlled burst of energy rather than sustained effort. The recognition phase costs no energy—it is purely perceptual. The physical escape from hip retraction through turtle establishment should be one explosive but directed movement lasting one to two seconds. Sustained scrambling after this initial burst indicates the escape has partially failed and you are now in a secondary situation requiring different tactics. Save remaining energy for the guard recovery or standup from turtle rather than fighting extended battles during the transition itself."
+        "answer": "The escape should use one controlled burst of energy rather than sustained effort. The recognition phase costs no energy—it is purely perceptual. The physical escape from hip retraction through turtle establishment should be one explosive but directed movement lasting one to two seconds. Sustained scrambling after this initial burst indicates the escape has partially failed and you are now in a secondary situation requiring different tactics. Save remaining energy for the guard recovery or standup from turtle rather than fighting extended battles during the transition itself.",
+        "answer_line": "One explosive burst, then stop",
+        "distractors": {
+          "plausible": [
+            "Sustained scramble until clear",
+            "Save all energy, move slowly"
+          ],
+          "trap": [
+            "Grind out extended scrambles"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Matrix escapes involve rapid directional changes from partially inverted positions, creating meaningful risk of neck strain and cervical spine compression. Practitioners should develop comfort with inversions progressively through months of dedicated drilling before attempting the Matrix system in live training. Never force the escape against strong resistance in unfamiliar positions, and communicate immediately with training partners if neck pressure becomes excessive. Drill at controlled speeds before adding resistance. Partners applying top pressure during escape drilling should be attentive to the practitioner's neck position and avoid driving into a compromised cervical spine."
+    "safety_considerations": "Matrix escapes involve rapid directional changes from partially inverted positions, creating meaningful risk of neck strain and cervical spine compression. Practitioners should develop comfort with inversions progressively through months of dedicated drilling before attempting the Matrix system in live training. Never force the escape against strong resistance in unfamiliar positions, and communicate immediately with training partners if neck pressure becomes excessive. Drill at controlled speeds before adding resistance. Partners applying top pressure during escape drilling should be attentive to the practitioner's neck position and avoid driving into a compromised cervical spine.",
+    "clips": [
+      {
+        "id": "W0TCGKRcniA",
+        "title": "Turtle Escape: Shoulder Roll",
+        "by": "BJJake",
+        "vertical": false,
+        "channel": "BJJake",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "waVFl1Ip6VU",
+        "title": "Turtle Back Escape by Shrugging",
+        "by": "Andy Tong",
+        "vertical": false,
+        "channel": "Andy Tong",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping Back Control from Turtle",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Matrix Position Defender",
@@ -368,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for capitalizing on a stalled Matrix escape?",
-        "answer": "The most critical window is during the roll from stalled Matrix to turtle—approximately one to two seconds when the opponent's legs are in transit and their defensive structure is incomplete. Once they establish tight turtle with elbows to knees and chin tucked, your advantage drops significantly because you now face standard turtle attack challenges rather than exploiting a compromised opponent. Insert hooks and establish upper body control during this transition window before the turtle shell closes."
+        "answer": "The most critical window is during the roll from stalled Matrix to turtle—approximately one to two seconds when the opponent's legs are in transit and their defensive structure is incomplete. Once they establish tight turtle with elbows to knees and chin tucked, your advantage drops significantly because you now face standard turtle attack challenges rather than exploiting a compromised opponent. Insert hooks and establish upper body control during this transition window before the turtle shell closes.",
+        "answer_line": "Roll to turtle, before shell closes",
+        "distractors": {
+          "plausible": [
+            "After tight turtle is set",
+            "During initial rotation stall"
+          ],
+          "trap": [
+            "Wait for elbows-to-knees turtle"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a turtle recovery attempt and a guard pull redirect?",
-        "answer": "Watch the hip direction during the escape. Turtle recovery shows hips retracting downward toward the mat with the opponent pulling their knees under their body—this creates a vertical descent toward four-point base. Guard pull redirect shows hips continuing to rotate with the opponent threading their legs between your legs or around your torso—this maintains horizontal momentum. The distinction appears in the first half-second of the escape and determines whether you should follow for back control or prepare to defend against guard establishment."
+        "answer": "Watch the hip direction during the escape. Turtle recovery shows hips retracting downward toward the mat with the opponent pulling their knees under their body—this creates a vertical descent toward four-point base. Guard pull redirect shows hips continuing to rotate with the opponent threading their legs between your legs or around your torso—this maintains horizontal momentum. The distinction appears in the first half-second of the escape and determines whether you should follow for back control or prepare to defend against guard establishment.",
+        "answer_line": "Watch hip direction, down vs out",
+        "distractors": {
+          "plausible": [
+            "Watch hand posting speed",
+            "Watch which leg moves first"
+          ],
+          "trap": [
+            "Assume guard pull by default"
+          ]
+        }
       },
       {
         "question": "Your opponent begins the escape and you successfully insert one hook—what is your immediate priority?",
-        "answer": "Immediately establish seatbelt or harness upper body control before pursuing the second hook. A single hook without upper body control is easily stripped by the opponent extending their leg or continuing their roll. The seatbelt locks their torso relative to yours, preventing the rotation and movement they need to clear the hook. With seatbelt established, the second hook insertion becomes significantly easier because the opponent's movement options are constrained by your upper body connection."
+        "answer": "Immediately establish seatbelt or harness upper body control before pursuing the second hook. A single hook without upper body control is easily stripped by the opponent extending their leg or continuing their roll. The seatbelt locks their torso relative to yours, preventing the rotation and movement they need to clear the hook. With seatbelt established, the second hook insertion becomes significantly easier because the opponent's movement options are constrained by your upper body connection.",
+        "answer_line": "Lock seatbelt before 2nd hook",
+        "distractors": {
+          "plausible": [
+            "Chase the second hook fast",
+            "Flatten them out immediately"
+          ],
+          "trap": [
+            "Release hook to reset grips"
+          ]
+        }
       },
       {
         "question": "Why is forward pressure more effective than attempting immediate submissions during the escape transition?",
-        "answer": "During the escape transition, the opponent is moving dynamically and their body position changes rapidly—this makes submission grips unreliable and easy to shake loose. Forward pressure, by contrast, accomplishes the critical objective of denying them the space and time needed to complete their recovery. A failed submission attempt during the transition often results in losing all contact with the opponent as they use the space created by your grip change to complete their escape. Secure position first through pressure and control, then attack submissions from the established dominant position."
+        "answer": "During the escape transition, the opponent is moving dynamically and their body position changes rapidly—this makes submission grips unreliable and easy to shake loose. Forward pressure, by contrast, accomplishes the critical objective of denying them the space and time needed to complete their recovery. A failed submission attempt during the transition often results in losing all contact with the opponent as they use the space created by your grip change to complete their escape. Secure position first through pressure and control, then attack submissions from the established dominant position.",
+        "answer_line": "Pressure denies space and time",
+        "distractors": {
+          "plausible": [
+            "Attack the first choke you see",
+            "Switch grips fast for submission"
+          ],
+          "trap": [
+            "Chase a flying submission attempt"
+          ]
+        }
       },
       {
         "question": "The opponent successfully reaches turtle despite your pressure—what is your adjusted game plan?",
-        "answer": "Transition immediately to standard turtle attack protocol rather than continuing to treat the situation as a stalled Matrix capitalization. Establish chest pressure on their upper back, begin grip fighting for seatbelt or harness control, and work your standard back take sequence with hook insertion. The advantage you still retain is that you are already in tight contact and the opponent has just expended energy on the escape, so their defensive reactions may be slightly delayed. Do not allow frustration at the missed capitalization window to cause reckless attacks."
+        "answer": "Transition immediately to standard turtle attack protocol rather than continuing to treat the situation as a stalled Matrix capitalization. Establish chest pressure on their upper back, begin grip fighting for seatbelt or harness control, and work your standard back take sequence with hook insertion. The advantage you still retain is that you are already in tight contact and the opponent has just expended energy on the escape, so their defensive reactions may be slightly delayed. Do not allow frustration at the missed capitalization window to cause reckless attacks.",
+        "answer_line": "Switch to standard turtle attack",
+        "distractors": {
+          "plausible": [
+            "Keep chasing the Matrix redo",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Force a reckless late attack"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -407,6 +581,26 @@
         "phase": "Live Positional Sparring",
         "focus": "Applying capitalization skills against fully resisting opponents",
         "description": "Start from stalled Matrix position. Opponent attempts escape while defender attempts to capitalize. Track success rates for back control establishment versus opponent reaching turtle. Reset after outcome is determined. Alternate roles every three rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lpgcKpIgClw",
+        "title": "Why You Keep Losing the Back: Retaining Back Control",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 143,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "cd6QGWceb7c",
+        "title": "Sitting back to guard from turtle",
+        "by": "Mark Mullen",
+        "vertical": false,
+        "channel": "Mark Mullen Bjj",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

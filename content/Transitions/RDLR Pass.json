@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Reverse De La Riva Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Reverse De La Riva (RDLR) Pass is an essential technique for neutralizing one of modern BJJ's most dynamic guard systems. The RDLR guard creates powerful off-balancing angles and back-take opportunities, making it a favorite among competition grapplers. Successfully passing this guard requires understanding the mechanical structure of the position, controlling the key points of contact, and systematically dismantling the guard player's hooks and grips. This pass emphasizes pressure, balance, and timing to transition from a contested guard position into dominant side control. The technique involves clearing the RDLR hook, establishing strong base and pressure, and circling around the guard player's leg frame to achieve side control or other passing positions.\n\nThe RDLR pass is particularly relevant in modern no-gi competition, where the absence of gi grips makes the RDLR hook-based control even more prevalent. Understanding this pass provides strategic advantages against players who rely heavily on RDLR entries from seated guard, standing guard, or during guard retention sequences. The technique requires excellent balance, hip pressure, and the ability to read your opponent's reactions to capitalize on their defensive adjustments. Mastery of this pass opens up opportunities for multiple passing variations and positions, making it a cornerstone technique for competitive grapplers.\n\nThis passing sequence integrates seamlessly with other modern passing systems, including the long step pass, knee slice, and leg drag. The RDLR pass often serves as an entry point into these complementary techniques, creating a comprehensive passing game that keeps opponents constantly defending multiple threats.",
   "related_content": [
     {
@@ -240,46 +252,175 @@
     "flashcards": [
       {
         "question": "What is the primary grip you should establish when beginning the RDLR pass and why is it important?",
-        "answer": "The far hip or belt grip is the primary control point because it allows you to prevent back exposure and control the opponent's rotation. This grip acts as a steering wheel for their entire body, enabling you to turn them away from back take attempts and control their ability to follow your movements during the pass."
+        "answer": "The far hip or belt grip is the primary control point because it allows you to prevent back exposure and control the opponent's rotation. This grip acts as a steering wheel for their entire body, enabling you to turn them away from back take attempts and control their ability to follow your movements during the pass.",
+        "answer_line": "Far hip/belt grip - steer hips",
+        "distractors": {
+          "plausible": [
+            "Collar grip to control posture",
+            "Ankle grip to kill the hook"
+          ],
+          "trap": [
+            "Chase underhook, ignore hips"
+          ]
+        }
       },
       {
         "question": "Why must you break the ankle grip before attempting to clear the RDLR hook?",
-        "answer": "The ankle grip is the steering mechanism that controls the direction and force of the RDLR hook. If you try to clear the hook while the grip remains, the opponent can redirect the hook back onto your leg or use the connected system to generate sweeping momentum. Breaking the grip first isolates the hook from its control system, making it passive rather than active."
+        "answer": "The ankle grip is the steering mechanism that controls the direction and force of the RDLR hook. If you try to clear the hook while the grip remains, the opponent can redirect the hook back onto your leg or use the connected system to generate sweeping momentum. Breaking the grip first isolates the hook from its control system, making it passive rather than active.",
+        "answer_line": "Isolates hook from its steering",
+        "distractors": {
+          "plausible": [
+            "Frees hands for grip fighting",
+            "Lets you posture up first"
+          ],
+          "trap": [
+            "Clear hook first, ankle later"
+          ]
+        }
       },
       {
         "question": "Why is chest pressure on the inside thigh critical for the RDLR pass?",
-        "answer": "Chest pressure on the inside thigh collapses the guard's structural integrity by flattening the angle between the opponent's legs. This pressure removes the space they need to maintain effective hooks, limits their ability to elevate you off the ground, and creates the compression necessary to begin clearing the RDLR hook safely."
+        "answer": "Chest pressure on the inside thigh collapses the guard's structural integrity by flattening the angle between the opponent's legs. This pressure removes the space they need to maintain effective hooks, limits their ability to elevate you off the ground, and creates the compression necessary to begin clearing the RDLR hook safely.",
+        "answer_line": "Flattens guard, kills the hook",
+        "distractors": {
+          "plausible": [
+            "Prevents underhook exposure",
+            "Stops the collar sleeve grip"
+          ],
+          "trap": [
+            "Sit back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent begins elevating their hips and rotating their shoulders toward the mat during your pass attempt—what is happening and how do you respond?",
-        "answer": "They are initiating a berimbolo or kiss of the dragon back take entry. Immediately backstep your hooked leg while driving your chest forward and down toward their hips to remove the space they need to complete the inversion. Use your far hip grip to turn their hips away from you, preventing them from completing the rotation underneath. If they have committed deeply, transition to a bodylock and drive them flat."
+        "answer": "They are initiating a berimbolo or kiss of the dragon back take entry. Immediately backstep your hooked leg while driving your chest forward and down toward their hips to remove the space they need to complete the inversion. Use your far hip grip to turn their hips away from you, preventing them from completing the rotation underneath. If they have committed deeply, transition to a bodylock and drive them flat.",
+        "answer_line": "Backstep, drive chest into hips",
+        "distractors": {
+          "plausible": [
+            "Stand up and circle away",
+            "Grip fight the far sleeve"
+          ],
+          "trap": [
+            "Follow the roll, chase back"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent transitions to X-Guard or Single Leg X during the RDLR pass?",
-        "answer": "Maintain constant chest pressure on their inside thigh and increase your far hip control. If they begin establishing the secondary guard, immediately backstep to extract your hooked leg completely while keeping upper body pressure heavy. The critical moment is before they establish both feet on your hips—once both feet are set, the guard is fully established and much harder to pass."
+        "answer": "Maintain constant chest pressure on their inside thigh and increase your far hip control. If they begin establishing the secondary guard, immediately backstep to extract your hooked leg completely while keeping upper body pressure heavy. The critical moment is before they establish both feet on your hips—once both feet are set, the guard is fully established and much harder to pass.",
+        "answer_line": "Backstep before both feet set",
+        "distractors": {
+          "plausible": [
+            "Sit back and reset base",
+            "Switch to toreando pass"
+          ],
+          "trap": [
+            "Let them set feet, then push"
+          ]
+        }
       },
       {
         "question": "Why is circling around the legs preferable to stepping over during the RDLR pass?",
-        "answer": "Circling around the legs is safer because stepping over exposes you to leg entanglements, triangles, omoplatas, and sweeps during the vulnerable step-over phase. The circular path maintains constant pressure and control while progressively advancing position without creating windows for the guard player to attack or re-establish hooks."
+        "answer": "Circling around the legs is safer because stepping over exposes you to leg entanglements, triangles, omoplatas, and sweeps during the vulnerable step-over phase. The circular path maintains constant pressure and control while progressively advancing position without creating windows for the guard player to attack or re-establish hooks.",
+        "answer_line": "Avoids leg entanglement risks",
+        "distractors": {
+          "plausible": [
+            "Faster route to side control",
+            "Keeps both knees pinned down"
+          ],
+          "trap": [
+            "Step over for max pressure"
+          ]
+        }
       },
       {
         "question": "What is the timing relationship between clearing the RDLR hook and establishing the knee barrier?",
-        "answer": "These two actions must be one continuous motion rather than separate steps. The moment the RDLR hook clears, your lead knee should be driving across their bottom leg to establish the knee barrier. Any delay between clearing and establishing control gives the opponent time to re-hook, transition to X-Guard or Single Leg X, or create distance for guard retention."
+        "answer": "These two actions must be one continuous motion rather than separate steps. The moment the RDLR hook clears, your lead knee should be driving across their bottom leg to establish the knee barrier. Any delay between clearing and establishing control gives the opponent time to re-hook, transition to X-Guard or Single Leg X, or create distance for guard retention.",
+        "answer_line": "One motion - no gap between",
+        "distractors": {
+          "plausible": [
+            "Clear hook, then re-grip belt",
+            "Pause to check base first"
+          ],
+          "trap": [
+            "Clear hook, then posture up"
+          ]
+        }
       },
       {
         "question": "Your opponent grips your ankle tightly and you cannot break the grip with hand fighting—what alternative approach can you take?",
-        "answer": "Instead of hand fighting the grip directly, step your hooked foot laterally to change the angle of the grip, which weakens their hold mechanically. Alternatively, circle your foot in a small arc to create slack in their grip. If the grip persists, transition to a leg drag variation where you use their connected grip against them by dragging the hooking leg across your body, converting their control into your passing leverage."
+        "answer": "Instead of hand fighting the grip directly, step your hooked foot laterally to change the angle of the grip, which weakens their hold mechanically. Alternatively, circle your foot in a small arc to create slack in their grip. If the grip persists, transition to a leg drag variation where you use their connected grip against them by dragging the hooking leg across your body, converting their control into your passing leverage.",
+        "answer_line": "Change angle - step laterally",
+        "distractors": {
+          "plausible": [
+            "Grip strip with two hands",
+            "Power through, drive forward"
+          ],
+          "trap": [
+            "Yank the leg straight back"
+          ]
+        }
       },
       {
         "question": "What base adjustments are required if you feel the opponent loading your weight forward for a waiter sweep?",
-        "answer": "Immediately sit your hips back behind the hook line while widening your stance laterally. Your weight should shift rearward so your center of gravity stays behind their hook rather than drifting over it. Post strongly on your near-side leg and use your far hip grip to turn their hips away, neutralizing the forward loading. If they commit heavily to the forward drive, convert their momentum into a backstep that resets you to a passing-ready position."
+        "answer": "Immediately sit your hips back behind the hook line while widening your stance laterally. Your weight should shift rearward so your center of gravity stays behind their hook rather than drifting over it. Post strongly on your near-side leg and use your far hip grip to turn their hips away, neutralizing the forward loading. If they commit heavily to the forward drive, convert their momentum into a backstep that resets you to a passing-ready position.",
+        "answer_line": "Sit hips back, widen stance",
+        "distractors": {
+          "plausible": [
+            "Drive forward through pressure",
+            "Post on far leg, lean in"
+          ],
+          "trap": [
+            "Lean forward to counter drive"
+          ]
+        }
       },
       {
         "question": "The primary RDLR pass is being defended effectively—what chain attacks should you consider?",
-        "answer": "When the primary pass is defended, transition to complementary passes based on the opponent's defensive reaction. If they flatten out to prevent circling, switch to a knee slice through their legs. If they post their far leg to frame, drag that leg across for a leg drag pass. If they attempt to follow your circling motion with their hips, commit to a long step past their head. The key is reading which defensive structure they prioritize and attacking the opening it creates."
+        "answer": "When the primary pass is defended, transition to complementary passes based on the opponent's defensive reaction. If they flatten out to prevent circling, switch to a knee slice through their legs. If they post their far leg to frame, drag that leg across for a leg drag pass. If they attempt to follow your circling motion with their hips, commit to a long step past their head. The key is reading which defensive structure they prioritize and attacking the opening it creates.",
+        "answer_line": "Knee slice, leg drag, or long step",
+        "distractors": {
+          "plausible": [
+            "Repeat the same pass harder",
+            "Switch guard, retreat to standing"
+          ],
+          "trap": [
+            "Abandon pressure, reset position"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Practice RDLR passing with control and awareness of your partner's leg positioning. When applying chest pressure to their inside thigh, gradually increase intensity to avoid sudden pressure on their knee joint. Be mindful of your base and weight distribution to prevent accidentally falling with all your weight onto your training partner. When clearing the RDLR hook, avoid explosive yanking motions on their leg that could stress their knee or ankle joints. If your partner taps during the passing sequence, it may indicate pressure on a joint or discomfort in their leg positioning—always release immediately and check in with them. During positional sparring, maintain communication about intensity levels, especially when practicing the pass at higher resistance levels. Both the passer and guard player should be aware of leg entanglement positions and tap early if caught in an uncomfortable position during transitions."
+    "safety_considerations": "Practice RDLR passing with control and awareness of your partner's leg positioning. When applying chest pressure to their inside thigh, gradually increase intensity to avoid sudden pressure on their knee joint. Be mindful of your base and weight distribution to prevent accidentally falling with all your weight onto your training partner. When clearing the RDLR hook, avoid explosive yanking motions on their leg that could stress their knee or ankle joints. If your partner taps during the passing sequence, it may indicate pressure on a joint or discomfort in their leg positioning—always release immediately and check in with them. During positional sparring, maintain communication about intensity levels, especially when practicing the pass at higher resistance levels. Both the passer and guard player should be aware of leg entanglement positions and tap early if caught in an uncomfortable position during transitions.",
+    "clips": [
+      {
+        "id": "ynFpOlFWdLw",
+        "title": "Passing reverse de la riva",
+        "by": "Ronin Training Center",
+        "vertical": false,
+        "channel": "Ronin Training Center",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "F5S-CtME6_U",
+        "title": "Reverse de la riva passing drills",
+        "by": "Carlos Miller",
+        "vertical": false,
+        "channel": "Flow Academy Bjj ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IdfQWVHikws",
+        "title": "Passing reverse de la riva with a shin slice",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 86,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "RDLR Pass Defender",
@@ -370,23 +511,73 @@
     "flashcards": [
       {
         "question": "The passer begins attacking your ankle grip while maintaining chest pressure on your inside thigh—what is your immediate priority?",
-        "answer": "Your immediate priority is reinforcing the ankle grip by either switching to a two-on-one grip configuration or adjusting your grip angle to make it harder to break. Simultaneously, elevate your hips to create upward pressure that reduces the effectiveness of their chest pressure. If the grip break appears inevitable, begin setting up your transition to X-Guard or Single Leg X proactively rather than waiting for the hook to be fully stripped."
+        "answer": "Your immediate priority is reinforcing the ankle grip by either switching to a two-on-one grip configuration or adjusting your grip angle to make it harder to break. Simultaneously, elevate your hips to create upward pressure that reduces the effectiveness of their chest pressure. If the grip break appears inevitable, begin setting up your transition to X-Guard or Single Leg X proactively rather than waiting for the hook to be fully stripped.",
+        "answer_line": "Reinforce grip, elevate hips",
+        "distractors": {
+          "plausible": [
+            "Switch to De La Riva hook",
+            "Frame on their far knee"
+          ],
+          "trap": [
+            "Let go, scramble to standing"
+          ]
+        }
       },
       {
         "question": "What distinguishes the optimal moment for a berimbolo entry versus a waiter sweep when defending the RDLR pass?",
-        "answer": "The berimbolo is optimal when the passer's weight shifts backward or they stand tall, creating space underneath their hips for you to rotate. The waiter sweep is optimal when the passer drives forward with heavy pressure, loading their weight onto your hook structure. Reading their weight distribution is the key differentiator—backward weight feeds berimbolo, forward weight feeds waiter sweep. Attempting the wrong technique for the weight distribution results in failed counters."
+        "answer": "The berimbolo is optimal when the passer's weight shifts backward or they stand tall, creating space underneath their hips for you to rotate. The waiter sweep is optimal when the passer drives forward with heavy pressure, loading their weight onto your hook structure. Reading their weight distribution is the key differentiator—backward weight feeds berimbolo, forward weight feeds waiter sweep. Attempting the wrong technique for the weight distribution results in failed counters.",
+        "answer_line": "Back=berimbolo, forward=waiter",
+        "distractors": {
+          "plausible": [
+            "Forward weight = berimbolo",
+            "Any weight shift = waiter sweep"
+          ],
+          "trap": [
+            "Ignore weight, always berimbolo"
+          ]
+        }
       },
       {
         "question": "Your RDLR hook has been cleared and the passer is establishing their knee across your legs—what is the highest percentage recovery option?",
-        "answer": "Hip escape away from the passer immediately while using your hands to frame against their shoulder or chest to create distance. The goal is to create enough space to either re-establish an RDLR hook on their opposite leg or transition to seated guard with feet on hips. Speed is critical here—once the passer settles their knee barrier and begins circling, recovery becomes exponentially harder. If the hip escape creates any space, immediately insert your knee or shin as a frame before they can close the gap."
+        "answer": "Hip escape away from the passer immediately while using your hands to frame against their shoulder or chest to create distance. The goal is to create enough space to either re-establish an RDLR hook on their opposite leg or transition to seated guard with feet on hips. Speed is critical here—once the passer settles their knee barrier and begins circling, recovery becomes exponentially harder. If the hip escape creates any space, immediately insert your knee or shin as a frame before they can close the gap.",
+        "answer_line": "Hip escape, frame, create space",
+        "distractors": {
+          "plausible": [
+            "Push their knee off directly",
+            "Bridge and roll to escape"
+          ],
+          "trap": [
+            "Turtle up to defend"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when defending against a patient passer who is systematically dismantling your RDLR structure?",
-        "answer": "Avoid maintaining maximum tension in all grips and hooks simultaneously, as this depletes your energy rapidly. Instead, prioritize the ankle grip as the most essential control point and use pulsing pressure with your hook—alternating between high-tension offensive threats and moderate-tension maintenance. Force the passer to react to your sweep and back take threats rather than passively holding guard structure. If they are patient, you must dictate tempo by threatening techniques that require their response."
+        "answer": "Avoid maintaining maximum tension in all grips and hooks simultaneously, as this depletes your energy rapidly. Instead, prioritize the ankle grip as the most essential control point and use pulsing pressure with your hook—alternating between high-tension offensive threats and moderate-tension maintenance. Force the passer to react to your sweep and back take threats rather than passively holding guard structure. If they are patient, you must dictate tempo by threatening techniques that require their response.",
+        "answer_line": "Pulse pressure, dictate tempo",
+        "distractors": {
+          "plausible": [
+            "Hold max tension everywhere",
+            "Match their pace, stay patient"
+          ],
+          "trap": [
+            "Go passive, conserve energy"
+          ]
+        }
       },
       {
         "question": "The passer successfully clears your hook but you manage to re-establish RDLR on their opposite leg—what adjustment must you make to your grip configuration?",
-        "answer": "When switching the RDLR hook to the opposite leg, your ankle grip must also switch to control the new far ankle, and your far leg frame must reposition to address the passer's new near leg. The entire control system mirrors—your grips, frames, and hook orientation all reverse. The critical adjustment is re-establishing the ankle grip quickly, as the hook without its steering mechanism is vulnerable to immediate clearing. Use the momentum of the re-guard to immediately establish offensive threats that prevent the passer from simply repeating the clearing sequence."
+        "answer": "When switching the RDLR hook to the opposite leg, your ankle grip must also switch to control the new far ankle, and your far leg frame must reposition to address the passer's new near leg. The entire control system mirrors—your grips, frames, and hook orientation all reverse. The critical adjustment is re-establishing the ankle grip quickly, as the hook without its steering mechanism is vulnerable to immediate clearing. Use the momentum of the re-guard to immediately establish offensive threats that prevent the passer from simply repeating the clearing sequence.",
+        "answer_line": "Everything mirrors - re-grip fast",
+        "distractors": {
+          "plausible": [
+            "Keep old ankle grip active",
+            "Only switch the hook, not grips"
+          ],
+          "trap": [
+            "Delay re-gripping, attack first"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -409,6 +600,35 @@
         "phase": "Phase 4: Full Resistance Positional Sparring (Weeks 11+)",
         "focus": "Integrating all defensive and offensive options under live conditions",
         "description": "Full resistance positional sparring from RDLR guard with 2-3 minute rounds. Both players compete at 100% with the bottom player working to sweep, submit, or take the back while the top player works to pass. Review rounds to identify patterns in defensive decision-making and timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "l5KLz636hyo",
+        "title": "Off-balance drill to recover de la riva guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 99,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eO0iX_6Whaw",
+        "title": "Tip to improve your de la riva",
+        "by": "Absolute MMA St Kilda",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 71,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "wLSe23vSbP0",
+        "title": "Tips to make your de la riva unpassable",
+        "by": "Juanjo",
+        "vertical": false,
+        "channel": "Juanjo BJJ Tecnicas y Drills",
+        "duration": 102,
+        "verified": "2026-07-15"
       }
     ]
   },

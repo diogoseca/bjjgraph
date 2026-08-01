@@ -20,38 +20,38 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Pull guard",
-      "text": "From this position, attempt Pull guard. This technique is attempted in 37% of exchanges from this position.",
+      "name": "Execute Pull Guard from Ground",
+      "text": "From this position, attempt Pull Guard from Ground. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sitting Guard Pull",
-      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Sitting Guard Pull. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Shin to Shin Pull",
-      "text": "From this position, attempt Shin to Shin Pull. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Ankle Pick",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Standing to Single Leg X",
-      "text": "From this position, attempt Standing to Single Leg X. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Arm Drag to Back",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ankle Pick",
-      "text": "From this position, attempt Ankle Pick. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Rolling Guard Pull",
+      "text": "From this position, attempt Rolling Guard Pull. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Double Leg Entry",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard Retention: When To Sit Up Escape",
+      "description": "Standing Guard (Bottom) film study: Guard Retention: When To Sit Up Escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bottom Postures in Open Guard",
+      "description": "Standing Guard (Bottom) film study: Bottom Postures in Open Guard, taught by Ultra Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fpu-rDbLM_0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fpu-rDbLM_0",
+      "url": "https://www.youtube.com/watch?v=fpu-rDbLM_0",
+      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Feet on Biceps Guard Position",
+      "description": "Standing Guard (Bottom) film study: Feet on Biceps Guard Position, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
+      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT125S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position is particularly critical in competition scenarios where understandi
 Modern guard players use Standing Guard Bottom as a tactical platform for entering their preferred guard systems with favorable grip configurations and positioning. Rather than viewing it as purely defensive, advanced practitioners treat this position as an offensive launching point where they control the pace, dictate engagement terms, and transition to ground fighting only when circumstances favor their game. The position demands both technical precision and strategic thinking about match flow and positional hierarchy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard Retention: When To Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fpu-rDbLM_0)
+
+<p class="clip-credit"><strong>Bottom Postures in Open Guard</strong> — taught by Ultra Jiu Jitsu Academy · 1:20 · <a href="https://www.youtube.com/watch?v=fpu-rDbLM_0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
+
+<p class="clip-credit"><strong>Feet on Biceps Guard Position</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -219,7 +303,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 <p class="section-subtitle">What should you do from Standing Guard (Bottom)?</p>
 
 **If opponent drives forward aggressively trying to close distance:**
-- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
 - Execute **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** → [[Positions/Seated Guard]] (Probability: 55%)
 - Execute **[[Circular footwork retreat/Attacker|Circular footwork retreat]]** → [[Positions/Standing Guard]] (Probability: 70%)
 
@@ -227,7 +311,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 **If opponent establishes collar and sleeve grips in gi:**
 - Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Standing Guard]] (Probability: 60%)
 - Execute **[[Transitions/Collar Drag/Attacker|Collar Drag]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
 
 
 **If opponent shoots for single or double leg takedown:**
@@ -239,7 +323,7 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 **If opponent attempts snap-down or front headlock control:**
 - Execute **[[Posture Up/Attacker|Posture Up]]** → [[Positions/Standing Guard]] (Probability: 65%)
 - Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
-- Execute **[[Transitions/Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Pull guard/Attacker|Pull guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
 
 
 **If opponent is passive or maintaining distance defensively:**
@@ -369,7 +453,7 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 - **[[Positions/Combat Base]]** - Related standing defensive posture concept
 - **[[Positions/Butterfly Guard]]** - Common guard type accessed from sitting pull
 - **[[Positions/De La Riva Guard]]** - Advanced guard entry from standing
-- **[[Transitions/Pull guard]]** - Primary transition technique from this position
+- **[[Pull guard]]** - Primary transition technique from this position
 - **[[Transitions/Sitting Guard Pull]]** - Essential transition to seated guard positions
 - **[[Positions/Front Headlock]]** - Position to achieve after successful snap-down
 

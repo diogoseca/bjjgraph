@@ -34,6 +34,54 @@ description: "Master the Meathook position in BJJ. Strategic Rubber Guard contro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Meathook Options (MTS 202)",
+      "description": "Meathook film study: Meathook Options (MTS 202), taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
+      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Polishing the meathook",
+      "description": "Meathook film study: Polishing the meathook, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h6o7-9u4NHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h6o7-9u4NHo",
+      "url": "https://www.youtube.com/watch?v=h6o7-9u4NHo",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Troubleshooting the meathook",
+      "description": "Meathook film study: Troubleshooting the meathook, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0w0642zFqWo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0w0642zFqWo",
+      "url": "https://www.youtube.com/watch?v=0w0642zFqWo",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The position functions as a central hub in the 10th Planet system's submission c
 Understanding Meathook requires grasping its place in the larger Rubber Guard ecosystem. It typically follows Mission Control or New York, representing an escalation in control and attack potential. The position epitomizes 10th Planet's philosophy of breaking conventional guard rules—trading traditional hip mobility for extreme upper body control and submission leverage. While initially counterintuitive to practitioners trained in classical guard retention, Meathook demonstrates how systematic position chaining can overcome seemingly disadvantageous configurations through superior control mechanics and submission threats.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
+
+<p class="clip-credit"><strong>Meathook Options (MTS 202)</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h6o7-9u4NHo)
+
+<p class="clip-credit"><strong>Polishing the meathook</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=h6o7-9u4NHo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0w0642zFqWo)
+
+<p class="clip-credit"><strong>Troubleshooting the meathook</strong> — taught by Brandon McCaghren · 1:01 · <a href="https://www.youtube.com/watch?v=0w0642zFqWo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -145,25 +229,25 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Transitions/Meathook to Gogoplata Control/Attacker|Meathook to Gogoplata Control]]** (11% of attempts)
+- **[[Transitions/Meathook to Gogoplata Control/Attacker|Meathook to Gogoplata Control]]** (21% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (10% of attempts)
+- **[[Transitions/Crackhead Control to Carni/Attacker|Crackhead Control to Carni]]** (7% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (8% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (7% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (6% of attempts)
 
-- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (11% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (14% of attempts)
 
-- **[[Transitions/Baratoplata Setup/Attacker|Baratoplata Setup]]** (10% of attempts)
+- **[[Transitions/Baratoplata Setup/Attacker|Baratoplata Setup]]** (4% of attempts)
 
-- **[[Transitions/Tarikoplata Setup/Attacker|Tarikoplata Setup]]** (10% of attempts)
+- **[[Transitions/Tarikoplata Setup/Attacker|Tarikoplata Setup]]** (4% of attempts)
 
-- **[[Transitions/Sweep from Meathook/Attacker|Sweep from Meathook]]** (4% of attempts)
+- **[[Transitions/Sweep from Meathook/Attacker|Sweep from Meathook]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -228,17 +312,13 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** (28% of attempts)
+- **[[Transitions/Sprawl/Attacker|Sprawl]]** (30% of attempts)
 
-- **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (17% of attempts)
+- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (23% of attempts)
 
-- **[[Transitions/Sprawl/Attacker|Sprawl]]** (12% of attempts)
+- **[[Transitions/Posture Recovery from Meathook/Attacker|Posture Recovery from Meathook]]** (26% of attempts)
 
-- **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (17% of attempts)
-
-- **[[Transitions/Posture Recovery from Meathook/Attacker|Posture Recovery from Meathook]]** (23% of attempts)
-
-- **[[Transitions/Stack Pass from Meathook/Attacker|Stack Pass from Meathook]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Meathook/Attacker|Stack Pass from Meathook]]** (21% of attempts)
 
 
 ### Common Mistakes

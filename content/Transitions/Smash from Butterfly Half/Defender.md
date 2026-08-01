@@ -148,6 +148,43 @@ description: "Master defending the smash pass from butterfly half guard. Learn t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash from Butterfly Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention using butterfly hooks",
+      "description": "Smash from Butterfly Half (Defender) film study: Guard retention using butterfly hooks, taught by Diamondback BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/02sVMQyHuGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/02sVMQyHuGc",
+      "url": "https://www.youtube.com/watch?v=02sVMQyHuGc",
+      "creator": { "@type": "Person", "name": "Diamondback BJJ coach" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention around the legs",
+      "description": "Smash from Butterfly Half (Defender) film study: Guard retention around the legs, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ The defender in the Smash from Butterfly Half is the bottom player in butterfly 
 **Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash from Butterfly Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=02sVMQyHuGc)
+
+<p class="clip-credit"><strong>Guard retention using butterfly hooks</strong> — taught by Diamondback BJJ coach · 1:21 · <a href="https://www.youtube.com/watch?v=02sVMQyHuGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Guard retention around the legs</strong> — taught by Lachlan Giles · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

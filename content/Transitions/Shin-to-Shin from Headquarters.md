@@ -34,6 +34,43 @@ description: "Learn Shin-to-Shin entry from Headquarters Position in BJJ. Step-b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin from Headquarters \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg pummeling to shin-to-shin while passing",
+      "description": "Shin-to-Shin from Headquarters film study: Leg pummeling to shin-to-shin while passing, taught by Elite Team Monterey coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FVpbZPgoplw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FVpbZPgoplw",
+      "url": "https://www.youtube.com/watch?v=FVpbZPgoplw",
+      "creator": { "@type": "Person", "name": "Elite Team Monterey coach" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi shin to shin pass variation",
+      "description": "Shin-to-Shin from Headquarters film study: No-gi shin to shin pass variation, taught by The Base Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rRCor6OwhCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rRCor6OwhCo",
+      "url": "https://www.youtube.com/watch?v=rRCor6OwhCo",
+      "creator": { "@type": "Person", "name": "The Base Jiu Jitsu coach" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This transition represents a paradigm shift from passive guard retention to acti
 The timing window for this transition is narrow but identifiable. The optimal moment occurs when the top player shifts weight or adjusts grips to initiate a specific passing direction, momentarily lightening pressure on the controlled leg or creating space with their posting leg. Recognizing and exploiting these micro-windows separates effective guard players from those who remain trapped in the headquarters cycle of pass-defend-repass.
 
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin from Headquarters in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FVpbZPgoplw)
+
+<p class="clip-credit"><strong>Leg pummeling to shin-to-shin while passing</strong> — taught by Elite Team Monterey coach · 0:30 · <a href="https://www.youtube.com/watch?v=FVpbZPgoplw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rRCor6OwhCo)
+
+<p class="clip-credit"><strong>No-gi shin to shin pass variation</strong> — taught by The Base Jiu Jitsu coach · 2:16 · <a href="https://www.youtube.com/watch?v=rRCor6OwhCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

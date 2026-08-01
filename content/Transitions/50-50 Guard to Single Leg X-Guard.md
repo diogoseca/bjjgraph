@@ -34,6 +34,43 @@ description: "Master the 50-50 Guard to Single Leg X-Guard transition in BJJ. Co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Guard to Single Leg X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single leg X entry to honey hole sweep and heel hook",
+      "description": "50-50 Guard to Single Leg X-Guard film study: Single leg X entry to honey hole sweep and heel hook, taught by Ilya Bodnya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
+      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
+      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single leg X sweep to 50/50 transition",
+      "description": "50-50 Guard to Single Leg X-Guard film study: Single leg X sweep to 50/50 transition, taught by Won-hee Jo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TVQXVTX6Szw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TVQXVTX6Szw",
+      "url": "https://www.youtube.com/watch?v=TVQXVTX6Szw",
+      "creator": { "@type": "Person", "name": "Won-hee Jo" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Timing is critical for this transition. The optimal window occurs when opponent 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Guard to Single Leg X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+
+<p class="clip-credit"><strong>Single leg X entry to honey hole sweep and heel hook</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TVQXVTX6Szw)
+
+<p class="clip-credit"><strong>Single leg X sweep to 50/50 transition</strong> — taught by Won-hee Jo · 0:23 · <a href="https://www.youtube.com/watch?v=TVQXVTX6Szw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

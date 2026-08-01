@@ -142,6 +142,43 @@ description: "Defend against the guillotine choke from Hindulotine. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Hindulotine (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine escape secrets from bottom",
+      "description": "Guillotine Choke from Hindulotine (Defender) film study: Guillotine escape secrets from bottom, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bkTJD6RIyKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bkTJD6RIyKY",
+      "url": "https://www.youtube.com/watch?v=bkTJD6RIyKY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT118S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing guillotine escape",
+      "description": "Guillotine Choke from Hindulotine (Defender) film study: Standing guillotine escape, taught by dogtownman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8okq4cIHMO0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8okq4cIHMO0",
+      "url": "https://www.youtube.com/watch?v=8okq4cIHMO0",
+      "creator": { "@type": "Person", "name": "dogtownman" },
+      "duration": "PT44S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -152,6 +189,34 @@ Defending the guillotine choke from Hindulotine requires early recognition of th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Hindulotine (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bkTJD6RIyKY)
+
+<p class="clip-credit"><strong>Guillotine escape secrets from bottom</strong> — taught by Gordon Ryan · 1:58 · <a href="https://www.youtube.com/watch?v=bkTJD6RIyKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8okq4cIHMO0)
+
+<p class="clip-credit"><strong>Standing guillotine escape</strong> — taught by dogtownman · 0:44 · <a href="https://www.youtube.com/watch?v=8okq4cIHMO0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,25 +21,25 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Seat Belt Control Back",
-      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke from Seat Belt Control Back",
-      "text": "From this position, attempt Bow and Arrow Choke from Seat Belt Control Back. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke from Seat Belt Control Back. This technique is attempted in 0% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control to Crucifix",
-      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Back Control to Crucifix. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 17% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt Control Back (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Seatbelt Grip Quick Fix",
+      "description": "Seat Belt Control Back (Top) film study: Seatbelt Grip Quick Fix, taught by Ben Kool.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "creator": { "@type": "Person", "name": "Ben Kool" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Deep Seatbelt Control",
+      "description": "Seat Belt Control Back (Top) film study: Deep Seatbelt Control, taught by Tom Halpin.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rvh8MFq_tb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rvh8MFq_tb0",
+      "url": "https://www.youtube.com/watch?v=rvh8MFq_tb0",
+      "creator": { "@type": "Person", "name": "Tom Halpin" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Application Against a Seated Opponent",
+      "description": "Seat Belt Control Back (Top) film study: Application Against a Seated Opponent, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Es7T1KjTUpI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Es7T1KjTUpI",
+      "url": "https://www.youtube.com/watch?v=Es7T1KjTUpI",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT157S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The position's strategic value derives from the combination of grip control, hoo
 Seat belt control excels when opponent is attempting to escape or defend, as their defensive movements often create submission opportunities rather than freedom. The position's sustainability allows practitioners to maintain control even when fatigued, making it ideal for competition scenarios where controlling position equals victory. The primary vulnerability occurs during submission attempts when control must be temporarily compromised, and when opponent uses explosive turning motions combined with grip breaking.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt Control Back (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
+
+<p class="clip-credit"><strong>Seatbelt Grip Quick Fix</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rvh8MFq_tb0)
+
+<p class="clip-credit"><strong>Deep Seatbelt Control</strong> — taught by Tom Halpin · 1:51 · <a href="https://www.youtube.com/watch?v=rvh8MFq_tb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Es7T1KjTUpI)
+
+<p class="clip-credit"><strong>Application Against a Seated Opponent</strong> — taught by John Danaher · 2:37 · <a href="https://www.youtube.com/watch?v=Es7T1KjTUpI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

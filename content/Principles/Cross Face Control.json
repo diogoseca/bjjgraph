@@ -385,43 +385,172 @@
   "flashcards": [
     {
       "question": "What is cross face control and how does it dominate top positions?",
-      "answer": "It is forearm and shoulder pressure driven across the opponent's face from the near side toward the far side, turning their head away from escape angles so the body cannot follow into a defensive frame."
+      "answer": "It is forearm and shoulder pressure driven across the opponent's face from the near side toward the far side, turning their head away from escape angles so the body cannot follow into a defensive frame.",
+      "answer_line": "Steer head away, body follows",
+      "distractors": {
+        "plausible": [
+          "Pin shoulders flat to the mat",
+          "Control the far-side hip"
+        ],
+        "trap": [
+          "Grab both hands, ignore head"
+        ]
+      }
     },
     {
       "question": "Why should crossface pressure come from the forearm and shoulder rather than the hand?",
-      "answer": "Hand pressure is muscular, weak, and easily pushed away; driving the forearm across the jaw with shoulder weight behind it uses skeletal structure and body weight for sustained, low-energy control."
+      "answer": "Hand pressure is muscular, weak, and easily pushed away; driving the forearm across the jaw with shoulder weight behind it uses skeletal structure and body weight for sustained, low-energy control.",
+      "answer_line": "Skeletal structure, not muscle",
+      "distractors": {
+        "plausible": [
+          "Push with the palm for speed",
+          "Grip collar, pull head down"
+        ],
+        "trap": [
+          "Squeeze hardest with the hand"
+        ]
+      }
     },
     {
       "question": "How deep must a crossface be to effectively control the opponent's head?",
-      "answer": "The forearm should drive past the centerline of the opponent's head toward the far ear; a shallow crossface that stops short lets them turn back in and rebuild defensive frames."
+      "answer": "The forearm should drive past the centerline of the opponent's head toward the far ear; a shallow crossface that stops short lets them turn back in and rebuild defensive frames.",
+      "answer_line": "Drive forearm past centerline",
+      "distractors": {
+        "plausible": [
+          "Rest forearm on the near cheek",
+          "Press temple, stop at nose"
+        ],
+        "trap": [
+          "Stay shallow to save energy"
+        ]
+      }
     },
     {
       "question": "Why is timing critical when establishing a crossface?",
-      "answer": "Crossface must be set during the transition moment before the opponent orients and builds near-side frames, since it is far harder to fight through established frames than to prevent them forming."
+      "answer": "Crossface must be set during the transition moment before the opponent orients and builds near-side frames, since it is far harder to fight through established frames than to prevent them forming.",
+      "answer_line": "Set it before frames form",
+      "distractors": {
+        "plausible": [
+          "Wait for them to settle first",
+          "Apply after securing hips"
+        ],
+        "trap": [
+          "Establish frames, then crossface"
+        ]
+      }
     },
     {
       "question": "How do you free your hand for submissions without losing the crossface?",
-      "answer": "Transfer the head control from active hand pressure onto shoulder and body weight first, then peel the hand off; never abandon the crossface before the shoulder is already carrying the load."
+      "answer": "Transfer the head control from active hand pressure onto shoulder and body weight first, then peel the hand off; never abandon the crossface before the shoulder is already carrying the load.",
+      "answer_line": "Shift weight to shoulder first",
+      "distractors": {
+        "plausible": [
+          "Rip hand free, replace it fast",
+          "Switch base then peel hand"
+        ],
+        "trap": [
+          "Let go of head, grab the arm"
+        ]
+      }
     },
     {
       "question": "Why must crossface always be paired with hip pressure?",
-      "answer": "Crossface alone controls only the upper body; without complementary hip control the opponent can shrimp or bridge away even with the head pinned, so both must work together to seal escapes."
+      "answer": "Crossface alone controls only the upper body; without complementary hip control the opponent can shrimp or bridge away even with the head pinned, so both must work together to seal escapes.",
+      "answer_line": "Pair with hips to seal escapes",
+      "distractors": {
+        "plausible": [
+          "Crossface alone stops bridging",
+          "Add crossface after hips lock"
+        ],
+        "trap": [
+          "Ignore hips, hunt the choke"
+        ]
+      }
     },
     {
       "question": "What is the danger of holding maximal crossface pressure for the entire round?",
-      "answer": "Constant heavy pressure drains your own energy; pressure should be modulated, heavy to create openings or stop active escapes and lighter for maintenance when the position is already secure."
+      "answer": "Constant heavy pressure drains your own energy; pressure should be modulated, heavy to create openings or stop active escapes and lighter for maintenance when the position is already secure.",
+      "answer_line": "Modulate: heavy then light",
+      "distractors": {
+        "plausible": [
+          "Max pressure the entire round",
+          "Light pressure, save your gas"
+        ],
+        "trap": [
+          "Go heavy only when tired"
+        ]
+      }
     },
     {
       "question": "From the bottom, what does effective crossface defense look like?",
-      "answer": "Frame against the crossfacing arm and turn your chin toward the pressure before it crosses your centerline, recovering inside space so the head can face the opponent and rebuild guard."
+      "answer": "Frame against the crossfacing arm and turn your chin toward the pressure before it crosses your centerline, recovering inside space so the head can face the opponent and rebuild guard.",
+      "answer_line": "Frame and turn chin into it",
+      "distractors": {
+        "plausible": [
+          "Push their head away with palm",
+          "Bridge hard to buck them off"
+        ],
+        "trap": [
+          "Turn away from the pressure"
+        ]
+      }
     },
     {
       "question": "How does crossface relate to the broader Head Position principle?",
-      "answer": "Crossface is a specific implementation of Head Position: by steering the head it limits whole-body movement, exploiting the fact that the torso and hips must follow wherever the head is forced to go."
+      "answer": "Crossface is a specific implementation of Head Position: by steering the head it limits whole-body movement, exploiting the fact that the torso and hips must follow wherever the head is forced to go.",
+      "answer_line": "Head steers the whole body",
+      "distractors": {
+        "plausible": [
+          "Crossface controls hips first",
+          "It replaces Head Position rule"
+        ],
+        "trap": [
+          "Torso leads, head follows"
+        ]
+      }
     },
     {
       "question": "Why does the same crossface depth and angle fail across different opponents?",
-      "answer": "Larger, stronger, or differently structured opponents demand adjusted depth, angle, and pressure; a one-size-fits-all crossface leaves gaps that flexible or powerful opponents exploit to turn back in."
+      "answer": "Larger, stronger, or differently structured opponents demand adjusted depth, angle, and pressure; a one-size-fits-all crossface leaves gaps that flexible or powerful opponents exploit to turn back in.",
+      "answer_line": "Adjust depth/angle to opponent",
+      "distractors": {
+        "plausible": [
+          "Same depth works on everyone",
+          "Use max pressure for big guys"
+        ],
+        "trap": [
+          "Rely on grip strength alone"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "PTe4-NhLXf8",
+      "title": "Shallow cross face detail",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "Dohn Janaher ",
+      "duration": 24,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "eA9MZmfVrmA",
+      "title": "Setting a crossface: a crucial control skill",
+      "by": "John Danaher",
+      "vertical": false,
+      "channel": "BJJ Fanatics",
+      "duration": 435,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "IugFZC3fjDg",
+      "title": "How to maximize your crossface pressure",
+      "by": "Rob Vella",
+      "vertical": false,
+      "channel": "RVV BJJ",
+      "duration": 326,
+      "verified": "2026-07-15"
     }
   ]
 }

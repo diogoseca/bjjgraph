@@ -34,6 +34,43 @@ description: "Master the Outside Heel Hook Adjustment from Ushiro Ashi-Garami. G
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook Adjustment \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified heel hook grip adjustment",
+      "description": "Outside Heel Hook Adjustment film study: Modified heel hook grip adjustment, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eODg9V29QXU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eODg9V29QXU",
+      "url": "https://www.youtube.com/watch?v=eODg9V29QXU",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "American heel hook finish detail",
+      "description": "Outside Heel Hook Adjustment film study: American heel hook finish detail, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O7Dr2Ymq3PQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O7Dr2Ymq3PQ",
+      "url": "https://www.youtube.com/watch?v=O7Dr2Ymq3PQ",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT11S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,13 +107,41 @@ Strategically, the Outside Heel Hook Adjustment represents a commitment to finis
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook Adjustment in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eODg9V29QXU)
+
+<p class="clip-credit"><strong>Modified heel hook grip adjustment</strong> — taught by Andre Galvao · 1:23 · <a href="https://www.youtube.com/watch?v=eODg9V29QXU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O7Dr2Ymq3PQ)
+
+<p class="clip-credit"><strong>American heel hook finish detail</strong> — taught by bjjtaro · 0:11 · <a href="https://www.youtube.com/watch?v=O7Dr2Ymq3PQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="possible-outcomes" class="content-section">
 
 ## Possible Outcomes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Outside Heel Hook]] | 55% |
+| Success | [[Outside Heel Hook from Ushiro Ashi-Garami]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
@@ -235,7 +300,7 @@ The Outside Heel Hook Adjustment sits within the comprehensive ashi-garami attac
 
 - [[Submissions/Inside Heel Hook]] - Alternative heel hook attack from reversed configuration
 
-- [[Transitions/Heel Hook]] - Parent submission category
+- [[Submissions/Heel Hook]] - Parent submission category
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard position that often leads to ushiro through opponent inversion
 
@@ -249,7 +314,7 @@ The Outside Heel Hook Adjustment sits within the comprehensive ashi-garami attac
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement position in the ashi system
 
-- [[Transitions/Outside Heel Hook]] - Standard outside heel hook transition from non-reversed positions
+- [[Submissions/Outside Heel Hook]] - Standard outside heel hook transition from non-reversed positions
 
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative entanglement accessible during failed adjustment
 

@@ -34,6 +34,43 @@ description: "Master the inversion escape from reverse half guard bottom. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Invert from Reverse Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted Half Guard Sweep to Ezequiel from the Back",
+      "description": "Invert from Reverse Half Guard film study: Inverted Half Guard Sweep to Ezequiel from the Back, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcRISvtG3g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcRISvtG3g",
+      "url": "https://www.youtube.com/watch?v=iwcRISvtG3g",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Recovery Trick When Getting Smashed",
+      "description": "Invert from Reverse Half Guard film study: Guard Recovery Trick When Getting Smashed, taught by Finesse Jiujitsu HTX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
+      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
+      "creator": { "@type": "Person", "name": "Finesse Jiujitsu HTX" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique requires precise timing and full commitment. The optimal window o
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Invert from Reverse Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcRISvtG3g)
+
+<p class="clip-credit"><strong>Inverted Half Guard Sweep to Ezequiel from the Back</strong> — taught by Carpio Jiu Jitsu · 1:56 · <a href="https://www.youtube.com/watch?v=iwcRISvtG3g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhNZGloJ56c)
+
+<p class="clip-credit"><strong>Guard Recovery Trick When Getting Smashed</strong> — taught by Finesse Jiujitsu HTX · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

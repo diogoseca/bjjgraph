@@ -164,6 +164,54 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frames \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Frames as a core concept",
+      "description": "Frames film study: Frames as a core concept, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/57YaKxCRqzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/57YaKxCRqzk",
+      "url": "https://www.youtube.com/watch?v=57YaKxCRqzk",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT295S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three most critical concepts of BJJ, including frames",
+      "description": "Frames film study: Three most critical concepts of BJJ, including frames, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/j5RaxEV9fx8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/j5RaxEV9fx8",
+      "url": "https://www.youtube.com/watch?v=j5RaxEV9fx8",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT702S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Framing for effective side control escapes",
+      "description": "Frames film study: Framing for effective side control escapes, taught by The BJJ Project.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ary963VdmqY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ary963VdmqY",
+      "url": "https://www.youtube.com/watch?v=ary963VdmqY",
+      "creator": { "@type": "Person", "name": "The BJJ Project" },
+      "duration": "PT199S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Frames?
@@ -173,6 +221,42 @@ description: "Master Frames in BJJ. Learn skeletal alignment, force distribution
 Within BJJ's defensive hierarchy, framing sits alongside distance management and hip movement as one of the three pillars that keep a defending player alive under a heavier, more dominant opponent. Unlike specific techniques, framing is a conceptual framework applicable across all positions and phases of the art — it is taught on day one yet refined across an entire career. Frames function as temporary structural supports that redirect force, create defensive space, and establish the foundation for subsequent escapes, transitions, or offensive opportunities. The concept encompasses understanding proper skeletal alignment, force distribution, connection points, and the strategic timing of frame establishment. Frame creation serves as the primary defensive mechanism that enables a practitioner to survive disadvantageous positions and create the opportunity for positional improvement, making it one of the most essential conceptual elements for both beginners and advanced practitioners. Mastery of framing transforms defensive situations from desperate struggles into calculated defensive structures that systematically neutralize opponent pressure while creating pathways for recovery.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frames in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=57YaKxCRqzk)
+
+<p class="clip-credit"><strong>Frames as a core concept</strong> — taught by Absolute MMA St Kilda · 4:55 · <a href="https://www.youtube.com/watch?v=57YaKxCRqzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=j5RaxEV9fx8)
+
+<p class="clip-credit"><strong>Three most critical concepts of BJJ, including frames</strong> — taught by Stephan Kesting · 11:42 · <a href="https://www.youtube.com/watch?v=j5RaxEV9fx8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ary963VdmqY)
+
+<p class="clip-credit"><strong>Framing for effective side control escapes</strong> — taught by The BJJ Project · 3:19 · <a href="https://www.youtube.com/watch?v=ary963VdmqY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

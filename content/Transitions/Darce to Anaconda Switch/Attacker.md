@@ -180,6 +180,54 @@ description: "Master the attacking mechanics of the Darce to Anaconda Switch. Le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce to Anaconda Switch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce vs anaconda: switching between the grips",
+      "description": "Darce to Anaconda Switch (Attacker) film study: Darce vs anaconda: switching between the grips, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce, Anaconda and Guillotine from Front Headlock",
+      "description": "Darce to Anaconda Switch (Attacker) film study: Darce, Anaconda and Guillotine from Front Headlock, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m-lsvmzr8zc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m-lsvmzr8zc",
+      "url": "https://www.youtube.com/watch?v=m-lsvmzr8zc",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT507S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Darce vs Anaconda: How the Switch Differs",
+      "description": "Darce to Anaconda Switch (Attacker) film study: Darce vs Anaconda: How the Switch Differs, taught by Chad Hardy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2FwrOrzR3kk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2FwrOrzR3kk",
+      "url": "https://www.youtube.com/watch?v=2FwrOrzR3kk",
+      "creator": { "@type": "Person", "name": "Chad Hardy" },
+      "duration": "PT161S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 **From Position**: [[Positions/Darce Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce to Anaconda Switch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Darce vs anaconda: switching between the grips</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m-lsvmzr8zc)
+
+<p class="clip-credit"><strong>Darce, Anaconda and Guillotine from Front Headlock</strong> — taught by Brian Glick · 8:27 · <a href="https://www.youtube.com/watch?v=m-lsvmzr8zc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2FwrOrzR3kk)
+
+<p class="clip-credit"><strong>Darce vs Anaconda: How the Switch Differs</strong> — taught by Chad Hardy · 2:41 · <a href="https://www.youtube.com/watch?v=2FwrOrzR3kk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

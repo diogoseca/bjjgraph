@@ -34,6 +34,43 @@ description: "Master Elbow Escape to Remove Hooks from back control. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape to Remove Hooks \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape against the top hook",
+      "description": "Elbow Escape to Remove Hooks film study: Back escape against the top hook, taught by Mattix Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/43iZ-GLc_r8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/43iZ-GLc_r8",
+      "url": "https://www.youtube.com/watch?v=43iZ-GLc_r8",
+      "creator": { "@type": "Person", "name": "Mattix Academy" },
+      "duration": "PT144S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping back control with both hooks in",
+      "description": "Elbow Escape to Remove Hooks film study: Escaping back control with both hooks in, taught by Dinu Bucalet.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wwa4llL0E1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wwa4llL0E1s",
+      "url": "https://www.youtube.com/watch?v=wwa4llL0E1s",
+      "creator": { "@type": "Person", "name": "Dinu Bucalet" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The fundamental concept involves using your elbows as wedges against your oppone
 This escape is particularly effective against the invisible collar because it doesn't require you to remove your hands from neck defense to fight hooks. The elbow mechanics allow you to address both threats simultaneously—protecting your neck while dismantling their lower body control. Successful execution requires patience, proper sequencing, and the discipline to complete each phase fully before moving to the next. Rushing any step typically results in the opponent simply re-establishing the cleared hook.
 
 **From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
-**Success Rate**: 48%
+**Success Rate**: 23%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape to Remove Hooks in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=43iZ-GLc_r8)
+
+<p class="clip-credit"><strong>Back escape against the top hook</strong> — taught by Mattix Academy · 2:24 · <a href="https://www.youtube.com/watch?v=43iZ-GLc_r8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wwa4llL0E1s)
+
+<p class="clip-credit"><strong>Escaping back control with both hooks in</strong> — taught by Dinu Bucalet · 2:39 · <a href="https://www.youtube.com/watch?v=wwa4llL0E1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

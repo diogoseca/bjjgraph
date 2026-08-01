@@ -34,6 +34,43 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from Guard",
+      "description": "Kimura from Guard film study: Kimura from Guard, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KAxTmcxGc60/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KAxTmcxGc60",
+      "url": "https://www.youtube.com/watch?v=KAxTmcxGc60",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The Perfect Kimura (Gracie Breakdown)",
+      "description": "Kimura from Guard film study: The Perfect Kimura (Gracie Breakdown), taught by Gracie Breakdown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y1ubVWKdbXU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y1ubVWKdbXU",
+      "url": "https://www.youtube.com/watch?v=Y1ubVWKdbXU",
+      "creator": { "@type": "Person", "name": "Gracie Breakdown" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The position operates on the principle that the figure-four grip isolates the sh
 **Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KAxTmcxGc60)
+
+<p class="clip-credit"><strong>Kimura from Guard</strong> — taught by Gracie Charlottesville · 0:36 · <a href="https://www.youtube.com/watch?v=KAxTmcxGc60" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y1ubVWKdbXU)
+
+<p class="clip-credit"><strong>The Perfect Kimura (Gracie Breakdown)</strong> — taught by Gracie Breakdown · 0:30 · <a href="https://www.youtube.com/watch?v=Y1ubVWKdbXU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -260,11 +325,10 @@ The position operates on the principle that the figure-four grip isolates the sh
 ## Related
 - [[Submissions/Kimura]]
 - [[Submissions/Monoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Transitions/Gogoplata]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Triangle Choke]]
-- [[Submissions/Flying Armbar]]
 - [[Submissions/Omoplata]]
 - [[Submissions/Americana]]
 - [[Submissions/Baratoplata]]

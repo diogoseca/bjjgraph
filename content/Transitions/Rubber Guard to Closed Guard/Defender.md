@@ -140,6 +140,43 @@ description: "Defend against the Rubber Guard to Closed Guard transition from th
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard to Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Why Rubber Guard doesn\u0027t work - countering it",
+      "description": "Rubber Guard to Closed Guard (Defender) film study: Why Rubber Guard doesn\u0027t work - countering it, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT792S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard Fundamentals: mechanics and answers",
+      "description": "Rubber Guard to Closed Guard (Defender) film study: Rubber Guard Fundamentals: mechanics and answers, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ukIp8aQu4M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ukIp8aQu4M",
+      "url": "https://www.youtube.com/watch?v=7ukIp8aQu4M",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT535S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player defending against the Rubber Guard to Closed Guard transition,
 **Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard to Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Why Rubber Guard doesn&#39;t work - countering it</strong> — taught by Brandon McCaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7ukIp8aQu4M)
+
+<p class="clip-credit"><strong>Rubber Guard Fundamentals: mechanics and answers</strong> — taught by Knight Jiu-Jitsu · 8:55 · <a href="https://www.youtube.com/watch?v=7ukIp8aQu4M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Sit to Half Guard is a defensive escape from the Buggy Choke where the bottom player sits through from turtle to recover a leg entanglement, exchanging a collapsing turtle for the stronger framing and offense of Half Guard.",
   "overview": "The Sit to Half Guard transition represents a fundamental defensive escape from the Buggy Choke position that prioritizes guard recovery over continued turtle defense. When an opponent establishes threatening collar control from turtle top, the sitting motion creates a structural change that eliminates the choking angle while simultaneously recovering a leg entanglement that offers better defensive options.\n\nThis escape operates on the principle that Half Guard, while still a bottom position, provides significantly better defensive structure than remaining in a deteriorating turtle against a skilled attacker. The transition exploits the brief window where the opponent must adjust their weight distribution during your sitting motion, creating opportunity to establish the inside knee shield and hip positioning characteristic of effective Half Guard defense.\n\nStrategically, this technique is most valuable when grip prevention has failed and the opponent has begun establishing deep collar access. Rather than continuing a losing grip fight from turtle, the proactive sit creates immediate positional change that forces the top player to abandon their choking mechanics and address the new guard configuration. The timing window is critical—execute too early and you create unnecessary back exposure, too late and the choke is already locked.",
   "conditions": [
@@ -216,54 +228,194 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Sit to Half Guard escape?",
-        "answer": "The primary goal is to recover guard position by transitioning from deteriorating turtle defense to Half Guard structure. This exchanges a position where you're being choked for one where you have defensive frames, leg entanglement, and the ability to attack or recover full guard."
+        "answer": "The primary goal is to recover guard position by transitioning from deteriorating turtle defense to Half Guard structure. This exchanges a position where you're being choked for one where you have defensive frames, leg entanglement, and the ability to attack or recover full guard.",
+        "answer_line": "Escape turtle into Half Guard",
+        "distractors": {
+          "plausible": [
+            "Sweep opponent immediately",
+            "Submit opponent from turtle"
+          ],
+          "trap": [
+            "Stay in turtle and wait"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to execute this escape?",
-        "answer": "Execute after opponent establishes grip access but before they apply full perpendicular body pressure with the choke locked. This window typically occurs during their weight transition while deepening grips. Too early exposes your back unnecessarily; too late and the sitting motion tightens an already-locked choke."
+        "answer": "Execute after opponent establishes grip access but before they apply full perpendicular body pressure with the choke locked. This window typically occurs during their weight transition while deepening grips. Too early exposes your back unnecessarily; too late and the sitting motion tightens an already-locked choke.",
+        "answer_line": "Before choke fully locks",
+        "distractors": {
+          "plausible": [
+            "As soon as they touch you",
+            "After choke is locked"
+          ],
+          "trap": [
+            "Wait for perpendicular pressure"
+          ]
+        }
       },
       {
         "question": "What is the most critical body part to position immediately as your hip contacts the mat?",
-        "answer": "Your inside knee must insert across opponent's torso as a shield frame simultaneously with your hip landing. This prevents immediate pass to mount or side control. Without the knee shield, the sitting motion creates a worse position than staying in turtle."
+        "answer": "Your inside knee must insert across opponent's torso as a shield frame simultaneously with your hip landing. This prevents immediate pass to mount or side control. Without the knee shield, the sitting motion creates a worse position than staying in turtle.",
+        "answer_line": "Insert knee shield same time",
+        "distractors": {
+          "plausible": [
+            "Post hand down first",
+            "Turn head away from opponent"
+          ],
+          "trap": [
+            "Extend legs straight out"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your sit and begins inserting hooks for back control - what adjustment do you make?",
-        "answer": "Accelerate your hip escape away from opponent while prioritizing facing them over protecting your back. Turn aggressively toward opponent, insert knee shield, and accept that brief back exposure is preferable to allowing hook establishment. Speed and commitment defeat the back take attempt."
+        "answer": "Accelerate your hip escape away from opponent while prioritizing facing them over protecting your back. Turn aggressively toward opponent, insert knee shield, and accept that brief back exposure is preferable to allowing hook establishment. Speed and commitment defeat the back take attempt.",
+        "answer_line": "Accelerate escape, face opponent",
+        "distractors": {
+          "plausible": [
+            "Slow down, protect your back",
+            "Grab both hooks with hands"
+          ],
+          "trap": [
+            "Stop moving, turtle up tight"
+          ]
+        }
       },
       {
         "question": "Why must the sitting motion be directed toward the opponent rather than away?",
-        "answer": "Sitting toward opponent closes distance necessary for immediate leg entanglement and Half Guard establishment. Sitting away creates space that opponent uses to disengage from failed choke, reset to dominant top position, or easily take back control during your extended transition."
+        "answer": "Sitting toward opponent closes distance necessary for immediate leg entanglement and Half Guard establishment. Sitting away creates space that opponent uses to disengage from failed choke, reset to dominant top position, or easily take back control during your extended transition.",
+        "answer_line": "Closes distance to entangle legs",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up",
+            "Protects back from hooks"
+          ],
+          "trap": [
+            "Sit away to create escape room"
+          ]
+        }
       },
       {
         "question": "What role does the outside leg hook play in completing this transition?",
-        "answer": "The outside leg hook on opponent's far leg establishes the Half Guard entanglement that prevents them from simply stepping over your knee shield. Without this hook, the knee shield alone is insufficient—opponent extracts their leg and passes to mount before your guard retention structure is complete."
+        "answer": "The outside leg hook on opponent's far leg establishes the Half Guard entanglement that prevents them from simply stepping over your knee shield. Without this hook, the knee shield alone is insufficient—opponent extracts their leg and passes to mount before your guard retention structure is complete.",
+        "answer_line": "Traps far leg, locks Half Guard",
+        "distractors": {
+          "plausible": [
+            "Controls near arm for sweep",
+            "Sets up knee shield alone"
+          ],
+          "trap": [
+            "Release hook to scramble free"
+          ]
+        }
       },
       {
         "question": "How should you adjust if opponent sprawls heavily to prevent your hip movement?",
-        "answer": "Switch to granby roll escape in the opposite direction. The sprawl commits opponent's weight forward onto your back, which creates space behind you for the rolling escape. Their defensive reaction to one escape creates the opening for another, illustrating why chaining escapes is essential."
+        "answer": "Switch to granby roll escape in the opposite direction. The sprawl commits opponent's weight forward onto your back, which creates space behind you for the rolling escape. Their defensive reaction to one escape creates the opening for another, illustrating why chaining escapes is essential.",
+        "answer_line": "Switch to granby roll escape",
+        "distractors": {
+          "plausible": [
+            "Push harder into the sit",
+            "Fight grips from turtle"
+          ],
+          "trap": [
+            "Force the sit through sprawl"
+          ]
+        }
       },
       {
         "question": "What grip breaking opportunity does the sitting motion create?",
-        "answer": "The structural change during sitting displaces opponent's perpendicular pressure angle and rotates your body away from the choking configuration. This is more effective than grip fighting from static turtle because the positional change mechanically disrupts their grip connection rather than relying on hand fighting strength."
+        "answer": "The structural change during sitting displaces opponent's perpendicular pressure angle and rotates your body away from the choking configuration. This is more effective than grip fighting from static turtle because the positional change mechanically disrupts their grip connection rather than relying on hand fighting strength.",
+        "answer_line": "Rotation breaks grip mechanically",
+        "distractors": {
+          "plausible": [
+            "Hand fight to strip the grip",
+            "Pull collar down hard"
+          ],
+          "trap": [
+            "Stay static and grip fight"
+          ]
+        }
       },
       {
         "question": "When should you abandon the sit escape and accept back control instead?",
-        "answer": "When the choke is fully locked with deep collar grip, second grip secured, and perpendicular body pressure applied, sitting will tighten the choke. In this scenario, accepting back control offers survival with continued defensive options, whereas sitting accelerates submission. Recognize this threshold and switch defensive strategies."
+        "answer": "When the choke is fully locked with deep collar grip, second grip secured, and perpendicular body pressure applied, sitting will tighten the choke. In this scenario, accepting back control offers survival with continued defensive options, whereas sitting accelerates submission. Recognize this threshold and switch defensive strategies.",
+        "answer_line": "When choke is fully locked deep",
+        "distractors": {
+          "plausible": [
+            "As soon as hooks touch your hip",
+            "When you feel tired"
+          ],
+          "trap": [
+            "Never accept back, keep sitting"
+          ]
+        }
       },
       {
         "question": "What posting hand position is optimal for initiating the sitting motion?",
-        "answer": "Plant your near hand firmly beside your hip with fingers pointing toward your feet. This creates the pivot point for hip rotation and guides the sitting direction. The posting hand supports your weight during transition and helps drive the far hip underneath your body toward the guard recovery position."
+        "answer": "Plant your near hand firmly beside your hip with fingers pointing toward your feet. This creates the pivot point for hip rotation and guides the sitting direction. The posting hand supports your weight during transition and helps drive the far hip underneath your body toward the guard recovery position.",
+        "answer_line": "Near hand beside hip, fingers back",
+        "distractors": {
+          "plausible": [
+            "Far hand posted overhead",
+            "Both hands on opponent's collar"
+          ],
+          "trap": [
+            "Post hand behind your own back"
+          ]
+        }
       },
       {
         "question": "Your opponent has shallow buggy choke grips and is attempting to deepen them - do you sit immediately or fight grips first?",
-        "answer": "Sit immediately. Shallow grips mean the choke lacks finishing power, and the sitting motion itself mechanically disrupts grip depth through structural change. Fighting grips from static turtle gives the opponent time to consolidate pressure and deepen the grip. The window during shallow grip establishment is your highest-percentage escape opportunity."
+        "answer": "Sit immediately. Shallow grips mean the choke lacks finishing power, and the sitting motion itself mechanically disrupts grip depth through structural change. Fighting grips from static turtle gives the opponent time to consolidate pressure and deepen the grip. The window during shallow grip establishment is your highest-percentage escape opportunity.",
+        "answer_line": "Sit immediately, don't fight grips",
+        "distractors": {
+          "plausible": [
+            "Fight grips first, then sit",
+            "Wait for grips to deepen"
+          ],
+          "trap": [
+            "Grip fight from static turtle"
+          ]
+        }
       },
       {
         "question": "After arriving in Half Guard, what is the first grip you should prioritize establishing?",
-        "answer": "Prioritize the underhook on the near side if available, as it provides the strongest offensive Half Guard platform with immediate sweep and back take threats. If the underhook is not available due to opponent's crossface pressure, establish knee shield with collar-and-sleeve control to create distance and rebuild your defensive framework before attacking."
+        "answer": "Prioritize the underhook on the near side if available, as it provides the strongest offensive Half Guard platform with immediate sweep and back take threats. If the underhook is not available due to opponent's crossface pressure, establish knee shield with collar-and-sleeve control to create distance and rebuild your defensive framework before attacking.",
+        "answer_line": "Near-side underhook if available",
+        "distractors": {
+          "plausible": [
+            "Overhook on far arm",
+            "Double collar tie control"
+          ],
+          "trap": [
+            "Let go of all grips to reset"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This escape involves rapid positional transition with brief back exposure that can result in neck strain if executed against a fully-locked choke. Never attempt the sitting motion when opponent has deep collar grip with perpendicular pressure already applied—the rotation will tighten the choke around your neck. Train the timing recognition extensively with cooperative partners before adding resistance. Ensure your neck has warmed up adequately before drilling turtle escapes. When drilling at higher intensities, tap immediately if you feel choking pressure increase during the sitting motion rather than fighting through. Partners should release collar grips quickly when they feel the escape initiating to allow safe technical development."
+    "safety_considerations": "This escape involves rapid positional transition with brief back exposure that can result in neck strain if executed against a fully-locked choke. Never attempt the sitting motion when opponent has deep collar grip with perpendicular pressure already applied—the rotation will tighten the choke around your neck. Train the timing recognition extensively with cooperative partners before adding resistance. Ensure your neck has warmed up adequately before drilling turtle escapes. When drilling at higher intensities, tap immediately if you feel choking pressure increase during the sitting motion rather than fighting through. Partners should release collar grips quickly when they feel the escape initiating to allow safe technical development.",
+    "clips": [
+      {
+        "id": "pTLNsCv1aCw",
+        "title": "Turtle to Half Guard",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 216,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "jNC34nzjpOg",
+        "title": "Turtle Guard Sweeps and Reversals",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 249,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sit to Half Guard Defender",
@@ -354,23 +506,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt the Sit to Half Guard escape?",
-        "answer": "The earliest cue is opponent planting their near hand firmly on the mat beside their hip with fingers pointing toward their feet. This posting hand establishes the pivot point for the entire sitting motion. When you detect this hand placement combined with a lateral hip shift, the sit is imminent and you must respond within one to two seconds."
+        "answer": "The earliest cue is opponent planting their near hand firmly on the mat beside their hip with fingers pointing toward their feet. This posting hand establishes the pivot point for the entire sitting motion. When you detect this hand placement combined with a lateral hip shift, the sit is imminent and you must respond within one to two seconds.",
+        "answer_line": "Hand posts beside hip, fingers back",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip escape",
+            "They release collar grip"
+          ],
+          "trap": [
+            "Wait until hip fully drops"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun the sitting motion and their hip is already dropping - should you try to prevent the sit or follow to take the back?",
-        "answer": "Follow to take the back. Once the hip drop has begun with momentum, attempting to prevent the sit requires excessive force and often results in losing both the choke and positional control. Instead, maintain your seatbelt grip, follow their hip movement, and immediately insert hooks while their back is exposed during the transition. The sitting motion guarantees back exposure—capitalize on it."
+        "answer": "Follow to take the back. Once the hip drop has begun with momentum, attempting to prevent the sit requires excessive force and often results in losing both the choke and positional control. Instead, maintain your seatbelt grip, follow their hip movement, and immediately insert hooks while their back is exposed during the transition. The sitting motion guarantees back exposure—capitalize on it.",
+        "answer_line": "Follow hip, insert hooks now",
+        "distractors": {
+          "plausible": [
+            "Fight to prevent the sit",
+            "Release seatbelt to reset"
+          ],
+          "trap": [
+            "Muscle through to stop the sit"
+          ]
+        }
       },
       {
         "question": "Why is maintaining the collar grip critical even when the buggy choke is no longer finishable during the sit?",
-        "answer": "The collar grip serves dual purpose beyond the choke: it controls opponent's upper body rotation and provides the foundation for converting to seatbelt or crossface control during transition. Releasing the collar grip gives opponent complete freedom to rotate, insert knee shield, and establish underhook—all of which make your position dramatically worse. Grip retention maintains connection even as the attack evolves."
+        "answer": "The collar grip serves dual purpose beyond the choke: it controls opponent's upper body rotation and provides the foundation for converting to seatbelt or crossface control during transition. Releasing the collar grip gives opponent complete freedom to rotate, insert knee shield, and establish underhook—all of which make your position dramatically worse. Grip retention maintains connection even as the attack evolves.",
+        "answer_line": "Controls rotation, aids seatbelt",
+        "distractors": {
+          "plausible": [
+            "Keeps choke finishing power",
+            "Blocks their knee shield alone"
+          ],
+          "trap": [
+            "Release collar to grab both legs"
+          ]
+        }
       },
       {
         "question": "Your opponent completes the sit and begins inserting their knee shield - what is your immediate priority?",
-        "answer": "Drive your hips forward aggressively to eliminate the space needed for the knee shield. Pin their inside knee with your hip pressure before the shin can cross your torso. Simultaneously, establish crossface control with your free hand to prevent them from creating the angle needed for effective Half Guard. If the knee shield is fully established, you must accept Half Guard top and begin your passing sequence."
+        "answer": "Drive your hips forward aggressively to eliminate the space needed for the knee shield. Pin their inside knee with your hip pressure before the shin can cross your torso. Simultaneously, establish crossface control with your free hand to prevent them from creating the angle needed for effective Half Guard. If the knee shield is fully established, you must accept Half Guard top and begin your passing sequence.",
+        "answer_line": "Drive hips forward, pin knee",
+        "distractors": {
+          "plausible": [
+            "Grab both ankles quickly",
+            "Sit back and reset base"
+          ],
+          "trap": [
+            "Back away to create space"
+          ]
+        }
       },
       {
         "question": "How does the sprawl counter to the sit create vulnerability to the granby roll escape?",
-        "answer": "Heavy forward sprawl commits your weight onto opponent's upper back, which pins their hips but simultaneously creates space behind them and loads their body in the direction needed for a granby roll. An astute bottom player recognizes this weight commitment and redirects to a rolling escape. Balance your sprawl pressure—heavy enough to restrict hip movement but not so committed forward that you cannot retract if they change escape direction."
+        "answer": "Heavy forward sprawl commits your weight onto opponent's upper back, which pins their hips but simultaneously creates space behind them and loads their body in the direction needed for a granby roll. An astute bottom player recognizes this weight commitment and redirects to a rolling escape. Balance your sprawl pressure—heavy enough to restrict hip movement but not so committed forward that you cannot retract if they change escape direction.",
+        "answer_line": "Sprawl weight loads granby roll",
+        "distractors": {
+          "plausible": [
+            "Sprawl removes escape options",
+            "Sprawl always stops all escapes"
+          ],
+          "trap": [
+            "Commit sprawl weight fully forward"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -393,6 +595,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Positional sparring from buggy choke position with full resistance. Top player works to either finish the choke or capitalize on escape attempts for positional advancement. Bottom player attempts sit to half guard and alternative escapes. Score points for maintenance, back takes, and successful passes versus guard recovery."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qymk3xe3boE",
+        "title": "Two Ways to Break Through Half Guard",
+        "by": "BIG OSS Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BIG OSS Jiu-Jitsu Channel",
+        "duration": 526,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ft6OyIZ6vPs",
+        "title": "Turtle escape and back-exposure defense system",
+        "by": "Jozef Chen",
+        "vertical": false,
+        "channel": "BJJ focus camps",
+        "duration": 149,
+        "verified": "2026-07-16"
       }
     ]
   },

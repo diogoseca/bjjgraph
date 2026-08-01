@@ -34,6 +34,54 @@ description: "Learn Meathook to Gogoplata Control in BJJ. Transition from Rubber
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Meathook to Gogoplata Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Meathook to the Stock from rubber guard",
+      "description": "Meathook to Gogoplata Control film study: Meathook to the Stock from rubber guard, taught by Richie Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6mZOuPs8nA8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6mZOuPs8nA8",
+      "url": "https://www.youtube.com/watch?v=6mZOuPs8nA8",
+      "creator": { "@type": "Person", "name": "Richie Martinez" },
+      "duration": "PT217S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Meathook Options from Rubber Guard",
+      "description": "Meathook to Gogoplata Control film study: Meathook Options from Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KN7ww-OyaxQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KN7ww-OyaxQ",
+      "url": "https://www.youtube.com/watch?v=KN7ww-OyaxQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Polishing the Meathook",
+      "description": "Meathook to Gogoplata Control film study: Polishing the Meathook, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h6o7-9u4NHo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h6o7-9u4NHo",
+      "url": "https://www.youtube.com/watch?v=h6o7-9u4NHo",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +119,42 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Meathook to Gogoplata Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6mZOuPs8nA8)
+
+<p class="clip-credit"><strong>Meathook to the Stock from rubber guard</strong> — taught by Richie Martinez · 3:37 · <a href="https://www.youtube.com/watch?v=6mZOuPs8nA8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KN7ww-OyaxQ)
+
+<p class="clip-credit"><strong>Meathook Options from Rubber Guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=KN7ww-OyaxQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h6o7-9u4NHo)
+
+<p class="clip-credit"><strong>Polishing the Meathook</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=h6o7-9u4NHo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

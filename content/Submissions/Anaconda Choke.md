@@ -34,6 +34,65 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke finish",
+      "description": "Anaconda Choke film study: Anaconda choke finish, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
+      "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke",
+      "description": "Anaconda Choke film study: Anaconda choke, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
+      "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fix your anaconda chokes",
+      "description": "Anaconda Choke film study: Fix your anaconda chokes, taught by Lycan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
+      "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
+      "creator": { "@type": "Person", "name": "Lycan" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Anaconda finish details, S-grip",
+      "description": "Anaconda Choke film study: Anaconda finish details, S-grip, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dr66s8QK9_g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dr66s8QK9_g",
+      "url": "https://www.youtube.com/watch?v=dr66s8QK9_g",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,14 +128,14 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and trachea</span>
-<span class="meta-chip">~65% avg</span>
+<span class="meta-chip">~41% avg</span>
 </div>
 
 > [!danger] Safety
 > Anaconda Choke targets the Carotid arteries and trachea. Primary risk: Loss of consciousness from carotid artery compression. Tap early; release immediately on the tap. [Full safety guide ↓](#safety-considerations)
 
 <aside class="entity-relations">
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Darce Choke|Darce Choke]]</strong> — the D&#39;Arce threads under the opponent&#39;s near arm — opposite arm threading</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Darce Choke|Darce Choke]]</strong> — the D&#39;Arce threads under the opponent&#39;s near arm — opposite arm threading</p>
 </aside>
 <section id="overview" class="content-section">
 
@@ -87,6 +146,50 @@ The submission's effectiveness comes from the combined pressure of the choking a
 The technique has become a staple in modern BJJ competition, with the Anaconda-to-Darce chain representing one of the highest-percentage front headlock attack systems available. Mastering the Anaconda requires understanding the precise arm threading depth, the critical role of the opponent's trapped shoulder in creating bilateral compression, and the rolling mechanics that generate finishing pressure through hip drive rather than arm strength alone.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DHYmDsncdS8)
+
+<p class="clip-credit"><strong>Anaconda choke finish</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
+
+<p class="clip-credit"><strong>Anaconda choke</strong> — taught by Ninja Pinto · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
+
+<p class="clip-credit"><strong>Fix your anaconda chokes</strong> — taught by Lycan · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dr66s8QK9_g)
+
+<p class="clip-credit"><strong>Anaconda finish details, S-grip</strong> — taught by Ben Eddy · 1:36 · <a href="https://www.youtube.com/watch?v=dr66s8QK9_g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 
 <section id="variants" class="content-section">
@@ -129,9 +232,9 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Darce Choke]] - Sister arm-in choke with reversed arm threading direction sharing identical setups
-- [[Transitions/Guillotine Choke]] - Front headlock choke family sharing common entries from turtle and sprawl
-- [[Transitions/Arm Triangle]] - Arm-in choke family with similar bilateral carotid compression mechanics
+- [[Submissions/Darce Choke]] - Sister arm-in choke with reversed arm threading direction sharing identical setups
+- [[Submissions/Guillotine Choke]] - Front headlock choke family sharing common entries from turtle and sprawl
+- [[Submissions/Arm Triangle]] - Arm-in choke family with similar bilateral carotid compression mechanics
 - [[Submissions/Rear Naked Choke]] - Blood choke targeting same carotid arteries from rear control position
 - [[Submissions/Brabo Choke]] - Gi-specific arm-in choke variation from front headlock and passing positions
 - [[Submissions/Arm in Guillotine]] - Arm-in guillotine variation with shared front headlock entries and transitions

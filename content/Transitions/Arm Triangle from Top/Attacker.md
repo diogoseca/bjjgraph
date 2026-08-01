@@ -174,6 +174,54 @@ description: "How to execute Arm Triangle from Top in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Top (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to arm triangle from side control",
+      "description": "Arm Triangle from Top (Attacker) film study: How to arm triangle from side control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8An-33URyYk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8An-33URyYk",
+      "url": "https://www.youtube.com/watch?v=8An-33URyYk",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi arm triangle from side control",
+      "description": "Arm Triangle from Top (Attacker) film study: No-gi arm triangle from side control, taught by Ludus Dome.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eid4RdAQ4gI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eid4RdAQ4gI",
+      "url": "https://www.youtube.com/watch?v=eid4RdAQ4gI",
+      "creator": { "@type": "Person", "name": "Ludus Dome" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The mounted arm triangle",
+      "description": "Arm Triangle from Top (Attacker) film study: The mounted arm triangle, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tc-XXMg7v48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tc-XXMg7v48",
+      "url": "https://www.youtube.com/watch?v=tc-XXMg7v48",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT145S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 **From Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Top (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8An-33URyYk)
+
+<p class="clip-credit"><strong>How to arm triangle from side control</strong> — taught by Evolve MMA · 0:57 · <a href="https://www.youtube.com/watch?v=8An-33URyYk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eid4RdAQ4gI)
+
+<p class="clip-credit"><strong>No-gi arm triangle from side control</strong> — taught by Ludus Dome · 0:36 · <a href="https://www.youtube.com/watch?v=eid4RdAQ4gI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tc-XXMg7v48)
+
+<p class="clip-credit"><strong>The mounted arm triangle</strong> — taught by Coach Brian · 2:25 · <a href="https://www.youtube.com/watch?v=tc-XXMg7v48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -243,7 +327,7 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Arm Triangle]] | 55% |
+| Success | [[Arm Triangle from Side Control]] | 55% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 15% |
 
@@ -259,7 +343,7 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 - **Opponent frames with both arms against your chest and shrimps away before you lock the grip, creating enough space to extract the trapped arm and recover guard** (Effectiveness: High) - Your Response: Maintain heavy chest pressure and control the far hip with your free hand throughout setup. If they begin shrimping, switch to knee on belly or mount transition to capitalize on the space they create rather than chasing the arm triangle → Leads to [[Positions/Side Control]]
 - **Opponent clasps their hands together in a prayer grip or grabs their own collar to prevent their arm from being pushed across the centerline** (Effectiveness: Medium) - Your Response: Use your knee or hip to bump their elbow upward while driving your shoulder into the gap. Alternatively, switch to attacking the americana or kimura on the now-extended arm, forcing them to release the defensive grip → Leads to [[Positions/Side Control]]
 - **Opponent turns into you during the walk-around, getting to their knees or recovering half guard by inserting a knee before you complete the transition** (Effectiveness: Medium) - Your Response: If they turn in, immediately transition to a darce choke or guillotine as their neck becomes exposed during the turn. If they recover half guard, maintain the head-and-arm configuration and work the arm triangle finish from half guard top instead → Leads to [[Positions/Half Guard]]
-- **Opponent bridges explosively toward the choking side during the finishing squeeze, creating space and disrupting your angle** (Effectiveness: Low) - Your Response: Absorb the bridge by widening your base and dropping your hips heavier. Their bridge actually helps tighten the choke if you maintain the configuration—ride the movement and increase your squeeze angle as they return to the mat → Leads to [[Transitions/Arm Triangle]]
+- **Opponent bridges explosively toward the choking side during the finishing squeeze, creating space and disrupting your angle** (Effectiveness: Low) - Your Response: Absorb the bridge by widening your base and dropping your hips heavier. Their bridge actually helps tighten the choke if you maintain the configuration—ride the movement and increase your squeeze angle as they return to the mat → Leads to [[Arm Triangle from Side Control]]
 
 
 </section>

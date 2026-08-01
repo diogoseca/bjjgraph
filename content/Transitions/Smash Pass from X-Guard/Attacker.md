@@ -174,6 +174,43 @@ description: "Complete guide to executing the Smash Pass from X-Guard. Learn pre
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass from X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Backstep pass against X-Guard, top",
+      "description": "Smash Pass from X-Guard (Attacker) film study: Backstep pass against X-Guard, top, taught by Wakizashi Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WsQy2bzQqL8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WsQy2bzQqL8",
+      "url": "https://www.youtube.com/watch?v=WsQy2bzQqL8",
+      "creator": { "@type": "Person", "name": "Wakizashi Jiu Jitsu coach" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Smash passing a flexible open guard",
+      "description": "Smash Pass from X-Guard (Attacker) film study: Smash passing a flexible open guard, taught by Johnny Tama.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6tqdAjzgdUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6tqdAjzgdUc",
+      "url": "https://www.youtube.com/watch?v=6tqdAjzgdUc",
+      "creator": { "@type": "Person", "name": "Johnny Tama" },
+      "duration": "PT250S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 **From Position**: [[Positions/X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass from X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WsQy2bzQqL8)
+
+<p class="clip-credit"><strong>Backstep pass against X-Guard, top</strong> — taught by Wakizashi Jiu Jitsu coach · 1:16 · <a href="https://www.youtube.com/watch?v=WsQy2bzQqL8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6tqdAjzgdUc)
+
+<p class="clip-credit"><strong>Smash passing a flexible open guard</strong> — taught by Johnny Tama · 4:10 · <a href="https://www.youtube.com/watch?v=6tqdAjzgdUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

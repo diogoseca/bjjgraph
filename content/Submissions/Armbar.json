@@ -20,7 +20,10 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint",
   "starting_position": "Mount",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "variant_uniqueness": "Hyperextension of the elbow joint through hip bridge leverage",
   "summary": "The Armbar is a fundamental BJJ joint lock that hyperextends the opponent's elbow by trapping their straightened arm between your legs and bridging your hips against the joint as a fulcrum, forcing the tap.",
   "overview": "The Armbar (Juji-Gatame) is one of the most fundamental and high-percentage submissions in Brazilian Jiu-Jitsu. This technique involves isolating the opponent's arm and hyperextending the elbow joint by using your hips as the fulcrum. The Armbar can be executed from virtually every major position in BJJ, making it one of the most versatile submissions available. From mount, guard, back control, side control, and even standing positions, the Armbar remains a constant threat throughout any grappling exchange.\n\nThe mechanics of the Armbar rely on controlling the opponent's wrist while positioning your hips directly beneath their elbow, creating a lever system where even small hip elevation generates enormous breaking force. Proper leg positioning across the opponent's head and torso prevents escape while maintaining the alignment necessary for effective hyperextension. The position demands precise control of distance, angle, and pressure to prevent common defensive responses such as arm retraction, stacking, and hitchhiker escapes.\n\nAs one of the first submissions taught to beginners and one of the last perfected by elite competitors, the Armbar bridges every level of grappling proficiency. Its prevalence in both gi and no-gi competition, MMA, and self-defense contexts makes it arguably the single most important submission in the grappling canon.",
@@ -178,6 +181,44 @@
     {
       "name": "Knee on Belly",
       "relationship": "Dynamic control position creating spinning armbar opportunities on defensive reactions"
+    }
+  ],
+  "clips": [
+    {
+      "id": "2zSi7RlFJEU",
+      "title": "Armbar from S-Mount",
+      "by": "Fenrir Jiu-Jitsu Academy",
+      "vertical": false,
+      "channel": "Fenrir Jiu-Jitsu Academy",
+      "duration": 78,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "N-fwXASdMCQ",
+      "title": "Brutal armbar from S-mount",
+      "by": "Lux's Jiu Jitsu",
+      "vertical": false,
+      "channel": "Lux’s jiu jitsu channel",
+      "duration": 80,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "XVxTzuJ1F60",
+      "title": "Overhook closed guard to rolling armbar",
+      "by": "BOWERHOUSE MMA",
+      "vertical": false,
+      "channel": "BOWERHOUSE MMA",
+      "duration": 60,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "vSmRbpNmf-E",
+      "title": "Roger Gracie armbars",
+      "by": "Roger Gracie",
+      "vertical": false,
+      "channel": "Jiu Jitsu Moves",
+      "duration": 102,
+      "verified": "2026-07-14"
     }
   ]
 }

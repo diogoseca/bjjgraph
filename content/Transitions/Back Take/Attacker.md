@@ -168,6 +168,54 @@ description: "How to execute Back Take in BJJ. Attacking perspective with setup,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling back take from turtle",
+      "description": "Back Take (Attacker) film study: Rolling back take from turtle, taught by Ross Nicholls.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R5dj_vcowZk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R5dj_vcowZk",
+      "url": "https://www.youtube.com/watch?v=R5dj_vcowZk",
+      "creator": { "@type": "Person", "name": "Ross Nicholls" },
+      "duration": "PT127S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chair sit back take to back control",
+      "description": "Back Take (Attacker) film study: Chair sit back take to back control, taught by New Legacy Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KU5nK5cWZos/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KU5nK5cWZos",
+      "url": "https://www.youtube.com/watch?v=KU5nK5cWZos",
+      "creator": { "@type": "Person", "name": "New Legacy Martial Arts" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle control details into back take",
+      "description": "Back Take (Attacker) film study: Turtle control details into back take, taught by Mamba BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pvzkGEUa22I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pvzkGEUa22I",
+      "url": "https://www.youtube.com/watch?v=pvzkGEUa22I",
+      "creator": { "@type": "Person", "name": "Mamba BJJ" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -178,9 +226,45 @@ The technique thrives on the dilemma-based nature of crackhead control - your op
 
 From a strategic standpoint, the back take from crackhead control serves as the primary advancement pathway in the 10th Planet turtle attack system. It connects directly to the highest-scoring and highest-submission-percentage position in grappling, making it an essential technique for competitive practitioners. The transition exemplifies the modern approach to positional grappling where control positions exist primarily as launching platforms for further advancement rather than static holding positions.
 
-**From Position**: [[Positions/Crackhead Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R5dj_vcowZk)
+
+<p class="clip-credit"><strong>Rolling back take from turtle</strong> — taught by Ross Nicholls · 2:07 · <a href="https://www.youtube.com/watch?v=R5dj_vcowZk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KU5nK5cWZos)
+
+<p class="clip-credit"><strong>Chair sit back take to back control</strong> — taught by New Legacy Martial Arts · 2:13 · <a href="https://www.youtube.com/watch?v=KU5nK5cWZos" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pvzkGEUa22I)
+
+<p class="clip-credit"><strong>Turtle control details into back take</strong> — taught by Mamba BJJ · 1:43 · <a href="https://www.youtube.com/watch?v=pvzkGEUa22I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -236,7 +320,7 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Back Control]] | 65% |
-| Failure | [[Positions/Crackhead Control]] | 25% |
+| Failure | [[Positions/Rubber Guard/Crackhead Control]] | 25% |
 | Counter | [[Positions/Turtle]] | 10% |
 
 
@@ -248,10 +332,10 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 <p class="section-subtitle">How might your opponent counter Back Take?</p>
 
-- **Opponent sits through toward your hooks during rotation, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Maintain inside hook as anchor and follow their movement, using their rotation momentum to complete your back take on the opposite side → Leads to [[Positions/Crackhead Control]]
+- **Opponent sits through toward your hooks during rotation, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Maintain inside hook as anchor and follow their movement, using their rotation momentum to complete your back take on the opposite side → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 - **Opponent explosively stands up before you complete the rotation, breaking your hip control** (Effectiveness: Medium) - Your Response: Transition to standing back control by maintaining harness grip and jumping hooks in, or drop to ankle pick if they create too much distance → Leads to [[Positions/Turtle]]
-- **Opponent granby rolls forward as you initiate rotation, attempting to invert and face you** (Effectiveness: Medium) - Your Response: Follow the roll and transition to truck position by controlling the near leg, converting the escape attempt into another attacking position → Leads to [[Positions/Crackhead Control]]
-- **Opponent posts arm and creates frame to prevent rotation around their body** (Effectiveness: Low) - Your Response: Attack the posted arm with crucifix entry or arm triangle setup, converting their defensive post into submission opportunity → Leads to [[Positions/Crackhead Control]]
+- **Opponent granby rolls forward as you initiate rotation, attempting to invert and face you** (Effectiveness: Medium) - Your Response: Follow the roll and transition to truck position by controlling the near leg, converting the escape attempt into another attacking position → Leads to [[Positions/Rubber Guard/Crackhead Control]]
+- **Opponent posts arm and creates frame to prevent rotation around their body** (Effectiveness: Low) - Your Response: Attack the posted arm with crucifix entry or arm triangle setup, converting their defensive post into submission opportunity → Leads to [[Positions/Rubber Guard/Crackhead Control]]
 
 
 </section>

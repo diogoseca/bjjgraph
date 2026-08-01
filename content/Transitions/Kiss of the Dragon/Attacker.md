@@ -174,6 +174,54 @@ description: "How to execute Kiss of the Dragon in BJJ. Complete attacking guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kiss of the Dragon (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kiss of the dragon to backside 50/50",
+      "description": "Kiss of the Dragon (Attacker) film study: Kiss of the dragon to backside 50/50, taught by Mr. Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WUWYA0GXByQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WUWYA0GXByQ",
+      "url": "https://www.youtube.com/watch?v=WUWYA0GXByQ",
+      "creator": { "@type": "Person", "name": "Mr. Heel Hook" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kiss of the dragon to back take",
+      "description": "Kiss of the Dragon (Attacker) film study: Kiss of the dragon to back take, taught by Jeremy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F22cQo7QrZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F22cQo7QrZA",
+      "url": "https://www.youtube.com/watch?v=F22cQo7QrZA",
+      "creator": { "@type": "Person", "name": "Jeremy" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kiss of the dragon breakdown",
+      "description": "Kiss of the Dragon (Attacker) film study: Kiss of the dragon breakdown, taught by Azamat Hamzathanov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qrmHPGGRops/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qrmHPGGRops",
+      "url": "https://www.youtube.com/watch?v=qrmHPGGRops",
+      "creator": { "@type": "Person", "name": "Azamat Hamzathanov" },
+      "duration": "PT181S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kiss of the Dragon (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WUWYA0GXByQ)
+
+<p class="clip-credit"><strong>Kiss of the dragon to backside 50/50</strong> — taught by Mr. Heel Hook · 2:01 · <a href="https://www.youtube.com/watch?v=WUWYA0GXByQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F22cQo7QrZA)
+
+<p class="clip-credit"><strong>Kiss of the dragon to back take</strong> — taught by Jeremy · 0:44 · <a href="https://www.youtube.com/watch?v=F22cQo7QrZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qrmHPGGRops)
+
+<p class="clip-credit"><strong>Kiss of the dragon breakdown</strong> — taught by Azamat Hamzathanov · 3:01 · <a href="https://www.youtube.com/watch?v=qrmHPGGRops" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

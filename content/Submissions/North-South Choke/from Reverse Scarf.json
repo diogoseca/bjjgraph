@@ -16,7 +16,10 @@
   "target_area": "Neck (Carotid Arteries)",
   "starting_position": "Reverse Scarf Hold",
   "from_position": "Reverse Scarf Hold/Top",
-  "success_rate": 42,
+  "success_rate": {
+    "gi": 42,
+    "nogi": 42
+  },
   "summary": "The North-South Choke from Reverse Scarf Hold is a bilateral blood choke that converts the reverse scarf pin into carotid compression by threading the choking arm beneath the opponent's neck and shifting the hips into north-south alignment.",
   "overview": "The North-South Choke from Reverse Scarf Hold is a high-percentage blood choke that exploits the unique reverse orientation of the scarf hold position to create a seamless transition into bilateral carotid compression. Beginning from reverse scarf hold, where the attacker already faces the opponent's legs with heavy chest pressure established, the attacker threads their choking arm beneath the opponent's neck and shifts their hips toward a north-south alignment. This transition leverages existing control and pressure to set up one of the tightest chokes available from top position.\n\nThe mechanics of this choke create a particularly effective strangling angle. The attacker's bicep compresses one carotid artery while their chest and shoulder drop onto the opposite side of the neck, creating bilateral compression that produces rapid unconsciousness when locked correctly. The reverse scarf hold starting position offers a significant tactical advantage over entering the north-south choke from standard north-south, as the opponent's arm is already trapped and their defensive framing options are severely compromised before the choke is even initiated.\n\nStrategically, this submission serves as the primary threat from reverse scarf hold, forcing the bottom player into a defensive dilemma: protect the neck and concede positional advancement, or maintain frames against the pin and risk the choke. This dilemma creation makes the reverse scarf hold significantly more dangerous when the top player has developed proficiency with the north-south choke finish, transforming an often-overlooked transitional pin into a lethal submission platform.",
   "safety_considerations": {
@@ -65,22 +68,34 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 42,
+      "probability": {
+        "gi": 42,
+        "nogi": 42
+      },
       "result": "success"
     },
     {
       "to": "Reverse Scarf Hold/Top",
-      "probability": 28,
+      "probability": {
+        "gi": 28,
+        "nogi": 28
+      },
       "result": "failure"
     },
     {
       "to": "North-South/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -297,52 +312,172 @@
       {
         "question": "What anatomical structures does the North-South Choke from Reverse Scarf target, and how does bilateral compression differ from a windpipe choke?",
         "answer": "The choke targets both carotid arteries on the lateral sides of the neck, creating bilateral arterial compression that restricts blood flow to the brain. The bicep compresses one carotid while the shoulder and chest compress the opposite carotid. This differs fundamentally from a windpipe choke (tracheal compression), which restricts airflow and is both slower and more painful. Proper blood choke positioning avoids the trachea entirely, producing rapid unconsciousness in 4-8 seconds once locked without significant pain.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Tracheal compression, airway shut",
+            "Single carotid, one side only"
+          ],
+          "trap": [
+            "Grind knuckles into the throat"
+          ]
+        }
       },
       {
         "question": "At what point during the setup sequence is the opponent most likely to successfully escape, and why?",
         "answer": "The opponent is most likely to escape during the hip transition from reverse scarf to north-south alignment (Step 4). During this transition, the attacker must redistribute their weight while walking their feet in an arc, which momentarily creates micro-gaps in chest pressure. Experienced defenders time their bridge or hip escape to coincide with this weight shift. The attacker must maintain continuous downward chest pressure throughout the transition to close this escape window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip transition to north-south",
+        "distractors": {
+          "plausible": [
+            "Right after the shoulder drops",
+            "During the final squeeze"
+          ],
+          "trap": [
+            "Never, weight alone holds them"
+          ]
+        }
       },
       {
         "question": "What is the correct head positioning when finishing the choke, and what happens if you fail to drop your head?",
         "answer": "The head should drop to the mat on the side opposite the choking arm, with your ear close to the floor. This structural positioning drives your shoulder blade downward into the far-side carotid, completing the bilateral compression. Without the head drop, the shoulder remains elevated and cannot generate sufficient downward pressure on the far-side carotid. The result is one-sided compression that most trained opponents can endure, making the choke ineffective despite having the arm correctly threaded.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drop head, ear to mat",
+        "distractors": {
+          "plausible": [
+            "Keep head up to see the mat",
+            "Head toward the choking arm"
+          ],
+          "trap": [
+            "Post hands on mat, lift chest"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin tightly, preventing you from threading your arm deep enough for the choke - what adjustments do you make?",
         "answer": "First, use your free hand to apply steady pressure to their forehead, tilting their head backward to expose the neck. If that fails, apply cross-face pressure with your forearm across their jaw line to create the angle needed. You can also temporarily increase chest pressure by driving your hip weight forward, which compresses their torso and often reflexively causes them to lift their chin slightly. Never force your arm against a locked chin, as this creates a jaw crank rather than a choke and wastes energy.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tilt forehead, then cross-face",
+        "distractors": {
+          "plausible": [
+            "Muscle the arm past the chin",
+            "Squeeze tighter and wait it out"
+          ],
+          "trap": [
+            "Lift chest to pry chin free"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a correctly locked blood choke and an ineffective squeeze, and what are the indicators that the choke is working?",
         "answer": "A correctly locked choke produces specific physical indicators: the opponent's face changes color (reddening from venous congestion), their resistance becomes progressively weaker over 4-8 seconds, and they may exhibit involuntary twitching or body tension changes. The attacker should feel their bicep and shoulder sinking into the soft tissue on both sides of the neck without significant bone contact. If you feel your forearm pressing against the chin, jaw, or trachea, the position needs adjustment. An ineffective squeeze produces pain but no progressive weakening.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Face reddens, resistance fades",
+        "distractors": {
+          "plausible": [
+            "Sharp pain and loud gasping",
+            "Forearm biting into the jaw"
+          ],
+          "trap": [
+            "Only stop when they tap"
+          ]
+        }
       },
       {
         "question": "What is the correct response if your training partner goes limp or stops responding during application of this choke?",
         "answer": "Release ALL pressure immediately and place them on their side in recovery position. Check for consciousness by calling their name and gently shaking their shoulder. If unconscious, they will typically regain consciousness within 10-20 seconds once pressure is released. Monitor their breathing and keep them on their side. If they do not regain consciousness within 20-30 seconds, or show signs of seizure, call for medical assistance immediately. Never leave an unconscious training partner unattended. After recovery, have them sit out for the remainder of the round.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release the choke immediately",
+        "distractors": {
+          "plausible": [
+            "Release, then leave to find help",
+            "Release and prop them upright"
+          ],
+          "trap": [
+            "Keep squeezing until they tap"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip when the opponent attempts to peel your choking arm out by grabbing your wrist?",
         "answer": "When the opponent grips your choking wrist to pull the arm free, immediately reinforce your position by locking a gable grip (palm-to-palm) or grabbing your own bicep with the choking hand. The grip lock should be established before they generate pulling force. If they begin peeling successfully, drive your hips forward to increase pressure and reduce their leverage. You can also use your free hand to strip their grip from your wrist before they establish full purchase. The key is that your grip structure must be stronger than their single-hand pull.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lock gable grip, drive hips",
+        "distractors": {
+          "plausible": [
+            "Pull arm back and re-thread",
+            "Pry their fingers off first"
+          ],
+          "trap": [
+            "Post up and muscle the squeeze"
+          ]
+        }
       },
       {
         "question": "In competition, what strategic considerations determine whether you commit to the North-South Choke versus transitioning to an alternative attack?",
         "answer": "Commit to the choke when: the arm is threaded deep, the opponent's far arm is controlled, and you have achieved north-south alignment with your shoulder dropping into the neck. Abandon and transition when: the opponent establishes a strong chin tuck you cannot break within 3-5 seconds, their frames create distance that pulls your arm shallow, or they begin a strong hip escape that compromises your base. In points-based competition, a failed choke attempt that results in losing the dominant pin is a net negative. Transition to americana, kimura, or positional advancement rather than forcing a poorly positioned choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deep arm, far arm controlled",
+        "distractors": {
+          "plausible": [
+            "Any threading counts, commit fast",
+            "Wait for opponent to tire"
+          ],
+          "trap": [
+            "Force it through strong tuck"
+          ]
+        }
       },
       {
         "question": "What grip adjustment maximizes finishing pressure when your initial gable grip begins slipping due to sweat during the final compression phase?",
         "answer": "When a gable grip slips under sweat, transition to grabbing your own bicep with the choking hand while the free arm cups behind the opponent's head or grabs your own forearm, creating an RNC-style grip structure. This grip is more resistant to slipping because the hand-to-bicep connection uses a hooking grip rather than palm-to-palm friction. During the grip change, maintain hip drive forward to keep compression constant so the opponent cannot exploit the momentary adjustment. Some practitioners also use an S-grip (fingers interlocked) as an intermediate option that resists slipping better than a standard gable grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to bicep RNC-style grip",
+        "distractors": {
+          "plausible": [
+            "Regrip gable and squeeze harder",
+            "Slide the grip up under the jaw"
+          ],
+          "trap": [
+            "Lift chest to reset both hands"
+          ]
+        }
       },
       {
         "question": "How do you adjust your finishing mechanics when applying this choke against an opponent with significantly greater neck musculature or a thicker neck?",
         "answer": "Against thick-necked opponents, arm threading depth becomes even more critical because the carotid arteries are deeper beneath muscle tissue. Thread the arm until your elbow clears well past the far side of their neck. Increase the hip sprawl distance to generate greater structural compression force through the shoulder and chest. You may also need to adjust your choking arm angle slightly, angling the bicep more toward the jaw line where the carotid is closer to the surface. Relying on squeeze against a muscular neck will always fail - the finish must come from progressive structural pressure through hip drive and shoulder drop, which generates far more force than arm strength alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thread deeper, sprawl hips more",
+        "distractors": {
+          "plausible": [
+            "Squeeze the arm harder",
+            "Choke lower near the collarbone"
+          ],
+          "trap": [
+            "Sit up to muscle the squeeze"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "z3RNUfHfiSM",
+        "title": "Marcelo Garcia - North South Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "Kon Ying",
+        "duration": 20,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SfUhu8rbz68",
+        "title": "North South Choke for BJJ & MMA",
+        "by": "Robby Malof",
+        "vertical": false,
+        "channel": "Robby Malof",
+        "duration": 86,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -436,32 +571,92 @@
       {
         "question": "What is the earliest recognition cue that the North-South Choke is being set up from Reverse Scarf Hold?",
         "answer": "The earliest cue is the attacker's near arm beginning to slide from its position controlling your arm toward the space beneath your neck. This arm movement often coincides with the attacker adjusting their far hand to control your far arm, signaling a shift from positional control to submission setup. You may also feel a subtle shift in the attacker's hip position as they prepare for the transition to north-south alignment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Near arm sliding to neck",
+        "distractors": {
+          "plausible": [
+            "Full weight settling on chest",
+            "Opponent grips both wrists"
+          ],
+          "trap": [
+            "Ignore until arm is locked"
+          ]
+        }
       },
       {
         "question": "What is the critical defensive window for escaping this choke, and what happens if you miss it?",
         "answer": "The critical window exists between the moment the attacker begins threading their arm under your neck and the moment they lock their grip in north-south alignment. This window is approximately 5-10 seconds depending on the attacker's speed and proficiency. Once the grip is locked and both carotids are compressed, escape success drops dramatically and tapping quickly becomes the safest option. Training should focus on defensive reactions that occur within this window.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Before the grip locks, 5-10 sec",
+        "distractors": {
+          "plausible": [
+            "Any time before it starts hurting",
+            "Only after they reach north-south"
+          ],
+          "trap": [
+            "Stall until lightheaded, then go"
+          ]
+        }
       },
       {
         "question": "Why is it essential to tap early when caught in a fully locked North-South Choke?",
         "answer": "The North-South Choke is a bilateral blood choke that compresses both carotid arteries simultaneously, restricting blood flow to the brain. Once fully locked, unconsciousness can occur within 4-8 seconds. Unlike joint locks where you have some time to assess the pressure and escape, blood chokes give very little warning before causing blackout. Repeated episodes of training unconsciousness carry cumulative neurological risk. Tapping early preserves your health and allows you to train another day and improve your defensive timing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blood choke — blackout in seconds",
+        "distractors": {
+          "plausible": [
+            "Airway closes, you can't breathe",
+            "Sharp pain warns before damage"
+          ],
+          "trap": [
+            "You can safely ride it out"
+          ]
+        }
       },
       {
         "question": "How do you prevent the attacker from threading their arm beneath your neck from Reverse Scarf Hold?",
         "answer": "The primary defense is a proactive chin tuck combined with a shoulder shrug that narrows the space between your chin and chest. This closes the channel the attacker needs to thread their arm through. Simultaneously, use your near hand to fight the attacker's threading arm, pushing it away from your neck or grabbing their wrist. If both hands are free, use one to control the threading arm and the other to frame against their chest to create separation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tuck, shrug shoulder",
+        "distractors": {
+          "plausible": [
+            "Push attacker's hips away",
+            "Turn flat onto your back"
+          ],
+          "trap": [
+            "Extend neck to create space"
+          ]
+        }
       },
       {
         "question": "Your bridge attempt during the attacker's hip transition fails and the choke is now partially locked - what is your next defensive priority?",
         "answer": "If the bridge fails and the arm is partially threaded, immediately shift to grip fighting. Target the attacker's choking hand or wrist with both hands and attempt to pull it free before they establish the locking grip. Simultaneously hip escape to create angle that reduces the depth of the arm beneath your neck. If you cannot strip the grip within 2-3 seconds and you feel bilateral pressure building on both sides of your neck, tap immediately rather than continuing to fight a deteriorating position.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Strip grip, hip escape fast",
+        "distractors": {
+          "plausible": [
+            "Keep bridging repeatedly",
+            "Push attacker's head away"
+          ],
+          "trap": [
+            "Relax and wait it out"
+          ]
+        }
       },
       {
         "question": "What proactive body positioning should you maintain while in Reverse Scarf Hold bottom to make the North-South Choke entry more difficult before the attack even begins?",
         "answer": "Avoid staying flat on your back, as this gives the attacker maximum access to your neck. Turn slightly onto your side toward the attacker to reduce the angle available for arm threading. Keep your chin tucked habitually as a default defensive posture, not only when you sense the choke setup. Maintain your near arm in a tight defensive position with the elbow against your ribs and hand near your opposite shoulder. Use your far arm to frame against the attacker's hip to prevent them from settling their full weight and consolidating control. This proactive positioning forces the attacker to solve multiple defensive problems before they can even begin the choke sequence.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn to side, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Bridge hard and hold it",
+            "Grab their belt with both hands"
+          ],
+          "trap": [
+            "Lie flat with arms overhead"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -484,6 +679,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense from reverse scarf hold",
         "description": "Begin positional rounds from reverse scarf hold with attacker hunting the north-south choke at full resistance. Defender uses all available tools to prevent the choke and escape. Emphasize early recognition and early defensive action. Track success rates and identify which defensive stage needs the most improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa Gatame escape to back take",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "O-2iSvT8zDk",
+        "title": "Hook-Plata North-South choke escape",
+        "by": "Erik Koehne",
+        "vertical": false,
+        "channel": "Erik Koehne",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "pafncZwJurg",
+        "title": "Bottom North/South escape - roll back",
+        "by": "Cosens Martial Arts",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 109,
+        "verified": "2026-07-14"
       }
     ]
   }

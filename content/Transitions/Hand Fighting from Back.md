@@ -34,6 +34,43 @@ description: "Master hand fighting defense from back control in BJJ. Two-on-one 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fighting from Back \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defensive Position 2 hand fighting off the back",
+      "description": "Hand Fighting from Back film study: Defensive Position 2 hand fighting off the back, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GQXI1OG2874/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GQXI1OG2874",
+      "url": "https://www.youtube.com/watch?v=GQXI1OG2874",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Wrists as the first layer of back defense",
+      "description": "Hand Fighting from Back film study: Wrists as the first layer of back defense, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/21BYfWzw6HI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/21BYfWzw6HI",
+      "url": "https://www.youtube.com/watch?v=21BYfWzw6HI",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The strategic importance of hand fighting cannot be overstated - it transforms b
 Advanced practitioners use hand fighting not merely as passive defense but as an active system that creates dilemmas for the attacking opponent. When executed with proper timing and pressure, hand fighting forces the attacker to choose between maintaining back control and pursuing submissions - a choice that creates windows for escape. This technique serves as the gateway to all other back escapes, making it essential foundational knowledge for any serious practitioner.
 
 **From Position**: [[Positions/Back Control]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 37%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fighting from Back in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GQXI1OG2874)
+
+<p class="clip-credit"><strong>Defensive Position 2 hand fighting off the back</strong> — taught by John Danaher · 0:23 · <a href="https://www.youtube.com/watch?v=GQXI1OG2874" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=21BYfWzw6HI)
+
+<p class="clip-credit"><strong>Wrists as the first layer of back defense</strong> — taught by John Danaher · 3:40 · <a href="https://www.youtube.com/watch?v=21BYfWzw6HI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -79,7 +144,7 @@ Advanced practitioners use hand fighting not merely as passive defense but as an
 | Success | [[Positions/Turtle]] | 40% |
 | Success | [[Positions/Half Guard]] | 25% |
 | Failure | [[Positions/Back Control]] | 25% |
-| Counter | [[Submissions/Rear Naked Choke]] | 10% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>

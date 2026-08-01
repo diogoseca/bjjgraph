@@ -132,6 +132,32 @@ description: "Learn to maintain Modified Scarf Hold against frame-and-hip escape
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Modified Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head and arm (scarf hold) escape counter",
+      "description": "Escape Modified Scarf Hold (Defender) film study: Head and arm (scarf hold) escape counter, taught by Josh Barnett.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a0SoDyETz98/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a0SoDyETz98",
+      "url": "https://www.youtube.com/watch?v=a0SoDyETz98",
+      "creator": { "@type": "Person", "name": "Josh Barnett" },
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +167,26 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 **Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Modified Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a0SoDyETz98)
+
+<p class="clip-credit"><strong>Head and arm (scarf hold) escape counter</strong> — taught by Josh Barnett · 2:07 · <a href="https://www.youtube.com/watch?v=a0SoDyETz98" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

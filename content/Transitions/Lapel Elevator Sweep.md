@@ -34,6 +34,43 @@ description: "Master the Lapel Elevator Sweep from Lapel Guard to Mount. Learn s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Elevator Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lapeloplata guard to lapel sweep",
+      "description": "Lapel Elevator Sweep film study: Lapeloplata guard to lapel sweep, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GqeeDnherWw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GqeeDnherWw",
+      "url": "https://www.youtube.com/watch?v=GqeeDnherWw",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel guard takedown one minute breakdown",
+      "description": "Lapel Elevator Sweep film study: Lapel guard takedown one minute breakdown, taught by Legion AJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_iV0LtOiXNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_iV0LtOiXNY",
+      "url": "https://www.youtube.com/watch?v=_iV0LtOiXNY",
+      "creator": { "@type": "Person", "name": "Legion AJJ" },
+      "duration": "PT64S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The sweep works by combining a butterfly hook elevation with the pulling tension
 Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack system as a primary sweeping threat that creates dilemmas. Opponents who defend the sweep by keeping heavy base expose themselves to back takes and omoplata entries. Those who try to clear the lapel configuration first open windows for the sweep execution. This technique rewards patience and positional awareness over explosive athleticism.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 12%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Elevator Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GqeeDnherWw)
+
+<p class="clip-credit"><strong>Lapeloplata guard to lapel sweep</strong> — taught by Street Jitsu · 0:44 · <a href="https://www.youtube.com/watch?v=GqeeDnherWw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_iV0LtOiXNY)
+
+<p class="clip-credit"><strong>Lapel guard takedown one minute breakdown</strong> — taught by Legion AJJ · 1:04 · <a href="https://www.youtube.com/watch?v=_iV0LtOiXNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

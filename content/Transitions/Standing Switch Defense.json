@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Standing Switch Defense is a critical counter-technique employed by the controlling player in a standing rear clinch when their opponent attempts a switch escape. The switch is among the most effective wrestling-based reversals from rear standing control, where the controlled practitioner drops their hips, reaches one arm back between the controller's legs, and pivots 180 degrees to reverse or neutralize the position. Without reliable switch defense, maintaining rear clinch control becomes unsustainable against experienced wrestlers or grapplers with strong standing reversal skills.\n\nDefending the switch requires immediate recognition of the opponent's initial hip drop and weight shift, followed by specific mechanical responses including base widening, grip tightening, and forward hip pressure that prevent the pivot from completing. The defense operates on a timing continuum: early recognition allows simple grip compression and forward driving to kill the switch before momentum builds, while late recognition demands dynamic responses such as following the rotation, re-establishing chest-to-back orientation from a new angle, or disengaging to neutral standing before the reversal completes.\n\nThis technique sits at the intersection of wrestling defensive awareness and grappling control retention, representing an essential skill for any practitioner who relies on standing rear clinch as a primary control platform. Failure to develop reliable switch defense forces grapplers to abandon rear clinch positions prematurely or avoid them entirely, eliminating one of the highest-percentage standing control positions available for both takedowns and back takes in competition.",
   "conditions": [
     "Opponent must be initiating or attempting a switch escape from the standing rear clinch position",
@@ -242,30 +254,119 @@
     "flashcards": [
       {
         "question": "What is the first physical sensation that indicates your opponent is initiating a switch from the standing rear clinch?",
-        "answer": "The first sensation is a sudden downward shift in your opponent's hips and center of gravity combined with the feeling of their hand or arm reaching backward between or around your legs. This hip drop is the mechanical prerequisite for the switch because the opponent needs to lower their center to create the pivot point for the 180-degree rotation. Recognizing this tactile cue before visual confirmation allows you to begin your defensive response within the first fraction of a second."
+        "answer": "The first sensation is a sudden downward shift in your opponent's hips and center of gravity combined with the feeling of their hand or arm reaching backward between or around your legs. This hip drop is the mechanical prerequisite for the switch because the opponent needs to lower their center to create the pivot point for the 180-degree rotation. Recognizing this tactile cue before visual confirmation allows you to begin your defensive response within the first fraction of a second.",
+        "answer_line": "Hip drop + hand thru legs",
+        "distractors": {
+          "plausible": [
+            "Sudden backward weight shift",
+            "Grip tightening on your waist"
+          ],
+          "trap": [
+            "A brief loosening of grip"
+          ]
+        }
       },
       {
         "question": "Your opponent drops their hips and you feel their right hand reaching between your legs from the right side - what specific defensive actions do you take in the first two seconds?",
-        "answer": "In the first second, widen your base by stepping both feet outward and bend your knees to drop your center of gravity. Simultaneously drive your hips forward into their lower back to eliminate rotational clearance. In the second second, clamp your right elbow tightly against your right hip to trap their switch hand while tightening your left arm's grip around their upper body. This combination of structural resistance and hand trapping prevents the switch from developing momentum."
+        "answer": "In the first second, widen your base by stepping both feet outward and bend your knees to drop your center of gravity. Simultaneously drive your hips forward into their lower back to eliminate rotational clearance. In the second second, clamp your right elbow tightly against your right hip to trap their switch hand while tightening your left arm's grip around their upper body. This combination of structural resistance and hand trapping prevents the switch from developing momentum.",
+        "answer_line": "Widen base, hip drive, trap hand",
+        "distractors": {
+          "plausible": [
+            "Pull hips back, squeeze tighter",
+            "Step back, sprawl hips down"
+          ],
+          "trap": [
+            "Release grip to reposition hands"
+          ]
+        }
       },
       {
         "question": "Why is driving hips forward more effective than pulling backward when defending the switch?",
-        "answer": "Driving hips forward eliminates the space between your hips and the opponent's hips that is essential for the switch rotation. The switch requires the bottom person to create a gap between bodies to pivot their hips 180 degrees through. Pulling backward actually creates this gap by moving your hips away from theirs, giving them the exact clearance they need. Forward hip pressure compresses the space to zero, making the rotational mechanics physically impossible to execute regardless of the opponent's speed or explosiveness."
+        "answer": "Driving hips forward eliminates the space between your hips and the opponent's hips that is essential for the switch rotation. The switch requires the bottom person to create a gap between bodies to pivot their hips 180 degrees through. Pulling backward actually creates this gap by moving your hips away from theirs, giving them the exact clearance they need. Forward hip pressure compresses the space to zero, making the rotational mechanics physically impossible to execute regardless of the opponent's speed or explosiveness.",
+        "answer_line": "Closes the gap rotation needs",
+        "distractors": {
+          "plausible": [
+            "Pulling back adds leverage",
+            "Backward step widens your base"
+          ],
+          "trap": [
+            "Pull back to load a counter"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest resistance against the switch, and why?",
-        "answer": "The bodylock with clasped hands around the opponent's waist provides the strongest switch resistance because it controls the opponent's hips directly, which is the axis of rotation for the switch. Unlike the seatbelt which controls the upper body, the bodylock prevents the hips from pivoting by locking them against your own hips. Additionally, the bodylock allows you to squeeze your elbows against your ribs, trapping the switch hand before it can thread through your legs. The combination of hip control and arm trapping addresses both mechanical components simultaneously."
+        "answer": "The bodylock with clasped hands around the opponent's waist provides the strongest switch resistance because it controls the opponent's hips directly, which is the axis of rotation for the switch. Unlike the seatbelt which controls the upper body, the bodylock prevents the hips from pivoting by locking them against your own hips. Additionally, the bodylock allows you to squeeze your elbows against your ribs, trapping the switch hand before it can thread through your legs. The combination of hip control and arm trapping addresses both mechanical components simultaneously.",
+        "answer_line": "Bodylock controls hips + traps arm",
+        "distractors": {
+          "plausible": [
+            "Seatbelt controls the upper body",
+            "Underhook alone stops the switch"
+          ],
+          "trap": [
+            "Grab a single wrist tightly"
+          ]
+        }
       },
       {
         "question": "Your opponent partially completes a switch and is now facing perpendicular to you with their hips turned 90 degrees - how do you recover?",
-        "answer": "At 90 degrees of rotation, the switch is at its most vulnerable recovery point. Immediately step your lead foot in the direction of their rotation to re-align your chest behind their back. Use your remaining grip to pull their shoulders back toward you while driving your hips forward and to the side to re-establish the chest-to-back angle. If you cannot recover the full rear clinch, transition immediately to a body lock takedown using their compromised base, or disengage to neutral standing before they complete the remaining 90 degrees of rotation."
+        "answer": "At 90 degrees of rotation, the switch is at its most vulnerable recovery point. Immediately step your lead foot in the direction of their rotation to re-align your chest behind their back. Use your remaining grip to pull their shoulders back toward you while driving your hips forward and to the side to re-establish the chest-to-back angle. If you cannot recover the full rear clinch, transition immediately to a body lock takedown using their compromised base, or disengage to neutral standing before they complete the remaining 90 degrees of rotation.",
+        "answer_line": "Step in, pull shoulders back",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset stance",
+            "Push down to flatten them"
+          ],
+          "trap": [
+            "Let them finish, then counter"
+          ]
+        }
       },
       {
         "question": "How does your defensive response differ when the opponent attempts a switch very early with minimal momentum versus when they have already generated significant rotational force?",
-        "answer": "An early switch attempt with minimal momentum can be stopped simply by driving your hips forward and squeezing your grip tighter, as the opponent has not yet created enough force to overcome structural resistance. When the opponent has generated significant rotational momentum, fighting the rotation directly wastes energy and is ineffective. Instead, follow their rotation by stepping your feet in the same direction, maintaining your position behind them by circling with their movement. Use their momentum to re-drag them into your control once they decelerate, or transition to a mat return that utilizes their forward energy."
+        "answer": "An early switch attempt with minimal momentum can be stopped simply by driving your hips forward and squeezing your grip tighter, as the opponent has not yet created enough force to overcome structural resistance. When the opponent has generated significant rotational momentum, fighting the rotation directly wastes energy and is ineffective. Instead, follow their rotation by stepping your feet in the same direction, maintaining your position behind them by circling with their movement. Use their momentum to re-drag them into your control once they decelerate, or transition to a mat return that utilizes their forward energy.",
+        "answer_line": "Block early, follow late rotation",
+        "distractors": {
+          "plausible": [
+            "Always resist with full force",
+            "Always follow their rotation"
+          ],
+          "trap": [
+            "Yank them back against momentum"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The standing switch defense involves dynamic movement with both practitioners on their feet, creating fall risk if either player loses balance during the exchange. Practice on mats with adequate space and clear surroundings. Ensure both partners understand the drill intensity level before beginning. Avoid explosive movements during initial learning phases. When the switch partially completes, do not attempt to hold your partner in compromised positions that could strain their neck or spine during the rotation. Communicate clearly about resistance levels to prevent injuries during transitions between standing and ground positions."
+    "safety_considerations": "The standing switch defense involves dynamic movement with both practitioners on their feet, creating fall risk if either player loses balance during the exchange. Practice on mats with adequate space and clear surroundings. Ensure both partners understand the drill intensity level before beginning. Avoid explosive movements during initial learning phases. When the switch partially completes, do not attempt to hold your partner in compromised positions that could strain their neck or spine during the rotation. Communicate clearly about resistance levels to prevent injuries during transitions between standing and ground positions.",
+    "clips": [
+      {
+        "id": "GKrJsIYmycM",
+        "title": "Mat return drill against the stand-up",
+        "by": "Nicky Rodriguez",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bt_NT5AwjvA",
+        "title": "Standing Wrestler's Switch from a Rear Clinch",
+        "by": "Joe Scioli",
+        "vertical": false,
+        "channel": "Joe Scioli",
+        "duration": 110,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "87LyJ3zsShY",
+        "title": "Wrestling Reversals: The Switch",
+        "by": "DICK'S Sporting Goods",
+        "vertical": false,
+        "channel": "DICK'S",
+        "duration": 54,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Switch Defense Defender",
@@ -350,19 +451,59 @@
     "flashcards": [
       {
         "question": "What is the critical mechanical prerequisite that must be established before reaching your switch hand back?",
-        "answer": "You must drop your hips sharply below the controller's hip level before reaching back. This hip drop serves two essential purposes: it creates the pivot point around which your body will rotate 180 degrees, and it generates downward momentum that briefly disrupts the controller's forward pressure. Without this hip drop, reaching back simply exposes your arm to trapping without creating any rotational force. The hip drop should be sudden and explosive to minimize the controller's reaction window."
+        "answer": "You must drop your hips sharply below the controller's hip level before reaching back. This hip drop serves two essential purposes: it creates the pivot point around which your body will rotate 180 degrees, and it generates downward momentum that briefly disrupts the controller's forward pressure. Without this hip drop, reaching back simply exposes your arm to trapping without creating any rotational force. The hip drop should be sudden and explosive to minimize the controller's reaction window.",
+        "answer_line": "Drop hips below controller's level",
+        "distractors": {
+          "plausible": [
+            "Reach the hand back quickly first",
+            "Turn head to look behind first"
+          ],
+          "trap": [
+            "Loosen grip to create space"
+          ]
+        }
       },
       {
         "question": "Your initial switch attempt was stuffed by the controller driving their hips forward - what are your best follow-up options?",
-        "answer": "Three primary follow-ups exist. First, chain immediately into a sit-out by dropping to one knee and pivoting away from the controller's forward pressure, converting their hip drive into an opening behind them. Second, attempt the switch to the opposite side while their weight is committed forward, exploiting the directional commitment of their defense. Third, drop level and shoot a single leg or double leg, using their forward weight distribution as vulnerability to a level-change takedown. The key principle is never pausing after a stuffed switch but immediately flowing to the next escape in the chain."
+        "answer": "Three primary follow-ups exist. First, chain immediately into a sit-out by dropping to one knee and pivoting away from the controller's forward pressure, converting their hip drive into an opening behind them. Second, attempt the switch to the opposite side while their weight is committed forward, exploiting the directional commitment of their defense. Third, drop level and shoot a single leg or double leg, using their forward weight distribution as vulnerability to a level-change takedown. The key principle is never pausing after a stuffed switch but immediately flowing to the next escape in the chain.",
+        "answer_line": "Sit-out, switch other side, shoot",
+        "distractors": {
+          "plausible": [
+            "Pause and reset your stance",
+            "Repeat same switch immediately"
+          ],
+          "trap": [
+            "Stand still and try to muscle it"
+          ]
+        }
       },
       {
         "question": "How do you identify the optimal moment to attempt the switch when the controller has a tight bodylock?",
-        "answer": "The optimal window occurs during grip transitions when the controller shifts from one grip configuration to another, such as moving from bodylock to seatbelt or adjusting hand position after a re-grip. During these transitions, there is a brief moment of reduced structural control where the grip is not fully locked. Additionally, when the controller initiates their own movement such as attempting a mat return or changing angle, their weight shifts create momentary mechanical weakness. The switch should be timed to exploit these windows rather than attempted against a fully locked, stationary bodylock."
+        "answer": "The optimal window occurs during grip transitions when the controller shifts from one grip configuration to another, such as moving from bodylock to seatbelt or adjusting hand position after a re-grip. During these transitions, there is a brief moment of reduced structural control where the grip is not fully locked. Additionally, when the controller initiates their own movement such as attempting a mat return or changing angle, their weight shifts create momentary mechanical weakness. The switch should be timed to exploit these windows rather than attempted against a fully locked, stationary bodylock.",
+        "answer_line": "During their grip transitions",
+        "distractors": {
+          "plausible": [
+            "When the bodylock feels tightest",
+            "Right after they secure grip"
+          ],
+          "trap": [
+            "Force it against a locked grip"
+          ]
+        }
       },
       {
         "question": "Why is it strategically important to alternate between switching directions rather than always attempting to the same side?",
-        "answer": "Alternating switch directions prevents the controller from pre-positioning their defense. If you always switch to the right, the controller can permanently offset their hips to the right and pre-clamp their right elbow, effectively neutralizing your technique before it begins every time. By threatening switches to both sides, you force the controller to maintain a centered, neutral defense that cannot fully commit to blocking either direction. This bilateral threat creates the strategic uncertainty needed for any single switch attempt to succeed against a prepared and experienced defender."
+        "answer": "Alternating switch directions prevents the controller from pre-positioning their defense. If you always switch to the right, the controller can permanently offset their hips to the right and pre-clamp their right elbow, effectively neutralizing your technique before it begins every time. By threatening switches to both sides, you force the controller to maintain a centered, neutral defense that cannot fully commit to blocking either direction. This bilateral threat creates the strategic uncertainty needed for any single switch attempt to succeed against a prepared and experienced defender.",
+        "answer_line": "Prevents pre-set one-sided defense",
+        "distractors": {
+          "plausible": [
+            "Builds momentum for a faster switch",
+            "Confuses him into gripping harder"
+          ],
+          "trap": [
+            "Always commit to your strong side"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -385,6 +526,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full-speed application under competition pressure",
         "description": "Positional sparring from standing rear clinch with full resistance from both partners. Bottom person works all escape options including switches from both sides while top person defends. Track success rates across rounds to measure improvement and identify technical weaknesses."
+      }
+    ],
+    "clips": [
+      {
+        "id": "X4IskvtkBY4",
+        "title": "Stand up to switch from bottom",
+        "by": "Adam Wheeler",
+        "vertical": false,
+        "channel": "Adam Wheeler",
+        "duration": 11,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "x2MR4OIb0vI",
+        "title": "Change over from the bottom position",
+        "by": "The School of Wrestling",
+        "vertical": false,
+        "channel": "The School of Wrestling",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   }

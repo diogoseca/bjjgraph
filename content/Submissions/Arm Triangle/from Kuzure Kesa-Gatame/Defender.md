@@ -150,6 +150,54 @@ description: "Learn to defend the arm triangle from Kuzure Kesa-Gatame. Recogniz
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Kuzure Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two Arm Triangle (Kata Gatame) Escapes",
+      "description": "Arm Triangle from Kuzure Kesa-Gatame (Defender) film study: Two Arm Triangle (Kata Gatame) Escapes, taught by Adam Urbanski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CmXniIPFMhU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CmXniIPFMhU",
+      "url": "https://www.youtube.com/watch?v=CmXniIPFMhU",
+      "creator": { "@type": "Person", "name": "Adam Urbanski" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Pressure Defense with Framing",
+      "description": "Arm Triangle from Kuzure Kesa-Gatame (Defender) film study: Kesa Gatame Pressure Defense with Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame Escape",
+      "description": "Arm Triangle from Kuzure Kesa-Gatame (Defender) film study: Kesa Gatame Escape, taught by Taylorjiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5atT-Q9-CVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5atT-Q9-CVw",
+      "url": "https://www.youtube.com/watch?v=5atT-Q9-CVw",
+      "creator": { "@type": "Person", "name": "Taylorjiujitsu" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the arm triangle from Kuzure Kesa-Gatame requires recognizing the crit
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Kuzure Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CmXniIPFMhU)
+
+<p class="clip-credit"><strong>Two Arm Triangle (Kata Gatame) Escapes</strong> — taught by Adam Urbanski · 1:29 · <a href="https://www.youtube.com/watch?v=CmXniIPFMhU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense with Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5atT-Q9-CVw)
+
+<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by Taylorjiujitsu · 0:14 · <a href="https://www.youtube.com/watch?v=5atT-Q9-CVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Rubber Guard to Closed Guard transition in BJJ. Step-by
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rubber Guard to Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Eddie Bravo explains the rubber guard",
+      "description": "Rubber Guard to Closed Guard film study: Eddie Bravo explains the rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
+      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic entries into the rubber guard",
+      "description": "Rubber Guard to Closed Guard film study: Basic entries into the rubber guard, taught by BJJ for Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WliTCjEDA-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WliTCjEDA-8",
+      "url": "https://www.youtube.com/watch?v=WliTCjEDA-8",
+      "creator": { "@type": "Person", "name": "BJJ for Breakfast" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Understanding when and how to execute this positional reset is essential for any
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rubber Guard to Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+
+<p class="clip-credit"><strong>Eddie Bravo explains the rubber guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WliTCjEDA-8)
+
+<p class="clip-credit"><strong>Basic entries into the rubber guard</strong> — taught by BJJ for Breakfast · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

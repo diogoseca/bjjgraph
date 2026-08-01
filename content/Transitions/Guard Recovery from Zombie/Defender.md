@@ -142,6 +142,43 @@ description: "Prevent guard recovery from the Zombie position as the top player 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Zombie (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Top lockdown turk to shut down recovery",
+      "description": "Guard Recovery from Zombie (Defender) film study: Top lockdown turk to shut down recovery, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
+      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT207S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to break the lockdown half guard",
+      "description": "Guard Recovery from Zombie (Defender) film study: How to break the lockdown half guard, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xb4-phb4BhE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xb4-phb4BhE",
+      "url": "https://www.youtube.com/watch?v=Xb4-phb4BhE",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT251S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ As the top player against the Zombie position, the moment the bottom player rele
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Zombie (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
+
+<p class="clip-credit"><strong>Top lockdown turk to shut down recovery</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xb4-phb4BhE)
+
+<p class="clip-credit"><strong>How to break the lockdown half guard</strong> — taught by Matt Arroyo · 4:11 · <a href="https://www.youtube.com/watch?v=Xb4-phb4BhE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

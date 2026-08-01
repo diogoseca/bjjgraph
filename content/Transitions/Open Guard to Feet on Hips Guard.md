@@ -34,6 +34,54 @@ description: "Master the transition to feet on hips guard in BJJ. Learn setup me
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Feet on Hips Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Foot on the hip guard control",
+      "description": "Open Guard to Feet on Hips Guard film study: Foot on the hip guard control, taught by BJJ House Okinawa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MUZyUFn6RC4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MUZyUFn6RC4",
+      "url": "https://www.youtube.com/watch?v=MUZyUFn6RC4",
+      "creator": { "@type": "Person", "name": "BJJ House Okinawa" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting the feet on biceps and hips position",
+      "description": "Open Guard to Feet on Hips Guard film study: Getting the feet on biceps and hips position, taught by Ariel Tabak.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
+      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
+      "creator": { "@type": "Person", "name": "Ariel Tabak" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Seated guard vs standing: distance control",
+      "description": "Open Guard to Feet on Hips Guard film study: Seated guard vs standing: distance control, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aomPFOrnW9g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aomPFOrnW9g",
+      "url": "https://www.youtube.com/watch?v=aomPFOrnW9g",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT393S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The position's value in modern competition cannot be overstated. Elite guard pla
 **Success Rate**: 60%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Feet on Hips Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MUZyUFn6RC4)
+
+<p class="clip-credit"><strong>Foot on the hip guard control</strong> — taught by BJJ House Okinawa · 2:31 · <a href="https://www.youtube.com/watch?v=MUZyUFn6RC4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
+
+<p class="clip-credit"><strong>Getting the feet on biceps and hips position</strong> — taught by Ariel Tabak · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aomPFOrnW9g)
+
+<p class="clip-credit"><strong>Seated guard vs standing: distance control</strong> — taught by Brian Glick · 6:33 · <a href="https://www.youtube.com/watch?v=aomPFOrnW9g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

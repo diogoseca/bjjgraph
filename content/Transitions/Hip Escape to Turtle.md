@@ -34,6 +34,43 @@ description: "Learn Hip Escape to Turtle from Body Triangle. Systematic escape u
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape to Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle Escape \u0026 Back-Exposure System",
+      "description": "Hip Escape to Turtle film study: Turtle Escape \u0026 Back-Exposure System, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ft6OyIZ6vPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ft6OyIZ6vPs",
+      "url": "https://www.youtube.com/watch?v=Ft6OyIZ6vPs",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Control Escape Explained Simply",
+      "description": "Hip Escape to Turtle film study: Back Control Escape Explained Simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jd2llamfl8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jd2llamfl8",
+      "url": "https://www.youtube.com/watch?v=3Jd2llamfl8",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT189S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The technique exploits a mechanical weakness in the body triangle: the attacker'
 This escape is particularly effective because turtle, while not an ideal position, offers significantly more mobility and escape options than remaining trapped in body triangle. From turtle, you can work toward guard recovery, technical standup, or granby roll sequences. The transition also temporarily removes the neck attack threat, giving you breathing room to reassess and continue your escape sequence.
 
 **From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape to Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ft6OyIZ6vPs)
+
+<p class="clip-credit"><strong>Turtle Escape &amp; Back-Exposure System</strong> — taught by Jozef Chen · 2:29 · <a href="https://www.youtube.com/watch?v=Ft6OyIZ6vPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jd2llamfl8)
+
+<p class="clip-credit"><strong>Back Control Escape Explained Simply</strong> — taught by Jean Jacques Machado · 3:09 · <a href="https://www.youtube.com/watch?v=3Jd2llamfl8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

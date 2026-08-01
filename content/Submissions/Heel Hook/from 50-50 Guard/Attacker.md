@@ -176,6 +176,54 @@ description: "Learn to attack the heel hook from 50-50 Guard. Step-by-step execu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Hook from 50-50 Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "True 50/50 heel hook",
+      "description": "Heel Hook from 50-50 Guard (Attacker) film study: True 50/50 heel hook, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U1vlUbJN3sc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U1vlUbJN3sc",
+      "url": "https://www.youtube.com/watch?v=U1vlUbJN3sc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Heel hooks breakdown",
+      "description": "Heel Hook from 50-50 Guard (Attacker) film study: Heel hooks breakdown, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UuluKZKDt8w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UuluKZKDt8w",
+      "url": "https://www.youtube.com/watch?v=UuluKZKDt8w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Get the 50/50 heel hook",
+      "description": "Heel Hook from 50-50 Guard (Attacker) film study: Get the 50/50 heel hook, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eb6ujAO09SY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eb6ujAO09SY",
+      "url": "https://www.youtube.com/watch?v=eb6ujAO09SY",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT123S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the heel hook from 50-50 Guard requires winning the inside position ba
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Hook from 50-50 Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U1vlUbJN3sc)
+
+<p class="clip-credit"><strong>True 50/50 heel hook</strong> — taught by John Danaher · 0:34 · <a href="https://www.youtube.com/watch?v=U1vlUbJN3sc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UuluKZKDt8w)
+
+<p class="clip-credit"><strong>Heel hooks breakdown</strong> — taught by Lachlan Giles · 1:04 · <a href="https://www.youtube.com/watch?v=UuluKZKDt8w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eb6ujAO09SY)
+
+<p class="clip-credit"><strong>Get the 50/50 heel hook</strong> — taught by Asaf Mich · 2:03 · <a href="https://www.youtube.com/watch?v=eb6ujAO09SY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

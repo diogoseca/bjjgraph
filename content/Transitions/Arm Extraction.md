@@ -34,6 +34,43 @@ description: "Master Arm Extraction escape from Side Control. Learn systematic a
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Extraction \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Limp arm escape from side control",
+      "description": "Arm Extraction film study: Limp arm escape from side control, taught by United BJJ Hawaii.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YhkVpXhiAho/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YhkVpXhiAho",
+      "url": "https://www.youtube.com/watch?v=YhkVpXhiAho",
+      "creator": { "@type": "Person", "name": "United BJJ Hawaii" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to free the trapped arm",
+      "description": "Arm Extraction film study: How to free the trapped arm, taught by The Fight Centre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aw_eTRRuDz8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aw_eTRRuDz8",
+      "url": "https://www.youtube.com/watch?v=aw_eTRRuDz8",
+      "creator": { "@type": "Person", "name": "The Fight Centre" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The Arm Extraction serves as a critical gateway technique connecting bottom side
 This escape is particularly effective against pressure-based top players who prioritize chest pressure over weight distribution. The technique's success depends on proper frame placement, shoulder rotation mechanics, and the ability to maintain defensive posture throughout the extraction sequence. Mastery of arm extraction fundamentally improves survival rates under side control and provides essential defensive foundations for all skill levels.
 
 **From Position**: [[Positions/Side Control]] (Bottom)
-**Success Rate**: 68%
+**Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Extraction in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YhkVpXhiAho)
+
+<p class="clip-credit"><strong>Limp arm escape from side control</strong> — taught by United BJJ Hawaii · 2:08 · <a href="https://www.youtube.com/watch?v=YhkVpXhiAho" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aw_eTRRuDz8)
+
+<p class="clip-credit"><strong>How to free the trapped arm</strong> — taught by The Fight Centre · 3:27 · <a href="https://www.youtube.com/watch?v=aw_eTRRuDz8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -245,7 +310,7 @@ Arm extraction serves as a critical defensive connector in the BJJ positional hi
 
 - [[Transitions/Bridge and Roll]] - Alternative escape option particularly effective when arm extraction is countered by increased pressure
 
-- [[Transitions/Ghost Escape]] - Advanced alternative escape pathway from side control using different mechanics
+- [[Transitions/Ghost Escape from Side Control]] - Advanced alternative escape pathway from side control using different mechanics
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Common follow-up guard position after successful arm extraction
 

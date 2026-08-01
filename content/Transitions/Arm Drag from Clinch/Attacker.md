@@ -174,6 +174,54 @@ description: "Learn to execute the arm drag from clinch with precise grip mechan
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag from Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm Drag Takedown",
+      "description": "Arm Drag from Clinch (Attacker) film study: Arm Drag Takedown, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kp3ABmsn1I0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kp3ABmsn1I0",
+      "url": "https://www.youtube.com/watch?v=Kp3ABmsn1I0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm Drag to Body Lock",
+      "description": "Arm Drag from Clinch (Attacker) film study: Arm Drag to Body Lock, taught by Renegade BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wB0ifzwxrBQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wB0ifzwxrBQ",
+      "url": "https://www.youtube.com/watch?v=wB0ifzwxrBQ",
+      "creator": { "@type": "Person", "name": "Renegade BJJ" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Wall Control to Arm Drag",
+      "description": "Arm Drag from Clinch (Attacker) film study: Wall Control to Arm Drag, taught by Troy Manning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MXUtIJBEIqU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MXUtIJBEIqU",
+      "url": "https://www.youtube.com/watch?v=MXUtIJBEIqU",
+      "creator": { "@type": "Person", "name": "Troy Manning" },
+      "duration": "PT45S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 **From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag from Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kp3ABmsn1I0)
+
+<p class="clip-credit"><strong>Arm Drag Takedown</strong> — taught by Marcelo Garcia · 0:55 · <a href="https://www.youtube.com/watch?v=Kp3ABmsn1I0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wB0ifzwxrBQ)
+
+<p class="clip-credit"><strong>Arm Drag to Body Lock</strong> — taught by Renegade BJJ · 0:56 · <a href="https://www.youtube.com/watch?v=wB0ifzwxrBQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MXUtIJBEIqU)
+
+<p class="clip-credit"><strong>Wall Control to Arm Drag</strong> — taught by Troy Manning · 0:45 · <a href="https://www.youtube.com/watch?v=MXUtIJBEIqU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Triangle Setup from De La Riva Guard in BJJ. Complete g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle Setup from De La Riva \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle from De La Riva guard",
+      "description": "Triangle Setup from De La Riva film study: Triangle from De La Riva guard, taught by Nartay Kazhekov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UOFZwIbz9zM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UOFZwIbz9zM",
+      "url": "https://www.youtube.com/watch?v=UOFZwIbz9zM",
+      "creator": { "@type": "Person", "name": "Nartay Kazhekov" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rafael Mendes triangle choke setup",
+      "description": "Triangle Setup from De La Riva film study: Rafael Mendes triangle choke setup, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DnEJZf_t8PU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DnEJZf_t8PU",
+      "url": "https://www.youtube.com/watch?v=DnEJZf_t8PU",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The strategic value of the triangle threat from DLR extends beyond the submissio
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle Setup from De La Riva in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UOFZwIbz9zM)
+
+<p class="clip-credit"><strong>Triangle from De La Riva guard</strong> — taught by Nartay Kazhekov · 0:25 · <a href="https://www.youtube.com/watch?v=UOFZwIbz9zM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DnEJZf_t8PU)
+
+<p class="clip-credit"><strong>Rafael Mendes triangle choke setup</strong> — taught by Rafael Mendes · 1:02 · <a href="https://www.youtube.com/watch?v=DnEJZf_t8PU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

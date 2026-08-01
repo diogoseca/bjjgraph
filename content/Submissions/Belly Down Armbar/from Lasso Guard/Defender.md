@@ -136,6 +136,43 @@ description: "Defend against the belly down armbar from lasso guard. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Lasso Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Best Armbar Escape",
+      "description": "Belly Down Armbar from Lasso Guard (Defender) film study: The Best Armbar Escape, taught by Aaron Benzrihem.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xh2iJGUS-NQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xh2iJGUS-NQ",
+      "url": "https://www.youtube.com/watch?v=xh2iJGUS-NQ",
+      "creator": { "@type": "Person", "name": "Aaron Benzrihem" },
+      "duration": "PT227S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the Lasso Guard",
+      "description": "Belly Down Armbar from Lasso Guard (Defender) film study: Passing the Lasso Guard, taught by Fargo BJJ Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/niXxzdQBFEo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/niXxzdQBFEo",
+      "url": "https://www.youtube.com/watch?v=niXxzdQBFEo",
+      "creator": { "@type": "Person", "name": "Fargo BJJ Academy" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +183,34 @@ Defending the belly down armbar from lasso guard requires early recognition and 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Lasso Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xh2iJGUS-NQ)
+
+<p class="clip-credit"><strong>The Best Armbar Escape</strong> — taught by Aaron Benzrihem · 3:47 · <a href="https://www.youtube.com/watch?v=xh2iJGUS-NQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=niXxzdQBFEo)
+
+<p class="clip-credit"><strong>Passing the Lasso Guard</strong> — taught by Fargo BJJ Academy · 0:25 · <a href="https://www.youtube.com/watch?v=niXxzdQBFEo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

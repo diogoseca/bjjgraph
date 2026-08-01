@@ -21,37 +21,37 @@ description: "Defensive trapped-leg position where the opponent controls your le
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Recovery from Inside Ashi-Garami",
-      "text": "From this position, attempt Guard Recovery from Inside Ashi-Garami. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Guard Recovery from Inside Ashi-Garami. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Up from Inside Ashi",
-      "text": "From this position, attempt Standing Up from Inside Ashi. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Standing Up from Inside Ashi. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction from Inside Ashi",
-      "text": "From this position, attempt Leg Extraction from Inside Ashi. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction from Inside Ashi. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Entangle to 50-50 from Ashi",
-      "text": "From this position, attempt Counter Entangle to 50-50 from Ashi. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Counter Entangle to 50-50 from Ashi. This technique is attempted in 16% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Step",
-      "text": "From this position, attempt Back Step. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Counter heel hook",
+      "text": "From this position, attempt Counter heel hook. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Defensive trapped-leg position where the opponent controls your le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ashi Garami escape: sit over foot to mount",
+      "description": "Inside Ashi-Garami (Bottom) film study: Ashi Garami escape: sit over foot to mount, taught by Troy Manning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4UEhHwbGfQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4UEhHwbGfQ",
+      "url": "https://www.youtube.com/watch?v=m4UEhHwbGfQ",
+      "creator": { "@type": "Person", "name": "Troy Manning" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Leg X counter with heel hook",
+      "description": "Inside Ashi-Garami (Bottom) film study: Single Leg X counter with heel hook, taught by Charles Allan Price.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2KVHXnSh_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2KVHXnSh_o",
+      "url": "https://www.youtube.com/watch?v=e2KVHXnSh_o",
+      "creator": { "@type": "Person", "name": "Charles Allan Price" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Foot lock and Single Leg X guard escapes",
+      "description": "Inside Ashi-Garami (Bottom) film study: Foot lock and Single Leg X guard escapes, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JSOM86_1lRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
+      "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From this position the defensive priorities are non-negotiable and ordered: prot
 This position is one of the more dangerous defensive scenarios in modern no-gi grappling because catastrophic knee damage can occur within seconds if the opponent secures the heel and applies rotation. Calm, systematic defense beats explosive panic: thrashing against a secured heel grip feeds the very rotation that finishes the lock. Understanding Inside Ashi-Garami from the bottom is essential for anyone training leg locks safely, and the escapes here transfer directly to defending saddle, 50-50, and outside ashi.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4UEhHwbGfQ)
+
+<p class="clip-credit"><strong>Ashi Garami escape: sit over foot to mount</strong> — taught by Troy Manning · 1:16 · <a href="https://www.youtube.com/watch?v=m4UEhHwbGfQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2KVHXnSh_o)
+
+<p class="clip-credit"><strong>Single Leg X counter with heel hook</strong> — taught by Charles Allan Price · 1:15 · <a href="https://www.youtube.com/watch?v=e2KVHXnSh_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JSOM86_1lRo)
+
+<p class="clip-credit"><strong>Foot lock and Single Leg X guard escapes</strong> — taught by James O&#39;Connor · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

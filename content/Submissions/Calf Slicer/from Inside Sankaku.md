@@ -34,6 +34,43 @@ description: "Master the calf slicer from inside sankaku. Complete guide coverin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Inside Sankaku \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bear Trap into Calf Slicer",
+      "description": "Calf Slicer from Inside Sankaku film study: Bear Trap into Calf Slicer, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6M0HvIFfc-w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6M0HvIFfc-w",
+      "url": "https://www.youtube.com/watch?v=6M0HvIFfc-w",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside Ashi Garami Calf Slicer",
+      "description": "Calf Slicer from Inside Sankaku film study: Inside Ashi Garami Calf Slicer, taught by Hicham.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VXmaDAUt-BU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VXmaDAUt-BU",
+      "url": "https://www.youtube.com/watch?v=VXmaDAUt-BU",
+      "creator": { "@type": "Person", "name": "Hicham" },
+      "duration": "PT172S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The technique carries particular strategic value in competition because opponent
 **Starting Position**: [[Positions/Inside Sankaku]] · **From**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Inside Sankaku in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6M0HvIFfc-w)
+
+<p class="clip-credit"><strong>Bear Trap into Calf Slicer</strong> — taught by Revolution BJJ · 1:59 · <a href="https://www.youtube.com/watch?v=6M0HvIFfc-w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VXmaDAUt-BU)
+
+<p class="clip-credit"><strong>Inside Ashi Garami Calf Slicer</strong> — taught by Hicham · 2:52 · <a href="https://www.youtube.com/watch?v=VXmaDAUt-BU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -241,7 +306,7 @@ The technique carries particular strategic value in competition because opponent
 ## Related
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Banana Split]]
 - [[Transitions/Aoki Lock]]

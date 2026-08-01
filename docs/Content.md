@@ -163,7 +163,13 @@ Every content type carries a **required** root-level `summary`: ONE self-contain
 
 ## Curation-Safe Regeneration
 
-`regenerate_content_json.py` enriches content via Claude without damaging the graph: it PRESERVES every `transitions[]` entry (positions) and `from_position` / `outcomes[].to` targets (transitions/submissions) — dropping a transition re-orphans a submission and is rejected (blocking retry). `attempt_probability` may be retuned; sums are auto-normalized to exactly 100 per role after Claude returns.
+`regenerate_content_json.py` enriches content via Claude without damaging the graph: it PRESERVES every `transitions[]` entry (positions) and `from_position` / `outcomes[].to` targets (transitions/submissions) — dropping a transition re-orphans a submission and is rejected (blocking retry). `attempt_probability` may be retuned; sums are auto-normalized to exactly 100 per role after Claude returns. `products` (Systems) and `clips` (all categories) are curated data stripped from the AI contract and re-merged verbatim on save.
+
+## Film-Study Clips (`clips`)
+
+Curated YouTube clips (max 4 per holder) teaching the technique/position, ideally by its recognized legend (Craig Jones → body lock, Gordon Ryan → pressure passing, Roger Gracie → cross collar…). Role-nested like flashcards: `top`/`bottom` + root overview for positions, `attacker`/`defender` for techniques (root = general fallback), root-only for family hubs (derived union of children) and principles.
+
+Clip shape: `{id, title, by, start?, end?, vertical, channel, duration, verified}` — `id` is a machine-verified 11-char YouTube ID; `start`/`end` define a loop; `vertical` marks Shorts; `channel`/`duration`/`verified` are provenance (stripped from the front-end bundle). **Never AI-authored, never hand-invented**: sourced by `npm run clips:source` (LLM plans legend+queries → yt-dlp real search → LLM curates from real results only → oEmbed + Shorts-thumbnail verification → apply), re-checked by `npm run clips:verify` (add `--prune` to drop dead videos), reviewed via `clips_sourcing/review.html` (`npm run clips:report`) — prune bad picks by deleting them from the content JSON. The Neural app renders clips in the node dossier (film-study strip); position hub clips union into both role dossiers at build time. Generated markdown pages render a "Film Study" section (native YouTube embeds via the OFM transformer, start/end trim params honored, lazy-loaded) plus an ItemList/VideoObject JSON-LD block. Duration policies by content type: techniques shorts-first (~30s motion loops, ≤75s preferred); rescue/top-up slots may carry ≤10min focused instructionals; Principles carry 1 short hook + 1-2 deep concept lectures (5-25min).
 
 ## Flashcards Guidelines
 

@@ -168,6 +168,54 @@ description: "How to execute Rolling Kneebar in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kneebar (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Go-behind kneebar entry",
+      "description": "Rolling Kneebar (Attacker) film study: Go-behind kneebar entry, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard to kneebar",
+      "description": "Rolling Kneebar (Attacker) film study: Half guard to kneebar, taught by CholoMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uB23Ogno7DM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uB23Ogno7DM",
+      "url": "https://www.youtube.com/watch?v=uB23Ogno7DM",
+      "creator": { "@type": "Person", "name": "CholoMMA" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi kneebar technique",
+      "description": "Rolling Kneebar (Attacker) film study: No-gi kneebar technique, taught by Jiu Jitsu Matrix.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/12rNXPlqVXo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/12rNXPlqVXo",
+      "url": "https://www.youtube.com/watch?v=12rNXPlqVXo",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Matrix" },
+      "duration": "PT20S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -179,6 +227,42 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 **From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kneebar (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go-behind kneebar entry</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uB23Ogno7DM)
+
+<p class="clip-credit"><strong>Half guard to kneebar</strong> — taught by CholoMMA · 0:24 · <a href="https://www.youtube.com/watch?v=uB23Ogno7DM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=12rNXPlqVXo)
+
+<p class="clip-credit"><strong>No-gi kneebar technique</strong> — taught by Jiu Jitsu Matrix · 0:20 · <a href="https://www.youtube.com/watch?v=12rNXPlqVXo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

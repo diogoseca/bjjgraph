@@ -174,6 +174,10 @@ description: "How to execute Leg Drag to Crucifix in BJJ. Attacking perspective 
 </script>
 
 
+
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +193,8 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 **From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
 
 <section id="key-principles" class="content-section">
 

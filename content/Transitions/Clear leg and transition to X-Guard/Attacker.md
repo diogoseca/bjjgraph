@@ -168,6 +168,43 @@ description: "How to execute Clear Leg to X-Guard in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clear leg and transition to X-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clearing the leg from mount escape into X-Guard",
+      "description": "Clear leg and transition to X-Guard (Attacker) film study: Clearing the leg from mount escape into X-Guard, taught by Masters Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RWtKllp2avU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RWtKllp2avU",
+      "url": "https://www.youtube.com/watch?v=RWtKllp2avU",
+      "creator": { "@type": "Person", "name": "Masters Martial Arts" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shallow K Guard entry off the far leg",
+      "description": "Clear leg and transition to X-Guard (Attacker) film study: Shallow K Guard entry off the far leg, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQ1z2RLYz4Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fQ1z2RLYz4Q",
+      "url": "https://www.youtube.com/watch?v=fQ1z2RLYz4Q",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Strategically, this transition exemplifies modern leg lock defense philosophy: n
 **From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clear leg and transition to X-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RWtKllp2avU)
+
+<p class="clip-credit"><strong>Clearing the leg from mount escape into X-Guard</strong> — taught by Masters Martial Arts · 0:54 · <a href="https://www.youtube.com/watch?v=RWtKllp2avU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fQ1z2RLYz4Q)
+
+<p class="clip-credit"><strong>Shallow K Guard entry off the far leg</strong> — taught by Lachlan Giles · 0:42 · <a href="https://www.youtube.com/watch?v=fQ1z2RLYz4Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

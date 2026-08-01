@@ -148,6 +148,43 @@ description: "Defend against the Underhook Sweep from Dogfight in BJJ. Learn to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Sweep from Dogfight (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the dogfight sweep",
+      "description": "Underhook Sweep from Dogfight (Defender) film study: Countering the dogfight sweep, taught by Cauliflower Ear Family coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GE3rFdjxA-M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GE3rFdjxA-M",
+      "url": "https://www.youtube.com/watch?v=GE3rFdjxA-M",
+      "creator": { "@type": "Person", "name": "Cauliflower Ear Family coach" },
+      "duration": "PT194S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Whizzer options against the dogfight",
+      "description": "Underhook Sweep from Dogfight (Defender) film study: Whizzer options against the dogfight, taught by John Laboranti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lEx-a7y8zo8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lEx-a7y8zo8",
+      "url": "https://www.youtube.com/watch?v=lEx-a7y8zo8",
+      "creator": { "@type": "Person", "name": "John Laboranti" },
+      "duration": "PT149S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Underhook Sweep from Dogfight, you are the top playe
 **Opponent's Starting Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Sweep from Dogfight (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GE3rFdjxA-M)
+
+<p class="clip-credit"><strong>Countering the dogfight sweep</strong> — taught by Cauliflower Ear Family coach · 3:14 · <a href="https://www.youtube.com/watch?v=GE3rFdjxA-M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lEx-a7y8zo8)
+
+<p class="clip-credit"><strong>Whizzer options against the dogfight</strong> — taught by John Laboranti · 2:29 · <a href="https://www.youtube.com/watch?v=lEx-a7y8zo8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

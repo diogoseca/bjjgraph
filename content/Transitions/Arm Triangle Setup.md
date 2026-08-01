@@ -34,6 +34,54 @@ description: "Learn the Arm Triangle Setup from North-South in BJJ. Step-by-step
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North south arm choke setup",
+      "description": "Arm Triangle Setup film study: North south arm choke setup, taught by BJJ Recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WzA25kaIqEg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WzA25kaIqEg",
+      "url": "https://www.youtube.com/watch?v=WzA25kaIqEg",
+      "creator": { "@type": "Person", "name": "BJJ Recap" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head and arm choke from north-south",
+      "description": "Arm Triangle Setup film study: Head and arm choke from north-south, taught by Mark Cukro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AtRy0npW6x0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AtRy0npW6x0",
+      "url": "https://www.youtube.com/watch?v=AtRy0npW6x0",
+      "creator": { "@type": "Person", "name": "Mark Cukro" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "North south choke, arm in variation",
+      "description": "Arm Triangle Setup film study: North south choke, arm in variation, taught by LEGACY TV.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1o3yaF5MiW8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1o3yaF5MiW8",
+      "url": "https://www.youtube.com/watch?v=1o3yaF5MiW8",
+      "creator": { "@type": "Person", "name": "LEGACY TV" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Strategically, this transition converts a dominant but static pinning position i
 The technique rewards patience and systematic grip progression. Rushing the arm thread before properly trapping the opponent's arm results in the bottom player framing out and recovering guard. Advanced practitioners use the arm triangle threat as part of a broader submission chain from North-South, combining it with kimura, North-South choke, and armbar attacks to create a web of threats where defending one opens another.
 
 **From Position**: [[Positions/North-South]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 41%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WzA25kaIqEg)
+
+<p class="clip-credit"><strong>North south arm choke setup</strong> — taught by BJJ Recap · 0:46 · <a href="https://www.youtube.com/watch?v=WzA25kaIqEg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AtRy0npW6x0)
+
+<p class="clip-credit"><strong>Head and arm choke from north-south</strong> — taught by Mark Cukro · 1:32 · <a href="https://www.youtube.com/watch?v=AtRy0npW6x0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1o3yaF5MiW8)
+
+<p class="clip-credit"><strong>North south choke, arm in variation</strong> — taught by LEGACY TV · 1:35 · <a href="https://www.youtube.com/watch?v=1o3yaF5MiW8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -237,7 +321,7 @@ The Arm Triangle Setup serves as a critical link in the North-South submission c
 
 - [[Positions/Side Control]] - Transitional destination where the arm triangle finish is mechanically strongest
 
-- [[Transitions/Arm Triangle]] - Primary submission finish available once the head-and-arm configuration is locked
+- [[Submissions/Arm Triangle]] - Primary submission finish available once the head-and-arm configuration is locked
 
 - [[Transitions/Arm Triangle Transition]] - Alternative arm triangle entry path from different positions
 
@@ -245,7 +329,7 @@ The Arm Triangle Setup serves as a critical link in the North-South submission c
 
 - [[Transitions/North-South to Kimura]] - Complementary attack creating a three-way submission chain from North-South
 
-- [[Transitions/North-South Choke]] - Alternative choke attack from the same starting position completing the dilemma triangle
+- [[Submissions/North-South Choke]] - Alternative choke attack from the same starting position completing the dilemma triangle
 
 - [[Transitions/Armbar from North-South]] - Alternative submission from same position when arms are extended
 

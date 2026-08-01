@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Clinch/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "A cornerstone of modern sport Brazilian Jiu-Jitsu strategy, the guard pull from clinch allows practitioners to bypass wrestling exchanges and immediately engage in their strongest ground-based game. Rather than contesting takedowns against a credentialed wrestler, the practitioner converts the neutral clinch into an offensive bottom position with immediate sweep and submission threats, trading the standing exchange for the guard player's preferred range.\n\nThe mechanics require precise coordination between grip establishment, weight distribution, and hip placement. The practitioner must maintain dominant grips throughout the transition to prevent the opponent from capitalizing on the moment of vulnerability as they move from standing to seated. Timing is critical — pulling guard against a forward-driving opponent uses their momentum to assist the transition, while pulling against a retreating opponent risks sitting to open guard without meaningful control.\n\nStrategic context plays a significant role in the decision to pull guard. Practitioners with superior guard games frequently prefer this pathway over extended wrestling exchanges, particularly when facing opponents with strong takedown credentials. The guard pull creates a tactical shortcut to a preferred engagement range, but carries inherent risk if executed without proper grip security or against an opponent prepared to initiate immediate guard passing sequences upon landing.",
   "conditions": [
     "Clinch engagement established with face-to-face upper body contact and at least one strong grip connection",
@@ -257,38 +269,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the guard pull from the clinch?",
-        "answer": "The optimal timing is when your opponent drives forward with their weight or commits to an offensive action like a takedown setup. Their forward momentum assists your transition to the ground and makes it significantly harder for them to sprawl or disengage. Pulling against a retreating or neutral opponent requires more grip strength and gives them more time to react with defensive measures like sprawling or stripping your grips."
+        "answer": "The optimal timing is when your opponent drives forward with their weight or commits to an offensive action like a takedown setup. Their forward momentum assists your transition to the ground and makes it significantly harder for them to sprawl or disengage. Pulling against a retreating or neutral opponent requires more grip strength and gives them more time to react with defensive measures like sprawling or stripping your grips.",
+        "answer_line": "When they drive forward",
+        "distractors": {
+          "plausible": [
+            "When they retreat",
+            "Right after clinch entry"
+          ],
+          "trap": [
+            "When they're set and stable"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your collar grip as you begin sitting — how do you adjust mid-pull?",
-        "answer": "Immediately redirect your freed hand to an alternative connection point — collar tie behind the neck, overhook on their arm, or two-on-one grip on the remaining controlled arm. The critical principle is maintaining at least one strong connection throughout the transition. If both grips are lost simultaneously, abort the guard pull by posting your foot and returning to standing rather than sitting without any control, which gives a free passing opportunity."
+        "answer": "Immediately redirect your freed hand to an alternative connection point — collar tie behind the neck, overhook on their arm, or two-on-one grip on the remaining controlled arm. The critical principle is maintaining at least one strong connection throughout the transition. If both grips are lost simultaneously, abort the guard pull by posting your foot and returning to standing rather than sitting without any control, which gives a free passing opportunity.",
+        "answer_line": "Grab overhook or collar tie",
+        "distractors": {
+          "plausible": [
+            "Abort and sprawl back",
+            "Reach for a leg grab"
+          ],
+          "trap": [
+            "Continue sit with no grip"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the highest percentage guard pull in the gi?",
-        "answer": "A cross collar grip at chest level combined with a same-side sleeve grip at the wrist provides the strongest control. The cross collar grip creates a pulling angle that loads your opponent's weight forward and gives you immediate posture-breaking ability once guard is closed. The sleeve grip prevents their free hand from posting on your hip or establishing a frame that blocks guard closure, covering the two primary defensive responses."
+        "answer": "A cross collar grip at chest level combined with a same-side sleeve grip at the wrist provides the strongest control. The cross collar grip creates a pulling angle that loads your opponent's weight forward and gives you immediate posture-breaking ability once guard is closed. The sleeve grip prevents their free hand from posting on your hip or establishing a frame that blocks guard closure, covering the two primary defensive responses.",
+        "answer_line": "Cross collar + sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Same-side collar + sleeve",
+            "Two-on-one sleeve grip"
+          ],
+          "trap": [
+            "Grab both sleeves only"
+          ]
+        }
       },
       {
         "question": "Why is sitting at an angle rather than straight back critical for guard pull success?",
-        "answer": "Sitting at a 30-degree angle off your opponent's centerline prevents them from driving straight forward over you into an immediate passing position. The angle forces them to adjust their trajectory, buying critical time for guard closure. Additionally, sitting at an angle naturally creates better hip position for guard closure, as your hips are already turned to accept the opponent's body between your legs rather than requiring a flat-to-angled adjustment after landing."
+        "answer": "Sitting at a 30-degree angle off your opponent's centerline prevents them from driving straight forward over you into an immediate passing position. The angle forces them to adjust their trajectory, buying critical time for guard closure. Additionally, sitting at an angle naturally creates better hip position for guard closure, as your hips are already turned to accept the opponent's body between your legs rather than requiring a flat-to-angled adjustment after landing.",
+        "answer_line": "Sit at an angle, not straight",
+        "distractors": {
+          "plausible": [
+            "Sit straight back quickly",
+            "Angle away, hips square"
+          ],
+          "trap": [
+            "Sit flat, square to opponent"
+          ]
+        }
       },
       {
         "question": "How should you modify the guard pull when your opponent has double underhooks in the clinch?",
-        "answer": "With the opponent holding double underhooks, the standard collar-sleeve guard pull is compromised because they control your upper body. Instead, use an overhook on one side combined with a wrist grip on the other side as your anchor configuration. As you sit, the overhook serves as your primary connection point. Alternatively, pummel to break the double underhook before pulling, or transition to a butterfly guard pull where you hook their thigh with your instep during the sit, which works effectively even against double underhooks."
+        "answer": "With the opponent holding double underhooks, the standard collar-sleeve guard pull is compromised because they control your upper body. Instead, use an overhook on one side combined with a wrist grip on the other side as your anchor configuration. As you sit, the overhook serves as your primary connection point. Alternatively, pummel to break the double underhook before pulling, or transition to a butterfly guard pull where you hook their thigh with your instep during the sit, which works effectively even against double underhooks.",
+        "answer_line": "Overhook + wrist grip anchor",
+        "distractors": {
+          "plausible": [
+            "Pull guard same as normal",
+            "Grab both underhooks"
+          ],
+          "trap": [
+            "Release grips, sit blind"
+          ]
+        }
       },
       {
         "question": "What is the most common way a guard pull fails at purple belt level and above?",
-        "answer": "The most common failure is the opponent timing a knee slide or leg weave pass during the transition from standing to guard. As you sit, there is a brief window where your legs are in motion and not yet locked. Experienced opponents recognize the guard pull cues and immediately drive a knee through the gap before guard closure completes. The correction is ensuring your legs close as a single coordinated simultaneous action rather than sequentially, and using your sleeve grip to prevent their knee from advancing into the gap."
+        "answer": "The most common failure is the opponent timing a knee slide or leg weave pass during the transition from standing to guard. As you sit, there is a brief window where your legs are in motion and not yet locked. Experienced opponents recognize the guard pull cues and immediately drive a knee through the gap before guard closure completes. The correction is ensuring your legs close as a single coordinated simultaneous action rather than sequentially, and using your sleeve grip to prevent their knee from advancing into the gap.",
+        "answer_line": "Knee slide through gap",
+        "distractors": {
+          "plausible": [
+            "Opponent stacks the pass",
+            "Sleeve grip fails first"
+          ],
+          "trap": [
+            "Weak collar grip strength"
+          ]
+        }
       },
       {
         "question": "Your guard pull lands in closed guard but your opponent immediately begins standing up — what is your first action?",
-        "answer": "Immediately break their posture by pulling them forward with combined leg and grip pressure before they complete the stand-up. If they reach their feet despite your efforts, transition your grip configuration to support open guard sweeps — sleeve and collar control with feet on their hips. Do not attempt to hold closed guard against a fully standing opponent, as this elevates your weight making guard breaks easy and creates vulnerability to slams in certain rulesets."
+        "answer": "Immediately break their posture by pulling them forward with combined leg and grip pressure before they complete the stand-up. If they reach their feet despite your efforts, transition your grip configuration to support open guard sweeps — sleeve and collar control with feet on their hips. Do not attempt to hold closed guard against a fully standing opponent, as this elevates your weight making guard breaks easy and creates vulnerability to slams in certain rulesets.",
+        "answer_line": "Break posture, pull them down",
+        "distractors": {
+          "plausible": [
+            "Hold closed guard tight",
+            "Switch grips only after they stand"
+          ],
+          "trap": [
+            "Keep closed guard as they rise"
+          ]
+        }
       },
       {
         "question": "In which direction should you pull your opponent to maximize guard pull success, and why?",
-        "answer": "Pull your opponent forward and slightly down over your centerline using the collar grip — never straight down or laterally to the side. The forward-and-down vector loads their weight onto your upper body so their own momentum carries them into your closing guard rather than letting them sprawl their hips back to defend. This directional pull also pre-breaks their posture during the descent, so the instant your ankles lock you are already in an attacking closed guard rather than fighting an upright passer for control."
+        "answer": "Pull your opponent forward and slightly down over your centerline using the collar grip — never straight down or laterally to the side. The forward-and-down vector loads their weight onto your upper body so their own momentum carries them into your closing guard rather than letting them sprawl their hips back to defend. This directional pull also pre-breaks their posture during the descent, so the instant your ankles lock you are already in an attacking closed guard rather than fighting an upright passer for control.",
+        "answer_line": "Forward and down, not lateral",
+        "distractors": {
+          "plausible": [
+            "Straight down, not forward",
+            "Pull laterally to the side"
+          ],
+          "trap": [
+            "Push them backward instead"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Guard pulling carries risk of knee injury if performed with poor landing mechanics, particularly when sitting with a twisted knee or when your opponent drives forward during the transition. Never jump to closed guard on a standing opponent unless competition rules explicitly permit it and both practitioners are prepared, as this can cause severe knee ligament damage to the standing player. Practice controlled sit-down mechanics extensively before attempting full-speed guard pulls. During drilling, communicate with your training partner about your intent before initiating the pull so they can react safely rather than being caught off-balance."
+    "safety_considerations": "Guard pulling carries risk of knee injury if performed with poor landing mechanics, particularly when sitting with a twisted knee or when your opponent drives forward during the transition. Never jump to closed guard on a standing opponent unless competition rules explicitly permit it and both practitioners are prepared, as this can cause severe knee ligament damage to the standing player. Practice controlled sit-down mechanics extensively before attempting full-speed guard pulls. During drilling, communicate with your training partner about your intent before initiating the pull so they can react safely rather than being caught off-balance.",
+    "clips": [
+      {
+        "id": "q_PpBsX4lCc",
+        "title": "Guard pull from the standing clinch",
+        "by": "Mat Life Training Center",
+        "vertical": false,
+        "channel": "Mat Life Training Center",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "c9zYACjPEWo",
+        "title": "Pulling closed guard",
+        "by": "The Paradigm Academy",
+        "vertical": false,
+        "channel": "The Paradigm Academy",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2RxcGbEFS_s",
+        "title": "Pulling guard in no-gi",
+        "by": "Backstreet Dojo",
+        "vertical": false,
+        "channel": "Backstreet Dojo ",
+        "duration": 26,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pull from Clinch Defender",
@@ -374,23 +495,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is about to pull guard from the clinch?",
-        "answer": "The earliest cues are a sudden change in grip configuration — opponent shifts from wrestling ties to collar and sleeve grips — combined with their hips beginning to drop backward while upper body connection is maintained through pulling grips. You may also notice their lead foot stepping outside your stance to create the angular path for sitting. Recognizing these cues within the first half-second provides enough time to sprawl, strip grips, or drive forward to counter effectively."
+        "answer": "The earliest cues are a sudden change in grip configuration — opponent shifts from wrestling ties to collar and sleeve grips — combined with their hips beginning to drop backward while upper body connection is maintained through pulling grips. You may also notice their lead foot stepping outside your stance to create the angular path for sitting. Recognizing these cues within the first half-second provides enough time to sprawl, strip grips, or drive forward to counter effectively.",
+        "answer_line": "Grip change + hips dropping",
+        "distractors": {
+          "plausible": [
+            "Opponent grips tighter first",
+            "Sudden burst of forward pressure"
+          ],
+          "trap": [
+            "Wait for them to sit down"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sitting for a guard pull and you have an underhook — what is your highest-percentage counter?",
-        "answer": "Drive forward immediately with your underhook side, pushing your chest into their shoulder while circling to the underhook side. This forward pressure combined with lateral angle prevents them from achieving a square guard closure. Your goal is to arrive at their hip before they can lock their ankles, allowing you to establish a passing position from knee slide or headquarters. The underhook gives you inside position that makes their guard pull significantly harder to complete cleanly."
+        "answer": "Drive forward immediately with your underhook side, pushing your chest into their shoulder while circling to the underhook side. This forward pressure combined with lateral angle prevents them from achieving a square guard closure. Your goal is to arrive at their hip before they can lock their ankles, allowing you to establish a passing position from knee slide or headquarters. The underhook gives you inside position that makes their guard pull significantly harder to complete cleanly.",
+        "answer_line": "Drive forward, circle to hip",
+        "distractors": {
+          "plausible": [
+            "Pull them back to standing",
+            "Release underhook, sprawl"
+          ],
+          "trap": [
+            "Follow them down flat"
+          ]
+        }
       },
       {
         "question": "How should you adjust your stance when you recognize a guard pull attempt to avoid ending up in closed guard?",
-        "answer": "Immediately lower your hips and widen your base while driving your hands to their hips or biceps to create distance and prevent being pulled forward. Do not follow them down by bending at the waist, as this feeds directly into closed guard with broken posture. If they complete the sit, immediately establish combat base with one knee up and one knee down rather than dropping both knees between their legs, preserving your mobility options for standing guard break."
+        "answer": "Immediately lower your hips and widen your base while driving your hands to their hips or biceps to create distance and prevent being pulled forward. Do not follow them down by bending at the waist, as this feeds directly into closed guard with broken posture. If they complete the sit, immediately establish combat base with one knee up and one knee down rather than dropping both knees between their legs, preserving your mobility options for standing guard break.",
+        "answer_line": "Widen base, hands to hips",
+        "distractors": {
+          "plausible": [
+            "Drop both knees down",
+            "Grab collar and pull back"
+          ],
+          "trap": [
+            "Bend at waist and follow down"
+          ]
+        }
       },
       {
         "question": "What is the critical window where the guard puller is most vulnerable and how do you exploit it?",
-        "answer": "The critical window is the 1-2 seconds between when their hips contact the mat and when they lock their ankles behind your back. During this transition, their legs are in motion and cannot generate the squeezing pressure needed for full closed guard control. Exploit this window by immediately driving a knee through the centerline of their guard, wedging it between their thighs before closure. This knee wedge prevents guard closure and gives an immediate passing advantage from inside their open guard."
+        "answer": "The critical window is the 1-2 seconds between when their hips contact the mat and when they lock their ankles behind your back. During this transition, their legs are in motion and cannot generate the squeezing pressure needed for full closed guard control. Exploit this window by immediately driving a knee through the centerline of their guard, wedging it between their thighs before closure. This knee wedge prevents guard closure and gives an immediate passing advantage from inside their open guard.",
+        "answer_line": "Knee wedge before ankle lock",
+        "distractors": {
+          "plausible": [
+            "Underhook before hips land",
+            "Grip strip during the sit"
+          ],
+          "trap": [
+            "Wait for guard to fully close"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully closes guard after pulling — what is your immediate priority in the first five seconds?",
-        "answer": "Your immediate priority is establishing strong defensive posture before they can break you down and begin attacking. Place both hands on their hips, straighten your spine, and drive your chest up while keeping your head elevated above your hips. Do not reach for grips or attempt to pass yet — first establish the structural posture that prevents triangles, armbars, and cross collar chokes. Once posture is secured, begin systematic grip fighting to work toward guard opening sequences."
+        "answer": "Your immediate priority is establishing strong defensive posture before they can break you down and begin attacking. Place both hands on their hips, straighten your spine, and drive your chest up while keeping your head elevated above your hips. Do not reach for grips or attempt to pass yet — first establish the structural posture that prevents triangles, armbars, and cross collar chokes. Once posture is secured, begin systematic grip fighting to work toward guard opening sequences.",
+        "answer_line": "Posture: hands on hips, chest up",
+        "distractors": {
+          "plausible": [
+            "Grip fight immediately",
+            "Start passing attempt now"
+          ],
+          "trap": [
+            "Put head down, hunch forward"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -413,6 +584,35 @@
         "phase": "Phase 4: Passing Integration",
         "focus": "Connecting guard pull defense to immediate passing sequences",
         "description": "Full sparring flow where successful guard pull counter immediately transitions into passing attempt. Builds the connection between denying closed guard and capitalizing on the open guard position with knee slice, toreando, or leg drag. Continue until pass is completed or guard is recovered."
+      }
+    ],
+    "clips": [
+      {
+        "id": "HC0O_1S2r9g",
+        "title": "Countering the no-gi 2-on-1 guard pull",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 169,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Yn8x62U6QHs",
+        "title": "2 Techniques to Shut Down Guard Pullers",
+        "by": "Chad Hardy",
+        "vertical": false,
+        "channel": "Chad The Beast Hardy",
+        "duration": 167,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BSmG5ty4tHQ",
+        "title": "How to Block the Guard Jump and Protect Your Knees",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 268,
+        "verified": "2026-07-15"
       }
     ]
   }

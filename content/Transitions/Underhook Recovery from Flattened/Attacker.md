@@ -180,6 +180,43 @@ description: "Learn to recover the underhook from flattened half guard bottom. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Underhook Recovery from Flattened (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting the underhook from knee shield half guard",
+      "description": "Underhook Recovery from Flattened (Attacker) film study: Getting the underhook from knee shield half guard, taught by Bowerhouse MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R0P8BvcJLAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R0P8BvcJLAs",
+      "url": "https://www.youtube.com/watch?v=R0P8BvcJLAs",
+      "creator": { "@type": "Person", "name": "Bowerhouse MMA coach" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Recovering when you get flattened in half guard",
+      "description": "Underhook Recovery from Flattened (Attacker) film study: Recovering when you get flattened in half guard, taught by Inverted Gear coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NWie1oi3JSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NWie1oi3JSg",
+      "url": "https://www.youtube.com/watch?v=NWie1oi3JSg",
+      "creator": { "@type": "Person", "name": "Inverted Gear coach" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 **From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Underhook Recovery from Flattened (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R0P8BvcJLAs)
+
+<p class="clip-credit"><strong>Getting the underhook from knee shield half guard</strong> — taught by Bowerhouse MMA coach · 2:11 · <a href="https://www.youtube.com/watch?v=R0P8BvcJLAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NWie1oi3JSg)
+
+<p class="clip-credit"><strong>Recovering when you get flattened in half guard</strong> — taught by Inverted Gear coach · 4:34 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the Kimura shoulder lock from front headlock in BJJ. Learn 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Front Headlock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock to turtle to kimura",
+      "description": "Kimura from Front Headlock film study: Front headlock to turtle to kimura, taught by Josh Presley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H8falUKaNMQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H8falUKaNMQ",
+      "url": "https://www.youtube.com/watch?v=H8falUKaNMQ",
+      "creator": { "@type": "Person", "name": "Josh Presley" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified kimura against the underhook",
+      "description": "Kimura from Front Headlock film study: Modified kimura against the underhook, taught by Nate Cason.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fgJhHt03Klk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fgJhHt03Klk",
+      "url": "https://www.youtube.com/watch?v=fgJhHt03Klk",
+      "creator": { "@type": "Person", "name": "Nate Cason" },
+      "duration": "PT173S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ This submission integrates naturally into front headlock attack systems. When yo
 **Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Front Headlock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H8falUKaNMQ)
+
+<p class="clip-credit"><strong>Front headlock to turtle to kimura</strong> — taught by Josh Presley · 2:06 · <a href="https://www.youtube.com/watch?v=H8falUKaNMQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fgJhHt03Klk)
+
+<p class="clip-credit"><strong>Modified kimura against the underhook</strong> — taught by Nate Cason · 2:53 · <a href="https://www.youtube.com/watch?v=fgJhHt03Klk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -243,10 +308,10 @@ This submission integrates naturally into front headlock attack systems. When yo
 
 ## Related
 - [[Submissions/Kimura]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Transitions/Darce Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Japanese Necktie]]
 - [[Positions/Front Headlock]] - Primary starting position for this submission variant
 - [[Positions/Kimura Trap]] - Control position for maintaining Kimura grip if initial finish is defended

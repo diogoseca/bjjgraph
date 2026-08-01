@@ -170,6 +170,43 @@ description: "How to execute Monoplata from Guard in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Monoplata from Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Monoplata from Triangle Choke",
+      "description": "Monoplata from Guard (Attacker) film study: Monoplata from Triangle Choke, taught by Waza Brazilian Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u9fF8OCRDks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u9fF8OCRDks",
+      "url": "https://www.youtube.com/watch?v=u9fF8OCRDks",
+      "creator": { "@type": "Person", "name": "Waza Brazilian Jiu Jitsu" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Monoplata Trap System from Guard",
+      "description": "Monoplata from Guard (Attacker) film study: Monoplata Trap System from Guard, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5J6Gtv1hAMo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5J6Gtv1hAMo",
+      "url": "https://www.youtube.com/watch?v=5J6Gtv1hAMo",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +217,34 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Monoplata from Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u9fF8OCRDks)
+
+<p class="clip-credit"><strong>Monoplata from Triangle Choke</strong> — taught by Waza Brazilian Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=u9fF8OCRDks" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5J6Gtv1hAMo)
+
+<p class="clip-credit"><strong>Monoplata Trap System from Guard</strong> — taught by Johnny Jitsu · 2:40 · <a href="https://www.youtube.com/watch?v=5J6Gtv1hAMo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

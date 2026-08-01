@@ -180,6 +180,54 @@ description: "Learn to execute the Escape Leg Hook from bottom position. Systema
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Leg Hook (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two Mount Escape Options to Half Guard",
+      "description": "Escape Leg Hook (Attacker) film study: Two Mount Escape Options to Half Guard, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cyegyon5hVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cyegyon5hVg",
+      "url": "https://www.youtube.com/watch?v=cyegyon5hVg",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg Hook Mount Escape to Half Guard",
+      "description": "Escape Leg Hook (Attacker) film study: Leg Hook Mount Escape to Half Guard, taught by Fuse Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6jTzVV7dV1Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6jTzVV7dV1Q",
+      "url": "https://www.youtube.com/watch?v=6jTzVV7dV1Q",
+      "creator": { "@type": "Person", "name": "Fuse Martial Arts" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Three-Quarter Mount Escape to Heel Hook",
+      "description": "Escape Leg Hook (Attacker) film study: Three-Quarter Mount Escape to Heel Hook, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XLWkhrwmuGQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XLWkhrwmuGQ",
+      "url": "https://www.youtube.com/watch?v=XLWkhrwmuGQ",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Escape Leg Hook, you are the bottom player systema
 **From Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Leg Hook (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cyegyon5hVg)
+
+<p class="clip-credit"><strong>Two Mount Escape Options to Half Guard</strong> — taught by Andrew Smith · 0:54 · <a href="https://www.youtube.com/watch?v=cyegyon5hVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6jTzVV7dV1Q)
+
+<p class="clip-credit"><strong>Leg Hook Mount Escape to Half Guard</strong> — taught by Fuse Martial Arts · 2:03 · <a href="https://www.youtube.com/watch?v=6jTzVV7dV1Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XLWkhrwmuGQ)
+
+<p class="clip-credit"><strong>Three-Quarter Mount Escape to Heel Hook</strong> — taught by Thunderdome BJJ · 0:40 · <a href="https://www.youtube.com/watch?v=XLWkhrwmuGQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

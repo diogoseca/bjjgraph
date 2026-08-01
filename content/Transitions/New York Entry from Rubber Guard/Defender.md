@@ -148,6 +148,43 @@ description: "Defend and counter the New York entry from Rubber Guard. Learn to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Entry from Rubber Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late stage guard retention vs rubber guard",
+      "description": "New York Entry from Rubber Guard (Defender) film study: Late stage guard retention vs rubber guard, taught by Robert Diggle.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xNc_Cdh9VVg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xNc_Cdh9VVg",
+      "url": "https://www.youtube.com/watch?v=xNc_Cdh9VVg",
+      "creator": { "@type": "Person", "name": "Robert Diggle" },
+      "duration": "PT189S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Why rubber guard doesn\u0027t work \u2014 countering the entry",
+      "description": "New York Entry from Rubber Guard (Defender) film study: Why rubber guard doesn\u0027t work \u2014 countering the entry, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT792S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender trapped in the opponent's Rubber Guard, your priority when they 
 **Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Entry from Rubber Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xNc_Cdh9VVg)
+
+<p class="clip-credit"><strong>Late stage guard retention vs rubber guard</strong> — taught by Robert Diggle · 3:09 · <a href="https://www.youtube.com/watch?v=xNc_Cdh9VVg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Why rubber guard doesn&#39;t work — countering the entry</strong> — taught by Brandon McCaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
     {
       "@type": "HowToStep",
       "name": "Execute Headquarters Pass",
-      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Headquarters Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Grip Break",
-      "text": "From this position, attempt Grip Break. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Knee Slice Pass",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 14% of exchanges from this position.",
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
       "text": "From this position, attempt Stack Pass. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute X Pass",
+      "text": "From this position, attempt X Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two ways to pass the collar \u0026 sleeve",
+      "description": "Collar Sleeve Guard (Top) film study: Two ways to pass the collar \u0026 sleeve, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
+      "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the collar sleeve guard",
+      "description": "Collar Sleeve Guard (Top) film study: Passing the collar sleeve guard, taught by Ultra Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WJ25wu9Ioks/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WJ25wu9Ioks",
+      "url": "https://www.youtube.com/watch?v=WJ25wu9Ioks",
+      "creator": { "@type": "Person", "name": "Ultra Jiu Jitsu Academy" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -174,6 +211,34 @@ Energy conservation from the top position requires balancing constant pressure w
 Transitioning to dominant positions occurs when you successfully clear the guard structure. The most common progressions lead to side control, knee on belly, or headquarters position. Each requires maintaining control throughout the transition so the bottom player cannot reguard or create scrambles. Successful passers anticipate the bottom player's guard recovery attempts and use grips and weight distribution to shut down reguard before it develops.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
+
+<p class="clip-credit"><strong>Two ways to pass the collar &amp; sleeve</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WJ25wu9Ioks)
+
+<p class="clip-credit"><strong>Passing the collar sleeve guard</strong> — taught by Ultra Jiu Jitsu Academy · 1:45 · <a href="https://www.youtube.com/watch?v=WJ25wu9Ioks" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

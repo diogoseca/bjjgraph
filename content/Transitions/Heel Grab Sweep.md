@@ -34,6 +34,54 @@ description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete techn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Heel Grab Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X Entry, Sweep and Heel Hook",
+      "description": "Heel Grab Sweep film study: Single Leg X Entry, Sweep and Heel Hook, taught by Ilya Bodnya.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PGQ7YYfu76Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PGQ7YYfu76Q",
+      "url": "https://www.youtube.com/watch?v=PGQ7YYfu76Q",
+      "creator": { "@type": "Person", "name": "Ilya Bodnya" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Leg X Sweep to Outside Heel Hook",
+      "description": "Heel Grab Sweep film study: Single Leg X Sweep to Outside Heel Hook, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lCjIvaC4dsA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lCjIvaC4dsA",
+      "url": "https://www.youtube.com/watch?v=lCjIvaC4dsA",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single Leg X to Honey Hole Drill",
+      "description": "Heel Grab Sweep film study: Single Leg X to Honey Hole Drill, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IFuZ5o48t8I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IFuZ5o48t8I",
+      "url": "https://www.youtube.com/watch?v=IFuZ5o48t8I",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This sweep is applicable in both gi and no-gi contexts, though the grip variatio
 **Success Rate**: 68%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Heel Grab Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PGQ7YYfu76Q)
+
+<p class="clip-credit"><strong>Single Leg X Entry, Sweep and Heel Hook</strong> — taught by Ilya Bodnya · 1:05 · <a href="https://www.youtube.com/watch?v=PGQ7YYfu76Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lCjIvaC4dsA)
+
+<p class="clip-credit"><strong>Single Leg X Sweep to Outside Heel Hook</strong> — taught by BOWERHOUSE MMA · 1:31 · <a href="https://www.youtube.com/watch?v=lCjIvaC4dsA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IFuZ5o48t8I)
+
+<p class="clip-credit"><strong>Single Leg X to Honey Hole Drill</strong> — taught by Gracie Westchase · 1:10 · <a href="https://www.youtube.com/watch?v=IFuZ5o48t8I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

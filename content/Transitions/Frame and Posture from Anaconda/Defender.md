@@ -148,6 +148,43 @@ description: "Counter the Frame and Posture escape from Anaconda Control. Mainta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Posture from Anaconda (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fixing your anaconda choke finish",
+      "description": "Frame and Posture from Anaconda (Defender) film study: Fixing your anaconda choke finish, taught by Lycan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1e2GPOUYR-o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1e2GPOUYR-o",
+      "url": "https://www.youtube.com/watch?v=1e2GPOUYR-o",
+      "creator": { "@type": "Person", "name": "Lycan" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the anaconda choke",
+      "description": "Frame and Posture from Anaconda (Defender) film study: Finishing the anaconda choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DHYmDsncdS8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DHYmDsncdS8",
+      "url": "https://www.youtube.com/watch?v=DHYmDsncdS8",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the anaconda control top player, defending against the Frame and Posture esca
 **Opponent's Starting Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Posture from Anaconda (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1e2GPOUYR-o)
+
+<p class="clip-credit"><strong>Fixing your anaconda choke finish</strong> — taught by Lycan · 0:41 · <a href="https://www.youtube.com/watch?v=1e2GPOUYR-o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DHYmDsncdS8)
+
+<p class="clip-credit"><strong>Finishing the anaconda choke</strong> — taught by Marcelo Garcia · 2:06 · <a href="https://www.youtube.com/watch?v=DHYmDsncdS8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

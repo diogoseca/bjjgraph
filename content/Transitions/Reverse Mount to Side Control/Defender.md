@@ -148,6 +148,43 @@ description: "Learn to defend the Reverse Mount to Side Control transition. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount escapes for blue belts and ADCC champions",
+      "description": "Reverse Mount to Side Control (Defender) film study: Mount escapes for blue belts and ADCC champions, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uSrYAzVADsw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uSrYAzVADsw",
+      "url": "https://www.youtube.com/watch?v=uSrYAzVADsw",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT291S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling opponent to far side with near hook",
+      "description": "Reverse Mount to Side Control (Defender) film study: Rolling opponent to far side with near hook, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xYFYI9LkUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xYFYI9LkUQ",
+      "url": "https://www.youtube.com/watch?v=0xYFYI9LkUQ",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT144S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ When the opponent begins rotating from reverse mount toward side control, the de
 **Opponent's Starting Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uSrYAzVADsw)
+
+<p class="clip-credit"><strong>Mount escapes for blue belts and ADCC champions</strong> — taught by Gordon Ryan · 4:51 · <a href="https://www.youtube.com/watch?v=uSrYAzVADsw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0xYFYI9LkUQ)
+
+<p class="clip-credit"><strong>Rolling opponent to far side with near hook</strong> — taught by Priit Mihkelson · 2:24 · <a href="https://www.youtube.com/watch?v=0xYFYI9LkUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

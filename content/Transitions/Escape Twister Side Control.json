@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Twister Side Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Escape from Twister Side Control is a systematic defensive technique for extracting yourself from one of the most submission-dense lateral control positions in modern no-gi grappling. Twister Side Control combines leg entanglement with shoulder pressure and rotational torque on the spine, creating immediate threats to spinal integrity that demand a methodical, layered approach rather than explosive movements. The position's unique control mechanics—drawn from the 10th Planet system—neutralize conventional side control escapes, requiring practitioners to develop specialized defensive skills.\n\nThe escape follows a strict priority hierarchy: first protect the spine from rotational attacks by blocking torque with hand positioning, then create structural frames at the shoulder and hip to reduce pressure, systematically extract the trapped leg from the entanglement through hip extension and circular movement, and finally transition to turtle position where standard guard recovery options become available. Attempting to skip or shortcut any step in this sequence invariably results in deeper control or submission.\n\nWhat distinguishes this escape from standard side control escapes is the necessity of addressing the leg entanglement before meaningful hip movement becomes possible. Traditional shrimping and bridging mechanics are largely neutralized by the hook structure characteristic of twister side control. Instead, the escaping player must combine frame-assisted separation with strategic turning and incremental hip adjustments to dismantle the control structure layer by layer. The escape demands patience, technical precision, and careful energy management—qualities that differentiate successful defenders from those who exhaust themselves with futile explosive attempts.",
   "conditions": [
     "Bottom player is trapped in twister side control with active leg entanglement and shoulder pressure",
@@ -246,34 +261,133 @@
     "flashcards": [
       {
         "question": "What is the correct sequence of defensive priorities when escaping twister side control?",
-        "answer": "The correct sequence is: first protect the spine by blocking rotational torque with hand positioning on the near knee or thigh, second establish structural frames at the shoulder and hip to manage pressure, third systematically extract the trapped leg from the entanglement through steady hip extension, and fourth execute the final escape movement to turtle or guard. Skipping any step typically leads to deeper control or submission."
+        "answer": "The correct sequence is: first protect the spine by blocking rotational torque with hand positioning on the near knee or thigh, second establish structural frames at the shoulder and hip to manage pressure, third systematically extract the trapped leg from the entanglement through steady hip extension, and fourth execute the final escape movement to turtle or guard. Skipping any step typically leads to deeper control or submission.",
+        "answer_line": "Spine, frames, extract leg, escape",
+        "distractors": {
+          "plausible": [
+            "Frames first, then spine block",
+            "Extract leg before framing up"
+          ],
+          "trap": [
+            "Turn away to relieve pressure"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the opponent a critical error during this escape?",
-        "answer": "Turning away exposes the back and deepens the twister submission setup by increasing spinal rotation in the exact direction the submission requires. The momentary relief from shoulder pressure is replaced by dramatically worse positional vulnerability and accelerated submission mechanics. The correct approach is always to turn toward the opponent's legs while using frames to create controlled separation."
+        "answer": "Turning away exposes the back and deepens the twister submission setup by increasing spinal rotation in the exact direction the submission requires. The momentary relief from shoulder pressure is replaced by dramatically worse positional vulnerability and accelerated submission mechanics. The correct approach is always to turn toward the opponent's legs while using frames to create controlled separation.",
+        "answer_line": "Exposes back, deepens the twister",
+        "distractors": {
+          "plausible": [
+            "Surrenders the underhook fight",
+            "Drops your head to the mat"
+          ],
+          "trap": [
+            "Relieves the shoulder lock cleanly"
+          ]
+        }
       },
       {
         "question": "What distinguishes a structural frame from a pushing frame, and why does it matter in this position?",
-        "answer": "A structural frame uses bent elbows connected to the hips, creating a rigid barrier that redirects force through skeletal structure rather than muscular effort. A pushing frame uses extended arms, isolating them for submission attacks while requiring unsustainable energy. In twister side control, structural frames are essential because the control is maintained for extended periods and the defender needs energy-efficient barriers that cannot be easily attacked."
+        "answer": "A structural frame uses bent elbows connected to the hips, creating a rigid barrier that redirects force through skeletal structure rather than muscular effort. A pushing frame uses extended arms, isolating them for submission attacks while requiring unsustainable energy. In twister side control, structural frames are essential because the control is maintained for extended periods and the defender needs energy-efficient barriers that cannot be easily attacked.",
+        "answer_line": "Bent elbows tied to hips = skeletal",
+        "distractors": {
+          "plausible": [
+            "Straight arms for stronger barrier",
+            "Max energy to hold position"
+          ],
+          "trap": [
+            "Extend arm to push off face"
+          ]
+        }
       },
       {
         "question": "Your opponent begins applying the twister submission mid-escape—what is your immediate response?",
-        "answer": "Immediately abandon the escape attempt and return to spine protection as the absolute first priority. Grab your near-side knee or thigh with both hands to block the rotational torque. Only after neutralizing the immediate spinal threat should you resume the escape sequence. Continuing an escape attempt under active spinal attack risks serious injury and accelerates the submission."
+        "answer": "Immediately abandon the escape attempt and return to spine protection as the absolute first priority. Grab your near-side knee or thigh with both hands to block the rotational torque. Only after neutralizing the immediate spinal threat should you resume the escape sequence. Continuing an escape attempt under active spinal attack risks serious injury and accelerates the submission.",
+        "answer_line": "Block the twist, protect spine",
+        "distractors": {
+          "plausible": [
+            "Grab far-side knee to stop it",
+            "Escape first, defend spine after"
+          ],
+          "trap": [
+            "Power through to finish escape"
+          ]
+        }
       },
       {
         "question": "How should you extract your trapped leg from the entanglement without wasting energy?",
-        "answer": "Use steady hip extension combined with small circular movements to progressively loosen the hook rather than explosive pulling. Maintain upper body frames throughout the extraction to prevent the opponent from following your hip movement. Work incrementally—each small gain compounds until the hook can no longer maintain control. Time extraction efforts with the opponent's weight shifts when their attention is divided."
+        "answer": "Use steady hip extension combined with small circular movements to progressively loosen the hook rather than explosive pulling. Maintain upper body frames throughout the extraction to prevent the opponent from following your hip movement. Work incrementally—each small gain compounds until the hook can no longer maintain control. Time extraction efforts with the opponent's weight shifts when their attention is divided.",
+        "answer_line": "Steady hip extension, small circles",
+        "distractors": {
+          "plausible": [
+            "One explosive pull frees the hook",
+            "Drop frames to focus on the leg"
+          ],
+          "trap": [
+            "Yank leg hard against the hook"
+          ]
+        }
       },
       {
         "question": "When should you choose the rolling escape variant versus the frame-first approach?",
-        "answer": "Choose the rolling escape when the opponent overcommits weight forward—their forward pressure provides momentum you redirect through a modified granby roll. Choose the frame-first approach when the opponent maintains balanced weight distribution without over-committing. The rolling escape exploits specific weight commitment errors, while the frame-first approach works against methodical, balanced control. Reading the opponent's weight distribution is the key decision factor."
+        "answer": "Choose the rolling escape when the opponent overcommits weight forward—their forward pressure provides momentum you redirect through a modified granby roll. Choose the frame-first approach when the opponent maintains balanced weight distribution without over-committing. The rolling escape exploits specific weight commitment errors, while the frame-first approach works against methodical, balanced control. Reading the opponent's weight distribution is the key decision factor.",
+        "answer_line": "Roll if forward, frame if balanced",
+        "distractors": {
+          "plausible": [
+            "Frame first, roll if it fails",
+            "Roll when they sit back heavy"
+          ],
+          "trap": [
+            "Roll whenever pinned tight"
+          ]
+        }
       },
       {
         "question": "What follow-up actions should you take immediately after reaching turtle position?",
-        "answer": "Immediately establish tight defensive turtle structure—rounded back, chin tucked, elbows to knees—and begin active escape work without pause. Turtle is a transitional position with high back exposure risk, not a safe resting point. Initiate guard recovery through granby rolls, sit-throughs, or technical stand-ups before the opponent can establish new grips or hooks. The escape from twister side control is not complete until you reach guard or standing."
+        "answer": "Immediately establish tight defensive turtle structure—rounded back, chin tucked, elbows to knees—and begin active escape work without pause. Turtle is a transitional position with high back exposure risk, not a safe resting point. Initiate guard recovery through granby rolls, sit-throughs, or technical stand-ups before the opponent can establish new grips or hooks. The escape from twister side control is not complete until you reach guard or standing.",
+        "answer_line": "Tighten turtle, escape immediately",
+        "distractors": {
+          "plausible": [
+            "Settle in turtle and catch breath",
+            "Stand up before tucking chin"
+          ],
+          "trap": [
+            "Flare elbows to shove opponent off"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Practice spine protection techniques slowly and deliberately before adding resistance. The twister submission applies dangerous rotational force to the cervical and thoracic spine that can cause serious injury. Tap immediately if you feel spinal torque that you cannot control with your defensive hand positioning. Never explosively twist against the direction of an applied submission. Communicate with training partners about intensity levels when drilling from this position, and build resistance gradually over multiple training sessions."
+    "safety_considerations": "Practice spine protection techniques slowly and deliberately before adding resistance. The twister submission applies dangerous rotational force to the cervical and thoracic spine that can cause serious injury. Tap immediately if you feel spinal torque that you cannot control with your defensive hand positioning. Never explosively twist against the direction of an applied submission. Communicate with training partners about intensity levels when drilling from this position, and build resistance gradually over multiple training sessions.",
+    "clips": [
+      {
+        "id": "AUyR1rmVzo4",
+        "title": "Twister side control and how to escape it",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 205,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ldL974KL5sg",
+        "title": "Side control escape to the Hazlet",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hXp34AtDjac",
+        "title": "Reverse scarf hold escape from twister side control",
+        "by": "Black Dragon BJJ",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 291,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Escape Twister Side Control Defender",
@@ -359,19 +473,59 @@
     "flashcards": [
       {
         "question": "What are the key recognition cues that indicate the bottom player has begun a trained escape sequence?",
-        "answer": "The primary cues are: hands moving to grab their own knee or thigh indicating spine protection initiation, deliberate frame building with bent elbows against your shoulder or hip, controlled hip extension against your leg hook, and the body turning toward your legs rather than away. Trained escape attempts are characterized by calm sequential movements rather than panicked explosive efforts, and recognizing this early allows targeted counter-pressure."
+        "answer": "The primary cues are: hands moving to grab their own knee or thigh indicating spine protection initiation, deliberate frame building with bent elbows against your shoulder or hip, controlled hip extension against your leg hook, and the body turning toward your legs rather than away. Trained escape attempts are characterized by calm sequential movements rather than panicked explosive efforts, and recognizing this early allows targeted counter-pressure.",
+        "answer_line": "Calm frames, hands to own knee",
+        "distractors": {
+          "plausible": [
+            "Panicked explosive bridging",
+            "Body turning away from your legs"
+          ],
+          "trap": [
+            "Staying flat, passive, and still"
+          ]
+        }
       },
       {
         "question": "When should you transition from maintaining twister side control to taking the back?",
-        "answer": "Transition to back control when the bottom player exposes their back during the turning phase of their escape—specifically when they turn toward your legs and begin the transition to turtle. This is most available when their frame contact breaks momentarily or when they turn faster than their frames can manage. Follow their hip movement closely and insert hooks before they can establish tight turtle defense."
+        "answer": "Transition to back control when the bottom player exposes their back during the turning phase of their escape—specifically when they turn toward your legs and begin the transition to turtle. This is most available when their frame contact breaks momentarily or when they turn faster than their frames can manage. Follow their hip movement closely and insert hooks before they can establish tight turtle defense.",
+        "answer_line": "When they turn toward turtle",
+        "distractors": {
+          "plausible": [
+            "When they flatten to their back",
+            "As they start bridging to escape"
+          ],
+          "trap": [
+            "When they turn belly-up to face you"
+          ]
+        }
       },
       {
         "question": "How do you create offensive dilemmas that prevent the bottom player from completing their escape sequence?",
-        "answer": "Structure your attacks so each defensive priority the bottom player addresses opens a different threat. When they remove hands from spine protection to build frames, threaten the twister submission. When they focus on protecting their spine, drive shoulder pressure to prevent frame creation. When they begin leg extraction, threaten submissions on the exposed arm. This forces constant resetting of their escape progress."
+        "answer": "Structure your attacks so each defensive priority the bottom player addresses opens a different threat. When they remove hands from spine protection to build frames, threaten the twister submission. When they focus on protecting their spine, drive shoulder pressure to prevent frame creation. When they begin leg extraction, threaten submissions on the exposed arm. This forces constant resetting of their escape progress.",
+        "answer_line": "Each defense opens a new threat",
+        "distractors": {
+          "plausible": [
+            "Commit fully to one submission",
+            "React after they start escaping"
+          ],
+          "trap": [
+            "Release control to chase the finish"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a rolling escape by using your forward pressure against you—how should you respond?",
-        "answer": "Immediately widen your base by posting your outside leg and shifting weight distribution away from the over-committed forward position. If the roll has already begun, maintain your seatbelt or shoulder control and follow the roll, using their momentum to transition directly to back control rather than fighting the rotation. Prevention is ideal—maintain balanced weight distribution to eliminate the rolling escape opportunity entirely."
+        "answer": "Immediately widen your base by posting your outside leg and shifting weight distribution away from the over-committed forward position. If the roll has already begun, maintain your seatbelt or shoulder control and follow the roll, using their momentum to transition directly to back control rather than fighting the rotation. Prevention is ideal—maintain balanced weight distribution to eliminate the rolling escape opportunity entirely.",
+        "answer_line": "Post outside leg, widen base",
+        "distractors": {
+          "plausible": [
+            "Follow the roll into mount",
+            "Post inside leg to block"
+          ],
+          "trap": [
+            "Drive forward to smother them"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -394,6 +548,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Applying all defensive tools under full resistance",
         "description": "Full-speed positional sparring from twister side control. Top player uses all available tools—control maintenance, submission threats, back takes—against resisting opponent's escape attempts. Track position retention rates and submission finishes over training cycles."
+      }
+    ],
+    "clips": [
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister side control attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "R55lmkc6Mus",
+        "title": "Holding twister side control",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 87,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "im8KbQUyxLY",
+        "title": "Truck options from twister side control",
+        "by": "Jeremiah Vance",
+        "vertical": false,
+        "channel": "Jeremiah Vance",
+        "duration": 42,
+        "verified": "2026-07-15"
       }
     ]
   }

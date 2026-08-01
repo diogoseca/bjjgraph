@@ -150,6 +150,54 @@ description: "Learn to defend the Arm Triangle from Modified Scarf Hold. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Modified Scarf Hold (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modified Kesa-Gatame Escape",
+      "description": "Arm Triangle from Modified Scarf Hold (Defender) film study: Modified Kesa-Gatame Escape, taught by Shane Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5eAmcE9UXNc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5eAmcE9UXNc",
+      "url": "https://www.youtube.com/watch?v=5eAmcE9UXNc",
+      "creator": { "@type": "Person", "name": "Shane Moore" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape Arm Triangles",
+      "description": "Arm Triangle from Modified Scarf Hold (Defender) film study: How to Escape Arm Triangles, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BuTIktWWudo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BuTIktWWudo",
+      "url": "https://www.youtube.com/watch?v=BuTIktWWudo",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT129S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Neck Clamp Reversal",
+      "description": "Arm Triangle from Modified Scarf Hold (Defender) film study: Neck Clamp Reversal, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8nZrMOEgtfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8nZrMOEgtfU",
+      "url": "https://www.youtube.com/watch?v=8nZrMOEgtfU",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT74S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ The critical escape window opens during the grip transition when the attacker re
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Modified Scarf Hold (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5eAmcE9UXNc)
+
+<p class="clip-credit"><strong>Modified Kesa-Gatame Escape</strong> — taught by Shane Moore · 2:06 · <a href="https://www.youtube.com/watch?v=5eAmcE9UXNc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BuTIktWWudo)
+
+<p class="clip-credit"><strong>How to Escape Arm Triangles</strong> — taught by War Room Jiu Jitsu · 2:09 · <a href="https://www.youtube.com/watch?v=BuTIktWWudo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8nZrMOEgtfU)
+
+<p class="clip-credit"><strong>Neck Clamp Reversal</strong> — taught by Animal · 1:14 · <a href="https://www.youtube.com/watch?v=8nZrMOEgtfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

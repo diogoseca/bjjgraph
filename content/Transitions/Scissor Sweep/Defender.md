@@ -148,6 +148,54 @@ description: "How to defend against Scissor Sweep in BJJ. Recognition cues, defe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scissor Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "No-gi scissor sweep counter",
+      "description": "Scissor Sweep (Defender) film study: No-gi scissor sweep counter, taught by JMA BKNY.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jYZZgXKerZc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jYZZgXKerZc",
+      "url": "https://www.youtube.com/watch?v=jYZZgXKerZc",
+      "creator": { "@type": "Person", "name": "JMA BKNY" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Four levels of sweep defense",
+      "description": "Scissor Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Scissor sweep recovery from X-choke counter",
+      "description": "Scissor Sweep (Defender) film study: Scissor sweep recovery from X-choke counter, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PEqhhihevVE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PEqhhihevVE",
+      "url": "https://www.youtube.com/watch?v=PEqhhihevVE",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scissor Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jYZZgXKerZc)
+
+<p class="clip-credit"><strong>No-gi scissor sweep counter</strong> — taught by JMA BKNY · 1:01 · <a href="https://www.youtube.com/watch?v=jYZZgXKerZc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PEqhhihevVE)
+
+<p class="clip-credit"><strong>Scissor sweep recovery from X-choke counter</strong> — taught by Carlos Machado · 1:21 · <a href="https://www.youtube.com/watch?v=PEqhhihevVE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

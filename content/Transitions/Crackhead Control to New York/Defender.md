@@ -148,6 +148,54 @@ description: "How to defend against Crackhead Control to New York in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control to New York (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2 simple rubber guard tips",
+      "description": "Crackhead Control to New York (Defender) film study: 2 simple rubber guard tips, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cY1xCIx-9-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cY1xCIx-9-I",
+      "url": "https://www.youtube.com/watch?v=cY1xCIx-9-I",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the Rubber Guard",
+      "description": "Crackhead Control to New York (Defender) film study: Passing the Rubber Guard, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ANxiPpAzACU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ANxiPpAzACU",
+      "url": "https://www.youtube.com/watch?v=ANxiPpAzACU",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT443S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Why Rubber Guard Doesn\u0027t Work: Countering It",
+      "description": "Crackhead Control to New York (Defender) film study: Why Rubber Guard Doesn\u0027t Work: Countering It, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwcfKUPNZNs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwcfKUPNZNs",
+      "url": "https://www.youtube.com/watch?v=iwcfKUPNZNs",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT792S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,9 +206,45 @@ As the top player trapped in Crackhead Control, you must develop sensitivity to 
 
 Your defensive strategy should be calibrated to the transition's progress. Early intervention during the initial shin grip release offers the highest success percentage for full escape. Mid-transition intervention as the leg slides can still yield posture recovery. Late intervention after the New York shin grip is re-established requires you to address New York's control structure directly, which is a significantly harder defensive problem. Timing your response to the earliest possible recognition cue is therefore the single most important defensive skill for this scenario.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control to New York (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cY1xCIx-9-I)
+
+<p class="clip-credit"><strong>2 simple rubber guard tips</strong> — taught by Brandon McCaghren · 0:57 · <a href="https://www.youtube.com/watch?v=cY1xCIx-9-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ANxiPpAzACU)
+
+<p class="clip-credit"><strong>Passing the Rubber Guard</strong> — taught by Marcelo Garcia · 7:23 · <a href="https://www.youtube.com/watch?v=ANxiPpAzACU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwcfKUPNZNs)
+
+<p class="clip-credit"><strong>Why Rubber Guard Doesn&#39;t Work: Countering It</strong> — taught by Brandon McCaghren · 13:12 · <a href="https://www.youtube.com/watch?v=iwcfKUPNZNs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -209,7 +293,7 @@ Your defensive strategy should be calibrated to the transition's progress. Early
 ### 2. Forward drive and stack pressure during leg repositioning - drive your weight forward and down to flatten the bottom player before they complete the transition
 
 - **When to use**: When you feel the leg sliding but the shin grip has not been re-established yet, typically 0.5-1 second into the transition
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: You prevent the New York position from being established and force the bottom player back into Crackhead Control where their leg is out of position, creating a scramble opportunity
 - **Risk**: Forward driving can assist Carni or Chill Dog entries if the bottom player reads your pressure and redirects to those transitions
 

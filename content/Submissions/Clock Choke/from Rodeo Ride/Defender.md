@@ -142,6 +142,54 @@ description: "Defend the Clock Choke from Rodeo Ride in BJJ. Recognition cues, g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clock Choke from Rodeo Ride (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clock Choke Defense",
+      "description": "Clock Choke from Rodeo Ride (Defender) film study: Clock Choke Defense, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vckXustqtpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vckXustqtpQ",
+      "url": "https://www.youtube.com/watch?v=vckXustqtpQ",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Clock Choke Escape #1",
+      "description": "Clock Choke from Rodeo Ride (Defender) film study: Clock Choke Escape #1, taught by Vilanova BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ivs8Lt1oI0I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ivs8Lt1oI0I",
+      "url": "https://www.youtube.com/watch?v=Ivs8Lt1oI0I",
+      "creator": { "@type": "Person", "name": "Vilanova BJJ" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clock Choke from Turtle Escape",
+      "description": "Clock Choke from Rodeo Ride (Defender) film study: Clock Choke from Turtle Escape, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bHIR07WZ8yI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bHIR07WZ8yI",
+      "url": "https://www.youtube.com/watch?v=bHIR07WZ8yI",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ The defender's primary strategic objective is to prevent the collar grip from be
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clock Choke from Rodeo Ride (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vckXustqtpQ)
+
+<p class="clip-credit"><strong>Clock Choke Defense</strong> — taught by Revolution BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=vckXustqtpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ivs8Lt1oI0I)
+
+<p class="clip-credit"><strong>Clock Choke Escape #1</strong> — taught by Vilanova BJJ · 1:43 · <a href="https://www.youtube.com/watch?v=Ivs8Lt1oI0I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bHIR07WZ8yI)
+
+<p class="clip-credit"><strong>Clock Choke from Turtle Escape</strong> — taught by Andy Tong · 0:17 · <a href="https://www.youtube.com/watch?v=bHIR07WZ8yI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

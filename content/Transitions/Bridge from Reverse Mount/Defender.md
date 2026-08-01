@@ -140,6 +140,43 @@ description: "Defend against the Bridge from Reverse Mount in BJJ. Learn to reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge from Reverse Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best way to control and retain the mount",
+      "description": "Bridge from Reverse Mount (Defender) film study: Best way to control and retain the mount, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kft2AkvKhWU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kft2AkvKhWU",
+      "url": "https://www.youtube.com/watch?v=kft2AkvKhWU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT538S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic ways to flatten an opponent out on top",
+      "description": "Bridge from Reverse Mount (Defender) film study: Basic ways to flatten an opponent out on top, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DSJJyA-2HKU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DSJJyA-2HKU",
+      "url": "https://www.youtube.com/watch?v=DSJJyA-2HKU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT813S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Bridge from Reverse Mount, you are the top player in
 **Opponent's Starting Position**: [[Positions/Reverse Mount]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge from Reverse Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kft2AkvKhWU)
+
+<p class="clip-credit"><strong>Best way to control and retain the mount</strong> — taught by Gordon Ryan · 8:58 · <a href="https://www.youtube.com/watch?v=kft2AkvKhWU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DSJJyA-2HKU)
+
+<p class="clip-credit"><strong>Basic ways to flatten an opponent out on top</strong> — taught by Gordon Ryan · 13:33 · <a href="https://www.youtube.com/watch?v=DSJJyA-2HKU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

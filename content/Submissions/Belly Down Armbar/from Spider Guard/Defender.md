@@ -136,6 +136,43 @@ description: "Defend and escape the belly down armbar finish from Spider Guard. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Spider Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso \u0026 Spider Guard Defense",
+      "description": "Belly Down Armbar from Spider Guard (Defender) film study: Lasso \u0026 Spider Guard Defense, taught by Binder BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOzoDB10XkY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOzoDB10XkY",
+      "url": "https://www.youtube.com/watch?v=GOzoDB10XkY",
+      "creator": { "@type": "Person", "name": "Binder BJJ" },
+      "duration": "PT245S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Spider guard defense concepts",
+      "description": "Belly Down Armbar from Spider Guard (Defender) film study: Spider guard defense concepts, taught by Ricardo Liborio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YGFC75H8m8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YGFC75H8m8s",
+      "url": "https://www.youtube.com/watch?v=YGFC75H8m8s",
+      "creator": { "@type": "Person", "name": "Ricardo Liborio" },
+      "duration": "PT250S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +183,34 @@ Defending the belly down armbar finish from Spider Guard requires recognizing th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Spider Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOzoDB10XkY)
+
+<p class="clip-credit"><strong>Lasso &amp; Spider Guard Defense</strong> — taught by Binder BJJ · 4:05 · <a href="https://www.youtube.com/watch?v=GOzoDB10XkY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YGFC75H8m8s)
+
+<p class="clip-credit"><strong>Spider guard defense concepts</strong> — taught by Ricardo Liborio · 4:10 · <a href="https://www.youtube.com/watch?v=YGFC75H8m8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

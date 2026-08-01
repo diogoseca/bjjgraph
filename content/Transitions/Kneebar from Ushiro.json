@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Kneebar from Ushiro is a leg-lock transition out of reversed ushiro ashi-garami that hyperextends the opponent's knee when their heel-hook defense straightens the trapped leg, weaponizing the very posture used to protect the heel.",
   "overview": "The Kneebar from Ushiro Ashi-Garami exploits the unique reversed leg entanglement geometry to attack the opponent's knee joint when heel hook finishing becomes unavailable or when the opponent defends by straightening their leg. This transition capitalizes on the natural body positioning of ushiro ashi-garami where the attacker's hips are already aligned perpendicular to the opponent's trapped leg, creating favorable leverage for hyperextension attacks on the knee.\n\nThe technique becomes particularly viable when the opponent commits to heel hook defense by keeping their foot flexed and pulling their heel away, which simultaneously straightens their leg and creates the mechanical prerequisites for kneebar application. Rather than fighting for heel exposure against a skilled defender, the kneebar provides an alternative attack that uses their defensive posture against them. The reversed hip position in ushiro creates a slightly different finishing angle than standard ashi-garami kneebars, requiring specific adjustments to hip placement and leg control.\n\nStrategically, the kneebar from ushiro functions as a chain attack within the leg entanglement system, forcing opponents to defend multiple threat vectors simultaneously. Defenders who focus exclusively on heel hook prevention often neglect proper knee alignment, creating windows for kneebar entry. This dilemma-based approach maximizes offensive efficiency from positions that might otherwise become defensive stalemates when facing sophisticated heel hook defense.",
   "related_content": [
@@ -203,54 +215,194 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Kneebar from Ushiro?",
-        "answer": "The primary goal is to hyperextend the opponent's knee joint by positioning your hips perpendicular to their thigh, pinching the knee between your legs, and bridging while controlling their ankle. This submission attacks when heel hook defense creates a straight leg alignment."
+        "answer": "The primary goal is to hyperextend the opponent's knee joint by positioning your hips perpendicular to their thigh, pinching the knee between your legs, and bridging while controlling their ankle. This submission attacks when heel hook defense creates a straight leg alignment.",
+        "answer_line": "Hyperextend the knee joint",
+        "distractors": {
+          "plausible": [
+            "Break their leg entanglement grip",
+            "Control ankle then attack heel"
+          ],
+          "trap": [
+            "Let go of legs, chase back"
+          ]
+        }
       },
       {
         "question": "What position do you start Kneebar from Ushiro from?",
-        "answer": "This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement position where opponent has inverted but remains trapped in your figure-four leg configuration."
+        "answer": "This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement position where opponent has inverted but remains trapped in your figure-four leg configuration.",
+        "answer_line": "Ushiro Ashi-Garami (top)",
+        "distractors": {
+          "plausible": [
+            "Saddle/Inside Ashi-Garami",
+            "Straight Ankle Lock position"
+          ],
+          "trap": [
+            "Standing over their guard"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Kneebar from Ushiro?",
-        "answer": "The primary grip is a wrist-to-wrist (Gable) grip behind the opponent's Achilles tendon, pulling their ankle tight against your chest. This grip provides maximum control for the transition and finish while preventing ankle rotation that would protect the knee."
+        "answer": "The primary grip is a wrist-to-wrist (Gable) grip behind the opponent's Achilles tendon, pulling their ankle tight against your chest. This grip provides maximum control for the transition and finish while preventing ankle rotation that would protect the knee.",
+        "answer_line": "Gable grip behind Achilles",
+        "distractors": {
+          "plausible": [
+            "Figure-four on the ankle",
+            "S-grip on the shin"
+          ],
+          "trap": [
+            "Release ankle, grab belt"
+          ]
+        }
       },
       {
         "question": "What body positioning indicates the optimal entry window for this technique?",
-        "answer": "The optimal entry window appears when the opponent straightens their leg during heel hook defense. Their flexed foot pulling the heel away creates the straight leg alignment necessary for kneebar mechanics. This defensive posture simultaneously opens the knee attack while protecting the heel."
+        "answer": "The optimal entry window appears when the opponent straightens their leg during heel hook defense. Their flexed foot pulling the heel away creates the straight leg alignment necessary for kneebar mechanics. This defensive posture simultaneously opens the knee attack while protecting the heel.",
+        "answer_line": "Leg straightens escaping heel hook",
+        "distractors": {
+          "plausible": [
+            "Opponent taps their thigh",
+            "They pull knee to chest"
+          ],
+          "trap": [
+            "Wait for them to relax fully"
+          ]
+        }
       },
       {
         "question": "How should your hips be oriented relative to opponent's thigh for maximum leverage?",
-        "answer": "Your hips must be positioned perpendicular (90-degree angle) to the opponent's thigh. This orientation creates the optimal mechanical advantage for hyperextension. Hips parallel to their leg dramatically reduces finishing leverage."
+        "answer": "Your hips must be positioned perpendicular (90-degree angle) to the opponent's thigh. This orientation creates the optimal mechanical advantage for hyperextension. Hips parallel to their leg dramatically reduces finishing leverage.",
+        "answer_line": "Perpendicular to their thigh",
+        "distractors": {
+          "plausible": [
+            "Parallel, hips stacked tight",
+            "45-degree angled hips"
+          ],
+          "trap": [
+            "Hips facing away from legs"
+          ]
+        }
       },
       {
         "question": "Your opponent turns their knee outward during your kneebar attempt - how do you respond?",
-        "answer": "Follow their rotation while maintaining ankle control. Their knee rotation often opens vulnerability for calf slicer by bending the leg, or returns heel hook exposure as they move away from straight leg defense. Use their defensive movement to chain into the next available attack."
+        "answer": "Follow their rotation while maintaining ankle control. Their knee rotation often opens vulnerability for calf slicer by bending the leg, or returns heel hook exposure as they move away from straight leg defense. Use their defensive movement to chain into the next available attack.",
+        "answer_line": "Follow rotation, chain attack",
+        "distractors": {
+          "plausible": [
+            "Force hips back to perpendicular",
+            "Release grip and reset"
+          ],
+          "trap": [
+            "Let go and try to pass"
+          ]
+        }
       },
       {
         "question": "Why must the opponent's toes point toward the ceiling during the finish?",
-        "answer": "Toe position toward the ceiling ensures the knee joint faces the direction of hyperextension force. If toes point sideways, the knee's rotational alignment converts your hyperextension force into rotational force that the joint can absorb. Proper toe alignment exposes the joint to direct attack."
+        "answer": "Toe position toward the ceiling ensures the knee joint faces the direction of hyperextension force. If toes point sideways, the knee's rotational alignment converts your hyperextension force into rotational force that the joint can absorb. Proper toe alignment exposes the joint to direct attack.",
+        "answer_line": "Aligns knee for hyperextension",
+        "distractors": {
+          "plausible": [
+            "Prevents ankle rotation escape",
+            "Keeps hip pinned to floor"
+          ],
+          "trap": [
+            "Toes sideways absorb force"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attack the heel hook or transition to kneebar?",
-        "answer": "Attack heel hook when opponent's foot is relaxed or toes point away, exposing the heel. Transition to kneebar when they flex their foot tightly and straighten their leg for heel protection. The kneebar uses their heel hook defense against them by exploiting the straight leg requirement."
+        "answer": "Attack heel hook when opponent's foot is relaxed or toes point away, exposing the heel. Transition to kneebar when they flex their foot tightly and straighten their leg for heel protection. The kneebar uses their heel hook defense against them by exploiting the straight leg requirement.",
+        "answer_line": "Foot relaxed = heel, flexed = knee",
+        "distractors": {
+          "plausible": [
+            "Always attack heel first",
+            "Switch based on their tap"
+          ],
+          "trap": [
+            "Attack knee when foot relaxed"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from extracting their leg during the hip pivot?",
-        "answer": "Secure ankle grip firmly before initiating any hip movement. Maintain continuous pressure with your legs throughout the pivot. The transition should be a smooth, connected movement where control is never released - grip transfers from leg entanglement to ankle control without gaps."
+        "answer": "Secure ankle grip firmly before initiating any hip movement. Maintain continuous pressure with your legs throughout the pivot. The transition should be a smooth, connected movement where control is never released - grip transfers from leg entanglement to ankle control without gaps.",
+        "answer_line": "Secure ankle before hip pivot",
+        "distractors": {
+          "plausible": [
+            "Pivot fast then grip ankle",
+            "Trap thigh, pivot slowly"
+          ],
+          "trap": [
+            "Release legs to reposition"
+          ]
+        }
       },
       {
         "question": "What is the critical placement for your knees relative to opponent's knee joint?",
-        "answer": "Position one of your knees above opponent's kneecap and one below it. This creates the fulcrum point directly at the joint. Incorrect placement (both above, both below, or too far from the joint) displaces the fulcrum and eliminates hyperextension pressure."
+        "answer": "Position one of your knees above opponent's kneecap and one below it. This creates the fulcrum point directly at the joint. Incorrect placement (both above, both below, or too far from the joint) displaces the fulcrum and eliminates hyperextension pressure.",
+        "answer_line": "One knee above, one below",
+        "distractors": {
+          "plausible": [
+            "Both knees above the joint",
+            "Knees wide off the joint"
+          ],
+          "trap": [
+            "Both knees below kneecap"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your Gable grip during the pivot - what is your immediate recovery?",
-        "answer": "Immediately wrap the ankle with your near-side arm and trap it against your hip using a reverse grip configuration. Do not release leg entanglement pressure while regripping. If the standard grip fails, the hip-trap variation provides sufficient control to either reestablish the Gable grip or finish from the alternative grip position."
+        "answer": "Immediately wrap the ankle with your near-side arm and trap it against your hip using a reverse grip configuration. Do not release leg entanglement pressure while regripping. If the standard grip fails, the hip-trap variation provides sufficient control to either reestablish the Gable grip or finish from the alternative grip position.",
+        "answer_line": "Wrap ankle, trap on hip",
+        "distractors": {
+          "plausible": [
+            "Re-shoot for Gable grip fast",
+            "Switch to calf slicer grip"
+          ],
+          "trap": [
+            "Release legs to regrip"
+          ]
+        }
       },
       {
         "question": "The kneebar attempt stalls because your opponent maintains a bent knee - what chain attacks are available?",
-        "answer": "A bent knee defense opens two primary chain attacks. First, triangle your legs around their shin for a calf slicer, using the bent position against them. Second, release kneebar pressure and return to heel hook attack, since bending the knee relaxes the foot position that was protecting the heel. The bent knee also makes toe hold entries available by controlling the foot and applying rotational force."
+        "answer": "A bent knee defense opens two primary chain attacks. First, triangle your legs around their shin for a calf slicer, using the bent position against them. Second, release kneebar pressure and return to heel hook attack, since bending the knee relaxes the foot position that was protecting the heel. The bent knee also makes toe hold entries available by controlling the foot and applying rotational force.",
+        "answer_line": "Calf slicer or heel hook",
+        "distractors": {
+          "plausible": [
+            "Toe hold from top position",
+            "Straight footlock switch"
+          ],
+          "trap": [
+            "Release legs, pass guard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The kneebar attacks the knee joint, which contains ligaments (ACL, PCL, MCL, LCL) and meniscus that can suffer serious injury from hyperextension. Unlike heel hooks where damage occurs rapidly, kneebars provide slightly more warning sensation, but training partners must still tap early and attackers must apply pressure progressively. Never crank kneebars explosively. In training, apply pressure slowly and release immediately upon tap. Partners should tap at the first sensation of joint stress rather than testing flexibility limits. Practitioners with previous knee injuries should inform training partners and consider limiting kneebar training. The technique should not be attempted on an unwilling or unaware partner. Ensure adequate warm-up before leg lock training to reduce injury risk."
+    "safety_considerations": "The kneebar attacks the knee joint, which contains ligaments (ACL, PCL, MCL, LCL) and meniscus that can suffer serious injury from hyperextension. Unlike heel hooks where damage occurs rapidly, kneebars provide slightly more warning sensation, but training partners must still tap early and attackers must apply pressure progressively. Never crank kneebars explosively. In training, apply pressure slowly and release immediately upon tap. Partners should tap at the first sensation of joint stress rather than testing flexibility limits. Practitioners with previous knee injuries should inform training partners and consider limiting kneebar training. The technique should not be attempted on an unwilling or unaware partner. Ensure adequate warm-up before leg lock training to reduce injury risk.",
+    "clips": [
+      {
+        "id": "g3j7TZYoW14",
+        "title": "Top ushiro to kneebar",
+        "by": "Modesto Judo Club coach",
+        "vertical": false,
+        "channel": "Modesto Judo Club",
+        "duration": 115,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0wHq6PZVGfI",
+        "title": "Two ways to attack a kneebar from cross ashi",
+        "by": "King Kneebar",
+        "vertical": false,
+        "channel": "King Kneebar",
+        "duration": 140,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Kneebar from Ushiro Defender",
@@ -336,23 +488,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from heel hook to kneebar?",
-        "answer": "The earliest cue is feeling the attacker's hands release from heel hook grip configuration and transition to your ankle or lower shin with both hands. This grip change precedes the hip pivot and signals the kneebar transition before the attacker has committed their hips. Reacting at this moment gives you maximum defensive window."
+        "answer": "The earliest cue is feeling the attacker's hands release from heel hook grip configuration and transition to your ankle or lower shin with both hands. This grip change precedes the hip pivot and signals the kneebar transition before the attacker has committed their hips. Reacting at this moment gives you maximum defensive window.",
+        "answer_line": "Hands shift from heel to ankle",
+        "distractors": {
+          "plausible": [
+            "Feel hips start to pivot",
+            "Feel knees pinch together"
+          ],
+          "trap": [
+            "Wait until ankle locks tight"
+          ]
+        }
       },
       {
         "question": "Why is bending the knee more important than fighting the ankle grip as a first response?",
-        "answer": "A bent knee physically cannot be hyperextended regardless of how strong the attacker's grip is. The kneebar requires a straight leg to function mechanically. Fighting the grip while keeping the leg straight leaves you vulnerable - even a loose grip on a straight leg can generate finishing pressure. Bending the knee first neutralizes the threat entirely, then you can address the grip from safety."
+        "answer": "A bent knee physically cannot be hyperextended regardless of how strong the attacker's grip is. The kneebar requires a straight leg to function mechanically. Fighting the grip while keeping the leg straight leaves you vulnerable - even a loose grip on a straight leg can generate finishing pressure. Bending the knee first neutralizes the threat entirely, then you can address the grip from safety.",
+        "answer_line": "Bent knee can't hyperextend",
+        "distractors": {
+          "plausible": [
+            "Fight the grip aggressively",
+            "Point toes away immediately"
+          ],
+          "trap": [
+            "Keep leg straight, strip grip"
+          ]
+        }
       },
       {
         "question": "Your opponent has your ankle locked tight and is bridging - what is your emergency response?",
-        "answer": "When the attacker has a locked grip and is bridging, rotate your knee inward as hard as possible to convert hyperextension into rotational force the joint can withstand. Simultaneously push their top hip with your free leg to reduce bridging leverage. If pressure becomes dangerous, tap immediately rather than risking ligament damage. There is no shame in tapping to a well-executed kneebar."
+        "answer": "When the attacker has a locked grip and is bridging, rotate your knee inward as hard as possible to convert hyperextension into rotational force the joint can withstand. Simultaneously push their top hip with your free leg to reduce bridging leverage. If pressure becomes dangerous, tap immediately rather than risking ligament damage. There is no shame in tapping to a well-executed kneebar.",
+        "answer_line": "Rotate knee in, tap if needed",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to roll out",
+            "Sit up and grab their head"
+          ],
+          "trap": [
+            "Straighten leg, pull away"
+          ]
+        }
       },
       {
         "question": "How does defending the kneebar create vulnerability to the heel hook and vice versa?",
-        "answer": "Straightening your leg and flexing your foot protects the heel but creates kneebar opportunity. Bending your knee prevents the kneebar but relaxes foot tension and potentially exposes the heel. Skilled defense requires maintaining a slight knee bend with active foot flexion - enough bend to deny hyperextension while keeping the foot tight enough to protect the heel. This middle-ground positioning denies both attacks simultaneously."
+        "answer": "Straightening your leg and flexing your foot protects the heel but creates kneebar opportunity. Bending your knee prevents the kneebar but relaxes foot tension and potentially exposes the heel. Skilled defense requires maintaining a slight knee bend with active foot flexion - enough bend to deny hyperextension while keeping the foot tight enough to protect the heel. This middle-ground positioning denies both attacks simultaneously.",
+        "answer_line": "Slight bend, flex foot tight",
+        "distractors": {
+          "plausible": [
+            "Fully straighten leg always",
+            "Fully bend knee, relax foot"
+          ],
+          "trap": [
+            "Point toes away, straight leg"
+          ]
+        }
       },
       {
         "question": "When should you consider tapping rather than continuing to defend the kneebar from ushiro?",
-        "answer": "Tap when the attacker has achieved full perpendicular alignment with knees pinched and is bridging with your ankle locked tight against their chest, especially if your knee is pointing toward the ceiling and you cannot rotate it inward. Also tap immediately if you feel any sharp pain, popping sensation, or significant pressure on the knee joint. Kneebars can cause serious ligament damage and the risk of injury is never worth prolonged resistance against a fully established position."
+        "answer": "Tap when the attacker has achieved full perpendicular alignment with knees pinched and is bridging with your ankle locked tight against their chest, especially if your knee is pointing toward the ceiling and you cannot rotate it inward. Also tap immediately if you feel any sharp pain, popping sensation, or significant pressure on the knee joint. Kneebars can cause serious ligament damage and the risk of injury is never worth prolonged resistance against a fully established position.",
+        "answer_line": "Tap at sharp pain, pop, or pressure",
+        "distractors": {
+          "plausible": [
+            "Only once the knee is fully locked",
+            "The moment they catch your foot"
+          ],
+          "trap": [
+            "Tough it out and keep escaping"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -375,6 +577,26 @@
         "phase": "Week 7+",
         "focus": "Live defense under pressure",
         "description": "Specific sparring from ushiro ashi-garami where the attacker freely chooses between heel hook and kneebar. Develop the dual awareness needed to defend both threats simultaneously. Full resistance with emphasis on reading the attacker's intentions and selecting the correct defensive response in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "m0NLphEuFoc",
+        "title": "Leg lock defense fundamentals",
+        "by": "Kuwy Jitsu coach",
+        "vertical": false,
+        "channel": "Kuwy Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "sq9jW4ZZrU8",
+        "title": "Leg lock defense from a knee",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 99,
+        "verified": "2026-07-15"
       }
     ]
   },

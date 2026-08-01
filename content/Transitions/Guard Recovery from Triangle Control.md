@@ -34,6 +34,43 @@ description: "Master guard recovery from triangle control in BJJ. Step-by-step g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Triangle Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle escape: hips down, posture up",
+      "description": "Guard Recovery from Triangle Control film study: Triangle escape: hips down, posture up, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HLWwfq8FNMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HLWwfq8FNMI",
+      "url": "https://www.youtube.com/watch?v=HLWwfq8FNMI",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT19S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape a triangle choke",
+      "description": "Guard Recovery from Triangle Control film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,6 +104,34 @@ This technique occupies a unique position in the guard recovery taxonomy because
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Triangle Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HLWwfq8FNMI)
+
+<p class="clip-credit"><strong>Triangle escape: hips down, posture up</strong> — taught by Mat Life Training Center · 0:19 · <a href="https://www.youtube.com/watch?v=HLWwfq8FNMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

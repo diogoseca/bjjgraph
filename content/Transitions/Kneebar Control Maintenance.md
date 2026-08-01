@@ -34,6 +34,43 @@ description: "Master kneebar control maintenance in BJJ. Learn grip adjustments,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Control Maintenance \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dog Bar Kneebar Control",
+      "description": "Kneebar Control Maintenance film study: Dog Bar Kneebar Control, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Go Behind Kneebar",
+      "description": "Kneebar Control Maintenance film study: Go Behind Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The core challenge of kneebar control maintenance lies in balancing submission t
 From a systems perspective, kneebar control maintenance serves as the stabilization hub connecting your initial entry to either a successful finish or an intelligent transition to alternative attacks. When maintenance succeeds, you preserve the positional advantage needed for high-percentage finishing sequences. When the opponent begins breaking free, recognizing the maintenance failure early allows smooth transitions to half guard top control, alternative leg attacks, or guard passing rather than scrambling from a lost position.
 
 **From Position**: [[Positions/Kneebar Control]] (Top)
-**Success Rate**: 70%
+**Success Rate**: 62%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Control Maintenance in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar Kneebar Control</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

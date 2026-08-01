@@ -13,26 +13,41 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Vaporizer/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "Pass Vaporizer Position is the top player's escape from the 10th Planet Vaporizer, neutralizing the underhook and degrading the lockdown through controlled leg circulation to extract the trapped leg and establish side control.",
   "overview": "Passing the Vaporizer requires systematic dismantling of the 10th Planet lockdown and whip-up control system. The top player must simultaneously address two interconnected control mechanisms: the figure-four lockdown trapping one leg, and the underhook providing leverage for the destabilizing whip-up motion. Unlike standard guard passes where clearing a single control point opens the path forward, the Vaporizer demands coordinated neutralization of both lower and upper body entanglements before any passing sequence can succeed.\n\nThe technical key to this pass lies in controlled leg circulation rather than explosive extraction. Pointing the trapped knee toward the mat narrows the leg profile, making it harder for the lockdown to maintain its grip. Combined with strategic weight shifts and heavy shoulder pressure that limits the bottom player's ability to re-adjust, this gradual approach systematically degrades the lockdown until extraction becomes possible. The critical error most practitioners make is attempting to rip the leg free explosively, which reflexively tightens the lockdown and creates the space needed for sweeps.\n\nThis pass represents the definitive answer to lockdown-based half guard systems. Practitioners who develop proficiency in clearing the Vaporizer effectively neutralize one of the most potent weapons in no-gi bottom game, forcing lockdown players to abandon their primary control strategy and fight from less favorable positions.",
   "conditions": [
@@ -239,38 +254,138 @@
     "flashcards": [
       {
         "question": "What is the optimal knee orientation for loosening the lockdown during leg circulation?",
-        "answer": "Point the trapped knee toward the mat. This narrows the leg profile by reducing the surface area available for the lockdown's figure-four configuration to grip. A narrow leg profile makes the lock progressively looser with each circulation movement, whereas keeping the knee pointed outward maintains the wide profile that the lockdown is designed to control."
+        "answer": "Point the trapped knee toward the mat. This narrows the leg profile by reducing the surface area available for the lockdown's figure-four configuration to grip. A narrow leg profile makes the lock progressively looser with each circulation movement, whereas keeping the knee pointed outward maintains the wide profile that the lockdown is designed to control.",
+        "answer_line": "Point trapped knee toward mat",
+        "distractors": {
+          "plausible": [
+            "Point knee outward, away",
+            "Focus on hip escape instead"
+          ],
+          "trap": [
+            "Straighten leg fully to power out"
+          ]
+        }
       },
       {
         "question": "Why must the underhook be neutralized before committing to lockdown clearance?",
-        "answer": "The underhook provides the leverage engine for the whip-up motion and sweep threats. If you clear the lockdown while the underhook remains active, the bottom player can re-establish the lockdown during your transition, execute an Old School sweep using underhook leverage, or advance to back control. Neutralizing the underhook with a whizzer or crossface removes the upper body manipulation that makes the Vaporizer dangerous."
+        "answer": "The underhook provides the leverage engine for the whip-up motion and sweep threats. If you clear the lockdown while the underhook remains active, the bottom player can re-establish the lockdown during your transition, execute an Old School sweep using underhook leverage, or advance to back control. Neutralizing the underhook with a whizzer or crossface removes the upper body manipulation that makes the Vaporizer dangerous.",
+        "answer_line": "Neutralize underhook first",
+        "distractors": {
+          "plausible": [
+            "Clear lockdown before underhook",
+            "Neutralize both simultaneously"
+          ],
+          "trap": [
+            "Ignore underhook, focus on legs"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully re-locks the lockdown after your first extraction attempt - how do you adjust your approach?",
-        "answer": "Return to knee-toward-mat orientation and increase shoulder pressure to limit their ability to reposition. Consider switching to the backstep extraction variant, which changes the extraction angle and often catches the bottom player off-guard. Also evaluate whether your underhook neutralization was sufficient - re-locking often indicates the bottom player retained enough upper body control to manipulate your leg back into the figure-four."
+        "answer": "Return to knee-toward-mat orientation and increase shoulder pressure to limit their ability to reposition. Consider switching to the backstep extraction variant, which changes the extraction angle and often catches the bottom player off-guard. Also evaluate whether your underhook neutralization was sufficient - re-locking often indicates the bottom player retained enough upper body control to manipulate your leg back into the figure-four.",
+        "answer_line": "Knee down, more shoulder pressure",
+        "distractors": {
+          "plausible": [
+            "Switch straight to backstep variant",
+            "Increase pace, force through faster"
+          ],
+          "trap": [
+            "Release underhook to reset grip"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before transitioning from lockdown clearance to the passing phase?",
-        "answer": "Both the lockdown leg entanglement and the upper body control (underhook or overhook) must be neutralized. Your crossface or whizzer must be established firmly enough that the bottom player cannot re-establish their underhook during the pass. Your base must be wide enough to resist any last-moment sweep attempt. Only when all three conditions are met should you commit to the knee-across-hip passing motion."
+        "answer": "Both the lockdown leg entanglement and the upper body control (underhook or overhook) must be neutralized. Your crossface or whizzer must be established firmly enough that the bottom player cannot re-establish their underhook during the pass. Your base must be wide enough to resist any last-moment sweep attempt. Only when all three conditions are met should you commit to the knee-across-hip passing motion.",
+        "answer_line": "Lockdown, underhook, base all clear",
+        "distractors": {
+          "plausible": [
+            "Lockdown clear is enough to pass",
+            "Crossface alone signals go-time"
+          ],
+          "trap": [
+            "Rush pass before base is set"
+          ]
+        }
       },
       {
         "question": "Your opponent begins increasing whip-up pressure and threatening the Electric Chair as you start extraction - what is your immediate response?",
-        "answer": "Abandon the extraction temporarily and drive your weight back with hips heavy and low. The Electric Chair requires hip elevation and leg separation, so keeping hips heavy directly counters the setup. Widen your base to resist the lateral rolling that accompanies the Electric Chair entry. Once the immediate threat subsides, restart extraction from this more stable defensive position rather than trying to rush through the danger."
+        "answer": "Abandon the extraction temporarily and drive your weight back with hips heavy and low. The Electric Chair requires hip elevation and leg separation, so keeping hips heavy directly counters the setup. Widen your base to resist the lateral rolling that accompanies the Electric Chair entry. Once the immediate threat subsides, restart extraction from this more stable defensive position rather than trying to rush through the danger.",
+        "answer_line": "Drive hips heavy and low",
+        "distractors": {
+          "plausible": [
+            "Push through extraction quickly",
+            "Widen base, keep hips elevated"
+          ],
+          "trap": [
+            "Post hand to stop the roll"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window between lockdown clearance and pass completion?",
-        "answer": "The window is immediate and cannot tolerate any pause. The moment your foot clears the figure-four configuration, you must drive your knee across their hip line while maintaining crossface pressure. Any delay allows the bottom player to re-insert their knee for half guard retention, re-engage the lockdown, or transition to a different guard. The extraction-to-pass must be one continuous flowing motion."
+        "answer": "The window is immediate and cannot tolerate any pause. The moment your foot clears the figure-four configuration, you must drive your knee across their hip line while maintaining crossface pressure. Any delay allows the bottom player to re-insert their knee for half guard retention, re-engage the lockdown, or transition to a different guard. The extraction-to-pass must be one continuous flowing motion.",
+        "answer_line": "Immediate, one continuous motion",
+        "distractors": {
+          "plausible": [
+            "Pause briefly to reset grips",
+            "Wait for opponent to react first"
+          ],
+          "trap": [
+            "Stop to celebrate lockdown clear"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between the lockdown clearing phase and the pass completion phase?",
-        "answer": "During lockdown clearing, the primary force direction is downward and circular. You drive weight down through shoulder pressure while circulating the leg in small rotational movements to loosen the figure-four. During pass completion, the force shifts to lateral and forward. You drive your knee across their hip line laterally while moving your chest forward into perpendicular side control alignment. The transition between these force vectors must be smooth and immediate."
+        "answer": "During lockdown clearing, the primary force direction is downward and circular. You drive weight down through shoulder pressure while circulating the leg in small rotational movements to loosen the figure-four. During pass completion, the force shifts to lateral and forward. You drive your knee across their hip line laterally while moving your chest forward into perpendicular side control alignment. The transition between these force vectors must be smooth and immediate.",
+        "answer_line": "Down/circular, then lateral/forward",
+        "distractors": {
+          "plausible": [
+            "Lateral force through both phases",
+            "Upward pressure, then downward"
+          ],
+          "trap": [
+            "Pull straight back to extract"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their outside hand on the mat during your weight shift - what does this indicate and how do you respond?",
-        "answer": "The outside hand post signals an Old School sweep setup. They need this post as a fulcrum to drive the rolling sweep. Immediately widen your base in the direction opposite to their intended roll and increase crossface pressure to limit their bridging power. Do not post your own hand near their hip as this gives them an additional leverage point. If you sense the sweep momentum beginning, reset your base completely rather than fighting through it."
+        "answer": "The outside hand post signals an Old School sweep setup. They need this post as a fulcrum to drive the rolling sweep. Immediately widen your base in the direction opposite to their intended roll and increase crossface pressure to limit their bridging power. Do not post your own hand near their hip as this gives them an additional leverage point. If you sense the sweep momentum beginning, reset your base completely rather than fighting through it.",
+        "answer_line": "Old School sweep setup - widen base",
+        "distractors": {
+          "plausible": [
+            "Harmless base adjustment, ignore",
+            "Sign they're about to scramble up"
+          ],
+          "trap": [
+            "Post your own hand near their hip"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This pass involves controlled leg extraction from an entanglement that places stress on the knee and ankle joints. Avoid explosive twisting motions that could strain the trapped knee. If the lockdown creates sharp pain in the knee joint, tap and reset rather than forcing through the extraction. Partners should release lockdown pressure immediately upon tap. During training, communicate about knee sensitivity before drilling and use gradual progressive resistance rather than starting at full intensity."
+    "safety_considerations": "This pass involves controlled leg extraction from an entanglement that places stress on the knee and ankle joints. Avoid explosive twisting motions that could strain the trapped knee. If the lockdown creates sharp pain in the knee joint, tap and reset rather than forcing through the extraction. Partners should release lockdown pressure immediately upon tap. During training, communicate about knee sensitivity before drilling and use gradual progressive resistance rather than starting at full intensity.",
+    "clips": [
+      {
+        "id": "PptkZQh_MFA",
+        "title": "Escaping and passing the lockdown",
+        "by": "Thunderdome BJJ coach",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ABSueJ6cwis",
+        "title": "Lockdown half guard pass with backstep",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 98,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Pass Vaporizer Position Defender",
@@ -356,19 +471,59 @@
     "flashcards": [
       {
         "question": "What are the two critical control points you must maintain to prevent the Vaporizer pass?",
-        "answer": "The lockdown leg entanglement and the underhook. The lockdown controls the top player's leg mobility and provides the structural foundation for all attacks, while the underhook gives leverage for the whip-up motion and sweep attempts. Both must be maintained simultaneously because addressing only one allows the top player to systematically work through the other. Losing the underhook makes the lockdown a passive hold, and losing the lockdown makes the underhook insufficient for offense."
+        "answer": "The lockdown leg entanglement and the underhook. The lockdown controls the top player's leg mobility and provides the structural foundation for all attacks, while the underhook gives leverage for the whip-up motion and sweep attempts. Both must be maintained simultaneously because addressing only one allows the top player to systematically work through the other. Losing the underhook makes the lockdown a passive hold, and losing the lockdown makes the underhook insufficient for offense.",
+        "answer_line": "Lockdown leg and the underhook",
+        "distractors": {
+          "plausible": [
+            "Lockdown leg and crossface only",
+            "Underhook and base width"
+          ],
+          "trap": [
+            "Focus only on underhook control"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to execute the Old School sweep against a pass attempt?",
-        "answer": "The optimal timing is when the top player shifts weight laterally during their extraction attempt. At this moment, their weight distribution is compromised and they cannot base effectively in the direction of the sweep. Look for them to post a hand on the mat, which creates a fixed fulcrum point. Bridge toward their posted hand while driving off your outside foot. Their own committed weight shift amplifies the sweep force rather than allowing them to resist."
+        "answer": "The optimal timing is when the top player shifts weight laterally during their extraction attempt. At this moment, their weight distribution is compromised and they cannot base effectively in the direction of the sweep. Look for them to post a hand on the mat, which creates a fixed fulcrum point. Bridge toward their posted hand while driving off your outside foot. Their own committed weight shift amplifies the sweep force rather than allowing them to resist.",
+        "answer_line": "When passer shifts weight laterally",
+        "distractors": {
+          "plausible": [
+            "Right after lockdown fully clears",
+            "When they establish crossface"
+          ],
+          "trap": [
+            "Wait until they complete the pass"
+          ]
+        }
       },
       {
         "question": "Your lockdown is loosening despite active re-locking attempts - what is your contingency plan?",
-        "answer": "Transition from pure retention to offensive threat. Attempt an Electric Chair entry if their weight is forward, or an Old School sweep if they are shifting laterally. If sweeps are not available, prepare to insert your knee for half guard retention before the lockdown fully clears. The critical decision is whether to commit to a sweep attempt that risks losing the position entirely or accept the positional downgrade to half guard where you can rebuild. Generally, one strong sweep attempt is worth the risk before accepting half guard."
+        "answer": "Transition from pure retention to offensive threat. Attempt an Electric Chair entry if their weight is forward, or an Old School sweep if they are shifting laterally. If sweeps are not available, prepare to insert your knee for half guard retention before the lockdown fully clears. The critical decision is whether to commit to a sweep attempt that risks losing the position entirely or accept the positional downgrade to half guard where you can rebuild. Generally, one strong sweep attempt is worth the risk before accepting half guard.",
+        "answer_line": "Shift to sweep, or take half guard",
+        "distractors": {
+          "plausible": [
+            "Keep re-locking until it holds",
+            "Immediately accept half guard"
+          ],
+          "trap": [
+            "Release lockdown to reset fully"
+          ]
+        }
       },
       {
         "question": "How do you counter the backstep extraction variant where the top player steps their free leg backward?",
-        "answer": "When you feel the free leg stepping backward rather than the standard forward circulation, increase your lockdown extension immediately to resist the changed extraction angle. The backstep creates a different force vector, so adjust your hip angle to face toward the stepping direction. If the backstep begins to succeed, use their backward movement momentum to accelerate a Truck entry or back take rather than fighting the extraction directly. Their backward step often exposes their back if you can follow the rotation."
+        "answer": "When you feel the free leg stepping backward rather than the standard forward circulation, increase your lockdown extension immediately to resist the changed extraction angle. The backstep creates a different force vector, so adjust your hip angle to face toward the stepping direction. If the backstep begins to succeed, use their backward movement momentum to accelerate a Truck entry or back take rather than fighting the extraction directly. Their backward step often exposes their back if you can follow the rotation.",
+        "answer_line": "Extend lockdown, face stepping side",
+        "distractors": {
+          "plausible": [
+            "Loosen grip to allow the step",
+            "Chase the leg to re-lock same way"
+          ],
+          "trap": [
+            "Chase leg blindly, abandon base"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -386,6 +541,35 @@
         "phase": "Phase 3: Full Positional Sparring",
         "focus": "Integrating all defensive and offensive tools in live conditions",
         "description": "Full resistance positional sparring starting from the Vaporizer. Partner attempts to pass while you defend and counter-attack. Practice the full decision tree: retain lockdown, counter with sweep, threaten submission, or accept half guard retention as a last resort. Complete 5-minute rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AmOMN0S1v8Q",
+        "title": "Advanced lockdown details",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oSQ7BHerIow",
+        "title": "Lockdown strategies",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8ZgEL2zU_jg",
+        "title": "Lockdown to vaporizer",
+        "by": "Axel Collazo",
+        "vertical": false,
+        "channel": "Axel Collazo",
+        "duration": 98,
+        "verified": "2026-07-15"
       }
     ]
   }

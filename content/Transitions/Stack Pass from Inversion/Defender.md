@@ -142,6 +142,43 @@ description: "How to defend against Stack Pass from Inversion in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Inversion (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass counter with the funk roll",
+      "description": "Stack Pass from Inversion (Defender) film study: Stack pass counter with the funk roll, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hj1nHZUZvoA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hj1nHZUZvoA",
+      "url": "https://www.youtube.com/watch?v=hj1nHZUZvoA",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stack pass defense to triangle trap",
+      "description": "Stack Pass from Inversion (Defender) film study: Stack pass defense to triangle trap, taught by Mark Cerrone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mOvf60z4HS0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mOvf60z4HS0",
+      "url": "https://www.youtube.com/watch?v=mOvf60z4HS0",
+      "creator": { "@type": "Person", "name": "Mark Cerrone" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -155,6 +192,34 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 **Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Inversion (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hj1nHZUZvoA)
+
+<p class="clip-credit"><strong>Stack pass counter with the funk roll</strong> — taught by Adam Bradley · 1:00 · <a href="https://www.youtube.com/watch?v=hj1nHZUZvoA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mOvf60z4HS0)
+
+<p class="clip-credit"><strong>Stack pass defense to triangle trap</strong> — taught by Mark Cerrone · 1:01 · <a href="https://www.youtube.com/watch?v=mOvf60z4HS0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

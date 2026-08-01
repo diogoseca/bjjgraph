@@ -34,6 +34,54 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The omoplata explained",
+      "description": "Omoplata Control film study: The omoplata explained, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dwwXQx6HBNw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dwwXQx6HBNw",
+      "url": "https://www.youtube.com/watch?v=dwwXQx6HBNw",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata technique breakdown",
+      "description": "Omoplata Control film study: Omoplata technique breakdown, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
+      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Troubleshooting the no-gi omoplata",
+      "description": "Omoplata Control film study: Troubleshooting the no-gi omoplata, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WdGe841yhsU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WdGe841yhsU",
+      "url": "https://www.youtube.com/watch?v=WdGe841yhsU",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT101S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Omoplata Control in BJJ. Strategic guide covering shoulder 
 Omoplata Control represents a sophisticated transitional position in Brazilian Jiu-Jitsu where the practitioner uses their legs to isolate and control the opponent's shoulder joint while creating multiple offensive pathways. This position exists at the intersection of submission attacks, sweeps, and positional advancement, making it one of the most versatile control positions in modern BJJ. The mechanics involve threading one leg over the opponent's trapped shoulder while maintaining hip connection, creating a lever system that applies rotational pressure to the shoulder capsule. What distinguishes Omoplata Control from other guard positions is its ability to force opponents into predictable defensive reactions, each of which opens different offensive opportunities. The position demonstrates the principle of using leg strength against arm strength, creating a mechanical advantage that limits the opponent's mobility while providing the controller with numerous high-percentage options. Understanding when to finish the submission, when to sweep, and when to transition to back control is essential for maximizing the position's effectiveness. The Omoplata Control position has evolved significantly in competitive BJJ, with modern practitioners recognizing that the control itself often provides more value than the submission finish, as it creates reliable pathways to dominant positions and forces opponents into defensive postures that drain energy and create openings for submission chains.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dwwXQx6HBNw)
+
+<p class="clip-credit"><strong>The omoplata explained</strong> — taught by Rafael Mendes · 0:59 · <a href="https://www.youtube.com/watch?v=dwwXQx6HBNw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oQAP8nARiHU)
+
+<p class="clip-credit"><strong>Omoplata technique breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WdGe841yhsU)
+
+<p class="clip-credit"><strong>Troubleshooting the no-gi omoplata</strong> — taught by Jean Jacques Machado · 1:41 · <a href="https://www.youtube.com/watch?v=WdGe841yhsU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,23 +217,21 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Omoplata from Omoplata Control/Attacker|Omoplata from Omoplata Control]]** (13% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (18% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (30% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (15% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (11% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (10% of attempts)
 
-- **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (13% of attempts)
+- **[[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Attacker|Rolling Omoplata from Omoplata Control]]** (9% of attempts)
 
-- **[[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Attacker|Rolling Omoplata from Omoplata Control]]** (11% of attempts)
+- **[[Transitions/Cartwheel Escape from Omoplata/Attacker|Cartwheel Escape from Omoplata]]** (11% of attempts)
 
-- **[[Transitions/Cartwheel Escape from Omoplata/Attacker|Cartwheel Escape from Omoplata]]** (5% of attempts)
+- **[[Transitions/Roll Forward from Omoplata/Attacker|Roll Forward from Omoplata]]** (13% of attempts)
 
-- **[[Transitions/Roll Forward from Omoplata/Attacker|Roll Forward from Omoplata]]** (2% of attempts)
-
-- **[[Transitions/Stack Defense from Omoplata/Attacker|Stack Defense from Omoplata]]** (1% of attempts)
+- **[[Transitions/Stack Defense from Omoplata/Attacker|Stack Defense from Omoplata]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -206,17 +288,19 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Omoplata from Omoplata Control/Attacker|Omoplata from Omoplata Control]]** (19% of attempts)
+- **[[Omoplata from Omoplata Control/Attacker|Omoplata from Omoplata Control]]** (14% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (19% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (15% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (17% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (17% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (12% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (14% of attempts)
+
+- **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (15% of attempts)
 
 
 ### Common Mistakes

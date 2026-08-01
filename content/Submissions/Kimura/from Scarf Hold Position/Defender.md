@@ -150,6 +150,43 @@ description: "Complete defense guide for the Kimura from Scarf Hold. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Scarf Hold Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame escape",
+      "description": "Kimura from Scarf Hold Position (Defender) film study: Kesa Gatame escape, taught by Taylor Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5atT-Q9-CVw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5atT-Q9-CVw",
+      "url": "https://www.youtube.com/watch?v=5atT-Q9-CVw",
+      "creator": { "@type": "Person", "name": "Taylor Jiu Jitsu" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scarf hold headlock escape",
+      "description": "Kimura from Scarf Hold Position (Defender) film study: Scarf hold headlock escape, taught by Clinch.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c5GUAlY1YwE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/c5GUAlY1YwE",
+      "url": "https://www.youtube.com/watch?v=c5GUAlY1YwE",
+      "creator": { "@type": "Person", "name": "Clinch" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Kimura from Scarf Hold Position requires early recognition of the 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Scarf Hold Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5atT-Q9-CVw)
+
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by Taylor Jiu Jitsu · 0:14 · <a href="https://www.youtube.com/watch?v=5atT-Q9-CVw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=c5GUAlY1YwE)
+
+<p class="clip-credit"><strong>Scarf hold headlock escape</strong> — taught by Clinch · 2:21 · <a href="https://www.youtube.com/watch?v=c5GUAlY1YwE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

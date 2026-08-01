@@ -174,6 +174,54 @@ description: "How to execute Gift Wrap in BJJ. Attacking perspective with setup,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gift wrap to taking the back",
+      "description": "Gift Wrap (Attacker) film study: Gift wrap to taking the back, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eKTd-9SkrVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eKTd-9SkrVk",
+      "url": "https://www.youtube.com/watch?v=eKTd-9SkrVk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount to gift wrap to the finish",
+      "description": "Gift Wrap (Attacker) film study: Mount to gift wrap to the finish, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
+      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The gift wrap in two minutes, no-gi",
+      "description": "Gift Wrap (Attacker) film study: The gift wrap in two minutes, no-gi, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5bw7poxVJ1E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5bw7poxVJ1E",
+      "url": "https://www.youtube.com/watch?v=5bw7poxVJ1E",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT112S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 **From Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eKTd-9SkrVk)
+
+<p class="clip-credit"><strong>Gift wrap to taking the back</strong> — taught by Henry Akins · 1:21 · <a href="https://www.youtube.com/watch?v=eKTd-9SkrVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
+
+<p class="clip-credit"><strong>Mount to gift wrap to the finish</strong> — taught by Henry Akins · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5bw7poxVJ1E)
+
+<p class="clip-credit"><strong>The gift wrap in two minutes, no-gi</strong> — taught by Brian Glick · 1:52 · <a href="https://www.youtube.com/watch?v=5bw7poxVJ1E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

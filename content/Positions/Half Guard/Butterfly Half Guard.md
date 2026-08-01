@@ -34,6 +34,54 @@ description: "Master Butterfly Half Guard in BJJ - a powerful hybrid position co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse Armdrag to Back Take (Marcelo style)",
+      "description": "Butterfly Half Guard film study: Reverse Armdrag to Back Take (Marcelo style), taught by Jerry Musquiz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MFed9IE8afA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MFed9IE8afA",
+      "url": "https://www.youtube.com/watch?v=MFed9IE8afA",
+      "creator": { "@type": "Person", "name": "Jerry Musquiz" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rafael Lovato Jr Half Guard Sweep Breakdown",
+      "description": "Butterfly Half Guard film study: Rafael Lovato Jr Half Guard Sweep Breakdown, taught by Rafael Lovato Jr.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-fnzNp6TWQo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-fnzNp6TWQo",
+      "url": "https://www.youtube.com/watch?v=-fnzNp6TWQo",
+      "creator": { "@type": "Person", "name": "Rafael Lovato Jr" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No Gi Butterfly Guard Explained Simply",
+      "description": "Butterfly Half Guard film study: No Gi Butterfly Guard Explained Simply, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wVWtFcfAbgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wVWtFcfAbgE",
+      "url": "https://www.youtube.com/watch?v=wVWtFcfAbgE",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ From a strategic perspective, butterfly half guard excels in situations where ma
 Both bottom and top perspectives of butterfly half guard require distinct strategic approaches. The bottom player focuses on maintaining the butterfly hook's upward pressure, controlling posture through underhooks or collar ties, and recognizing optimal timing for sweep execution. The top player must balance between shutting down the butterfly hook's elevation potential, freeing the trapped leg, and advancing position without overcommitting to movements that expose the back or create scramble opportunities favoring the guard player.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MFed9IE8afA)
+
+<p class="clip-credit"><strong>Reverse Armdrag to Back Take (Marcelo style)</strong> — taught by Jerry Musquiz · 0:42 · <a href="https://www.youtube.com/watch?v=MFed9IE8afA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-fnzNp6TWQo)
+
+<p class="clip-credit"><strong>Rafael Lovato Jr Half Guard Sweep Breakdown</strong> — taught by Rafael Lovato Jr · 1:28 · <a href="https://www.youtube.com/watch?v=-fnzNp6TWQo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wVWtFcfAbgE)
+
+<p class="clip-credit"><strong>No Gi Butterfly Guard Explained Simply</strong> — taught by Jean Jacques Machado · 2:57 · <a href="https://www.youtube.com/watch?v=wVWtFcfAbgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,31 +223,31 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (36% of attempts)
+- **[[Transitions/100% Sweep/Attacker|100% Sweep]]** (6% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
 
-- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (8% of attempts)
+- **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** (13% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (8% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (4% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (3% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (12% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (6% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (13% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (4% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (7% of attempts)
 
 - **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (6% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (7% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (5% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (4% of attempts)
 
-- **[[Transitions/Butterfly Half Guard Sweep/Attacker|Butterfly Half Guard Sweep]]** (2% of attempts)
+- **[[Transitions/Butterfly Half Guard Sweep/Attacker|Butterfly Half Guard Sweep]]** (9% of attempts)
 
-- **[[Transitions/Reguard from Butterfly Half Guard/Attacker|Reguard from Butterfly Half Guard]]** (1% of attempts)
+- **[[Transitions/Reguard from Butterfly Half Guard/Attacker|Reguard from Butterfly Half Guard]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -228,25 +312,25 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (10% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (9% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (23% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (11% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
 
 - **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (11% of attempts)
 
-- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (10% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (18% of attempts)
 
-- **[[Transitions/Knee Slice from Butterfly Half/Attacker|Knee Slice from Butterfly Half]]** (4% of attempts)
+- **[[Transitions/Knee Slice from Butterfly Half/Attacker|Knee Slice from Butterfly Half]]** (10% of attempts)
 
-- **[[Transitions/Smash from Butterfly Half/Attacker|Smash from Butterfly Half]]** (2% of attempts)
+- **[[Transitions/Smash from Butterfly Half/Attacker|Smash from Butterfly Half]]** (9% of attempts)
 
 
 ### Common Mistakes

@@ -180,6 +180,54 @@ description: "Complete guide to executing the Roll to Guard escape from Truck bo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Guard from Truck (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling out of the truck back to guard",
+      "description": "Roll to Guard from Truck (Attacker) film study: Rolling out of the truck back to guard, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chaining escapes from bottom pins back to guard",
+      "description": "Roll to Guard from Truck (Attacker) film study: Chaining escapes from bottom pins back to guard, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PARsvWFmssI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PARsvWFmssI",
+      "url": "https://www.youtube.com/watch?v=PARsvWFmssI",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT273S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Five ways to recover guard from turtle",
+      "description": "Roll to Guard from Truck (Attacker) film study: Five ways to recover guard from turtle, taught by Big Oss Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i08uQgulYmc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i08uQgulYmc",
+      "url": "https://www.youtube.com/watch?v=i08uQgulYmc",
+      "creator": { "@type": "Person", "name": "Big Oss Jiu-Jitsu" },
+      "duration": "PT504S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Roll to Guard, you are the bottom player in the tr
 **From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Guard from Truck (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Rolling out of the truck back to guard</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PARsvWFmssI)
+
+<p class="clip-credit"><strong>Chaining escapes from bottom pins back to guard</strong> — taught by Gordon Ryan · 4:33 · <a href="https://www.youtube.com/watch?v=PARsvWFmssI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i08uQgulYmc)
+
+<p class="clip-credit"><strong>Five ways to recover guard from turtle</strong> — taught by Big Oss Jiu-Jitsu · 8:24 · <a href="https://www.youtube.com/watch?v=i08uQgulYmc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

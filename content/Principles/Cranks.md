@@ -164,6 +164,54 @@ description: "Understand crank mechanics in BJJ. Learn spinal rotation risks, ne
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cranks \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peruvian necktie: neck crank or choke?",
+      "description": "Cranks film study: Peruvian necktie: neck crank or choke?, taught by Judo Life.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U7S78VFuwmU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U7S78VFuwmU",
+      "url": "https://www.youtube.com/watch?v=U7S78VFuwmU",
+      "creator": { "@type": "Person", "name": "Judo Life" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Neck cranks explained",
+      "description": "Cranks film study: Neck cranks explained, taught by Energia Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ydd68X6-1Cg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ydd68X6-1Cg",
+      "url": "https://www.youtube.com/watch?v=ydd68X6-1Cg",
+      "creator": { "@type": "Person", "name": "Energia Martial Arts" },
+      "duration": "PT346S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Choke vs crank mechanics: D\u0027arce, anaconda, guillotine",
+      "description": "Cranks film study: Choke vs crank mechanics: D\u0027arce, anaconda, guillotine, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wtgggEGnMOo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wtgggEGnMOo",
+      "url": "https://www.youtube.com/watch?v=wtgggEGnMOo",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT1021S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Cranks?
@@ -177,6 +225,42 @@ The controversy surrounding cranks stems from the narrow margin between an effec
 Despite the controversy, understanding crank mechanics is essential for all BJJ practitioners. Many chokes have crank components that affect the jaw and neck. Submissions like the can opener from closed guard are commonly encountered even at beginner levels. Defensive awareness requires knowing when spinal force is being applied so you can tap before injury occurs. Practitioners should train crank awareness with extreme caution, applying these techniques slowly and with constant communication. Many competition rulesets ban specific cranks, and most experienced practitioners reserve cranks for controlled drilling rather than full-resistance sparring.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cranks in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U7S78VFuwmU)
+
+<p class="clip-credit"><strong>Peruvian necktie: neck crank or choke?</strong> — taught by Judo Life · 0:34 · <a href="https://www.youtube.com/watch?v=U7S78VFuwmU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ydd68X6-1Cg)
+
+<p class="clip-credit"><strong>Neck cranks explained</strong> — taught by Energia Martial Arts · 5:46 · <a href="https://www.youtube.com/watch?v=ydd68X6-1Cg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wtgggEGnMOo)
+
+<p class="clip-credit"><strong>Choke vs crank mechanics: D&#39;arce, anaconda, guillotine</strong> — taught by Jordan Preisinger · 17:01 · <a href="https://www.youtube.com/watch?v=wtgggEGnMOo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

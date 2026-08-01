@@ -34,6 +34,54 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step pressure passing fr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nicky Rod\u0027s body lock pass explained",
+      "description": "Body Lock Pass film study: Nicky Rod\u0027s body lock pass explained, taught by Professor Buck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sztjmLZYxIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sztjmLZYxIQ",
+      "url": "https://www.youtube.com/watch?v=sztjmLZYxIQ",
+      "creator": { "@type": "Person", "name": "Professor Buck" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Body lock guard pass off their underhook",
+      "description": "Body Lock Pass film study: Body lock guard pass off their underhook, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAd6OIq94X0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aAd6OIq94X0",
+      "url": "https://www.youtube.com/watch?v=aAd6OIq94X0",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body lock pass from butterfly guard",
+      "description": "Body Lock Pass film study: Body lock pass from butterfly guard, taught by Pagano BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jbCjWHAU9Rc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jbCjWHAU9Rc",
+      "url": "https://www.youtube.com/watch?v=jbCjWHAU9Rc",
+      "creator": { "@type": "Person", "name": "Pagano BJJ" },
+      "duration": "PT126S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The pass works by creating a connection that removes the bottom player's ability
 This pass is especially valuable against opponents with strong half guard retention, as the body lock neutralizes many common defensive reactions including knee shield, lockdown, and underhook battles. It forms a cornerstone of systematic pressure passing approaches and chains seamlessly with knee slice, leg drag, and back take options when the primary path is defended.
 
 **From Position**: [[Positions/Half Guard]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 44%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sztjmLZYxIQ)
+
+<p class="clip-credit"><strong>Nicky Rod&#39;s body lock pass explained</strong> — taught by Professor Buck · 0:38 · <a href="https://www.youtube.com/watch?v=sztjmLZYxIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aAd6OIq94X0)
+
+<p class="clip-credit"><strong>Body lock guard pass off their underhook</strong> — taught by Gordon Ryan · 3:25 · <a href="https://www.youtube.com/watch?v=aAd6OIq94X0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jbCjWHAU9Rc)
+
+<p class="clip-credit"><strong>Body lock pass from butterfly guard</strong> — taught by Pagano BJJ · 2:06 · <a href="https://www.youtube.com/watch?v=jbCjWHAU9Rc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

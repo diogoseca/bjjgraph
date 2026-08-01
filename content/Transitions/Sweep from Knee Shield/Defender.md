@@ -148,6 +148,43 @@ description: "Learn to defend and counter the Sweep from Knee Shield in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Knee Shield (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the knee shield half guard",
+      "description": "Sweep from Knee Shield (Defender) film study: Passing the knee shield half guard, taught by Adam Metcalf.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
+      "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
+      "creator": { "@type": "Person", "name": "Adam Metcalf" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shutting down the half guard underhook",
+      "description": "Sweep from Knee Shield (Defender) film study: Shutting down the half guard underhook, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOdO6xJ-TcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOdO6xJ-TcU",
+      "url": "https://www.youtube.com/watch?v=dOdO6xJ-TcU",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT98S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Sweep from Knee Shield, your primary objective is to
 **Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Knee Shield (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y815hmtzGZA)
+
+<p class="clip-credit"><strong>Passing the knee shield half guard</strong> — taught by Adam Metcalf · 0:30 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOdO6xJ-TcU)
+
+<p class="clip-credit"><strong>Shutting down the half guard underhook</strong> — taught by Malachy Friedman · 1:38 · <a href="https://www.youtube.com/watch?v=dOdO6xJ-TcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -158,6 +158,43 @@ description: "Defend against the outside heel hook from leg entanglement. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Leg Entanglement (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending heel hooks fundamentals",
+      "description": "Outside Heel Hook from Leg Entanglement (Defender) film study: Defending heel hooks fundamentals, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "70-second heel hook defense breakdown",
+      "description": "Outside Heel Hook from Leg Entanglement (Defender) film study: 70-second heel hook defense breakdown, taught by Jahred Dell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DF2AYLPbeHc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DF2AYLPbeHc",
+      "url": "https://www.youtube.com/watch?v=DF2AYLPbeHc",
+      "creator": { "@type": "Person", "name": "Jahred Dell" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +205,34 @@ Defending against the outside heel hook from leg entanglement demands early reco
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Leg Entanglement (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending heel hooks fundamentals</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DF2AYLPbeHc)
+
+<p class="clip-credit"><strong>70-second heel hook defense breakdown</strong> — taught by Jahred Dell · 1:10 · <a href="https://www.youtube.com/watch?v=DF2AYLPbeHc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

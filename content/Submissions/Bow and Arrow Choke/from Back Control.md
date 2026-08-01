@@ -34,6 +34,54 @@ description: "Master the Bow and Arrow Choke from back control. Learn collar gri
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bow and Arrow Choke from Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bow and Arrow Choke from Back Control",
+      "description": "Bow and Arrow Choke from Back Control film study: Bow and Arrow Choke from Back Control, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqNhZVNhxnE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqNhZVNhxnE",
+      "url": "https://www.youtube.com/watch?v=xqNhZVNhxnE",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bow and Arrow Choke",
+      "description": "Bow and Arrow Choke from Back Control film study: Bow and Arrow Choke, taught by Helena Crevar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rc77idEskwo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rc77idEskwo",
+      "url": "https://www.youtube.com/watch?v=rc77idEskwo",
+      "creator": { "@type": "Person", "name": "Helena Crevar" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Bow and Arrow Choke from the Back",
+      "description": "Bow and Arrow Choke from Back Control film study: Bow and Arrow Choke from the Back, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vlydEGpl50k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vlydEGpl50k",
+      "url": "https://www.youtube.com/watch?v=vlydEGpl50k",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the Bow and Arrow Choke from back control. Learn collar gri
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">10% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 **Starting Position**: [[Positions/Back Control]] · **From**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bow and Arrow Choke from Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqNhZVNhxnE)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke from Back Control</strong> — taught by Evolve MMA · 0:45 · <a href="https://www.youtube.com/watch?v=xqNhZVNhxnE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rc77idEskwo)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke</strong> — taught by Helena Crevar · 0:55 · <a href="https://www.youtube.com/watch?v=rc77idEskwo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vlydEGpl50k)
+
+<p class="clip-credit"><strong>Bow and Arrow Choke from the Back</strong> — taught by Procel BJJ · 0:52 · <a href="https://www.youtube.com/watch?v=vlydEGpl50k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -245,7 +329,7 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 - [[Submissions/Rear Naked Choke]]
 - [[Submissions/Cross Collar Choke]]
 - [[Transitions/Clock Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Ezekiel Choke]]
 - [[Positions/Back Control]] - Starting position providing hooks and seatbelt control for choke setup
 - [[Positions/Back Control/Seat Belt Control Back]] - Specific grip configuration used to initiate collar access for the choke

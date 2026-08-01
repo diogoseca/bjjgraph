@@ -176,6 +176,43 @@ description: "Learn to attack the omoplata from inverted guard. Step-by-step exe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Inverted Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata to Opposite RDLR Sweep to Back",
+      "description": "Omoplata from Inverted Guard (Attacker) film study: Omoplata to Opposite RDLR Sweep to Back, taught by Paulo Miyao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UzkpQQNymhA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UzkpQQNymhA",
+      "url": "https://www.youtube.com/watch?v=UzkpQQNymhA",
+      "creator": { "@type": "Person", "name": "Paulo Miyao" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata Setup",
+      "description": "Omoplata from Inverted Guard (Attacker) film study: Omoplata Setup, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U87WJbHqdQU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U87WJbHqdQU",
+      "url": "https://www.youtube.com/watch?v=U87WJbHqdQU",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking the omoplata from inverted guard requires threading your leg over the 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Inverted Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UzkpQQNymhA)
+
+<p class="clip-credit"><strong>Omoplata to Opposite RDLR Sweep to Back</strong> — taught by Paulo Miyao · 1:28 · <a href="https://www.youtube.com/watch?v=UzkpQQNymhA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U87WJbHqdQU)
+
+<p class="clip-credit"><strong>Omoplata Setup</strong> — taught by Mikey Musumeci · 2:21 · <a href="https://www.youtube.com/watch?v=U87WJbHqdQU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

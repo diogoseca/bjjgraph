@@ -89,6 +89,14 @@ description: "Defend the straight ankle lock from ankle lock control. Boot defen
         "@type": "Answer",
         "text": "The optimal escape window is 5-12 seconds from when the attacker establishes ankle control. Within this window, grips are still being consolidated, leg control is incomplete, and defensive actions have the highest success probability. Beyond 12 seconds, the attacker has typically completed the figure-four grip, established full leg wrap control, and begun calibrating their breaking mechanics. Escape probability drops sharply after this point, and the attacker may begin transitioning to more dominant positions like inside ashi garami if the direct finish is unavailable."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the single most important early recognition cue that an Achilles Lock is being set up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most important early cue is feeling the attacker shift their grip to specifically cup and trap your heel deep into their armpit. This grip change precedes all other finishing mechanics - once the heel is secured, the attacker only needs to position the fulcrum and extend their hips. Recognizing this grip change gives you the maximum defensive window before the submission develops."
+      }
     }
   ]
 }
@@ -144,6 +152,43 @@ description: "Defend the straight ankle lock from ankle lock control. Boot defen
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Straight Ankle Lock from Straight Ankle Lock Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle Lock Escape: Put On the Boot",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Defender) film study: Ankle Lock Escape: Put On the Boot, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CUnX7TOpb-A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CUnX7TOpb-A",
+      "url": "https://www.youtube.com/watch?v=CUnX7TOpb-A",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straight Ankle Lock: Defence \u0026 Escapes",
+      "description": "Straight Ankle Lock from Straight Ankle Lock Control (Defender) film study: Straight Ankle Lock: Defence \u0026 Escapes, taught by Jiu Jitsu Brotherhood.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vg-Luhls7yE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vg-Luhls7yE",
+      "url": "https://www.youtube.com/watch?v=vg-Luhls7yE",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Brotherhood" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +199,34 @@ Defending the straight ankle lock from ankle lock control requires immediate rec
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Straight Ankle Lock from Straight Ankle Lock Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CUnX7TOpb-A)
+
+<p class="clip-credit"><strong>Ankle Lock Escape: Put On the Boot</strong> — taught by Ritchie Yip · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vg-Luhls7yE)
+
+<p class="clip-credit"><strong>Straight Ankle Lock: Defence &amp; Escapes</strong> — taught by Jiu Jitsu Brotherhood · 2:44 · <a href="https://www.youtube.com/watch?v=vg-Luhls7yE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

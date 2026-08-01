@@ -180,6 +180,54 @@ description: "How to execute Triangle from Back in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rear triangle entry from side control",
+      "description": "Triangle from Back (Attacker) film study: Rear triangle entry from side control, taught by Onyx Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oyXaGXU3mFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oyXaGXU3mFU",
+      "url": "https://www.youtube.com/watch?v=oyXaGXU3mFU",
+      "creator": { "@type": "Person", "name": "Onyx Martial Arts" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back triangle when the choke stalls",
+      "description": "Triangle from Back (Attacker) film study: Back triangle when the choke stalls, taught by Josh Presley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e5-wNLYzJT0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e5-wNLYzJT0",
+      "url": "https://www.youtube.com/watch?v=e5-wNLYzJT0",
+      "creator": { "@type": "Person", "name": "Josh Presley" },
+      "duration": "PT101S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entries into the rear triangle from the back",
+      "description": "Triangle from Back (Attacker) film study: Entries into the rear triangle from the back, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -193,6 +241,42 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 **From Position**: [[Positions/Harness]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oyXaGXU3mFU)
+
+<p class="clip-credit"><strong>Rear triangle entry from side control</strong> — taught by Onyx Martial Arts · 1:17 · <a href="https://www.youtube.com/watch?v=oyXaGXU3mFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e5-wNLYzJT0)
+
+<p class="clip-credit"><strong>Back triangle when the choke stalls</strong> — taught by Josh Presley · 1:41 · <a href="https://www.youtube.com/watch?v=e5-wNLYzJT0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries into the rear triangle from the back</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

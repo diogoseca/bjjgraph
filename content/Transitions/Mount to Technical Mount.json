@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Technical Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Mount to Technical Mount is a positional advancement where the top player posts one leg out and inserts the opposite hook as the opponent turns away, converting symmetric mount into an asymmetric platform optimized for armbars and back takes.",
   "overview": "Within the mount offense system, the Mount to Technical Mount transition is the primary mechanism for converting an opponent's defensive turn into positional advancement. The top practitioner posts one leg out while maintaining a hook with the other, shifting from bilateral symmetry to a configuration that creates superior submission angles for armbars, back takes, and choke setups. The movement is most commonly triggered by the bottom player turning to their side during escape attempts, which creates the natural opening for the top player to post the far leg and establish technical mount.\n\nStrategic timing is the defining factor in this transition's success. Premature attempts to post the leg without a clear trigger from the bottom player's movement sacrifice the stability advantage of standard mount. Conversely, hesitating when the opponent turns to their side wastes the window of opportunity and allows them to complete their escape to half guard or turtle. The transition requires reading the opponent's hip movement and shoulder rotation to identify the precise moment when posting the leg creates maximum offensive advantage with minimal positional risk.\n\nThe Mount to Technical Mount transition serves as a critical bridge in the mount offense system, connecting the control-oriented standard mount with the finish-oriented technical mount and back control positions. Practitioners who master this transition gain the ability to systematically advance their offensive campaign based on the opponent's defensive reactions, transforming every escape attempt into an opportunity for positional improvement rather than a threat to their control.",
   "conditions": [
@@ -242,46 +254,175 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals the optimal moment to initiate the Mount to Technical Mount transition?",
-        "answer": "The primary trigger is the opponent turning to their side or initiating a hip escape from mount. When the bottom player rotates their hips and shoulders away from you, this creates the angle and space necessary to post the far leg. Attempting the transition against a flat, centered opponent sacrifices mount stability without creating the angles needed for effective technical mount. The opponent's movement—whether voluntary escape or forced by your pressure—is what makes the transition mechanically sound."
+        "answer": "The primary trigger is the opponent turning to their side or initiating a hip escape from mount. When the bottom player rotates their hips and shoulders away from you, this creates the angle and space necessary to post the far leg. Attempting the transition against a flat, centered opponent sacrifices mount stability without creating the angles needed for effective technical mount. The opponent's movement—whether voluntary escape or forced by your pressure—is what makes the transition mechanically sound.",
+        "answer_line": "Opponent turns in or hip-escapes",
+        "distractors": {
+          "plausible": [
+            "When opponent lies flat and still",
+            "As soon as you pass to mount"
+          ],
+          "trap": [
+            "Sit upright to lift both knees"
+          ]
+        }
       },
       {
         "question": "Your opponent is defending mount by staying completely flat and refusing to turn—how do you create the opening for technical mount?",
-        "answer": "Apply heavy cross-face pressure with your shoulder driving into their jaw to force the head turn, which naturally causes the body to follow. Alternatively, threaten a high-percentage submission like the Americana or cross collar choke that requires them to use their hands defensively—any arm movement creates the reaction you need. You can also walk your knees up toward their armpits to force a defensive hip escape. The key is creating a dilemma where their defensive movement generates the angle you need."
+        "answer": "Apply heavy cross-face pressure with your shoulder driving into their jaw to force the head turn, which naturally causes the body to follow. Alternatively, threaten a high-percentage submission like the Americana or cross collar choke that requires them to use their hands defensively—any arm movement creates the reaction you need. You can also walk your knees up toward their armpits to force a defensive hip escape. The key is creating a dilemma where their defensive movement generates the angle you need.",
+        "answer_line": "Cross-face to turn the head",
+        "distractors": {
+          "plausible": [
+            "Grapevine the legs and squeeze",
+            "Pull both collars straight up"
+          ],
+          "trap": [
+            "Sit high and post both hands"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that distinguishes a successful leg post from one that creates escape opportunities?",
-        "answer": "The posted leg must be positioned close to the opponent's body with the shin perpendicular to their torso and foot flat on the mat, creating a tight tripod base. A leg posted too far away creates a gap that allows knee shield insertion, half guard recovery, or full escape underneath. The posted foot should be within touching distance of the opponent's hip, and the shin should act as a wall preventing rotation back. Simultaneously, the near-side hook must be inserted to complete the cage around the opponent."
+        "answer": "The posted leg must be positioned close to the opponent's body with the shin perpendicular to their torso and foot flat on the mat, creating a tight tripod base. A leg posted too far away creates a gap that allows knee shield insertion, half guard recovery, or full escape underneath. The posted foot should be within touching distance of the opponent's hip, and the shin should act as a wall preventing rotation back. Simultaneously, the near-side hook must be inserted to complete the cage around the opponent.",
+        "answer_line": "Post foot tight to their hip",
+        "distractors": {
+          "plausible": [
+            "Foot pointed, toes curled",
+            "Shin parallel to torso"
+          ],
+          "trap": [
+            "Post leg far from their hip"
+          ]
+        }
       },
       {
         "question": "During the transition, your opponent bridges explosively—what is the correct response and why?",
-        "answer": "Ride the bridge rather than fighting it. Keep your base wide through the posted leg and maintain upper body connection through cross-face or collar grip. The bridge actually accelerates your transition by lifting the opponent's hips and creating more space for hook insertion. As they return to the mat after the bridge, your technical mount should already be consolidated. Fighting the bridge by stiffening wastes energy and risks being rolled off, while flowing with it converts their escape energy into your positional advancement."
+        "answer": "Ride the bridge rather than fighting it. Keep your base wide through the posted leg and maintain upper body connection through cross-face or collar grip. The bridge actually accelerates your transition by lifting the opponent's hips and creating more space for hook insertion. As they return to the mat after the bridge, your technical mount should already be consolidated. Fighting the bridge by stiffening wastes energy and risks being rolled off, while flowing with it converts their escape energy into your positional advancement.",
+        "answer_line": "Ride the bridge, don't fight",
+        "distractors": {
+          "plausible": [
+            "Flatten them before continuing",
+            "Grapevine the legs to kill lift"
+          ],
+          "trap": [
+            "Post both hands to stop the lift"
+          ]
+        }
       },
       {
         "question": "What grip must be established before committing to the leg posting movement?",
-        "answer": "Upper body control through cross-face, underhook, or collar grip must be secured before the legs move. This grip serves as your anchor during the weight shift—without it, the momentary instability of moving from bilateral mount to asymmetric technical mount creates a window where the opponent can frame out and escape. The upper body grip maintains continuous pressure and prevents the opponent from creating the distance needed for guard recovery. Moving the legs before securing the grip is the most common cause of failed transitions."
+        "answer": "Upper body control through cross-face, underhook, or collar grip must be secured before the legs move. This grip serves as your anchor during the weight shift—without it, the momentary instability of moving from bilateral mount to asymmetric technical mount creates a window where the opponent can frame out and escape. The upper body grip maintains continuous pressure and prevents the opponent from creating the distance needed for guard recovery. Moving the legs before securing the grip is the most common cause of failed transitions.",
+        "answer_line": "Lock upper-body control first",
+        "distractors": {
+          "plausible": [
+            "Grip their belt with both hands",
+            "Pin both knees before moving"
+          ],
+          "trap": [
+            "Move legs first, grip after"
+          ]
+        }
       },
       {
         "question": "How does the hook insertion coordinate with the leg post, and what happens if they are performed sequentially rather than simultaneously?",
-        "answer": "The hook insertion and leg post should occur as one coordinated movement, not two separate actions. As the far leg swings out to post, the near leg simultaneously threads underneath the opponent's body. If performed sequentially—posting first, then inserting the hook—there is a gap where no hook prevents the opponent from spinning their hips back to guard. This timing window is enough for a competent bottom player to recover half guard or create a scramble. Simultaneous execution creates the technical mount cage in one motion, eliminating the escape window."
+        "answer": "The hook insertion and leg post should occur as one coordinated movement, not two separate actions. As the far leg swings out to post, the near leg simultaneously threads underneath the opponent's body. If performed sequentially—posting first, then inserting the hook—there is a gap where no hook prevents the opponent from spinning their hips back to guard. This timing window is enough for a competent bottom player to recover half guard or create a scramble. Simultaneous execution creates the technical mount cage in one motion, eliminating the escape window.",
+        "answer_line": "Post and hook as one motion",
+        "distractors": {
+          "plausible": [
+            "Square up flat, then reposition",
+            "Walk the knee up, then swing"
+          ],
+          "trap": [
+            "Post leg first, hook later"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully frames against your hip during the transition, preventing you from completing the technical mount—what are your options?",
-        "answer": "You have three primary options. First, attack the framing arm with an Americana or wrist control, converting their defensive structure into a submission opportunity. Second, collapse the frame by increasing cross-face pressure and driving your shoulder through, then reattempt the transition once their frame breaks. Third, abandon the technical mount attempt and return to standard mount with heavy pressure, then create a new opening through submission threats. The worst response is to keep forcing against an effective frame."
+        "answer": "You have three primary options. First, attack the framing arm with an Americana or wrist control, converting their defensive structure into a submission opportunity. Second, collapse the frame by increasing cross-face pressure and driving your shoulder through, then reattempt the transition once their frame breaks. Third, abandon the technical mount attempt and return to standard mount with heavy pressure, then create a new opening through submission threats. The worst response is to keep forcing against an effective frame.",
+        "answer_line": "Attack it, collapse it, or reset",
+        "distractors": {
+          "plausible": [
+            "Wait for the frame to tire",
+            "Grab the wrist and pull hard"
+          ],
+          "trap": [
+            "Rise up tall to break the frame"
+          ]
+        }
       },
       {
         "question": "Why is technical mount considered a transitional position rather than a control position, and how does this affect your approach after completing the transition?",
-        "answer": "Technical mount sacrifices the bilateral stability of standard mount for superior submission angles, meaning it is inherently less stable as a holding position. The asymmetric base with one hook and one posted leg provides less resistance to escapes than standard mount's two-knee base. This means you must attack immediately upon establishing technical mount—armbar, back take, or triangle within 3-5 seconds. Treating it as a resting or control position allows the opponent time to develop defensive frames. Every second without attacking is wasted positional advantage."
+        "answer": "Technical mount sacrifices the bilateral stability of standard mount for superior submission angles, meaning it is inherently less stable as a holding position. The asymmetric base with one hook and one posted leg provides less resistance to escapes than standard mount's two-knee base. This means you must attack immediately upon establishing technical mount—armbar, back take, or triangle within 3-5 seconds. Treating it as a resting or control position allows the opponent time to develop defensive frames. Every second without attacking is wasted positional advantage.",
+        "answer_line": "Attack immediately, don't rest",
+        "distractors": {
+          "plausible": [
+            "Return to flat mount and reset",
+            "Switch grips and slow the pace"
+          ],
+          "trap": [
+            "Settle in and hold it there"
+          ]
+        }
       },
       {
         "question": "How does the direction of your hip pressure change during the weight shift from standard mount to technical mount, and why is this important?",
-        "answer": "In standard mount, hip pressure drives straight down through the opponent's centerline with bilateral weight distribution. During the transition, hip pressure must rotate to drive diagonally toward the opponent's far shoulder on the side you are posting toward. This diagonal pressure follows the opponent's turning motion and prevents them from completing the turn into turtle or recovering flat. If you maintain straight-down pressure during the shift, your weight lifts momentarily as you post the leg, creating an escape window. The diagonal drive keeps continuous load on the opponent throughout the entire transition sequence."
+        "answer": "In standard mount, hip pressure drives straight down through the opponent's centerline with bilateral weight distribution. During the transition, hip pressure must rotate to drive diagonally toward the opponent's far shoulder on the side you are posting toward. This diagonal pressure follows the opponent's turning motion and prevents them from completing the turn into turtle or recovering flat. If you maintain straight-down pressure during the shift, your weight lifts momentarily as you post the leg, creating an escape window. The diagonal drive keeps continuous load on the opponent throughout the entire transition sequence.",
+        "answer_line": "Drive diagonal toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Keep pressure straight down",
+            "Shift weight to opposite side"
+          ],
+          "trap": [
+            "Lift hips to free the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent catches your posted leg in half guard during the transition—what are your immediate chain attack options rather than simply retreating to mount?",
-        "answer": "If the posted leg is caught in half guard, you have several offensive options that capitalize on the position rather than abandoning it. First, use knee slice mechanics to cut through their guard and complete a pass to side control, converting a failed technical mount into a successful guard pass. Second, if you have upper body control through crossface, apply heavy shoulder pressure and work a Darce choke as they turn into you. Third, threaten a Kimura on their underhook arm if they reach for your hip, which forces them to release the leg. The key principle is treating half guard top as an offensive position with its own attack chains rather than viewing it solely as a failed transition."
+        "answer": "If the posted leg is caught in half guard, you have several offensive options that capitalize on the position rather than abandoning it. First, use knee slice mechanics to cut through their guard and complete a pass to side control, converting a failed technical mount into a successful guard pass. Second, if you have upper body control through crossface, apply heavy shoulder pressure and work a Darce choke as they turn into you. Third, threaten a Kimura on their underhook arm if they reach for your hip, which forces them to release the leg. The key principle is treating half guard top as an offensive position with its own attack chains rather than viewing it solely as a failed transition.",
+        "answer_line": "Knee slice through to the pass",
+        "distractors": {
+          "plausible": [
+            "Rip the trapped foot free",
+            "Sit back and rebuild mount"
+          ],
+          "trap": [
+            "Post low and give the underhook"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Mount to Technical Mount transition is relatively low-risk in terms of acute injury potential, as it involves positional movement rather than joint manipulation or choking. However, practitioners should be aware of knee stress on the posted leg, particularly on hard or slippery surfaces where the foot may slide. Partners should communicate if they feel trapped in positions that compress the ribcage or restrict breathing. During drilling, the bottom player should tap if they feel excessive pressure on the neck from cross-face control. Always ensure adequate mat space and warm up hip flexors and knees before heavy positional drilling from mount."
+    "safety_considerations": "The Mount to Technical Mount transition is relatively low-risk in terms of acute injury potential, as it involves positional movement rather than joint manipulation or choking. However, practitioners should be aware of knee stress on the posted leg, particularly on hard or slippery surfaces where the foot may slide. Partners should communicate if they feel trapped in positions that compress the ribcage or restrict breathing. During drilling, the bottom player should tap if they feel excessive pressure on the neck from cross-face control. Always ensure adequate mat space and warm up hip flexors and knees before heavy positional drilling from mount.",
+    "clips": [
+      {
+        "id": "plD6TW7pFv4",
+        "title": "Mount to technical mount transition",
+        "by": "Dark Horse BJJ",
+        "vertical": false,
+        "channel": "Dark Horse Brazilian Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1K1fZa3oqtE",
+        "title": "Scoot to technical mount transition drill",
+        "by": "Tri Training Harder",
+        "vertical": false,
+        "channel": "Tri Training Harder LLP",
+        "duration": 47,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gze6HZzBOfY",
+        "title": "Mount to modified mount and rear mount",
+        "by": "Coach Paul",
+        "vertical": false,
+        "channel": "Coach Paul - War Fork Jiu-Jitsu Academy",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Mount to Technical Mount Defender",
@@ -369,23 +510,73 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for preventing the Mount to Technical Mount transition?",
-        "answer": "The optimal window is during the attacker's weight shift before the hook insertion completes. When you feel one knee lifting and pressure shifting to one side, the attacker is between positions and their base is compromised. This is the moment to frame and hip escape. Once the far leg is posted AND the near-side hook is inserted, the technical mount is established and prevention has failed—you must switch to escape strategy rather than prevention."
+        "answer": "The optimal window is during the attacker's weight shift before the hook insertion completes. When you feel one knee lifting and pressure shifting to one side, the attacker is between positions and their base is compromised. This is the moment to frame and hip escape. Once the far leg is posted AND the near-side hook is inserted, the technical mount is established and prevention has failed—you must switch to escape strategy rather than prevention.",
+        "answer_line": "During the shift, before the hook",
+        "distractors": {
+          "plausible": [
+            "The instant they take mount",
+            "After they establish the angle"
+          ],
+          "trap": [
+            "Wait until the armbar starts"
+          ]
+        }
       },
       {
         "question": "Why should you bridge toward the posted leg side rather than the hook side when trying to disrupt the transition?",
-        "answer": "The posted leg creates a wide but less rooted base compared to the hook side. The hook actively pulls your hips and provides the attacker with dynamic balance, making it difficult to disrupt from that direction. The posted leg relies on the foot being flat on the mat for stability—a forceful bridge toward this side creates angular pressure that the attacker must catch with their posted foot, which is harder to adjust during the transition. Bridging toward the posted leg attacks the weakest point in the attacker's base structure."
+        "answer": "The posted leg creates a wide but less rooted base compared to the hook side. The hook actively pulls your hips and provides the attacker with dynamic balance, making it difficult to disrupt from that direction. The posted leg relies on the foot being flat on the mat for stability—a forceful bridge toward this side creates angular pressure that the attacker must catch with their posted foot, which is harder to adjust during the transition. Bridging toward the posted leg attacks the weakest point in the attacker's base structure.",
+        "answer_line": "Posted leg is the weak point",
+        "distractors": {
+          "plausible": [
+            "Hook side offers more space",
+            "Bridging only tires you out"
+          ],
+          "trap": [
+            "Turn into the hook, give the back"
+          ]
+        }
       },
       {
         "question": "Your arms are controlled and technical mount is fully established—what is your immediate defensive priority?",
-        "answer": "Protect the near-side arm from extension at all costs. Keep the elbow bent and glued to your ribs, using your free hand to grip your own wrist or collar for reinforcement. The attacker's primary goal from technical mount is armbar, which requires extending your arm. Every defensive action should prioritize keeping that arm bent and tight. Secondary priority is preventing the attacker from establishing wrist control on the trapped arm. If both fail, prepare for armbar defense by immediately fighting to sit up and stack as the attacker begins the swing-over."
+        "answer": "Protect the near-side arm from extension at all costs. Keep the elbow bent and glued to your ribs, using your free hand to grip your own wrist or collar for reinforcement. The attacker's primary goal from technical mount is armbar, which requires extending your arm. Every defensive action should prioritize keeping that arm bent and tight. Secondary priority is preventing the attacker from establishing wrist control on the trapped arm. If both fail, prepare for armbar defense by immediately fighting to sit up and stack as the attacker begins the swing-over.",
+        "answer_line": "Keep near arm bent and tight",
+        "distractors": {
+          "plausible": [
+            "Fight to sit up immediately",
+            "Grab their collar for control"
+          ],
+          "trap": [
+            "Extend arm to create space"
+          ]
+        }
       },
       {
         "question": "How do you recover half guard from the technical mount position once the transition is complete?",
-        "answer": "Frame on the attacker's hip with your near-side forearm keeping elbow bent and shrimp your hips away toward the posted leg side. As space is created, insert your bottom knee between your bodies as a knee shield aiming to get your shin across their torso. Simultaneously, use your top leg to hook their posted leg at the knee to prevent them from re-adjusting position. The combination of knee insertion and leg hook converts the position from technical mount to a half guard configuration where you have frames and distance."
+        "answer": "Frame on the attacker's hip with your near-side forearm keeping elbow bent and shrimp your hips away toward the posted leg side. As space is created, insert your bottom knee between your bodies as a knee shield aiming to get your shin across their torso. Simultaneously, use your top leg to hook their posted leg at the knee to prevent them from re-adjusting position. The combination of knee insertion and leg hook converts the position from technical mount to a half guard configuration where you have frames and distance.",
+        "answer_line": "Frame hip, shrimp, knee shield",
+        "distractors": {
+          "plausible": [
+            "Shrimp away from posted leg",
+            "Push their chest, bridge up"
+          ],
+          "trap": [
+            "Turn away and expose the back"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between defending this transition versus escaping from established technical mount?",
-        "answer": "Defending the transition targets the brief window of instability during the attacker's weight shift and leg posting, when their base is compromised and they are between positions. This requires reading the setup cues and reacting within a 1-2 second window. Escaping established technical mount is significantly harder because the attacker has consolidated their base, inserted the hook, and likely begun isolating your arm for submission. Prevention during the transition has roughly double the success rate of escape after establishment, making recognition and early reaction the highest priority."
+        "answer": "Defending the transition targets the brief window of instability during the attacker's weight shift and leg posting, when their base is compromised and they are between positions. This requires reading the setup cues and reacting within a 1-2 second window. Escaping established technical mount is significantly harder because the attacker has consolidated their base, inserted the hook, and likely begun isolating your arm for submission. Prevention during the transition has roughly double the success rate of escape after establishment, making recognition and early reaction the highest priority.",
+        "answer_line": "Catch it early; late is far harder",
+        "distractors": {
+          "plausible": [
+            "Escape once they settle the hook",
+            "Both need the same reaction time"
+          ],
+          "trap": [
+            "Stall until they attack the arm"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -408,6 +599,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance defense and escape in realistic conditions",
         "description": "Positional sparring starting from mount with partner attempting to advance to technical mount. Defend at full resistance using recognition, prevention, and escape skills developed in previous phases. Track success rate of prevention versus escape to identify areas for improvement and refine timing under competition-level pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NHrpJdU8wCQ",
+        "title": "Technical mount escape out the back",
+        "by": "smallmanbjj",
+        "vertical": false,
+        "channel": "smallmanbjj",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Mount escape when you are stuck",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

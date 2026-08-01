@@ -170,6 +170,32 @@ description: "How to execute Reverse Armbar in BJJ. Attacking perspective with s
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Armbar from Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar from S-Mount breakdown",
+      "description": "Reverse Armbar from Mount (Attacker) film study: Armbar from S-Mount breakdown, taught by Fenrir Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
+      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +206,26 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Armbar from Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
+
+<p class="clip-credit"><strong>Armbar from S-Mount breakdown</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

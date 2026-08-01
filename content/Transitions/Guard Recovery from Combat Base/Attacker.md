@@ -174,6 +174,43 @@ description: "Learn to recover guard from combat base as the bottom player in BJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Combat Base (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard recovery mechanics breakdown",
+      "description": "Guard Recovery from Combat Base (Attacker) film study: Guard recovery mechanics breakdown, taught by Conceptual Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qrPBsg028-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qrPBsg028-0",
+      "url": "https://www.youtube.com/watch?v=qrPBsg028-0",
+      "creator": { "@type": "Person", "name": "Conceptual Grappling" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Solo guard retention drills",
+      "description": "Guard Recovery from Combat Base (Attacker) film study: Solo guard retention drills, taught by Elements Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8156_PwYWSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8156_PwYWSM",
+      "url": "https://www.youtube.com/watch?v=8156_PwYWSM",
+      "creator": { "@type": "Person", "name": "Elements Jiu Jitsu Academy" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom player under combat base, your primary objective is to systematica
 **From Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Combat Base (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qrPBsg028-0)
+
+<p class="clip-credit"><strong>Guard recovery mechanics breakdown</strong> — taught by Conceptual Grappling · 1:00 · <a href="https://www.youtube.com/watch?v=qrPBsg028-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8156_PwYWSM)
+
+<p class="clip-credit"><strong>Solo guard retention drills</strong> — taught by Elements Jiu Jitsu Academy · 1:19 · <a href="https://www.youtube.com/watch?v=8156_PwYWSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

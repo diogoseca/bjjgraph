@@ -34,6 +34,54 @@ description: "Master the Anaconda Setup from front headlock. Learn arm threading
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke setup and finish",
+      "description": "Anaconda Setup film study: Anaconda choke setup and finish, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RbkOnRb2lvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RbkOnRb2lvA",
+      "url": "https://www.youtube.com/watch?v=RbkOnRb2lvA",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke vs d\u0027arce choke setup difference",
+      "description": "Anaconda Setup film study: Anaconda choke vs d\u0027arce choke setup difference, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6d6Wkgh9imU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6d6Wkgh9imU",
+      "url": "https://www.youtube.com/watch?v=6d6Wkgh9imU",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic anaconda choke setup",
+      "description": "Anaconda Setup film study: Basic anaconda choke setup, taught by Caleb McAllister.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oUib2H2bOMQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oUib2H2bOMQ",
+      "url": "https://www.youtube.com/watch?v=oUib2H2bOMQ",
+      "creator": { "@type": "Person", "name": "Caleb McAllister" },
+      "duration": "PT102S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Unlike the traditional guillotine or Darce choke setups, the anaconda requires p
 This technique exemplifies the modern front headlock system's emphasis on control, patience, and positional dominance before attempting the finish. Rushing the setup often results in the opponent escaping to guard or achieving a single leg position, making methodical execution essential for success at all levels of competition.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 39%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RbkOnRb2lvA)
+
+<p class="clip-credit"><strong>Anaconda choke setup and finish</strong> — taught by Ninja Pinto · 0:49 · <a href="https://www.youtube.com/watch?v=RbkOnRb2lvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6d6Wkgh9imU)
+
+<p class="clip-credit"><strong>Anaconda choke vs d&#39;arce choke setup difference</strong> — taught by Matt Arroyo · 1:07 · <a href="https://www.youtube.com/watch?v=6d6Wkgh9imU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oUib2H2bOMQ)
+
+<p class="clip-credit"><strong>Basic anaconda choke setup</strong> — taught by Caleb McAllister · 1:42 · <a href="https://www.youtube.com/watch?v=oUib2H2bOMQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -240,11 +324,11 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 
 - [[Transitions/Anaconda Choke]] - Natural follow-up finish from this setup position
 
-- [[Transitions/Darce Choke]] - Alternative attack when near arm is tucked defensively
+- [[Submissions/Darce Choke]] - Alternative attack when near arm is tucked defensively
 
 - [[Transitions/Front Headlock to Anaconda]] - Entry pathway from standing or scramble positions
 
-- [[Transitions/Guillotine Choke]] - Alternative attack from same front headlock control
+- [[Submissions/Guillotine Choke]] - Alternative attack from same front headlock control
 
 - [[Transitions/Darce Setup]] - Complementary setup from same starting position
 
@@ -252,7 +336,7 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 
 - [[Transitions/Japanese Necktie Setup]] - Alternative choke from front headlock position
 
-- [[Transitions/Arm Triangle]] - Another head-and-arm choke option from turtle top
+- [[Submissions/Arm Triangle]] - Another head-and-arm choke option from turtle top
 
 - [[Transitions/Front Headlock to Back]] - Positional alternative when submission setup fails
 

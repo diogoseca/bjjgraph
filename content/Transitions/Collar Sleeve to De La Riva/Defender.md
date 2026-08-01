@@ -132,6 +132,54 @@ description: "Defend against the collar sleeve to De La Riva guard transition. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve to De La Riva (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Counter to deep De La Riva with long step",
+      "description": "Collar Sleeve to De La Riva (Defender) film study: Counter to deep De La Riva with long step, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6td9ZiochpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6td9ZiochpY",
+      "url": "https://www.youtube.com/watch?v=6td9ZiochpY",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva counter into back take",
+      "description": "Collar Sleeve to De La Riva (Defender) film study: De La Riva counter into back take, taught by Vicente Cavalcanti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bdD496w3erA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bdD496w3erA",
+      "url": "https://www.youtube.com/watch?v=bdD496w3erA",
+      "creator": { "@type": "Person", "name": "Vicente Cavalcanti" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard pass to shut down De La Riva",
+      "description": "Collar Sleeve to De La Riva (Defender) film study: Guard pass to shut down De La Riva, taught by Augusto Frota.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S5IKZijyNMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S5IKZijyNMc",
+      "url": "https://www.youtube.com/watch?v=S5IKZijyNMc",
+      "creator": { "@type": "Person", "name": "Augusto Frota" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -141,6 +189,42 @@ As the defender facing this transition, your primary objective is to prevent the
 **Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve to De La Riva (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6td9ZiochpY)
+
+<p class="clip-credit"><strong>Counter to deep De La Riva with long step</strong> — taught by Carpio Jiu Jitsu · 1:20 · <a href="https://www.youtube.com/watch?v=6td9ZiochpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bdD496w3erA)
+
+<p class="clip-credit"><strong>De La Riva counter into back take</strong> — taught by Vicente Cavalcanti · 0:56 · <a href="https://www.youtube.com/watch?v=bdD496w3erA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S5IKZijyNMc)
+
+<p class="clip-credit"><strong>Guard pass to shut down De La Riva</strong> — taught by Augusto Frota · 0:51 · <a href="https://www.youtube.com/watch?v=S5IKZijyNMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

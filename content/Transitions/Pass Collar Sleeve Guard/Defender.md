@@ -148,6 +148,54 @@ description: "Defend against collar sleeve guard passes in BJJ. Learn grip reten
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Collar Sleeve Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Grip Chain for Guard Retention",
+      "description": "Pass Collar Sleeve Guard (Defender) film study: Grip Chain for Guard Retention, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T_GhZe_MOWI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T_GhZe_MOWI",
+      "url": "https://www.youtube.com/watch?v=T_GhZe_MOWI",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Collar-sleeve guard retention vs the pass",
+      "description": "Pass Collar Sleeve Guard (Defender) film study: Collar-sleeve guard retention vs the pass, taught by Profectus Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8nYx62htPrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8nYx62htPrk",
+      "url": "https://www.youtube.com/watch?v=8nYx62htPrk",
+      "creator": { "@type": "Person", "name": "Profectus Jiu-Jitsu coach" },
+      "duration": "PT162S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stop the pass: two collar sleeve sweeps",
+      "description": "Pass Collar Sleeve Guard (Defender) film study: Stop the pass: two collar sleeve sweeps, taught by Sticks and Stones BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/776BVyZM504/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/776BVyZM504",
+      "url": "https://www.youtube.com/watch?v=776BVyZM504",
+      "creator": { "@type": "Person", "name": "Sticks and Stones BJJ coach" },
+      "duration": "PT168S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ From the guard player's perspective, defending against a direct collar sleeve gu
 **Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Collar Sleeve Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T_GhZe_MOWI)
+
+<p class="clip-credit"><strong>Grip Chain for Guard Retention</strong> — taught by Xande Ribeiro · 2:54 · <a href="https://www.youtube.com/watch?v=T_GhZe_MOWI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8nYx62htPrk)
+
+<p class="clip-credit"><strong>Collar-sleeve guard retention vs the pass</strong> — taught by Profectus Jiu-Jitsu coach · 2:42 · <a href="https://www.youtube.com/watch?v=8nYx62htPrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=776BVyZM504)
+
+<p class="clip-credit"><strong>Stop the pass: two collar sleeve sweeps</strong> — taught by Sticks and Stones BJJ coach · 2:48 · <a href="https://www.youtube.com/watch?v=776BVyZM504" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

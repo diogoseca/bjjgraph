@@ -174,6 +174,43 @@ description: "Complete guide to maintaining top kneebar control in BJJ. Covers g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Control Maintenance (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Dog Bar Kneebar Control",
+      "description": "Kneebar Control Maintenance (Attacker) film study: Dog Bar Kneebar Control, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vMqDIi10z4k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vMqDIi10z4k",
+      "url": "https://www.youtube.com/watch?v=vMqDIi10z4k",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Go Behind Kneebar",
+      "description": "Kneebar Control Maintenance (Attacker) film study: Go Behind Kneebar, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v4lhLkKgVvU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v4lhLkKgVvU",
+      "url": "https://www.youtube.com/watch?v=v4lhLkKgVvU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 **From Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Control Maintenance (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vMqDIi10z4k)
+
+<p class="clip-credit"><strong>Dog Bar Kneebar Control</strong> — taught by Craig Jones · 1:01 · <a href="https://www.youtube.com/watch?v=vMqDIi10z4k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v4lhLkKgVvU)
+
+<p class="clip-credit"><strong>Go Behind Kneebar</strong> — taught by Craig Jones · 2:09 · <a href="https://www.youtube.com/watch?v=v4lhLkKgVvU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

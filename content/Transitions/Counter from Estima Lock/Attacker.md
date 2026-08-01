@@ -174,6 +174,54 @@ description: "Master the attacker perspective for countering the Estima Lock in 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter from Estima Lock (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima lock from 50/50",
+      "description": "Counter from Estima Lock (Attacker) film study: Estima lock from 50/50, taught by The Jiu-Jitsu Foundry.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1I7Nlm1IhgQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1I7Nlm1IhgQ",
+      "url": "https://www.youtube.com/watch?v=1I7Nlm1IhgQ",
+      "creator": { "@type": "Person", "name": "The Jiu-Jitsu Foundry" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late stage ankle lock escape and counter options",
+      "description": "Counter from Estima Lock (Attacker) film study: Late stage ankle lock escape and counter options, taught by PFed BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FLmYd1v_jp4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FLmYd1v_jp4",
+      "url": "https://www.youtube.com/watch?v=FLmYd1v_jp4",
+      "creator": { "@type": "Person", "name": "PFed BJJ" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ankle lock defense and counter options",
+      "description": "Counter from Estima Lock (Attacker) film study: Ankle lock defense and counter options, taught by Endeavor Defense \u0026 Fitness.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m9yuGuppKno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m9yuGuppKno",
+      "url": "https://www.youtube.com/watch?v=m9yuGuppKno",
+      "creator": { "@type": "Person", "name": "Endeavor Defense \u0026 Fitness" },
+      "duration": "PT94S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Counter from Estima Lock requires a systematic approach to escapin
 **From Position**: [[Positions/Estima Lock Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter from Estima Lock (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1I7Nlm1IhgQ)
+
+<p class="clip-credit"><strong>Estima lock from 50/50</strong> — taught by The Jiu-Jitsu Foundry · 0:33 · <a href="https://www.youtube.com/watch?v=1I7Nlm1IhgQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FLmYd1v_jp4)
+
+<p class="clip-credit"><strong>Late stage ankle lock escape and counter options</strong> — taught by PFed BJJ · 2:11 · <a href="https://www.youtube.com/watch?v=FLmYd1v_jp4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m9yuGuppKno)
+
+<p class="clip-credit"><strong>Ankle lock defense and counter options</strong> — taught by Endeavor Defense &amp; Fitness · 1:34 · <a href="https://www.youtube.com/watch?v=m9yuGuppKno" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

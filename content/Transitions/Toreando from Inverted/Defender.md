@@ -148,6 +148,54 @@ description: "Defend and counter the toreando pass from inverted guard. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando from Inverted (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Framing the guard versus the toreando pass",
+      "description": "Toreando from Inverted (Defender) film study: Framing the guard versus the toreando pass, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3w8W6dr2Bw8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3w8W6dr2Bw8",
+      "url": "https://www.youtube.com/watch?v=3w8W6dr2Bw8",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toreando defense with a roll counter",
+      "description": "Toreando from Inverted (Defender) film study: Toreando defense with a roll counter, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad4250mBWKc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad4250mBWKc",
+      "url": "https://www.youtube.com/watch?v=Ad4250mBWKc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-gi retention principles vs toreando passing",
+      "description": "Toreando from Inverted (Defender) film study: No-gi retention principles vs toreando passing, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/guEr6TkpBOQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/guEr6TkpBOQ",
+      "url": "https://www.youtube.com/watch?v=guEr6TkpBOQ",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the inverted guard player facing a toreando pass attempt, your primary challe
 **Opponent's Starting Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando from Inverted (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3w8W6dr2Bw8)
+
+<p class="clip-credit"><strong>Framing the guard versus the toreando pass</strong> — taught by Rafael Mendes · 0:40 · <a href="https://www.youtube.com/watch?v=3w8W6dr2Bw8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad4250mBWKc)
+
+<p class="clip-credit"><strong>Toreando defense with a roll counter</strong> — taught by Revolution BJJ · 1:24 · <a href="https://www.youtube.com/watch?v=Ad4250mBWKc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=guEr6TkpBOQ)
+
+<p class="clip-credit"><strong>No-gi retention principles vs toreando passing</strong> — taught by Mads H. · 3:10 · <a href="https://www.youtube.com/watch?v=guEr6TkpBOQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

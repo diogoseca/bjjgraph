@@ -34,6 +34,54 @@ description: "Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "12 Kesa Gatame Attacks",
+      "description": "Kesa Gatame film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Five basic judo hold downs and pins including kesa gatame",
+      "description": "Kesa Gatame film study: Five basic judo hold downs and pins including kesa gatame, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jwArJKRlJ8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jwArJKRlJ8o",
+      "url": "https://www.youtube.com/watch?v=jwArJKRlJ8o",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT211S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The kesa gatame control and attack system",
+      "description": "Kesa Gatame film study: The kesa gatame control and attack system, taught by The Grappling Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/G0Xf_CJzE6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/G0Xf_CJzE6M",
+      "url": "https://www.youtube.com/watch?v=G0Xf_CJzE6M",
+      "creator": { "@type": "Person", "name": "The Grappling Academy" },
+      "duration": "PT649S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +116,42 @@ The strategic uniqueness of Kesa Gatame lies in its geometric relationship: the 
 Kesa Gatame functions as a positional hub within the side control family, offering distinct transition pathways that differ from standard cross-body side control. The top player can flow between Kesa Gatame, Reverse Kesa-Gatame, North-South, and mount depending on the bottom player's defensive reactions. The bottom player's escape routes similarly branch toward turtle, half guard recovery, or back take opportunities that are unique to this position's geometry. Mastery of Kesa Gatame from both perspectives significantly expands a practitioner's positional vocabulary and provides tools for controlling opponents who are difficult to pin with conventional side control mechanics.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jwArJKRlJ8o)
+
+<p class="clip-credit"><strong>Five basic judo hold downs and pins including kesa gatame</strong> — taught by Shintaro Higashi · 3:31 · <a href="https://www.youtube.com/watch?v=jwArJKRlJ8o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=G0Xf_CJzE6M)
+
+<p class="clip-credit"><strong>The kesa gatame control and attack system</strong> — taught by The Grappling Academy · 10:49 · <a href="https://www.youtube.com/watch?v=G0Xf_CJzE6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -139,23 +223,23 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
 
 - **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (9% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (10% of attempts)
+- **[[Transitions/Back Take from Kesa Gatame/Attacker|Back Take from Kesa Gatame]]** (11% of attempts)
 
-- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (28% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle/Attacker|Bridge and Turn to Turtle]]** (10% of attempts)
 
-- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (12% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (12% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (10% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Transitions/Bridge Escape from Kesa Gatame/Attacker|Bridge Escape from Kesa Gatame]]** (3% of attempts)
+- **[[Transitions/Bridge Escape from Kesa Gatame/Attacker|Bridge Escape from Kesa Gatame]]** (9% of attempts)
 
-- **[[Transitions/Frame to Guard from Kesa Gatame/Attacker|Frame to Guard from Kesa Gatame]]** (3% of attempts)
+- **[[Transitions/Frame to Guard from Kesa Gatame/Attacker|Frame to Guard from Kesa Gatame]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -220,27 +304,25 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (13% of attempts)
+- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (17% of attempts)
 
-- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (11% of attempts)
+- **[[North-South Choke from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (9% of attempts)
 
-- **[[North-South Choke from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (8% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (12% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (17% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (11% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (10% of attempts)
+- **[[Arm Triangle from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (10% of attempts)
 
-- **[[Arm Triangle from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (9% of attempts)
+- **[[Transitions/Kesa Gatame to Modified Scarf Hold/Attacker|Kesa Gatame to Modified Scarf Hold]]** (10% of attempts)
 
-- **[[Transitions/Kesa Gatame to Modified Scarf Hold/Attacker|Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame/Attacker|Kesa Gatame to Reverse Kesa-Gatame]]** (10% of attempts)
 
-- **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame/Attacker|Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
+- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (9% of attempts)
 
-- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (20% of attempts)
+- **[[Kesa Gatame Arm Crush from Kesa Gatame/Attacker|Kesa Gatame Arm Crush from Kesa Gatame]]** (6% of attempts)
 
-- **[[Submissions/Kesa Gatame Arm Crush/Attacker|Kesa Gatame Arm Crush]]** (4% of attempts)
-
-- **[[Belly Down Armbar from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (4% of attempts)
+- **[[Belly Down Armbar from Kesa Gatame/Attacker|Belly Down Armbar from Kesa Gatame]]** (6% of attempts)
 
 
 ### Common Mistakes

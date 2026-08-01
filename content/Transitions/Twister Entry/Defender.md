@@ -148,6 +148,54 @@ description: "How to defend against Twister in BJJ. Recognition cues, defensive 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape and counter the twister",
+      "description": "Twister Entry (Defender) film study: Escape and counter the twister, taught by Matrix Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Va1YNgx2E6M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Va1YNgx2E6M",
+      "url": "https://www.youtube.com/watch?v=Va1YNgx2E6M",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu" },
+      "duration": "PT165S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Advanced back escapes vs twister entries",
+      "description": "Twister Entry (Defender) film study: Advanced back escapes vs twister entries, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hxMggfwKx-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hxMggfwKx-I",
+      "url": "https://www.youtube.com/watch?v=hxMggfwKx-I",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Twister defense and escape breakdown",
+      "description": "Twister Entry (Defender) film study: Twister defense and escape breakdown, taught by m mill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oNCcwLYDM_g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oNCcwLYDM_g",
+      "url": "https://www.youtube.com/watch?v=oNCcwLYDM_g",
+      "creator": { "@type": "Person", "name": "m mill" },
+      "duration": "PT201S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ If the hook does thread and the figure-four begins to lock, the defender's prior
 **Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Va1YNgx2E6M)
+
+<p class="clip-credit"><strong>Escape and counter the twister</strong> — taught by Matrix Jiu Jitsu · 2:45 · <a href="https://www.youtube.com/watch?v=Va1YNgx2E6M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hxMggfwKx-I)
+
+<p class="clip-credit"><strong>Advanced back escapes vs twister entries</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=hxMggfwKx-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oNCcwLYDM_g)
+
+<p class="clip-credit"><strong>Twister defense and escape breakdown</strong> — taught by m mill · 3:21 · <a href="https://www.youtube.com/watch?v=oNCcwLYDM_g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Invisible Collar/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "New York/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The New York to Invisible Collar transition represents a critical advancement within the 10th Planet Rubber Guard system, moving from the foundational New York control into one of the most dangerous attacking positions in no-gi grappling. This transition involves releasing the shin grip while maintaining the overhook, then swimming the free hand behind the opponent's head to establish deep collar-style control on the neck without requiring a gi collar.\n\nStrategically, this transition capitalizes on moments when the opponent focuses on defending the overhook or attempting to restore posture. The hand swim to the back of the head must be explosive yet controlled, threading between the opponent's shoulder and your own leg while maintaining constant pressure through the overhook. The resulting Invisible Collar position creates immediate choking threats and opens pathways to gogoplata, omoplata, and triangle attacks.\n\nThe biomechanics of this transition exploit a fundamental weakness in the opponent's defensive structure. When trapped in New York, opponents typically focus their defensive attention on the overhook and the shin across their back. The hand controlling the shin appears to be a critical anchor, so when it releases and immediately attacks the neck, opponents often react too slowly to prevent the collar grip establishment. This misdirection is central to the technique's high success rate at advanced levels.",
   "related_content": [
     {
@@ -218,54 +230,203 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the New York to Invisible Collar transition?",
-        "answer": "The primary goal is to advance from the foundational New York control to the more dominant Invisible Collar position, which adds head control to your existing arm control. This dual control creates immediate choking threats and opens pathways to gogoplata, omoplata, and triangle attacks while preventing the opponent from restoring posture or escaping."
+        "answer": "The primary goal is to advance from the foundational New York control to the more dominant Invisible Collar position, which adds head control to your existing arm control. This dual control creates immediate choking threats and opens pathways to gogoplata, omoplata, and triangle attacks while preventing the opponent from restoring posture or escaping.",
+        "answer_line": "Add head control to arm control",
+        "distractors": {
+          "plausible": [
+            "Trap arm for immediate kimura",
+            "Advance directly to mount"
+          ],
+          "trap": [
+            "Release overhook to grab collar"
+          ]
+        }
       },
       {
         "question": "What must your overhook arm do during the entire transition sequence?",
-        "answer": "The overhook arm must maintain constant pressure throughout the transition, actually increasing grip tightness during the hand swim rather than relaxing. This arm serves as your primary anchor - if it loosens, the opponent can extract their arm and escape. The overhook should feel tighter during transition to compensate for releasing the shin grip."
+        "answer": "The overhook arm must maintain constant pressure throughout the transition, actually increasing grip tightness during the hand swim rather than relaxing. This arm serves as your primary anchor - if it loosens, the opponent can extract their arm and escape. The overhook should feel tighter during transition to compensate for releasing the shin grip.",
+        "answer_line": "Maintain and tighten grip",
+        "distractors": {
+          "plausible": [
+            "Keep grip loose to swim hand",
+            "Hold grip steady, don't tighten"
+          ],
+          "trap": [
+            "Release overhook to free hand"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks your hand swim with their free hand - what adjustment do you make?",
-        "answer": "If they block early, abort the Invisible Collar attempt and transition to triangle setup since their blocking hand is now positioned inside your guard. If they block late (hand is already past their shoulder), use your forearm to lever their blocking hand away while completing the collar grip. Never force through early blocks as this wastes energy and compromises position."
+        "answer": "If they block early, abort the Invisible Collar attempt and transition to triangle setup since their blocking hand is now positioned inside your guard. If they block late (hand is already past their shoulder), use your forearm to lever their blocking hand away while completing the collar grip. Never force through early blocks as this wastes energy and compromises position.",
+        "answer_line": "Early: triangle; late: lever hand",
+        "distractors": {
+          "plausible": [
+            "Always lever the hand away",
+            "Reset to neutral guard"
+          ],
+          "trap": [
+            "Force through the early block"
+          ]
+        }
       },
       {
         "question": "What is the correct path for your hand when swimming to the collar position?",
-        "answer": "The hand threads between the opponent's shoulder and your own thigh, traveling in a circular arc behind their ear and around to cup the back of their skull. The path is behind the head, not in front of the face. Palm faces inward toward their skull throughout the movement, with fingers eventually wrapping toward the opposite ear."
+        "answer": "The hand threads between the opponent's shoulder and your own thigh, traveling in a circular arc behind their ear and around to cup the back of their skull. The path is behind the head, not in front of the face. Palm faces inward toward their skull throughout the movement, with fingers eventually wrapping toward the opposite ear.",
+        "answer_line": "Behind the ear, cup skull",
+        "distractors": {
+          "plausible": [
+            "Thread under their chin",
+            "Grip the near shoulder"
+          ],
+          "trap": [
+            "Reach across in front of face"
+          ]
+        }
       },
       {
         "question": "How do you maintain leg position across the opponent's back after releasing your shin grip?",
-        "answer": "Active hip flexor engagement must replace the hand grip. Before releasing the shin grip, consciously engage the hip flexors and hamstring to hold the leg in position. The leg should stay wrapped high across their back through muscular control. This requires dedicated flexibility and strength training - practitioners with insufficient hip strength will lose the rubber guard structure."
+        "answer": "Active hip flexor engagement must replace the hand grip. Before releasing the shin grip, consciously engage the hip flexors and hamstring to hold the leg in position. The leg should stay wrapped high across their back through muscular control. This requires dedicated flexibility and strength training - practitioners with insufficient hip strength will lose the rubber guard structure.",
+        "answer_line": "Hip flexors hold the leg",
+        "distractors": {
+          "plausible": [
+            "Re-grip the shin quickly",
+            "Use overhook to trap leg"
+          ],
+          "trap": [
+            "Let leg relax, hand regrips"
+          ]
+        }
       },
       {
         "question": "When should you NOT attempt the New York to Invisible Collar transition?",
-        "answer": "Do not attempt when the opponent has strong posture and stable base, when your overhook is shallow and they're close to extracting their arm, when you're fatigued and cannot maintain hip flexor engagement, or when the opponent is actively and effectively hand fighting. The transition requires the opponent's posture to be broken and their weight loaded forward."
+        "answer": "Do not attempt when the opponent has strong posture and stable base, when your overhook is shallow and they're close to extracting their arm, when you're fatigued and cannot maintain hip flexor engagement, or when the opponent is actively and effectively hand fighting. The transition requires the opponent's posture to be broken and their weight loaded forward.",
+        "answer_line": "Opponent has strong posture",
+        "distractors": {
+          "plausible": [
+            "When their weight loads forward",
+            "When posture is already broken"
+          ],
+          "trap": [
+            "When overhook is tight and deep"
+          ]
+        }
       },
       {
         "question": "What immediate options open from successful Invisible Collar establishment?",
-        "answer": "From Invisible Collar, you can progress to gogoplata by threading your leg toward their throat, advance to Zombie for deeper control, transition to Chill Dog for finishing sequences, threaten omoplata by rotating toward the overhook side, or attack the trapped arm with kimura or armbar if they focus entirely on defending the collar grip."
+        "answer": "From Invisible Collar, you can progress to gogoplata by threading your leg toward their throat, advance to Zombie for deeper control, transition to Chill Dog for finishing sequences, threaten omoplata by rotating toward the overhook side, or attack the trapped arm with kimura or armbar if they focus entirely on defending the collar grip.",
+        "answer_line": "Gogoplata, Zombie, or omoplata",
+        "distractors": {
+          "plausible": [
+            "Straight armbar only",
+            "Immediate rear naked choke"
+          ],
+          "trap": [
+            "Release grip to reset guard"
+          ]
+        }
       },
       {
         "question": "The opponent drives forward aggressively as you release your shin grip - how do you respond?",
-        "answer": "Accept their forward pressure and use it to your advantage. Their drive brings their head closer, which assists transitions to Chill Dog or gogoplata setup. Thread your leg toward their throat as they drive in rather than fighting to complete the Invisible Collar. Their aggressive forward movement actually accelerates your path to these submission positions."
+        "answer": "Accept their forward pressure and use it to your advantage. Their drive brings their head closer, which assists transitions to Chill Dog or gogoplata setup. Thread your leg toward their throat as they drive in rather than fighting to complete the Invisible Collar. Their aggressive forward movement actually accelerates your path to these submission positions.",
+        "answer_line": "Accept it, thread toward throat",
+        "distractors": {
+          "plausible": [
+            "Fight to stop their drive",
+            "Retreat to protect position"
+          ],
+          "trap": [
+            "Push them back to create space"
+          ]
+        }
       },
       {
         "question": "What distinguishes cupping the skull versus grabbing the neck for the collar grip?",
-        "answer": "Cupping the skull with your palm provides stronger grip security and better posture control. Fingers wrap toward the opposite ear for maximum coverage while your wrist applies pressure to the back of their neck. Simply grabbing the neck creates a weaker grip that is easier to strip and provides less mechanical advantage for controlling their head position."
+        "answer": "Cupping the skull with your palm provides stronger grip security and better posture control. Fingers wrap toward the opposite ear for maximum coverage while your wrist applies pressure to the back of their neck. Simply grabbing the neck creates a weaker grip that is easier to strip and provides less mechanical advantage for controlling their head position.",
+        "answer_line": "Cup skull, wrist on neck",
+        "distractors": {
+          "plausible": [
+            "Grab neck for tighter grip",
+            "Cup jaw for choke setup"
+          ],
+          "trap": [
+            "Squeeze the throat directly"
+          ]
+        }
       },
       {
         "question": "How do you chain a failed Invisible Collar attempt into an alternative attack?",
-        "answer": "If the hand swim is blocked, immediately transition to triangle by shooting your leg over their defending arm. If they posture during the attempt, tighten the overhook and threaten armbar using their upward momentum. If they strip the collar grip after establishment, return to New York and reassess. Every failed attempt should flow into the next highest percentage option rather than returning to neutral."
+        "answer": "If the hand swim is blocked, immediately transition to triangle by shooting your leg over their defending arm. If they posture during the attempt, tighten the overhook and threaten armbar using their upward momentum. If they strip the collar grip after establishment, return to New York and reassess. Every failed attempt should flow into the next highest percentage option rather than returning to neutral.",
+        "answer_line": "Blocked: triangle; postured: armbar",
+        "distractors": {
+          "plausible": [
+            "Return to neutral and reset",
+            "Repeat same swim again"
+          ],
+          "trap": [
+            "Abandon position, stand up"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for releasing the shin grip and initiating the hand swim?",
-        "answer": "The optimal window occurs when the opponent shifts their defensive focus to the overhook arm - typically when they attempt to circle their trapped elbow or adjust their hand position to fight the overhook. This moment of divided attention means their free hand is occupied and cannot intercept your swimming hand. Watch for their shoulder to rotate inward toward the overhook, which signals they are focused on arm extraction rather than monitoring your shin-gripping hand."
+        "answer": "The optimal window occurs when the opponent shifts their defensive focus to the overhook arm - typically when they attempt to circle their trapped elbow or adjust their hand position to fight the overhook. This moment of divided attention means their free hand is occupied and cannot intercept your swimming hand. Watch for their shoulder to rotate inward toward the overhook, which signals they are focused on arm extraction rather than monitoring your shin-gripping hand.",
+        "answer_line": "When they focus on overhook",
+        "distractors": {
+          "plausible": [
+            "As soon as overhook is set",
+            "When opponent's posture is tall"
+          ],
+          "trap": [
+            "While they're hand-fighting well"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply with the collar grip once established?",
-        "answer": "The force vector is downward and toward your own chest, pulling the opponent's head into your sternum while your wrist creates a fulcrum on the back of their neck. Avoid pulling laterally or away from your body, which weakens the grip. The downward pull loads their weight onto your chest and eliminates their ability to generate upward posture recovery force. Simultaneously angle your hips toward the overhook side to create a diagonal pull that further compromises their structural integrity."
+        "answer": "The force vector is downward and toward your own chest, pulling the opponent's head into your sternum while your wrist creates a fulcrum on the back of their neck. Avoid pulling laterally or away from your body, which weakens the grip. The downward pull loads their weight onto your chest and eliminates their ability to generate upward posture recovery force. Simultaneously angle your hips toward the overhook side to create a diagonal pull that further compromises their structural integrity.",
+        "answer_line": "Down and into your chest",
+        "distractors": {
+          "plausible": [
+            "Pull laterally away from body",
+            "Pull straight up and back"
+          ],
+          "trap": [
+            "Push their head away from you"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The New York to Invisible Collar transition is generally low-risk for both practitioners when executed properly. The primary safety concern involves neck strain on the bottom player if they attempt the transition with insufficient hip flexibility, potentially hyperextending the lower back or straining hip flexors. Always warm up thoroughly before practicing rubber guard techniques. For the top player, the sudden head control can create neck compression - tap immediately if the collar grip creates breathing difficulty or neck pain. Training partners should communicate clearly about pressure levels and release grips immediately upon tap. Avoid explosive movements that could cause whiplash-type injuries to either person's neck."
+    "safety_considerations": "The New York to Invisible Collar transition is generally low-risk for both practitioners when executed properly. The primary safety concern involves neck strain on the bottom player if they attempt the transition with insufficient hip flexibility, potentially hyperextending the lower back or straining hip flexors. Always warm up thoroughly before practicing rubber guard techniques. For the top player, the sudden head control can create neck compression - tap immediately if the collar grip creates breathing difficulty or neck pain. Training partners should communicate clearly about pressure levels and release grips immediately upon tap. Avoid explosive movements that could cause whiplash-type injuries to either person's neck.",
+    "clips": [
+      {
+        "id": "KCyIwacRKu8",
+        "title": "Invisible Collar details",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CHT81JnfD2Q",
+        "title": "Invisible Collar choke from rubber guard",
+        "by": "David Thomas",
+        "vertical": false,
+        "channel": "David Thomas",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oTFx2jvJ15M",
+        "title": "Invisible Collar breakdown",
+        "by": "Submissions101",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 76,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "New York to Invisible Collar Defender",
@@ -355,23 +516,73 @@
     "flashcards": [
       {
         "question": "What is the single most important moment to begin your defense against the New York to Invisible Collar transition?",
-        "answer": "The critical moment is when you feel the bottom player release their shin grip. This release creates a brief 1-2 second window where they have abandoned one control point but have not yet established the replacement. Your defensive response must begin at the instant of this release - any delay allows the hand swim to complete and the collar grip to lock in, dramatically reducing your escape probability."
+        "answer": "The critical moment is when you feel the bottom player release their shin grip. This release creates a brief 1-2 second window where they have abandoned one control point but have not yet established the replacement. Your defensive response must begin at the instant of this release - any delay allows the hand swim to complete and the collar grip to lock in, dramatically reducing your escape probability.",
+        "answer_line": "Instant they release shin grip",
+        "distractors": {
+          "plausible": [
+            "When collar grip fully locks",
+            "When your posture starts to break"
+          ],
+          "trap": [
+            "Wait until hand fully threads"
+          ]
+        }
       },
       {
         "question": "Why is blocking the hand swim with your free hand risky despite being effective at stopping the collar grip?",
-        "answer": "Blocking the hand swim commits your only free hand to a static defensive position inside the guard. An experienced attacker will recognize this and immediately redirect to a triangle setup by shooting their leg over your blocking arm, which is now extended and inside their guard. The defensive block solves the immediate collar threat but creates a different and potentially more dangerous submission threat if the attacker chains techniques effectively."
+        "answer": "Blocking the hand swim commits your only free hand to a static defensive position inside the guard. An experienced attacker will recognize this and immediately redirect to a triangle setup by shooting their leg over your blocking arm, which is now extended and inside their guard. The defensive block solves the immediate collar threat but creates a different and potentially more dangerous submission threat if the attacker chains techniques effectively.",
+        "answer_line": "Commits hand, opens triangle",
+        "distractors": {
+          "plausible": [
+            "It's a safe, cost-free block",
+            "It fully stops all attacks"
+          ],
+          "trap": [
+            "It's actually the safest defense"
+          ]
+        }
       },
       {
         "question": "Your posture recovery attempt fails and the attacker gets a shallow collar grip - what should your defensive priority be?",
-        "answer": "With a shallow collar grip, your priority shifts to preventing the grip from deepening rather than trying to strip it immediately. Tuck your chin aggressively to limit choking angles and use your free hand to control their gripping wrist, preventing them from walking their fingers deeper. Simultaneously begin working your trapped elbow free from the overhook. A shallow collar grip is manageable and sustainable to defend against - your goal is to create enough disruption to force the attacker to reset rather than allowing incremental grip improvement."
+        "answer": "With a shallow collar grip, your priority shifts to preventing the grip from deepening rather than trying to strip it immediately. Tuck your chin aggressively to limit choking angles and use your free hand to control their gripping wrist, preventing them from walking their fingers deeper. Simultaneously begin working your trapped elbow free from the overhook. A shallow collar grip is manageable and sustainable to defend against - your goal is to create enough disruption to force the attacker to reset rather than allowing incremental grip improvement.",
+        "answer_line": "Stop grip from deepening",
+        "distractors": {
+          "plausible": [
+            "Strip the grip immediately",
+            "Ignore it, escape the guard"
+          ],
+          "trap": [
+            "Yank head back to break grip"
+          ]
+        }
       },
       {
         "question": "How does driving forward into the bottom player differ from pulling backward as a defensive response?",
-        "answer": "Driving forward compresses the space needed for the hand swim arc and keeps your weight on the bottom player, limiting their hip mobility and transition options. Pulling backward, by contrast, creates space the attacker can exploit and the overhook acts as a tether that drags the bottom player with you, potentially resulting in a sweep. Forward pressure is generally safer because it addresses the spatial requirements of the transition, though it carries the risk of feeding into gogoplata or Chill Dog setups if the attacker redirects."
+        "answer": "Driving forward compresses the space needed for the hand swim arc and keeps your weight on the bottom player, limiting their hip mobility and transition options. Pulling backward, by contrast, creates space the attacker can exploit and the overhook acts as a tether that drags the bottom player with you, potentially resulting in a sweep. Forward pressure is generally safer because it addresses the spatial requirements of the transition, though it carries the risk of feeding into gogoplata or Chill Dog setups if the attacker redirects.",
+        "answer_line": "Forward compresses swim space",
+        "distractors": {
+          "plausible": [
+            "Pulling back creates safe space",
+            "Backward escape is always safer"
+          ],
+          "trap": [
+            "Pull backward for distance"
+          ]
+        }
       },
       {
         "question": "What tactile and visual cues distinguish a New York to Invisible Collar attempt from a New York to Zombie transition?",
-        "answer": "For Invisible Collar, you feel the shin grip release followed by a hand threading behind your head between your shoulder and their thigh. For Zombie, the bottom player typically maintains the shin grip while adjusting their leg position higher and deeper around your shoulder, and their free hand works to establish a different control rather than swimming to your skull. The shin grip release is the key differentiator - Invisible Collar requires it while Zombie generally does not."
+        "answer": "For Invisible Collar, you feel the shin grip release followed by a hand threading behind your head between your shoulder and their thigh. For Zombie, the bottom player typically maintains the shin grip while adjusting their leg position higher and deeper around your shoulder, and their free hand works to establish a different control rather than swimming to your skull. The shin grip release is the key differentiator - Invisible Collar requires it while Zombie generally does not.",
+        "answer_line": "Shin grip release signals Collar",
+        "distractors": {
+          "plausible": [
+            "Both always release shin grip",
+            "Zombie always swims to skull"
+          ],
+          "trap": [
+            "Ignore the shin grip cue"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -394,6 +605,26 @@
         "phase": "Week 7+",
         "focus": "Integrated rolling defense",
         "description": "Begin rolls from closed guard and allow partner to work through rubber guard progression naturally. Practice defending each stage including the specific transition to Invisible Collar. Focus on chaining defensive responses when initial defense fails - blocking the hand swim, then defending shallow collar grip, then escaping if full collar establishes. Develop a layered defensive approach rather than relying on any single response."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KCyIwacRKu8",
+        "title": "Invisible Collar Details",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "oTFx2jvJ15M",
+        "title": "Invisible Collar Breakdown",
+        "by": "Submissions101",
+        "vertical": false,
+        "channel": "Submissions101",
+        "duration": 76,
+        "verified": "2026-07-16"
       }
     ]
   },

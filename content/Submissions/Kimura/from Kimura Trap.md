@@ -34,6 +34,54 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Kimura Trap \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura Trap Setup Tutorial (No-Gi)",
+      "description": "Kimura from Kimura Trap film study: Kimura Trap Setup Tutorial (No-Gi), taught by FreeChannelOpen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/baHSGhmYVmM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/baHSGhmYVmM",
+      "url": "https://www.youtube.com/watch?v=baHSGhmYVmM",
+      "creator": { "@type": "Person", "name": "FreeChannelOpen" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura Trap finish",
+      "description": "Kimura from Kimura Trap film study: Kimura Trap finish, taught by Rudy Fields.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QF7R6uovqSc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QF7R6uovqSc",
+      "url": "https://www.youtube.com/watch?v=QF7R6uovqSc",
+      "creator": { "@type": "Person", "name": "Rudy Fields" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura Trap submission at Pan Ams",
+      "description": "Kimura from Kimura Trap film study: Kimura Trap submission at Pan Ams, taught by Luke Ruffo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PiaCdkFIxPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PiaCdkFIxPk",
+      "url": "https://www.youtube.com/watch?v=PiaCdkFIxPk",
+      "creator": { "@type": "Person", "name": "Luke Ruffo" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
 <span class="meta-chip">Targets Shoulder joint (glenohumeral) and elbow</span>
-<span class="meta-chip">50% success</span>
+<span class="meta-chip">38% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 **Starting Position**: [[Positions/Kimura Trap]] · **From**: [[Positions/Kimura Trap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Kimura Trap in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=baHSGhmYVmM)
+
+<p class="clip-credit"><strong>Kimura Trap Setup Tutorial (No-Gi)</strong> — taught by FreeChannelOpen · 1:31 · <a href="https://www.youtube.com/watch?v=baHSGhmYVmM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QF7R6uovqSc)
+
+<p class="clip-credit"><strong>Kimura Trap finish</strong> — taught by Rudy Fields · 0:46 · <a href="https://www.youtube.com/watch?v=QF7R6uovqSc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PiaCdkFIxPk)
+
+<p class="clip-credit"><strong>Kimura Trap submission at Pan Ams</strong> — taught by Luke Ruffo · 1:29 · <a href="https://www.youtube.com/watch?v=PiaCdkFIxPk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -244,9 +328,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 ## Related
 - [[Submissions/Americana]]
 - [[Submissions/Kimura]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Kimura Trap]] - Primary starting position providing the grip control infrastructure for the finish
 - [[Positions/Half Guard]] - Common entry point where Kimura grip is established before transitioning to Kimura Trap
 - [[Positions/Side Control]] - Alternative entry position where the Kimura grip can be secured on an exposed arm

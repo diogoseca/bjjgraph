@@ -17,26 +17,41 @@
   "outcomes": [
     {
       "to": "Combat Base/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "Ringworm Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The danger of Ringworm Guard is mechanical, not muscular: by threading your own gi lapel around your leg, the bottom player tethers your lower body to their control system, so every ounce of forward pressure or explosive movement you generate is converted into sweeping momentum against you. Recognizing this is the prerequisite for escaping — you cannot pass your way out, you must extract first.\n\nThe extraction works by understanding how the wrap functions. The lapel creates friction and leverage that pins your leg and disrupts your base. Rather than fighting directly against those forces, you create slack in the system, control the opponent's grip-fighting hand, and systematically peel the material away from the point of least friction while keeping your shoulders square against back-take threats.\n\nStrategically, this extraction must be completed before any passing sequence. Loose lapel material left near your legs is re-threaded within seconds, and aggressive passing against a live wrap simply feeds the sweep. Master this extraction to neutralize modern lapel guard systems — Ringworm, Worm, and Squid — and restore your ability to implement your preferred passing game from combat base or headquarters.",
   "conditions": [
     "Opponent has threaded their gi lapel around your leg and secured the grip with tension",
@@ -229,50 +244,189 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Leg Extraction from Lapel Wrap?",
-        "answer": "The primary goal is to systematically remove your leg from the opponent's lapel wrap configuration and return to a neutral position where you can implement your preferred guard passing game. The extraction must be completed before attempting any passes because the wrap converts forward pressure into sweeping momentum."
+        "answer": "The primary goal is to systematically remove your leg from the opponent's lapel wrap configuration and return to a neutral position where you can implement your preferred guard passing game. The extraction must be completed before attempting any passes because the wrap converts forward pressure into sweeping momentum.",
+        "answer_line": "Extract fully before passing",
+        "distractors": {
+          "plausible": [
+            "Pass guard while still wrapped",
+            "Prioritize submissions first"
+          ],
+          "trap": [
+            "Force pass through the wrap"
+          ]
+        }
       },
       {
         "question": "Why must you control the opponent's grip-fighting hand before attempting the lapel strip?",
-        "answer": "Controlling their grip-fighting hand prevents them from immediately re-gripping the lapel after you break it, establishing additional secondary controls on your collar or sleeves, and creating angles for sweeps while your hands are committed to the extraction. Without this control, you waste energy breaking grips repeatedly."
+        "answer": "Controlling their grip-fighting hand prevents them from immediately re-gripping the lapel after you break it, establishing additional secondary controls on your collar or sleeves, and creating angles for sweeps while your hands are committed to the extraction. Without this control, you waste energy breaking grips repeatedly.",
+        "answer_line": "Pin their hand before stripping",
+        "distractors": {
+          "plausible": [
+            "Strip lapel first, hand later",
+            "Grip fight with both hands free"
+          ],
+          "trap": [
+            "Ignore their hand, focus on lapel"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a sweeping motion while both your hands are committed to grip breaking - what is the correct response?",
-        "answer": "Immediately widen your base with your free leg and drop your hips lower rather than completing the grip break. Post with your extraction hand if necessary to prevent the sweep. Accept that you need to restart the extraction sequence rather than fighting through the sweep attempt, which typically accelerates position loss."
+        "answer": "Immediately widen your base with your free leg and drop your hips lower rather than completing the grip break. Post with your extraction hand if necessary to prevent the sweep. Accept that you need to restart the extraction sequence rather than fighting through the sweep attempt, which typically accelerates position loss.",
+        "answer_line": "Widen base, post, restart",
+        "distractors": {
+          "plausible": [
+            "Finish grip break first",
+            "Pull guard to reset"
+          ],
+          "trap": [
+            "Fight through the sweep"
+          ]
+        }
       },
       {
         "question": "How do you create slack in the lapel system without pulling directly against the grip?",
-        "answer": "Step your trapped leg slightly toward the opponent while angling your hip inward. This reduces the distance between their grip point and your leg, creating momentary slack in the wrap. The slack window is when you strip the grip, using leverage and positioning rather than raw strength against their grip."
+        "answer": "Step your trapped leg slightly toward the opponent while angling your hip inward. This reduces the distance between their grip point and your leg, creating momentary slack in the wrap. The slack window is when you strip the grip, using leverage and positioning rather than raw strength against their grip.",
+        "answer_line": "Step leg in, angle hip",
+        "distractors": {
+          "plausible": [
+            "Pull straight back hard",
+            "Kick leg out explosively"
+          ],
+          "trap": [
+            "Yank the lapel material"
+          ]
+        }
       },
       {
         "question": "Why is maintaining squared shoulders critical during the extraction process?",
-        "answer": "Turning your back toward the opponent during extraction exposes you to easy back takes, converting a disadvantageous but recoverable guard situation into a potentially fight-ending position loss. Keeping shoulders squared denies them the angle they need for back attacks, even if it means the extraction takes longer."
+        "answer": "Turning your back toward the opponent during extraction exposes you to easy back takes, converting a disadvantageous but recoverable guard situation into a potentially fight-ending position loss. Keeping shoulders squared denies them the angle they need for back attacks, even if it means the extraction takes longer.",
+        "answer_line": "Denies back-take angle",
+        "distractors": {
+          "plausible": [
+            "Speeds up the extraction",
+            "Improves grip strength"
+          ],
+          "trap": [
+            "Turn away to create space"
+          ]
+        }
       },
       {
         "question": "What is the danger of using explosive movements during extraction?",
-        "answer": "The mechanical properties of the lapel wrap convert explosive energy into sweeping momentum for the bottom player. Sudden direction changes or explosive pulling against the wrap gives them exactly the energy they need for high-amplitude sweeps. Methodical, controlled movements deny them this energy transfer."
+        "answer": "The mechanical properties of the lapel wrap convert explosive energy into sweeping momentum for the bottom player. Sudden direction changes or explosive pulling against the wrap gives them exactly the energy they need for high-amplitude sweeps. Methodical, controlled movements deny them this energy transfer.",
+        "answer_line": "Fuels their sweep momentum",
+        "distractors": {
+          "plausible": [
+            "Wastes cardio only",
+            "Telegraphs the next attack"
+          ],
+          "trap": [
+            "Explode to break grip fast"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to Worm Guard as you begin extracting - how should you adjust?",
-        "answer": "Speed becomes critical once slack is created. Complete your extraction before they can fully establish the new lapel configuration. If they successfully transition, you may need to restart with a new extraction strategy specific to Worm Guard rather than fighting against a half-completed technique."
+        "answer": "Speed becomes critical once slack is created. Complete your extraction before they can fully establish the new lapel configuration. If they successfully transition, you may need to restart with a new extraction strategy specific to Worm Guard rather than fighting against a half-completed technique.",
+        "answer_line": "Race to finish before it locks",
+        "distractors": {
+          "plausible": [
+            "Abandon extraction immediately",
+            "Slow down, reassess calmly"
+          ],
+          "trap": [
+            "Keep grinding same sequence"
+          ]
+        }
       },
       {
         "question": "What determines whether you should use standing extraction versus combat base extraction?",
-        "answer": "Use standing extraction when the opponent has multiple control points established and you need distance to break free from secondary grips. Use combat base extraction when you have isolated the lapel grip as the sole control point and want maximum base stability during the strip. Standing creates distance but reduces stability."
+        "answer": "Use standing extraction when the opponent has multiple control points established and you need distance to break free from secondary grips. Use combat base extraction when you have isolated the lapel grip as the sole control point and want maximum base stability during the strip. Standing creates distance but reduces stability.",
+        "answer_line": "Standing for multi-grip distance",
+        "distractors": {
+          "plausible": [
+            "Combat base for more distance",
+            "Standing for max stability"
+          ],
+          "trap": [
+            "Always default to standing"
+          ]
+        }
       },
       {
         "question": "What grip configuration on the lapel material produces the most efficient stripping motion?",
-        "answer": "Hook four fingers under the lapel material at the point furthest from the opponent's grip and peel outward using a scooping motion rather than grabbing and pulling. This peeling action works against the weakest part of the wrap configuration where friction is lowest, requiring less force than trying to break the grip at its strongest anchor point near their hand."
+        "answer": "Hook four fingers under the lapel material at the point furthest from the opponent's grip and peel outward using a scooping motion rather than grabbing and pulling. This peeling action works against the weakest part of the wrap configuration where friction is lowest, requiring less force than trying to break the grip at its strongest anchor point near their hand.",
+        "answer_line": "Peel far edge with four fingers",
+        "distractors": {
+          "plausible": [
+            "Grab near their hand, yank",
+            "Pull straight up with thumb"
+          ],
+          "trap": [
+            "Grab and pull at anchor point"
+          ]
+        }
       },
       {
         "question": "After successfully extracting your leg, what is the most common mistake that leads to immediate re-establishment of the lapel guard?",
-        "answer": "Failing to clear the loose lapel material away from your legs before transitioning to combat base. The freed lapel hangs near your knee area and the opponent can snatch it and re-thread within seconds. You must push the material toward them or to the side and immediately establish distance through your transition to the next position."
+        "answer": "Failing to clear the loose lapel material away from your legs before transitioning to combat base. The freed lapel hangs near your knee area and the opponent can snatch it and re-thread within seconds. You must push the material toward them or to the side and immediately establish distance through your transition to the next position.",
+        "answer_line": "Failing to clear loose lapel",
+        "distractors": {
+          "plausible": [
+            "Moving too slowly to base",
+            "Forgetting to control posture"
+          ],
+          "trap": [
+            "Leave lapel near your knee"
+          ]
+        }
       },
       {
         "question": "Your opponent has both a deep lapel wrap and a collar grip on your far side - which grip do you address first and why?",
-        "answer": "Address the collar grip first because it enables them to break your posture and create the angular off-balancing that powers their sweeps. The lapel wrap alone restricts mobility but requires the collar grip to generate real sweeping force. Once the collar grip is neutralized, the extraction becomes significantly safer because their offensive threat from the position is reduced."
+        "answer": "Address the collar grip first because it enables them to break your posture and create the angular off-balancing that powers their sweeps. The lapel wrap alone restricts mobility but requires the collar grip to generate real sweeping force. Once the collar grip is neutralized, the extraction becomes significantly safer because their offensive threat from the position is reduced.",
+        "answer_line": "Neutralize the collar grip first",
+        "distractors": {
+          "plausible": [
+            "Break the lapel wrap first",
+            "Attack both grips together"
+          ],
+          "trap": [
+            "Ignore grips, attack legs"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique carries moderate physical demands focused on grip fighting and base maintenance rather than joint manipulation. The primary safety concern is protecting your back from exposure during the extraction sequence - never turn away from the opponent or allow them to climb onto your back. Training should progress gradually from no resistance to full resistance over several weeks. Avoid training with partners who use excessive pulling force on the lapel as this can strain your knee joint. If you feel your knee being torqued during the extraction, reset and adjust your angle rather than forcing through the position. Communicate with your training partner about the intensity of the wrap tension to prevent knee hyperextension."
+    "safety_considerations": "This technique carries moderate physical demands focused on grip fighting and base maintenance rather than joint manipulation. The primary safety concern is protecting your back from exposure during the extraction sequence - never turn away from the opponent or allow them to climb onto your back. Training should progress gradually from no resistance to full resistance over several weeks. Avoid training with partners who use excessive pulling force on the lapel as this can strain your knee joint. If you feel your knee being torqued during the extraction, reset and adjust your angle rather than forcing through the position. Communicate with your training partner about the intensity of the wrap tension to prevent knee hyperextension.",
+    "clips": [
+      {
+        "id": "vjgfip220zk",
+        "title": "Stripping a Strong Lapel Grip",
+        "by": "Stephan Kesting",
+        "vertical": false,
+        "channel": "Stephan Kesting",
+        "duration": 255,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DFckzHWWJ4c",
+        "title": "Beat Lapel Guards - Stomp the Leg (Lapel Slayer)",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 379,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "uvuV9GnMvFQ",
+        "title": "How to Pass One of the Most Annoying Guards",
+        "by": "Jon Thomas",
+        "vertical": false,
+        "channel": "JonThomasBJJ",
+        "duration": 458,
+        "verified": "2026-07-16"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Extraction from Lapel Wrap Defender",
@@ -357,23 +511,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the opponent is beginning a leg extraction attempt?",
-        "answer": "The earliest cue is their free hand moving toward the lapel material near your grip or near their trapped leg, often preceded by their trapped leg stepping slightly inward toward you. This inward step creates slack in the system and signals that the stripping sequence is about to begin. Recognizing this early allows you to retighten and counter before they build momentum."
+        "answer": "The earliest cue is their free hand moving toward the lapel material near your grip or near their trapped leg, often preceded by their trapped leg stepping slightly inward toward you. This inward step creates slack in the system and signals that the stripping sequence is about to begin. Recognizing this early allows you to retighten and counter before they build momentum.",
+        "answer_line": "Leg steps in, hand reaches lapel",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar",
+            "They shift weight backward"
+          ],
+          "trap": [
+            "They pull guard tighter"
+          ]
+        }
       },
       {
         "question": "Your opponent has created significant slack in the wrap and is about to strip the grip - what is your best option?",
-        "answer": "When the wrap is nearly lost, transition to Worm Guard or Squid Guard by re-threading the lapel into an alternative configuration rather than fighting a losing grip battle. Release the current grip and quickly re-thread before they can clear the material entirely. Maintaining some form of lapel control is far better than losing all guard control and being passed immediately."
+        "answer": "When the wrap is nearly lost, transition to Worm Guard or Squid Guard by re-threading the lapel into an alternative configuration rather than fighting a losing grip battle. Release the current grip and quickly re-thread before they can clear the material entirely. Maintaining some form of lapel control is far better than losing all guard control and being passed immediately.",
+        "answer_line": "Re-thread into Worm/Squid Guard",
+        "distractors": {
+          "plausible": [
+            "Grip harder to hold wrap",
+            "Release everything, stand up"
+          ],
+          "trap": [
+            "Fight to keep the same grip"
+          ]
+        }
       },
       {
         "question": "Why is threatening attacks during the extraction more effective than simply holding the grip tighter?",
-        "answer": "Grip strength alone is a finite resource that the opponent can overcome through systematic peeling and slack creation. Threatening sweeps and back takes forces the opponent into a dilemma where committing to extraction leaves them vulnerable to position loss. This defensive aggression disrupts their extraction timing and forces them to abort attempts to defend, which is far more sustainable than a pure grip-strength battle."
+        "answer": "Grip strength alone is a finite resource that the opponent can overcome through systematic peeling and slack creation. Threatening sweeps and back takes forces the opponent into a dilemma where committing to extraction leaves them vulnerable to position loss. This defensive aggression disrupts their extraction timing and forces them to abort attempts to defend, which is far more sustainable than a pure grip-strength battle.",
+        "answer_line": "Creates dilemma, disrupts timing",
+        "distractors": {
+          "plausible": [
+            "Tires opponent's grip strength",
+            "Signals aggression to referee"
+          ],
+          "trap": [
+            "Grip as hard as possible"
+          ]
+        }
       },
       {
         "question": "When the opponent turns their shoulders during extraction, why is this the ideal moment to attack the back?",
-        "answer": "The shoulder turn exposes the back angle that is normally protected when they face you squarely. During extraction, their hands are committed to the lapel material rather than defending underhooks or seatbelt grips, and their weight is shifted to the free leg making them vulnerable to being pulled off-balance. This combination of exposed angle, committed hands, and compromised base creates the highest-percentage back take opportunity from the position."
+        "answer": "The shoulder turn exposes the back angle that is normally protected when they face you squarely. During extraction, their hands are committed to the lapel material rather than defending underhooks or seatbelt grips, and their weight is shifted to the free leg making them vulnerable to being pulled off-balance. This combination of exposed angle, committed hands, and compromised base creates the highest-percentage back take opportunity from the position.",
+        "answer_line": "Hands busy, angle exposed",
+        "distractors": {
+          "plausible": [
+            "Best moment to attack legs",
+            "Signals a submission attempt"
+          ],
+          "trap": [
+            "Let them finish the turn"
+          ]
+        }
       },
       {
         "question": "What secondary grip provides the most defensive value when the opponent begins their extraction sequence?",
-        "answer": "A far-side collar grip provides the most defensive value because it allows you to break their posture, assist with sweeping mechanics, and create the angular off-balancing needed for back take attempts. The collar grip also survives independently if the lapel wrap is broken, giving you continued control to transition to another guard system rather than being immediately passed."
+        "answer": "A far-side collar grip provides the most defensive value because it allows you to break their posture, assist with sweeping mechanics, and create the angular off-balancing needed for back take attempts. The collar grip also survives independently if the lapel wrap is broken, giving you continued control to transition to another guard system rather than being immediately passed.",
+        "answer_line": "Far-side collar grip",
+        "distractors": {
+          "plausible": [
+            "Same-side sleeve grip",
+            "Underhook on far arm"
+          ],
+          "trap": [
+            "Double lapel grip"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -396,6 +600,26 @@
         "phase": "Week 7+",
         "focus": "Full resistance retention",
         "description": "Live rolling starting from Ringworm Guard with partner actively attempting extraction and passing. Integrate all defensive tools - retightening, sweeps, back takes, and guard transitions - in real-time decision making. Track retention rate and successful counter-attack percentage."
+      }
+    ],
+    "clips": [
+      {
+        "id": "vNi5fRjWopE",
+        "title": "Worm Guard Setup and Leg Control",
+        "by": "Fit 2 Defend Academy",
+        "vertical": false,
+        "channel": "Fit 2 Defend Academy",
+        "duration": 306,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "ba5KOGBUpNo",
+        "title": "Proto-Guard Grips to Keep Control",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 230,
+        "verified": "2026-07-15"
       }
     ]
   },

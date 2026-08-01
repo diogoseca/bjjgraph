@@ -148,6 +148,54 @@ description: "How to defend against Arm Triangle from Front Headlock in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle escape from the front headlock",
+      "description": "Arm Triangle from Front Headlock (Defender) film study: Turtle escape from the front headlock, taught by Jiu Jitsu Five-O.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5rVU51Brvs4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5rVU51Brvs4",
+      "url": "https://www.youtube.com/watch?v=5rVU51Brvs4",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing front headlock choke defense",
+      "description": "Arm Triangle from Front Headlock (Defender) film study: Standing front headlock choke defense, taught by Empower Gym Tampa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J-MaOIfDHXk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/J-MaOIfDHXk",
+      "url": "https://www.youtube.com/watch?v=J-MaOIfDHXk",
+      "creator": { "@type": "Person", "name": "Empower Gym Tampa" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front headlock defense to a fireman\u0027s carry",
+      "description": "Arm Triangle from Front Headlock (Defender) film study: Front headlock defense to a fireman\u0027s carry, taught by American Born Grappler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Tx78frJNbGg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Tx78frJNbGg",
+      "url": "https://www.youtube.com/watch?v=Tx78frJNbGg",
+      "creator": { "@type": "Person", "name": "American Born Grappler" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Timing determines which defensive option is available. Before the grip locks, yo
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5rVU51Brvs4)
+
+<p class="clip-credit"><strong>Turtle escape from the front headlock</strong> — taught by Jiu Jitsu Five-O · 0:49 · <a href="https://www.youtube.com/watch?v=5rVU51Brvs4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=J-MaOIfDHXk)
+
+<p class="clip-credit"><strong>Standing front headlock choke defense</strong> — taught by Empower Gym Tampa · 1:00 · <a href="https://www.youtube.com/watch?v=J-MaOIfDHXk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Tx78frJNbGg)
+
+<p class="clip-credit"><strong>Front headlock defense to a fireman&#39;s carry</strong> — taught by American Born Grappler · 1:01 · <a href="https://www.youtube.com/watch?v=Tx78frJNbGg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

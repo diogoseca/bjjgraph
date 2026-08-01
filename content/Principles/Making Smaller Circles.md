@@ -164,6 +164,43 @@ description: "Master Making Smaller Circles in BJJ. Learn depth-before-breadth t
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Making Smaller Circles \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Small circle theory explained",
+      "description": "Making Smaller Circles film study: Small circle theory explained, taught by Wally Jay.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/00lR1kpdFzw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/00lR1kpdFzw",
+      "url": "https://www.youtube.com/watch?v=00lR1kpdFzw",
+      "creator": { "@type": "Person", "name": "Wally Jay" },
+      "duration": "PT593S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Small circle wrist lock explanation",
+      "description": "Making Smaller Circles film study: Small circle wrist lock explanation, taught by Small Circle Jujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Undhayz2z8Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Undhayz2z8Y",
+      "url": "https://www.youtube.com/watch?v=Undhayz2z8Y",
+      "creator": { "@type": "Person", "name": "Small Circle Jujitsu" },
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What are Making Smaller Circles?
@@ -177,6 +214,34 @@ In BJJ, this principle challenges the common temptation to collect techniques. A
 The process of making smaller circles involves progressive reduction. First, learn the gross motor pattern of the technique. Then eliminate unnecessary movement — every extra inch of motion, every wasted grip adjustment, every telegraphing weight shift. Reduce the setup time. Reduce the space needed. Reduce the energy required. Eventually the technique becomes so refined that it appears effortless and its execution window shrinks to a fraction of a second. At this point, the technique has become a part of you rather than something you do, and you are ready to expand the circle outward — learning variations, combinations, and entries that build on the mastered foundation. This outward expansion is fast because the deep understanding of the core mechanic transfers to every variation.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Making Smaller Circles in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=00lR1kpdFzw)
+
+<p class="clip-credit"><strong>Small circle theory explained</strong> — taught by Wally Jay · 9:53 · <a href="https://www.youtube.com/watch?v=00lR1kpdFzw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Undhayz2z8Y)
+
+<p class="clip-credit"><strong>Small circle wrist lock explanation</strong> — taught by Small Circle Jujitsu · 0:22 · <a href="https://www.youtube.com/watch?v=Undhayz2z8Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

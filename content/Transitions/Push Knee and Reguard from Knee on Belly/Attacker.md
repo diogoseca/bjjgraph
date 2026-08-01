@@ -174,6 +174,43 @@ description: "Learn to execute the push knee and reguard escape from Knee on Bel
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Push Knee and Reguard from Knee on Belly (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the knee on belly position",
+      "description": "Push Knee and Reguard from Knee on Belly (Attacker) film study: Escaping the knee on belly position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sneaky knee on belly escape, gi and no-gi",
+      "description": "Push Knee and Reguard from Knee on Belly (Attacker) film study: Sneaky knee on belly escape, gi and no-gi, taught by Zebulon Miller.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WIYwi1fKisU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WIYwi1fKisU",
+      "url": "https://www.youtube.com/watch?v=WIYwi1fKisU",
+      "creator": { "@type": "Person", "name": "Zebulon Miller" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 **From Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Push Knee and Reguard from Knee on Belly (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>Escaping the knee on belly position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WIYwi1fKisU)
+
+<p class="clip-credit"><strong>Sneaky knee on belly escape, gi and no-gi</strong> — taught by Zebulon Miller · 1:18 · <a href="https://www.youtube.com/watch?v=WIYwi1fKisU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

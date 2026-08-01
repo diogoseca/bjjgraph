@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within modern turtle-attack systems, the grip strip is the disciplined response deployed when the buggy choke from turtle top has stalled against effective defensive grip fighting. Rather than continuing to invest energy in a choke that is unlikely to finish, the top player systematically breaks the bottom player's defensive grips and frames, then redirects their control structure to establish side control. This transition reflects the principle that positional advancement is always available when a submission attempt stalls, and experienced practitioners recognize the moment when abandoning the choke becomes the higher-percentage play.\n\nThe technique requires precise timing and awareness of the bottom player's defensive state. Stripping grips during a choke attempt creates a brief moment of positional instability where the bottom player may attempt to escape to guard or reverse position. The top player must maintain sufficient control through body pressure and weight distribution while breaking defensive structures, then immediately consolidate into side control before the bottom player can exploit the transitional gap. This transition is particularly valuable in competition where maintaining dominant position and control time outweighs the diminishing returns of forcing a defended submission.\n\nUnderstanding when to transition from submission attempt to positional control distinguishes advanced practitioners from those who chase submissions at the expense of position. The grip strip from buggy choke embodies this strategic awareness, teaching practitioners to read defensive reactions, recognize stalled attacks, and flow to the next advantageous position without returning to neutral or conceding positional gains.",
   "conditions": [
     "Buggy choke grips are established from turtle top with threading arm under opponent's armpit",
@@ -238,38 +250,138 @@
     "flashcards": [
       {
         "question": "What is the primary indicator that you should abandon the buggy choke and execute the grip strip transition?",
-        "answer": "When the choke has stalled for 3-5 seconds despite sustained pressure, with the bottom player maintaining effective defensive grips or frames that prevent the choking arm from deepening. Continued effort on the stalled choke burns energy without progress while the transition to side control preserves positional advantage and offensive momentum."
+        "answer": "When the choke has stalled for 3-5 seconds despite sustained pressure, with the bottom player maintaining effective defensive grips or frames that prevent the choking arm from deepening. Continued effort on the stalled choke burns energy without progress while the transition to side control preserves positional advantage and offensive momentum.",
+        "answer_line": "Choke stalled 3-5 sec, grips hold",
+        "distractors": {
+          "plausible": [
+            "Opponent grips getting tighter",
+            "Arms feel tired, time to switch"
+          ],
+          "trap": [
+            "Keep cranking until they tap"
+          ]
+        }
       },
       {
         "question": "Why is it critical to increase body pressure before releasing your choking grips?",
-        "answer": "Increasing body pressure before releasing grips restricts the bottom player's movement during the transition. Without pre-loaded pressure, the moment you release your choking grips creates a window where the bottom player has reduced control on them but your body weight is not pinning them effectively, allowing escapes like sitting to guard or performing a granby roll."
+        "answer": "Increasing body pressure before releasing grips restricts the bottom player's movement during the transition. Without pre-loaded pressure, the moment you release your choking grips creates a window where the bottom player has reduced control on them but your body weight is not pinning them effectively, allowing escapes like sitting to guard or performing a granby roll.",
+        "answer_line": "Pin weight first, then release",
+        "distractors": {
+          "plausible": [
+            "Release grips fast to save energy",
+            "Pressure only matters after release"
+          ],
+          "trap": [
+            "Release grips, then chase pressure"
+          ]
+        }
       },
       {
         "question": "What is the first control point you must establish when arriving in side control after the grip strip?",
-        "answer": "The crossface must be established as the absolute first priority upon arriving in side control. Crossface control prevents the bottom player from turning their head toward you, which blocks guard recovery, turtle re-establishment, and most escape sequences. No other positional adjustment matters until the crossface is locked in and head movement is controlled."
+        "answer": "The crossface must be established as the absolute first priority upon arriving in side control. Crossface control prevents the bottom player from turning their head toward you, which blocks guard recovery, turtle re-establishment, and most escape sequences. No other positional adjustment matters until the crossface is locked in and head movement is controlled.",
+        "answer_line": "Crossface first, blocks head turn",
+        "distractors": {
+          "plausible": [
+            "Far-side hip pin before crossface",
+            "Underhook first, crossface later"
+          ],
+          "trap": [
+            "Chase the far arm for a kimura"
+          ]
+        }
       },
       {
         "question": "Your opponent re-grips their defensive frame immediately after you strip it - what adjustment should you make?",
-        "answer": "Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping. If re-gripping persists, increase body pressure to weaken the defensive structure before attempting the strip again rather than repeatedly stripping and allowing re-gripping in a cycle."
+        "answer": "Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping. If re-gripping persists, increase body pressure to weaken the defensive structure before attempting the strip again rather than repeatedly stripping and allowing re-gripping in a cycle.",
+        "answer_line": "Two-on-one break their strong grip",
+        "distractors": {
+          "plausible": [
+            "Strip the same grip faster again",
+            "Wait them out, then strip clean"
+          ],
+          "trap": [
+            "Release choke to strip with both"
+          ]
+        }
       },
       {
         "question": "How does the grip strip from buggy choke create a dilemma for the bottom player within the turtle attack system?",
-        "answer": "The grip strip forces the bottom player to choose between defending the choke and defending the positional transition. If they grip fight aggressively to prevent the choke, they must maintain frames that the top player will strip before transitioning. If they prepare to defend the transition by changing frame orientation, they reduce their choke defense, potentially allowing the submission to finish."
+        "answer": "The grip strip forces the bottom player to choose between defending the choke and defending the positional transition. If they grip fight aggressively to prevent the choke, they must maintain frames that the top player will strip before transitioning. If they prepare to defend the transition by changing frame orientation, they reduce their choke defense, potentially allowing the submission to finish.",
+        "answer_line": "Can't defend choke and transition",
+        "distractors": {
+          "plausible": [
+            "Grip fight harder to stop choke",
+            "Reframe to defend the transition"
+          ],
+          "trap": [
+            "Roll forward to escape"
+          ]
+        }
       },
       {
         "question": "What is the ideal timing window for executing the entire grip strip to side control consolidation sequence?",
-        "answer": "The entire transition from choke abandonment to side control consolidation should be completed within 2-3 seconds. Any longer creates excessive transitional instability where the bottom player can exploit gaps in control. The speed requirement means each step must flow directly into the next without pauses for assessment or readjustment during the sequence."
+        "answer": "The entire transition from choke abandonment to side control consolidation should be completed within 2-3 seconds. Any longer creates excessive transitional instability where the bottom player can exploit gaps in control. The speed requirement means each step must flow directly into the next without pauses for assessment or readjustment during the sequence.",
+        "answer_line": "2-3 seconds, no pause to assess",
+        "distractors": {
+          "plausible": [
+            "5-6 seconds, methodical control",
+            "Pause each step to confirm grips"
+          ],
+          "trap": [
+            "Slow down to avoid the scramble"
+          ]
+        }
       },
       {
         "question": "During the grip strip, the bottom player attempts a granby roll - how should you respond?",
-        "answer": "Maintain heavy hip pressure to prevent the rotational movement from developing. If the granby has already begun, follow the roll maintaining chest contact and establish side control on the opposite side. Alternatively, if the roll creates back exposure, abandon the side control transition entirely and take the back instead, converting the defensive reaction into an even more dominant position."
+        "answer": "Maintain heavy hip pressure to prevent the rotational movement from developing. If the granby has already begun, follow the roll maintaining chest contact and establish side control on the opposite side. Alternatively, if the roll creates back exposure, abandon the side control transition entirely and take the back instead, converting the defensive reaction into an even more dominant position.",
+        "answer_line": "Chase roll or take the back",
+        "distractors": {
+          "plausible": [
+            "Release all pressure to reset",
+            "Stay put and re-grip the choke"
+          ],
+          "trap": [
+            "Chase with a leg, giving up hips"
+          ]
+        }
       },
       {
         "question": "Why should you strip defensive grips in a specific sequence rather than attacking them randomly?",
-        "answer": "Defensive grips form a structural hierarchy where certain grips provide foundational support for the entire defensive frame. Removing the most structurally important grip first collapses the entire defensive structure more efficiently than attacking peripheral grips. Typically the grip nearest to your crossface path is the priority because removing it opens the control point that makes side control consolidation possible."
+        "answer": "Defensive grips form a structural hierarchy where certain grips provide foundational support for the entire defensive frame. Removing the most structurally important grip first collapses the entire defensive structure more efficiently than attacking peripheral grips. Typically the grip nearest to your crossface path is the priority because removing it opens the control point that makes side control consolidation possible.",
+        "answer_line": "Kill the grip nearest crossface path",
+        "distractors": {
+          "plausible": [
+            "Strip the strongest arm grip first",
+            "Strip whichever grip tires fastest"
+          ],
+          "trap": [
+            "Strip the farthest grip first"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The grip strip from buggy choke is a positional transition with minimal injury risk compared to submission techniques. However, practitioners should be aware that rapid grip stripping can cause finger and wrist strain on both partners. When drilling, allow partners to release grips naturally rather than violently tearing grips free. During the transition, avoid dropping body weight suddenly onto a partner's spine or ribs. Communicate during practice to ensure both partners understand the transition sequence and can signal if pressure becomes excessive during positional consolidation."
+    "safety_considerations": "The grip strip from buggy choke is a positional transition with minimal injury risk compared to submission techniques. However, practitioners should be aware that rapid grip stripping can cause finger and wrist strain on both partners. When drilling, allow partners to release grips naturally rather than violently tearing grips free. During the transition, avoid dropping body weight suddenly onto a partner's spine or ribs. Communicate during practice to ensure both partners understand the transition sequence and can signal if pressure becomes excessive during positional consolidation.",
+    "clips": [
+      {
+        "id": "bVS-dLgu_v4",
+        "title": "Don't tap to the buggy choke — strip the grip",
+        "by": "Caique",
+        "vertical": false,
+        "channel": "Caique - Gracie Brazilian Jiu Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4svhwZLlHvY",
+        "title": "How I Escape Everyone's Buggy Choke",
+        "by": "CrashAndFlowBJJ",
+        "vertical": false,
+        "channel": "CrashAndFlowBJJ",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Grip Strip from Buggy Choke Defender",
@@ -350,23 +462,73 @@
     "flashcards": [
       {
         "question": "What is the primary escape window during the Grip Strip from Buggy Choke transition?",
-        "answer": "The primary escape window occurs during the 1-2 second gap when the top player releases their choking grips and redirects their arms toward side control positioning. During this moment, the control structure transitions from choke-based to position-based, creating a brief period where neither system is fully established. This window is the highest-percentage opportunity for guard recovery."
+        "answer": "The primary escape window occurs during the 1-2 second gap when the top player releases their choking grips and redirects their arms toward side control positioning. During this moment, the control structure transitions from choke-based to position-based, creating a brief period where neither system is fully established. This window is the highest-percentage opportunity for guard recovery.",
+        "answer_line": "1-2 sec gap, choke to position",
+        "distractors": {
+          "plausible": [
+            "Right when the choke first locks",
+            "After side control fully settles"
+          ],
+          "trap": [
+            "Wait until crossface is locked in"
+          ]
+        }
       },
       {
         "question": "Why is recovering half guard a favorable outcome when defending the grip strip transition?",
-        "answer": "Half guard represents a significant positional improvement from buggy choke bottom because it provides offensive sweep options, back take entries, and distance management through knee shield variations. In buggy choke bottom, your options are limited to survival and grip defense with high submission risk. In half guard bottom, you have a complete offensive system available with legitimate paths to sweeps, reversals, and submissions."
+        "answer": "Half guard represents a significant positional improvement from buggy choke bottom because it provides offensive sweep options, back take entries, and distance management through knee shield variations. In buggy choke bottom, your options are limited to survival and grip defense with high submission risk. In half guard bottom, you have a complete offensive system available with legitimate paths to sweeps, reversals, and submissions.",
+        "answer_line": "Half guard opens sweeps, back takes",
+        "distractors": {
+          "plausible": [
+            "Half guard is just easier to hold",
+            "Half guard stalls the match safely"
+          ],
+          "trap": [
+            "Half guard guarantees the escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has released the choke and is driving toward crossface - what is your immediate defensive priority?",
-        "answer": "Block the crossface before it establishes by getting your near-side forearm or hand against their bicep or shoulder, preventing their arm from crossing your face. Simultaneously begin hip escaping away to create space for knee insertion. The crossface is the control point that makes side control consolidation possible, so denying it takes priority over any other defensive action at this moment."
+        "answer": "Block the crossface before it establishes by getting your near-side forearm or hand against their bicep or shoulder, preventing their arm from crossing your face. Simultaneously begin hip escaping away to create space for knee insertion. The crossface is the control point that makes side control consolidation possible, so denying it takes priority over any other defensive action at this moment.",
+        "answer_line": "Block crossface, hip escape space",
+        "distractors": {
+          "plausible": [
+            "Grab underhook before blocking face",
+            "Bridge hard to dump them over"
+          ],
+          "trap": [
+            "Turn belly-down to hide the neck"
+          ]
+        }
       },
       {
         "question": "How should you change your defensive frame orientation when you recognize the transition from choke to positional control?",
-        "answer": "Shift frames from protecting your neck and collar area for choke defense to blocking the crossface path and preventing hip-to-hip connection for side control defense. Your near-side arm should frame against the opponent's shoulder to block crossface, while your far-side arm blocks their hip advancement. This reorientation must happen instantly upon recognizing the transition cues without delay."
+        "answer": "Shift frames from protecting your neck and collar area for choke defense to blocking the crossface path and preventing hip-to-hip connection for side control defense. Your near-side arm should frame against the opponent's shoulder to block crossface, while your far-side arm blocks their hip advancement. This reorientation must happen instantly upon recognizing the transition cues without delay.",
+        "answer_line": "Frame shoulder and hip, not neck",
+        "distractors": {
+          "plausible": [
+            "Keep neck frame, add hip frame too",
+            "Switch to gripping their far collar"
+          ],
+          "trap": [
+            "Drop frames to grab a leg lock"
+          ]
+        }
       },
       {
         "question": "When is it better to attempt a granby roll versus sitting to half guard during the grip strip transition?",
-        "answer": "Attempt the granby roll when the top player momentarily lifts their hips to reposition for side control, creating the rotational space needed for the roll to succeed. Sit to half guard when the top player maintains heavy hip pressure but releases choking grips, creating arm-based gaps but not hip-based gaps. The choice depends on which type of control gap the top player creates during their transition sequence."
+        "answer": "Attempt the granby roll when the top player momentarily lifts their hips to reposition for side control, creating the rotational space needed for the roll to succeed. Sit to half guard when the top player maintains heavy hip pressure but releases choking grips, creating arm-based gaps but not hip-based gaps. The choice depends on which type of control gap the top player creates during their transition sequence.",
+        "answer_line": "Roll if hips lift, sit if hips press",
+        "distractors": {
+          "plausible": [
+            "Always roll, it's the faster escape",
+            "Always sit to half guard, it's safer"
+          ],
+          "trap": [
+            "Roll only when they crossface hard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -389,6 +551,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full resistance application",
         "description": "Positional sparring from buggy choke bottom against full resistance. Partner chooses between finishing the choke and transitioning to side control. Defend both threats in real-time using recognition cues and appropriate defensive responses. Score for escaping to guard or forcing the top player back to the stalled buggy choke position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "UOlAQctUf58",
+        "title": "Fake buggy to follow-up attacks",
+        "by": "Rene Sousa",
+        "vertical": false,
+        "channel": "The Grapplers Guide by Jason Scully",
+        "duration": 174,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0_3YYrWEGoU",
+        "title": "3 buggy choke concepts",
+        "by": "Kade and Tye Ruotolo",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 201,
+        "verified": "2026-07-15"
       }
     ]
   }

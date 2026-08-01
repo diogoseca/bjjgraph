@@ -174,6 +174,54 @@ description: "Learn to execute the Duck Under from Clinch as the attacker. Step-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Duck Under from Clinch (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Duck under entries from the tie-up",
+      "description": "Duck Under from Clinch (Attacker) film study: Duck under entries from the tie-up, taught by Artur.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uFWM0vLzkgI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uFWM0vLzkgI",
+      "url": "https://www.youtube.com/watch?v=uFWM0vLzkgI",
+      "creator": { "@type": "Person", "name": "Artur" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Duck under to shuck takedown combo",
+      "description": "Duck Under from Clinch (Attacker) film study: Duck under to shuck takedown combo, taught by Finesse Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gzkAdcW9oms/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gzkAdcW9oms",
+      "url": "https://www.youtube.com/watch?v=gzkAdcW9oms",
+      "creator": { "@type": "Person", "name": "Finesse Jiu-Jitsu" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Duck under to back take",
+      "description": "Duck Under from Clinch (Attacker) film study: Duck under to back take, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UVtw4quZa0E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UVtw4quZa0E",
+      "url": "https://www.youtube.com/watch?v=UVtw4quZa0E",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 **From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Duck Under from Clinch (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uFWM0vLzkgI)
+
+<p class="clip-credit"><strong>Duck under entries from the tie-up</strong> — taught by Artur · 0:40 · <a href="https://www.youtube.com/watch?v=uFWM0vLzkgI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gzkAdcW9oms)
+
+<p class="clip-credit"><strong>Duck under to shuck takedown combo</strong> — taught by Finesse Jiu-Jitsu · 1:07 · <a href="https://www.youtube.com/watch?v=gzkAdcW9oms" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UVtw4quZa0E)
+
+<p class="clip-credit"><strong>Duck under to back take</strong> — taught by Carpio Jiu Jitsu · 1:29 · <a href="https://www.youtube.com/watch?v=UVtw4quZa0E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -260,73 +260,200 @@
     "transitions": [
       {
         "transition": "Lasso Guard Pass",
-        "attempt_probability": 24
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 8
+        }
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 15
+        }
       },
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 11
+        }
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       },
       {
         "transition": "Pressure Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       },
       {
         "transition": "Back Step Pass",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
       },
       {
         "transition": "Pass Russian Leg Lasso",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 8
+        }
       },
       {
         "transition": "Strip Russian Leg Lasso",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 14
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the primary mechanical principle that makes the Russian Leg Lasso dangerous for the top player?",
-        "answer": "The lasso creates a pulley-like fulcrum around which the guard player generates rotational force. When the top player leans forward or commits weight into the lasso, they amplify this mechanical advantage exponentially, making sweeps nearly unstoppable. Understanding this principle is essential because it dictates that passers must maintain upright posture with hips back rather than applying forward pressure."
+        "answer": "The lasso creates a pulley-like fulcrum around which the guard player generates rotational force. When the top player leans forward or commits weight into the lasso, they amplify this mechanical advantage exponentially, making sweeps nearly unstoppable. Understanding this principle is essential because it dictates that passers must maintain upright posture with hips back rather than applying forward pressure.",
+        "answer_line": "Lasso acts as rotational fulcrum",
+        "distractors": {
+          "plausible": [
+            "Grip strength alone drives sweeps",
+            "Posture only matters if flattened"
+          ],
+          "trap": [
+            "Lean forward to flatten guard"
+          ]
+        }
       },
       {
         "question": "Why must you address the non-lasso leg before attempting to extract your trapped arm?",
-        "answer": "The non-lasso leg serves as a secondary control point that creates combination attack opportunities. If you focus solely on the lasso while ignoring this leg, the opponent establishes De La Riva hooks, butterfly hooks, or shin-to-shin contact that generates powerful sweep chains. Controlling the non-lasso leg first eliminates these secondary threats and isolates the lasso as the only problem to solve."
+        "answer": "The non-lasso leg serves as a secondary control point that creates combination attack opportunities. If you focus solely on the lasso while ignoring this leg, the opponent establishes De La Riva hooks, butterfly hooks, or shin-to-shin contact that generates powerful sweep chains. Controlling the non-lasso leg first eliminates these secondary threats and isolates the lasso as the only problem to solve.",
+        "answer_line": "Kills secondary sweep threats first",
+        "distractors": {
+          "plausible": [
+            "Extract arm immediately for safety",
+            "Attack lasso grip before legs"
+          ],
+          "trap": [
+            "Ignore it, focus only on lasso"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their hips to initiate a sweep - what immediate adjustment should you make?",
-        "answer": "Immediately widen your stance and shift your weight away from the sweep direction while maintaining upright posture. Sprawl your hips back and down to lower your center of gravity. Simultaneously control their non-lasso leg to prevent them from completing the rotation. Never fight the sweep by leaning into it, as this amplifies their rotational force."
+        "answer": "Immediately widen your stance and shift your weight away from the sweep direction while maintaining upright posture. Sprawl your hips back and down to lower your center of gravity. Simultaneously control their non-lasso leg to prevent them from completing the rotation. Never fight the sweep by leaning into it, as this amplifies their rotational force.",
+        "answer_line": "Widen stance, sprawl hips back",
+        "distractors": {
+          "plausible": [
+            "Grip fight harder, hold ground",
+            "Sit back and post free hand"
+          ],
+          "trap": [
+            "Lean into the rotation"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for dismantling Russian Leg Lasso controls?",
-        "answer": "The systematic sequence is: first break or control the sleeve grip on your trapped arm, then secure control of the non-lasso leg, next create an angle that makes the lasso configuration mechanically disadvantaged, then address the lasso itself through positional adjustments, and finally complete the pass. Skipping steps or rushing results in being swept because each step removes a specific defensive layer."
+        "answer": "The systematic sequence is: first break or control the sleeve grip on your trapped arm, then secure control of the non-lasso leg, next create an angle that makes the lasso configuration mechanically disadvantaged, then address the lasso itself through positional adjustments, and finally complete the pass. Skipping steps or rushing results in being swept because each step removes a specific defensive layer.",
+        "answer_line": "Grip, leg, angle, lasso, then pass",
+        "distractors": {
+          "plausible": [
+            "Pass first, sort grips after",
+            "Break lasso before non-lasso leg"
+          ],
+          "trap": [
+            "Smash forward through the guard"
+          ]
+        }
       },
       {
         "question": "How should your weight be distributed when passing Russian Leg Lasso?",
-        "answer": "Weight should be distributed through your legs and hips with your center of gravity positioned low and back, not forward over your opponent. Maintain a wide stance with both feet flat for maximum stability against rotational forces. Your upper body should remain upright with shoulders back rather than hunched forward. This distribution allows you to absorb sweep attempts while maintaining mobility for passing angles."
+        "answer": "Weight should be distributed through your legs and hips with your center of gravity positioned low and back, not forward over your opponent. Maintain a wide stance with both feet flat for maximum stability against rotational forces. Your upper body should remain upright with shoulders back rather than hunched forward. This distribution allows you to absorb sweep attempts while maintaining mobility for passing angles.",
+        "answer_line": "Low, back, wide stance, upright",
+        "distractors": {
+          "plausible": [
+            "Forward pressure flattens guard",
+            "Narrow stance for mobility"
+          ],
+          "trap": [
+            "Lean chest over their hips"
+          ]
+        }
       },
       {
         "question": "The opponent's collar grip is breaking your posture - what is your priority response?",
-        "answer": "Breaking or neutralizing the collar grip takes immediate priority because it controls your posture and enables their sweep mechanics. Use two-on-one grip breaks or strip the grip by pulling your lapel away while maintaining your base. Without the collar grip, their ability to generate rotational force for sweeps is significantly diminished, making the position much safer to work from."
+        "answer": "Breaking or neutralizing the collar grip takes immediate priority because it controls your posture and enables their sweep mechanics. Use two-on-one grip breaks or strip the grip by pulling your lapel away while maintaining your base. Without the collar grip, their ability to generate rotational force for sweeps is significantly diminished, making the position much safer to work from.",
+        "answer_line": "Break the collar grip first",
+        "distractors": {
+          "plausible": [
+            "Attack the lasso leg first",
+            "Push their hips down instead"
+          ],
+          "trap": [
+            "Pull them into you for control"
+          ]
+        }
       },
       {
         "question": "When should you attempt a toreando pass versus a knee slice pass against Russian Leg Lasso?",
-        "answer": "Use toreando when the opponent's non-lasso leg becomes uncontrolled and you have opportunity for a circular pass around their lasso side. Use knee slice when you've broken or compromised the lasso grip and can drive through the weakened guard configuration. The choice depends on which control point has been neutralized - toreando exploits leg positioning gaps while knee slice exploits grip failures."
+        "answer": "Use toreando when the opponent's non-lasso leg becomes uncontrolled and you have opportunity for a circular pass around their lasso side. Use knee slice when you've broken or compromised the lasso grip and can drive through the weakened guard configuration. The choice depends on which control point has been neutralized - toreando exploits leg positioning gaps while knee slice exploits grip failures.",
+        "answer_line": "Toreando for legs, knee slice grip",
+        "distractors": {
+          "plausible": [
+            "Always knee slice against lasso",
+            "Toreando only if grips are tight"
+          ],
+          "trap": [
+            "Smash pass regardless of control"
+          ]
+        }
       },
       {
         "question": "Your opponent starts elevating their hips aggressively to set up an overhead sweep - what should you do?",
-        "answer": "Immediately sprawl your hips back and down while driving your weight through your legs rather than forward. Control their hips or belt with your free hand to prevent elevation. Step back with your trapped-arm side leg to remove the base they need for the overhead motion. If they've already committed to the elevation, consider following their movement and transitioning to a back take rather than fighting the sweep directly."
+        "answer": "Immediately sprawl your hips back and down while driving your weight through your legs rather than forward. Control their hips or belt with your free hand to prevent elevation. Step back with your trapped-arm side leg to remove the base they need for the overhead motion. If they've already committed to the elevation, consider following their movement and transitioning to a back take rather than fighting the sweep directly.",
+        "answer_line": "Sprawl back, control their hips",
+        "distractors": {
+          "plausible": [
+            "Push forward to block elevation",
+            "Grab both legs and stand up"
+          ],
+          "trap": [
+            "Push weight forward into hips"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Cx53Xl0SGC4",
+        "title": "Lasso Guard Knee Press Pass",
+        "by": "Roll 247",
+        "vertical": false,
+        "channel": "Roll 247",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XSkn8eAmtJU",
+        "title": "Passing the Lasso with Longstep + Footwork",
+        "by": "Bryce Nie",
+        "vertical": false,
+        "channel": "Bryce Nie",
+        "duration": 150,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -543,74 +670,353 @@
     "transitions": [
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 35
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 25
+        }
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 17
+        }
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 14
+        }
       },
       {
         "transition": "Back Take from Bottom",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 13
+        }
       },
       {
         "transition": "Sickle Sweep",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 9
+        }
       },
       {
         "transition": "Berimbolo Entry",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 3
+        }
       },
       {
         "transition": "Omoplata from Russian Leg Lasso",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 7
+        }
       },
       {
         "transition": "Russian Lasso Sweep",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 4
+        }
       },
       {
         "transition": "Russian Lasso to De La Riva",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 8
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What are the three essential grips required for maintaining effective Russian Leg Lasso control?",
-        "answer": "The three essential grips are: the lasso itself (leg threaded through opponent's arm with foot positioned high near shoulder), the collar grip with the hand opposite to the lasso leg for posture control, and the sleeve grip on the lasso-side arm to prevent extraction and amplify rotational force. Losing any of these three significantly compromises position effectiveness."
+        "answer": "The three essential grips are: the lasso itself (leg threaded through opponent's arm with foot positioned high near shoulder), the collar grip with the hand opposite to the lasso leg for posture control, and the sleeve grip on the lasso-side arm to prevent extraction and amplify rotational force. Losing any of these three significantly compromises position effectiveness.",
+        "answer_line": "Lasso, collar, and sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Two overhooks and a belt grip",
+            "Lasso plus both sleeve grips"
+          ],
+          "trap": [
+            "Underhook and cross collar tie"
+          ]
+        }
       },
       {
         "question": "How should your lasso leg be positioned for maximum control and sweep power?",
-        "answer": "The lasso leg should be threaded deep with your shin crossing the opponent's tricep and your foot positioned near or past their shoulder. The leg should be high and tight, not low near the elbow. Maintaining hip elevation keeps the foot high and creates the binding effect that makes the lasso difficult to extract. This positioning maximizes rotational force generation for sweeps."
+        "answer": "The lasso leg should be threaded deep with your shin crossing the opponent's tricep and your foot positioned near or past their shoulder. The leg should be high and tight, not low near the elbow. Maintaining hip elevation keeps the foot high and creates the binding effect that makes the lasso difficult to extract. This positioning maximizes rotational force generation for sweeps.",
+        "answer_line": "Deep, shin on tricep, foot high",
+        "distractors": {
+          "plausible": [
+            "Shallow wrap near the elbow",
+            "Foot low against the ribs"
+          ],
+          "trap": [
+            "Drop hips to loosen the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent starts breaking your collar grip - what should you do?",
-        "answer": "Immediately transition to an attack rather than purely defending the grip. As they focus on the collar grip, their posture often opens submission opportunities like triangle or omoplata entries. If you cannot attack, re-establish the collar grip with the opposite hand or transition to a different guard variation like Spider Guard rather than maintaining incomplete Russian Leg Lasso controls."
+        "answer": "Immediately transition to an attack rather than purely defending the grip. As they focus on the collar grip, their posture often opens submission opportunities like triangle or omoplata entries. If you cannot attack, re-establish the collar grip with the opposite hand or transition to a different guard variation like Spider Guard rather than maintaining incomplete Russian Leg Lasso controls.",
+        "answer_line": "Attack triangle or omoplata now",
+        "distractors": {
+          "plausible": [
+            "Re-grip collar with same hand",
+            "Switch to De La Riva immediately"
+          ],
+          "trap": [
+            "Chase the collar grip only"
+          ]
+        }
       },
       {
         "question": "What is the role of the non-lasso leg in this position?",
-        "answer": "The non-lasso leg creates secondary control and prevents the opponent from circling away or establishing alternative passing angles. It should be constantly active, transitioning between De La Riva hook, butterfly hook, shin-to-shin contact, or extended foot-on-hip based on opponent movement. A static non-lasso leg allows the opponent to easily pass to that side."
+        "answer": "The non-lasso leg creates secondary control and prevents the opponent from circling away or establishing alternative passing angles. It should be constantly active, transitioning between De La Riva hook, butterfly hook, shin-to-shin contact, or extended foot-on-hip based on opponent movement. A static non-lasso leg allows the opponent to easily pass to that side.",
+        "answer_line": "Secondary control, blocks angle",
+        "distractors": {
+          "plausible": [
+            "Backup grip for the lasso arm",
+            "Only used for scoring sweeps"
+          ],
+          "trap": [
+            "Keep it flat and passive"
+          ]
+        }
       },
       {
         "question": "The opponent is closing distance and establishing chest-to-chest pressure - how do you respond?",
-        "answer": "Use your non-lasso leg immediately to create frames and push into their hip to maintain distance. If they've already closed distance, transition to omoplata or triangle attacks that capitalize on their forward commitment. Do not try to hold the lasso position when flattened, as chest-to-chest pressure negates all mechanical advantages of the guard."
+        "answer": "Use your non-lasso leg immediately to create frames and push into their hip to maintain distance. If they've already closed distance, transition to omoplata or triangle attacks that capitalize on their forward commitment. Do not try to hold the lasso position when flattened, as chest-to-chest pressure negates all mechanical advantages of the guard.",
+        "answer_line": "Frame with non-lasso leg or attack",
+        "distractors": {
+          "plausible": [
+            "Hold lasso tight through pressure",
+            "Push both hands into their chest"
+          ],
+          "trap": [
+            "Maintain lasso while flattened"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while playing Russian Leg Lasso?",
-        "answer": "Russian Leg Lasso is energy-intensive and should not be held statically. Use it as a launching platform for immediate attacks, transitioning between sweep attempts and submissions every 3-5 seconds. Let the lasso mechanics do the work rather than gripping with arm strength alone. If you cannot attack within 5-10 seconds, consider transitioning to a different guard to preserve energy."
+        "answer": "Russian Leg Lasso is energy-intensive and should not be held statically. Use it as a launching platform for immediate attacks, transitioning between sweep attempts and submissions every 3-5 seconds. Let the lasso mechanics do the work rather than gripping with arm strength alone. If you cannot attack within 5-10 seconds, consider transitioning to a different guard to preserve energy.",
+        "answer_line": "Attack every 3-5 seconds, don't hold",
+        "distractors": {
+          "plausible": [
+            "Grip as tight as possible always",
+            "Hold position to conserve energy"
+          ],
+          "trap": [
+            "Muscle the grips with arm strength"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to extract their arm from the lasso - what are your immediate options?",
-        "answer": "As they extract the arm, immediately transition to triangle setup since the arm extraction creates space for your leg to switch configuration. Alternatively, use the movement to enter omoplata if they posture during extraction, or switch to De La Riva Guard using your non-lasso leg if they create distance. Never simply allow extraction without immediately threatening another attack."
+        "answer": "As they extract the arm, immediately transition to triangle setup since the arm extraction creates space for your leg to switch configuration. Alternatively, use the movement to enter omoplata if they posture during extraction, or switch to De La Riva Guard using your non-lasso leg if they create distance. Never simply allow extraction without immediately threatening another attack.",
+        "answer_line": "Switch to triangle, omoplata, or DLR",
+        "distractors": {
+          "plausible": [
+            "Re-secure the same lasso grip",
+            "Stand up to reset the guard"
+          ],
+          "trap": [
+            "Let them fully extract and reset"
+          ]
+        }
       },
       {
         "question": "What hip position and distance should you maintain relative to your opponent?",
-        "answer": "Maintain distance where your grips remain effective but the opponent cannot establish smash passing pressure. Your hips should be angled slightly toward the lasso side to optimize rotational sweep mechanics. Constant hip adjustment is essential as the opponent moves - too close allows pressure passing, too far loses grip effectiveness. The ideal distance keeps tension on the lasso while preserving hip mobility for attacks."
+        "answer": "Maintain distance where your grips remain effective but the opponent cannot establish smash passing pressure. Your hips should be angled slightly toward the lasso side to optimize rotational sweep mechanics. Constant hip adjustment is essential as the opponent moves - too close allows pressure passing, too far loses grip effectiveness. The ideal distance keeps tension on the lasso while preserving hip mobility for attacks.",
+        "answer_line": "Mid-range, hips angled to lasso side",
+        "distractors": {
+          "plausible": [
+            "Closest range possible for control",
+            "Hips squared straight to opponent"
+          ],
+          "trap": [
+            "Pull them chest-to-chest for control"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "ErsvmCAGxnA",
+        "title": "Lasso Guard vs Top Pressure",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "Chase Namba",
+        "duration": 78,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso Guard Variations",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "0Szhzt-o9Cs",
+        "title": "Lasso Tripod Sweep Finish to Armbar",
+        "by": "Marcos Tinoco",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 37,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Russian Leg Lasso and distinguishes it from standard lasso guard?",
+      "answer": "The defining feature is a deep lasso where the bottom player threads their shin across the opponent's tricep with the foot positioned high near or past the shoulder, then reinforces it with a same-side sleeve grip and an opposite-side collar grip. Standard lasso guard typically uses a shallower wrap and a single sleeve control, whereas the Russian variation layers collar plus sleeve onto the deep lasso to create multiple simultaneous control points. This added grip web trades some energy and mobility for greater rotational leverage and posture control. The result is a more binding, less easily extracted configuration built specifically to defeat sophisticated passing.",
+      "answer_line": "Deep lasso plus collar and sleeve",
+      "distractors": {
+        "plausible": [
+          "Shallow wrap with single sleeve",
+          "Two lassos on both arms"
+        ],
+        "trap": [
+          "Overhook trapping both arms"
+        ]
+      }
+    },
+    {
+      "question": "Why is the lasso described as a pulley or fulcrum, and how does that mechanic govern the exchange for both players?",
+      "answer": "The threaded leg wraps the opponent's arm and converts the guard player's hip and grip tension into rotational torque, acting like a fulcrum that redirects force around a fixed point rather than pushing linearly. For the bottom player this generates sweep power with relatively little strength; for the top player, any forward weight commitment feeds directly into that rotation and amplifies the off-balancing. This shared mechanic is why the position rewards the bottom player for creating angle and punishes the top player for leaning in. Both competitors are fundamentally fighting over the geometry of that pulley rather than raw strength.",
+      "answer_line": "Converts hip tension into torque",
+      "distractors": {
+        "plausible": [
+          "Relies on raw pulling strength",
+          "Only matters for the top player"
+        ],
+        "trap": [
+          "Lean in to counter the rotation"
+        ]
+      }
+    },
+    {
+      "question": "Which control points must remain intact for the Russian Leg Lasso to function as a coherent system?",
+      "answer": "The system depends on three interlocking controls: the deep lasso leg binding the arm, the sleeve grip on that same lasso-side arm preventing extraction, and the collar grip controlling the opponent's posture and base. The non-lasso leg acts as a fourth, secondary control managing distance and preventing the opponent from circling away. Removing any one of these degrades the whole structure because they reinforce one another mechanically. This interdependence is why passing is a systematic dismantling and retention is a constant re-securing of the same points.",
+      "answer_line": "Lasso leg, sleeve grip, collar grip",
+      "distractors": {
+        "plausible": [
+          "Both sleeves and a belt grip",
+          "Lasso leg and body triangle"
+        ],
+        "trap": [
+          "Drop collar to save energy"
+        ]
+      }
+    },
+    {
+      "question": "How does distance management determine whether the Russian Leg Lasso remains viable during an exchange?",
+      "answer": "The position has a functional distance window: if the opponent closes to chest-to-chest range, their weight pins the guard player flat and negates the lasso's rotational mechanics entirely. If distance grows too far, the grips lose tension and the lasso can be extracted. Both players therefore fight over the same middle range, where grips stay taut and the pulley still generates torque. This makes distance the single dynamic variable that dictates who holds the mechanical advantage at any moment.",
+      "answer_line": "Mid-range preserves the torque",
+      "distractors": {
+        "plausible": [
+          "Closer range always favors bottom",
+          "Farther range increases control"
+        ],
+        "trap": [
+          "Close to chest-to-chest range"
+        ]
+      }
+    },
+    {
+      "question": "What role does the non-lasso leg play in the overall dynamics of the Russian Leg Lasso?",
+      "answer": "The non-lasso leg provides a secondary control layer, typically posted as a De La Riva hook, butterfly hook, shin-to-shin contact, or an extended foot on the hip. It prevents the opponent from circling away from the lasso side or establishing an alternative passing angle, effectively closing off the escape route the deep lasso alone cannot cover. Because it manages distance and framing, it is also the primary tool for keeping the opponent inside the viable range. A static or unengaged non-lasso leg collapses the position's defensive geometry regardless of how tight the lasso is.",
+      "answer_line": "Blocks circling, extends range",
+      "distractors": {
+        "plausible": [
+          "Purely an offensive sweep tool",
+          "Mirrors the lasso leg's grip"
+        ],
+        "trap": [
+          "Leave it static once set"
+        ]
+      }
+    },
+    {
+      "question": "Why does grip fighting so directly determine positional outcomes in the Russian Leg Lasso?",
+      "answer": "Because the collar and sleeve grips are the levers that translate the lasso's rotational potential into actual posture control and sweep force, whoever wins these grips controls the exchange. The sleeve grip locks the trapped arm and prevents extraction while amplifying torque, and the collar grip breaks the opponent's upright posture and base. Control of these grips correlates almost one-to-one with position retention on the bottom and passing success on the top. This is why the position is fundamentally a grip-fighting contest layered over the mechanical lasso.",
+      "answer_line": "Grips convert lasso into control",
+      "distractors": {
+        "plausible": [
+          "Only the lasso leg matters",
+          "Base alone decides the outcome"
+        ],
+        "trap": [
+          "Ignore grips, chase a takedown"
+        ]
+      }
+    },
+    {
+      "question": "How does the Russian Leg Lasso relate to and differ from adjacent open guards like Spider Guard, Collar Sleeve, and De La Riva?",
+      "answer": "It shares Spider Guard's extension-and-grip principles and overlaps heavily with Collar Sleeve's grip configuration, and it frequently integrates with De La Riva through the non-lasso leg, making it a hub within the modern open-guard system. The key difference is the deep leg-lasso binding of the arm, which Spider and Collar Sleeve lack, giving the Russian variation a mechanical arm trap rather than pure grip tension. Because the grips overlap, players flow between these guards as the opponent defends, treating Russian Leg Lasso as one configuration in a connected chain. Understanding these adjacencies matters because the position rarely exists in isolation.",
+      "answer_line": "Shares grips, adds deep arm trap",
+      "distractors": {
+        "plausible": [
+          "Identical to standard Spider Guard",
+          "Replaces De La Riva entirely"
+        ],
+        "trap": [
+          "Never mixes with other guards"
+        ]
+      }
+    },
+    {
+      "question": "What makes the Russian Leg Lasso an energy-intensive position for both players to sustain?",
+      "answer": "Maintaining the position requires the bottom player to actively coordinate multiple grips, constant hip elevation to keep the lasso high, and continuous distance adjustment, none of which can be held passively without fatigue. The top player simultaneously expends energy fighting grips, controlling the non-lasso leg, and resisting rotational torque while keeping posture upright. Because the structure decays the moment either player relaxes, both are locked into continuous work. This shared energy cost is why the position tends to resolve quickly into a sweep, submission, or pass rather than a prolonged stalemate.",
+      "answer_line": "Structure decays without work",
+      "distractors": {
+        "plausible": [
+          "Only the bottom player tires",
+          "Static holds conserve energy"
+        ],
+        "trap": [
+          "Relax grips to save energy"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "n4ddjzGemrw",
+      "title": "Lasso Guard Variations Overview",
+      "by": "Felipe Costa",
+      "vertical": false,
+      "channel": "Felipe Costa",
+      "duration": 28,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ErsvmCAGxnA",
+      "title": "Lasso Guard vs Top Pressure",
+      "by": "Mikey Musumeci",
+      "vertical": false,
+      "channel": "Chase Namba",
+      "duration": 78,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "LwnoWDFJlN0",
+      "title": "Entering Lasso Guard from Open Guard",
+      "by": "Lucas Lepri",
+      "vertical": false,
+      "channel": "Lucas Lepri Brazilian Jiu Jitsu & Fitness",
+      "duration": 44,
+      "verified": "2026-07-14"
+    }
+  ]
 }

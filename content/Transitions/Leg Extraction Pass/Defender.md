@@ -140,6 +140,54 @@ description: "Complete defensive guide against the Leg Extraction Pass. Learn to
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside heel hook finish from irimi and outside ashi",
+      "description": "Leg Extraction Pass (Defender) film study: Outside heel hook finish from irimi and outside ashi, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tLcHN042w48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tLcHN042w48",
+      "url": "https://www.youtube.com/watch?v=tLcHN042w48",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reacting When Opponent Posts the Leg",
+      "description": "Leg Extraction Pass (Defender) film study: Reacting When Opponent Posts the Leg, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WqJnBWij11E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WqJnBWij11E",
+      "url": "https://www.youtube.com/watch?v=WqJnBWij11E",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT133S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Ashi Garami Mistakes That Lose the Leg",
+      "description": "Leg Extraction Pass (Defender) film study: Ashi Garami Mistakes That Lose the Leg, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-nKI2PHT6-4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-nKI2PHT6-4",
+      "url": "https://www.youtube.com/watch?v=-nKI2PHT6-4",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against the Leg Extraction Pass, your objective is to maintain t
 **Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tLcHN042w48)
+
+<p class="clip-credit"><strong>Outside heel hook finish from irimi and outside ashi</strong> — taught by Fox Den Martial Arts · 1:26 · <a href="https://www.youtube.com/watch?v=tLcHN042w48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WqJnBWij11E)
+
+<p class="clip-credit"><strong>Reacting When Opponent Posts the Leg</strong> — taught by John Danaher · 2:13 · <a href="https://www.youtube.com/watch?v=WqJnBWij11E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-nKI2PHT6-4)
+
+<p class="clip-credit"><strong>Ashi Garami Mistakes That Lose the Leg</strong> — taught by Brian Glick · 3:47 · <a href="https://www.youtube.com/watch?v=-nKI2PHT6-4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Buggy Choke/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Roll to Deep Half Guard represents a specialized defensive transition from the buggy choke bottom position, utilizing rotational momentum to escape the choking pressure while establishing an advantageous guard position. This technique exploits the structural weakness inherent in the buggy choke grip configuration—when the attacker commits both arms to the choke, their base becomes compromised and vulnerable to directional rolling attacks.\n\nUnlike sitting to half guard or granby rolling to closed guard, the deep half entry creates immediate offensive opportunities upon completion. The bottom player transitions from pure defense to a position with sweeping potential and leg entanglement options. The key mechanical insight is that the rolling motion must travel toward the opponent's trapped leg rather than away from pressure, using the choke grip structure against the attacker.\n\nThis transition is particularly valuable when the buggy choke grips are established but body pressure hasn't fully consolidated. The attacker's commitment to finishing the choke creates windows for explosive rotational escapes that would not exist against a more positionally-focused opponent. Mastering this technique adds a counterattacking dimension to buggy choke defense, punishing overly aggressive finishing attempts.",
   "conditions": [
     "Opponent has established buggy choke grips but finishing pressure is not yet fully applied",
@@ -221,46 +233,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Roll to Deep Half Guard?",
-        "answer": "The primary goal is to escape the buggy choke submission threat while simultaneously establishing an offensive guard position. Unlike other escapes that return to neutral positions, this transition converts defense into immediate sweeping and leg attack opportunities from deep half guard, punishing the opponent for overcommitting to the choke."
+        "answer": "The primary goal is to escape the buggy choke submission threat while simultaneously establishing an offensive guard position. Unlike other escapes that return to neutral positions, this transition converts defense into immediate sweeping and leg attack opportunities from deep half guard, punishing the opponent for overcommitting to the choke.",
+        "answer_line": "Escape choke into offensive guard",
+        "distractors": {
+          "plausible": [
+            "Escape back to neutral position",
+            "Stall to survive the choke"
+          ],
+          "trap": [
+            "Turtle up to protect the neck"
+          ]
+        }
       },
       {
         "question": "Why must you roll toward the opponent's leg rather than away from choking pressure?",
-        "answer": "Rolling away from pressure exposes your back directly to the opponent and eliminates all guard recovery options. Rolling toward the trapped leg uses the opponent's grip structure against them—their choking commitment compromises their base in that direction, and the roll leads into an established guard position rather than an undefined scramble."
+        "answer": "Rolling away from pressure exposes your back directly to the opponent and eliminates all guard recovery options. Rolling toward the trapped leg uses the opponent's grip structure against them—their choking commitment compromises their base in that direction, and the roll leads into an established guard position rather than an undefined scramble.",
+        "answer_line": "Uses their commitment, enters guard",
+        "distractors": {
+          "plausible": [
+            "Rolling away is faster to space",
+            "Either direction works equally"
+          ],
+          "trap": [
+            "Roll away from the choking arm"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for attempting this escape?",
-        "answer": "The optimal window is when the opponent has established their buggy choke grips but has not yet consolidated full body pressure. During this phase, they are committed to finishing the choke with forward pressure, which compromises their base and creates vulnerability to rotational escapes. Once flattened with full pressure, this escape becomes very low percentage."
+        "answer": "The optimal window is when the opponent has established their buggy choke grips but has not yet consolidated full body pressure. During this phase, they are committed to finishing the choke with forward pressure, which compromises their base and creates vulnerability to rotational escapes. Once flattened with full pressure, this escape becomes very low percentage.",
+        "answer_line": "Grips set, pressure not yet in",
+        "distractors": {
+          "plausible": [
+            "Right when the choke first touches",
+            "After they fully flatten you"
+          ],
+          "trap": [
+            "Wait until fully flattened out"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls during your roll attempt - how should you respond?",
-        "answer": "If you recognize the sprawl early, abort the roll and transition to an alternative escape like sitting to half guard or grip fighting. Once the opponent sprawls, the rolling angle is blocked and forcing the technique will expose your back. The sprawl counter must be recognized during the initiation phase, not mid-roll when aborting is more difficult."
+        "answer": "If you recognize the sprawl early, abort the roll and transition to an alternative escape like sitting to half guard or grip fighting. Once the opponent sprawls, the rolling angle is blocked and forcing the technique will expose your back. The sprawl counter must be recognized during the initiation phase, not mid-roll when aborting is more difficult.",
+        "answer_line": "Abort and switch escapes",
+        "distractors": {
+          "plausible": [
+            "Power through the roll anyway",
+            "Switch grips and keep rolling"
+          ],
+          "trap": [
+            "Force the roll through the sprawl"
+          ]
+        }
       },
       {
         "question": "What grips must be established during the rolling motion to ensure deep half entry?",
-        "answer": "You must secure opponent's near leg at the thigh level with both arms forming a gable grip or seatbelt configuration around the trapped leg. This grip must be established during the rotation itself, not after completion. Without this grip, the roll lands in an undefined scramble rather than deep half guard, and the opponent easily recovers."
+        "answer": "You must secure opponent's near leg at the thigh level with both arms forming a gable grip or seatbelt configuration around the trapped leg. This grip must be established during the rotation itself, not after completion. Without this grip, the roll lands in an undefined scramble rather than deep half guard, and the opponent easily recovers.",
+        "answer_line": "Gable grip opponent's near leg",
+        "distractors": {
+          "plausible": [
+            "Grip the far leg instead",
+            "Secure grip after landing"
+          ],
+          "trap": [
+            "Grab their collar for control"
+          ]
+        }
       },
       {
         "question": "How do the hooks function in position consolidation after the roll?",
-        "answer": "The bottom leg inserts as a hook behind opponent's trapped leg to control their knee line and prevent leg extraction. The top leg positions as a controlling hook on their hip or lower back to maintain distance and off-balance them toward the trapped side. Together these hooks enable sweeping mechanics and prevent the opponent from recovering top position."
+        "answer": "The bottom leg inserts as a hook behind opponent's trapped leg to control their knee line and prevent leg extraction. The top leg positions as a controlling hook on their hip or lower back to maintain distance and off-balance them toward the trapped side. Together these hooks enable sweeping mechanics and prevent the opponent from recovering top position.",
+        "answer_line": "Bottom hooks knee, top hooks hip",
+        "distractors": {
+          "plausible": [
+            "Both hooks go on the same leg",
+            "Hooks stack for a triangle"
+          ],
+          "trap": [
+            "Release hooks to stand up"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the choke and takes your back during the roll - is this a failed escape?",
-        "answer": "Not necessarily. Against skilled opponents, accepting back control during the roll may be the best available outcome. You can systematically escape from back control, but you cannot escape a fully locked choke. The roll should be committed once initiated, and defensive hand positioning during the roll helps address the subsequent back take."
+        "answer": "Not necessarily. Against skilled opponents, accepting back control during the roll may be the best available outcome. You can systematically escape from back control, but you cannot escape a fully locked choke. The roll should be committed once initiated, and defensive hand positioning during the roll helps address the subsequent back take.",
+        "answer_line": "No, commit and defend the back",
+        "distractors": {
+          "plausible": [
+            "Yes, abort and reset to guard",
+            "Yes, tap to avoid the choke"
+          ],
+          "trap": [
+            "Stop rolling to fight the hooks"
+          ]
+        }
       },
       {
         "question": "What hip movement generates the rotational momentum for this technique?",
-        "answer": "An explosive hip thrust drives the initial rotation, not arm pulling. The hips generate power while the arms guide direction and secure grips. This hip-driven mechanics prevents arm isolation during the roll and creates sufficient force to overcome the opponent's grip resistance. The chin tucks toward chest to protect the neck during rotation."
+        "answer": "An explosive hip thrust drives the initial rotation, not arm pulling. The hips generate power while the arms guide direction and secure grips. This hip-driven mechanics prevents arm isolation during the roll and creates sufficient force to overcome the opponent's grip resistance. The chin tucks toward chest to protect the neck during rotation.",
+        "answer_line": "Explosive hip thrust, not arms",
+        "distractors": {
+          "plausible": [
+            "Pull hard with both arms",
+            "Push off the mat with hands"
+          ],
+          "trap": [
+            "Yank opponent's leg with arms"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far leg wide as you begin the roll - what adjustment should you make?",
-        "answer": "When the opponent posts wide, redirect the roll toward single leg x-guard or standard half guard instead of forcing deep half. The wide post removes the deep half entry angle but creates different guard recovery opportunities. Hook the posted leg with your feet for single leg x-guard, or accept half guard with knee shield as a secondary outcome."
+        "answer": "When the opponent posts wide, redirect the roll toward single leg x-guard or standard half guard instead of forcing deep half. The wide post removes the deep half entry angle but creates different guard recovery opportunities. Hook the posted leg with your feet for single leg x-guard, or accept half guard with knee shield as a secondary outcome.",
+        "answer_line": "Redirect to single leg X-guard",
+        "distractors": {
+          "plausible": [
+            "Force the deep half entry anyway",
+            "Abandon guard, try a sweep"
+          ],
+          "trap": [
+            "Force deep half through the post"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that separates a successful roll from a failed scramble?",
-        "answer": "Securing the opponent's near leg during the rotation is the single most critical mechanical detail. Without this grip, the roll produces an undefined scramble where the opponent easily recovers top position. The leg grip converts random rotational movement into a structured guard entry with immediate offensive options from deep half."
+        "answer": "Securing the opponent's near leg during the rotation is the single most critical mechanical detail. Without this grip, the roll produces an undefined scramble where the opponent easily recovers top position. The leg grip converts random rotational movement into a structured guard entry with immediate offensive options from deep half.",
+        "answer_line": "Secure the near leg grip",
+        "distractors": {
+          "plausible": [
+            "Land on top after the roll",
+            "Keep the choke defense tight"
+          ],
+          "trap": [
+            "Let go of the leg to sprawl"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique involves rotational neck movement while under choke pressure—always tap immediately if the choke tightens during the roll rather than forcing completion. Never attempt this escape when the buggy choke is fully locked and applying significant pressure, as the rolling motion can accelerate unconsciousness. Practice at slow speeds initially to develop proper directional mechanics before adding speed or resistance. Ensure adequate mat space before attempting to prevent rolling into walls, other training partners, or hard surfaces. Partners should release grips immediately if the rolling player taps or shows signs of distress during transition."
+    "safety_considerations": "This technique involves rotational neck movement while under choke pressure—always tap immediately if the choke tightens during the roll rather than forcing completion. Never attempt this escape when the buggy choke is fully locked and applying significant pressure, as the rolling motion can accelerate unconsciousness. Practice at slow speeds initially to develop proper directional mechanics before adding speed or resistance. Ensure adequate mat space before attempting to prevent rolling into walls, other training partners, or hard surfaces. Partners should release grips immediately if the rolling player taps or shows signs of distress during transition.",
+    "clips": [
+      {
+        "id": "Dalv3UtxCZ0",
+        "title": "Entering deep half guard from knee on belly",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SShUdtEdPuA",
+        "title": "Entry to deep half guard",
+        "by": "Lucas Valle",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 195,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zDD2ORNn_yw",
+        "title": "Pulling deep half guard into the Faria sweep",
+        "by": "Bernardo Faria",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 215,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Roll to Deep Half Guard Defender",
@@ -339,23 +480,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is preparing to roll to deep half guard?",
-        "answer": "The earliest cues are frame creation with the near-side arm against your hip or thigh (creating space rather than fighting grips), the far-side arm reaching toward your near leg rather than defending the choke, and hip loading with a shift toward your near leg side. These setup movements precede the explosive roll by 1-2 seconds and represent your best intervention window."
+        "answer": "The earliest cues are frame creation with the near-side arm against your hip or thigh (creating space rather than fighting grips), the far-side arm reaching toward your near leg rather than defending the choke, and hip loading with a shift toward your near leg side. These setup movements precede the explosive roll by 1-2 seconds and represent your best intervention window.",
+        "answer_line": "Frame, reach to leg, hip load",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip thrust",
+            "Tapping out on the choke"
+          ],
+          "trap": [
+            "Relaxed body, no resistance"
+          ]
+        }
       },
       {
         "question": "When should you abandon the buggy choke and transition to back control instead?",
-        "answer": "Abandon the choke when the roll has already initiated with significant momentum and sprawling is no longer viable. The moment you feel the bottom player's body rotating under you with committed force, release your grips immediately and follow their rotation to insert hooks. A failed choke that costs you position is worse than converting to back control, which is the highest-value position in BJJ."
+        "answer": "Abandon the choke when the roll has already initiated with significant momentum and sprawling is no longer viable. The moment you feel the bottom player's body rotating under you with committed force, release your grips immediately and follow their rotation to insert hooks. A failed choke that costs you position is worse than converting to back control, which is the highest-value position in BJJ.",
+        "answer_line": "Once roll has real momentum",
+        "distractors": {
+          "plausible": [
+            "The instant grips are set",
+            "Only if the choke fully fails"
+          ],
+          "trap": [
+            "Hold the choke through the roll"
+          ]
+        }
       },
       {
         "question": "How does consolidating body pressure before finishing the choke prevent this escape?",
-        "answer": "The Roll to Deep Half Guard requires the bottom player to have sufficient hip and torso mobility to generate rotational force. By driving your chest weight onto their back and keeping your hips heavy on their near hip before increasing choking pressure, you eliminate the space and mobility needed for the roll. The escape specifically targets the window when grips are set but pressure is not consolidated."
+        "answer": "The Roll to Deep Half Guard requires the bottom player to have sufficient hip and torso mobility to generate rotational force. By driving your chest weight onto their back and keeping your hips heavy on their near hip before increasing choking pressure, you eliminate the space and mobility needed for the roll. The escape specifically targets the window when grips are set but pressure is not consolidated.",
+        "answer_line": "Chest weight, heavy hips first",
+        "distractors": {
+          "plausible": [
+            "Squeeze the choke harder first",
+            "Widen your base before finishing"
+          ],
+          "trap": [
+            "Rush the finish immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent begins the roll but you detect it early - what is your optimal response?",
-        "answer": "If detected early before momentum builds, sprawl decisively by driving your hips back and down while dropping your chest weight onto their back and shoulders. This eliminates their rolling angle and flattens them against the mat. Maintain your choking grips throughout the sprawl to preserve your attacking position. The sprawl must be committed and immediate—a half-hearted sprawl allows the roll to develop underneath you."
+        "answer": "If detected early before momentum builds, sprawl decisively by driving your hips back and down while dropping your chest weight onto their back and shoulders. This eliminates their rolling angle and flattens them against the mat. Maintain your choking grips throughout the sprawl to preserve your attacking position. The sprawl must be committed and immediate—a half-hearted sprawl allows the roll to develop underneath you.",
+        "answer_line": "Sprawl hips back, drop chest",
+        "distractors": {
+          "plausible": [
+            "Backstep to re-angle",
+            "Release grips and re-attack"
+          ],
+          "trap": [
+            "Wait to see the roll develop"
+          ]
+        }
       },
       {
         "question": "Why is posting your far leg wide a viable defensive option against this roll?",
-        "answer": "Posting the far leg wide removes the deep half guard entry angle that the bottom player needs for a successful escape. Without the ability to wrap your near leg and position under your hips, their roll lands in an undefined scramble rather than an established guard position. This allows you to maintain top position and transition to passing, though it may concede half guard or single leg x-guard instead of deep half."
+        "answer": "Posting the far leg wide removes the deep half guard entry angle that the bottom player needs for a successful escape. Without the ability to wrap your near leg and position under your hips, their roll lands in an undefined scramble rather than an established guard position. This allows you to maintain top position and transition to passing, though it may concede half guard or single leg x-guard instead of deep half.",
+        "answer_line": "Removes deep half entry angle",
+        "distractors": {
+          "plausible": [
+            "Guarantees the choke finish",
+            "Blocks all guard recovery"
+          ],
+          "trap": [
+            "Post the near leg wide instead"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -378,6 +569,26 @@
         "phase": "Week 7+",
         "focus": "Live positional integration",
         "description": "Full positional sparring from buggy choke top. Bottom player uses all escape options including the roll, sit to half guard, and granby roll. Practice selecting the correct defensive response based on real-time recognition cues. Develop fluid transitions between maintaining choke pressure, sprawling, and taking the back."
+      }
+    ],
+    "clips": [
+      {
+        "id": "hHbb7ywVTwU",
+        "title": "Top counter to the deep half back take",
+        "by": "JiuJitsu.com",
+        "vertical": false,
+        "channel": "JiuJitsu.com",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JEDoJOZWQHY",
+        "title": "Three options to defend the deep half guard",
+        "by": "Six Blades Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Six Blades Jiu-Jitsu Fort Worth",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   },

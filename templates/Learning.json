@@ -182,6 +182,34 @@
           },
           "answer": {
             "type": "string"
+          },
+          "distractors": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Optional authored MC distractor tiers (graded options): plausible = nearly-right beginner beliefs, trap = dangerous misconceptions. Rendered by the Neural app's multiple-choice mode; runtime pooling is the fallback when absent.",
+            "properties": {
+              "plausible": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 200
+                }
+              },
+              "trap": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 3,
+                  "maxLength": 200
+                }
+              }
+            }
+          },
+          "answer_line": {
+            "type": "string",
+            "maxLength": 60,
+            "description": "Optional one-line MC answer / recall cue (<=36 chars target); the full 'answer' stays as the post-reveal detail."
           }
         }
       }

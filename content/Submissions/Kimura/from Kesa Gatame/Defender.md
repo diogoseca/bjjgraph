@@ -136,6 +136,43 @@ description: "Complete defense guide for the Kimura from Kesa Gatame covering re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Kesa Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame Escape",
+      "description": "Kimura from Kesa Gatame (Defender) film study: Kesa Gatame Escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kesa Gatame Pressure Defense (Framing)",
+      "description": "Kimura from Kesa Gatame (Defender) film study: Kesa Gatame Pressure Defense (Framing), taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +183,34 @@ Defending the Kimura from Kesa Gatame requires recognizing the grip transition e
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Kesa Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa Gatame Escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense (Framing)</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

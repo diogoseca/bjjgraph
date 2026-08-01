@@ -34,6 +34,54 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tarikoplata \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Power of the Tarikoplata",
+      "description": "Tarikoplata film study: The Power of the Tarikoplata, taught by Miha Perhavec.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jpNqecvfuFg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jpNqecvfuFg",
+      "url": "https://www.youtube.com/watch?v=jpNqecvfuFg",
+      "creator": { "@type": "Person", "name": "Miha Perhavec" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Tarikoplata quick demo",
+      "description": "Tarikoplata film study: Tarikoplata quick demo, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hVXGAvOrwyA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hVXGAvOrwyA",
+      "url": "https://www.youtube.com/watch?v=hVXGAvOrwyA",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT8S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Tarikoplata finishes + switch to Baratoplata",
+      "description": "Tarikoplata film study: Tarikoplata finishes + switch to Baratoplata, taught by Sam Bahador.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZbFNUmyWQkM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZbFNUmyWQkM",
+      "url": "https://www.youtube.com/watch?v=ZbFNUmyWQkM",
+      "creator": { "@type": "Person", "name": "Sam Bahador" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +130,42 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tarikoplata in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jpNqecvfuFg)
+
+<p class="clip-credit"><strong>The Power of the Tarikoplata</strong> — taught by Miha Perhavec · 1:03 · <a href="https://www.youtube.com/watch?v=jpNqecvfuFg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hVXGAvOrwyA)
+
+<p class="clip-credit"><strong>Tarikoplata quick demo</strong> — taught by bjjtaro · 0:08 · <a href="https://www.youtube.com/watch?v=hVXGAvOrwyA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZbFNUmyWQkM)
+
+<p class="clip-credit"><strong>Tarikoplata finishes + switch to Baratoplata</strong> — taught by Sam Bahador · 1:00 · <a href="https://www.youtube.com/watch?v=ZbFNUmyWQkM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -91,7 +175,7 @@ Named after its innovator Tarik Hopstock, who showcased it across modern no-gi c
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Tarikoplata/from Closed Guard|Closed Guard]] | Bottom | 45% | [[Submissions/Tarikoplata/from Closed Guard/Attacker|Attack →]] | [[Submissions/Tarikoplata/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Tarikoplata/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Tarikoplata/from Closed Guard/Attacker|Attack →]] | [[Submissions/Tarikoplata/from Closed Guard/Defender|Defend →]] |
 
 
 </div>

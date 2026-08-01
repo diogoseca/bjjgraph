@@ -102,35 +102,115 @@
     "flashcards": [
       {
         "question": "What are the essential grips for maintaining Guillotine Control Top?",
-        "answer": "The primary grips include palm-to-palm (Marcelo grip), gable grip, and S-grip configurations. The choking arm wraps around the neck with the blade of the forearm or bicep crossing the front of the throat, while the supporting hand clasps to create a closed loop. Grip selection depends on arm-in versus no-arm variations and opponent's defensive reactions."
+        "answer": "The primary grips include palm-to-palm (Marcelo grip), gable grip, and S-grip configurations. The choking arm wraps around the neck with the blade of the forearm or bicep crossing the front of the throat, while the supporting hand clasps to create a closed loop. Grip selection depends on arm-in versus no-arm variations and opponent's defensive reactions.",
+        "answer_line": "Clasp hands: palm, gable, or S-grip",
+        "distractors": {
+          "plausible": [
+            "Single wrist grip is enough",
+            "Grip only the far shoulder"
+          ],
+          "trap": [
+            "Interlace fingers loosely"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to maintain Guillotine Control Top effectively?",
-        "answer": "Weight should be distributed forward through the hips and chest, keeping heavy pressure on the opponent to prevent them from creating space or closing guard. The head should control direction by pressing into the opponent's shoulder or back, while legs sprawl back to prevent guard closure. Avoid sitting back or pulling straight up, which allows opponent to establish defensive frames."
+        "answer": "Weight should be distributed forward through the hips and chest, keeping heavy pressure on the opponent to prevent them from creating space or closing guard. The head should control direction by pressing into the opponent's shoulder or back, while legs sprawl back to prevent guard closure. Avoid sitting back or pulling straight up, which allows opponent to establish defensive frames.",
+        "answer_line": "Drive forward, sprawl legs back",
+        "distractors": {
+          "plausible": [
+            "Sit back to relax pressure",
+            "Pull straight up on neck"
+          ],
+          "trap": [
+            "Post up and lean away"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning into you to relieve choke pressure—what adjustment do you make?",
-        "answer": "When the opponent turns in, immediately transition to anaconda or darce choke setups by threading your arm deeper and switching the angle of attack. Use shoulder pressure and hip sprawl to prevent them from completing the turn while maintaining head control. The turn actually exposes them to more dangerous head-and-arm choke variations."
+        "answer": "When the opponent turns in, immediately transition to anaconda or darce choke setups by threading your arm deeper and switching the angle of attack. Use shoulder pressure and hip sprawl to prevent them from completing the turn while maintaining head control. The turn actually exposes them to more dangerous head-and-arm choke variations.",
+        "answer_line": "Thread arm, switch to anaconda/darce",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset",
+            "Sit back to regain space"
+          ],
+          "trap": [
+            "Let them complete the turn"
+          ]
+        }
       },
       {
         "question": "What is the primary escape your opponent will attempt and how do you shut it down?",
-        "answer": "The most common escape involves posturing up and hand fighting to create space for head extraction. Counter by keeping your elbows tight, maintaining constant downward pressure on the head, and using your hips to follow their movement. If they begin to posture, immediately adjust angle and increase choking pressure or transition to positional advancement before they can fully escape."
+        "answer": "The most common escape involves posturing up and hand fighting to create space for head extraction. Counter by keeping your elbows tight, maintaining constant downward pressure on the head, and using your hips to follow their movement. If they begin to posture, immediately adjust angle and increase choking pressure or transition to positional advancement before they can fully escape.",
+        "answer_line": "Pin head down, legs block posture",
+        "distractors": {
+          "plausible": [
+            "Grip fight their wrists only",
+            "Wait for them to posture up"
+          ],
+          "trap": [
+            "Release legs to re-angle"
+          ]
+        }
       },
       {
         "question": "How do you apply pressure without burning excessive energy from Guillotine Control Top?",
-        "answer": "Use skeletal structure rather than muscular strength by keeping elbows pinned to ribs and using body weight through proper positioning. Let gravity work by maintaining forward hip pressure and sprawling legs back. Make micro-adjustments rather than constantly squeezing—the threat of the choke often does more work than continuous maximum effort application."
+        "answer": "Use skeletal structure rather than muscular strength by keeping elbows pinned to ribs and using body weight through proper positioning. Let gravity work by maintaining forward hip pressure and sprawling legs back. Make micro-adjustments rather than constantly squeezing—the threat of the choke often does more work than continuous maximum effort application.",
+        "answer_line": "Elbows pinned, structure not squeeze",
+        "distractors": {
+          "plausible": [
+            "Float hips light to save energy",
+            "Rest grips between squeezes"
+          ],
+          "trap": [
+            "Crush nonstop with arm power"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully tucks their chin and defends the finish—what is your response?",
-        "answer": "When chin tuck defense succeeds, immediately pivot to positional advancement. Use their focus on neck defense to pass to mount, advance to north-south, or transition to side control. The opponent cannot defend both the choke and position simultaneously—exploit this dilemma by threatening finish to open positional opportunities."
+        "answer": "When chin tuck defense succeeds, immediately pivot to positional advancement. Use their focus on neck defense to pass to mount, advance to north-south, or transition to side control. The opponent cannot defend both the choke and position simultaneously—exploit this dilemma by threatening finish to open positional opportunities.",
+        "answer_line": "Abandon choke, advance position",
+        "distractors": {
+          "plausible": [
+            "Keep squeezing the same grip",
+            "Switch to a different choke only"
+          ],
+          "trap": [
+            "Release all control and reset"
+          ]
+        }
       },
       {
         "question": "Your opponent frames against your hip and begins creating space—how do you recover control?",
-        "answer": "Immediately collapse their frame by driving your hip weight into their arm and sprawling your legs back to drop your center of gravity. Use shoulder pressure to drive their head back down while your free hand strips the frame. If they create significant space, follow their movement and re-establish heavy pressure before they can fully extend. Do not chase upward—drive forward and down to re-compress."
+        "answer": "Immediately collapse their frame by driving your hip weight into their arm and sprawling your legs back to drop your center of gravity. Use shoulder pressure to drive their head back down while your free hand strips the frame. If they create significant space, follow their movement and re-establish heavy pressure before they can fully extend. Do not chase upward—drive forward and down to re-compress.",
+        "answer_line": "Collapse frame, drive hips down",
+        "distractors": {
+          "plausible": [
+            "Chase upward to re-grip",
+            "Sit back and reset posture"
+          ],
+          "trap": [
+            "Jump guard to keep the choke"
+          ]
+        }
       },
       {
         "question": "How do you recover control if opponent begins extracting their head from the guillotine?",
-        "answer": "Immediately re-break their posture by pulling the head down while sprawling your hips forward. If they've created significant space, consider transitioning to front headlock control and re-establishing the guillotine with better depth, or use the remaining head control to advance position to side control or north-south rather than fighting for a compromised choke."
+        "answer": "Immediately re-break their posture by pulling the head down while sprawling your hips forward. If they've created significant space, consider transitioning to front headlock control and re-establishing the guillotine with better depth, or use the remaining head control to advance position to side control or north-south rather than fighting for a compromised choke.",
+        "answer_line": "Pull head down, sprawl hips forward",
+        "distractors": {
+          "plausible": [
+            "Squeeze arms harder to hold on",
+            "Sit back to reset the angle"
+          ],
+          "trap": [
+            "Flop to guard to keep the choke"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -300,7 +380,7 @@
         "relationship": "Primary submission - main finishing technique from this position"
       },
       {
-        "name": "Chin Strap Guillotine",
+        "name": "Chin Strap Guillotine from Front Headlock",
         "relationship": "Submission variation - alternative finishing mechanics with chin control"
       },
       {
@@ -327,55 +407,116 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Guillotine Control",
-        "attempt_probability": 44
-      },
-      {
-        "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 22
+        }
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 12
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 2
+        }
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 2,
+          "nogi": 2
+        }
       },
       {
         "transition": "Pass to Side Control",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 11
+        }
       },
       {
         "transition": "Arm in Guillotine Variation",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 4
+        }
       },
       {
         "transition": "Guillotine Counter",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 4,
+          "nogi": 3
+        }
       },
       {
         "transition": "Ten Finger Guillotine Variation",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Arm in Guillotine from Guillotine Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       },
       {
         "transition": "High Elbow Guillotine from Guillotine Control",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 16
+        }
       },
       {
         "transition": "Ten Finger Guillotine from Guillotine Control",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "Marcelo Garcia's Marcelotine Choke",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Dg1dvtWkXhE",
+        "title": "Marcelotine high-elbow guillotine demo",
+        "by": "Half The Battle",
+        "vertical": false,
+        "channel": "Half The Battle",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9U5nyBImGj4",
+        "title": "High Elbow Guillotine (Marcelotine)",
+        "by": "Wrecking Crew BJJ",
+        "vertical": false,
+        "channel": "Wrecking Crew BJJ",
+        "duration": 45,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -425,35 +566,115 @@
     "flashcards": [
       {
         "question": "What are the essential grips for maintaining Guillotine Control Bottom?",
-        "answer": "The primary grips include palm-to-palm, gable grip, and S-grip configurations with the choking arm wrapped around the opponent's neck. The blade of the wrist or forearm should cross the front of the throat targeting the trachea or carotid arteries. The supporting hand reinforces by clasping the choking wrist or forearm to create a closed loop, preventing opponent from peeling the grip."
+        "answer": "The primary grips include palm-to-palm, gable grip, and S-grip configurations with the choking arm wrapped around the opponent's neck. The blade of the wrist or forearm should cross the front of the throat targeting the trachea or carotid arteries. The supporting hand reinforces by clasping the choking wrist or forearm to create a closed loop, preventing opponent from peeling the grip.",
+        "answer_line": "Clasp hands: palm, gable, or S-grip",
+        "distractors": {
+          "plausible": [
+            "Grip the far wrist only",
+            "Hook underneath the armpit"
+          ],
+          "trap": [
+            "Use a single-hand neck grip"
+          ]
+        }
       },
       {
         "question": "How should you position your hips to maintain control from Guillotine Control Bottom?",
-        "answer": "Hips should be positioned underneath or slightly behind the opponent's center of gravity, angled toward the choking side. This creates a fulcrum point that amplifies choking pressure. Avoid flat-on-back positioning which allows opponent to drive forward and flatten you. Hip mobility allows you to follow the opponent's escape attempts and maintain optimal choking angle."
+        "answer": "Hips should be positioned underneath or slightly behind the opponent's center of gravity, angled toward the choking side. This creates a fulcrum point that amplifies choking pressure. Avoid flat-on-back positioning which allows opponent to drive forward and flatten you. Hip mobility allows you to follow the opponent's escape attempts and maintain optimal choking angle.",
+        "answer_line": "Angle hips under, toward choke side",
+        "distractors": {
+          "plausible": [
+            "Square hips straight up",
+            "Push hips away to make space"
+          ],
+          "trap": [
+            "Lie flat on your back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving their weight forward to flatten you—what adjustment do you make?",
-        "answer": "Use the forward pressure against them by executing a hip bump sweep, leveraging their committed weight to roll them over your hip to mount while maintaining the guillotine grip. Alternatively, angle your hips away from the pressure and use butterfly hooks to elevate and redirect their weight. Never fight their pressure head-on—redirect it."
+        "answer": "Use the forward pressure against them by executing a hip bump sweep, leveraging their committed weight to roll them over your hip to mount while maintaining the guillotine grip. Alternatively, angle your hips away from the pressure and use butterfly hooks to elevate and redirect their weight. Never fight their pressure head-on—redirect it.",
+        "answer_line": "Hip bump sweep, redirect pressure",
+        "distractors": {
+          "plausible": [
+            "Pull them down with arms only",
+            "Squeeze the choke even harder"
+          ],
+          "trap": [
+            "Brace and push back head-on"
+          ]
+        }
       },
       {
         "question": "What is the primary escape your opponent will attempt and how do you shut it down?",
-        "answer": "The most common escape is posturing up and hand fighting to extract the head. Counter by maintaining downward pressure on the head with your choking arm while your legs actively prevent posture through closed guard, butterfly hooks, or high guard. If they begin creating space, immediately close the distance with your legs and pull the head back down before they can fully posture."
+        "answer": "The most common escape is posturing up and hand fighting to extract the head. Counter by maintaining downward pressure on the head with your choking arm while your legs actively prevent posture through closed guard, butterfly hooks, or high guard. If they begin creating space, immediately close the distance with your legs and pull the head back down before they can fully posture.",
+        "answer_line": "Pin head down, legs block posture",
+        "distractors": {
+          "plausible": [
+            "Grip fight their wrists only",
+            "Wait for them to posture up"
+          ],
+          "trap": [
+            "Release legs to re-angle"
+          ]
+        }
       },
       {
         "question": "How do you apply finishing pressure without exhausting yourself from bottom position?",
-        "answer": "Use leg control (closed guard or high guard) to do the work of compressing the opponent's posture rather than relying solely on arm strength. The choking pressure comes from the angle and connection—keep elbows tight to your body and let the forearm blade do the work against the neck structures. Adjust angle rather than squeezing harder when the choke stalls."
+        "answer": "Use leg control (closed guard or high guard) to do the work of compressing the opponent's posture rather than relying solely on arm strength. The choking pressure comes from the angle and connection—keep elbows tight to your body and let the forearm blade do the work against the neck structures. Adjust angle rather than squeezing harder when the choke stalls.",
+        "answer_line": "Guard compresses, adjust the angle",
+        "distractors": {
+          "plausible": [
+            "Squeeze arms as hard as you can",
+            "Hold static and wait for the tap"
+          ],
+          "trap": [
+            "Release legs to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully tucks their chin against the choke—what is your response?",
-        "answer": "Transition to alternative attacks that exploit their chin tuck. The high elbow guillotine attacks behind the chin by driving your elbow toward the ceiling. If they trap their arm inside, switch to arm-in guillotine mechanics. Their chin tuck also opens triangle and omoplata opportunities as they become preoccupied with neck defense."
+        "answer": "Transition to alternative attacks that exploit their chin tuck. The high elbow guillotine attacks behind the chin by driving your elbow toward the ceiling. If they trap their arm inside, switch to arm-in guillotine mechanics. Their chin tuck also opens triangle and omoplata opportunities as they become preoccupied with neck defense.",
+        "answer_line": "High elbow, or switch to triangle",
+        "distractors": {
+          "plausible": [
+            "Keep pulling the same angle",
+            "Wait for them to lift the chin"
+          ],
+          "trap": [
+            "Squeeze the tucked jaw harder"
+          ]
+        }
       },
       {
         "question": "What leg position provides the best finishing platform for Guillotine Control Bottom?",
-        "answer": "High closed guard with legs positioned high on opponent's back provides the best finishing platform—it breaks posture, prevents escape, and creates a stable base for choking pressure. Alternatively, one-leg-up guard (same side as choking arm elevated, opposite leg controlling hip) creates excellent finishing angle while maintaining control."
+        "answer": "High closed guard with legs positioned high on opponent's back provides the best finishing platform—it breaks posture, prevents escape, and creates a stable base for choking pressure. Alternatively, one-leg-up guard (same side as choking arm elevated, opposite leg controlling hip) creates excellent finishing angle while maintaining control.",
+        "answer_line": "High closed guard, legs on back",
+        "distractors": {
+          "plausible": [
+            "Low closed guard at the hips",
+            "Butterfly hooks, hips square"
+          ],
+          "trap": [
+            "Flatten legs out on the mat"
+          ]
+        }
       },
       {
         "question": "How do you recover control if opponent begins passing your guard while defending the guillotine?",
-        "answer": "If they begin passing, you must decide quickly: either fully commit to the guillotine finish before they complete the pass (risky but sometimes necessary), or release the choke and address the pass with standard guard retention. If releasing, maintain wrist control to prevent them from immediately posturing up and use the released arm to re-frame and recover guard before they consolidate."
+        "answer": "If they begin passing, you must decide quickly: either fully commit to the guillotine finish before they complete the pass (risky but sometimes necessary), or release the choke and address the pass with standard guard retention. If releasing, maintain wrist control to prevent them from immediately posturing up and use the released arm to re-frame and recover guard before they consolidate.",
+        "answer_line": "Finish fast, or release and retain",
+        "distractors": {
+          "plausible": [
+            "Push them away to create space",
+            "Let go of everything at once"
+          ],
+          "trap": [
+            "Hold the choke as they pass"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -619,7 +840,7 @@
         "relationship": "Variation technique - arm-trapped finishing method"
       },
       {
-        "name": "Chin Strap Guillotine",
+        "name": "Chin Strap Guillotine from Front Headlock",
         "relationship": "Variation technique - alternative finishing mechanics with chin control"
       },
       {
@@ -654,48 +875,230 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Guillotine Control",
-        "attempt_probability": 49
-      },
-      {
-        "transition": "Guillotine Choke",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 29,
+          "nogi": 29
+        }
       },
       {
         "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 15
+        }
       },
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 11
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 5
+        }
       },
       {
         "transition": "Closed Guard to Triangle",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Guard Recovery from Guillotine Control",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "Butterfly Sweep with Guillotine",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "Guillotine Setup",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 16
+        }
       },
       {
         "transition": "Guillotine Escape to Von Flue",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
       },
       {
         "transition": "Guillotine Escape via Posture",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 1,
+          "nogi": 1
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "nGpAcI79frk",
+        "title": "Positional Check Against the Guillotine",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 116,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "PYiD6UjqMTw",
+        "title": "Worst Case Guillotine Escape",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 108,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What geometric configuration defines Guillotine Control regardless of which player is on top?",
+      "answer": "Guillotine Control is a front-headlock configuration where one player encircles the opponent's neck with the choking arm and clasps both hands to form a closed loop around the head and throat. The blade of the forearm or bicep crosses the front of the neck while the opponent's head is trapped between that arm and the attacker's torso. The defining feature is that the head is pulled lower than the hips, breaking the opponent's posture forward. This head-below-hips relationship is what separates a genuine control from a loose, escapable headlock.",
+      "answer_line": "Front headlock, head below hips",
+      "distractors": {
+        "plausible": [
+          "Side clinch with deep underhook",
+          "Chest-to-chest with collar tie"
+        ],
+        "trap": [
+          "Loose wrap, let them posture up"
+        ]
+      }
+    },
+    {
+      "question": "Where are the control points in Guillotine Control, and why do they matter to both players?",
+      "answer": "The two primary control points are the clasped-hands loop compressing the neck and the connection between the choking arm and the attacker's torso. Compression on the trachea or carotids comes not from arm strength alone but from the closed loop plus the head being pulled into the chest. Any gap opening between the choking forearm and the torso instantly relieves pressure, which is why both the attacker guards that seam and the defender attacks it. The head, neck, and that arm-to-body seam are the shared battleground for both roles.",
+      "answer_line": "Hand loop and arm-to-torso seam",
+      "distractors": {
+        "plausible": [
+          "Grip strength and shoulder pin",
+          "Leg control and hip pressure"
+        ],
+        "trap": [
+          "Squeeze hard, gaps don't matter"
+        ]
+      }
+    },
+    {
+      "question": "Why is head-below-hip posture the central mechanical requirement of Guillotine Control for both sides?",
+      "answer": "When the trapped player's head is forced below their own hip line, their spine is flexed forward and they lose the ability to drive weight, base out, or generate the posture needed to extract the head. This broken posture is simultaneously what maintains choke pressure and what prevents escape, so the attacker fights to preserve it. Conversely, the defender's entire escape game reduces to restoring posture—lifting the head back above the hips. Whoever wins the posture battle wins the position, making it the shared fulcrum of the exchange.",
+      "answer_line": "Broken posture locks the choke",
+      "distractors": {
+        "plausible": [
+          "Grip tightness decides the choke",
+          "Hip position alone controls it"
+        ],
+        "trap": [
+          "Arm strength overrides posture"
+        ]
+      }
+    },
+    {
+      "question": "What distinguishes Guillotine Control from the neighboring Anaconda and Darce controls?",
+      "answer": "All three are front-headlock chokes, but the guillotine encircles the neck alone with the head trapped against the torso and the choking arm crossing the front of the throat. The anaconda and darce are arm-in chokes: the attacker threads an arm under the opponent's near armpit and around the neck, trapping both head and one arm. The practical trigger is the opponent's reaction—when they turn into the attacker or expose the near arm, the guillotine converts to anaconda or darce. The guillotine is thus the front-facing member of the same front-headlock family.",
+      "answer_line": "Head trapped, neck wrapped in front",
+      "distractors": {
+        "plausible": [
+          "Threads under the near armpit",
+          "Attacks the jaw, not the throat"
+        ],
+        "trap": [
+          "Open your grip to chase the arms"
+        ]
+      }
+    },
+    {
+      "question": "How do grip configurations change the mechanics of Guillotine Control for either player?",
+      "answer": "The main grips are palm-to-palm (Marcelo), gable grip, S-grip, and the arm-in variation where one of the opponent's arms is trapped inside the loop. A no-arm grip attacks the neck alone and demands tighter compression, while an arm-in configuration wedges the trapped shoulder to jack up the choke and reduce escape routes. High-elbow versus standard elbow position changes whether pressure lands behind the chin or across the throat. Both players read the grip and elbow height to know which defense or finish applies, so the grip is shared positional information, not a role-specific detail.",
+      "answer_line": "Grip and elbow height set the attack",
+      "distractors": {
+        "plausible": [
+          "All grips choke the same way",
+          "S-grip only works in the gi"
+        ],
+        "trap": [
+          "Open the loop to switch grips"
+        ]
+      }
+    },
+    {
+      "question": "What is the role of the non-choking arm in Guillotine Control?",
+      "answer": "The non-choking (supporting) arm closes the loop by clasping the choking wrist or forearm, converting a one-armed neck wrap into a rigid frame that the opponent cannot simply peel. It can also switch to an underhook, overhook, or body grip to kill the opponent's ability to turn or create space. Without this second point of connection the choking arm can be stripped and the head extracted. This second-hand function is identical in principle whether controlling from top or bottom—it seals the structure and denies rotation.",
+      "answer_line": "Clasp wrist to close the loop",
+      "distractors": {
+        "plausible": [
+          "Push on their far shoulder",
+          "Post it on the mat for balance"
+        ],
+        "trap": [
+          "Let the second hand float free"
+        ]
+      }
+    },
+    {
+      "question": "Why does Guillotine Control create a simultaneous submission-and-position dilemma for the trapped player?",
+      "answer": "The trapped player must defend the choke by hand-fighting and tucking the chin, but the same actions that protect the neck usually surrender position, and defending position usually opens the neck. Because the head is broken forward and low, they cannot fully commit to both at once. This forced binary choice is the strategic engine of the position: the controlling player threatens the finish specifically to harvest the positional concession, or advances position to force the neck to reopen. The dilemma exists independent of top or bottom—it is a property of the configuration.",
+      "answer_line": "Defend neck or position, not both",
+      "distractors": {
+        "plausible": [
+          "Position always wins over choke",
+          "Stalling makes the threat fade"
+        ],
+        "trap": [
+          "Ignore the choke, fight position"
+        ]
+      }
+    },
+    {
+      "question": "How does the choke's pressure actually get generated in Guillotine Control?",
+      "answer": "Pressure is a product of compression, not raw squeezing: the closed hand-loop shortens the circumference around the neck while the head is pulled into the torso, sandwiching the throat and carotids between the choking forearm and the attacker's body. The head-below-hips posture pre-loads the neck by flexing it forward, and elbow position aims the forearm blade at either the trachea or the carotids. Micro-adjustments of angle finish more reliably than added grip strength. This mechanism is why a tight seam and broken posture matter far more than arm size for either player.",
+      "answer_line": "Loop compression plus broken posture",
+      "distractors": {
+        "plausible": [
+          "Raw arm strength alone",
+          "Leaning back to add leverage"
+        ],
+        "trap": [
+          "Fall back without closing guard"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "NUnTxPvjCa0",
+      "title": "Marcelo Garcia's Marcelotine Choke",
+      "by": "Marcelo Garcia",
+      "vertical": false,
+      "channel": "stuartcooperfilms",
+      "duration": 73,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "SP960PaJkoc",
+      "title": "J-Hook Guillotine Grip Explained",
+      "by": "Elevate MMA Academy",
+      "vertical": false,
+      "channel": "Elevate MMA Academy",
+      "duration": 65,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "z4tNXffuHXM",
+      "title": "Guillotine Choke Fundamentals",
+      "by": "Todd Hendrickson",
+      "vertical": false,
+      "channel": "Todd Hendrickson Jiu Jitsu",
+      "duration": 60,
+      "verified": "2026-07-14"
+    }
+  ]
 }

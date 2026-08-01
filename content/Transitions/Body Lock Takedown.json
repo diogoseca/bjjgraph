@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Body Lock/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Originating from wrestling's clinch exchanges, the body lock takedown has become a cornerstone of modern no-gi Brazilian Jiu-Jitsu, particularly for practitioners who prioritize positional control over explosive throws. It exploits the mechanical advantage of a fully locked grip around the opponent's torso to drive them to the mat while maintaining continuous pressure throughout the descent, typically landing in side control.\n\nThe strategic value of the body lock takedown lies in its simplicity and reliability. Unlike throws that require precise timing and hip placement, the body lock takedown uses sustained forward pressure, strategic foot placement, and controlled weight transfer to collapse the opponent's base. This makes it accessible to practitioners of all body types and athletic abilities while remaining effective at the highest competitive levels. The technique creates a forced choice for the defender: resist the takedown and be gradually overwhelmed by progressive pressure, or attempt to counter with increasingly risky defensive maneuvers.\n\nSuccessful execution depends on three critical elements: maintaining the locked grip throughout the entire takedown sequence, choosing the correct angle of attack based on the opponent's weight distribution and defensive posture, and controlling the landing to immediately establish side control rather than allowing the opponent to recover guard. The takedown integrates seamlessly with the broader body lock system, chaining naturally with mat returns, back takes, and guard passes when the primary takedown is defended.",
   "conditions": [
     "Body lock must be fully established with both arms wrapped around opponent's torso and hands locked together",
@@ -223,38 +235,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the body lock takedown?",
-        "answer": "The optimal timing is within 1-3 seconds of establishing the body lock, before the opponent settles their base and establishes defensive measures. The window opens specifically when you feel the opponent's weight shift in response to your hip pressure, indicating their base is compromised and they are vulnerable to being driven off-balance. Hesitating beyond this window allows the defender to widen their stance, lower their center of gravity, and prepare effective sprawl defenses that dramatically reduce takedown success rates."
+        "answer": "The optimal timing is within 1-3 seconds of establishing the body lock, before the opponent settles their base and establishes defensive measures. The window opens specifically when you feel the opponent's weight shift in response to your hip pressure, indicating their base is compromised and they are vulnerable to being driven off-balance. Hesitating beyond this window allows the defender to widen their stance, lower their center of gravity, and prepare effective sprawl defenses that dramatically reduce takedown success rates.",
+        "answer_line": "Strike within 1-3s of lock",
+        "distractors": {
+          "plausible": [
+            "Wait until they fully settle",
+            "Attack before you clinch up"
+          ],
+          "trap": [
+            "Stall until they take your back"
+          ]
+        }
       },
       {
         "question": "How does the opponent's weight distribution determine your angle of attack?",
-        "answer": "Drive the takedown in the direction the opponent is already leaning or has committed their weight. If their weight is primarily on their left foot, attack to their left side by stepping your right foot outside their left foot and driving through their left shoulder. If they push backward against your pressure, use their resistance by suddenly changing direction and accelerating through the angle where they have no supporting base. The fundamental principle is attacking the direction where the opponent has already committed their weight, making biomechanical resistance impossible."
+        "answer": "Drive the takedown in the direction the opponent is already leaning or has committed their weight. If their weight is primarily on their left foot, attack to their left side by stepping your right foot outside their left foot and driving through their left shoulder. If they push backward against your pressure, use their resistance by suddenly changing direction and accelerating through the angle where they have no supporting base. The fundamental principle is attacking the direction where the opponent has already committed their weight, making biomechanical resistance impossible.",
+        "answer_line": "Attack the side they're leaning",
+        "distractors": {
+          "plausible": [
+            "Attack their strongest side",
+            "Always attack your dominant side"
+          ],
+          "trap": [
+            "Push straight into their brace"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical principle during the driving phase?",
-        "answer": "Maintaining continuous chest-to-back connection throughout the entire driving phase is the most critical mechanical principle. This connection ensures all force generated by your legs and hips transfers directly through your torso into the opponent's center of gravity without energy loss. Breaking chest connection during the drive allows the opponent to insert frames, create distance, or rotate away from the driving force. Your chest functions as the primary control surface that keeps the opponent locked into your driving trajectory throughout the takedown."
+        "answer": "Maintaining continuous chest-to-back connection throughout the entire driving phase is the most critical mechanical principle. This connection ensures all force generated by your legs and hips transfers directly through your torso into the opponent's center of gravity without energy loss. Breaking chest connection during the drive allows the opponent to insert frames, create distance, or rotate away from the driving force. Your chest functions as the primary control surface that keeps the opponent locked into your driving trajectory throughout the takedown.",
+        "answer_line": "Keep chest-to-back connection",
+        "distractors": {
+          "plausible": [
+            "Keep head up for posture",
+            "Drive with arms, not hips"
+          ],
+          "trap": [
+            "Break contact to get better angle"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest connection for the takedown finish?",
-        "answer": "The gable grip with palms pressed together and fingers interlocked provides the strongest connection for the takedown finish because it creates a unified lock that distributes force evenly across both hands and resists separation from any angle. Position the gable grip at the opponent's centerline slightly below their navel for maximum control over their center of mass. Ensure both wrists are straight and the grip is tight before committing to the drive. The rear naked choke grip is a viable alternative when you anticipate transitioning to back control rather than side control."
+        "answer": "The gable grip with palms pressed together and fingers interlocked provides the strongest connection for the takedown finish because it creates a unified lock that distributes force evenly across both hands and resists separation from any angle. Position the gable grip at the opponent's centerline slightly below their navel for maximum control over their center of mass. Ensure both wrists are straight and the grip is tight before committing to the drive. The rear naked choke grip is a viable alternative when you anticipate transitioning to back control rather than side control.",
+        "answer_line": "Gable grip below the navel",
+        "distractors": {
+          "plausible": [
+            "S-grip up at the sternum",
+            "Interlocked fingers, loose wrists"
+          ],
+          "trap": [
+            "Grip so high they duck under"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls hard as you initiate the takedown - how do you adjust?",
-        "answer": "When the opponent sprawls, their hips drop away but their upper body remains connected to your chest. Switch from a forward drive to a lateral angle change by stepping to the opposite side and redirecting force where the sprawl has not created resistance. If their sprawl is deep and they begin turtling, transition to a mat return by pulling their torso backward over your hips, or switch to a body lock pass. The critical error is continuing to drive into a strong sprawl, which wastes energy against a well-braced defense rather than exploiting the angles the sprawl creates."
+        "answer": "When the opponent sprawls, their hips drop away but their upper body remains connected to your chest. Switch from a forward drive to a lateral angle change by stepping to the opposite side and redirecting force where the sprawl has not created resistance. If their sprawl is deep and they begin turtling, transition to a mat return by pulling their torso backward over your hips, or switch to a body lock pass. The critical error is continuing to drive into a strong sprawl, which wastes energy against a well-braced defense rather than exploiting the angles the sprawl creates.",
+        "answer_line": "Angle laterally off the sprawl",
+        "distractors": {
+          "plausible": [
+            "Stand up and disengage",
+            "Pull them into your guard"
+          ],
+          "trap": [
+            "Bull forward into a guillotine"
+          ]
+        }
       },
       {
         "question": "What role does head positioning play in the body lock takedown?",
-        "answer": "Head positioning creates directional control and rotational force during the takedown. By pressing your head into the opponent's far shoulder, you create a turning moment that rotates their torso away from the driving direction, compromising their ability to square up and resist with both legs equally. Your head provides a third contact point alongside chest and grip that prevents the opponent from turning to face you. Incorrect head positioning such as keeping it behind or above the opponent eliminates this rotational advantage and reduces takedown effectiveness significantly."
+        "answer": "Head positioning creates directional control and rotational force during the takedown. By pressing your head into the opponent's far shoulder, you create a turning moment that rotates their torso away from the driving direction, compromising their ability to square up and resist with both legs equally. Your head provides a third contact point alongside chest and grip that prevents the opponent from turning to face you. Incorrect head positioning such as keeping it behind or above the opponent eliminates this rotational advantage and reduces takedown effectiveness significantly.",
+        "answer_line": "Head in far shoulder, rotates them",
+        "distractors": {
+          "plausible": [
+            "Head behind for leverage",
+            "Head on top to add weight"
+          ],
+          "trap": [
+            "Head in near shoulder"
+          ]
+        }
       },
       {
         "question": "When should you release the body lock grip during the takedown sequence?",
-        "answer": "Release the body lock grip only after your opponent has contacted the mat and you have begun establishing side control with crossface and hip control secured. The grip should be maintained throughout the entire descent and initial landing phase. Releasing prematurely during the drive or landing allows the opponent to insert defensive frames, recover guard, or scramble to a neutral position. Transition from the body lock to crossface and hip control as your new control mechanisms before fully releasing the locked hands."
+        "answer": "Release the body lock grip only after your opponent has contacted the mat and you have begun establishing side control with crossface and hip control secured. The grip should be maintained throughout the entire descent and initial landing phase. Releasing prematurely during the drive or landing allows the opponent to insert defensive frames, recover guard, or scramble to a neutral position. Transition from the body lock to crossface and hip control as your new control mechanisms before fully releasing the locked hands.",
+        "answer_line": "After mat contact, on crossface",
+        "distractors": {
+          "plausible": [
+            "The instant they land",
+            "During the drive to steer them"
+          ],
+          "trap": [
+            "Let go early to posture up"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts to sit to guard as you drive forward - what is your response?",
-        "answer": "Follow their descent while maintaining the body lock grip and chest connection. As the opponent sits, use their downward movement to drive through them and achieve top position with your body lock intact. If they successfully close guard, immediately begin working to pass using the existing body lock control as a passing grip. Alternatively, if you feel them beginning to sit, accelerate your driving pressure to complete the takedown to side control before they can establish guard. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames."
+        "answer": "Follow their descent while maintaining the body lock grip and chest connection. As the opponent sits, use their downward movement to drive through them and achieve top position with your body lock intact. If they successfully close guard, immediately begin working to pass using the existing body lock control as a passing grip. Alternatively, if you feel them beginning to sit, accelerate your driving pressure to complete the takedown to side control before they can establish guard. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames.",
+        "answer_line": "Follow their sit, keep the lock",
+        "distractors": {
+          "plausible": [
+            "Posture up and pass the guard",
+            "Reset back to standing"
+          ],
+          "trap": [
+            "Rush in and get triangled"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The body lock takedown involves controlled descent to the mat and carries inherent risk of impact injuries. Practitioners must ensure adequate mat space before attempting takedowns and check for other training pairs in the landing zone. The driving force must be controlled to prevent slamming, which is prohibited in most BJJ competition rulesets and dangerous in training. When drilling, begin with cooperative partners on soft surfaces and increase resistance gradually. The defender should know how to safely receive takedowns by tucking their chin, protecting their head, and absorbing impact through controlled rolling rather than bracing with extended arms. Both practitioners must communicate clearly during drilling to prevent uncontrolled landings."
+    "safety_considerations": "The body lock takedown involves controlled descent to the mat and carries inherent risk of impact injuries. Practitioners must ensure adequate mat space before attempting takedowns and check for other training pairs in the landing zone. The driving force must be controlled to prevent slamming, which is prohibited in most BJJ competition rulesets and dangerous in training. When drilling, begin with cooperative partners on soft surfaces and increase resistance gradually. The defender should know how to safely receive takedowns by tucking their chin, protecting their head, and absorbing impact through controlled rolling rather than bracing with extended arms. Both practitioners must communicate clearly during drilling to prevent uncontrolled landings.",
+    "clips": [
+      {
+        "id": "GOwulE_PIMg",
+        "title": "Body lock takedown from standing",
+        "by": "Blue Base Jiu Jitsu",
+        "vertical": false,
+        "channel": "Blue Base Jiu Jitsu",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "91Fgpe788no",
+        "title": "Body lock from the standing position",
+        "by": "Sean Sherk",
+        "vertical": false,
+        "channel": "TAG Muay Thai",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "2gknwIfTeN0",
+        "title": "Four body lock takedowns",
+        "by": "CSW Fullerton",
+        "vertical": false,
+        "channel": "CSW Fullerton",
+        "duration": 194,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Body Lock Takedown Defender",
@@ -333,23 +454,73 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a body lock takedown is being initiated?",
-        "answer": "The earliest cues are a sudden increase in forward hip pressure, the attacker's head pressing firmly into your shoulder creating rotational force, and the attacker stepping their foot to the outside of your lead foot to establish an attack angle. You may also feel the attacker's grip tighten and their level drop slightly as they prepare to commit driving force. These cues occur within a one to two second window before the full driving phase, making immediate recognition essential for mounting an effective defense."
+        "answer": "The earliest cues are a sudden increase in forward hip pressure, the attacker's head pressing firmly into your shoulder creating rotational force, and the attacker stepping their foot to the outside of your lead foot to establish an attack angle. You may also feel the attacker's grip tighten and their level drop slightly as they prepare to commit driving force. These cues occur within a one to two second window before the full driving phase, making immediate recognition essential for mounting an effective defense.",
+        "answer_line": "Hip pressure + head + foot step",
+        "distractors": {
+          "plausible": [
+            "Sudden grip tightening only",
+            "Opponent's level change alone"
+          ],
+          "trap": [
+            "Wait for the drive to fully start"
+          ]
+        }
       },
       {
         "question": "Your opponent drives their head into your shoulder and steps outside your lead foot - what defense do you prioritize?",
-        "answer": "Immediately execute an explosive sprawl by dropping your hips backward and toward the mat while widening your stance to lower your center of gravity. The sprawl must be committed and powerful, driving your weight downward to remove the attacker's ability to drive through your base. Simultaneously post your inside hand on the attacker's hip to create a frame that generates distance between your bodies. If the sprawl stops the forward momentum, begin hand fighting to break the grip. If the drive overwhelms your sprawl, transition immediately to controlled guard pull."
+        "answer": "Immediately execute an explosive sprawl by dropping your hips backward and toward the mat while widening your stance to lower your center of gravity. The sprawl must be committed and powerful, driving your weight downward to remove the attacker's ability to drive through your base. Simultaneously post your inside hand on the attacker's hip to create a frame that generates distance between your bodies. If the sprawl stops the forward momentum, begin hand fighting to break the grip. If the drive overwhelms your sprawl, transition immediately to controlled guard pull.",
+        "answer_line": "Explosive sprawl, hips back",
+        "distractors": {
+          "plausible": [
+            "Pull guard immediately",
+            "Turn and face square"
+          ],
+          "trap": [
+            "Stand tall and push back"
+          ]
+        }
       },
       {
         "question": "When is sitting to guard the correct defensive choice versus continuing to fight standing?",
-        "answer": "Sit to guard when your sprawl defense has failed and the attacker's forward pressure is overwhelming your base, when you feel yourself being driven backward without ability to recover your stance, or when the takedown is clearly imminent and you have less than one second before impact with the mat. A controlled guard pull where you sit and immediately close your guard around the attacker is far superior to being taken down into side control with no defensive structure established. However, if your base is holding and the attacker's grip shows any sign of loosening, continue fighting for standing position."
+        "answer": "Sit to guard when your sprawl defense has failed and the attacker's forward pressure is overwhelming your base, when you feel yourself being driven backward without ability to recover your stance, or when the takedown is clearly imminent and you have less than one second before impact with the mat. A controlled guard pull where you sit and immediately close your guard around the attacker is far superior to being taken down into side control with no defensive structure established. However, if your base is holding and the attacker's grip shows any sign of loosening, continue fighting for standing position.",
+        "answer_line": "When sprawl fails and drive wins",
+        "distractors": {
+          "plausible": [
+            "Anytime you feel pressure",
+            "As soon as they touch your legs"
+          ],
+          "trap": [
+            "Never sit, always sprawl"
+          ]
+        }
       },
       {
         "question": "What base adjustments help you resist the body lock takedown driving phase?",
-        "answer": "Widen your stance to at least shoulder width with knees bent at approximately 30 to 45 degrees to lower your center of gravity below the attacker's driving line. Shift your weight toward the balls of your feet with hips driven toward the mat to create a heavy, stable platform resistant to forward and lateral drives. If you feel the drive coming from one specific side, step your far foot further in that direction to create a wider base against the directional force. Keep your spine as upright as possible to prevent the attacker from curling you forward into a compromised posture."
+        "answer": "Widen your stance to at least shoulder width with knees bent at approximately 30 to 45 degrees to lower your center of gravity below the attacker's driving line. Shift your weight toward the balls of your feet with hips driven toward the mat to create a heavy, stable platform resistant to forward and lateral drives. If you feel the drive coming from one specific side, step your far foot further in that direction to create a wider base against the directional force. Keep your spine as upright as possible to prevent the attacker from curling you forward into a compromised posture.",
+        "answer_line": "Wide stance, knees bent, hips low",
+        "distractors": {
+          "plausible": [
+            "Narrow stance, spine curled",
+            "Weight on heels, lean back"
+          ],
+          "trap": [
+            "Stand tall, feet together"
+          ]
+        }
       },
       {
         "question": "How do you convert a successful sprawl defense into an offensive counter?",
-        "answer": "After a successful sprawl stops the attacker's forward momentum, immediately begin hand fighting to break their grip while maintaining your sprawled hip position. Target the weakest point of their grip, typically the thumb side of a gable grip, using two-on-one hand fighting. Once the grip breaks, rapidly transition to face the opponent and re-establish neutral clinch position. If the attacker maintains their grip despite the sprawl, attempt a hip switch reversal by rotating your hips explosively in the opposite direction of their original drive, using their extended position against them to take top position."
+        "answer": "After a successful sprawl stops the attacker's forward momentum, immediately begin hand fighting to break their grip while maintaining your sprawled hip position. Target the weakest point of their grip, typically the thumb side of a gable grip, using two-on-one hand fighting. Once the grip breaks, rapidly transition to face the opponent and re-establish neutral clinch position. If the attacker maintains their grip despite the sprawl, attempt a hip switch reversal by rotating your hips explosively in the opposite direction of their original drive, using their extended position against them to take top position.",
+        "answer_line": "Hand fight to break their grip",
+        "distractors": {
+          "plausible": [
+            "Shoot a double-leg right away",
+            "Push off and reset to neutral"
+          ],
+          "trap": [
+            "Stand up in their body lock"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -372,6 +543,26 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance defensive drilling and competition scenarios",
         "description": "Defend body lock takedowns at full resistance in positional sparring starting from body lock bottom. Chain defensive responses together based on attacker's reactions and adjustments. Develop the ability to survive multiple takedown attempts and either escape to neutral or successfully counter to a favorable position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Fxpu62evbwk",
+        "title": "Breaking the body lock with a kimura grip",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4HaZwBmkFgk",
+        "title": "Defending the body lock takedown",
+        "by": "TJ Dillashaw",
+        "vertical": false,
+        "channel": "Dynamic Striking",
+        "duration": 207,
+        "verified": "2026-07-15"
       }
     ]
   }

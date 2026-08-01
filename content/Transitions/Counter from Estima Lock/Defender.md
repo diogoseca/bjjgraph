@@ -148,6 +148,43 @@ description: "Defend against Counter from Estima Lock attempts in BJJ. Strategie
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter from Estima Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Foot lock and single leg X escapes",
+      "description": "Counter from Estima Lock (Defender) film study: Foot lock and single leg X escapes, taught by James O\u0027Connor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JSOM86_1lRo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JSOM86_1lRo",
+      "url": "https://www.youtube.com/watch?v=JSOM86_1lRo",
+      "creator": { "@type": "Person", "name": "James O\u0027Connor" },
+      "duration": "PT111S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock and Estima Lock Escape",
+      "description": "Counter from Estima Lock (Defender) film study: Estima Lock and Estima Lock Escape, taught by Budo Jake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2cpItCWRdQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2cpItCWRdQ",
+      "url": "https://www.youtube.com/watch?v=e2cpItCWRdQ",
+      "creator": { "@type": "Person", "name": "Budo Jake" },
+      "duration": "PT295S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending against the Counter from Estima Lock means maintaining your submission
 **Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter from Estima Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JSOM86_1lRo)
+
+<p class="clip-credit"><strong>Foot lock and single leg X escapes</strong> — taught by James O&#39;Connor · 1:51 · <a href="https://www.youtube.com/watch?v=JSOM86_1lRo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2cpItCWRdQ)
+
+<p class="clip-credit"><strong>Estima Lock and Estima Lock Escape</strong> — taught by Budo Jake · 4:55 · <a href="https://www.youtube.com/watch?v=e2cpItCWRdQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

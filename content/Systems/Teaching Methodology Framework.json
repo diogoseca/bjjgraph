@@ -384,35 +384,115 @@
   "flashcards": [
     {
       "question": "What is the core sequencing principle of the Teaching Methodology Framework?",
-      "answer": "Students master defensive survival from the worst positions before learning any offense, and grasp the conceptual 'why' before drilling the technical 'how', following the positional hierarchy from defense to neutral to offense."
+      "answer": "Students master defensive survival from the worst positions before learning any offense, and grasp the conceptual 'why' before drilling the technical 'how', following the positional hierarchy from defense to neutral to offense.",
+      "answer_line": "Survival & why before offense",
+      "distractors": {
+        "plausible": [
+          "Drill technique before concepts",
+          "Learn escapes after submissions"
+        ],
+        "trap": [
+          "Attack from bottom before escaping"
+        ]
+      }
     },
     {
       "question": "What are the five resistance levels in the progressive resistance drilling protocol?",
-      "answer": "Static positioning (0%), cooperative movement (25%), light resistance with known defense (50%), moderate resistance with limited options (75%), and full resistance with all options available (100%); students must succeed consistently at each before advancing."
+      "answer": "Static positioning (0%), cooperative movement (25%), light resistance with known defense (50%), moderate resistance with limited options (75%), and full resistance with all options available (100%); students must succeed consistently at each before advancing.",
+      "answer_line": "0%, 25%, 50%, 75%, 100%",
+      "distractors": {
+        "plausible": [
+          "25% to 100% in four steps",
+          "Static then straight to 100%"
+        ],
+        "trap": [
+          "Full resistance from day one"
+        ]
+      }
     },
     {
       "question": "Why does the framework teach defensive escapes before offensive submissions?",
-      "answer": "Survival skills mirror real fighting priorities — a student must be able to protect themselves from bottom mount and side control before learning to attack, which prevents incomplete games with dangerous positional gaps."
+      "answer": "Survival skills mirror real fighting priorities — a student must be able to protect themselves from bottom mount and side control before learning to attack, which prevents incomplete games with dangerous positional gaps.",
+      "answer_line": "Survival first, no gaps in game",
+      "distractors": {
+        "plausible": [
+          "Escapes are easier to learn",
+          "Offense motivates beginners more"
+        ],
+        "trap": [
+          "Submissions first, skip escapes"
+        ]
+      }
     },
     {
       "question": "How does positional sparring improve on random rolling for skill development?",
-      "answer": "Positional sparring starts from defined positions with specific objectives, constraints, and time limits, producing far more relevant repetitions of a target skill and letting the instructor observe and correct specific deficiencies."
+      "answer": "Positional sparring starts from defined positions with specific objectives, constraints, and time limits, producing far more relevant repetitions of a target skill and letting the instructor observe and correct specific deficiencies.",
+      "answer_line": "Set position, objective, more reps",
+      "distractors": {
+        "plausible": [
+          "Random rolling covers more skills",
+          "Longer rounds beat structure"
+        ],
+        "trap": [
+          "Skip positional starts, roll live"
+        ]
+      }
     },
     {
       "question": "What is the most common drilling error this framework is designed to prevent?",
-      "answer": "Introducing too much resistance too early, which forces students to rely on strength and athleticism instead of technique and reinforces poor mechanics before the movement pattern is established."
+      "answer": "Introducing too much resistance too early, which forces students to rely on strength and athleticism instead of technique and reinforces poor mechanics before the movement pattern is established.",
+      "answer_line": "Too much resistance too soon",
+      "distractors": {
+        "plausible": [
+          "Too many techniques per class",
+          "Too little live rolling time"
+        ],
+        "trap": [
+          "Full resistance builds toughness"
+        ]
+      }
     },
     {
       "question": "How should an instructor limit technique volume per class under this framework?",
-      "answer": "Present only 2-3 related movements per class and require extensive drilling with progressive resistance, prioritizing depth and quality of execution over breadth and variety of techniques demonstrated."
+      "answer": "Present only 2-3 related movements per class and require extensive drilling with progressive resistance, prioritizing depth and quality of execution over breadth and variety of techniques demonstrated.",
+      "answer_line": "Only 2-3 moves, drill deeply",
+      "distractors": {
+        "plausible": [
+          "5-6 moves per class session",
+          "One move, drilled all class"
+        ],
+        "trap": [
+          "Show every variation each class"
+        ]
+      }
     },
     {
       "question": "What does the Conceptual Framework Integration component aim to develop?",
-      "answer": "It teaches every technique within universal concepts like framing, hip escape mechanics, weight distribution, and connection breaking, turning students into pattern-recognizing problem solvers rather than technique collectors."
+      "answer": "It teaches every technique within universal concepts like framing, hip escape mechanics, weight distribution, and connection breaking, turning students into pattern-recognizing problem solvers rather than technique collectors.",
+      "answer_line": "Concepts over move memorization",
+      "distractors": {
+        "plausible": [
+          "Memorizing more techniques faster",
+          "Speed drilling for muscle memory"
+        ],
+        "trap": [
+          "Copy instructor's exact technique"
+        ]
+      }
     },
     {
       "question": "How does the framework determine whether a student is ready to advance?",
-      "answer": "Through structured positional sparring and comprehensive assessments across all major positions, verifying positional proficiency, technical execution quality, and conceptual understanding before allowing progression to advanced material."
+      "answer": "Through structured positional sparring and comprehensive assessments across all major positions, verifying positional proficiency, technical execution quality, and conceptual understanding before allowing progression to advanced material.",
+      "answer_line": "Sparring tests plus full assessment",
+      "distractors": {
+        "plausible": [
+          "Time in program, belt count",
+          "Instructor's gut feeling only"
+        ],
+        "trap": [
+          "Advance after one clean demo"
+        ]
+      }
     }
   ]
 }

@@ -168,6 +168,54 @@ description: "How to execute Armbar from North-South in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from North-South (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Step-by-step armbar from north-south",
+      "description": "Armbar from North-South (Attacker) film study: Step-by-step armbar from north-south, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Of3maBI47t4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Of3maBI47t4",
+      "url": "https://www.youtube.com/watch?v=Of3maBI47t4",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT148S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "North-south armbar breakdown",
+      "description": "Armbar from North-South (Attacker) film study: North-south armbar breakdown, taught by Firas Zahabi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eaK1RnJI-Is/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eaK1RnJI-Is",
+      "url": "https://www.youtube.com/watch?v=eaK1RnJI-Is",
+      "creator": { "@type": "Person", "name": "Firas Zahabi" },
+      "duration": "PT183S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Key lock to armbar from north-south",
+      "description": "Armbar from North-South (Attacker) film study: Key lock to armbar from north-south, taught by CSW Fullerton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0oOITtbennM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0oOITtbennM",
+      "url": "https://www.youtube.com/watch?v=0oOITtbennM",
+      "creator": { "@type": "Person", "name": "CSW Fullerton" },
+      "duration": "PT174S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -179,6 +227,42 @@ Mechanically, you anchor the wrist with a pistol grip, underhook the elbow to yo
 **From Position**: [[Positions/North-South]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from North-South (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Of3maBI47t4)
+
+<p class="clip-credit"><strong>Step-by-step armbar from north-south</strong> — taught by Jean Jacques Machado · 2:28 · <a href="https://www.youtube.com/watch?v=Of3maBI47t4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eaK1RnJI-Is)
+
+<p class="clip-credit"><strong>North-south armbar breakdown</strong> — taught by Firas Zahabi · 3:03 · <a href="https://www.youtube.com/watch?v=eaK1RnJI-Is" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0oOITtbennM)
+
+<p class="clip-credit"><strong>Key lock to armbar from north-south</strong> — taught by CSW Fullerton · 2:54 · <a href="https://www.youtube.com/watch?v=0oOITtbennM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

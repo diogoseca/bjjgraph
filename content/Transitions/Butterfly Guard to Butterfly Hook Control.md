@@ -34,6 +34,43 @@ description: "Master the transition to Butterfly Hook Control in BJJ. Learn to c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Guard to Butterfly Hook Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "2-on-1 hook sweep from butterfly guard",
+      "description": "Butterfly Guard to Butterfly Hook Control film study: 2-on-1 hook sweep from butterfly guard, taught by grpplng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/is7gMf-wYuA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/is7gMf-wYuA",
+      "url": "https://www.youtube.com/watch?v=is7gMf-wYuA",
+      "creator": { "@type": "Person", "name": "grpplng" },
+      "duration": "PT14S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "2-on-1 lift to back from butterfly guard",
+      "description": "Butterfly Guard to Butterfly Hook Control film study: 2-on-1 lift to back from butterfly guard, taught by Lorenz Sadychow.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sJfkAL95S9k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sJfkAL95S9k",
+      "url": "https://www.youtube.com/watch?v=sJfkAL95S9k",
+      "creator": { "@type": "Person", "name": "Lorenz Sadychow" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this transition is most critical after initial guard recovery or 
 **Success Rate**: 65%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Guard to Butterfly Hook Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=is7gMf-wYuA)
+
+<p class="clip-credit"><strong>2-on-1 hook sweep from butterfly guard</strong> — taught by grpplng · 0:14 · <a href="https://www.youtube.com/watch?v=is7gMf-wYuA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=sJfkAL95S9k)
+
+<p class="clip-credit"><strong>2-on-1 lift to back from butterfly guard</strong> — taught by Lorenz Sadychow · 1:01 · <a href="https://www.youtube.com/watch?v=sJfkAL95S9k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

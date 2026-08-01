@@ -34,6 +34,65 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Estima Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima Lock",
+      "description": "Estima Lock film study: Estima Lock, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_6BC8d5B5Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_6BC8d5B5Hs",
+      "url": "https://www.youtube.com/watch?v=_6BC8d5B5Hs",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Estima Lock",
+      "description": "Estima Lock film study: Estima Lock, taught by Leandro Dos Santos Flores.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ao0IatSHEi0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ao0IatSHEi0",
+      "url": "https://www.youtube.com/watch?v=Ao0IatSHEi0",
+      "creator": { "@type": "Person", "name": "Leandro Dos Santos Flores" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Estima Lock Finish",
+      "description": "Estima Lock film study: Estima Lock Finish, taught by Yao Nkromah.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-RKlONkjanA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-RKlONkjanA",
+      "url": "https://www.youtube.com/watch?v=-RKlONkjanA",
+      "creator": { "@type": "Person", "name": "Yao Nkromah" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Estima Lock from Reverse De La Riva",
+      "description": "Estima Lock film study: Estima Lock from Reverse De La Riva, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Cj9M9qeS0WE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Cj9M9qeS0WE",
+      "url": "https://www.youtube.com/watch?v=Cj9M9qeS0WE",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT151S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Estima Lock?", "acceptedAnswer": { "@type": "Answer", "text": "The Estima Lock is a foot-lock submission that dorsiflexes an opponent\u0027s trapped foot against a knee-line fulcrum, rather than rotating it like a toe hold, compressing the ankle and foot from 50-50 guard and related leg entanglements." } },
-    { "@type": "Question", "name": "What positions can you finish the Estima Lock from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Estima Lock from Estima Lock Control, Honey Hole, Saddle." } },
+    { "@type": "Question", "name": "What positions can you finish the Estima Lock from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Estima Lock from Honey Hole, Estima Lock Control, Saddle." } },
     { "@type": "Question", "name": "Is the Estima Lock dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Estima Lock targets the Foot and ankle joints (dorsiflexion of foot). Primary risk: Ankle ligament sprain or tear (deltoid ligament, talofibular ligaments). Tap early and release immediately on the tap." } }
   ]
 }
@@ -86,6 +145,50 @@ The technique requires precise control and understanding of leg entanglement mec
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Estima Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_6BC8d5B5Hs)
+
+<p class="clip-credit"><strong>Estima Lock</strong> — taught by bjjtaro · 0:31 · <a href="https://www.youtube.com/watch?v=_6BC8d5B5Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ao0IatSHEi0)
+
+<p class="clip-credit"><strong>Estima Lock</strong> — taught by Leandro Dos Santos Flores · 0:27 · <a href="https://www.youtube.com/watch?v=Ao0IatSHEi0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-RKlONkjanA)
+
+<p class="clip-credit"><strong>Estima Lock Finish</strong> — taught by Yao Nkromah · 0:50 · <a href="https://www.youtube.com/watch?v=-RKlONkjanA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Cj9M9qeS0WE)
+
+<p class="clip-credit"><strong>Estima Lock from Reverse De La Riva</strong> — taught by Revolution BJJ · 2:31 · <a href="https://www.youtube.com/watch?v=Cj9M9qeS0WE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,9 +198,9 @@ The technique requires precise control and understanding of leg entanglement mec
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
+| [[Submissions/Estima Lock/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Estima Lock/from Honey Hole/Attacker|Attack →]] | [[Submissions/Estima Lock/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Estima Lock/from Estima Lock Control|Estima Lock Control]] | Top | 55% | [[Submissions/Estima Lock/from Estima Lock Control/Attacker|Attack →]] | [[Submissions/Estima Lock/from Estima Lock Control/Defender|Defend →]] |
-| [[Submissions/Estima Lock/from Honey Hole|Honey Hole]] | Top | 55% | [[Submissions/Estima Lock/from Honey Hole/Attacker|Attack →]] | [[Submissions/Estima Lock/from Honey Hole/Defender|Defend →]] |
-| [[Submissions/Estima Lock/from Saddle|Saddle]] | Top | 55% | [[Submissions/Estima Lock/from Saddle/Attacker|Attack →]] | [[Submissions/Estima Lock/from Saddle/Defender|Defend →]] |
+| [[Submissions/Estima Lock/from Saddle|Saddle]] | Top | 45% | [[Submissions/Estima Lock/from Saddle/Attacker|Attack →]] | [[Submissions/Estima Lock/from Saddle/Defender|Defend →]] |
 
 
 </div>
@@ -123,7 +226,7 @@ The technique requires precise control and understanding of leg entanglement mec
 
 ## Related
 - [[Submissions/Toe Hold]] - Common transition when opponent defends Estima Lock by pulling foot free
-- [[Transitions/Heel Hook]] - High-percentage leg lock creating submission chains with Estima Lock
+- [[Submissions/Heel Hook]] - High-percentage leg lock creating submission chains with Estima Lock
 - [[Submissions/Straight Ankle Lock]] - Transition option when opponent straightens leg to defend Estima Lock
 - [[Transitions/Kneebar]] - Alternative leg attack from similar entanglement positions
 - [[Submissions/Flying Kneebar]] - Dynamic kneebar variation creating offensive dilemmas in leg lock systems

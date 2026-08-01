@@ -148,6 +148,43 @@ description: "How to defend against Overhook Extraction in BJJ. Maintain New Yor
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Extraction (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Overhook control from Closed Guard",
+      "description": "Overhook Extraction (Defender) film study: Overhook control from Closed Guard, taught by 6am Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5J92PJO-dEo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5J92PJO-dEo",
+      "url": "https://www.youtube.com/watch?v=5J92PJO-dEo",
+      "creator": { "@type": "Person", "name": "6am Jiu Jitsu" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber Guard Philosophy: maintaining the overhook",
+      "description": "Overhook Extraction (Defender) film study: Rubber Guard Philosophy: maintaining the overhook, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tWAZbCiWQ9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tWAZbCiWQ9E",
+      "url": "https://www.youtube.com/watch?v=tWAZbCiWQ9E",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Successful defense requires understanding that the overhook and shin control fun
 **Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Extraction (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5J92PJO-dEo)
+
+<p class="clip-credit"><strong>Overhook control from Closed Guard</strong> — taught by 6am Jiu Jitsu · 1:54 · <a href="https://www.youtube.com/watch?v=5J92PJO-dEo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tWAZbCiWQ9E)
+
+<p class="clip-credit"><strong>Rubber Guard Philosophy: maintaining the overhook</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tWAZbCiWQ9E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

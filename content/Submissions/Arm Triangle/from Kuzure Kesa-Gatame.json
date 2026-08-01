@@ -19,7 +19,10 @@
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Kuzure Kesa-Gatame",
   "from_position": "Kuzure Kesa-Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "summary": "The Arm Triangle from Kuzure Kesa-Gatame is a head-and-arm blood choke that converts the modified scarf hold's pre-trapped arm into bilateral carotid compression, the opponent's own shoulder sealing one artery while your forearm blade crushes the other.",
   "overview": "The arm triangle from Kuzure Kesa-Gatame exploits the inherent arm isolation of the modified scarf hold to establish a devastating head-and-arm choke. From this side control variation, the top practitioner already controls one of the opponent's arms trapped between their armpit and chest. By driving this trapped arm upward against the opponent's own neck and threading the choking arm behind the head, the attacker creates bilateral carotid compression where the opponent's shoulder presses one carotid artery while the forearm blade seals the other side.\n\nWhat makes this entry particularly effective is the pre-existing arm control that Kuzure Kesa-Gatame provides as a structural feature of the position. Unlike arm triangles initiated from mount or standard side control where the attacker must first isolate an arm, the modified scarf hold delivers this isolation by default. The transition from pin to submission requires redirecting the trapped arm from a control position to a choking position, then walking to the perpendicular finishing angle with progressive chest compression.\n\nThe finish demands patience and precise body mechanics rather than raw squeezing power. Once the head-and-arm configuration is locked, the attacker walks their hips to a 90-degree angle relative to the opponent's body, drops the near hip to the mat, and uses expanding chest pressure to drive the opponent's own shoulder into their carotid. This submission is especially dangerous because it can develop gradually from what appears to be standard positional control, giving the defender minimal warning before the choke tightens.",
   "safety_considerations": {
@@ -106,17 +109,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Kuzure Kesa-Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -289,52 +301,172 @@
       {
         "question": "What anatomical structures does the arm triangle from Kuzure Kesa-Gatame attack?",
         "answer": "The arm triangle compresses both carotid arteries simultaneously. The opponent's own trapped shoulder presses into one carotid from the near side, while your forearm blade crosses behind their neck and presses into the opposite carotid from the far side. This bilateral compression restricts blood flow to the brain, causing unconsciousness in 6-8 seconds if not released. The mechanism is a blood choke, not an airway choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids, blood choke",
+        "distractors": {
+          "plausible": [
+            "Windpipe crush, air only",
+            "Only the far-side carotid"
+          ],
+          "trap": [
+            "Crank the neck for the tap"
+          ]
+        }
       },
       {
         "question": "How does the existing arm isolation in Kuzure Kesa-Gatame create the arm triangle opportunity?",
         "answer": "Kuzure Kesa-Gatame already traps one of the opponent's arms between your armpit and chest as a structural feature of the position. This means you do not need to separately isolate an arm as you would from mount or standard side control. Your task is to reposition this already-trapped arm upward against the opponent's own neck using shoulder pressure, then thread your choking arm behind their head to complete the head-and-arm configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm's pre-trapped, just angle it up",
+        "distractors": {
+          "plausible": [
+            "Must isolate a fresh arm first",
+            "Trap the far arm instead"
+          ],
+          "trap": [
+            "Release the arm to reset grips"
+          ]
+        }
       },
       {
         "question": "What grip adjustment is required when transitioning from Kuzure Kesa-Gatame control to the arm triangle configuration?",
         "answer": "After driving the trapped arm up against the opponent's neck, release your scarf hold arm control and thread your choking arm over their repositioned arm and behind the back of their neck so your forearm blade crosses the far-side carotid. Lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head, or use a gable grip. Maintain chest pressure on the trapped arm throughout to prevent extraction during the switch.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four, keep chest pressure",
+        "distractors": {
+          "plausible": [
+            "Switch grip before pinning arm",
+            "Grab their wrist, not your bicep"
+          ],
+          "trap": [
+            "Fully release arm to switch grips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins retracting their trapped arm as you start the grip transition - what adjustment prevents the escape?",
         "answer": "If you feel the arm beginning to slide out, immediately drive your chest weight down onto the arm to re-pin it against their neck before continuing the grip transition. If the arm has already moved too far, abandon the arm triangle attempt and return to standard Kuzure Kesa-Gatame control by recapturing the arm between your armpit and chest. Forcing a compromised grip transition creates a loose configuration that wastes energy and sacrifices positional control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest-pin arm or reset control",
+        "distractors": {
+          "plausible": [
+            "Chase the arm with your hand",
+            "Switch straight to armbar attack"
+          ],
+          "trap": [
+            "Force the transition regardless"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure once the arm triangle is locked from Kuzure Kesa-Gatame?",
         "answer": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own carotid while your forearm blade compresses the other side. Without the perpendicular angle, the choke becomes a neck crank.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk perpendicular, chest over face",
+        "distractors": {
+          "plausible": [
+            "Stay at 45 degrees, head high",
+            "Keep head on trapped-arm side"
+          ],
+          "trap": [
+            "Post up tall and crank the neck"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no return?",
         "answer": "The choke is properly locked when you feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand, cannot bridge effectively, and cannot turn their head away from the choking pressure, they have passed the point where escape becomes extremely unlikely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "No space, color change, weak defense",
+        "distractors": {
+          "plausible": [
+            "Their breathing gets loud",
+            "Just feel tightness in your arms"
+          ],
+          "trap": [
+            "Wait for them to go limp first"
+          ]
+        }
       },
       {
         "question": "What safety precautions must you observe when applying the arm triangle from Kuzure Kesa-Gatame?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always leave at least one of their hands free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp or stops responding, release immediately, position them on their side in recovery position, and monitor breathing until they regain consciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly on any tap",
+        "distractors": {
+          "plausible": [
+            "Keep your own hand free",
+            "Lay them flat on their back"
+          ],
+          "trap": [
+            "Crank hard for a quick finish"
+          ]
+        }
       },
       {
         "question": "Why is chest compression more effective than arm squeezing for finishing the arm triangle from this position?",
         "answer": "Arm squeezing relies on small muscle groups that fatigue rapidly and cannot generate sustained pressure against a defending opponent. Chest compression uses your entire body weight distributed through skeletal structure, which is sustainable indefinitely and generates far greater force. The perpendicular body angle channels your expanding chest directly into the choking configuration, and the opponent's own shoulder acts as the primary compression mechanism on the near side. Your arms only need to maintain the locked configuration while your body does the actual work.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest/bodyweight, not arm strength",
+        "distractors": {
+          "plausible": [
+            "Bicep squeeze sustains pressure",
+            "Grip strength beats hip position"
+          ],
+          "trap": [
+            "Sit up to squeeze, lose the pin"
+          ]
+        }
       },
       {
         "question": "How do you maintain positional control if the arm triangle attempt fails and the opponent begins escaping?",
         "answer": "If the arm triangle fails at any point before the finish, your priority is returning to Kuzure Kesa-Gatame control rather than chasing the submission. Release the head-and-arm grip and immediately re-establish hip pressure and arm isolation in the scarf hold position. The worst outcome is losing both the submission and the dominant position. A failed arm triangle from Kuzure Kesa-Gatame should result in you resettling into the modified scarf hold, not scrambling from a neutral position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Return to Kesa-Gatame control",
+        "distractors": {
+          "plausible": [
+            "Switch to mount immediately",
+            "Hold the choke grip and wait"
+          ],
+          "trap": [
+            "Bail on position to chase choke"
+          ]
+        }
       },
       {
         "question": "In competition with limited time remaining, how do you accelerate the arm triangle finish from Kuzure Kesa-Gatame without sacrificing safety?",
         "answer": "Accelerate the setup phases rather than the finish. Move quickly through the arm repositioning and grip transition, then walk to the finishing angle with urgency. However, the actual squeeze must remain progressive and controlled regardless of time pressure. You can increase finishing efficiency by ensuring the walk-around reaches full perpendicular angle before squeezing, and by dropping your head seal immediately rather than adjusting. A properly angled arm triangle finishes in 3-5 seconds once sealed, so invest time in angle rather than force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rush setup, squeeze stays slow",
+        "distractors": {
+          "plausible": [
+            "Skip the perpendicular walk",
+            "Switch to a faster submission"
+          ],
+          "trap": [
+            "Spike the finish for a fast tap"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "tfykooWW-xk",
+        "title": "Triangle Attacks From Kuzure Kesa Gatame",
+        "by": "Chokes And More",
+        "vertical": false,
+        "channel": "Chokes And More",
+        "duration": 66,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fB7gGDIm1i8",
+        "title": "12 Kesa Gatame Attacks",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 88,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -428,27 +560,77 @@
       {
         "question": "How do you recognize that the attacker is transitioning from standard Kuzure Kesa-Gatame control to an arm triangle?",
         "answer": "The primary recognition cue is feeling the attacker use shoulder pressure to deliberately drive your trapped arm upward toward your own neck rather than simply maintaining the standard scarf hold arm isolation. This is followed by the attacker releasing their arm control and threading their arm over your trapped arm and behind your neck. You may also feel their hips begin to disengage from the scarf hold position as they prepare to walk to the finishing angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feel arm driven up, then threaded",
+        "distractors": {
+          "plausible": [
+            "Feel hips flatten out first",
+            "They grab your far wrist first"
+          ],
+          "trap": [
+            "Ignore it, still just scarf hold"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the arm triangle from Kuzure Kesa-Gatame?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly and clearly. Do not wait to see if you can escape once the choke is locked and the finishing angle is established. Arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds with minimal warning. Tapping early prevents injury and allows you to continue training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hands, feet, or say tap loud",
+        "distractors": {
+          "plausible": [
+            "Silent nod and hope they see",
+            "Wait for the coach to call it"
+          ],
+          "trap": [
+            "Hold out until vision blurs"
+          ]
+        }
       },
       {
         "question": "What arm positioning prevents the attacker from converting Kuzure Kesa-Gatame control into an arm triangle?",
         "answer": "Actively work to keep your trapped arm low against your body with your elbow tight to your ribs and internal shoulder rotation. The critical mistake is allowing the arm to be driven upward until your forearm crosses your own throat line, which creates the trapped-arm position the attacker needs. Fight every inch of upward arm movement. If you feel the arm sliding up, prioritize elbow retraction and hip escape over other defensive actions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow tight, keep arm low",
+        "distractors": {
+          "plausible": [
+            "Push the arm straight out",
+            "Turn palm up and relax the arm"
+          ],
+          "trap": [
+            "Let the arm ride up, fight later"
+          ]
+        }
       },
       {
         "question": "The attacker has locked the head-and-arm configuration but has not yet walked to the finishing angle - what escape options remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish the choke. Alternatively, bridge powerfully toward the trapped-arm side and pull them into your closed guard to disrupt the angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, frame hips, get to knees",
+        "distractors": {
+          "plausible": [
+            "Tuck chin, wait it out",
+            "Push away and try to stand"
+          ],
+          "trap": [
+            "Turn away, drive shoulder in"
+          ]
+        }
       },
       {
         "question": "What are the most common defensive errors that allow the arm triangle transition from Kuzure Kesa-Gatame?",
         "answer": "The most common error is passively allowing the trapped arm to be walked upward against your own neck without resistance, which directly creates the choking configuration. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend by not recognizing the setup cues during the arm repositioning phase, when defense is still achievable.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Passive arm, turning away, late",
+        "distractors": {
+          "plausible": [
+            "Framing early on their hip",
+            "Fighting grips, not the arm"
+          ],
+          "trap": [
+            "Push their head, feed the arm"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -471,6 +653,35 @@
         "phase": "Phase 4: Live defensive sparring",
         "focus": "Full-speed defense from Kuzure Kesa-Gatame bottom against all attacks including arm triangle",
         "description": "Partner starts in Kuzure Kesa-Gatame top with full offensive options including arm triangle, americana, kimura, and position advances. Defend all attacks while maintaining awareness of arm positioning to prevent the arm triangle setup. 5-minute rounds with reset on escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "CmXniIPFMhU",
+        "title": "Two Arm Triangle (Kata Gatame) Escapes",
+        "by": "Adam Urbanski",
+        "vertical": false,
+        "channel": "Adam Urbanski MMA",
+        "duration": 89,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense with Framing",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5atT-Q9-CVw",
+        "title": "Kesa Gatame Escape",
+        "by": "Taylorjiujitsu",
+        "vertical": false,
+        "channel": "Taylorjiujitsu",
+        "duration": 14,
+        "verified": "2026-07-14"
       }
     ]
   }

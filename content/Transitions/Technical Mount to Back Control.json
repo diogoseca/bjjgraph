@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Technical Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Technical Mount to Back Control transition is one of the highest-percentage positional advancements in Brazilian Jiu-Jitsu, capitalizing on the fundamental defensive dilemma created by Technical Mount. When the bottom player turns away to escape the armbar threat inherent in the stepped-leg configuration, they expose their back, creating a natural pathway for the top player to follow the rotation and establish full back control with hooks and seatbelt grip. This transition transforms the opponent's defensive instinct into a positional upgrade, making it a cornerstone of systematic mount offense.\n\nThe mechanics rely on reading the opponent's shoulder rotation and immediately converting the Technical Mount leg configuration into back control hooks. The posted leg naturally transitions into the first hook as the opponent turns, while the inside leg follows to complete hook insertion. Simultaneously, the top player shifts arm control from armbar grips to seatbelt configuration, threading one arm over the shoulder and the other under the armpit. Timing is critical—the transition window opens the moment the opponent commits to turning and closes once they complete the rotation and begin guard recovery.\n\nThis transition represents a core link between the mount offense system and the back attack system. Rather than forcing armbars against disciplined defense, advanced practitioners use the armbar threat as bait, drawing the turn that opens the back take. The ability to flow seamlessly between armbar attack and back take from Technical Mount creates an unresolvable dilemma for the bottom player, where defending the arm exposes the back and defending the back exposes the arm. Mastery of this transition elevates the practitioner's entire top game by ensuring that every defensive reaction from Technical Mount leads to either a submission or an even more dominant position.",
   "conditions": [
     "Established Technical Mount with posted leg base and inside leg hooked under opponent",
@@ -247,46 +259,175 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that signals you should commit to the back take rather than continuing the armbar attack from Technical Mount?",
-        "answer": "The primary trigger is the opponent's far shoulder rotating toward the mat, indicating they have committed to turning away from the armbar threat. This shoulder rotation means they have chosen to defend their arm by exposing their back. You must wait for this genuine commitment before following—a partial or tentative turn does not create sufficient back exposure and often leads to failed transition attempts."
+        "answer": "The primary trigger is the opponent's far shoulder rotating toward the mat, indicating they have committed to turning away from the armbar threat. This shoulder rotation means they have chosen to defend their arm by exposing their back. You must wait for this genuine commitment before following—a partial or tentative turn does not create sufficient back exposure and often leads to failed transition attempts.",
+        "answer_line": "Far shoulder rotates toward mat",
+        "distractors": {
+          "plausible": [
+            "Any hip shift away from you",
+            "Opponent grips your sleeve"
+          ],
+          "trap": [
+            "A tentative partial turn"
+          ]
+        }
       },
       {
         "question": "Which leg converts into the first hook during this transition and how does its positioning in Technical Mount facilitate this conversion?",
-        "answer": "The posted leg (the outside leg with shin perpendicular to the opponent's body) converts into the first hook. Its position in Technical Mount already places it close to the hook insertion point behind the opponent's top thigh. As the opponent turns onto their side, the posted leg naturally drops into position along their thigh. This is why the conversion should be a slide rather than a lift—the Technical Mount geometry pre-stages the hook."
+        "answer": "The posted leg (the outside leg with shin perpendicular to the opponent's body) converts into the first hook. Its position in Technical Mount already places it close to the hook insertion point behind the opponent's top thigh. As the opponent turns onto their side, the posted leg naturally drops into position along their thigh. This is why the conversion should be a slide rather than a lift—the Technical Mount geometry pre-stages the hook.",
+        "answer_line": "Posted leg slides into hook",
+        "distractors": {
+          "plausible": [
+            "Far leg slides into hook",
+            "Bottom leg lifts into hook"
+          ],
+          "trap": [
+            "Lift and swing leg over"
+          ]
+        }
       },
       {
         "question": "Why must the seatbelt grip be established before completing hook insertion during this transition?",
-        "answer": "Upper body control through the seatbelt prevents the opponent from turning to face you, which is their primary escape mechanism once the armbar threat is abandoned. Hooks without seatbelt control can be stripped by the opponent's hands or overcome through hip escape. The seatbelt anchors you to the opponent's back and creates the stability platform from which you can methodically work your hooks into proper position without rushing."
+        "answer": "Upper body control through the seatbelt prevents the opponent from turning to face you, which is their primary escape mechanism once the armbar threat is abandoned. Hooks without seatbelt control can be stripped by the opponent's hands or overcome through hip escape. The seatbelt anchors you to the opponent's back and creates the stability platform from which you can methodically work your hooks into proper position without rushing.",
+        "answer_line": "Stops opponent facing you",
+        "distractors": {
+          "plausible": [
+            "Locks down their far arm",
+            "Keeps their hips flat"
+          ],
+          "trap": [
+            "Insert hooks before seatbelt"
+          ]
+        }
       },
       {
         "question": "Your opponent begins turning away but then stops mid-rotation and re-squares their shoulders. How do you adjust?",
-        "answer": "Immediately return to the armbar threat since their arm is still extended and controlled. Do not chase the back take when the turn has been abandoned—you will end up in an unstable position without the back exposure needed for hook insertion. By returning to the armbar, you reset the dilemma: the opponent must once again choose between defending the arm or turning away. This cycling between armbar and back take threats is what makes the system effective."
+        "answer": "Immediately return to the armbar threat since their arm is still extended and controlled. Do not chase the back take when the turn has been abandoned—you will end up in an unstable position without the back exposure needed for hook insertion. By returning to the armbar, you reset the dilemma: the opponent must once again choose between defending the arm or turning away. This cycling between armbar and back take threats is what makes the system effective.",
+        "answer_line": "Return to armbar threat",
+        "distractors": {
+          "plausible": [
+            "Force the back take anyway",
+            "Switch to opposite side armbar"
+          ],
+          "trap": [
+            "Chase the stalled back take"
+          ]
+        }
       },
       {
         "question": "What grip transition must occur as you move from Technical Mount armbar setup to back control, and what is the critical timing?",
-        "answer": "You must transition from the two-handed arm control (wrist grip and elbow grip) to seatbelt configuration (one arm over the shoulder, one under the armpit, hands clasped). The critical timing is that there must be no gap in upper body control—the seatbelt arm should begin threading over the shoulder before you release the wrist grip. Releasing arm control before the seatbelt is established creates a window where the opponent has no upper body restraint and can complete their turn to face you."
+        "answer": "You must transition from the two-handed arm control (wrist grip and elbow grip) to seatbelt configuration (one arm over the shoulder, one under the armpit, hands clasped). The critical timing is that there must be no gap in upper body control—the seatbelt arm should begin threading over the shoulder before you release the wrist grip. Releasing arm control before the seatbelt is established creates a window where the opponent has no upper body restraint and can complete their turn to face you.",
+        "answer_line": "Thread seatbelt before releasing",
+        "distractors": {
+          "plausible": [
+            "Release grips simultaneously",
+            "Switch grips after hooks in"
+          ],
+          "trap": [
+            "Release wrist grip first"
+          ]
+        }
       },
       {
         "question": "In which direction should your weight and pressure be applied throughout this transition?",
-        "answer": "Your weight should drive forward into the opponent's upper back, maintaining constant chest-to-back pressure throughout the rotation. The common error is leaning backward or sitting up during the transition, which creates separation. Think of your sternum tracking their spine—as they rotate, you follow laterally while driving forward. Your hips should close distance toward their lower back as the transition completes, not drift away from their body."
+        "answer": "Your weight should drive forward into the opponent's upper back, maintaining constant chest-to-back pressure throughout the rotation. The common error is leaning backward or sitting up during the transition, which creates separation. Think of your sternum tracking their spine—as they rotate, you follow laterally while driving forward. Your hips should close distance toward their lower back as the transition completes, not drift away from their body.",
+        "answer_line": "Drive forward, chest to back",
+        "distractors": {
+          "plausible": [
+            "Drive downward into hips",
+            "Sit back and pull them in"
+          ],
+          "trap": [
+            "Lean back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent turns away but immediately tucks their chin and fights your seatbelt arm with both hands. What is your best attacking response?",
-        "answer": "Since both their hands are occupied with your seatbelt arm, their lower body is completely undefended. Focus on deepening your hooks and establishing dominant hip control through body triangle or tight hook positioning. Once your lower body control is unassailable, use systematic hand fighting to peel their grip off your seatbelt arm. Their two-on-one defense on the seatbelt also exposes their far arm for gift wrap, armbar, or crucifix entries."
+        "answer": "Since both their hands are occupied with your seatbelt arm, their lower body is completely undefended. Focus on deepening your hooks and establishing dominant hip control through body triangle or tight hook positioning. Once your lower body control is unassailable, use systematic hand fighting to peel their grip off your seatbelt arm. Their two-on-one defense on the seatbelt also exposes their far arm for gift wrap, armbar, or crucifix entries.",
+        "answer_line": "Deepen hooks, attack legs",
+        "distractors": {
+          "plausible": [
+            "Rip seatbelt free immediately",
+            "Abandon hooks, fight the grip"
+          ],
+          "trap": [
+            "Release seatbelt to grip fight"
+          ]
+        }
       },
       {
         "question": "You have established the seatbelt but your opponent keeps their legs tightly together, preventing hook insertion. How do you create space for your hooks?",
-        "answer": "Use your seatbelt control to angle their upper body slightly away from you, which naturally opens their hip angle and creates space between their thighs. You can also use your top knee to pry between their legs by driving it behind their top knee. Another option is to momentarily butterfly hook their top leg with your foot, lifting it to create the gap for your bottom hook to slide in. Patience is key—forcing hooks against clamped legs risks losing seatbelt position."
+        "answer": "Use your seatbelt control to angle their upper body slightly away from you, which naturally opens their hip angle and creates space between their thighs. You can also use your top knee to pry between their legs by driving it behind their top knee. Another option is to momentarily butterfly hook their top leg with your foot, lifting it to create the gap for your bottom hook to slide in. Patience is key—forcing hooks against clamped legs risks losing seatbelt position.",
+        "answer_line": "Angle upper body, open hips",
+        "distractors": {
+          "plausible": [
+            "Force hook between the knees",
+            "Pull top leg with both hands"
+          ],
+          "trap": [
+            "Abandon seatbelt, pry legs"
+          ]
+        }
       },
       {
         "question": "What is the most common reason practitioners fail to complete this transition even when the opponent clearly turns away?",
-        "answer": "The most common failure is creating space between the chest and the opponent's back during the transition. When the top player lifts their body to reposition legs or adjust grips, even a few inches of separation allows the opponent to complete their turn and face them or insert defensive frames. Every movement during the transition must maintain or increase chest-to-back contact. The transition should feel like sliding around the opponent's body, not jumping to a new position."
+        "answer": "The most common failure is creating space between the chest and the opponent's back during the transition. When the top player lifts their body to reposition legs or adjust grips, even a few inches of separation allows the opponent to complete their turn and face them or insert defensive frames. Every movement during the transition must maintain or increase chest-to-back contact. The transition should feel like sliding around the opponent's body, not jumping to a new position.",
+        "answer_line": "Losing chest-to-back contact",
+        "distractors": {
+          "plausible": [
+            "Rushing the hook insertion",
+            "Releasing the wrist grip early"
+          ],
+          "trap": [
+            "Lifting up to reset your legs"
+          ]
+        }
       },
       {
         "question": "You attempt the back take but your opponent successfully frames against your hip and prevents you from getting behind them. What attacks remain available from this position?",
-        "answer": "If you still have arm control, you can return to the armbar threat since your Technical Mount base may still be partially intact. If the opponent's frame has pushed you to the side, look for a darce choke as their arm is often exposed during the framing motion. You can also transition to a gift wrap if you can capture their framing arm by swimming under it. The worst option is to force the back take against a strong frame—disengage cleanly, consolidate your top position, and reset the attacking sequence."
+        "answer": "If you still have arm control, you can return to the armbar threat since your Technical Mount base may still be partially intact. If the opponent's frame has pushed you to the side, look for a darce choke as their arm is often exposed during the framing motion. You can also transition to a gift wrap if you can capture their framing arm by swimming under it. The worst option is to force the back take against a strong frame—disengage cleanly, consolidate your top position, and reset the attacking sequence.",
+        "answer_line": "Return to armbar or darce",
+        "distractors": {
+          "plausible": [
+            "Force through the frame",
+            "Switch immediately to gift wrap"
+          ],
+          "trap": [
+            "Muscle past the strong frame"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves rapid rotational movement around the opponent's body. During drilling, communicate clearly with your partner about rotation speed and intensity. Ensure controlled hook insertion to avoid accidentally striking the groin area or hyperextending your partner's knee during leg threading. The seatbelt grip must be established across the chest and shoulder, never across the throat. When practicing the rolling back take variant, ensure adequate mat space and start slowly to prevent neck strain from sudden rotational forces. Partners should tap or verbally signal if any hook insertion creates knee discomfort."
+    "safety_considerations": "This transition involves rapid rotational movement around the opponent's body. During drilling, communicate clearly with your partner about rotation speed and intensity. Ensure controlled hook insertion to avoid accidentally striking the groin area or hyperextending your partner's knee during leg threading. The seatbelt grip must be established across the chest and shoulder, never across the throat. When practicing the rolling back take variant, ensure adequate mat space and start slowly to prevent neck strain from sudden rotational forces. Partners should tap or verbally signal if any hook insertion creates knee discomfort.",
+    "clips": [
+      {
+        "id": "5bw7poxVJ1E",
+        "title": "Gift wrap to the back from mount, no-gi",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 112,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "UIWX13Sx-zw",
+        "title": "Three back takes from mount with the gift wrap",
+        "by": "MMA Leech",
+        "vertical": false,
+        "channel": "MMA Leech",
+        "duration": 224,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CvhI6U-IN_8",
+        "title": "Taking the back from technical mount",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 243,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Technical Mount to Back Control Defender",
@@ -372,23 +513,73 @@
     "flashcards": [
       {
         "question": "What are the earliest physical cues that your opponent is transitioning from an armbar attempt to a back take from Technical Mount?",
-        "answer": "The earliest cues are the opponent's posted leg beginning to shift from its perpendicular base position, their arm control changing from wrist-and-elbow armbar grip to a reaching motion over your shoulder, and their weight shifting from downward pressure on your chest to lateral following pressure. You may also feel their chest angle change as they begin to align with your back rather than pressing into your front. Recognizing these cues in the first one to two seconds of the transition is critical for effective defense."
+        "answer": "The earliest cues are the opponent's posted leg beginning to shift from its perpendicular base position, their arm control changing from wrist-and-elbow armbar grip to a reaching motion over your shoulder, and their weight shifting from downward pressure on your chest to lateral following pressure. You may also feel their chest angle change as they begin to align with your back rather than pressing into your front. Recognizing these cues in the first one to two seconds of the transition is critical for effective defense.",
+        "answer_line": "Posted leg and grip shifting",
+        "distractors": {
+          "plausible": [
+            "Opponent's breathing changes",
+            "Sudden increase in hand speed"
+          ],
+          "trap": [
+            "Opponent squeezing tighter"
+          ]
+        }
       },
       {
         "question": "You are in Technical Mount bottom and feel the opponent's chest starting to shift toward your back as you turn. What is your immediate defensive response?",
-        "answer": "Immediately stop your turn and re-square your shoulders to the mat. Pull both elbows tight to your ribs and tuck your chin to your far shoulder. Use your free arm to create a frame against their hip or chest to prevent them from following your rotation further. If you can feel their posted leg shifting, use your bottom leg to hook or block it before it converts to a back control hook. The priority is denying the chest-to-back connection that defines back control."
+        "answer": "Immediately stop your turn and re-square your shoulders to the mat. Pull both elbows tight to your ribs and tuck your chin to your far shoulder. Use your free arm to create a frame against their hip or chest to prevent them from following your rotation further. If you can feel their posted leg shifting, use your bottom leg to hook or block it before it converts to a back control hook. The priority is denying the chest-to-back connection that defines back control.",
+        "answer_line": "Stop turn, frame, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Speed up the turn to escape",
+            "Push away with both hands"
+          ],
+          "trap": [
+            "Continue turning to create space"
+          ]
+        }
       },
       {
         "question": "Why is fighting the seatbelt grip more important than fighting the hooks when defending the back take from Technical Mount?",
-        "answer": "The seatbelt controls your upper body and prevents you from turning to face the opponent, which is your primary escape mechanism from back control. Hooks without seatbelt control are inherently unstable because you can strip them with hip escapes and your opponent cannot prevent you from turning. However, a secured seatbelt with even one hook creates a stable back control position where the opponent can systematically work the second hook into place. Neutralizing the seatbelt preserves your ability to turn and face, which is the foundation of every back escape."
+        "answer": "The seatbelt controls your upper body and prevents you from turning to face the opponent, which is your primary escape mechanism from back control. Hooks without seatbelt control are inherently unstable because you can strip them with hip escapes and your opponent cannot prevent you from turning. However, a secured seatbelt with even one hook creates a stable back control position where the opponent can systematically work the second hook into place. Neutralizing the seatbelt preserves your ability to turn and face, which is the foundation of every back escape.",
+        "answer_line": "Seatbelt blocks turning to face",
+        "distractors": {
+          "plausible": [
+            "Hooks are the real anchor",
+            "Both matter equally"
+          ],
+          "trap": [
+            "Fight the hooks first"
+          ]
+        }
       },
       {
         "question": "The opponent has one hook in and is reaching for the seatbelt with their arm. What is your best window for escape and how do you exploit it?",
-        "answer": "This is the critical transition moment when the opponent's position is most vulnerable because they have abandoned Technical Mount base but have not yet completed back control. Use two-on-one grip fighting to prevent their arm from completing the seatbelt. Simultaneously, execute a hip escape toward the side of the inserted hook, using the momentum to strip the single hook while their upper body control is incomplete. If you can prevent the seatbelt and strip the hook in this window, the opponent falls back to a neutral scramble or you recover half guard."
+        "answer": "This is the critical transition moment when the opponent's position is most vulnerable because they have abandoned Technical Mount base but have not yet completed back control. Use two-on-one grip fighting to prevent their arm from completing the seatbelt. Simultaneously, execute a hip escape toward the side of the inserted hook, using the momentum to strip the single hook while their upper body control is incomplete. If you can prevent the seatbelt and strip the hook in this window, the opponent falls back to a neutral scramble or you recover half guard.",
+        "answer_line": "Fight grip, hip escape to hook",
+        "distractors": {
+          "plausible": [
+            "Hip escape away from hook",
+            "Wait for both hooks to lock"
+          ],
+          "trap": [
+            "Turn to face them immediately"
+          ]
+        }
       },
       {
         "question": "Why does turning away aggressively to escape the armbar actually make the back take easier for your opponent?",
-        "answer": "Turning away from the armbar rotates your shoulders away from the opponent and exposes your back, which is the exact positional change they need to transition from Technical Mount to back control. Your turning momentum makes it easier for them to follow because they can ride your rotation rather than creating it. The faster and more committed your turn, the more back exposure you create and the less time you have to establish defensive frames before they arrive at your back with seatbelt and hooks. Controlled, calculated defensive choices outperform reactive turning."
+        "answer": "Turning away from the armbar rotates your shoulders away from the opponent and exposes your back, which is the exact positional change they need to transition from Technical Mount to back control. Your turning momentum makes it easier for them to follow because they can ride your rotation rather than creating it. The faster and more committed your turn, the more back exposure you create and the less time you have to establish defensive frames before they arrive at your back with seatbelt and hooks. Controlled, calculated defensive choices outperform reactive turning.",
+        "answer_line": "It exposes your back faster",
+        "distractors": {
+          "plausible": [
+            "It creates scramble opportunities",
+            "It tires out the opponent"
+          ],
+          "trap": [
+            "Turn hard and fast to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -411,6 +602,26 @@
         "phase": "Phase 4: Full Resistance Scenarios",
         "focus": "Defending the complete armbar-to-back-take dilemma at full intensity",
         "description": "Positional sparring starting from Technical Mount bottom. Opponent works the full system: armbar threats, back take transitions, and chain attacks. Defend both threats simultaneously while looking for escape windows. Track which situations result in successful defense versus back control concession to identify patterns and refine defensive decision-making."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NHrpJdU8wCQ",
+        "title": "Technical mount escape out the back",
+        "by": "smallmanbjj",
+        "vertical": false,
+        "channel": "smallmanbjj",
+        "duration": 58,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1dymN5AbYhM",
+        "title": "Back mount defense",
+        "by": "Marcelo Alonso",
+        "vertical": false,
+        "channel": "Marcelo Alonso",
+        "duration": 58,
+        "verified": "2026-07-15"
       }
     ]
   }

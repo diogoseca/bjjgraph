@@ -148,6 +148,54 @@ description: "How to defend against Leg Drag to Darce Setup in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag to Darce Setup (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce choke defense",
+      "description": "Leg Drag to Darce Setup (Defender) film study: Darce choke defense, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
+      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce escape",
+      "description": "Leg Drag to Darce Setup (Defender) film study: Darce escape, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iNZpCbutyrM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iNZpCbutyrM",
+      "url": "https://www.youtube.com/watch?v=iNZpCbutyrM",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping the darce choke",
+      "description": "Leg Drag to Darce Setup (Defender) film study: Escaping the darce choke, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lAOxeKq4W3E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lAOxeKq4W3E",
+      "url": "https://www.youtube.com/watch?v=lAOxeKq4W3E",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The biomechanics of this defense center on eliminating the space between your ar
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag to Darce Setup (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d1YBV8UTKds)
+
+<p class="clip-credit"><strong>Darce choke defense</strong> — taught by Animal · 0:53 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iNZpCbutyrM)
+
+<p class="clip-credit"><strong>Darce escape</strong> — taught by Thunderdome BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lAOxeKq4W3E)
+
+<p class="clip-credit"><strong>Escaping the darce choke</strong> — taught by Brandon Quick · 1:56 · <a href="https://www.youtube.com/watch?v=lAOxeKq4W3E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -180,6 +180,54 @@ description: "Learn to escape the Vaporizer in BJJ. Step-by-step guide to cleari
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape from Vaporizer (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Breaking the lockdown half guard",
+      "description": "Escape from Vaporizer (Attacker) film study: Breaking the lockdown half guard, taught by Superhero Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-49CypLW9aM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-49CypLW9aM",
+      "url": "https://www.youtube.com/watch?v=-49CypLW9aM",
+      "creator": { "@type": "Person", "name": "Superhero Jiu Jitsu Academy" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Freeing your trapped foot in half guard",
+      "description": "Escape from Vaporizer (Attacker) film study: Freeing your trapped foot in half guard, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Top lockdown Turk counter",
+      "description": "Escape from Vaporizer (Attacker) film study: Top lockdown Turk counter, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
+      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 **From Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape from Vaporizer (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-49CypLW9aM)
+
+<p class="clip-credit"><strong>Breaking the lockdown half guard</strong> — taught by Superhero Jiu Jitsu Academy · 1:01 · <a href="https://www.youtube.com/watch?v=-49CypLW9aM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Freeing your trapped foot in half guard</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
+
+<p class="clip-credit"><strong>Top lockdown Turk counter</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Complete guide to defending the Knee Cut from Headquarters in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Cut from Headquarters (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the knee slice pass",
+      "description": "Knee Cut from Headquarters (Defender) film study: Countering the knee slice pass, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yiIHeo7NgsE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yiIHeo7NgsE",
+      "url": "https://www.youtube.com/watch?v=yiIHeo7NgsE",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the knee slice from quarter guard",
+      "description": "Knee Cut from Headquarters (Defender) film study: Defending the knee slice from quarter guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xDZucxFVK48/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xDZucxFVK48",
+      "url": "https://www.youtube.com/watch?v=xDZucxFVK48",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT275S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Knee Cut from Headquarters requires early recognition of the pass 
 **Opponent's Starting Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Cut from Headquarters (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yiIHeo7NgsE)
+
+<p class="clip-credit"><strong>Countering the knee slice pass</strong> — taught by Kohbukan Sisu · 0:58 · <a href="https://www.youtube.com/watch?v=yiIHeo7NgsE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xDZucxFVK48)
+
+<p class="clip-credit"><strong>Defending the knee slice from quarter guard</strong> — taught by Jean Jacques Machado · 4:35 · <a href="https://www.youtube.com/watch?v=xDZucxFVK48" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

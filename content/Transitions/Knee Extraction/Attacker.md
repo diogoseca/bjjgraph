@@ -174,6 +174,54 @@ description: "How to execute Knee Extraction in BJJ. Attacking perspective with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Extraction (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ankle lock escape by booting the foot free",
+      "description": "Knee Extraction (Attacker) film study: Ankle lock escape by booting the foot free, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CUnX7TOpb-A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CUnX7TOpb-A",
+      "url": "https://www.youtube.com/watch?v=CUnX7TOpb-A",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg lock escape: roll through",
+      "description": "Knee Extraction (Attacker) film study: Leg lock escape: roll through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Straight ankle lock defence and escapes",
+      "description": "Knee Extraction (Attacker) film study: Straight ankle lock defence and escapes, taught by Jiu Jitsu Brotherhood.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vg-Luhls7yE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vg-Luhls7yE",
+      "url": "https://www.youtube.com/watch?v=vg-Luhls7yE",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Brotherhood" },
+      "duration": "PT164S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -185,6 +233,42 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 **From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Extraction (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CUnX7TOpb-A)
+
+<p class="clip-credit"><strong>Ankle lock escape by booting the foot free</strong> — taught by Ritchie Yip · 0:16 · <a href="https://www.youtube.com/watch?v=CUnX7TOpb-A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape: roll through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vg-Luhls7yE)
+
+<p class="clip-credit"><strong>Straight ankle lock defence and escapes</strong> — taught by Jiu Jitsu Brotherhood · 2:44 · <a href="https://www.youtube.com/watch?v=vg-Luhls7yE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -175,6 +175,43 @@ description: "Execute the Kimura from Butterfly Guard with precise grip mechanic
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Butterfly Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from guard, Marcelo Garcia version",
+      "description": "Kimura from Butterfly Guard (Attacker) film study: Kimura from guard, Marcelo Garcia version, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a52wxVLVkAY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a52wxVLVkAY",
+      "url": "https://www.youtube.com/watch?v=a52wxVLVkAY",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura from half guard bottom",
+      "description": "Kimura from Butterfly Guard (Attacker) film study: Kimura from half guard bottom, taught by Georges St-Pierre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dgYwflmcxKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dgYwflmcxKk",
+      "url": "https://www.youtube.com/watch?v=dgYwflmcxKk",
+      "creator": { "@type": "Person", "name": "Georges St-Pierre" },
+      "duration": "PT72S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -188,6 +225,34 @@ Attacking the Kimura from Butterfly Guard requires coordinating upper body grip 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Butterfly Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a52wxVLVkAY)
+
+<p class="clip-credit"><strong>Kimura from guard, Marcelo Garcia version</strong> — taught by Marcelo Garcia · 1:46 · <a href="https://www.youtube.com/watch?v=a52wxVLVkAY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dgYwflmcxKk)
+
+<p class="clip-credit"><strong>Kimura from half guard bottom</strong> — taught by Georges St-Pierre · 1:12 · <a href="https://www.youtube.com/watch?v=dgYwflmcxKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

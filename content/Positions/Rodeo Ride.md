@@ -34,6 +34,43 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rodeo Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The spiral ride: breaking the turtle",
+      "description": "Rodeo Ride film study: The spiral ride: breaking the turtle, taught by Big Guy BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XXnawMQEfKw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XXnawMQEfKw",
+      "url": "https://www.youtube.com/watch?v=XXnawMQEfKw",
+      "creator": { "@type": "Person", "name": "Big Guy BJJ" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rodeo choke from the ride",
+      "description": "Rodeo Ride film study: Rodeo choke from the ride, taught by Ethos Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6MhcPYISQDU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6MhcPYISQDU",
+      "url": "https://www.youtube.com/watch?v=6MhcPYISQDU",
+      "creator": { "@type": "Person", "name": "Ethos Jiu-Jitsu" },
+      "duration": "PT85S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ This position represents a critical transition state in the turtle attack game, 
 Rodeo Ride is particularly effective in both gi and no-gi contexts, though the specific control mechanisms differ. In gi, lapel and collar grips provide powerful control points, while no-gi variants rely more heavily on body positioning, underhooks, and seat belt control. The position has gained prominence in modern competition BJJ as a high-percentage path to back control and offers multiple submission opportunities including chokes from turtle and various arm attacks. The position's effectiveness lies in its transitional nature—practitioners who excel from Rodeo Ride understand it as a launching pad for attacks rather than a static holding position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rodeo Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XXnawMQEfKw)
+
+<p class="clip-credit"><strong>The spiral ride: breaking the turtle</strong> — taught by Big Guy BJJ · 1:13 · <a href="https://www.youtube.com/watch?v=XXnawMQEfKw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6MhcPYISQDU)
+
+<p class="clip-credit"><strong>Rodeo choke from the ride</strong> — taught by Ethos Jiu-Jitsu · 1:25 · <a href="https://www.youtube.com/watch?v=6MhcPYISQDU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,25 +202,25 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (50% of attempts)
+- **[[Transitions/Turtle to Guard/Attacker|Turtle to Guard]]** (11% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (12% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (11% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (11% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (9% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (8% of attempts)
 
-- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (3% of attempts)
+- **[[Transitions/Sit Through Escape/Attacker|Sit Through Escape]]** (12% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (2% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (11% of attempts)
 
-- **[[Transitions/Escape from Rodeo Ride/Attacker|Escape from Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Escape from Rodeo Ride/Attacker|Escape from Rodeo Ride]]** (10% of attempts)
 
-- **[[Transitions/Roll from Rodeo Ride/Attacker|Roll from Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Roll from Rodeo Ride/Attacker|Roll from Rodeo Ride]]** (6% of attempts)
 
-- **[[Transitions/Shake Off Rodeo Ride/Attacker|Shake Off Rodeo Ride]]** (2% of attempts)
+- **[[Transitions/Shake Off Rodeo Ride/Attacker|Shake Off Rodeo Ride]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -220,31 +285,31 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (28% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (16% of attempts)
 
-- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (13% of attempts)
+- **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (17% of attempts)
 
-- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (9% of attempts)
+- **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** (7% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (9% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (5% of attempts)
 
-- **[[Clock Choke from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (7% of attempts)
+- **[[Clock Choke from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (0% of attempts)
 
-- **[[Bow and Arrow Choke from Rodeo Ride/Attacker|Bow and Arrow Choke from Rodeo Ride]]** (6% of attempts)
+- **[[Bow and Arrow Choke from Rodeo Ride/Attacker|Bow and Arrow Choke from Rodeo Ride]]** (0% of attempts)
 
-- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (7% of attempts)
+- **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (5% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (6% of attempts)
+- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (5% of attempts)
 
 - **[[Transitions/Darce from Turtle/Attacker|Darce from Turtle]]** (5% of attempts)
 
-- **[[Transitions/Rodeo Ride to Back Control/Attacker|Rodeo Ride to Back Control]]** (2% of attempts)
+- **[[Transitions/Rodeo Ride to Back Control/Attacker|Rodeo Ride to Back Control]]** (20% of attempts)
 
-- **[[Transitions/Rodeo Ride to Turtle/Attacker|Rodeo Ride to Turtle]]** (2% of attempts)
+- **[[Transitions/Rodeo Ride to Turtle/Attacker|Rodeo Ride to Turtle]]** (6% of attempts)
 
-- **[[Calf Slicer from Rodeo Ride/Attacker|Calf Slicer from Rodeo Ride]]** (2% of attempts)
+- **[[Calf Slicer from Rodeo Ride/Attacker|Calf Slicer from Rodeo Ride]]** (5% of attempts)
 
-- **[[Rear Naked Choke from Rodeo/Attacker|Rear Naked Choke from Rodeo]]** (4% of attempts)
+- **[[Rear Naked Choke from Rodeo/Attacker|Rear Naked Choke from Rodeo]]** (9% of attempts)
 
 
 ### Common Mistakes

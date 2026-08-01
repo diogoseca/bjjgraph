@@ -174,6 +174,54 @@ description: "How to execute Back Control to Crucifix in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Crucifix (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 crucifix entries from the back",
+      "description": "Back Control to Crucifix (Attacker) film study: 3 crucifix entries from the back, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VEhXnr55SOU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VEhXnr55SOU",
+      "url": "https://www.youtube.com/watch?v=VEhXnr55SOU",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back control to crucifix choke",
+      "description": "Back Control to Crucifix (Attacker) film study: Back control to crucifix choke, taught by Jay jay19xx.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iwVX3CUXEKM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iwVX3CUXEKM",
+      "url": "https://www.youtube.com/watch?v=iwVX3CUXEKM",
+      "creator": { "@type": "Person", "name": "Jay jay19xx" },
+      "duration": "PT126S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back mount to crucifix and back again",
+      "description": "Back Control to Crucifix (Attacker) film study: Back mount to crucifix and back again, taught by Pendergrass Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/56LdXtFc_ek/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/56LdXtFc_ek",
+      "url": "https://www.youtube.com/watch?v=56LdXtFc_ek",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy" },
+      "duration": "PT176S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 **From Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Crucifix (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VEhXnr55SOU)
+
+<p class="clip-credit"><strong>3 crucifix entries from the back</strong> — taught by Jean Jacques Machado · 0:46 · <a href="https://www.youtube.com/watch?v=VEhXnr55SOU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iwVX3CUXEKM)
+
+<p class="clip-credit"><strong>Back control to crucifix choke</strong> — taught by Jay jay19xx · 2:06 · <a href="https://www.youtube.com/watch?v=iwVX3CUXEKM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=56LdXtFc_ek)
+
+<p class="clip-credit"><strong>Back mount to crucifix and back again</strong> — taught by Pendergrass Academy · 2:56 · <a href="https://www.youtube.com/watch?v=56LdXtFc_ek" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

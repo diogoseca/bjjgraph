@@ -168,6 +168,43 @@ description: "How to execute Kneebar from Grasshopper in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Grasshopper (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted guard to kneebar",
+      "description": "Kneebar from Grasshopper (Attacker) film study: Inverted guard to kneebar, taught by RKBJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4W6-SDBRPo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4W6-SDBRPo4",
+      "url": "https://www.youtube.com/watch?v=4W6-SDBRPo4",
+      "creator": { "@type": "Person", "name": "RKBJJ coach" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse closed guard leg attack entry",
+      "description": "Kneebar from Grasshopper (Attacker) film study: Reverse closed guard leg attack entry, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIMRbmpIjLc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIMRbmpIjLc",
+      "url": "https://www.youtube.com/watch?v=OIMRbmpIjLc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT72S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 **From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Grasshopper (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4W6-SDBRPo4)
+
+<p class="clip-credit"><strong>Inverted guard to kneebar</strong> — taught by RKBJJ coach · 1:07 · <a href="https://www.youtube.com/watch?v=4W6-SDBRPo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIMRbmpIjLc)
+
+<p class="clip-credit"><strong>Reverse closed guard leg attack entry</strong> — taught by Lachlan Giles · 1:12 · <a href="https://www.youtube.com/watch?v=OIMRbmpIjLc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

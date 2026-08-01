@@ -34,6 +34,54 @@ description: "Master re-guard recovery from Headquarters position in BJJ. System
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Re-Guard from Headquarters \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Retention basics: knee-elbow connection, knee cut response",
+      "description": "Re-Guard from Headquarters film study: Retention basics: knee-elbow connection, knee cut response, taught by Cal McDonald.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rP8SOouke1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rP8SOouke1s",
+      "url": "https://www.youtube.com/watch?v=rP8SOouke1s",
+      "creator": { "@type": "Person", "name": "Cal McDonald" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Re-Guard from Headquarters film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Recovering guard around the legs",
+      "description": "Re-Guard from Headquarters film study: Recovering guard around the legs, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The essence of re-guarding from Headquarters lies in creating distance and frame
 Successful re-guarding from this position is fundamental to maintaining a strong defensive game. The ability to recover guard when a pass is nearly complete separates intermediate practitioners from advanced competitors. This technique builds upon fundamental concepts of guard retention, framing mechanics, and hip escape principles while requiring precise timing and spatial awareness to execute against resisting opponents.
 
 **From Position**: [[Positions/Headquarters Position]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 42%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Re-Guard from Headquarters in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rP8SOouke1s)
+
+<p class="clip-credit"><strong>Retention basics: knee-elbow connection, knee cut response</strong> — taught by Cal McDonald · 0:57 · <a href="https://www.youtube.com/watch?v=rP8SOouke1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Recovering guard around the legs</strong> — taught by Absolute MMA St Kilda · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

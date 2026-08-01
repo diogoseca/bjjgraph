@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Guillotine Control/Top",
-      "probability": 70,
+      "probability": {
+        "gi": 70,
+        "nogi": 70
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "When an opponent collapses into turtle to deny back exposure, they unwittingly surrender the front of their neck, and the guillotine is the most direct punishment for that trade-off. Because turtle defense concentrates on preventing hook insertion and harness control, the head and neck remain accessible to a top player who knows how to convert back-attack threats into a front headlock entry. This transition therefore sits at a critical junction in modern grappling, where the top player must decide between hunting the back and committing to a front headlock submission.\n\nThe guillotine from turtle creates a true dilemma for the bottom player: defend the back or defend the neck. The technique requires precise timing, proper grip mechanics, and a clear understanding of when to finish from standing versus when to pull guard. Its success rate climbs dramatically with disciplined setup and grip configuration, making it one of the most reliable submissions available from turtle top. Mastering it is essential for anyone building a complete top game, because it turns the opponent's defensive shell into an offensive opportunity rather than a stalemate.",
   "conditions": [
     "Opponent is in bottom turtle position with head accessible from the front or side",
@@ -246,46 +258,175 @@
     "flashcards": [
       {
         "question": "What is the primary control position you must establish before attempting the guillotine from turtle?",
-        "answer": "Front headlock position with your chest driving into opponent's upper back, arm wrapped around neck with armpit tight to their head, and control of their far shoulder to prevent rotation. This dominant position must be secured before threading deeper for the choke grip."
+        "answer": "Front headlock position with your chest driving into opponent's upper back, arm wrapped around neck with armpit tight to their head, and control of their far shoulder to prevent rotation. This dominant position must be secured before threading deeper for the choke grip.",
+        "answer_line": "Front headlock, control far shoulder",
+        "distractors": {
+          "plausible": [
+            "Just secure a tight neck grip",
+            "Underhook first, headlock second"
+          ],
+          "trap": [
+            "Stand up immediately to attack"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's far shoulder critical during the guillotine setup from turtle?",
-        "answer": "Controlling the far shoulder prevents the opponent from rotating away from your choke, which is one of the highest-percentage escapes from front headlock position. Without this control, the opponent can turn their body perpendicular to you and escape to their guard or standing position, completely nullifying your attack."
+        "answer": "Controlling the far shoulder prevents the opponent from rotating away from your choke, which is one of the highest-percentage escapes from front headlock position. Without this control, the opponent can turn their body perpendicular to you and escape to their guard or standing position, completely nullifying your attack.",
+        "answer_line": "Stops him rotating out to guard",
+        "distractors": {
+          "plausible": [
+            "Keeps his hips pinned down",
+            "Stops him posturing upward"
+          ],
+          "trap": [
+            "Free your grip to switch sides"
+          ]
+        }
       },
       {
         "question": "What are the two main finishing options for guillotine from turtle and when should you choose each?",
-        "answer": "Standing finish should be used when opponent remains stationary and flat in turtle, allowing you to stand and finish with hip thrust and arching pressure. Guard pull finish should be used when opponent attempts to roll, stand, or create movement that threatens your standing base. The decision is made based on opponent's reaction within 2-3 seconds of securing the grip."
+        "answer": "Standing finish should be used when opponent remains stationary and flat in turtle, allowing you to stand and finish with hip thrust and arching pressure. Guard pull finish should be used when opponent attempts to roll, stand, or create movement that threatens your standing base. The decision is made based on opponent's reaction within 2-3 seconds of securing the grip.",
+        "answer_line": "Stand if still, pull guard if moving",
+        "distractors": {
+          "plausible": [
+            "Always finish standing up",
+            "Pull guard immediately every time"
+          ],
+          "trap": [
+            "Let go and reset to neutral"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent tucks their chin and turns into you during the guillotine setup?",
-        "answer": "Switch to high elbow guillotine variation using their turn to deepen your grip position, or transition to anaconda or darce choke as their shoulder becomes exposed during the turn. Never force a defended position; flow to the opening their defense creates."
+        "answer": "Switch to high elbow guillotine variation using their turn to deepen your grip position, or transition to anaconda or darce choke as their shoulder becomes exposed during the turn. Never force a defended position; flow to the opening their defense creates.",
+        "answer_line": "Switch to high elbow or darce",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder through defense",
+            "Switch straight to back take"
+          ],
+          "trap": [
+            "Yank neck without repositioning"
+          ]
+        }
       },
       {
         "question": "What is the most common grip depth error when attempting guillotine from turtle and how does it compromise the technique?",
-        "answer": "Gripping too shallow around the face instead of deep under the chin. This creates a crank rather than a choke, has low finish rate, high injury risk, and allows opponent to escape by turning their head. The correction is ensuring your wrist reaches the opposite side of neck before locking grip, or transitioning to a different attack if depth cannot be achieved."
+        "answer": "Gripping too shallow around the face instead of deep under the chin. This creates a crank rather than a choke, has low finish rate, high injury risk, and allows opponent to escape by turning their head. The correction is ensuring your wrist reaches the opposite side of neck before locking grip, or transitioning to a different attack if depth cannot be achieved.",
+        "answer_line": "Wrist past far side of the neck",
+        "distractors": {
+          "plausible": [
+            "Squeeze elbows before hands lock",
+            "Pull the chin up with the palm"
+          ],
+          "trap": [
+            "Fall back cranking a shallow grip"
+          ]
+        }
       },
       {
         "question": "When pulling guard to finish the guillotine from turtle, what angle and position should your body take?",
-        "answer": "Angle your body 45 degrees away from your choking arm side while crunching your abs and using your legs to pull opponent's hips close. This angle prevents opponent from posturing and creates optimal leverage for the choke. Your legs must be active throughout, eliminating space between your bodies and breaking their posture continuously."
+        "answer": "Angle your body 45 degrees away from your choking arm side while crunching your abs and using your legs to pull opponent's hips close. This angle prevents opponent from posturing and creates optimal leverage for the choke. Your legs must be active throughout, eliminating space between your bodies and breaking their posture continuously.",
+        "answer_line": "Angle 45 degrees, pull hips close",
+        "distractors": {
+          "plausible": [
+            "Stay square, pull hips close",
+            "Angle 45 degrees, keep legs passive"
+          ],
+          "trap": [
+            "Posture up to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip and begins extending to create distance during the guillotine setup. How do you adjust?",
-        "answer": "Use your free hand to strip their posting arm away from your hip while simultaneously driving your chest pressure forward to collapse the space they are trying to create. If their arm becomes trapped inside your grip during this exchange, immediately transition to arm-in guillotine variation which eliminates their hand-fighting defense entirely. Never allow the posting hand to remain unchecked."
+        "answer": "Use your free hand to strip their posting arm away from your hip while simultaneously driving your chest pressure forward to collapse the space they are trying to create. If their arm becomes trapped inside your grip during this exchange, immediately transition to arm-in guillotine variation which eliminates their hand-fighting defense entirely. Never allow the posting hand to remain unchecked.",
+        "answer_line": "Strip the post, drive chest in",
+        "distractors": {
+          "plausible": [
+            "Ignore the post, finish choke fast",
+            "Pin the posting hand, wait it out"
+          ],
+          "trap": [
+            "Back off to create room"
+          ]
+        }
       },
       {
         "question": "What determines your grip configuration choice between palm-to-palm, gable grip, and ten-finger interlace for the guillotine from turtle?",
-        "answer": "Palm-to-palm grip suits high elbow variation when opponent tucks chin, providing the wrist angle to attack behind the jaw. Gable grip provides maximum squeeze power for standard guillotine when you have deep placement across the throat. Ten-finger interlace offers the strongest grip security against hand fighters and works best when transitioning to guard pull finish. Choose based on arm depth, opponent's primary defense, and your intended finishing position."
+        "answer": "Palm-to-palm grip suits high elbow variation when opponent tucks chin, providing the wrist angle to attack behind the jaw. Gable grip provides maximum squeeze power for standard guillotine when you have deep placement across the throat. Ten-finger interlace offers the strongest grip security against hand fighters and works best when transitioning to guard pull finish. Choose based on arm depth, opponent's primary defense, and your intended finishing position.",
+        "answer_line": "Match grip to depth and defense",
+        "distractors": {
+          "plausible": [
+            "Always use gable for max power",
+            "Ten-finger works for every setup"
+          ],
+          "trap": [
+            "Keep switching grips mid squeeze"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully strips your guillotine grip while you are in turtle top. What is the correct attack chain from this position?",
-        "answer": "Immediately transition to back take by using the remaining front headlock contact to circle behind the opponent and establish seatbelt control. If they turn toward you during the grip strip, attack the crucifix by trapping the arm they used to strip your grip. If they flatten out, switch to anaconda or darce choke using the arm that was already around their neck. The key principle is that losing the guillotine grip should trigger an immediate secondary attack, never a reset to neutral."
+        "answer": "Immediately transition to back take by using the remaining front headlock contact to circle behind the opponent and establish seatbelt control. If they turn toward you during the grip strip, attack the crucifix by trapping the arm they used to strip your grip. If they flatten out, switch to anaconda or darce choke using the arm that was already around their neck. The key principle is that losing the guillotine grip should trigger an immediate secondary attack, never a reset to neutral.",
+        "answer_line": "Chain instantly to a new attack",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral turtle position",
+            "Retry the same guillotine grip"
+          ],
+          "trap": [
+            "Release contact and back away"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the guillotine from turtle, and what signals indicate the window is open?",
-        "answer": "The optimal window opens when the opponent first settles into turtle after a guard pass or scramble, before they begin active escape sequences. Key signals include: opponent pauses momentarily to reorganize their base, opponent lifts their head slightly to assess positioning, or opponent reaches a hand out to post during a direction change. The first 3-5 seconds of turtle establishment offer the highest-percentage entry because defensive grips and escape patterns have not yet been initiated."
+        "answer": "The optimal window opens when the opponent first settles into turtle after a guard pass or scramble, before they begin active escape sequences. Key signals include: opponent pauses momentarily to reorganize their base, opponent lifts their head slightly to assess positioning, or opponent reaches a hand out to post during a direction change. The first 3-5 seconds of turtle establishment offer the highest-percentage entry because defensive grips and escape patterns have not yet been initiated.",
+        "answer_line": "Attack in first 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait until opponent fully settles",
+            "Attack after they post a hand"
+          ],
+          "trap": [
+            "Wait for them to stand up first"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The guillotine from turtle requires careful application in training to prevent neck injuries. Always apply pressure progressively over 3-5 seconds minimum, never explosively or with jerking motions. Partners must have clear communication and immediate tap protocol established before drilling. The choke should target the blood vessels in the neck, not create pressure on the spine or trachea. Practitioners should avoid applying guillotines to partners with known neck injuries or conditions. When drilling, use controlled resistance and stop immediately at tap. Beginners should focus on position and grip mechanics before applying finishing pressure. In competition, be aware that guillotines can transition to dangerous positions if opponent rolls, so maintain awareness of your own neck safety. If you feel pain rather than pressure in your neck as the defender, tap immediately—never try to tough out neck pain. Training partners should agree on intensity levels before each round, and white belts should only practice this technique under direct instructor supervision."
+    "safety_considerations": "The guillotine from turtle requires careful application in training to prevent neck injuries. Always apply pressure progressively over 3-5 seconds minimum, never explosively or with jerking motions. Partners must have clear communication and immediate tap protocol established before drilling. The choke should target the blood vessels in the neck, not create pressure on the spine or trachea. Practitioners should avoid applying guillotines to partners with known neck injuries or conditions. When drilling, use controlled resistance and stop immediately at tap. Beginners should focus on position and grip mechanics before applying finishing pressure. In competition, be aware that guillotines can transition to dangerous positions if opponent rolls, so maintain awareness of your own neck safety. If you feel pain rather than pressure in your neck as the defender, tap immediately—never try to tough out neck pain. Training partners should agree on intensity levels before each round, and white belts should only practice this technique under direct instructor supervision.",
+    "clips": [
+      {
+        "id": "6mHJ8Mh6fDs",
+        "title": "High elbow guillotine from front turtle",
+        "by": "Michael Hoffman",
+        "vertical": false,
+        "channel": "Michael Hoffman",
+        "duration": 22,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mw5qLLzjay4",
+        "title": "Guillotine choke from turtle",
+        "by": "Cavalo Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Cavalo Jiu-Jitsu",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bVNnVVnAWnU",
+        "title": "Arm-in guillotine attacking the front headlock",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 35,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guillotine from Turtle Defender",
@@ -371,23 +512,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a guillotine from turtle is being attempted, and what should your immediate response be?",
-        "answer": "The earliest cue is the attacker's weight shifting from behind you toward your head and shoulder area, with their chest pressure migrating from your lower back to your upper back. Your immediate response must be to aggressively tuck your chin to your chest and rotate your near shoulder toward where you feel the arm threading. This pre-emptive chin tuck and rotation must become a trained reflex, not a conscious decision, because the window for effective prevention is only 1-2 seconds."
+        "answer": "The earliest cue is the attacker's weight shifting from behind you toward your head and shoulder area, with their chest pressure migrating from your lower back to your upper back. Your immediate response must be to aggressively tuck your chin to your chest and rotate your near shoulder toward where you feel the arm threading. This pre-emptive chin tuck and rotation must become a trained reflex, not a conscious decision, because the window for effective prevention is only 1-2 seconds.",
+        "answer_line": "Tuck chin, rotate shoulder in",
+        "distractors": {
+          "plausible": [
+            "Push hips back to create space",
+            "Wait to feel the arm around neck"
+          ],
+          "trap": [
+            "Look up to see what's happening"
+          ]
+        }
       },
       {
         "question": "Why is the two-on-one grip strip the preferred hand fighting technique against the guillotine setup, and what is the correct timing?",
-        "answer": "Two-on-one is preferred because a single hand rarely generates sufficient force to break a committed guillotine grip, while two hands on the choking wrist creates a decisive mechanical advantage. The correct timing is after the attacker threads their arm around your neck but before they connect their hands together to consolidate the grip. This window is typically 2-4 seconds. Both hands grab the choking wrist and pull it forward and away from your neck while you simultaneously drive your head through to the opposite side."
+        "answer": "Two-on-one is preferred because a single hand rarely generates sufficient force to break a committed guillotine grip, while two hands on the choking wrist creates a decisive mechanical advantage. The correct timing is after the attacker threads their arm around your neck but before they connect their hands together to consolidate the grip. This window is typically 2-4 seconds. Both hands grab the choking wrist and pull it forward and away from your neck while you simultaneously drive your head through to the opposite side.",
+        "answer_line": "Two hands strip wrist, head through",
+        "distractors": {
+          "plausible": [
+            "One hand strips before it locks",
+            "Two hands strip after it locks"
+          ],
+          "trap": [
+            "Pull your own head straight back"
+          ]
+        }
       },
       {
         "question": "Your opponent has a shallow guillotine grip and is attempting to stand for the finish. What is the correct defensive sequence?",
-        "answer": "With a shallow grip that has not achieved deep placement across the throat, their standing creates an opportunity rather than increasing danger. As they begin to stand, immediately hand fight the choking wrist with both hands while stepping your near leg forward to base out. Drive your head into their chest to prevent them from creating the arching pressure needed to finish. If you can break their posture by driving forward into them as they stand, the shallow grip will fail and you can recover to a neutral standing position or pull them into your guard."
+        "answer": "With a shallow grip that has not achieved deep placement across the throat, their standing creates an opportunity rather than increasing danger. As they begin to stand, immediately hand fight the choking wrist with both hands while stepping your near leg forward to base out. Drive your head into their chest to prevent them from creating the arching pressure needed to finish. If you can break their posture by driving forward into them as they stand, the shallow grip will fail and you can recover to a neutral standing position or pull them into your guard.",
+        "answer_line": "Hand fight wrist, drive head in",
+        "distractors": {
+          "plausible": [
+            "Pull guard immediately to escape",
+            "Grab their legs to off-balance them"
+          ],
+          "trap": [
+            "Posture straight up against pull"
+          ]
+        }
       },
       {
         "question": "When is a granby roll escape appropriate against the guillotine from turtle, and when does it become dangerous?",
-        "answer": "The granby roll is appropriate when the attacker's weight is committed forward and high on your back during the base-breaking phase, because their forward commitment prevents them from following your rotation. It becomes dangerous when the attacker has a deep, consolidated grip and is not committed forward, because rolling while a tight grip is locked feeds your neck directly into the choke. The test is whether you feel their weight driving forward or whether they are sitting back and squeezing. Forward weight means roll; sitting back means hand fight the grip instead."
+        "answer": "The granby roll is appropriate when the attacker's weight is committed forward and high on your back during the base-breaking phase, because their forward commitment prevents them from following your rotation. It becomes dangerous when the attacker has a deep, consolidated grip and is not committed forward, because rolling while a tight grip is locked feeds your neck directly into the choke. The test is whether you feel their weight driving forward or whether they are sitting back and squeezing. Forward weight means roll; sitting back means hand fight the grip instead.",
+        "answer_line": "Roll only if their weight is forward",
+        "distractors": {
+          "plausible": [
+            "Roll whenever grip feels tight",
+            "Roll only if grip is shallow"
+          ],
+          "trap": [
+            "Roll when they sit back and squeeze"
+          ]
+        }
       },
       {
         "question": "After successfully defending the guillotine attempt and returning to turtle, what should your immediate positional priority be?",
-        "answer": "Your immediate priority after defending the guillotine is to begin an active escape from turtle, not to rest in the defensive shell. The attacker will immediately attempt a secondary attack such as back take, crucifix entry, or re-attempt the guillotine from a different angle. You should use the momentum from your successful defense to chain directly into a guard recovery technique such as granby roll to closed guard, sit-through to half guard, or technical standup. Remaining static in turtle after defending the guillotine gives the attacker time to reset and attack again."
+        "answer": "Your immediate priority after defending the guillotine is to begin an active escape from turtle, not to rest in the defensive shell. The attacker will immediately attempt a secondary attack such as back take, crucifix entry, or re-attempt the guillotine from a different angle. You should use the momentum from your successful defense to chain directly into a guard recovery technique such as granby roll to closed guard, sit-through to half guard, or technical standup. Remaining static in turtle after defending the guillotine gives the attacker time to reset and attack again.",
+        "answer_line": "Escape turtle immediately",
+        "distractors": {
+          "plausible": [
+            "Wait to counter their next attack",
+            "Rebuild grips before moving"
+          ],
+          "trap": [
+            "Stay coiled in the tight shell"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -410,6 +601,35 @@
         "phase": "Phase 4: Live Positional Sparring (Weeks 9+)",
         "focus": "Applying defensive skills under full resistance in realistic scenarios",
         "description": "Positional sparring starting from turtle with partner hunting guillotine as primary attack. Defender wins by escaping to guard or standing. Attacker wins by establishing guillotine control or submitting. Full resistance with progressive intensity increases. Develop ability to recognize and defend guillotine attempts while simultaneously working other turtle escape sequences. Review and refine weak points after each round."
+      }
+    ],
+    "clips": [
+      {
+        "id": "nGpAcI79frk",
+        "title": "Positional check against the guillotine",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 116,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing guillotine escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a7L1JP7_rgE",
+        "title": "Front headlock choke defense: guillotine escape",
+        "by": "Peter Mettler",
+        "vertical": false,
+        "channel": "Peter Mettler Martial Arts",
+        "duration": 153,
+        "verified": "2026-07-15"
       }
     ]
   },

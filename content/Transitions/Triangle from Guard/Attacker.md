@@ -174,6 +174,54 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle setup from guard",
+      "description": "Triangle from Guard (Attacker) film study: Triangle setup from guard, taught by Conceptual Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MUU_eXZkz38/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MUU_eXZkz38",
+      "url": "https://www.youtube.com/watch?v=MUU_eXZkz38",
+      "creator": { "@type": "Person", "name": "Conceptual Grappling" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard triangle entry",
+      "description": "Triangle from Guard (Attacker) film study: Closed guard triangle entry, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8zbp7hnlWcc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8zbp7hnlWcc",
+      "url": "https://www.youtube.com/watch?v=8zbp7hnlWcc",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT95S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Triangle choke from the overhook entry",
+      "description": "Triangle from Guard (Attacker) film study: Triangle choke from the overhook entry, taught by CVL BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VOSpG7nYd5A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VOSpG7nYd5A",
+      "url": "https://www.youtube.com/watch?v=VOSpG7nYd5A",
+      "creator": { "@type": "Person", "name": "CVL BJJ" },
+      "duration": "PT112S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 **From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MUU_eXZkz38)
+
+<p class="clip-credit"><strong>Triangle setup from guard</strong> — taught by Conceptual Grappling · 1:14 · <a href="https://www.youtube.com/watch?v=MUU_eXZkz38" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8zbp7hnlWcc)
+
+<p class="clip-credit"><strong>Closed guard triangle entry</strong> — taught by Clark Gracie · 1:35 · <a href="https://www.youtube.com/watch?v=8zbp7hnlWcc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VOSpG7nYd5A)
+
+<p class="clip-credit"><strong>Triangle choke from the overhook entry</strong> — taught by CVL BJJ · 1:52 · <a href="https://www.youtube.com/watch?v=VOSpG7nYd5A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

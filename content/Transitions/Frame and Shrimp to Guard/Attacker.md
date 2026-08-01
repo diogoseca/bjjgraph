@@ -168,6 +168,43 @@ description: "How to execute Frame and Shrimp to Guard in BJJ. Attacking perspec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame and Shrimp to Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Recovering guard when you are getting smashed",
+      "description": "Frame and Shrimp to Guard (Attacker) film study: Recovering guard when you are getting smashed, taught by Finesse Jiujitsu HTX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
+      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
+      "creator": { "@type": "Person", "name": "Finesse Jiujitsu HTX" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Frame and Shrimp to Guard (Attacker) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ From a strategic perspective, Frame and Shrimp to Guard serves as your first lin
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame and Shrimp to Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhNZGloJ56c)
+
+<p class="clip-credit"><strong>Recovering guard when you are getting smashed</strong> — taught by Finesse Jiujitsu HTX · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

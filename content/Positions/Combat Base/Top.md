@@ -21,31 +21,31 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slide from Combat Base",
-      "text": "From this position, attempt Knee Slide from Combat Base. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slide from Combat Base. This technique is attempted in 21% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Combat Base to Headquarters",
-      "text": "From this position, attempt Combat Base to Headquarters. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Combat Base to Headquarters. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
@@ -153,6 +153,43 @@ description: "Master Combat Base in BJJ. Essential guard passing platform with 7
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Combat Base (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee cut staple-switch pass",
+      "description": "Combat Base (Top) film study: Knee cut staple-switch pass, taught by Combat Room BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mQK4ZCqJ1OA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mQK4ZCqJ1OA",
+      "url": "https://www.youtube.com/watch?v=mQK4ZCqJ1OA",
+      "creator": { "@type": "Person", "name": "Combat Room BJJ" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee slice pass from combat base",
+      "description": "Combat Base (Top) film study: Knee slice pass from combat base, taught by 5th Element BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yPxcNpuyr0w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yPxcNpuyr0w",
+      "url": "https://www.youtube.com/watch?v=yPxcNpuyr0w",
+      "creator": { "@type": "Person", "name": "5th Element BJJ" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ Combat Base represents the critical transition point between simply being inside
 Mastery of Combat Base is essential for all guard passing systems, as it forms the foundation from which techniques like the Toreando Pass, Knee Slice Pass, and Long Step Pass are initiated. The position emphasizes proper weight distribution through the posted knee and planted foot, active hand positioning to control the opponent's hips and legs, and dynamic posture that can shift between offensive pressure and defensive structure. Understanding Combat Base mechanics is crucial for developing a well-rounded top game and effective guard passing strategy.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Combat Base (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mQK4ZCqJ1OA)
+
+<p class="clip-credit"><strong>Knee cut staple-switch pass</strong> — taught by Combat Room BJJ · 1:09 · <a href="https://www.youtube.com/watch?v=mQK4ZCqJ1OA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yPxcNpuyr0w)
+
+<p class="clip-credit"><strong>Knee slice pass from combat base</strong> — taught by 5th Element BJJ · 2:23 · <a href="https://www.youtube.com/watch?v=yPxcNpuyr0w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

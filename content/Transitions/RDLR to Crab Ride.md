@@ -34,6 +34,54 @@ description: "Master RDLR to Crab Ride in BJJ. Complete guide covering inversion
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "RDLR to Crab Ride \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "DLR to crab ride back take",
+      "description": "RDLR to Crab Ride film study: DLR to crab ride back take, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y6fBPjHzfv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y6fBPjHzfv4",
+      "url": "https://www.youtube.com/watch?v=Y6fBPjHzfv4",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva to crab ride back take, basics",
+      "description": "RDLR to Crab Ride film study: De La Riva to crab ride back take, basics, taught by PTT Chilliwack.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A1QAE6FNr1c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/A1QAE6FNr1c",
+      "url": "https://www.youtube.com/watch?v=A1QAE6FNr1c",
+      "creator": { "@type": "Person", "name": "PTT Chilliwack" },
+      "duration": "PT180S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse De La Riva to crab ride via inversion",
+      "description": "RDLR to Crab Ride film study: Reverse De La Riva to crab ride via inversion, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a8wrADdyZPA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/a8wrADdyZPA",
+      "url": "https://www.youtube.com/watch?v=a8wrADdyZPA",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT229S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, this transition excels against opponents who have developed stron
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch RDLR to Crab Ride in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y6fBPjHzfv4)
+
+<p class="clip-credit"><strong>DLR to crab ride back take</strong> — taught by Moncaio Brothers · 0:28 · <a href="https://www.youtube.com/watch?v=Y6fBPjHzfv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=A1QAE6FNr1c)
+
+<p class="clip-credit"><strong>De La Riva to crab ride back take, basics</strong> — taught by PTT Chilliwack · 3:00 · <a href="https://www.youtube.com/watch?v=A1QAE6FNr1c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=a8wrADdyZPA)
+
+<p class="clip-credit"><strong>Reverse De La Riva to crab ride via inversion</strong> — taught by Kameron Ross · 3:49 · <a href="https://www.youtube.com/watch?v=a8wrADdyZPA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

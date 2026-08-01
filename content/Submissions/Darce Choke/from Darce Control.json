@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Darce Control",
   "from_position": "Darce Control/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Darce Choke from Darce Control represents the finishing phase of one of the most effective arm-triangle variations in modern grappling. Unlike entries from scrambles or turtle where the attacker must simultaneously establish control and threaten the choke, executing from an already-secured Darce Control position allows the attacker to focus entirely on grip refinement, hip placement, and progressive compression. The position-specific advantage lies in having the opponent's posture already broken and arm already trapped, eliminating two of the three major defensive windows.\n\nThe finishing mechanics hinge on three coordinated actions: deepening the choking arm so the blade of the forearm sits directly across the carotid arteries, dropping the hip to the mat on the choking side to create a structural wedge, and driving shoulder pressure forward to close the remaining space around the neck. The figure-four grip transforms the arms into a self-tightening noose where any defensive movement by the opponent actually increases compression. Timing the hip drop with the grip lock is the critical skill that separates reliable finishers from those who stall in the control position.\n\nFrom a strategic standpoint, the Darce finish from established control carries a high completion rate because the opponent's defensive options are already limited. The primary defensive window occurs before the hip drop—once the attacker commits their weight to the mat and extends through the choking structure, the submission becomes extremely difficult to escape. This makes recognizing and executing the transition from control to finish one of the most important skills in the front headlock attack chain.",
   "safety_considerations": {
     "injury_risks": [
@@ -112,17 +115,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Darce Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -290,42 +302,142 @@
       {
         "question": "What anatomical structures does the Darce Choke primarily target and how does the arm-in configuration create compression?",
         "answer": "The Darce Choke targets both carotid arteries simultaneously through bilateral compression. The choking arm's forearm blade presses against the near-side carotid, while opponent's own trapped shoulder is driven into the far-side carotid by the figure-four grip and shoulder pressure. The arm-in configuration is essential because the opponent's trapped arm acts as a spacer that wedges their shoulder into the far-side artery—without the trapped arm, the choke loses half its compression mechanism.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Trachea/windpipe compression",
+            "Only near-side carotid pressure"
+          ],
+          "trap": [
+            "Crank the neck sideways"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pulling their trapped arm free while you are setting up the finish—what adjustment prevents the escape?",
         "answer": "Immediately pinch your elbows tighter together and increase chest-to-back connection to eliminate the space needed for extraction. Drive your shoulder pressure deeper into the side of their head to flatten them and reduce their mechanical ability to pull. If the arm is partially extracted, quickly transition to an anaconda grip by re-threading your arm over instead of under, or switch to a standard arm triangle if you can capture their arm on the other side of their neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pinch elbows, close the gap",
+        "distractors": {
+          "plausible": [
+            "Grip harder with hands only",
+            "Speed up the finish"
+          ],
+          "trap": [
+            "Let go and re-secure grip"
+          ]
+        }
       },
       {
         "question": "Why is the hip drop the critical mechanical action in the Darce finish, and what happens if you skip it?",
         "answer": "The hip drop converts the choke from an arm-strength squeeze into a structural compression using your entire body weight. When your hip contacts the mat on the choking side, your body becomes a wedge that drives the choking structure closed through gravitational force and skeletal alignment rather than muscular effort. Without the hip drop, you rely solely on arm strength, which fatigues within 15-20 seconds and produces insufficient pressure against opponents with strong necks and good chin-tuck defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Uses bodyweight, not just arms",
+        "distractors": {
+          "plausible": [
+            "Adds extra arm strength",
+            "Speeds up the squeeze"
+          ],
+          "trap": [
+            "Stand up for leverage"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the Darce Choke, and how fast does unconsciousness occur?",
         "answer": "The Darce Choke compresses both carotid arteries simultaneously, which can cause unconsciousness in as little as 4-6 seconds once the choke is fully locked. Apply pressure progressively over 3-5 seconds to allow tap recognition. Never jerk or spike the choke. Watch for all tap signals including verbal, hand tap, foot tap, and body going limp. Release immediately upon any signal by unclamping hands first, then removing shoulder pressure. If a training partner loses consciousness, place them in recovery position and monitor breathing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "4-6 seconds; build pressure slowly",
+        "distractors": {
+          "plausible": [
+            "20-30 seconds; gradual fade",
+            "Compresses the windpipe, not blood"
+          ],
+          "trap": [
+            "Jerk it tight to finish fast"
+          ]
+        }
       },
       {
         "question": "How should you release the Darce Choke after your training partner taps?",
         "answer": "Release by first unclamping your hands to break the figure-four grip structure, then removing shoulder pressure from the neck. Extract your choking arm slowly—do not yank it out, as sudden removal can jerk the cervical spine. Allow your partner to recover in a seated or supine position. Monitor them for 30 seconds for signs of dizziness, disorientation, or delayed effects. If unconsciousness occurred at any point, keep their airway clear and seek medical evaluation even if they appear to recover quickly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Unclamp grip, ease arm out slowly",
+        "distractors": {
+          "plausible": [
+            "Peel shoulder off before the hands",
+            "Sit them up, skip the 30s watch"
+          ],
+          "trap": [
+            "Yank the choking arm straight out"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin hard and the choke stalls—what adjustments can you make to complete the finish?",
         "answer": "A committed chin tuck blocks forearm penetration to the carotid arteries. First, verify your grip depth—if shallow, re-swim the arm deeper before re-attempting. If depth is correct, increase shoulder pressure perpendicular to their spine to force the head to turn, which opens the neck. Walk your hips further around toward their head to change the compression angle. If the chin tuck holds, transition to positional advancement (mount or north-south) rather than forcing a stalled choke, then re-attack from the improved position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deepen grip, turn head, advance",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder, same angle",
+            "Wait for them to tire out"
+          ],
+          "trap": [
+            "Crank the neck to break tuck"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the defender, and how do you recognize when the finish is secured?",
         "answer": "The point of no escape occurs when the hip drop is complete, elbows are pinched, and body extension begins. At this stage, the structural compression is self-reinforcing—any defensive movement by the opponent tightens the choke further. You recognize the secured finish by feeling opponent's body relax slightly as their defensive frames collapse, their breathing becomes labored or stops, and their attempts to extract the trapped arm weaken noticeably. The choke is mechanically locked when you can feel both carotid pulses diminishing through your forearm contact.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip drop done, elbows pinched",
+        "distractors": {
+          "plausible": [
+            "Hands feel locked together",
+            "Your chest is off their back"
+          ],
+          "trap": [
+            "Ease pressure to check grip"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending the Darce aggressively and the referee is watching for stalling—what is your finishing strategy?",
         "answer": "In competition, commit to a decisive 15-second finishing window. Start by verifying grip depth, then execute the hip walk and hip drop as one explosive sequence rather than incrementally. If the choke is not producing defensive panic within 8 seconds of the hip drop, immediately transition to mount (step over) or back control (follow their escape direction) to score points and create new submission opportunities. Stalling in a stalled Darce burns clock and energy with no return. The threat of positional advancement often breaks the defensive shell more effectively than prolonged squeezing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "8s window, then advance position",
+        "distractors": {
+          "plausible": [
+            "Squeeze longer for the tap",
+            "Reset grip repeatedly"
+          ],
+          "trap": [
+            "Hold position, absorb stall call"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "ukb_hx28qsM",
+        "title": "Side Control D'Arce Choke (No Gi)",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 74,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "22EYQ2uhxQw",
+        "title": "Side control to north-south D'Arce",
+        "by": "Gracie Westchase",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 75,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -418,22 +530,62 @@
       {
         "question": "How do you recognize that your opponent is initiating the Darce Choke finish from Darce Control?",
         "answer": "The key recognition cues are: opponent begins walking their hips toward the choking-arm side (moving from parallel to perpendicular), grip pressure increases noticeably as they pinch their elbows together, shoulder pressure intensifies as they drive weight forward into the side of your head, and their hip begins dropping toward the mat. The hip walk is usually the first detectable signal and provides the widest escape window—once the hip drops, your options narrow dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip walk toward choking arm",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in breathing",
+            "Opponent switches base only"
+          ],
+          "trap": [
+            "Wait for the squeeze to react"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Darce Choke to ensure safety in training?",
         "answer": "Tap immediately when you feel bilateral carotid compression with no active escape in progress. Specifically, if the attacker has completed the hip drop, locked the figure-four, and begun body extension while your arm remains trapped and you have no frame established, tap without hesitation. Blood chokes can cause unconsciousness in 4-6 seconds from full lock. In training, tap early and tap often—there is no training benefit to losing consciousness, and the positional learning comes from the escape attempts, not from enduring the finish.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at full lock with no frame",
+        "distractors": {
+          "plausible": [
+            "Tap as arms wrap the neck",
+            "Escape first, tap only if stuck"
+          ],
+          "trap": [
+            "Wait until you feel light-headed"
+          ]
+        }
       },
       {
         "question": "What is the highest-percentage defensive response when you feel the Darce grip tightening?",
         "answer": "Arm extraction is the highest-percentage defense because it removes the structural element that makes the Darce choke functional. Use your free hand to grip your trapped arm at the wrist or forearm and pull it toward your centerline while simultaneously turning your body into the attacker. The turn reduces compression angle while the pull works to slide the arm out of the choke loop. This must be initiated before the hip drop—once the attacker's hip hits the mat, the compression makes arm extraction extremely difficult.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extract arm before hip drop",
+        "distractors": {
+          "plausible": [
+            "Grip fight their hands only",
+            "Bridge and try to sit up"
+          ],
+          "trap": [
+            "Pull head away, extend neck"
+          ]
+        }
       },
       {
         "question": "Why does moving away from the Darce Choke make it tighter, and what should you do instead?",
         "answer": "Moving away elongates your neck in the direction of maximum compression—the choking arm acts as an anchor while your body movement stretches the carotid arteries against the forearm blade. Instead, turn your body toward the attacker, which shortens the distance between your shoulder and head, reducing the space available for the forearm to compress. Simultaneously tuck your chin to block deeper forearm penetration. Moving into the choke feels counterintuitive but is biomechanically correct for reducing compression and creating extraction angles.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Grip fight their hands only",
+            "Stay flat and wait it out"
+          ],
+          "trap": [
+            "Arch back, push hips away"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -456,6 +608,35 @@
         "phase": "Phase 4: Live Positional Rounds",
         "focus": "Full resistance defense starting from established Darce Control",
         "description": "Positional sparring where attacker starts in locked Darce Control and works to finish while defender works to escape. Full resistance with safety emphasis. 2-minute rounds, reset after each finish or escape. Goal is recognizing defensive windows in real time and selecting the appropriate escape path based on attacker's positioning."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce Choke defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "cmaIzjv3QG8",
+        "title": "D'arce defense, belly down",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 38,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-14"
       }
     ]
   }

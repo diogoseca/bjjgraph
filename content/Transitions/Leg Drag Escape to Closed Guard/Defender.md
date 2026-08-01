@@ -148,6 +148,54 @@ description: "How to defend against Leg Drag Escape to Closed Guard in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag Escape to Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg drag into toreando/X pass follow-up",
+      "description": "Leg Drag Escape to Closed Guard (Defender) film study: Leg drag into toreando/X pass follow-up, taught by PFed BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T50gLtUUtqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T50gLtUUtqs",
+      "url": "https://www.youtube.com/watch?v=T50gLtUUtqs",
+      "creator": { "@type": "Person", "name": "PFed BJJ coach" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Cut to Leg Drag Control",
+      "description": "Leg Drag Escape to Closed Guard (Defender) film study: Knee Cut to Leg Drag Control, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4c-v1OEPukc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4c-v1OEPukc",
+      "url": "https://www.youtube.com/watch?v=4c-v1OEPukc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT382S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Closed Guard Knee Cut and Leg Drag",
+      "description": "Leg Drag Escape to Closed Guard (Defender) film study: Closed Guard Knee Cut and Leg Drag, taught by Mason Fowler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bI7yUv5yoUs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bI7yUv5yoUs",
+      "url": "https://www.youtube.com/watch?v=bI7yUv5yoUs",
+      "creator": { "@type": "Person", "name": "Mason Fowler" },
+      "duration": "PT242S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Advanced defenders learn to weaponize the bottom player's escape attempts. When 
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag Escape to Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T50gLtUUtqs)
+
+<p class="clip-credit"><strong>Leg drag into toreando/X pass follow-up</strong> — taught by PFed BJJ coach · 1:16 · <a href="https://www.youtube.com/watch?v=T50gLtUUtqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4c-v1OEPukc)
+
+<p class="clip-credit"><strong>Knee Cut to Leg Drag Control</strong> — taught by Lachlan Giles · 6:22 · <a href="https://www.youtube.com/watch?v=4c-v1OEPukc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bI7yUv5yoUs)
+
+<p class="clip-credit"><strong>Closed Guard Knee Cut and Leg Drag</strong> — taught by Mason Fowler · 4:02 · <a href="https://www.youtube.com/watch?v=bI7yUv5yoUs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

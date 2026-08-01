@@ -150,6 +150,54 @@ description: "How to defend against Rear Triangle Choke in BJJ. Recognition, esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke from Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the figure four from the back",
+      "description": "Rear Triangle Choke from Back Control (Defender) film study: Defending the figure four from the back, taught by Whangarei BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hCu7SXEaXjc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hCu7SXEaXjc",
+      "url": "https://www.youtube.com/watch?v=hCu7SXEaXjc",
+      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending back control face down and sprawled out",
+      "description": "Rear Triangle Choke from Back Control (Defender) film study: Defending back control face down and sprawled out, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/485wvqwlBYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/485wvqwlBYA",
+      "url": "https://www.youtube.com/watch?v=485wvqwlBYA",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to not get mounted when you escape the back",
+      "description": "Rear Triangle Choke from Back Control (Defender) film study: How to not get mounted when you escape the back, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bhkb4ItZQno/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bhkb4ItZQno",
+      "url": "https://www.youtube.com/watch?v=bhkb4ItZQno",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ Defense against this submission requires understanding both the prevention phase
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke from Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hCu7SXEaXjc)
+
+<p class="clip-credit"><strong>Defending the figure four from the back</strong> — taught by Whangarei BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=hCu7SXEaXjc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=485wvqwlBYA)
+
+<p class="clip-credit"><strong>Defending back control face down and sprawled out</strong> — taught by Academy Jiu Jitsu · 1:32 · <a href="https://www.youtube.com/watch?v=485wvqwlBYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bhkb4ItZQno)
+
+<p class="clip-credit"><strong>How to not get mounted when you escape the back</strong> — taught by Henry Akins · 2:11 · <a href="https://www.youtube.com/watch?v=bhkb4ItZQno" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

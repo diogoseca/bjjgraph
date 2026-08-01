@@ -168,6 +168,54 @@ description: "How to execute Dogfight Position in BJJ. Attacking perspective wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Dogfight Position (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three submissions from the dogfight",
+      "description": "Dogfight Position (Attacker) film study: Three submissions from the dogfight, taught by Geo Martinez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/InGMvIP5tqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/InGMvIP5tqg",
+      "url": "https://www.youtube.com/watch?v=InGMvIP5tqg",
+      "creator": { "@type": "Person", "name": "Geo Martinez" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cat-dog position breakdown",
+      "description": "Dogfight Position (Attacker) film study: Cat-dog position breakdown, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1i6UncmMfOs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1i6UncmMfOs",
+      "url": "https://www.youtube.com/watch?v=1i6UncmMfOs",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee shield to underhook to dogfight knee tap",
+      "description": "Dogfight Position (Attacker) film study: Knee shield to underhook to dogfight knee tap, taught by Kaboom Brazilian Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K7U2uBUfq-c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/K7U2uBUfq-c",
+      "url": "https://www.youtube.com/watch?v=K7U2uBUfq-c",
+      "creator": { "@type": "Person", "name": "Kaboom Brazilian Jiu-Jitsu" },
+      "duration": "PT129S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 **From Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Dogfight Position (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip film-clip--vertical">
+
+![](https://www.youtube.com/watch?v=InGMvIP5tqg)
+
+<p class="clip-credit"><strong>Three submissions from the dogfight</strong> — taught by Geo Martinez · 1:01 · <a href="https://www.youtube.com/watch?v=InGMvIP5tqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1i6UncmMfOs)
+
+<p class="clip-credit"><strong>Cat-dog position breakdown</strong> — taught by Absolute MMA St Kilda · 1:18 · <a href="https://www.youtube.com/watch?v=1i6UncmMfOs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=K7U2uBUfq-c)
+
+<p class="clip-credit"><strong>Knee shield to underhook to dogfight knee tap</strong> — taught by Kaboom Brazilian Jiu-Jitsu · 2:09 · <a href="https://www.youtube.com/watch?v=K7U2uBUfq-c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

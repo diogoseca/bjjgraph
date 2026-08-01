@@ -21,37 +21,37 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up from Ground",
-      "text": "From this position, attempt Technical Stand Up from Ground. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up from Ground. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 20% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 18% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Ankle Pick",
-      "text": "From this position, attempt Ankle Pick. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Ankle Pick Sweep",
+      "text": "From this position, attempt Ankle Pick Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seated Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Seated Guard Takedown/Sweep Tutorial",
+      "description": "Seated Guard (Bottom) film study: Seated Guard Takedown/Sweep Tutorial, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qj4vQ7TcEjU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qj4vQ7TcEjU",
+      "url": "https://www.youtube.com/watch?v=qj4vQ7TcEjU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Seated Guard Hand-Fighting Sweep Drill",
+      "description": "Seated Guard (Bottom) film study: Seated Guard Hand-Fighting Sweep Drill, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H3HHTStUtVs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H3HHTStUtVs",
+      "url": "https://www.youtube.com/watch?v=H3HHTStUtVs",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sit Up Guard to Ankle Pick",
+      "description": "Seated Guard (Bottom) film study: Sit Up Guard to Ankle Pick, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XJxo3E7brlk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XJxo3E7brlk",
+      "url": "https://www.youtube.com/watch?v=XJxo3E7brlk",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT114S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The strategic value of Seated Guard lies in its versatility and ease of entry/ex
 Seated Guard works best when opponent is standing or on knees with distance, but becomes vulnerable if opponent gets chest-to-chest pressure or establishes strong control grips. The position requires active movement and timing - staying static allows opponent to pass. Most effective for practitioners comfortable with wrestling-style attacks and technical standups.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seated Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qj4vQ7TcEjU)
+
+<p class="clip-credit"><strong>Seated Guard Takedown/Sweep Tutorial</strong> — taught by Craig Jones · 1:04 · <a href="https://www.youtube.com/watch?v=qj4vQ7TcEjU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H3HHTStUtVs)
+
+<p class="clip-credit"><strong>Seated Guard Hand-Fighting Sweep Drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:43 · <a href="https://www.youtube.com/watch?v=H3HHTStUtVs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XJxo3E7brlk)
+
+<p class="clip-credit"><strong>Sit Up Guard to Ankle Pick</strong> — taught by Carpio Jiu Jitsu · 1:54 · <a href="https://www.youtube.com/watch?v=XJxo3E7brlk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

@@ -164,6 +164,43 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Pressure \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Principles of pressure passing",
+      "description": "Hip Pressure film study: Principles of pressure passing, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eU2MKcq5we0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eU2MKcq5we0",
+      "url": "https://www.youtube.com/watch?v=eU2MKcq5we0",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT353S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The science of pressure in jiu jitsu",
+      "description": "Hip Pressure film study: The science of pressure in jiu jitsu, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mzAgY0QUtnc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mzAgY0QUtnc",
+      "url": "https://www.youtube.com/watch?v=mzAgY0QUtnc",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT785S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Hip Pressure?
@@ -173,6 +210,34 @@ description: "Master hip pressure mechanics in BJJ. Learn weight distribution, p
 While general pressure principles govern how a top player manages total bodyweight across all contact points, hip pressure isolates the pelvis as the dedicated instrument for controlling an opponent's lower body. It centers on the strategic use of hip placement and weight allocation through the pelvis to achieve specific control objectives: pinning the opponent's hips to the mat, preventing shrimping and bridging, creating angles for passing, and establishing stable platforms for transitions and submissions. This concept integrates the biomechanics of how hip weight restricts an opponent's mobility with tactical decisions about hip placement, pressure intensity, and timing. Hip pressure serves simultaneously as an immediate control mechanism that restricts the opponent's most fundamental defensive movements and as an enabling tool that opens opportunities for position advancement and technical execution. A practitioner's ability to generate and maintain effective hip pressure often determines whether they can shut down the opponent's lower body and advance, or instead concede the constant hip escapes that fuel guard retention and recovery — making it one of the most essential elements of any top game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Pressure in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eU2MKcq5we0)
+
+<p class="clip-credit"><strong>Principles of pressure passing</strong> — taught by Bernardo Faria · 5:53 · <a href="https://www.youtube.com/watch?v=eU2MKcq5we0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mzAgY0QUtnc)
+
+<p class="clip-credit"><strong>The science of pressure in jiu jitsu</strong> — taught by RVV BJJ · 13:05 · <a href="https://www.youtube.com/watch?v=mzAgY0QUtnc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

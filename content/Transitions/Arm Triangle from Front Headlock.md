@@ -34,6 +34,43 @@ description: "Learn Arm Triangle from Front Headlock in BJJ. Transition head-arm
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Front Headlock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm triangle from the front headlock",
+      "description": "Arm Triangle from Front Headlock film study: Arm triangle from the front headlock, taught by Jordan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ioz33MH1j7Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ioz33MH1j7Q",
+      "url": "https://www.youtube.com/watch?v=ioz33MH1j7Q",
+      "creator": { "@type": "Person", "name": "Jordan" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front headlock attacks including the head and arm",
+      "description": "Arm Triangle from Front Headlock film study: Front headlock attacks including the head and arm, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8hzRbpUfawY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8hzRbpUfawY",
+      "url": "https://www.youtube.com/watch?v=8hzRbpUfawY",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT277S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The transition works best when chained with other front headlock threats. If you
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Front Headlock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ioz33MH1j7Q)
+
+<p class="clip-credit"><strong>Arm triangle from the front headlock</strong> — taught by Jordan · 0:35 · <a href="https://www.youtube.com/watch?v=ioz33MH1j7Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8hzRbpUfawY)
+
+<p class="clip-credit"><strong>Front headlock attacks including the head and arm</strong> — taught by Gordon Ryan · 4:37 · <a href="https://www.youtube.com/watch?v=8hzRbpUfawY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -237,7 +302,7 @@ The arm triangle from front headlock is a critical second-layer attack in the fr
 
 - [[Positions/Side Control]] - Target position - the arm triangle is typically finished from side control after the lateral walk
 
-- [[Transitions/Arm Triangle]] - Submission finish - the choke that results from this transition setup
+- [[Submissions/Arm Triangle]] - Submission finish - the choke that results from this transition setup
 
 - [[Transitions/Arm Triangle Setup]] - Related transition - alternative entry to arm triangle from north-south position
 
@@ -247,7 +312,7 @@ The arm triangle from front headlock is a critical second-layer attack in the fr
 
 - [[Transitions/Guillotine Setup]] - Primary threat - guillotine defense often creates the opening for arm triangle
 
-- [[Transitions/Darce Choke]] - Follow-up submission - available when opponent extends arm to defend arm triangle
+- [[Submissions/Darce Choke]] - Follow-up submission - available when opponent extends arm to defend arm triangle
 
 - [[Transitions/Anaconda Choke]] - Alternative submission - another arm-in choke option from front headlock
 

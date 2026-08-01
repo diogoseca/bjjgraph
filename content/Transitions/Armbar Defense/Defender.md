@@ -148,6 +148,54 @@ description: "How to maintain armbar control and prevent escape in BJJ. Counter 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar Defense (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the hitchhiker armbar escape",
+      "description": "Armbar Defense (Defender) film study: Preventing the hitchhiker armbar escape, taught by Pathfinder Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zVLS7fLlobg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zVLS7fLlobg",
+      "url": "https://www.youtube.com/watch?v=zVLS7fLlobg",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the armbar without crossing your legs",
+      "description": "Armbar Defense (Defender) film study: Finishing the armbar without crossing your legs, taught by Chosen Few BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s68skjhhSMI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s68skjhhSMI",
+      "url": "https://www.youtube.com/watch?v=s68skjhhSMI",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Why your armbar from guard gets defended",
+      "description": "Armbar Defense (Defender) film study: Why your armbar from guard gets defended, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/58eCiNxdOiI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/58eCiNxdOiI",
+      "url": "https://www.youtube.com/watch?v=58eCiNxdOiI",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ Maintaining the armbar requires constant adjustment to your opponent's escape at
 **Opponent's Starting Position**: [[Positions/Armbar Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar Defense (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zVLS7fLlobg)
+
+<p class="clip-credit"><strong>Preventing the hitchhiker armbar escape</strong> — taught by Pathfinder Jiu-Jitsu · 1:31 · <a href="https://www.youtube.com/watch?v=zVLS7fLlobg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s68skjhhSMI)
+
+<p class="clip-credit"><strong>Finishing the armbar without crossing your legs</strong> — taught by Chosen Few BJJ · 1:03 · <a href="https://www.youtube.com/watch?v=s68skjhhSMI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=58eCiNxdOiI)
+
+<p class="clip-credit"><strong>Why your armbar from guard gets defended</strong> — taught by Wim Deputter · 1:16 · <a href="https://www.youtube.com/watch?v=58eCiNxdOiI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

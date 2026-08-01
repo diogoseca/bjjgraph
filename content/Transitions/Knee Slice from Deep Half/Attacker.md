@@ -174,6 +174,54 @@ description: "Complete attacker guide for the knee slice pass from deep half gua
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slice from Deep Half (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing deep half guard, countering the back take",
+      "description": "Knee Slice from Deep Half (Attacker) film study: Passing deep half guard, countering the back take, taught by JiuJitsu.com.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hHbb7ywVTwU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hHbb7ywVTwU",
+      "url": "https://www.youtube.com/watch?v=hHbb7ywVTwU",
+      "creator": { "@type": "Person", "name": "JiuJitsu.com" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cutting against the deep half guard",
+      "description": "Knee Slice from Deep Half (Attacker) film study: Knee cutting against the deep half guard, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hMyxGPLUdkM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hMyxGPLUdkM",
+      "url": "https://www.youtube.com/watch?v=hMyxGPLUdkM",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT392S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to pass the deep half guard",
+      "description": "Knee Slice from Deep Half (Attacker) film study: How to pass the deep half guard, taught by Dimitrius Souza.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2mom9Urqxa4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2mom9Urqxa4",
+      "url": "https://www.youtube.com/watch?v=2mom9Urqxa4",
+      "creator": { "@type": "Person", "name": "Dimitrius Souza" },
+      "duration": "PT237S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 **From Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slice from Deep Half (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hHbb7ywVTwU)
+
+<p class="clip-credit"><strong>Passing deep half guard, countering the back take</strong> — taught by JiuJitsu.com · 1:03 · <a href="https://www.youtube.com/watch?v=hHbb7ywVTwU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hMyxGPLUdkM)
+
+<p class="clip-credit"><strong>Knee cutting against the deep half guard</strong> — taught by Lucas Lepri · 6:32 · <a href="https://www.youtube.com/watch?v=hMyxGPLUdkM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2mom9Urqxa4)
+
+<p class="clip-credit"><strong>How to pass the deep half guard</strong> — taught by Dimitrius Souza · 3:57 · <a href="https://www.youtube.com/watch?v=2mom9Urqxa4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,54 @@ description: "Defend against the Reguard from Half Butterfly as the top player. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reguard from Half Butterfly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing half butterfly guard",
+      "description": "Reguard from Half Butterfly (Defender) film study: Passing half butterfly guard, taught by Morto BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LIITsrlsAaI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LIITsrlsAaI",
+      "url": "https://www.youtube.com/watch?v=LIITsrlsAaI",
+      "creator": { "@type": "Person", "name": "Morto BJJ" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half butterfly guard passing",
+      "description": "Reguard from Half Butterfly (Defender) film study: Half butterfly guard passing, taught by Michael Hoffman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FyQToVSEOKk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FyQToVSEOKk",
+      "url": "https://www.youtube.com/watch?v=FyQToVSEOKk",
+      "creator": { "@type": "Person", "name": "Michael Hoffman" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Effective half butterfly guard pass for no-gi",
+      "description": "Reguard from Half Butterfly (Defender) film study: Effective half butterfly guard pass for no-gi, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pk_6CrydIRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Pk_6CrydIRQ",
+      "url": "https://www.youtube.com/watch?v=Pk_6CrydIRQ",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the reguard from half butterfly requires the top player to maintain pr
 **Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reguard from Half Butterfly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LIITsrlsAaI)
+
+<p class="clip-credit"><strong>Passing half butterfly guard</strong> — taught by Morto BJJ · 1:10 · <a href="https://www.youtube.com/watch?v=LIITsrlsAaI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FyQToVSEOKk)
+
+<p class="clip-credit"><strong>Half butterfly guard passing</strong> — taught by Michael Hoffman · 1:34 · <a href="https://www.youtube.com/watch?v=FyQToVSEOKk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Pk_6CrydIRQ)
+
+<p class="clip-credit"><strong>Effective half butterfly guard pass for no-gi</strong> — taught by Factory Fresh Jiu Jitsu · 1:50 · <a href="https://www.youtube.com/watch?v=Pk_6CrydIRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Rodeo Ride",
-      "text": "From this position, attempt Turtle to Rodeo Ride. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Rodeo Ride. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Sit to Half Guard",
-      "text": "From this position, attempt Sit to Half Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Double Jump to Mount",
+      "text": "From this position, attempt Double Jump to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Jump (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Take from the Turtle Position",
+      "description": "Double Jump (Top) film study: Back Take from the Turtle Position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6ns9XP2BsjQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6ns9XP2BsjQ",
+      "url": "https://www.youtube.com/watch?v=6ns9XP2BsjQ",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Take the Back from Turtle and Choke",
+      "description": "Double Jump (Top) film study: Take the Back from Turtle and Choke, taught by Base Monkey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CzejF1OSPYE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CzejF1OSPYE",
+      "url": "https://www.youtube.com/watch?v=CzejF1OSPYE",
+      "creator": { "@type": "Person", "name": "Base Monkey" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle Tight Waist Tilt to Rear Control",
+      "description": "Double Jump (Top) film study: Turtle Tight Waist Tilt to Rear Control, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f0zi7eZEXnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/f0zi7eZEXnk",
+      "url": "https://www.youtube.com/watch?v=f0zi7eZEXnk",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ The strategic value of Double Jump Top lies in its ability to bypass traditional
 Double Jump Top represents modern turtle attack methodology, emphasizing leg-based controls over purely upper-body attacks. The position creates a powerful dilemma: if the opponent attempts to address the leg hooks, they expose their back; if they defend their back, the leg hooks can be used to off-balance and sweep. This dual-threat nature makes Double Jump Top a high-percentage entry to back control against skilled defensive grapplers who excel at defending traditional turtle attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Jump (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6ns9XP2BsjQ)
+
+<p class="clip-credit"><strong>Back Take from the Turtle Position</strong> — taught by Evolve MMA · 1:06 · <a href="https://www.youtube.com/watch?v=6ns9XP2BsjQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CzejF1OSPYE)
+
+<p class="clip-credit"><strong>Take the Back from Turtle and Choke</strong> — taught by Base Monkey · 1:20 · <a href="https://www.youtube.com/watch?v=CzejF1OSPYE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=f0zi7eZEXnk)
+
+<p class="clip-credit"><strong>Turtle Tight Waist Tilt to Rear Control</strong> — taught by Fox Den Martial Arts · 1:08 · <a href="https://www.youtube.com/watch?v=f0zi7eZEXnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

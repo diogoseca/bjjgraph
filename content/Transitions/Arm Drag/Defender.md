@@ -85,6 +85,22 @@ description: "How to defend against the Arm Drag in BJJ. Recognition cues, grip 
         "@type": "Answer",
         "text": "Your immediate priority is to turn and face the attacker before they insert hooks, not to strip their grips. Begin by aggressively turning your hips toward them while keeping your elbows tight to your body to deny easy hook entry. Use your near-side arm to frame against their hip or thigh to create separation space. The critical window is the one to two seconds between them reaching your back and establishing the first hook. Once you are facing them, the back take is neutralized regardless of their grip position. If you cannot complete the turn, drop to a defensive turtle posture and begin standard back defense protocols."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that an arm drag attempt is beginning, and what should your immediate response be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is feeling your opponent secure your wrist with one hand while their other hand reaches toward your tricep or elbow. The immediate response should be to strip the wrist grip with a sharp circular motion, breaking the two-on-one before it is fully established. If you cannot strip the grip, immediately retract your arm by bending your elbow sharply to deny the pulling leverage they need for the diagonal drag across their body."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is circling toward the drag direction more effective than circling away from it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Circling toward the drag direction re-faces you to the opponent by rotating your chest back into alignment with theirs. This closes the angle they are trying to create and forces them to either abort the drag or re-initiate from a new angle. Circling away from the drag direction adds your rotational momentum to the opponent's pull, accelerating their access to your back and making the step-behind easier. The biomechanical principle is that you want to create a collision between your rotation and their lateral movement, not move in the same direction they are traveling."
+      }
     }
   ]
 }
@@ -140,6 +156,54 @@ description: "How to defend against the Arm Drag in BJJ. Recognition cues, grip 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Drag (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag counter with BJJ application",
+      "description": "Arm Drag (Defender) film study: Arm drag counter with BJJ application, taught by Joe Scioli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JAik-k-lKWY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JAik-k-lKWY",
+      "url": "https://www.youtube.com/watch?v=JAik-k-lKWY",
+      "creator": { "@type": "Person", "name": "Joe Scioli" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defend the arm drag",
+      "description": "Arm Drag (Defender) film study: How to defend the arm drag, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bmCjXADzgo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bmCjXADzgo4",
+      "url": "https://www.youtube.com/watch?v=bmCjXADzgo4",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing arm drag counter",
+      "description": "Arm Drag (Defender) film study: Standing arm drag counter, taught by Gracie Barra HQ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3ChZk__H9c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3ChZk__H9c",
+      "url": "https://www.youtube.com/watch?v=T3ChZk__H9c",
+      "creator": { "@type": "Person", "name": "Gracie Barra HQ" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +217,42 @@ When prevention fails and the attacker begins circling behind your shoulder line
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Drag (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JAik-k-lKWY)
+
+<p class="clip-credit"><strong>Arm drag counter with BJJ application</strong> — taught by Joe Scioli · 0:31 · <a href="https://www.youtube.com/watch?v=JAik-k-lKWY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bmCjXADzgo4)
+
+<p class="clip-credit"><strong>How to defend the arm drag</strong> — taught by Matt Arroyo · 1:43 · <a href="https://www.youtube.com/watch?v=bmCjXADzgo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3ChZk__H9c)
+
+<p class="clip-credit"><strong>Standing arm drag counter</strong> — taught by Gracie Barra HQ · 2:21 · <a href="https://www.youtube.com/watch?v=T3ChZk__H9c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

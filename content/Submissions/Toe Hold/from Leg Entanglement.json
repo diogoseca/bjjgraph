@@ -19,7 +19,10 @@
   "target_area": "Ankle, toes, and foot ligaments",
   "starting_position": "Leg Entanglement",
   "from_position": "Leg Entanglement/Top",
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Among the foot locks available from leg entanglement, the toe hold earns its place precisely because it does not depend on heel exposure. Unlike heel hooks that require specific inside or outside positioning relative to the knee line, the toe hold can be initiated from virtually any entanglement variant, making it an essential weapon in the leg lock practitioner's arsenal. The submission works by gripping across the opponent's toes and ball of the foot with a figure-four configuration, then applying controlled twisting force that attacks the lateral and medial ankle ligaments, midfoot structures, and can transfer damaging torque through to the knee.\n\nWhat makes the toe hold particularly effective from leg entanglement is the inherent control these positions provide. The entangled legs create a stable platform that prevents the opponent from simply retracting their foot, while the attacker's hip positioning close to the target ankle maximizes rotational leverage. The toe hold serves dual strategic purposes in modern leg lock systems: as a primary finishing attack when the heel is hidden and heel hooks are unavailable, and as a chain-starting threat that forces defensive reactions opening pathways to heel hooks, kneebars, and positional advances. The IBJJF allows toe holds at brown belt and above, while most no-gi rulesets permit them at intermediate levels, making this a critical technique for competitive grapplers progressing through the ranks.",
   "safety_considerations": {
     "injury_risks": [
@@ -118,17 +121,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Leg Entanglement/Top",
-      "probability": 26,
+      "probability": {
+        "gi": 26,
+        "nogi": 26
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 14,
+      "probability": {
+        "gi": 14,
+        "nogi": 14
+      },
       "result": "counter"
     }
   ],
@@ -290,52 +302,181 @@
       {
         "question": "What anatomical structures does the toe hold primarily attack and how does the rotational force create the submission?",
         "answer": "The toe hold primarily attacks the lateral and medial collateral ligaments of the ankle, the midfoot (Lisfranc) joint complex, and the plantar fascia. The figure-four grip creates a lever on the forefoot that generates rotational torque around the ankle's axis. As the toes are twisted inward toward the opponent's midline (medial rotation), the ligaments on the opposite side of the rotation are stretched beyond their elastic limit. Secondary stress transfers through the ankle to the knee via the tibia, which is why knee injuries can also occur from toe holds applied with excessive force or speed.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Twist stresses ankle ligaments",
+        "distractors": {
+          "plausible": [
+            "Attacks the Achilles tendon",
+            "Pressure targets the knee joint"
+          ],
+          "trap": [
+            "Snap for instant bone break"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up and straighten their captured leg while you have a partial figure-four grip - what adjustment prevents escape?",
         "answer": "When the opponent straightens their leg, you have two immediate options based on grip depth. If the figure-four is partially established, pull your elbows tighter to your body and drive your hips forward to close the gap their extension created, then complete the grip and finish. If they have created too much distance for the toe hold to remain viable, immediately transition to a kneebar attack by clamping their now-extended leg between your thighs and falling to the opposite side. The extended leg that defeats the toe hold actually improves kneebar mechanics. Never chase a toe hold on a fully straightened leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Close distance or switch to kneebar",
+        "distractors": {
+          "plausible": [
+            "Chase the extending foot",
+            "Crank with the arms only"
+          ],
+          "trap": [
+            "Force the toe hold, get bucked off"
+          ]
+        }
       },
       {
         "question": "What control requirements must be established before committing to the toe hold finish from leg entanglement?",
         "answer": "Before committing to the toe hold, you must have: (1) at least one hook securely behind the opponent's knee maintaining your body below the knee line, (2) hips driven forward with minimal distance to the captured ankle, (3) your entangled legs controlling or restricting the opponent's free leg to prevent counter-rotation and push-off escapes, and (4) clear access to the foot with the forefoot exposed. Attempting the toe hold without these four control elements results in a low-percentage attack that wastes energy and creates escape opportunities for the opponent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knee hook, hips tight, foot exposed",
+        "distractors": {
+          "plausible": [
+            "Grip the foot before hips close",
+            "Control one leg, ignore the other"
+          ],
+          "trap": [
+            "Attack instantly for surprise"
+          ]
+        }
       },
       {
         "question": "At what point during the toe hold application is the opponent past the point of no escape and must tap?",
         "answer": "The point of no escape occurs when three conditions are simultaneously met: the figure-four grip is fully locked with elbows cinched to the ribcage, the hips are flush against the ankle eliminating all space, and the torso rotation has begun generating inward pressure on the ankle ligaments. Once all three are established, the defender cannot strip the grip, cannot create distance, and cannot counter-rotate effectively. The submission becomes a matter of increasing rotational pressure until the tap. Experienced defenders recognize this convergence point and tap before damage occurs rather than attempting to escape once all three elements are locked in.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locked, hips flush, rotating",
+        "distractors": {
+          "plausible": [
+            "Once the grip is first secured",
+            "When hips get close to ankle"
+          ],
+          "trap": [
+            "Try to power out and stand up"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that cause the toe hold to fail against a resisting opponent?",
         "answer": "The three most common finishing errors are: (1) generating rotation through arm strength alone instead of full-body torso rotation, which produces insufficient force and rapid fatigue, (2) allowing the hips to drift away from the ankle during the rotation, which gives the opponent space to relieve pressure and extract their foot, and (3) failing to complete the elbow-to-ribcage connection before rotating, which creates a loose lever that the opponent can pry apart. Each of these errors independently reduces finishing percentage, and when combined they make the submission nearly impossible against competent defenders.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm-only rotation, loose elbows",
+        "distractors": {
+          "plausible": [
+            "Finishing too fast to control",
+            "Not securing head position first"
+          ],
+          "trap": [
+            "Being too gentle, so crank harder"
+          ]
+        }
       },
       {
         "question": "How should you adjust your figure-four grip when the opponent aggressively grip fights and keeps breaking your initial hold?",
         "answer": "When standard figure-four grips keep getting stripped, switch to a kimura-style double wrist lock where both hands interlock around the foot with overlapping wrist control. This grip is structurally stronger against prying because breaking it requires separating two interlocking grips simultaneously rather than stripping one hand. Alternatively, re-grip by threading your arm deeper under the foot so your elbow passes the centerline of their sole, making the grip harder to reach and strip. If neither works, use the grip fighting as a setup for heel hook entries since the opponent's hands are occupied stripping your toe hold grip rather than defending their heel.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Use double wrist-lock grip instead",
+        "distractors": {
+          "plausible": [
+            "Grip harder with one hand",
+            "Switch hands rapidly to confuse"
+          ],
+          "trap": [
+            "Let go and reset from scratch"
+          ]
+        }
       },
       {
         "question": "What are the critical safety considerations when applying the toe hold in training versus competition?",
         "answer": "In training, the toe hold must be applied with extreme gradual pressure over 5-7 seconds minimum because the rotational mechanism can damage ankle ligaments, the midfoot Lisfranc joint, and even the knee before the defender feels significant pain. Unlike chokes where discomfort provides warning, toe hold damage can accumulate without proportional pain feedback. Always allow the defender clear access to tap with both hands and their free foot. In competition, controlled escalation remains important but the pace can increase. Never apply sudden rotational force in any context. Release by unwinding the rotation before opening the grip to prevent rebound injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, allow easy tap access",
+        "distractors": {
+          "plausible": [
+            "Same pace as competition rolling",
+            "Fast pressure sharpens reflexes"
+          ],
+          "trap": [
+            "Snap it on fast in training"
+          ]
+        }
       },
       {
         "question": "How should you properly release the toe hold after your training partner taps?",
         "answer": "Upon feeling or hearing the tap, immediately stop all rotational pressure. Then gradually unwind the rotation by turning your torso back to neutral, allowing the ankle to return to its natural position under controlled deceleration rather than snapping back. Only after the rotation is fully unwound should you release the figure-four grip. Finally, release your leg entanglement hooks. Abruptly dropping the grip while rotation is still loaded can cause rebound injury as the elastic tension in the stretched ligaments snaps the foot back. Check with your partner before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop turning, then unwind slowly",
+        "distractors": {
+          "plausible": [
+            "Free your legs first, then the grip",
+            "Check with partner, then let go"
+          ],
+          "trap": [
+            "Rip the grip off the instant of tap"
+          ]
+        }
       },
       {
         "question": "What competition finishing strategy maximizes toe hold success rate against a well-prepared opponent?",
         "answer": "The highest-percentage competition strategy uses the toe hold as part of a dilemma system rather than a standalone attack. Begin threatening the toe hold to force the opponent to address their foot positioning, which typically involves straightening the leg or hiding the toes. When they straighten, immediately switch to the kneebar. When they curl and hide, switch to the heel hook that their toe defense exposed. If they defend both by aggressively grip fighting, the opening in their leg control allows you to advance to saddle. The toe hold becomes the chain-starter that makes the entire leg lock system function, finishing opponents who either ignore the threat or over-commit to defending one specific attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain into kneebar or heel hook",
+        "distractors": {
+          "plausible": [
+            "Grind one toe hold to the end",
+            "Slow down to conserve energy"
+          ],
+          "trap": [
+            "Overcommit and get reversed"
+          ]
+        }
       },
       {
         "question": "Your opponent curls their toes inward and plantarflexes to defend your toe hold grip - what is your next move?",
         "answer": "When the opponent hides their toes by curling inward, they necessarily expose their heel by dorsiflexing the ankle to retract the forefoot. Immediately abandon the toe hold grip and redirect to the now-exposed heel for a heel hook entry. Reach around their heel with your primary hand while maintaining your entanglement structure. This is one of the most reliable chain attacks in leg lock systems because defending the toe hold and defending the heel hook require opposite foot positions. The opponent cannot hide both surfaces simultaneously, creating the fundamental dilemma that makes systematic leg attacks so effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Abandon grip, attack exposed heel",
+        "distractors": {
+          "plausible": [
+            "Crush the toes even harder",
+            "Switch to a kneebar setup"
+          ],
+          "trap": [
+            "Release the entanglement to reset"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Crossover toe hold",
+        "by": "Bence Romanek",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zsnGef5-N2g",
+        "title": "Attacking the toe hold from outside ashi garami",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 202,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r0P10HUFRV4",
+        "title": "80/20, 50/50, and the power toe hold",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 178,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -418,27 +559,77 @@
       {
         "question": "How do you recognize that a toe hold from leg entanglement is being set up before the grip is locked?",
         "answer": "The earliest recognition cue is the attacker's near hand shifting from controlling your ankle or heel to cupping the top of your foot near the toes. This is followed by their far arm beginning to thread under the sole of your foot to establish the figure-four. You may also feel their upper body angle changing to create a rotational line perpendicular to your shin, and their hips driving closer to your ankle. Acting during this setup phase, before the figure-four consolidates, provides the widest range of defensive options.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand cups toes, arm threads sole",
+        "distractors": {
+          "plausible": [
+            "Hips already flush against ankle",
+            "They grab your heel only"
+          ],
+          "trap": [
+            "Wait until the grip fully locks"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the toe hold from leg entanglement to prevent injury?",
         "answer": "Tap immediately and clearly the moment you feel the rotation beginning to engage your ankle ligaments with the figure-four locked. Use multiple rapid hand taps on the attacker's body or the mat, accompanied by a loud verbal 'tap' signal. Do not wait to see if you can escape once the rotation is applied because toe hold damage can accumulate rapidly without proportional pain warning. If your hands are trapped, tap with your free foot or shout. After tapping, remain still and allow the attacker to unwind the rotation gradually before releasing the grip.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap fast and loud, don't wait",
+        "distractors": {
+          "plausible": [
+            "Try to escape the rotation first",
+            "Tap only once to save face"
+          ],
+          "trap": [
+            "Wait to see if it hurts more"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the toe hold from leg entanglement at each stage of the attack?",
         "answer": "During the early grip phase (attacker reaching for toes), you have maximum options: strip the grip, retract the foot, extend the leg, or counter-attack their legs. During the figure-four consolidation phase, effective defenses narrow to grip stripping at the wrist connection and leg extension to remove rotational angle. Once the full figure-four is locked with hips close and elbows cinched, your primary option is to extend the leg powerfully or initiate a counter-entanglement. Once rotation begins with all control elements locked, the only safe option is to tap immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Escape early; once locked, tap",
+        "distractors": {
+          "plausible": [
+            "Bridge free once the grip sets",
+            "Same defenses at every phase"
+          ],
+          "trap": [
+            "Stall for a bigger opening"
+          ]
+        }
       },
       {
         "question": "Why is pulling your foot straight back toward your body a dangerous defensive response to the toe hold?",
         "answer": "Pulling the foot back toward your body while the figure-four is engaged actually worsens the submission by increasing the ankle's bend into the rotational plane. The figure-four grip acts as a fulcrum, so retracting the foot increases the lever arm and amplifies the rotational force on your ankle ligaments rather than relieving it. The correct response is either to extend the leg to straighten the ankle and remove the rotational angle, or to strip the grip at the weakest point (the wrist-to-wrist connection) before attempting any foot movement.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "It increases ankle rotation force",
+        "distractors": {
+          "plausible": [
+            "It only strains your hamstring",
+            "It just wastes your energy"
+          ],
+          "trap": [
+            "It actually relieves the pressure"
+          ]
+        }
       },
       {
         "question": "After successfully stripping the toe hold grip, what should your immediate next action be?",
         "answer": "After stripping the grip, you must immediately address the underlying leg entanglement rather than simply relaxing. Pull your knee to your chest to retract the foot out of reach, then work to clear the knee line by pushing the attacker's body above your knee using hip extension and frames. If you only strip the grip without escaping the entanglement, the attacker will re-grip within seconds and attempt the same or a different submission. Combine the grip strip with a committed entanglement escape sequence to fully resolve the threat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retract knee, clear the knee line",
+        "distractors": {
+          "plausible": [
+            "Attack their nearest arm",
+            "Sit up and grab a collar"
+          ],
+          "trap": [
+            "Relax now that you're safe"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -461,6 +652,35 @@
         "phase": "Phase 4: Counter-Attack Development",
         "focus": "Using toe hold defense to create offensive opportunities",
         "description": "Full resistance positional sparring where the defender practices using the attacker's toe hold commitment as an opportunity for counter-entanglement, sweeps, or guard recovery. Build the ability to turn defensive situations into transitions that improve your position rather than simply surviving."
+      }
+    ],
+    "clips": [
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg Lock Escape: Roll Through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "f4OOg_35Xjk",
+        "title": "How to defend against toe holds",
+        "by": "The Grappling Academy",
+        "vertical": false,
+        "channel": "The Grappling Academy",
+        "duration": 203,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "s9rJWyfNdiI",
+        "title": "Grip for defending heel hooks and leg attacks",
+        "by": "Craig Jones",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 357,
+        "verified": "2026-07-15"
       }
     ]
   }

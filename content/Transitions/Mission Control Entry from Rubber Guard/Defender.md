@@ -140,6 +140,43 @@ description: "Defend and counter the Mission Control entry from Rubber Guard. Le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mission Control Entry from Rubber Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple rubber guard escape",
+      "description": "Mission Control Entry from Rubber Guard (Defender) film study: Simple rubber guard escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AvivOVuYcCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AvivOVuYcCk",
+      "url": "https://www.youtube.com/watch?v=AvivOVuYcCk",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT131S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rubber guard: preventing the pass and posture",
+      "description": "Mission Control Entry from Rubber Guard (Defender) film study: Rubber guard: preventing the pass and posture, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E3sCfrFKJDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E3sCfrFKJDE",
+      "url": "https://www.youtube.com/watch?v=E3sCfrFKJDE",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ From the defender's (top player's) perspective, the Mission Control entry repres
 **Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mission Control Entry from Rubber Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AvivOVuYcCk)
+
+<p class="clip-credit"><strong>Simple rubber guard escape</strong> — taught by BJJ4Breakfast · 2:11 · <a href="https://www.youtube.com/watch?v=AvivOVuYcCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E3sCfrFKJDE)
+
+<p class="clip-credit"><strong>Rubber guard: preventing the pass and posture</strong> — taught by Força Martial Arts · 2:38 · <a href="https://www.youtube.com/watch?v=E3sCfrFKJDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

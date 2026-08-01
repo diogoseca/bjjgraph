@@ -34,6 +34,54 @@ description: "Learn to execute and defend the belly down armbar from turtle in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Armbar from Turtle",
+      "description": "Belly Down Armbar from Turtle film study: Belly Down Armbar from Turtle, taught by Ashland Hero Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UXPfzHTSCDE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UXPfzHTSCDE",
+      "url": "https://www.youtube.com/watch?v=UXPfzHTSCDE",
+      "creator": { "@type": "Person", "name": "Ashland Hero Academy" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pass to Belly Down Armbar",
+      "description": "Belly Down Armbar from Turtle film study: Pass to Belly Down Armbar, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GGlY1B7Ys78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GGlY1B7Ys78",
+      "url": "https://www.youtube.com/watch?v=GGlY1B7Ys78",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar from Turtle",
+      "description": "Belly Down Armbar from Turtle film study: Armbar from Turtle, taught by Anthony Anderson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TPUiYC4-g70/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TPUiYC4-g70",
+      "url": "https://www.youtube.com/watch?v=TPUiYC4-g70",
+      "creator": { "@type": "Person", "name": "Anthony Anderson" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 **Starting Position**: [[Positions/Turtle]] · **From**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UXPfzHTSCDE)
+
+<p class="clip-credit"><strong>Belly Down Armbar from Turtle</strong> — taught by Ashland Hero Academy · 0:25 · <a href="https://www.youtube.com/watch?v=UXPfzHTSCDE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GGlY1B7Ys78)
+
+<p class="clip-credit"><strong>Pass to Belly Down Armbar</strong> — taught by Mick Hall · 0:15 · <a href="https://www.youtube.com/watch?v=GGlY1B7Ys78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TPUiYC4-g70)
+
+<p class="clip-credit"><strong>Armbar from Turtle</strong> — taught by Anthony Anderson · 0:14 · <a href="https://www.youtube.com/watch?v=TPUiYC4-g70" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 

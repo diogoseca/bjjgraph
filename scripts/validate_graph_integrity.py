@@ -26,10 +26,22 @@ import sys
 from pathlib import Path
 from collections import defaultdict
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _ruleset import (  # gi/no-gi ruleset contract (calibration-v2)
+    RULESETS,
+    any_ruleset_map,
+    iter_cells,
+    sum_cells,
+    present_rulesets,
+)
+from _votes import PRIOR_VOTE_COUNT  # forked votes schema seed sentinel (calibration-v2 Phase 2.3b)
+
 CONTENT_PATH = Path("content")
 POSITIONS_PATH = CONTENT_PATH / "Positions"
 TRANSITIONS_PATH = CONTENT_PATH / "Transitions"
 SUBMISSIONS_PATH = CONTENT_PATH / "Submissions"
+GRAPH_PATH = Path("graph.json")
+VOTES_PATH = Path("templates") / "votes.json"
 REPORT_PATH = Path("tests/artifacts/audit_report.json")
 
 # Thresholds for flagging outliers
@@ -48,6 +60,20 @@ TECHNIQUE_EXPECTATIONS = {
     "pass": {"success_min": 10, "success_max": 80},
     "takedown": {"success_min": 25, "success_max": 70},
 }
+
+
+def _per_ruleset_totals(items, key):
+    """Return [(ruleset_or_None, total)] of ``item[key]`` sums.
+
+    Scalar (pre-migration) data -> a single ``[(None, legacy_sum)]`` so existing
+    checks behave byte-identically. Forked {gi,nogi} data -> one ``(ruleset, sum)``
+    per ruleset that has any non-null cell.
+    """
+    dict_items = [it for it in items if isinstance(it, dict)]
+    values = [it[key] for it in dict_items if key in it]
+    if any_ruleset_map(values):
+        return [(rs, sum_cells(dict_items, key, rs)) for rs in present_rulesets(values)]
+    return [(None, sum(it.get(key, 0) for it in dict_items))]
 
 
 def load_json(path):
@@ -139,17 +165,21 @@ def build_position_data():
         if root_transitions and "top" not in data and "bottom" not in data:
             names = [t.get("transition", "") for t in root_transitions]
             all_referenced_transitions.update(names)
-            total = sum(t.get("attempt_probability", 0) for t in root_transitions)
-            roles_checked.append(("root", names, total))
-            if total != 100:
-                probability_errors.append({
-                    "file": str(path),
-                    "position": pos_name,
-                    "role": "root",
-                    "sum": total,
-                    "transition_count": len(root_transitions),
-                    "severity": "error",
-                })
+            for rs, total in _per_ruleset_totals(root_transitions, "attempt_probability"):
+                role_label = "root" if rs is None else f"root[{rs}]"
+                roles_checked.append((role_label, names, total))
+                if total != 100:
+                    err = {
+                        "file": str(path),
+                        "position": pos_name,
+                        "role": role_label,
+                        "sum": total,
+                        "transition_count": len(root_transitions),
+                        "severity": "error",
+                    }
+                    if rs is not None:
+                        err["ruleset"] = rs
+                    probability_errors.append(err)
 
         # Check top/bottom roles
         for role in ["top", "bottom"]:
@@ -160,17 +190,21 @@ def build_position_data():
                 continue
             names = [t.get("transition", "") for t in transitions]
             all_referenced_transitions.update(names)
-            total = sum(t.get("attempt_probability", 0) for t in transitions)
-            roles_checked.append((role, names, total))
-            if total != 100:
-                probability_errors.append({
-                    "file": str(path),
-                    "position": pos_name,
-                    "role": role,
-                    "sum": total,
-                    "transition_count": len(transitions),
-                    "severity": "error",
-                })
+            for rs, total in _per_ruleset_totals(transitions, "attempt_probability"):
+                role_label = role if rs is None else f"{role}[{rs}]"
+                roles_checked.append((role_label, names, total))
+                if total != 100:
+                    err = {
+                        "file": str(path),
+                        "position": pos_name,
+                        "role": role_label,
+                        "sum": total,
+                        "transition_count": len(transitions),
+                        "severity": "error",
+                    }
+                    if rs is not None:
+                        err["ruleset"] = rs
+                    probability_errors.append(err)
 
         position_refs[str(path)] = roles_checked
 
@@ -285,25 +319,28 @@ def check_outcome_probabilities():
                 })
                 continue
 
-            # Sum check
-            total = sum(o.get("probability", 0) for o in outcomes)
-            if total != 100:
-                issues.append({
-                    "file": str(path),
-                    "name": name,
-                    "type": "outcomes_sum",
-                    "message": f"Outcomes sum to {total}%, not 100%",
-                    "severity": "error",
-                    "current": total,
-                })
+            # Sum check (per-ruleset when forked; legacy single-sum otherwise)
+            for rs, total in _per_ruleset_totals(outcomes, "probability"):
+                if total != 100:
+                    rs_sfx = f" ({rs})" if rs else ""
+                    issue = {
+                        "file": str(path),
+                        "name": name,
+                        "type": "outcomes_sum",
+                        "message": f"Outcomes{rs_sfx} sum to {total:g}%, not 100%",
+                        "severity": "error",
+                        "current": total,
+                    }
+                    if rs is not None:
+                        issue["ruleset"] = rs
+                    issues.append(issue)
 
             # Individual outcome checks
             for o in outcomes:
-                prob = o.get("probability", 0)
                 result = o.get("result", "")
                 to_pos = o.get("to", "")
 
-                # Unknown target
+                # Unknown target (probability-independent — once per outcome)
                 if "Unknown" in to_pos:
                     issues.append({
                         "file": str(path),
@@ -314,27 +351,31 @@ def check_outcome_probabilities():
                         "outcome": o,
                     })
 
-                # Success too high
-                if result == "success" and prob > THRESHOLDS["success_too_high"]:
-                    issues.append({
-                        "file": str(path),
-                        "name": name,
-                        "type": "outcome_too_high",
-                        "message": f"Success probability {prob}% > {THRESHOLDS['success_too_high']}%",
-                        "severity": "warning",
-                        "outcome": o,
-                    })
+                # Threshold checks, per ruleset frame (scalar -> single (None, prob))
+                for rs, prob in iter_cells(o.get("probability", 0)):
+                    rs_sfx = f"[{rs}]" if rs else ""
 
-                # Counter too high
-                if result == "counter" and prob > THRESHOLDS["counter_too_high"]:
-                    issues.append({
-                        "file": str(path),
-                        "name": name,
-                        "type": "counter_high",
-                        "message": f"Counter probability {prob}% > {THRESHOLDS['counter_too_high']}%",
-                        "severity": "warning",
-                        "outcome": o,
-                    })
+                    # Success too high
+                    if result == "success" and prob > THRESHOLDS["success_too_high"]:
+                        issues.append({
+                            "file": str(path),
+                            "name": name,
+                            "type": "outcome_too_high",
+                            "message": f"Success probability{rs_sfx} {prob:g}% > {THRESHOLDS['success_too_high']}%",
+                            "severity": "warning",
+                            "outcome": o,
+                        })
+
+                    # Counter too high
+                    if result == "counter" and prob > THRESHOLDS["counter_too_high"]:
+                        issues.append({
+                            "file": str(path),
+                            "name": name,
+                            "type": "counter_high",
+                            "message": f"Counter probability{rs_sfx} {prob:g}% > {THRESHOLDS['counter_too_high']}%",
+                            "severity": "warning",
+                            "outcome": o,
+                        })
 
             # Technique-type expected ranges (check success outcomes)
             technique_type = classify_technique(name)
@@ -342,25 +383,26 @@ def check_outcome_probabilities():
             if expectations:
                 for o in outcomes:
                     if o.get("result") == "success":
-                        prob = o.get("probability", 0)
-                        if prob > expectations.get("success_max", 100):
-                            issues.append({
-                                "file": str(path),
-                                "name": name,
-                                "type": "technique_range_high",
-                                "message": f"Success {prob}% exceeds expected max {expectations['success_max']}% for {technique_type}",
-                                "severity": "warning",
-                                "current": prob,
-                            })
-                        if prob < expectations.get("success_min", 0):
-                            issues.append({
-                                "file": str(path),
-                                "name": name,
-                                "type": "technique_range_low",
-                                "message": f"Success {prob}% below expected min {expectations['success_min']}% for {technique_type}",
-                                "severity": "warning",
-                                "current": prob,
-                            })
+                        for rs, prob in iter_cells(o.get("probability", 0)):
+                            rs_sfx = f"[{rs}]" if rs else ""
+                            if prob > expectations.get("success_max", 100):
+                                issues.append({
+                                    "file": str(path),
+                                    "name": name,
+                                    "type": "technique_range_high",
+                                    "message": f"Success{rs_sfx} {prob:g}% exceeds expected max {expectations['success_max']}% for {technique_type}",
+                                    "severity": "warning",
+                                    "current": prob,
+                                })
+                            if prob < expectations.get("success_min", 0):
+                                issues.append({
+                                    "file": str(path),
+                                    "name": name,
+                                    "type": "technique_range_low",
+                                    "message": f"Success{rs_sfx} {prob:g}% below expected min {expectations['success_min']}% for {technique_type}",
+                                    "severity": "warning",
+                                    "current": prob,
+                                })
 
     return issues
 
@@ -381,63 +423,65 @@ def check_transition_outliers():
                 continue
             transitions = data[role].get("transitions", [])
             for t in transitions:
-                prob = t.get("attempt_probability", 0)
                 name = t.get("transition", "")
+                for rs, prob in iter_cells(t.get("attempt_probability", 0)):
+                    rs_sfx = f"[{rs}]" if rs else ""
 
-                if prob > THRESHOLDS["attempt_too_high"]:
-                    issues.append({
-                        "file": str(path),
-                        "position": pos_name,
-                        "role": role,
-                        "type": "attempt_dominant",
-                        "message": f"{role}: '{name}' dominates with {prob}% attempt probability",
-                        "severity": "info",
-                        "transition": name,
-                        "current": prob,
-                    })
+                    if prob > THRESHOLDS["attempt_too_high"]:
+                        issues.append({
+                            "file": str(path),
+                            "position": pos_name,
+                            "role": role if rs is None else f"{role}[{rs}]",
+                            "type": "attempt_dominant",
+                            "message": f"{role}{rs_sfx}: '{name}' dominates with {prob:g}% attempt probability",
+                            "severity": "info",
+                            "transition": name,
+                            "current": prob,
+                        })
 
-                if 0 < prob < THRESHOLDS["attempt_too_low"]:
-                    issues.append({
-                        "file": str(path),
-                        "position": pos_name,
-                        "role": role,
-                        "type": "attempt_negligible",
-                        "message": f"{role}: '{name}' has only {prob}% attempt probability",
-                        "severity": "info",
-                        "transition": name,
-                        "current": prob,
-                    })
+                    if 0 < prob < THRESHOLDS["attempt_too_low"]:
+                        issues.append({
+                            "file": str(path),
+                            "position": pos_name,
+                            "role": role if rs is None else f"{role}[{rs}]",
+                            "type": "attempt_negligible",
+                            "message": f"{role}{rs_sfx}: '{name}' has only {prob:g}% attempt probability",
+                            "severity": "info",
+                            "transition": name,
+                            "current": prob,
+                        })
 
         # Also check root-level transitions (neutral positions)
         root_transitions = data.get("transitions", [])
         if root_transitions and "top" not in data and "bottom" not in data:
             for t in root_transitions:
-                prob = t.get("attempt_probability", 0)
                 name = t.get("transition", "")
+                for rs, prob in iter_cells(t.get("attempt_probability", 0)):
+                    rs_sfx = f"[{rs}]" if rs else ""
 
-                if prob > THRESHOLDS["attempt_too_high"]:
-                    issues.append({
-                        "file": str(path),
-                        "position": pos_name,
-                        "role": "root",
-                        "type": "attempt_dominant",
-                        "message": f"root: '{name}' dominates with {prob}% attempt probability",
-                        "severity": "info",
-                        "transition": name,
-                        "current": prob,
-                    })
+                    if prob > THRESHOLDS["attempt_too_high"]:
+                        issues.append({
+                            "file": str(path),
+                            "position": pos_name,
+                            "role": "root" if rs is None else f"root[{rs}]",
+                            "type": "attempt_dominant",
+                            "message": f"root{rs_sfx}: '{name}' dominates with {prob:g}% attempt probability",
+                            "severity": "info",
+                            "transition": name,
+                            "current": prob,
+                        })
 
-                if 0 < prob < THRESHOLDS["attempt_too_low"]:
-                    issues.append({
-                        "file": str(path),
-                        "position": pos_name,
-                        "role": "root",
-                        "type": "attempt_negligible",
-                        "message": f"root: '{name}' has only {prob}% attempt probability",
-                        "severity": "info",
-                        "transition": name,
-                        "current": prob,
-                    })
+                    if 0 < prob < THRESHOLDS["attempt_too_low"]:
+                        issues.append({
+                            "file": str(path),
+                            "position": pos_name,
+                            "role": "root" if rs is None else f"root[{rs}]",
+                            "type": "attempt_negligible",
+                            "message": f"root{rs_sfx}: '{name}' has only {prob:g}% attempt probability",
+                            "severity": "info",
+                            "transition": name,
+                            "current": prob,
+                        })
 
     return issues
 
@@ -792,6 +836,119 @@ def write_suggested_new_files_csv(all_issues):
     return csv_path, len(suggestions)
 
 
+# ---------------------------------------------------------------------------
+# Coherence gates on generated graph.json + templates/votes.json (calibration-v2 Phase 2.3b)
+# ---------------------------------------------------------------------------
+
+def _iter_graph_technique_nodes(graph):
+    """Yield (node_key, node) for every transitions/submissions node in graph.json."""
+    for coll_name in ("transitions", "submissions"):
+        coll = graph.get(coll_name, {})
+        if isinstance(coll, dict):
+            for key, node in coll.items():
+                if isinstance(node, dict):
+                    yield key, node
+
+
+def validate_successrate_coherence(graph):
+    """Every attacker/defender node's headline successRate must equal the sum of its 'success'
+    outcome probabilities (within 1.0). Guards the headline<->breakdown coherence the graph build's
+    outcome rescale maintains after a vote/prior override."""
+    violations = []
+    for key, node in _iter_graph_technique_nodes(graph):
+        if node.get("role") not in ("attacker", "defender"):
+            continue
+        outcomes = node.get("outcomes")
+        if not outcomes:
+            continue
+        succ = [o for o in outcomes if o.get("result") == "success"]
+        if not succ:
+            continue
+        sr = node.get("successRate")
+        if sr is None:
+            continue
+        succ_sum = sum(o.get("probability", 0) for o in succ)
+        if abs(sr - succ_sum) > 1.0:
+            violations.append({
+                "type": "successrate_incoherent",
+                "severity": "error",
+                "name": node.get("name", key),
+                "node": key,
+                "message": (f"{key}: successRate {sr:g} != Σ success outcomes {succ_sum:g} "
+                            f"(|Δ| {abs(sr - succ_sum):g} > 1.0)"),
+            })
+    return violations
+
+
+def validate_defender_complement(graph):
+    """Each attacker/defender pair (matched by base slug) must have complementary success rates:
+    defender.successRate ≈ 100 - attacker.successRate (within 1.5)."""
+    violations = []
+    attackers, defenders = {}, {}
+    for key, node in _iter_graph_technique_nodes(graph):
+        role = node.get("role")
+        base = key.rsplit("/", 1)[0]
+        if role == "attacker":
+            attackers[base] = node
+        elif role == "defender":
+            defenders[base] = node
+    for base, att in attackers.items():
+        dfn = defenders.get(base)
+        if dfn is None:
+            continue
+        asr = att.get("successRate")
+        dsr = dfn.get("successRate")
+        if asr is None or dsr is None:
+            continue
+        if abs(dsr - (100 - asr)) > 1.5:
+            violations.append({
+                "type": "defender_not_complement",
+                "severity": "error",
+                "name": att.get("name", base),
+                "node": base,
+                "message": (f"{base}: defender successRate {dsr:g} != 100 - attacker {asr:g} "
+                            f"(= {100 - asr:g}, |Δ| {abs(dsr - (100 - asr)):g} > 1.5)"),
+            })
+    return violations
+
+
+def validate_votes_priors(votes_data):
+    """Schema gate on templates/votes.json: community and prior are SEPARATE, PAIRED keys; every
+    community frame has vote_count >= PRIOR_VOTE_COUNT; every present prior frame block has
+    pseudo_count >= 1 and success_rate in [0,100]. Legacy (unmigrated) entries are skipped."""
+    violations = []
+
+    def add(name, msg):
+        violations.append({"type": "votes_schema", "severity": "error", "name": name, "message": msg})
+
+    for name, entry in votes_data.get("votes", {}).items():
+        if not isinstance(entry, dict):
+            continue
+        community = entry.get("community")
+        prior = entry.get("prior")
+        if community is not None:
+            for rs in RULESETS:
+                block = community.get(rs)
+                if not isinstance(block, dict) or block.get("vote_count") is None:
+                    add(name, f"{name}: community.{rs} missing vote_count")
+                elif block["vote_count"] < PRIOR_VOTE_COUNT:
+                    add(name, f"{name}: community.{rs} vote_count {block['vote_count']} < {PRIOR_VOTE_COUNT}")
+        if prior is not None:
+            if community is None:
+                add(name, f"{name}: has 'prior' but no 'community' (keys must be separate and paired)")
+            for rs in RULESETS:
+                block = prior.get(rs)
+                if block is None:
+                    continue  # a ruleset frame may be absent; only present frames are checked
+                pc = block.get("pseudo_count")
+                sr = block.get("success_rate")
+                if pc is None or pc < 1:
+                    add(name, f"{name}: prior.{rs} pseudo_count {pc} < 1")
+                if sr is None or not (0 <= sr <= 100):
+                    add(name, f"{name}: prior.{rs} success_rate {sr} out of [0,100]")
+    return violations
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="BJJ Graph Integrity Audit — comprehensive graph checks"
@@ -804,7 +961,7 @@ def main():
                         help="List every attempt-probability outlier (otherwise only the count is shown)")
     args = parser.parse_args()
 
-    total_steps = 13
+    total_steps = 14
     print("=" * 70)
     print("BJJ GRAPH INTEGRITY AUDIT")
     print("=" * 70)
@@ -899,8 +1056,24 @@ def main():
     bidir_warnings = [i for i in bidir_issues if i["severity"] == "warning"]
     print(f"  Errors: {len(bidir_errors)}, Warnings: {len(bidir_warnings)}")
 
-    # Step 13: Summary
-    print(f"[13/{total_steps}] Compiling report...")
+    # Step 13: Coherence gates on generated graph.json + templates/votes.json (calibration-v2 2.3b)
+    print(f"[13/{total_steps}] Checking successRate / defender-complement / votes-prior coherence...")
+    coherence_issues = []
+    graph_data = load_json(GRAPH_PATH) if GRAPH_PATH.exists() else None
+    votes_data = load_json(VOTES_PATH) if VOTES_PATH.exists() else None
+    if graph_data:
+        coherence_issues.extend(validate_successrate_coherence(graph_data))
+        coherence_issues.extend(validate_defender_complement(graph_data))
+    else:
+        print(f"  (graph.json not present at {GRAPH_PATH} — skipping graph coherence checks)")
+    if votes_data:
+        coherence_issues.extend(validate_votes_priors(votes_data))
+    else:
+        print(f"  (votes.json not present at {VOTES_PATH} — skipping votes-prior checks)")
+    print(f"  Coherence violations: {len(coherence_issues)}")
+
+    # Step 14: Summary
+    print(f"[14/{total_steps}] Compiling report...")
 
     # === Collect all issues with severity ===
     all_issues = []
@@ -1012,6 +1185,9 @@ def main():
     # Low connectivity (warning)
     all_issues.extend(connectivity_issues)
 
+    # Coherence gates on generated graph.json + votes.json (error)
+    all_issues.extend(coherence_issues)
+
     # === Filter if requested ===
     if args.errors_only:
         all_issues = [i for i in all_issues if i["severity"] == "error"]
@@ -1101,6 +1277,18 @@ def main():
     for e in outcome_unknown:
         print(f"  {e['name']}: {e['message']}")
 
+    # Coherence violations (graph.json successRate/complement + votes.json prior schema)
+    sr_incoherent = [i for i in all_issues if i["type"] == "successrate_incoherent"]
+    complement_bad = [i for i in all_issues if i["type"] == "defender_not_complement"]
+    votes_schema_bad = [i for i in all_issues if i["type"] == "votes_schema"]
+    coherence_total = len(sr_incoherent) + len(complement_bad) + len(votes_schema_bad)
+    print(f"\n--- COHERENCE VIOLATIONS ({coherence_total}) ---")
+    print("(graph.json successRate<->outcomes, defender complement, votes.json prior schema)")
+    for e in (sr_incoherent + complement_bad + votes_schema_bad)[:20]:
+        print(f"  {e['message']}")
+    if coherence_total > 20:
+        print(f"  ... and {coherence_total - 20} more")
+
     # Outcome warnings (always compute for report, only print if not errors-only)
     outcome_warns = [i for i in all_issues if i["type"] in ("outcome_too_high", "counter_high", "technique_range_high", "technique_range_low")]
     attempt_outliers = [i for i in all_issues if i["type"] in ("attempt_dominant", "attempt_negligible")]
@@ -1136,6 +1324,8 @@ def main():
     print(f"  Transition files:       {len(transition_index)}")
     print(f"  Submission files:       {len(submission_index)}")
     print(f"  Position files:         {len(position_names)}")
+    print(f"  Coherence violations:   {coherence_total} "
+          f"(successRate {len(sr_incoherent)}, complement {len(complement_bad)}, votes {len(votes_schema_bad)})")
     print(f"  Total issues:           {len(all_issues)}")
     print(f"    Errors:               {error_count}")
     print(f"    Warnings:             {warning_count}")
@@ -1166,6 +1356,10 @@ def main():
             "outcome_errors": len(outcome_sum_errors) + len(outcome_missing) + len(outcome_unknown),
             "outcome_warnings": len(outcome_warns),
             "attempt_outliers": len(attempt_outliers),
+            "coherence_violations": coherence_total,
+            "successrate_incoherent": len(sr_incoherent),
+            "defender_not_complement": len(complement_bad),
+            "votes_schema_violations": len(votes_schema_bad),
         },
         "issues": all_issues,
         "naming_inconsistencies": name_matches,

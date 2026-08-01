@@ -150,6 +150,54 @@ description: "How to defend against Aoki Lock in BJJ. Recognition, escape paths,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock from Ashi Garami (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg defense from ashi garami",
+      "description": "Aoki Lock from Ashi Garami (Defender) film study: Leg defense from ashi garami, taught by The Coop BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L417yCl_-dc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L417yCl_-dc",
+      "url": "https://www.youtube.com/watch?v=L417yCl_-dc",
+      "creator": { "@type": "Person", "name": "The Coop BJJ" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping ashi garami - leg lock defense",
+      "description": "Aoki Lock from Ashi Garami (Defender) film study: Escaping ashi garami - leg lock defense, taught by Scott Elliott.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AQbJMBiWYfU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AQbJMBiWYfU",
+      "url": "https://www.youtube.com/watch?v=AQbJMBiWYfU",
+      "creator": { "@type": "Person", "name": "Scott Elliott" },
+      "duration": "PT141S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Irimi ashi garami counter",
+      "description": "Aoki Lock from Ashi Garami (Defender) film study: Irimi ashi garami counter, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRXsNPAgVLU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cRXsNPAgVLU",
+      "url": "https://www.youtube.com/watch?v=cRXsNPAgVLU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Aoki Lock requires understanding the unique compression mechanics 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock from Ashi Garami (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L417yCl_-dc)
+
+<p class="clip-credit"><strong>Leg defense from ashi garami</strong> — taught by The Coop BJJ · 0:48 · <a href="https://www.youtube.com/watch?v=L417yCl_-dc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AQbJMBiWYfU)
+
+<p class="clip-credit"><strong>Escaping ashi garami - leg lock defense</strong> — taught by Scott Elliott · 2:21 · <a href="https://www.youtube.com/watch?v=AQbJMBiWYfU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cRXsNPAgVLU)
+
+<p class="clip-credit"><strong>Irimi ashi garami counter</strong> — taught by John Danaher · 0:29 · <a href="https://www.youtube.com/watch?v=cRXsNPAgVLU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

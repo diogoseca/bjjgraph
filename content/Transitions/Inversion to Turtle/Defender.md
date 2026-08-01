@@ -148,6 +148,32 @@ description: "How to defend against Inversion to Turtle in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion to Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg Lock Escape - Roll Through",
+      "description": "Inversion to Turtle (Defender) film study: Leg Lock Escape - Roll Through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +187,26 @@ Successful defense requires reading the telegraphed signs of the escape—change
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion to Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg Lock Escape - Roll Through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Knee Shield Half Guard Top in BJJ. Complete guide covering 
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice from Half",
-      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice from Half. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Knee Shield Half Guard Top in BJJ. Complete guide covering 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Half Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee shield half guard pass",
+      "description": "Knee Shield Half Guard (Top) film study: Knee shield half guard pass, taught by Adam Metcalf.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y815hmtzGZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y815hmtzGZA",
+      "url": "https://www.youtube.com/watch?v=Y815hmtzGZA",
+      "creator": { "@type": "Person", "name": "Adam Metcalf" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pass knee shield with inside knee cut",
+      "description": "Knee Shield Half Guard (Top) film study: Pass knee shield with inside knee cut, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yj_6xcl2emA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yj_6xcl2emA",
+      "url": "https://www.youtube.com/watch?v=yj_6xcl2emA",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Most basic half guard pass (no-gi)",
+      "description": "Knee Shield Half Guard (Top) film study: Most basic half guard pass (no-gi), taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_XjuF0no1Uw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_XjuF0no1Uw",
+      "url": "https://www.youtube.com/watch?v=_XjuF0no1Uw",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT89S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ Knee Shield Half Guard Top is a challenging passing position where the top pract
 From top position, the primary goal is to neutralize the knee shield's effectiveness by controlling distance, establishing superior grips, and applying strategic pressure that forces the bottom player into defensive compromises. The passer must balance between maintaining forward pressure to prevent re-guards while avoiding overcommitment that leads to sweeps. Understanding the biomechanical weaknesses of the knee shield structure—particularly how it becomes vulnerable when extended too far or compressed too much—is essential for consistent passing success.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Half Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y815hmtzGZA)
+
+<p class="clip-credit"><strong>Knee shield half guard pass</strong> — taught by Adam Metcalf · 0:30 · <a href="https://www.youtube.com/watch?v=Y815hmtzGZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yj_6xcl2emA)
+
+<p class="clip-credit"><strong>Pass knee shield with inside knee cut</strong> — taught by War Room Jiu Jitsu · 1:10 · <a href="https://www.youtube.com/watch?v=yj_6xcl2emA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_XjuF0no1Uw)
+
+<p class="clip-credit"><strong>Most basic half guard pass (no-gi)</strong> — taught by Danny Mitchell · 1:29 · <a href="https://www.youtube.com/watch?v=_XjuF0no1Uw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

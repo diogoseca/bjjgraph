@@ -170,6 +170,54 @@ description: "Learn to finish the Cross Collar Choke from Modified Mount with pr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Modified Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Chokes breakdown",
+      "description": "Cross Collar Choke from Modified Mount (Attacker) film study: Cross Collar Chokes breakdown, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross collar choke from mount",
+      "description": "Cross Collar Choke from Modified Mount (Attacker) film study: Cross collar choke from mount, taught by Chad Lyman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pXcCvjwjPHw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pXcCvjwjPHw",
+      "url": "https://www.youtube.com/watch?v=pXcCvjwjPHw",
+      "creator": { "@type": "Person", "name": "Chad Lyman" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross choke from mount",
+      "description": "Cross Collar Choke from Modified Mount (Attacker) film study: Cross choke from mount, taught by Blue Springs Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5cYvd0U5IQQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5cYvd0U5IQQ",
+      "url": "https://www.youtube.com/watch?v=5cYvd0U5IQQ",
+      "creator": { "@type": "Person", "name": "Blue Springs Jiu-Jitsu" },
+      "duration": "PT29S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking with the Cross Collar Choke from Modified Mount requires understanding
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Modified Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross Collar Chokes breakdown</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pXcCvjwjPHw)
+
+<p class="clip-credit"><strong>Cross collar choke from mount</strong> — taught by Chad Lyman · 0:56 · <a href="https://www.youtube.com/watch?v=pXcCvjwjPHw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5cYvd0U5IQQ)
+
+<p class="clip-credit"><strong>Cross choke from mount</strong> — taught by Blue Springs Jiu-Jitsu · 0:29 · <a href="https://www.youtube.com/watch?v=5cYvd0U5IQQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

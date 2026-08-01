@@ -140,6 +140,43 @@ description: "Prevent the turn-in escape from twister side control. Learn to mai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turn In from Twister Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side control escape: the ramp",
+      "description": "Turn In from Twister Side Control (Defender) film study: Side control escape: the ramp, taught by Andy Balmore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cO2KXVOZJLo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cO2KXVOZJLo",
+      "url": "https://www.youtube.com/watch?v=cO2KXVOZJLo",
+      "creator": { "@type": "Person", "name": "Andy Balmore" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side control escape",
+      "description": "Turn In from Twister Side Control (Defender) film study: Twister side control escape, taught by 10th Planet Colorado Springs.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F1170I6qL7c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F1170I6qL7c",
+      "url": "https://www.youtube.com/watch?v=F1170I6qL7c",
+      "creator": { "@type": "Person", "name": "10th Planet Colorado Springs" },
+      "duration": "PT139S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in twister side control, your goal when the bottom player atte
 **Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turn In from Twister Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cO2KXVOZJLo)
+
+<p class="clip-credit"><strong>Side control escape: the ramp</strong> — taught by Andy Balmore · 1:39 · <a href="https://www.youtube.com/watch?v=cO2KXVOZJLo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F1170I6qL7c)
+
+<p class="clip-credit"><strong>Twister side control escape</strong> — taught by 10th Planet Colorado Springs · 2:19 · <a href="https://www.youtube.com/watch?v=F1170I6qL7c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

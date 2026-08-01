@@ -148,6 +148,54 @@ description: "Learn to defend against the Overhook to Half Guard transition as t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook to Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the flat half guard",
+      "description": "Overhook to Half Guard (Defender) film study: Passing the flat half guard, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8WbQvytyCX0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8WbQvytyCX0",
+      "url": "https://www.youtube.com/watch?v=8WbQvytyCX0",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shutting down half guard with pressure passing",
+      "description": "Overhook to Half Guard (Defender) film study: Shutting down half guard with pressure passing, taught by Jozef Chen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/97ux-nxiMuE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/97ux-nxiMuE",
+      "url": "https://www.youtube.com/watch?v=97ux-nxiMuE",
+      "creator": { "@type": "Person", "name": "Jozef Chen" },
+      "duration": "PT271S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Two ways to break through half guard",
+      "description": "Overhook to Half Guard (Defender) film study: Two ways to break through half guard, taught by Big Oss Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qymk3xe3boE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qymk3xe3boE",
+      "url": "https://www.youtube.com/watch?v=qymk3xe3boE",
+      "creator": { "@type": "Person", "name": "Big Oss Jiu-Jitsu" },
+      "duration": "PT526S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the top player defending against the Overhook to Half Guard transition, your 
 **Opponent's Starting Position**: [[Positions/Overhook Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook to Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8WbQvytyCX0)
+
+<p class="clip-credit"><strong>Passing the flat half guard</strong> — taught by Malachy Friedman · 1:03 · <a href="https://www.youtube.com/watch?v=8WbQvytyCX0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=97ux-nxiMuE)
+
+<p class="clip-credit"><strong>Shutting down half guard with pressure passing</strong> — taught by Jozef Chen · 4:31 · <a href="https://www.youtube.com/watch?v=97ux-nxiMuE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qymk3xe3boE)
+
+<p class="clip-credit"><strong>Two ways to break through half guard</strong> — taught by Big Oss Jiu-Jitsu · 8:46 · <a href="https://www.youtube.com/watch?v=qymk3xe3boE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

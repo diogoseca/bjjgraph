@@ -371,39 +371,129 @@
   "flashcards": [
     {
       "question": "What is the core dilemma the Garry Tonon Leg Lock to Back System imposes on an opponent?",
-      "answer": "Defending the leg attack exposes back-taking pathways, while escaping back control re-exposes leg entanglements, forcing the opponent to concede one attack category to defend the other."
+      "answer": "Defending the leg attack exposes back-taking pathways, while escaping back control re-exposes leg entanglements, forcing the opponent to concede one attack category to defend the other.",
+      "answer_line": "Defend one attack, expose other",
+      "distractors": {
+        "plausible": [
+          "Escape both threats simultaneously",
+          "Focus only on escaping the legs"
+        ],
+        "trap": [
+          "Turtle up to avoid both attacks"
+        ]
+      }
     },
     {
       "question": "Which defensive reaction to a leg attack signals a transition to back control via the seat belt?",
-      "answer": "A forward turn toward you during the leg attack creates the rotation needed to establish a seat belt grip and rotate into back control or rear mount."
+      "answer": "A forward turn toward you during the leg attack creates the rotation needed to establish a seat belt grip and rotate into back control or rear mount.",
+      "answer_line": "Forward turn traps seat belt",
+      "distractors": {
+        "plausible": [
+          "Backward roll into seat belt",
+          "Sit out to escape the attack"
+        ],
+        "trap": [
+          "Push forward into their chest"
+        ]
+      }
     },
     {
       "question": "How does heel hook defense from the saddle typically convert into the truck position?",
-      "answer": "When the opponent turns into the heel hook to defend, that defensive turn exposes the truck; you release heel hook pressure and capture the truck to threaten the twister."
+      "answer": "When the opponent turns into the heel hook to defend, that defensive turn exposes the truck; you release heel hook pressure and capture the truck to threaten the twister.",
+      "answer_line": "Turn in, release for the truck",
+      "distractors": {
+        "plausible": [
+          "Turn in, finish the heel hook",
+          "Turn out to escape the saddle"
+        ],
+        "trap": [
+          "Chase the heel, lose position"
+        ]
+      }
     },
     {
       "question": "Why must submission threats in this system be legitimate rather than positional feints?",
-      "answer": "If opponents do not genuinely fear the finish, they will not make the defensive movements that expose the transitions, so weak finishing collapses the entire dilemma structure."
+      "answer": "If opponents do not genuinely fear the finish, they will not make the defensive movements that expose the transitions, so weak finishing collapses the entire dilemma structure.",
+      "answer_line": "Real threats force real reactions",
+      "distractors": {
+        "plausible": [
+          "Fake threats bait same reactions",
+          "Speed compensates for weak subs"
+        ],
+        "trap": [
+          "Skip subs, chain positions only"
+        ]
+      }
     },
     {
       "question": "What principle governs grip release during transitions in this system?",
-      "answer": "You release the leg submission grip only after the next control point is secured, maintaining simultaneous old and new connection so the opponent cannot reset to neutral."
+      "answer": "You release the leg submission grip only after the next control point is secured, maintaining simultaneous old and new connection so the opponent cannot reset to neutral.",
+      "answer_line": "Release only after new grip set",
+      "distractors": {
+        "plausible": [
+          "Release early to move faster",
+          "Release simultaneously both grips"
+        ],
+        "trap": [
+          "Let go once you feel resistance"
+        ]
+      }
     },
     {
       "question": "How does the system handle an opponent who stalls in turtle to defend both legs and back?",
-      "answer": "Use front headlock control as an intermediate position threatening anaconda and darce chokes plus back takes, treating the turtle as another node in the cycle rather than an escape."
+      "answer": "Use front headlock control as an intermediate position threatening anaconda and darce chokes plus back takes, treating the turtle as another node in the cycle rather than an escape.",
+      "answer_line": "Front headlock keeps cycle going",
+      "distractors": {
+        "plausible": [
+          "Wait it out for opponent to move",
+          "Flatten out to force a scramble"
+        ],
+        "trap": [
+          "Abandon turtle, reset standing"
+        ]
+      }
     },
     {
       "question": "What role does the Kiss of the Dragon play in the system?",
-      "answer": "It is a dynamic rolling back take that reconnects to back control when leg attacks are defended by forward pressure passing, preserving offensive continuity through the inversion."
+      "answer": "It is a dynamic rolling back take that reconnects to back control when leg attacks are defended by forward pressure passing, preserving offensive continuity through the inversion.",
+      "answer_line": "Rolling back take after leg escape",
+      "distractors": {
+        "plausible": [
+          "Static back take, no roll needed",
+          "Standing back take after inversion"
+        ],
+        "trap": [
+          "Bail to guard after the roll"
+        ]
+      }
     },
     {
       "question": "Which back escapes tend to re-expose leg entanglements, and how do they map to ashi variations?",
-      "answer": "Granby rolls and turn-ins reposition the legs so a forward granby typically exposes outside ashi while backward rolls create inside ashi opportunities, letting you recapture the legs."
+      "answer": "Granby rolls and turn-ins reposition the legs so a forward granby typically exposes outside ashi while backward rolls create inside ashi opportunities, letting you recapture the legs.",
+      "answer_line": "Forward granby to outside ashi",
+      "distractors": {
+        "plausible": [
+          "Backward roll to outside ashi",
+          "Forward granby to inside ashi"
+        ],
+        "trap": [
+          "Chase the scramble, lose grips"
+        ]
+      }
     },
     {
       "question": "What common mistake produces a one-dimensional threat profile in this system?",
-      "answer": "Neglecting back attack development in favor of leg locks, which lets opponents specialize their defense and escape the system's two-category dilemma entirely."
+      "answer": "Neglecting back attack development in favor of leg locks, which lets opponents specialize their defense and escape the system's two-category dilemma entirely.",
+      "answer_line": "Over-focusing on leg locks only",
+      "distractors": {
+        "plausible": [
+          "Neglecting leg locks for back only",
+          "Not committing to any submission"
+        ],
+        "trap": [
+          "Chasing every submission equally"
+        ]
+      }
     }
   ]
 }

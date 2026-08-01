@@ -34,6 +34,54 @@ description: "Master the Elevator Sweep from butterfly guard. Complete guide to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elevator Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Elevator Sweep Variations from Butterfly Guard",
+      "description": "Elevator Sweep film study: Elevator Sweep Variations from Butterfly Guard, taught by Antonio Suazo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mjy1CpE6N2M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mjy1CpE6N2M",
+      "url": "https://www.youtube.com/watch?v=mjy1CpE6N2M",
+      "creator": { "@type": "Person", "name": "Antonio Suazo" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "BJJ Elevator Sweep",
+      "description": "Elevator Sweep film study: BJJ Elevator Sweep, taught by Clinch Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LgDGnavTYAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LgDGnavTYAs",
+      "url": "https://www.youtube.com/watch?v=LgDGnavTYAs",
+      "creator": { "@type": "Person", "name": "Clinch Academy" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Overhook Elevator Sweep from Butterfly Guard",
+      "description": "Elevator Sweep film study: Overhook Elevator Sweep from Butterfly Guard, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2hc9sl1hEkE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2hc9sl1hEkE",
+      "url": "https://www.youtube.com/watch?v=2hc9sl1hEkE",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT36S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The elevator sweep is particularly effective against opponents who are sitting h
 Strategically, the elevator sweep serves as a cornerstone technique in the butterfly guard system, working in combination with other butterfly attacks like the basic butterfly sweep, arm drag to back takes, and guillotine attacks. The threat of the elevator sweep forces opponents to adjust their base and posture, creating opportunities for these complementary techniques. Mastering this sweep is essential for anyone looking to develop a dangerous butterfly guard game.
 
 **From Position**: [[Positions/Butterfly Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elevator Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mjy1CpE6N2M)
+
+<p class="clip-credit"><strong>Elevator Sweep Variations from Butterfly Guard</strong> — taught by Antonio Suazo · 1:19 · <a href="https://www.youtube.com/watch?v=mjy1CpE6N2M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LgDGnavTYAs)
+
+<p class="clip-credit"><strong>BJJ Elevator Sweep</strong> — taught by Clinch Academy · 1:56 · <a href="https://www.youtube.com/watch?v=LgDGnavTYAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2hc9sl1hEkE)
+
+<p class="clip-credit"><strong>Overhook Elevator Sweep from Butterfly Guard</strong> — taught by Satori BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=2hc9sl1hEkE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -256,7 +340,7 @@ From a strategic perspective, the elevator sweep forces opponents to make defens
 
 - [[Transitions/Arm Drag to Back]] - Follow-up technique - use when opponent posts far arm to defend elevator sweep
 
-- [[Transitions/Guillotine Choke]] - Submission setup - available when opponent lowers head to defend sweep
+- [[Submissions/Guillotine Choke]] - Submission setup - available when opponent lowers head to defend sweep
 
 - [[Transitions/Hook Sweep]] - Alternative sweep - similar hook mechanics with different grip configuration
 

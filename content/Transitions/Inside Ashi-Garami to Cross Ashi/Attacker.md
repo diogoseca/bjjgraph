@@ -180,6 +180,54 @@ description: "How to execute Inside Ashi-Garami to Cross Ashi in BJJ. Attacking 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami to Cross Ashi (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple fix for your cross ashi leg lock",
+      "description": "Inside Ashi-Garami to Cross Ashi (Attacker) film study: Simple fix for your cross ashi leg lock, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nVfqMfVpTVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nVfqMfVpTVk",
+      "url": "https://www.youtube.com/watch?v=nVfqMfVpTVk",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Easy entry to the saddle (411, cross ashi)",
+      "description": "Inside Ashi-Garami to Cross Ashi (Attacker) film study: Easy entry to the saddle (411, cross ashi), taught by Ilya\u0027s Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HniaoFWTsmI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HniaoFWTsmI",
+      "url": "https://www.youtube.com/watch?v=HniaoFWTsmI",
+      "creator": { "@type": "Person", "name": "Ilya\u0027s Jiu-Jitsu" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross ashi to double cross ashi drill",
+      "description": "Inside Ashi-Garami to Cross Ashi (Attacker) film study: Cross ashi to double cross ashi drill, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SLYKgVORsxk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SLYKgVORsxk",
+      "url": "https://www.youtube.com/watch?v=SLYKgVORsxk",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -193,6 +241,42 @@ Strategically, this transition serves as an essential response when opponents su
 **From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami to Cross Ashi (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nVfqMfVpTVk)
+
+<p class="clip-credit"><strong>Simple fix for your cross ashi leg lock</strong> — taught by Factory Fresh Jiu Jitsu · 0:55 · <a href="https://www.youtube.com/watch?v=nVfqMfVpTVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HniaoFWTsmI)
+
+<p class="clip-credit"><strong>Easy entry to the saddle (411, cross ashi)</strong> — taught by Ilya&#39;s Jiu-Jitsu · 0:53 · <a href="https://www.youtube.com/watch?v=HniaoFWTsmI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SLYKgVORsxk)
+
+<p class="clip-credit"><strong>Cross ashi to double cross ashi drill</strong> — taught by Factory Fresh Jiu Jitsu · 0:28 · <a href="https://www.youtube.com/watch?v=SLYKgVORsxk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

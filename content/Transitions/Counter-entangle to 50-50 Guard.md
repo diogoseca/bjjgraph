@@ -34,6 +34,54 @@ description: "Learn Counter-entangle to 50-50 Guard in BJJ. Defensive leg revers
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter-entangle to 50-50 Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Roll under to backside 50/50",
+      "description": "Counter-entangle to 50-50 Guard film study: Roll under to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three paths to backside 50/50 from single leg X",
+      "description": "Counter-entangle to 50-50 Guard film study: Three paths to backside 50/50 from single leg X, taught by Gustavo Gomes Firmino.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yT3euuWRWXw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yT3euuWRWXw",
+      "url": "https://www.youtube.com/watch?v=yT3euuWRWXw",
+      "creator": { "@type": "Person", "name": "Gustavo Gomes Firmino" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Luiz Panza 50/50 entrance",
+      "description": "Counter-entangle to 50-50 Guard film study: Luiz Panza 50/50 entrance, taught by Luiz Panza.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zMJb2tjrqOY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zMJb2tjrqOY",
+      "url": "https://www.youtube.com/watch?v=zMJb2tjrqOY",
+      "creator": { "@type": "Person", "name": "Luiz Panza" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The strategic value of this counter lies in its risk mitigation properties. When
 This technique requires precise timing and technical execution. Attempting the counter-entangle too early when the opponent has strong control results in accelerated positional deterioration. Waiting too long allows the opponent to consolidate into Saddle or Inside Ashi where counter-entanglement becomes impossible. The window of opportunity exists during transitional moments when the opponent is adjusting grips or attempting to advance their position.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 34%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter-entangle to 50-50 Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yT3euuWRWXw)
+
+<p class="clip-credit"><strong>Three paths to backside 50/50 from single leg X</strong> — taught by Gustavo Gomes Firmino · 0:56 · <a href="https://www.youtube.com/watch?v=yT3euuWRWXw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zMJb2tjrqOY)
+
+<p class="clip-credit"><strong>Luiz Panza 50/50 entrance</strong> — taught by Luiz Panza · 0:47 · <a href="https://www.youtube.com/watch?v=zMJb2tjrqOY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -241,7 +325,7 @@ The Counter-entangle to 50-50 Guard sits within the broader leg entanglement def
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement that counter-entangle prevents
 
-- [[Transitions/Heel Hook]] - Primary submission threat in both starting and ending positions
+- [[Submissions/Heel Hook]] - Primary submission threat in both starting and ending positions
 
 - [[Positions/X-Guard/Single Leg X-Guard]] - Alternative target position if 50-50 entry is blocked
 

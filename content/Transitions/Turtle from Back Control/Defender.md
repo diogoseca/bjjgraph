@@ -148,6 +148,54 @@ description: "Master defending against turtle escapes from back control in BJJ. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle from Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining back control with hooks",
+      "description": "Turtle from Back Control (Defender) film study: Maintaining back control with hooks, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Keeping a strong hook when they turtle out",
+      "description": "Turtle from Back Control (Defender) film study: Keeping a strong hook when they turtle out, taught by Ben Egli.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JWwNMbkmzsM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JWwNMbkmzsM",
+      "url": "https://www.youtube.com/watch?v=JWwNMbkmzsM",
+      "creator": { "@type": "Person", "name": "Ben Egli" },
+      "duration": "PT225S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stopping the turtle and retaking the back",
+      "description": "Turtle from Back Control (Defender) film study: Stopping the turtle and retaking the back, taught by Gold BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8qQrZ1b_Omw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8qQrZ1b_Omw",
+      "url": "https://www.youtube.com/watch?v=8qQrZ1b_Omw",
+      "creator": { "@type": "Person", "name": "Gold BJJ" },
+      "duration": "PT318S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the back controller, preventing the opponent's escape to turtle requires unde
 **Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle from Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JWwNMbkmzsM)
+
+<p class="clip-credit"><strong>Keeping a strong hook when they turtle out</strong> — taught by Ben Egli · 3:45 · <a href="https://www.youtube.com/watch?v=JWwNMbkmzsM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8qQrZ1b_Omw)
+
+<p class="clip-credit"><strong>Stopping the turtle and retaking the back</strong> — taught by Gold BJJ · 5:18 · <a href="https://www.youtube.com/watch?v=8qQrZ1b_Omw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

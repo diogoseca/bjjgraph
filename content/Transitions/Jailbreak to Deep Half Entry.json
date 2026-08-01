@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Deep Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Jailbreak to Deep Half Entry is a bottom half-guard transition where, when the top player bases wide to stuff the jailbreak roll, you redirect your underhook and dive your hips beneath their base to establish deep half guard.",
   "overview": "The Jailbreak to Deep Half Entry represents a critical transition in the half guard game, offering an alternative pathway when the explosive rolling escape is defended or suboptimal. This technique transforms the compromised jailbreak position into deep half guard, one of the most powerful sweeping and back-taking positions in modern grappling. The entry exploits the natural body positioning of the jailbreak configuration, where your underhook and hip angle are already oriented toward diving underneath your opponent.\n\nStrategically, this transition is most valuable when the top player bases wide to prevent the traditional jailbreak roll. Their widened stance creates the space necessary to thread underneath them into deep half. The technique requires redirecting your momentum from the rolling escape trajectory into a diving penetration beneath their center of gravity. This shift catches opponents who have prepared specifically to defend the roll by spreading their base.\n\nThe biomechanical foundation of this entry relies on using your existing underhook as a steering mechanism while your hips drop and rotate to slide beneath the opponent's hips. Your trapped leg becomes an asset rather than a liability, as it provides the initial connection point that you convert into deep half control. Mastery of this transition significantly expands your half guard escape options, making you unpredictable and difficult to pin.",
   "conditions": [
@@ -219,46 +231,175 @@
     "flashcards": [
       {
         "question": "What is the critical trigger that tells you to attempt deep half entry instead of standard jailbreak roll?",
-        "answer": "The trigger is when your opponent bases wide with their hips back to defend your jailbreak roll attempt. This defensive posture creates space underneath their hips that allows you to dive through. If they drive forward with weight committed, the standard jailbreak roll is the correct response instead."
+        "answer": "The trigger is when your opponent bases wide with their hips back to defend your jailbreak roll attempt. This defensive posture creates space underneath their hips that allows you to dive through. If they drive forward with weight committed, the standard jailbreak roll is the correct response instead.",
+        "answer_line": "Opponent bases wide, hips back",
+        "distractors": {
+          "plausible": [
+            "Opponent drives forward hard",
+            "Opponent stiffens their underhook"
+          ],
+          "trap": [
+            "Opponent flattens your hips"
+          ]
+        }
       },
       {
         "question": "Your opponent recognizes your deep half attempt and sprawls forward with their hips - how do you adjust?",
-        "answer": "If they sprawl and drive their hips forward to prevent your dive, immediately redirect to the standard jailbreak roll. Their forward weight commitment makes them vulnerable to being rolled through. The two techniques work as a complementary pair - defending one opens the other, which is why you must read pressure direction before committing."
+        "answer": "If they sprawl and drive their hips forward to prevent your dive, immediately redirect to the standard jailbreak roll. Their forward weight commitment makes them vulnerable to being rolled through. The two techniques work as a complementary pair - defending one opens the other, which is why you must read pressure direction before committing.",
+        "answer_line": "Redirect to jailbreak roll",
+        "distractors": {
+          "plausible": [
+            "Push deeper into dive anyway",
+            "Switch to standard half guard"
+          ],
+          "trap": [
+            "Abandon leg, stand up"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed and how do they transition during the entry?",
-        "answer": "You begin with an underhook on the same side as your trapped leg, which serves as the steering mechanism during the dive. As you complete the entry, this transitions to wrapping their far leg with both arms, clasping hands behind their thigh or around their knee. The underhook must be maintained until the leg wrap is secure to prevent separation."
+        "answer": "You begin with an underhook on the same side as your trapped leg, which serves as the steering mechanism during the dive. As you complete the entry, this transitions to wrapping their far leg with both arms, clasping hands behind their thigh or around their knee. The underhook must be maintained until the leg wrap is secure to prevent separation.",
+        "answer_line": "Underhook steers into leg wrap",
+        "distractors": {
+          "plausible": [
+            "Underhook their free leg",
+            "Clasp the knee first, then hook"
+          ],
+          "trap": [
+            "Turn away and grab the ankle"
+          ]
+        }
       },
       {
         "question": "Where must your head end up for proper deep half positioning and why is this critical?",
-        "answer": "Your head must be placed on the inside of their far hip, with your ear against their hip bone. This inside head position serves two critical functions: it prevents them from establishing a crossface to shut down your position, and it creates the structural angle needed for effective deep half sweeps. Outside head placement exposes you to being flattened."
+        "answer": "Your head must be placed on the inside of their far hip, with your ear against their hip bone. This inside head position serves two critical functions: it prevents them from establishing a crossface to shut down your position, and it creates the structural angle needed for effective deep half sweeps. Outside head placement exposes you to being flattened.",
+        "answer_line": "Head inside, ear on far hip",
+        "distractors": {
+          "plausible": [
+            "Head outside their hip",
+            "Head on their chest"
+          ],
+          "trap": [
+            "Head buried in their stomach"
+          ]
+        }
       },
       {
         "question": "What distinguishes the hip movement in deep half entry from standard jailbreak roll?",
-        "answer": "In standard jailbreak, your hips rotate away from opponent as you roll through their pressure. In deep half entry, you drop your hips to the mat and rotate them to face upward toward opponent's far hip. This downward and inward hip motion creates the angle to thread underneath their base rather than rolling away from them."
+        "answer": "In standard jailbreak, your hips rotate away from opponent as you roll through their pressure. In deep half entry, you drop your hips to the mat and rotate them to face upward toward opponent's far hip. This downward and inward hip motion creates the angle to thread underneath their base rather than rolling away from them.",
+        "answer_line": "Drop hips, rotate up to hip",
+        "distractors": {
+          "plausible": [
+            "Rotate hips away like roll",
+            "Lift hips high, spin outward"
+          ],
+          "trap": [
+            "Square hips flat to mat"
+          ]
+        }
       },
       {
         "question": "How do you convert your trapped leg from a liability into deep half control during this transition?",
-        "answer": "Thread your trapped leg between their legs during the hip drop, positioning your foot on the outside of their far hip while your knee controls their near leg. This converts the leg they were using to trap you into your primary deep half hook that prevents their escape and enables sweeping mechanics."
+        "answer": "Thread your trapped leg between their legs during the hip drop, positioning your foot on the outside of their far hip while your knee controls their near leg. This converts the leg they were using to trap you into your primary deep half hook that prevents their escape and enables sweeping mechanics.",
+        "answer_line": "Thread leg, foot outside hip",
+        "distractors": {
+          "plausible": [
+            "Kick leg free, reset guard",
+            "Hook leg over their back"
+          ],
+          "trap": [
+            "Straighten leg, push away"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your underhook mid-dive - what is your immediate recovery protocol?",
-        "answer": "When the underhook is stripped during the dive, abort the deep half entry immediately. Establish forearm frames against their shoulder and hip, then shrimp aggressively to recover half guard before they can consolidate passing pressure. Never continue the dive without the underhook as you will end up flattened with no control underneath them."
+        "answer": "When the underhook is stripped during the dive, abort the deep half entry immediately. Establish forearm frames against their shoulder and hip, then shrimp aggressively to recover half guard before they can consolidate passing pressure. Never continue the dive without the underhook as you will end up flattened with no control underneath them.",
+        "answer_line": "Frame up, shrimp to half guard",
+        "distractors": {
+          "plausible": [
+            "Push through dive anyway",
+            "Grab collar, pull to closed guard"
+          ],
+          "trap": [
+            "Continue diving without underhook"
+          ]
+        }
       },
       {
         "question": "What common training mistake leads to getting stuck on opponent's thigh during entry?",
-        "answer": "Failing to drop hips low enough during the dive. Many practitioners try to thread underneath while keeping their hips elevated, which causes them to crash into the opponent's thigh. The correction is actively driving hips to the mat while rotating to create the angular pathway for complete penetration underneath their base."
+        "answer": "Failing to drop hips low enough during the dive. Many practitioners try to thread underneath while keeping their hips elevated, which causes them to crash into the opponent's thigh. The correction is actively driving hips to the mat while rotating to create the angular pathway for complete penetration underneath their base.",
+        "answer_line": "Hips too high, not dropped",
+        "distractors": {
+          "plausible": [
+            "Underhook too shallow",
+            "Head placed too early"
+          ],
+          "trap": [
+            "Moving too slowly overall"
+          ]
+        }
       },
       {
         "question": "How does this entry create a binary dilemma for the top player defending jailbreak?",
-        "answer": "The jailbreak roll and deep half entry form a fork based on opponent's weight distribution. Basing wide with hips back defends the roll but opens the deep half dive. Driving forward with weight committed defends the dive but makes them vulnerable to the roll. The top player cannot defend both simultaneously, so reading their weight distribution and choosing the correct option is the core skill."
+        "answer": "The jailbreak roll and deep half entry form a fork based on opponent's weight distribution. Basing wide with hips back defends the roll but opens the deep half dive. Driving forward with weight committed defends the dive but makes them vulnerable to the roll. The top player cannot defend both simultaneously, so reading their weight distribution and choosing the correct option is the core skill.",
+        "answer_line": "Wide=dive open; forward=roll open",
+        "distractors": {
+          "plausible": [
+            "Wide base defends both moves",
+            "Forward pressure defends both"
+          ],
+          "trap": [
+            "Basing back stops the dive"
+          ]
+        }
       },
       {
         "question": "How do you chain this entry with the waiter sweep for immediate offensive output?",
-        "answer": "During your dive underneath, instead of wrapping both arms around their trapped leg for traditional deep half, use your free hand to elevate their far leg into waiter sweep configuration. This provides immediate sweep leverage as you complete the entry, turning defense into offense in a single motion rather than settling into static deep half first."
+        "answer": "During your dive underneath, instead of wrapping both arms around their trapped leg for traditional deep half, use your free hand to elevate their far leg into waiter sweep configuration. This provides immediate sweep leverage as you complete the entry, turning defense into offense in a single motion rather than settling into static deep half first.",
+        "answer_line": "Elevate far leg mid-dive",
+        "distractors": {
+          "plausible": [
+            "Wrap both arms, settle deep half",
+            "Underhook far leg, stand up"
+          ],
+          "trap": [
+            "Release trapped leg to sweep"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique involves significant hip rotation and diving movements that can strain the lower back if performed with poor mechanics. Always warm up hip flexors and lower back thoroughly before drilling. Avoid attempting during live sparring until the movement pattern is automatic. The diving motion should be smooth and controlled - explosive jerking movements increase injury risk. Partners should communicate clearly and tap immediately if feeling any knee or hip discomfort during the threading sequence. Practitioners with existing lower back issues should modify the hip drop depth and consult their instructor for appropriate variations."
+    "safety_considerations": "This technique involves significant hip rotation and diving movements that can strain the lower back if performed with poor mechanics. Always warm up hip flexors and lower back thoroughly before drilling. Avoid attempting during live sparring until the movement pattern is automatic. The diving motion should be smooth and controlled - explosive jerking movements increase injury risk. Partners should communicate clearly and tap immediately if feeling any knee or hip discomfort during the threading sequence. Practitioners with existing lower back issues should modify the hip drop depth and consult their instructor for appropriate variations.",
+    "clips": [
+      {
+        "id": "Dalv3UtxCZ0",
+        "title": "Entering deep half guard from knee on belly",
+        "by": "Team Daruma Dojo coach",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 68,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "SShUdtEdPuA",
+        "title": "Entry to deep half guard",
+        "by": "Lucas Valle",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 195,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y4qzY740Tyg",
+        "title": "Deep half guard entries and three key options",
+        "by": "Knight Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Knight Jiu-Jitsu",
+        "duration": 186,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Jailbreak to Deep Half Entry Defender",
@@ -342,23 +483,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that opponent is switching from jailbreak roll to deep half entry?",
-        "answer": "The earliest cue is the direction change in their hip movement - instead of rotating away from you as in the standard jailbreak roll, their hips drop toward the mat and rotate to face your far hip. Their underhook will simultaneously tighten and pull downward rather than across. Recognizing this directional shift before their head passes your hip line is critical for successful defense."
+        "answer": "The earliest cue is the direction change in their hip movement - instead of rotating away from you as in the standard jailbreak roll, their hips drop toward the mat and rotate to face your far hip. Their underhook will simultaneously tighten and pull downward rather than across. Recognizing this directional shift before their head passes your hip line is critical for successful defense.",
+        "answer_line": "Hips drop and rotate inward",
+        "distractors": {
+          "plausible": [
+            "Head passes your hip line",
+            "Underhook pulls across body"
+          ],
+          "trap": [
+            "They stiffen up and freeze"
+          ]
+        }
       },
       {
         "question": "Why is stripping the underhook the most reliable defensive strategy against this transition?",
-        "answer": "The underhook is the steering mechanism that guides the bottom player underneath your hips during the dive. Without it, they cannot control the direction or depth of their penetration and the entry falls apart mechanically. Stripping the underhook addresses the root cause of the technique rather than just the symptoms, making it effective regardless of which direction they try to move."
+        "answer": "The underhook is the steering mechanism that guides the bottom player underneath your hips during the dive. Without it, they cannot control the direction or depth of their penetration and the entry falls apart mechanically. Stripping the underhook addresses the root cause of the technique rather than just the symptoms, making it effective regardless of which direction they try to move.",
+        "answer_line": "Underhook steers the dive",
+        "distractors": {
+          "plausible": [
+            "Underhook stops the roll",
+            "Underhook controls their hips"
+          ],
+          "trap": [
+            "Underhook just tires them out"
+          ]
+        }
       },
       {
         "question": "How do you balance defending the deep half dive without opening yourself to the standard jailbreak roll?",
-        "answer": "Maintain neutral weight distribution rather than committing heavily in either direction. Instead of basing wide to defend the roll or driving forward to prevent the dive, focus on attacking the underhook with whizzer and crossface control. This neutral approach removes the bottom player's primary tool without creating the directional weight commitment they need for either technique to succeed."
+        "answer": "Maintain neutral weight distribution rather than committing heavily in either direction. Instead of basing wide to defend the roll or driving forward to prevent the dive, focus on attacking the underhook with whizzer and crossface control. This neutral approach removes the bottom player's primary tool without creating the directional weight commitment they need for either technique to succeed.",
+        "answer_line": "Stay neutral, attack underhook",
+        "distractors": {
+          "plausible": [
+            "Base wide to block the dive",
+            "Drive forward to block the roll"
+          ],
+          "trap": [
+            "Commit weight back and down"
+          ]
+        }
       },
       {
         "question": "Your opponent has already gotten their head past your hip line and is wrapping your far leg - what is your best response?",
-        "answer": "At this point, you are in deep half guard and must transition to deep half top defense. Immediately establish crossface pressure to flatten them, widen your base with your free leg, and begin working to extract your trapped leg. The defensive window for preventing the entry has passed, so accepting the position and applying deep half top principles is more productive than trying to reverse a completed entry."
+        "answer": "At this point, you are in deep half guard and must transition to deep half top defense. Immediately establish crossface pressure to flatten them, widen your base with your free leg, and begin working to extract your trapped leg. The defensive window for preventing the entry has passed, so accepting the position and applying deep half top principles is more productive than trying to reverse a completed entry.",
+        "answer_line": "Accept deep half, crossface flatten",
+        "distractors": {
+          "plausible": [
+            "Yank leg free immediately",
+            "Sprawl back to standing"
+          ],
+          "trap": [
+            "Post hands, wait passively"
+          ]
+        }
       },
       {
         "question": "What defensive posture minimizes the risk of both jailbreak roll and deep half entry simultaneously?",
-        "answer": "Keep your hips low and connected to the opponent's body with balanced weight distribution, neither based too far back nor driving too far forward. Maintain active crossface pressure to control their head direction, and fight aggressively to strip the underhook using whizzer and elbow pressure. This posture eliminates the space needed for deep half entry while keeping your base stable against the roll."
+        "answer": "Keep your hips low and connected to the opponent's body with balanced weight distribution, neither based too far back nor driving too far forward. Maintain active crossface pressure to control their head direction, and fight aggressively to strip the underhook using whizzer and elbow pressure. This posture eliminates the space needed for deep half entry while keeping your base stable against the roll.",
+        "answer_line": "Low hips, crossface, kill underhook",
+        "distractors": {
+          "plausible": [
+            "Base wide, hips pinned back",
+            "Drive forward, weight committed"
+          ],
+          "trap": [
+            "Base back, let underhook go"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -381,6 +572,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring from top half guard against opponents who actively use the jailbreak system. Focus on shutting down entries before they complete while still advancing your passing game. Track which defensive responses work against which opponent tendencies."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qqheiIgQrfY",
+        "title": "Passing against deep half guard",
+        "by": "Koji Shibamoto",
+        "vertical": false,
+        "channel": "トライフォース柔術アカデミー / Tri-force Jiu-jitsu Academy",
+        "duration": 33,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "K0XMj9BNJ8U",
+        "title": "Knee slide pass countering the deep half entry",
+        "by": "Scott Ryan Chiriboga",
+        "vertical": false,
+        "channel": "Scott Ryan Chiriboga",
+        "duration": 133,
+        "verified": "2026-07-15"
       }
     ]
   },

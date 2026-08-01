@@ -136,6 +136,43 @@ description: "How to defend against Tarikoplata in BJJ. Recognition, escape path
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tarikoplata from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baratoplata / shoulder lock defense",
+      "description": "Tarikoplata from Closed Guard (Defender) film study: Baratoplata / shoulder lock defense, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rx4XoCFWeq8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rx4XoCFWeq8",
+      "url": "https://www.youtube.com/watch?v=rx4XoCFWeq8",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata escape, jump over",
+      "description": "Tarikoplata from Closed Guard (Defender) film study: Omoplata escape, jump over, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_2dhd21ffbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_2dhd21ffbc",
+      "url": "https://www.youtube.com/watch?v=_2dhd21ffbc",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT8S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +183,34 @@ Defending the tarikoplata requires recognizing the threat early and acting decis
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tarikoplata from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rx4XoCFWeq8)
+
+<p class="clip-credit"><strong>Baratoplata / shoulder lock defense</strong> — taught by Animal · 1:15 · <a href="https://www.youtube.com/watch?v=rx4XoCFWeq8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_2dhd21ffbc)
+
+<p class="clip-credit"><strong>Omoplata escape, jump over</strong> — taught by Ritchie Yip · 0:08 · <a href="https://www.youtube.com/watch?v=_2dhd21ffbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

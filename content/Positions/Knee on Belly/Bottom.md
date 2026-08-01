@@ -21,19 +21,19 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 42% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,54 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee on Belly (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to Escape the Knee on Belly Position",
+      "description": "Knee on Belly (Bottom) film study: How to Escape the Knee on Belly Position, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on Belly Escape to Heelhook",
+      "description": "Knee on Belly (Bottom) film study: Knee on Belly Escape to Heelhook, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LvhfomaVNqw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LvhfomaVNqw",
+      "url": "https://www.youtube.com/watch?v=LvhfomaVNqw",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escape as They Transition to Knee on Belly",
+      "description": "Knee on Belly (Bottom) film study: Escape as They Transition to Knee on Belly, taught by John Kelly.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DagXZb2hses/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DagXZb2hses",
+      "url": "https://www.youtube.com/watch?v=DagXZb2hses",
+      "creator": { "@type": "Person", "name": "John Kelly" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -164,6 +212,42 @@ description: "Master escaping Knee on Belly Bottom in BJJ. Defensive position re
 Knee on Belly Bottom is a highly disadvantageous defensive position where the practitioner is flat on their back with the opponent's knee driving into their diaphragm or solar plexus. This position represents one of the most pressure-intensive scenarios in Brazilian Jiu-Jitsu, requiring immediate defensive action to prevent both submission attacks and further positional deterioration. The bottom player must manage overwhelming chest pressure while protecting their neck and arms from various submission threats including armbars, Americanas, and collar chokes. Understanding proper defensive framing, hip escape mechanics, and re-guard strategies is essential for survival and escape. The position scores 2 points for the top player in IBJJF competition and creates a significant advantage in the control hierarchy. Success from this position is measured not by offensive capability but by the speed and efficiency of escape back to guard or neutral positions. The key to effective defense lies in immediate frame creation, hip movement to create angles, and systematic pressure management that prevents the opponent from consolidating control or advancing to mount.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee on Belly (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How to Escape the Knee on Belly Position</strong> — taught by Evolve MMA · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LvhfomaVNqw)
+
+<p class="clip-credit"><strong>Knee on Belly Escape to Heelhook</strong> — taught by Thunderdome BJJ · 0:30 · <a href="https://www.youtube.com/watch?v=LvhfomaVNqw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DagXZb2hses)
+
+<p class="clip-credit"><strong>Escape as They Transition to Knee on Belly</strong> — taught by John Kelly · 0:58 · <a href="https://www.youtube.com/watch?v=DagXZb2hses" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

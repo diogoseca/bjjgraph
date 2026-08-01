@@ -34,6 +34,65 @@ description: "Master the Clock Choke in BJJ. Gi-based blood choke from turtle us
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Clock Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Tight Clock Choke",
+      "description": "Clock Choke film study: Tight Clock Choke, taught by Satoshi Ishii.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yc4zm2EWi4g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yc4zm2EWi4g",
+      "url": "https://www.youtube.com/watch?v=Yc4zm2EWi4g",
+      "creator": { "@type": "Person", "name": "Satoshi Ishii" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Invisible Choke From Side Control",
+      "description": "Clock Choke film study: Invisible Choke From Side Control, taught by Tom Oberhue.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rjP4GvxTO6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rjP4GvxTO6s",
+      "url": "https://www.youtube.com/watch?v=rjP4GvxTO6s",
+      "creator": { "@type": "Person", "name": "Tom Oberhue" },
+      "duration": "PT166S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-Gi Clock Choke",
+      "description": "Clock Choke film study: No-Gi Clock Choke, taught by Ronster.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rJ1YYOBoXMg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rJ1YYOBoXMg",
+      "url": "https://www.youtube.com/watch?v=rJ1YYOBoXMg",
+      "creator": { "@type": "Person", "name": "Ronster" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Turtle Control \u0026 Clock Choke",
+      "description": "Clock Choke film study: Turtle Control \u0026 Clock Choke, taught by CVL BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/grDZ5vo84bg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/grDZ5vo84bg",
+      "url": "https://www.youtube.com/watch?v=grDZ5vo84bg",
+      "creator": { "@type": "Person", "name": "CVL BJJ" },
+      "duration": "PT135S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +141,50 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Clock Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yc4zm2EWi4g)
+
+<p class="clip-credit"><strong>Tight Clock Choke</strong> — taught by Satoshi Ishii · 2:18 · <a href="https://www.youtube.com/watch?v=Yc4zm2EWi4g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rjP4GvxTO6s)
+
+<p class="clip-credit"><strong>Invisible Choke From Side Control</strong> — taught by Tom Oberhue · 2:46 · <a href="https://www.youtube.com/watch?v=rjP4GvxTO6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rJ1YYOBoXMg)
+
+<p class="clip-credit"><strong>No-Gi Clock Choke</strong> — taught by Ronster · 0:21 · <a href="https://www.youtube.com/watch?v=rJ1YYOBoXMg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=grDZ5vo84bg)
+
+<p class="clip-credit"><strong>Turtle Control &amp; Clock Choke</strong> — taught by CVL BJJ · 2:15 · <a href="https://www.youtube.com/watch?v=grDZ5vo84bg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -118,11 +221,11 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 ## Related
 - [[Submissions/Rear Naked Choke]] - Primary alternative finish from back control when Clock Choke grip is unavailable
 - [[Submissions/Bow and Arrow Choke]] - Complementary gi choke from similar positions that chains with Clock Choke collar access
-- [[Transitions/Darce Choke]] - Alternative front headlock choke that chains from turtle attack sequences
+- [[Submissions/Darce Choke]] - Alternative front headlock choke that chains from turtle attack sequences
 - [[Transitions/Anaconda Choke]] - Related head and arm choke available from overlapping turtle attack positions
-- [[Transitions/Arm Triangle]] - Alternative head and arm choke accessible during turtle-to-side-control transitions
+- [[Submissions/Arm Triangle]] - Alternative head and arm choke accessible during turtle-to-side-control transitions
 - [[Submissions/Breadcutter Choke]] - Complementary gi choke using similar collar grip mechanics from top positions
-- [[Transitions/North-South Choke]] - Alternative pressure choke with overlapping positional setups from north-south
+- [[Submissions/North-South Choke]] - Alternative pressure choke with overlapping positional setups from north-south
 - [[Submissions/Cross Collar Choke]] - Related gi-based collar choke sharing fundamental grip principles
 - [[Submissions/Loop Choke]] - Related collar choke that can chain from similar lapel grip entries
 - [[Positions/Turtle]] - Primary starting position for Clock Choke setup and execution

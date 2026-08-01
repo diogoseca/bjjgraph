@@ -34,6 +34,54 @@ description: "Learn Roll to Guard escape from back control in BJJ. Forward roll 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle shoulder roll escape (maki komi)",
+      "description": "Roll to Guard film study: Turtle shoulder roll escape (maki komi), taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ba9EahLaXkg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ba9EahLaXkg",
+      "url": "https://www.youtube.com/watch?v=Ba9EahLaXkg",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mechanic for Escaping Back Control",
+      "description": "Roll to Guard film study: Mechanic for Escaping Back Control, taught by SBG Portland coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pVA_anHnk64/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pVA_anHnk64",
+      "url": "https://www.youtube.com/watch?v=pVA_anHnk64",
+      "creator": { "@type": "Person", "name": "SBG Portland coach" },
+      "duration": "PT376S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping Back Control in MMA",
+      "description": "Roll to Guard film study: Escaping Back Control in MMA, taught by Conceptual Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kzQ_Ii6f36I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kzQ_Ii6f36I",
+      "url": "https://www.youtube.com/watch?v=kzQ_Ii6f36I",
+      "creator": { "@type": "Person", "name": "Conceptual Grappling" },
+      "duration": "PT349S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The biomechanical foundation of this escape relies on timing the roll precisely 
 Direction matters as much as timing: the roll is driven diagonally toward the underhook side at roughly 45 degrees so the attacker cannot simply track the rotation and re-take the back. Throughout the movement the defender maintains a death grip on the controlled arm, which doubles as both choke insurance and the anchor that pulls the opponent into the recovered guard. Upon completion the defender enters the closed guard or an open-guard frame, where the offensive sweep-and-submission game becomes available.
 
 **From Position**: [[Positions/Harness]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 29%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ba9EahLaXkg)
+
+<p class="clip-credit"><strong>Turtle shoulder roll escape (maki komi)</strong> — taught by Team Daruma Dojo · 0:36 · <a href="https://www.youtube.com/watch?v=Ba9EahLaXkg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pVA_anHnk64)
+
+<p class="clip-credit"><strong>Mechanic for Escaping Back Control</strong> — taught by SBG Portland coach · 6:16 · <a href="https://www.youtube.com/watch?v=pVA_anHnk64" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kzQ_Ii6f36I)
+
+<p class="clip-credit"><strong>Escaping Back Control in MMA</strong> — taught by Conceptual Grappling · 5:49 · <a href="https://www.youtube.com/watch?v=kzQ_Ii6f36I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

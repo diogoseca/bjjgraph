@@ -34,6 +34,54 @@ description: "Master the Mount to Technical Mount transition in BJJ. Complete gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount to Technical Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount to technical mount transition",
+      "description": "Mount to Technical Mount film study: Mount to technical mount transition, taught by Dark Horse BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/plD6TW7pFv4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/plD6TW7pFv4",
+      "url": "https://www.youtube.com/watch?v=plD6TW7pFv4",
+      "creator": { "@type": "Person", "name": "Dark Horse BJJ" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scoot to technical mount transition drill",
+      "description": "Mount to Technical Mount film study: Scoot to technical mount transition drill, taught by Tri Training Harder.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1K1fZa3oqtE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1K1fZa3oqtE",
+      "url": "https://www.youtube.com/watch?v=1K1fZa3oqtE",
+      "creator": { "@type": "Person", "name": "Tri Training Harder" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount to modified mount and rear mount",
+      "description": "Mount to Technical Mount film study: Mount to modified mount and rear mount, taught by Coach Paul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gze6HZzBOfY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gze6HZzBOfY",
+      "url": "https://www.youtube.com/watch?v=gze6HZzBOfY",
+      "creator": { "@type": "Person", "name": "Coach Paul" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The Mount to Technical Mount transition serves as a critical bridge in the mount
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount to Technical Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=plD6TW7pFv4)
+
+<p class="clip-credit"><strong>Mount to technical mount transition</strong> — taught by Dark Horse BJJ · 0:20 · <a href="https://www.youtube.com/watch?v=plD6TW7pFv4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1K1fZa3oqtE)
+
+<p class="clip-credit"><strong>Scoot to technical mount transition drill</strong> — taught by Tri Training Harder · 0:47 · <a href="https://www.youtube.com/watch?v=1K1fZa3oqtE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gze6HZzBOfY)
+
+<p class="clip-credit"><strong>Mount to modified mount and rear mount</strong> — taught by Coach Paul · 1:16 · <a href="https://www.youtube.com/watch?v=gze6HZzBOfY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

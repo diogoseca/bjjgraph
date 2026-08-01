@@ -176,6 +176,43 @@ description: "Learn to attack with the Kimura from New York Control rubber guard
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from New York Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Meathook to Kimura / Ultimate Kimura",
+      "description": "Kimura from New York Control (Attacker) film study: Meathook to Kimura / Ultimate Kimura, taught by Marshall Stamper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q2aYW-20B44",
+      "url": "https://www.youtube.com/watch?v=Q2aYW-20B44",
+      "creator": { "@type": "Person", "name": "Marshall Stamper" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Dead Orchard finish: clearing the elbow",
+      "description": "Kimura from New York Control (Attacker) film study: Dead Orchard finish: clearing the elbow, taught by Ben Eddy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p6M-9BVuWqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/p6M-9BVuWqs",
+      "url": "https://www.youtube.com/watch?v=p6M-9BVuWqs",
+      "creator": { "@type": "Person", "name": "Ben Eddy" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the Kimura from New York Control capitalizes on the rubber guard 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from New York Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q2aYW-20B44)
+
+<p class="clip-credit"><strong>Meathook to Kimura / Ultimate Kimura</strong> — taught by Marshall Stamper · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=p6M-9BVuWqs)
+
+<p class="clip-credit"><strong>Dead Orchard finish: clearing the elbow</strong> — taught by Ben Eddy · 1:19 · <a href="https://www.youtube.com/watch?v=p6M-9BVuWqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

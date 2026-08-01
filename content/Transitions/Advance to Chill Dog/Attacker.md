@@ -168,6 +168,54 @@ description: "How to execute Advance to Chill Dog in BJJ. Attacking perspective 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Advance to Chill Dog (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Meathook to Chill Dog to kimura finishes",
+      "description": "Advance to Chill Dog (Attacker) film study: Meathook to Chill Dog to kimura finishes, taught by Marshall Stamper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q2aYW-20B44/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q2aYW-20B44",
+      "url": "https://www.youtube.com/watch?v=Q2aYW-20B44",
+      "creator": { "@type": "Person", "name": "Marshall Stamper" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard entry to Chill Dog to omoplata",
+      "description": "Advance to Chill Dog (Attacker) film study: Closed guard entry to Chill Dog to omoplata, taught by Marshall Stamper.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2zillrf6gGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2zillrf6gGs",
+      "url": "https://www.youtube.com/watch?v=2zillrf6gGs",
+      "creator": { "@type": "Person", "name": "Marshall Stamper" },
+      "duration": "PT195S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rubber guard positions: Zombie, New York, Chill Dog",
+      "description": "Advance to Chill Dog (Attacker) film study: Rubber guard positions: Zombie, New York, Chill Dog, taught by Submissions101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wUDqbU2jwxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wUDqbU2jwxg",
+      "url": "https://www.youtube.com/watch?v=wUDqbU2jwxg",
+      "creator": { "@type": "Person", "name": "Submissions101" },
+      "duration": "PT278S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 **From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Advance to Chill Dog (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q2aYW-20B44)
+
+<p class="clip-credit"><strong>Meathook to Chill Dog to kimura finishes</strong> — taught by Marshall Stamper · 1:13 · <a href="https://www.youtube.com/watch?v=Q2aYW-20B44" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2zillrf6gGs)
+
+<p class="clip-credit"><strong>Closed guard entry to Chill Dog to omoplata</strong> — taught by Marshall Stamper · 3:15 · <a href="https://www.youtube.com/watch?v=2zillrf6gGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wUDqbU2jwxg)
+
+<p class="clip-credit"><strong>Rubber guard positions: Zombie, New York, Chill Dog</strong> — taught by Submissions101 · 4:38 · <a href="https://www.youtube.com/watch?v=wUDqbU2jwxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

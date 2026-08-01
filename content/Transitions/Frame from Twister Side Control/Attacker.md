@@ -174,6 +174,43 @@ description: "Learn to escape twister side control using systematic framing tech
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame from Twister Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping twister side control",
+      "description": "Frame from Twister Side Control (Attacker) film study: Escaping twister side control, taught by Robot Dolphin Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AUyR1rmVzo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AUyR1rmVzo4",
+      "url": "https://www.youtube.com/watch?v=AUyR1rmVzo4",
+      "creator": { "@type": "Person", "name": "Robot Dolphin Jiu-Jitsu" },
+      "duration": "PT205S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse scarf hold escape from twister side control",
+      "description": "Frame from Twister Side Control (Attacker) film study: Reverse scarf hold escape from twister side control, taught by Black Dragon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hXp34AtDjac/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hXp34AtDjac",
+      "url": "https://www.youtube.com/watch?v=hXp34AtDjac",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ" },
+      "duration": "PT291S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The attacker in this context is the bottom player initiating the frame escape fr
 **From Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame from Twister Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AUyR1rmVzo4)
+
+<p class="clip-credit"><strong>Escaping twister side control</strong> — taught by Robot Dolphin Jiu-Jitsu · 3:25 · <a href="https://www.youtube.com/watch?v=AUyR1rmVzo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hXp34AtDjac)
+
+<p class="clip-credit"><strong>Reverse scarf hold escape from twister side control</strong> — taught by Black Dragon BJJ · 4:51 · <a href="https://www.youtube.com/watch?v=hXp34AtDjac" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

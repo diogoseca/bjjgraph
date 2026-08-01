@@ -34,6 +34,54 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grasshopper Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse De La Riva guard overview",
+      "description": "Grasshopper Guard film study: Reverse De La Riva guard overview, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
+      "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Grasshopper Guard techniques and entries overview",
+      "description": "Grasshopper Guard film study: Grasshopper Guard techniques and entries overview, taught by Danny Fung.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ts6plGhJ4gI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ts6plGhJ4gI",
+      "url": "https://www.youtube.com/watch?v=ts6plGhJ4gI",
+      "creator": { "@type": "Person", "name": "Danny Fung" },
+      "duration": "PT689S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inverted guard retention fundamentals",
+      "description": "Grasshopper Guard film study: Inverted guard retention fundamentals, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lY8JZMAm1N4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lY8JZMAm1N4",
+      "url": "https://www.youtube.com/watch?v=lY8JZMAm1N4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT369S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The energy dynamics of grasshopper guard differ significantly from traditional g
 Defensively, grasshopper guard can serve as an emergency response when traditional guard retention fails. If an opponent passes around one side, the guard player can invert underneath and use grasshopper mechanics to recover leg contact and reset the engagement. This makes it a valuable skill for modern guard retention systems, where multiple layers of defense are essential against skilled passers.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grasshopper Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_beJGS2-yIE)
+
+<p class="clip-credit"><strong>Reverse De La Riva guard overview</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ts6plGhJ4gI)
+
+<p class="clip-credit"><strong>Grasshopper Guard techniques and entries overview</strong> — taught by Danny Fung · 11:29 · <a href="https://www.youtube.com/watch?v=ts6plGhJ4gI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lY8JZMAm1N4)
+
+<p class="clip-credit"><strong>Inverted guard retention fundamentals</strong> — taught by Lachlan Giles · 6:09 · <a href="https://www.youtube.com/watch?v=lY8JZMAm1N4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -147,31 +231,29 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 - **[[Transitions/Kneebar from Grasshopper/Attacker|Kneebar from Grasshopper]]** (9% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (7% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (8% of attempts)
+- **[[Transitions/Single Leg X Transition/Attacker|Single Leg X Transition]]** (13% of attempts)
 
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (9% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (13% of attempts)
 
-- **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (5% of attempts)
+- **[[Transitions/Rolling Kneebar/Attacker|Rolling Kneebar]]** (4% of attempts)
 
-- **[[Transitions/Grasshopper Sweep/Attacker|Grasshopper Sweep]]** (7% of attempts)
+- **[[Transitions/Grasshopper Sweep/Attacker|Grasshopper Sweep]]** (10% of attempts)
 
-- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (13% of attempts)
+- **[[Transitions/Granby to Closed Guard/Attacker|Granby to Closed Guard]]** (7% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
+- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (6% of attempts)
 
 - **[[Transitions/Reverse De La Riva Recovery/Attacker|Reverse De La Riva Recovery]]** (6% of attempts)
 
-- **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** (5% of attempts)
+- **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** (7% of attempts)
 
-- **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Elevation Sweep/Attacker|X-Guard Elevation Sweep]]** (8% of attempts)
 
-- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (6% of attempts)
+- **[[Heel Hook from Grasshopper Guard/Attacker|Heel Hook from Grasshopper Guard]]** (7% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (9% of attempts)
-
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (3% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -232,27 +314,27 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (15% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (16% of attempts)
 
 - **[[Transitions/Stack Pass from Inversion/Attacker|Stack Pass from Inversion]]** (10% of attempts)
 
 - **[[Transitions/Step Over to Mount/Attacker|Step Over to Mount]]** (5% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Sprawl and Disengage/Attacker|Sprawl and Disengage]]** (14% of attempts)
+- **[[Transitions/Sprawl and Disengage/Attacker|Sprawl and Disengage]]** (8% of attempts)
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (13% of attempts)
 
 - **[[Transitions/Cartwheel Pass/Attacker|Cartwheel Pass]]** (3% of attempts)
 
-- **[[Transitions/Pressure Pass through Center/Attacker|Pressure Pass through Center]]** (5% of attempts)
+- **[[Transitions/Pressure Pass through Center/Attacker|Pressure Pass through Center]]** (7% of attempts)
 
 - **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** (8% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (8% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (5% of attempts)
 
 
 ### Common Mistakes

@@ -168,6 +168,32 @@ description: "How to execute the High Mount Transition from Gogoplata Control in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Mount Transition (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Detailed mount transition from side control",
+      "description": "High Mount Transition (Attacker) film study: Detailed mount transition from side control, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Uq6Vs1HfkY8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Uq6Vs1HfkY8",
+      "url": "https://www.youtube.com/watch?v=Uq6Vs1HfkY8",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +207,26 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 **From Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Mount Transition (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Uq6Vs1HfkY8)
+
+<p class="clip-credit"><strong>Detailed mount transition from side control</strong> — taught by Unknown coach · 0:41 · <a href="https://www.youtube.com/watch?v=Uq6Vs1HfkY8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

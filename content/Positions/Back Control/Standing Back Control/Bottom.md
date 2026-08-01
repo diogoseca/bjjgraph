@@ -21,7 +21,7 @@ description: "Master defensive strategies for standing back control bottom posit
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Turtle",
-      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Turtle. This technique is attempted in 6% of exchanges from this position.",
       "position": 1
     },
     {
@@ -33,25 +33,25 @@ description: "Master defensive strategies for standing back control bottom posit
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Grip Break and Face",
-      "text": "From this position, attempt Grip Break and Face. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Grip Break and Face. This technique is attempted in 29% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Controlled Descent",
-      "text": "From this position, attempt Controlled Descent. This technique is attempted in 30% of exchanges from this position.",
+      "text": "From this position, attempt Controlled Descent. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Explosive Forward Roll",
-      "text": "From this position, attempt Explosive Forward Roll. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Explosive Forward Roll. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,43 @@ description: "Master defensive strategies for standing back control bottom posit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Back Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing Up from Back Control",
+      "description": "Standing Back Control (Bottom) film study: Standing Up from Back Control, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escape the Back into Attack",
+      "description": "Standing Back Control (Bottom) film study: Escape the Back into Attack, taught by JW Wright.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sPM2i6b5Ufw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sPM2i6b5Ufw",
+      "url": "https://www.youtube.com/watch?v=sPM2i6b5Ufw",
+      "creator": { "@type": "Person", "name": "JW Wright" },
+      "duration": "PT196S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +201,34 @@ From a strategic perspective, Standing Back Control Bottom is a transitional pos
 Success in this position relies on understanding the mechanical principles of back exposure, the timing windows for defensive hand fighting, and the sequential nature of escapes. Beginners often panic and make the position worse through frantic movement, while advanced practitioners use systematic approaches to address immediate threats first (defending the neck), then working to improve position through hip movement, grip breaks, and technical transitions that exploit the inherent instability of standing back control. The position requires calm decision-making under pressure, technical precision in grip fighting, and understanding of multiple escape pathways depending on opponent's control configuration.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Back Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing Up from Back Control</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sPM2i6b5Ufw)
+
+<p class="clip-credit"><strong>Escape the Back into Attack</strong> — taught by JW Wright · 3:16 · <a href="https://www.youtube.com/watch?v=sPM2i6b5Ufw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

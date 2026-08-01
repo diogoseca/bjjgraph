@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Double Jump/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 40,
+  "success_rate": {
+    "gi": 40,
+    "nogi": 40
+  },
   "overview": "The reguard from Double Jump is a defensive recovery technique employed by the bottom player when offensive options from the Double Jump position have been neutralized or when strategic circumstances demand a positional reset to more sustainable guard play. This technique transitions the practitioner from the dynamic but energy-intensive Double Jump bottom position to the stable offensive platform of closed guard, sacrificing the explosive sweep potential of Double Jump for the systematic attack chains available from closed guard.\n\nExecuting this reguard requires the bottom player to extract their legs from underneath the opponent's base while simultaneously creating the space necessary to wrap legs around the waist and lock ankles. The primary challenge lies in managing the transition window where legs are neither in Double Jump configuration nor fully closed in guard, creating vulnerability to passing. Defensive frames against the opponent's chest and shoulders are essential to maintain distance control during this critical phase.\n\nThis technique occupies an important but infrequent role in the bottom player's decision matrix from Double Jump, serving as the safety valve when higher-percentage offensive transitions like deep half entry or old school sweeps have been successfully defended. Unlike the Escape Double Jump which retreats to half guard, the reguard targets closed guard specifically, requiring greater hip mobility and more precise timing but yielding a more offensively advantageous recovery position. Understanding when to commit to reguarding versus continuing offensive chains separates experienced practitioners who manage energy and position strategically from those who exhaust themselves pursuing diminishing offensive returns.",
   "conditions": [
     "Offensive transitions from Double Jump bottom have been defended or are not available",
@@ -239,38 +254,147 @@
     "flashcards": [
       {
         "question": "What defensive frame must be established before initiating the reguard from Double Jump?",
-        "answer": "At least one solid forearm frame against the opponent's chest or shoulder must be established before any leg movement. This frame creates the space necessary for hip escape and prevents the opponent from driving their weight forward during the transition. Without this frame, the opponent can flatten you during the leg extraction phase, making guard closure impossible and potentially advancing to a passing position."
+        "answer": "At least one solid forearm frame against the opponent's chest or shoulder must be established before any leg movement. This frame creates the space necessary for hip escape and prevents the opponent from driving their weight forward during the transition. Without this frame, the opponent can flatten you during the leg extraction phase, making guard closure impossible and potentially advancing to a passing position.",
+        "answer_line": "Frame arms before legs move",
+        "distractors": {
+          "plausible": [
+            "Hip escape before framing",
+            "Grip collar before framing"
+          ],
+          "trap": [
+            "Extend legs immediately"
+          ]
+        }
       },
       {
         "question": "What is the most vulnerable moment during the reguard transition and how do you protect yourself?",
-        "answer": "The most vulnerable moment is during leg extraction when your inside leg has withdrawn from underneath the opponent but your guard is not yet closed. During this window, you must maintain strong frame pressure with your arms and move quickly through the transition to minimize exposure. The frame prevents the opponent from advancing while your legs are in transit between the Double Jump configuration and closed guard."
+        "answer": "The most vulnerable moment is during leg extraction when your inside leg has withdrawn from underneath the opponent but your guard is not yet closed. During this window, you must maintain strong frame pressure with your arms and move quickly through the transition to minimize exposure. The frame prevents the opponent from advancing while your legs are in transit between the Double Jump configuration and closed guard.",
+        "answer_line": "Frame pressure, move fast",
+        "distractors": {
+          "plausible": [
+            "Slow down, reset base",
+            "Grip pants during extraction"
+          ],
+          "trap": [
+            "Release frame to speed up"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy forward pressure as you attempt the reguard - how do you adjust?",
-        "answer": "Use their forward pressure to your advantage by maintaining your defensive frame while redirecting their momentum. Their forward drive actually assists guard closure if you can establish the correct hip angle first through a sharp hip escape. Time the hip escape for when their forward drive peaks, then use their committed weight to pull them into your closing guard as your legs sweep around their waist."
+        "answer": "Use their forward pressure to your advantage by maintaining your defensive frame while redirecting their momentum. Their forward drive actually assists guard closure if you can establish the correct hip angle first through a sharp hip escape. Time the hip escape for when their forward drive peaks, then use their committed weight to pull them into your closing guard as your legs sweep around their waist.",
+        "answer_line": "Time hip escape to their drive",
+        "distractors": {
+          "plausible": [
+            "Push back against the pressure",
+            "Wait for pressure to ease first"
+          ],
+          "trap": [
+            "Release frame and turn away"
+          ]
+        }
       },
       {
         "question": "When should you choose to reguard to closed guard versus escaping to half guard from Double Jump bottom?",
-        "answer": "Reguard to closed guard when your closed guard attack system is stronger than your half guard game and you have sufficient hip mobility for the full guard closure. Choose the half guard escape when the opponent's pressure makes full guard closure unrealistic, when you need the quickest possible recovery to any stable guard, or when your half guard offensive system is well-developed. The reguard is higher risk but higher reward."
+        "answer": "Reguard to closed guard when your closed guard attack system is stronger than your half guard game and you have sufficient hip mobility for the full guard closure. Choose the half guard escape when the opponent's pressure makes full guard closure unrealistic, when you need the quickest possible recovery to any stable guard, or when your half guard offensive system is well-developed. The reguard is higher risk but higher reward.",
+        "answer_line": "Play your stronger guard game",
+        "distractors": {
+          "plausible": [
+            "Always reguard to closed guard",
+            "Always escape to half guard"
+          ],
+          "trap": [
+            "Force closure under heavy pressure"
+          ]
+        }
       },
       {
         "question": "What grip should you establish before completing the guard closure?",
-        "answer": "Before closing the guard, transition one hand from your defensive frame to a controlling grip on the opponent's collar, neck, or behind their head. This grip serves dual purposes: it prevents the opponent from posturing away during guard closure, and it enables immediate posture breaking once the guard is locked. Without this grip, opponents can posture up immediately upon guard closure and begin their guard opening sequence."
+        "answer": "Before closing the guard, transition one hand from your defensive frame to a controlling grip on the opponent's collar, neck, or behind their head. This grip serves dual purposes: it prevents the opponent from posturing away during guard closure, and it enables immediate posture breaking once the guard is locked. Without this grip, opponents can posture up immediately upon guard closure and begin their guard opening sequence.",
+        "answer_line": "Collar or head grip first",
+        "distractors": {
+          "plausible": [
+            "Grip both sleeves first",
+            "Grip both pant legs first"
+          ],
+          "trap": [
+            "Close guard, grip after"
+          ]
+        }
       },
       {
         "question": "How do you consolidate position immediately after successfully locking your ankles?",
-        "answer": "Immediately break the opponent's posture by combining heel pressure pulling into their lower back with your established collar or head control grip pulling them forward. Squeeze your knees together to restrict their lateral movement and breathing, then establish your preferred attacking grips for sweeps or submissions. The goal is to transition from defensive reguard to offensive closed guard within two to three seconds of locking your ankles."
+        "answer": "Immediately break the opponent's posture by combining heel pressure pulling into their lower back with your established collar or head control grip pulling them forward. Squeeze your knees together to restrict their lateral movement and breathing, then establish your preferred attacking grips for sweeps or submissions. The goal is to transition from defensive reguard to offensive closed guard within two to three seconds of locking your ankles.",
+        "answer_line": "Heel pull plus collar pull",
+        "distractors": {
+          "plausible": [
+            "Squeeze knees, wait and see",
+            "Post hands, create space"
+          ],
+          "trap": [
+            "Release grip to reset guard"
+          ]
+        }
       },
       {
         "question": "What happens if you can only recover half guard instead of full closed guard during the reguard attempt?",
-        "answer": "If only one leg gets through to hook the opponent's leg, accept half guard as an intermediate position rather than forcing an exposed guard closure attempt. From half guard bottom, you can work to upgrade to closed guard through knee shield adjustments, or transition to offensive half guard systems like deep half or lockdown. A solid half guard recovery is significantly better than an exposed position from a failed forced reguard."
+        "answer": "If only one leg gets through to hook the opponent's leg, accept half guard as an intermediate position rather than forcing an exposed guard closure attempt. From half guard bottom, you can work to upgrade to closed guard through knee shield adjustments, or transition to offensive half guard systems like deep half or lockdown. A solid half guard recovery is significantly better than an exposed position from a failed forced reguard.",
+        "answer_line": "Accept half guard, upgrade later",
+        "distractors": {
+          "plausible": [
+            "Force closed guard anyway",
+            "Push opponent off to reset"
+          ],
+          "trap": [
+            "Give up back to escape hips"
+          ]
+        }
       },
       {
         "question": "If the opponent shuts down your closed guard closure by widening their base, what chain attack keeps you offensive?",
-        "answer": "When full closure is denied, hook one leg to establish half guard and immediately battle for the underhook, then chain into an old school sweep or deep half entry. Treat the failed reguard as the opening move of a half guard attack sequence rather than a dead end, keeping the opponent reacting to live sweep threats instead of consolidating their pass through your reorganizing legs."
+        "answer": "When full closure is denied, hook one leg to establish half guard and immediately battle for the underhook, then chain into an old school sweep or deep half entry. Treat the failed reguard as the opening move of a half guard attack sequence rather than a dead end, keeping the opponent reacting to live sweep threats instead of consolidating their pass through your reorganizing legs.",
+        "answer_line": "Hook leg, fight for underhook",
+        "distractors": {
+          "plausible": [
+            "Force ankle lock through gap",
+            "Push away and stand up"
+          ],
+          "trap": [
+            "Release both legs and bridge"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The reguard from Double Jump involves explosive hip movement under load, creating potential strain on hip flexors and lower back. Ensure adequate warm-up before drilling, particularly focusing on hip mobility and groin flexibility. Avoid forcing the guard closure if hip range of motion is insufficient, as this can lead to groin strains or hip impingement. During drilling, communicate clearly with training partners about resistance levels to prevent injury during the vulnerable leg extraction phase. If you experience hip or lower back discomfort during the movement, stop and reassess your body positioning before continuing."
+    "safety_considerations": "The reguard from Double Jump involves explosive hip movement under load, creating potential strain on hip flexors and lower back. Ensure adequate warm-up before drilling, particularly focusing on hip mobility and groin flexibility. Avoid forcing the guard closure if hip range of motion is insufficient, as this can lead to groin strains or hip impingement. During drilling, communicate clearly with training partners about resistance levels to prevent injury during the vulnerable leg extraction phase. If you experience hip or lower back discomfort during the movement, stop and reassess your body positioning before continuing.",
+    "clips": [
+      {
+        "id": "q0qtWj_Hwvg",
+        "title": "Merman guard retention",
+        "by": "Erik Koehne",
+        "vertical": false,
+        "channel": "Erik Koehne",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xTtpyWLs6PM",
+        "title": "Getting to closed guard from half guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 306,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WmHQNFtuxRk",
+        "title": "Two ways to recover full guard from half guard",
+        "by": "BIG OSS Jiu-Jitsu",
+        "vertical": false,
+        "channel": "BIG OSS Jiu-Jitsu Channel",
+        "duration": 570,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Reguard from Double Jump Defender",
@@ -356,19 +480,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to reguard from Double Jump bottom?",
-        "answer": "The earliest cue is the establishment of forearm frames against your chest or shoulders combined with a shift from offensive to defensive energy. This defensive framing indicates the bottom player is transitioning from sweep and entry attempts to guard recovery mode. Responding immediately to frame establishment with increased forward pressure gives you the best chance of preventing the reguard before the hip escape that follows."
+        "answer": "The earliest cue is the establishment of forearm frames against your chest or shoulders combined with a shift from offensive to defensive energy. This defensive framing indicates the bottom player is transitioning from sweep and entry attempts to guard recovery mode. Responding immediately to frame establishment with increased forward pressure gives you the best chance of preventing the reguard before the hip escape that follows.",
+        "answer_line": "Frames appear, add pressure",
+        "distractors": {
+          "plausible": [
+            "Wait for hip escape to react",
+            "Grip fighting starts the cue"
+          ],
+          "trap": [
+            "Back off to bait a mistake"
+          ]
+        }
       },
       {
         "question": "How should you respond when you feel the bottom player beginning a hip escape underneath you?",
-        "answer": "When you feel the hip escape, immediately drive your hips forward and down to eliminate the space being created. Use your chest pressure to pin the bottom player's shoulders while your hips deny the angular movement needed for guard closure. If the hip escape has already created significant angle, transition immediately to a passing attempt through the exposed legs rather than trying to reset them flat."
+        "answer": "When you feel the hip escape, immediately drive your hips forward and down to eliminate the space being created. Use your chest pressure to pin the bottom player's shoulders while your hips deny the angular movement needed for guard closure. If the hip escape has already created significant angle, transition immediately to a passing attempt through the exposed legs rather than trying to reset them flat.",
+        "answer_line": "Drive hips forward and down",
+        "distractors": {
+          "plausible": [
+            "Sprawl back to create space",
+            "Chase the escaping hip"
+          ],
+          "trap": [
+            "Post up and stand to pass"
+          ]
+        }
       },
       {
         "question": "Your opponent has extracted one leg and is sweeping the other around your waist - what is your best option?",
-        "answer": "If one leg is already sweeping around, your best option is to address the half guard situation by driving your hip toward the mat on the hooking side to prevent the second leg from completing the closure. Initiate a knee slice or pressure pass through the partially closed legs before the ankle lock completes. Accepting a half guard passing opportunity is strategically superior to being caught in a fully locked closed guard."
+        "answer": "If one leg is already sweeping around, your best option is to address the half guard situation by driving your hip toward the mat on the hooking side to prevent the second leg from completing the closure. Initiate a knee slice or pressure pass through the partially closed legs before the ankle lock completes. Accepting a half guard passing opportunity is strategically superior to being caught in a fully locked closed guard.",
+        "answer_line": "Drive hip down, pass now",
+        "distractors": {
+          "plausible": [
+            "Wait for full guard closure",
+            "Pull back to reset base"
+          ],
+          "trap": [
+            "Let legs lock, then defend"
+          ]
+        }
       },
       {
         "question": "Why is maintaining heavy pressure more effective than explosive movement when defending the reguard?",
-        "answer": "Explosive movement creates space and unpredictability that actually favors the bottom player's guard recovery. Heavy, consistent forward pressure eliminates the space needed for hip escapes and leg extraction while keeping you in a stable base from which to advance or pass. The bottom player needs space and time to complete the reguard - constant pressure denies both resources simultaneously while keeping you positioned to capitalize on any error in their recovery sequence."
+        "answer": "Explosive movement creates space and unpredictability that actually favors the bottom player's guard recovery. Heavy, consistent forward pressure eliminates the space needed for hip escapes and leg extraction while keeping you in a stable base from which to advance or pass. The bottom player needs space and time to complete the reguard - constant pressure denies both resources simultaneously while keeping you positioned to capitalize on any error in their recovery sequence.",
+        "answer_line": "Pressure denies space and time",
+        "distractors": {
+          "plausible": [
+            "Explosive bursts break frames",
+            "Match their movement speed"
+          ],
+          "trap": [
+            "Create space to counter"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -391,6 +555,26 @@
         "phase": "Live integration",
         "focus": "Complete Double Jump top management including reguard defense",
         "description": "Full positional sparring from Double Jump top where you must maintain position, prevent reguard and escape attempts, and pursue your own back-taking or passing objectives. Develop the ability to manage defensive prevention simultaneously with offensive advancement under realistic conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d_zfY7Kjezo",
+        "title": "How to avoid getting stuck in closed guard",
+        "by": "Matt Arroyo",
+        "vertical": false,
+        "channel": "Matt Arroyo Jiu Jitsu ",
+        "duration": 389,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r6mDDpc5474",
+        "title": "A simple trick to escape closed guard",
+        "by": "Stay Safe Martial Arts",
+        "vertical": false,
+        "channel": "Stay Safe Martial Arts",
+        "duration": 279,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "Kesa Gatame",
   "from_position": "Kesa Gatame/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from Kesa Gatame exploits the unique arm isolation inherent in the scarf hold position. Unlike the Kimura from standard side control where you must first fight for wrist control, Kesa Gatame pre-loads the near arm trap under your armpit, giving you a significant head start on the figure-four grip. The perpendicular body angle creates a powerful rotational platform where your entire torso drives the shoulder lock rather than relying primarily on arm strength.\n\nThe key mechanical difference lies in the transition from headlock grip to figure-four. In Kesa Gatame, you already control the opponent's near arm tightly against your body. The challenge is releasing head control briefly to secure the double wrist grip without losing positional dominance. This requires precise weight distribution—shifting your chest pressure onto the opponent's face and upper body to maintain the pin while your hands work to establish the Kimura grip.\n\nFrom a strategic standpoint, the Kimura from Kesa Gatame creates a powerful submission-position chain. If the opponent defends the Kimura by straightening their arm, you transition to an Americana or armbar. If they turn into you to relieve pressure, you advance to mount. This makes the Kimura attempt from Kesa Gatame a low-risk, high-reward attack that maintains positional advantage even when the submission itself fails.",
   "safety_considerations": {
     "injury_risks": [
@@ -108,17 +111,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "Kesa Gatame/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -269,52 +281,181 @@
       {
         "question": "What anatomical structures does the Kimura from Kesa Gatame primarily attack?",
         "answer": "The Kimura primarily attacks the shoulder joint through forced internal rotation, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, and the glenoid labrum. Secondary stress falls on the shoulder capsule and biceps tendon. The figure-four grip creates a long lever arm that multiplies rotational force on these structures.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder joint & rotator cuff",
+        "distractors": {
+          "plausible": [
+            "Elbow joint & biceps tendon",
+            "Wrist & forearm tendons"
+          ],
+          "trap": [
+            "Cervical spine & neck"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition from headlock to figure-four the most critical moment in this submission?",
         "answer": "The grip transition is the most vulnerable moment because releasing head control temporarily reduces your ability to pin the opponent. Without head control, they can bridge, frame, and create space for escape. The transition must be preceded by shifting maximum chest and shoulder pressure onto the opponent's upper body to compensate. Hesitation during the grip change gives the opponent a window to establish defensive grips or escape entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Load chest pressure before release",
+        "distractors": {
+          "plausible": [
+            "Pinch their wrist tighter first",
+            "Drop your head to the mat"
+          ],
+          "trap": [
+            "Sit up tall to reach the grip"
+          ]
+        }
       },
       {
         "question": "Your opponent clasps their hands together as you establish the figure-four—what are your options?",
         "answer": "You have three primary options. First, use your knee or hip as a wedge between their hands to mechanically pry the grip apart, which works well when their grip is a loose S-grip. Second, transition to an Americana by reversing the rotational direction since their clasped hands actually facilitate the opposite rotation. Third, maintain the figure-four and wait—their grip will fatigue faster than your body position, and you can use small rotational pulses to incrementally break their connection.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wedge knee or hip to pry hands",
+        "distractors": {
+          "plausible": [
+            "Yank the wrist with arm strength",
+            "Switch to a collar choke instead"
+          ],
+          "trap": [
+            "Lift off them to pull the grip"
+          ]
+        }
       },
       {
         "question": "What distinguishes the finishing mechanics of the Kimura from Kesa Gatame compared to standard side control?",
         "answer": "The perpendicular body angle in Kesa Gatame creates a different rotational platform. Instead of rotating the arm while positioned parallel to the opponent, you drive the rotation through your torso and hips from a perpendicular angle, generating force through core rotation rather than shoulder and arm strength. The pre-loaded arm trap under your armpit also means the elbow is already close to your body, creating a tighter fulcrum from the start. This angle often makes the finish faster and harder to defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive rotation with hips and torso",
+        "distractors": {
+          "plausible": [
+            "Sit up tall and crank the wrist",
+            "Drive your elbow into their ribs"
+          ],
+          "trap": [
+            "Lift your chest off to torque more"
+          ]
+        }
       },
       {
         "question": "How do you know when you have reached the point of no escape for the defender?",
         "answer": "The point of no escape occurs when the figure-four is fully locked, the opponent's elbow is pinned against your torso, and you have begun rotation past the neutral shoulder position. Once the hand passes behind the opponent's hip line and begins traveling toward their opposite shoulder, defensive gripping becomes nearly impossible and the structural limit of the shoulder is rapidly approaching. At this point, the submission is essentially secured and only a tap should follow.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand passes hip line, mid-rotation",
+        "distractors": {
+          "plausible": [
+            "As soon as the grip is locked",
+            "When they stop bridging"
+          ],
+          "trap": [
+            "Crank fast to test if it's tight"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the Kimura from Kesa Gatame in training?",
         "answer": "Apply rotation slowly and progressively over 3-5 seconds minimum, never jerking or spiking the movement. Monitor your partner's reactions constantly for signs of distress. Ensure they have at least one hand free to tap at all times. Release immediately upon any tap signal—verbal, hand, foot, or any distress sound. Return the arm to neutral gently rather than releasing suddenly. The shoulder joint can sustain catastrophic damage within fractions of a second once the structural limit is reached, making controlled application essential.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow rotation, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Watch only for a verbal tap",
+            "Pin both arms for extra control"
+          ],
+          "trap": [
+            "Spike the rotation for a fast tap"
+          ]
+        }
       },
       {
         "question": "How should you release the Kimura from Kesa Gatame after your partner taps?",
         "answer": "Immediately cease all rotational pressure the instant you feel or hear the tap. Reverse the rotation slowly, guiding the arm back toward the neutral position with the same controlled speed you used to apply the lock. Release the figure-four grip completely once the arm is returned to a comfortable position. Allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or let the arm spring back, as the rapid change in direction can itself cause injury to already-stressed structures.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rotating the instant they tap",
+        "distractors": {
+          "plausible": [
+            "Unhook the grip before unwinding",
+            "Let them test it, then release"
+          ],
+          "trap": [
+            "Crank once more, then let go"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their arm to prevent the Kimura bend—how do you adjust your attack?",
         "answer": "A straightened arm opens two high-percentage transitions. First, you can switch to an Americana by maintaining wrist control and reversing the rotation to push the arm toward the mat in external rotation, which works naturally with the straight arm angle. Second, you can transition to an armbar by shifting your hips over the straightened arm, using the extended elbow as the fulcrum. The key is recognizing the defense immediately and flowing to the counter rather than fighting to re-bend the arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch to Americana or armbar",
+        "distractors": {
+          "plausible": [
+            "Crank the wrist to force a bend",
+            "Wait for the arm to tire and fold"
+          ],
+          "trap": [
+            "Release the wrist to re-grip"
+          ]
+        }
       },
       {
         "question": "What role does the posted leg play throughout the Kimura attack sequence?",
         "answer": "The posted leg provides the base that makes the entire attack possible. It must remain wide at approximately 45 degrees throughout the grip transition and finishing rotation. Without proper posting, the opponent can bridge and roll you over during any phase of the attack. As you rotate for the finish, the posted leg may need to adjust its angle to maintain three-point stability. Neglecting leg position is one of the most common errors that converts a dominant submission attempt into a positional reversal for the defender.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wide base prevents bridge/roll",
+        "distractors": {
+          "plausible": [
+            "Only matters at the very start",
+            "Keep leg tucked in tight"
+          ],
+          "trap": [
+            "Lift the leg for better angle"
+          ]
+        }
       },
       {
         "question": "How do you maintain positional control when the Kimura attempt fails?",
         "answer": "The Kimura from Kesa Gatame is designed to maintain positional advantage even on failure. If the opponent defends, you retain the figure-four grip and can cycle to Americana or armbar. If they bridge and turn in, you flow to mount while keeping grip control. If they shrimp away, you follow into their guard maintaining the grip. The 25% failure outcome returns you to Kesa Gatame Top because the attack is inherently low-risk—you never sacrifice position to attempt the submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Retain grip, flow to next spot",
+        "distractors": {
+          "plausible": [
+            "Jump straight to armbar finish",
+            "Chase mount before regripping"
+          ],
+          "trap": [
+            "Abandon grip, dive for the back"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "d7ucks8aHN0",
+        "title": "Kesa Gatame to Kimura",
+        "by": "Strong Hold Jiu Jitsu",
+        "vertical": false,
+        "channel": "Strong Hold Jiu Jitsu",
+        "duration": 71,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "u80GDGC1Yno",
+        "title": "Kimura from Scarf Hold",
+        "by": "Julie Bond",
+        "vertical": false,
+        "channel": "Julie Bond",
+        "duration": 35,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "-RyLUQSZZ1s",
+        "title": "Kimura from Kesa",
+        "by": "Vernon Kirk",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -396,22 +537,62 @@
       {
         "question": "How do you recognize that the Kimura from Kesa Gatame is being set up before the grip is established?",
         "answer": "The primary recognition cues are: increased chest and shoulder pressure on your face as the opponent redistributes weight, loosening of the headlock arm as they prepare to release it, and their other hand tightening on your near wrist or forearm. The opponent's body may also rotate slightly to face your arm rather than maintaining standard Kesa Gatame angle. Recognizing these cues gives you the critical window to establish defensive grips before the figure-four is locked.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest pressure up, head arm loosens",
+        "distractors": {
+          "plausible": [
+            "They flatten their chest to the mat",
+            "Their legs step over your hips"
+          ],
+          "trap": [
+            "Wait until the figure-four locks"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Kimura from Kesa Gatame?",
         "answer": "Tap clearly and emphatically using multiple signals simultaneously—verbal tap by saying 'tap' loudly, physical hand tap with your free hand tapping rapidly on your opponent or the mat, and foot taps if hands are not available. Tap early when you feel the rotation approaching your shoulder's range of motion limit, not after you feel pain. The shoulder joint can sustain catastrophic damage within fractions of a second once the structural limit is reached, making early recognition and immediate tapping essential for training safety.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, verbal plus hand/foot",
+        "distractors": {
+          "plausible": [
+            "Tap once quietly by hand",
+            "Signal by shaking your head"
+          ],
+          "trap": [
+            "Muscle out and tap only if it hurts"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Kimura from Kesa Gatame at each stage?",
         "answer": "Before the grip change: keep elbows tight to body to prevent arm isolation. During the grip transition: bridge into opponent to exploit the temporary loss of head control. After figure-four is established: immediately clasp hands together or grab your belt to prevent rotation. During early rotation: straighten arm forcefully or turn into opponent to reduce available rotational range. Once rotation is past midpoint: tap immediately, as defensive options are exhausted and injury risk becomes severe.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clasp hands before rotation starts",
+        "distractors": {
+          "plausible": [
+            "Reach for their far collar",
+            "Bridge hard after the lock sets"
+          ],
+          "trap": [
+            "Roll away as they start rotating"
+          ]
+        }
       },
       {
         "question": "Why is turning into the opponent more effective than turning away when defending the Kimura rotation?",
         "answer": "Turning into the opponent reduces the available rotational range for the shoulder lock by changing the angle between your torso and arm. When you turn toward them, your body follows the direction of the forced rotation, effectively reducing the relative rotation at the shoulder joint. Turning away actually increases the rotational stress on the shoulder because your body moves opposite to the forced direction. Additionally, turning in disrupts the opponent's perpendicular angle and can create scramble opportunities.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turning in shrinks rotation range",
+        "distractors": {
+          "plausible": [
+            "It just buys time either way",
+            "It hides your wrist from the grip"
+          ],
+          "trap": [
+            "Turn away and bridge to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -429,6 +610,26 @@
         "phase": "Phase 3: Full Defense Flow Under Resistance",
         "focus": "Chaining defensive responses against full-speed Kimura attacks from Kesa Gatame",
         "description": "Live positional sparring starting from Kesa Gatame. Defender works through the full defensive sequence: prevent arm isolation, establish defensive grip, time escape bridge, and recover guard. 3-minute rounds with emphasis on recognizing when defense has failed and tapping early."
+      }
+    ],
+    "clips": [
+      {
+        "id": "2M_6VytUaus",
+        "title": "Kesa Gatame Escape",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 43,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "fvp5_BVEtLg",
+        "title": "Kesa Gatame Pressure Defense (Framing)",
+        "by": "Kohbukan Sisu",
+        "vertical": false,
+        "channel": "Kohbukan Sisu",
+        "duration": 84,
+        "verified": "2026-07-14"
       }
     ]
   }

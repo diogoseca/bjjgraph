@@ -164,6 +164,54 @@ description: "Master cross face control mechanics in BJJ. Learn forearm position
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Face Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shallow cross face detail",
+      "description": "Cross Face Control film study: Shallow cross face detail, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PTe4-NhLXf8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PTe4-NhLXf8",
+      "url": "https://www.youtube.com/watch?v=PTe4-NhLXf8",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting a crossface: a crucial control skill",
+      "description": "Cross Face Control film study: Setting a crossface: a crucial control skill, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eA9MZmfVrmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eA9MZmfVrmA",
+      "url": "https://www.youtube.com/watch?v=eA9MZmfVrmA",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT435S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to maximize your crossface pressure",
+      "description": "Cross Face Control film study: How to maximize your crossface pressure, taught by Rob Vella.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IugFZC3fjDg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IugFZC3fjDg",
+      "url": "https://www.youtube.com/watch?v=IugFZC3fjDg",
+      "creator": { "@type": "Person", "name": "Rob Vella" },
+      "duration": "PT326S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Cross Face Control?
@@ -173,6 +221,42 @@ description: "Master cross face control mechanics in BJJ. Learn forearm position
 Rooted in the grappling truism that where the head goes the body follows, crossface control weaponizes that relationship to lock down top positions and passing sequences. Unlike general shoulder pressure, crossface control focuses specifically on driving arm and shoulder from opponent's near side across their face toward the far side, creating a lever that turns their head away from optimal escape angles and significantly restricts their ability to face into the position for defensive frames. This concept integrates biomechanical understanding of how head rotation affects overall body movement with strategic decisions about crossface establishment timing, pressure intensity, and coordination with other control elements. Crossface control serves as both an immediate restriction mechanism that prevents opponent from creating effective defensive frames and an enabling tool that allows position maintenance and technical advancement with minimal effort through superior head control. The ability to establish and maintain effective crossface control often determines whether a practitioner can dominate side control and passing positions or allows opponent to turn into position and escape, making it one of the most essential technical elements in top control and passing development.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Face Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PTe4-NhLXf8)
+
+<p class="clip-credit"><strong>Shallow cross face detail</strong> — taught by John Danaher · 0:24 · <a href="https://www.youtube.com/watch?v=PTe4-NhLXf8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eA9MZmfVrmA)
+
+<p class="clip-credit"><strong>Setting a crossface: a crucial control skill</strong> — taught by John Danaher · 7:15 · <a href="https://www.youtube.com/watch?v=eA9MZmfVrmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IugFZC3fjDg)
+
+<p class="clip-credit"><strong>How to maximize your crossface pressure</strong> — taught by Rob Vella · 5:26 · <a href="https://www.youtube.com/watch?v=IugFZC3fjDg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

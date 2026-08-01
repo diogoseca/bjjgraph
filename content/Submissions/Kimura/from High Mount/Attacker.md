@@ -176,6 +176,54 @@ description: "Attack the Kimura from High Mount with precise figure-four grip me
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from High Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura from S-mount",
+      "description": "Kimura from High Mount (Attacker) film study: Kimura from S-mount, taught by Marcus Ashcraft.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pDByo2uZnzo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pDByo2uZnzo",
+      "url": "https://www.youtube.com/watch?v=pDByo2uZnzo",
+      "creator": { "@type": "Person", "name": "Marcus Ashcraft" },
+      "duration": "PT63S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shoulder crunch attack from mount",
+      "description": "Kimura from High Mount (Attacker) film study: Shoulder crunch attack from mount, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nyZwifeL_Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nyZwifeL_Do",
+      "url": "https://www.youtube.com/watch?v=nyZwifeL_Do",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura from the mount",
+      "description": "Kimura from High Mount (Attacker) film study: Kimura from the mount, taught by Matt McCormick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oDVXJw48OMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oDVXJw48OMU",
+      "url": "https://www.youtube.com/watch?v=oDVXJw48OMU",
+      "creator": { "@type": "Person", "name": "Matt McCormick" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the Kimura from High Mount requires securing the figure-four grip on t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from High Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pDByo2uZnzo)
+
+<p class="clip-credit"><strong>Kimura from S-mount</strong> — taught by Marcus Ashcraft · 1:03 · <a href="https://www.youtube.com/watch?v=pDByo2uZnzo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nyZwifeL_Do)
+
+<p class="clip-credit"><strong>Shoulder crunch attack from mount</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=nyZwifeL_Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oDVXJw48OMU)
+
+<p class="clip-credit"><strong>Kimura from the mount</strong> — taught by Matt McCormick · 2:11 · <a href="https://www.youtube.com/watch?v=oDVXJw48OMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

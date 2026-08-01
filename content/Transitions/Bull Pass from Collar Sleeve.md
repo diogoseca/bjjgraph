@@ -34,6 +34,54 @@ description: "Master the Bull Pass from Collar Sleeve Guard. Complete BJJ guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bull Pass from Collar Sleeve \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing collar sleeve guard, competition tested",
+      "description": "Bull Pass from Collar Sleeve film study: Passing collar sleeve guard, competition tested, taught by Jamil Hill-Taylor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HsNwpC2CYIM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HsNwpC2CYIM",
+      "url": "https://www.youtube.com/watch?v=HsNwpC2CYIM",
+      "creator": { "@type": "Person", "name": "Jamil Hill-Taylor" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Two ways to pass the collar and sleeve guard",
+      "description": "Bull Pass from Collar Sleeve film study: Two ways to pass the collar and sleeve guard, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
+      "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing open guard",
+      "description": "Bull Pass from Collar Sleeve film study: Passing open guard, taught by Andre Galvao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u6d8_QqbqGM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u6d8_QqbqGM",
+      "url": "https://www.youtube.com/watch?v=u6d8_QqbqGM",
+      "creator": { "@type": "Person", "name": "Andre Galvao" },
+      "duration": "PT755S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the bull pass serves as a complement to pressure-based passing fr
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bull Pass from Collar Sleeve in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HsNwpC2CYIM)
+
+<p class="clip-credit"><strong>Passing collar sleeve guard, competition tested</strong> — taught by Jamil Hill-Taylor · 1:09 · <a href="https://www.youtube.com/watch?v=HsNwpC2CYIM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
+
+<p class="clip-credit"><strong>Two ways to pass the collar and sleeve guard</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u6d8_QqbqGM)
+
+<p class="clip-credit"><strong>Passing open guard</strong> — taught by Andre Galvao · 12:35 · <a href="https://www.youtube.com/watch?v=u6d8_QqbqGM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

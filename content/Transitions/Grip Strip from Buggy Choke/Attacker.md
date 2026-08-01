@@ -174,6 +174,43 @@ description: "Execute the Grip Strip from Buggy Choke to transition from a stall
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grip Strip from Buggy Choke (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Don\u0027t tap to the buggy choke \u2014 strip the grip",
+      "description": "Grip Strip from Buggy Choke (Attacker) film study: Don\u0027t tap to the buggy choke \u2014 strip the grip, taught by Caique.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bVS-dLgu_v4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bVS-dLgu_v4",
+      "url": "https://www.youtube.com/watch?v=bVS-dLgu_v4",
+      "creator": { "@type": "Person", "name": "Caique" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How I Escape Everyone\u0027s Buggy Choke",
+      "description": "Grip Strip from Buggy Choke (Attacker) film study: How I Escape Everyone\u0027s Buggy Choke, taught by CrashAndFlowBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4svhwZLlHvY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4svhwZLlHvY",
+      "url": "https://www.youtube.com/watch?v=4svhwZLlHvY",
+      "creator": { "@type": "Person", "name": "CrashAndFlowBJJ" },
+      "duration": "PT120S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 **From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grip Strip from Buggy Choke (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bVS-dLgu_v4)
+
+<p class="clip-credit"><strong>Don&#39;t tap to the buggy choke — strip the grip</strong> — taught by Caique · 1:01 · <a href="https://www.youtube.com/watch?v=bVS-dLgu_v4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4svhwZLlHvY)
+
+<p class="clip-credit"><strong>How I Escape Everyone&#39;s Buggy Choke</strong> — taught by CrashAndFlowBJJ · 2:00 · <a href="https://www.youtube.com/watch?v=4svhwZLlHvY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

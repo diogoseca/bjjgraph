@@ -148,6 +148,54 @@ description: "How to defend against Mount to Armbar in BJJ. Recognition cues, de
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount to Armbar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar stack escape",
+      "description": "Mount to Armbar (Defender) film study: Armbar stack escape, taught by WNY MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lXpel1GO2Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lXpel1GO2Do",
+      "url": "https://www.youtube.com/watch?v=lXpel1GO2Do",
+      "creator": { "@type": "Person", "name": "WNY MMA coach" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Favorite armbar escape",
+      "description": "Mount to Armbar (Defender) film study: Favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar escape using the RNC grip",
+      "description": "Mount to Armbar (Defender) film study: Armbar escape using the RNC grip, taught by ZombieProofBJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sDdqvh_1kbA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sDdqvh_1kbA",
+      "url": "https://www.youtube.com/watch?v=sDdqvh_1kbA",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ coach" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender's strategy centers on three priorities in sequence: first, prevent 
 **Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount to Armbar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lXpel1GO2Do)
+
+<p class="clip-credit"><strong>Armbar stack escape</strong> — taught by WNY MMA coach · 0:37 · <a href="https://www.youtube.com/watch?v=lXpel1GO2Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sDdqvh_1kbA)
+
+<p class="clip-credit"><strong>Armbar escape using the RNC grip</strong> — taught by ZombieProofBJJ coach · 1:03 · <a href="https://www.youtube.com/watch?v=sDdqvh_1kbA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

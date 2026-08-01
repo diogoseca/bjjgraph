@@ -20,7 +20,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Back Control",
   "from_position": "Back Control/Top",
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The rear naked choke from back control is the highest-percentage submission finish in Brazilian Jiu-Jitsu, combining the sport's most dominant control position with its most reliable choking mechanism. With the attacker established behind the opponent maintaining chest-to-back connection, hooks or body triangle for hip control, and harness grip for upper body management, the position provides an ideal platform for bilateral carotid compression. The submission targets both carotid arteries simultaneously using the forearm-and-bicep figure-four configuration, creating a blood choke that can produce unconsciousness in as few as four seconds when fully applied.\n\nWhat separates successful finishes from failed attempts is the systematic hand fighting that precedes the choking arm insertion. The attacker must methodically break down the opponent's two-on-one grip defense, pummeling the choking arm toward the neck while maintaining positional stability with hooks and the supporting arm. The transition from seatbelt grip to choking configuration represents the most vulnerable phase, where premature commitment or loss of hook pressure allows escape. Coordinated hip adjustment, angle changes, and sustained chest pressure throughout this transition determine whether the choke reaches completion.\n\nThe finishing mechanics rely on chest expansion and shoulder rotation rather than raw bicep strength. Threading the forearm blade against one carotid while the bicep compresses the other, with the hand behind the head sealing any remaining space, produces bilateral pressure that is extremely difficult to withstand. The hooks or body triangle provide the stable base preventing the opponent from bridging, rotating, or sliding down during the squeeze, making back control the most reliable platform for this submission.",
   "safety_considerations": {
     "injury_risks": [
@@ -128,17 +131,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Top",
-      "probability": 23,
+      "probability": {
+        "gi": 23,
+        "nogi": 23
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 12,
+      "probability": {
+        "gi": 12,
+        "nogi": 12
+      },
       "result": "counter"
     }
   ],
@@ -289,52 +301,181 @@
       {
         "question": "What anatomical structures does the rear naked choke target, and how does it produce unconsciousness?",
         "answer": "The rear naked choke targets both carotid arteries on the lateral sides of the neck, compressing them simultaneously to restrict blood flow to the brain. The forearm blade compresses one carotid while the bicep of the supporting arm compresses the other. This bilateral vascular compression creates rapid cerebral hypoxia, which can produce unconsciousness in as few as four to six seconds when the choke is fully locked with proper forearm placement and sealed figure-four configuration.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Compresses both carotid arteries",
+        "distractors": {
+          "plausible": [
+            "Cuts off windpipe airflow",
+            "One-sided carotid pressure works"
+          ],
+          "trap": [
+            "Crush the trachea to finish"
+          ]
+        }
       },
       {
         "question": "Your opponent has a strong two-on-one grip on your choking arm with both hands wrapped around your wrist — what systematic approach breaks this defense?",
         "answer": "Use your free hand to target the weakest link in their grip chain, typically the fingers of the top hand. Peel individual fingers to break the grip, then immediately pummel the freed choking arm toward the neck before they can re-establish the defense. Alternatively, use a wrist rotation combined with elbow drive to power through a weakened grip. If the two-on-one persists, switch to attacking their defending arms with a gift wrap or transition to armbar from back, forcing them to release the wrist defense to address the new threat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Peel top-hand fingers, pummel in",
+        "distractors": {
+          "plausible": [
+            "Yank the arm straight backward",
+            "Attack their bottom-hand fingers"
+          ],
+          "trap": [
+            "Turn to face them, lose the back"
+          ]
+        }
       },
       {
         "question": "What is the correct forearm placement to ensure a blood choke rather than a trachea crush?",
         "answer": "The soft inner blade of the forearm must sit flat against the lateral side of the neck, with the radius bone rotated away from the throat. The forearm should settle into the groove between the chin and the collarbone, with the crook of the elbow centered directly under the chin. The trachea should sit in the open space of the elbow crook with no direct pressure on it. If you feel hard bone pressing against the front of the throat, your forearm is rotated incorrectly and needs adjustment before applying any squeeze pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blade flat, elbow crook under chin",
+        "distractors": {
+          "plausible": [
+            "Radius bone pressed on throat",
+            "Wrist bone centered on windpipe"
+          ],
+          "trap": [
+            "Dig knuckles into the trachea"
+          ]
+        }
       },
       {
         "question": "During the choking arm insertion, your opponent tucks their chin tightly to their chest — how do you create space to thread the arm underneath?",
-        "answer": "Apply forehead pressure with the supporting hand by placing your palm on their forehead and pushing back to tilt the head, creating a gap between chin and chest. Alternatively, use a windshield-wiper pummeling motion with the choking arm to swim underneath the chin through the narrow gap. A third option is to shift your hips to one side creating an angle change that opens the far side of the neck. If the chin tuck is extremely tight, threaten an alternative attack like a collar grip or arm attack to force them to address the new threat, momentarily opening the neck.",
-        "safety_critical": false
+        "answer": "Push their forehead back with your supporting palm to tilt the head and open a gap between chin and chest. Alternatively, use a windshield-wiper pummeling motion with the choking arm to swim underneath the chin through the narrow gap, or shift your hips to one side so the angle change opens the far side of the neck. If the chin tuck is extremely tight, threaten an alternative attack like a collar grip or arm attack to force them to address the new threat, momentarily opening the neck.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Pry the chin up with choking hand",
+            "Yank the head straight backward"
+          ],
+          "trap": [
+            "Crank the neck sideways hard"
+          ]
+        },
+        "answer_line": "Push forehead back to open gap"
       },
       {
         "question": "What are the critical safety considerations when applying the rear naked choke in training?",
-        "answer": "Apply the choke slowly and progressively over three to five seconds minimum, allowing your partner full awareness of building pressure and clear opportunity to tap. Never snap or jerk the choke into position. Ensure the forearm is against the carotid arteries and not the trachea. Always verify your partner has at least one hand free to tap, or listen for verbal tap signals. Release immediately upon any tap signal, going limp, or distress sound. Never hold a choke past the tap regardless of circumstances. Monitor your partner after release for thirty seconds to confirm full consciousness and normal breathing.",
-        "safety_critical": true
+        "answer": "Apply the choke slowly and progressively over at least three to five seconds, and release immediately at any tap, limpness, or distress signal. Never snap or jerk the choke into position, and ensure the forearm presses the carotid arteries rather than the trachea. Always verify your partner has at least one hand free to tap, or listen for verbal tap signals, and never hold a choke past the tap regardless of circumstances. Monitor your partner for thirty seconds after release to confirm full consciousness and normal breathing.",
+        "safety_critical": true,
+        "distractors": {
+          "plausible": [
+            "Snap it fast for a quick finish",
+            "Hold briefly past the first tap"
+          ],
+          "trap": [
+            "Ignore the tap, finish for real"
+          ]
+        },
+        "answer_line": "Apply slow, release at any tap"
       },
       {
         "question": "How should you release the rear naked choke after your partner taps, and what monitoring is required?",
         "answer": "Upon receiving any tap signal, immediately release the choking arm and remove all pressure from the neck. Release hooks or body triangle to free your partner's body. Gently guide them to a side-lying recovery position rather than letting them collapse face-down. Monitor their consciousness and breathing for at least thirty seconds. If they lost consciousness, keep them lying on their side, do not allow them to stand, and wait until they are fully alert and oriented before allowing any further activity. If consciousness does not return within fifteen seconds, seek immediate medical assistance.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, side-lying, monitor 30s",
+        "distractors": {
+          "plausible": [
+            "Release then walk away at once",
+            "Sit them upright immediately"
+          ],
+          "trap": [
+            "Leave them lying face-down"
+          ]
+        }
       },
       {
         "question": "Your opponent begins sliding their hips downward toward your feet during the choke attempt — what adjustment prevents this escape?",
-        "answer": "Tighten your hooks by pressing your heels inward against their inner thighs and driving your hips forward into their lower back to close the gap they are creating. If using a body triangle, squeeze to prevent the downward slide. Simultaneously, increase chest-to-back pressure by driving your weight forward over their shoulders rather than allowing them to flatten you backward. If the slide has progressed significantly, consider re-establishing hooks at a higher position on their torso before continuing the choke attempt, as finishing from a compromised position is less likely than resecuring control first.",
-        "safety_critical": false
+        "answer": "Press your heels inward against their inner thighs and drive your hips forward into their lower back to close the gap they are creating. If using a body triangle, squeeze it to prevent the downward slide. Simultaneously, increase chest-to-back pressure by driving your weight forward over their shoulders rather than allowing them to flatten you backward. If the slide has progressed significantly, re-establish hooks at a higher position on their torso before continuing, as finishing from a compromised position is less likely than resecuring control first.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Pull them up by the choking arm",
+            "Loosen hooks to reposition first"
+          ],
+          "trap": [
+            "Let them slide, re-attack later"
+          ]
+        },
+        "answer_line": "Heels in, drive hips forward"
       },
       {
         "question": "What role do the hooks or body triangle play during the finishing squeeze of the rear naked choke?",
         "answer": "The hooks or body triangle provide the stable base platform that prevents the opponent from using explosive defensive movements to escape during the squeeze. Hooks control hip rotation and prevent the opponent from turning or bridging out of the choke. The body triangle adds compressive pressure on the torso that restricts breathing and limits core rotation. Without stable lower body control, the opponent can bridge over you, rotate their hips to create angle, or slide down and out before the choke takes effect. Active hook pressure during the squeeze is just as important as the arm configuration for completing the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hooks control hips, stop bridging",
+        "distractors": {
+          "plausible": [
+            "Hooks just help you balance",
+            "Triangle just adds arm strength"
+          ],
+          "trap": [
+            "Release hooks to focus arm squeeze"
+          ]
+        }
       },
       {
         "question": "You have the choking arm across the neck but cannot reach your bicep to secure the figure-four lock — what alternative finishing grip can you use?",
         "answer": "Switch to a palm-to-palm gable grip behind the opponent's neck, clasping both hands together with the choking arm still across the throat. This provides bilateral pressure using the forearm on one side and the wrist or forearm of the supporting arm on the other side. While mechanically less efficient than the full figure-four, it can still produce a finish, especially when combined with strong chest expansion. Another option is to grab your own wrist with the supporting hand, creating a reinforced grip that approximates the figure-four pressure. In competition, committing to either alternative is preferable to repeatedly reaching for the bicep and losing the arm position entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Palm-to-palm gable grip",
+        "distractors": {
+          "plausible": [
+            "Grab your own shirt collar",
+            "Hook fingers under their chin"
+          ],
+          "trap": [
+            "Release the arm to reach the bicep"
+          ]
+        }
       },
       {
         "question": "What is the difference between generating finishing pressure through chest expansion versus bicep flexion, and why does it matter?",
-        "answer": "Chest expansion produces finishing pressure by driving your torso into the opponent's back while pulling your elbows toward your ribs and creating a slight backward arch, engaging the large muscles of the back and chest. Bicep flexion relies on squeezing the arms inward using only the bicep and forearm muscles. Chest expansion generates significantly more sustainable force because it engages larger muscle groups that fatigue much more slowly than the biceps. Bicep-driven squeezes tire within seconds, producing inconsistent pressure that an experienced opponent can outlast. The chest expansion method also creates more even bilateral pressure on both carotid arteries simultaneously, producing faster unconsciousness with less total effort.",
-        "safety_critical": false
+        "answer": "Chest expansion drives the torso into the opponent's back with the large back and chest muscles, giving far more sustainable pressure than bicep squeezing. It works by pulling your elbows toward your ribs and creating a slight backward arch, while bicep flexion relies on squeezing the arms inward using only the bicep and forearm muscles. Bicep-driven squeezes tire within seconds, producing inconsistent pressure that an experienced opponent can outlast, whereas the larger muscle groups fatigue much more slowly. Chest expansion also creates more even bilateral pressure on both carotid arteries simultaneously, producing faster unconsciousness with less total effort.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Bicep flexion is more powerful",
+            "Both generate equal pressure"
+          ],
+          "trap": [
+            "Lean back, open the chest gap"
+          ]
+        },
+        "answer_line": "Chest expansion, not bicep squeeze"
+      }
+    ],
+    "clips": [
+      {
+        "id": "3vCytl_OI-4",
+        "title": "Rear Naked Choke from Back Control",
+        "by": "Affinity Academy",
+        "vertical": false,
+        "channel": "Affinity Academy",
+        "duration": 75,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "70jECxFfCSA",
+        "title": "Rear Naked Choke",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "Control Jiu JItsu",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "rPRORaAiJAs",
+        "title": "Rear Naked Choke: It's in the Squeeze",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 95,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -424,27 +565,77 @@
       {
         "question": "What are the earliest recognition cues that a rear naked choke is being set up from back control?",
         "answer": "The earliest cues include the attacker releasing one side of the seatbelt grip and beginning to pummel the choking arm toward your neck, increased hand fighting activity targeting your defensive grips with finger stripping or two-on-one breaks, the attacker shifting their hips to one side to create a threading angle, and the supporting hand moving toward your forehead or jaw to push your head back and open the neck space. Recognizing these preparatory movements gives you the critical early window to reinforce neck defense before the arm crosses.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip breaks, hip angle, head push",
+        "distractors": {
+          "plausible": [
+            "Only the locked figure-four matters",
+            "Wait for hooks to sink first"
+          ],
+          "trap": [
+            "Ignore hand fighting, defend late"
+          ]
+        }
       },
       {
         "question": "What is the safest way to signal a tap when caught in a rear naked choke from back control?",
         "answer": "Use multiple tap signals simultaneously for maximum clarity. Tap physically with either hand on the attacker's arm, body, or the mat using rapid repeated contact. Verbally say tap or make any clear vocal sound. Tap with your feet on the mat if your hands are trapped. Never wait until you feel yourself losing consciousness to tap. Signal the tap as soon as you recognize the choke is fully locked and your defensive efforts are not succeeding. A verbal tap combined with physical tapping provides the clearest signal, especially in noisy training environments.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap hard, tap loud, tap early",
+        "distractors": {
+          "plausible": [
+            "Wait until vision starts fading",
+            "Tap once, softly, and wait"
+          ],
+          "trap": [
+            "Try to power out instead of tap"
+          ]
+        }
       },
       {
         "question": "The attacker has threaded their arm across your neck but has not yet locked the figure-four — what defensive action has the highest success rate at this stage?",
         "answer": "Immediately grab the attacking wrist with both hands and pull it downward away from your neck while simultaneously tucking your chin tightly to your chest. The goal is to strip the arm back below your chin line before the figure-four can be completed. Use your entire body to assist by shrugging your shoulder up on the choking arm side and turning slightly toward the arm to reduce the effective depth across your neck. This window is brief, typically two to three seconds, so commit fully to the strip attempt rather than splitting effort between arm defense and escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-hand strip, tuck chin hard",
+        "distractors": {
+          "plausible": [
+            "Wait for figure-four then defend",
+            "Push against the forearm with neck"
+          ],
+          "trap": [
+            "Bridge hard instead of stripping"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence of defensive priorities when caught in back control with an active choke threat?",
         "answer": "The correct sequence is strictly hierarchical. First, protect the neck through chin tuck and two-on-one wrist control on the choking arm, preventing the arm from crossing or deepening. Second, fight the attacker's grip adjustments to prevent them from breaking your defensive control. Third, once neck defense is stable, strip the seatbelt grip with one hand while maintaining wrist control with the other. Fourth, remove hooks starting with the bottom hook using hip escape and leg manipulation. Fifth, create angle and turn toward the attacker to recover guard. Skipping any step, especially attempting escape before securing neck defense, dramatically increases submission risk.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Neck first, then grips, then escape",
+        "distractors": {
+          "plausible": [
+            "Strip hooks before neck defense",
+            "Escape immediately, ignore neck"
+          ],
+          "trap": [
+            "Attack submissions before defending"
+          ]
+        }
       },
       {
         "question": "You have defended the initial choke attempt but the attacker still has full back control with both hooks — what escape sequence should you initiate?",
         "answer": "With the immediate choke threat neutralized, maintain one hand controlling the attacker's choking arm wrist while using the other hand to begin addressing the bottom hook. Push the bottom hook foot down and outward with your hand while simultaneously hip escaping toward the mat on that side. Once the bottom hook is cleared, continue the hip escape motion to create angle, then drive your inside shoulder toward the attacker's chest and rotate to face them. Establish closed guard by wrapping your legs around their waist as you complete the turn. Throughout this sequence, never fully abandon the choking arm wrist control until you have turned far enough that the neck is no longer accessible.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Clear bottom hook, escape, turn in",
+        "distractors": {
+          "plausible": [
+            "Release wrist control immediately",
+            "Clear top hook before bottom hook"
+          ],
+          "trap": [
+            "Let go of the arm to speed escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -467,6 +658,35 @@
         "phase": "Phase 4: Live Survival and Escape Rounds",
         "focus": "Full resistance defense and escape under competition pressure",
         "description": "Start in back control with full resistance from both partners. Defender works complete defense and escape chain under realistic pressure. Attacker uses full hand fighting and chaining between RNC, armbar, and bow and arrow threats. Builds the mental toughness, timing, and technical integration needed for competition-level back control defense."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R6W9P4_SMzY",
+        "title": "Escape the Rear Naked Choke",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 104,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "kXvNLzTMVPk",
+        "title": "Rear Naked Choke Escape",
+        "by": "Applied Pressure MMA",
+        "vertical": false,
+        "channel": "Applied Pressure MMA",
+        "duration": 46,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "3RbOD9fhi20",
+        "title": "Back Escape: Running Man",
+        "by": "Jiu Jitsu Modern",
+        "vertical": false,
+        "channel": "JIU JITSU MODERN",
+        "duration": 210,
+        "verified": "2026-07-14"
       }
     ]
   }

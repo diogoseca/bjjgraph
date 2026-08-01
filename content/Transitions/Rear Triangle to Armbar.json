@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Armbar Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Rear Triangle to Armbar transition exploits the trapped arm within the rear triangle configuration, converting a choking position into a devastating arm attack when the opponent successfully defends the triangle choke. This transition capitalizes on a fundamental defensive dilemma: when the opponent tucks their chin and fights the choke, they expose the trapped arm to isolation and extension. The attacker pivots from a squeezing choke angle to a perpendicular armbar angle, using the existing arm trap as the foundation for the new attack.\n\nMechanically, this transition requires the attacker to release the triangle lock while simultaneously maintaining absolute control of the trapped arm through wrist grips. The critical moment occurs during the hip pivot, where the attacker rotates from chest-to-back orientation to a perpendicular hip-to-shoulder alignment while swinging the top leg over the opponent's face. This creates the classic armbar control structure from what was previously a back-mounted triangle position.\n\nStrategically, this transition serves as a cornerstone of the rear triangle attack system. Opponents who learn to defend the rear triangle choke by tucking their chin and protecting the neck become vulnerable to this armbar pivot. This creates a genuine submission dilemma: defend the choke and expose the arm, or defend the arm and get choked. Advanced practitioners chain between the choke and armbar attempts multiple times within a single exchange, breaking down defensive layers progressively until one attack succeeds.",
   "conditions": [
     "Rear triangle control established with one arm trapped inside the triangle structure",
@@ -243,38 +255,147 @@
     "flashcards": [
       {
         "question": "What is the most critical grip to establish before initiating the hip pivot for the armbar transition?",
-        "answer": "A firm two-on-one wrist control on the trapped arm is absolutely essential before any hip movement begins. Both hands should grip the opponent's wrist with thumbs wrapping around and fingers controlling the forearm. Without this grip, releasing the triangle lock during the pivot allows the opponent to retract their arm, which eliminates the submission opportunity entirely and often leads to loss of back control."
+        "answer": "A firm two-on-one wrist control on the trapped arm is absolutely essential before any hip movement begins. Both hands should grip the opponent's wrist with thumbs wrapping around and fingers controlling the forearm. Without this grip, releasing the triangle lock during the pivot allows the opponent to retract their arm, which eliminates the submission opportunity entirely and often leads to loss of back control.",
+        "answer_line": "Two-on-one wrist control",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm",
+            "Overhook on the near arm"
+          ],
+          "trap": [
+            "Release triangle first"
+          ]
+        }
       },
       {
         "question": "Your opponent tucks their chin and clasps both hands together to defend both the choke and the armbar - how do you break this defensive posture?",
-        "answer": "Attack the grip connection using a two-on-one prying motion on the trapped arm's wrist, leveraging your hips as a fulcrum to separate their hands. Alternatively, wedge your forearm between their clasped hands and use a levering motion to break the grip. If direct grip breaks fail, alternate between choke pressure and arm isolation attempts to force them to prioritize one defense, leaving the other vulnerable. The key is patience and systematic pressure rather than explosive single attempts."
+        "answer": "Attack the grip connection using a two-on-one prying motion on the trapped arm's wrist, leveraging your hips as a fulcrum to separate their hands. Alternatively, wedge your forearm between their clasped hands and use a levering motion to break the grip. If direct grip breaks fail, alternate between choke pressure and arm isolation attempts to force them to prioritize one defense, leaving the other vulnerable. The key is patience and systematic pressure rather than explosive single attempts.",
+        "answer_line": "Pry wrist two-on-one, use hips",
+        "distractors": {
+          "plausible": [
+            "Strip fingers one at a time",
+            "Yank the arm straight out"
+          ],
+          "trap": [
+            "Release triangle to attack hands"
+          ]
+        }
       },
       {
         "question": "When during the transition sequence should you unlock the rear triangle figure-four?",
-        "answer": "The triangle figure-four should be the last element released, only after your armbar leg positioning is already established. Specifically, unlock the triangle only after your top leg has swung over the opponent's face and your knees are beginning to pinch together in the armbar configuration. Releasing the triangle prematurely creates a window where neither the triangle control nor the armbar control is fully established, which is the most vulnerable moment of the transition."
+        "answer": "The triangle figure-four should be the last element released, only after your armbar leg positioning is already established. Specifically, unlock the triangle only after your top leg has swung over the opponent's face and your knees are beginning to pinch together in the armbar configuration. Releasing the triangle prematurely creates a window where neither the triangle control nor the armbar control is fully established, which is the most vulnerable moment of the transition.",
+        "answer_line": "Last, after leg swings over face",
+        "distractors": {
+          "plausible": [
+            "Unlock once wrist control set",
+            "Unlock as hips start pivoting"
+          ],
+          "trap": [
+            "Unlock triangle first, then pivot"
+          ]
+        }
       },
       {
         "question": "What hip angle change occurs during this transition and why is it mechanically important?",
-        "answer": "The hips rotate from a posterior angle with chest-to-back orientation angled toward the trapped arm for choking, to a perpendicular angle with hips positioned at roughly 90 degrees to the opponent's shoulder for arm extension. This mechanical change redirects the force vector from compressing the neck laterally to extending the elbow joint. The perpendicular hip position creates the lever arm necessary for the armbar finish, as hip elevation from this angle translates directly into hyperextension pressure across the elbow."
+        "answer": "The hips rotate from a posterior angle with chest-to-back orientation angled toward the trapped arm for choking, to a perpendicular angle with hips positioned at roughly 90 degrees to the opponent's shoulder for arm extension. This mechanical change redirects the force vector from compressing the neck laterally to extending the elbow joint. The perpendicular hip position creates the lever arm necessary for the armbar finish, as hip elevation from this angle translates directly into hyperextension pressure across the elbow.",
+        "answer_line": "Posterior to perpendicular, 90°",
+        "distractors": {
+          "plausible": [
+            "Hips square to opponent's back",
+            "Hips rotate away from arm"
+          ],
+          "trap": [
+            "Hips stay parallel to spine"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges hard and begins turning into you during the hip pivot - what is your immediate adjustment?",
-        "answer": "Use their rotational momentum to your advantage rather than fighting it. Continue your leg swing in the same direction they are turning, which accelerates the transition to a mounted or belly-down armbar variation. Maintain absolute wrist control throughout their bridge and follow their hips with yours to prevent space creation. The turn actually facilitates the armbar transition if you flow with it rather than resisting, as it helps your leg clear over their face more easily."
+        "answer": "Use their rotational momentum to your advantage rather than fighting it. Continue your leg swing in the same direction they are turning, which accelerates the transition to a mounted or belly-down armbar variation. Maintain absolute wrist control throughout their bridge and follow their hips with yours to prevent space creation. The turn actually facilitates the armbar transition if you flow with it rather than resisting, as it helps your leg clear over their face more easily.",
+        "answer_line": "Flow with turn, keep wrist control",
+        "distractors": {
+          "plausible": [
+            "Stop pivot, reset base first",
+            "Release wrist, control hips instead"
+          ],
+          "trap": [
+            "Fight the bridge, hold ground"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt the armbar transition versus continuing to attack the rear triangle choke?",
-        "answer": "The primary trigger is the opponent's defensive priority. If they are actively defending the choke by tucking their chin, fighting neck grips, and protecting carotid access, their attention is diverted from defending the trapped arm, making the armbar transition high-percentage. Conversely, if they are fighting to extract the trapped arm while leaving the neck exposed, continue attacking the choke. Read which defense they commit to and attack the opposite threat systematically."
+        "answer": "The primary trigger is the opponent's defensive priority. If they are actively defending the choke by tucking their chin, fighting neck grips, and protecting carotid access, their attention is diverted from defending the trapped arm, making the armbar transition high-percentage. Conversely, if they are fighting to extract the trapped arm while leaving the neck exposed, continue attacking the choke. Read which defense they commit to and attack the opposite threat systematically.",
+        "answer_line": "Read which defense they commit to",
+        "distractors": {
+          "plausible": [
+            "Always finish choke first",
+            "Switch after 10 seconds regardless"
+          ],
+          "trap": [
+            "Attack whichever arm feels tired"
+          ]
+        }
       },
       {
         "question": "How does controlling the opponent's free arm impact the success rate of this transition?",
-        "answer": "Controlling the free arm dramatically increases success rate by eliminating the opponent's ability to frame against your hip during the pivot, clasp hands together for armbar defense, or post on the mat to create escape angles. Without the free arm available, the opponent can only defend with body movement such as bridging and turning, which is far less effective than technical hand defense. Securing the free arm with a gift wrap or overhook before transitioning converts this from a contested exchange into a dominant position transfer."
+        "answer": "Controlling the free arm dramatically increases success rate by eliminating the opponent's ability to frame against your hip during the pivot, clasp hands together for armbar defense, or post on the mat to create escape angles. Without the free arm available, the opponent can only defend with body movement such as bridging and turning, which is far less effective than technical hand defense. Securing the free arm with a gift wrap or overhook before transitioning converts this from a contested exchange into a dominant position transfer.",
+        "answer_line": "Removes frames, hand defenses",
+        "distractors": {
+          "plausible": [
+            "Speeds up the hip pivot only",
+            "Prevents them from tapping early"
+          ],
+          "trap": [
+            "Free arm control isn't necessary"
+          ]
+        }
       },
       {
         "question": "After completing the transition to armbar control, what are your first three priorities before attempting the finish?",
-        "answer": "First, pinch your knees together firmly to secure the opponent's head and chest, preventing them from sitting up. Second, scoot your hips tight to their shoulder joint to maximize leverage and eliminate any defensive space. Third, verify that the trapped arm is oriented with the thumb pointing upward for optimal elbow vulnerability. Only after these three structural elements are confirmed should you begin the finishing motion of elevating hips and pulling the wrist toward your chest."
+        "answer": "First, pinch your knees together firmly to secure the opponent's head and chest, preventing them from sitting up. Second, scoot your hips tight to their shoulder joint to maximize leverage and eliminate any defensive space. Third, verify that the trapped arm is oriented with the thumb pointing upward for optimal elbow vulnerability. Only after these three structural elements are confirmed should you begin the finishing motion of elevating hips and pulling the wrist toward your chest.",
+        "answer_line": "Knees pinch, hips tight, thumb up",
+        "distractors": {
+          "plausible": [
+            "Control legs, then pinch knees",
+            "Pull wrist first, then adjust hips"
+          ],
+          "trap": [
+            "Extend arm first, skip knee pinch"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves manipulating the elbow joint into a hyperextension position, which carries significant injury risk if applied too quickly or forcefully. During training, execute the hip pivot and arm extension gradually, giving your partner adequate time to tap before full extension pressure is applied. Never explosively straighten the arm upon completing the transition. Be especially cautious when the opponent is defending vigorously, as their sudden defensive movement combined with your finishing pressure can create joint stress faster than either person anticipates. Always maintain controlled pressure and listen for verbal or physical tap signals immediately."
+    "safety_considerations": "This transition involves manipulating the elbow joint into a hyperextension position, which carries significant injury risk if applied too quickly or forcefully. During training, execute the hip pivot and arm extension gradually, giving your partner adequate time to tap before full extension pressure is applied. Never explosively straighten the arm upon completing the transition. Be especially cautious when the opponent is defending vigorously, as their sudden defensive movement combined with your finishing pressure can create joint stress faster than either person anticipates. Always maintain controlled pressure and listen for verbal or physical tap signals immediately.",
+    "clips": [
+      {
+        "id": "fPV5aCm4uIE",
+        "title": "Armbar from the back off the RNC threat",
+        "by": "CholoMMA",
+        "vertical": false,
+        "channel": "CholoMMA",
+        "duration": 39,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "r8rBt5Mp3B4",
+        "title": "Triangle to armbar transition",
+        "by": "Armory Training",
+        "vertical": false,
+        "channel": "ArmoryTraining",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5fuUTE9QN3U",
+        "title": "Triangle to armbar transition",
+        "by": "Keith Florian",
+        "vertical": false,
+        "channel": "Florian Martial Arts Center",
+        "duration": 52,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Rear Triangle to Armbar Defender",
@@ -360,23 +481,73 @@
     "flashcards": [
       {
         "question": "What is the most reliable defensive window during the Rear Triangle to Armbar transition and why?",
-        "answer": "The most reliable escape window occurs when the attacker releases the triangle figure-four lock but has not yet established armbar leg control across your face. During this brief transitional moment, neither the choke nor the armbar is fully functional, and the attacker's base is compromised by the hip pivot. This is when explosive defensive movement such as bridging, turning toward the trapped arm, or sitting up has the highest probability of success."
+        "answer": "The most reliable escape window occurs when the attacker releases the triangle figure-four lock but has not yet established armbar leg control across your face. During this brief transitional moment, neither the choke nor the armbar is fully functional, and the attacker's base is compromised by the hip pivot. This is when explosive defensive movement such as bridging, turning toward the trapped arm, or sitting up has the highest probability of success.",
+        "answer_line": "Triangle released, armbar not set",
+        "distractors": {
+          "plausible": [
+            "Right when wrist control taken",
+            "During the initial hip pivot start"
+          ],
+          "trap": [
+            "After armbar leg is fully across"
+          ]
+        }
       },
       {
         "question": "Your attacker has secured wrist control and begins pivoting their hips - what are your immediate three defensive actions?",
-        "answer": "First, bend your trapped elbow as hard as possible and pull it tight against your ribcage to resist arm extension. Second, use your free hand to either clasp your trapped wrist for reinforcement or block the attacker's incoming leg from crossing over your face. Third, turn your body toward the trapped arm side to collapse the perpendicular angle the attacker needs. These three actions address arm isolation, leg control, and hip angle simultaneously."
+        "answer": "First, bend your trapped elbow as hard as possible and pull it tight against your ribcage to resist arm extension. Second, use your free hand to either clasp your trapped wrist for reinforcement or block the attacker's incoming leg from crossing over your face. Third, turn your body toward the trapped arm side to collapse the perpendicular angle the attacker needs. These three actions address arm isolation, leg control, and hip angle simultaneously.",
+        "answer_line": "Bend elbow, block leg, turn in",
+        "distractors": {
+          "plausible": [
+            "Straighten arm, push off hips",
+            "Turn away, create space to stand"
+          ],
+          "trap": [
+            "Extend arm and pull it free"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the trapped arm side preferable to turning away when defending this transition?",
-        "answer": "Turning toward the trapped arm side shortens the distance between your elbow and your body, making it harder for the attacker to isolate and extend the arm. It also disrupts the perpendicular hip angle the attacker needs by collapsing the space between your bodies. Turning away would extend the trapped arm and create more space for the attacker's legs to establish control, essentially assisting their transition mechanics rather than disrupting them."
+        "answer": "Turning toward the trapped arm side shortens the distance between your elbow and your body, making it harder for the attacker to isolate and extend the arm. It also disrupts the perpendicular hip angle the attacker needs by collapsing the space between your bodies. Turning away would extend the trapped arm and create more space for the attacker's legs to establish control, essentially assisting their transition mechanics rather than disrupting them.",
+        "answer_line": "Shortens elbow-to-body distance",
+        "distractors": {
+          "plausible": [
+            "Makes escape faster to stand up",
+            "Opens space to swim underhook"
+          ],
+          "trap": [
+            "Turn away to escape the angle"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defensive priorities when the attacker alternates between choke and armbar threats?",
-        "answer": "Maintain a layered defense that addresses both threats simultaneously rather than committing fully to either one. Keep your chin tucked and one hand protecting your neck while using your trapped arm position and free hand to prevent arm isolation. The key is to avoid overcommitting to choke defense (which exposes the arm) or arm defense (which exposes the neck). Read the attacker's hip angle and grip changes to determine which threat is currently primary and weight your defense accordingly."
+        "answer": "Maintain a layered defense that addresses both threats simultaneously rather than committing fully to either one. Keep your chin tucked and one hand protecting your neck while using your trapped arm position and free hand to prevent arm isolation. The key is to avoid overcommitting to choke defense (which exposes the arm) or arm defense (which exposes the neck). Read the attacker's hip angle and grip changes to determine which threat is currently primary and weight your defense accordingly.",
+        "answer_line": "Defend both, don't overcommit",
+        "distractors": {
+          "plausible": [
+            "Fully commit to choke defense",
+            "Fully commit to arm defense"
+          ],
+          "trap": [
+            "Ignore neck, free the trapped arm"
+          ]
+        }
       },
       {
         "question": "After the attacker has completed the transition and you are in armbar control, what is your highest-priority defensive action?",
-        "answer": "Immediately rotate your trapped arm so the thumb points toward the ceiling and bend the elbow as deeply as possible, pulling your wrist toward your shoulder using your free hand for assistance. Simultaneously begin turning your body toward the trapped arm side and look to control the attacker's leg across your face with your free hand. The arm bend prevents the finish, the thumb rotation strengthens the elbow structure, and the body turn begins creating the angle needed for escape sequences like the hitchhiker."
+        "answer": "Immediately rotate your trapped arm so the thumb points toward the ceiling and bend the elbow as deeply as possible, pulling your wrist toward your shoulder using your free hand for assistance. Simultaneously begin turning your body toward the trapped arm side and look to control the attacker's leg across your face with your free hand. The arm bend prevents the finish, the thumb rotation strengthens the elbow structure, and the body turn begins creating the angle needed for escape sequences like the hitchhiker.",
+        "answer_line": "Thumb up, bend elbow, pull in",
+        "distractors": {
+          "plausible": [
+            "Grab own belt to lock arm",
+            "Sit up to stack the attacker"
+          ],
+          "trap": [
+            "Straighten arm to slip out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -400,6 +571,55 @@
         "focus": "Applying defensive skills under competitive pressure",
         "description": "Start in rear triangle with attacker actively working the submission chain. Defender must survive both choke and armbar threats with full resistance. Defender earns points for successful escapes, attacker earns points for completing the armbar transition or finishing the submission. 90-second rounds with position reset between rounds."
       }
+    ],
+    "clips": [
+      {
+        "id": "sDdqvh_1kbA",
+        "title": "Escaping the armbar from the back",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 63,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0bla3AHdQuM",
+        "title": "RNC armbar escape",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 74,
+        "verified": "2026-07-15"
+      }
     ]
-  }
+  },
+  "clips": [
+    {
+      "id": "lvaEerT_LE8",
+      "title": "Triangle to armbar",
+      "by": "ADCC",
+      "start": 0,
+      "end": 22,
+      "vertical": true,
+      "channel": "ADCC Official",
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "Y0LsaUhyiYs",
+      "title": "Triangle → armbar details",
+      "by": "Bellingham BJJ",
+      "start": 0,
+      "vertical": false,
+      "channel": "Bellingham BJJ",
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "6qiaGv5W--U",
+      "title": "Triangle ↔ armbar chain",
+      "start": 0,
+      "vertical": false,
+      "channel": "BALANCE JIU JITSU",
+      "verified": "2026-07-14"
+    }
+  ]
 }

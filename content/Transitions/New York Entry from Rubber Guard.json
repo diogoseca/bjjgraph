@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "New York/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Rubber Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The New York Entry from Rubber Guard represents one of the most critical transitions in the 10th Planet Rubber Guard system, advancing the bottom practitioner from the foundational Mission Control position into the more offensively loaded New York configuration. This entry involves threading a deep overhook around the opponent's trapped arm while maintaining the shin-across-back control that defines Rubber Guard. The addition of the overhook creates a second major control point that dramatically increases offensive options and further compromises the top player's ability to recover posture, extract their arm, or establish any meaningful base for escape.\n\nStrategically, mastering the New York entry unlocks the entire upper chain of the Rubber Guard system. From New York, the practitioner can advance to Invisible Collar for choke setups, rotate to Carni for omoplata attacks, thread into Chill Dog for gogoplata entries, or progress to Zombie for deeper control. Without a reliable New York entry, practitioners remain limited to the more basic attacks available from Mission Control, making this transition the linchpin of the entire system's offensive progression.\n\nThe entry demands precise timing and coordination between the overhook threading motion and the maintenance of shin control. There is an inherent vulnerability during the transition when one hand must release the shin to swim the overhook, creating a brief window where the opponent can potentially escape. Managing this window through proper hip engagement, posture breaking, and timing is what separates reliable entries from failed attempts that result in complete guard loss.",
   "conditions": [
     "Rubber Guard or Mission Control must be established with secure shin-across-back control gripping near the ankle",
@@ -261,38 +273,147 @@
     "flashcards": [
       {
         "question": "Your opponent begins pulling their trapped arm back toward their hip as you start releasing your shin grip to thread the overhook. How do you respond?",
-        "answer": "Do not chase the retracting arm with a slow overhook attempt. Instead, immediately re-secure your shin grip to prevent complete escape and use the shin pressure to pull the opponent forward again, resetting their arm position. If the arm is already partially free, pivot to a triangle threat by shooting your leg over their shoulder, as the retracting arm is now inside your guard frame in the perfect position for triangle entry. The opponent's arm retraction actually creates the angle needed for the triangle."
+        "answer": "Do not chase the retracting arm with a slow overhook attempt. Instead, immediately re-secure your shin grip to prevent complete escape and use the shin pressure to pull the opponent forward again, resetting their arm position. If the arm is already partially free, pivot to a triangle threat by shooting your leg over their shoulder, as the retracting arm is now inside your guard frame in the perfect position for triangle entry. The opponent's arm retraction actually creates the angle needed for the triangle.",
+        "answer_line": "Re-secure shin grip, pull forward",
+        "distractors": {
+          "plausible": [
+            "Immediately shoot for the triangle",
+            "Speed up the threading motion"
+          ],
+          "trap": [
+            "Chase the retracting arm"
+          ]
+        }
       },
       {
         "question": "What is the critical hip engagement that must occur before you release the shin grip to begin threading?",
-        "answer": "You must actively engage your hip flexors and pull your knee toward your chest to create independent shin pressure that holds the shin across the opponent's back without hand assistance. This muscular engagement replaces the structural support of the grip and maintains the posture-breaking pressure during the threading phase. Test this by loosening your grip slightly before fully releasing. If the shin slides at all, increase hip flexor engagement before proceeding. Without this step, the shin falls immediately upon hand release."
+        "answer": "You must actively engage your hip flexors and pull your knee toward your chest to create independent shin pressure that holds the shin across the opponent's back without hand assistance. This muscular engagement replaces the structural support of the grip and maintains the posture-breaking pressure during the threading phase. Test this by loosening your grip slightly before fully releasing. If the shin slides at all, increase hip flexor engagement before proceeding. Without this step, the shin falls immediately upon hand release.",
+        "answer_line": "Engage hip flexors, pull knee in",
+        "distractors": {
+          "plausible": [
+            "Squeeze knees to lock the shin",
+            "Tighten grip before releasing"
+          ],
+          "trap": [
+            "Release the grip without testing"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt the New York entry now versus waiting in Mission Control?",
-        "answer": "Three conditions must converge for a high-percentage entry: the opponent's posture is fully broken with head below shoulder line, their trapped arm is positioned forward rather than retracted, and their attention or energy is directed elsewhere such as defending a different threat or recovering from a failed escape attempt. If any condition is missing, maintain Mission Control and continue applying pressure to create the opening. Forcing the entry against an alert, postured opponent with a retracted arm results in failure over 70% of the time."
+        "answer": "Three conditions must converge for a high-percentage entry: the opponent's posture is fully broken with head below shoulder line, their trapped arm is positioned forward rather than retracted, and their attention or energy is directed elsewhere such as defending a different threat or recovering from a failed escape attempt. If any condition is missing, maintain Mission Control and continue applying pressure to create the opening. Forcing the entry against an alert, postured opponent with a retracted arm results in failure over 70% of the time.",
+        "answer_line": "All three entry conditions align",
+        "distractors": {
+          "plausible": [
+            "Posture is broken, that's enough",
+            "Arm is forward, that's enough"
+          ],
+          "trap": [
+            "Force entry against alert opponent"
+          ]
+        }
       },
       {
         "question": "How deep must the overhook be, and what anatomical landmark tells you the depth is sufficient?",
-        "answer": "The overhook must wrap around the opponent's tricep area until your shoulder makes direct contact with the inner surface of their armpit. This shoulder-to-armpit contact is the key landmark. If you can feel their armpit against your deltoid, the overhook is deep enough. If your shoulder is still against their upper arm or bicep, the overhook is too shallow and they will be able to extract the arm within seconds by pulling the elbow back toward their hip."
+        "answer": "The overhook must wrap around the opponent's tricep area until your shoulder makes direct contact with the inner surface of their armpit. This shoulder-to-armpit contact is the key landmark. If you can feel their armpit against your deltoid, the overhook is deep enough. If your shoulder is still against their upper arm or bicep, the overhook is too shallow and they will be able to extract the arm within seconds by pulling the elbow back toward their hip.",
+        "answer_line": "Shoulder touches their armpit",
+        "distractors": {
+          "plausible": [
+            "Overhook wraps past the elbow",
+            "Hand reaches their shoulder blade"
+          ],
+          "trap": [
+            "Shoulder against their bicep only"
+          ]
+        }
       },
       {
         "question": "During the threading phase, the opponent drives forward aggressively to stack you. How do you use this to your advantage?",
-        "answer": "Accept their forward drive rather than fighting it. Their forward momentum brings their arm deeper into your threading range and makes the overhook easier to catch because their weight is already loaded forward. Time your swimming motion to coincide with their drive, letting their pressure accelerate the overhook depth. Simultaneously angle your hips to the side to prevent being stacked flat. The key insight is that forward pressure from the opponent actually assists the New York entry if you time it correctly instead of panicking."
+        "answer": "Accept their forward drive rather than fighting it. Their forward momentum brings their arm deeper into your threading range and makes the overhook easier to catch because their weight is already loaded forward. Time your swimming motion to coincide with their drive, letting their pressure accelerate the overhook depth. Simultaneously angle your hips to the side to prevent being stacked flat. The key insight is that forward pressure from the opponent actually assists the New York entry if you time it correctly instead of panicking.",
+        "answer_line": "Time the overhook to their drive",
+        "distractors": {
+          "plausible": [
+            "Stay flat and absorb the pressure",
+            "Wait until drive stops to swim"
+          ],
+          "trap": [
+            "Fight their forward pressure head-on"
+          ]
+        }
       },
       {
         "question": "Where exactly should your shin-gripping hand be positioned after establishing the overhook, and why does position matter?",
-        "answer": "Grip the shin near the ankle, positioning your hand between the ankle bone and the lower calf. This low grip position maximizes the lever arm for pulling pressure across the opponent's back. A higher grip near the knee provides less leverage because the control point is closer to the fulcrum at the hip, making it easier for the opponent to strip the grip or peel the leg off their back. The ankle grip also provides better tactile feedback for monitoring shin position."
+        "answer": "Grip the shin near the ankle, positioning your hand between the ankle bone and the lower calf. This low grip position maximizes the lever arm for pulling pressure across the opponent's back. A higher grip near the knee provides less leverage because the control point is closer to the fulcrum at the hip, making it easier for the opponent to strip the grip or peel the leg off their back. The ankle grip also provides better tactile feedback for monitoring shin position.",
+        "answer_line": "Grip low near the ankle",
+        "distractors": {
+          "plausible": [
+            "Grip mid-shin for stability",
+            "Grip behind the knee joint"
+          ],
+          "trap": [
+            "Grip near the knee for leverage"
+          ]
+        }
       },
       {
         "question": "You successfully establish New York but your overhook feels shallow. Should you attempt to deepen it now or proceed to attacks?",
-        "answer": "Deepen the overhook immediately before proceeding to attacks. A shallow overhook will fail under the increased resistance generated by attack transitions, causing the entire position to collapse at the worst possible moment. Swim the overhook deeper by driving your shoulder further into their armpit while pulling with your elbow. This takes only 2-3 seconds and dramatically increases the reliability of every subsequent technique. Proceeding with a shallow overhook is a common error that wastes the energy invested in reaching New York."
+        "answer": "Deepen the overhook immediately before proceeding to attacks. A shallow overhook will fail under the increased resistance generated by attack transitions, causing the entire position to collapse at the worst possible moment. Swim the overhook deeper by driving your shoulder further into their armpit while pulling with your elbow. This takes only 2-3 seconds and dramatically increases the reliability of every subsequent technique. Proceeding with a shallow overhook is a common error that wastes the energy invested in reaching New York.",
+        "answer_line": "Deepen the overhook immediately",
+        "distractors": {
+          "plausible": [
+            "Proceed to attacks, adjust later",
+            "Rest briefly, then deepen it"
+          ],
+          "trap": [
+            "Attack now before it slips away"
+          ]
+        }
       },
       {
         "question": "What is the optimal hip angle once New York is established, and what does this angle accomplish biomechanically?",
-        "answer": "Angle your hips approximately 20-30 degrees toward the overhook side rather than lying flat on your back. This angle loads the opponent's weight asymmetrically onto their trapped arm side, further degrading their already compromised base. Biomechanically, the angle creates a diagonal pulling vector through your shin and overhook that is harder to resist than a straight downward pull from a flat position. The angle also pre-positions your body for progression to Invisible Collar and Carni, reducing the adjustment needed for follow-up transitions."
+        "answer": "Angle your hips approximately 20-30 degrees toward the overhook side rather than lying flat on your back. This angle loads the opponent's weight asymmetrically onto their trapped arm side, further degrading their already compromised base. Biomechanically, the angle creates a diagonal pulling vector through your shin and overhook that is harder to resist than a straight downward pull from a flat position. The angle also pre-positions your body for progression to Invisible Collar and Carni, reducing the adjustment needed for follow-up transitions.",
+        "answer_line": "Angle hips 20-30° to overhook side",
+        "distractors": {
+          "plausible": [
+            "Angle hips away from the overhook",
+            "Angle hips a full 90 degrees"
+          ],
+          "trap": [
+            "Lie flat on your back"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The New York entry requires significant hip and hamstring flexibility. Never force the position beyond your current range of motion, as this risks hip flexor strains, hamstring tears, and groin injuries. During drilling, communicate with your partner about pressure levels during the overhook threading phase, as excessive resistance can strain the shoulder joint of either player. Warm up thoroughly before practicing, focusing on hip openers and hamstring stretches. If you experience sharp pain in the hip or groin during the shin-across-back position, stop immediately and address flexibility limitations through progressive stretching rather than forcing the position. The one-handed transition phase places extra demand on the hip flexors, so build endurance gradually."
+    "safety_considerations": "The New York entry requires significant hip and hamstring flexibility. Never force the position beyond your current range of motion, as this risks hip flexor strains, hamstring tears, and groin injuries. During drilling, communicate with your partner about pressure levels during the overhook threading phase, as excessive resistance can strain the shoulder joint of either player. Warm up thoroughly before practicing, focusing on hip openers and hamstring stretches. If you experience sharp pain in the hip or groin during the shin-across-back position, stop immediately and address flexibility limitations through progressive stretching rather than forcing the position. The one-handed transition phase places extra demand on the hip flexors, so build endurance gradually.",
+    "clips": [
+      {
+        "id": "gFYyMkaMz34",
+        "title": "Prison guard breakdown from rubber guard",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 59,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "5fJM5bIk8Fw",
+        "title": "Mission Control to Zombie to Invisible Collar",
+        "by": "10th Planet Orange Park",
+        "vertical": false,
+        "channel": "10th Planet Orange Park",
+        "duration": 108,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "WliTCjEDA-8",
+        "title": "Basic entries into rubber guard",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "New York Entry from Rubber Guard Defender",
@@ -378,23 +499,73 @@
     "flashcards": [
       {
         "question": "You feel the bottom player's shin grip loosen and their hip flexors engage more firmly. What does this tell you and what should you do immediately?",
-        "answer": "This combination of loosening grip and increased hip engagement is the primary recognition cue that a New York entry is about to be attempted. The bottom player is testing whether their hip flexors can maintain shin pressure independently before committing to the threading motion. You should immediately retract your trapped arm toward your hip and begin fighting for posture with your free hand. Acting during this testing phase, before the actual threading begins, provides your best window for preventing the transition entirely."
+        "answer": "This combination of loosening grip and increased hip engagement is the primary recognition cue that a New York entry is about to be attempted. The bottom player is testing whether their hip flexors can maintain shin pressure independently before committing to the threading motion. You should immediately retract your trapped arm toward your hip and begin fighting for posture with your free hand. Acting during this testing phase, before the actual threading begins, provides your best window for preventing the transition entirely.",
+        "answer_line": "Retract arm, fight for posture now",
+        "distractors": {
+          "plausible": [
+            "Wait to see if they commit fully",
+            "Push forward to flatten them out"
+          ],
+          "trap": [
+            "Ignore it, grip will loosen more"
+          ]
+        }
       },
       {
         "question": "The bottom player has caught a shallow overhook around your elbow but has not achieved shoulder-to-armpit depth. What is your recovery window and how do you exploit it?",
-        "answer": "A shallow overhook is still extractable but the window closes rapidly. Immediately pull your elbow in a corkscrew motion toward your hip while driving your shoulder forward to create angular resistance against the overhook deepening. Simultaneously use your free hand to frame on their overhook shoulder, preventing them from swimming deeper. You have approximately 3-5 seconds before they can work the overhook to full depth. If extraction fails in this window, the overhook will lock and New York will be established."
+        "answer": "A shallow overhook is still extractable but the window closes rapidly. Immediately pull your elbow in a corkscrew motion toward your hip while driving your shoulder forward to create angular resistance against the overhook deepening. Simultaneously use your free hand to frame on their overhook shoulder, preventing them from swimming deeper. You have approximately 3-5 seconds before they can work the overhook to full depth. If extraction fails in this window, the overhook will lock and New York will be established.",
+        "answer_line": "Corkscrew elbow out, frame shoulder",
+        "distractors": {
+          "plausible": [
+            "Yank the arm straight back",
+            "Wait for a bigger opening"
+          ],
+          "trap": [
+            "Relax the arm to save energy"
+          ]
+        }
       },
       {
         "question": "What is the primary danger of driving forward aggressively when the bottom player releases their shin grip to begin threading?",
-        "answer": "While forward pressure can flatten the bottom player and break the guard structure when timed correctly, it also carries the risk of accelerating the overhook establishment. If the bottom player anticipates the forward drive, they can use your momentum to bring your arm deeper into threading range, making the overhook catch faster and deeper than it would have been from a static position. The forward drive must be timed precisely during the release phase, not during the actual swimming motion, to be effective as an escape."
+        "answer": "While forward pressure can flatten the bottom player and break the guard structure when timed correctly, it also carries the risk of accelerating the overhook establishment. If the bottom player anticipates the forward drive, they can use your momentum to bring your arm deeper into threading range, making the overhook catch faster and deeper than it would have been from a static position. The forward drive must be timed precisely during the release phase, not during the actual swimming motion, to be effective as an escape.",
+        "answer_line": "Can speed up their overhook catch",
+        "distractors": {
+          "plausible": [
+            "Always flattens their guard",
+            "Only risky during the swim"
+          ],
+          "trap": [
+            "No risk if you drive hard enough"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight and base when defending against the New York entry attempt?",
-        "answer": "Widen your base by spreading your knees apart and shift weight toward your free hand side. This creates a stable triangular foundation that resists the asymmetric pulling forces of the Rubber Guard while maintaining a posting base for sweep defense. Your weight should press downward through your hips rather than forward through your chest, as forward lean assists the overhook catch. Keep your trapped arm elbow tight to your body and pointed down toward the mat."
+        "answer": "Widen your base by spreading your knees apart and shift weight toward your free hand side. This creates a stable triangular foundation that resists the asymmetric pulling forces of the Rubber Guard while maintaining a posting base for sweep defense. Your weight should press downward through your hips rather than forward through your chest, as forward lean assists the overhook catch. Keep your trapped arm elbow tight to your body and pointed down toward the mat.",
+        "answer_line": "Widen base, weight on free hand",
+        "distractors": {
+          "plausible": [
+            "Narrow stance for quick movement",
+            "Keep weight centered evenly"
+          ],
+          "trap": [
+            "Lean forward through your chest"
+          ]
+        }
       },
       {
         "question": "If the New York entry succeeds despite your defense, what is your immediate priority in the newly established position?",
-        "answer": "Your immediate priority is preventing the overhook from deepening further and blocking the progression to more advanced positions like Invisible Collar or Zombie. Use your free hand to grip-fight the shin-gripping hand, widen your base, and begin the systematic escape sequence for New York Top: establish base, fight for posture, extract overhook. Do not panic or attempt explosive escapes, as the New York position punishes uncontrolled movement with submission entries. Accept you are now in a defensive position and commit to methodical escape."
+        "answer": "Your immediate priority is preventing the overhook from deepening further and blocking the progression to more advanced positions like Invisible Collar or Zombie. Use your free hand to grip-fight the shin-gripping hand, widen your base, and begin the systematic escape sequence for New York Top: establish base, fight for posture, extract overhook. Do not panic or attempt explosive escapes, as the New York position punishes uncontrolled movement with submission entries. Accept you are now in a defensive position and commit to methodical escape.",
+        "answer_line": "Grip-fight and widen your base",
+        "distractors": {
+          "plausible": [
+            "Focus on posture recovery first",
+            "Stay still and conserve energy"
+          ],
+          "trap": [
+            "Attempt an explosive escape now"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -417,6 +588,26 @@
         "phase": "Phase 4: Recovery Training",
         "focus": "Escaping after New York is successfully established",
         "description": "Start with the bottom player already in full New York control. Defender practices the systematic escape sequence under progressive resistance. Develop proficiency at escaping the position after the entry succeeds, ensuring defensive capability at all stages of the Rubber Guard progression."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xNc_Cdh9VVg",
+        "title": "Late stage guard retention vs rubber guard",
+        "by": "Robert Diggle",
+        "vertical": false,
+        "channel": "RobertDiggleJJ",
+        "duration": 189,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iwcfKUPNZNs",
+        "title": "Why rubber guard doesn't work — countering the entry",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 792,
+        "verified": "2026-07-15"
       }
     ]
   }

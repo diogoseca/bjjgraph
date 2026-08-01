@@ -18,7 +18,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Honey Hole",
   "from_position": "Honey Hole/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from Honey Hole exploits the existing inside leg triangle configuration to attack the opponent's calf muscle and posterior lower leg through compression. Unlike the primary heel hook attacks available from this dominant leg entanglement, the calf slicer targets soft tissue by folding the opponent's foot toward their buttock while your shin acts as a fulcrum across the back of their knee joint. The transition from heel hook hunting to calf slicer requires only a grip change from the heel to the foot, making it a natural secondary attack when the opponent successfully hides their heel.\n\nThis submission serves as a complementary weapon within the Honey Hole submission chain, typically deployed when the opponent defends heel hook attempts by tucking their heel deep or maintaining strong wrist control against your breaking grip. The inside leg triangle already provides the necessary fulcrum structure positioned across the back of the opponent's knee. By securing the opponent's foot and driving it toward their glute while extending your hips forward, you generate intense compression on the gastrocnemius muscle, soleus, and Achilles tendon simultaneously.\n\nStrategically, the calf slicer adds a compression dimension to the rotational attacks available from Honey Hole, forcing defenders to address threats across multiple planes of movement. It creates compound dilemmas that make the position increasingly difficult to escape. The technique specifically punishes the exact foot positioning opponents adopt to protect their heel from hook attacks, turning their primary defensive posture into a vulnerability that feeds directly into the compression finish.",
   "safety_considerations": {
     "injury_risks": [
@@ -109,17 +112,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Honey Hole/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -281,42 +293,142 @@
       {
         "question": "What anatomical structures does the calf slicer from Honey Hole primarily attack?",
         "answer": "The calf slicer primarily attacks the gastrocnemius and soleus muscles of the posterior calf through direct compression against the shin fulcrum, while simultaneously loading the Achilles tendon through forced knee flexion. Secondary stress is applied to the peroneal and tibial nerves running through the posterior compartment of the lower leg. The combined compression and stretch can cause muscle tears, tendon strain, and in severe cases compartment syndrome.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Calf muscle & Achilles tendon",
+        "distractors": {
+          "plausible": [
+            "Knee ligaments (ACL/MCL)",
+            "Ankle joint capsule alone"
+          ],
+          "trap": [
+            "Harmless squeeze — no need to tap"
+          ]
+        }
       },
       {
         "question": "Your opponent hides their heel deep behind their body to defend your heel hook - how do you transition to the calf slicer?",
         "answer": "Release the heel hook grip and immediately thread your near-side arm under their ankle from the outside, cupping the ball of their foot. Their heel-hiding posture actually positions their foot perfectly for the calf slicer fold because their knee is already partially bent. Pull the foot toward their buttock while maintaining your triangle tightness, then drive your hips forward to engage the compression. The key is making this transition in one fluid motion so they cannot straighten their leg during the grip change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thread arm under ankle, cup foot",
+        "distractors": {
+          "plausible": [
+            "Keep heel hook grip, then fold",
+            "Straighten their leg to expose calf"
+          ],
+          "trap": [
+            "Open triangle to grab the ankle"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the calf slicer from Honey Hole in training?",
         "answer": "Apply compression over a minimum of 5-7 seconds, never spike or jerk the fold. Calf tissue tears before maximum pain is felt, so your partner may not realize they are in danger until damage has begun. Always ensure your partner has at least one hand free to tap, and encourage verbal taps since the leg entanglement can limit hand mobility. Release immediately upon any tap signal and check your partner's calf sensation and mobility before resuming. This technique is restricted to advanced practitioners in most organizations.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow, over 5-7 seconds",
+        "distractors": {
+          "plausible": [
+            "Stop only when pain is sharp",
+            "Trust partner's tap timing"
+          ],
+          "trap": [
+            "Crank fast for a quick tap"
+          ]
+        }
       },
       {
         "question": "How should you release the calf slicer from Honey Hole after your partner taps?",
         "answer": "Immediately release your foot grip and stop all hip drive. Slowly remove shin pressure from the calf without jerking. Carefully unwrap your legs from the triangle configuration, allowing your partner to extend their leg naturally at their own pace. Do not rush to reset or disengage before they have confirmed they are okay. Check their calf for pain, swelling, or reduced range of motion before continuing training. If any concern exists, stop training and apply ice.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, unwind slowly",
+        "distractors": {
+          "plausible": [
+            "Release grip, reset quickly",
+            "Unwrap legs, then release grip"
+          ],
+          "trap": [
+            "Yank the leg straight at once"
+          ]
+        }
       },
       {
         "question": "Your opponent starts straightening their leg during the fold - what adjustment prevents escape?",
         "answer": "Pull their foot harder toward their buttock while simultaneously squeezing your inside leg triangle tighter to resist the straightening force. Shift your near-side arm to hook deeper under their ankle, using your entire forearm as a lever against their foot. If the straightening is powerful, drive your hips forward aggressively to increase the fulcrum pressure, making straightening painful. If they successfully straighten past the fold point, abandon the calf slicer and return to heel hook attacks since their straightened leg may now expose the heel.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull foot in, tighten triangle",
+        "distractors": {
+          "plausible": [
+            "Chase the heel hook instead",
+            "Hold still and wait them out"
+          ],
+          "trap": [
+            "Open triangle to re-grip"
+          ]
+        }
       },
       {
         "question": "What grip configuration is needed to fold the opponent's foot for the calf slicer finish?",
         "answer": "Thread your near-side arm under the opponent's ankle from the outside, with your palm cupping the ball of their foot. Your forearm runs along the bottom of their shin, creating a lever arm. Your far hand can grip their shin, ankle, or your own wrist for reinforcement. The foot should be trapped tight against your chest or shoulder with no gap for extraction. This configuration uses your entire arm as a lever rather than relying on hand grip strength alone, which fatigues quickly against resistance.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm under ankle, cup the foot",
+        "distractors": {
+          "plausible": [
+            "Grip the heel like a heel hook",
+            "Cross-grip the far shin only"
+          ],
+          "trap": [
+            "Finger grip — fingers get snapped"
+          ]
+        }
       },
       {
         "question": "You have the fold partially completed but your opponent is actively grip-fighting your hands - what finishing adjustment maximizes compression?",
         "answer": "Bury the foot deeper against your chest or armpit where their hands cannot effectively reach to strip your grip. Use your far hand to control their near wrist, preventing their grip fighting. Then prioritize hip drive over arm pulling, as hip extension generates far more force than they can overcome with grip fighting alone. If their grip fighting is preventing the fold from deepening, tighten your triangle squeeze to increase fulcrum pressure at the current fold depth rather than fighting for additional fold angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bury foot, drive hips not arms",
+        "distractors": {
+          "plausible": [
+            "Pull harder with the grip hand",
+            "Sit up to see their grips"
+          ],
+          "trap": [
+            "Let go of the foot to re-grip"
+          ]
+        }
       },
       {
         "question": "What distinguishes the calf slicer submission timeline from the heel hook in terms of when damage occurs?",
         "answer": "The heel hook causes ligament damage through rotational force, and the damage onset is extremely sudden with minimal warning pain before catastrophic failure. The calf slicer causes progressive tissue compression damage that builds gradually, but the critical distinction is that significant calf muscle tearing can occur before maximum pain is perceived by the defender. The heel hook has a sharper failure point while the calf slicer has a broader damage zone. Both require immediate respect and early tapping, but the calf slicer's deceptive pain curve makes slow application in training absolutely essential.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Muscle tears before peak pain",
+        "distractors": {
+          "plausible": [
+            "Heel hook pain rises gradually",
+            "Rotation gives clear early warning"
+          ],
+          "trap": [
+            "Ride the pressure until it hurts"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "4hjnzSE-VgY",
+        "title": "Ham Sandwich to Honeyhole Calf Slicer",
+        "by": "Christopher Hendrick",
+        "vertical": false,
+        "channel": "Christopher Hendrick",
+        "duration": 113,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IX7ABEXpMVw",
+        "title": "Calf Slicer: Bait, Enter and Finish",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 164,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -402,27 +514,77 @@
       {
         "question": "How do you recognize that the calf slicer is being set up from Honey Hole rather than a heel hook?",
         "answer": "The key recognition cue is the attacker releasing their heel hook grip and shifting both hands to the top of your foot or ankle area. You will feel the grip change from cupping your heel to controlling your foot with an arm threading under your ankle. Additionally, the attacker may begin driving their hips forward rather than rotating for the heel hook. This grip transition is your defensive window and must trigger an immediate straightening response.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip shifts from heel to foot",
+        "distractors": {
+          "plausible": [
+            "Feels like heel hook rotation",
+            "Sudden knee rotation pressure"
+          ],
+          "trap": [
+            "No change felt, stay relaxed"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the calf slicer from Honey Hole?",
         "answer": "Verbal tap is the safest and fastest signal because the inside leg triangle entanglement often limits hand mobility. Call out a clear verbal tap the moment you feel compression building that you cannot escape through defensive movement. If verbal tap is not possible, tap the mat or your partner's body repeatedly with your free hand. Do not wait for maximum pain to develop, because significant calf tissue damage can occur before peak pain is perceived. Tap early and often when caught in this submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Verbal tap immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for peak pain, then tap",
+            "Signal the referee to stop it"
+          ],
+          "trap": [
+            "Rip your leg free with force"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the calf slicer from Honey Hole?",
         "answer": "The primary defense is explosive leg straightening the instant you recognize the grip transition from heel to foot. This prevents the fold that creates the compression. Secondary defense is hip rotation toward the attacker to reduce the compression angle of the shin fulcrum. If these fail, attempt full leg extraction during the grip transition window to recover guard. If the fold progresses past midpoint with hip drive engaged, all mechanical defenses are effectively exhausted and tapping immediately is the appropriate response.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten leg as grip switches",
+        "distractors": {
+          "plausible": [
+            "Turn hips away from attacker",
+            "Sit up and pry the shin off"
+          ],
+          "trap": [
+            "Stay folded and ride it out"
+          ]
+        }
       },
       {
         "question": "Your opponent begins folding your foot toward your buttock and you feel increasing calf pressure - what is your immediate response?",
         "answer": "Fire your quadriceps to straighten your leg with maximum explosive force. Simultaneously push against the attacker's hip with your free leg to create separation. If straightening fails to break the fold within the first second, assess whether the compression is progressing. If the attacker has hip drive engaged and the fold is deepening, tap immediately rather than continuing to fight. The window between manageable compression and tissue damage is extremely narrow with this submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Explode straighten, push hip",
+        "distractors": {
+          "plausible": [
+            "Slowly work to create space",
+            "Grab your own foot to block"
+          ],
+          "trap": [
+            "Relax leg to ease pressure"
+          ]
+        }
       },
       {
         "question": "Why is the calf slicer from Honey Hole particularly dangerous compared to calf slicers from other positions?",
         "answer": "The Honey Hole's inside leg triangle creates an exceptionally stable fulcrum that cannot be displaced through normal defensive movement. Unlike calf slicers from open positions where the defender can create space or change the compression angle, the triangle locks the shin fulcrum in place against the back of the knee. Additionally, the Honey Hole already limits escape options before the calf slicer is even attempted, meaning the defender has fewer tools available. The combination of stable fulcrum, limited mobility, and restricted escape paths makes this variant significantly more dangerous than free-form calf slicers.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stable fulcrum, no space to move",
+        "distractors": {
+          "plausible": [
+            "Folds faster than other guards",
+            "Twists the knee joint deeper"
+          ],
+          "trap": [
+            "It's mild — ride it out, no tap"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -445,6 +607,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense with tap awareness",
         "description": "Positional sparring starting in Honey Hole bottom with partner at 80% resistance. Partner can attack with any submission including calf slicer. Focus on surviving and escaping while maintaining awareness of when tapping is the appropriate defensive choice. Debrief each round to identify recognition delays."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gEEHqiSznS4",
+        "title": "How to Escape the Honey Hole",
+        "by": "Vagner Rocha",
+        "vertical": false,
+        "channel": "Vagner Rocha Martial Arts - MMA Gym, BJJ School, Jiu Jitsu, Mixed Martial Arts, Kickboxing, Boxing Gym",
+        "duration": 60,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XwndkdlPHwc",
+        "title": "Counter to Honey Hole",
+        "by": "Sonny Parlin",
+        "vertical": false,
+        "channel": "Sonny Parlin",
+        "duration": 65,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VGNTi2hEvfc",
+        "title": "How To Defend & Escape the Leg-Lace/Cloverleaf",
+        "by": "jamielovesmartialarts",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 78,
+        "verified": "2026-07-14"
       }
     ]
   }

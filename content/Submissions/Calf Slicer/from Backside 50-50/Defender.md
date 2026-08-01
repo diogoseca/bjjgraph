@@ -144,6 +144,54 @@ description: "Defend the calf slicer from backside 50-50 with early recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Calf Slicer from Backside 50-50 (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock escape: roll through from 50/50",
+      "description": "Calf Slicer from Backside 50-50 (Defender) film study: Leg lock escape: roll through from 50/50, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backside 50/50 defense",
+      "description": "Calf Slicer from Backside 50-50 (Defender) film study: Backside 50/50 defense, taught by Giancarlo Bodoni.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zhApZgQzWVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zhApZgQzWVk",
+      "url": "https://www.youtube.com/watch?v=zhApZgQzWVk",
+      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping and countering backside 50/50",
+      "description": "Calf Slicer from Backside 50-50 (Defender) film study: Escaping and countering backside 50/50, taught by Matrix Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RTzSOGlxSWg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RTzSOGlxSWg",
+      "url": "https://www.youtube.com/watch?v=RTzSOGlxSWg",
+      "creator": { "@type": "Person", "name": "Matrix Jiu Jitsu coach" },
+      "duration": "PT240S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the calf slicer from backside 50-50 requires early recognition of the 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Calf Slicer from Backside 50-50 (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape: roll through from 50/50</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zhApZgQzWVk)
+
+<p class="clip-credit"><strong>Backside 50/50 defense</strong> — taught by Giancarlo Bodoni · 2:54 · <a href="https://www.youtube.com/watch?v=zhApZgQzWVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RTzSOGlxSWg)
+
+<p class="clip-credit"><strong>Escaping and countering backside 50/50</strong> — taught by Matrix Jiu Jitsu coach · 4:00 · <a href="https://www.youtube.com/watch?v=RTzSOGlxSWg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

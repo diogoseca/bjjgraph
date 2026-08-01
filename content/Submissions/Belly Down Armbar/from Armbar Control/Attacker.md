@@ -176,6 +176,54 @@ description: "Learn to attack with the belly down armbar finish from armbar cont
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Armbar Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Belly Down Arm Bar Finish",
+      "description": "Belly Down Armbar from Armbar Control (Attacker) film study: Belly Down Arm Bar Finish, taught by Brandoo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yDxtO6qzOL0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yDxtO6qzOL0",
+      "url": "https://www.youtube.com/watch?v=yDxtO6qzOL0",
+      "creator": { "@type": "Person", "name": "Brandoo" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly Down Arm Bar to counter the stack",
+      "description": "Belly Down Armbar from Armbar Control (Attacker) film study: Belly Down Arm Bar to counter the stack, taught by The Art of Fighting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9wGAI_8zvBQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9wGAI_8zvBQ",
+      "url": "https://www.youtube.com/watch?v=9wGAI_8zvBQ",
+      "creator": { "@type": "Person", "name": "The Art of Fighting" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Belly Down Armbar from Guard",
+      "description": "Belly Down Armbar from Armbar Control (Attacker) film study: Belly Down Armbar from Guard, taught by Robert Hugus.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdYFELAO6B0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdYFELAO6B0",
+      "url": "https://www.youtube.com/watch?v=EdYFELAO6B0",
+      "creator": { "@type": "Person", "name": "Robert Hugus" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking with the belly down armbar finish from armbar control requires recogni
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Armbar Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yDxtO6qzOL0)
+
+<p class="clip-credit"><strong>Belly Down Arm Bar Finish</strong> — taught by Brandoo · 0:58 · <a href="https://www.youtube.com/watch?v=yDxtO6qzOL0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9wGAI_8zvBQ)
+
+<p class="clip-credit"><strong>Belly Down Arm Bar to counter the stack</strong> — taught by The Art of Fighting · 1:02 · <a href="https://www.youtube.com/watch?v=9wGAI_8zvBQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdYFELAO6B0)
+
+<p class="clip-credit"><strong>Belly Down Armbar from Guard</strong> — taught by Robert Hugus · 0:41 · <a href="https://www.youtube.com/watch?v=EdYFELAO6B0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

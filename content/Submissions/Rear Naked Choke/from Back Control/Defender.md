@@ -150,6 +150,54 @@ description: "Defend and escape the rear naked choke from back control. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape the Rear Naked Choke",
+      "description": "Rear Naked Choke from Back Control (Defender) film study: Escape the Rear Naked Choke, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R6W9P4_SMzY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R6W9P4_SMzY",
+      "url": "https://www.youtube.com/watch?v=R6W9P4_SMzY",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rear Naked Choke Escape",
+      "description": "Rear Naked Choke from Back Control (Defender) film study: Rear Naked Choke Escape, taught by Applied Pressure MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kXvNLzTMVPk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kXvNLzTMVPk",
+      "url": "https://www.youtube.com/watch?v=kXvNLzTMVPk",
+      "creator": { "@type": "Person", "name": "Applied Pressure MMA" },
+      "duration": "PT46S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back Escape: Running Man",
+      "description": "Rear Naked Choke from Back Control (Defender) film study: Back Escape: Running Man, taught by Jiu Jitsu Modern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3RbOD9fhi20/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3RbOD9fhi20",
+      "url": "https://www.youtube.com/watch?v=3RbOD9fhi20",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Modern" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +210,42 @@ The most critical window for successful defense is before the choking arm crosse
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R6W9P4_SMzY)
+
+<p class="clip-credit"><strong>Escape the Rear Naked Choke</strong> — taught by Coach Brian · 1:44 · <a href="https://www.youtube.com/watch?v=R6W9P4_SMzY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kXvNLzTMVPk)
+
+<p class="clip-credit"><strong>Rear Naked Choke Escape</strong> — taught by Applied Pressure MMA · 0:46 · <a href="https://www.youtube.com/watch?v=kXvNLzTMVPk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3RbOD9fhi20)
+
+<p class="clip-credit"><strong>Back Escape: Running Man</strong> — taught by Jiu Jitsu Modern · 3:30 · <a href="https://www.youtube.com/watch?v=3RbOD9fhi20" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

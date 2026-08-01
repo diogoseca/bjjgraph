@@ -34,6 +34,43 @@ description: "Master the Escape Z-Lock Half Guard in BJJ. Learn systematic metho
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Z-Lock Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Z guard pass to the back",
+      "description": "Escape Z-Lock Half Guard film study: Z guard pass to the back, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GQeS3xTXlb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GQeS3xTXlb0",
+      "url": "https://www.youtube.com/watch?v=GQeS3xTXlb0",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Z guard with tripod base",
+      "description": "Escape Z-Lock Half Guard film study: Passing Z guard with tripod base, taught by Street Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xXb65zA1yzs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xXb65zA1yzs",
+      "url": "https://www.youtube.com/watch?v=xXb65zA1yzs",
+      "creator": { "@type": "Person", "name": "Street Jitsu" },
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This transition holds strategic importance because it preserves guard retention 
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Z-Lock Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GQeS3xTXlb0)
+
+<p class="clip-credit"><strong>Z guard pass to the back</strong> — taught by Animal · 0:48 · <a href="https://www.youtube.com/watch?v=GQeS3xTXlb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xXb65zA1yzs)
+
+<p class="clip-credit"><strong>Passing Z guard with tripod base</strong> — taught by Street Jitsu · 1:31 · <a href="https://www.youtube.com/watch?v=xXb65zA1yzs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -247,7 +312,7 @@ The Escape Z-Lock Half Guard serves as a critical pressure valve within the broa
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative escape destination when forward pressure makes standard recovery dangerous
 
-- [[Transitions/Deep Half Entry from Half Guard]] - Follow-up transition available once standard half guard is recovered
+- [[Transitions/Deep Half Entry]] - Follow-up transition available once standard half guard is recovered
 
 - [[Transitions/Underhook Sweep from Half]] - Primary offensive option available from recovered standard half guard position
 

@@ -148,6 +148,32 @@ description: "Complete guide to defending the Inversion from Headquarters as the
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inversion from Headquarters (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard Passing Leg Pummeling Techniques",
+      "description": "Inversion from Headquarters (Defender) film study: Guard Passing Leg Pummeling Techniques, taught by Elite Team Monterey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FVpbZPgoplw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FVpbZPgoplw",
+      "url": "https://www.youtube.com/watch?v=FVpbZPgoplw",
+      "creator": { "@type": "Person", "name": "Elite Team Monterey" },
+      "duration": "PT30S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +183,26 @@ As the top player in headquarters, defending the inversion requires recognizing 
 **Opponent's Starting Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inversion from Headquarters (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FVpbZPgoplw)
+
+<p class="clip-credit"><strong>Guard Passing Leg Pummeling Techniques</strong> — taught by Elite Team Monterey · 0:30 · <a href="https://www.youtube.com/watch?v=FVpbZPgoplw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -18,7 +18,10 @@
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Guillotine Control",
   "from_position": "Guillotine Control/Top",
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The arm-in guillotine from guillotine control is a devastating choke variation that capitalizes on the opponent's arm being trapped inside the front headlock grip. Unlike the standard guillotine where the opponent's arm remains free for defensive hand fighting, the trapped arm acts as a wedge that compresses the far-side carotid artery while the choking forearm attacks the near side, creating bilateral vascular compression that accelerates the submission finish. This positional advantage makes the arm-in variation one of the most reliable guillotine finishes when properly executed from an established guillotine control position.\n\nFrom guillotine control top, the attacker has already broken the opponent's posture and secured a front headlock. When the opponent's arm becomes trapped—whether through defensive error, deliberate setup, or scramble transition—the arm-in guillotine becomes immediately available. The key mechanical difference lies in grip adjustment: rather than fighting to remove the arm, the attacker embraces the trapped limb and repositions hands to maximize compression against the neck structures. The opponent's own shoulder and trapped arm become integral parts of the choking mechanism, turning their defense into the attacker's advantage.\n\nStrategically, this submission creates a particularly difficult defensive puzzle. The defender cannot use their trapped arm for hand fighting or frame creation, eliminating their most effective escape tools. Their remaining options—posturing with one arm, bridging, or attempting to roll—are significantly compromised. High-level competitors recognize the arm-in position as a fight-ending opportunity that demands immediate defensive action before the choke fully locks in.",
   "safety_considerations": {
     "injury_risks": [
@@ -78,9 +81,9 @@
     "Guillotine Choke",
     "Darce Choke",
     "Anaconda Choke",
-    "Von Flue Choke",
+    "Von Flue Choke from Side Control",
     "Japanese Necktie",
-    "Chin Strap Guillotine"
+    "Chin Strap Guillotine from Front Headlock"
   ],
   "related_content": [
     {
@@ -111,17 +114,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Guillotine Control/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -289,52 +301,181 @@
       {
         "question": "What anatomical structures does the arm-in guillotine primarily attack?",
         "answer": "The arm-in guillotine creates bilateral compression of the carotid arteries. The choking forearm compresses the near-side carotid artery directly, while the opponent's own trapped arm and shoulder compress the far-side carotid. Secondary pressure affects the trachea, restricting airflow. This bilateral vascular attack causes rapid loss of consciousness, making the arm-in variation faster-acting than many standard guillotine configurations.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bilateral carotid compression",
+        "distractors": {
+          "plausible": [
+            "Trachea compression only",
+            "Near-side carotid only"
+          ],
+          "trap": [
+            "Cervical spine crank"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip when the opponent's arm becomes trapped inside the guillotine?",
         "answer": "Rather than attempting to remove the trapped arm, immediately adjust your grip deeper so the blade of your wrist or forearm sits directly against the near-side carotid artery. Clasp your hands in a palm-to-palm or gable grip behind the opponent's head near the crown of their skull. Pull your choking elbow tight against your ribs to eliminate any space between your arm and their neck. The trapped arm now serves as a compression wedge against the far-side carotid.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist blade deep, gable grip",
+        "distractors": {
+          "plausible": [
+            "Yank the trapped arm free",
+            "Clasp hands at their back"
+          ],
+          "trap": [
+            "Release grip to reset position"
+          ]
+        }
       },
       {
         "question": "What physical signs indicate your opponent is close to tapping to the arm-in guillotine?",
         "answer": "Signs include rapid facial color change (reddening then potential purple discoloration), increased desperation in escape attempts, weakening of defensive hand fighting, audible breathing changes or gurgling sounds, and involuntary body tension followed by sudden relaxation. The most critical sign is the opponent going limp, which indicates loss of consciousness rather than a tap. Release immediately if you observe any sudden change in muscle tone or responsiveness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Face reddening, frantic escapes",
+        "distractors": {
+          "plausible": [
+            "Defensive grips tighten as they fade",
+            "Rising body tension is the last cue"
+          ],
+          "trap": [
+            "Hips walking away means near tap"
+          ]
+        }
       },
       {
         "question": "What control must be established before attempting the arm-in guillotine finish from guillotine control?",
-        "answer": "Before finishing, you must have: established guillotine control with the opponent's posture broken forward and head below hip level, the opponent's arm fully trapped inside the choking loop with no ability to extract it, a secure hand clasp behind the head in your chosen grip configuration, and top position with hip pressure preventing the opponent from posturing up or pulling you into their closed guard. Attempting the finish without these prerequisites reduces success rate significantly.",
-        "safety_critical": false
+        "answer": "You need broken posture, the arm fully trapped inside the choking loop, a secure hand clasp, and hip pressure keeping the opponent down. Specifically: guillotine control with the opponent's posture broken forward and head below hip level, the opponent's arm trapped inside the choking loop with no ability to extract it, a secure hand clasp behind the head in your chosen grip configuration, and top position with hip pressure preventing the opponent from posturing up or pulling you into their closed guard. Attempting the finish without these prerequisites reduces success rate significantly.",
+        "safety_critical": false,
+        "distractors": {
+          "plausible": [
+            "Broken posture alone is enough",
+            "Deep grip without hip pressure"
+          ],
+          "trap": [
+            "Jump guard while they stand"
+          ]
+        },
+        "answer_line": "Broken posture, arm trapped, grip"
       },
       {
         "question": "Your opponent begins to posture up with their free arm during your arm-in guillotine attempt—what adjustment prevents escape?",
         "answer": "Immediately drive your hips forward into their upper back while sprawling your legs behind you to add bodyweight pressure against their posturing effort. Angle your shoulder pressure into the side of their free posting arm to collapse their base. If they continue gaining height, pull their head down sharply with your clasped hands while simultaneously curling your choking forearm deeper into the neck. The single-arm posture is mechanically weaker than two-arm posture, so consistent forward pressure typically collapses it.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sprawl hips forward, collapse base",
+        "distractors": {
+          "plausible": [
+            "Pull the head down only",
+            "Push off their far shoulder"
+          ],
+          "trap": [
+            "Let them stand to reset"
+          ]
+        }
       },
       {
         "question": "What is the most common error that prevents finishing the arm-in guillotine from guillotine control?",
         "answer": "The most common error is gripping too shallow with the forearm positioned across the chin or jaw rather than deep against the neck structures. This produces pain and discomfort but no vascular compression, allowing the opponent to defend indefinitely. The correction is to ensure your wrist blade crosses directly over the trachea and near-side carotid artery by sliding the grip deeper before clasping your hands. If the grip is too shallow, momentarily adjust by releasing and re-entering deeper rather than forcing a finish from a poor position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip too shallow, on chin not neck",
+        "distractors": {
+          "plausible": [
+            "Squeezing too hard too fast",
+            "Finishing too slowly"
+          ],
+          "trap": [
+            "Hang on while they pass to mount"
+          ]
+        }
       },
       {
         "question": "At what point during the arm-in guillotine execution is escape most difficult for the defender?",
         "answer": "Escape becomes extremely difficult once the attacker has closed all gaps between the choking arm and torso, established the body angle toward the choking side, and engaged hip pressure forward. At this point the defender has no arm to hand fight, limited posturing ability, and the compression is structural rather than muscular. The critical threshold is when the attacker's forearm blade seats fully against the carotid and the angle eliminates any slack in the choking loop—from this point, even small increases in pressure produce submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gaps closed, angle set, hips in",
+        "distractors": {
+          "plausible": [
+            "Right after the first grip",
+            "Before the hands clasp"
+          ],
+          "trap": [
+            "Wait until fully locked to defend"
+          ]
+        }
       },
       {
         "question": "What safety precautions are essential when training the arm-in guillotine in the gym?",
         "answer": "Always apply pressure progressively over 3-5 seconds rather than explosively. Monitor your partner continuously for tap signals including hand taps, foot taps, verbal taps, and signs of distress. The arm-in variation can cause unconsciousness in under 5 seconds of full bilateral compression, so release immediately upon any signal. Ensure your partner's free hand is accessible for tapping. Never hold the submission after a tap, and always check your partner's alertness before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Progressive pressure, watch for taps",
+        "distractors": {
+          "plausible": [
+            "Trust partner to tap in time",
+            "Only stop on a clear hand tap"
+          ],
+          "trap": [
+            "Pin the free arm and squeeze hard"
+          ]
+        }
       },
       {
         "question": "How do you set up the arm-in guillotine in competition when opponents are actively defending?",
         "answer": "In competition, the arm-in opportunity commonly arises during sprawl defense when the opponent shoots and leaves their arm inside during head-and-arm contact. Deliberately bait the arm-in by leaving slight space that invites the opponent to swim their arm inside your standard guillotine grip. You can also create the setup from front headlock by threatening the standard guillotine to force hand fighting, then trapping the arm when it enters the space. Chain the arm-in with standard guillotine and high elbow variations to create a multi-threat system.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bait the arm in during sprawl",
+        "distractors": {
+          "plausible": [
+            "Wait for a clean neck-only bite",
+            "Attack only after a guard pull"
+          ],
+          "trap": [
+            "Jump guard to force the finish"
+          ]
+        }
       },
       {
         "question": "You feel the opponent's trapped arm starting to slide free during your arm-in guillotine attempt—what do you do?",
         "answer": "Immediately squeeze your choking elbow tighter against your ribs and close any gap that is allowing the arm to escape. If the arm is nearly free, you have two options: accelerate the finish with increased hip pressure and squeeze before they fully extract the arm, or allow the arm to exit and immediately transition to a standard guillotine or high elbow guillotine variation that may be higher percentage without the arm inside. Do not chase the trapped arm at the expense of losing your overall grip position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze choke elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Dig to re-trap the escaping arm",
+            "Crank the wrist to pin arm in"
+          ],
+          "trap": [
+            "Release head, reset both grips"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "NUnTxPvjCa0",
+        "title": "The Marcelotine Arm-In Guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "stuartcooperfilms",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8AGCNn4ElSA",
+        "title": "Arm-in Guillotine (Lapel-assisted)",
+        "by": "Johnny Jitsu",
+        "vertical": true,
+        "channel": "Johnny Jitsu",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "IvSVZuezQGo",
+        "title": "Double Elbow to High Elbow Guillotine",
+        "by": "Marcelo Garcia",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 171,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -421,27 +562,77 @@
       {
         "question": "How do you recognize the arm-in guillotine is being set up from guillotine control?",
         "answer": "The key recognition cue is feeling your arm pinched between the opponent's choking forearm and your own neck, limiting your ability to move it for hand fighting. You will feel bilateral pressure on both sides of your neck simultaneously—from the opponent's forearm on the near side and your own trapped arm and shoulder on the far side. The opponent will adjust their grip deeper and angle their body toward their choking arm, indicating they are transitioning from control to finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm pinned, bilateral neck pressure",
+        "distractors": {
+          "plausible": [
+            "Only single-side pressure felt",
+            "Just a change in grip depth"
+          ],
+          "trap": [
+            "Ignore it, keep hand fighting"
+          ]
+        }
       },
       {
         "question": "When should you tap to the arm-in guillotine to prevent injury?",
         "answer": "Tap immediately when you feel bilateral compression on both carotid arteries with no viable escape path available. Warning signs requiring immediate tap include darkening vision, ringing ears, a feeling of lightheadedness, or the sensation that the choke is fully locked with no remaining space to relieve pressure. In training, there is no benefit to waiting until the last second—the arm-in guillotine can produce unconsciousness in under 5 seconds. Tap early and learn from the position rather than risking a blackout.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap once locked with no escape",
+        "distractors": {
+          "plausible": [
+            "Peel the grip first, then decide",
+            "Wait until the neck actually hurts"
+          ],
+          "trap": [
+            "Jump to guard and ride it out"
+          ]
+        }
       },
       {
         "question": "What is your highest-priority defensive action when caught in an arm-in guillotine from guillotine control?",
         "answer": "The highest priority is immediately tucking your chin toward the trapped arm side while simultaneously attempting to extract the trapped arm through body rotation. Chin tuck buys time by reducing carotid compression surface area, while arm extraction restores your full defensive capability. If extraction fails within the first 2-3 seconds, transition to posturing with your free arm or driving forward to stack the attacker before the choke fully locks.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck chin, extract trapped arm",
+        "distractors": {
+          "plausible": [
+            "Posture up first, then defend",
+            "Reach for their far leg"
+          ],
+          "trap": [
+            "Pull straight back to rip free"
+          ]
+        }
       },
       {
         "question": "Your arm is trapped inside the guillotine and you feel increasing pressure—what is your immediate response?",
         "answer": "Immediately tuck your chin hard toward the trapped arm shoulder to reduce compression surface. Simultaneously post your free hand on the opponent's hip and drive upward to create posture while turning your entire body toward the trapped arm side. This rotational movement creates an angle where the trapped arm can begin sliding free along your neck. If posturing fails, commit to driving forward to stack the attacker and relieve the choking angle. Do not waste time on half-measures—choose your escape path and commit fully.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck chin, turn and post to escape",
+        "distractors": {
+          "plausible": [
+            "Grip fight with the trapped arm",
+            "Turn away from the trapped arm"
+          ],
+          "trap": [
+            "Pull straight back and rip free"
+          ]
+        }
       },
       {
         "question": "What is the key mechanical principle behind escaping the arm-in guillotine?",
         "answer": "The arm-in guillotine relies on a closed loop around the neck with the trapped arm acting as a compression wedge. The mechanical escape principle is to break the loop's geometry by creating rotational space through body turning rather than linear pulling. By turning your body toward the trapped arm side, you change the angle of your shoulder and arm relative to the loop, allowing the arm to slide free along the path of least resistance. Simultaneously, posturing or driving forward opens the compression angle, reducing the force applied to the carotid arteries.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn body to unwind the loop",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight out",
+            "Push down to create space"
+          ],
+          "trap": [
+            "Yank your head back hard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -464,6 +655,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-speed defense with realistic attack pressure",
         "description": "Begin rounds with partner establishing arm-in guillotine from guillotine control at full competition intensity. Defender must escape to a neutral or favorable position. Track success rate and identify which escape paths work best against different attacker styles. 2-minute rounds, reset after each resolution."
+      }
+    ],
+    "clips": [
+      {
+        "id": "lvjRNWzKMPc",
+        "title": "Guillotine Escape from Closed Guard",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 27,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "8okq4cIHMO0",
+        "title": "Standing Guillotine Escape",
+        "by": "dogtownman",
+        "vertical": false,
+        "channel": "dogtownman",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Qb8gtundzPg",
+        "title": "Guillotine Escape from the Guard",
+        "by": "Ground Zero MMA",
+        "vertical": false,
+        "channel": "Ground Zero MMA,BJJ,Wresting,No Gi,Bridgend.",
+        "duration": 57,
+        "verified": "2026-07-14"
       }
     ]
   }

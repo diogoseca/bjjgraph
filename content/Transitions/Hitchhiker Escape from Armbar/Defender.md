@@ -87,6 +87,14 @@ description: "Prevent the Hitchhiker Escape from your armbar in BJJ. Learn to re
         "@type": "Answer",
         "text": "Pinch your knees tightly together with the leg across their face driving downward into their cheek, creating friction against the arm rotation and limiting the space available for the thumb to rotate toward their head. Additionally, hooking your top foot under their far shoulder adds a control point that resists the entire rotational movement, not just the arm portion of the escape."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that your opponent is attempting a Hitchhiker Escape?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is the thumb rotating outward away from their body. Before any significant body rotation occurs, the opponent must initiate the hitchhiker thumb motion to change the joint angle. Recognizing this subtle forearm rotation before the full body turn develops gives you the maximum window to counter by securing shoulder control and extending hips decisively."
+      }
     }
   ]
 }
@@ -142,6 +150,54 @@ description: "Prevent the Hitchhiker Escape from your armbar in BJJ. Learn to re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hitchhiker Escape from Armbar (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Preventing the hitchhiker armbar escape",
+      "description": "Hitchhiker Escape from Armbar (Defender) film study: Preventing the hitchhiker armbar escape, taught by Pathfinder Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zVLS7fLlobg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zVLS7fLlobg",
+      "url": "https://www.youtube.com/watch?v=zVLS7fLlobg",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the hitchhiker armbar escape attempt",
+      "description": "Hitchhiker Escape from Armbar (Defender) film study: Countering the hitchhiker armbar escape attempt, taught by Team Maxwell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rh-bxlYYJvM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rh-bxlYYJvM",
+      "url": "https://www.youtube.com/watch?v=rh-bxlYYJvM",
+      "creator": { "@type": "Person", "name": "Team Maxwell" },
+      "duration": "PT192S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stopping the hitchhiker armbar escape",
+      "description": "Hitchhiker Escape from Armbar (Defender) film study: Stopping the hitchhiker armbar escape, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PQ3Sj9bc1nU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PQ3Sj9bc1nU",
+      "url": "https://www.youtube.com/watch?v=PQ3Sj9bc1nU",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT213S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +207,42 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 **Opponent's Starting Position**: [[Positions/Armbar Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hitchhiker Escape from Armbar (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zVLS7fLlobg)
+
+<p class="clip-credit"><strong>Preventing the hitchhiker armbar escape</strong> — taught by Pathfinder Jiu-Jitsu Team · 1:31 · <a href="https://www.youtube.com/watch?v=zVLS7fLlobg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rh-bxlYYJvM)
+
+<p class="clip-credit"><strong>Countering the hitchhiker armbar escape attempt</strong> — taught by Team Maxwell · 3:12 · <a href="https://www.youtube.com/watch?v=rh-bxlYYJvM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PQ3Sj9bc1nU)
+
+<p class="clip-credit"><strong>Stopping the hitchhiker armbar escape</strong> — taught by BJJ4Breakfast · 3:33 · <a href="https://www.youtube.com/watch?v=PQ3Sj9bc1nU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

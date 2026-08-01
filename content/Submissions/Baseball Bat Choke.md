@@ -35,6 +35,54 @@ description: "Master the Baseball Bat Choke in BJJ. Devastating collar choke fro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baseball Bat Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baseball Bat Choke From Knee on Belly",
+      "description": "Baseball Bat Choke film study: Baseball Bat Choke From Knee on Belly, taught by Clayton Phillips.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RxMwGEBoPYw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/RxMwGEBoPYw",
+      "url": "https://www.youtube.com/watch?v=RxMwGEBoPYw",
+      "creator": { "@type": "Person", "name": "Clayton Phillips" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Baseball Bat Choke",
+      "description": "Baseball Bat Choke film study: Baseball Bat Choke, taught by Iron \u0026 Soul.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JFk3ZiedLdY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JFk3ZiedLdY",
+      "url": "https://www.youtube.com/watch?v=JFk3ZiedLdY",
+      "creator": { "@type": "Person", "name": "Iron \u0026 Soul" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Baseball Bat Choke",
+      "description": "Baseball Bat Choke film study: Baseball Bat Choke, taught by Jiu-Jitsu Times.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uvr8pF7ad7k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uvr8pF7ad7k",
+      "url": "https://www.youtube.com/watch?v=uvr8pF7ad7k",
+      "creator": { "@type": "Person", "name": "Jiu-Jitsu Times" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +134,42 @@ Named for the grip configuration that resembles holding a baseball bat, this tec
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baseball Bat Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=RxMwGEBoPYw)
+
+<p class="clip-credit"><strong>Baseball Bat Choke From Knee on Belly</strong> — taught by Clayton Phillips · 1:45 · <a href="https://www.youtube.com/watch?v=RxMwGEBoPYw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JFk3ZiedLdY)
+
+<p class="clip-credit"><strong>Baseball Bat Choke</strong> — taught by Iron &amp; Soul · 1:00 · <a href="https://www.youtube.com/watch?v=JFk3ZiedLdY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uvr8pF7ad7k)
+
+<p class="clip-credit"><strong>Baseball Bat Choke</strong> — taught by Jiu-Jitsu Times · 1:07 · <a href="https://www.youtube.com/watch?v=uvr8pF7ad7k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -130,9 +214,9 @@ Named for the grip configuration that resembles holding a baseball bat, this tec
 - [[Submissions/Ezekiel Choke]] - Alternative finishing option from top positions when collar grips are unavailable
 - [[Transitions/Clock Choke]] - Alternative collar choke from turtle top using rotational pressure
 - [[Submissions/Breadcutter Choke]] - Related cross-collar choke from side control with comparable grip configuration
-- [[Transitions/Darce Choke]] - Alternative arm-in choke from similar top positions with no-gi applicability
-- [[Transitions/Guillotine Choke]] - Available during scrambles when opponent lifts head defending collar grips
-- [[Transitions/Arm Triangle]] - Alternative head-and-arm choke from top when collar access is denied
+- [[Submissions/Darce Choke]] - Alternative arm-in choke from similar top positions with no-gi applicability
+- [[Submissions/Guillotine Choke]] - Available during scrambles when opponent lifts head defending collar grips
+- [[Submissions/Arm Triangle]] - Alternative head-and-arm choke from top when collar access is denied
 - [[Positions/Side Control]] - Primary attacking position for establishing initial grips
 - [[Positions/Turtle]] - High-percentage position for baseball bat setup with easy collar access
 - [[Positions/North-South]] - Alternative attacking position with different finishing angle

@@ -27,31 +27,31 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Transition",
-      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Kneebar",
-      "text": "From this position, attempt Rolling Kneebar. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Kneebar. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Grasshopper Sweep",
-      "text": "From this position, attempt Grasshopper Sweep. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Grasshopper Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Grasshopper Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kneebar from reverse De La Riva",
+      "description": "Grasshopper Guard (Bottom) film study: Kneebar from reverse De La Riva, taught by Whangarei BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/515jbygVF0I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/515jbygVF0I",
+      "url": "https://www.youtube.com/watch?v=515jbygVF0I",
+      "creator": { "@type": "Person", "name": "Whangarei BJJ" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse De La Riva guard",
+      "description": "Grasshopper Guard (Bottom) film study: Reverse De La Riva guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_beJGS2-yIE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_beJGS2-yIE",
+      "url": "https://www.youtube.com/watch?v=_beJGS2-yIE",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Inverted guard to kneebar",
+      "description": "Grasshopper Guard (Bottom) film study: Inverted guard to kneebar, taught by RKBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4W6-SDBRPo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4W6-SDBRPo4",
+      "url": "https://www.youtube.com/watch?v=4W6-SDBRPo4",
+      "creator": { "@type": "Person", "name": "RKBJJ" },
+      "duration": "PT67S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -168,6 +216,42 @@ From bottom, your primary threats are kneebars, ankle locks, and elevation sweep
 The position requires significant flexibility and conditioning. Your ability to hold inverted posture while generating explosive movement determines how effectively you can threaten submissions and sweeps. Most practitioners can only maintain high-level grasshopper guard for 10-20 seconds before needing to transition or rest, making timing and decisiveness critical.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Grasshopper Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=515jbygVF0I)
+
+<p class="clip-credit"><strong>Kneebar from reverse De La Riva</strong> — taught by Whangarei BJJ · 0:50 · <a href="https://www.youtube.com/watch?v=515jbygVF0I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_beJGS2-yIE)
+
+<p class="clip-credit"><strong>Reverse De La Riva guard</strong> — taught by Lachlan Giles · 2:02 · <a href="https://www.youtube.com/watch?v=_beJGS2-yIE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4W6-SDBRPo4)
+
+<p class="clip-credit"><strong>Inverted guard to kneebar</strong> — taught by RKBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=4W6-SDBRPo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

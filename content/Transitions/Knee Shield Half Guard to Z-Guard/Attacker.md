@@ -174,6 +174,54 @@ description: "How to execute the Transition to Z-Guard from Knee Shield Half Gua
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Shield Half Guard to Z-Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Three attacking options from the Z-guard",
+      "description": "Knee Shield Half Guard to Z-Guard (Attacker) film study: Three attacking options from the Z-guard, taught by Way of BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T3Gwg-ABsZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/T3Gwg-ABsZA",
+      "url": "https://www.youtube.com/watch?v=T3Gwg-ABsZA",
+      "creator": { "@type": "Person", "name": "Way of BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Triangle setup from the Z-guard",
+      "description": "Knee Shield Half Guard to Z-Guard (Attacker) film study: Triangle setup from the Z-guard, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IUiFusjf86Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IUiFusjf86Q",
+      "url": "https://www.youtube.com/watch?v=IUiFusjf86Q",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee shield and half guard sweep variations, no-gi",
+      "description": "Knee Shield Half Guard to Z-Guard (Attacker) film study: Knee shield and half guard sweep variations, no-gi, taught by Kaynan Duarte.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QZou9Q97APg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QZou9Q97APg",
+      "url": "https://www.youtube.com/watch?v=QZou9Q97APg",
+      "creator": { "@type": "Person", "name": "Kaynan Duarte" },
+      "duration": "PT177S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 **From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Shield Half Guard to Z-Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=T3Gwg-ABsZA)
+
+<p class="clip-credit"><strong>Three attacking options from the Z-guard</strong> — taught by Way of BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=T3Gwg-ABsZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IUiFusjf86Q)
+
+<p class="clip-credit"><strong>Triangle setup from the Z-guard</strong> — taught by Thunderdome BJJ · 0:36 · <a href="https://www.youtube.com/watch?v=IUiFusjf86Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QZou9Q97APg)
+
+<p class="clip-credit"><strong>Knee shield and half guard sweep variations, no-gi</strong> — taught by Kaynan Duarte · 2:57 · <a href="https://www.youtube.com/watch?v=QZou9Q97APg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

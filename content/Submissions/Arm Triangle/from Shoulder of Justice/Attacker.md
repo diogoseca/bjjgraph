@@ -176,6 +176,54 @@ description: "Step-by-step guide to finishing the Arm Triangle from Shoulder of 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Shoulder of Justice (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Head and Arm Choke Arm Triangle Variations",
+      "description": "Arm Triangle from Shoulder of Justice (Attacker) film study: Head and Arm Choke Arm Triangle Variations, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QGiT5mFu_Qo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QGiT5mFu_Qo",
+      "url": "https://www.youtube.com/watch?v=QGiT5mFu_Qo",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT122S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head and Arm Choke from Mount Finishing Details",
+      "description": "Arm Triangle from Shoulder of Justice (Attacker) film study: Head and Arm Choke from Mount Finishing Details, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wrZCRBlAB3Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wrZCRBlAB3Y",
+      "url": "https://www.youtube.com/watch?v=wrZCRBlAB3Y",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT265S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Head and Arm Triangle from Closed Guard",
+      "description": "Arm Triangle from Shoulder of Justice (Attacker) film study: Head and Arm Triangle from Closed Guard, taught by Professor Aaron.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hSo_Km-MOtQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hSo_Km-MOtQ",
+      "url": "https://www.youtube.com/watch?v=hSo_Km-MOtQ",
+      "creator": { "@type": "Person", "name": "Professor Aaron" },
+      "duration": "PT91S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Executing the Arm Triangle from Shoulder of Justice requires recognizing when th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Shoulder of Justice (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QGiT5mFu_Qo)
+
+<p class="clip-credit"><strong>Head and Arm Choke Arm Triangle Variations</strong> — taught by War Room Jiu Jitsu · 2:02 · <a href="https://www.youtube.com/watch?v=QGiT5mFu_Qo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wrZCRBlAB3Y)
+
+<p class="clip-credit"><strong>Head and Arm Choke from Mount Finishing Details</strong> — taught by Roger Gracie · 4:25 · <a href="https://www.youtube.com/watch?v=wrZCRBlAB3Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hSo_Km-MOtQ)
+
+<p class="clip-credit"><strong>Head and Arm Triangle from Closed Guard</strong> — taught by Professor Aaron · 1:31 · <a href="https://www.youtube.com/watch?v=hSo_Km-MOtQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

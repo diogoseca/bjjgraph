@@ -5120,3 +5120,68 @@ body.graph-focused #roll-session-btn {
     transition: none;
   }
 }
+
+// ============================================================================
+// SnapshotButton — dev-only camera, bottom-left
+// The element only ever exists on localhost with dev-serve.mjs answering (see
+// snapshotButton.inline.ts), so these rules are inert in production. It sits
+// above everything — including the neural overlay, whose hide-all rule exempts
+// this id by id (variant.inline.ts) — and stays dim until hovered so it doesn't
+// compete with the app while you work.
+// ============================================================================
+#dev-snapshot-btn {
+  position: fixed;
+  bottom: 14px;
+  left: 14px;
+  z-index: 9999;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.55;
+  transition:
+    opacity 0.15s ease,
+    background-color 0.2s;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+    background: var(--lightgray);
+    outline: none;
+  }
+
+  &.snap-busy {
+    opacity: 1;
+    pointer-events: none;
+    animation: devSnapPulse 1s ease-in-out infinite;
+  }
+
+  &.snap-ok {
+    opacity: 1;
+    color: #3fb950;
+  }
+
+  &.snap-err {
+    opacity: 1;
+    color: #f85149;
+  }
+}
+
+@keyframes devSnapPulse {
+  50% {
+    transform: scale(0.92);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #dev-snapshot-btn.snap-busy {
+    animation: none;
+  }
+}

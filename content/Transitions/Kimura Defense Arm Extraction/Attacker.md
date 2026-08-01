@@ -180,6 +180,54 @@ description: "Master the attacker perspective for Kimura Defense Arm Extraction.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Defense Arm Extraction (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross face to trapped arm extraction",
+      "description": "Kimura Defense Arm Extraction (Attacker) film study: Cross face to trapped arm extraction, taught by Chad Lyman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ki1enR8Rp2E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ki1enR8Rp2E",
+      "url": "https://www.youtube.com/watch?v=Ki1enR8Rp2E",
+      "creator": { "@type": "Person", "name": "Chad Lyman" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura defense principles for attacker and defender",
+      "description": "Kimura Defense Arm Extraction (Attacker) film study: Kimura defense principles for attacker and defender, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o1bdg22Zw6s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o1bdg22Zw6s",
+      "url": "https://www.youtube.com/watch?v=o1bdg22Zw6s",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT498S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Breaking a tight kimura grip",
+      "description": "Kimura Defense Arm Extraction (Attacker) film study: Breaking a tight kimura grip, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DywQ7JEM0n0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DywQ7JEM0n0",
+      "url": "https://www.youtube.com/watch?v=DywQ7JEM0n0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT376S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 **From Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Defense Arm Extraction (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ki1enR8Rp2E)
+
+<p class="clip-credit"><strong>Cross face to trapped arm extraction</strong> — taught by Chad Lyman · 2:16 · <a href="https://www.youtube.com/watch?v=Ki1enR8Rp2E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o1bdg22Zw6s)
+
+<p class="clip-credit"><strong>Kimura defense principles for attacker and defender</strong> — taught by Jean Jacques Machado · 8:18 · <a href="https://www.youtube.com/watch?v=o1bdg22Zw6s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DywQ7JEM0n0)
+
+<p class="clip-credit"><strong>Breaking a tight kimura grip</strong> — taught by Roger Gracie · 6:16 · <a href="https://www.youtube.com/watch?v=DywQ7JEM0n0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

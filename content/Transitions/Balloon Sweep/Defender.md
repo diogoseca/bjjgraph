@@ -148,6 +148,43 @@ description: "How to defend against the Balloon Sweep in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Balloon Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense from inside guard",
+      "description": "Balloon Sweep (Defender) film study: Four levels of sweep defense from inside guard, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Standing in closed guard: posture, grips and counters",
+      "description": "Balloon Sweep (Defender) film study: Standing in closed guard: posture, grips and counters, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/atuyy9enuR0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/atuyy9enuR0",
+      "url": "https://www.youtube.com/watch?v=atuyy9enuR0",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT597S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the Balloon Sweep requires the top player in closed guard to recognize
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Balloon Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense from inside guard</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=atuyy9enuR0)
+
+<p class="clip-credit"><strong>Standing in closed guard: posture, grips and counters</strong> — taught by Roger Gracie · 9:57 · <a href="https://www.youtube.com/watch?v=atuyy9enuR0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

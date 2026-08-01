@@ -34,6 +34,54 @@ description: "Master Crackhead Control Entry from Rubber Guard. Complete guide t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crackhead Control to Invisible Collar Tie",
+      "description": "Crackhead Control Entry film study: Crackhead Control to Invisible Collar Tie, taught by Fletcher Kirwan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_3pJ2tPI0gY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_3pJ2tPI0gY",
+      "url": "https://www.youtube.com/watch?v=_3pJ2tPI0gY",
+      "creator": { "@type": "Person", "name": "Fletcher Kirwan" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from Crackhead Control",
+      "description": "Crackhead Control Entry film study: Armbar from Crackhead Control, taught by Clinton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rpsvedaYKUY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rpsvedaYKUY",
+      "url": "https://www.youtube.com/watch?v=rpsvedaYKUY",
+      "creator": { "@type": "Person", "name": "Clinton" },
+      "duration": "PT96S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Basic entries into rubber guard",
+      "description": "Crackhead Control Entry film study: Basic entries into rubber guard, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WliTCjEDA-8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WliTCjEDA-8",
+      "url": "https://www.youtube.com/watch?v=WliTCjEDA-8",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,13 +118,49 @@ Strategically, the Crackhead Control Entry represents a critical decision point 
 
 </section>
 
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_3pJ2tPI0gY)
+
+<p class="clip-credit"><strong>Crackhead Control to Invisible Collar Tie</strong> — taught by Fletcher Kirwan · 0:16 · <a href="https://www.youtube.com/watch?v=_3pJ2tPI0gY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rpsvedaYKUY)
+
+<p class="clip-credit"><strong>Armbar from Crackhead Control</strong> — taught by Clinton · 1:36 · <a href="https://www.youtube.com/watch?v=rpsvedaYKUY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WliTCjEDA-8)
+
+<p class="clip-credit"><strong>Basic entries into rubber guard</strong> — taught by BJJ4Breakfast · 1:46 · <a href="https://www.youtube.com/watch?v=WliTCjEDA-8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
 <section id="possible-outcomes" class="content-section">
 
 ## Possible Outcomes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Crackhead Control]] | 55% |
+| Success | [[Positions/Rubber Guard/Crackhead Control]] | 55% |
 | Failure | [[Positions/Rubber Guard]] | 30% |
 | Counter | [[Positions/Open Guard]] | 15% |
 
@@ -243,7 +327,7 @@ The Crackhead Control Entry functions as a critical mid-system progression withi
 
 - [[Positions/Rubber Guard]] - Starting position from which this entry is executed
 
-- [[Positions/Crackhead Control]] - Target position achieved on successful execution of the entry
+- [[Positions/Rubber Guard/Crackhead Control]] - Target position achieved on successful execution of the entry
 
 - [[Positions/Rubber Guard/Mission Control]] - Primary sub-position used as the launching point for entry initiation
 

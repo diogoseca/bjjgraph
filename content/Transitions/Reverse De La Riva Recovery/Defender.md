@@ -140,6 +140,54 @@ description: "How to prevent Reverse De La Riva Recovery in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse De La Riva Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing Reverse De La Riva guard",
+      "description": "Reverse De La Riva Recovery (Defender) film study: Passing Reverse De La Riva guard, taught by Ronin Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynFpOlFWdLw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynFpOlFWdLw",
+      "url": "https://www.youtube.com/watch?v=ynFpOlFWdLw",
+      "creator": { "@type": "Person", "name": "Ronin Training Center" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Reverse De La Riva with a shin slice",
+      "description": "Reverse De La Riva Recovery (Defender) film study: Passing Reverse De La Riva with a shin slice, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IdfQWVHikws/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IdfQWVHikws",
+      "url": "https://www.youtube.com/watch?v=IdfQWVHikws",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shutting down the De La Riva guard",
+      "description": "Reverse De La Riva Recovery (Defender) film study: Shutting down the De La Riva guard, taught by Stretch To Strength.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b87q6MAFQXs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/b87q6MAFQXs",
+      "url": "https://www.youtube.com/watch?v=b87q6MAFQXs",
+      "creator": { "@type": "Person", "name": "Stretch To Strength" },
+      "duration": "PT144S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ The defender's strategic framework centers on three pillars: pressure consolidat
 **Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse De La Riva Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynFpOlFWdLw)
+
+<p class="clip-credit"><strong>Passing Reverse De La Riva guard</strong> — taught by Ronin Training Center · 1:08 · <a href="https://www.youtube.com/watch?v=ynFpOlFWdLw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IdfQWVHikws)
+
+<p class="clip-credit"><strong>Passing Reverse De La Riva with a shin slice</strong> — taught by BJJ4Breakfast · 1:26 · <a href="https://www.youtube.com/watch?v=IdfQWVHikws" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=b87q6MAFQXs)
+
+<p class="clip-credit"><strong>Shutting down the De La Riva guard</strong> — taught by Stretch To Strength · 2:24 · <a href="https://www.youtube.com/watch?v=b87q6MAFQXs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

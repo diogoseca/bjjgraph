@@ -136,6 +136,43 @@ description: "Complete defense guide against the Americana from Modified Mount. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Modified Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending The Americana",
+      "description": "Americana from Modified Mount (Defender) film study: Defending The Americana, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FNyL93v5fGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FNyL93v5fGs",
+      "url": "https://www.youtube.com/watch?v=FNyL93v5fGs",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Simple Americana Armlock Escape",
+      "description": "Americana from Modified Mount (Defender) film study: Simple Americana Armlock Escape, taught by Eddie Kone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "creator": { "@type": "Person", "name": "Eddie Kone" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -146,6 +183,34 @@ Defending the Americana from Modified Mount requires early recognition and immed
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Modified Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FNyL93v5fGs)
+
+<p class="clip-credit"><strong>Defending The Americana</strong> — taught by Lachlan Giles · 1:31 · <a href="https://www.youtube.com/watch?v=FNyL93v5fGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
+
+<p class="clip-credit"><strong>Simple Americana Armlock Escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

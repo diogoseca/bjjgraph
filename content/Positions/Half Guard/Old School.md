@@ -34,6 +34,43 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Old School \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Old school half guard sweep",
+      "description": "Old School film study: Old school half guard sweep, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Jnc2siD9cak/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Jnc2siD9cak",
+      "url": "https://www.youtube.com/watch?v=Jnc2siD9cak",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Old school sweep from half guard",
+      "description": "Old School film study: Old school sweep from half guard, taught by Dave Peters.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_1o_3IT7Yj8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_1o_3IT7Yj8",
+      "url": "https://www.youtube.com/watch?v=_1o_3IT7Yj8",
+      "creator": { "@type": "Person", "name": "Dave Peters" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ From bottom perspective, Old School provides immediate offensive threats through
 From top perspective, Old School demands sophisticated pressure management and positional awareness to neutralize lockdown threats while advancing toward passing positions. The whizzer and crossface create defensive structure that prevents sweeps, but maintaining this structure while working toward passes requires patience and systematic pressure application. Success depends on reading opponent's transition windows and capitalizing on momentary lapses in lockdown tension.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Old School in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Jnc2siD9cak)
+
+<p class="clip-credit"><strong>Old school half guard sweep</strong> — taught by Ritchie Yip · 0:12 · <a href="https://www.youtube.com/watch?v=Jnc2siD9cak" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_1o_3IT7Yj8)
+
+<p class="clip-credit"><strong>Old school sweep from half guard</strong> — taught by Dave Peters · 1:48 · <a href="https://www.youtube.com/watch?v=_1o_3IT7Yj8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,21 +202,19 @@ From top perspective, Old School demands sophisticated pressure management and p
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (46% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (21% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (14% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (11% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (15% of attempts)
 
 - **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
 
-- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (9% of attempts)
+- **[[Positions/Dogfight Position/Attacker|Dogfight Position]]** (15% of attempts)
 
-- **[[Transitions/Old School Sweep from Bottom/Attacker|Old School Sweep from Bottom]]** (4% of attempts)
+- **[[Transitions/Old School to Half Guard/Attacker|Old School to Half Guard]]** (12% of attempts)
 
-- **[[Transitions/Old School to Half Guard/Attacker|Old School to Half Guard]]** (2% of attempts)
-
-- **[[Transitions/Old School Position Sweep/Attacker|Old School Position Sweep]]** (1% of attempts)
+- **[[Transitions/Old School Position Sweep/Attacker|Old School Position Sweep]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -216,21 +279,21 @@ From top perspective, Old School demands sophisticated pressure management and p
 ### Available Transitions
 
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (33% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (13% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (18% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (21% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (12% of attempts)
 
-- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (17% of attempts)
+- **[[Transitions/Lockdown Break and Pass/Attacker|Lockdown Break and Pass]]** (14% of attempts)
 
-- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (7% of attempts)
+- **[[Transitions/Darce from Lockdown Counter/Attacker|Darce from Lockdown Counter]]** (11% of attempts)
 
-- **[[Transitions/Crossface from Old School/Attacker|Crossface from Old School]]** (3% of attempts)
+- **[[Transitions/Crossface from Old School/Attacker|Crossface from Old School]]** (11% of attempts)
 
-- **[[Transitions/Defend Old School Sweep/Attacker|Defend Old School Sweep]]** (1% of attempts)
+- **[[Transitions/Defend Old School Sweep/Attacker|Defend Old School Sweep]]** (14% of attempts)
 
-- **[[Transitions/Old School Pass/Attacker|Old School Pass]]** (1% of attempts)
+- **[[Transitions/Old School Pass/Attacker|Old School Pass]]** (7% of attempts)
 
 
 ### Common Mistakes

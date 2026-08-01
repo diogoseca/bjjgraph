@@ -34,6 +34,54 @@ description: "Master Inside Ashi-Garami in BJJ. Foundational leg entanglement fo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mikey lock entries from closed guard",
+      "description": "Inside Ashi-Garami film study: Mikey lock entries from closed guard, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rNDEm73luBM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rNDEm73luBM",
+      "url": "https://www.youtube.com/watch?v=rNDEm73luBM",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Honey hole entry from Single Leg X",
+      "description": "Inside Ashi-Garami film study: Honey hole entry from Single Leg X, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VmxgqU-ScTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VmxgqU-ScTM",
+      "url": "https://www.youtube.com/watch?v=VmxgqU-ScTM",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT34S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Backside foot finish mechanics",
+      "description": "Inside Ashi-Garami film study: Backside foot finish mechanics, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-VpByetjzqs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-VpByetjzqs",
+      "url": "https://www.youtube.com/watch?v=-VpByetjzqs",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT84S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The "inside" designation refers to the positioning of the controlling leg closes
 Inside Ashi-Garami has become essential in modern competition grappling, particularly in submission-only and ADCC rule sets where leg attacks are unrestricted. The position requires technical precision and systematic training progression, with practitioners typically mastering straight ankle locks before advancing to heel hook attacks. Understanding Inside Ashi-Garami from both bottom and top perspectives is crucial for developing a comprehensive leg lock game while maintaining safety and control throughout all engagements.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rNDEm73luBM)
+
+<p class="clip-credit"><strong>Mikey lock entries from closed guard</strong> — taught by Mikey Musumeci · 1:08 · <a href="https://www.youtube.com/watch?v=rNDEm73luBM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VmxgqU-ScTM)
+
+<p class="clip-credit"><strong>Honey hole entry from Single Leg X</strong> — taught by Danny Mitchell · 0:34 · <a href="https://www.youtube.com/watch?v=VmxgqU-ScTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-VpByetjzqs)
+
+<p class="clip-credit"><strong>Backside foot finish mechanics</strong> — taught by Mikey Musumeci · 1:24 · <a href="https://www.youtube.com/watch?v=-VpByetjzqs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -135,19 +219,17 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (45% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (18% of attempts)
 
-- **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** (18% of attempts)
+- **[[Transitions/Guard Recovery from Inside Ashi-Garami/Attacker|Guard Recovery from Inside Ashi-Garami]]** (17% of attempts)
 
-- **[[Transitions/Standing Up from Inside Ashi/Attacker|Standing Up from Inside Ashi]]** (12% of attempts)
+- **[[Transitions/Standing Up from Inside Ashi/Attacker|Standing Up from Inside Ashi]]** (16% of attempts)
 
-- **[[Transitions/Leg Extraction from Inside Ashi/Attacker|Leg Extraction from Inside Ashi]]** (10% of attempts)
+- **[[Transitions/Leg Extraction from Inside Ashi/Attacker|Leg Extraction from Inside Ashi]]** (18% of attempts)
 
-- **[[Transitions/Counter Entangle to 50-50 from Ashi/Attacker|Counter Entangle to 50-50 from Ashi]]** (8% of attempts)
+- **[[Transitions/Counter Entangle to 50-50 from Ashi/Attacker|Counter Entangle to 50-50 from Ashi]]** (16% of attempts)
 
-- **[[Transitions/Back Step/Attacker|Back Step]]** (4% of attempts)
-
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (3% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -206,33 +288,27 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (28% of attempts)
+- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (25% of attempts)
 
-- **[[Heel Hook from Inside Ashi-Garami/Attacker|Heel Hook from Inside Ashi-Garami]]** (18% of attempts)
+- **[[Toe Hold from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (7% of attempts)
 
-- **[[Toe Hold from Inside Ashi-Garami/Attacker|Toe Hold from Inside Ashi-Garami]]** (8% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (16% of attempts)
 
-- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (4% of attempts)
+- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (6% of attempts)
 
-- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (8% of attempts)
-
-- **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (1% of attempts)
-
-- **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** (4% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Cross Ashi/Attacker|Inside Ashi-Garami to Cross Ashi]]** (7% of attempts)
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (8% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (8% of attempts)
 
-- **[[Transitions/50-50 Entry/Attacker|50-50 Entry]]** (3% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (6% of attempts)
 
-- **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (2% of attempts)
+- **[[Transitions/Inside Ashi to Outside Ashi/Attacker|Inside Ashi to Outside Ashi]]** (7% of attempts)
 
-- **[[Transitions/Inside Ashi to Outside Ashi/Attacker|Inside Ashi to Outside Ashi]]** (2% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Ushiro Ashi/Attacker|Inside Ashi-Garami to Ushiro Ashi]]** (4% of attempts)
 
-- **[[Transitions/Inside Ashi-Garami to Ushiro Ashi/Attacker|Inside Ashi-Garami to Ushiro Ashi]]** (2% of attempts)
-
-- **[[Kneebar from Inside Ashi-Garami/Attacker|Kneebar from Inside Ashi-Garami]]** (4% of attempts)
+- **[[Kneebar from Inside Ashi-Garami/Attacker|Kneebar from Inside Ashi-Garami]]** (6% of attempts)
 
 
 ### Common Mistakes

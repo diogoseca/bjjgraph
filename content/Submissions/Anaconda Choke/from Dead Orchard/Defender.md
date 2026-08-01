@@ -150,6 +150,54 @@ description: "Defend the Anaconda Choke from Dead Orchard in BJJ. Recognition cu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda Choke from Dead Orchard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the anaconda choke",
+      "description": "Anaconda Choke from Dead Orchard (Defender) film study: How to escape the anaconda choke, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/czQckiDogRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/czQckiDogRc",
+      "url": "https://www.youtube.com/watch?v=czQckiDogRc",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda choke defense",
+      "description": "Anaconda Choke from Dead Orchard (Defender) film study: Anaconda choke defense, taught by SFS MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
+      "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
+      "creator": { "@type": "Person", "name": "SFS MMA" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Prevent the sucker drag during anaconda",
+      "description": "Anaconda Choke from Dead Orchard (Defender) film study: Prevent the sucker drag during anaconda, taught by Drew Darce.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/guHPx-OKi0M/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/guHPx-OKi0M",
+      "url": "https://www.youtube.com/watch?v=guHPx-OKi0M",
+      "creator": { "@type": "Person", "name": "Drew Darce" },
+      "duration": "PT159S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Anaconda Choke from Dead Orchard requires calm, systematic respons
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda Choke from Dead Orchard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=czQckiDogRc)
+
+<p class="clip-credit"><strong>How to escape the anaconda choke</strong> — taught by ZombieProofBJJ · 1:32 · <a href="https://www.youtube.com/watch?v=czQckiDogRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
+
+<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=guHPx-OKi0M)
+
+<p class="clip-credit"><strong>Prevent the sucker drag during anaconda</strong> — taught by Drew Darce · 2:39 · <a href="https://www.youtube.com/watch?v=guHPx-OKi0M" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

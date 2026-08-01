@@ -148,6 +148,43 @@ description: "How to defend against Standing Guard Pass with Distance Creation i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing Guard Pass with Distance Creation (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stopping the standing pass from collar sleeve guard",
+      "description": "Standing Guard Pass with Distance Creation (Defender) film study: Stopping the standing pass from collar sleeve guard, taught by Trey Carter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qDCNyH38ZVU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qDCNyH38ZVU",
+      "url": "https://www.youtube.com/watch?v=qDCNyH38ZVU",
+      "creator": { "@type": "Person", "name": "Trey Carter" },
+      "duration": "PT104S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Opponent stands in guard: omoplata sweep counter",
+      "description": "Standing Guard Pass with Distance Creation (Defender) film study: Opponent stands in guard: omoplata sweep counter, taught by Pica Pau Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gSgrhXc7u9c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gSgrhXc7u9c",
+      "url": "https://www.youtube.com/watch?v=gSgrhXc7u9c",
+      "creator": { "@type": "Person", "name": "Pica Pau Jiu Jitsu" },
+      "duration": "PT148S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The defender must also manage the secondary control problem. The lapel wrap alon
 **Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing Guard Pass with Distance Creation (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qDCNyH38ZVU)
+
+<p class="clip-credit"><strong>Stopping the standing pass from collar sleeve guard</strong> — taught by Trey Carter · 1:44 · <a href="https://www.youtube.com/watch?v=qDCNyH38ZVU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gSgrhXc7u9c)
+
+<p class="clip-credit"><strong>Opponent stands in guard: omoplata sweep counter</strong> — taught by Pica Pau Jiu Jitsu · 2:28 · <a href="https://www.youtube.com/watch?v=gSgrhXc7u9c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

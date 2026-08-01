@@ -34,6 +34,43 @@ description: "Master the Stack Pass from Mission Control in BJJ. Learn stacking 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Mission Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Full guard top to stacked guard switch",
+      "description": "Stack Pass from Mission Control film study: Full guard top to stacked guard switch, taught by Generative James.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7ALyGgRAjmU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7ALyGgRAjmU",
+      "url": "https://www.youtube.com/watch?v=7ALyGgRAjmU",
+      "creator": { "@type": "Person", "name": "Generative James" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Closed guard stack pass exploration",
+      "description": "Stack Pass from Mission Control film study: Closed guard stack pass exploration, taught by Roll 247.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QJQcGbxpR0c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QJQcGbxpR0c",
+      "url": "https://www.youtube.com/watch?v=QJQcGbxpR0c",
+      "creator": { "@type": "Person", "name": "Roll 247" },
+      "duration": "PT45S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the stack pass occupies a critical niche in the Mission Control e
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Mission Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7ALyGgRAjmU)
+
+<p class="clip-credit"><strong>Full guard top to stacked guard switch</strong> — taught by Generative James · 0:37 · <a href="https://www.youtube.com/watch?v=7ALyGgRAjmU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QJQcGbxpR0c)
+
+<p class="clip-credit"><strong>Closed guard stack pass exploration</strong> — taught by Roll 247 · 0:45 · <a href="https://www.youtube.com/watch?v=QJQcGbxpR0c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

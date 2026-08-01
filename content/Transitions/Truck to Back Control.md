@@ -34,6 +34,54 @@ description: "Master the Truck to Back Control transition in BJJ. Learn hook ins
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Truck to Back Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Truck in transition",
+      "description": "Truck to Back Control film study: The Truck in transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Hug to truck hook back take",
+      "description": "Truck to Back Control film study: Hug to truck hook back take, taught by Garry Tonon.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9r_xDak8dVo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9r_xDak8dVo",
+      "url": "https://www.youtube.com/watch?v=9r_xDak8dVo",
+      "creator": { "@type": "Person", "name": "Garry Tonon" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Valley of the truck",
+      "description": "Truck to Back Control film study: Valley of the truck, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NXbVjvhC5bQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NXbVjvhC5bQ",
+      "url": "https://www.youtube.com/watch?v=NXbVjvhC5bQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition functions as a strategic safety valve within the truck attack sy
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Truck to Back Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>The Truck in transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9r_xDak8dVo)
+
+<p class="clip-credit"><strong>Hug to truck hook back take</strong> — taught by Garry Tonon · 1:20 · <a href="https://www.youtube.com/watch?v=9r_xDak8dVo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NXbVjvhC5bQ)
+
+<p class="clip-credit"><strong>Valley of the truck</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=NXbVjvhC5bQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

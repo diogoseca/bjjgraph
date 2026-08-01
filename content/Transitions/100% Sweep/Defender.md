@@ -148,6 +148,54 @@ description: "How to defend against the 100% Sweep in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "100% Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Four levels of sweep defense",
+      "description": "100% Sweep (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the arm trap from closed guard",
+      "description": "100% Sweep (Defender) film study: Escaping the arm trap from closed guard, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Hihm3-SaySI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Hihm3-SaySI",
+      "url": "https://www.youtube.com/watch?v=Hihm3-SaySI",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT372S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the arm-trapped-behind-back closed guard attack",
+      "description": "100% Sweep (Defender) film study: Defending the arm-trapped-behind-back closed guard attack, taught by BJJ After Forty.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dOxpP-ikSk8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dOxpP-ikSk8",
+      "url": "https://www.youtube.com/watch?v=dOxpP-ikSk8",
+      "creator": { "@type": "Person", "name": "BJJ After Forty" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the 100% Sweep requires the top player in closed guard to recognize th
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 100% Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Hihm3-SaySI)
+
+<p class="clip-credit"><strong>Escaping the arm trap from closed guard</strong> — taught by MMA Leech · 6:12 · <a href="https://www.youtube.com/watch?v=Hihm3-SaySI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dOxpP-ikSk8)
+
+<p class="clip-credit"><strong>Defending the arm-trapped-behind-back closed guard attack</strong> — taught by BJJ After Forty · 1:43 · <a href="https://www.youtube.com/watch?v=dOxpP-ikSk8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

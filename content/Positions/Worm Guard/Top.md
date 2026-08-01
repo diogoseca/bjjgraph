@@ -21,13 +21,13 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 2
     },
     {
@@ -39,19 +39,19 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 20% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
-      "text": "From this position, attempt Stack Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Stack Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Worm Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Polish Worm Rider (lapel pass)",
+      "description": "Worm Guard (Top) film study: Passing the Polish Worm Rider (lapel pass), taught by Daniel Maira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
+      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
+      "creator": { "@type": "Person", "name": "Daniel Maira" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing Worm Guard tarikoplata",
+      "description": "Worm Guard (Top) film study: Passing Worm Guard tarikoplata, taught by luciana MARCOS.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LrcdkHwbHK8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LrcdkHwbHK8",
+      "url": "https://www.youtube.com/watch?v=LrcdkHwbHK8",
+      "creator": { "@type": "Person", "name": "luciana MARCOS" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing lapel guard",
+      "description": "Worm Guard (Top) film study: Passing lapel guard, taught by Vicente Cavalcanti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u0D9HUwXuKE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/u0D9HUwXuKE",
+      "url": "https://www.youtube.com/watch?v=u0D9HUwXuKE",
+      "creator": { "@type": "Person", "name": "Vicente Cavalcanti" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 Worm Guard Top represents the passing position against one of modern BJJ's most complex lapel-based guard systems. The top player faces a sophisticated web of lapel entanglements where the bottom player has wrapped their gi lapel around the passer's leg, creating powerful off-balancing mechanics and sweep opportunities. Success from this position requires systematic lapel management, strategic base positioning, and patience to methodically dismantle the guard's structural foundations. The position demands technical precision over explosive movement, as hasty passing attempts often result in devastating sweeps or back takes. Advanced practitioners achieve 60% pass rates by combining pressure passing principles with lapel-specific counters, while beginners struggle with the unfamiliar grip configurations and sweep threats that make this one of sport BJJ's most challenging guard passing scenarios. The Worm Guard Top position is characterized by constant grip fighting and positional problem-solving. Unlike traditional open guards where space management is primary, worm guard requires the passer to address the lapel entanglement as a structural problem that must be solved before traditional passing mechanics can be applied. The bottom player's lapel creates a mechanical advantage that transforms their legs into powerful levers, making standard pressure passing approaches ineffective without first neutralizing the lapel control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Worm Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+
+<p class="clip-credit"><strong>Passing the Polish Worm Rider (lapel pass)</strong> — taught by Daniel Maira · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LrcdkHwbHK8)
+
+<p class="clip-credit"><strong>Passing Worm Guard tarikoplata</strong> — taught by luciana MARCOS · 1:06 · <a href="https://www.youtube.com/watch?v=LrcdkHwbHK8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=u0D9HUwXuKE)
+
+<p class="clip-credit"><strong>Passing lapel guard</strong> — taught by Vicente Cavalcanti · 1:10 · <a href="https://www.youtube.com/watch?v=u0D9HUwXuKE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

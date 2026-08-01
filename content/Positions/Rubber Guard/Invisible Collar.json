@@ -63,35 +63,115 @@
     "flashcards": [
       {
         "question": "How do you maintain the invisible collar grip when your opponent starts aggressively hand fighting your choking arm?",
-        "answer": "Keep your elbow tight to your body and use your seatbelt arm to control their defending hand. Rather than fighting grip-to-grip, use your chest pressure to pin their shoulders while incrementally deepening your collar penetration during moments when they shift focus to hook defense. The key is patience—every time they move one hand to address another threat, advance your collar depth slightly."
+        "answer": "Keep your elbow tight to your body and use your seatbelt arm to control their defending hand. Rather than fighting grip-to-grip, use your chest pressure to pin their shoulders while incrementally deepening your collar penetration during moments when they shift focus to hook defense. The key is patience—every time they move one hand to address another threat, advance your collar depth slightly.",
+        "answer_line": "Pin shoulders, deepen incrementally",
+        "distractors": {
+          "plausible": [
+            "Match grip strength head-on",
+            "Rush the collar grip deeper"
+          ],
+          "trap": [
+            "Release seatbelt to fight the hand"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining invisible collar position?",
-        "answer": "The primary grip is the deep collar grip with all four fingers inside the gi material, knuckles pressed against the opponent's neck with thumb on the outside of the collar. The secondary grip is the seatbelt underhook that controls the far shoulder. Both grips work together—the seatbelt prevents forward escape and creates the platform for collar grip maintenance and eventual finishing pressure."
+        "answer": "The primary grip is the deep collar grip with all four fingers inside the gi material, knuckles pressed against the opponent's neck with thumb on the outside of the collar. The secondary grip is the seatbelt underhook that controls the far shoulder. Both grips work together—the seatbelt prevents forward escape and creates the platform for collar grip maintenance and eventual finishing pressure.",
+        "answer_line": "Deep collar grip + seatbelt hook",
+        "distractors": {
+          "plausible": [
+            "Collar grip with thumb inside too",
+            "Seatbelt grip on near shoulder"
+          ],
+          "trap": [
+            "Single hand choke grip only"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bridging explosively while you have invisible collar established—what adjustment prevents them from creating escape space?",
-        "answer": "Drop your hips lower and drive your chest weight forward into their upper back during the bridge. Use your hooks actively by driving your heels toward their hips to counter the upward momentum. The bridge actually helps you if you ride it correctly—their movement can be used to sink your hooks deeper and tighten your chest-to-back connection rather than create separation."
+        "answer": "Drop your hips lower and drive your chest weight forward into their upper back during the bridge. Use your hooks actively by driving your heels toward their hips to counter the upward momentum. The bridge actually helps you if you ride it correctly—their movement can be used to sink your hooks deeper and tighten your chest-to-back connection rather than create separation.",
+        "answer_line": "Drop hips, ride bridge into hooks",
+        "distractors": {
+          "plausible": [
+            "Rise up to block the bridge",
+            "Loosen hooks to absorb bridge"
+          ],
+          "trap": [
+            "Release chest pressure to reset"
+          ]
+        }
       },
       {
         "question": "What are the grip priorities when transitioning from seatbelt to invisible collar?",
-        "answer": "First, ensure your seatbelt underhook is secure and controlling the far shoulder. Second, begin walking your over-hook hand toward the collar in small increments while opponent focuses elsewhere. Third, achieve thumb-outside collar contact before committing fingers inside. Fourth, drive fingers deep with gradual penetration rather than sudden movement. Never sacrifice seatbelt integrity for collar depth—the seatbelt maintains position while collar develops."
+        "answer": "First, ensure your seatbelt underhook is secure and controlling the far shoulder. Second, begin walking your over-hook hand toward the collar in small increments while opponent focuses elsewhere. Third, achieve thumb-outside collar contact before committing fingers inside. Fourth, drive fingers deep with gradual penetration rather than sudden movement. Never sacrifice seatbelt integrity for collar depth—the seatbelt maintains position while collar develops.",
+        "answer_line": "Secure seatbelt before collar depth",
+        "distractors": {
+          "plausible": [
+            "Grip collar first, seatbelt second",
+            "Insert fingers before thumb outside"
+          ],
+          "trap": [
+            "Drop seatbelt to rush collar grip"
+          ]
+        }
       },
       {
         "question": "How do you apply finishing pressure from invisible collar without telegraphing the choke?",
-        "answer": "The finish comes from rotating your choking forearm toward your own chest while simultaneously pulling your elbow toward your hip. This creates a tightening effect that compresses the carotid arteries. Avoid the common mistake of pulling the collar away from the neck—instead, fold the gi material against the neck and rotate. The pressure should feel like a gradual squeeze rather than a sudden jerk."
+        "answer": "The finish comes from rotating your choking forearm toward your own chest while simultaneously pulling your elbow toward your hip. This creates a tightening effect that compresses the carotid arteries. Avoid the common mistake of pulling the collar away from the neck—instead, fold the gi material against the neck and rotate. The pressure should feel like a gradual squeeze rather than a sudden jerk.",
+        "answer_line": "Rotate forearm, pull elbow to hip",
+        "distractors": {
+          "plausible": [
+            "Pull collar straight away from neck",
+            "Jerk sharply for a fast finish"
+          ],
+          "trap": [
+            "Free your elbow to reposition"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully tucks their chin tightly—how do you recover offensive momentum?",
-        "answer": "A strong chin tuck opens the armbar pathway because they must commit both hands to defending the collar, exposing their arms. You can also transition to bow and arrow by grabbing their far lapel and rotating to the armbar side while maintaining collar control. Alternatively, maintain your position and wait—the chin tuck is exhausting and their defense will eventually fatigue, allowing you to work back to the choke."
+        "answer": "A strong chin tuck opens the armbar pathway because they must commit both hands to defending the collar, exposing their arms. You can also transition to bow and arrow by grabbing their far lapel and rotating to the armbar side while maintaining collar control. Alternatively, maintain your position and wait—the chin tuck is exhausting and their defense will eventually fatigue, allowing you to work back to the choke.",
+        "answer_line": "Attack armbar exposed by chin tuck",
+        "distractors": {
+          "plausible": [
+            "Force collar grip through the tuck",
+            "Switch immediately to bow and arrow"
+          ],
+          "trap": [
+            "Abandon seatbelt to reset position"
+          ]
+        }
       },
       {
         "question": "What weight distribution maintains invisible collar stability while preventing escape?",
-        "answer": "Keep approximately 70% of your weight driving forward through your chest into their upper back and shoulders. Your hips should be slightly lower than theirs to prevent them from creating rotational momentum. Avoid sitting too high on their back which allows them to sit back into you. Your hooks provide lateral stability while your chest pressure handles forward-backward control."
+        "answer": "Keep approximately 70% of your weight driving forward through your chest into their upper back and shoulders. Your hips should be slightly lower than theirs to prevent them from creating rotational momentum. Avoid sitting too high on their back which allows them to sit back into you. Your hooks provide lateral stability while your chest pressure handles forward-backward control.",
+        "answer_line": "70% weight forward, hips lower",
+        "distractors": {
+          "plausible": [
+            "Sit high to control their hips",
+            "Balance weight evenly side to side"
+          ],
+          "trap": [
+            "Lean back to watch for escapes"
+          ]
+        }
       },
       {
         "question": "How do you recover position if your opponent partially removes one hook while you have invisible collar?",
-        "answer": "Immediately bring your freed leg over to establish a body triangle if possible, or replant the hook from a different angle before they can turn completely. Use your collar grip to prevent their rotation—they cannot turn into you if you maintain forward collar pressure. If they create enough space to threaten a full escape, prioritize maintaining back control over finishing the collar choke by transitioning to seat belt and resetting your hooks."
+        "answer": "Immediately bring your freed leg over to establish a body triangle if possible, or replant the hook from a different angle before they can turn completely. Use your collar grip to prevent their rotation—they cannot turn into you if you maintain forward collar pressure. If they create enough space to threaten a full escape, prioritize maintaining back control over finishing the collar choke by transitioning to seat belt and resetting your hooks.",
+        "answer_line": "Replant hook, keep back control",
+        "distractors": {
+          "plausible": [
+            "Finish choke before hooks reset",
+            "Chase submission over position"
+          ],
+          "trap": [
+            "Release collar to fix the hook"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -298,35 +378,88 @@
     "transitions": [
       {
         "transition": "Cross Collar Choke from Invisible Collar",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 4
+        }
       },
       {
         "transition": "Rear Naked Choke from Invisible Collar",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 37
+        }
       },
       {
         "transition": "Armbar from Back Transition",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Aoki Lock to Crucifix",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 3,
+          "nogi": 3
+        }
       },
       {
         "transition": "Bow and Arrow Choke from Invisible Collar",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 0
+        }
       },
       {
         "transition": "Clock Choke from Invisible Collar",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 5,
+          "nogi": 0
+        }
       },
       {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 28,
+          "nogi": 29
+        }
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 19
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "KCyIwacRKu8",
+        "title": "Invisible Collar breakdown",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CHT81JnfD2Q",
+        "title": "Invisible Collar choke from Rubber Guard",
+        "by": "David Thomas",
+        "vertical": false,
+        "channel": "David Thomas",
+        "duration": 57,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "km9506KvIJg",
+        "title": "Double Invisible Collar cross choke, no-gi",
+        "by": "Denny Prokopos",
+        "vertical": false,
+        "channel": "Denny Prokopos",
+        "duration": 41,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -345,35 +478,115 @@
     "flashcards": [
       {
         "question": "How do you recognize that your opponent is establishing invisible collar rather than standard seatbelt control?",
-        "answer": "Pay attention to their over-hook hand movement. If it begins migrating toward your collar rather than staying on your shoulder or chest, they are likely setting up invisible collar. The key indicator is finger contact with your collar material—any penetration of fingers into the gi near your neck should trigger immediate defensive response. Constantly check their grip position rather than waiting for choking pressure."
+        "answer": "Pay attention to their over-hook hand movement. If it begins migrating toward your collar rather than staying on your shoulder or chest, they are likely setting up invisible collar. The key indicator is finger contact with your collar material—any penetration of fingers into the gi near your neck should trigger immediate defensive response. Constantly check their grip position rather than waiting for choking pressure.",
+        "answer_line": "Fingers creeping into your collar",
+        "distractors": {
+          "plausible": [
+            "Sudden choking pressure appears",
+            "Hand stays flat on your chest"
+          ],
+          "trap": [
+            "Ignore hands, watch hips only"
+          ]
+        }
       },
       {
         "question": "What is the essential defensive posture when you recognize invisible collar being established?",
-        "answer": "Immediately tuck your chin aggressively toward your chest and bring both hands to the collar grip area. Your chin should be pressed so tightly that your opponent cannot fit the gi material between your chin and chest. Simultaneously, begin working your hips away to create distance while maintaining the chin tuck. This posture limits choking angles while creating opportunities for grip removal."
+        "answer": "Immediately tuck your chin aggressively toward your chest and bring both hands to the collar grip area. Your chin should be pressed so tightly that your opponent cannot fit the gi material between your chin and chest. Simultaneously, begin working your hips away to create distance while maintaining the chin tuck. This posture limits choking angles while creating opportunities for grip removal.",
+        "answer_line": "Tuck chin tight, hands to grip",
+        "distractors": {
+          "plausible": [
+            "Frame hands on their hips first",
+            "Turn into them to face the grip"
+          ],
+          "trap": [
+            "Push hips back into their chest"
+          ]
+        }
       },
       {
         "question": "Your opponent has established deep invisible collar and begins applying pressure—what emergency response gives you the best chance of survival?",
-        "answer": "Commit both hands to two-on-one grip fighting on their choking hand—grab their wrist with both hands and pull it away from your neck while simultaneously tucking your chin as tight as possible. Accept that this leaves you vulnerable to other attacks but prioritize survival over position. Bridge hard toward the collar grip side to create space and potentially loosen their grip through the movement."
+        "answer": "Commit both hands to two-on-one grip fighting on their choking hand—grab their wrist with both hands and pull it away from your neck while simultaneously tucking your chin as tight as possible. Accept that this leaves you vulnerable to other attacks but prioritize survival over position. Bridge hard toward the collar grip side to create space and potentially loosen their grip through the movement.",
+        "answer_line": "Two-on-one the wrist, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Strip hooks first to escape",
+            "Pull straight back away from grip"
+          ],
+          "trap": [
+            "Turn away from the collar side"
+          ]
+        }
       },
       {
         "question": "What are the grip priorities when defending invisible collar?",
-        "answer": "Primary priority is controlling their choking wrist with both hands using two-on-one grip. Secondary priority is creating space between your neck and the collar material by pulling the grip away. Third priority is removing hooks to enable turning and escape. Never try to remove hooks first while a deep collar grip exists—the choke will finish faster than the escape."
+        "answer": "Primary priority is controlling their choking wrist with both hands using two-on-one grip. Secondary priority is creating space between your neck and the collar material by pulling the grip away. Third priority is removing hooks to enable turning and escape. Never try to remove hooks first while a deep collar grip exists—the choke will finish faster than the escape.",
+        "answer_line": "Control wrist first, hooks last",
+        "distractors": {
+          "plausible": [
+            "Strip hooks before the wrist grip",
+            "Create space before gripping wrist"
+          ],
+          "trap": [
+            "Remove hooks first to turn out"
+          ]
+        }
       },
       {
         "question": "How do you prevent your opponent from deepening the invisible collar grip during defense?",
-        "answer": "Keep constant hand contact with their choking arm and monitor any attempt to walk fingers deeper into the collar. When you feel them trying to penetrate further, immediately grip their wrist and pull it away from your neck. The key is vigilance—check their grip position every few seconds even when working other defensive actions."
+        "answer": "Keep constant hand contact with their choking arm and monitor any attempt to walk fingers deeper into the collar. When you feel them trying to penetrate further, immediately grip their wrist and pull it away from your neck. The key is vigilance—check their grip position every few seconds even when working other defensive actions.",
+        "answer_line": "Constant contact, pull wrist away",
+        "distractors": {
+          "plausible": [
+            "Check grip only when choke tightens",
+            "Focus on hips, ignore the hand"
+          ],
+          "trap": [
+            "Let them set grip, escape later"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to rear naked choke after you successfully defend the collar—how do you manage this chain?",
-        "answer": "When they release the collar to switch to RNC, you have a brief window where their choking arm is uncommitted. Use this moment to trap their switching arm with your hands or tuck it under your armpit. Simultaneously work your hip escape since their attention shifted to the arm transition. The collar-to-RNC transition creates vulnerability if you time your defense correctly."
+        "answer": "When they release the collar to switch to RNC, you have a brief window where their choking arm is uncommitted. Use this moment to trap their switching arm with your hands or tuck it under your armpit. Simultaneously work your hip escape since their attention shifted to the arm transition. The collar-to-RNC transition creates vulnerability if you time your defense correctly.",
+        "answer_line": "Trap the switching arm, hip escape",
+        "distractors": {
+          "plausible": [
+            "Wait for RNC to lock before moving",
+            "Grip fight the new choking arm only"
+          ],
+          "trap": [
+            "Relax defense during the switch"
+          ]
+        }
       },
       {
         "question": "What hip movement creates the best escape opportunity from invisible collar bottom?",
-        "answer": "Hip escape toward the non-collar side—the opposite direction from their choking hand. This creates space between your neck and their grip while positioning you to turn into them. Avoid hip escaping toward the collar side as this can actually help them finish the choke by rotating your neck into the pressure. The escape direction matters as much as the escape itself."
+        "answer": "Hip escape toward the non-collar side—the opposite direction from their choking hand. This creates space between your neck and their grip while positioning you to turn into them. Avoid hip escaping toward the collar side as this can actually help them finish the choke by rotating your neck into the pressure. The escape direction matters as much as the escape itself.",
+        "answer_line": "Escape toward the non-collar side",
+        "distractors": {
+          "plausible": [
+            "Escape toward the collar hand",
+            "Bridge straight up, no hip shift"
+          ],
+          "trap": [
+            "Shrimp into the choking side"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when defending a sustained invisible collar attack?",
-        "answer": "Focus on efficient defensive posture rather than explosive escapes. The chin tuck and hand fighting should be sustained, controlled efforts rather than panicked bursts. Time your explosive movements for moments when they commit to finishing—their finishing attempt creates opportunities but only if you have energy remaining. Breathe through your nose despite the pressure and avoid tensing your entire body unnecessarily."
+        "answer": "Focus on efficient defensive posture rather than explosive escapes. The chin tuck and hand fighting should be sustained, controlled efforts rather than panicked bursts. Time your explosive movements for moments when they commit to finishing—their finishing attempt creates opportunities but only if you have energy remaining. Breathe through your nose despite the pressure and avoid tensing your entire body unnecessarily.",
+        "answer_line": "Sustain posture, burst on commit",
+        "distractors": {
+          "plausible": [
+            "Explode early to tire them out",
+            "Tense every muscle to resist"
+          ],
+          "trap": [
+            "Hold breath to brace for pressure"
+          ]
+        }
       }
     ],
     "state_properties": {
@@ -537,28 +750,209 @@
     "transitions": [
       {
         "transition": "Hand Fighting to Remove Collar Grip",
-        "attempt_probability": 22
+        "attempt_probability": {
+          "gi": 39,
+          "nogi": 39
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 23,
+          "nogi": 21
+        }
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Rolling Escape to Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       },
       {
         "transition": "Standing Escape",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 11
+        }
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 16
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "CHT81JnfD2Q",
+        "title": "Invisible Collar Choke from Rubber Guard",
+        "by": "David Thomas",
+        "vertical": false,
+        "channel": "David Thomas",
+        "duration": 57,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "km9506KvIJg",
+        "title": "Rubber Guard Double Invisible Collar Choke",
+        "by": "Denny Prokopos",
+        "vertical": false,
+        "channel": "Denny Prokopos",
+        "duration": 41,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Invisible Collar and distinguishes it from ordinary back control?",
+      "answer": "The Invisible Collar is a back-control variant in which one hand establishes a deep four-finger grip inside the opponent's gi collar with the thumb outside, folding the lapel against the side of the neck while the second arm keeps a seatbelt across the torso. What defines it is concealment: the collar hand is loaded into a finished choking configuration yet reads as passive positional control rather than an active submission. Standard back control seeks the rear naked choke through open hand fighting, whereas here the finishing mechanism is pre-installed against the carotid before the opponent registers the threat. The seatbelt and hooks anchor the same back-control skeleton, but the loaded lapel is the feature that makes this its own state.",
+      "answer_line": "Choke grip concealed as control",
+      "distractors": {
+        "plausible": [
+          "Open hand fighting for RNC",
+          "Two hooks with no collar grip"
+        ],
+        "trap": [
+          "Show the choke grip openly early"
+        ]
+      }
+    },
+    {
+      "question": "Why is the Invisible Collar fundamentally a gi-dependent position, and what does that imply for both players?",
+      "answer": "The choke draws its strangling tension from the opponent's own collar folded against the neck, so it cannot exist without lapel material to grip. This gi-dependence means the top player's threat is carried by a fabric-anchored grip rather than a flesh-and-bone forearm as in the rear naked choke, and the bottom player must monitor the collar itself, not only the neck. For the attacker it offers a strangle that finishes without fully clearing the chin, since the lapel wraps around defensive structure. For the defender it means grip removal targets the fabric and the gripping wrist, a different problem than clearing a bare choking arm.",
+      "answer_line": "Strangle relies on lapel fabric",
+      "distractors": {
+        "plausible": [
+          "Works identically in no-gi",
+          "Only the neck needs defending"
+        ],
+        "trap": [
+          "Ignore collar, watch arm only"
+        ]
+      }
+    },
+    {
+      "question": "What are the shared control points that hold the Invisible Collar together for whichever player occupies each role?",
+      "answer": "Three connected control points define the configuration: the seatbelt across the torso that governs upper-body rotation, at least one hook (or a body triangle) under the leg that governs the hips and rolling escapes, and the loaded collar grip that governs the neck. The seatbelt and hooks form the back-control chassis that keeps chest-to-back connection, while the collar grip is the added strangling layer. These points are interdependent: losing hook control frees the hips to turn out, while losing the seatbelt lets the shoulders swim free and strips the platform the collar grip relies on. The whole position stands or falls on maintaining chest connection through the seatbelt while the collar develops.",
+      "answer_line": "Seatbelt, hooks, and collar grip",
+      "distractors": {
+        "plausible": [
+          "Collar grip alone controls it all",
+          "Hooks alone without seatbelt"
+        ],
+        "trap": [
+          "Drop seatbelt to focus on collar"
+        ]
+      }
+    },
+    {
+      "question": "How does weight distribution and chest connection shape the dynamics of the Invisible Collar for both players?",
+      "answer": "The top player drives the majority of weight forward through the chest into the opponent's upper back and shoulder blades, keeping the hips slightly lower than the opponent's to deny rotational momentum. This forward pressure compresses the defender's posture and pins the shoulders, which both prevents escape and quietly tightens the strangle as the neck folds against the lapel. For the bottom player, that same compression is the enemy of breathing and framing, so every escape attempt must first fight the chest connection before the hips can move. The connection is the axis of the whole exchange: whoever controls it controls whether the position advances toward a finish or opens toward escape.",
+      "answer_line": "Chest weight forward tightens grip",
+      "distractors": {
+        "plausible": [
+          "Weight back to control the hips",
+          "Even weight keeps balance safest"
+        ],
+        "trap": [
+          "Sit up high to see the collar"
+        ]
+      }
+    },
+    {
+      "question": "Why is the Invisible Collar considered a dilemma position rather than a single-threat position?",
+      "answer": "Because the collar grip coexists with the full back-control structure, defending any one threat tends to open another. Committing both hands to strip the collar exposes the arms to an armbar from the back and leaves the neck open for the rear naked choke, while tucking the chin against the collar invites a transition toward the crucifix or a rotation into the bow and arrow. This dilemma structure is intrinsic to the configuration, not a role-specific tactic: the geometry of a loaded collar over a seatbelt-and-hook base means the defender is always solving more problems than they have limbs. That is what separates it from a lone collar drag or an isolated choke attempt.",
+      "answer_line": "Defending one arm opens another",
+      "distractors": {
+        "plausible": [
+          "Only the choke threatens you",
+          "Tucking chin removes all risk"
+        ],
+        "trap": [
+          "Ignore hooks to focus on collar only"
+        ]
+      }
+    },
+    {
+      "question": "How does the Invisible Collar relate to adjacent back-attack states like the bow and arrow choke and the crucifix?",
+      "answer": "All three share the seatbelt-and-hook back-control base, but they diverge in how the collar tension is applied. The Invisible Collar keeps the choke concealed and stationary, folding the lapel against the neck while the attacker stays squared chest-to-back behind the opponent. The bow and arrow rotates the attacker off to the side and adds a far-leg pull, converting the same collar grip into a leveraged, telegraphed finish. The crucifix branches off when the defender turns into the collar side, trapping both arms and abandoning the hooks for a limb-splitting pin. The Invisible Collar therefore functions as a hub from which these neighbors are reached, distinguished chiefly by its emphasis on disguise and preserved back-control alignment.",
+      "answer_line": "Hub linking bow-arrow and crucifix",
+      "distractors": {
+        "plausible": [
+          "Bow and arrow keeps square alignment",
+          "Crucifix preserves both hooks"
+        ],
+        "trap": [
+          "Turn into collar side to finish"
+        ]
+      }
+    },
+    {
+      "question": "What role does the concealment itself play in the position's mechanics, independent of who is attacking or defending?",
+      "answer": "Concealment is a functional property of the state, not decoration: the grip is built incrementally so it occupies the defender's attention elsewhere while the collar deepens. Because a person can only track a limited number of simultaneous threats, a grip that reads as positional control rather than a strangle delays the recognition that would trigger defense. For the attacker this buys the depth needed to finish before hand fighting begins; for the defender the entire counter hinges on breaking that concealment early through proactive grip checking rather than waiting for choking pressure. The position's effectiveness is largely a function of how long recognition is delayed, which makes deception a real mechanical variable rather than mere style.",
+      "answer_line": "Disguise delays defender recognition",
+      "distractors": {
+        "plausible": [
+          "Concealment only matters for style",
+          "Pressure alone reveals the choke"
+        ],
+        "trap": [
+          "Wait for pressure to check grip"
+        ]
+      }
+    },
+    {
+      "question": "What determines whether the Invisible Collar is a sustainable hold or a short-fuse finish?",
+      "answer": "Sustainability depends on the balance between the back-control chassis and the loaded collar grip. Because the seatbelt and hooks provide durable positional control, the attacker can hold the collar loaded and wait, making it relatively low-risk and sustainable compared to a committed choke that stakes position on a single squeeze. The finishing pressure, however, escalates quickly once rotation is applied, so the same position can become a short-fuse strangle within seconds of the attacker choosing to commit. For the defender this dual nature is the danger: a grip that appears stable and unthreatening can convert to a finish faster than a conventional escape can complete, so the clock favors whoever dictates when the concealed grip becomes an active choke.",
+      "answer_line": "Whether attacker commits to rotate",
+      "distractors": {
+        "plausible": [
+          "Position always finishes quickly",
+          "Defender controls the finish timing"
+        ],
+        "trap": [
+          "Assume the grip is safe to ignore"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "KCyIwacRKu8",
+      "title": "Invisible Collar (MTS 134)",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "Eddie Bravo",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "GPWBygTM1b0",
+      "title": "Sorcerer from the invisible collar",
+      "by": "Eddie Bravo",
+      "vertical": false,
+      "channel": "JiuJitsuMag",
+      "duration": 97,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "efFII9gjTrY",
+      "title": "Invisible collar no-gi choke walkthrough",
+      "by": "10th Planet coach",
+      "vertical": false,
+      "channel": "jes03070",
+      "duration": 186,
+      "verified": "2026-07-15"
+    }
+  ]
 }

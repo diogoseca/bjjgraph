@@ -13,21 +13,33 @@
   "outcomes": [
     {
       "to": "Ashi Garami/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Ashi Garami/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "While leg lock systems receive extensive attention for entries and finishes, the maintenance phase is what separates high-level leg lockers from practitioners who rely solely on explosive attacks. Retaining leg entanglement control against an opponent's systematic extraction attempts demands constant connection point management and hip following rather than static grip tension. This transition encompasses all the micro-adjustments, re-hooks, and grip transitions required to prevent the opponent from clearing your leg control and returning to a neutral or advantageous position.\n\nThe maintenance phase occupies a critical strategic role in the leg lock game. Without reliable retention, even technically superior entries become wasted energy as opponents consistently extract before advancement or finishing can occur. Effective maintenance creates cumulative pressure that exhausts defensive resources, forcing the opponent into increasingly desperate extraction attempts that open opportunities for hierarchical advancement toward Saddle or Cross Ashi-Garami. The patient, systematic approach to leg control retention reflects modern competition methodology where position quality precedes submission attempts.\n\nSuccessful Ashi Garami Maintenance requires simultaneous management of multiple connection points including the inside leg hook, outside leg clamp, hip-to-hip pressure, and upper body grips. Each connection point serves a specific function in preventing different escape vectors, and the practitioner must recognize which connections are under immediate threat and prioritize re-establishing them before the opponent chains multiple extractions together. This defensive awareness within an offensive position distinguishes competition-level leg lock players from casual practitioners who treat leg entanglements as static positions rather than dynamic control exchanges.",
   "conditions": [
     "You have established at least one leg hook in Ashi Garami configuration from bottom position",
@@ -238,46 +250,166 @@
     "flashcards": [
       {
         "question": "What is the most critical connection point to maintain when your opponent begins their initial extraction attempt?",
-        "answer": "The inside leg hook behind the opponent's knee is the most critical connection point because it controls the primary axis of rotation for the trapped leg. Losing this hook before others allows the opponent to straighten their leg and begin systematic clearing of remaining connections. Re-establishing the inside hook should always take priority over other connection points during maintenance."
+        "answer": "The inside leg hook behind the opponent's knee is the most critical connection point because it controls the primary axis of rotation for the trapped leg. Losing this hook before others allows the opponent to straighten their leg and begin systematic clearing of remaining connections. Re-establishing the inside hook should always take priority over other connection points during maintenance.",
+        "answer_line": "Re-hook the inside knee first",
+        "distractors": {
+          "plausible": [
+            "Squeeze the outside leg harder",
+            "Re-grip the ankle first"
+          ],
+          "trap": [
+            "Chase the submission early"
+          ]
+        }
       },
       {
         "question": "How should you respond when your opponent explosively stands up while you maintain Outside Ashi control?",
-        "answer": "Follow their hip movement by scooting your hips toward them and maintaining the pinching pressure of your leg hooks. Grip the ankle or heel cord firmly to prevent the standing leg from stepping away. Use the elevation change to transition to Single Leg X-Guard or elevate into a more dominant entanglement rather than fighting the stand-up directly with pure pulling force."
+        "answer": "Follow their hip movement by scooting your hips toward them and maintaining the pinching pressure of your leg hooks. Grip the ankle or heel cord firmly to prevent the standing leg from stepping away. Use the elevation change to transition to Single Leg X-Guard or elevate into a more dominant entanglement rather than fighting the stand-up directly with pure pulling force.",
+        "answer_line": "Follow hips, grip heel, elevate",
+        "distractors": {
+          "plausible": [
+            "Pull straight back against the stand",
+            "Release grips and re-shoot entry"
+          ],
+          "trap": [
+            "Lie flat and pull with the arms"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest upper body connection for maintaining Ashi Garami control?",
-        "answer": "A two-on-one grip controlling the opponent's ankle with one hand and heel cord with the other provides the strongest upper body connection. The bottom hand cups the heel to prevent rotation while the top hand controls the ankle to prevent extension. This double grip creates redundancy so losing one grip does not immediately compromise the entire control chain."
+        "answer": "A two-on-one grip controlling the opponent's ankle with one hand and heel cord with the other provides the strongest upper body connection. The bottom hand cups the heel to prevent rotation while the top hand controls the ankle to prevent extension. This double grip creates redundancy so losing one grip does not immediately compromise the entire control chain.",
+        "answer_line": "Two-on-one: ankle and heel cord",
+        "distractors": {
+          "plausible": [
+            "Single ankle grip, free hand posts",
+            "Grip the pant cuff, not the foot"
+          ],
+          "trap": [
+            "Let go and post both hands"
+          ]
+        }
       },
       {
         "question": "When should you prioritize re-hooking versus advancing to a superior position during maintenance?",
-        "answer": "Re-hooking takes priority whenever you have lost your inside leg hook or when the opponent has cleared more than one connection point simultaneously. Advancing should only occur when all primary connections are stable and you have inside space dominance. Attempting advancement with compromised connections typically results in losing the position entirely rather than improving it."
+        "answer": "Re-hooking takes priority whenever you have lost your inside leg hook or when the opponent has cleared more than one connection point simultaneously. Advancing should only occur when all primary connections are stable and you have inside space dominance. Attempting advancement with compromised connections typically results in losing the position entirely rather than improving it.",
+        "answer_line": "Re-hook first when a hook is lost",
+        "distractors": {
+          "plausible": [
+            "Advance once one grip returns",
+            "Trade hooks for a deeper grip"
+          ],
+          "trap": [
+            "Abandon hooks to chase the heel"
+          ]
+        }
       },
       {
         "question": "What is the primary mechanical principle behind inside space control in Ashi Garami maintenance?",
-        "answer": "Inside space control works by positioning your inside knee and hip to block the opponent's leg from pummeling inside your control configuration. This wedge denies the opponent the angle needed to rotate their knee inward, which would allow them to strip the outside hook and begin systematic extraction through the primary clearing vector."
+        "answer": "Inside space control works by positioning your inside knee and hip to block the opponent's leg from pummeling inside your control configuration. This wedge denies the opponent the angle needed to rotate their knee inward, which would allow them to strip the outside hook and begin systematic extraction through the primary clearing vector.",
+        "answer_line": "Inside knee and hip wedge the pummel",
+        "distractors": {
+          "plausible": [
+            "Knee squeeze alone stops entry",
+            "Flatten hips flat to the mat"
+          ],
+          "trap": [
+            "Open the knee line and sit up"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pushing your bottom knee toward the mat to open inside space - how do you adjust?",
-        "answer": "Counter the knee push by driving your inside knee back toward the opponent's centerline while simultaneously pulling their trapped leg tighter with your upper body grips. If the knee push succeeds partially, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push."
+        "answer": "Counter the knee push by driving your inside knee back to their centerline while pulling their trapped leg tighter with your grips. Make the pull with your upper body grips, and if the push partially succeeds, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push.",
+        "distractors": {
+          "plausible": [
+            "Fight the push with knee strength",
+            "Release grips to rebuild base"
+          ],
+          "trap": [
+            "Turn away and give up your back"
+          ]
+        },
+        "answer_line": "Drive knee back, pull grips tight"
       },
       {
         "question": "What distinguishes passive maintenance from active maintenance in Ashi Garami positions?",
-        "answer": "Passive maintenance relies on static hook placement and grip tension without adjusting to opponent movement, leading to gradual degradation of control as the opponent systematically clears connections. Active maintenance involves continuous micro-adjustments including hip following, grip transitions, and preventive re-hooking before connections fail, creating cumulative fatigue in the defender."
+        "answer": "Passive maintenance holds static hooks and grips, while active maintenance makes continuous micro-adjustments before connections fail. Passive reliance on static hook placement and grip tension leads to gradual degradation of control as the opponent systematically clears connections. Active maintenance — hip following, grip transitions, and preventive re-hooking before connections fail — creates cumulative fatigue in the defender.",
+        "distractors": {
+          "plausible": [
+            "Active: heavier squeeze pressure",
+            "Passive: switching grips often"
+          ],
+          "trap": [
+            "Hold static and chase the heel"
+          ]
+        },
+        "answer_line": "Active: constant micro-adjust"
       },
       {
         "question": "How does upper body posture affect your ability to maintain Ashi Garami from bottom position?",
-        "answer": "Maintaining an elevated posture on elbows or in a seated position provides significantly better control than lying flat. The elevated posture enables pulling the opponent's leg toward you, following their hip movement by scooting, and creating the angle needed for grip transitions. Flat positioning eliminates pulling leverage and makes hip following nearly impossible against a standing opponent."
+        "answer": "Maintaining an elevated posture on elbows or in a seated position provides significantly better control than lying flat. The elevated posture enables pulling the opponent's leg toward you, following their hip movement by scooting, and creating the angle needed for grip transitions. Flat positioning eliminates pulling leverage and makes hip following nearly impossible against a standing opponent.",
+        "answer_line": "Up on elbows or seated",
+        "distractors": {
+          "plausible": [
+            "Flat back for free hip movement",
+            "Chest to the mat, chin tucked"
+          ],
+          "trap": [
+            "Lie flat with arms at your sides"
+          ]
+        }
       },
       {
         "question": "Your opponent has all primary hooks stripped except your two-on-one ankle grip - what chain attack keeps you in the fight?",
-        "answer": "Use the retained ankle grip as a control anchor to transition into a straight ankle lock entry or to re-pummel a single leg X-guard hook before they fully clear. Pull their foot tight to your chest, elevate your hips to re-thread an inside hook, and chain back into the entanglement rather than conceding the position. The upper body grip buys the time needed to rebuild leg connections."
+        "answer": "Use the retained two-on-one ankle grip as a control anchor to enter a straight ankle lock or re-pummel a single leg X-guard hook. Pull their foot tight to your chest, elevate your hips to re-thread an inside hook, and chain back into the entanglement rather than conceding the position. The upper body grip buys the time needed to rebuild leg connections before they fully clear.",
+        "distractors": {
+          "plausible": [
+            "Switch to a leg drag pass",
+            "Abandon leg, scramble to guard"
+          ],
+          "trap": [
+            "Release grip to reset distance"
+          ]
+        },
+        "answer_line": "Ankle lock or re-enter Single X"
       },
       {
         "question": "What direction of force breaks down a defender who is methodically clearing your outside clamp?",
-        "answer": "Drive your knees together in a pinching, scissoring direction while pulling the trapped limb toward your centerline, concentrating force inward rather than just squeezing down. Combine the inward pinch with a hip scoot toward the defender to remove the space they need to peel the clamp. The convergent force keeps the clamp seated even as they push outward on the crossing leg."
+        "answer": "Drive your knees together in a pinching, scissoring direction while pulling the trapped limb toward your centerline. Concentrate force inward rather than just squeezing down, and combine the inward pinch with a hip scoot toward the defender to remove the space they need to peel the clamp. The convergent force keeps the clamp seated even as they push outward on the crossing leg.",
+        "distractors": {
+          "plausible": [
+            "Squeeze straight down only",
+            "Lean back and pull with arms"
+          ],
+          "trap": [
+            "Straighten legs, concede the pass"
+          ]
+        },
+        "answer_line": "Pinch knees in, pull to center"
       }
     ],
-    "safety_considerations": "Ashi Garami maintenance involves sustained pressure on the knee joint and surrounding ligaments. Always practice with controlled intensity and tap immediately if a training partner achieves heel exposure during maintenance drilling. Avoid explosive resistance when your heel is exposed, as rotational forces through the knee can cause ligament damage faster than pain signals register. Communicate clearly with training partners about resistance levels during positional sparring involving leg entanglements. During re-hooking drills, maintain awareness that rapid reconnection can inadvertently apply twisting force to the knee if angles change during the exchange."
+    "safety_considerations": "Ashi Garami maintenance involves sustained pressure on the knee joint and surrounding ligaments. Always practice with controlled intensity and tap immediately if a training partner achieves heel exposure during maintenance drilling. Avoid explosive resistance when your heel is exposed, as rotational forces through the knee can cause ligament damage faster than pain signals register. Communicate clearly with training partners about resistance levels during positional sparring involving leg entanglements. During re-hooking drills, maintain awareness that rapid reconnection can inadvertently apply twisting force to the knee if angles change during the exchange.",
+    "clips": [
+      {
+        "id": "eiI_4VBA-qA",
+        "title": "4 ashi foot positions: single leg X, outside ashi, 50/50",
+        "by": "Evo BJJ",
+        "vertical": false,
+        "channel": "Evo BJJ",
+        "duration": 162,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "_4jDUxFg7uU",
+        "title": "De La Riva knee bump entry into ashi garami",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 165,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ashi Garami Maintenance Defender",
@@ -362,23 +494,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent has secured Ashi Garami control on your leg?",
-        "answer": "The earliest cue is feeling the inside leg hook seat behind your knee combined with the opponent's outside leg crossing over your thigh to create a pinching effect. You may also feel their hips closing distance to yours and their hands reaching for your ankle or foot. Recognizing this configuration immediately allows you to begin extraction before all connection points are fully established."
+        "answer": "The earliest cue is feeling the inside leg hook seat behind your knee combined with the opponent's outside leg crossing over your thigh to create a pinching effect. You may also feel their hips closing distance to yours and their hands reaching for your ankle or foot. Recognizing this configuration immediately allows you to begin extraction before all connection points are fully established.",
+        "answer_line": "Inside hook seats behind knee",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar",
+            "Feeling hip pressure from top"
+          ],
+          "trap": [
+            "Waiting for the ankle lock grip"
+          ]
+        }
       },
       {
         "question": "Why is explosive ripping considered a poor defensive strategy against maintained Ashi Garami?",
-        "answer": "Explosive ripping creates rotation through the knee joint that exposes the heel to hook grips, actually making the opponent's finishing position stronger. The violent movement also disrupts your own base, making it easier for the opponent to follow your momentum and re-establish any connections lost during the rip. Systematic mechanical clearing maintains heel protection throughout the entire extraction process."
+        "answer": "Explosive ripping creates rotation through the knee joint that exposes the heel to hook grips, actually making the opponent's finishing position stronger. The violent movement also disrupts your own base, making it easier for the opponent to follow your momentum and re-establish any connections lost during the rip. Systematic mechanical clearing maintains heel protection throughout the entire extraction process.",
+        "answer_line": "Ripping exposes the heel",
+        "distractors": {
+          "plausible": [
+            "Ripping burns too much energy",
+            "Ripping is too slow to work"
+          ],
+          "trap": [
+            "Rip explosively to break grips"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for clearing Ashi Garami connection points during extraction?",
-        "answer": "The correct sequence begins with establishing base through standing or posting, then denying inside space by pummeling your knee inside the opponent's control configuration. Next, address the outside hook by pushing the crossing leg away while maintaining heel protection through straight leg alignment. Finally, step the freed leg away from the opponent's control range completely."
+        "answer": "The correct sequence begins with establishing base through standing or posting, then denying inside space by pummeling your knee inside the opponent's control configuration. Next, address the outside hook by pushing the crossing leg away while maintaining heel protection through straight leg alignment. Finally, step the freed leg away from the opponent's control range completely.",
+        "answer_line": "Base, deny space, clear, step out",
+        "distractors": {
+          "plausible": [
+            "Rip leg free, then find base",
+            "Attack ankle, then clear hooks"
+          ],
+          "trap": [
+            "Kick out leg before basing"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to attempt extraction from Ashi Garami?",
-        "answer": "The optimal extraction window occurs during the opponent's grip transitions when they release one upper body grip to adjust or advance to a different control configuration. These transitional moments create brief gaps in the connection chain where one fewer control point is active. Recognizing and acting during these windows significantly increases extraction success compared to attempting escape against fully established control."
+        "answer": "The optimal extraction window occurs during the opponent's grip transitions when they release one upper body grip to adjust or advance to a different control configuration. These transitional moments create brief gaps in the connection chain where one fewer control point is active. Recognizing and acting during these windows significantly increases extraction success compared to attempting escape against fully established control.",
+        "answer_line": "During their grip transitions",
+        "distractors": {
+          "plausible": [
+            "After they settle all grips",
+            "When they switch to a collar tie"
+          ],
+          "trap": [
+            "Wait for the finishing attempt"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent successfully advances from Outside Ashi to Inside Ashi during your extraction attempt?",
-        "answer": "Immediately increase defensive urgency by protecting the heel through straight leg alignment and hiding the heel behind the opponent's leg. Avoid continued extraction using the same Outside Ashi clearing sequence, as inside space dynamics have changed. Focus on re-establishing inside space control and working back to Outside Ashi positioning before attempting extraction, or transition to 50-50 to neutralize the position."
+        "answer": "Immediately increase defensive urgency by protecting the heel through straight leg alignment and hiding the heel behind the opponent's leg. Avoid continued extraction using the same Outside Ashi clearing sequence, as inside space dynamics have changed. Focus on re-establishing inside space control and working back to Outside Ashi positioning before attempting extraction, or transition to 50-50 to neutralize the position.",
+        "answer_line": "Protect heel, rebuild outside space",
+        "distractors": {
+          "plausible": [
+            "Sit up and grip their collar",
+            "Straighten both legs and wait"
+          ],
+          "trap": [
+            "Rip the leg free immediately"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -401,6 +583,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Competition simulation under pressure",
         "description": "Positional sparring starting in various Ashi Garami configurations with full resistance, practicing extraction sequences and counter-attack recognition under realistic competitive pressure"
+      }
+    ],
+    "clips": [
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m4UEhHwbGfQ",
+        "title": "Ashi garami escape: sit over foot to mount",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QMgsMSTRSBI",
+        "title": "5 leglock counters to ashi garami",
+        "by": "BJJBlackBeltDad",
+        "vertical": false,
+        "channel": "BJJBlackBeltDad",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

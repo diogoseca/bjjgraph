@@ -34,6 +34,65 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Alexandre Vieira\u0027s Famous Loop Choke",
+      "description": "Loop Choke film study: Alexandre Vieira\u0027s Famous Loop Choke, taught by Alexandre Vieira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ruk0kdlr-Qw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ruk0kdlr-Qw",
+      "url": "https://www.youtube.com/watch?v=ruk0kdlr-Qw",
+      "creator": { "@type": "Person", "name": "Alexandre Vieira" },
+      "duration": "PT85S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Loop Choke from Closed Guard",
+      "description": "Loop Choke film study: Loop Choke from Closed Guard, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7MTvWfHIHtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7MTvWfHIHtc",
+      "url": "https://www.youtube.com/watch?v=7MTvWfHIHtc",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Loop Choke from Closed Guard",
+      "description": "Loop Choke film study: Loop Choke from Closed Guard, taught by ICON Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hBKRP0Ss8qk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hBKRP0Ss8qk",
+      "url": "https://www.youtube.com/watch?v=hBKRP0Ss8qk",
+      "creator": { "@type": "Person", "name": "ICON Jiu-Jitsu Team" },
+      "duration": "PT15S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Loop Choke from Half Guard",
+      "description": "Loop Choke film study: Loop Choke from Half Guard, taught by Sickness Ferro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3sprDpHbCdM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3sprDpHbCdM",
+      "url": "https://www.youtube.com/watch?v=3sprDpHbCdM",
+      "creator": { "@type": "Person", "name": "Sickness Ferro" },
+      "duration": "PT197S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -53,7 +112,7 @@ description: "Master the Loop Choke in BJJ - deceptive collar choke from guard, 
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Loop Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Loop Choke is a deceptive gi strangle that loops the lapel and your forearm around the opponent\u0027s neck like a noose, disguised as a harmless collar tie until you snap their head down to finish." } },
-    { "@type": "Question", "name": "What positions can you finish the Loop Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Loop Choke from Mount, Turtle, Closed Guard, Side Control, Half Guard." } },
+    { "@type": "Question", "name": "What positions can you finish the Loop Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Loop Choke from Closed Guard, Turtle, Half Guard, Side Control, Mount." } },
     { "@type": "Question", "name": "Is the Loop Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Loop Choke targets the Carotid arteries via deep collar grip and body positioning. Primary risk: Carotid artery compression leading to loss of consciousness. Tap early and release immediately on the tap." } }
   ]
 }
@@ -89,6 +148,50 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ruk0kdlr-Qw)
+
+<p class="clip-credit"><strong>Alexandre Vieira&#39;s Famous Loop Choke</strong> — taught by Alexandre Vieira · 1:25 · <a href="https://www.youtube.com/watch?v=ruk0kdlr-Qw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7MTvWfHIHtc)
+
+<p class="clip-credit"><strong>Loop Choke from Closed Guard</strong> — taught by Mat Life Training Center · 1:29 · <a href="https://www.youtube.com/watch?v=7MTvWfHIHtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hBKRP0Ss8qk)
+
+<p class="clip-credit"><strong>Loop Choke from Closed Guard</strong> — taught by ICON Jiu-Jitsu Team · 0:15 · <a href="https://www.youtube.com/watch?v=hBKRP0Ss8qk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3sprDpHbCdM)
+
+<p class="clip-credit"><strong>Loop Choke from Half Guard</strong> — taught by Sickness Ferro · 3:17 · <a href="https://www.youtube.com/watch?v=3sprDpHbCdM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -98,11 +201,11 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Loop Choke/from Mount|Mount]] | Top | 58% | [[Submissions/Loop Choke/from Mount/Attacker|Attack →]] | [[Submissions/Loop Choke/from Mount/Defender|Defend →]] |
-| [[Submissions/Loop Choke/from Turtle|Turtle]] | Top | 58% | [[Submissions/Loop Choke/from Turtle/Attacker|Attack →]] | [[Submissions/Loop Choke/from Turtle/Defender|Defend →]] |
-| [[Submissions/Loop Choke/from Closed Guard|Closed Guard]] | Bottom | 55% | [[Submissions/Loop Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Loop Choke/from Closed Guard/Defender|Defend →]] |
-| [[Submissions/Loop Choke/from Side Control|Side Control]] | Top | 55% | [[Submissions/Loop Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Loop Choke/from Side Control/Defender|Defend →]] |
-| [[Submissions/Loop Choke/from Half Guard|Half Guard]] | Top | 40% | [[Submissions/Loop Choke/from Half Guard/Attacker|Attack →]] | [[Submissions/Loop Choke/from Half Guard/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Closed Guard|Closed Guard]] | Bottom | 65% | [[Submissions/Loop Choke/from Closed Guard/Attacker|Attack →]] | [[Submissions/Loop Choke/from Closed Guard/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Turtle|Turtle]] | Top | 62% | [[Submissions/Loop Choke/from Turtle/Attacker|Attack →]] | [[Submissions/Loop Choke/from Turtle/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Half Guard|Half Guard]] | Top | 60% | [[Submissions/Loop Choke/from Half Guard/Attacker|Attack →]] | [[Submissions/Loop Choke/from Half Guard/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Side Control|Side Control]] | Top | 50% | [[Submissions/Loop Choke/from Side Control/Attacker|Attack →]] | [[Submissions/Loop Choke/from Side Control/Defender|Defend →]] |
+| [[Submissions/Loop Choke/from Mount|Mount]] | Top | 48% | [[Submissions/Loop Choke/from Mount/Attacker|Attack →]] | [[Submissions/Loop Choke/from Mount/Defender|Defend →]] |
 
 
 </div>
@@ -137,10 +240,10 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 - [[Submissions/Bow and Arrow Choke]] - Alternative collar choke transition when opponent defends loop choke by turning
 - [[Submissions/Breadcutter Choke]] - Similar collar-based blood choke using different finishing mechanics
 - [[Transitions/Clock Choke]] - Complementary turtle collar attack sharing similar grip mechanics
-- [[Transitions/Guillotine Choke]] - Alternative front headlock choke sharing deceptive entry characteristics
-- [[Transitions/Arm Triangle]] - Shoulder pressure choke that can be chained from failed loop choke attempts
+- [[Submissions/Guillotine Choke]] - Alternative front headlock choke sharing deceptive entry characteristics
+- [[Submissions/Arm Triangle]] - Shoulder pressure choke that can be chained from failed loop choke attempts
 - [[Submissions/Americana]] - Joint lock threat creating submission dilemmas from mount alongside loop choke
-- [[Transitions/Darce Choke]] - Related head-and-arm choke sharing positional overlap from turtle and side control
+- [[Submissions/Darce Choke]] - Related head-and-arm choke sharing positional overlap from turtle and side control
 - [[Positions/Mount]] - Primary top position for establishing loop choke setups with dominant control
 - [[Positions/Side Control]] - Alternative attacking position allowing collar access with chest pressure control
 - [[Positions/Turtle]] - Defensive position vulnerable to loop choke attacks from back exposure

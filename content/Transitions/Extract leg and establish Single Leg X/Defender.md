@@ -142,6 +142,43 @@ description: "How to defend against leg extraction to Single Leg X-Guard in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Extract leg and establish Single Leg X (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering single leg X with a heel hook",
+      "description": "Extract leg and establish Single Leg X (Defender) film study: Countering single leg X with a heel hook, taught by Charles Allan Price.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/e2KVHXnSh_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/e2KVHXnSh_o",
+      "url": "https://www.youtube.com/watch?v=e2KVHXnSh_o",
+      "creator": { "@type": "Person", "name": "Charles Allan Price" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the single leg X sweep (no-gi)",
+      "description": "Extract leg and establish Single Leg X (Defender) film study: Defending the single leg X sweep (no-gi), taught by Tiger Muay Thai coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gwEmeb9RSk4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gwEmeb9RSk4",
+      "url": "https://www.youtube.com/watch?v=gwEmeb9RSk4",
+      "creator": { "@type": "Person", "name": "Tiger Muay Thai coach" },
+      "duration": "PT227S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -155,6 +192,34 @@ Advanced defensive strategy goes beyond simple retention. When the bottom player
 **Opponent's Starting Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Extract leg and establish Single Leg X (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=e2KVHXnSh_o)
+
+<p class="clip-credit"><strong>Countering single leg X with a heel hook</strong> — taught by Charles Allan Price · 1:15 · <a href="https://www.youtube.com/watch?v=e2KVHXnSh_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gwEmeb9RSk4)
+
+<p class="clip-credit"><strong>Defending the single leg X sweep (no-gi)</strong> — taught by Tiger Muay Thai coach · 3:47 · <a href="https://www.youtube.com/watch?v=gwEmeb9RSk4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -176,6 +176,43 @@ description: "How to attack with the belly down armbar from Kuzure Kesa-Gatame. 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Kuzure Kesa-Gatame (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "12 Kesa Gatame Attacks",
+      "description": "Belly Down Armbar from Kuzure Kesa-Gatame (Attacker) film study: 12 Kesa Gatame Attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "High Percentage Submission Attacks from Kesa Gatame",
+      "description": "Belly Down Armbar from Kuzure Kesa-Gatame (Attacker) film study: High Percentage Submission Attacks from Kesa Gatame, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nKITSItbeyM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nKITSItbeyM",
+      "url": "https://www.youtube.com/watch?v=nKITSItbeyM",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the belly down armbar from Kuzure Kesa-Gatame requires mastering 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Kuzure Kesa-Gatame (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame Attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nKITSItbeyM)
+
+<p class="clip-credit"><strong>High Percentage Submission Attacks from Kesa Gatame</strong> — taught by Stephan Kesting · 3:40 · <a href="https://www.youtube.com/watch?v=nKITSItbeyM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

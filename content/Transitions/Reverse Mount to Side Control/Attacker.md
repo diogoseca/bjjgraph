@@ -180,6 +180,43 @@ description: "Master the attacker's approach to converting Reverse Mount into Si
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount to Side Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse mount to unorthodox positions and scrambles",
+      "description": "Reverse Mount to Side Control (Attacker) film study: Reverse mount to unorthodox positions and scrambles, taught by Jamie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XQ4fwGrXV2Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XQ4fwGrXV2Q",
+      "url": "https://www.youtube.com/watch?v=XQ4fwGrXV2Q",
+      "creator": { "@type": "Person", "name": "Jamie" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side Reversal: Bottom Side Control to Top Control",
+      "description": "Reverse Mount to Side Control (Attacker) film study: Side Reversal: Bottom Side Control to Top Control, taught by Avant-Garde BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uinRYdbcpCw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uinRYdbcpCw",
+      "url": "https://www.youtube.com/watch?v=uinRYdbcpCw",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +226,34 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 **From Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount to Side Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XQ4fwGrXV2Q)
+
+<p class="clip-credit"><strong>Reverse mount to unorthodox positions and scrambles</strong> — taught by Jamie · 0:23 · <a href="https://www.youtube.com/watch?v=XQ4fwGrXV2Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uinRYdbcpCw)
+
+<p class="clip-credit"><strong>Side Reversal: Bottom Side Control to Top Control</strong> — taught by Avant-Garde BJJ · 0:39 · <a href="https://www.youtube.com/watch?v=uinRYdbcpCw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

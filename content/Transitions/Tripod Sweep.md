@@ -34,6 +34,43 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tripod Sweep \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Collar and sleeve tripod sweep",
+      "description": "Tripod Sweep film study: Collar and sleeve tripod sweep, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0AnyD7w2wQE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0AnyD7w2wQE",
+      "url": "https://www.youtube.com/watch?v=0AnyD7w2wQE",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The tripod sweep",
+      "description": "Tripod Sweep film study: The tripod sweep, taught by Thomas Mietz.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jAZ2IxJI-7E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jAZ2IxJI-7E",
+      "url": "https://www.youtube.com/watch?v=jAZ2IxJI-7E",
+      "creator": { "@type": "Person", "name": "Thomas Mietz" },
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +99,37 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
 The Tripod Sweep is a fundamental open guard technique that creates a mechanical advantage through angles and off-balancing. From Spider Guard, the practitioner establishes a three-point base (two feet and one hand on the opponent) to create an unstable platform, forcing the opponent to react and creating sweep opportunities. This technique is particularly effective against opponents attempting to maintain distance and posture in the guard, as it exploits their upright stance and converts their weight distribution into a sweeping motion. The name 'tripod' refers to the three points of contact that control the opponent's base while simultaneously removing one of their legs from the equation. This sweep is a cornerstone of modern Spider Guard systems and provides entry points into multiple dominant positions including mount, knee on belly, or standing control. The tripod structure allows for dynamic transitions and combinations, making it an essential technique for competitors at all levels who wish to develop an active, attacking guard game.
 
 **From Position**: [[Positions/Spider Guard]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 37%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tripod Sweep in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0AnyD7w2wQE)
+
+<p class="clip-credit"><strong>Collar and sleeve tripod sweep</strong> — taught by Alberto Serrano · 1:29 · <a href="https://www.youtube.com/watch?v=0AnyD7w2wQE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jAZ2IxJI-7E)
+
+<p class="clip-credit"><strong>The tripod sweep</strong> — taught by Thomas Mietz · 1:36 · <a href="https://www.youtube.com/watch?v=jAZ2IxJI-7E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

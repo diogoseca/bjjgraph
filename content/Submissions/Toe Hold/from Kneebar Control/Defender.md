@@ -144,6 +144,43 @@ description: "Defend the toe hold from kneebar control in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Kneebar Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the Kneebar to Toe Hold",
+      "description": "Toe Hold from Kneebar Control (Defender) film study: Defending the Kneebar to Toe Hold, taught by Garden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hze1WyTvkzA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hze1WyTvkzA",
+      "url": "https://www.youtube.com/watch?v=hze1WyTvkzA",
+      "creator": { "@type": "Person", "name": "Garden State BJJ" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Escape the Toe Hold",
+      "description": "Toe Hold from Kneebar Control (Defender) film study: How to Escape the Toe Hold, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +191,34 @@ Defending the toe hold from kneebar control demands early recognition of the gri
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Kneebar Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hze1WyTvkzA)
+
+<p class="clip-credit"><strong>Defending the Kneebar to Toe Hold</strong> — taught by Garden State BJJ · 0:24 · <a href="https://www.youtube.com/watch?v=hze1WyTvkzA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>How to Escape the Toe Hold</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

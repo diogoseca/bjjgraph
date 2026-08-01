@@ -148,6 +148,43 @@ description: "How to defend against Seat Belt Control Back in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Seat Belt Control Back (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape against the seatbelt grip",
+      "description": "Seat Belt Control Back (Defender) film study: Back escape against the seatbelt grip, taught by Skyhook Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/djhMEfVZozo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/djhMEfVZozo",
+      "url": "https://www.youtube.com/watch?v=djhMEfVZozo",
+      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quick fix for the seatbelt grip",
+      "description": "Seat Belt Control Back (Defender) film study: Quick fix for the seatbelt grip, taught by Ben Kool.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MwxnveKrlxU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MwxnveKrlxU",
+      "url": "https://www.youtube.com/watch?v=MwxnveKrlxU",
+      "creator": { "@type": "Person", "name": "Ben Kool" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ The defender's primary advantage is that this transition requires the attacker t
 **Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Seat Belt Control Back (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=djhMEfVZozo)
+
+<p class="clip-credit"><strong>Back escape against the seatbelt grip</strong> — taught by Skyhook Martial Arts · 0:36 · <a href="https://www.youtube.com/watch?v=djhMEfVZozo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MwxnveKrlxU)
+
+<p class="clip-credit"><strong>Quick fix for the seatbelt grip</strong> — taught by Ben Kool · 1:02 · <a href="https://www.youtube.com/watch?v=MwxnveKrlxU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

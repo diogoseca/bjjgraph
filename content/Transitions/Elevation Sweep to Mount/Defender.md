@@ -148,6 +148,54 @@ description: "How to defend against Elevation Sweep to Mount in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elevation Sweep to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reverse X-Guard defense into rolling back take",
+      "description": "Elevation Sweep to Mount (Defender) film study: Reverse X-Guard defense into rolling back take, taught by Effortless Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/M82CDkEzxlQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/M82CDkEzxlQ",
+      "url": "https://www.youtube.com/watch?v=M82CDkEzxlQ",
+      "creator": { "@type": "Person", "name": "Effortless Jiu Jitsu" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Backstep retention against single leg X elevation",
+      "description": "Elevation Sweep to Mount (Defender) film study: Backstep retention against single leg X elevation, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ipBdnq-j--g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ipBdnq-j--g",
+      "url": "https://www.youtube.com/watch?v=ipBdnq-j--g",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT302S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard recovery and inverting after being elevated",
+      "description": "Elevation Sweep to Mount (Defender) film study: Guard recovery and inverting after being elevated, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7c_QyTpJy-k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7c_QyTpJy-k",
+      "url": "https://www.youtube.com/watch?v=7c_QyTpJy-k",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT822S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Understanding which outcome each defensive action targets is critical for intell
 **Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elevation Sweep to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=M82CDkEzxlQ)
+
+<p class="clip-credit"><strong>Reverse X-Guard defense into rolling back take</strong> — taught by Effortless Jiu Jitsu · 2:01 · <a href="https://www.youtube.com/watch?v=M82CDkEzxlQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ipBdnq-j--g)
+
+<p class="clip-credit"><strong>Backstep retention against single leg X elevation</strong> — taught by Absolute MMA St Kilda · 5:02 · <a href="https://www.youtube.com/watch?v=ipBdnq-j--g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7c_QyTpJy-k)
+
+<p class="clip-credit"><strong>Guard recovery and inverting after being elevated</strong> — taught by Lachlan Giles · 13:42 · <a href="https://www.youtube.com/watch?v=7c_QyTpJy-k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

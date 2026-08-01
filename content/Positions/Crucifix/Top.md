@@ -21,31 +21,31 @@ description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with sys
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke from Crucifix",
-      "text": "From this position, attempt Rear Naked Choke from Crucifix. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke from Crucifix. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Crucifix",
-      "text": "From this position, attempt Kimura from Crucifix. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Crucifix. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Choke from Crucifix",
-      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 38% of exchanges from this position.",
+      "text": "From this position, attempt Choke from Crucifix. This technique is attempted in 18% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Crucifix",
-      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Crucifix. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
@@ -153,6 +153,54 @@ description: "Master Crucifix Top in BJJ. Dominant arm-trapping control with sys
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Side crucifix arm attacks from mount",
+      "description": "Crucifix (Top) film study: Side crucifix arm attacks from mount, taught by Evolve MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Vmyjv8-WFw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Vmyjv8-WFw",
+      "url": "https://www.youtube.com/watch?v=-Vmyjv8-WFw",
+      "creator": { "@type": "Person", "name": "Evolve MMA" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix murder choke",
+      "description": "Crucifix (Top) film study: Crucifix murder choke, taught by Innovative BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1hMh6YiR0Po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1hMh6YiR0Po",
+      "url": "https://www.youtube.com/watch?v=1hMh6YiR0Po",
+      "creator": { "@type": "Person", "name": "Innovative BJJ" },
+      "duration": "PT18S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Crucifix to inverted triangle",
+      "description": "Crucifix (Top) film study: Crucifix to inverted triangle, taught by Zen Spot.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QPpQnCDw65k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QPpQnCDw65k",
+      "url": "https://www.youtube.com/watch?v=QPpQnCDw65k",
+      "creator": { "@type": "Person", "name": "Zen Spot" },
+      "duration": "PT25S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From a strategic perspective, Crucifix Top represents the systematic application
 Mastery of Crucifix Top requires understanding precise weight distribution to prevent rolling escapes, maintaining constant pressure on both trapped arms, and the ability to transition smoothly between submission attempts without releasing core positional controls. The position can be entered from back control, turtle attacks, failed guard passes, or scrambles where arm isolation opportunities present themselves. Advanced practitioners use the crucifix not only as a finishing position but as a control platform that creates psychological pressure and forces opponents into defensive errors that open additional attack opportunities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Vmyjv8-WFw)
+
+<p class="clip-credit"><strong>Side crucifix arm attacks from mount</strong> — taught by Evolve MMA · 1:16 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1hMh6YiR0Po)
+
+<p class="clip-credit"><strong>Crucifix murder choke</strong> — taught by Innovative BJJ · 0:18 · <a href="https://www.youtube.com/watch?v=1hMh6YiR0Po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QPpQnCDw65k)
+
+<p class="clip-credit"><strong>Crucifix to inverted triangle</strong> — taught by Zen Spot · 0:25 · <a href="https://www.youtube.com/watch?v=QPpQnCDw65k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -220,7 +304,7 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 **If opponent is flat on back with both arms fully controlled and neck exposed:**
 - Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 85%)
-- Execute **[[Submissions/Neck Crank/Attacker|Neck Crank]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Neck Crank from Twister Control/Attacker|Neck Crank from Twister Control]]** → [[game-over]] (Probability: 80%)
 
 
 **If opponent tucks chin and defends neck aggressively:**

@@ -174,6 +174,43 @@ description: "Complete guide to executing the Crossface from Dogfight as the top
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crossface from Dogfight (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Quarter guard dogfight scoop control",
+      "description": "Crossface from Dogfight (Attacker) film study: Quarter guard dogfight scoop control, taught by Christopher Hendrick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3Jqz8_dbsfM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3Jqz8_dbsfM",
+      "url": "https://www.youtube.com/watch?v=3Jqz8_dbsfM",
+      "creator": { "@type": "Person", "name": "Christopher Hendrick" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Setting a Crossface: Crucial Skill of Half Guard Passing",
+      "description": "Crossface from Dogfight (Attacker) film study: Setting a Crossface: Crucial Skill of Half Guard Passing, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eA9MZmfVrmA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eA9MZmfVrmA",
+      "url": "https://www.youtube.com/watch?v=eA9MZmfVrmA",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT435S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing the Crossface from Dogfight, your primary objective is
 **From Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crossface from Dogfight (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3Jqz8_dbsfM)
+
+<p class="clip-credit"><strong>Quarter guard dogfight scoop control</strong> — taught by Christopher Hendrick · 0:45 · <a href="https://www.youtube.com/watch?v=3Jqz8_dbsfM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eA9MZmfVrmA)
+
+<p class="clip-credit"><strong>Setting a Crossface: Crucial Skill of Half Guard Passing</strong> — taught by John Danaher · 7:15 · <a href="https://www.youtube.com/watch?v=eA9MZmfVrmA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

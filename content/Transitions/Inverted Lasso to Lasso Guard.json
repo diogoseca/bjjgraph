@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Inverted Lasso Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Inverted Lasso to Lasso Guard transition is a fundamental recovery technique within the lasso guard system, allowing the bottom player to return from an energy-intensive inverted position to the more sustainable standard lasso guard. This transition occurs when the inverted position has not yielded an immediate attack opportunity, when the opponent is defending inversions effectively, or when the bottom player needs to conserve energy while maintaining offensive pressure. The ability to fluidly move between inverted and upright lasso guard is what separates advanced lasso guard players from those who treat each position as isolated.\n\nThe mechanical challenge of this transition lies in maintaining continuous lasso hook tension and sleeve grip control while fundamentally changing your body orientation. The bottom player must roll from their shoulders back to a seated or supine position without creating any slack in the lasso connection. Any momentary looseness allows the top player to extract their arm, collapsing the entire guard structure. The transition requires coordinated hip rotation, core engagement, and grip adjustment that must happen simultaneously rather than sequentially.\n\nStrategically, this transition serves as a reset mechanism that keeps the guard system dynamic. By cycling between inverted and upright lasso positions, the bottom player creates a constant threat environment where the opponent cannot settle into a single defensive strategy. The upright lasso guard offers different sweep angles, submission entries, and distance management options compared to the inverted variation, making the combination far more dangerous than either position alone. Top players who become comfortable defending one orientation are immediately confronted with the other, creating the dilemma-based offense that characterizes high-level guard play.",
   "conditions": [
     "Bottom player has an established inverted lasso position with shin threaded through opponent's arm",
@@ -243,38 +255,147 @@
     "flashcards": [
       {
         "question": "What is the primary reason for maintaining constant lasso hook tension during the transition from inverted to upright guard?",
-        "answer": "Any slack in the lasso hook, even momentarily, allows the opponent to extract their trapped arm. The lasso structure depends on continuous shin pressure against the tricep combined with the sleeve grip to create a closed system that cannot be escaped through linear pulling. Once slack appears, the opponent needs only 1-2 seconds to withdraw their arm completely, collapsing all guard control and leaving the bottom player in generic open guard with no grips."
+        "answer": "Any slack in the lasso hook, even momentarily, allows the opponent to extract their trapped arm. The lasso structure depends on continuous shin pressure against the tricep combined with the sleeve grip to create a closed system that cannot be escaped through linear pulling. Once slack appears, the opponent needs only 1-2 seconds to withdraw their arm completely, collapsing all guard control and leaving the bottom player in generic open guard with no grips.",
+        "answer_line": "Stops arm from slipping free",
+        "distractors": {
+          "plausible": [
+            "Keeps opponent's posture broken",
+            "Sets up sweep momentum early"
+          ],
+          "trap": [
+            "Ease off hook to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving forward with stacking pressure as you initiate the recovery from inverted lasso - how should you respond?",
-        "answer": "Use the foot posted on their hip as a primary frame to maintain distance and prevent the stack from compressing your body. If the forward pressure is strong, convert their momentum into a sweep opportunity by redirecting their drive overhead using the pendulum return variant. Never abandon the transition attempt to fight the stack statically from the inverted position, as this plays into their pressure passing game while you remain in an energy-draining inverted posture."
+        "answer": "Use the foot posted on their hip as a primary frame to maintain distance and prevent the stack from compressing your body. If the forward pressure is strong, convert their momentum into a sweep opportunity by redirecting their drive overhead using the pendulum return variant. Never abandon the transition attempt to fight the stack statically from the inverted position, as this plays into their pressure passing game while you remain in an energy-draining inverted posture.",
+        "answer_line": "Frame with hip-post foot",
+        "distractors": {
+          "plausible": [
+            "Power through the stack fast",
+            "Retreat to closed guard"
+          ],
+          "trap": [
+            "Stay inverted and out-muscle it"
+          ]
+        }
       },
       {
         "question": "Why should you establish the free leg hip post before initiating the rotation back to standard lasso?",
-        "answer": "The hip post creates a distance control frame that prevents the opponent from closing space and stacking you during the vulnerable rotation phase. Without this frame, the opponent can drive forward freely and pin your hips as you rotate, blocking the transition entirely. The posted foot also serves as a pivot point that guides the rotation speed and direction, making the movement controlled rather than chaotic."
+        "answer": "The hip post creates a distance control frame that prevents the opponent from closing space and stacking you during the vulnerable rotation phase. Without this frame, the opponent can drive forward freely and pin your hips as you rotate, blocking the transition entirely. The posted foot also serves as a pivot point that guides the rotation speed and direction, making the movement controlled rather than chaotic.",
+        "answer_line": "Frames distance, guides rotation",
+        "distractors": {
+          "plausible": [
+            "Loads power for the sweep",
+            "Protects the lasso knee"
+          ],
+          "trap": [
+            "Skip it to rotate faster"
+          ]
+        }
       },
       {
         "question": "What determines the optimal timing for initiating the recovery from inverted to standard lasso guard?",
-        "answer": "The optimal timing is when the opponent's weight is neutral or shifting rather than committed in any direction. Initiating during forward pressure makes stacking likely, while initiating when they pull back risks them creating distance to extract the arm. Watch for moments when they adjust their grips, shift stance, or reset their base since these windows of neutral weight distribution allow the smoothest transition with the least counterattack risk."
+        "answer": "The optimal timing is when the opponent's weight is neutral or shifting rather than committed in any direction. Initiating during forward pressure makes stacking likely, while initiating when they pull back risks them creating distance to extract the arm. Watch for moments when they adjust their grips, shift stance, or reset their base since these windows of neutral weight distribution allow the smoothest transition with the least counterattack risk.",
+        "answer_line": "When opponent's weight is neutral",
+        "distractors": {
+          "plausible": [
+            "During their forward pressure",
+            "Right after they pull back hard"
+          ],
+          "trap": [
+            "Whenever you feel fatigued"
+          ]
+        }
       },
       {
         "question": "How should you adjust your sleeve grip angle during the hip rotation from inverted to upright?",
-        "answer": "As your body rotates from inverted to upright, your pulling angle on the sleeve must rotate correspondingly to maintain optimal mechanical advantage. Start with a pulling angle directed toward your inverted hips, then actively rotate the wrist and forearm to keep the pull directed toward your rotating centerline. Failing to adjust creates a suboptimal angle that weakens the grip and may allow the opponent to strip it during the transition."
+        "answer": "As your body rotates from inverted to upright, your pulling angle on the sleeve must rotate correspondingly to maintain optimal mechanical advantage. Start with a pulling angle directed toward your inverted hips, then actively rotate the wrist and forearm to keep the pull directed toward your rotating centerline. Failing to adjust creates a suboptimal angle that weakens the grip and may allow the opponent to strip it during the transition.",
+        "answer_line": "Rotate pull toward new centerline",
+        "distractors": {
+          "plausible": [
+            "Keep pulling toward old angle",
+            "Switch to a palm-up grip"
+          ],
+          "trap": [
+            "Release grip mid-rotation"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between a passive recovery to lasso guard and an offensive recovery?",
-        "answer": "A passive recovery simply returns to standard lasso guard and pauses, giving the opponent time to re-establish their base and defensive positioning. An offensive recovery connects the transition motion directly to a sweep or submission threat, capitalizing on the momentary off-balance created by the position change. The opponent must simultaneously adjust to your new body orientation and defend an incoming attack, creating cognitive overload that significantly increases sweep success rate."
+        "answer": "A passive recovery simply returns to standard lasso guard and pauses, giving the opponent time to re-establish their base and defensive positioning. An offensive recovery connects the transition motion directly to a sweep or submission threat, capitalizing on the momentary off-balance created by the position change. The opponent must simultaneously adjust to your new body orientation and defend an incoming attack, creating cognitive overload that significantly increases sweep success rate.",
+        "answer_line": "Chain recovery into an attack",
+        "distractors": {
+          "plausible": [
+            "Reset then reassess options",
+            "Return to lasso and rebuild grips"
+          ],
+          "trap": [
+            "Pause to let both reset"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your sleeve grip halfway through the recovery rotation - what is your immediate response?",
-        "answer": "The lasso hook alone provides 1-2 seconds of residual control since the shin against their tricep still restricts arm movement even without the sleeve grip. Use this window to immediately re-grip the sleeve before completing the rotation. If re-gripping fails, do not continue the transition but instead use the remaining hook control to enter an alternative guard position such as de la riva or spider guard on the free arm before the lasso hook also fails."
+        "answer": "The lasso hook alone provides 1-2 seconds of residual control since the shin against their tricep still restricts arm movement even without the sleeve grip. Use this window to immediately re-grip the sleeve before completing the rotation. If re-gripping fails, do not continue the transition but instead use the remaining hook control to enter an alternative guard position such as de la riva or spider guard on the free arm before the lasso hook also fails.",
+        "answer_line": "Re-grip sleeve using hook's window",
+        "distractors": {
+          "plausible": [
+            "Finish rotation without grip",
+            "Grab the collar instead"
+          ],
+          "trap": [
+            "Release hook to reset position"
+          ]
+        }
       },
       {
         "question": "Why is this transition described as a reset mechanism rather than a defensive retreat?",
-        "answer": "The transition maintains all control elements including lasso hook, sleeve grip, and distance management while changing the attack angle. Unlike a true retreat where you lose position and control, this recovery preserves offensive capability throughout and arrives in a position with different but equally dangerous attacking options. The standard lasso guard offers sickle sweeps, triangles, and omoplatas that complement the berimbolo and overhead sweeps available from inverted lasso, making the combination a complete offensive system."
+        "answer": "The transition maintains all control elements including lasso hook, sleeve grip, and distance management while changing the attack angle. Unlike a true retreat where you lose position and control, this recovery preserves offensive capability throughout and arrives in a position with different but equally dangerous attacking options. The standard lasso guard offers sickle sweeps, triangles, and omoplatas that complement the berimbolo and overhead sweeps available from inverted lasso, making the combination a complete offensive system.",
+        "answer_line": "Keeps control, shifts attack angle",
+        "distractors": {
+          "plausible": [
+            "Buys time to recover stamina",
+            "Resets to a neutral position"
+          ],
+          "trap": [
+            "Gives up hook to regain safety"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The primary safety concern during this transition is cervical spine loading. When rotating from inverted to upright, weight must remain on the shoulders and upper back, never concentrating on the neck vertebrae. Practitioners with limited neck mobility or any cervical spine history should use the controlled roll-through variant rather than the quick hip switch. Additionally, the lasso hook creates stress on the opponent's shoulder joint - maintain awareness of your partner's flexibility limitations and avoid cranking the lasso aggressively during the transition when the angle changes may unexpectedly increase rotational force on their trapped arm. Always warm up the neck and spine before drilling inverted guard transitions."
+    "safety_considerations": "The primary safety concern during this transition is cervical spine loading. When rotating from inverted to upright, weight must remain on the shoulders and upper back, never concentrating on the neck vertebrae. Practitioners with limited neck mobility or any cervical spine history should use the controlled roll-through variant rather than the quick hip switch. Additionally, the lasso hook creates stress on the opponent's shoulder joint - maintain awareness of your partner's flexibility limitations and avoid cranking the lasso aggressively during the transition when the angle changes may unexpectedly increase rotational force on their trapped arm. Always warm up the neck and spine before drilling inverted guard transitions.",
+    "clips": [
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso guard variations and how to establish them",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "1ZeXvHBibi8",
+        "title": "Late Stage Recovery To Lasso",
+        "by": "Chelsea Leah",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 147,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bdAE36JZ_yk",
+        "title": "Guard Retention to Lasso Guard",
+        "by": "Clark Gracie",
+        "vertical": false,
+        "channel": "Texas Jui-jitsu",
+        "duration": 204,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Inverted Lasso to Lasso Guard Defender",
@@ -356,15 +477,45 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for attempting arm extraction during the inverted lasso to lasso guard transition?",
-        "answer": "The optimal window is during the middle phase of the hip rotation, when the bottom player's body is transitioning between inverted and upright orientation. At this point, the lasso hook tension is at its weakest because the shin angle against your tricep is changing and the bottom player's pulling direction is shifting. This window lasts approximately 1-2 seconds and is significantly more exploitable than attempting extraction when the bottom player is static in either position."
+        "answer": "The optimal window is during the middle phase of the hip rotation, when the bottom player's body is transitioning between inverted and upright orientation. At this point, the lasso hook tension is at its weakest because the shin angle against your tricep is changing and the bottom player's pulling direction is shifting. This window lasts approximately 1-2 seconds and is significantly more exploitable than attempting extraction when the bottom player is static in either position.",
+        "answer_line": "Mid-rotation, tension weakest",
+        "distractors": {
+          "plausible": [
+            "Right as they start inverting",
+            "Once they're fully upright"
+          ],
+          "trap": [
+            "Wait until they secure grips"
+          ]
+        }
       },
       {
         "question": "Why is controlling the bottom player's free leg an effective preemptive defense against this transition?",
-        "answer": "The free leg serves as the primary frame and pivot point for the rotation from inverted to upright position. The bottom player posts this foot on your hip to create distance control and guide the rotation. Without this frame, the transition becomes uncontrolled and risky, forcing the bottom player to either remain trapped in the exhausting inverted position or attempt the recovery without distance management, making them vulnerable to stacking and passing."
+        "answer": "The free leg serves as the primary frame and pivot point for the rotation from inverted to upright position. The bottom player posts this foot on your hip to create distance control and guide the rotation. Without this frame, the transition becomes uncontrolled and risky, forcing the bottom player to either remain trapped in the exhausting inverted position or attempt the recovery without distance management, making them vulnerable to stacking and passing.",
+        "answer_line": "Removes their rotation pivot",
+        "distractors": {
+          "plausible": [
+            "Blocks their sleeve grip path",
+            "Prevents the initial invert"
+          ],
+          "trap": [
+            "Let them post to bait a scramble"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating from inverted lasso but you cannot extract your arm - what alternative action prevents them from establishing a strong lasso guard?",
-        "answer": "If arm extraction is not achievable, focus on disrupting the quality of their arrival in standard lasso. Drive forward pressure during the rotation to prevent them from establishing a perpendicular hip angle. Control their non-lasso leg immediately as they complete the transition to prevent secondary frames. The goal shifts from preventing the transition entirely to ensuring they arrive in a compromised version of standard lasso guard without the angle, distance, or secondary controls needed for effective offense."
+        "answer": "If arm extraction is not achievable, focus on disrupting the quality of their arrival in standard lasso. Drive forward pressure during the rotation to prevent them from establishing a perpendicular hip angle. Control their non-lasso leg immediately as they complete the transition to prevent secondary frames. The goal shifts from preventing the transition entirely to ensuring they arrive in a compromised version of standard lasso guard without the angle, distance, or secondary controls needed for effective offense.",
+        "answer_line": "Disrupt angle, control other leg",
+        "distractors": {
+          "plausible": [
+            "Fight only to extract the arm",
+            "Retreat and reset your base"
+          ],
+          "trap": [
+            "Back away to create scramble space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -387,6 +538,35 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance decision-making against the transition",
         "description": "Start from established inverted lasso guard with both players at full resistance. Top player attempts to exploit the transition window whenever the bottom player recovers to standard lasso. Bottom player can attack from both positions. Develops real-time pattern recognition and counter-selection against unpredictable guard play."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard through to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Bnx650_z48I",
+        "title": "Passing the Lasso Guard with the Longstep",
+        "by": "Dom",
+        "vertical": false,
+        "channel": "Dubious Dom",
+        "duration": 223,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNpws9uAY8o",
+        "title": "Escaping and Passing the Lasso",
+        "by": "Bryce Nie",
+        "vertical": false,
+        "channel": "Bryce Nie",
+        "duration": 383,
+        "verified": "2026-07-15"
       }
     ]
   }

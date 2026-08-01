@@ -144,6 +144,54 @@ description: "How to defend against the Banana Split from the truck in BJJ. Reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Banana Split from Truck (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Duck Spladle Banana Split Escape",
+      "description": "Banana Split from Truck (Defender) film study: Duck Spladle Banana Split Escape, taught by Triple Victory.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbpHFRU7Irs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbpHFRU7Irs",
+      "url": "https://www.youtube.com/watch?v=BbpHFRU7Irs",
+      "creator": { "@type": "Person", "name": "Triple Victory" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Counter the truck by flipping it",
+      "description": "Banana Split from Truck (Defender) film study: Counter the truck by flipping it, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NhxDerwXxSU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NhxDerwXxSU",
+      "url": "https://www.youtube.com/watch?v=NhxDerwXxSU",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT640S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Banana split and its defense",
+      "description": "Banana Split from Truck (Defender) film study: Banana split and its defense, taught by Daniel Lima.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/E_4Qtm1I9T0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/E_4Qtm1I9T0",
+      "url": "https://www.youtube.com/watch?v=E_4Qtm1I9T0",
+      "creator": { "@type": "Person", "name": "Daniel Lima" },
+      "duration": "PT69S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the Banana Split from the truck requires early recognition and immedia
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Banana Split from Truck (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbpHFRU7Irs)
+
+<p class="clip-credit"><strong>Duck Spladle Banana Split Escape</strong> — taught by Triple Victory · 1:02 · <a href="https://www.youtube.com/watch?v=BbpHFRU7Irs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NhxDerwXxSU)
+
+<p class="clip-credit"><strong>Counter the truck by flipping it</strong> — taught by Brandon McCaghren · 10:40 · <a href="https://www.youtube.com/watch?v=NhxDerwXxSU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=E_4Qtm1I9T0)
+
+<p class="clip-credit"><strong>Banana split and its defense</strong> — taught by Daniel Lima · 1:09 · <a href="https://www.youtube.com/watch?v=E_4Qtm1I9T0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

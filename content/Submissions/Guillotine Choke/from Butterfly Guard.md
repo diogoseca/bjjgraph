@@ -34,6 +34,43 @@ description: "Master the Guillotine Choke from Butterfly Guard. Learn hook eleva
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Butterfly Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guillotine from Butterfly Guard",
+      "description": "Guillotine Choke from Butterfly Guard film study: Guillotine from Butterfly Guard, taught by Jake Shields.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SAWvSovVk4A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SAWvSovVk4A",
+      "url": "https://www.youtube.com/watch?v=SAWvSovVk4A",
+      "creator": { "@type": "Person", "name": "Jake Shields" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine Choke from Butterfly Guard",
+      "description": "Guillotine Choke from Butterfly Guard film study: Guillotine Choke from Butterfly Guard, taught by Modesto Judo Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z75kDSCIeN4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z75kDSCIeN4",
+      "url": "https://www.youtube.com/watch?v=Z75kDSCIeN4",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +91,7 @@ description: "Master the Guillotine Choke from Butterfly Guard. Learn hook eleva
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and windpipe</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">23% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +115,34 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 **Starting Position**: [[Positions/Butterfly Guard]] · **From**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Butterfly Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SAWvSovVk4A)
+
+<p class="clip-credit"><strong>Guillotine from Butterfly Guard</strong> — taught by Jake Shields · 1:04 · <a href="https://www.youtube.com/watch?v=SAWvSovVk4A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z75kDSCIeN4)
+
+<p class="clip-credit"><strong>Guillotine Choke from Butterfly Guard</strong> — taught by Modesto Judo Club · 1:16 · <a href="https://www.youtube.com/watch?v=Z75kDSCIeN4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -239,14 +304,13 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Ten Finger Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
 - [[Submissions/Japanese Necktie]]
-- [[Submissions/Von Flue Choke]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Butterfly Guard]] - Primary starting position providing hook elevation for setup and finish
 - [[Positions/Guillotine Control]] - Control position established when guillotine grip is secured before finishing

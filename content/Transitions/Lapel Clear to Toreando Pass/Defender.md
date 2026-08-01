@@ -148,6 +148,54 @@ description: "How to defend against Lapel Clear to Toreando Pass in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Clear to Toreando Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando defense with roll counter",
+      "description": "Lapel Clear to Toreando Pass (Defender) film study: Toreando defense with roll counter, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ad4250mBWKc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ad4250mBWKc",
+      "url": "https://www.youtube.com/watch?v=Ad4250mBWKc",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scorpion kick recovery vs toreando",
+      "description": "Lapel Clear to Toreando Pass (Defender) film study: Scorpion kick recovery vs toreando, taught by Sidewinder.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EAN0i-p8HKc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EAN0i-p8HKc",
+      "url": "https://www.youtube.com/watch?v=EAN0i-p8HKc",
+      "creator": { "@type": "Person", "name": "Sidewinder" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention principles vs toreando passing",
+      "description": "Lapel Clear to Toreando Pass (Defender) film study: Guard retention principles vs toreando passing, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/guEr6TkpBOQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/guEr6TkpBOQ",
+      "url": "https://www.youtube.com/watch?v=guEr6TkpBOQ",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT190S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense also requires contingency planning. If the lapel is cleared a
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Clear to Toreando Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ad4250mBWKc)
+
+<p class="clip-credit"><strong>Toreando defense with roll counter</strong> — taught by Revolution BJJ · 1:24 · <a href="https://www.youtube.com/watch?v=Ad4250mBWKc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EAN0i-p8HKc)
+
+<p class="clip-credit"><strong>Scorpion kick recovery vs toreando</strong> — taught by Sidewinder · 1:01 · <a href="https://www.youtube.com/watch?v=EAN0i-p8HKc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=guEr6TkpBOQ)
+
+<p class="clip-credit"><strong>Guard retention principles vs toreando passing</strong> — taught by Mads H. · 3:10 · <a href="https://www.youtube.com/watch?v=guEr6TkpBOQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

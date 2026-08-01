@@ -168,6 +168,54 @@ description: "How to execute Leg Drag Escape to Closed Guard in BJJ. Attacking p
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag Escape to Closed Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention against the leg drag",
+      "description": "Leg Drag Escape to Closed Guard (Attacker) film study: Guard retention against the leg drag, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fFqoFDE2yyw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fFqoFDE2yyw",
+      "url": "https://www.youtube.com/watch?v=fFqoFDE2yyw",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit-Up Escape for Guard Retention",
+      "description": "Leg Drag Escape to Closed Guard (Attacker) film study: Sit-Up Escape for Guard Retention, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Around the Legs Guard Retention",
+      "description": "Leg Drag Escape to Closed Guard (Attacker) film study: Around the Legs Guard Retention, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynoR-AtSYUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynoR-AtSYUc",
+      "url": "https://www.youtube.com/watch?v=ynoR-AtSYUc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT210S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The timing window for this escape is narrow but predictable. The optimal moment 
 **From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag Escape to Closed Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fFqoFDE2yyw)
+
+<p class="clip-credit"><strong>Guard retention against the leg drag</strong> — taught by Brandon Quick · 1:30 · <a href="https://www.youtube.com/watch?v=fFqoFDE2yyw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Sit-Up Escape for Guard Retention</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynoR-AtSYUc)
+
+<p class="clip-credit"><strong>Around the Legs Guard Retention</strong> — taught by Lachlan Giles · 3:30 · <a href="https://www.youtube.com/watch?v=ynoR-AtSYUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

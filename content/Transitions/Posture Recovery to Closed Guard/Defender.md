@@ -148,6 +148,32 @@ description: "How to defend against Posture Recovery to Closed Guard in BJJ. Mai
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Posture Recovery to Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape the turtle and get safely back to guard",
+      "description": "Posture Recovery to Closed Guard (Defender) film study: Escape the turtle and get safely back to guard, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o55M0DMesfE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o55M0DMesfE",
+      "url": "https://www.youtube.com/watch?v=o55M0DMesfE",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT173S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,9 +184,29 @@ Successful defense requires recognizing the early warning signs of guard recover
 
 The strategic framework centers on a simple principle: deny space and maintain connection. Every guard recovery requires the bottom player to create space between your hips and theirs. Your defensive tools - heavy hip pressure, grip re-establishment, crossface control, and hook insertion - all serve to collapse that space before it becomes sufficient for guard insertion. When you feel the bottom player's frame against your body, that is your cue to intensify pressure rather than retreat.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Posture Recovery to Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o55M0DMesfE)
+
+<p class="clip-credit"><strong>Escape the turtle and get safely back to guard</strong> — taught by Stephan Kesting · 2:53 · <a href="https://www.youtube.com/watch?v=o55M0DMesfE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -202,7 +248,7 @@ The strategic framework centers on a simple principle: deny space and maintain c
 ### 1. Drive hips forward and re-establish controlling grip immediately when feeling frame establishment or grip strip
 
 - **When to use**: At the earliest sign of guard recovery - when you feel the frame post against your body or feel your grip being stripped
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Bottom player's frame collapses under your forward pressure and they return to defensive turtle with your grips re-established
 - **Risk**: Over-committing forward can be used by the bottom player to accelerate their guard closure if they time the rotation with your drive
 
@@ -216,14 +262,14 @@ The strategic framework centers on a simple principle: deny space and maintain c
 ### 3. Apply crossface pressure with your near-side arm while sprawling hips heavy to flatten opponent back to turtle
 
 - **When to use**: When the bottom player has established a frame but hasn't yet committed to the hip escape - the intermediate phase of their recovery
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Crossface flattens the bottom player's posture, destroys their frame, and resets them to a compromised turtle position
 - **Risk**: The bottom player may use the crossface pressure direction to hip escape to the opposite side, exploiting your weight commitment
 
 ### 4. Disengage and circle to front headlock position when guard closure appears imminent
 
 - **When to use**: When the bottom player's hips have already rotated significantly and guard closure is likely - this is a bail-out option to avoid being pulled into closed guard
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: You avoid being pulled into closed guard and establish front headlock or top position with passing opportunity
 - **Risk**: Disengaging concedes turtle control and may give the bottom player butterfly guard or seated guard instead
 
@@ -237,7 +283,7 @@ The strategic framework centers on a simple principle: deny space and maintain c
 
 <p class="section-subtitle">What is the best outcome when defending Posture Recovery to Closed Guard?</p>
 
-### → [[Positions/Crackhead Control]]
+### → [[Positions/Rubber Guard/Crackhead Control]]
 
 Maintain heavy hip pressure and immediately re-establish grips when stripped. Drive forward into frames to collapse them rather than allowing space creation. Use crossface to flatten the bottom player's posture before they can complete spinal alignment recovery.
 

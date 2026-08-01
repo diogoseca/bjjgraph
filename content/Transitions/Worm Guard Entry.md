@@ -34,6 +34,54 @@ description: "Learn Worm Guard Entry in BJJ. Step-by-step lapel threading from L
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Worm Guard Entry \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard entry breakdown",
+      "description": "Worm Guard Entry film study: Worm guard entry breakdown, taught by Erich Munis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzwnLW735U8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzwnLW735U8",
+      "url": "https://www.youtube.com/watch?v=QzwnLW735U8",
+      "creator": { "@type": "Person", "name": "Erich Munis" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Worm guard to back choke",
+      "description": "Worm Guard Entry film study: Worm guard to back choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse de la worm to the back",
+      "description": "Worm Guard Entry film study: Reverse de la worm to the back, taught by BJJ Online.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_lzJebmY_v8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_lzJebmY_v8",
+      "url": "https://www.youtube.com/watch?v=_lzJebmY_v8",
+      "creator": { "@type": "Person", "name": "BJJ Online" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The entry requires precise timing and lapel management. The bottom player must m
 Strategically, completing the Worm Guard Entry represents a significant positional upgrade. While basic Lapel Guard offers control, the Worm Guard configuration locks the opponent's lead leg in place, severely limiting their passing options and loading powerful sweep mechanics. The position creates true dilemmas where defending the sweep exposes the back, and defending the back take opens sweep opportunities. For gi competitors, this entry is a gateway to an entire attacking subsystem that rewards technical precision over athleticism.
 
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 10%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Worm Guard Entry in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzwnLW735U8)
+
+<p class="clip-credit"><strong>Worm guard entry breakdown</strong> — taught by Erich Munis · 0:53 · <a href="https://www.youtube.com/watch?v=QzwnLW735U8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm guard to back choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_lzJebmY_v8)
+
+<p class="clip-credit"><strong>Reverse de la worm to the back</strong> — taught by BJJ Online · 1:00 · <a href="https://www.youtube.com/watch?v=_lzJebmY_v8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -176,6 +176,54 @@ description: "Learn to attack the omoplata from Russian Leg Lasso. Expert guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Russian Leg Lasso (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso to Omoplata",
+      "description": "Omoplata from Russian Leg Lasso (Attacker) film study: Lasso to Omoplata, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X38VbqKI8dY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X38VbqKI8dY",
+      "url": "https://www.youtube.com/watch?v=X38VbqKI8dY",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso Guard to Omoplata",
+      "description": "Omoplata from Russian Leg Lasso (Attacker) film study: Lasso Guard to Omoplata, taught by Adam Wardzinski.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P_Utuxeq7uo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P_Utuxeq7uo",
+      "url": "https://www.youtube.com/watch?v=P_Utuxeq7uo",
+      "creator": { "@type": "Person", "name": "Adam Wardzinski" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "No-Gi Lasso Omoplata",
+      "description": "Omoplata from Russian Leg Lasso (Attacker) film study: No-Gi Lasso Omoplata, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FCdFl9aAiUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FCdFl9aAiUg",
+      "url": "https://www.youtube.com/watch?v=FCdFl9aAiUg",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the omoplata from Russian Leg Lasso leverages the existing lasso confi
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Russian Leg Lasso (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X38VbqKI8dY)
+
+<p class="clip-credit"><strong>Lasso to Omoplata</strong> — taught by Ninja Pinto · 0:56 · <a href="https://www.youtube.com/watch?v=X38VbqKI8dY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P_Utuxeq7uo)
+
+<p class="clip-credit"><strong>Lasso Guard to Omoplata</strong> — taught by Adam Wardzinski · 0:37 · <a href="https://www.youtube.com/watch?v=P_Utuxeq7uo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FCdFl9aAiUg)
+
+<p class="clip-credit"><strong>No-Gi Lasso Omoplata</strong> — taught by Asaf Mich · 0:49 · <a href="https://www.youtube.com/watch?v=FCdFl9aAiUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

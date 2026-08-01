@@ -148,6 +148,54 @@ description: "Comprehensive defense guide for stopping the knee slide from flatt
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Slide from Flattened Half (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up to escape",
+      "description": "Knee Slide from Flattened Half (Defender) film study: Guard retention: when to sit up to escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lockdown escape when flattened by a half guard smasher",
+      "description": "Knee Slide from Flattened Half (Defender) film study: Lockdown escape when flattened by a half guard smasher, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tcS7oBdpRW0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tcS7oBdpRW0",
+      "url": "https://www.youtube.com/watch?v=tcS7oBdpRW0",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT305S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Half guard escape and defense fundamentals",
+      "description": "Knee Slide from Flattened Half (Defender) film study: Half guard escape and defense fundamentals, taught by Coventry BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kiNDEW0H16E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kiNDEW0H16E",
+      "url": "https://www.youtube.com/watch?v=kiNDEW0H16E",
+      "creator": { "@type": "Person", "name": "Coventry BJJ coach" },
+      "duration": "PT426S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the knee slide from flattened half guard is one of the most challengin
 **Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Slide from Flattened Half (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up to escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tcS7oBdpRW0)
+
+<p class="clip-credit"><strong>Lockdown escape when flattened by a half guard smasher</strong> — taught by Chewjitsu · 5:05 · <a href="https://www.youtube.com/watch?v=tcS7oBdpRW0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kiNDEW0H16E)
+
+<p class="clip-credit"><strong>Half guard escape and defense fundamentals</strong> — taught by Coventry BJJ coach · 7:06 · <a href="https://www.youtube.com/watch?v=kiNDEW0H16E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

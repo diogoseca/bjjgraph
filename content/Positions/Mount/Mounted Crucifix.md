@@ -34,6 +34,54 @@ description: "Master the mounted crucifix in BJJ. Complete guide covering arm is
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix position overview",
+      "description": "Mounted Crucifix film study: Crucifix position overview, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pwyBJLfBbpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pwyBJLfBbpY",
+      "url": "https://www.youtube.com/watch?v=pwyBJLfBbpY",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi mounted crucifix",
+      "description": "Mounted Crucifix film study: No-gi mounted crucifix, taught by Esteem Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4QlWJFhI7i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4QlWJFhI7i8",
+      "url": "https://www.youtube.com/watch?v=4QlWJFhI7i8",
+      "creator": { "@type": "Person", "name": "Esteem Jiujitsu" },
+      "duration": "PT124S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Isolating the near arm in crucifix",
+      "description": "Mounted Crucifix film study: Isolating the near arm in crucifix, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rh7TUm0ysww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rh7TUm0ysww",
+      "url": "https://www.youtube.com/watch?v=rh7TUm0ysww",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT151S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ Defensively, escaping the mounted crucifix presents significant challenges. The 
 The mounted crucifix also serves as an excellent teaching position for understanding control principles. It demonstrates how removing defensive tools systematically increases offensive success rates, how positional transitions can compound advantages, and how multiple threats force opponents into tactical dilemmas. These lessons extend beyond this specific position into broader strategic thinking about positional dominance and submission hunting.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pwyBJLfBbpY)
+
+<p class="clip-credit"><strong>Crucifix position overview</strong> — taught by Animal · 0:56 · <a href="https://www.youtube.com/watch?v=pwyBJLfBbpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4QlWJFhI7i8)
+
+<p class="clip-credit"><strong>No-gi mounted crucifix</strong> — taught by Esteem Jiujitsu · 2:04 · <a href="https://www.youtube.com/watch?v=4QlWJFhI7i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rh7TUm0ysww)
+
+<p class="clip-credit"><strong>Isolating the near arm in crucifix</strong> — taught by Gordon Ryan · 2:31 · <a href="https://www.youtube.com/watch?v=rh7TUm0ysww" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -145,23 +229,23 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape from Mounted Crucifix/Attacker|Hip Escape from Mounted Crucifix]]** (33% of attempts)
+- **[[Transitions/Hip Escape from Mounted Crucifix/Attacker|Hip Escape from Mounted Crucifix]]** (19% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (13% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (9% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (14% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
 
 - **[[Transitions/Explosive Bridge to Turtle/Attacker|Explosive Bridge to Turtle]]** (10% of attempts)
 
 - **[[Transitions/Arm Drag Sweep/Attacker|Arm Drag Sweep]]** (3% of attempts)
 
-- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (6% of attempts)
+- **[[Transitions/Rolling Escape to Guard/Attacker|Rolling Escape to Guard]]** (7% of attempts)
 
-- **[[Transitions/Bridge Escape from Mounted Crucifix/Attacker|Bridge Escape from Mounted Crucifix]]** (1% of attempts)
+- **[[Transitions/Bridge Escape from Mounted Crucifix/Attacker|Bridge Escape from Mounted Crucifix]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -222,35 +306,31 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (11% of attempts)
+- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (14% of attempts)
 
-- **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (8% of attempts)
+- **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (10% of attempts)
 
-- **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (9% of attempts)
-
-- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
+- **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (3% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (8% of attempts)
 
-- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (9% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (11% of attempts)
 
-- **[[Neck Crank from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (5% of attempts)
+- **[[Neck Crank from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (3% of attempts)
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (4% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (8% of attempts)
 
-- **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (8% of attempts)
+- **[[Transitions/Mounted Crucifix to S Mount/Attacker|Mounted Crucifix to S Mount]]** (11% of attempts)
 
-- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (8% of attempts)
+- **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (7% of attempts)
 
 - **[[Transitions/Back Take from Top/Attacker|Back Take from Top]]** (9% of attempts)
 
-- **[[Positions/Back Control/Seat Belt Control Back/Attacker|Seat Belt Control Back]]** (3% of attempts)
-
-- **[[Submissions/Mounted Crucifix Armbar/Attacker|Mounted Crucifix Armbar]]** (2% of attempts)
+- **[[Positions/Back Control/Seat Belt Control Back/Attacker|Seat Belt Control Back]]** (5% of attempts)
 
 - **[[Belly Down Armbar from Mounted Crucifix/Attacker|Belly Down Armbar from Mounted Crucifix]]** (3% of attempts)
 
-- **[[Mounted Crucifix Armbar from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (4% of attempts)
+- **[[Mounted Crucifix Armbar from Mounted Crucifix/Attacker|Mounted Crucifix Armbar from Mounted Crucifix]]** (8% of attempts)
 
 
 ### Common Mistakes

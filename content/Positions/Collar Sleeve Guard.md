@@ -34,6 +34,43 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Sleeve Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Intro to the collar \u0026 sleeve guard",
+      "description": "Collar Sleeve Guard film study: Intro to the collar \u0026 sleeve guard, taught by Mikey Musumeci.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1piAnOs7xpA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1piAnOs7xpA",
+      "url": "https://www.youtube.com/watch?v=1piAnOs7xpA",
+      "creator": { "@type": "Person", "name": "Mikey Musumeci" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 attacks from collar \u0026 sleeve guard",
+      "description": "Collar Sleeve Guard film study: 3 attacks from collar \u0026 sleeve guard, taught by Giancarlo Bodoni.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SehIaBibwYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SehIaBibwYY",
+      "url": "https://www.youtube.com/watch?v=SehIaBibwYY",
+      "creator": { "@type": "Person", "name": "Giancarlo Bodoni" },
+      "duration": "PT16S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +109,34 @@ In competition contexts, collar sleeve guard appears frequently in gi-based rule
 The position demands active hip movement and constant angle adjustment to remain effective. Static collar sleeve guard allows opponents to establish counter-grips and initiate guard passing sequences. Effective practitioners constantly shift angles, use their legs to create frames and off-balancing forces, and threaten multiple attacks to keep opponents defensive and reactive rather than offensive and controlling.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Sleeve Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1piAnOs7xpA)
+
+<p class="clip-credit"><strong>Intro to the collar &amp; sleeve guard</strong> — taught by Mikey Musumeci · 2:38 · <a href="https://www.youtube.com/watch?v=1piAnOs7xpA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SehIaBibwYY)
+
+<p class="clip-credit"><strong>3 attacks from collar &amp; sleeve guard</strong> — taught by Giancarlo Bodoni · 0:16 · <a href="https://www.youtube.com/watch?v=SehIaBibwYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -143,11 +208,11 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (31% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (15% of attempts)
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (11% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (9% of attempts)
 
-- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (9% of attempts)
+- **[[Transitions/Scissor Sweep/Attacker|Scissor Sweep]]** (8% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (8% of attempts)
 
@@ -155,19 +220,19 @@ The position demands active hip movement and constant angle adjustment to remain
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (6% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (0% of attempts)
 
-- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (5% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (20% of attempts)
 
-- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (4% of attempts)
+- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (0% of attempts)
 
-- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (4% of attempts)
+- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (0% of attempts)
 
-- **[[Transitions/Collar Sleeve to De La Riva/Attacker|Collar Sleeve to De La Riva]]** (3% of attempts)
+- **[[Transitions/Collar Sleeve to De La Riva/Attacker|Collar Sleeve to De La Riva]]** (9% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (3% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (16% of attempts)
 
-- **[[Transitions/Collar Sleeve Sweep/Attacker|Collar Sleeve Sweep]]** (1% of attempts)
+- **[[Transitions/Collar Sleeve Sweep/Attacker|Collar Sleeve Sweep]]** (0% of attempts)
 
 - **[[Transitions/Collar Sleeve to Spider Guard/Attacker|Collar Sleeve to Spider Guard]]** (1% of attempts)
 
@@ -230,29 +295,27 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (30% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (11% of attempts)
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (14% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
-
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (8% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (14% of attempts)
 
 - **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (8% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (8% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (12% of attempts)
 
 - **[[Transitions/X Pass/Attacker|X Pass]]** (8% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (7% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (8% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (4% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (3% of attempts)
+- **[[Transitions/Double Under Pass/Attacker|Double Under Pass]]** (5% of attempts)
 
-- **[[Transitions/Bull Pass from Collar Sleeve/Attacker|Bull Pass from Collar Sleeve]]** (1% of attempts)
+- **[[Transitions/Bull Pass from Collar Sleeve/Attacker|Bull Pass from Collar Sleeve]]** (5% of attempts)
 
-- **[[Transitions/Pass Collar Sleeve Guard/Attacker|Pass Collar Sleeve Guard]]** (1% of attempts)
+- **[[Transitions/Pass Collar Sleeve Guard/Attacker|Pass Collar Sleeve Guard]]** (7% of attempts)
 
 
 ### Common Mistakes

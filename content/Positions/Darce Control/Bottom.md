@@ -21,19 +21,19 @@ description: "Master Darce Control from bottom position in BJJ. Learn defensive 
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 27% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 20% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Door Escape",
-      "text": "From this position, attempt Back Door Escape. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Back Door Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,7 +45,7 @@ description: "Master Darce Control from bottom position in BJJ. Learn defensive 
     {
       "@type": "HowToStep",
       "name": "Execute Step Over Escape",
-      "text": "From this position, attempt Step Over Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Step Over Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
@@ -153,6 +153,54 @@ description: "Master Darce Control from bottom position in BJJ. Learn defensive 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Darce choke defense",
+      "description": "Darce Control (Bottom) film study: Darce choke defense, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
+      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Darce escape",
+      "description": "Darce Control (Bottom) film study: Darce escape, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iNZpCbutyrM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/iNZpCbutyrM",
+      "url": "https://www.youtube.com/watch?v=iNZpCbutyrM",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Darce killer: the defense you need",
+      "description": "Darce Control (Bottom) film study: Darce killer: the defense you need, taught by Malachy Friedman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rgf9QUebMWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rgf9QUebMWE",
+      "url": "https://www.youtube.com/watch?v=rgf9QUebMWE",
+      "creator": { "@type": "Person", "name": "Malachy Friedman" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From this compromised position, the defender must focus on creating space, defen
 While extremely dangerous, Darce Control Bottom is not an inescapable position. Skilled practitioners can recognize the setup early, defend critical control points, and create escape opportunities through proper technique and tactical awareness. The key is preventing the opponent from tightening the choke, maintaining neck alignment, and systematically working to recover to safer positions like turtle, half guard, or even reversing to dominant positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d1YBV8UTKds)
+
+<p class="clip-credit"><strong>Darce choke defense</strong> — taught by Animal · 0:53 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=iNZpCbutyrM)
+
+<p class="clip-credit"><strong>Darce escape</strong> — taught by Thunderdome BJJ · 0:54 · <a href="https://www.youtube.com/watch?v=iNZpCbutyrM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rgf9QUebMWE)
+
+<p class="clip-credit"><strong>Darce killer: the defense you need</strong> — taught by Malachy Friedman · 1:18 · <a href="https://www.youtube.com/watch?v=rgf9QUebMWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -327,7 +411,7 @@ Partner holds Darce Control position with moderate resistance. Practice each esc
 ## Related Positions and Techniques
 
 - **[[Positions/Darce Control]]** - Hub position covering both perspectives
-- **[[Transitions/Darce Choke]]** - Primary submission threat from this position
+- **[[Submissions/Darce Choke]]** - Primary submission threat from this position
 - **[[Positions/Turtle]]** - Common entry position and primary escape target
 - **[[Positions/Front Headlock]]** - Related defensive position with similar escape mechanics
 - **[[Positions/Anaconda Control]]** - Similar choke defense position with overlapping escape strategies

@@ -174,6 +174,43 @@ description: "Learn systematic pressure passing through Squid Guard. Step-by-ste
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pressure Through Squid Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modern lapel guard passing",
+      "description": "Pressure Through Squid Guard (Attacker) film study: Modern lapel guard passing, taught by Romulo Barral.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lACga4DakTM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lACga4DakTM",
+      "url": "https://www.youtube.com/watch?v=lACga4DakTM",
+      "creator": { "@type": "Person", "name": "Romulo Barral" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking the double lapel guard to pass",
+      "description": "Pressure Through Squid Guard (Attacker) film study: Breaking the double lapel guard to pass, taught by JitzLive.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eK-ZqVsQQCI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eK-ZqVsQQCI",
+      "url": "https://www.youtube.com/watch?v=eK-ZqVsQQCI",
+      "creator": { "@type": "Person", "name": "JitzLive" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The attacker in Pressure Through Squid Guard is the top player who employs susta
 **From Position**: [[Positions/Squid Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pressure Through Squid Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lACga4DakTM)
+
+<p class="clip-credit"><strong>Modern lapel guard passing</strong> — taught by Romulo Barral · 2:01 · <a href="https://www.youtube.com/watch?v=lACga4DakTM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eK-ZqVsQQCI)
+
+<p class="clip-credit"><strong>Breaking the double lapel guard to pass</strong> — taught by JitzLive · 1:56 · <a href="https://www.youtube.com/watch?v=eK-ZqVsQQCI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -277,73 +277,209 @@
     "transitions": [
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 28
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 11
+        }
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 18
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 9
+        }
       },
       {
         "transition": "Americana from Reverse Scarf Hold",
-        "attempt_probability": 11
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 8
+        }
       },
       {
         "transition": "Kimura from Reverse Scarf Hold",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Back Step",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 7
+        }
       },
       {
         "transition": "Arm Triangle from Reverse Scarf Hold",
-        "attempt_probability": 9
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 11
+        }
       },
       {
         "transition": "Reverse Scarf to North-South",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Reverse Scarf to Side Control",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 16
+        }
       },
       {
         "transition": "North-South Choke from Reverse Scarf",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 10
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the essential hip positioning for maintaining control in Reverse Scarf Hold Top?",
-        "answer": "Your hip bone must make direct contact with the opponent's sternum area, driving heavy downward pressure through your body weight rather than muscular effort. The hip should be positioned low on their chest with your weight distributed through your hip and chest simultaneously. This creates crushing chest compression that restricts their breathing and severely limits their ability to generate bridging power for escapes."
+        "answer": "Your hip bone must make direct contact with the opponent's sternum area, driving heavy downward pressure through your body weight rather than muscular effort. The hip should be positioned low on their chest with your weight distributed through your hip and chest simultaneously. This creates crushing chest compression that restricts their breathing and severely limits their ability to generate bridging power for escapes.",
+        "answer_line": "Hip bone driving into sternum",
+        "distractors": {
+          "plausible": [
+            "Push down using arm strength",
+            "Weight spread evenly, not hips"
+          ],
+          "trap": [
+            "Sit back to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent starts turning their hips away from you while trapped in Reverse Scarf Hold - what adjustment do you make?",
-        "answer": "When the opponent begins turning away, immediately recognize this as a back take opportunity rather than fighting to maintain the reverse scarf hold. Follow their rotation by walking your feet toward their back, transitioning to back control as they expose their back. Maintain the arm trap during the transition to prevent them from posting or recovering. Their escape attempt becomes your advancement opportunity."
+        "answer": "When the opponent begins turning away, immediately recognize this as a back take opportunity rather than fighting to maintain the reverse scarf hold. Follow their rotation by walking your feet toward their back, transitioning to back control as they expose their back. Maintain the arm trap during the transition to prevent them from posting or recovering. Their escape attempt becomes your advancement opportunity.",
+        "answer_line": "Follow rotation to back control",
+        "distractors": {
+          "plausible": [
+            "Fight to reset scarf hold",
+            "Switch base, stay in scarf"
+          ],
+          "trap": [
+            "Release arm trap, chase legs"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Reverse Scarf Hold Top?",
-        "answer": "The primary grip is your near arm hugging their trapped arm tightly across their torso, pulling their near arm across their body toward their far side. Your far hand should control their far side (gripping their far hip, belt, or gi material) to prevent them from rotating or extracting their arm. The combination of these two grips creates a closed system that eliminates their primary defensive framing options while setting up submission attacks."
+        "answer": "The primary grip is your near arm hugging their trapped arm tightly across their torso, pulling their near arm across their body toward their far side. Your far hand should control their far side (gripping their far hip, belt, or gi material) to prevent them from rotating or extracting their arm. The combination of these two grips creates a closed system that eliminates their primary defensive framing options while setting up submission attacks.",
+        "answer_line": "Trap near arm, control far hip",
+        "distractors": {
+          "plausible": [
+            "Underhook far arm, grip near hip",
+            "Both hands on the trapped arm"
+          ],
+          "trap": [
+            "Release far grip to switch base"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary bridge escape attempt?",
-        "answer": "The primary defense against bridging is maintaining low hip position with wide leg base. When you feel a bridge initiating, immediately widen your base by extending your far leg further while keeping your near leg posted. Drop your hip weight even lower onto their chest and turn your hips slightly toward the direction of their bridge. This distributes your weight across a wider base and makes their bridge ineffective. If the bridge is powerful, use their upward energy to transition to mount."
+        "answer": "The primary defense against bridging is maintaining low hip position with wide leg base. When you feel a bridge initiating, immediately widen your base by extending your far leg further while keeping your near leg posted. Drop your hip weight even lower onto their chest and turn your hips slightly toward the direction of their bridge. This distributes your weight across a wider base and makes their bridge ineffective. If the bridge is powerful, use their upward energy to transition to mount.",
+        "answer_line": "Widen base, drop hips lower",
+        "distractors": {
+          "plausible": [
+            "Post both hands and rise up",
+            "Narrow base, sprawl hips back"
+          ],
+          "trap": [
+            "Push off their chest to reset"
+          ]
+        }
       },
       {
         "question": "What grip priority should you maintain when the opponent begins extracting their trapped arm?",
-        "answer": "When the opponent attempts to extract their arm, your first priority is pulling their arm back across their body with your near arm while simultaneously attacking with a submission grip. If they extend the arm during extraction, immediately transition to kimura grip by releasing your far-side control and securing figure-four on the escaping arm. The arm extraction attempt should trigger an immediate submission attack rather than a pure control battle."
+        "answer": "When the opponent attempts to extract their arm, your first priority is pulling their arm back across their body with your near arm while simultaneously attacking with a submission grip. If they extend the arm during extraction, immediately transition to kimura grip by releasing your far-side control and securing figure-four on the escaping arm. The arm extraction attempt should trigger an immediate submission attack rather than a pure control battle.",
+        "answer_line": "Pull arm back, attack kimura",
+        "distractors": {
+          "plausible": [
+            "Chase arm across their body",
+            "Hold both grips, wait passively"
+          ],
+          "trap": [
+            "Release far-side control fully"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges explosively and nearly rolls you - what is the correct recovery?",
-        "answer": "If the bridge nearly succeeds, ride their momentum by transitioning to mount rather than fighting back to reverse scarf hold. As they bridge upward, step your near leg over their body toward mount position and allow their energy to carry you into the mount transition. This converts their escape attempt into your positional advancement. Never fight directly against a powerful bridge when a transition opportunity exists."
+        "answer": "If the bridge nearly succeeds, ride their momentum by transitioning to mount rather than fighting back to reverse scarf hold. As they bridge upward, step your near leg over their body toward mount position and allow their energy to carry you into the mount transition. This converts their escape attempt into your positional advancement. Never fight directly against a powerful bridge when a transition opportunity exists.",
+        "answer_line": "Ride bridge, step to mount",
+        "distractors": {
+          "plausible": [
+            "Fight bridge, reset scarf hold",
+            "Sprawl hips to stop rotation"
+          ],
+          "trap": [
+            "Push down hard against bridge"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining Reverse Scarf Hold?",
-        "answer": "Energy management requires using skeletal structure and body weight rather than muscular effort. Your hip bone creates pressure through gravity, not pushing. Your arm trap maintains tension through grip positioning, not squeezing. Your base uses wide leg position for stability, not muscular engagement. When you feel yourself tensing muscles to maintain control, immediately adjust your positioning to restore structural pressure. The position should feel effortless when properly established."
+        "answer": "Energy management requires using skeletal structure and body weight rather than muscular effort. Your hip bone creates pressure through gravity, not pushing. Your arm trap maintains tension through grip positioning, not squeezing. Your base uses wide leg position for stability, not muscular engagement. When you feel yourself tensing muscles to maintain control, immediately adjust your positioning to restore structural pressure. The position should feel effortless when properly established.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze the arm trap tighter",
+            "Push your hips down harder"
+          ],
+          "trap": [
+            "Grip and muscle through fatigue"
+          ]
+        }
       },
       {
         "question": "What is the recovery sequence after an opponent creates a frame and begins escaping?",
-        "answer": "When frames become effective and space opens, immediately transition rather than fighting to recapture reverse scarf hold. First option is stepping to mount if their bridge created forward space. Second option is transitioning to north-south if they created lateral space. Third option is following to back control if they turn away. The key is recognizing that reverse scarf hold is transitional - when control deteriorates, advance rather than recover the same position."
+        "answer": "When frames become effective and space opens, immediately transition rather than fighting to recapture reverse scarf hold. First option is stepping to mount if their bridge created forward space. Second option is transitioning to north-south if they created lateral space. Third option is following to back control if they turn away. The key is recognizing that reverse scarf hold is transitional - when control deteriorates, advance rather than recover the same position.",
+        "answer_line": "Advance position, don't refight",
+        "distractors": {
+          "plausible": [
+            "Reset arm trap immediately",
+            "Widen base and wait it out"
+          ],
+          "trap": [
+            "Fight to recapture scarf hold"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "waWC7ARiESc",
+        "title": "Kimura from Reverse Kesa Gatame",
+        "by": "Raymond Tan",
+        "vertical": false,
+        "channel": "BJJ Cheat Codes by Raymond Tan",
+        "duration": 170,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "SBapox2M2dE",
+        "title": "Ushiro-Kesa-Gatame demonstration",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 54,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "5POG6rDBVLM",
+        "title": "Reverse Kesa arm attack roll-over",
+        "by": "Carlos Machado",
+        "vertical": false,
+        "channel": "Carlos Machado",
+        "duration": 113,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -563,74 +699,344 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 31
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 15
+        }
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 16,
+          "nogi": 15
+        }
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 9
+        }
       },
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 14
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Escape Reverse Scarf Hold",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Frame from Reverse Scarf Hold",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Bridge Escape from Reverse Scarf Hold",
-        "attempt_probability": 1
+        "attempt_probability": {
+          "gi": 8,
+          "nogi": 8
+        }
       }
     ],
     "flashcards": [
       {
         "question": "What is the first priority when you find yourself in Reverse Scarf Hold Bottom?",
-        "answer": "The first priority is survival through breath control and protecting your near-side arm. Focus on diaphragmatic breathing despite chest compression to prevent panic. Immediately bring your near-side elbow tight to your ribs with your hand near your opposite shoulder to prevent arm isolation for kimura or americana attacks. Only after establishing defensive breathing and arm protection should you begin working on escape sequences."
+        "answer": "The first priority is survival through breath control and protecting your near-side arm. Focus on diaphragmatic breathing despite chest compression to prevent panic. Immediately bring your near-side elbow tight to your ribs with your hand near your opposite shoulder to prevent arm isolation for kimura or americana attacks. Only after establishing defensive breathing and arm protection should you begin working on escape sequences.",
+        "answer_line": "Breathe calm, elbow tight in",
+        "distractors": {
+          "plausible": [
+            "Bridge immediately for space",
+            "Frame far arm, ignore near arm"
+          ],
+          "trap": [
+            "Push their hips off first"
+          ]
+        }
       },
       {
         "question": "Your opponent starts isolating your near arm for a kimura - what is the immediate defensive response?",
-        "answer": "When you feel the kimura grip being established, immediately turn your body toward the attacking arm (rotating your torso toward your trapped arm), which decreases the angle available for the submission. Simultaneously pull your elbow back toward your hip and try to straighten your arm while bridging to create space. If possible, grab your own belt, gi, or shorts to prevent arm separation. The key is addressing the attack immediately before they secure the figure-four grip."
+        "answer": "When you feel the kimura grip being established, immediately turn your body toward the attacking arm (rotating your torso toward your trapped arm), which decreases the angle available for the submission. Simultaneously pull your elbow back toward your hip and try to straighten your arm while bridging to create space. If possible, grab your own belt, gi, or shorts to prevent arm separation. The key is addressing the attack immediately before they secure the figure-four grip.",
+        "answer_line": "Turn into arm, grab own gi",
+        "distractors": {
+          "plausible": [
+            "Turn away, bridge for space",
+            "Straighten arm, pull back only"
+          ],
+          "trap": [
+            "Push their head away to escape"
+          ]
+        }
       },
       {
         "question": "What are the essential frames for creating escape space from Reverse Scarf Hold Bottom?",
-        "answer": "The primary frame is your far-side arm positioned against the opponent's neck, shoulder, or hip depending on their positioning. This frame should use skeletal structure (forearm perpendicular to their body) rather than pushing with muscle strength. Your near-side arm, when not defending submissions, can frame on their hip to prevent them from settling their weight further onto your chest. These frames create the space necessary for hip escape mechanics."
+        "answer": "The primary frame is your far-side arm positioned against the opponent's neck, shoulder, or hip depending on their positioning. This frame should use skeletal structure (forearm perpendicular to their body) rather than pushing with muscle strength. Your near-side arm, when not defending submissions, can frame on their hip to prevent them from settling their weight further onto your chest. These frames create the space necessary for hip escape mechanics.",
+        "answer_line": "Far arm frames neck or hip",
+        "distractors": {
+          "plausible": [
+            "Near arm frames their far hip",
+            "Both arms push on their chest"
+          ],
+          "trap": [
+            "Release frames, bridge blindly"
+          ]
+        }
       },
       {
         "question": "How do you shut down the opponent's primary advancement to mount?",
-        "answer": "When you feel the opponent attempting to step over to mount, immediately turn your hips toward them and insert your near-side knee between your bodies as a shield. This knee insertion must happen before their leg clears your body. Simultaneously push on their hip with your far-side frame to create separation. If they begin the step-over, use that moment of weight shift to execute a hip escape toward their back, potentially recovering half guard or creating reversal opportunity."
+        "answer": "When you feel the opponent attempting to step over to mount, immediately turn your hips toward them and insert your near-side knee between your bodies as a shield. This knee insertion must happen before their leg clears your body. Simultaneously push on their hip with your far-side frame to create separation. If they begin the step-over, use that moment of weight shift to execute a hip escape toward their back, potentially recovering half guard or creating reversal opportunity.",
+        "answer_line": "Insert near knee as shield",
+        "distractors": {
+          "plausible": [
+            "Bridge hard as leg comes over",
+            "Push far frame, ignore knee"
+          ],
+          "trap": [
+            "Turn away from the step-over"
+          ]
+        }
       },
       {
         "question": "What grip priority should you maintain when the opponent reaches for a submission attempt?",
-        "answer": "When the opponent reaches for a submission, they temporarily compromise their base and weight distribution. Your priority is using this window to either defend the specific submission or initiate your escape. For arm attacks, immediately address the grip before it locks. For transitions, use their weight shift to bridge and create space. The key is recognizing that their attack attempt is your escape opportunity - maintain defensive arm position while capitalizing on their compromised base."
+        "answer": "When the opponent reaches for a submission, they temporarily compromise their base and weight distribution. Your priority is using this window to either defend the specific submission or initiate your escape. For arm attacks, immediately address the grip before it locks. For transitions, use their weight shift to bridge and create space. The key is recognizing that their attack attempt is your escape opportunity - maintain defensive arm position while capitalizing on their compromised base.",
+        "answer_line": "Defend grip, exploit their base",
+        "distractors": {
+          "plausible": [
+            "Ignore attack, bridge blindly",
+            "Wait passively for release"
+          ],
+          "trap": [
+            "Yank arm free, expose back"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions toward north-south - what is the correct defensive response?",
-        "answer": "As they begin moving toward north-south, their weight necessarily shifts off your chest, creating space. Immediately follow their movement with your hips by turning to face them and inserting your knees between your bodies. As they complete the transition, work to establish open guard frames before they can consolidate north-south control. The transition moment is often easier to escape than either stable position, so act immediately when you feel the weight shift."
+        "answer": "As they begin moving toward north-south, their weight necessarily shifts off your chest, creating space. Immediately follow their movement with your hips by turning to face them and inserting your knees between your bodies. As they complete the transition, work to establish open guard frames before they can consolidate north-south control. The transition moment is often easier to escape than either stable position, so act immediately when you feel the weight shift.",
+        "answer_line": "Follow with hips, insert knees",
+        "distractors": {
+          "plausible": [
+            "Stay still, wait for settle",
+            "Bridge upward as they move"
+          ],
+          "trap": [
+            "Turn away, expose your back"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while defending Reverse Scarf Hold?",
-        "answer": "Energy management requires recognizing the difference between effective effort and wasted movement. Explosive bridging without setup is wasted energy. Pushing with arms against their weight is wasted energy. Effective effort includes controlled breathing, maintaining structural frames that don't require muscular effort, and timing explosive movements for when opponent's base is compromised. Accept that you may need to survive 30-60 seconds before an escape opportunity presents itself."
+        "answer": "Energy management requires recognizing the difference between effective effort and wasted movement. Explosive bridging without setup is wasted energy. Pushing with arms against their weight is wasted energy. Effective effort includes controlled breathing, maintaining structural frames that don't require muscular effort, and timing explosive movements for when opponent's base is compromised. Accept that you may need to survive 30-60 seconds before an escape opportunity presents itself.",
+        "answer_line": "Time bursts, breathe calm",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively right away",
+            "Push arms hard against weight"
+          ],
+          "trap": [
+            "Muscle out immediately, no setup"
+          ]
+        }
       },
       {
         "question": "What is the recovery sequence after you create space but fail to complete the escape?",
-        "answer": "After creating space without completing the escape, immediately re-establish your defensive frames before the opponent can recapture full control. Reset your near-side arm to protected position (elbow tight, hand near opposite shoulder). Re-establish your far-side frame against their neck or shoulder. Use the remaining space to adjust your hip angle for the next escape attempt. Don't abandon frames to immediately attempt another escape - reset your defensive structure first, then look for the next opportunity."
+        "answer": "After creating space without completing the escape, immediately re-establish your defensive frames before the opponent can recapture full control. Reset your near-side arm to protected position (elbow tight, hand near opposite shoulder). Re-establish your far-side frame against their neck or shoulder. Use the remaining space to adjust your hip angle for the next escape attempt. Don't abandon frames to immediately attempt another escape - reset your defensive structure first, then look for the next opportunity.",
+        "answer_line": "Reset frames before next try",
+        "distractors": {
+          "plausible": [
+            "Immediately attempt escape again",
+            "Release arm, chase new frame"
+          ],
+          "trap": [
+            "Bridge again without resetting"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "ORpUBUxK1QE",
+        "title": "Reverse Kesa escape to back take & choke",
+        "by": "Gymnanigains",
+        "vertical": false,
+        "channel": "Gymnanigains",
+        "duration": 26,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "hXp34AtDjac",
+        "title": "Reverse scarf hold escape (twister side control)",
+        "by": "Black Dragon BJJ",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 291,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What body orientation defines Reverse Scarf Hold and distinguishes it from traditional Kesa Gatame?",
+      "answer": "In Reverse Scarf Hold (Ushiro Kesa Gatame) the top player sits chest-down facing toward the bottom player's legs and hips, whereas traditional Kesa Gatame faces toward the head. This reversal inverts the vector of pressure so weight drives through the sternum and ribcage along a head-to-hip axis rather than from a head-side headlock. The trade-off is universal to the position: the top player sacrifices vision of and control over the opponent's head in exchange for heavier chest compression and a cleaner line to the near arm. Because the facing is flipped, escape and control patterns learned for standard scarf hold do not transfer, which is what makes the configuration mechanically distinct.",
+      "answer_line": "Faces hips, not the head",
+      "distractors": {
+        "plausible": [
+          "Faces head, like standard scarf",
+          "Sits perpendicular across chest"
+        ],
+        "trap": [
+          "Faces same way as kesa gatame"
+        ]
+      }
+    },
+    {
+      "question": "Where is the primary pressure applied in Reverse Scarf Hold and through what structure?",
+      "answer": "The defining pressure runs downward through the top player's hip bone and chest onto the opponent's sternum and upper ribcage, not through the arms or hands. This skeletal, weight-driven compression restricts the bottom player's breathing and pins the shoulders flat to the mat. Because the load comes from body mass rather than muscular pushing, it is sustainable for the top player and exhausting for the bottom player to fight. The contact point on the sternum is the fulcrum around which every control and escape battle in the position revolves.",
+      "answer_line": "Hip and chest crush sternum",
+      "distractors": {
+        "plausible": [
+          "Forearm pins across the neck",
+          "Shoulder drives into their jaw"
+        ],
+        "trap": [
+          "Push down using hands and arms"
+        ]
+      }
+    },
+    {
+      "question": "Why is control of the bottom player's near arm the keystone of Reverse Scarf Hold?",
+      "answer": "The near arm is trapped and pulled across the bottom player's own torso toward their far side, hugged tight by the top player's near arm. This eliminates the bottom player's primary defensive frame and exposes the elbow and shoulder, so whoever wins the fight over this arm largely controls the position. If the arm stays trapped the pin holds and attacks loom; if it is extracted the bottom player recovers a frame and the position begins to collapse. Arm isolation versus arm recovery is therefore the shared axis of conflict that both players organize their game around.",
+      "answer_line": "Trap near arm across torso",
+      "distractors": {
+        "plausible": [
+          "Control far arm across torso",
+          "Pin near leg to stop hip escape"
+        ],
+        "trap": [
+          "Release near arm to isolate far"
+        ]
+      }
+    },
+    {
+      "question": "Why is a wide leg base critical to the mechanics of Reverse Scarf Hold?",
+      "answer": "The top player configures a wide base with the near leg posted and the far leg extended, creating a broad triangular footprint against bridging force. Because the reverse orientation removes the head-side anchor that stabilizes traditional scarf hold, base width becomes the main defense against being rolled. A narrow base lets the bottom player generate rotational bridging power that tips the top player over, while a wide base disperses that force across multiple contact points. This shared dynamic means bridge angle versus base width is the decisive stability contest in the position.",
+      "answer_line": "Wide base disperses bridge force",
+      "distractors": {
+        "plausible": [
+          "Narrow base for mobility",
+          "Cross ankles to lock position"
+        ],
+        "trap": [
+          "Stand up to add base width"
+        ]
+      }
+    },
+    {
+      "question": "Why is Reverse Scarf Hold considered a transitional position rather than a stable long-term pin?",
+      "answer": "The reverse facing that grants heavy chest pressure also leaves the top player unable to see or control the opponent's head, so any sustained escape attempt opens a clear window to advance or lose the position. Control tends to deteriorate as the bottom player creates frames and hip angles, pushing the exchange toward mount, north-south, back control, or guard recovery rather than a static hold. The position is most valuable in the moment of capture and least valuable once both players settle. This transitional character is intrinsic to the configuration and shapes decision-making for both players.",
+      "answer_line": "Advance when control fades",
+      "distractors": {
+        "plausible": [
+          "Hold static pin indefinitely",
+          "Retreat to guard when pressured"
+        ],
+        "trap": [
+          "Fight to freeze the position"
+        ]
+      }
+    },
+    {
+      "question": "How does the direction of an effective bridge differ in Reverse Scarf Hold compared to a straight vertical bridge?",
+      "answer": "Because the pressure vector runs along a head-to-hip axis, a straight upward bridge feeds directly into the top player's base and is easily absorbed. Effective off-balancing instead requires bridging at an angle toward the opponent's head or legs while combining the bridge with hip rotation to attack the seams of the wide base. The reverse orientation is specifically resistant to vertical elevation, so linear force wastes energy for the bottom player and is trivially countered by the top player. Angle and rotation, not height, determine whether a bridge threatens the position.",
+      "answer_line": "Angle bridge with hip rotation",
+      "distractors": {
+        "plausible": [
+          "Bridge straight up hard",
+          "Bridge sideways without rotation"
+        ],
+        "trap": [
+          "Push their head down first"
+        ]
+      }
+    },
+    {
+      "question": "Which adjacent positions does Reverse Scarf Hold most commonly flow between, and why?",
+      "answer": "Reverse Scarf Hold is typically entered from side control when the bottom player turns in, and it drains toward north-south, mount, back control, half guard, or turtle as the exchange resolves. These connections exist because the reverse facing sits geometrically between side control and north-south, and because the bottom player's escape direction dictates where the position exits. Turning away exposes the back, bridging forward opens mount, and framing to recover opens half guard. This map of neighbors is shared knowledge that lets both players anticipate the next state rather than treating the position in isolation.",
+      "answer_line": "Flows to mount, back, north-south",
+      "distractors": {
+        "plausible": [
+          "Only flows back to side control",
+          "Leads directly to closed guard"
+        ],
+        "trap": [
+          "Always ends in a submission"
+        ]
+      }
+    },
+    {
+      "question": "What breathing and pacing dynamic does the sternum compression create for both players in Reverse Scarf Hold?",
+      "answer": "The hip-and-chest load on the sternum directly restricts the bottom player's lung expansion, making deep or panicked breathing both difficult and counterproductive because it feeds tension and burns oxygen. This forces the bottom player toward calm diaphragmatic breathing and patient, timed movement rather than explosive thrashing. For the top player the same compression means control is maintained through relaxed structural weight rather than a muscular squeeze, so the position rewards composure on both sides. The compression therefore sets a slow, endurance-and-timing tempo that is characteristic of the position regardless of which player you are.",
+      "answer_line": "Calm breathing, patient timing",
+      "distractors": {
+        "plausible": [
+          "Fast shallow breaths to recover",
+          "Explosive thrashing early"
+        ],
+        "trap": [
+          "Hold breath and muscle out"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "SBapox2M2dE",
+      "title": "Ushiro-Kesa-Gatame demonstration",
+      "by": "Kodokan",
+      "vertical": false,
+      "channel": "KODOKAN",
+      "duration": 54,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "xmjVYNiEz98",
+      "title": "Ushiro Kesa Gatame (Kyushin Ryu)",
+      "by": "Kyushin Ryu School",
+      "vertical": false,
+      "channel": "Kyushin Ryu School of Jujitsu",
+      "duration": 65,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "ipCRN0himVA",
+      "title": "Kenji Shibayama: Ushiro Kesa Gatame",
+      "by": "Kenji Shibayama",
+      "vertical": false,
+      "channel": "Judo Newaza - Old School",
+      "duration": 68,
+      "verified": "2026-07-14"
+    }
+  ]
 }

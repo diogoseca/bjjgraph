@@ -148,6 +148,43 @@ description: "How to defend against Inside Position Recovery in BJJ. Maintain le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Position Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Knee Shield",
+      "description": "Inside Position Recovery (Defender) film study: Passing the Knee Shield, taught by Xande Ribeiro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YOtbjz8qBDI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YOtbjz8qBDI",
+      "url": "https://www.youtube.com/watch?v=YOtbjz8qBDI",
+      "creator": { "@type": "Person", "name": "Xande Ribeiro" },
+      "duration": "PT263S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toreando Pass with Leg Drag",
+      "description": "Inside Position Recovery (Defender) film study: Toreando Pass with Leg Drag, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1l5WTjjtrF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1l5WTjjtrF4",
+      "url": "https://www.youtube.com/watch?v=1l5WTjjtrF4",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT452S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Your defensive strategy centers on constant forward pressure through your should
 **Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Position Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YOtbjz8qBDI)
+
+<p class="clip-credit"><strong>Passing the Knee Shield</strong> — taught by Xande Ribeiro · 4:23 · <a href="https://www.youtube.com/watch?v=YOtbjz8qBDI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1l5WTjjtrF4)
+
+<p class="clip-credit"><strong>Toreando Pass with Leg Drag</strong> — taught by Lachlan Giles · 7:32 · <a href="https://www.youtube.com/watch?v=1l5WTjjtrF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

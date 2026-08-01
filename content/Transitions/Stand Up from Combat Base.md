@@ -34,6 +34,43 @@ description: "Master the stand up from combat base in BJJ. Complete guide to saf
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stand Up from Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to stand up in base from the ground",
+      "description": "Stand Up from Combat Base film study: How to stand up in base from the ground, taught by Chris Savarese.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S0rB1ddNifk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S0rB1ddNifk",
+      "url": "https://www.youtube.com/watch?v=S0rB1ddNifk",
+      "creator": { "@type": "Person", "name": "Chris Savarese" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sit-up to combat base fundamentals",
+      "description": "Stand Up from Combat Base film study: Sit-up to combat base fundamentals, taught by CORE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gkbiBCuP9AM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gkbiBCuP9AM",
+      "url": "https://www.youtube.com/watch?v=gkbiBCuP9AM",
+      "creator": { "@type": "Person", "name": "CORE MMA" },
+      "duration": "PT72S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This transition is most effective when the opponent creates distance with their 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stand Up from Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S0rB1ddNifk)
+
+<p class="clip-credit"><strong>How to stand up in base from the ground</strong> — taught by Chris Savarese · 1:14 · <a href="https://www.youtube.com/watch?v=S0rB1ddNifk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gkbiBCuP9AM)
+
+<p class="clip-credit"><strong>Sit-up to combat base fundamentals</strong> — taught by CORE MMA · 1:12 · <a href="https://www.youtube.com/watch?v=gkbiBCuP9AM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -148,6 +148,43 @@ description: "Complete guide to defending the Stack Pass while maintaining Missi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass from Mission Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mission control to zombie and double bag",
+      "description": "Stack Pass from Mission Control (Defender) film study: Mission control to zombie and double bag, taught by 10th Planet Orange Park.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5fJM5bIk8Fw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5fJM5bIk8Fw",
+      "url": "https://www.youtube.com/watch?v=5fJM5bIk8Fw",
+      "creator": { "@type": "Person", "name": "10th Planet Orange Park" },
+      "duration": "PT108S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Prison guard breakdown",
+      "description": "Stack Pass from Mission Control (Defender) film study: Prison guard breakdown, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gFYyMkaMz34/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gFYyMkaMz34",
+      "url": "https://www.youtube.com/watch?v=gFYyMkaMz34",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT59S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Stack Pass from Mission Control, you are the bottom 
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass from Mission Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5fJM5bIk8Fw)
+
+<p class="clip-credit"><strong>Mission control to zombie and double bag</strong> — taught by 10th Planet Orange Park · 1:48 · <a href="https://www.youtube.com/watch?v=5fJM5bIk8Fw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gFYyMkaMz34)
+
+<p class="clip-credit"><strong>Prison guard breakdown</strong> — taught by Eddie Bravo · 0:59 · <a href="https://www.youtube.com/watch?v=gFYyMkaMz34" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

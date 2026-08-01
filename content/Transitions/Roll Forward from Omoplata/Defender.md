@@ -140,6 +140,43 @@ description: "Complete guide to defending the Roll Forward from Omoplata. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Forward from Omoplata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata Escape: Jump Over",
+      "description": "Roll Forward from Omoplata (Defender) film study: Omoplata Escape: Jump Over, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_2dhd21ffbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_2dhd21ffbc",
+      "url": "https://www.youtube.com/watch?v=_2dhd21ffbc",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT8S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Best Way to Escape the Omoplata Shoulder Lock",
+      "description": "Roll Forward from Omoplata (Defender) film study: Best Way to Escape the Omoplata Shoulder Lock, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Roll Forward from Omoplata, you are the person caugh
 **Opponent's Starting Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Forward from Omoplata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_2dhd21ffbc)
+
+<p class="clip-credit"><strong>Omoplata Escape: Jump Over</strong> — taught by Ritchie Yip · 0:08 · <a href="https://www.youtube.com/watch?v=_2dhd21ffbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>Best Way to Escape the Omoplata Shoulder Lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

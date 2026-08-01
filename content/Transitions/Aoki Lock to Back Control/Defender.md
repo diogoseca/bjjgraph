@@ -148,6 +148,43 @@ description: "How to defend against Aoki Lock to Back Control in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock to Back Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back escape against the seatbelt grip",
+      "description": "Aoki Lock to Back Control (Defender) film study: Back escape against the seatbelt grip, taught by Skyhook Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/djhMEfVZozo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/djhMEfVZozo",
+      "url": "https://www.youtube.com/watch?v=djhMEfVZozo",
+      "creator": { "@type": "Person", "name": "Skyhook Martial Arts" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back escape detail: no seat belt grip",
+      "description": "Aoki Lock to Back Control (Defender) film study: Back escape detail: no seat belt grip, taught by Elements Martial Arts Brighton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cfvNAYrogwQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cfvNAYrogwQ",
+      "url": "https://www.youtube.com/watch?v=cfvNAYrogwQ",
+      "creator": { "@type": "Person", "name": "Elements Martial Arts Brighton" },
+      "duration": "PT118S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Defensive success depends on recognizing the transition early through tactile cu
 **Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock to Back Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=djhMEfVZozo)
+
+<p class="clip-credit"><strong>Back escape against the seatbelt grip</strong> — taught by Skyhook Martial Arts · 0:36 · <a href="https://www.youtube.com/watch?v=djhMEfVZozo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cfvNAYrogwQ)
+
+<p class="clip-credit"><strong>Back escape detail: no seat belt grip</strong> — taught by Elements Martial Arts Brighton · 1:58 · <a href="https://www.youtube.com/watch?v=cfvNAYrogwQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

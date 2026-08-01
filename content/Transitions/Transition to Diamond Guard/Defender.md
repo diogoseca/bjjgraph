@@ -148,6 +148,43 @@ description: "Master defending the transition to Diamond Guard. Recognize overho
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Transition to Diamond Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Common mistake made by guard players",
+      "description": "Transition to Diamond Guard (Defender) film study: Common mistake made by guard players, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jx120fTdOfA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jx120fTdOfA",
+      "url": "https://www.youtube.com/watch?v=jx120fTdOfA",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Overhook defense from inside closed guard",
+      "description": "Transition to Diamond Guard (Defender) film study: Overhook defense from inside closed guard, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wgxNQuUfDBM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wgxNQuUfDBM",
+      "url": "https://www.youtube.com/watch?v=wgxNQuUfDBM",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender against the Transition to Diamond Guard, your objective is to pr
 **Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Transition to Diamond Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jx120fTdOfA)
+
+<p class="clip-credit"><strong>Common mistake made by guard players</strong> — taught by Rickson Gracie · 0:58 · <a href="https://www.youtube.com/watch?v=jx120fTdOfA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wgxNQuUfDBM)
+
+<p class="clip-credit"><strong>Overhook defense from inside closed guard</strong> — taught by Unknown · 1:01 · <a href="https://www.youtube.com/watch?v=wgxNQuUfDBM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -170,6 +170,54 @@ description: "Complete guide to finishing the Rear Naked Choke from Rear Triangl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Naked Choke from Rear Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short Choke from Back Position",
+      "description": "Rear Naked Choke from Rear Triangle (Attacker) film study: Short Choke from Back Position, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sb-atqD_TqQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Sb-atqD_TqQ",
+      "url": "https://www.youtube.com/watch?v=Sb-atqD_TqQ",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Take and Rear Naked Choke",
+      "description": "Rear Naked Choke from Rear Triangle (Attacker) film study: Back Take and Rear Naked Choke, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F5o8VrMw1SE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F5o8VrMw1SE",
+      "url": "https://www.youtube.com/watch?v=F5o8VrMw1SE",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT27S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Entries Into Rear Triangle Back Position",
+      "description": "Rear Naked Choke from Rear Triangle (Attacker) film study: Entries Into Rear Triangle Back Position, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMabjvtaLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMabjvtaLk",
+      "url": "https://www.youtube.com/watch?v=-lMabjvtaLk",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ Attacking with the RNC from rear triangle is fundamentally different from a stan
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Naked Choke from Rear Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Sb-atqD_TqQ)
+
+<p class="clip-credit"><strong>Short Choke from Back Position</strong> — taught by Cosens MMA · 0:55 · <a href="https://www.youtube.com/watch?v=Sb-atqD_TqQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F5o8VrMw1SE)
+
+<p class="clip-credit"><strong>Back Take and Rear Naked Choke</strong> — taught by Dr. Deng · 0:27 · <a href="https://www.youtube.com/watch?v=F5o8VrMw1SE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMabjvtaLk)
+
+<p class="clip-credit"><strong>Entries Into Rear Triangle Back Position</strong> — taught by John Danaher · 4:12 · <a href="https://www.youtube.com/watch?v=-lMabjvtaLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

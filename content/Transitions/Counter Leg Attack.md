@@ -34,6 +34,43 @@ description: "Learn Counter Leg Attack from Inside Sankaku Bottom. Turn defense 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Leg Attack \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inside sankaku counter with inside ashi dive",
+      "description": "Counter Leg Attack film study: Inside sankaku counter with inside ashi dive, taught by Combat by the Minute.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7Uc1sEPs5hw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7Uc1sEPs5hw",
+      "url": "https://www.youtube.com/watch?v=7Uc1sEPs5hw",
+      "creator": { "@type": "Person", "name": "Combat by the Minute" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Outside heel hook defense into inside heel hook",
+      "description": "Counter Leg Attack film study: Outside heel hook defense into inside heel hook, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The technique requires precise timing and understanding of when the opponent's f
 Strategically, the Counter Leg Attack should be viewed as a last-resort option when standard escapes have failed or when you possess superior leg lock finishing ability compared to your opponent. The transition to 50-50 Guard equalizes the position, while successful entry to your own Ashi Garami can actually reverse the positional hierarchy. Understanding the timing windows, proper leg threading mechanics, and heel protection throughout the counter-attack sequence is essential for success.
 
 **From Position**: [[Positions/Inside Sankaku]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 35%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Leg Attack in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7Uc1sEPs5hw)
+
+<p class="clip-credit"><strong>Inside sankaku counter with inside ashi dive</strong> — taught by Combat by the Minute · 1:24 · <a href="https://www.youtube.com/watch?v=7Uc1sEPs5hw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside heel hook defense into inside heel hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

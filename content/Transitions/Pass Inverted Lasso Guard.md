@@ -34,6 +34,54 @@ description: "Master passing the inverted lasso guard in BJJ. Complete guide to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Pass Inverted Lasso Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing Lasso Guard To The Back",
+      "description": "Pass Inverted Lasso Guard film study: Passing Lasso Guard To The Back, taught by Gabriel Sousa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9sQAn2ESkMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9sQAn2ESkMU",
+      "url": "https://www.youtube.com/watch?v=9sQAn2ESkMU",
+      "creator": { "@type": "Person", "name": "Gabriel Sousa" },
+      "duration": "PT113S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pressure Passing the Lasso Guard",
+      "description": "Pass Inverted Lasso Guard film study: Pressure Passing the Lasso Guard, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdLPqtAm5yQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdLPqtAm5yQ",
+      "url": "https://www.youtube.com/watch?v=EdLPqtAm5yQ",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Passing the Lasso Using Long Step and Footwork",
+      "description": "Pass Inverted Lasso Guard film study: Passing the Lasso Using Long Step and Footwork, taught by Bryce Nie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XSkn8eAmtJU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XSkn8eAmtJU",
+      "url": "https://www.youtube.com/watch?v=XSkn8eAmtJU",
+      "creator": { "@type": "Person", "name": "Bryce Nie" },
+      "duration": "PT150S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Understanding when to employ each strategy separates competent passers from thos
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Pass Inverted Lasso Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9sQAn2ESkMU)
+
+<p class="clip-credit"><strong>Passing Lasso Guard To The Back</strong> — taught by Gabriel Sousa · 1:53 · <a href="https://www.youtube.com/watch?v=9sQAn2ESkMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdLPqtAm5yQ)
+
+<p class="clip-credit"><strong>Pressure Passing the Lasso Guard</strong> — taught by Alberto Serrano · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XSkn8eAmtJU)
+
+<p class="clip-credit"><strong>Passing the Lasso Using Long Step and Footwork</strong> — taught by Bryce Nie · 2:30 · <a href="https://www.youtube.com/watch?v=XSkn8eAmtJU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

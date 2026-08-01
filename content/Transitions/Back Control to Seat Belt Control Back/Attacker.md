@@ -174,6 +174,54 @@ description: "Master establishing the seat belt grip from back control in BJJ. S
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Seat Belt Control Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Establishing seatbelt control from back mount",
+      "description": "Back Control to Seat Belt Control Back (Attacker) film study: Establishing seatbelt control from back mount, taught by Teach Me NoGi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/baSqWCtLysU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/baSqWCtLysU",
+      "url": "https://www.youtube.com/watch?v=baSqWCtLysU",
+      "creator": { "@type": "Person", "name": "Teach Me NoGi" },
+      "duration": "PT212S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Straitjacket system: left right control from the back",
+      "description": "Back Control to Seat Belt Control Back (Attacker) film study: Straitjacket system: left right control from the back, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BIeMBPBGb_k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BIeMBPBGb_k",
+      "url": "https://www.youtube.com/watch?v=BIeMBPBGb_k",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT446S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Establishing hooks and rear mount",
+      "description": "Back Control to Seat Belt Control Back (Attacker) film study: Establishing hooks and rear mount, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUMXYYjEszU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUMXYYjEszU",
+      "url": "https://www.youtube.com/watch?v=NUMXYYjEszU",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT509S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From the attacker's perspective, transitioning from general back control to seat
 **From Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Seat Belt Control Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=baSqWCtLysU)
+
+<p class="clip-credit"><strong>Establishing seatbelt control from back mount</strong> — taught by Teach Me NoGi · 3:32 · <a href="https://www.youtube.com/watch?v=baSqWCtLysU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BIeMBPBGb_k)
+
+<p class="clip-credit"><strong>Straitjacket system: left right control from the back</strong> — taught by John Danaher · 7:26 · <a href="https://www.youtube.com/watch?v=BIeMBPBGb_k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUMXYYjEszU)
+
+<p class="clip-credit"><strong>Establishing hooks and rear mount</strong> — taught by John Danaher · 8:29 · <a href="https://www.youtube.com/watch?v=NUMXYYjEszU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

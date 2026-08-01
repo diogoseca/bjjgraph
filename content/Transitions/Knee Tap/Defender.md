@@ -156,6 +156,43 @@ description: "How to defend against Knee Tap in BJJ. Recognition cues, defensive
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee Tap (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defense against the knee tap takedown",
+      "description": "Knee Tap (Defender) film study: Defense against the knee tap takedown, taught by Knockout Fight Club.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FFr4o2pjlnw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/FFr4o2pjlnw",
+      "url": "https://www.youtube.com/watch?v=FFr4o2pjlnw",
+      "creator": { "@type": "Person", "name": "Knockout Fight Club" },
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Blocking the knee tap by walking around",
+      "description": "Knee Tap (Defender) film study: Blocking the knee tap by walking around, taught by Legion Wrestling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JCdgOoRG4F0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JCdgOoRG4F0",
+      "url": "https://www.youtube.com/watch?v=JCdgOoRG4F0",
+      "creator": { "@type": "Person", "name": "Legion Wrestling" },
+      "duration": "PT93S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -165,6 +202,34 @@ Defending the knee tap requires understanding the attacker's mechanical objectiv
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee Tap (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=FFr4o2pjlnw)
+
+<p class="clip-credit"><strong>Defense against the knee tap takedown</strong> — taught by Knockout Fight Club · 1:59 · <a href="https://www.youtube.com/watch?v=FFr4o2pjlnw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JCdgOoRG4F0)
+
+<p class="clip-credit"><strong>Blocking the knee tap by walking around</strong> — taught by Legion Wrestling · 1:33 · <a href="https://www.youtube.com/watch?v=JCdgOoRG4F0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

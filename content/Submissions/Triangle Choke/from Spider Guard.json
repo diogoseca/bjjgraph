@@ -15,7 +15,10 @@
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Spider Guard",
   "from_position": "Spider Guard/Bottom",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "Building directly on spider guard's distance control and posture breaking, this triangle turns the same feet-on-biceps mechanics that threaten sweeps into a finishing sequence. By using the feet-on-biceps position to control opponent posture and arm placement, you create ideal conditions for triangle entry while preventing your opponent from establishing defensive grips or posture. This submission represents the natural evolution of spider guard control into a finishing position, where the same mechanical advantages that make spider guard effective for sweeps translate directly into submission opportunities. The key is understanding that spider guard already establishes many of the prerequisites for triangle success: broken posture, controlled arm positioning, and angles that favor the guard player. What makes this variation particularly effective is that opponents defending against spider guard sweeps often create the exact defensive reactions—posting hands, driving forward into guard—that expose them to the triangle. The transition from spider guard to triangle is fluid and natural, often catching opponents by surprise as they focus on passing rather than submission defense.",
   "safety_considerations": {
     "injury_risks": [
@@ -62,17 +65,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
@@ -301,62 +313,211 @@
       {
         "question": "What is the minimum amount of time you should take to apply choking pressure when training the triangle, and why is this critical?",
         "answer": "A minimum of 3-5 seconds of progressive pressure application is critical for safety. This allows your training partner time to recognize the submission, make a decision to tap or defend, and signal the tap before losing consciousness. Applying chokes too quickly in training can cause unconsciousness before the partner has time to tap, creating serious injury risk and an unsafe training environment. Competition speed is never appropriate in training for blood chokes.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 seconds, progressive pressure",
+        "distractors": {
+          "plausible": [
+            "Speed doesn't matter, they'll tap",
+            "1-2 seconds is plenty"
+          ],
+          "trap": [
+            "Match competition speed"
+          ]
+        }
       },
       {
         "question": "What angle should your body create relative to your opponent when finishing the triangle from spider guard, and why is this angle essential for the choke's effectiveness?",
         "answer": "Your body should create a 30-45 degree angle (perpendicular or close to it) relative to your opponent's centerline. This angle is essential because it allows your leg to cut diagonally across the back of their neck rather than straight across, creating compression on both carotid arteries simultaneously. A straight-on triangle without angle produces minimal choking pressure because the leg pressure is distributed across the back of the neck rather than targeting the sides where the carotid arteries are located.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "30-45 degree angle, hits carotids",
+        "distractors": {
+          "plausible": [
+            "90 degree, fully perpendicular",
+            "Straight-on, no angle"
+          ],
+          "trap": [
+            "Square back up to their center"
+          ]
+        }
       },
       {
         "question": "What must you do immediately after receiving a tap to a triangle choke, and what are the specific steps to safely release this submission?",
         "answer": "Upon receiving a tap, immediately: (1) open your legs and release the figure-four lock, (2) pull the trapped arm out from the triangle space, (3) release head and neck control completely, (4) move your hips away to create space, (5) check your partner's consciousness and breathing, and (6) allow them time to recover before resuming training. Never hold the position even briefly after a tap—the release must be immediate and complete. If your partner goes unconscious without tapping, follow the same protocol and ensure they are breathing and conscious before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Open legs, break the figure-four",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped arm out first",
+            "Check breathing before releasing"
+          ],
+          "trap": [
+            "Hold the choke to confirm the tap"
+          ]
+        }
       },
       {
         "question": "Which arm should be trapped inside the triangle space, and how do you control this arm to maximize choking pressure?",
         "answer": "One arm should be trapped inside the triangle space across the opponent's neck (creating the 'one arm in, one arm out' configuration). To control this trapped arm and maximize pressure, you must grab it and pull it across the opponent's body toward your opposite hip, hugging it to your chest or gripping the wrist. This arm control serves two functions: it prevents the opponent from creating a defensive frame inside the triangle, and it pulls their own arm across their neck, increasing the compression on their carotid arteries. Without this arm control, the triangle is significantly weaker and easier to defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull trapped arm across to hip",
+        "distractors": {
+          "plausible": [
+            "Push the arm away from your body",
+            "Grip wrist, leave arm loose"
+          ],
+          "trap": [
+            "Drop grip, get stacked and passed"
+          ]
+        }
       },
       {
         "question": "How do you use spider guard grips and foot position to create the ideal conditions for triangle entry before throwing your leg?",
         "answer": "From spider guard, use your feet on the opponent's biceps to break their posture forward while maintaining sleeve grips for control. Push one foot (on the arm you want to trap) across their centerline while pulling the sleeve grip, causing that arm to cross their neck. Simultaneously, kick the other foot into their bicep to collapse their posture and prevent them from basing out. This creates broken posture, arm isolation, and the forward weight commitment needed for successful triangle entry. Only after these conditions are established should you pivot your hips and throw your leg over their shoulder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Feet break posture, isolate arm",
+        "distractors": {
+          "plausible": [
+            "Grip both wrists, skip footwork",
+            "Kick both feet, no arm isolation"
+          ],
+          "trap": [
+            "Release both feet, grab pants"
+          ]
+        }
       },
       {
         "question": "What should you do if your training partner stands up while you have them in a triangle, and why is this a critical safety situation?",
         "answer": "If your partner stands up while you have them in a triangle, you must immediately release the submission or transition to a safer position like an armbar on the trapped arm. Standing while caught in a triangle indicates your partner is in panic mode and may slam you, creating serious injury risk to your head, neck, and spine. In training, this is a sign that safety has been compromised—release immediately and discuss proper training protocols. Never hold onto the triangle if your partner stands, as the risk of being slammed far outweighs the benefit of getting the tap. In competition, you can transition to armbar or sweep, but in training, safety is paramount.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release at once - slam risk",
+        "distractors": {
+          "plausible": [
+            "Freeze and wait for the coach",
+            "Tell them to sit back down"
+          ],
+          "trap": [
+            "Stay clamped as they lift you"
+          ]
+        }
       },
       {
         "question": "Why is the triangle from spider guard considered particularly effective compared to triangles from other guard positions?",
         "answer": "The triangle from spider guard is highly effective because spider guard already establishes the key prerequisites for triangle success: broken posture (feet on biceps push opponent forward), controlled arm positioning (sleeve grips dictate where arms are placed), and distance management (feet create optimal spacing for throwing legs). Opponents defending spider guard sweeps often create defensive reactions—posting hands, driving forward, collapsing posture—that expose them perfectly to the triangle. The transition is fluid and natural since the same controls that make spider guard effective for sweeps translate directly into submission setups, often catching opponents focused on pass defense rather than submission defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Spider guard pre-breaks posture",
+        "distractors": {
+          "plausible": [
+            "It needs no sleeve-grip control",
+            "The angle stops mattering here"
+          ],
+          "trap": [
+            "It finishes without arm control"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to posture up while you're transitioning from spider guard to triangle - what biomechanical adjustment prevents their escape?",
         "answer": "When opponent postures during the transition, immediately pull your knees toward your chest while maintaining your collar or sleeve grip to control their head. Use your feet to kick outward against their biceps or chest to collapse their posture back down. If you've already thrown one leg over their shoulder, use that leg as a hook behind their neck and pull down forcefully while simultaneously hip escaping to create the angle. The combination of leg pressure pulling their head down and hip angle makes it mechanically impossible for them to fully posture once you've committed to the entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pull knees in, kick to collapse",
+        "distractors": {
+          "plausible": [
+            "Release grips, reset the position",
+            "Push opponent's hips away"
+          ],
+          "trap": [
+            "Let go of collar, grab ankles"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the triangle choke attack, and how does proper positioning ensure you're targeting them correctly?",
         "answer": "The triangle choke targets the carotid arteries on both sides of the neck, which supply blood to the brain. Proper positioning ensures compression by placing your leg diagonally across the back of the opponent's neck (not the crown of their head), creating angle so your inner thigh presses against one carotid while their own trapped shoulder compresses the other. The one arm in, one arm out configuration forces their shoulder into their own neck. If you feel pressure on the trachea (front of throat) rather than the sides of the neck, you need more angle—this causes discomfort but doesn't produce unconsciousness and can injure the throat.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Carotid arteries, angle diagonally",
+        "distractors": {
+          "plausible": [
+            "Trachea, straight-on leg position",
+            "Jugular veins, no angle needed"
+          ],
+          "trap": [
+            "Crown of head, squeeze straight"
+          ]
+        }
       },
       {
         "question": "What are the key breaking point indicators that tell you the triangle choke is properly applied and your opponent will tap soon?",
         "answer": "Key breaking point indicators include: opponent's face changing color (reddening or purpling), cessation of escape attempts as they conserve oxygen, labored or gurgling breathing sounds, weakening resistance in their trapped arm, their free hand desperately tapping or reaching for your legs. In training, you should receive a tap well before these extreme signs appear. If you notice color change or reduced consciousness before a tap, release immediately—your partner may be too stubborn to tap or unable to signal. The choke is working correctly if opponent taps within 5-10 seconds of proper pressure application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Color change, weak arm, gurgling",
+        "distractors": {
+          "plausible": [
+            "Loud verbal complaints only",
+            "Sudden burst of stronger resistance"
+          ],
+          "trap": [
+            "Waiting until they go fully limp"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by gripping their hands together in a Gable grip to prevent you from pulling their arm across - what grip adjustment maintains finishing pressure?",
         "answer": "When opponent creates a Gable grip defense, switch from trying to pull their wrist to controlling their elbow or upper arm instead. Push their elbow toward their own face while simultaneously adjusting your angle further perpendicular to their body. You can also attack their Gable grip by inserting your fingers between their hands and prying them apart, or by pushing their top hand toward the mat to break the connection. Another option is to abandon the arm pull entirely and focus on maximum hip elevation and angle—with proper positioning, the choke can finish even without pulling the arm across, as your thigh and their shoulder still compress both carotids.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control elbow, widen the angle",
+        "distractors": {
+          "plausible": [
+            "Pull harder on their wrist grip",
+            "Switch hands, re-grip the wrist"
+          ],
+          "trap": [
+            "Release head, chase their hands"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing strategies maximize your success rate when the opponent is defending intelligently and the clock is running down?",
         "answer": "For competition finishing under time pressure: First, commit fully to your angle by pivoting your hips as perpendicular as possible—half-committed triangles never finish against good defense. Second, abandon the head pull if they're resisting strongly and focus on hip elevation and knee squeeze, which is harder for them to counter. Third, use their defensive movements against them—if they're spending energy fighting the arm pull, they're not defending the angle adjustment. Fourth, threaten the armbar on their trapped arm to create a dilemma: if they defend the armbar, they expose the choke, and vice versa. Finally, if the triangle truly isn't finishing, transition immediately to omoplata or armbar rather than wasting precious time on a stalled position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Commit angle, elevate the hips",
+        "distractors": {
+          "plausible": [
+            "Rely only on pulling the head",
+            "Slow down to save your energy"
+          ],
+          "trap": [
+            "Drop the angle and muscle it"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "t03kY6knAkU",
+        "title": "Triangle from the Spider Lasso Guard",
+        "by": "Nartay Kazhekov",
+        "vertical": false,
+        "channel": "Nartay Kazhekov",
+        "duration": 11,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "7ItTf1BFDZA",
+        "title": "Spider Guard Foot on Bicep Triangle Choke",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 31,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "aR907qucSvk",
+        "title": "Spider Guard: Triangle Choke Option",
+        "by": "Hurricane Jiu Jitsu",
+        "vertical": false,
+        "channel": "Hurricane Jiu Jitsu",
+        "duration": 60,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -455,27 +616,77 @@
       {
         "question": "What is the most critical defensive window for preventing the triangle from spider guard, and what specific actions should you take during this window?",
         "answer": "The most critical defensive window is during the arm isolation and hip pivot phase—after opponent begins pushing your arm across their centerline but before their leg crosses your neck. During this window, immediately strip the sleeve grip controlling your arm using a two-on-one grip break, drive your hips back to restore posture, and retract the arm being isolated back to your centerline. If you can deny the arm isolation, the triangle entry cannot proceed. This is far easier than escaping a locked triangle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip grip before leg crosses neck",
+        "distractors": {
+          "plausible": [
+            "Wait until the triangle locks",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Try to stand up right away"
+          ]
+        }
       },
       {
         "question": "Why should you never stand up explosively when caught in a triangle during training, and what should you do instead?",
         "answer": "Standing up explosively when caught in a triangle creates serious slam risk for your training partner, potentially causing spinal cord injury, concussion, or neck damage if you lose balance or deliberately slam. This is one of the most dangerous scenarios in training. Instead, stay calm and work a systematic escape: first address the angle by walking your body back to square alignment with the attacker, then work posture recovery by driving hips back and looking up, and finally attempt arm extraction once the angle and posture are addressed. Controlled standing can be part of the escape but must never be panicked or explosive.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stay calm, fix angle then posture",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll them over",
+            "Push their head down for space"
+          ],
+          "trap": [
+            "Stand up explosively to escape"
+          ]
+        }
       },
       {
         "question": "When caught in a fully locked triangle with proper angle, what is the correct sequence of defensive priorities to escape?",
         "answer": "The correct defensive sequence is: (1) Protect your neck by tucking your chin and preventing the arm from being pulled across your body—keep the trapped arm straight and posted on their hip. (2) Address the angle by walking your knees and hips back to square your body with the attacker, which reduces the diagonal compression on your carotid arteries. (3) Recover posture by driving your hips back and looking upward, creating distance between your head and their hips. (4) Extract the trapped arm by straightening it toward their hip once the angle is neutralized. (5) Break the triangle open by controlling their top leg and pushing it over your head. This sequence must be followed in order—skipping steps wastes energy and rarely succeeds.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Protect neck, fix angle, posture",
+        "distractors": {
+          "plausible": [
+            "Extract arm first, then angle",
+            "Break the leg open immediately"
+          ],
+          "trap": [
+            "Bend arm to brace against leg"
+          ]
+        }
       },
       {
         "question": "How do you recognize that a triangle attempt is coming from spider guard before the leg is thrown over your neck?",
         "answer": "Key recognition cues include: opponent releases one foot from your bicep while maintaining the other foot and sleeve grip (indicating they're freeing the leg for the throw), their hips begin pivoting to one side creating angle (the fundamental setup motion), one of your arms is being pulled across their centerline via sleeve grip (arm isolation for the one-in-one-out configuration), and your posture starts breaking forward as they combine foot pressure with grip pulls. Recognizing any of these cues should trigger immediate defensive action: strip the sleeve grip, recover posture, and retract the isolated arm before the leg crosses your neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Foot releases, hips pivot, arm pull",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar tight",
+            "They suddenly relax their grips"
+          ],
+          "trap": [
+            "Wait until leg touches your neck"
+          ]
+        }
       },
       {
         "question": "What is the danger of bending your trapped arm when caught in a triangle, and what is the correct arm position for defense?",
         "answer": "Bending the trapped arm while inside the triangle creates a devastating self-inflicted choke—your own bent forearm and shoulder compress against your carotid artery, providing the second compression point the attacker needs without them even pulling your arm across. This is the most common reason triangles finish quickly against beginners. The correct defensive position is to keep the trapped arm completely straight, driving the palm or fist into the opponent's hip bone as a structural frame. A straight arm cannot be compressed against your own neck and creates distance that reduces overall triangle tightness. Maintain this straight-arm frame while working the angle correction and posture recovery.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep arm straight, don't bend it",
+        "distractors": {
+          "plausible": [
+            "Bend arm to block their hip",
+            "Curl arm to protect your face"
+          ],
+          "trap": [
+            "Pull arm free, grab their leg"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -498,6 +709,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full-speed defense starting from spider guard with attacker hunting triangle",
         "description": "Start in spider guard with attacker having full grips. Attacker hunts the triangle and all chain attacks at full speed. Defender works prevention, early escapes, and locked-triangle escapes as the situation demands. 3-minute rounds with resets on submission, pass, or sweep. Track how often the triangle is locked versus prevented, and escape success rate when locked."
+      }
+    ],
+    "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle Choke Posture Up Escape",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How To Escape a Triangle Choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
       }
     ]
   },

@@ -150,6 +150,54 @@ description: "How to defend and escape the Ten Finger Guillotine from Front Head
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ten Finger Guillotine from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Positional Check Against the Guillotine",
+      "description": "Ten Finger Guillotine from Front Headlock (Defender) film study: Positional Check Against the Guillotine, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nGpAcI79frk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nGpAcI79frk",
+      "url": "https://www.youtube.com/watch?v=nGpAcI79frk",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT116S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine defence",
+      "description": "Ten Finger Guillotine from Front Headlock (Defender) film study: Guillotine defence, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/z6ZI4gKlqFI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/z6ZI4gKlqFI",
+      "url": "https://www.youtube.com/watch?v=z6ZI4gKlqFI",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT312S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the guillotine with the arm in",
+      "description": "Ten Finger Guillotine from Front Headlock (Defender) film study: Defending the guillotine with the arm in, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nY6aJK6eS2I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nY6aJK6eS2I",
+      "url": "https://www.youtube.com/watch?v=nY6aJK6eS2I",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT256S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Ten Finger Guillotine from Front Headlock requires intervention at
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ten Finger Guillotine from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nGpAcI79frk)
+
+<p class="clip-credit"><strong>Positional Check Against the Guillotine</strong> — taught by Priit Mihkelson · 1:56 · <a href="https://www.youtube.com/watch?v=nGpAcI79frk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=z6ZI4gKlqFI)
+
+<p class="clip-credit"><strong>Guillotine defence</strong> — taught by Lachlan Giles · 5:12 · <a href="https://www.youtube.com/watch?v=z6ZI4gKlqFI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nY6aJK6eS2I)
+
+<p class="clip-credit"><strong>Defending the guillotine with the arm in</strong> — taught by Lachlan Giles · 4:16 · <a href="https://www.youtube.com/watch?v=nY6aJK6eS2I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

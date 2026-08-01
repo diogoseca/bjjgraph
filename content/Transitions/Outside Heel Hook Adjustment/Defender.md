@@ -148,6 +148,54 @@ description: "How to defend against Outside Heel Hook Adjustment in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook Adjustment (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside heel hook defense to inside heel hook",
+      "description": "Outside Heel Hook Adjustment (Defender) film study: Outside heel hook defense to inside heel hook, taught by Holy Grail BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/clVAHxgRadE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/clVAHxgRadE",
+      "url": "https://www.youtube.com/watch?v=clVAHxgRadE",
+      "creator": { "@type": "Person", "name": "Holy Grail BJJ" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "What to do when ambushed: heel hook defense",
+      "description": "Outside Heel Hook Adjustment (Defender) film study: What to do when ambushed: heel hook defense, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AsGMkATAqqw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AsGMkATAqqw",
+      "url": "https://www.youtube.com/watch?v=AsGMkATAqqw",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "The one key thing for defending heel hooks",
+      "description": "Outside Heel Hook Adjustment (Defender) film study: The one key thing for defending heel hooks, taught by Absolute MMA St Kilda.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z0WDtUMkBP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Z0WDtUMkBP8",
+      "url": "https://www.youtube.com/watch?v=Z0WDtUMkBP8",
+      "creator": { "@type": "Person", "name": "Absolute MMA St Kilda" },
+      "duration": "PT170S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Strategically, the defender should recognize that remaining in Ushiro Ashi-Garam
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook Adjustment (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=clVAHxgRadE)
+
+<p class="clip-credit"><strong>Outside heel hook defense to inside heel hook</strong> — taught by Holy Grail BJJ · 1:45 · <a href="https://www.youtube.com/watch?v=clVAHxgRadE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AsGMkATAqqw)
+
+<p class="clip-credit"><strong>What to do when ambushed: heel hook defense</strong> — taught by John Danaher · 0:53 · <a href="https://www.youtube.com/watch?v=AsGMkATAqqw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Z0WDtUMkBP8)
+
+<p class="clip-credit"><strong>The one key thing for defending heel hooks</strong> — taught by Absolute MMA St Kilda · 2:50 · <a href="https://www.youtube.com/watch?v=Z0WDtUMkBP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

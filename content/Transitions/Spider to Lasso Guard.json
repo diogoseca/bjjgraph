@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Spider Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The Spider to Lasso Guard transition converts a bilateral spider guard configuration into an asymmetric lasso control system by threading one shin underneath and across the opponent's trapped arm. This fundamental gi-based guard transition upgrades the bottom player's control from simple foot-on-bicep pressure to a deep mechanical lever that severely restricts the opponent's mobility on one side, transforming the passing problem they must solve.\n\nThe critical timing window occurs when the bottom player releases foot pressure on the target bicep to circle the foot underneath the opponent's arm. This brief moment of reduced control creates vulnerability, making grip maintenance on the sleeve essential throughout the threading motion. The sleeve grip guides the opponent's arm into position while the shin slides across the tricep, seating the lasso deeply against the shoulder.\n\nStrategically, this transition is most effective when the opponent begins settling against spider guard or attempts to break foot-on-bicep pressure. Rather than fighting to maintain spider hooks against active grip-breaking, the bottom player converts the opponent's defensive action into an opportunity to establish superior control. Advanced practitioners use the Spider to Lasso transition reactively, converting to lasso on whichever side the opponent addresses, turning defensive grip fighting into offensive guard enhancement.",
   "conditions": [
     "Established Spider Guard with at least one foot on the target arm's bicep and a deep sleeve grip on the same arm",
@@ -243,34 +255,133 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Spider to Lasso Guard transition?",
-        "answer": "The optimal timing window is when the opponent begins actively addressing your spider guard hooks by attempting to break your sleeve grip or strip your foot from their bicep. Their focus on the grip fight creates a momentary lapse in awareness of your leg threading. Additionally, when they shift their weight to one side to establish a passing angle, the opposite arm becomes a natural target for the lasso entry because their attention and balance are committed elsewhere."
+        "answer": "The optimal timing window is when the opponent begins actively addressing your spider guard hooks by attempting to break your sleeve grip or strip your foot from their bicep. Their focus on the grip fight creates a momentary lapse in awareness of your leg threading. Additionally, when they shift their weight to one side to establish a passing angle, the opposite arm becomes a natural target for the lasso entry because their attention and balance are committed elsewhere.",
+        "answer_line": "Grip fight or weight-shift moment",
+        "distractors": {
+          "plausible": [
+            "Right when guard is first locked",
+            "When they posture to stand up"
+          ],
+          "trap": [
+            "While they stack and pass"
+          ]
+        }
       },
       {
         "question": "What grip must be maintained throughout the entire transition and why is losing it catastrophic?",
-        "answer": "The sleeve grip on the target arm must remain secure throughout the entire threading motion. This grip serves dual purposes: it prevents the opponent from withdrawing their arm during the transition window and guides the arm into optimal position for the lasso to seat deeply. Losing this grip mid-transition leaves your leg exposed beneath their arm without any controlling mechanism, allowing them to easily strip your leg and advance their passing position."
+        "answer": "The sleeve grip on the target arm must remain secure throughout the entire threading motion. This grip serves dual purposes: it prevents the opponent from withdrawing their arm during the transition window and guides the arm into optimal position for the lasso to seat deeply. Losing this grip mid-transition leaves your leg exposed beneath their arm without any controlling mechanism, allowing them to easily strip your leg and advance their passing position.",
+        "answer_line": "Keep sleeve grip the whole time",
+        "distractors": {
+          "plausible": [
+            "Switch to collar grip midway",
+            "Regrip after leg clears arm"
+          ],
+          "trap": [
+            "Release grip once shin is under"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force when completing the lasso threading?",
-        "answer": "Pull the sleeve grip toward your chest and slightly across your centerline while simultaneously extending your shin across the opponent's tricep in the opposite direction. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. The pulling direction on the sleeve should angle toward your hip on the lasso side, while your shin pushes outward and slightly upward against their tricep, maximizing the mechanical leverage of the completed lasso position."
+        "answer": "Pull the sleeve grip toward your chest and slightly across your centerline while simultaneously extending your shin across the opponent's tricep in the opposite direction. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. The pulling direction on the sleeve should angle toward your hip on the lasso side, while your shin pushes outward and slightly upward against their tricep, maximizing the mechanical leverage of the completed lasso position.",
+        "answer_line": "Pull sleeve in, shin pushes out",
+        "distractors": {
+          "plausible": [
+            "Both sleeve and shin pull inward",
+            "Push sleeve away, pull shin back"
+          ],
+          "trap": [
+            "Drop sleeve grip to frame away"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping your sleeve grip as you start threading your leg - how do you adjust?",
-        "answer": "If the grip is partially compromised but still maintained, accelerate the threading motion to complete the lasso before the grip breaks entirely. Once the shin is across their arm, even a reduced grip provides sufficient control. If the grip is completely stripped before the lasso seats, immediately recover your foot to the bicep to reestablish spider guard rather than attempting to complete the lasso without sleeve control, which would leave your leg trapped without any mechanism to prevent the pass."
+        "answer": "If the grip is partially compromised but still maintained, accelerate the threading motion to complete the lasso before the grip breaks entirely. Once the shin is across their arm, even a reduced grip provides sufficient control. If the grip is completely stripped before the lasso seats, immediately recover your foot to the bicep to reestablish spider guard rather than attempting to complete the lasso without sleeve control, which would leave your leg trapped without any mechanism to prevent the pass.",
+        "answer_line": "Accelerate, or reset foot to bicep",
+        "distractors": {
+          "plausible": [
+            "Switch to collar grip instead",
+            "Disengage completely and reset"
+          ],
+          "trap": [
+            "Finish the lasso without the grip"
+          ]
+        }
       },
       {
         "question": "What should your non-lasso leg be doing during and immediately after the transition?",
-        "answer": "During the transition, the non-lasso leg should maintain its spider guard position on the opponent's opposite bicep to preserve control and prevent them from freely advancing while you thread the lasso. Immediately after establishing the lasso, adjust the non-lasso leg based on the opponent's reaction: keep it on the bicep for double-arm control, post it on the hip to manage distance and prevent stacking, or transition it to a De La Riva hook for a hybrid guard configuration."
+        "answer": "During the transition, the non-lasso leg should maintain its spider guard position on the opponent's opposite bicep to preserve control and prevent them from freely advancing while you thread the lasso. Immediately after establishing the lasso, adjust the non-lasso leg based on the opponent's reaction: keep it on the bicep for double-arm control, post it on the hip to manage distance and prevent stacking, or transition it to a De La Riva hook for a hybrid guard configuration.",
+        "answer_line": "Stay on bicep, then read reaction",
+        "distractors": {
+          "plausible": [
+            "Post on hip immediately always",
+            "Switch to De La Riva right away"
+          ],
+          "trap": [
+            "Drop it to the mat for base"
+          ]
+        }
       },
       {
         "question": "How does the threading angle differ when the opponent is standing versus in combat base?",
-        "answer": "Against a standing opponent, thread your foot from outside to inside by circling underneath their extended arm, using the greater space beneath their armpit created by their upright posture. Against an opponent in combat base, you often need to push their elbow upward with your foot first to create clearance space, then thread underneath with a tighter circular motion. The combat base entry requires more precise timing because the reduced space means a smaller transition window before they can retract their arm."
+        "answer": "Against a standing opponent, thread your foot from outside to inside by circling underneath their extended arm, using the greater space beneath their armpit created by their upright posture. Against an opponent in combat base, you often need to push their elbow upward with your foot first to create clearance space, then thread underneath with a tighter circular motion. The combat base entry requires more precise timing because the reduced space means a smaller transition window before they can retract their arm.",
+        "answer_line": "Circle under vs push elbow up",
+        "distractors": {
+          "plausible": [
+            "Same angle works both positions",
+            "Base needs a wider circling motion"
+          ],
+          "trap": [
+            "Yank the arm straight down"
+          ]
+        }
       },
       {
         "question": "If the lasso attempt fails and you cannot recover spider guard, what chain attack should you pursue?",
-        "answer": "Transition immediately to an alternative open guard rather than repeatedly attempting the same lasso entry. If your foot is still near their arm area, convert to collar sleeve guard by grabbing their collar with the free hand. If they have created distance during the failed attempt, recover to De La Riva guard by hooking their lead leg. If they drive forward aggressively after the failed attempt, switch to butterfly guard hooks to use their momentum for elevation sweeps rather than fighting to reestablish distance control."
+        "answer": "Transition immediately to an alternative open guard rather than repeatedly attempting the same lasso entry. If your foot is still near their arm area, convert to collar sleeve guard by grabbing their collar with the free hand. If they have created distance during the failed attempt, recover to De La Riva guard by hooking their lead leg. If they drive forward aggressively after the failed attempt, switch to butterfly guard hooks to use their momentum for elevation sweeps rather than fighting to reestablish distance control.",
+        "answer_line": "Switch guards, don't repeat lasso",
+        "distractors": {
+          "plausible": [
+            "Always default to De La Riva",
+            "Return to closed guard first"
+          ],
+          "trap": [
+            "Keep retrying the same entry"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Spider to Lasso Guard transition is relatively low-risk from a safety perspective as it involves positional control rather than joint manipulation. However, the shoulder of the lassoed arm can experience strain if the transition is forced aggressively against strong resistance. During drilling, both partners should communicate if shoulder pressure becomes uncomfortable, and the bottom player should focus on technique rather than forcing the lasso through maximum strength. Grip fighting during this transition can occasionally lead to finger injuries, so practitioners should warm up their hands properly and release grips that are being aggressively stripped rather than holding on at the cost of finger joint integrity."
+    "safety_considerations": "The Spider to Lasso Guard transition is relatively low-risk from a safety perspective as it involves positional control rather than joint manipulation. However, the shoulder of the lassoed arm can experience strain if the transition is forced aggressively against strong resistance. During drilling, both partners should communicate if shoulder pressure becomes uncomfortable, and the bottom player should focus on technique rather than forcing the lasso through maximum strength. Grip fighting during this transition can occasionally lead to finger injuries, so practitioners should warm up their hands properly and release grips that are being aggressively stripped rather than holding on at the cost of finger joint integrity.",
+    "clips": [
+      {
+        "id": "n4ddjzGemrw",
+        "title": "Lasso guard variations from open guard",
+        "by": "Felipe Costa",
+        "vertical": false,
+        "channel": "Felipe Costa",
+        "duration": 28,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "aXTKuGGfwOs",
+        "title": "Spider guard entry drill",
+        "by": "Paragon Jiu-Jitsu Austin",
+        "vertical": false,
+        "channel": "Paragon Jiu-Jitsu Academy Austin",
+        "duration": 60,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uyNWqN84L9o",
+        "title": "Lasso entry and sweep from open guard",
+        "by": "Felipe Simplicio",
+        "vertical": false,
+        "channel": "Felipe Simplicio ",
+        "duration": 138,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Spider to Lasso Guard Defender",
@@ -355,19 +466,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the bottom player is attempting to transition from Spider Guard to Lasso Guard?",
-        "answer": "The earliest cue is the bottom player releasing foot pressure on one of your biceps while maintaining or tightening their sleeve grip on that same arm. You will feel a sudden reduction in pushing force against your arm accompanied by their foot beginning to circle downward rather than maintaining contact with your bicep. The sleeve grip often tightens just before the transition begins, as they prepare to guide your arm into position for the lasso threading."
+        "answer": "The earliest cue is the bottom player releasing foot pressure on one of your biceps while maintaining or tightening their sleeve grip on that same arm. You will feel a sudden reduction in pushing force against your arm accompanied by their foot beginning to circle downward rather than maintaining contact with your bicep. The sleeve grip often tightens just before the transition begins, as they prepare to guide your arm into position for the lasso threading.",
+        "answer_line": "Foot leaves bicep, grip tightens",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of hip movement",
+            "Grip on your sleeve loosens"
+          ],
+          "trap": [
+            "They grab your far-side collar"
+          ]
+        }
       },
       {
         "question": "What is the most critical defensive priority when you recognize the lasso transition is being attempted?",
-        "answer": "Your most critical priority is either stripping the sleeve grip on the targeted arm or withdrawing your arm completely before the shin threads across your tricep. Once the lasso is fully established, you face a significantly more difficult guard passing scenario. The brief moment when their foot leaves your bicep is your best opportunity to act, as their control is temporarily reduced. Pull your arm toward your body while pushing their leg away, or step back sharply to create distance that prevents completion."
+        "answer": "Your most critical priority is either stripping the sleeve grip on the targeted arm or withdrawing your arm completely before the shin threads across your tricep. Once the lasso is fully established, you face a significantly more difficult guard passing scenario. The brief moment when their foot leaves your bicep is your best opportunity to act, as their control is temporarily reduced. Pull your arm toward your body while pushing their leg away, or step back sharply to create distance that prevents completion.",
+        "answer_line": "Strip grip or pull arm free fast",
+        "distractors": {
+          "plausible": [
+            "Push their hips away first",
+            "Grab a fresh collar grip"
+          ],
+          "trap": [
+            "Wait for the lasso to seat"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when defending against the Spider to Lasso transition?",
-        "answer": "Shift your weight slightly toward the side being attacked to make it harder for the bottom player to manipulate your arm into position. Dropping your elbow toward your hip on the threatened side closes the space beneath your arm that they need to thread their leg through. Simultaneously drive your hips forward slightly to compress the distance, preventing them from generating the circular motion needed for threading. Avoid leaning away from the lasso side, as this extends your arm and creates more space for the threading."
+        "answer": "Shift your weight slightly toward the side being attacked to make it harder for the bottom player to manipulate your arm into position. Dropping your elbow toward your hip on the threatened side closes the space beneath your arm that they need to thread their leg through. Simultaneously drive your hips forward slightly to compress the distance, preventing them from generating the circular motion needed for threading. Avoid leaning away from the lasso side, as this extends your arm and creates more space for the threading.",
+        "answer_line": "Shift weight in, drop elbow down",
+        "distractors": {
+          "plausible": [
+            "Sit back and widen your base",
+            "Post hands wide for balance"
+          ],
+          "trap": [
+            "Lean away to create space"
+          ]
+        }
       },
       {
         "question": "When should you choose to apply forward pressure versus stepping back as your defensive response?",
-        "answer": "Apply forward pressure when you recognize the transition early, before the foot has cleared underneath your arm, as driving forward compresses the space and prevents the threading motion from completing. Step back when you recognize the transition late, after their foot has already begun passing under your arm, because stepping back may pull your arm free of the developing lasso while maintaining your base. Forward pressure works best from combat base, while stepping back works better from standing where you have more freedom of movement."
+        "answer": "Apply forward pressure when you recognize the transition early, before the foot has cleared underneath your arm, as driving forward compresses the space and prevents the threading motion from completing. Step back when you recognize the transition late, after their foot has already begun passing under your arm, because stepping back may pull your arm free of the developing lasso while maintaining your base. Forward pressure works best from combat base, while stepping back works better from standing where you have more freedom of movement.",
+        "answer_line": "Early: press in; late: step back",
+        "distractors": {
+          "plausible": [
+            "Always step back when unsure",
+            "Press forward no matter what"
+          ],
+          "trap": [
+            "Stand still and grip fight"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -390,6 +541,26 @@
         "phase": "Phase 4: Live Situational Sparring",
         "focus": "Full resistance application from spider guard scenarios",
         "description": "Positional sparring starting from spider guard with the bottom player actively pursuing lasso transitions alongside sweeps and submissions. Defender works to prevent lasso establishment while advancing their passing game. Full resistance with resets when guard is passed or lasso is fully established."
+      }
+    ],
+    "clips": [
+      {
+        "id": "9sQAn2ESkMU",
+        "title": "Passing lasso guard to the back",
+        "by": "Gabriel Sousa",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 113,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "GOzoDB10XkY",
+        "title": "Lasso and spider guard defense breakdown",
+        "by": "Binder BJJ",
+        "vertical": false,
+        "channel": "Binder Brazilian Jiu Jitsu",
+        "duration": 245,
+        "verified": "2026-07-15"
       }
     ]
   }

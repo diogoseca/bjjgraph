@@ -176,6 +176,43 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata from Gogoplata Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Gogoplata from Guard",
+      "description": "Gogoplata from Gogoplata Control (Attacker) film study: Gogoplata from Guard, taught by Kinesiology College.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4Opp0j7UmlU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4Opp0j7UmlU",
+      "url": "https://www.youtube.com/watch?v=4Opp0j7UmlU",
+      "creator": { "@type": "Person", "name": "Kinesiology College" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gogoplata Variations from High Guard",
+      "description": "Gogoplata from Gogoplata Control (Attacker) film study: Gogoplata Variations from High Guard, taught by SpringHillBjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PqAJraYllQI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PqAJraYllQI",
+      "url": "https://www.youtube.com/watch?v=PqAJraYllQI",
+      "creator": { "@type": "Person", "name": "SpringHillBjj" },
+      "duration": "PT88S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -190,6 +227,34 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata from Gogoplata Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4Opp0j7UmlU)
+
+<p class="clip-credit"><strong>Gogoplata from Guard</strong> — taught by Kinesiology College · 0:21 · <a href="https://www.youtube.com/watch?v=4Opp0j7UmlU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PqAJraYllQI)
+
+<p class="clip-credit"><strong>Gogoplata Variations from High Guard</strong> — taught by SpringHillBjj · 1:28 · <a href="https://www.youtube.com/watch?v=PqAJraYllQI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

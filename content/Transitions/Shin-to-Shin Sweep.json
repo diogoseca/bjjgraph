@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Shin-to-Shin Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "Sitting at the front of the shin-to-shin guard attack hierarchy, this sweep capitalizes on the immediate leverage available from the perpendicular shin connection itself, rather than treating shin-to-shin as a mere transitional platform for single leg X or X-guard entries. By combining upper body pulling grips with shin-driven elevation, the guard player exploits the opponent's compromised base — caused by the perpendicular shin frame — to topple them directly backward or laterally into mount, making it one of the fastest scoring options from the position.\n\nStrategically, the Shin-to-Shin Sweep serves as the first layer of attack from shin-to-shin guard, forcing the top player to respect the immediate sweeping threat before they can focus on clearing the shin connection. When the opponent defends the direct sweep by posting or widening their base, they create openings for single leg X entries, X-guard transitions, and leg entanglement pathways. This creates a genuine attacking dilemma: defend the immediate sweep and open secondary attacks, or focus on clearing the shin and risk being swept directly. The technique is equally effective in gi and no-gi, though grip selection differs. In gi, collar and sleeve grips amplify the pulling mechanics, while no-gi relies on wrist control and collar ties to generate the necessary upper body connection for off-balancing.\n\nThe sweep's mechanical foundation relies on three simultaneous forces: the shin drives upward and forward through the opponent's base, the pulling grips break their posture and commitment to the sweep direction, and hip extension generates the power needed to complete the elevation. Timing is critical — the optimal window occurs when the opponent commits weight forward to pressure or clear the shin connection, momentarily loading the very lever you intend to use against them.",
   "conditions": [
     "Active shin-to-shin connection established with perpendicular angle across opponent's lower shin",
@@ -261,38 +273,147 @@
     "flashcards": [
       {
         "question": "What three simultaneous forces must coordinate for the Shin-to-Shin Sweep to succeed?",
-        "answer": "The three forces are: shin-driven upward elevation through the perpendicular connection acting as a fulcrum against the opponent's base, upper body pulling through grips (collar/sleeve or wrist/collar tie) to break their posture and prevent posting, and explosive hip extension providing the primary power to drive the opponent over the tipping point. All three must fire simultaneously — any single force alone is insufficient to complete the sweep against a resisting opponent."
+        "answer": "The three forces are: shin-driven upward elevation through the perpendicular connection acting as a fulcrum against the opponent's base, upper body pulling through grips (collar/sleeve or wrist/collar tie) to break their posture and prevent posting, and explosive hip extension providing the primary power to drive the opponent over the tipping point. All three must fire simultaneously — any single force alone is insufficient to complete the sweep against a resisting opponent.",
+        "answer_line": "Shin lift, grip pull, hip extension",
+        "distractors": {
+          "plausible": [
+            "Shin lift, then pull, then hips",
+            "Grip pull is the main power source"
+          ],
+          "trap": [
+            "Push off the mat with free hand"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the explosive phase of the sweep?",
-        "answer": "The optimal window occurs when the opponent commits their weight forward, either to pressure the guard or to attempt clearing the shin connection. This forward commitment loads the shin fulcrum with their body weight, meaning your hip extension drives against a heavier lever — their own weight works against them. Attempting the sweep when the opponent's weight is withdrawn or neutral requires significantly more force and has a lower completion rate."
+        "answer": "The optimal window occurs when the opponent commits their weight forward, either to pressure the guard or to attempt clearing the shin connection. This forward commitment loads the shin fulcrum with their body weight, meaning your hip extension drives against a heavier lever — their own weight works against them. Attempting the sweep when the opponent's weight is withdrawn or neutral requires significantly more force and has a lower completion rate.",
+        "answer_line": "When they commit weight forward",
+        "distractors": {
+          "plausible": [
+            "When their weight is neutral",
+            "As they pull their base backward"
+          ],
+          "trap": [
+            "When they drive a knee through"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand when you attempt the sweep — how do you adjust?",
-        "answer": "The posted hand presents an arm drag opportunity. Release your sleeve grip and redirect to a two-on-one on their posting arm, pulling it across their body to eliminate the post. This simultaneously removes their base and creates an angle for either completing the sweep on the second attempt or transitioning to a back take as they rotate to recover the posted arm. The key is recognizing the post immediately and adjusting rather than continuing to force the blocked sweep."
+        "answer": "The posted hand presents an arm drag opportunity. Release your sleeve grip and redirect to a two-on-one on their posting arm, pulling it across their body to eliminate the post. This simultaneously removes their base and creates an angle for either completing the sweep on the second attempt or transitioning to a back take as they rotate to recover the posted arm. The key is recognizing the post immediately and adjusting rather than continuing to force the blocked sweep.",
+        "answer_line": "Arm drag the posted hand",
+        "distractors": {
+          "plausible": [
+            "Push through the post harder",
+            "Switch to the opposite side sweep"
+          ],
+          "trap": [
+            "Release all grips and reset"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides maximum sweeping leverage in gi versus no-gi?",
-        "answer": "In gi, the same-side collar grip combined with opposite sleeve grip provides maximum leverage — the collar grip creates a deep pulling angle that breaks posture while the sleeve grip eliminates the posting hand. In no-gi, a collar tie (same side as shin connection) combined with opposite wrist control replicates the same mechanical advantages. The collar tie replaces the collar grip's posture-breaking function while wrist control replaces the sleeve grip's anti-posting function."
+        "answer": "In gi, the same-side collar grip combined with opposite sleeve grip provides maximum leverage — the collar grip creates a deep pulling angle that breaks posture while the sleeve grip eliminates the posting hand. In no-gi, a collar tie (same side as shin connection) combined with opposite wrist control replicates the same mechanical advantages. The collar tie replaces the collar grip's posture-breaking function while wrist control replaces the sleeve grip's anti-posting function.",
+        "answer_line": "Same-side collar, opposite sleeve",
+        "distractors": {
+          "plausible": [
+            "Same-side collar and sleeve",
+            "Opposite collar, same sleeve"
+          ],
+          "trap": [
+            "Double collar grip, free hands"
+          ]
+        }
       },
       {
         "question": "Why must you sit up and load your hips before initiating the sweep?",
-        "answer": "Sitting up creates the loaded hip position necessary for generating explosive extension force. When flat on your back, your hips are already extended and have no range of motion to drive through — the sweep becomes a weak, arm-dependent pull. The seated position stores potential energy in your hip flexors and core, which converts to kinetic energy during the explosive phase. Think of it like coiling a spring — you must compress before you can release power."
+        "answer": "Sitting up creates the loaded hip position necessary for generating explosive extension force. When flat on your back, your hips are already extended and have no range of motion to drive through — the sweep becomes a weak, arm-dependent pull. The seated position stores potential energy in your hip flexors and core, which converts to kinetic energy during the explosive phase. Think of it like coiling a spring — you must compress before you can release power.",
+        "answer_line": "Loads hips like a coiled spring",
+        "distractors": {
+          "plausible": [
+            "Improves visual angle on grips",
+            "Keeps head safe from crossface"
+          ],
+          "trap": [
+            "Lay flat to hide sweep intention"
+          ]
+        }
       },
       {
         "question": "Your opponent sits their hips back and widens their base when they feel the sweep threat — what does this open up?",
-        "answer": "A withdrawn, widened base creates the ideal spacing and angle for single leg X-guard entry. Their retreating hips open the space beneath their base for your free leg to thread through, and their widened stance isolates the connected leg for single leg X control. The sweep threat forces them into a position that directly feeds your secondary attack. This is the fundamental dilemma of shin-to-shin offense — defend the sweep and give up single leg X, or maintain narrow base and risk being swept."
+        "answer": "A withdrawn, widened base creates the ideal spacing and angle for single leg X-guard entry. Their retreating hips open the space beneath their base for your free leg to thread through, and their widened stance isolates the connected leg for single leg X control. The sweep threat forces them into a position that directly feeds your secondary attack. This is the fundamental dilemma of shin-to-shin offense — defend the sweep and give up single leg X, or maintain narrow base and risk being swept.",
+        "answer_line": "Single leg X-guard entry",
+        "distractors": {
+          "plausible": [
+            "A direct backward sweep instead",
+            "An easier same sweep, wider angle"
+          ],
+          "trap": [
+            "Abandon shin connection, stand up"
+          ]
+        }
       },
       {
         "question": "What is the most critical detail for consolidating mount immediately after the sweep lands?",
-        "answer": "Maintaining grip connection through the transition is the most critical detail. Releasing grips during the sweep-to-mount transition creates a window where the opponent can frame, bridge, or insert a knee to recover guard. Keep pulling grips active as you advance your hips over their torso, only releasing once your mount is established with heavy hip pressure and wide base. The first three seconds in mount determine whether you consolidate or lose the position."
+        "answer": "Maintaining grip connection through the transition is the most critical detail. Releasing grips during the sweep-to-mount transition creates a window where the opponent can frame, bridge, or insert a knee to recover guard. Keep pulling grips active as you advance your hips over their torso, only releasing once your mount is established with heavy hip pressure and wide base. The first three seconds in mount determine whether you consolidate or lose the position.",
+        "answer_line": "Keep grips active through transition",
+        "distractors": {
+          "plausible": [
+            "Advance hips over torso first",
+            "Sink heavy hip pressure first"
+          ],
+          "trap": [
+            "Release grips, post hands wide"
+          ]
+        }
       },
       {
         "question": "How does the direction of the sweep change based on the opponent's weight distribution?",
-        "answer": "When the opponent's weight is centered or forward, sweep directly backward by combining shin elevation with a rearward pull through your grips. When their weight shifts laterally (common when they begin circling to clear the shin), redirect the sweep diagonally toward their light side, using the direction they are already unbalanced. Reading weight distribution through the shin connection provides real-time feedback about which direction requires the least force to complete the sweep."
+        "answer": "When the opponent's weight is centered or forward, sweep directly backward by combining shin elevation with a rearward pull through your grips. When their weight shifts laterally (common when they begin circling to clear the shin), redirect the sweep diagonally toward their light side, using the direction they are already unbalanced. Reading weight distribution through the shin connection provides real-time feedback about which direction requires the least force to complete the sweep.",
+        "answer_line": "Sweep toward their light side",
+        "distractors": {
+          "plausible": [
+            "Always sweep straight backward",
+            "Sweep opposite the shin connection"
+          ],
+          "trap": [
+            "Sweep into their heavy, based side"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Shin-to-Shin Sweep is generally low-risk for both practitioners. The primary safety concern involves controlling the landing as the swept partner falls — avoid driving them onto their head or neck by directing the sweep to land them flat on their back. The guard player should be mindful of knee stress on their connected leg during explosive extension, particularly if the shin connection is positioned too high on the opponent's leg near the knee joint. Partners should communicate about knee sensitivity and avoid explosive drilling before warming up the hip and knee joints thoroughly. During training, allow the swept partner to tap or signal if they feel unsafe during the falling phase."
+    "safety_considerations": "The Shin-to-Shin Sweep is generally low-risk for both practitioners. The primary safety concern involves controlling the landing as the swept partner falls — avoid driving them onto their head or neck by directing the sweep to land them flat on their back. The guard player should be mindful of knee stress on their connected leg during explosive extension, particularly if the shin connection is positioned too high on the opponent's leg near the knee joint. Partners should communicate about knee sensitivity and avoid explosive drilling before warming up the hip and knee joints thoroughly. During training, allow the swept partner to tap or signal if they feel unsafe during the falling phase.",
+    "clips": [
+      {
+        "id": "o-Dq-CFxwX8",
+        "title": "Shin on shin sweep to back take",
+        "by": "Thomas",
+        "vertical": false,
+        "channel": "Thomas",
+        "duration": 19,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "a1lWupzNhkg",
+        "title": "Shin-on-shin sweep to the back from De La Riva",
+        "by": "Carpio Jiu Jitsu coach",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lyXznrhM-po",
+        "title": "Easy shin to shin sweep breakdown",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 197,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Shin-to-Shin Sweep Defender",
@@ -378,19 +499,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Shin-to-Shin Sweep is being set up?",
-        "answer": "The earliest cue is the guard player transitioning from a reclined or semi-reclined posture to an upright seated position while simultaneously increasing upward pressure through the shin connection. This postural change indicates they are loading their hips for the explosive extension phase. Recognizing this shift before they establish upper body grips gives you the maximum defensive window to address the threat through grip fighting or base adjustment."
+        "answer": "The earliest cue is the guard player transitioning from a reclined or semi-reclined posture to an upright seated position while simultaneously increasing upward pressure through the shin connection. This postural change indicates they are loading their hips for the explosive extension phase. Recognizing this shift before they establish upper body grips gives you the maximum defensive window to address the threat through grip fighting or base adjustment.",
+        "answer_line": "Guard player sitting upright",
+        "distractors": {
+          "plausible": [
+            "Opponent establishing collar grip",
+            "Opponent's hips leaving the mat"
+          ],
+          "trap": [
+            "Opponent posting a hand out wide"
+          ]
+        }
       },
       {
         "question": "Why is grip fighting more important than base widening for defending this sweep?",
-        "answer": "Grip fighting removes the pulling force component that breaks your posture and prevents posting — without upper body grips, the shin elevation alone is mechanically insufficient to complete the sweep against a based opponent. Excessive base widening without addressing grips only trades the direct sweep threat for a single leg X-guard entry, which may be a worse outcome. The grip fight addresses the root cause while base widening only treats a symptom."
+        "answer": "Grip fighting removes the pulling force component that breaks your posture and prevents posting — without upper body grips, the shin elevation alone is mechanically insufficient to complete the sweep against a based opponent. Excessive base widening without addressing grips only trades the direct sweep threat for a single leg X-guard entry, which may be a worse outcome. The grip fight addresses the root cause while base widening only treats a symptom.",
+        "answer_line": "Removes the posture-breaking pull",
+        "distractors": {
+          "plausible": [
+            "Base widening is too slow to do",
+            "Grips matter only in the gi"
+          ],
+          "trap": [
+            "Widen base and abandon the grips"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts the sweep and you post your hand to stop it — what follow-up attack should you expect?",
-        "answer": "Expect an arm drag on your posted hand. The guard player will redirect their sleeve grip or free hand to pull your posted arm across your body, eliminating the post and creating a rotational off-balance. This simultaneously opens back take opportunities as you turn to recover the dragged arm. To counter, post with a bent arm rather than a straight arm, keeping your elbow close to your body and your weight back so the arm drag lacks the leverage to rotate you."
+        "answer": "Expect an arm drag on your posted hand. The guard player will redirect their sleeve grip or free hand to pull your posted arm across your body, eliminating the post and creating a rotational off-balance. This simultaneously opens back take opportunities as you turn to recover the dragged arm. To counter, post with a bent arm rather than a straight arm, keeping your elbow close to your body and your weight back so the arm drag lacks the leverage to rotate you.",
+        "answer_line": "Arm drag on the posted hand",
+        "distractors": {
+          "plausible": [
+            "A second shin sweep attempt",
+            "A collar choke off the post"
+          ],
+          "trap": [
+            "Post with a straight, extended arm"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to use forward pressure as a sweep defense, and what is the risk?",
-        "answer": "Forward pressure is appropriate preemptively — when you see the opponent beginning to sit up but before they have established grips and loaded their hips. The goal is to flatten them before they achieve the power position. However, once the guard player is loaded with grips established, forward pressure is extremely dangerous because it drives your weight directly into the shin lever, amplifying the very forces you are trying to resist. The timing distinction is critical: early forward pressure prevents the setup, late forward pressure accelerates the sweep."
+        "answer": "Forward pressure is appropriate preemptively — when you see the opponent beginning to sit up but before they have established grips and loaded their hips. The goal is to flatten them before they achieve the power position. However, once the guard player is loaded with grips established, forward pressure is extremely dangerous because it drives your weight directly into the shin lever, amplifying the very forces you are trying to resist. The timing distinction is critical: early forward pressure prevents the setup, late forward pressure accelerates the sweep.",
+        "answer_line": "Early, before grips are loaded",
+        "distractors": {
+          "plausible": [
+            "Once they have fully sat up",
+            "Anytime you feel off-balance"
+          ],
+          "trap": [
+            "Drive in after hips are loaded"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -413,6 +574,26 @@
         "phase": "Phase 4: Counter-Offense",
         "focus": "Converting sweep defense into passing opportunities",
         "description": "After successfully defending the sweep, immediately transition to guard passing. Practice recognizing the window after a failed sweep where the guard player's grips are loose and their hips are momentarily committed, creating an opening for pressure passes or shin clearing sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "jlu1TzXffDA",
+        "title": "Defending and countering the shin to shin guard",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 171,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "rpRpBz4m114",
+        "title": "Denying the shin-to-shin guard while passing",
+        "by": "Mads H.",
+        "vertical": false,
+        "channel": "Mads H. BJJ",
+        "duration": 239,
+        "verified": "2026-07-15"
       }
     ]
   }

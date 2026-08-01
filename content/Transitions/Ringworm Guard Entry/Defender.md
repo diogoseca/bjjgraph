@@ -162,6 +162,54 @@ description: "How to defend against Ringworm Guard Entry in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm Guard Entry (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the fio dental lapel guard",
+      "description": "Ringworm Guard Entry (Defender) film study: Passing the fio dental lapel guard, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U6h4HKtwqU4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/U6h4HKtwqU4",
+      "url": "https://www.youtube.com/watch?v=U6h4HKtwqU4",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping and passing the worm guard",
+      "description": "Ringworm Guard Entry (Defender) film study: Stopping and passing the worm guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Apdhlgpalgc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Apdhlgpalgc",
+      "url": "https://www.youtube.com/watch?v=Apdhlgpalgc",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT202S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Lapel slayer: single grip to shut down lapel guards",
+      "description": "Ringworm Guard Entry (Defender) film study: Lapel slayer: single grip to shut down lapel guards, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kMybfbRxsPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kMybfbRxsPg",
+      "url": "https://www.youtube.com/watch?v=kMybfbRxsPg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT512S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -175,6 +223,42 @@ When caught in a developing ringworm entry, the defender should prioritize addre
 **Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm Guard Entry (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=U6h4HKtwqU4)
+
+<p class="clip-credit"><strong>Passing the fio dental lapel guard</strong> — taught by Ninja Pinto · 1:49 · <a href="https://www.youtube.com/watch?v=U6h4HKtwqU4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Apdhlgpalgc)
+
+<p class="clip-credit"><strong>Stopping and passing the worm guard</strong> — taught by Jon Thomas · 3:22 · <a href="https://www.youtube.com/watch?v=Apdhlgpalgc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kMybfbRxsPg)
+
+<p class="clip-credit"><strong>Lapel slayer: single grip to shut down lapel guards</strong> — taught by Keenan Cornelius · 8:32 · <a href="https://www.youtube.com/watch?v=kMybfbRxsPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

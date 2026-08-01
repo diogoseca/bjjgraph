@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Spider Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Collar Sleeve Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among gi guard progressions, this transition sits at the heart of the open-guard evolution pathway, bridging the accessible collar sleeve game and the more controlling spider guard system. It is one of the most common guard upgrades in gi jiu-jitsu, letting the bottom player trade single-arm distance management for bilateral bicep control that creates superior sweeping platforms and submission entries.\n\nThe critical challenge in this transition lies in the grip conversion itself. Releasing the cross-collar grip creates a momentary vulnerability where the top player can advance or establish counter-grips before the second sleeve is secured. Successful execution requires precise timing, typically initiated when the opponent is off-balanced or recovering posture, creating a window where the collar release goes unpunished. The sleeve-side foot must already be positioned on the opponent's bicep before the collar grip is released, ensuring continuous control throughout the transition.\n\nStrategically, this transition is most effective when the opponent begins defending collar sleeve attacks by posturing aggressively or when they attempt to circle around your frames. Spider guard provides superior distance management through bilateral leg extension and creates more versatile sweep angles compared to the single-sided control of collar sleeve. Advanced practitioners use this transition as part of a broader guard-switching system, flowing between collar sleeve, spider, lasso, and De La Riva based on the opponent's reactions and passing attempts.",
   "conditions": [
     "Bottom player has established collar sleeve guard with cross-collar and same-side sleeve grips",
@@ -244,38 +256,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the collar-to-spider grip conversion?",
-        "answer": "The optimal window occurs immediately after a strong off-balancing collar pull when the opponent is recovering their posture and base. During this recovery moment, they are focused on re-establishing stability rather than advancing position, creating a 1-2 second window where the collar release goes unpunished. Secondary windows include immediately after the opponent defends a sweep attempt or resets after a failed pass, as their attention is divided between recovery and their next action."
+        "answer": "The optimal window occurs immediately after a strong off-balancing collar pull when the opponent is recovering their posture and base. During this recovery moment, they are focused on re-establishing stability rather than advancing position, creating a 1-2 second window where the collar release goes unpunished. Secondary windows include immediately after the opponent defends a sweep attempt or resets after a failed pass, as their attention is divided between recovery and their next action.",
+        "answer_line": "After off-balancing collar pull",
+        "distractors": {
+          "plausible": [
+            "After they defend a sweep",
+            "When they reset from a pass"
+          ],
+          "trap": [
+            "While they drive forward hard"
+          ]
+        }
       },
       {
         "question": "Why must both feet be positioned on the opponent's biceps before the collar grip is released?",
-        "answer": "The feet on biceps serve as the primary control mechanism during the grip transition. When the collar is released, you momentarily lose all upper body pulling control. The bilateral bicep pressure maintains distance, prevents forward advancement, and controls the opponent's arm positioning so the second sleeve remains within reach. Without this foot positioning, the collar release creates an uncontrolled gap that allows the opponent to collapse distance and initiate a guard pass."
+        "answer": "The feet on biceps serve as the primary control mechanism during the grip transition. When the collar is released, you momentarily lose all upper body pulling control. The bilateral bicep pressure maintains distance, prevents forward advancement, and controls the opponent's arm positioning so the second sleeve remains within reach. Without this foot positioning, the collar release creates an uncontrolled gap that allows the opponent to collapse distance and initiate a guard pass.",
+        "answer_line": "Feet control distance mid-switch",
+        "distractors": {
+          "plausible": [
+            "Feet block their guard passes",
+            "One foot on bicep is enough"
+          ],
+          "trap": [
+            "Release collar first for speed"
+          ]
+        }
       },
       {
         "question": "Your opponent pulls their free arm back and away when they sense you reaching for the second sleeve - how do you adjust?",
-        "answer": "Use your foot already positioned on that bicep to extend their arm by pushing with your leg, bringing the sleeve back within reach. If they aggressively retract beyond foot control range, pivot your strategy: thread your leg under the controlled arm into a lasso guard configuration, or switch to a collar grip on the retreating side. The key is having backup plans that capitalize on their defensive reaction rather than chasing a grip that has moved out of range."
+        "answer": "Use your foot already positioned on that bicep to extend their arm by pushing with your leg, bringing the sleeve back within reach. If they aggressively retract beyond foot control range, pivot your strategy: thread your leg under the controlled arm into a lasso guard configuration, or switch to a collar grip on the retreating side. The key is having backup plans that capitalize on their defensive reaction rather than chasing a grip that has moved out of range.",
+        "answer_line": "Push bicep to extend their arm",
+        "distractors": {
+          "plausible": [
+            "Chase the sleeve with your hand",
+            "Switch immediately to lasso"
+          ],
+          "trap": [
+            "Release the foot to reach it"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail in establishing effective spider guard tension after completing the transition?",
-        "answer": "Full leg extension with simultaneous sleeve pulling creates the opposing-force tension system that defines effective spider guard. The feet push the opponent's biceps away while the hands pull the sleeves toward your hips. This creates a structural lock where any direction of movement by the opponent is resisted by either the push or pull component. Without full extension, the system has slack that allows the opponent to collapse distance. Both push and pull components must engage simultaneously."
+        "answer": "Full leg extension with simultaneous sleeve pulling creates the opposing-force tension system that defines effective spider guard. The feet push the opponent's biceps away while the hands pull the sleeves toward your hips. This creates a structural lock where any direction of movement by the opponent is resisted by either the push or pull component. Without full extension, the system has slack that allows the opponent to collapse distance. Both push and pull components must engage simultaneously.",
+        "answer_line": "Full leg extension, pull sleeves",
+        "distractors": {
+          "plausible": [
+            "Bend knees to absorb pressure",
+            "Push feet, grip sleeves loosely"
+          ],
+          "trap": [
+            "Relax legs, pull hard with arms"
+          ]
+        }
       },
       {
         "question": "What grip position on the second sleeve provides maximum spider guard control?",
-        "answer": "The wrist or mid-forearm level provides maximum control because it creates the longest lever arm over the opponent's arm, prevents them from posting their hand on the mat or your body, and allows full extension control. Gripping higher at the elbow or bicep shortens your control lever, allows the opponent's hand to reach surfaces for posting, and reduces the effectiveness of your push-pull tension system. Deep four-finger grips in the sleeve fabric at wrist level are the standard."
+        "answer": "The wrist or mid-forearm level provides maximum control because it creates the longest lever arm over the opponent's arm, prevents them from posting their hand on the mat or your body, and allows full extension control. Gripping higher at the elbow or bicep shortens your control lever, allows the opponent's hand to reach surfaces for posting, and reduces the effectiveness of your push-pull tension system. Deep four-finger grips in the sleeve fabric at wrist level are the standard.",
+        "answer_line": "Grip at wrist or mid-forearm",
+        "distractors": {
+          "plausible": [
+            "Grip at the elbow",
+            "Grip high near the bicep"
+          ],
+          "trap": [
+            "Grip loosely near the shoulder"
+          ]
+        }
       },
       {
         "question": "During the transition, your opponent drives forward with heavy pressure just as you release the collar - what is your emergency response?",
-        "answer": "If both feet are already on biceps, extend your legs explosively to push them back while your free hand reaches for any available grip on their sleeve, collar, or belt to re-establish control. If the forward pressure overwhelms your feet, frame with your arms against their shoulders and hip escape to create distance, then either re-establish collar sleeve guard with any available grip or pull closed guard to reset. Never fight the forward pressure from a flat-backed position with only your arms."
+        "answer": "If both feet are already on biceps, extend your legs explosively to push them back while your free hand reaches for any available grip on their sleeve, collar, or belt to re-establish control. If the forward pressure overwhelms your feet, frame with your arms against their shoulders and hip escape to create distance, then either re-establish collar sleeve guard with any available grip or pull closed guard to reset. Never fight the forward pressure from a flat-backed position with only your arms.",
+        "answer_line": "Push feet, grab any grip",
+        "distractors": {
+          "plausible": [
+            "Frame arms and hip escape",
+            "Pull closed guard immediately"
+          ],
+          "trap": [
+            "Fight pressure flat with arms only"
+          ]
+        }
       },
       {
         "question": "How does this transition create opportunities that collar sleeve guard alone does not provide?",
-        "answer": "Spider guard provides bilateral distance control through two feet on biceps rather than one, doubles the sleeve control preventing posting on both sides, creates more versatile sweep angles through asymmetric leg pressure, and opens direct triangle and omoplata entries by manipulating both arms simultaneously. Collar sleeve guard's asymmetric structure limits sweeps to one primary direction and submissions to one arm, while spider guard's symmetric control enables multi-directional threats that create genuine dilemmas for the opponent."
+        "answer": "Spider guard provides bilateral distance control through two feet on biceps rather than one, doubles the sleeve control preventing posting on both sides, creates more versatile sweep angles through asymmetric leg pressure, and opens direct triangle and omoplata entries by manipulating both arms simultaneously. Collar sleeve guard's asymmetric structure limits sweeps to one primary direction and submissions to one arm, while spider guard's symmetric control enables multi-directional threats that create genuine dilemmas for the opponent.",
+        "answer_line": "Bilateral control opens attacks",
+        "distractors": {
+          "plausible": [
+            "Doubles pressure on one arm",
+            "Creates one dominant sweep angle"
+          ],
+          "trap": [
+            "No different from collar sleeve"
+          ]
+        }
       },
       {
         "question": "What conditions should cause you to abort the transition and remain in collar sleeve guard?",
-        "answer": "Abort the transition when the opponent is actively driving forward with committed passing pressure, when they have established a strong cross-face or collar grip that could be used to stack you during the grip switch, when your existing sleeve grip is weak or being actively stripped, or when your hips are pinned flat to the mat without mobility. In these situations, the momentary vulnerability of the grip switch creates more risk than the potential benefit of reaching spider guard. Address the immediate threat first."
+        "answer": "Abort the transition when the opponent is actively driving forward with committed passing pressure, when they have established a strong cross-face or collar grip that could be used to stack you during the grip switch, when your existing sleeve grip is weak or being actively stripped, or when your hips are pinned flat to the mat without mobility. In these situations, the momentary vulnerability of the grip switch creates more risk than the potential benefit of reaching spider guard. Address the immediate threat first.",
+        "answer_line": "Opponent driving forward hard",
+        "distractors": {
+          "plausible": [
+            "Opponent's hips are elevated",
+            "You already have both sleeves"
+          ],
+          "trap": [
+            "Opponent's arm is fully extended"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition involves rapid grip changes that stress the fingers and wrists. Ensure proper grip conditioning to prevent finger sprains and flexor tendon injuries common in gi grappling. When extending legs to establish spider guard, avoid hyperextending your partner's elbows by controlling extension speed. If your opponent collapses forward during the transition, protect your face and neck by framing with forearms rather than posting extended arms that could be trapped. Tap immediately if fingers become caught in sleeve fabric during grip transitions."
+    "safety_considerations": "This transition involves rapid grip changes that stress the fingers and wrists. Ensure proper grip conditioning to prevent finger sprains and flexor tendon injuries common in gi grappling. When extending legs to establish spider guard, avoid hyperextending your partner's elbows by controlling extension speed. If your opponent collapses forward during the transition, protect your face and neck by framing with forearms rather than posting extended arms that could be trapped. Tap immediately if fingers become caught in sleeve fabric during grip transitions.",
+    "clips": [
+      {
+        "id": "Rv4bJYHncSA",
+        "title": "Collar spider grip to pant grip break to omoplata",
+        "by": "Outer Heaven Jiu Jitsu",
+        "vertical": false,
+        "channel": "Outer Heaven Jiu Jitsu App",
+        "duration": 74,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YUBd4HUfuYQ",
+        "title": "Spider same side collar tomoe nage to triangle",
+        "by": "Mikey Musumeci",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 159,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QHuA7VaehJ0",
+        "title": "Spider guard transition drill",
+        "by": "Heroes Martial Arts",
+        "vertical": false,
+        "channel": "Heroes Martial Arts",
+        "duration": 163,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Collar Sleeve to Spider Guard Defender",
@@ -357,19 +478,59 @@
     "flashcards": [
       {
         "question": "What is the primary vulnerability window during the collar sleeve to spider guard transition that you should exploit?",
-        "answer": "The primary vulnerability occurs when the bottom player releases their collar grip to reach for your second sleeve. During this 1-2 second window, they lose their primary upper body pulling control and have only their feet on your biceps for distance management. This is the optimal moment to drive forward with pressure, strip the remaining sleeve grip, or establish your own dominant grips, because the bottom player cannot pull you into their guard structure or effectively off-balance you without the collar grip."
+        "answer": "The primary vulnerability occurs when the bottom player releases their collar grip to reach for your second sleeve. During this 1-2 second window, they lose their primary upper body pulling control and have only their feet on your biceps for distance management. This is the optimal moment to drive forward with pressure, strip the remaining sleeve grip, or establish your own dominant grips, because the bottom player cannot pull you into their guard structure or effectively off-balance you without the collar grip.",
+        "answer_line": "When they release the collar grip",
+        "distractors": {
+          "plausible": [
+            "When they extend both legs",
+            "When they grip second sleeve firm"
+          ],
+          "trap": [
+            "Wait for full spider guard setup"
+          ]
+        }
       },
       {
         "question": "Why is it more effective to prevent spider guard establishment during the transition than to dismantle it after it is set up?",
-        "answer": "Once spider guard is fully established with bilateral sleeve grips and feet on biceps, the bottom player has a complete push-pull control system that requires systematic grip breaking to overcome. During the transition, only half the system is in place. Disrupting the transition means fighting against incomplete control rather than a fully integrated guard, requiring less energy, less time, and less technical dismantling. Additionally, the bottom player's attention is divided during the transition, making them less able to counter your defensive actions."
+        "answer": "Once spider guard is fully established with bilateral sleeve grips and feet on biceps, the bottom player has a complete push-pull control system that requires systematic grip breaking to overcome. During the transition, only half the system is in place. Disrupting the transition means fighting against incomplete control rather than a fully integrated guard, requiring less energy, less time, and less technical dismantling. Additionally, the bottom player's attention is divided during the transition, making them less able to counter your defensive actions.",
+        "answer_line": "Half-built guard is easier to break",
+        "distractors": {
+          "plausible": [
+            "Full spider guard is stronger",
+            "Dismantling after is just as easy"
+          ],
+          "trap": [
+            "Wait until sweep attempt begins"
+          ]
+        }
       },
       {
         "question": "Your opponent begins walking their foot from your hip up to your bicep - what immediate action prevents the spider guard transition?",
-        "answer": "Immediately lower your elbow on that side to pin their foot below your bicep, preventing them from establishing the elevated hook position that spider guard requires. Simultaneously step that leg back to create distance and reduce the bottom player's ability to extend their leg to your arm. If you can strip their sleeve grip on that side at the same time, you eliminate both the hook and the grip, forcing them to restart their guard setup from scratch."
+        "answer": "Immediately lower your elbow on that side to pin their foot below your bicep, preventing them from establishing the elevated hook position that spider guard requires. Simultaneously step that leg back to create distance and reduce the bottom player's ability to extend their leg to your arm. If you can strip their sleeve grip on that side at the same time, you eliminate both the hook and the grip, forcing them to restart their guard setup from scratch.",
+        "answer_line": "Lower elbow, pin foot, step back",
+        "distractors": {
+          "plausible": [
+            "Push their foot off your arm",
+            "Grab their foot and pull it down"
+          ],
+          "trap": [
+            "Raise your arm to look at grip"
+          ]
+        }
       },
       {
         "question": "How should you adjust your passing strategy when you successfully prevent the spider guard transition?",
-        "answer": "After disrupting the transition, the bottom player is in a compromised collar sleeve guard with potentially weakened grips and disrupted hip positioning. Immediately initiate a passing sequence before they can re-establish their preferred guard. A toreando pass or knee cut is effective because the bottom player's feet are displaced from their optimal framing positions and their grip structure is incomplete. The key is capitalizing on the disrupted guard within 2-3 seconds before they can resettle into collar sleeve or attempt another guard transition."
+        "answer": "After disrupting the transition, the bottom player is in a compromised collar sleeve guard with potentially weakened grips and disrupted hip positioning. Immediately initiate a passing sequence before they can re-establish their preferred guard. A toreando pass or knee cut is effective because the bottom player's feet are displaced from their optimal framing positions and their grip structure is incomplete. The key is capitalizing on the disrupted guard within 2-3 seconds before they can resettle into collar sleeve or attempt another guard transition.",
+        "answer_line": "Immediately toreando or knee cut",
+        "distractors": {
+          "plausible": [
+            "Wait for them to reset first",
+            "Stack pass since grips broken"
+          ],
+          "trap": [
+            "Retreat to guard and reassess"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -392,6 +553,35 @@
         "phase": "Phase 4: Counter-Passing Integration",
         "focus": "Converting successful defense into immediate passing opportunities",
         "description": "After successfully preventing the spider guard transition, immediately chain into a guard passing sequence. Practice the full defensive-to-offensive flow: recognize transition, execute defense, establish passing grips, complete guard pass. Develops the ability to convert defensive success into positional advancement rather than simply resetting to neutral."
+      }
+    ],
+    "clips": [
+      {
+        "id": "uS8G8ETMHc8",
+        "title": "Countering the cross spider grip",
+        "by": "BJJ Lab Zürich",
+        "vertical": false,
+        "channel": "BJJ Lab Zürich",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HeV1fqXa8RM",
+        "title": "Handling strong grips in spider guard",
+        "by": "Animal BJJ",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "J6RdX606DrY",
+        "title": "Three grip breaks against sleeve grips",
+        "by": "Malachy Friedman",
+        "vertical": false,
+        "channel": "Malachy Friedman",
+        "duration": 64,
+        "verified": "2026-07-15"
       }
     ]
   }

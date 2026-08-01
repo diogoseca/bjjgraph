@@ -148,6 +148,54 @@ description: "How to defend against Explosive Bridge to Guard Recovery in BJJ. M
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Explosive Bridge to Guard Recovery (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Underhook and crossface pin against the bridge",
+      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Underhook and crossface pin against the bridge, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y1Sxim-5NRc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y1Sxim-5NRc",
+      "url": "https://www.youtube.com/watch?v=Y1Sxim-5NRc",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT261S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping side control against a bigger opponent",
+      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Escaping side control against a bigger opponent, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JPZaIcr90c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_JPZaIcr90c",
+      "url": "https://www.youtube.com/watch?v=_JPZaIcr90c",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Protecting elbows under side control and north-south",
+      "description": "Explosive Bridge to Guard Recovery (Defender) film study: Protecting elbows under side control and north-south, taught by RedBeltJiuJitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IHAsHEanLPw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IHAsHEanLPw",
+      "url": "https://www.youtube.com/watch?v=IHAsHEanLPw",
+      "creator": { "@type": "Person", "name": "RedBeltJiuJitsu" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 **Opponent's Starting Position**: [[Positions/North-South]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Explosive Bridge to Guard Recovery (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y1Sxim-5NRc)
+
+<p class="clip-credit"><strong>Underhook and crossface pin against the bridge</strong> — taught by Mads H. · 4:21 · <a href="https://www.youtube.com/watch?v=Y1Sxim-5NRc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_JPZaIcr90c)
+
+<p class="clip-credit"><strong>Escaping side control against a bigger opponent</strong> — taught by Matt Arroyo · 1:09 · <a href="https://www.youtube.com/watch?v=_JPZaIcr90c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IHAsHEanLPw)
+
+<p class="clip-credit"><strong>Protecting elbows under side control and north-south</strong> — taught by RedBeltJiuJitsu · 1:21 · <a href="https://www.youtube.com/watch?v=IHAsHEanLPw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

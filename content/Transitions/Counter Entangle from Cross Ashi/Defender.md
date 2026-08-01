@@ -142,6 +142,43 @@ description: "Defend against counter-entangle from Cross Ashi-Garami top. Mainta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Entangle from Cross Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Modern leglock counters and defense",
+      "description": "Counter Entangle from Cross Ashi (Defender) film study: Modern leglock counters and defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SyP61TJ7ckI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SyP61TJ7ckI",
+      "url": "https://www.youtube.com/watch?v=SyP61TJ7ckI",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT86S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leglock defense from entanglement",
+      "description": "Counter Entangle from Cross Ashi (Defender) film study: Leglock defense from entanglement, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
+      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +188,34 @@ As the person controlling Cross Ashi-Garami from top, your opponent's counter-en
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Entangle from Cross Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SyP61TJ7ckI)
+
+<p class="clip-credit"><strong>Modern leglock counters and defense</strong> — taught by Craig Jones · 1:26 · <a href="https://www.youtube.com/watch?v=SyP61TJ7ckI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+
+<p class="clip-credit"><strong>Leglock defense from entanglement</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

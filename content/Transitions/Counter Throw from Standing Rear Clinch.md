@@ -34,6 +34,54 @@ description: "Master counter throws from standing rear clinch in BJJ. Learn late
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Throw from Standing Rear Clinch \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Takedown from the standing rear clinch",
+      "description": "Counter Throw from Standing Rear Clinch film study: Takedown from the standing rear clinch, taught by Bushido BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PxeYMAji5Vg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PxeYMAji5Vg",
+      "url": "https://www.youtube.com/watch?v=PxeYMAji5Vg",
+      "creator": { "@type": "Person", "name": "Bushido BJJ coach" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Big Judo Throw Counter-Attacks",
+      "description": "Counter Throw from Standing Rear Clinch film study: Big Judo Throw Counter-Attacks, taught by Shintaro Higashi.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C7HnA1zd5Rs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C7HnA1zd5Rs",
+      "url": "https://www.youtube.com/watch?v=C7HnA1zd5Rs",
+      "creator": { "@type": "Person", "name": "Shintaro Higashi" },
+      "duration": "PT161S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Standing Rear Body Lock: Counters and Attacks",
+      "description": "Counter Throw from Standing Rear Clinch film study: Standing Rear Body Lock: Counters and Attacks, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DFXdqByRxNg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DFXdqByRxNg",
+      "url": "https://www.youtube.com/watch?v=DFXdqByRxNg",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT318S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The counter throw family from rear clinch draws heavily from judo and wrestling 
 **Success Rate**: 35%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Throw from Standing Rear Clinch in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PxeYMAji5Vg)
+
+<p class="clip-credit"><strong>Takedown from the standing rear clinch</strong> — taught by Bushido BJJ coach · 1:21 · <a href="https://www.youtube.com/watch?v=PxeYMAji5Vg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C7HnA1zd5Rs)
+
+<p class="clip-credit"><strong>Big Judo Throw Counter-Attacks</strong> — taught by Shintaro Higashi · 2:41 · <a href="https://www.youtube.com/watch?v=C7HnA1zd5Rs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DFXdqByRxNg)
+
+<p class="clip-credit"><strong>Standing Rear Body Lock: Counters and Attacks</strong> — taught by Brian Glick · 5:18 · <a href="https://www.youtube.com/watch?v=DFXdqByRxNg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -252,7 +336,7 @@ The counter throw from standing rear clinch sits at the intersection of defensiv
 
 - [[Transitions/Body Lock Takedown from Clinch]] - Related standing takedown technique sharing hip loading and level change mechanics
 
-- [[Transitions/Mat Return from Rear Clinch]] - Opponent's primary offensive transition that the counter throw aims to preempt
+- [[Transitions/Mat Return from Standing Rear Clinch]] - Opponent's primary offensive transition that the counter throw aims to preempt
 
 - [[Positions/Clinch]] - Neutral standing position that may result from partially successful counter throw attempts
 

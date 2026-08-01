@@ -34,6 +34,54 @@ description: "Master Escape Double Jump in BJJ. Safely retreat from a failed dou
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Double Jump \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard: Reclaim Closed Guard",
+      "description": "Escape Double Jump film study: Half Guard: Reclaim Closed Guard, taught by Daniel Lima.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5sdZak2bil4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5sdZak2bil4",
+      "url": "https://www.youtube.com/watch?v=5sdZak2bil4",
+      "creator": { "@type": "Person", "name": "Daniel Lima" },
+      "duration": "PT26S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Recovery Trick When You Get Smashed",
+      "description": "Escape Double Jump film study: Guard Recovery Trick When You Get Smashed, taught by Finesse Jiu-Jitsu HTX.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
+      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
+      "creator": { "@type": "Person", "name": "Finesse Jiu-Jitsu HTX" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Side Control Bottom: Guard Recovery vs Cross Face",
+      "description": "Escape Double Jump film study: Side Control Bottom: Guard Recovery vs Cross Face, taught by Academy Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QH9-1I5XqO4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QH9-1I5XqO4",
+      "url": "https://www.youtube.com/watch?v=QH9-1I5XqO4",
+      "creator": { "@type": "Person", "name": "Academy Jiu Jitsu" },
+      "duration": "PT105S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Mastery of this escape is essential for any practitioner who incorporates double
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Double Jump in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5sdZak2bil4)
+
+<p class="clip-credit"><strong>Half Guard: Reclaim Closed Guard</strong> — taught by Daniel Lima · 0:26 · <a href="https://www.youtube.com/watch?v=5sdZak2bil4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhNZGloJ56c)
+
+<p class="clip-credit"><strong>Guard Recovery Trick When You Get Smashed</strong> — taught by Finesse Jiu-Jitsu HTX · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QH9-1I5XqO4)
+
+<p class="clip-credit"><strong>Side Control Bottom: Guard Recovery vs Cross Face</strong> — taught by Academy Jiu Jitsu · 1:45 · <a href="https://www.youtube.com/watch?v=QH9-1I5XqO4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -396,35 +396,115 @@
   "flashcards": [
     {
       "question": "What replaces collar and sleeve grips as the primary control mechanism in the No-Gi Tactical Framework?",
-      "answer": "Body locks become the primary control mechanism, supplemented by underhooks, overhooks, wrist control, and head/cross-face pressure to dictate posture and engagement without any fabric to grip."
+      "answer": "Body locks become the primary control mechanism, supplemented by underhooks, overhooks, wrist control, and head/cross-face pressure to dictate posture and engagement without any fabric to grip.",
+      "answer_line": "Body locks as primary control",
+      "distractors": {
+        "plausible": [
+          "Underhooks and wrist control",
+          "Overhooks with cross-face"
+        ],
+        "trap": [
+          "Collar tie, then turn away"
+        ]
+      }
     },
     {
       "question": "Why is the front headlock emphasized more heavily in no-gi than in gi grappling?",
-      "answer": "Without collar and lapel grips to control posture from other positions, the front headlock becomes a high-frequency hub for guillotines, darces, anacondas, and back takes arising from scrambles and failed takedowns."
+      "answer": "Without collar and lapel grips to control posture from other positions, the front headlock becomes a high-frequency hub for guillotines, darces, anacondas, and back takes arising from scrambles and failed takedowns.",
+      "answer_line": "Hub for guillotines and darces",
+      "distractors": {
+        "plausible": [
+          "Sets up back takes only",
+          "Replaces closed guard entirely"
+        ],
+        "trap": [
+          "Best spot to stall and rest"
+        ]
+      }
     },
     {
       "question": "What makes maintaining dominant positions harder in no-gi, and how does the framework address it?",
-      "answer": "Reduced friction and grip security make static holds slippery, so the framework prioritizes constant pressure, position chaining, and preemptive readjustment instead of stationary control."
+      "answer": "Reduced friction and grip security make static holds slippery, so the framework prioritizes constant pressure, position chaining, and preemptive readjustment instead of stationary control.",
+      "answer_line": "Pressure and position chaining",
+      "distractors": {
+        "plausible": [
+          "Grip tighter and hold still",
+          "Slow down, control breathing"
+        ],
+        "trap": [
+          "Sit still and consolidate hold"
+        ]
+      }
     },
     {
       "question": "Which leg entanglement positions are central to the framework's leg attack integration?",
-      "answer": "Inside ashi garami and outside ashi garami are central, supplying heel hook entries, the transitions between them, and the back-exposure opportunities created when opponents defend the legs."
+      "answer": "Inside ashi garami and outside ashi garami are central, supplying heel hook entries, the transitions between them, and the back-exposure opportunities created when opponents defend the legs.",
+      "answer_line": "Inside and outside ashi garami",
+      "distractors": {
+        "plausible": [
+          "50/50 and saddle position",
+          "Knee bar and toe hold only"
+        ],
+        "trap": [
+          "Straight ankle lock only"
+        ]
+      }
     },
     {
       "question": "What submission threats does the system prioritize from back control?",
-      "answer": "Rear naked chokes, short chokes, and arm attacks keep the opponent defensive while you maintain seat belt and body triangle control against the increased escape mobility seen in no-gi."
+      "answer": "Rear naked chokes, short chokes, and arm attacks keep the opponent defensive while you maintain seat belt and body triangle control against the increased escape mobility seen in no-gi.",
+      "answer_line": "RNC, short chokes, arm attacks",
+      "distractors": {
+        "plausible": [
+          "Body triangle finish only",
+          "Bow and arrow choke setup"
+        ],
+        "trap": [
+          "Release grips to reset control"
+        ]
+      }
     },
     {
       "question": "How should a practitioner condition for the explosive demands of no-gi under this framework?",
-      "answer": "Build no-gi-specific conditioning emphasizing short explosive bursts with active rest, and learn to modulate intensity by using pressure and control to conserve energy between scrambles."
+      "answer": "Build no-gi-specific conditioning emphasizing short explosive bursts with active rest, and learn to modulate intensity by using pressure and control to conserve energy between scrambles.",
+      "answer_line": "Short bursts, active rest",
+      "distractors": {
+        "plausible": [
+          "Long steady-state cardio",
+          "Max strength training only"
+        ],
+        "trap": [
+          "Go 100% the entire match"
+        ]
+      }
     },
     {
       "question": "What is a common mistake when transitioning a gi game to no-gi?",
-      "answer": "Attempting to rely on gi-specific grips and controls, and neglecting body lock opportunities in favor of less secure controls that simply fail against a sweaty, slippery opponent."
+      "answer": "Attempting to rely on gi-specific grips and controls, and neglecting body lock opportunities in favor of less secure controls that simply fail against a sweaty, slippery opponent.",
+      "answer_line": "Relying on gi-style grips",
+      "distractors": {
+        "plausible": [
+          "Overusing body locks early",
+          "Ignoring leg attacks entirely"
+        ],
+        "trap": [
+          "Grip the collar tighter"
+        ]
+      }
     },
     {
       "question": "Why does the framework treat leg attacks as both offense and a route to other positions?",
-      "answer": "Leg entanglements are primary submission weapons via heel hooks, but they also force defensive reactions that create back exposure and passing opportunities when opponents extract their legs."
+      "answer": "Leg entanglements are primary submission weapons via heel hooks, but they also force defensive reactions that create back exposure and passing opportunities when opponents extract their legs.",
+      "answer_line": "Force back exposure escapes",
+      "distractors": {
+        "plausible": [
+          "Only used as last resort",
+          "Purely defensive tool"
+        ],
+        "trap": [
+          "Abandon top position to attack"
+        ]
+      }
     }
   ]
 }

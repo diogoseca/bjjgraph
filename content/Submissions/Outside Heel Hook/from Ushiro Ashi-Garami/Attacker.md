@@ -176,6 +176,54 @@ description: "Learn to attack the outside heel hook from ushiro ashi-garami with
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Ushiro Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Outside Ashi Leg Lock Series",
+      "description": "Outside Heel Hook from Ushiro Ashi-Garami (Attacker) film study: Outside Ashi Leg Lock Series, taught by 10th Planet Torrance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WvUalQ3yOpY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WvUalQ3yOpY",
+      "url": "https://www.youtube.com/watch?v=WvUalQ3yOpY",
+      "creator": { "@type": "Person", "name": "10th Planet Torrance" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Ashi Garami to Saddle and Backside 50/50 Heel Hooks",
+      "description": "Outside Heel Hook from Ushiro Ashi-Garami (Attacker) film study: Ashi Garami to Saddle and Backside 50/50 Heel Hooks, taught by Aidan Woodhouse.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wuZyTP4bF6g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wuZyTP4bF6g",
+      "url": "https://www.youtube.com/watch?v=wuZyTP4bF6g",
+      "creator": { "@type": "Person", "name": "Aidan Woodhouse" },
+      "duration": "PT231S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Cross Outside Sankaku Leg Lock System",
+      "description": "Outside Heel Hook from Ushiro Ashi-Garami (Attacker) film study: Cross Outside Sankaku Leg Lock System, taught by Still Rolling Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HaOkWkhQikQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HaOkWkhQikQ",
+      "url": "https://www.youtube.com/watch?v=HaOkWkhQikQ",
+      "creator": { "@type": "Person", "name": "Still Rolling Coach" },
+      "duration": "PT470S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +234,42 @@ Attacking the outside heel hook from ushiro ashi-garami requires adapting standa
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Ushiro Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WvUalQ3yOpY)
+
+<p class="clip-credit"><strong>Outside Ashi Leg Lock Series</strong> — taught by 10th Planet Torrance · 1:13 · <a href="https://www.youtube.com/watch?v=WvUalQ3yOpY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wuZyTP4bF6g)
+
+<p class="clip-credit"><strong>Ashi Garami to Saddle and Backside 50/50 Heel Hooks</strong> — taught by Aidan Woodhouse · 3:51 · <a href="https://www.youtube.com/watch?v=wuZyTP4bF6g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HaOkWkhQikQ)
+
+<p class="clip-credit"><strong>Cross Outside Sankaku Leg Lock System</strong> — taught by Still Rolling Coach · 7:50 · <a href="https://www.youtube.com/watch?v=HaOkWkhQikQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

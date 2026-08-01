@@ -140,6 +140,43 @@ description: "Defend against Shin-to-Shin entry from Headquarters top. Learn to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin from Headquarters (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin slice pass against shin-to-shin guard",
+      "description": "Shin-to-Shin from Headquarters (Defender) film study: Shin slice pass against shin-to-shin guard, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hPri1wuwCP8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hPri1wuwCP8",
+      "url": "https://www.youtube.com/watch?v=hPri1wuwCP8",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee Cut Pass - Late Stage Prevention",
+      "description": "Shin-to-Shin from Headquarters (Defender) film study: Knee Cut Pass - Late Stage Prevention, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yf4XO7dzJk0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yf4XO7dzJk0",
+      "url": "https://www.youtube.com/watch?v=yf4XO7dzJk0",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT65S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender (top player in headquarters), you must prevent the bottom player
 **Opponent's Starting Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin from Headquarters (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hPri1wuwCP8)
+
+<p class="clip-credit"><strong>Shin slice pass against shin-to-shin guard</strong> — taught by Factory Fresh Jiu Jitsu · 1:46 · <a href="https://www.youtube.com/watch?v=hPri1wuwCP8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yf4XO7dzJk0)
+
+<p class="clip-credit"><strong>Knee Cut Pass - Late Stage Prevention</strong> — taught by Revolution BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=yf4XO7dzJk0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

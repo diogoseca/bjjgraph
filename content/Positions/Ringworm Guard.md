@@ -34,6 +34,43 @@ description: "Master Ringworm Guard in BJJ. Advanced lapel guard variation with 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard breakdown",
+      "description": "Ringworm Guard film study: Worm guard breakdown, taught by Erich Munis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzwnLW735U8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzwnLW735U8",
+      "url": "https://www.youtube.com/watch?v=QzwnLW735U8",
+      "creator": { "@type": "Person", "name": "Erich Munis" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel guard instructional overview",
+      "description": "Ringworm Guard film study: Lapel guard instructional overview, taught by Bradley Hill.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4W-dStVHCIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4W-dStVHCIQ",
+      "url": "https://www.youtube.com/watch?v=4W-dStVHCIQ",
+      "creator": { "@type": "Person", "name": "Bradley Hill" },
+      "duration": "PT90S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -68,6 +105,34 @@ Strategically, Ringworm Guard sits within the broader lapel guard ecosystem alon
 The guard creates mechanical advantages through the lapel wrap, restricting the opponent's mobility and forcing them into predictable defensive patterns. From the bottom perspective, practitioners focus on maintaining tension, creating angles, and executing sweeps or transitions to dominant positions. From the top perspective, the focus shifts to grip breaking, posture recovery, and systematic extraction from the lapel configuration while defending against sweeps and back takes.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzwnLW735U8)
+
+<p class="clip-credit"><strong>Worm guard breakdown</strong> — taught by Erich Munis · 0:53 · <a href="https://www.youtube.com/watch?v=QzwnLW735U8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4W-dStVHCIQ)
+
+<p class="clip-credit"><strong>Lapel guard instructional overview</strong> — taught by Bradley Hill · 1:30 · <a href="https://www.youtube.com/watch?v=4W-dStVHCIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -135,19 +200,19 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ### Available Transitions
 
 
-- **[[Transitions/Ringworm Sweep to Back Control/Attacker|Ringworm Sweep to Back Control]]** (15% of attempts)
+- **[[Transitions/Ringworm Sweep to Back Control/Attacker|Ringworm Sweep to Back Control]]** (0% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (34% of attempts)
 
-- **[[Transitions/Omoplata to Sweep/Attacker|Omoplata to Sweep]]** (13% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (28% of attempts)
 
-- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (16% of attempts)
+- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (0% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (13% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (36% of attempts)
 
-- **[[Transitions/Ringworm Guard to Worm Guard/Attacker|Ringworm Guard to Worm Guard]]** (23% of attempts)
+- **[[Transitions/Ringworm Guard to Worm Guard/Attacker|Ringworm Guard to Worm Guard]]** (0% of attempts)
 
-- **[[Transitions/Ringworm to Spider Guard/Attacker|Ringworm to Spider Guard]]** (7% of attempts)
+- **[[Transitions/Ringworm to Spider Guard/Attacker|Ringworm to Spider Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -206,17 +271,17 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ### Available Transitions
 
 
-- **[[Transitions/Lapel Grip Break and Posture Recovery/Attacker|Lapel Grip Break and Posture Recovery]]** (17% of attempts)
+- **[[Transitions/Lapel Grip Break and Posture Recovery/Attacker|Lapel Grip Break and Posture Recovery]]** (0% of attempts)
 
-- **[[Transitions/Leg Extraction from Lapel Wrap/Attacker|Leg Extraction from Lapel Wrap]]** (18% of attempts)
+- **[[Transitions/Leg Extraction from Lapel Wrap/Attacker|Leg Extraction from Lapel Wrap]]** (0% of attempts)
 
-- **[[Transitions/Stack Pass with Lapel Control Negation/Attacker|Stack Pass with Lapel Control Negation]]** (15% of attempts)
+- **[[Transitions/Stack Pass with Lapel Control Negation/Attacker|Stack Pass with Lapel Control Negation]]** (0% of attempts)
 
-- **[[Transitions/Standing Guard Pass with Distance Creation/Attacker|Standing Guard Pass with Distance Creation]]** (14% of attempts)
+- **[[Transitions/Standing Guard Pass with Distance Creation/Attacker|Standing Guard Pass with Distance Creation]]** (41% of attempts)
 
-- **[[Transitions/Smash Pass Counter/Attacker|Smash Pass Counter]]** (17% of attempts)
+- **[[Transitions/Smash Pass Counter/Attacker|Smash Pass Counter]]** (28% of attempts)
 
-- **[[Transitions/Standing Reset to Open Guard/Attacker|Standing Reset to Open Guard]]** (19% of attempts)
+- **[[Transitions/Standing Reset to Open Guard/Attacker|Standing Reset to Open Guard]]** (31% of attempts)
 
 
 ### Common Mistakes

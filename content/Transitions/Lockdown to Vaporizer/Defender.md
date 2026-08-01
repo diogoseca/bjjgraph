@@ -140,6 +140,43 @@ description: "Complete guide to defending the Transition to Vaporizer in BJJ. Le
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lockdown to Vaporizer (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing and shutting down the lockdown",
+      "description": "Lockdown to Vaporizer (Defender) film study: Passing and shutting down the lockdown, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y4eC_7dtzOA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y4eC_7dtzOA",
+      "url": "https://www.youtube.com/watch?v=Y4eC_7dtzOA",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to stop the half guard lockdown",
+      "description": "Lockdown to Vaporizer (Defender) film study: How to stop the half guard lockdown, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/acUhM7o4YKI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/acUhM7o4YKI",
+      "url": "https://www.youtube.com/watch?v=acUhM7o4YKI",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT719S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender against the Transition to Vaporizer, you are the top player in l
 **Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lockdown to Vaporizer (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y4eC_7dtzOA)
+
+<p class="clip-credit"><strong>Passing and shutting down the lockdown</strong> — taught by Peter Mettler · 1:13 · <a href="https://www.youtube.com/watch?v=Y4eC_7dtzOA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=acUhM7o4YKI)
+
+<p class="clip-credit"><strong>How to stop the half guard lockdown</strong> — taught by Wim Deputter · 11:59 · <a href="https://www.youtube.com/watch?v=acUhM7o4YKI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

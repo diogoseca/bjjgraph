@@ -174,6 +174,43 @@ description: "How to execute Jumping Guard in BJJ. Attacking perspective with se
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Jumping Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Jumping guard technique breakdown",
+      "description": "Jumping Guard (Attacker) film study: Jumping guard technique breakdown, taught by BJJInAction.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/at-wrp51-_Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/at-wrp51-_Q",
+      "url": "https://www.youtube.com/watch?v=at-wrp51-_Q",
+      "creator": { "@type": "Person", "name": "BJJInAction" },
+      "duration": "PT91S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Competition-tested ways to pull and jump guard",
+      "description": "Jumping Guard (Attacker) film study: Competition-tested ways to pull and jump guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B4_5rH7Vae0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B4_5rH7Vae0",
+      "url": "https://www.youtube.com/watch?v=B4_5rH7Vae0",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing Jumping Guard, your objective is to explosively close 
 **From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Jumping Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=at-wrp51-_Q)
+
+<p class="clip-credit"><strong>Jumping guard technique breakdown</strong> — taught by BJJInAction · 1:31 · <a href="https://www.youtube.com/watch?v=at-wrp51-_Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B4_5rH7Vae0)
+
+<p class="clip-credit"><strong>Competition-tested ways to pull and jump guard</strong> — taught by Jon Thomas · 3:27 · <a href="https://www.youtube.com/watch?v=B4_5rH7Vae0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

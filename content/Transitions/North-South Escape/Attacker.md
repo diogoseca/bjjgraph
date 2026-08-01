@@ -168,6 +168,43 @@ description: "How to execute North-South Escape in BJJ. Attacking perspective wi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "North-South Escape (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "North-south inverted spin escape",
+      "description": "North-South Escape (Attacker) film study: North-south inverted spin escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XaLBmGnHm78/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XaLBmGnHm78",
+      "url": "https://www.youtube.com/watch?v=XaLBmGnHm78",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping switch-base side control pin",
+      "description": "North-South Escape (Attacker) film study: Escaping switch-base side control pin, taught by Renegade BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4WBfhnf2mJI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4WBfhnf2mJI",
+      "url": "https://www.youtube.com/watch?v=4WBfhnf2mJI",
+      "creator": { "@type": "Person", "name": "Renegade BJJ" },
+      "duration": "PT68S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -177,6 +214,34 @@ From the escapee's perspective, north-south bottom is a race against fatigue and
 **From Position**: [[Positions/North-South]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch North-South Escape (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XaLBmGnHm78)
+
+<p class="clip-credit"><strong>North-south inverted spin escape</strong> — taught by SBG Australia · 0:37 · <a href="https://www.youtube.com/watch?v=XaLBmGnHm78" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4WBfhnf2mJI)
+
+<p class="clip-credit"><strong>Escaping switch-base side control pin</strong> — taught by Renegade BJJ · 1:08 · <a href="https://www.youtube.com/watch?v=4WBfhnf2mJI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

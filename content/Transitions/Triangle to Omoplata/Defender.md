@@ -148,6 +148,54 @@ description: "How to defend against Triangle to Omoplata in BJJ. Recognition cue
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle to Omoplata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Omoplata Escape: Jump Over",
+      "description": "Triangle to Omoplata (Defender) film study: Omoplata Escape: Jump Over, taught by Ritchie Yip.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_2dhd21ffbc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_2dhd21ffbc",
+      "url": "https://www.youtube.com/watch?v=_2dhd21ffbc",
+      "creator": { "@type": "Person", "name": "Ritchie Yip" },
+      "duration": "PT8S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Quick Omoplata Escape",
+      "description": "Triangle to Omoplata (Defender) film study: Quick Omoplata Escape, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HszTUEYJ-xE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HszTUEYJ-xE",
+      "url": "https://www.youtube.com/watch?v=HszTUEYJ-xE",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Omoplata Escape to Front Headlock",
+      "description": "Triangle to Omoplata (Defender) film study: Omoplata Escape to Front Headlock, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0-SG9igq40E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0-SG9igq40E",
+      "url": "https://www.youtube.com/watch?v=0-SG9igq40E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT14S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the triangle to omoplata transition requires understanding that you ar
 **Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle to Omoplata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_2dhd21ffbc)
+
+<p class="clip-credit"><strong>Omoplata Escape: Jump Over</strong> — taught by Ritchie Yip · 0:08 · <a href="https://www.youtube.com/watch?v=_2dhd21ffbc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HszTUEYJ-xE)
+
+<p class="clip-credit"><strong>Quick Omoplata Escape</strong> — taught by Adam Bradley · 0:36 · <a href="https://www.youtube.com/watch?v=HszTUEYJ-xE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0-SG9igq40E)
+
+<p class="clip-credit"><strong>Omoplata Escape to Front Headlock</strong> — taught by Asaf Mich · 0:14 · <a href="https://www.youtube.com/watch?v=0-SG9igq40E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -148,6 +148,43 @@ description: "How to defend against Darce from Lockdown Counter in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce from Lockdown Counter (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Reversing the darce from half guard bottom",
+      "description": "Darce from Lockdown Counter (Defender) film study: Reversing the darce from half guard bottom, taught by Chosen Few BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t-7Q49INbe8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t-7Q49INbe8",
+      "url": "https://www.youtube.com/watch?v=t-7Q49INbe8",
+      "creator": { "@type": "Person", "name": "Chosen Few BJJ coach" },
+      "duration": "PT174S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the darce into a heel hook",
+      "description": "Darce from Lockdown Counter (Defender) film study: Escaping the darce into a heel hook, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cirdExlsSOM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cirdExlsSOM",
+      "url": "https://www.youtube.com/watch?v=cirdExlsSOM",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT248S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ From a strategic standpoint, awareness of this counter should inform how you att
 **Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce from Lockdown Counter (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t-7Q49INbe8)
+
+<p class="clip-credit"><strong>Reversing the darce from half guard bottom</strong> — taught by Chosen Few BJJ coach · 2:54 · <a href="https://www.youtube.com/watch?v=t-7Q49INbe8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cirdExlsSOM)
+
+<p class="clip-credit"><strong>Escaping the darce into a heel hook</strong> — taught by Brandon McCaghren · 4:08 · <a href="https://www.youtube.com/watch?v=cirdExlsSOM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

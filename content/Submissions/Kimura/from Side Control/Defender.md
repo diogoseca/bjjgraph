@@ -150,6 +150,43 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura defense grip breaks",
+      "description": "Kimura from Side Control (Defender) film study: Kimura defense grip breaks, taught by Dirtball BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GOLwVNTVcnY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GOLwVNTVcnY",
+      "url": "https://www.youtube.com/watch?v=GOLwVNTVcnY",
+      "creator": { "@type": "Person", "name": "Dirtball BJJ" },
+      "duration": "PT81S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late Kimura defense from bottom side control",
+      "description": "Kimura from Side Control (Defender) film study: Late Kimura defense from bottom side control, taught by Fox Den Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uRn3DRICpeY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uRn3DRICpeY",
+      "url": "https://www.youtube.com/watch?v=uRn3DRICpeY",
+      "creator": { "@type": "Person", "name": "Fox Den Martial Arts" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Kimura from Side Control requires immediate recognition and proact
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GOLwVNTVcnY)
+
+<p class="clip-credit"><strong>Kimura defense grip breaks</strong> — taught by Dirtball BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=GOLwVNTVcnY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uRn3DRICpeY)
+
+<p class="clip-credit"><strong>Late Kimura defense from bottom side control</strong> — taught by Fox Den Martial Arts · 1:40 · <a href="https://www.youtube.com/watch?v=uRn3DRICpeY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

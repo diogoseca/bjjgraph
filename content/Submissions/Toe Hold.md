@@ -35,6 +35,65 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toe Hold from 50/50",
+      "description": "Toe Hold film study: Toe Hold from 50/50, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/B_StkmaI3Nc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/B_StkmaI3Nc",
+      "url": "https://www.youtube.com/watch?v=B_StkmaI3Nc",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Paper Cutter Toehold from 50/50",
+      "description": "Toe Hold film study: Paper Cutter Toehold from 50/50, taught by Garden State BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
+      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
+      "creator": { "@type": "Person", "name": "Garden State BJJ" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fifty-fifty toe hold",
+      "description": "Toe Hold film study: Fifty-fifty toe hold, taught by Ninja Pinto.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BbPdLSszYt8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BbPdLSszYt8",
+      "url": "https://www.youtube.com/watch?v=BbPdLSszYt8",
+      "creator": { "@type": "Person", "name": "Ninja Pinto" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 4,
+      "name": "Crossover Toe Hold",
+      "description": "Toe Hold film study: Crossover Toe Hold, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +113,7 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Toe Hold?", "acceptedAnswer": { "@type": "Answer", "text": "The Toe Hold is a rotational ankle lock in which you grip the opponent\u0027s toes and forefoot while bracing their heel, twisting the foot inward to torque the ankle and midfoot joints into a fast, low-warning tap." } },
-    { "@type": "Question", "name": "What positions can you finish the Toe Hold from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Toe Hold from 50-50 Guard, Ashi Garami, Backside 50-50, Cross Ashi-Garami, Estima Lock Control, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Leg Entanglement, Saddle, Toe Hold Control, Ushiro Ashi-Garami, Outside Ashi-Garami." } },
+    { "@type": "Question", "name": "What positions can you finish the Toe Hold from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Toe Hold from 50-50 Guard, Ashi Garami, Honey Hole, Inside Ashi-Garami, Inside Sankaku, Kneebar Control, Toe Hold Control, Estima Lock Control, Backside 50-50, Cross Ashi-Garami, Leg Entanglement, Saddle, Ushiro Ashi-Garami, Outside Ashi-Garami." } },
     { "@type": "Question", "name": "Is the Toe Hold dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Toe Hold targets the Ankle, toes, and foot ligaments. Primary risk: Ankle ligament tears (lateral and medial collateral ligaments). Tap early and release immediately on the tap." } }
   ]
 }
@@ -78,7 +137,7 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 
 <aside class="entity-relations">
 <p class="also-known-as"><em>Also known as:</em> <strong>Ashi Dori Garami</strong>, <strong>American Toe Hold</strong></p>
-<p class="often-confused-with"><em>Often confused with</em> <strong>[[Transitions/Heel Hook|Heel Hook]]</strong> — the Heel Hook attacks the knee via the heel — a different joint</p>
+<p class="often-confused-with"><em>Often confused with</em> <strong>[[Submissions/Heel Hook|Heel Hook]]</strong> — the Heel Hook attacks the knee via the heel — a different joint</p>
 </aside>
 <section id="overview" class="content-section">
 
@@ -91,6 +150,50 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=B_StkmaI3Nc)
+
+<p class="clip-credit"><strong>Toe Hold from 50/50</strong> — taught by John Danaher · 0:17 · <a href="https://www.youtube.com/watch?v=B_StkmaI3Nc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
+
+<p class="clip-credit"><strong>Paper Cutter Toehold from 50/50</strong> — taught by Garden State BJJ · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BbPdLSszYt8)
+
+<p class="clip-credit"><strong>Fifty-fifty toe hold</strong> — taught by Ninja Pinto · 1:10 · <a href="https://www.youtube.com/watch?v=BbPdLSszYt8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Crossover Toe Hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -100,21 +203,19 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Toe Hold/from 50-50 Guard|50-50 Guard]] | Top | 60% | [[Submissions/Toe Hold/from 50-50 Guard/Attacker|Attack →]] | [[Submissions/Toe Hold/from 50-50 Guard/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from 50-50|50-50 Guard]] | Bottom | 60% | [[Submissions/Toe Hold/from 50-50/Attacker|Attack →]] | [[Submissions/Toe Hold/from 50-50/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Ashi Garami|Ashi Garami]] | Top | 60% | [[Submissions/Toe Hold/from Ashi Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Ashi Garami/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Backside 50-50|Backside 50-50]] | Top | 60% | [[Submissions/Toe Hold/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Toe Hold/from Backside 50-50/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Cross Ashi-Garami|Cross Ashi-Garami]] | Top | 60% | [[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Cross Ashi-Garami/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Estima Lock|Estima Lock Control]] | Top | 60% | [[Submissions/Toe Hold/from Estima Lock/Attacker|Attack →]] | [[Submissions/Toe Hold/from Estima Lock/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Honey Hole|Honey Hole]] | Top | 60% | [[Submissions/Toe Hold/from Honey Hole/Attacker|Attack →]] | [[Submissions/Toe Hold/from Honey Hole/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Inside Ashi-Garami|Inside Ashi-Garami]] | Top | 60% | [[Submissions/Toe Hold/from Inside Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Inside Ashi-Garami/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Inside Sankaku|Inside Sankaku]] | Top | 60% | [[Submissions/Toe Hold/from Inside Sankaku/Attacker|Attack →]] | [[Submissions/Toe Hold/from Inside Sankaku/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Kneebar Control|Kneebar Control]] | Top | 60% | [[Submissions/Toe Hold/from Kneebar Control/Attacker|Attack →]] | [[Submissions/Toe Hold/from Kneebar Control/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Leg Entanglement|Leg Entanglement]] | Top | 60% | [[Submissions/Toe Hold/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Toe Hold/from Leg Entanglement/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Saddle|Saddle]] | Top | 60% | [[Submissions/Toe Hold/from Saddle/Attacker|Attack →]] | [[Submissions/Toe Hold/from Saddle/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Toe Hold Control|Toe Hold Control]] | Top | 60% | [[Submissions/Toe Hold/from Toe Hold Control/Attacker|Attack →]] | [[Submissions/Toe Hold/from Toe Hold Control/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Top|Inside Ashi-Garami]] | Bottom | 58% | [[Submissions/Toe Hold/from Top/Attacker|Attack →]] | [[Submissions/Toe Hold/from Top/Defender|Defend →]] |
-| [[Submissions/Toe Hold/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | Top | 50% | [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Estima Lock|Estima Lock Control]] | Top | 55% | [[Submissions/Toe Hold/from Estima Lock/Attacker|Attack →]] | [[Submissions/Toe Hold/from Estima Lock/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Backside 50-50|Backside 50-50]] | Top | 45% | [[Submissions/Toe Hold/from Backside 50-50/Attacker|Attack →]] | [[Submissions/Toe Hold/from Backside 50-50/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Cross Ashi-Garami|Cross Ashi-Garami]] | Top | 45% | [[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Cross Ashi-Garami/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Leg Entanglement|Leg Entanglement]] | Top | 45% | [[Submissions/Toe Hold/from Leg Entanglement/Attacker|Attack →]] | [[Submissions/Toe Hold/from Leg Entanglement/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Saddle|Saddle]] | Top | 45% | [[Submissions/Toe Hold/from Saddle/Attacker|Attack →]] | [[Submissions/Toe Hold/from Saddle/Defender|Defend →]] |
+| [[Submissions/Toe Hold/from Ushiro Ashi-Garami|Ushiro Ashi-Garami]] | Top | 45% | [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|Attack →]] | [[Submissions/Toe Hold/from Ushiro Ashi-Garami/Defender|Defend →]] |
 | [[Submissions/Toe Hold/from Outside Ashi|Outside Ashi-Garami]] | Top | 40% | [[Submissions/Toe Hold/from Outside Ashi/Attacker|Attack →]] | [[Submissions/Toe Hold/from Outside Ashi/Defender|Defend →]] |
 
 
@@ -143,13 +244,13 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 <section id="related" class="content-section">
 
 ## Related
-- [[Transitions/Heel Hook]] - Primary leg lock attacking knee through rotational pressure, often combined in leg attack sequences from identical entanglements
+- [[Submissions/Heel Hook]] - Primary leg lock attacking knee through rotational pressure, often combined in leg attack sequences from identical entanglements
 - [[Submissions/Inside Heel Hook]] - Inside heel attack frequently chained with Toe Hold when opponent defends one to expose the other
-- [[Transitions/Outside Heel Hook]] - Outside heel attack creating submission dilemmas when combined with Toe Hold threats from shared positions
+- [[Submissions/Outside Heel Hook]] - Outside heel attack creating submission dilemmas when combined with Toe Hold threats from shared positions
 - [[Submissions/Achilles Lock]] - Alternative ankle attack using compression rather than rotation, common fallback when Toe Hold is defended
 - [[Transitions/Kneebar]] - Complementary leg lock attacking knee hyperextension, creates submission dilemmas in leg entanglement exchanges
 - [[Submissions/Calf Slicer]] - Compression-based leg attack combinable with Toe Hold from overlapping leg entanglement positions
-- [[Transitions/Estima Lock]] - Foot lock attacking the instep, alternative finishing option from similar guard passing and entanglement positions
+- [[Submissions/Estima Lock]] - Foot lock attacking the instep, alternative finishing option from similar guard passing and entanglement positions
 - [[Transitions/Aoki Lock]] - Advanced leg submission with unique rotational mechanics, combinable in leg attack chains from shared entanglements
 - [[Positions/Ashi Garami]] - Primary starting position for Toe Hold application with inside leg control
 - [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical leg entanglement position allowing Toe Hold attacks from both top and bottom

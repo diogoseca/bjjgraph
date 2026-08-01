@@ -140,6 +140,54 @@ description: "Master defending against the Cross Body to Side Control transition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Body to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle escape from back control",
+      "description": "Cross Body to Side Control (Defender) film study: Turtle escape from back control, taught by BJJ101.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bDZntPrcLpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bDZntPrcLpg",
+      "url": "https://www.youtube.com/watch?v=bDZntPrcLpg",
+      "creator": { "@type": "Person", "name": "BJJ101" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escape from sprawl / turtle control",
+      "description": "Cross Body to Side Control (Defender) film study: Escape from sprawl / turtle control, taught by Carlson Gracie Team CT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JsiYZcOJXxg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JsiYZcOJXxg",
+      "url": "https://www.youtube.com/watch?v=JsiYZcOJXxg",
+      "creator": { "@type": "Person", "name": "Carlson Gracie Team CT" },
+      "duration": "PT48S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle guard escape out of side control",
+      "description": "Cross Body to Side Control (Defender) film study: Turtle guard escape out of side control, taught by Grappling Instructionals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nJrDZItdKs8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nJrDZItdKs8",
+      "url": "https://www.youtube.com/watch?v=nJrDZItdKs8",
+      "creator": { "@type": "Person", "name": "Grappling Instructionals" },
+      "duration": "PT95S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender against Cross Body to Side Control, your primary objective is to
 **Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Body to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bDZntPrcLpg)
+
+<p class="clip-credit"><strong>Turtle escape from back control</strong> — taught by BJJ101 · 0:37 · <a href="https://www.youtube.com/watch?v=bDZntPrcLpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JsiYZcOJXxg)
+
+<p class="clip-credit"><strong>Escape from sprawl / turtle control</strong> — taught by Carlson Gracie Team CT · 0:48 · <a href="https://www.youtube.com/watch?v=JsiYZcOJXxg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nJrDZItdKs8)
+
+<p class="clip-credit"><strong>Turtle guard escape out of side control</strong> — taught by Grappling Instructionals · 1:35 · <a href="https://www.youtube.com/watch?v=nJrDZItdKs8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

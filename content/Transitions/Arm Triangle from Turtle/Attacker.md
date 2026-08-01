@@ -174,6 +174,43 @@ description: "How to execute Arm Triangle from Turtle in BJJ. Attacking perspect
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Arm Triangle from Turtle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm triangle from turtle",
+      "description": "Arm Triangle from Turtle (Attacker) film study: Arm triangle from turtle, taught by BTT Evergreen.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KHEJ0DygJvc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KHEJ0DygJvc",
+      "url": "https://www.youtube.com/watch?v=KHEJ0DygJvc",
+      "creator": { "@type": "Person", "name": "BTT Evergreen" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Head and arm choke from the turtle position",
+      "description": "Arm Triangle from Turtle (Attacker) film study: Head and arm choke from the turtle position, taught by Pathfinder Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h4izOHcQh2Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h4izOHcQh2Y",
+      "url": "https://www.youtube.com/watch?v=h4izOHcQh2Y",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Arm Triangle from Turtle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KHEJ0DygJvc)
+
+<p class="clip-credit"><strong>Arm triangle from turtle</strong> — taught by BTT Evergreen · 0:58 · <a href="https://www.youtube.com/watch?v=KHEJ0DygJvc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h4izOHcQh2Y)
+
+<p class="clip-credit"><strong>Head and arm choke from the turtle position</strong> — taught by Pathfinder Jiu-Jitsu Team · 0:50 · <a href="https://www.youtube.com/watch?v=h4izOHcQh2Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -240,7 +305,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Transitions/Arm Triangle]] | 55% |
+| Success | [[Positions/Side Control]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 25% |
 | Failure | [[Positions/Half Guard]] | 10% |
 | Counter | [[Positions/Closed Guard]] | 10% |

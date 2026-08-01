@@ -148,6 +148,43 @@ description: "Defend against the armbar setup from double sleeve guard. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar Setup from Double Sleeve (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fixing your armbar defense",
+      "description": "Armbar Setup from Double Sleeve (Defender) film study: Fixing your armbar defense, taught by Michael Currier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KuhIFZMNIKs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KuhIFZMNIKs",
+      "url": "https://www.youtube.com/watch?v=KuhIFZMNIKs",
+      "creator": { "@type": "Person", "name": "Michael Currier" },
+      "duration": "PT105S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar defense and escape",
+      "description": "Armbar Setup from Double Sleeve (Defender) film study: Armbar defense and escape, taught by Wesley Chapel MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yWmSp1_dOfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yWmSp1_dOfI",
+      "url": "https://www.youtube.com/watch?v=yWmSp1_dOfI",
+      "creator": { "@type": "Person", "name": "Wesley Chapel MMA" },
+      "duration": "PT172S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ The defender against the armbar setup from double sleeve guard is the top player
 **Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar Setup from Double Sleeve (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KuhIFZMNIKs)
+
+<p class="clip-credit"><strong>Fixing your armbar defense</strong> — taught by Michael Currier · 1:45 · <a href="https://www.youtube.com/watch?v=KuhIFZMNIKs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yWmSp1_dOfI)
+
+<p class="clip-credit"><strong>Armbar defense and escape</strong> — taught by Wesley Chapel MMA · 2:52 · <a href="https://www.youtube.com/watch?v=yWmSp1_dOfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

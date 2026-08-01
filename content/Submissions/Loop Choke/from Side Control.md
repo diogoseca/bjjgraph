@@ -34,6 +34,54 @@ description: "Master the Loop Choke from Side Control in BJJ. Complete guide to 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Loop Choke from Side Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Loop Choke from Side Control",
+      "description": "Loop Choke from Side Control film study: Loop Choke from Side Control, taught by Goulburn Martial Arts Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PAbRHZXGr8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PAbRHZXGr8Q",
+      "url": "https://www.youtube.com/watch?v=PAbRHZXGr8Q",
+      "creator": { "@type": "Person", "name": "Goulburn Martial Arts Academy" },
+      "duration": "PT79S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Alexandre Vieira Loop Choke",
+      "description": "Loop Choke from Side Control film study: Alexandre Vieira Loop Choke, taught by Alexandre Vieira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Er-26kb4wss/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Er-26kb4wss",
+      "url": "https://www.youtube.com/watch?v=Er-26kb4wss",
+      "creator": { "@type": "Person", "name": "Alexandre Vieira" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Loop Choke from Side Control",
+      "description": "Loop Choke from Side Control film study: Loop Choke from Side Control, taught by Fenrir Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YZuU9259pcs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YZuU9259pcs",
+      "url": "https://www.youtube.com/watch?v=YZuU9259pcs",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu Academy" },
+      "duration": "PT118S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ Practitioners who develop this technique gain a powerful addition to their side 
 **Starting Position**: [[Positions/Side Control]] · **From**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Loop Choke from Side Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PAbRHZXGr8Q)
+
+<p class="clip-credit"><strong>Loop Choke from Side Control</strong> — taught by Goulburn Martial Arts Academy · 1:19 · <a href="https://www.youtube.com/watch?v=PAbRHZXGr8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Er-26kb4wss)
+
+<p class="clip-credit"><strong>Alexandre Vieira Loop Choke</strong> — taught by Alexandre Vieira · 0:50 · <a href="https://www.youtube.com/watch?v=Er-26kb4wss" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YZuU9259pcs)
+
+<p class="clip-credit"><strong>Loop Choke from Side Control</strong> — taught by Fenrir Jiu-Jitsu Academy · 1:58 · <a href="https://www.youtube.com/watch?v=YZuU9259pcs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -250,11 +334,11 @@ Practitioners who develop this technique gain a powerful addition to their side 
 ## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle]]
 - [[Submissions/Americana]]
 - [[Submissions/Baseball Bat Choke]]
 - [[Submissions/Breadcutter Choke]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Submissions/Brabo Choke]]
 - [[Submissions/Kimura]]
 - [[Submissions/Far Side Armbar]]

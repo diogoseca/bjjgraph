@@ -34,6 +34,54 @@ description: "Master Kneebar Setup from Outside Ashi-Garami. Step-by-step leg ex
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X to Kneebar Setup",
+      "description": "Kneebar Setup film study: Single Leg X to Kneebar Setup, taught by Fernaldi Jonatan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fZRfKh1B53o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fZRfKh1B53o",
+      "url": "https://www.youtube.com/watch?v=fZRfKh1B53o",
+      "creator": { "@type": "Person", "name": "Fernaldi Jonatan" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata to Knee Bar Setup",
+      "description": "Kneebar Setup film study: Omoplata to Knee Bar Setup, taught by Todd Hendrickson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nlqXyzajRUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nlqXyzajRUg",
+      "url": "https://www.youtube.com/watch?v=nlqXyzajRUg",
+      "creator": { "@type": "Person", "name": "Todd Hendrickson" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "2 Ways to Attack a Kneebar From Cross Ashi",
+      "description": "Kneebar Setup film study: 2 Ways to Attack a Kneebar From Cross Ashi, taught by King Kneebar.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0wHq6PZVGfI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0wHq6PZVGfI",
+      "url": "https://www.youtube.com/watch?v=0wHq6PZVGfI",
+      "creator": { "@type": "Person", "name": "King Kneebar" },
+      "duration": "PT140S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition is particularly effective because it punishes one of the most co
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fZRfKh1B53o)
+
+<p class="clip-credit"><strong>Single Leg X to Kneebar Setup</strong> — taught by Fernaldi Jonatan · 1:16 · <a href="https://www.youtube.com/watch?v=fZRfKh1B53o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nlqXyzajRUg)
+
+<p class="clip-credit"><strong>Omoplata to Knee Bar Setup</strong> — taught by Todd Hendrickson · 1:28 · <a href="https://www.youtube.com/watch?v=nlqXyzajRUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0wHq6PZVGfI)
+
+<p class="clip-credit"><strong>2 Ways to Attack a Kneebar From Cross Ashi</strong> — taught by King Kneebar · 2:20 · <a href="https://www.youtube.com/watch?v=0wHq6PZVGfI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -243,7 +327,7 @@ The Kneebar Setup represents a critical branch in the leg lock system tree from 
 
 - [[Transitions/Kneebar Finish]] - Follow-up submission from control position
 
-- [[Transitions/Outside Heel Hook]] - Primary alternative attack from same position
+- [[Submissions/Outside Heel Hook]] - Primary alternative attack from same position
 
 - [[Submissions/Inside Heel Hook]] - Chain attack when opponent defends kneebar by rotating
 

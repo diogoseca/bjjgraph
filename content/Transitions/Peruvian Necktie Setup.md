@@ -34,6 +34,54 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Peruvian Necktie Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Peruvian Necktie submission demo",
+      "description": "Peruvian Necktie Setup film study: Peruvian Necktie submission demo, taught by BJJ Fanatics.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5-Hoy4WV7bI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5-Hoy4WV7bI",
+      "url": "https://www.youtube.com/watch?v=5-Hoy4WV7bI",
+      "creator": { "@type": "Person", "name": "BJJ Fanatics" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi Peruvian Necktie into Anaconda",
+      "description": "Peruvian Necktie Setup film study: No-gi Peruvian Necktie into Anaconda, taught by Amir Allah.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BRS_zC49Kas/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BRS_zC49Kas",
+      "url": "https://www.youtube.com/watch?v=BRS_zC49Kas",
+      "creator": { "@type": "Person", "name": "Amir Allah" },
+      "duration": "PT49S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Peruvian Necktie breakdown",
+      "description": "Peruvian Necktie Setup film study: Peruvian Necktie breakdown, taught by Luke Harris.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WpQIntujyFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WpQIntujyFU",
+      "url": "https://www.youtube.com/watch?v=WpQIntujyFU",
+      "creator": { "@type": "Person", "name": "Luke Harris" },
+      "duration": "PT106S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +110,45 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 42%
+**Success Rate**: 32%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Peruvian Necktie Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5-Hoy4WV7bI)
+
+<p class="clip-credit"><strong>Peruvian Necktie submission demo</strong> — taught by BJJ Fanatics · 1:08 · <a href="https://www.youtube.com/watch?v=5-Hoy4WV7bI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BRS_zC49Kas)
+
+<p class="clip-credit"><strong>No-gi Peruvian Necktie into Anaconda</strong> — taught by Amir Allah · 0:49 · <a href="https://www.youtube.com/watch?v=BRS_zC49Kas" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WpQIntujyFU)
+
+<p class="clip-credit"><strong>Peruvian Necktie breakdown</strong> — taught by Luke Harris · 1:46 · <a href="https://www.youtube.com/watch?v=WpQIntujyFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -72,7 +156,7 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Peruvian Necktie]] | 50% |
+| Success | [[Peruvian Necktie from Front Headlock]] | 50% |
 | Failure | [[Positions/Front Headlock]] | 35% |
 | Counter | [[Positions/Turtle]] | 15% |
 
@@ -246,13 +330,13 @@ The Peruvian Necktie Setup represents an advanced branch of the front headlock s
 
 - [[Transitions/Anaconda Choke]] - Complementary submission - creates threat sequence from front headlock
 
-- [[Transitions/Darce Choke]] - Complementary submission - alternative front headlock finish
+- [[Submissions/Darce Choke]] - Complementary submission - alternative front headlock finish
 
 - [[Transitions/Guillotine Setup]] - Alternative setup - backup option if Peruvian Necktie entry fails
 
 - [[Transitions/Front Headlock to Back]] - Alternative transition - positional advancement option from same control
 
-- [[Transitions/Guillotine Choke]] - Related submission - shares similar control principles and timing windows
+- [[Submissions/Guillotine Choke]] - Related submission - shares similar control principles and timing windows
 
 - [[Positions/Turtle]] - Opponent position - defensive posture being exploited for entry
 

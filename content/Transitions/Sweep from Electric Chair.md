@@ -34,6 +34,54 @@ description: "Master the Sweep from Electric Chair in BJJ. Complete lockdown swe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Sweep from Electric Chair \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric chair from lockdown half guard",
+      "description": "Sweep from Electric Chair film study: Electric chair from lockdown half guard, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
+      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric chair sweep technique breakdown",
+      "description": "Sweep from Electric Chair film study: Electric chair sweep technique breakdown, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CxxyZEd7-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CxxyZEd7-E",
+      "url": "https://www.youtube.com/watch?v=9CxxyZEd7-E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Electric chair from deep half guard",
+      "description": "Sweep from Electric Chair film study: Electric chair from deep half guard, taught by Heart \u0026 Dagger BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
+      "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
+      "creator": { "@type": "Person", "name": "Heart \u0026 Dagger BJJ" },
+      "duration": "PT43S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Execution requires precise coordination between three control points working sim
 **Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Sweep from Electric Chair in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+
+<p class="clip-credit"><strong>Electric chair from lockdown half guard</strong> — taught by Brandon McCaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CxxyZEd7-E)
+
+<p class="clip-credit"><strong>Electric chair sweep technique breakdown</strong> — taught by Asaf Mich · 1:16 · <a href="https://www.youtube.com/watch?v=9CxxyZEd7-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O18n2Z5HISI)
+
+<p class="clip-credit"><strong>Electric chair from deep half guard</strong> — taught by Heart &amp; Dagger BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

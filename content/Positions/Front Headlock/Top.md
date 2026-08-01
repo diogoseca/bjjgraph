@@ -21,19 +21,19 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Guillotine",
-      "text": "From this position, attempt Front Headlock to Guillotine. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Guillotine. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Setup",
-      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,13 +45,13 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle from Front Headlock",
-      "text": "From this position, attempt Arm Triangle from Front Headlock. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle from Front Headlock. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Marcelotine guillotine from front headlock",
+      "description": "Front Headlock (Top) film study: Marcelotine guillotine from front headlock, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HPAWgC8qxFY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HPAWgC8qxFY",
+      "url": "https://www.youtube.com/watch?v=HPAWgC8qxFY",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front headlock snap down to spin behind",
+      "description": "Front Headlock (Top) film study: Front headlock snap down to spin behind, taught by Procel BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9QCJFDsDQmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9QCJFDsDQmk",
+      "url": "https://www.youtube.com/watch?v=9QCJFDsDQmk",
+      "creator": { "@type": "Person", "name": "Procel BJJ" },
+      "duration": "PT66S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front headlock to the back",
+      "description": "Front Headlock (Top) film study: Front headlock to the back, taught by Coach Casey.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/87l6l0dmPWM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/87l6l0dmPWM",
+      "url": "https://www.youtube.com/watch?v=87l6l0dmPWM",
+      "creator": { "@type": "Person", "name": "Coach Casey" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -170,6 +218,42 @@ Modern competitors have demonstrated the effectiveness of front headlock top at 
 Mastering front headlock top requires understanding both the technical details of individual submissions and the overarching strategic framework that connects them. You must develop the ability to read your opponent's defensive responses and adapt your attacks accordingly, creating submission chains where each defensive movement opens a new attack. This systematic approach, combined with positional patience and technical precision, makes the front headlock one of the most powerful weapons in modern Brazilian Jiu-Jitsu.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HPAWgC8qxFY)
+
+<p class="clip-credit"><strong>Marcelotine guillotine from front headlock</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=HPAWgC8qxFY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9QCJFDsDQmk)
+
+<p class="clip-credit"><strong>Front headlock snap down to spin behind</strong> — taught by Procel BJJ · 1:06 · <a href="https://www.youtube.com/watch?v=9QCJFDsDQmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=87l6l0dmPWM)
+
+<p class="clip-credit"><strong>Front headlock to the back</strong> — taught by Coach Casey · 0:52 · <a href="https://www.youtube.com/watch?v=87l6l0dmPWM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 
@@ -368,9 +452,9 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 - **[[Positions/Back Control]]** - Positional advancement - front headlock transitions to back when opponent circles
 - **[[Transitions/Front Headlock to Guillotine]]** - Primary transition pathway to guillotine submission from front headlock control
 - **[[Transitions/Snap Down to Front Headlock]]** - Primary entry method from standing - snap opponent's head down to establish control
-- **[[Transitions/Guillotine Choke]]** - Primary submission finish from front headlock position
+- **[[Submissions/Guillotine Choke]]** - Primary submission finish from front headlock position
 - **[[Transitions/Anaconda Choke]]** - Arm-in choke finish available from front headlock
-- **[[Transitions/Darce Choke]]** - Arm-in choke finish available from front headlock
+- **[[Submissions/Darce Choke]]** - Arm-in choke finish available from front headlock
 
 
 </section>

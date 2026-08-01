@@ -34,6 +34,43 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Lasso Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura with the Legs from Guard",
+      "description": "Kimura from Lasso Guard film study: Kimura with the Legs from Guard, taught by Jaime Jara.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Uu4h-eTOU5w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Uu4h-eTOU5w",
+      "url": "https://www.youtube.com/watch?v=Uu4h-eTOU5w",
+      "creator": { "@type": "Person", "name": "Jaime Jara" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura with the Legs",
+      "description": "Kimura from Lasso Guard film study: Kimura with the Legs, taught by Brendan Smitke.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Afz-rE1YYE0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Afz-rE1YYE0",
+      "url": "https://www.youtube.com/watch?v=Afz-rE1YYE0",
+      "creator": { "@type": "Person", "name": "Brendan Smitke" },
+      "duration": "PT31S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 **Starting Position**: [[Positions/Lasso Guard]] · **From**: [[Positions/Lasso Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Lasso Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Uu4h-eTOU5w)
+
+<p class="clip-credit"><strong>Kimura with the Legs from Guard</strong> — taught by Jaime Jara · 0:31 · <a href="https://www.youtube.com/watch?v=Uu4h-eTOU5w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Afz-rE1YYE0)
+
+<p class="clip-credit"><strong>Kimura with the Legs</strong> — taught by Brendan Smitke · 0:31 · <a href="https://www.youtube.com/watch?v=Afz-rE1YYE0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -238,8 +303,8 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 - [[Submissions/Kimura]]
 - [[Submissions/Americana]]
 - [[Submissions/Far Side Armbar]]
-- [[Transitions/Arm Triangle]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Arm Triangle]]
+- [[Submissions/Darce Choke]]
 - [[Positions/Lasso Guard]] - Starting position where this Kimura variant is executed from the top player perspective
 - [[Positions/Kimura Trap]] - Control position often reached when opponent partially defends the Kimura and the grip is maintained
 - [[Positions/Spider Guard]] - Related guard position with similar sleeve control mechanics where comparable Kimura opportunities arise

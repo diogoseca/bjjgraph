@@ -34,6 +34,43 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Front Headlock to Guillotine \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Snapdown to Guillotine",
+      "description": "Front Headlock to Guillotine film study: Snapdown to Guillotine, taught by Alec Hooben.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/V8mEHRoiX1U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/V8mEHRoiX1U",
+      "url": "https://www.youtube.com/watch?v=V8mEHRoiX1U",
+      "creator": { "@type": "Person", "name": "Alec Hooben" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guillotine from the Front Headlock",
+      "description": "Front Headlock to Guillotine film study: Guillotine from the Front Headlock, taught by Chris Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GgXRLKAm9pY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GgXRLKAm9pY",
+      "url": "https://www.youtube.com/watch?v=GgXRLKAm9pY",
+      "creator": { "@type": "Person", "name": "Chris Jones" },
+      "duration": "PT97S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ This transition's effectiveness lies in its ability to capitalize on the opponen
 The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.
 
 **From Position**: [[Positions/Front Headlock]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 46%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Front Headlock to Guillotine in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=V8mEHRoiX1U)
+
+<p class="clip-credit"><strong>Snapdown to Guillotine</strong> — taught by Alec Hooben · 1:08 · <a href="https://www.youtube.com/watch?v=V8mEHRoiX1U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GgXRLKAm9pY)
+
+<p class="clip-credit"><strong>Guillotine from the Front Headlock</strong> — taught by Chris Jones · 1:37 · <a href="https://www.youtube.com/watch?v=GgXRLKAm9pY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -251,7 +316,7 @@ From a strategic perspective, this transition exemplifies the principle of submi
 
 - [[Positions/Guillotine Control]] - Ending Position - the submission control position achieved by this transition
 
-- [[Transitions/Guillotine Choke]] - Direct Submission - the finishing technique available from guillotine control
+- [[Submissions/Guillotine Choke]] - Direct Submission - the finishing technique available from guillotine control
 
 - [[Transitions/Front Headlock to Darce]] - Alternative Transition - used when opponent defends guillotine by turning in
 
@@ -267,7 +332,7 @@ From a strategic perspective, this transition exemplifies the principle of submi
 
 - [[Submissions/Arm in Guillotine]] - Submission Variation - adaptation when opponent's arm is trapped
 
-- [[Transitions/Darce Choke]] - Alternative Submission - used when opponent turns into guillotine attempt
+- [[Submissions/Darce Choke]] - Alternative Submission - used when opponent turns into guillotine attempt
 
 - [[Transitions/Anaconda Choke]] - Alternative Submission - complementary attack from front headlock
 

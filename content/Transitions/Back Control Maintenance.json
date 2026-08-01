@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Turtle/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 70,
+  "success_rate": {
+    "gi": 70,
+    "nogi": 70
+  },
   "overview": "Back Control Maintenance represents the systematic methodology for preserving the most dominant position in grappling. Rather than rushing submissions, elite practitioners understand that maintaining back control creates cumulative pressure that breaks opponent's defensive structures over time. This positional discipline transforms back control from a fleeting opportunity into a sustainable attacking platform where every defensive movement by the opponent can be converted into deeper control or submission opportunities.\n\nThe fundamental concept driving back control maintenance is the understanding that the position itself is the primary weapon. Each second of sustained back control drains opponent energy, creates psychological pressure, and opens incremental opportunities for attack. The maintenance game involves constant micro-adjustments to hook positioning, grip cycling between seatbelt variations and collar setups, and weight distribution changes that prevent the opponent from establishing any defensive rhythm or creating escape angles.\n\nAdvanced back control maintenance integrates threat cycling—the continuous rotation between rear naked choke setups, collar chokes, armbars, and crucifix transitions—that keeps the defender perpetually reactive. By threatening submissions without fully committing, the attacking practitioner forces defensive movements that can be exploited to tighten positional control. This creates a feedback loop where defensive effort leads to tighter control, which creates more submission threats, requiring more defensive effort. Understanding and executing this cycle separates practitioners who occasionally get the back from those who systematically finish from back control.",
   "related_content": [
     {
@@ -207,46 +219,166 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Back Control Maintenance?",
-        "answer": "The primary goal is to preserve the dominant back control position through systematic micro-adjustments rather than rushing submissions. By maintaining control, you create cumulative pressure that breaks down opponent's defensive structure over time, opening higher-percentage submission opportunities while eliminating escape possibilities."
+        "answer": "The primary goal is to preserve the dominant back control position through systematic micro-adjustments rather than rushing submissions. By maintaining control, you create cumulative pressure that breaks down opponent's defensive structure over time, opening higher-percentage submission opportunities while eliminating escape possibilities.",
+        "answer_line": "Preserve position, not rush subs",
+        "distractors": {
+          "plausible": [
+            "Control both their wrists",
+            "Advance to a mounted position"
+          ],
+          "trap": [
+            "Sit back for RNC, lose the back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins aggressively straightening their legs to remove your hooks—what is your immediate response?",
-        "answer": "Drive your hooks deeper toward their hip crease rather than fighting their leg extension. Simultaneously increase chest-to-back pressure and consider transitioning to body triangle by bringing your top leg over their hip. Their leg straightening actually creates the opening for body triangle entry."
+        "answer": "Drive your hooks deeper toward their hip crease rather than fighting their leg extension. Simultaneously increase chest-to-back pressure and consider transitioning to body triangle by bringing your top leg over their hip. Their leg straightening actually creates the opening for body triangle entry.",
+        "answer_line": "Drive hooks deeper, add pressure",
+        "distractors": {
+          "plausible": [
+            "Muscle against their leg push",
+            "Grab their feet to stop it"
+          ],
+          "trap": [
+            "Extend legs to match theirs"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Back Control Maintenance?",
-        "answer": "The foundational grip is the seatbelt—one arm over opponent's shoulder (choking arm), one arm under opposite armpit (underhook arm), hands clasped together. This creates diagonal control across their upper body. Secondary options include collar grips in gi, gift wrap control, and harness grip modifications based on defensive responses."
+        "answer": "The foundational grip is the seatbelt—one arm over opponent's shoulder (choking arm), one arm under opposite armpit (underhook arm), hands clasped together. This creates diagonal control across their upper body. Secondary options include collar grips in gi, gift wrap control, and harness grip modifications based on defensive responses.",
+        "answer_line": "Seatbelt: choke arm + underhook",
+        "distractors": {
+          "plausible": [
+            "Grip both their wrists tightly",
+            "Bear hug around their waist"
+          ],
+          "trap": [
+            "Post on the mat, lose the back"
+          ]
+        }
       },
       {
         "question": "Your opponent commits both hands to fighting your choking arm—how do you exploit this opening?",
-        "answer": "Their two-on-one grip fighting exposes their other arm for attack. Immediately transition to armbar from back by controlling the arm they've committed to defending, then rotate to the armbar position. Alternatively, use your now-free underhook arm to trap their defending arm in gift wrap position, eliminating their primary defensive tool entirely."
+        "answer": "Their two-on-one grip fighting exposes their other arm for attack. Immediately transition to armbar from back by controlling the arm they've committed to defending, then rotate to the armbar position. Alternatively, use your now-free underhook arm to trap their defending arm in gift wrap position, eliminating their primary defensive tool entirely.",
+        "answer_line": "Attack the now-exposed other arm",
+        "distractors": {
+          "plausible": [
+            "Yank your trapped hand loose",
+            "Wait for them to release grip"
+          ],
+          "trap": [
+            "Drop the seatbelt entirely"
+          ]
+        }
       },
       {
         "question": "Why is head positioning critical in back control maintenance?",
-        "answer": "Your head should be positioned on the same side as your choking arm. This blocks opponent's ability to turn toward that side and forces all escape attempts toward your underhook side where you have structural advantage. Wrong-side head positioning allows opponent to turn into you and begin successful escape sequences."
+        "answer": "Your head should be positioned on the same side as your choking arm. This blocks opponent's ability to turn toward that side and forces all escape attempts toward your underhook side where you have structural advantage. Wrong-side head positioning allows opponent to turn into you and begin successful escape sequences.",
+        "answer_line": "Head on choke-arm side",
+        "distractors": {
+          "plausible": [
+            "Head on the underhook side",
+            "Head centered on their spine"
+          ],
+          "trap": [
+            "Lift head off, they turn in"
+          ]
+        }
       },
       {
         "question": "What is threat cycling and how does it enhance back control maintenance?",
-        "answer": "Threat cycling is the continuous rotation between different submission threats—rear naked choke, collar chokes, armbar from back, crucifix transitions—without fully committing to any single attack. This forces opponent into perpetual defensive reactions, each of which creates opportunities to tighten positional control or attack newly exposed targets. The cycle creates a feedback loop where defense leads to tighter control."
+        "answer": "Threat cycling is the continuous rotation between different submission threats—rear naked choke, collar chokes, armbar from back, crucifix transitions—without fully committing to any single attack. This forces opponent into perpetual defensive reactions, each of which creates opportunities to tighten positional control or attack newly exposed targets. The cycle creates a feedback loop where defense leads to tighter control.",
+        "answer_line": "Rotate threats, never fully commit",
+        "distractors": {
+          "plausible": [
+            "Fake threats but never attack",
+            "Wait passively for an opening"
+          ],
+          "trap": [
+            "Force one finish, lose the back"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully creates space between your chest and their back—what is your priority response?",
-        "answer": "Immediately close the chest-to-back gap before addressing any other concern. Drop your hips lower and drive chest forward until contact is re-established. Without this anchor connection, hooks become easier to remove and escape angles open. The chest connection is the foundational element that supports all other control components."
+        "answer": "Immediately close the chest-to-back gap before addressing any other concern. Drop your hips lower and drive chest forward until contact is re-established. Without this anchor connection, hooks become easier to remove and escape angles open. The chest connection is the foundational element that supports all other control components.",
+        "answer_line": "Close the chest-to-back gap first",
+        "distractors": {
+          "plausible": [
+            "Tighten hooks before chest",
+            "Chase the choking arm grip"
+          ],
+          "trap": [
+            "Sit back to reset the position"
+          ]
+        }
       },
       {
         "question": "When should you transition from double hooks to body triangle?",
-        "answer": "Transition to body triangle when opponent demonstrates strong hook defense, during extended positional battles where hook fatigue becomes a factor, or when you achieve dominant angle where body triangle entry is available. Body triangle is harder to remove than hooks and allows you to focus more attention on upper body attacks rather than hook maintenance."
+        "answer": "Transition to body triangle when opponent demonstrates strong hook defense, during extended positional battles where hook fatigue becomes a factor, or when you achieve dominant angle where body triangle entry is available. Body triangle is harder to remove than hooks and allows you to focus more attention on upper body attacks rather than hook maintenance.",
+        "answer_line": "Strong hook defense or fatigue",
+        "distractors": {
+          "plausible": [
+            "The instant you take the back",
+            "Only once the choke is set"
+          ],
+          "trap": [
+            "Mid-scramble, and get passed"
+          ]
+        }
       },
       {
         "question": "How do you maintain back control when opponent stands up?",
-        "answer": "Convert your hooks to climbing hooks that ride their hips as they stand. Establish body lock grip around their waist for stability. From standing back control, you have additional options including mat returns, standing choke threats, and suplex-style takedowns. Maintain your weight slightly forward to prevent them from sitting back to remove your control."
+        "answer": "Convert your hooks to climbing hooks that ride their hips as they stand. Establish body lock grip around their waist for stability. From standing back control, you have additional options including mat returns, standing choke threats, and suplex-style takedowns. Maintain your weight slightly forward to prevent them from sitting back to remove your control.",
+        "answer_line": "Climbing hooks + body lock",
+        "distractors": {
+          "plausible": [
+            "Drop hooks, grab waist only",
+            "Jump to full body triangle"
+          ],
+          "trap": [
+            "Lean back to avoid being dumped"
+          ]
+        }
       },
       {
         "question": "What distinguishes high-percentage back control maintenance from common beginner patterns?",
-        "answer": "High-percentage maintenance treats position as the primary weapon rather than rushing submissions. Elite practitioners spend the first 10-15 seconds on pure positional consolidation, use threat cycling to create defensive reactions they can exploit, and understand that sustained control creates cumulative pressure that eventually breaks any defense. Beginners rush attacks and lose the position."
+        "answer": "High-percentage maintenance treats position as the primary weapon rather than rushing submissions. Elite practitioners spend the first 10-15 seconds on pure positional consolidation, use threat cycling to create defensive reactions they can exploit, and understand that sustained control creates cumulative pressure that eventually breaks any defense. Beginners rush attacks and lose the position.",
+        "answer_line": "Consolidate position first",
+        "distractors": {
+          "plausible": [
+            "Attack early and often",
+            "Overpower with pure strength"
+          ],
+          "trap": [
+            "Rush finish and lose hooks"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Back control maintenance presents moderate injury risk primarily related to neck strain and rib compression. When training, partners should communicate clearly about choking pressure levels and tap early when submissions are applied. Practitioners with prior neck injuries should be cautious of collar grip pressure, and those with rib issues should communicate limits on body triangle tightness. Avoid explosive spinal twisting movements when escaping as this can cause cervical strain. Training partners should release control immediately upon tap and avoid cranking submissions during drilling phases. The sustained nature of back control can cause fatigue-related injuries if practitioners attempt explosive escapes when exhausted—communicate when approaching fatigue limits."
+    "safety_considerations": "Back control maintenance presents moderate injury risk primarily related to neck strain and rib compression. When training, partners should communicate clearly about choking pressure levels and tap early when submissions are applied. Practitioners with prior neck injuries should be cautious of collar grip pressure, and those with rib issues should communicate limits on body triangle tightness. Avoid explosive spinal twisting movements when escaping as this can cause cervical strain. Training partners should release control immediately upon tap and avoid cranking submissions during drilling phases. The sustained nature of back control can cause fatigue-related injuries if practitioners attempt explosive escapes when exhausted—communicate when approaching fatigue limits.",
+    "clips": [
+      {
+        "id": "y_GjhMb6Qf8",
+        "title": "Holding the seatbelt in back control",
+        "by": "Kyuzo BJJ",
+        "vertical": false,
+        "channel": "Kyuzo Brazilian Jiu Jitsu",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lpgcKpIgClw",
+        "title": "Why you keep losing the back: back control retention",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 143,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Control Maintenance Defender",
@@ -331,23 +463,73 @@
     "flashcards": [
       {
         "question": "What is the correct escape hierarchy when defending against back control maintenance?",
-        "answer": "The hierarchy is strictly sequential: first protect the neck through chin tuck and two-on-one hand control on the choking arm, then strip the seatbelt or upper body grips to neutralize submission threats, then address hooks by removing them through hip escape or leg manipulation, and finally create rotation to face the attacker and establish guard. Skipping any step in this sequence, particularly attempting hook removal before securing neck defense, consistently results in submission."
+        "answer": "The hierarchy is strictly sequential: first protect the neck through chin tuck and two-on-one hand control on the choking arm, then strip the seatbelt or upper body grips to neutralize submission threats, then address hooks by removing them through hip escape or leg manipulation, and finally create rotation to face the attacker and establish guard. Skipping any step in this sequence, particularly attempting hook removal before securing neck defense, consistently results in submission.",
+        "answer_line": "Neck > grips > hooks > face them",
+        "distractors": {
+          "plausible": [
+            "Hooks first, then neck defense",
+            "Grips first, skip neck defense"
+          ],
+          "trap": [
+            "Turn to face them immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent begins cycling between rear naked choke threat and collar grip setup—when should you attempt your escape?",
-        "answer": "The optimal escape window is during the grip transition itself, when the attacker releases one grip configuration to establish another. During this brief moment, their integrated control system has a gap—the choking threat is temporarily reduced and their hands are repositioning. This is when you should execute a decisive movement such as stripping the transitioning grip or beginning your hip escape, because attempting the same escape against fully consolidated control requires far more energy and has significantly lower success probability."
+        "answer": "The optimal escape window is during the grip transition itself, when the attacker releases one grip configuration to establish another. During this brief moment, their integrated control system has a gap—the choking threat is temporarily reduced and their hands are repositioning. This is when you should execute a decisive movement such as stripping the transitioning grip or beginning your hip escape, because attempting the same escape against fully consolidated control requires far more energy and has significantly lower success probability.",
+        "answer_line": "Escape during their grip transition",
+        "distractors": {
+          "plausible": [
+            "Escape once choke fully locks",
+            "Wait for them to tire out"
+          ],
+          "trap": [
+            "Explode escape against full control"
+          ]
+        }
       },
       {
         "question": "Why is getting onto one hip critical for escaping back control maintenance?",
-        "answer": "Getting onto one hip disrupts the attacker's symmetric control structure that relies on equal pressure from both sides. Lateral hip positioning reduces the attacker's choking angle by misaligning their arms relative to your neck, creates rotational momentum needed to eventually turn and face them, and shifts your weight distribution in a way that makes one of their hooks less effective. Remaining flat gives the attacker optimal control angles from both sides and eliminates your ability to generate the turning force needed for escape."
+        "answer": "Getting onto one hip disrupts the attacker's symmetric control structure that relies on equal pressure from both sides. Lateral hip positioning reduces the attacker's choking angle by misaligning their arms relative to your neck, creates rotational momentum needed to eventually turn and face them, and shifts your weight distribution in a way that makes one of their hooks less effective. Remaining flat gives the attacker optimal control angles from both sides and eliminates your ability to generate the turning force needed for escape.",
+        "answer_line": "Turn to one hip for rotation",
+        "distractors": {
+          "plausible": [
+            "Push both hips up off the mat",
+            "Bridge straight up to dislodge"
+          ],
+          "trap": [
+            "Stay flat, get choked out"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions from standard hooks to body triangle—how does this change your escape strategy?",
-        "answer": "Body triangle eliminates the hook-removal escape path because you cannot simply slide your hips past locked legs. Your strategy shifts to addressing the body triangle directly: turn toward the locking leg side to reduce the squeeze and compress the triangle angle, then work to unlock their feet by attacking the ankle lock on the crossing foot. Alternatively, accept that lower body escape is temporarily blocked and focus entirely on upper body grip stripping and creating enough rotation to eventually face the attacker despite the body triangle, which is less effective at preventing rotation than it is at preventing downward hip escape."
+        "answer": "Body triangle eliminates the hook-removal escape path because you cannot simply slide your hips past locked legs. Your strategy shifts to addressing the body triangle directly: turn toward the locking leg side to reduce the squeeze and compress the triangle angle, then work to unlock their feet by attacking the ankle lock on the crossing foot. Alternatively, accept that lower body escape is temporarily blocked and focus entirely on upper body grip stripping and creating enough rotation to eventually face the attacker despite the body triangle, which is less effective at preventing rotation than it is at preventing downward hip escape.",
+        "answer_line": "Turn into triangle, attack ankle",
+        "distractors": {
+          "plausible": [
+            "Slide hips past locked legs",
+            "Fight the squeeze with strength"
+          ],
+          "trap": [
+            "Ignore triangle, chase hooks escape"
+          ]
+        }
       },
       {
         "question": "How should you manage energy when defending against an attacker who prioritizes positional control over immediate submissions?",
-        "answer": "Against a maintenance-focused attacker, energy conservation is paramount because their strategy explicitly relies on draining your energy through sustained pressure. Use structural defense—chin position, elbow placement against their arms, hip angle—rather than muscular resistance to maintain your defensive posture. Avoid explosive escape attempts against fully consolidated control. Instead, maintain calm breathing, accept the position temporarily, and invest energy only in calculated escape attempts timed to the attacker's grip transitions or adjustment moments. The attacker's patience is their weapon; your patience in waiting for genuine openings is the counter."
+        "answer": "Against a maintenance-focused attacker, energy conservation is paramount because their strategy explicitly relies on draining your energy through sustained pressure. Use structural defense—chin position, elbow placement against their arms, hip angle—rather than muscular resistance to maintain your defensive posture. Avoid explosive escape attempts against fully consolidated control. Instead, maintain calm breathing, accept the position temporarily, and invest energy only in calculated escape attempts timed to the attacker's grip transitions or adjustment moments. The attacker's patience is their weapon; your patience in waiting for genuine openings is the counter.",
+        "answer_line": "Conserve energy, wait for openings",
+        "distractors": {
+          "plausible": [
+            "Muscle out with raw strength",
+            "Bridge nonstop to create space"
+          ],
+          "trap": [
+            "Explode early, gas, get finished"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -370,6 +552,35 @@
         "phase": "Week 7+",
         "focus": "Competitive escape sparring",
         "description": "Full positional sparring from back control against fully resisting attacker. 3-minute rounds where successful escape to turtle or guard counts as defender win, submission or maintained back control for full round counts as attacker win. Track escape success rate and average time to escape to measure improvement."
+      }
+    ],
+    "clips": [
+      {
+        "id": "k-78AJwPYig",
+        "title": "Defending back control vs double unders",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 64,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OltjLaTW3wQ",
+        "title": "3 ways to defend the back take",
+        "by": "Roberto Cyborg Abreu",
+        "vertical": false,
+        "channel": "Cyborg BJJ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "485wvqwlBYA",
+        "title": "Defending back control face down and sprawled out",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 92,
+        "verified": "2026-07-15"
       }
     ]
   },

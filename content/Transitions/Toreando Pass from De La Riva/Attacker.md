@@ -174,6 +174,43 @@ description: "Complete attacking guide for the Toreando Pass from De La Riva Gua
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toreando Pass from De La Riva (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Toreando pass from De La Riva guard",
+      "description": "Toreando Pass from De La Riva (Attacker) film study: Toreando pass from De La Riva guard, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XO_i9aiSuHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XO_i9aiSuHU",
+      "url": "https://www.youtube.com/watch?v=XO_i9aiSuHU",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva toreando pass breakdown",
+      "description": "Toreando Pass from De La Riva (Attacker) film study: De La Riva toreando pass breakdown, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F3Io4_p10Mg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F3Io4_p10Mg",
+      "url": "https://www.youtube.com/watch?v=F3Io4_p10Mg",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT158S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The attacker in the Toreando Pass from De La Riva must execute a precise three-p
 **From Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toreando Pass from De La Riva (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XO_i9aiSuHU)
+
+<p class="clip-credit"><strong>Toreando pass from De La Riva guard</strong> — taught by Unknown · 1:22 · <a href="https://www.youtube.com/watch?v=XO_i9aiSuHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F3Io4_p10Mg)
+
+<p class="clip-credit"><strong>De La Riva toreando pass breakdown</strong> — taught by Unknown · 2:38 · <a href="https://www.youtube.com/watch?v=F3Io4_p10Mg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

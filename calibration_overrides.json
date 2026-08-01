@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "purpose": "Expert-reviewed corrections layered on the calibrated prior (Phase 2.3a). apply_calibrated_priors uses these where present; the panel output is never silently edited.",
+    "built": "2026-07-07",
+    "source": "calibration-review-sweep workflow: 186 high-impact techniques, 2 black-belt reviewers + adjudicator per batch",
+    "verdicts": {
+      "trust": 176,
+      "refork": 8,
+      "correct": 2
+    },
+    "note": "176/186 trusted (incl. the big-drop fundamentals). These 10 are ruleset-mechanics fixes (heel-hook gi-illegality, gi-grip-dependent lasso/berimbolo dying in no-gi, and 2 direction/mirror fixes)."
+  },
+  "overrides": {
+    "Counter Leg Attack": {
+      "gi": 28,
+      "nogi": 35,
+      "verdict": "refork",
+      "reason": "Inside-sankaku counters are heel-hook-driven (legal/developed in no-gi, ~illegal in gi where limited to kneebar/toehold/ankle) — a canonical ruleset fork, so no-gi > gi.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Omoplata from Lasso": {
+      "gi": 31,
+      "nogi": 13,
+      "verdict": "refork",
+      "reason": "Both refork; lasso is sleeve-grip dependent so the no-gi pathway is near-dead — panel's 25 too high, averaging the two corrections to 13.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Lasso Sweep": {
+      "gi": 38,
+      "nogi": 12,
+      "verdict": "refork",
+      "reason": "Both refork; sweep needs the sleeve+leg lasso configuration, near-dead without cloth — panel's 20 too high, averaging corrections to 12.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Berimbolo Entry": {
+      "gi": 38,
+      "nogi": 14,
+      "verdict": "refork",
+      "reason": "Both refork to the same values; berimbolo relies on collar/sleeve/belt grips off DLR, near-dead in no-gi — panel's 25 too high.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Posture Recovery": {
+      "gi": 47,
+      "nogi": 56,
+      "verdict": "refork",
+      "reason": "Both reviewers agree the calibration reversed direction: bottom's gi collar/sleeve grips break and hold posture, so recovering/standing out is harder in gi, easier no-gi (nogi>gi).",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Heel Hook from Ashi Garami": {
+      "gi": 12,
+      "nogi": 37,
+      "verdict": "correct",
+      "reason": "Reviewers split; heel hook illegal IBJJF gi, snap gi to sibling heel-hook floor (12) for consistency, no-gi 37 kept.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Heel Hook from Saddle": {
+      "gi": 11,
+      "nogi": 45,
+      "verdict": "refork",
+      "reason": "Both reviewers refork: heel hooks illegal in gi at purple-brown, so gi floors ~11 (37 far too high); no-gi saddle heel hook at 45 stands.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Heel Hook from Kneebar Control": {
+      "gi": 10,
+      "nogi": 41,
+      "verdict": "refork",
+      "reason": "Both reviewers refork: heel hook illegal in gi, gi floors ~10 not 32; no-gi ~41 fine.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Inside Sankaku Heel Hook": {
+      "gi": 10,
+      "nogi": 60,
+      "verdict": "refork",
+      "reason": "Both refork; heel hook illegal in gi at purple-brown (~10), top no-gi saddle finish (~60), original gi 49 implausible.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    },
+    "Rear Naked Choke from Gift Wrap": {
+      "gi": 67,
+      "nogi": 69,
+      "verdict": "correct",
+      "reason": "Reviewers split; RNC is grip/legality-neutral so an 8pt fork violates the mirrored-within-3 rule — bump gi to near-mirror per A.",
+      "reviewer": "review-sweep-2r-adjudicated"
+    }
+  }
+}

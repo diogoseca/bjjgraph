@@ -140,6 +140,43 @@ description: "Prevent the hip escape from mounted crucifix in BJJ. Guide to main
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape from Mounted Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Holding the side crucifix and attacking the arm",
+      "description": "Hip Escape from Mounted Crucifix (Defender) film study: Holding the side crucifix and attacking the arm, taught by Evolve MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-Vmyjv8-WFw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-Vmyjv8-WFw",
+      "url": "https://www.youtube.com/watch?v=-Vmyjv8-WFw",
+      "creator": { "@type": "Person", "name": "Evolve MMA coach" },
+      "duration": "PT76S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mounted crucifix control and attacks",
+      "description": "Hip Escape from Mounted Crucifix (Defender) film study: Mounted crucifix control and attacks, taught by Team United MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rdQkBWzG-X4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rdQkBWzG-X4",
+      "url": "https://www.youtube.com/watch?v=rdQkBWzG-X4",
+      "creator": { "@type": "Person", "name": "Team United MMA coach" },
+      "duration": "PT142S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending against the hip escape from mounted crucifix means maintaining one of 
 **Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape from Mounted Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-Vmyjv8-WFw)
+
+<p class="clip-credit"><strong>Holding the side crucifix and attacking the arm</strong> — taught by Evolve MMA coach · 1:16 · <a href="https://www.youtube.com/watch?v=-Vmyjv8-WFw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rdQkBWzG-X4)
+
+<p class="clip-credit"><strong>Mounted crucifix control and attacks</strong> — taught by Team United MMA coach · 2:22 · <a href="https://www.youtube.com/watch?v=rdQkBWzG-X4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

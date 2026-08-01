@@ -34,6 +34,43 @@ description: "Master the Chill Dog escape to half guard in BJJ. Learn timing, hi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Escape Chill Dog \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lockdown Clinches from 10th Planet Half Guard",
+      "description": "Escape Chill Dog film study: Lockdown Clinches from 10th Planet Half Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIr4wDxl-Ys/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OIr4wDxl-Ys",
+      "url": "https://www.youtube.com/watch?v=OIr4wDxl-Ys",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking down the 10th Planet half guard control",
+      "description": "Escape Chill Dog film study: Breaking down the 10th Planet half guard control, taught by 10th Planet Jiu Jitsu West LA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JZ-h0ohQTvA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JZ-h0ohQTvA",
+      "url": "https://www.youtube.com/watch?v=JZ-h0ohQTvA",
+      "creator": { "@type": "Person", "name": "10th Planet Jiu Jitsu West LA" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, this escape is particularly valuable because half guard offers si
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Escape Chill Dog in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OIr4wDxl-Ys)
+
+<p class="clip-credit"><strong>Lockdown Clinches from 10th Planet Half Guard</strong> — taught by Eddie Bravo · 1:00 · <a href="https://www.youtube.com/watch?v=OIr4wDxl-Ys" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JZ-h0ohQTvA)
+
+<p class="clip-credit"><strong>Breaking down the 10th Planet half guard control</strong> — taught by 10th Planet Jiu Jitsu West LA · 0:42 · <a href="https://www.youtube.com/watch?v=JZ-h0ohQTvA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

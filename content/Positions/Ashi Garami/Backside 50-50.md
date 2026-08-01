@@ -34,6 +34,54 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backside 50-50 \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting to Backside 50/50",
+      "description": "Backside 50-50 film study: Getting to Backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roll Under to Backside 50/50",
+      "description": "Backside 50-50 film study: Roll Under to Backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Single Leg X to Backside 50/50",
+      "description": "Backside 50-50 film study: Single Leg X to Backside 50/50, taught by Flux MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bqyt1bW6odw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bqyt1bW6odw",
+      "url": "https://www.youtube.com/watch?v=bqyt1bW6odw",
+      "creator": { "@type": "Person", "name": "Flux MMA" },
+      "duration": "PT116S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The position typically emerges during leg lock exchanges, scrambles, or as a tra
 Backside 50-50 has become increasingly relevant in modern no-gi competition as leg lock systems have evolved beyond basic footlocks into sophisticated entanglement hierarchies. The position serves as both a control platform and a transitional waypoint, offering pathways to superior positions like back control or saddle while maintaining constant submission threats through heel hooks, toe holds, and ankle locks. Understanding both perspectives of this position is essential for any practitioner serious about modern leg lock game development, as the ability to recognize and capitalize on the asymmetries determines success in this complex entanglement.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backside 50-50 in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to Backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll Under to Backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bqyt1bW6odw)
+
+<p class="clip-credit"><strong>Single Leg X to Backside 50/50</strong> — taught by Flux MMA · 1:56 · <a href="https://www.youtube.com/watch?v=bqyt1bW6odw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,25 +221,23 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Outside Heel Hook from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (5% of attempts)
+- **[[Outside Heel Hook from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (10% of attempts)
 
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (4% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (6% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (6% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (18% of attempts)
 
-- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (44% of attempts)
+- **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** (15% of attempts)
 
-- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (11% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (12% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (5% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** (7% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (6% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (11% of attempts)
 
-- **[[Transitions/Angle Change Escape/Attacker|Angle Change Escape]]** (4% of attempts)
-
-- **[[Heel Hook from Backside 50-50/Attacker|Heel Hook from Backside 50-50]]** (8% of attempts)
+- **[[Heel Hook from Backside 50-50/Attacker|Heel Hook from Backside 50-50]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -216,31 +298,23 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Heel Hook from Backside 50-50/Attacker|Heel Hook from Backside 50-50]]** (36% of attempts)
-
-- **[[Toe Hold from Backside 50-50/Attacker|Toe Hold from Backside 50-50]]** (8% of attempts)
-
-- **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (3% of attempts)
+- **[[Toe Hold from Backside 50-50/Attacker|Toe Hold from Backside 50-50]]** (9% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (10% of attempts)
 
-- **[[Kneebar from Backside 50-50/Attacker|Kneebar from Backside 50-50]]** (5% of attempts)
+- **[[Transitions/Kneebar/Attacker|Kneebar]]** (9% of attempts)
 
-- **[[Transitions/50-50 Pass/Attacker|50-50 Pass]]** (4% of attempts)
+- **[[Transitions/50-50 Pass/Attacker|50-50 Pass]]** (11% of attempts)
 
-- **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** (14% of attempts)
+- **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** (15% of attempts)
 
-- **[[Calf Slicer from Backside 50-50/Attacker|Calf Slicer from Backside 50-50]]** (2% of attempts)
+- **[[Calf Slicer from Backside 50-50/Attacker|Calf Slicer from Backside 50-50]]** (4% of attempts)
 
-- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (4% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole/Attacker|Inside Ashi-Garami to Honey Hole]]** (11% of attempts)
 
-- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (2% of attempts)
+- **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (8% of attempts)
 
-- **[[Outside Heel Hook from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (10% of attempts)
-
-- **[[Transitions/Kneebar/Attacker|Kneebar]]** (1% of attempts)
-
-- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (1% of attempts)
+- **[[Outside Heel Hook from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (23% of attempts)
 
 
 ### Common Mistakes

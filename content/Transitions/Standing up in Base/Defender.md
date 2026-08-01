@@ -148,6 +148,54 @@ description: "How to prevent and counter the technical standup from turtle top i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Standing up in Base (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Taking the back as they stand from tight turtle",
+      "description": "Standing up in Base (Defender) film study: Taking the back as they stand from tight turtle, taught by Devine Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gvFU2sS3fLE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gvFU2sS3fLE",
+      "url": "https://www.youtube.com/watch?v=gvFU2sS3fLE",
+      "creator": { "@type": "Person", "name": "Devine Jiu Jitsu" },
+      "duration": "PT99S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Stopping an Opponent Standing Up from Turtle",
+      "description": "Standing up in Base (Defender) film study: Stopping an Opponent Standing Up from Turtle, taught by Matt Inman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7QBW031Crmg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7QBW031Crmg",
+      "url": "https://www.youtube.com/watch?v=7QBW031Crmg",
+      "creator": { "@type": "Person", "name": "Matt Inman" },
+      "duration": "PT415S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Attacking When They Stand Up from Turtle",
+      "description": "Standing up in Base (Defender) film study: Attacking When They Stand Up from Turtle, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v37tHX8oKuY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v37tHX8oKuY",
+      "url": "https://www.youtube.com/watch?v=v37tHX8oKuY",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT355S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the top player in turtle, your primary objective when opponent attempts a tec
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Standing up in Base (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gvFU2sS3fLE)
+
+<p class="clip-credit"><strong>Taking the back as they stand from tight turtle</strong> — taught by Devine Jiu Jitsu · 1:39 · <a href="https://www.youtube.com/watch?v=gvFU2sS3fLE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7QBW031Crmg)
+
+<p class="clip-credit"><strong>Stopping an Opponent Standing Up from Turtle</strong> — taught by Matt Inman · 6:55 · <a href="https://www.youtube.com/watch?v=7QBW031Crmg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v37tHX8oKuY)
+
+<p class="clip-credit"><strong>Attacking When They Stand Up from Turtle</strong> — taught by Brian Glick · 5:55 · <a href="https://www.youtube.com/watch?v=v37tHX8oKuY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

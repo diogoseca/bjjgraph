@@ -127,6 +127,43 @@ description: "How to defend the De La Riva to Lapel Guard entry in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva to Lapel Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the Polish worm rider lapel guard",
+      "description": "De La Riva to Lapel Guard (Defender) film study: Passing the Polish worm rider lapel guard, taught by Daniel Maira and Nicholas Salles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0dbddbfQA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aR0dbddbfQA",
+      "url": "https://www.youtube.com/watch?v=aR0dbddbfQA",
+      "creator": { "@type": "Person", "name": "Daniel Maira and Nicholas Salles" },
+      "duration": "PT54S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering the lapel guard with a pass",
+      "description": "De La Riva to Lapel Guard (Defender) film study: Countering the lapel guard with a pass, taught by Tarik.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rvbYLboVzZM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rvbYLboVzZM",
+      "url": "https://www.youtube.com/watch?v=rvbYLboVzZM",
+      "creator": { "@type": "Person", "name": "Tarik" },
+      "duration": "PT289S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -143,6 +180,34 @@ The highest-percentage defense keeps your posture and base such that your oppone
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva to Lapel Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aR0dbddbfQA)
+
+<p class="clip-credit"><strong>Passing the Polish worm rider lapel guard</strong> — taught by Daniel Maira and Nicholas Salles · 0:54 · <a href="https://www.youtube.com/watch?v=aR0dbddbfQA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rvbYLboVzZM)
+
+<p class="clip-credit"><strong>Countering the lapel guard with a pass</strong> — taught by Tarik · 4:49 · <a href="https://www.youtube.com/watch?v=rvbYLboVzZM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -174,6 +174,43 @@ description: "Learn to recover guard from guillotine control as the bottom playe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Guillotine Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Sweep From Failed Guillotine In The Guard",
+      "description": "Guard Recovery from Guillotine Control (Attacker) film study: Sweep From Failed Guillotine In The Guard, taught by GrapplingMechanics Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aMzd1nLGvMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aMzd1nLGvMs",
+      "url": "https://www.youtube.com/watch?v=aMzd1nLGvMs",
+      "creator": { "@type": "Person", "name": "GrapplingMechanics Coach" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Running escape to guard recovery, no-gi",
+      "description": "Guard Recovery from Guillotine Control (Attacker) film study: Running escape to guard recovery, no-gi, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IQ-niRwUvqg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IQ-niRwUvqg",
+      "url": "https://www.youtube.com/watch?v=IQ-niRwUvqg",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the bottom player releasing or losing guillotine control, your primary object
 **From Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Guillotine Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aMzd1nLGvMs)
+
+<p class="clip-credit"><strong>Sweep From Failed Guillotine In The Guard</strong> — taught by GrapplingMechanics Coach · 0:56 · <a href="https://www.youtube.com/watch?v=aMzd1nLGvMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IQ-niRwUvqg)
+
+<p class="clip-credit"><strong>Running escape to guard recovery, no-gi</strong> — taught by Robyn Sheehan · 2:11 · <a href="https://www.youtube.com/watch?v=IQ-niRwUvqg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

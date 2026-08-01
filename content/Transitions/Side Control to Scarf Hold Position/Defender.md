@@ -140,6 +140,54 @@ description: "Learn to defend and counter the Side Control to Scarf Hold transit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Scarf Hold Position (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escape kesa gatame with bridge and roll",
+      "description": "Side Control to Scarf Hold Position (Defender) film study: Escape kesa gatame with bridge and roll, taught by Judo Life instructor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C98ztdlur4E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/C98ztdlur4E",
+      "url": "https://www.youtube.com/watch?v=C98ztdlur4E",
+      "creator": { "@type": "Person", "name": "Judo Life instructor" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to escape the kesa gatame hold",
+      "description": "Side Control to Scarf Hold Position (Defender) film study: How to escape the kesa gatame hold, taught by Andy Ede.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dQQby7IUiDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dQQby7IUiDA",
+      "url": "https://www.youtube.com/watch?v=dQQby7IUiDA",
+      "creator": { "@type": "Person", "name": "Andy Ede" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa gatame escape",
+      "description": "Side Control to Scarf Hold Position (Defender) film study: Kesa gatame escape, taught by Modesto Judo Club instructor.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fOEaHj3d0l8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fOEaHj3d0l8",
+      "url": "https://www.youtube.com/watch?v=fOEaHj3d0l8",
+      "creator": { "@type": "Person", "name": "Modesto Judo Club instructor" },
+      "duration": "PT52S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Transition to Scarf Hold Position requires recognizing the opponen
 **Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Scarf Hold Position (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=C98ztdlur4E)
+
+<p class="clip-credit"><strong>Escape kesa gatame with bridge and roll</strong> — taught by Judo Life instructor · 1:17 · <a href="https://www.youtube.com/watch?v=C98ztdlur4E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dQQby7IUiDA)
+
+<p class="clip-credit"><strong>How to escape the kesa gatame hold</strong> — taught by Andy Ede · 1:08 · <a href="https://www.youtube.com/watch?v=dQQby7IUiDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fOEaHj3d0l8)
+
+<p class="clip-credit"><strong>Kesa gatame escape</strong> — taught by Modesto Judo Club instructor · 0:52 · <a href="https://www.youtube.com/watch?v=fOEaHj3d0l8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

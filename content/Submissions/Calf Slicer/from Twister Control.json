@@ -19,7 +19,10 @@
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "Twister Control",
   "from_position": "Twister Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The calf slicer from twister control exploits the pre-existing leg entanglement of the truck and twister configurations to attack the opponent's calf with a devastating compression lock. Unlike calf slicers initiated from conventional positions like half guard or back control, twister control provides deep leg control and spinal rotation that together prevent the defender from straightening the targeted leg or generating the hip movement needed to relieve pressure. The attacker's legs are already woven through the opponent's lower body, and the rotational constraint characteristic of twister control creates an ideal platform for transitioning into the compression finish.\n\nStrategically, this submission serves as a critical secondary attack within the twister control offensive system. When opponents successfully defend the primary twister finish by protecting their chin and resisting spinal rotation, they often inadvertently expose their legs to compression attacks. The calf slicer capitalizes on this defensive reaction, creating a genuine dilemma where defending the twister opens vulnerability to the leg attack, and defending the leg requires conceding rotational control that enables the twister. This attack-chain dynamic is a hallmark of systematic offense from back exposure positions.\n\nThe finishing mechanics require threading your shin behind the opponent's knee crease and folding their lower leg back while controlling the foot. The fulcrum created by your shin bone against the calf generates intense compression targeting both the gastrocnemius muscle belly and the structures around the knee joint. Application must be controlled and gradual, as the compression can cause serious injury with minimal warning, and the entangled position characteristic of twister control makes tapping physically difficult for the defender.",
   "safety_considerations": {
     "injury_risks": [
@@ -105,17 +108,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Twister Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -266,42 +278,142 @@
       {
         "question": "What anatomical structures does the calf slicer from twister control primarily attack?",
         "answer": "The calf slicer targets the gastrocnemius and soleus muscles through compression against the shin bone fulcrum positioned behind the knee crease. Secondary pressure affects the posterior knee structures including the popliteal ligaments and can stress the Achilles tendon. The compression creates a folding action that simultaneously attacks soft tissue integrity and joint stability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Calf muscle against shin fulcrum",
+        "distractors": {
+          "plausible": [
+            "Knee ligaments only",
+            "Achilles tendon primarily"
+          ],
+          "trap": [
+            "Ride it out, only muscle pain"
+          ]
+        }
       },
       {
         "question": "What specific advantage does twister control provide for the calf slicer compared to other entry positions?",
         "answer": "Twister control provides pre-existing deep leg entanglement and spinal rotation that prevent the defender from straightening their targeted leg or generating effective hip extension. The rotational constraint on the spine compromises the defender's core engagement, making it significantly harder to relieve calf compression. This combination of leg control and spinal rotation is unavailable from standard calf slicer entries like half guard or back control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg lock plus spine rotation",
+        "distractors": {
+          "plausible": [
+            "Just better foot control",
+            "Stronger ankle grip"
+          ],
+          "trap": [
+            "Ditch control to hunt the back"
+          ]
+        }
       },
       {
         "question": "How should you adjust your shin placement if the opponent begins to straighten their leg during the calf slicer attempt?",
         "answer": "Immediately deepen the shin behind the knee crease by pulling your heel toward your own hip while simultaneously increasing foot control to re-fold the lower leg. If the leg is nearly straight, consider abandoning the slicer and threatening the twister finish instead, as forcing a slicer on a straightening leg reduces effectiveness and risks losing position entirely. The twister threat often re-exposes the leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Re-seat shin, threaten twister",
+        "distractors": {
+          "plausible": [
+            "Force the fold harder",
+            "Switch to straight ankle lock"
+          ],
+          "trap": [
+            "Release grip and reshoot"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when applying the calf slicer from twister control in training?",
         "answer": "Apply compression over five to seven seconds minimum without spiking or jerking the pressure. Maintain constant awareness that the entangled twister position may prevent your partner from physically tapping with their hands, so respond immediately to verbal taps or any vocalization of distress. Release by removing shin pressure first, then unwind the leg entanglement slowly and controlledly to avoid secondary injury during the release phase.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Compress slowly over 5-7 seconds",
+        "distractors": {
+          "plausible": [
+            "Unwind leg first, then ease shin",
+            "Wait for the hand-slap signal"
+          ],
+          "trap": [
+            "Spike the pressure for fast finish"
+          ]
+        }
       },
       {
         "question": "What is the correct release sequence after your training partner taps to the calf slicer from twister control?",
         "answer": "First release the foot grip and stop all compression pressure immediately. Second, slowly remove your shin from behind the knee crease without any jerking movements. Third, carefully unwind the leg entanglement from the twister control position. Fourth, allow your partner to extend and straighten their leg naturally before fully disengaging. Finally, check that your partner has normal sensation and full mobility in the affected leg before continuing training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release foot first, unwind slowly",
+        "distractors": {
+          "plausible": [
+            "Unwind the legs before releasing",
+            "Let partner pull the leg out"
+          ],
+          "trap": [
+            "Hold the lock while unwinding"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the calf slicer is reaching the point of no return for the defender?",
         "answer": "The primary indicators are the defender ceasing all escape attempts and becoming rigid, involuntary straightening of the toes on the affected foot from pain response, visible muscle distortion in the calf area where the shin creates the fulcrum, and the defender's breathing becoming sharp or erratic. Once the lower leg is fully folded past ninety degrees with the shin deeply seated, the defender has very limited options remaining.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Body rigid, toes straighten",
+        "distractors": {
+          "plausible": [
+            "Loud verbal complaints only",
+            "Attacker's grip slips loose"
+          ],
+          "trap": [
+            "Ride it out until pain fades"
+          ]
+        }
       },
       {
         "question": "How does the calf slicer create a submission dilemma with the twister finish from this position?",
         "answer": "When the defender protects their chin and resists spinal rotation to prevent the twister, they engage their core and keep their body flat, which makes their leg more accessible for the calf slicer. When they address the calf slicer by straightening their leg or changing hip angle, they release the defensive tension protecting against the twister. This forces the defender to choose which submission to prioritize, and the attacker exploits whichever defensive gap appears.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Defending one exposes other",
+        "distractors": {
+          "plausible": [
+            "Only hip angle matters here",
+            "Twister must land first"
+          ],
+          "trap": [
+            "Defend both at once and stall"
+          ]
+        }
       },
       {
         "question": "What is the most effective competition strategy for finishing the calf slicer from twister control against a skilled opponent?",
         "answer": "Establish twister control and threaten the twister submission to force the defender into a protective posture with their chin tucked. When they commit defensively to the twister, immediately transition to the calf slicer by threading the shin and controlling the foot. Apply gradual increasing pressure while maintaining the overall control structure. If the opponent begins escaping the slicer, return to threatening the twister to reset the dilemma cycle continuously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten twister, thread slicer",
+        "distractors": {
+          "plausible": [
+            "Attack slicer first always",
+            "Apply max pressure immediately"
+          ],
+          "trap": [
+            "Finish twister no matter what"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "4gzXKLfRlYY",
+        "title": "Twister Roll to Calf Slicer",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 82,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "odT3-cVWXdc",
+        "title": "Twister Side Attacks",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 61,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -378,27 +490,77 @@
       {
         "question": "What are the earliest warning signs that a calf slicer is being set up from twister control?",
         "answer": "The earliest cues include feeling the opponent's shin beginning to slide behind your knee crease, the opponent shifting their grip from your upper body toward your foot or ankle, and a distinct change in pressure direction from rotational twister torque to compressive downward folding along your lower leg. You may also notice the opponent adjusting their hip position to create a better angle for the shin fulcrum.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin slides behind your knee",
+        "distractors": {
+          "plausible": [
+            "Grip shifts to your collar",
+            "Opponent grabs your wrist"
+          ],
+          "trap": [
+            "Wait for pain before reacting"
+          ]
+        }
       },
       {
         "question": "When should you tap to the calf slicer from twister control rather than continue attempting to escape?",
         "answer": "Tap immediately when you feel sharp pain in the calf muscle, when the shin is fully seated behind your knee and your lower leg is being folded past ninety degrees, or when you cannot generate any movement to reduce compression despite effort. Because the entangled twister position may limit your ability to physically tap with your hands, use verbal taps or any clear vocalization. Never wait for pain to become severe, as calf compression injuries occur rapidly once the position is locked.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early, vocalize the tap",
+        "distractors": {
+          "plausible": [
+            "Wait for numbness in the foot",
+            "Only tap if your hand is free"
+          ],
+          "trap": [
+            "Bridge and rip the leg free"
+          ]
+        }
       },
       {
         "question": "What is the primary defensive strategy against the calf slicer before it is fully established from twister control?",
         "answer": "The primary defense is straightening your leg before the opponent can fully fold it and establish the shin fulcrum. Push your heel away from your hip while engaging your quadriceps to resist the folding action. Simultaneously work to extract your leg from the overall twister entanglement. If you prevent the lower leg from being folded past ninety degrees, the compression becomes significantly less effective and you maintain time to work your broader escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten leg, extract fast",
+        "distractors": {
+          "plausible": [
+            "Grip fight for the foot",
+            "Flatten out and stay heavy"
+          ],
+          "trap": [
+            "Bridge and roll explosively"
+          ]
+        }
       },
       {
         "question": "What common defensive mistake makes the calf slicer from twister control significantly more dangerous?",
         "answer": "The most dangerous mistake is attempting to explosively roll or bridge while the calf slicer is partially applied. This explosive movement can drive your own calf harder against the opponent's shin fulcrum, dramatically increasing compression force beyond what the opponent intended to apply. The sudden spike in pressure can cause immediate muscle tearing or knee ligament damage. Instead, work calmly to straighten the leg through controlled technical movement.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Explosive bridge or roll",
+        "distractors": {
+          "plausible": [
+            "Tensing the calf muscle",
+            "Grabbing the attacker's shin"
+          ],
+          "trap": [
+            "Hold out hoping it slips off"
+          ]
+        }
       },
       {
         "question": "What defensive options remain available once the calf slicer from twister control is partially applied but not yet fully locked?",
         "answer": "The primary remaining options include straightening your leg against the fold to reduce compression, working to slip your knee forward past the opponent's shin to eliminate the fulcrum contact point, and fighting to extract your leg from the overall twister entanglement. You can also attempt to turn into your opponent to change the compression angle. Each option becomes progressively less viable as the position deepens, so early decisive action is critical.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten leg, slip knee free",
+        "distractors": {
+          "plausible": [
+            "Grip fight for their foot",
+            "Stack shoulders and stall"
+          ],
+          "trap": [
+            "Bridge explosively to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -421,6 +583,35 @@
         "phase": "Full Resistance Defense",
         "focus": "Complete defensive decision-making sequence",
         "description": "Defend against the calf slicer from twister control with the partner applying full resistance and finishing intent. Practice the complete defensive sequence from recognition through prevention to escape or tap decision-making under realistic competition-intensity conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Va1YNgx2E6M",
+        "title": "Escaping and countering twister control",
+        "by": "Matrix Jiu Jitsu",
+        "vertical": false,
+        "channel": "Matrix Jiu Jitsu",
+        "duration": 165,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oNCcwLYDM_g",
+        "title": "Twister defense and escape breakdown",
+        "by": "Unknown coach",
+        "vertical": false,
+        "channel": "m mill",
+        "duration": 201,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hXp34AtDjac",
+        "title": "Escaping twister side control",
+        "by": "Black Dragon BJJ coach",
+        "vertical": false,
+        "channel": "Black Dragon BJJ  / Cobra Kai Karate Dungannon",
+        "duration": 291,
+        "verified": "2026-07-15"
       }
     ]
   }

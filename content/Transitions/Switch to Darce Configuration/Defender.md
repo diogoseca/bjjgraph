@@ -148,6 +148,54 @@ description: "How to defend against Switch to Darce Configuration in BJJ. Recogn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Switch to Darce Configuration (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones D\u0027Arce escape breakdown",
+      "description": "Switch to Darce Configuration (Defender) film study: Craig Jones D\u0027Arce escape breakdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tbLmzzg6TcE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tbLmzzg6TcE",
+      "url": "https://www.youtube.com/watch?v=tbLmzzg6TcE",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "D\u0027Arce choke defense",
+      "description": "Switch to Darce Configuration (Defender) film study: D\u0027Arce choke defense, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d1YBV8UTKds/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d1YBV8UTKds",
+      "url": "https://www.youtube.com/watch?v=d1YBV8UTKds",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the Brabo / D\u0027Arce choke",
+      "description": "Switch to Darce Configuration (Defender) film study: Countering the Brabo / D\u0027Arce choke, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lcSRdtcUKcU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lcSRdtcUKcU",
+      "url": "https://www.youtube.com/watch?v=lcSRdtcUKcU",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT143S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ Successful defense requires a layered approach: prevent the threading entirely i
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Switch to Darce Configuration (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tbLmzzg6TcE)
+
+<p class="clip-credit"><strong>Craig Jones D&#39;Arce escape breakdown</strong> — taught by Craig Jones · 1:10 · <a href="https://www.youtube.com/watch?v=tbLmzzg6TcE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d1YBV8UTKds)
+
+<p class="clip-credit"><strong>D&#39;Arce choke defense</strong> — taught by Animal · 0:53 · <a href="https://www.youtube.com/watch?v=d1YBV8UTKds" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lcSRdtcUKcU)
+
+<p class="clip-credit"><strong>Countering the Brabo / D&#39;Arce choke</strong> — taught by Stephan Kesting · 2:23 · <a href="https://www.youtube.com/watch?v=lcSRdtcUKcU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

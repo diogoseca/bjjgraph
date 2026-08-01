@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Williams Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Williams Guard Sweep is a bottom open-guard reversal that pairs butterfly-hook elevation with forward shoulder-lock pressure to deny the opponent a post and topple them directly into mount.",
   "overview": "The Williams Guard Sweep exploits the mechanical dilemma inherent in the Williams Guard shoulder lock position. When the bottom player controls the opponent's arm in a figure-four shoulder lock configuration, the opponent's ability to post and maintain base is severely compromised on the controlled side. This sweep capitalizes on that structural weakness by combining butterfly hook elevation with forward shoulder lock pressure to topple the opponent directly into mount, converting guard control into the most dominant positional state in BJJ.\n\nThe technique functions as the primary positional advancement tool from Williams Guard, creating an unsolvable binary problem with the shoulder lock submission. When the opponent focuses on defending the shoulder lock, their weight shifts backward and their base narrows, opening the sweep. When they widen their base to prevent the sweep, the shoulder lock angle tightens and submission pressure increases. This integrated threat system transforms Williams Guard from a holding position into an active offensive platform where every defensive choice the opponent makes feeds directly into a specific attacking pathway.\n\nTiming separates successful execution from failed attempts. The sweep works best when initiated during the opponent's defensive adjustments to shoulder lock pressure, specifically when their weight distribution is transitioning and posting ability is momentarily compromised. Launching the sweep from a static position without first generating a defensive reaction typically allows the opponent to base with their free hand and shut down the elevation. Elite practitioners read the weight shift created by shoulder lock defense and use that transitional moment as the trigger for hook elevation and sweep commitment.",
   "conditions": [
@@ -243,46 +255,175 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the Williams Guard Sweep relative to your opponent's defensive reactions?",
-        "answer": "The optimal moment is during the opponent's weight shift caused by their defensive reaction to shoulder lock pressure. When they pull their arm back or shift weight backward to relieve shoulder lock pressure, their base narrows and their center of gravity transitions momentarily. This transitional window is when the butterfly hook elevation is most effective because they cannot simultaneously defend the submission and maintain maximum base stability."
+        "answer": "The optimal moment is during the opponent's weight shift caused by their defensive reaction to shoulder lock pressure. When they pull their arm back or shift weight backward to relieve shoulder lock pressure, their base narrows and their center of gravity transitions momentarily. This transitional window is when the butterfly hook elevation is most effective because they cannot simultaneously defend the submission and maintain maximum base stability.",
+        "answer_line": "During their weight-shift reaction",
+        "distractors": {
+          "plausible": [
+            "Right after hook is inserted",
+            "As soon as grips are set"
+          ],
+          "trap": [
+            "When they posture up strong"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be established before attempting the sweep and why is the figure-four essential?",
-        "answer": "The figure-four shoulder lock grip must be secured with your bottom arm threaded behind the opponent's tricep and your top hand gripping your own wrist. The figure-four is essential because it creates a mechanical lock that prevents the opponent from posting their controlled arm during the sweep. A simpler grip like a wrist grab would allow them to pull free under the rotational forces of the sweep, eliminating the core advantage of sweeping from shoulder lock control."
+        "answer": "The figure-four shoulder lock grip must be secured with your bottom arm threaded behind the opponent's tricep and your top hand gripping your own wrist. The figure-four is essential because it creates a mechanical lock that prevents the opponent from posting their controlled arm during the sweep. A simpler grip like a wrist grab would allow them to pull free under the rotational forces of the sweep, eliminating the core advantage of sweeping from shoulder lock control.",
+        "answer_line": "Figure-four locks their post arm",
+        "distractors": {
+          "plausible": [
+            "Simple wrist grab is enough",
+            "Grip their sleeve, not wrist"
+          ],
+          "trap": [
+            "Release grip to free the hook"
+          ]
+        }
       },
       {
         "question": "What is the specific role of the butterfly hook in generating sweep momentum and how does it differ from arm-based pulling?",
-        "answer": "The butterfly hook provides the primary elevation force by lifting the opponent's thigh upward, shifting their center of gravity above their base. Unlike arm-based pulling which creates lateral force, the hook generates vertical displacement that fundamentally destabilizes the opponent's base. The hook leverages your leg strength—the strongest muscle group—against their balance, while the shoulder lock grip provides directional control rather than primary force generation."
+        "answer": "The butterfly hook provides the primary elevation force by lifting the opponent's thigh upward, shifting their center of gravity above their base. Unlike arm-based pulling which creates lateral force, the hook generates vertical displacement that fundamentally destabilizes the opponent's base. The hook leverages your leg strength—the strongest muscle group—against their balance, while the shoulder lock grip provides directional control rather than primary force generation.",
+        "answer_line": "Hook lifts thigh, breaks base",
+        "distractors": {
+          "plausible": [
+            "Arm pulls generate the force",
+            "Hook and grip pull equally"
+          ],
+          "trap": [
+            "Yank the arm for momentum"
+          ]
+        }
       },
       {
         "question": "Why do most Williams Guard Sweep attempts fail at the elevation phase and how can this be corrected?",
-        "answer": "Most failures at the elevation phase occur because the hook is too shallow, the hip angle is insufficient, or the timing is wrong. A shallow hook slips out during lift. Without proper hip angle, the elevation force is misaligned with the sweep direction. Poor timing means the opponent has already established a defensive base before elevation begins. Correction requires ensuring all three prerequisites—deep hook, 45-degree hip angle, opponent in weight transition—are met before committing to the elevation."
+        "answer": "Most failures at the elevation phase occur because the hook is too shallow, the hip angle is insufficient, or the timing is wrong. A shallow hook slips out during lift. Without proper hip angle, the elevation force is misaligned with the sweep direction. Poor timing means the opponent has already established a defensive base before elevation begins. Correction requires ensuring all three prerequisites—deep hook, 45-degree hip angle, opponent in weight transition—are met before committing to the elevation.",
+        "answer_line": "Shallow hook, bad angle, timing",
+        "distractors": {
+          "plausible": [
+            "Opponent's strength alone",
+            "Not enough grip pressure"
+          ],
+          "trap": [
+            "Rush the lift immediately"
+          ]
+        }
       },
       {
         "question": "How should force be directed during the sweep—what is the relationship between shoulder lock drive and hook elevation?",
-        "answer": "Force must be applied as a coordinated rotational moment, not two separate actions. The shoulder lock drives forward and across the opponent's body while the butterfly hook lifts their near thigh simultaneously. These forces create a rotation around the axis of the opponent's far knee. The shoulder lock prevents posting on the near side while the hook removes ground contact on the near side, leaving only the far leg as a support point which cannot sustain the rotational load."
+        "answer": "Force must be applied as a coordinated rotational moment, not two separate actions. The shoulder lock drives forward and across the opponent's body while the butterfly hook lifts their near thigh simultaneously. These forces create a rotation around the axis of the opponent's far knee. The shoulder lock prevents posting on the near side while the hook removes ground contact on the near side, leaving only the far leg as a support point which cannot sustain the rotational load.",
+        "answer_line": "Simultaneous rotation, not sequence",
+        "distractors": {
+          "plausible": [
+            "Shoulder lock first, then hook",
+            "Hook lifts, then drive the lock"
+          ],
+          "trap": [
+            "Pull straight back with arms"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand to stop the sweep—how do you adjust your attack?",
-        "answer": "A free hand post signals that the opponent has committed their remaining defensive resource to base rather than grip fighting. This opens two immediate attacks: first, swing your free leg over the posted arm for a triangle setup since their arm is extended and committed to the mat. Second, rotate your hips into the posting arm for an omoplata transition. Both attacks exploit the fact that their posted hand cannot simultaneously maintain base and defend submissions."
+        "answer": "A free hand post signals that the opponent has committed their remaining defensive resource to base rather than grip fighting. This opens two immediate attacks: first, swing your free leg over the posted arm for a triangle setup since their arm is extended and committed to the mat. Second, rotate your hips into the posting arm for an omoplata transition. Both attacks exploit the fact that their posted hand cannot simultaneously maintain base and defend submissions.",
+        "answer_line": "Attack triangle or omoplata",
+        "distractors": {
+          "plausible": [
+            "Abandon sweep, reset guard",
+            "Switch to armbar only"
+          ],
+          "trap": [
+            "Push off their posted hand"
+          ]
+        }
       },
       {
         "question": "If the sweep is blocked by strong basing, what submission chain becomes available from the same position?",
-        "answer": "When the opponent bases wide to block the sweep, the shoulder lock itself tightens because their widened base pulls their arm further into the lock. Increase shoulder lock pressure to force them to choose between defending the submission and maintaining the wide base. If they narrow their base to address the shoulder lock, reattempt the sweep. If they maintain base, progress the shoulder lock toward finish or transition to omoplata by rotating your hips underneath. The sweep and submission create a binary that always opens one attack."
+        "answer": "When the opponent bases wide to block the sweep, the shoulder lock itself tightens because their widened base pulls their arm further into the lock. Increase shoulder lock pressure to force them to choose between defending the submission and maintaining the wide base. If they narrow their base to address the shoulder lock, reattempt the sweep. If they maintain base, progress the shoulder lock toward finish or transition to omoplata by rotating your hips underneath. The sweep and submission create a binary that always opens one attack.",
+        "answer_line": "Tighten lock or hit omoplata",
+        "distractors": {
+          "plausible": [
+            "Abandon lock, reset position",
+            "Switch to guillotine choke"
+          ],
+          "trap": [
+            "Release grip to try again"
+          ]
+        }
       },
       {
         "question": "How does hip angle affect sweep effectiveness and what is the ideal angle relative to the opponent?",
-        "answer": "Hip angle determines the direction of rotational force during the sweep. The ideal angle is approximately 45 degrees toward the controlled arm side, achieved through hip escaping before hook insertion. Too little angle means the sweep force pushes straight into the opponent's base rather than around it. Too much angle disconnects the butterfly hook from effective lifting position. The 45-degree angle creates a diagonal sweep path that bypasses the opponent's strongest base points."
+        "answer": "Hip angle determines the direction of rotational force during the sweep. The ideal angle is approximately 45 degrees toward the controlled arm side, achieved through hip escaping before hook insertion. Too little angle means the sweep force pushes straight into the opponent's base rather than around it. Too much angle disconnects the butterfly hook from effective lifting position. The 45-degree angle creates a diagonal sweep path that bypasses the opponent's strongest base points.",
+        "answer_line": "45 degrees toward controlled arm",
+        "distractors": {
+          "plausible": [
+            "Stay square to the opponent",
+            "90 degrees, fully sideways"
+          ],
+          "trap": [
+            "Flatten hips to the mat"
+          ]
+        }
       },
       {
         "question": "What distinguishes a successful sweep follow-through from one that stalls in a scramble position?",
-        "answer": "Successful follow-through maintains continuous momentum and shoulder lock control through the entire rotation from guard to mount. Stalled sweeps occur when the attacker pauses mid-rotation, releases the shoulder lock prematurely, or fails to hip switch over the opponent quickly enough. The key distinction is commitment—once the elevation breaks their base, the attacker must follow through as a single continuous motion, transitioning grip from shoulder lock to mount control only after fully establishing top position."
+        "answer": "Successful follow-through maintains continuous momentum and shoulder lock control through the entire rotation from guard to mount. Stalled sweeps occur when the attacker pauses mid-rotation, releases the shoulder lock prematurely, or fails to hip switch over the opponent quickly enough. The key distinction is commitment—once the elevation breaks their base, the attacker must follow through as a single continuous motion, transitioning grip from shoulder lock to mount control only after fully establishing top position.",
+        "answer_line": "Continuous motion to mount",
+        "distractors": {
+          "plausible": [
+            "Pause to secure grip first",
+            "Switch grips mid-rotation"
+          ],
+          "trap": [
+            "Release the lock before mount"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back when you attempt the sweep—what does this reaction open up?",
-        "answer": "A hip sprawl creates the exact hip angle needed for omoplata transition. When the opponent sprawls back, their hips clear your legs and their shoulder drops closer to the mat. Maintain the shoulder lock grip and rotate your hips underneath their sprawled body to begin the omoplata sequence. Their sprawl momentum actually assists the omoplata rotation. Alternatively, if they sprawl unevenly, the scissor leg sweep variation can exploit the asymmetric base created by partial sprawling."
+        "answer": "A hip sprawl creates the exact hip angle needed for omoplata transition. When the opponent sprawls back, their hips clear your legs and their shoulder drops closer to the mat. Maintain the shoulder lock grip and rotate your hips underneath their sprawled body to begin the omoplata sequence. Their sprawl momentum actually assists the omoplata rotation. Alternatively, if they sprawl unevenly, the scissor leg sweep variation can exploit the asymmetric base created by partial sprawling.",
+        "answer_line": "Rotate hips into omoplata",
+        "distractors": {
+          "plausible": [
+            "Reinsert the butterfly hook",
+            "Chase the original sweep"
+          ],
+          "trap": [
+            "Release grip and reset"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Williams Guard Sweep involves shoulder lock mechanics throughout the sweeping motion that place rotational stress on the opponent's shoulder joint. Controlled execution is essential to prevent shoulder injuries. Partners should communicate regarding shoulder flexibility limitations before drilling. When practicing, allow the sweep to complete rather than posting on a compromised arm, which risks shoulder strain or dislocation. Release shoulder lock pressure immediately if your partner taps during any phase of the sweep. Avoid explosive force application against locked shoulder joints, and increase sweep speed gradually as both partners develop comfort with the mechanics."
+    "safety_considerations": "The Williams Guard Sweep involves shoulder lock mechanics throughout the sweeping motion that place rotational stress on the opponent's shoulder joint. Controlled execution is essential to prevent shoulder injuries. Partners should communicate regarding shoulder flexibility limitations before drilling. When practicing, allow the sweep to complete rather than posting on a compromised arm, which risks shoulder strain or dislocation. Release shoulder lock pressure immediately if your partner taps during any phase of the sweep. Avoid explosive force application against locked shoulder joints, and increase sweep speed gradually as both partners develop comfort with the mechanics.",
+    "clips": [
+      {
+        "id": "vcO2z_awL5k",
+        "title": "Williams guard sweep variations",
+        "by": "UFAI Grappling",
+        "vertical": false,
+        "channel": "UFAI GRAPPLING",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Mfw8-mXM_JY",
+        "title": "Williams guard shoulder pin options",
+        "by": "Cross Fight",
+        "vertical": false,
+        "channel": "Cross Fight ",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "RQjhLboSn34",
+        "title": "Williams guard money sweep from closed guard",
+        "by": "Ralph Gracie BJJ",
+        "vertical": false,
+        "channel": "Ralph Gracie BJJ - San Jose & Santa Clara",
+        "duration": 129,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Williams Guard Sweep Defender",
@@ -367,23 +508,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Williams Guard Sweep is being initiated rather than a shoulder lock submission attempt?",
-        "answer": "The earliest cue is the opponent's hip escape toward the controlled arm side, creating an angled body position rather than remaining square. A shoulder lock submission attempt typically involves staying square and increasing rotational pressure on the arm. The hip angle change signals sweep setup because it aligns the opponent's body with a sweep direction and creates space for butterfly hook insertion. Recognizing this distinction allows you to address the sweep threat before the hook establishes."
+        "answer": "The earliest cue is the opponent's hip escape toward the controlled arm side, creating an angled body position rather than remaining square. A shoulder lock submission attempt typically involves staying square and increasing rotational pressure on the arm. The hip angle change signals sweep setup because it aligns the opponent's body with a sweep direction and creates space for butterfly hook insertion. Recognizing this distinction allows you to address the sweep threat before the hook establishes.",
+        "answer_line": "Hip escape toward controlled arm",
+        "distractors": {
+          "plausible": [
+            "Increased rotational pressure",
+            "Opponent staying square"
+          ],
+          "trap": [
+            "Wait for the hook to land"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight when defending the Williams Guard Sweep and why is base width critical?",
-        "answer": "Drop your center of gravity by bending at the knees rather than the waist, and widen your base by spreading your knees apart. Weight should be distributed through your legs and hips rather than leaning forward onto your hands. Base width is critical because the sweep generates rotational force—a narrow base provides a shorter lever arm that the hook elevation easily overcomes, while a wide base requires significantly more force to overturn and gives you more room to absorb the sweep attempt."
+        "answer": "Drop your center of gravity by bending at the knees rather than the waist, and widen your base by spreading your knees apart. Weight should be distributed through your legs and hips rather than leaning forward onto your hands. Base width is critical because the sweep generates rotational force—a narrow base provides a shorter lever arm that the hook elevation easily overcomes, while a wide base requires significantly more force to overturn and gives you more room to absorb the sweep attempt.",
+        "answer_line": "Drop hips, widen knees",
+        "distractors": {
+          "plausible": [
+            "Lean forward onto your hands",
+            "Keep knees together, narrow"
+          ],
+          "trap": [
+            "Straighten up, stand tall"
+          ]
+        }
       },
       {
         "question": "Your opponent has elevated you with a butterfly hook and the sweep is mid-execution—what immediate response prevents completion?",
-        "answer": "Post your free hand on the mat on the far side and simultaneously drive your hips back down by straightening the hooked leg to strip the hook. If the elevation is too far advanced for this, redirect by turning into the sweep direction to land in a scramble rather than giving up clean mount. The critical action is preventing the opponent from following through to full mount—even landing in side control or half guard is preferable to conceding mount."
+        "answer": "Post your free hand on the mat on the far side and simultaneously drive your hips back down by straightening the hooked leg to strip the hook. If the elevation is too far advanced for this, redirect by turning into the sweep direction to land in a scramble rather than giving up clean mount. The critical action is preventing the opponent from following through to full mount—even landing in side control or half guard is preferable to conceding mount.",
+        "answer_line": "Post hand, strip the hook",
+        "distractors": {
+          "plausible": [
+            "Fight the rotation with hips",
+            "Grab their leg to stop it"
+          ],
+          "trap": [
+            "Relax and accept the sweep"
+          ]
+        }
       },
       {
         "question": "When is stripping the shoulder lock grip preferable to simply basing out against the sweep?",
-        "answer": "Stripping the grip is preferable when you have a stable base and the opponent is focused on hook placement rather than grip maintenance. During their transition to sweep setup, their attention divides between maintaining the shoulder lock and establishing the elevation mechanism. This divided focus creates windows for circular arm extraction. However, grip stripping during active sweep initiation is risky because the jerking motion can accelerate the sweep—in that case, basing out first and addressing the grip second is safer."
+        "answer": "Stripping the grip is preferable when you have a stable base and the opponent is focused on hook placement rather than grip maintenance. During their transition to sweep setup, their attention divides between maintaining the shoulder lock and establishing the elevation mechanism. This divided focus creates windows for circular arm extraction. However, grip stripping during active sweep initiation is risky because the jerking motion can accelerate the sweep—in that case, basing out first and addressing the grip second is safer.",
+        "answer_line": "During their transition setup",
+        "distractors": {
+          "plausible": [
+            "Always base out first",
+            "Strip grip during active sweep"
+          ],
+          "trap": [
+            "Yank arm free mid-elevation"
+          ]
+        }
       },
       {
         "question": "How do you use your free hand to maintain base without exposing it to triangle or kimura attacks?",
-        "answer": "Keep your free hand near your centerline—either controlling the opponent's head or posted on their hip rather than extended to the mat. A hand posted far from your body creates an isolated limb that the opponent can attack by swinging their leg over for a triangle or securing a kimura grip. Posting on their hip or controlling their head serves double duty: it maintains your base while also disrupting their guard mechanics without creating submission vulnerabilities."
+        "answer": "Keep your free hand near your centerline—either controlling the opponent's head or posted on their hip rather than extended to the mat. A hand posted far from your body creates an isolated limb that the opponent can attack by swinging their leg over for a triangle or securing a kimura grip. Posting on their hip or controlling their head serves double duty: it maintains your base while also disrupting their guard mechanics without creating submission vulnerabilities.",
+        "answer_line": "Hand near centerline, on hip",
+        "distractors": {
+          "plausible": [
+            "Post hand flat on the mat",
+            "Grip their far sleeve"
+          ],
+          "trap": [
+            "Extend arm to push away"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -406,6 +597,26 @@
         "phase": "Phase 4: Live Integration",
         "focus": "Full resistance positional sparring",
         "description": "Positional sparring starting in Williams Guard. Partner works full offensive system including sweep, shoulder lock, and alternative attacks. Defender works to survive, extract arm, and pass guard. Three-minute rounds with alternating roles. Track defensive success rate and identify recurring failure patterns."
+      }
+    ],
+    "clips": [
+      {
+        "id": "NZEf9jXzCYA",
+        "title": "Williams guard cartwheel escape counter",
+        "by": "Sam Wilkinson",
+        "vertical": false,
+        "channel": "Sam Wilkinson MMA",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "kNfVYhZbgrg",
+        "title": "Four levels of sweep defense",
+        "by": "Wim Deputter",
+        "vertical": false,
+        "channel": "Wim Deputter BJJ",
+        "duration": 87,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -14,26 +14,41 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Leg Drag Control/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "summary": "Leg Drag to Darce Setup is a transitional attack that exploits an opponent's turtle escape from leg drag control, threading the choking arm under their near armpit and across the neck to establish Darce Control.",
   "overview": "The Leg Drag to Darce Setup is a powerful transitional attack that capitalizes on a common defensive reaction from leg drag control. When the bottom player attempts to escape by turtling or turning away to protect their back, they inadvertently create the arm and head configuration necessary for Darce choke entries. This transition exemplifies the concept of attacking your opponent's escape routes rather than simply chasing positional dominance.\n\nThe mechanics of this transition rely on timing and angle recognition. As the opponent rolls to turtle from leg drag, their near arm typically posts on the mat while their head drops, creating the classic arm-in guillotine configuration. Rather than following them to traditional back control, you thread your choking arm under their near armpit and around the back of their neck, establishing the Darce grip before they can flatten or face you. The leg drag position provides unique leverage for this entry because you maintain hip control throughout the transition.\n\nStrategically, this technique transforms what many consider a neutral exchange (opponent escaping to turtle) into an offensive opportunity. High-level competitors often bait the turtle escape from leg drag specifically to attack this sequence. The Darce setup from leg drag is particularly effective because the opponent's defensive movement generates the momentum you need to sink the arm through. Understanding this transition changes how you view leg drag control—it becomes not just a passing position but a launching pad for high-percentage submission attacks.",
   "related_content": [
@@ -209,54 +224,194 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Leg Drag to Darce Setup?",
-        "answer": "The primary goal is to capitalize on the opponent's turtle escape attempt from leg drag by threading your arm under their armpit and around their neck to establish Darce Control. This transforms their defensive movement into a high-percentage submission opportunity."
+        "answer": "The primary goal is to capitalize on the opponent's turtle escape attempt from leg drag by threading your arm under their armpit and around their neck to establish Darce Control. This transforms their defensive movement into a high-percentage submission opportunity.",
+        "answer_line": "Turn turtle escape into Darce",
+        "distractors": {
+          "plausible": [
+            "Force opponent back to guard",
+            "Reset to leg drag control"
+          ],
+          "trap": [
+            "Chase choke, abandon hip control"
+          ]
+        }
       },
       {
         "question": "What position do you start Leg Drag to Darce Setup from?",
-        "answer": "This technique starts from Leg Drag Control with you in the top position. You must have your opponent's leg dragged across their body with established hip and shoulder control before the Darce opportunity presents itself."
+        "answer": "This technique starts from Leg Drag Control with you in the top position. You must have your opponent's leg dragged across their body with established hip and shoulder control before the Darce opportunity presents itself.",
+        "answer_line": "Leg Drag Control, top position",
+        "distractors": {
+          "plausible": [
+            "Side control with underhook",
+            "Turtle top, opponent flattened"
+          ],
+          "trap": [
+            "Half guard bottom position"
+          ]
+        }
       },
       {
         "question": "What specific opponent reaction triggers the Darce entry opportunity?",
-        "answer": "The trigger is when the opponent begins turning away from you toward turtle position. Their weight shift, arm posting on the mat, and hip rotation create the space between their arm and torso needed to thread the choking arm through."
+        "answer": "The trigger is when the opponent begins turning away from you toward turtle position. Their weight shift, arm posting on the mat, and hip rotation create the space between their arm and torso needed to thread the choking arm through.",
+        "answer_line": "Opponent turns toward turtle",
+        "distractors": {
+          "plausible": [
+            "Opponent posts hand flat",
+            "Opponent bridges to escape"
+          ],
+          "trap": [
+            "Opponent shrimps to guard"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for Leg Drag to Darce Setup?",
-        "answer": "The Darce grip requires your choking arm to thread under opponent's armpit and around their neck until your hand reaches their far shoulder. You then grab your own bicep with that hand while your other hand slides behind their head, creating the figure-four configuration."
+        "answer": "The Darce grip requires your choking arm to thread under opponent's armpit and around their neck until your hand reaches their far shoulder. You then grab your own bicep with that hand while your other hand slides behind their head, creating the figure-four configuration.",
+        "answer_line": "Thread arm, grip own bicep",
+        "distractors": {
+          "plausible": [
+            "Grip opposite collar tight",
+            "Underhook their far leg"
+          ],
+          "trap": [
+            "Grab head, skip shoulder reach"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps their elbow clamped tight as they turtle—how do you adapt?",
-        "answer": "When the elbow stays tight, the Darce entry is blocked. Switch to anaconda grip by circling around their head first, or abandon the choke and take traditional back control. Do not force the arm through when space is not available."
+        "answer": "When the elbow stays tight, the Darce entry is blocked. Switch to anaconda grip by circling around their head first, or abandon the choke and take traditional back control. Do not force the arm through when space is not available.",
+        "answer_line": "Switch to anaconda or back take",
+        "distractors": {
+          "plausible": [
+            "Wait for elbow to loosen",
+            "Switch to guillotine grip"
+          ],
+          "trap": [
+            "Force the arm through gap"
+          ]
+        }
       },
       {
         "question": "How do you counter an opponent who attempts to roll through your Darce setup?",
-        "answer": "Follow the roll while maintaining your grip connection. Your body rotates with them, often allowing you to finish from the opposite side. If the grip breaks during the roll, release and immediately secure top position from wherever you land."
+        "answer": "Follow the roll while maintaining your grip connection. Your body rotates with them, often allowing you to finish from the opposite side. If the grip breaks during the roll, release and immediately secure top position from wherever you land.",
+        "answer_line": "Follow roll, keep grip connected",
+        "distractors": {
+          "plausible": [
+            "Release grip, reset to guard",
+            "Stop roll, sit back to base"
+          ],
+          "trap": [
+            "Fight the roll, plant base"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Leg Drag to Darce Setup?",
-        "answer": "The optimal timing is the instant the opponent begins their turtle escape, before they can settle their base or clamp their elbow. Thread the arm during their movement phase when their arm naturally posts wide and creates space. Waiting until they complete the turtle position significantly reduces success probability."
+        "answer": "The optimal timing is the instant the opponent begins their turtle escape, before they can settle their base or clamp their elbow. Thread the arm during their movement phase when their arm naturally posts wide and creates space. Waiting until they complete the turtle position significantly reduces success probability.",
+        "answer_line": "The instant they start turtling",
+        "distractors": {
+          "plausible": [
+            "After they settle turtle base",
+            "Right after leg drag lands"
+          ],
+          "trap": [
+            "Wait until elbow clamps down"
+          ]
+        }
       },
       {
         "question": "How deep must your choking arm thread for a successful Darce grip?",
-        "answer": "Your arm must thread deep enough that your hand reaches the opponent's far shoulder or trapezius muscle. Your elbow should pass the centerline of their spine. If your hand only reaches their jaw or chin, the grip is too shallow and they will easily posture out."
+        "answer": "Your arm must thread deep enough that your hand reaches the opponent's far shoulder or trapezius muscle. Your elbow should pass the centerline of their spine. If your hand only reaches their jaw or chin, the grip is too shallow and they will easily posture out.",
+        "answer_line": "Hand reaches the far shoulder",
+        "distractors": {
+          "plausible": [
+            "Elbow passes centerline only",
+            "Forearm touches their spine"
+          ],
+          "trap": [
+            "Hand stopping at jaw is fine"
+          ]
+        }
       },
       {
         "question": "What body part maintains hip control while you thread the Darce arm?",
-        "answer": "Your chest maintains pressure on their near hip during the transition. Additionally, your legs sprawl or hook their hips to prevent guard recovery. Never sacrifice hip control entirely when pursuing the choke—it is the anchor that prevents escape."
+        "answer": "Your chest maintains pressure on their near hip during the transition. Additionally, your legs sprawl or hook their hips to prevent guard recovery. Never sacrifice hip control entirely when pursuing the choke—it is the anchor that prevents escape.",
+        "answer_line": "Chest presses their near hip",
+        "distractors": {
+          "plausible": [
+            "Free hand controls far hip",
+            "Knee pins their near hip"
+          ],
+          "trap": [
+            "Release hips, chase the arm"
+          ]
+        }
       },
       {
         "question": "How does your head position affect this transition?",
-        "answer": "Your head must stay low and tight to the opponent's shoulder throughout the transition. Your ear should contact their scapula. If your head rises, you create space that allows them to turn into you, face you, and recover guard or establish effective frames."
+        "answer": "Your head must stay low and tight to the opponent's shoulder throughout the transition. Your ear should contact their scapula. If your head rises, you create space that allows them to turn into you, face you, and recover guard or establish effective frames.",
+        "answer_line": "Head low, ear on scapula",
+        "distractors": {
+          "plausible": [
+            "Head up to watch the grip",
+            "Head turned toward the mat"
+          ],
+          "trap": [
+            "Head high, chin on shoulder"
+          ]
+        }
       },
       {
         "question": "Your opponent flattens to their stomach mid-transition instead of completing the turtle—what is the correct chain attack?",
-        "answer": "When the opponent flattens, the Darce window closes because their arm tucks against their body and you lose the necessary angle. Immediately abandon the Darce attempt and consolidate to side control. From there, look for arm triangle setups since their flattened posture often leaves their near arm exposed across their face."
+        "answer": "When the opponent flattens, the Darce window closes because their arm tucks against their body and you lose the necessary angle. Immediately abandon the Darce attempt and consolidate to side control. From there, look for arm triangle setups since their flattened posture often leaves their near arm exposed across their face.",
+        "answer_line": "Abandon Darce, take side control",
+        "distractors": {
+          "plausible": [
+            "Force the Darce grip anyway",
+            "Switch straight to armbar"
+          ],
+          "trap": [
+            "Chase choke, lose top position"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force you apply when establishing the Darce grip from this transition?",
-        "answer": "The primary force direction is perpendicular to the opponent's spine, driving your chest and shoulder into their trapped shoulder while your choking arm pulls upward and across the back of their neck. This creates a shearing force that closes both sides of the neck. Your hips walk toward their head to increase the angle and tighten the compression."
+        "answer": "The primary force direction is perpendicular to the opponent's spine, driving your chest and shoulder into their trapped shoulder while your choking arm pulls upward and across the back of their neck. This creates a shearing force that closes both sides of the neck. Your hips walk toward their head to increase the angle and tighten the compression.",
+        "answer_line": "Chest drives, arm pulls across",
+        "distractors": {
+          "plausible": [
+            "Pull straight up and back",
+            "Push down through their chest"
+          ],
+          "trap": [
+            "Yank the neck away from body"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Darce choke is a blood strangle that compresses both carotid arteries when applied correctly. Training partners must tap early and clearly, as unconsciousness can occur within seconds once the choke is fully locked. When drilling, apply pressure gradually and release immediately upon the tap—do not hold the position to demonstrate control. Practitioners with neck injuries or cervical spine issues should avoid this technique or practice only the entry mechanics without pressure. The arm threading motion can also stress the shoulder joint of the person being choked if they resist incorrectly, so ensure training partners understand proper tap responses. Never crank or twist the neck during this technique."
+    "safety_considerations": "The Darce choke is a blood strangle that compresses both carotid arteries when applied correctly. Training partners must tap early and clearly, as unconsciousness can occur within seconds once the choke is fully locked. When drilling, apply pressure gradually and release immediately upon the tap—do not hold the position to demonstrate control. Practitioners with neck injuries or cervical spine issues should avoid this technique or practice only the entry mechanics without pressure. The arm threading motion can also stress the shoulder joint of the person being choked if they resist incorrectly, so ensure training partners understand proper tap responses. Never crank or twist the neck during this technique.",
+    "clips": [
+      {
+        "id": "EiUXb7SpH_E",
+        "title": "Arm drag to darce choke, no-gi",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 73,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Rosmg5rjo_s",
+        "title": "Darce choke to guard pass",
+        "by": "Josh Presley",
+        "vertical": false,
+        "channel": "Josh Presley",
+        "duration": 121,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Leg Drag to Darce Setup Defender",
@@ -341,23 +496,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action the instant you feel the opponent's arm threading under your armpit?",
-        "answer": "Immediately clamp your elbow tight to your ribs to close the gap the attacker is threading through. This is more important than any positional escape because it addresses the root mechanic of the Darce—without the arm threading deep, no grip can be established. Combine the elbow clamp with turning your chest toward the attacker to collapse the choking angle."
+        "answer": "Immediately clamp your elbow tight to your ribs to close the gap the attacker is threading through. This is more important than any positional escape because it addresses the root mechanic of the Darce—without the arm threading deep, no grip can be established. Combine the elbow clamp with turning your chest toward the attacker to collapse the choking angle.",
+        "answer_line": "Clamp elbow tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Grab their wrist immediately"
+          ],
+          "trap": [
+            "Post hand wide, arm extended"
+          ]
+        }
       },
       {
         "question": "Why is posting on your forearm rather than your hand critical when turtling from leg drag?",
-        "answer": "Posting on the forearm keeps your elbow close to your ribs, eliminating the space between your arm and torso that the Darce requires. When you post on an extended hand, the elbow lifts away from your body, creating a wide gap that the attacker can shoot their arm through easily. The forearm post provides adequate base for the turtle transition while denying the threading entry."
+        "answer": "Posting on the forearm keeps your elbow close to your ribs, eliminating the space between your arm and torso that the Darce requires. When you post on an extended hand, the elbow lifts away from your body, creating a wide gap that the attacker can shoot their arm through easily. The forearm post provides adequate base for the turtle transition while denying the threading entry.",
+        "answer_line": "Keeps elbow tight, denies gap",
+        "distractors": {
+          "plausible": [
+            "Gives a better turtle base",
+            "Protects the wrist from injury"
+          ],
+          "trap": [
+            "Extend hand for more reach"
+          ]
+        }
       },
       {
         "question": "Your opponent has threaded their arm deep but has not yet locked the figure-four—what is your best defensive strategy?",
-        "answer": "Use both hands to fight the locking hand before the figure-four connects. Grab the attacker's wrist or forearm with both hands and peel it away from their bicep. Simultaneously turn your body toward the attacker to reduce the choking angle. Once you break the grip connection, immediately extract your trapped arm and tuck into a tight turtle. Speed is critical because the window between arm threading and grip lock is only one to two seconds."
+        "answer": "Use both hands to fight the locking hand before the figure-four connects. Grab the attacker's wrist or forearm with both hands and peel it away from their bicep. Simultaneously turn your body toward the attacker to reduce the choking angle. Once you break the grip connection, immediately extract your trapped arm and tuck into a tight turtle. Speed is critical because the window between arm threading and grip lock is only one to two seconds.",
+        "answer_line": "Peel locking hand, turn in",
+        "distractors": {
+          "plausible": [
+            "Pull head down to defend",
+            "Bridge hard to break grip"
+          ],
+          "trap": [
+            "Pull away to create distance"
+          ]
+        }
       },
       {
         "question": "How do you recognize the difference between an opponent going for a back take versus a Darce from leg drag?",
-        "answer": "The back take involves the opponent's hands reaching over your shoulders and around your waist for seatbelt control, with their body following behind you. The Darce attempt shows the opponent's arm diving under your near armpit toward your neck, with their head dropping low against your shoulder rather than coming up behind you. The force vector is different—back take pulls you backward, while Darce threads across and around your neck horizontally."
+        "answer": "The back take involves the opponent's hands reaching over your shoulders and around your waist for seatbelt control, with their body following behind you. The Darce attempt shows the opponent's arm diving under your near armpit toward your neck, with their head dropping low against your shoulder rather than coming up behind you. The force vector is different—back take pulls you backward, while Darce threads across and around your neck horizontally.",
+        "answer_line": "Darce dives low under armpit",
+        "distractors": {
+          "plausible": [
+            "Both look the same, react equal",
+            "Back take arm comes over top"
+          ],
+          "trap": [
+            "Ignore head position cues"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker counterintuitively safer than pulling away when the Darce arm is threading?",
-        "answer": "Turning into the attacker collapses the angle that the Darce requires to compress the carotid arteries. The choke works by creating opposing pressure between the bicep on one side and the forearm on the other—turning in reduces this angle to near zero, neutralizing the compression. Pulling away extends the neck and opens the angle, actually helping the attacker achieve the geometry they need for the finish."
+        "answer": "Turning into the attacker collapses the angle that the Darce requires to compress the carotid arteries. The choke works by creating opposing pressure between the bicep on one side and the forearm on the other—turning in reduces this angle to near zero, neutralizing the compression. Pulling away extends the neck and opens the angle, actually helping the attacker achieve the geometry they need for the finish.",
+        "answer_line": "Turning in collapses choke angle",
+        "distractors": {
+          "plausible": [
+            "Turning in speeds their finish",
+            "Pulling away relaxes the choke"
+          ],
+          "trap": [
+            "Extend neck to gain space"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -380,6 +585,35 @@
         "phase": "Week 7+",
         "focus": "Live situational sparring",
         "description": "Start from leg drag bottom in live rolls. Defender must escape without getting caught in the Darce while also defending back takes and other attacks. Develop the ability to choose between conventional turtle escape and Darce-aware escape based on opponent's intentions in real time."
+      }
+    ],
+    "clips": [
+      {
+        "id": "d1YBV8UTKds",
+        "title": "Darce choke defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 53,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iNZpCbutyrM",
+        "title": "Darce escape",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lAOxeKq4W3E",
+        "title": "Escaping the darce choke",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 116,
+        "verified": "2026-07-15"
       }
     ]
   },

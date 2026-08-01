@@ -24,11 +24,14 @@ TRANSITIONS_PATH = CONTENT_PATH / "Transitions"
 SUBMISSIONS_PATH = CONTENT_PATH / "Submissions"
 OUTPUT_PATH = Path("tests/artifacts/from_position_audit.json")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _ruleset import reduce_to_scalar  # collapse mirror {gi,nogi} maps at load (calibration-v2)
+
 
 def load_json(path):
     try:
         with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+            return reduce_to_scalar(json.load(f), frame="nogi")  # read-only diagnostic: no-gi headline frame
     except Exception as e:
         print(f"  WARNING: Could not load {path}: {e}", file=sys.stderr)
         return None

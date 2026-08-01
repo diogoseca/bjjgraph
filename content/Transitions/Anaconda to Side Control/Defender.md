@@ -148,6 +148,54 @@ description: "Master defensive strategies against the Anaconda to Side Control g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Anaconda to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke defense",
+      "description": "Anaconda to Side Control (Defender) film study: Anaconda choke defense, taught by Mamba BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
+      "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
+      "creator": { "@type": "Person", "name": "Mamba BJJ" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Anaconda defense into americana counter",
+      "description": "Anaconda to Side Control (Defender) film study: Anaconda defense into americana counter, taught by Gracie Barra Newcastle City.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Yqz0JQuZGes/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Yqz0JQuZGes",
+      "url": "https://www.youtube.com/watch?v=Yqz0JQuZGes",
+      "creator": { "@type": "Person", "name": "Gracie Barra Newcastle City" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Anaconda choke defense and counter",
+      "description": "Anaconda to Side Control (Defender) film study: Anaconda choke defense and counter, taught by Cyril Robert.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s94GexEkoQ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/s94GexEkoQ0",
+      "url": "https://www.youtube.com/watch?v=s94GexEkoQ0",
+      "creator": { "@type": "Person", "name": "Cyril Robert" },
+      "duration": "PT43S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender against the Anaconda to Side Control transition, you are already
 **Opponent's Starting Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Anaconda to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N9MbEtAv_Lw)
+
+<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by Mamba BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Yqz0JQuZGes)
+
+<p class="clip-credit"><strong>Anaconda defense into americana counter</strong> — taught by Gracie Barra Newcastle City · 0:40 · <a href="https://www.youtube.com/watch?v=Yqz0JQuZGes" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=s94GexEkoQ0)
+
+<p class="clip-credit"><strong>Anaconda choke defense and counter</strong> — taught by Cyril Robert · 0:43 · <a href="https://www.youtube.com/watch?v=s94GexEkoQ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

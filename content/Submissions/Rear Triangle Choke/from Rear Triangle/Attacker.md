@@ -176,6 +176,43 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rear Triangle Choke from Rear Triangle (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Triangle Choke",
+      "description": "Rear Triangle Choke from Rear Triangle (Attacker) film study: Back Triangle Choke, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w8vzr24_n0s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w8vzr24_n0s",
+      "url": "https://www.youtube.com/watch?v=w8vzr24_n0s",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT30S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Triangle Choke",
+      "description": "Rear Triangle Choke from Rear Triangle (Attacker) film study: Back Triangle Choke, taught by Dr. Deng.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-lMJHL8SXlA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-lMJHL8SXlA",
+      "url": "https://www.youtube.com/watch?v=-lMJHL8SXlA",
+      "creator": { "@type": "Person", "name": "Dr. Deng" },
+      "duration": "PT23S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -186,6 +223,34 @@ Attacking with the rear triangle choke from the rear triangle position centers o
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rear Triangle Choke from Rear Triangle (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w8vzr24_n0s)
+
+<p class="clip-credit"><strong>Back Triangle Choke</strong> — taught by Dr. Deng · 0:30 · <a href="https://www.youtube.com/watch?v=w8vzr24_n0s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-lMJHL8SXlA)
+
+<p class="clip-credit"><strong>Back Triangle Choke</strong> — taught by Dr. Deng · 0:23 · <a href="https://www.youtube.com/watch?v=-lMJHL8SXlA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

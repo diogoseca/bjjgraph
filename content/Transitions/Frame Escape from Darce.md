@@ -34,6 +34,54 @@ description: "Master the Frame Escape from Darce in BJJ. Complete guide to frami
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frame Escape from Darce \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "D\u0027arce choke escape",
+      "description": "Frame Escape from Darce film study: D\u0027arce choke escape, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9Sk00Dj1LCk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9Sk00Dj1LCk",
+      "url": "https://www.youtube.com/watch?v=9Sk00Dj1LCk",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "D\u0027arce Defense",
+      "description": "Frame Escape from Darce film study: D\u0027arce Defense, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ug2Kxs54GuU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ug2Kxs54GuU",
+      "url": "https://www.youtube.com/watch?v=ug2Kxs54GuU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT714S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Underhook Half Guard vs Darce and Guillotine",
+      "description": "Frame Escape from Darce film study: Underhook Half Guard vs Darce and Guillotine, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dM1xebWBFzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dM1xebWBFzc",
+      "url": "https://www.youtube.com/watch?v=dM1xebWBFzc",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT369S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the Frame Escape serves as the primary systematic response to Dar
 **Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Frame Escape from Darce in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9Sk00Dj1LCk)
+
+<p class="clip-credit"><strong>D&#39;arce choke escape</strong> — taught by Asaf Mich · 1:01 · <a href="https://www.youtube.com/watch?v=9Sk00Dj1LCk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ug2Kxs54GuU)
+
+<p class="clip-credit"><strong>D&#39;arce Defense</strong> — taught by Lachlan Giles · 11:54 · <a href="https://www.youtube.com/watch?v=ug2Kxs54GuU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dM1xebWBFzc)
+
+<p class="clip-credit"><strong>Underhook Half Guard vs Darce and Guillotine</strong> — taught by Lachlan Giles · 6:09 · <a href="https://www.youtube.com/watch?v=dM1xebWBFzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

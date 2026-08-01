@@ -393,39 +393,129 @@
   "flashcards": [
     {
       "question": "What control position anchors the Craig Jones Leg Lock System, and why?",
-      "answer": "The saddle (inside sankaku) is the primary platform because it traps one leg deep while pinning the opponent's hips, giving simultaneous access to heel hook mechanics with strong rotational control and limited escape routes."
+      "answer": "The saddle (inside sankaku) is the primary platform because it traps one leg deep while pinning the opponent's hips, giving simultaneous access to heel hook mechanics with strong rotational control and limited escape routes.",
+      "answer_line": "Saddle for heel hook control",
+      "distractors": {
+        "plausible": [
+          "50-50 for symmetrical control",
+          "Cross ashi as primary base"
+        ],
+        "trap": [
+          "Focus only on ankle, skip hips"
+        ]
+      }
     },
     {
       "question": "How does the 'fork' or dual-threat concept generate finishes in this system?",
-      "answer": "By threatening the near-leg heel hook and the far-leg straight ankle lock at the same time, the attacker forces the opponent to defend one and expose the other, manufacturing submissions from their own defensive choices."
+      "answer": "By threatening the near-leg heel hook and the far-leg straight ankle lock at the same time, the attacker forces the opponent to defend one and expose the other, manufacturing submissions from their own defensive choices.",
+      "answer_line": "Threaten heel hook + ankle lock",
+      "distractors": {
+        "plausible": [
+          "Attack one leg with full force",
+          "Switch targets randomly"
+        ],
+        "trap": [
+          "Abandon legs, attack the collar"
+        ]
+      }
     },
     {
       "question": "Why does the system prioritize controlling the opponent's outside (far) leg?",
-      "answer": "Controlling the far leg limits the opponent's ability to rotate, stand, or hide the trapped knee line, removing the most common escape routes and keeping the knee exposed for the heel hook finish."
+      "answer": "Controlling the far leg limits the opponent's ability to rotate, stand, or hide the trapped knee line, removing the most common escape routes and keeping the knee exposed for the heel hook finish.",
+      "answer_line": "Controls rotation, blocks escape",
+      "distractors": {
+        "plausible": [
+          "Prevents opponent standing up",
+          "Sets up the back take"
+        ],
+        "trap": [
+          "Release far leg to attack knee"
+        ]
+      }
     },
     {
       "question": "What should you do when the opponent defends the heel hook by extending and hiding the knee line?",
-      "answer": "Stop forcing the finish, switch to the far-leg straight ankle lock or rotate to backside 50-50, using their defensive extension as the entry to an alternative submission rather than fighting a strong frame."
+      "answer": "Stop forcing the finish, switch to the far-leg straight ankle lock or rotate to backside 50-50, using their defensive extension as the entry to an alternative submission rather than fighting a strong frame.",
+      "answer_line": "Switch to ankle lock or 50-50",
+      "distractors": {
+        "plausible": [
+          "Force the heel hook harder",
+          "Reset to neutral saddle"
+        ],
+        "trap": [
+          "Let go and stand up"
+        ]
+      }
     },
     {
       "question": "What is the most common error when learning this system, and how is it corrected?",
-      "answer": "Rushing to finish before locking down control; the fix is to establish stable saddle or cross ashi-garami control plus outside-leg control first, treating the submission as the last step of a positional sequence."
+      "answer": "Rushing to finish before locking down control; the fix is to establish stable saddle or cross ashi-garami control plus outside-leg control first, treating the submission as the last step of a positional sequence.",
+      "answer_line": "Rushing finish before control",
+      "distractors": {
+        "plausible": [
+          "Not securing enough grips",
+          "Attacking the wrong leg first"
+        ],
+        "trap": [
+          "Skip control, go for the tap"
+        ]
+      }
     },
     {
       "question": "How does single leg X-guard integrate into the system's entries?",
-      "answer": "SLX provides elevation and off-balancing; when the opponent defends the sweep by basing or backstepping, that defensive posture is converted into a cross ashi-garami or direct saddle entry."
+      "answer": "SLX provides elevation and off-balancing; when the opponent defends the sweep by basing or backstepping, that defensive posture is converted into a cross ashi-garami or direct saddle entry.",
+      "answer_line": "SLX defense converts to ashi entry",
+      "distractors": {
+        "plausible": [
+          "SLX is the finishing position",
+          "SLX only sets up sweeps"
+        ],
+        "trap": [
+          "Abandon SLX, stand and pass"
+        ]
+      }
     },
     {
       "question": "Why is 50-50 management treated as a critical pillar of this system?",
-      "answer": "50-50 is symmetrical and prone to stalling, so the system uses asymmetric grip fighting and hip angles to break symmetry into cross ashi-garami dominance, or to attack directly when the opponent stays passive."
+      "answer": "50-50 is symmetrical and prone to stalling, so the system uses asymmetric grip fighting and hip angles to break symmetry into cross ashi-garami dominance, or to attack directly when the opponent stays passive.",
+      "answer_line": "Break symmetry into cross ashi",
+      "distractors": {
+        "plausible": [
+          "Stall until opponent moves",
+          "Match grips symmetrically"
+        ],
+        "trap": [
+          "Release grips to reset 50-50"
+        ]
+      }
     },
     {
       "question": "What role does cross ashi-garami play relative to the saddle?",
-      "answer": "Cross ashi-garami is both a standalone finishing platform and the main transitional gateway: the attacker keeps outside-leg control and rotates underneath the trapped leg to invert into the saddle position."
+      "answer": "Cross ashi-garami is both a standalone finishing platform and the main transitional gateway: the attacker keeps outside-leg control and rotates underneath the trapped leg to invert into the saddle position.",
+      "answer_line": "Finish spot and gateway to saddle",
+      "distractors": {
+        "plausible": [
+          "Only a transitional position",
+          "Weaker than saddle, avoid it"
+        ],
+        "trap": [
+          "Release outside leg to invert"
+        ]
+      }
     },
     {
       "question": "How can leg-lock threats support a top-game or passing strategy?",
-      "answer": "When a pass stalls, retreating to a leg entanglement creates a submission threat that forces a defensive reaction, reopening passing lanes or yielding the back when the opponent commits to defending the legs."
+      "answer": "When a pass stalls, retreating to a leg entanglement creates a submission threat that forces a defensive reaction, reopening passing lanes or yielding the back when the opponent commits to defending the legs.",
+      "answer_line": "Threat reopens passing lanes",
+      "distractors": {
+        "plausible": [
+          "Only useful once mounted",
+          "Best used after passing fully"
+        ],
+        "trap": [
+          "Give up top position for legs"
+        ]
+      }
     }
   ]
 }

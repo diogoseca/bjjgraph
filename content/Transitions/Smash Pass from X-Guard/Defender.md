@@ -140,6 +140,43 @@ description: "Defend against the Smash Pass from X-Guard. Learn to recognize pre
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Smash Pass from X-Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard recovery when you are getting smashed",
+      "description": "Smash Pass from X-Guard (Defender) film study: Guard recovery when you are getting smashed, taught by Finesse Jiujitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BhNZGloJ56c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BhNZGloJ56c",
+      "url": "https://www.youtube.com/watch?v=BhNZGloJ56c",
+      "creator": { "@type": "Person", "name": "Finesse Jiujitsu coach" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Three ways to stop your guard being passed",
+      "description": "Smash Pass from X-Guard (Defender) film study: Three ways to stop your guard being passed, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q4e8HHp7avk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/q4e8HHp7avk",
+      "url": "https://www.youtube.com/watch?v=q4e8HHp7avk",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT147S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ The defender against the Smash Pass from X-Guard is the bottom player who must r
 **Opponent's Starting Position**: [[Positions/X-Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Smash Pass from X-Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BhNZGloJ56c)
+
+<p class="clip-credit"><strong>Guard recovery when you are getting smashed</strong> — taught by Finesse Jiujitsu coach · 1:43 · <a href="https://www.youtube.com/watch?v=BhNZGloJ56c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=q4e8HHp7avk)
+
+<p class="clip-credit"><strong>Three ways to stop your guard being passed</strong> — taught by Jon Thomas · 2:27 · <a href="https://www.youtube.com/watch?v=q4e8HHp7avk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

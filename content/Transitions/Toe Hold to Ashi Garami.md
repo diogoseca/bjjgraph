@@ -34,6 +34,43 @@ description: "Master Toe Hold to Ashi Garami in BJJ. Complete guide to transitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold to Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Craig Jones crossover toe hold",
+      "description": "Toe Hold to Ashi Garami film study: Craig Jones crossover toe hold, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kx8gZ3QdO8s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Kx8gZ3QdO8s",
+      "url": "https://www.youtube.com/watch?v=Kx8gZ3QdO8s",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe hold to heel hook transition, no-gi",
+      "description": "Toe Hold to Ashi Garami film study: Toe hold to heel hook transition, no-gi, taught by Denny Prokopos.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OLghTlbmJGc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OLghTlbmJGc",
+      "url": "https://www.youtube.com/watch?v=OLghTlbmJGc",
+      "creator": { "@type": "Person", "name": "Denny Prokopos" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Success depends on reading defensive reactions, maintaining hip-to-leg connectio
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold to Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Kx8gZ3QdO8s)
+
+<p class="clip-credit"><strong>Craig Jones crossover toe hold</strong> — taught by Craig Jones · 0:51 · <a href="https://www.youtube.com/watch?v=Kx8gZ3QdO8s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OLghTlbmJGc)
+
+<p class="clip-credit"><strong>Toe hold to heel hook transition, no-gi</strong> — taught by Denny Prokopos · 2:17 · <a href="https://www.youtube.com/watch?v=OLghTlbmJGc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

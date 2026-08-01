@@ -14,27 +14,42 @@
   "from_position": "Meathook/Bottom",
   "outcomes": [
     {
-      "to": "Baratoplata",
-      "probability": 50,
+      "to": "Omoplata Control/Top",
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Meathook/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Armbar Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "conditions": [
     "Established Meathook position with shin hook securing opponent's tricep and ankle clearing shoulder line",
     "Opponent's posture broken with head pulled down and trapped arm bent at approximately 90 degrees",
@@ -149,8 +164,8 @@
       {
         "counter": "Roll toward the trapped arm side to relieve shoulder pressure",
         "effectiveness": "Medium",
-        "your_response": "Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish",
-        "targets_outcome": "Baratoplata"
+        "your_response": "Their roll momentum assists your transition—follow their roll while maintaining the figure-four to consolidate the shoulder-lock control position",
+        "targets_outcome": "Omoplata Control/Top"
       },
       {
         "counter": "Stack forward to collapse the attack angle",
@@ -211,54 +226,203 @@
     "flashcards": [
       {
         "question": "What is the primary goal of the Baratoplata Setup from Meathook?",
-        "answer": "The primary goal is to transition the arm isolation of Meathook into a figure-four shoulder lock that attacks the shoulder through internal rotation. The setup threads your arm through the opponent's trapped limb to create rotational pressure that bypasses muscular defense, finishing with a submission that attacks the shoulder joint rather than the elbow."
+        "answer": "The primary goal is to transition the arm isolation of Meathook into a figure-four shoulder lock that attacks the shoulder through internal rotation. The setup threads your arm through the opponent's trapped limb to create rotational pressure that bypasses muscular defense, finishing with a submission that attacks the shoulder joint rather than the elbow.",
+        "answer_line": "Figure-four shoulder lock",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension armbar",
+            "Straight-arm elbow break"
+          ],
+          "trap": [
+            "Abandon Meathook, re-guard"
+          ]
+        }
       },
       {
         "question": "What position do you start the Baratoplata Setup from and what must be established first?",
-        "answer": "The Baratoplata Setup starts from Meathook Bottom, specifically when you have the shin hook secured over the opponent's shoulder with their arm trapped against the tricep. The position requires broken posture, closed guard maintained throughout, and the opponent's trapped arm bent at approximately 90 degrees at the elbow before initiating the threading sequence."
+        "answer": "The Baratoplata Setup starts from Meathook Bottom, specifically when you have the shin hook secured over the opponent's shoulder with their arm trapped against the tricep. The position requires broken posture, closed guard maintained throughout, and the opponent's trapped arm bent at approximately 90 degrees at the elbow before initiating the threading sequence.",
+        "answer_line": "Meathook Bottom, elbow bent 90°",
+        "distractors": {
+          "plausible": [
+            "Meathook Bottom, arm straightened",
+            "Mount top, shin hook set"
+          ],
+          "trap": [
+            "Open guard to create space"
+          ]
+        }
       },
       {
         "question": "What are the key grips needed for the Baratoplata Setup?",
-        "answer": "You need three grip configurations: first, maintain your Meathook control grip (collar or overhook) on the non-trapped side; second, thread your same-side arm under the opponent's elbow; third, establish a figure-four by grabbing your own wrist with your free hand, palm facing down. The figure-four configuration is the submission grip."
+        "answer": "You need three grip configurations: first, maintain your Meathook control grip (collar or overhook) on the non-trapped side; second, thread your same-side arm under the opponent's elbow; third, establish a figure-four by grabbing your own wrist with your free hand, palm facing down. The figure-four configuration is the submission grip.",
+        "answer_line": "Thread arm, grab own wrist",
+        "distractors": {
+          "plausible": [
+            "Underhook both arms, no thread",
+            "Grip collar only, skip figure-four"
+          ],
+          "trap": [
+            "Release Meathook grip to thread"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts to straighten their trapped arm when you start threading—what alternative attack opens?",
-        "answer": "A straightened arm opens the Armbar on Free Arm directly. As they straighten to prevent the figure-four, their elbow becomes vulnerable to hyperextension. Use your shin hook as initial control, bring your leg over their face, and finish the standard armbar. Their defense to one attack creates the opening for another."
+        "answer": "A straightened arm opens the Armbar on Free Arm directly. As they straighten to prevent the figure-four, their elbow becomes vulnerable to hyperextension. Use your shin hook as initial control, bring your leg over their face, and finish the standard armbar. Their defense to one attack creates the opening for another.",
+        "answer_line": "Armbar on Free Arm",
+        "distractors": {
+          "plausible": [
+            "Switch to Baratoplata harder",
+            "Transition to Triangle choke"
+          ],
+          "trap": [
+            "Let go, opponent escapes arm"
+          ]
+        }
       },
       {
         "question": "Why is hip rotation critical before applying Baratoplata pressure?",
-        "answer": "Hip rotation toward the trapped arm side creates the internal rotation angle on the shoulder that generates submission pressure. Without this rotation, your pulling force attacks the elbow through hyperextension rather than the shoulder through rotation. The opponent can muscle out of elbow attacks but cannot defend rotational shoulder pressure with strength alone."
+        "answer": "Hip rotation toward the trapped arm side creates the internal rotation angle on the shoulder that generates submission pressure. Without this rotation, your pulling force attacks the elbow through hyperextension rather than the shoulder through rotation. The opponent can muscle out of elbow attacks but cannot defend rotational shoulder pressure with strength alone.",
+        "answer_line": "Creates shoulder rotation angle",
+        "distractors": {
+          "plausible": [
+            "Adds power to elbow pull",
+            "Sets up mount transition"
+          ],
+          "trap": [
+            "Square hips, pull straight back"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the Baratoplata Setup?",
-        "answer": "The optimal window is when the opponent attempts to extract their trapped arm by pulling backward or rotating. Their extraction attempt creates the space needed for threading your arm and their movement momentum actually assists your entry. Initiating against a static, well-defended Meathook is far more difficult than flowing with their escape attempt."
+        "answer": "The optimal window is when the opponent attempts to extract their trapped arm by pulling backward or rotating. Their extraction attempt creates the space needed for threading your arm and their movement momentum actually assists your entry. Initiating against a static, well-defended Meathook is far more difficult than flowing with their escape attempt.",
+        "answer_line": "When opponent pulls arm to extract",
+        "distractors": {
+          "plausible": [
+            "Against a static, set Meathook",
+            "Right after securing shin hook"
+          ],
+          "trap": [
+            "Wait for opponent to posture up"
+          ]
+        }
       },
       {
         "question": "Your opponent stacks forward to collapse your attack angle—how do you respond?",
-        "answer": "Stacking forward drives them into Gogoplata range. Release the Baratoplata attempt immediately and transition your shin across their throat for the choke. Their defensive pressure actually accelerates the Gogoplata setup. This demonstrates why Meathook attacks chain together—defending one opens another."
+        "answer": "Stacking forward drives them into Gogoplata range. Release the Baratoplata attempt immediately and transition your shin across their throat for the choke. Their defensive pressure actually accelerates the Gogoplata setup. This demonstrates why Meathook attacks chain together—defending one opens another.",
+        "answer_line": "Release, shin to throat, Gogoplata",
+        "distractors": {
+          "plausible": [
+            "Force the figure-four harder",
+            "Switch immediately to Triangle"
+          ],
+          "trap": [
+            "Posture up to reset position"
+          ]
+        }
       },
       {
         "question": "What distinguishes the Baratoplata from standard armbar mechanics?",
-        "answer": "The Baratoplata attacks the shoulder through internal rotation combined with extension, while armbars attack the elbow through pure hyperextension. The rotational component of the Baratoplata bypasses the larger muscle groups (biceps, triceps) that typically protect against arm attacks. This makes the Baratoplata effective against stronger opponents who can muscle out of traditional armlocks."
+        "answer": "The Baratoplata attacks the shoulder through internal rotation combined with extension, while armbars attack the elbow through pure hyperextension. The rotational component of the Baratoplata bypasses the larger muscle groups (biceps, triceps) that typically protect against arm attacks. This makes the Baratoplata effective against stronger opponents who can muscle out of traditional armlocks.",
+        "answer_line": "Rotates shoulder, not elbow",
+        "distractors": {
+          "plausible": [
+            "Both attack elbow, diff angle",
+            "Baratoplata is faster armbar"
+          ],
+          "trap": [
+            "Pure hyperextension, no rotation"
+          ]
+        }
       },
       {
         "question": "Your figure-four is secured but the opponent keeps their elbow pinned tight to their ribs—what adjustment do you make?",
-        "answer": "When the opponent pins their elbow, increase your hip rotation away from them to create a wider angle that pulls their elbow away from their body through leverage rather than direct force. Simultaneously use your shin hook to push their shoulder forward while your figure-four pulls the forearm backward, creating a shearing force that separates the elbow from the ribs. If this fails, transition to Omoplata by releasing the figure-four and pivoting your hips over their shoulder."
+        "answer": "When the opponent pins their elbow, increase your hip rotation away from them to create a wider angle that pulls their elbow away from their body through leverage rather than direct force. Simultaneously use your shin hook to push their shoulder forward while your figure-four pulls the forearm backward, creating a shearing force that separates the elbow from the ribs. If this fails, transition to Omoplata by releasing the figure-four and pivoting your hips over their shoulder.",
+        "answer_line": "Rotate hips wider, shear elbow free",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Switch grip to overhook"
+          ],
+          "trap": [
+            "Release figure-four, reset Meathook"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force when finishing the Baratoplata from the figure-four position?",
-        "answer": "The finishing force combines two vectors simultaneously: pull the figure-four grip toward your own chest to create internal rotation on the shoulder, and extend your hips upward and away to create extension pressure on the arm. These opposing forces converge at the shoulder joint, creating a rotational torque that attacks the ligaments and capsule of the glenohumeral joint. Pulling without hip extension produces insufficient pressure."
+        "answer": "The finishing force combines two vectors simultaneously: pull the figure-four grip toward your own chest to create internal rotation on the shoulder, and extend your hips upward and away to create extension pressure on the arm. These opposing forces converge at the shoulder joint, creating a rotational torque that attacks the ligaments and capsule of the glenohumeral joint. Pulling without hip extension produces insufficient pressure.",
+        "answer_line": "Pull to chest, extend hips up",
+        "distractors": {
+          "plausible": [
+            "Pull down and away only",
+            "Push forearm, no hip extension"
+          ],
+          "trap": [
+            "Yank arm straight back hard"
+          ]
+        }
       },
       {
         "question": "How does the Baratoplata Setup integrate with the broader Meathook attack chain?",
-        "answer": "The Baratoplata occupies the third layer of the Meathook attack system. Primary attacks are Gogoplata (when opponent drives forward) and Triangle (when opponent pulls arm upward). The Baratoplata activates when the opponent's most instinctive defense—pulling the trapped arm backward—creates the threading space. Each defense to one attack opens the next, creating a systematic chain where the opponent cannot find safety regardless of their response."
+        "answer": "The Baratoplata occupies the third layer of the Meathook attack system. Primary attacks are Gogoplata (when opponent drives forward) and Triangle (when opponent pulls arm upward). The Baratoplata activates when the opponent's most instinctive defense—pulling the trapped arm backward—creates the threading space. Each defense to one attack opens the next, creating a systematic chain where the opponent cannot find safety regardless of their response.",
+        "answer_line": "Third-layer chain attack",
+        "distractors": {
+          "plausible": [
+            "Primary attack, used first",
+            "Replaces Gogoplata entirely"
+          ],
+          "trap": [
+            "Only works if opponent stays still"
+          ]
+        }
       },
       {
         "question": "Your opponent rolls toward the trapped arm side during the Baratoplata attempt—do you follow or abandon?",
-        "answer": "Follow their roll while maintaining the figure-four grip. Their rolling momentum assists your transition to mount, and the mounted Baratoplata is significantly more powerful because gravity assists your pressure and their escape options become severely limited. Keep your figure-four locked throughout the roll, adjust your hips to maintain the shoulder attack angle once you arrive in mount, and finish from the top position."
+        "answer": "Follow their roll while maintaining the figure-four grip. Their rolling momentum assists your transition to mount, and the mounted Baratoplata is significantly more powerful because gravity assists your pressure and their escape options become severely limited. Keep your figure-four locked throughout the roll, adjust your hips to maintain the shoulder attack angle once you arrive in mount, and finish from the top position.",
+        "answer_line": "Follow roll, finish from mount",
+        "distractors": {
+          "plausible": [
+            "Abandon grip, reset guard",
+            "Follow roll, release figure-four"
+          ],
+          "trap": [
+            "Fight the roll, stay bottom"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Baratoplata attacks the shoulder joint through internal rotation, which can cause serious injury if applied too quickly or without control. Shoulder injuries from rotational attacks often require surgical repair and extended rehabilitation. When drilling, apply pressure progressively and give your partner time to tap. The submission can come on suddenly as the angle locks in, so maintain constant communication. Never crank the figure-four grip explosively. If your partner's shoulder makes popping sounds, release immediately—this indicates potential labrum damage. Avoid this technique if you or your partner have existing shoulder injuries. In competition, maintain control after the tap to prevent falling into the submission with full weight."
+    "safety_considerations": "The Baratoplata attacks the shoulder joint through internal rotation, which can cause serious injury if applied too quickly or without control. Shoulder injuries from rotational attacks often require surgical repair and extended rehabilitation. When drilling, apply pressure progressively and give your partner time to tap. The submission can come on suddenly as the angle locks in, so maintain constant communication. Never crank the figure-four grip explosively. If your partner's shoulder makes popping sounds, release immediately—this indicates potential labrum damage. Avoid this technique if you or your partner have existing shoulder injuries. In competition, maintain control after the tap to prevent falling into the submission with full weight.",
+    "clips": [
+      {
+        "id": "16hTPPDyl5E",
+        "title": "Baratoplata Entry",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 158,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "7PzrTuuHzZ4",
+        "title": "Baratoplata from spider guard",
+        "by": "Joao Miyao",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 362,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TUDgZTMr3_o",
+        "title": "Baratoplata from top half guard",
+        "by": "Juan Lopezcorrea",
+        "vertical": false,
+        "channel": "juan lopezcorrea",
+        "duration": 28,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Baratoplata Setup Defender",
@@ -342,19 +506,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Baratoplata Setup is being attempted from Meathook?",
-        "answer": "The earliest cue is the attacker adjusting their hip angle to create space between their torso and your trapped arm. This gap, which is not present during standard Meathook control, signals the threading phase is about to begin. You may also feel a slight release of collar or head control as the attacker prepares their threading arm. Reacting at this stage provides the widest defensive window before the figure-four can be established."
+        "answer": "The earliest cue is the attacker adjusting their hip angle to create space between their torso and your trapped arm. This gap, which is not present during standard Meathook control, signals the threading phase is about to begin. You may also feel a slight release of collar or head control as the attacker prepares their threading arm. Reacting at this stage provides the widest defensive window before the figure-four can be established.",
+        "answer_line": "Hip gap opens near trapped arm",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar tighter",
+            "Shin hook pressure suddenly drops"
+          ],
+          "trap": [
+            "Wait until figure-four locks"
+          ]
+        }
       },
       {
         "question": "Why does pulling your trapped arm backward make the Baratoplata worse rather than better?",
-        "answer": "Backward arm extraction is the exact movement the Baratoplata is designed to exploit. Pulling away creates the gap between your arm and the attacker's torso that they need to thread their arm through. Your retreating motion also generates momentum that the attacker redirects into figure-four establishment. The correct defense addresses the threading arm directly or collapses space forward rather than creating space backward."
+        "answer": "Backward arm extraction is the exact movement the Baratoplata is designed to exploit. Pulling away creates the gap between your arm and the attacker's torso that they need to thread their arm through. Your retreating motion also generates momentum that the attacker redirects into figure-four establishment. The correct defense addresses the threading arm directly or collapses space forward rather than creating space backward.",
+        "answer_line": "Creates gap for arm to thread",
+        "distractors": {
+          "plausible": [
+            "Tires opponent's grip strength",
+            "Resets to neutral Meathook"
+          ],
+          "trap": [
+            "Pull back harder to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially threaded their arm but has not yet grabbed their own wrist for the figure-four—what defensive action has the highest success rate?",
-        "answer": "Clamp your elbow tight against your ribs and rotate your wrist to pin the attacker's forearm against your body before it clears your elbow. This traps their threading arm in an awkward position where they cannot complete the figure-four grip. Simultaneously drive your posture upward to break the shin hook's downward pressure. The attacker must withdraw their trapped arm and reset from standard Meathook, giving you time to address the position from the beginning."
+        "answer": "Clamp your elbow tight against your ribs and rotate your wrist to pin the attacker's forearm against your body before it clears your elbow. This traps their threading arm in an awkward position where they cannot complete the figure-four grip. Simultaneously drive your posture upward to break the shin hook's downward pressure. The attacker must withdraw their trapped arm and reset from standard Meathook, giving you time to address the position from the beginning.",
+        "answer_line": "Clamp elbow, posture up",
+        "distractors": {
+          "plausible": [
+            "Grab their wrist to strip grip",
+            "Push their arm through faster"
+          ],
+          "trap": [
+            "Pull your arm back to escape"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defensive approach if the attacker transitions between Baratoplata and Gogoplata threats?",
-        "answer": "The Baratoplata and Gogoplata create a complementary threat pair from Meathook. Stacking forward defends the Baratoplata but drives you into Gogoplata range, while posturing away from Gogoplata creates Baratoplata threading space. The solution is lateral movement—rotate your torso to the side rather than moving strictly forward or backward. This disrupts both attack angles simultaneously without feeding either submission chain. Combine lateral rotation with grip fighting to break the attacker's control systematically."
+        "answer": "The Baratoplata and Gogoplata create a complementary threat pair from Meathook. Stacking forward defends the Baratoplata but drives you into Gogoplata range, while posturing away from Gogoplata creates Baratoplata threading space. The solution is lateral movement—rotate your torso to the side rather than moving strictly forward or backward. This disrupts both attack angles simultaneously without feeding either submission chain. Combine lateral rotation with grip fighting to break the attacker's control systematically.",
+        "answer_line": "Rotate laterally, grip fight",
+        "distractors": {
+          "plausible": [
+            "Posture straight back only",
+            "Stack forward to smother"
+          ],
+          "trap": [
+            "Alternate forward and backward"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -377,6 +581,35 @@
         "phase": "Week 7+",
         "focus": "Live application and review",
         "description": "Integrate Baratoplata defense into regular sparring. Track which recognition cues you catch consistently and which you miss. Film rounds to review timing of defensive reactions relative to attacker's threading initiation. Refine the defense that matches your physical attributes and reaction speed."
+      }
+    ],
+    "clips": [
+      {
+        "id": "rx4XoCFWeq8",
+        "title": "Baratoplata Defense",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hMMn5jt-fsI",
+        "title": "Omoplata and shoulder lock escapes",
+        "by": "Dean Lister",
+        "vertical": false,
+        "channel": "Bernardo Faria BJJ Fanatics",
+        "duration": 547,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NynhkhEhRJM",
+        "title": "Take the back when caught in an omoplata",
+        "by": "Kit Dale",
+        "vertical": false,
+        "channel": "Kit Dale",
+        "duration": 165,
+        "verified": "2026-07-15"
       }
     ]
   },

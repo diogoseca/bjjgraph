@@ -144,6 +144,54 @@ description: "How to defend against Choke from Crucifix in BJJ. Recognition, esc
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Choke from Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix Escape vs Bulldog Choke",
+      "description": "Choke from Crucifix (Defender) film study: Crucifix Escape vs Bulldog Choke, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
+      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the crucifix position",
+      "description": "Choke from Crucifix (Defender) film study: Escaping the crucifix position, taught by Ben Price.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qk65WMnB4Ts/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qk65WMnB4Ts",
+      "url": "https://www.youtube.com/watch?v=qk65WMnB4Ts",
+      "creator": { "@type": "Person", "name": "Ben Price" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Fundamental crucifix escape tutorial",
+      "description": "Choke from Crucifix (Defender) film study: Fundamental crucifix escape tutorial, taught by BIG OSS Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gUy0ycrx7mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gUy0ycrx7mM",
+      "url": "https://www.youtube.com/watch?v=gUy0ycrx7mM",
+      "creator": { "@type": "Person", "name": "BIG OSS Jiu-Jitsu" },
+      "duration": "PT743S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -158,6 +206,42 @@ Energy management is paramount because the crucifix is inherently exhausting for
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Choke from Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
+
+<p class="clip-credit"><strong>Crucifix Escape vs Bulldog Choke</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qk65WMnB4Ts)
+
+<p class="clip-credit"><strong>Escaping the crucifix position</strong> — taught by Ben Price · 2:50 · <a href="https://www.youtube.com/watch?v=qk65WMnB4Ts" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gUy0ycrx7mM)
+
+<p class="clip-credit"><strong>Fundamental crucifix escape tutorial</strong> — taught by BIG OSS Jiu-Jitsu · 12:23 · <a href="https://www.youtube.com/watch?v=gUy0ycrx7mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

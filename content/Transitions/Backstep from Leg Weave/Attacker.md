@@ -174,6 +174,43 @@ description: "Master executing the backstep from leg weave. Step-by-step passing
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep from Leg Weave (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back stepping from knee cut to side saddle",
+      "description": "Backstep from Leg Weave (Attacker) film study: Back stepping from knee cut to side saddle, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MGlM7DXPKZg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MGlM7DXPKZg",
+      "url": "https://www.youtube.com/watch?v=MGlM7DXPKZg",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Leg drag pass with back step options",
+      "description": "Backstep from Leg Weave (Attacker) film study: Leg drag pass with back step options, taught by Mr. NogiJiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/39LiloK29bM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/39LiloK29bM",
+      "url": "https://www.youtube.com/watch?v=39LiloK29bM",
+      "creator": { "@type": "Person", "name": "Mr. NogiJiujitsu" },
+      "duration": "PT41S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 **From Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep from Leg Weave (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MGlM7DXPKZg)
+
+<p class="clip-credit"><strong>Back stepping from knee cut to side saddle</strong> — taught by BJJ4Breakfast · 1:10 · <a href="https://www.youtube.com/watch?v=MGlM7DXPKZg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=39LiloK29bM)
+
+<p class="clip-credit"><strong>Leg drag pass with back step options</strong> — taught by Mr. NogiJiujitsu · 0:41 · <a href="https://www.youtube.com/watch?v=39LiloK29bM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

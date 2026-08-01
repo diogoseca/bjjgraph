@@ -140,6 +140,54 @@ description: "Defend against Leg Extraction from your Cross Ashi-Garami control.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Extraction from Cross Ashi (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Fixing cross ashi control to keep the leg",
+      "description": "Leg Extraction from Cross Ashi (Defender) film study: Fixing cross ashi control to keep the leg, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nVfqMfVpTVk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nVfqMfVpTVk",
+      "url": "https://www.youtube.com/watch?v=nVfqMfVpTVk",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT55S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Staying Entangled vs Ashi Garami Defense",
+      "description": "Leg Extraction from Cross Ashi (Defender) film study: Staying Entangled vs Ashi Garami Defense, taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UqPMAE7TfrE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/UqPMAE7TfrE",
+      "url": "https://www.youtube.com/watch?v=UqPMAE7TfrE",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT333S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Drill to Maintain Ashi Garami Position",
+      "description": "Leg Extraction from Cross Ashi (Defender) film study: Drill to Maintain Ashi Garami Position, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/svkYt81yBcE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/svkYt81yBcE",
+      "url": "https://www.youtube.com/watch?v=svkYt81yBcE",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ As the defender (the person maintaining cross ashi-garami control while the oppo
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Extraction from Cross Ashi (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nVfqMfVpTVk)
+
+<p class="clip-credit"><strong>Fixing cross ashi control to keep the leg</strong> — taught by Factory Fresh Jiu Jitsu · 0:55 · <a href="https://www.youtube.com/watch?v=nVfqMfVpTVk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=UqPMAE7TfrE)
+
+<p class="clip-credit"><strong>Staying Entangled vs Ashi Garami Defense</strong> — taught by Brian Glick · 5:33 · <a href="https://www.youtube.com/watch?v=UqPMAE7TfrE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=svkYt81yBcE)
+
+<p class="clip-credit"><strong>Drill to Maintain Ashi Garami Position</strong> — taught by ZombieProofBJJ · 1:27 · <a href="https://www.youtube.com/watch?v=svkYt81yBcE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

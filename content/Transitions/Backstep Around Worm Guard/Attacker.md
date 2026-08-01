@@ -168,6 +168,43 @@ description: "How to execute Backstep Around Worm Guard in BJJ. Attacking perspe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Backstep Around Worm Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back step pass into the saddle",
+      "description": "Backstep Around Worm Guard (Attacker) film study: Back step pass into the saddle, taught by Rich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i8nOBcGeXv8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i8nOBcGeXv8",
+      "url": "https://www.youtube.com/watch?v=i8nOBcGeXv8",
+      "creator": { "@type": "Person", "name": "Rich" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing reverse de la worm guard with a backwards roll",
+      "description": "Backstep Around Worm Guard (Attacker) film study: Passing reverse de la worm guard with a backwards roll, taught by Black Dragon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d8xnLb5JyLc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/d8xnLb5JyLc",
+      "url": "https://www.youtube.com/watch?v=d8xnLb5JyLc",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ" },
+      "duration": "PT254S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +218,34 @@ Strategically, this pass is most effective when opponent has committed heavily t
 **From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Backstep Around Worm Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i8nOBcGeXv8)
+
+<p class="clip-credit"><strong>Back step pass into the saddle</strong> — taught by Rich · 1:10 · <a href="https://www.youtube.com/watch?v=i8nOBcGeXv8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=d8xnLb5JyLc)
+
+<p class="clip-credit"><strong>Passing reverse de la worm guard with a backwards roll</strong> — taught by Black Dragon BJJ · 4:14 · <a href="https://www.youtube.com/watch?v=d8xnLb5JyLc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -148,6 +148,32 @@ description: "How to defend against Crackhead Control to Carni in BJJ. Recogniti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crackhead Control to Carni (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg lock escape: the roll through",
+      "description": "Crackhead Control to Carni (Defender) film study: Leg lock escape: the roll through, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MqtG9kuVt-Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/MqtG9kuVt-Q",
+      "url": "https://www.youtube.com/watch?v=MqtG9kuVt-Q",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -156,9 +182,29 @@ As the defender against the Crackhead Control to Carni transition, you are the t
 
 Defending this transition requires balancing two competing demands: maintaining enough forward pressure to control the turtle position effectively, and keeping enough base awareness to retract your hips when you feel the bottom player begin threading underneath. Advanced defenders develop sensitivity to the subtle shift in the bottom player's hip movement that signals a transition attempt versus normal crackhead defense movement. The distinction is directional: normal defensive movement circles horizontally, while transition setup movement angles underneath toward your legs. Recognizing this directional change within the first fraction of a second is what separates defenders who prevent the entry from those who end up fighting from inside the carni.
 
-**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Crackhead Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crackhead Control to Carni (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=MqtG9kuVt-Q)
+
+<p class="clip-credit"><strong>Leg lock escape: the roll through</strong> — taught by Gordon Ryan · 1:43 · <a href="https://www.youtube.com/watch?v=MqtG9kuVt-Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 
@@ -201,14 +247,14 @@ Defending this transition requires balancing two competing demands: maintaining 
 ### 1. Sprawl hips back immediately and retract near leg away from bottom player's threading attempt
 
 - **When to use**: At the earliest recognition of inversion attempt, before inside leg hook is established
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: Bottom player's inversion fails and they return to standard crackhead control defense. You may need to re-establish chair-sit position
 - **Risk**: Sprawling creates space that allows guard recovery if you cannot re-establish control quickly
 
 ### 2. Step free leg over the bottom player's body to block the leg threading path and re-establish heavy top pressure
 
 - **When to use**: When you recognize the inversion mid-execution but before the leg entanglement is locked
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: You block the entanglement and can immediately transition to back take or consolidate crackhead control with improved positioning
 - **Risk**: Stepping over while they are mid-inversion can result in them capturing your stepping leg instead
 
@@ -222,7 +268,7 @@ Defending this transition requires balancing two competing demands: maintaining 
 ### 4. Release crackhead control and disengage to standing position, resetting the engagement entirely
 
 - **When to use**: When the transition is partially established and you cannot safely prevent it without risking leg entanglement
-- **Targets**: [[Positions/Crackhead Control]]
+- **Targets**: [[Positions/Rubber Guard/Crackhead Control]]
 - **If successful**: You escape the entanglement threat entirely and can re-engage from standing on your terms
 - **Risk**: Gives up dominant top position and any accumulated control advantage
 
@@ -236,7 +282,7 @@ Defending this transition requires balancing two competing demands: maintaining 
 
 <p class="section-subtitle">What is the best outcome when defending Crackhead Control to Carni?</p>
 
-### → [[Positions/Crackhead Control]]
+### → [[Positions/Rubber Guard/Crackhead Control]]
 
 React early to the inversion attempt by sprawling hips back, stepping over to block, or disengaging to standing. The bottom player returns to defensive turtle and you maintain or re-establish top control. Early recognition is the key factor.
 

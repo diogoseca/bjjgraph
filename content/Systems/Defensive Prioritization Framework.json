@@ -325,35 +325,115 @@
   "flashcards": [
     {
       "question": "When a locked submission and a positional threat exist at the same moment, what does the framework tell you to prioritize?",
-      "answer": "Submission proximity always overrides positional concerns — a locked or near-locked choke or joint lock takes absolute priority, even if defending it concedes a worse position, because the match ends the instant the submission completes."
+      "answer": "Submission proximity always overrides positional concerns — a locked or near-locked choke or joint lock takes absolute priority, even if defending it concedes a worse position, because the match ends the instant the submission completes.",
+      "answer_line": "Locked submission trumps position",
+      "distractors": {
+        "plausible": [
+          "Improve position before defending",
+          "Treat both threats as equal"
+        ],
+        "trap": [
+          "Escape position, ignore choke"
+        ]
+      }
     },
     {
       "question": "How does the Positional Threat Matrix rank mount versus side control?",
-      "answer": "Mount is a maximum-threat position demanding immediate explosive action due to its high point value and submission vulnerability, while side control is a medium-threat position that permits more measured, frame-based defensive responses."
+      "answer": "Mount is a maximum-threat position demanding immediate explosive action due to its high point value and submission vulnerability, while side control is a medium-threat position that permits more measured, frame-based defensive responses.",
+      "answer_line": "Mount = max threat, act now",
+      "distractors": {
+        "plausible": [
+          "Side control is higher threat",
+          "Both ranked equally urgent"
+        ],
+        "trap": [
+          "Relax in mount, opponent tires"
+        ]
+      }
     },
     {
       "question": "Why is deliberately accepting an inferior position sometimes the correct framework decision?",
-      "answer": "Because not all bad positions are equally bad — conceding side control to deny the opponent mount or back trades a small disadvantage to avoid a much larger one, conserving energy and reducing overall submission exposure."
+      "answer": "Because not all bad positions are equally bad — conceding side control to deny the opponent mount or back trades a small disadvantage to avoid a much larger one, conserving energy and reducing overall submission exposure.",
+      "answer_line": "Concede small threat, avoid big one",
+      "distractors": {
+        "plausible": [
+          "Fight for best position always",
+          "Never accept a worse position"
+        ],
+        "trap": [
+          "Let opponent take mount for rest"
+        ]
+      }
     },
     {
       "question": "What foundational skill must become automatic before a practitioner drills dynamic escapes in this framework?",
-      "answer": "Frame establishment and maintenance — using forearms, knees, and shins to build dynamic structural barriers that stop the opponent's pressure from fully settling and generate the space that escapes require."
+      "answer": "Frame establishment and maintenance — using forearms, knees, and shins to build dynamic structural barriers that stop the opponent's pressure from fully settling and generate the space that escapes require.",
+      "answer_line": "Frame establishment first",
+      "distractors": {
+        "plausible": [
+          "Bridge and roll first",
+          "Master submissions first"
+        ],
+        "trap": [
+          "Explode immediately every time"
+        ]
+      }
     },
     {
       "question": "What is the framework's ordered sequence of defensive goals from a disadvantaged position?",
-      "answer": "First prevent the submission, then prevent further positional advancement, and finally create an escape opportunity — addressing the most match-ending threat before working back toward neutral or dominant position."
+      "answer": "First prevent the submission, then prevent further positional advancement, and finally create an escape opportunity — addressing the most match-ending threat before working back toward neutral or dominant position.",
+      "answer_line": "Stop sub, stop advance, escape",
+      "distractors": {
+        "plausible": [
+          "Escape first, then stop sub",
+          "Position first, sub, then escape"
+        ],
+        "trap": [
+          "Focus only on escaping immediately"
+        ]
+      }
     },
     {
       "question": "What common energy error does the Energy Allocation Strategy specifically guard against?",
-      "answer": "Premature explosion — spending maximum effort on low-percentage escape windows. The framework teaches patient frame maintenance until opponent fatigue or a weight shift opens a high-percentage window worth exploding into."
+      "answer": "Premature explosion — spending maximum effort on low-percentage escape windows. The framework teaches patient frame maintenance until opponent fatigue or a weight shift opens a high-percentage window worth exploding into.",
+      "answer_line": "Avoid premature explosion",
+      "distractors": {
+        "plausible": [
+          "Explode early to surprise",
+          "Match opponent's pace exactly"
+        ],
+        "trap": [
+          "Explode on every opening"
+        ]
+      }
     },
     {
       "question": "How does escape sequencing differ from committing fully to a single escape attempt?",
-      "answer": "Each position has a primary, secondary, and tertiary escape ordered by success probability; the practitioner flows between attempts rather than over-committing, treating each attempt as reconnaissance that informs the next while preserving structure and energy."
+      "answer": "Each position has a primary, secondary, and tertiary escape ordered by success probability; the practitioner flows between attempts rather than over-committing, treating each attempt as reconnaissance that informs the next while preserving structure and energy.",
+      "answer_line": "Flow primary, secondary, tertiary",
+      "distractors": {
+        "plausible": [
+          "Commit fully to one escape",
+          "Repeat same escape until it works"
+        ],
+        "trap": [
+          "Panic-spam random escapes"
+        ]
+      }
     },
     {
       "question": "What does advanced proficiency in submission defense look like within this framework?",
-      "answer": "Rarely getting caught in fully locked submissions, defending setups early through hand fighting and frame management, and regularly escaping even advanced submission positions against higher-skilled opponents."
+      "answer": "Rarely getting caught in fully locked submissions, defending setups early through hand fighting and frame management, and regularly escaping even advanced submission positions against higher-skilled opponents.",
+      "answer_line": "Rarely caught, defends setups early",
+      "distractors": {
+        "plausible": [
+          "Escapes only after fully locked",
+          "Relies on raw strength to defend"
+        ],
+        "trap": [
+          "Waits passively, hopes for mistake"
+        ]
+      }
     }
   ]
 }

@@ -148,6 +148,54 @@ description: "Master defending the KOB to Side Control transition. Learn to reco
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "KOB to Side Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the knee on belly position",
+      "description": "KOB to Side Control (Defender) film study: How to escape the knee on belly position, taught by Evolve MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA coach" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee on belly reversal from bottom",
+      "description": "KOB to Side Control (Defender) film study: Knee on belly reversal from bottom, taught by South Island BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IU-kgtU5ng0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IU-kgtU5ng0",
+      "url": "https://www.youtube.com/watch?v=IU-kgtU5ng0",
+      "creator": { "@type": "Person", "name": "South Island BJJ coach" },
+      "duration": "PT45S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee on belly escape to technical stand up",
+      "description": "KOB to Side Control (Defender) film study: Knee on belly escape to technical stand up, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/52LxBaUJdcw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/52LxBaUJdcw",
+      "url": "https://www.youtube.com/watch?v=52LxBaUJdcw",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT131S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ From the defender's perspective, the opponent's transition from Knee on Belly to
 **Opponent's Starting Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch KOB to Side Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How to escape the knee on belly position</strong> — taught by Evolve MMA coach · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IU-kgtU5ng0)
+
+<p class="clip-credit"><strong>Knee on belly reversal from bottom</strong> — taught by South Island BJJ coach · 0:45 · <a href="https://www.youtube.com/watch?v=IU-kgtU5ng0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=52LxBaUJdcw)
+
+<p class="clip-credit"><strong>Knee on belly escape to technical stand up</strong> — taught by Lucas Lepri · 2:11 · <a href="https://www.youtube.com/watch?v=52LxBaUJdcw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

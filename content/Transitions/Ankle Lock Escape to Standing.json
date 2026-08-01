@@ -15,22 +15,34 @@
   "from_position": "Straight Ankle Lock Control/Bottom",
   "outcomes": [
     {
-      "to": "Standing Position",
-      "probability": 55,
+      "to": "Standing Position/Top",
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Straight Ankle Lock Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Among defensive responses to straight ankle lock control, the escape to standing carries unique strategic weight because it resolves the engagement completely rather than improving position incrementally. When caught in straight ankle lock control, the defender faces a narrowing window of opportunity where every second allows the attacker to deepen grips, complete leg entanglements, and transition to more dangerous positions like inside ashi garami or saddle. The escape to standing directly addresses this time pressure by prioritizing complete disengagement over positional improvement.\n\nThe technique requires coordinated action across multiple control points simultaneously. Breaking the attacker's grip on your ankle, preventing their legs from establishing a controlling triangle, maintaining proper hip rotation to deny transition pathways, and generating the upward drive needed to reach standing position must all occur within a compressed timeframe. Unlike positional escapes that trade one entanglement for another, the standing escape aims to fully reset the engagement, removing you entirely from the leg attack chain.\n\nStrategic deployment of this escape depends on recognizing when the attacker's control remains incomplete. The optimal window exists when the attacker has established initial grip contact but has not yet consolidated their leg positioning or deepened their forearm against the Achilles tendon. Attempting this escape against fully consolidated control dramatically reduces success probability and risks being swept during the standing attempt. Reading the attacker's control level accurately determines whether standing escape, hip rotation defense, or counter-entanglement represents the highest-percentage response.",
   "conditions": [
     "Opponent has established ankle grip but has not yet completed full leg triangle control",
@@ -248,38 +260,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the ankle lock escape to standing?",
-        "answer": "The optimal window is within the first five to ten seconds after ankle control is established, before the attacker completes leg triangle control and deepens their forearm position against the Achilles tendon. Once full consolidation occurs, escape probability drops dramatically and alternative defenses like hip rotation or counter-entanglement become higher percentage options. Reading control level rapidly is the foundational skill."
+        "answer": "The optimal window is within the first five to ten seconds after ankle control is established, before the attacker completes leg triangle control and deepens their forearm position against the Achilles tendon. Once full consolidation occurs, escape probability drops dramatically and alternative defenses like hip rotation or counter-entanglement become higher percentage options. Reading control level rapidly is the foundational skill.",
+        "answer_line": "First 5-10 seconds only",
+        "distractors": {
+          "plausible": [
+            "After the triangle locks in",
+            "Whenever the grip feels tight"
+          ],
+          "trap": [
+            "Wait for the full submission attempt"
+          ]
+        }
       },
       {
         "question": "How do you determine which direction to rotate your hip during the escape sequence?",
-        "answer": "Rotate in the direction that complicates the attacker's preferred transitions rather than facilitating them. If rotating away would open inside ashi garami, rotate toward the attacker instead. If rotating toward opens outside ashi garami, rotate away. The correct rotation direction depends on the attacker's leg configuration and must be assessed in real time based on which of their legs is positioned inside versus outside your trapped leg."
+        "answer": "Rotate in the direction that complicates the attacker's preferred transitions rather than facilitating them. If rotating away would open inside ashi garami, rotate toward the attacker instead. If rotating toward opens outside ashi garami, rotate away. The correct rotation direction depends on the attacker's leg configuration and must be assessed in real time based on which of their legs is positioned inside versus outside your trapped leg.",
+        "answer_line": "Rotate against their entry angle",
+        "distractors": {
+          "plausible": [
+            "Always rotate away from attacker",
+            "Always rotate toward attacker"
+          ],
+          "trap": [
+            "Rotate whichever way feels natural"
+          ]
+        }
       },
       {
         "question": "What grip breaking technique is most effective against a deep Achilles grip during this escape?",
-        "answer": "The two-on-one grip break targeting the attacker's thumb line provides the highest percentage release. Use both hands to peel the controlling hand at its weakest structural point while simultaneously rotating your foot to reduce the pocket depth against your Achilles. Pure pulling strength against a locked grip rarely succeeds because the grip structure is strongest in the direction of a straight pull. The thumb line attack combined with rotational release defeats even deep grips."
+        "answer": "The two-on-one grip break targeting the attacker's thumb line provides the highest percentage release. Use both hands to peel the controlling hand at its weakest structural point while simultaneously rotating your foot to reduce the pocket depth against your Achilles. Pure pulling strength against a locked grip rarely succeeds because the grip structure is strongest in the direction of a straight pull. The thumb line attack combined with rotational release defeats even deep grips.",
+        "answer_line": "Two-on-one break at thumb line",
+        "distractors": {
+          "plausible": [
+            "Straight pull against the grip",
+            "One-hand peel at the wrist"
+          ],
+          "trap": [
+            "Yank away with pure leg strength"
+          ]
+        }
       },
       {
         "question": "Your opponent begins wrapping their legs around your trapped leg as you initiate the escape - what adjustment is required?",
-        "answer": "Immediately prioritize addressing the leg wrap over the ankle grip. Use your free leg to kick or push down on their bottom leg while rotating your hip to prevent the triangle from completing. Once the leg triangle is fully established, standing escape becomes exponentially harder and you should transition to alternative defenses. The leg control must be addressed within two to three seconds of initiation or the standing escape window closes."
+        "answer": "Immediately prioritize addressing the leg wrap over the ankle grip. Use your free leg to kick or push down on their bottom leg while rotating your hip to prevent the triangle from completing. Once the leg triangle is fully established, standing escape becomes exponentially harder and you should transition to alternative defenses. The leg control must be addressed within two to three seconds of initiation or the standing escape window closes.",
+        "answer_line": "Kick down their leg before triangle",
+        "distractors": {
+          "plausible": [
+            "Focus on ankle grip first",
+            "Wait to see if triangle completes"
+          ],
+          "trap": [
+            "Ignore the leg wrap, keep standing"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail when posting your free foot to begin standing?",
-        "answer": "Plant your free foot flat on the mat close to your hip with the full sole in contact with the ground, not on the ball of your foot. This creates a stable base for the upward drive that generates the force needed to extract your trapped leg. Posting too far from your body eliminates leverage, and posting on your toes creates instability that makes you vulnerable to being swept during the weight transfer phase."
+        "answer": "Plant your free foot flat on the mat close to your hip with the full sole in contact with the ground, not on the ball of your foot. This creates a stable base for the upward drive that generates the force needed to extract your trapped leg. Posting too far from your body eliminates leverage, and posting on your toes creates instability that makes you vulnerable to being swept during the weight transfer phase.",
+        "answer_line": "Plant free foot flat near hip",
+        "distractors": {
+          "plausible": [
+            "Post on the ball of your foot",
+            "Post foot far from your hip"
+          ],
+          "trap": [
+            "Rise up fast without posting"
+          ]
+        }
       },
       {
         "question": "What should you do if your initial grip break attempt fails but you have partially loosened the ankle control?",
-        "answer": "Maintain the partial advantage by keeping pressure against the weakened grip while immediately re-establishing your frames. Use the momentary looseness to rotate your hip and pull your knee closer to your chest, reducing the extension that gives the attacker leverage. Do not reset completely or pause. Build on partial progress by transitioning to your second grip break attempt or combining the partial break with aggressive hip rotation for extraction."
+        "answer": "Maintain the partial advantage by keeping pressure against the weakened grip while immediately re-establishing your frames. Use the momentary looseness to rotate your hip and pull your knee closer to your chest, reducing the extension that gives the attacker leverage. Do not reset completely or pause. Build on partial progress by transitioning to your second grip break attempt or combining the partial break with aggressive hip rotation for extraction.",
+        "answer_line": "Keep pressure, pull knee to chest",
+        "distractors": {
+          "plausible": [
+            "Reset grip break from scratch",
+            "Pause to reassess the position"
+          ],
+          "trap": [
+            "Release all pressure and retreat"
+          ]
+        }
       },
       {
         "question": "How do you protect against being swept during the standing phase of the escape?",
-        "answer": "Keep your center of gravity low during the initial standing phase by bending at the hips rather than standing fully upright immediately. Maintain at least one frame on the attacker's body to prevent them from using your upward momentum to generate off-balancing forces. Drive your weight slightly forward as you stand to resist backward sweeping. Only release all contact and fully straighten once your foot is completely extracted and you have established independent balance."
+        "answer": "Keep your center of gravity low during the initial standing phase by bending at the hips rather than standing fully upright immediately. Maintain at least one frame on the attacker's body to prevent them from using your upward momentum to generate off-balancing forces. Drive your weight slightly forward as you stand to resist backward sweeping. Only release all contact and fully straighten once your foot is completely extracted and you have established independent balance.",
+        "answer_line": "Stay low with a frame, not upright",
+        "distractors": {
+          "plausible": [
+            "Stand fully upright right away",
+            "Release all frames when rising"
+          ],
+          "trap": [
+            "Lean back for extra balance"
+          ]
+        }
       },
       {
         "question": "What chain defenses should you prepare if the standing escape is blocked at the knee extraction phase?",
-        "answer": "If knee extraction stalls, immediately transition to hip rotation defense to reduce ankle pressure while maintaining the partially extracted position. From there, assess whether counter-entanglement to fifty-fifty guard offers a higher percentage path forward. The worst response is to repeatedly force the same standing escape that has already been blocked. Switching to complementary defenses creates new escape angles and divides the attacker's attention, potentially reopening the standing pathway."
+        "answer": "If knee extraction stalls, immediately transition to hip rotation defense to reduce ankle pressure while maintaining the partially extracted position. From there, assess whether counter-entanglement to fifty-fifty guard offers a higher percentage path forward. The worst response is to repeatedly force the same standing escape that has already been blocked. Switching to complementary defenses creates new escape angles and divides the attacker's attention, potentially reopening the standing pathway.",
+        "answer_line": "Hip rotation, then try 50-50",
+        "distractors": {
+          "plausible": [
+            "Switch straight to fifty-fifty",
+            "Stay still and wait for an opening"
+          ],
+          "trap": [
+            "Force the same escape again"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The ankle joint and Achilles tendon are vulnerable structures that can sustain serious injury from straight ankle lock pressure. During escape practice, both partners must communicate clearly about pressure levels and respect immediate tap signals. The escaping partner should never explosively yank their foot free when meaningful submission pressure exists, as this can cause ligament damage or Achilles tendon injury. Begin all escape drilling at low intensity with compliant partners and gradually increase resistance only after both practitioners demonstrate technical proficiency and reliable communication. If the ankle lock is fully secured with high submission pressure, tapping and resetting is always the safest choice over forcing an escape."
+    "safety_considerations": "The ankle joint and Achilles tendon are vulnerable structures that can sustain serious injury from straight ankle lock pressure. During escape practice, both partners must communicate clearly about pressure levels and respect immediate tap signals. The escaping partner should never explosively yank their foot free when meaningful submission pressure exists, as this can cause ligament damage or Achilles tendon injury. Begin all escape drilling at low intensity with compliant partners and gradually increase resistance only after both practitioners demonstrate technical proficiency and reliable communication. If the ankle lock is fully secured with high submission pressure, tapping and resetting is always the safest choice over forcing an escape.",
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle lock escape: put on the boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "akB_o9gaNuc",
+        "title": "Finishing the ankle lock when opponent rolls out",
+        "by": "James O'Connor",
+        "vertical": false,
+        "channel": "James O’Connor",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MqtG9kuVt-Q",
+        "title": "Leg lock escape: the roll through",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 103,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Ankle Lock Escape to Standing Defender",
@@ -365,19 +486,59 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is preparing to escape to standing?",
-        "answer": "The earliest cues are the opponent's free hand posting against your hip or chest to create framing distance, their free leg beginning to push against your controlling legs, and subtle weight shifting from their back toward their posting foot. These preparatory movements occur one to two seconds before the actual escape attempt and provide the critical window for preventive tightening of control before escape momentum builds."
+        "answer": "The earliest cues are the opponent's free hand posting against your hip or chest to create framing distance, their free leg beginning to push against your controlling legs, and subtle weight shifting from their back toward their posting foot. These preparatory movements occur one to two seconds before the actual escape attempt and provide the critical window for preventive tightening of control before escape momentum builds.",
+        "answer_line": "Posting hand and weight shift",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip movement",
+            "Verbal tap or tap-out signal"
+          ],
+          "trap": [
+            "Wait for the full stand-up"
+          ]
+        }
       },
       {
         "question": "Your opponent breaks your ankle grip but has not yet stood up - what is your highest percentage recovery?",
-        "answer": "Immediately re-grip the ankle before they create distance, targeting their heel with your cupping hand while your forearm re-establishes Achilles contact. Simultaneously close your legs tighter to prevent the standing drive that follows grip breaks. If re-gripping fails, transition immediately to hooking their far leg with your inside foot to establish inside ashi garami before they disengage completely. The worst option is allowing them to stand without any remaining leg engagement."
+        "answer": "Immediately re-grip the ankle before they create distance, targeting their heel with your cupping hand while your forearm re-establishes Achilles contact. Simultaneously close your legs tighter to prevent the standing drive that follows grip breaks. If re-gripping fails, transition immediately to hooking their far leg with your inside foot to establish inside ashi garami before they disengage completely. The worst option is allowing them to stand without any remaining leg engagement.",
+        "answer_line": "Re-grip heel, close legs tight",
+        "distractors": {
+          "plausible": [
+            "Chase a fresh submission attempt",
+            "Reset to neutral guard position"
+          ],
+          "trap": [
+            "Allow them to stand freely"
+          ]
+        }
       },
       {
         "question": "How do you use your opponent's standing attempt to transition to a more dominant leg entanglement?",
-        "answer": "When the opponent commits upward force to stand, thread your inside leg deeper to establish inside ashi garami, using their vertical movement to create the space your leg needs to penetrate to the far side. Their standing attempt temporarily opens the gap between their legs that is normally closed. This counter-offensive approach transforms their escape into your advancement, requiring you to read the standing commitment and act within one to two seconds."
+        "answer": "When the opponent commits upward force to stand, thread your inside leg deeper to establish inside ashi garami, using their vertical movement to create the space your leg needs to penetrate to the far side. Their standing attempt temporarily opens the gap between their legs that is normally closed. This counter-offensive approach transforms their escape into your advancement, requiring you to read the standing commitment and act within one to two seconds.",
+        "answer_line": "Thread leg deeper as they rise",
+        "distractors": {
+          "plausible": [
+            "Retreat and reset your guard",
+            "Wait until they fully stand"
+          ],
+          "trap": [
+            "Release your legs to let them up"
+          ]
+        }
       },
       {
         "question": "What grip adjustment maintains maximum control against two-on-one grip breaking attempts?",
-        "answer": "Switch from a static grip to a dynamic re-gripping strategy where you maintain pressure through constant hand positioning changes rather than fighting the two-on-one break directly. Release and re-grip at slightly different angles on the ankle, targeting the heel cup from varying directions. The two-on-one break defeats stationary grips but struggles against a moving target. Combine grip adjustments with increasing leg pressure to compound defensive requirements."
+        "answer": "Switch from a static grip to a dynamic re-gripping strategy where you maintain pressure through constant hand positioning changes rather than fighting the two-on-one break directly. Release and re-grip at slightly different angles on the ankle, targeting the heel cup from varying directions. The two-on-one break defeats stationary grips but struggles against a moving target. Combine grip adjustments with increasing leg pressure to compound defensive requirements.",
+        "answer_line": "Re-grip at changing angles",
+        "distractors": {
+          "plausible": [
+            "Hold one static locked grip",
+            "Grip tighter with both hands"
+          ],
+          "trap": [
+            "Release the grip and re-shoot"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -395,6 +556,26 @@
         "phase": "Phase 3: Counter-Transition Exploitation",
         "focus": "Using escape attempts to advance to more dominant positions",
         "description": "Partner commits to full standing escape attempts. Defender practices reading the specific escape pattern and choosing between control retention and counter-advancement to inside ashi garami or top position. Full resistance with emphasis on timing the counter-transition at the moment the escape creates positional opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zErch4qHfB0",
+        "title": "Counter footlock against the straight ankle lock",
+        "by": "James Clingerman",
+        "vertical": false,
+        "channel": "James Clingerman",
+        "duration": 12,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OODhY1jlH3Q",
+        "title": "Straight Ankle Lock Finish Against the Escape",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 116,
+        "verified": "2026-07-16"
       }
     ]
   }

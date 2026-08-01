@@ -16,7 +16,10 @@
   "target_area": "Shin and ankle compression (forced plantar flexion crushing the shin, calf, and Achilles)",
   "starting_position": "Aoki Lock Control",
   "from_position": "Aoki Lock Control/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Aoki Lock from Aoki Lock Control is a leg-compression finish where the attacker traps the foot in a figure-four and squeezes the legs together to drive extreme plantar flexion, crushing the shin and calf to force a rapid tap.",
   "overview": "The Aoki Lock from Aoki Lock control represents the culmination of this signature leg-entanglement system, where the attacker converts established foot and ankle isolation into a fight-ending compression submission. Named after Japanese MMA fighter Shinya Aoki, the lock attacks the shin, calf, and ankle simultaneously through extreme plantar flexion rather than isolating a single joint, which makes it brutally effective and hard to ride out once locked. The primary control is leg-based: the attacker traps the opponent's foot inside a figure-four configuration and uses the large muscles of the legs and hips to generate compression, freeing the hands to manage distance and prevent the opponent from spinning out.\n\nFrom the Aoki Lock control position, the attacker has already secured the leg entanglement with the foot trapped between the legs and the figure-four closing the loop. The finishing sequence focuses on squeezing the knees together while extending the hips, forcing the trapped foot into extreme plantar flexion while crushing the shin and calf against the attacker's own leg. Unlike a heel hook, which isolates rotational force on the knee through tibial torsion, the Aoki Lock distributes pressure across multiple structures of the lower leg at once, so it can finish even when classic heel-hook defenses are strong.\n\nStrategically, this finish carries a 50% overall success rate reflecting strong positional control offset by the leg dexterity and precision required for safe application. When defended, the attacker retains the entanglement and can flow back to control, re-isolate for a heel hook or kneebar, or chase the scramble, making the Aoki Lock a versatile offensive hub rather than a single-dimension attack.",
   "safety_considerations": {
@@ -98,17 +101,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Aoki Lock Control/Top",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -281,52 +293,181 @@
       {
         "question": "What anatomical structures does the Aoki Lock finish primarily attack?",
         "answer": "The Aoki Lock finish attacks the shin, calf, ankle, and Achilles through combined compression and extreme plantar flexion, distributing force across the plantar fascia, ankle ligaments (ATFL and deltoid), Achilles tendon, calf muscle, and shin periosteum simultaneously. Because the pressure is spread across multiple structures rather than isolating one joint, the Achilles and ankle ligaments are most vulnerable to injury from excessive or explosive application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Shin, calf, ankle and Achilles",
+        "distractors": {
+          "plausible": [
+            "Knee joint and ACL",
+            "Toes and forefoot only"
+          ],
+          "trap": [
+            "Just discomfort — safe to hold"
+          ]
+        }
       },
       {
         "question": "Your opponent starts rolling explosively while you have the finish locked in — what adjustment prevents escape?",
         "answer": "Follow their roll momentum while keeping the figure-four tight and the knees squeezing together. The rotation often seats the foot deeper into plantar flexion and tightens the compression rather than relieving it. Keep your hands managing distance so they cannot create the angle to extract the foot, and if they generate enough momentum, ride the roll back into control rather than fighting it directly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ride the roll, keep figure-four",
+        "distractors": {
+          "plausible": [
+            "Plant your base, stop the roll",
+            "Straighten legs for more leverage"
+          ],
+          "trap": [
+            "Let go and chase the back"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that your compression is reaching the breaking point?",
         "answer": "Indicators include the opponent's free hand reaching toward their leg or your legs, audible groaning or distress vocalizations, visible foot color change as circulation is affected, their body stiffening with involuntary reactions, and any tap signal including hand tapping, verbal submission, or foot stomping. Because the lock attacks multiple structures at once, maintain steady compression without spiking — the tap is imminent and additional force risks injury before they can signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Hand reaching, groans, foot color",
+        "distractors": {
+          "plausible": [
+            "Calm face and even breathing",
+            "Their grip fight gets stronger"
+          ],
+          "trap": [
+            "No reaction — crank harder fast"
+          ]
+        }
       },
       {
         "question": "What control must be established before you can safely initiate the finishing compression?",
         "answer": "Four controls must be confirmed: the figure-four is closed with your top foot hooked behind your bottom knee or shin, the opponent's foot is seated deep in the compression pocket positioned for plantar flexion, your hands are managing distance to block the sit-up and spin, and there is no slack in the loop. Missing any single control element either reduces finishing effectiveness or creates safety risks from uncontrolled pressure angles.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "All four controls set, zero slack",
+        "distractors": {
+          "plausible": [
+            "Only the figure-four is closed",
+            "Only the heel seated deep"
+          ],
+          "trap": [
+            "Crank first, fix controls later"
+          ]
+        }
       },
       {
         "question": "At what point during the Aoki Lock finish does the opponent pass the point of no escape?",
         "answer": "The point of no escape occurs when the figure-four is fully locked, the foot is seated deep for plantar flexion, and you have begun hip extension with the knee squeeze engaged. Once the opponent can no longer dorsiflex to relieve pressure or spin to break the loop, their only option is to tap. This threshold varies by individual ankle flexibility and should always be approached progressively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Loop locked, foot deep, hips driving",
+        "distractors": {
+          "plausible": [
+            "As soon as you catch the foot",
+            "When you first cross your ankles"
+          ],
+          "trap": [
+            "Rip it fast to beat the escape"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that cause the Aoki Lock to fail from this position?",
         "answer": "The three most common errors are seating the foot too shallow so the opponent retains slack to dorsiflex, relying only on the knee squeeze while neglecting hip extension which is what drives the plantar flexion, and neglecting distance control with the hands which lets the opponent sit up and spin out. A fourth critical error is applying compression explosively rather than progressively, which does not increase the finish rate but dramatically increases injury risk to training partners.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shallow foot seat, weak hip drive",
+        "distractors": {
+          "plausible": [
+            "Squeezing the knees too hard",
+            "Crossing the wrong ankle on top"
+          ],
+          "trap": [
+            "Let go and re-grip mid-finish"
+          ]
+        }
       },
       {
         "question": "How should you adjust if your opponent begins extracting their foot during the finish?",
         "answer": "Re-tighten the figure-four by hooking your top foot deeper and drawing your knees together, then re-seat their heel into the compression pocket while increasing hip extension to remove slack. If extraction continues past the point where the heel clears the loop, transition immediately to an inside heel hook or kneebar using your existing leg positioning rather than chasing the foot, which leaves you in a poor scramble position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Re-seat the heel, retighten grip",
+        "distractors": {
+          "plausible": [
+            "Wait until the foot clears fully",
+            "Slide back to gain more room"
+          ],
+          "trap": [
+            "Dive after the escaping foot"
+          ]
+        }
       },
       {
         "question": "What is the correct protocol for releasing the Aoki Lock after your training partner taps?",
         "answer": "Release all squeezing pressure with your legs immediately upon any tap signal without hesitation or question. Do not maintain the lock to ask if they really tapped. Uncross your legs to open the figure-four, free the trapped foot, and allow their leg to straighten naturally without pulling or twisting. Check on your partner's ankle, Achilles, and calf mobility and pain level before continuing training. If there is any doubt about whether they tapped, always release first and ask second.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release the squeeze instantly",
+        "distractors": {
+          "plausible": [
+            "Pull their leg straight for them",
+            "Ease the pressure off gradually"
+          ],
+          "trap": [
+            "Hold two seconds to confirm"
+          ]
+        }
       },
       {
         "question": "When should you abandon the finish attempt and transition to a heel hook or kneebar instead?",
         "answer": "Transition when you have applied two progressive compression attempts without submission progress, when the opponent has established a strong dorsiflexion-and-extraction defense that structurally blocks plantar flexion, when they create an opening for a different leg attack, or when you feel your own energy expenditure becoming unsustainable. The Aoki Lock entanglement offers excellent transitions to the inside heel hook and kneebar that are higher percentage than forcing a well-defended compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "After 2 stalled compressions, bail",
+        "distractors": {
+          "plausible": [
+            "Bail after the first attempt",
+            "Reset control and restart the same"
+          ],
+          "trap": [
+            "Keep cranking until you gas out"
+          ]
+        }
       },
       {
         "question": "How does finishing the Aoki Lock in competition differ from training application?",
         "answer": "In competition, you can apply compression more decisively since the opponent is motivated to defend rather than tap early, but you must still control the application speed to avoid disqualification for dangerous leg attacks. Secure the figure-four and seat the foot fully before committing, as competition opponents will exploit any slack to extract. Time management matters: if the finish is not progressing within 15-20 seconds, transition to a heel hook or kneebar rather than stalling in a contested compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Compress firmly but control speed",
+        "distractors": {
+          "plausible": [
+            "Commit first, then seat the foot",
+            "Ease off to let them tap early"
+          ],
+          "trap": [
+            "Leave slack to reset the figure-four"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "qRH7g21c6xQ",
+        "title": "Aoki lock breakdown",
+        "by": "Escuela de Grappling",
+        "vertical": false,
+        "channel": "Escuela de Grappling - Certified Killers",
+        "duration": 199,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "vMhOsw3wRQg",
+        "title": "Rolling no-gi calf slicer",
+        "by": "Factory Fresh Jiu Jitsu",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 110,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "6M0HvIFfc-w",
+        "title": "Bear trap into calf slicer",
+        "by": "Revolution BJJ",
+        "vertical": false,
+        "channel": "Revolution BJJ",
+        "duration": 119,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -420,32 +561,92 @@
       {
         "question": "How do you recognize the Aoki Lock finish is being initiated from Aoki Lock control?",
         "answer": "Key recognition cues include the opponent weaving their legs into a figure-four around your lower leg, increasing squeezing compression on your shin and calf rather than a twist on your knee, your foot being guided into plantar flexion and seated deeper into a pocket, and the opponent extending and elevating their hips while keeping the entanglement tight. The transition from control to finish is marked by progressive compression increase rather than a sudden change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Compression builds on shin & calf",
+        "distractors": {
+          "plausible": [
+            "Twisting torque on your knee",
+            "Foot forced into dorsiflexion"
+          ],
+          "trap": [
+            "Feels mild — ride it out and wait"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Aoki Lock finish rather than continuing to defend?",
         "answer": "Tap immediately when you feel sharp pain in the ankle, Achilles, or shin, when you can no longer dorsiflex or extract your foot, when compression reaches uncomfortable levels, or when the attacker's pressure is increasing and you have no viable escape path. Aoki Lock injuries include Achilles rupture, ankle ligament damage, and calf tears — none is worth continuing defense in training or competition, and damage accumulates faster than pain signals register.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap on sharp pain or trapped foot",
+        "distractors": {
+          "plausible": [
+            "Tap the moment they catch the foot",
+            "Tap only after both escapes fail"
+          ],
+          "trap": [
+            "Rip your foot out explosively"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the Aoki Lock finish from Aoki Lock control?",
         "answer": "Primary options are extracting the foot through dorsiflexion and internal hip rotation before the figure-four locks, sitting up and posturing forward to collapse the attacker's hip extension, and rolling toward the trapped leg to create a scramble when the loop loosens. The critical principle is addressing the figure-four and foot trap before anything else, and using circular hip movement rather than pulling the leg straight back, which only tightens the lock.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Extract foot, posture up, roll in",
+        "distractors": {
+          "plausible": [
+            "Hand-fight their upper-body grips",
+            "Wait for the loop to loosen"
+          ],
+          "trap": [
+            "Pull the trapped leg straight back"
+          ]
+        }
       },
       {
         "question": "Why is pulling your leg straight back dangerous when defending the Aoki Lock finish?",
         "answer": "Pulling the trapped leg straight back tightens the figure-four configuration and drives your foot deeper into the compression pocket rather than relieving it. The closed loop acts as a one-way ratchet, so linear pulling seats the foot into deeper plantar flexion and accelerates the crush on the shin, calf, and Achilles. Always use circular internal hip rotation and a knee-to-chest curl to collapse the loop instead.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "It ratchets your foot in deeper",
+        "distractors": {
+          "plausible": [
+            "It just wastes your energy",
+            "It exposes your knee to a kneebar"
+          ],
+          "trap": [
+            "Nothing — yank harder to rip free"
+          ]
+        }
       },
       {
         "question": "Your opponent adjusts their hip position during the finish — how do you capitalize?",
         "answer": "Attack the moment of instability by sitting up and driving forward to collapse their hip extension before they re-establish it. Time your foot-extraction attempt to coincide with the adjustment, since the figure-four often loosens during repositioning. Use their momentary instability to create internal hip rotation and pull the knee to your chest. This is typically your best window for a successful escape attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sit up, drive forward, extract foot",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening later",
+            "Match their hip movement passively"
+          ],
+          "trap": [
+            "Pull the trapped leg straight back"
+          ]
+        }
       },
       {
         "question": "How should you manage your energy when defending the Aoki Lock finish over an extended period?",
         "answer": "Avoid fighting the compression with constant maximum tension, which exhausts you within seconds against leg-based squeezing. Focus on efficient movement patterns and time your escape attempts to coincide with the attacker's adjustments or pressure changes rather than fighting continuously. Maintain dorsiflexion to slow the lock, accept that some compression is inevitable, and conserve energy for explosive extraction attempts at the specific moments when the figure-four loosens.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Time escapes to their adjustments",
+        "distractors": {
+          "plausible": [
+            "Escape only after they tighten",
+            "Hold dorsiflexion and nothing else"
+          ],
+          "trap": [
+            "Thrash at full power until you gas"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -468,6 +669,26 @@
         "phase": "Phase 4: Live Defense",
         "focus": "Full-resistance situational sparring from Aoki Lock bottom",
         "description": "Start in Aoki Lock bottom position with the partner at full resistance. Practice reading their finishing attempts in real time, selecting appropriate defensive responses, and executing escapes under pressure. Two-minute rounds with position reset and emphasis on surviving without injury."
+      }
+    ],
+    "clips": [
+      {
+        "id": "KOz3WqQJ3Tk",
+        "title": "Roll out counter to the calf slicer",
+        "by": "Charlie Cosens",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 55,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "VFM9JGQrLYk",
+        "title": "Ankle lock counter to calf cutter",
+        "by": "Pathfinder Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 97,
+        "verified": "2026-07-14"
       }
     ]
   }

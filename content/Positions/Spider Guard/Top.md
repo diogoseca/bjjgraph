@@ -21,37 +21,37 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 27% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Weave Pass",
-      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Leg Weave Pass. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spider Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Spider guard passing",
+      "description": "Spider Guard (Top) film study: Spider guard passing, taught by Christopher Frazier.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/w5zek2cOaYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/w5zek2cOaYA",
+      "url": "https://www.youtube.com/watch?v=w5zek2cOaYA",
+      "creator": { "@type": "Person", "name": "Christopher Frazier" },
+      "duration": "PT142S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lasso spider guard passing concepts",
+      "description": "Spider Guard (Top) film study: Lasso spider guard passing concepts, taught by Alec Baulding.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XnpPaSpf5QM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XnpPaSpf5QM",
+      "url": "https://www.youtube.com/watch?v=XnpPaSpf5QM",
+      "creator": { "@type": "Person", "name": "Alec Baulding" },
+      "duration": "PT163S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to pass the spider guard",
+      "description": "Spider Guard (Top) film study: How to pass the spider guard, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XK-wLG3B0xU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XK-wLG3B0xU",
+      "url": "https://www.youtube.com/watch?v=XK-wLG3B0xU",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT205S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
 Spider Guard Top is the position where the top player is standing or on their knees facing an opponent who has established Spider Guard Bottom, with at least one sleeve grip and foot placement on the bicep or hip. This is a challenging guard-passing scenario that requires systematic grip breaking, posture control, and strategic movement to overcome the bottom player's distance management and sweeping threats. The top player must balance between staying safe from sweeps while creating passing opportunities through grip breaks, angle changes, and pressure application. Success in this position requires understanding the mechanics of Spider Guard control points and having a systematic approach to neutralizing the bottom player's offensive capabilities. The position is commonly encountered in both gi and competition settings, making it an essential skill for any serious BJJ practitioner. The fundamental principle from the top is that you must never attempt to pass while the opponent's grips are intact. Every successful passing sequence begins with grip destruction, followed by immediate forward pressure before the guard can be re-established. Understanding the energy asymmetry is also critical: the bottom player uses their legs against your arms, so fighting foot pressure with arm strength is a losing strategy that leads to rapid fatigue.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spider Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=w5zek2cOaYA)
+
+<p class="clip-credit"><strong>Spider guard passing</strong> — taught by Christopher Frazier · 2:22 · <a href="https://www.youtube.com/watch?v=w5zek2cOaYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XnpPaSpf5QM)
+
+<p class="clip-credit"><strong>Lasso spider guard passing concepts</strong> — taught by Alec Baulding · 2:43 · <a href="https://www.youtube.com/watch?v=XnpPaSpf5QM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XK-wLG3B0xU)
+
+<p class="clip-credit"><strong>How to pass the spider guard</strong> — taught by Jon Thomas · 3:25 · <a href="https://www.youtube.com/watch?v=XK-wLG3B0xU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

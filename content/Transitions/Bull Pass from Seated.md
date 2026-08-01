@@ -34,6 +34,54 @@ description: "Master the Bull Pass from Seated Guard in BJJ. Learn this pressure
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bull Pass from Seated \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bullfighter pass demonstration",
+      "description": "Bull Pass from Seated film study: Bullfighter pass demonstration, taught by Affinity Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Zgta5opKk9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Zgta5opKk9E",
+      "url": "https://www.youtube.com/watch?v=Zgta5opKk9E",
+      "creator": { "@type": "Person", "name": "Affinity Academy" },
+      "duration": "PT69S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard passing connection system",
+      "description": "Bull Pass from Seated film study: Guard passing connection system, taught by Kyle Sleeman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x05l4enyJzc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/x05l4enyJzc",
+      "url": "https://www.youtube.com/watch?v=x05l4enyJzc",
+      "creator": { "@type": "Person", "name": "Kyle Sleeman" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Combining tornado and x-pass",
+      "description": "Bull Pass from Seated film study: Combining tornado and x-pass, taught by Professor Buck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xg1AIYs575s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xg1AIYs575s",
+      "url": "https://www.youtube.com/watch?v=Xg1AIYs575s",
+      "creator": { "@type": "Person", "name": "Professor Buck" },
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The primary risk of the bull pass lies in its forward commitment. An alert guard
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bull Pass from Seated in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Zgta5opKk9E)
+
+<p class="clip-credit"><strong>Bullfighter pass demonstration</strong> — taught by Affinity Academy · 1:09 · <a href="https://www.youtube.com/watch?v=Zgta5opKk9E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=x05l4enyJzc)
+
+<p class="clip-credit"><strong>Guard passing connection system</strong> — taught by Kyle Sleeman · 1:01 · <a href="https://www.youtube.com/watch?v=x05l4enyJzc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xg1AIYs575s)
+
+<p class="clip-credit"><strong>Combining tornado and x-pass</strong> — taught by Professor Buck · 0:22 · <a href="https://www.youtube.com/watch?v=Xg1AIYs575s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

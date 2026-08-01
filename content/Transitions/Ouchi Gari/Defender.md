@@ -149,6 +149,54 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ouchi Gari (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Ouchi Gari counter with Uki Waza / Yoko Otoshi",
+      "description": "Ouchi Gari (Defender) film study: Ouchi Gari counter with Uki Waza / Yoko Otoshi, taught by emultia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hVv4saQm5Do/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hVv4saQm5Do",
+      "url": "https://www.youtube.com/watch?v=hVv4saQm5Do",
+      "creator": { "@type": "Person", "name": "emultia" },
+      "duration": "PT21S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Countering Ouchi Gari with Tai Otoshi",
+      "description": "Ouchi Gari (Defender) film study: Countering Ouchi Gari with Tai Otoshi, taught by Judo PSG Club Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lyGzPirYRxM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lyGzPirYRxM",
+      "url": "https://www.youtube.com/watch?v=lyGzPirYRxM",
+      "creator": { "@type": "Person", "name": "Judo PSG Club Australia" },
+      "duration": "PT13S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Counter to Ouchi Gari",
+      "description": "Ouchi Gari (Defender) film study: Counter to Ouchi Gari, taught by Grappling University.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qEV8CKGqwWE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qEV8CKGqwWE",
+      "url": "https://www.youtube.com/watch?v=qEV8CKGqwWE",
+      "creator": { "@type": "Person", "name": "Grappling University" },
+      "duration": "PT186S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -161,6 +209,42 @@ Defending Ouchi Gari requires recognizing the attack early and responding with t
 **Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ouchi Gari (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hVv4saQm5Do)
+
+<p class="clip-credit"><strong>Ouchi Gari counter with Uki Waza / Yoko Otoshi</strong> — taught by emultia · 0:21 · <a href="https://www.youtube.com/watch?v=hVv4saQm5Do" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lyGzPirYRxM)
+
+<p class="clip-credit"><strong>Countering Ouchi Gari with Tai Otoshi</strong> — taught by Judo PSG Club Australia · 0:13 · <a href="https://www.youtube.com/watch?v=lyGzPirYRxM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qEV8CKGqwWE)
+
+<p class="clip-credit"><strong>Counter to Ouchi Gari</strong> — taught by Grappling University · 3:06 · <a href="https://www.youtube.com/watch?v=qEV8CKGqwWE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

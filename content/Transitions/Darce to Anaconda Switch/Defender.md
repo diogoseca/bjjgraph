@@ -148,6 +148,32 @@ description: "Learn to defend and escape the Darce to Anaconda Switch in BJJ. Re
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce to Anaconda Switch (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle escape from the front headlock",
+      "description": "Darce to Anaconda Switch (Defender) film study: Turtle escape from the front headlock, taught by Jiu Jitsu Five-O coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5rVU51Brvs4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5rVU51Brvs4",
+      "url": "https://www.youtube.com/watch?v=5rVU51Brvs4",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Five-O coach" },
+      "duration": "PT49S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +183,26 @@ Defending the Darce to Anaconda Switch requires recognizing the critical window 
 **Opponent's Starting Position**: [[Positions/Darce Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce to Anaconda Switch (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5rVU51Brvs4)
+
+<p class="clip-credit"><strong>Turtle escape from the front headlock</strong> — taught by Jiu Jitsu Five-O coach · 0:49 · <a href="https://www.youtube.com/watch?v=5rVU51Brvs4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

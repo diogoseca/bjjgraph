@@ -34,6 +34,54 @@ description: "Master the guillotine choke finish from guillotine control. Comple
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guillotine Choke from Guillotine Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Marcelotine high-elbow guillotine",
+      "description": "Guillotine Choke from Guillotine Control film study: The Marcelotine high-elbow guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
+      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Arm-in guillotine to high wrist",
+      "description": "Guillotine Choke from Guillotine Control film study: Arm-in guillotine to high wrist, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-wLHOB-KlGE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-wLHOB-KlGE",
+      "url": "https://www.youtube.com/watch?v=-wLHOB-KlGE",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT17S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Arm-in guillotine vs double leg",
+      "description": "Guillotine Choke from Guillotine Control film study: Arm-in guillotine vs double leg, taught by Everythingbjj.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SKjFomPMar0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SKjFomPMar0",
+      "url": "https://www.youtube.com/watch?v=SKjFomPMar0",
+      "creator": { "@type": "Person", "name": "Everythingbjj" },
+      "duration": "PT70S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the guillotine choke finish from guillotine control. Comple
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries and windpipe</span>
-<span class="meta-chip">62% success</span>
+<span class="meta-chip">35% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 **Starting Position**: [[Positions/Guillotine Control]] · **From**: [[Positions/Guillotine Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guillotine Choke from Guillotine Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+
+<p class="clip-credit"><strong>The Marcelotine high-elbow guillotine</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-wLHOB-KlGE)
+
+<p class="clip-credit"><strong>Arm-in guillotine to high wrist</strong> — taught by Gordon Ryan · 0:17 · <a href="https://www.youtube.com/watch?v=-wLHOB-KlGE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SKjFomPMar0)
+
+<p class="clip-credit"><strong>Arm-in guillotine vs double leg</strong> — taught by Everythingbjj · 1:10 · <a href="https://www.youtube.com/watch?v=SKjFomPMar0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -255,10 +339,8 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 ## Related
 - [[Submissions/High Elbow Guillotine]]
 - [[Submissions/Arm in Guillotine]]
-- [[Submissions/Chin Strap Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Submissions/Von Flue Choke]]
 - [[Submissions/Japanese Necktie]]
 - [[Transitions/Gogoplata]]
 - [[Positions/Guillotine Control]] - Primary starting position where choke grip is already established

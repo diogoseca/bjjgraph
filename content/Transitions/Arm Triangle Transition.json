@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "This transition sits at the center of the Hindulotine attack system, punishing one of the most common guillotine defenses: the near-side frame. When the bottom player holds the Hindulotine and the opponent creates a near-side frame to relieve neck pressure, that defensive arm becomes the structural element needed for the arm triangle. The attacker clamps the framing arm against the opponent's own head, releases the guillotine grip, threads the choking arm under the neck, then uses a butterfly sweep or hip-escape sequence to arrive in side control with the arm triangle already locked.\n\nStrategically, the technique creates a powerful dilemma. Opponents who frame against the guillotine build exactly the arm-and-head configuration that makes the arm triangle possible, while keeping the arms tight to defend the arm triangle leaves the guillotine finish available. Advanced practitioners use this dichotomy as the backbone of their Hindulotine attack, flowing between both threats based on the opponent's reactions and reading turning escapes as back-take invitations.\n\nThe technique demands precise timing during the grip transition. Releasing the guillotine before the opponent's arm is fully trapped surrenders the offensive position entirely. The sweep or reversal component is equally critical—the arm triangle finishes from side control, not from bottom position. Practitioners must blend upper-body grip reconfiguration with lower-body sweeping mechanics simultaneously, making this a high-level transition that rewards drilling and positional awareness.",
   "conditions": [
     "You hold bottom Hindulotine with guillotine grip secured and opponent's posture broken",
@@ -220,46 +232,166 @@
     "flashcards": [
       {
         "question": "What specific defensive reaction from your opponent triggers the Arm Triangle Transition from bottom Hindulotine?",
-        "answer": "The trigger is the opponent creating a near-side defensive frame by pushing their forearm or hand against your chest or shoulder to relieve guillotine pressure. This frame positions their arm across their own centerline and against their neck, creating exactly the head-and-arm configuration needed for the arm triangle. Without this frame, the transition lacks the structural element that makes the choke possible."
+        "answer": "The trigger is the opponent creating a near-side defensive frame by pushing their forearm or hand against your chest or shoulder to relieve guillotine pressure. This frame positions their arm across their own centerline and against their neck, creating exactly the head-and-arm configuration needed for the arm triangle. Without this frame, the transition lacks the structural element that makes the choke possible.",
+        "answer_line": "Forearm frame across own neck",
+        "distractors": {
+          "plausible": [
+            "Posting free hand on mat",
+            "Turning head to reduce bite"
+          ],
+          "trap": [
+            "Fully retracting the arm"
+          ]
+        }
       },
       {
         "question": "Why must you sweep to side control before attempting to finish the arm triangle?",
-        "answer": "The arm triangle requires top-side pressure to generate sufficient compression on both carotid arteries. From bottom position, you cannot drive your shoulder into the opponent's trapped arm with enough force to complete the choke. Side control provides gravity assistance, shoulder driving angle, and the ability to walk your hips toward the opponent's head to progressively tighten the squeeze. Bottom arm triangles are energy-intensive and low-percentage."
+        "answer": "The arm triangle requires top-side pressure to generate sufficient compression on both carotid arteries. From bottom position, you cannot drive your shoulder into the opponent's trapped arm with enough force to complete the choke. Side control provides gravity assistance, shoulder driving angle, and the ability to walk your hips toward the opponent's head to progressively tighten the squeeze. Bottom arm triangles are energy-intensive and low-percentage.",
+        "answer_line": "Need top pressure to finish",
+        "distractors": {
+          "plausible": [
+            "Bottom finishes just as fast",
+            "Guard control is enough"
+          ],
+          "trap": [
+            "Stay bottom, squeeze harder"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to retract their framing arm as you begin the grip change—what is your immediate response?",
-        "answer": "Immediately abandon the arm triangle transition and return to the Hindulotine guillotine attack. The opponent retracting their frame removes the defensive barrier that was preventing the guillotine finish. Their arm retraction actually reopens the original submission. This creates the core dilemma: framing defends the guillotine but opens the arm triangle, while removing the frame defends the arm triangle but reopens the guillotine."
+        "answer": "Immediately abandon the arm triangle transition and return to the Hindulotine guillotine attack. The opponent retracting their frame removes the defensive barrier that was preventing the guillotine finish. Their arm retraction actually reopens the original submission. This creates the core dilemma: framing defends the guillotine but opens the arm triangle, while removing the frame defends the arm triangle but reopens the guillotine.",
+        "answer_line": "Return to Hindulotine guillotine",
+        "distractors": {
+          "plausible": [
+            "Chase the arm triangle grip",
+            "Release both grips and reset"
+          ],
+          "trap": [
+            "Let go and stand up"
+          ]
+        }
       },
       {
         "question": "What grip configuration is used for the arm triangle and where exactly should your forearm be positioned?",
-        "answer": "Use a figure-four grip (palm-to-bicep) or gable grip (palm-to-palm) with your choking arm threaded deep under the opponent's neck. The blade of your forearm must contact the far-side carotid artery, with your hand extending well past the centerline of their neck. The opponent's own trapped arm compresses the near-side carotid. Both arteries must be compressed simultaneously for a blood choke rather than a neck crank."
+        "answer": "Use a figure-four grip (palm-to-bicep) or gable grip (palm-to-palm) with your choking arm threaded deep under the opponent's neck. The blade of your forearm must contact the far-side carotid artery, with your hand extending well past the centerline of their neck. The opponent's own trapped arm compresses the near-side carotid. Both arteries must be compressed simultaneously for a blood choke rather than a neck crank.",
+        "answer_line": "Figure-four, blade on far carotid",
+        "distractors": {
+          "plausible": [
+            "S-grip, forearm on throat",
+            "Interlaced fingers, press the jaw"
+          ],
+          "trap": [
+            "Post free hand on mat, squeeze"
+          ]
+        }
       },
       {
         "question": "What is the critical timing relationship between releasing the guillotine grip and securing the arm triangle?",
-        "answer": "You must trap the opponent's framing arm securely against their neck using your non-choking arm before releasing the guillotine. Test the trap by feeling resistance when they attempt to retract. Only then release the guillotine and thread the choking arm under their neck. Any gap between releasing one grip and establishing the other allows the opponent to extract their arm and posture up, losing both attacks."
+        "answer": "You must trap the opponent's framing arm securely against their neck using your non-choking arm before releasing the guillotine. Test the trap by feeling resistance when they attempt to retract. Only then release the guillotine and thread the choking arm under their neck. Any gap between releasing one grip and establishing the other allows the opponent to extract their arm and posture up, losing both attacks.",
+        "answer_line": "Trap arm before releasing guillotine",
+        "distractors": {
+          "plausible": [
+            "Release guillotine, then trap arm",
+            "Trap and release simultaneously"
+          ],
+          "trap": [
+            "Release both grips at once"
+          ]
+        }
       },
       {
         "question": "Your opponent drives forward aggressively to flatten you while you have the arm triangle grip locked from bottom—how do you use this energy?",
-        "answer": "Their forward drive loads your butterfly hooks perfectly. Pull them forward with the arm triangle grip while inserting deep hooks inside their thighs. Use their momentum combined with your hook elevation to execute the butterfly sweep. The arm triangle grip provides superior upper body control during the sweep compared to standard butterfly sweep grips. Their aggression becomes the energy source for reaching side control."
+        "answer": "Their forward drive loads your butterfly hooks perfectly. Pull them forward with the arm triangle grip while inserting deep hooks inside their thighs. Use their momentum combined with your hook elevation to execute the butterfly sweep. The arm triangle grip provides superior upper body control during the sweep compared to standard butterfly sweep grips. Their aggression becomes the energy source for reaching side control.",
+        "answer_line": "Load hooks, butterfly sweep",
+        "distractors": {
+          "plausible": [
+            "Pull guard and reset bottom",
+            "Push them off to make space"
+          ],
+          "trap": [
+            "Release grip to re-frame"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between the Hindulotine guillotine finish and the arm triangle finish?",
-        "answer": "The Hindulotine uses rotational torque generated by angling your hips perpendicular to the opponent's spine, creating a twisting force on the neck through core rotation. The arm triangle uses bilateral compression—squeezing both sides of the neck simultaneously by driving your shoulder into the trapped arm while your forearm compresses the opposite carotid. The guillotine is rotational; the arm triangle is compressive from opposing sides."
+        "answer": "The Hindulotine uses rotational torque generated by angling your hips perpendicular to the opponent's spine, creating a twisting force on the neck through core rotation. The arm triangle uses bilateral compression—squeezing both sides of the neck simultaneously by driving your shoulder into the trapped arm while your forearm compresses the opposite carotid. The guillotine is rotational; the arm triangle is compressive from opposing sides.",
+        "answer_line": "Torque twist vs bilateral squeeze",
+        "distractors": {
+          "plausible": [
+            "Both use rotational torque",
+            "Both use pure downward weight"
+          ],
+          "trap": [
+            "Crank the neck sideways"
+          ]
+        }
       },
       {
         "question": "After sweeping to top position, what specific body positioning consolidates side control for the arm triangle finish?",
-        "answer": "Sprawl your legs back immediately to drive chest pressure into the opponent's trapped arm and neck. Position your hips perpendicular to their body with your choking-side hip close to their near-side hip. Walk your feet progressively toward their hips to increase downward pressure. Your head should be low on the choking side. Squeeze your elbows together rather than pulling with your arms to generate the final finishing pressure."
+        "answer": "Sprawl your legs back immediately to drive chest pressure into the opponent's trapped arm and neck. Position your hips perpendicular to their body with your choking-side hip close to their near-side hip. Walk your feet progressively toward their hips to increase downward pressure. Your head should be low on the choking side. Squeeze your elbows together rather than pulling with your arms to generate the final finishing pressure.",
+        "answer_line": "Sprawl, squeeze elbows together",
+        "distractors": {
+          "plausible": [
+            "Sit up and pull with arms",
+            "Stay on knees, drive forward"
+          ],
+          "trap": [
+            "Release grip to switch base"
+          ]
+        }
       },
       {
         "question": "What are the two sweep pathways available during the Arm Triangle Transition, and when do you choose each?",
-        "answer": "The butterfly sweep works when the opponent's base is narrow or they drive forward—load hooks and elevate while turning. The hip escape pathway works when the opponent bases wide with a posted hand—shrimp away, come to your knees, and circle to side control while maintaining the grip. Choose butterfly sweep against forward pressure and narrow base; choose hip escape against wide base and posted hands. Both arrive at side control with the arm triangle locked."
+        "answer": "The butterfly sweep works when the opponent's base is narrow or they drive forward—load hooks and elevate while turning. The hip escape pathway works when the opponent bases wide with a posted hand—shrimp away, come to your knees, and circle to side control while maintaining the grip. Choose butterfly sweep against forward pressure and narrow base; choose hip escape against wide base and posted hands. Both arrive at side control with the arm triangle locked.",
+        "answer_line": "Butterfly narrow, hip-escape wide",
+        "distractors": {
+          "plausible": [
+            "Always use butterfly sweep",
+            "Always shrimp to your knees"
+          ],
+          "trap": [
+            "Release grip and stand up"
+          ]
+        }
       },
       {
         "question": "How does the Arm Triangle Transition create a submission dilemma when combined with the Hindulotine guillotine?",
-        "answer": "The opponent faces a lose-lose scenario. Keeping arms tight to their body leaves the guillotine grip unobstructed for the Hindulotine finish. Creating a near-side frame to relieve guillotine pressure positions their arm perfectly for the arm triangle transition. Turning away to escape either choke exposes the back for a back take. Every common defense to one attack directly enables another, forcing the opponent to choose which threat to accept rather than neutralizing all attacks."
+        "answer": "The opponent faces a lose-lose scenario. Keeping arms tight to their body leaves the guillotine grip unobstructed for the Hindulotine finish. Creating a near-side frame to relieve guillotine pressure positions their arm perfectly for the arm triangle transition. Turning away to escape either choke exposes the back for a back take. Every common defense to one attack directly enables another, forcing the opponent to choose which threat to accept rather than neutralizing all attacks.",
+        "answer_line": "Every defense opens another attack",
+        "distractors": {
+          "plausible": [
+            "Framing defeats both attacks",
+            "Turning away escapes safely"
+          ],
+          "trap": [
+            "Turn away to hide the neck"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Arm Triangle Transition involves a grip change around the opponent's neck that requires controlled execution to avoid injury. During the reconfiguration from guillotine to arm triangle, avoid explosive jerking motions on the neck. The arm triangle itself is a blood choke that can cause unconsciousness rapidly once locked—always respect tap signals immediately and release pressure within one second of the tap. During training, apply the sweep with controlled force to avoid slamming your partner. Partners defending should communicate if they feel excessive neck pressure during the grip transition phase. Practitioners with cervical spine issues should approach this technique cautiously and inform training partners of any limitations."
+    "safety_considerations": "The Arm Triangle Transition involves a grip change around the opponent's neck that requires controlled execution to avoid injury. During the reconfiguration from guillotine to arm triangle, avoid explosive jerking motions on the neck. The arm triangle itself is a blood choke that can cause unconsciousness rapidly once locked—always respect tap signals immediately and release pressure within one second of the tap. During training, apply the sweep with controlled force to avoid slamming your partner. Partners defending should communicate if they feel excessive neck pressure during the grip transition phase. Practitioners with cervical spine issues should approach this technique cautiously and inform training partners of any limitations.",
+    "clips": [
+      {
+        "id": "wrZCRBlAB3Y",
+        "title": "Head and arm choke from mount: finishing details",
+        "by": "Roger Gracie",
+        "vertical": false,
+        "channel": "Roger Gracie TV",
+        "duration": 265,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9k39jlEzqB4",
+        "title": "Arm Triangle Transition to Darce",
+        "by": "Rich Castro",
+        "vertical": false,
+        "channel": "Rich Castro",
+        "duration": 29,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Arm Triangle Transition Defender",
@@ -344,23 +476,73 @@
     "flashcards": [
       {
         "question": "Why does framing against the Hindulotine create vulnerability to the arm triangle transition?",
-        "answer": "When you push a near-side frame against the attacker's chest to relieve guillotine pressure, your forearm crosses your own centerline and positions your bicep against the side of your neck. This is exactly the structural configuration the arm triangle requires—your own arm becomes one side of the bilateral compression. The attacker traps this frame, threads their arm under the opposite side of your neck, and now has both carotid arteries covered. The defense you chose for the guillotine directly enables the arm triangle."
+        "answer": "When you push a near-side frame against the attacker's chest to relieve guillotine pressure, your forearm crosses your own centerline and positions your bicep against the side of your neck. This is exactly the structural configuration the arm triangle requires—your own arm becomes one side of the bilateral compression. The attacker traps this frame, threads their arm under the opposite side of your neck, and now has both carotid arteries covered. The defense you chose for the guillotine directly enables the arm triangle.",
+        "answer_line": "Framing arm crosses own neck",
+        "distractors": {
+          "plausible": [
+            "Framing pushes attacker away",
+            "Framing only defends guillotine"
+          ],
+          "trap": [
+            "Frame harder to break posture"
+          ]
+        }
       },
       {
         "question": "Your arm has been trapped against your neck and the attacker is reconfiguring to arm triangle grip—what is your defensive priority?",
-        "answer": "Your priority shifts entirely to preventing the sweep. The arm triangle cannot generate sufficient finishing pressure from bottom position—the attacker absolutely must reach side control to complete the choke. Base wide with your free hand posted on the mat, sprawl your hips back to kill the butterfly hook angle, and drive your weight forward through your chest. Even with the arm triangle grip locked, you are safe as long as you maintain top position. Focus all energy on base and balance rather than arm extraction."
+        "answer": "Your priority shifts entirely to preventing the sweep. The arm triangle cannot generate sufficient finishing pressure from bottom position—the attacker absolutely must reach side control to complete the choke. Base wide with your free hand posted on the mat, sprawl your hips back to kill the butterfly hook angle, and drive your weight forward through your chest. Even with the arm triangle grip locked, you are safe as long as you maintain top position. Focus all energy on base and balance rather than arm extraction.",
+        "answer_line": "Base wide, sprawl, stop the sweep",
+        "distractors": {
+          "plausible": [
+            "Rip your arm free immediately",
+            "Sit up to break their grip"
+          ],
+          "trap": [
+            "Turn your back to escape"
+          ]
+        }
       },
       {
         "question": "What is the optimal defensive window during the grip transition and how do you exploit it?",
-        "answer": "The optimal window occurs when the attacker releases their guillotine grip but has not yet fully secured the figure-four or gable grip for the arm triangle. During this brief transition, their head control is momentarily reduced since one grip has been abandoned and the other is not yet locked. Exploit this by posturing explosively through your hips, circling your head toward the open side, and driving your weight backward. The incomplete grip lacks the structural integrity to prevent your posture recovery if you time the escape to this transition moment."
+        "answer": "The optimal window occurs when the attacker releases their guillotine grip but has not yet fully secured the figure-four or gable grip for the arm triangle. During this brief transition, their head control is momentarily reduced since one grip has been abandoned and the other is not yet locked. Exploit this by posturing explosively through your hips, circling your head toward the open side, and driving your weight backward. The incomplete grip lacks the structural integrity to prevent your posture recovery if you time the escape to this transition moment.",
+        "answer_line": "Posture out during grip switch",
+        "distractors": {
+          "plausible": [
+            "Wait until grip fully locked",
+            "Frame against chest immediately"
+          ],
+          "trap": [
+            "Turn away from the choking side"
+          ]
+        }
       },
       {
         "question": "How do you relieve Hindulotine pressure without creating the frame that enables the arm triangle?",
-        "answer": "Use hip-based posture recovery instead of arm framing. Drive your hips backward while keeping your spine straight and chest elevated, using your posterior chain to create the distance that relieves neck pressure. Tuck your chin tight and keep both elbows pinned to your ribs. You can also turn your head toward the choking arm side to reduce the bite of the guillotine while keeping your arms close to your body. These defensive actions address the guillotine without ever positioning your arm across your own neck."
+        "answer": "Use hip-based posture recovery instead of arm framing. Drive your hips backward while keeping your spine straight and chest elevated, using your posterior chain to create the distance that relieves neck pressure. Tuck your chin tight and keep both elbows pinned to your ribs. You can also turn your head toward the choking arm side to reduce the bite of the guillotine while keeping your arms close to your body. These defensive actions address the guillotine without ever positioning your arm across your own neck.",
+        "answer_line": "Drive hips back, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Post hand and sit up",
+            "Turn away to reduce angle"
+          ],
+          "trap": [
+            "Frame forearm against chest"
+          ]
+        }
       },
       {
         "question": "The attacker has the arm triangle locked and begins loading butterfly hooks for the sweep—describe your base defense in detail?",
-        "answer": "Immediately widen your knees to at least shoulder-width apart and post your free hand on the mat at a 45-degree angle on the side the attacker will attempt to sweep you toward. Sprawl your hips back and down to flatten your center of gravity and remove the elevation angle the butterfly hooks need. Drive your weight forward through your chest into the attacker's grip to make yourself heavy on their hooks. If they attempt to elevate on one side, shift your weight toward that side and drive your posted hand deeper into the mat. The combination of wide base, low hips, and posted hand creates a tripod structure that resists the butterfly sweep from any angle."
+        "answer": "Immediately widen your knees to at least shoulder-width apart and post your free hand on the mat at a 45-degree angle on the side the attacker will attempt to sweep you toward. Sprawl your hips back and down to flatten your center of gravity and remove the elevation angle the butterfly hooks need. Drive your weight forward through your chest into the attacker's grip to make yourself heavy on their hooks. If they attempt to elevate on one side, shift your weight toward that side and drive your posted hand deeper into the mat. The combination of wide base, low hips, and posted hand creates a tripod structure that resists the butterfly sweep from any angle.",
+        "answer_line": "Widen base, post hand, sprawl hips",
+        "distractors": {
+          "plausible": [
+            "Sit back onto your heels",
+            "Post both hands and lean back"
+          ],
+          "trap": [
+            "Pull knees together, narrow base"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -383,6 +565,35 @@
         "phase": "Week 7+",
         "focus": "Full defensive integration under live pressure",
         "description": "Positional sparring starting in bottom Hindulotine with partner attempting the full arm triangle transition at 100% resistance. Practice the complete defensive decision tree: recognize the transition, choose between arm retraction, sweep denial, or grip transition exploitation based on timing. Track which defenses succeed and which phase breaks down for targeted drilling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "D2vkZGTD78I",
+        "title": "Fastest escape out of the arm triangle",
+        "by": "Adam Bradley",
+        "vertical": false,
+        "channel": "Adam Bradley",
+        "duration": 31,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zaYaAl5x26Y",
+        "title": "Arm triangle escape",
+        "by": "Hauck Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Hauck Jiu-Jitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VDPPLiZvvFE",
+        "title": "Escape from the standing arm triangle",
+        "by": "Andrew Hoard",
+        "vertical": false,
+        "channel": "andrew Hoard",
+        "duration": 81,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -174,6 +174,54 @@ description: "How to execute Stack Pass with Lapel Control Negation in BJJ. Atta
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack Pass with Lapel Control Negation (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Stack pass breakdown",
+      "description": "Stack Pass with Lapel Control Negation (Attacker) film study: Stack pass breakdown, taught by Kenny Kim.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2KcAEYsaHAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2KcAEYsaHAg",
+      "url": "https://www.youtube.com/watch?v=2KcAEYsaHAg",
+      "creator": { "@type": "Person", "name": "Kenny Kim" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel Assisted Stack Pass",
+      "description": "Stack Pass with Lapel Control Negation (Attacker) film study: Lapel Assisted Stack Pass, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uop0LIPW870/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uop0LIPW870",
+      "url": "https://www.youtube.com/watch?v=uop0LIPW870",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT347S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Principles of Pressure Passing",
+      "description": "Stack Pass with Lapel Control Negation (Attacker) film study: Principles of Pressure Passing, taught by Bernardo Faria.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eU2MKcq5we0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eU2MKcq5we0",
+      "url": "https://www.youtube.com/watch?v=eU2MKcq5we0",
+      "creator": { "@type": "Person", "name": "Bernardo Faria" },
+      "duration": "PT353S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ Strategically, this technique is most effective when the bottom player commits t
 **From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack Pass with Lapel Control Negation (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2KcAEYsaHAg)
+
+<p class="clip-credit"><strong>Stack pass breakdown</strong> — taught by Kenny Kim · 1:28 · <a href="https://www.youtube.com/watch?v=2KcAEYsaHAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uop0LIPW870)
+
+<p class="clip-credit"><strong>Lapel Assisted Stack Pass</strong> — taught by Keenan Cornelius · 5:47 · <a href="https://www.youtube.com/watch?v=uop0LIPW870" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eU2MKcq5we0)
+
+<p class="clip-credit"><strong>Principles of Pressure Passing</strong> — taught by Bernardo Faria · 5:53 · <a href="https://www.youtube.com/watch?v=eU2MKcq5we0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

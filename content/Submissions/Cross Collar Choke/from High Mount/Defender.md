@@ -150,6 +150,43 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from High Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the choke while mounted",
+      "description": "Cross Collar Choke from High Mount (Defender) film study: Defending the choke while mounted, taught by Fit To Fight.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/keDSMGdKu8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/keDSMGdKu8Q",
+      "url": "https://www.youtube.com/watch?v=keDSMGdKu8Q",
+      "creator": { "@type": "Person", "name": "Fit To Fight" },
+      "duration": "PT82S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defend the cross choke into armbar",
+      "description": "Cross Collar Choke from High Mount (Defender) film study: Defend the cross choke into armbar, taught by Edgar Kruyning.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F1qoGHKy_uE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F1qoGHKy_uE",
+      "url": "https://www.youtube.com/watch?v=F1qoGHKy_uE",
+      "creator": { "@type": "Person", "name": "Edgar Kruyning" },
+      "duration": "PT22S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from High Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=keDSMGdKu8Q)
+
+<p class="clip-credit"><strong>Defending the choke while mounted</strong> — taught by Fit To Fight · 1:22 · <a href="https://www.youtube.com/watch?v=keDSMGdKu8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F1qoGHKy_uE)
+
+<p class="clip-credit"><strong>Defend the cross choke into armbar</strong> — taught by Edgar Kruyning · 0:22 · <a href="https://www.youtube.com/watch?v=F1qoGHKy_uE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -174,6 +174,54 @@ description: "Master the controlled retreat from Saddle to Inside Ashi-Garami. L
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Fallback to Inside Ashi-Garami (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back step from the pass into the saddle",
+      "description": "Fallback to Inside Ashi-Garami (Attacker) film study: Back step from the pass into the saddle, taught by Rich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i8nOBcGeXv8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i8nOBcGeXv8",
+      "url": "https://www.youtube.com/watch?v=i8nOBcGeXv8",
+      "creator": { "@type": "Person", "name": "Rich" },
+      "duration": "PT70S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Knee cut back step into the saddle",
+      "description": "Fallback to Inside Ashi-Garami (Attacker) film study: Knee cut back step into the saddle, taught by Thunderdome BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NXvLhnqXUAI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NXvLhnqXUAI",
+      "url": "https://www.youtube.com/watch?v=NXvLhnqXUAI",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ coach" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shoulder roll into cross ashi / saddle",
+      "description": "Fallback to Inside Ashi-Garami (Attacker) film study: Shoulder roll into cross ashi / saddle, taught by Doug.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eRQVlYxFx1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/eRQVlYxFx1Y",
+      "url": "https://www.youtube.com/watch?v=eRQVlYxFx1Y",
+      "creator": { "@type": "Person", "name": "Doug" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ The attacker executing the Fallback to Inside Ashi-Garami is making a deliberate
 **From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Fallback to Inside Ashi-Garami (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i8nOBcGeXv8)
+
+<p class="clip-credit"><strong>Back step from the pass into the saddle</strong> — taught by Rich · 1:10 · <a href="https://www.youtube.com/watch?v=i8nOBcGeXv8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NXvLhnqXUAI)
+
+<p class="clip-credit"><strong>Knee cut back step into the saddle</strong> — taught by Thunderdome BJJ coach · 0:36 · <a href="https://www.youtube.com/watch?v=NXvLhnqXUAI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=eRQVlYxFx1Y)
+
+<p class="clip-credit"><strong>Shoulder roll into cross ashi / saddle</strong> — taught by Doug · 0:42 · <a href="https://www.youtube.com/watch?v=eRQVlYxFx1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

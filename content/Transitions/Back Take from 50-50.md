@@ -34,6 +34,43 @@ description: "Master the Back Take from 50-50 Guard in BJJ. Learn step-by-step e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Take from 50-50 \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "50/50 to the back using a berimbolo",
+      "description": "Back Take from 50-50 film study: 50/50 to the back using a berimbolo, taught by Silva Jiujutieros.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i5KlsZLgKGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/i5KlsZLgKGs",
+      "url": "https://www.youtube.com/watch?v=i5KlsZLgKGs",
+      "creator": { "@type": "Person", "name": "Silva Jiujutieros" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing 50-50 into a back take",
+      "description": "Back Take from 50-50 film study: Passing 50-50 into a back take, taught by BJJ Recap.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gRTPtnZgdKA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gRTPtnZgdKA",
+      "url": "https://www.youtube.com/watch?v=gRTPtnZgdKA",
+      "creator": { "@type": "Person", "name": "BJJ Recap" },
+      "duration": "PT38S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ This technique has become increasingly important in high-level competition as le
 **Success Rate**: 58%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Take from 50-50 in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=i5KlsZLgKGs)
+
+<p class="clip-credit"><strong>50/50 to the back using a berimbolo</strong> — taught by Silva Jiujutieros · 0:23 · <a href="https://www.youtube.com/watch?v=i5KlsZLgKGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gRTPtnZgdKA)
+
+<p class="clip-credit"><strong>Passing 50-50 into a back take</strong> — taught by BJJ Recap · 0:38 · <a href="https://www.youtube.com/watch?v=gRTPtnZgdKA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -168,6 +168,54 @@ description: "How to execute Ringworm Sweep to Back Control in BJJ. Attacking pe
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Ringworm Sweep to Back Control (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm Guard to Back Take and Choke",
+      "description": "Ringworm Sweep to Back Control (Attacker) film study: Worm Guard to Back Take and Choke, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ARmiJRANTpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ARmiJRANTpg",
+      "url": "https://www.youtube.com/watch?v=ARmiJRANTpg",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Reverse Worm Guard to Back Take",
+      "description": "Ringworm Sweep to Back Control (Attacker) film study: Reverse Worm Guard to Back Take, taught by Madryn Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BYBxcpVatU8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BYBxcpVatU8",
+      "url": "https://www.youtube.com/watch?v=BYBxcpVatU8",
+      "creator": { "@type": "Person", "name": "Madryn Jiu Jitsu" },
+      "duration": "PT12S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Reverse De La Worm and Shin to Shin to the Back",
+      "description": "Ringworm Sweep to Back Control (Attacker) film study: Reverse De La Worm and Shin to Shin to the Back, taught by BJJ Online.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_lzJebmY_v8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_lzJebmY_v8",
+      "url": "https://www.youtube.com/watch?v=_lzJebmY_v8",
+      "creator": { "@type": "Person", "name": "BJJ Online" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 **From Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Ringworm Sweep to Back Control (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ARmiJRANTpg)
+
+<p class="clip-credit"><strong>Worm Guard to Back Take and Choke</strong> — taught by Keenan Cornelius · 0:36 · <a href="https://www.youtube.com/watch?v=ARmiJRANTpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BYBxcpVatU8)
+
+<p class="clip-credit"><strong>Reverse Worm Guard to Back Take</strong> — taught by Madryn Jiu Jitsu · 0:12 · <a href="https://www.youtube.com/watch?v=BYBxcpVatU8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_lzJebmY_v8)
+
+<p class="clip-credit"><strong>Reverse De La Worm and Shin to Shin to the Back</strong> — taught by BJJ Online · 1:00 · <a href="https://www.youtube.com/watch?v=_lzJebmY_v8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

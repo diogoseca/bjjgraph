@@ -34,6 +34,54 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Aoki Lock from Ashi Garami \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Aoki lock from butterfly ashi",
+      "description": "Aoki Lock from Ashi Garami film study: Aoki lock from butterfly ashi, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tQWfhZiDREc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tQWfhZiDREc",
+      "url": "https://www.youtube.com/watch?v=tQWfhZiDREc",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sneaky Aoki lock from saddle",
+      "description": "Aoki Lock from Ashi Garami film study: Sneaky Aoki lock from saddle, taught by Grappling Education.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QDNLTs55V8c/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QDNLTs55V8c",
+      "url": "https://www.youtube.com/watch?v=QDNLTs55V8c",
+      "creator": { "@type": "Person", "name": "Grappling Education" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Aoki lock breakdown",
+      "description": "Aoki Lock from Ashi Garami film study: Aoki lock breakdown, taught by Escuela de Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qRH7g21c6xQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qRH7g21c6xQ",
+      "url": "https://www.youtube.com/watch?v=qRH7g21c6xQ",
+      "creator": { "@type": "Person", "name": "Escuela de Grappling" },
+      "duration": "PT199S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,6 +122,42 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 **Starting Position**: [[Positions/Ashi Garami]] · **From**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Aoki Lock from Ashi Garami in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tQWfhZiDREc)
+
+<p class="clip-credit"><strong>Aoki lock from butterfly ashi</strong> — taught by Factory Fresh Jiu Jitsu · 1:17 · <a href="https://www.youtube.com/watch?v=tQWfhZiDREc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QDNLTs55V8c)
+
+<p class="clip-credit"><strong>Sneaky Aoki lock from saddle</strong> — taught by Grappling Education · 2:01 · <a href="https://www.youtube.com/watch?v=QDNLTs55V8c" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qRH7g21c6xQ)
+
+<p class="clip-credit"><strong>Aoki lock breakdown</strong> — taught by Escuela de Grappling · 3:19 · <a href="https://www.youtube.com/watch?v=qRH7g21c6xQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -251,13 +335,13 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 ## Related
 - [[Transitions/Kneebar]]
 - [[Submissions/Inside Heel Hook]]
-- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Outside Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Toe Hold]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Submissions/Calf Slicer]]
 - [[Submissions/Achilles Lock]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Banana Split]]
 - [[Positions/Ashi Garami]] - Primary position for entry and control
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative leg entanglement for similar attacks

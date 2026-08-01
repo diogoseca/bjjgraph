@@ -148,6 +148,43 @@ description: "How to defend against Position reversal sweep to top in BJJ. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Position reversal sweep to top (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing pass to deny the 50/50 sweep",
+      "description": "Position reversal sweep to top (Defender) film study: Standing pass to deny the 50/50 sweep, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q-ZBPkqGOgE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Q-ZBPkqGOgE",
+      "url": "https://www.youtube.com/watch?v=Q-ZBPkqGOgE",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT135S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending and countering from 50/50",
+      "description": "Position reversal sweep to top (Defender) film study: Defending and countering from 50/50, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gpg88DFH9D4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gpg88DFH9D4",
+      "url": "https://www.youtube.com/watch?v=gpg88DFH9D4",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The most effective defensive approach is proactive rather than reactive. Maintai
 **Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Position reversal sweep to top (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Q-ZBPkqGOgE)
+
+<p class="clip-credit"><strong>Standing pass to deny the 50/50 sweep</strong> — taught by BJJ4Breakfast · 2:15 · <a href="https://www.youtube.com/watch?v=Q-ZBPkqGOgE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gpg88DFH9D4)
+
+<p class="clip-credit"><strong>Defending and countering from 50/50</strong> — taught by Revolution BJJ · 1:21 · <a href="https://www.youtube.com/watch?v=gpg88DFH9D4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master guard recovery from combat base in BJJ. Step-by-step guide 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Recovery from Combat Base \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard recovery mechanics breakdown",
+      "description": "Guard Recovery from Combat Base film study: Guard recovery mechanics breakdown, taught by Conceptual Grappling.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qrPBsg028-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qrPBsg028-0",
+      "url": "https://www.youtube.com/watch?v=qrPBsg028-0",
+      "creator": { "@type": "Person", "name": "Conceptual Grappling" },
+      "duration": "PT60S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Solo guard retention drills",
+      "description": "Guard Recovery from Combat Base film study: Solo guard retention drills, taught by Elements Jiu Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8156_PwYWSM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8156_PwYWSM",
+      "url": "https://www.youtube.com/watch?v=8156_PwYWSM",
+      "creator": { "@type": "Person", "name": "Elements Jiu Jitsu Academy" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The technique centers on a sequential process of framing, hip escaping, and leg 
 Guard recovery from combat base integrates directly into the broader guard retention system, connecting the open guard defensive network with closed guard's offensive platform. When full closed guard recovery is not achievable, the same mechanical principles drive transitions into half guard retention, butterfly guard recomposition, or open guard distance management. Mastery of this recovery makes your entire bottom game more resilient by ensuring that a momentary guard opening does not cascade into a complete positional loss.
 
 **From Position**: [[Positions/Combat Base]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Recovery from Combat Base in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qrPBsg028-0)
+
+<p class="clip-credit"><strong>Guard recovery mechanics breakdown</strong> — taught by Conceptual Grappling · 1:00 · <a href="https://www.youtube.com/watch?v=qrPBsg028-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8156_PwYWSM)
+
+<p class="clip-credit"><strong>Solo guard retention drills</strong> — taught by Elements Jiu Jitsu Academy · 1:19 · <a href="https://www.youtube.com/watch?v=8156_PwYWSM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

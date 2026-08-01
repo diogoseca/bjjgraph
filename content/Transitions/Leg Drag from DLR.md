@@ -34,6 +34,54 @@ description: "Master the leg drag pass from De La Riva Guard. Complete BJJ guide
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Drag from DLR \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva to leg drag",
+      "description": "Leg Drag from DLR film study: De La Riva to leg drag, taught by Alavanca.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H9hckrLXcRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/H9hckrLXcRQ",
+      "url": "https://www.youtube.com/watch?v=H9hckrLXcRQ",
+      "creator": { "@type": "Person", "name": "Alavanca" },
+      "duration": "PT29S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Bullfighter counter to De La Riva into leg drag",
+      "description": "Leg Drag from DLR film study: Bullfighter counter to De La Riva into leg drag, taught by King Mo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mtwz27161ZI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mtwz27161ZI",
+      "url": "https://www.youtube.com/watch?v=Mtwz27161ZI",
+      "creator": { "@type": "Person", "name": "King Mo" },
+      "duration": "PT41S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "De La Riva to leg drag pass",
+      "description": "Leg Drag from DLR film study: De La Riva to leg drag pass, taught by Sickness Ferro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Mag1e96DQuY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Mag1e96DQuY",
+      "url": "https://www.youtube.com/watch?v=Mag1e96DQuY",
+      "creator": { "@type": "Person", "name": "Sickness Ferro" },
+      "duration": "PT108S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategically, the leg drag from DLR occupies a critical position in passing seq
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Drag from DLR in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=H9hckrLXcRQ)
+
+<p class="clip-credit"><strong>De La Riva to leg drag</strong> — taught by Alavanca · 0:29 · <a href="https://www.youtube.com/watch?v=H9hckrLXcRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mtwz27161ZI)
+
+<p class="clip-credit"><strong>Bullfighter counter to De La Riva into leg drag</strong> — taught by King Mo · 0:41 · <a href="https://www.youtube.com/watch?v=Mtwz27161ZI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Mag1e96DQuY)
+
+<p class="clip-credit"><strong>De La Riva to leg drag pass</strong> — taught by Sickness Ferro · 1:48 · <a href="https://www.youtube.com/watch?v=Mag1e96DQuY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

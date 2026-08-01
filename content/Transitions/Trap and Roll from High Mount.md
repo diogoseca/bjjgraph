@@ -34,6 +34,54 @@ description: "Master the Trap and Roll escape from High Mount in BJJ. Learn timi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Trap and Roll from High Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Trap and roll escape from mount, step by step",
+      "description": "Trap and Roll from High Mount film study: Trap and roll escape from mount, step by step, taught by Auburn Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5EceltPECLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5EceltPECLg",
+      "url": "https://www.youtube.com/watch?v=5EceltPECLg",
+      "creator": { "@type": "Person", "name": "Auburn Jiu Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Upa mount escape demonstration",
+      "description": "Trap and Roll from High Mount film study: Upa mount escape demonstration, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ye08X4xjiUk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ye08X4xjiUk",
+      "url": "https://www.youtube.com/watch?v=Ye08X4xjiUk",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Trap and roll mount escape breakdown",
+      "description": "Trap and Roll from High Mount film study: Trap and roll mount escape breakdown, taught by Topp Performance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JoKL61nEZl0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JoKL61nEZl0",
+      "url": "https://www.youtube.com/watch?v=JoKL61nEZl0",
+      "creator": { "@type": "Person", "name": "Topp Performance" },
+      "duration": "PT77S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Strategic application of this escape requires understanding its role within the 
 **Success Rate**: 35%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Trap and Roll from High Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5EceltPECLg)
+
+<p class="clip-credit"><strong>Trap and roll escape from mount, step by step</strong> — taught by Auburn Jiu Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=5EceltPECLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ye08X4xjiUk)
+
+<p class="clip-credit"><strong>Upa mount escape demonstration</strong> — taught by Team Daruma Dojo · 0:38 · <a href="https://www.youtube.com/watch?v=Ye08X4xjiUk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JoKL61nEZl0)
+
+<p class="clip-credit"><strong>Trap and roll mount escape breakdown</strong> — taught by Topp Performance · 1:17 · <a href="https://www.youtube.com/watch?v=JoKL61nEZl0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

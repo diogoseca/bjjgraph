@@ -174,6 +174,43 @@ description: "Execute the Shake Off Rodeo Ride escape in BJJ. Step-by-step explo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shake Off Rodeo Ride (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle bottom: connecting head and shoulder",
+      "description": "Shake Off Rodeo Ride (Attacker) film study: Turtle bottom: connecting head and shoulder, taught by Black Dragon BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F7LWaSTKDPI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F7LWaSTKDPI",
+      "url": "https://www.youtube.com/watch?v=F7LWaSTKDPI",
+      "creator": { "@type": "Person", "name": "Black Dragon BJJ" },
+      "duration": "PT305S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Attacking from turtle",
+      "description": "Shake Off Rodeo Ride (Attacker) film study: Attacking from turtle, taught by Grappling Instructionals.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sSGaeoVvcwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sSGaeoVvcwk",
+      "url": "https://www.youtube.com/watch?v=sSGaeoVvcwk",
+      "creator": { "@type": "Person", "name": "Grappling Instructionals" },
+      "duration": "PT39S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ From the attacker perspective, executing the Shake Off requires generating explo
 **From Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shake Off Rodeo Ride (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F7LWaSTKDPI)
+
+<p class="clip-credit"><strong>Turtle bottom: connecting head and shoulder</strong> — taught by Black Dragon BJJ · 5:05 · <a href="https://www.youtube.com/watch?v=F7LWaSTKDPI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sSGaeoVvcwk)
+
+<p class="clip-credit"><strong>Attacking from turtle</strong> — taught by Grappling Instructionals · 0:39 · <a href="https://www.youtube.com/watch?v=sSGaeoVvcwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

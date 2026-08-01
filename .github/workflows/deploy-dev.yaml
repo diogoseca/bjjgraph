@@ -47,6 +47,16 @@ jobs:
           python3 scripts/validate_json.py --all
           python3 scripts/validate_graph_integrity.py
 
+      # The Neural app bundle + its data payloads live under source/quartz/static/neural/,
+      # which is GITIGNORED (build artifacts, 13.5MB+ payloads). Without this step the built
+      # site — and therefore the deployed preview AND the journey gate — contains no Neural
+      # front-end at all. Regenerate from the committed sources (neural/src, scripts/, graph
+      # + content JSON) so what we test is what we ship.
+      - name: Regenerate Neural app + data
+        run: |
+          (cd source && npm install)
+          npm run regenerate:neural
+
       - name: Build Quartz
         run: |
           npm install
@@ -59,6 +69,28 @@ jobs:
         run: |
           cp -r raw_html/* public/ || true
         working-directory: ./source
+
+      # Quartz clears source/public, so Forward must be copied after the site build.
+      - name: Build Forward development libraries
+        run: npm run build:forward
+
+      # Fast representative gate. The complete suite runs sharded before merges to main.
+      - name: Curated journey gate (Playwright E2E)
+        timeout-minutes: 12
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+          npm run test:curated
+
+      - name: Upload journey artifacts (on failure)
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: journey-test-results
+          path: |
+            e2e/test-results/
+            test-results/
+          if-no-files-found: ignore
 
       - name: Deploy to Cloudflare Pages (preview)
         uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd # v3

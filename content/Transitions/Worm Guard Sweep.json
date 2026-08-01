@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Worm Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within the worm guard attacking system, the sweep is the highest-reward weapon, converting the lapel-leg entanglement into a powerful off-balancing force against standing or kneeling opponents. By combining the lapel wrap around the opponent's leg with angular hip movement and leg elevation, the sweeper creates a rotational force that the opponent cannot resist because their trapped leg cannot recover base in the direction of the sweep. This mechanical advantage makes the technique effective even against significantly larger opponents who would normally be difficult to sweep with conventional guard techniques.\n\nThe sweep's power derives from the lapel functioning as a rigid lever rather than a flexible grip. Unlike conventional guard sweeps that depend heavily on timing and explosive hip movement, the worm guard sweep converts modest angular hip displacement into substantial off-balancing pressure through the lapel-leg connection. When the sweeper angles their hips and elevates, the opponent's trapped leg becomes a fulcrum that amplifies the sweeping force. The secondary collar or sleeve grip prevents the opponent from posting to recover balance, completing the mechanical trap that makes this sweep so difficult to defend once properly loaded.\n\nStrategically, the worm guard sweep serves as the highest-reward option within the broader worm guard attacking system. While techniques like the collar drag or transitions to squid guard offer incremental positional advantages, this sweep provides a direct path to mount, the highest-scoring and most dominant top position in competition. The sweep threat also functions as a powerful deterrent against aggressive forward pressure, as opponents who commit weight forward become increasingly vulnerable to the elevation mechanics that power this technique. When chained with collar drags and guard transitions, the sweep creates a multi-directional threat system that forces the opponent to defend all planes simultaneously.",
   "conditions": [
     "Full worm guard configuration established with lapel deeply wrapped around opponent's leg and constant tension maintained",
@@ -242,38 +254,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the worm guard sweep?",
-        "answer": "The optimal timing is when the opponent's weight shifts forward, either from their own passing pressure or in reaction to a collar drag threat. Forward weight commitment means their center of gravity is already above your legs, so the elevation requires less force and the mechanical advantage of the lapel fulcrum is maximized. Attempting the sweep when the opponent's weight is back makes the elevation significantly harder."
+        "answer": "The optimal timing is when the opponent's weight shifts forward, either from their own passing pressure or in reaction to a collar drag threat. Forward weight commitment means their center of gravity is already above your legs, so the elevation requires less force and the mechanical advantage of the lapel fulcrum is maximized. Attempting the sweep when the opponent's weight is back makes the elevation significantly harder.",
+        "answer_line": "Attempt when weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "Attempt when weight is back",
+            "Attempt right after gripping lapel"
+          ],
+          "trap": [
+            "Sweep as they stand and stack you"
+          ]
+        }
       },
       {
         "question": "What conditions must exist in the worm guard configuration before the sweep can be attempted?",
-        "answer": "Three conditions are mandatory: the lapel must be wrapped deep with rigid tension creating a structural connection to the opponent's leg; a secondary grip must be established on the collar or sleeve to prevent posting; and your hips must be angled to create the rotational sweep vector rather than being square to the opponent. Missing any one of these conditions dramatically reduces success probability."
+        "answer": "Three conditions are mandatory: the lapel must be wrapped deep with rigid tension creating a structural connection to the opponent's leg; a secondary grip must be established on the collar or sleeve to prevent posting; and your hips must be angled to create the rotational sweep vector rather than being square to the opponent. Missing any one of these conditions dramatically reduces success probability.",
+        "answer_line": "Lapel tension, grip, hip angle",
+        "distractors": {
+          "plausible": [
+            "Lapel tension alone is enough",
+            "Any collar grip, square hips"
+          ],
+          "trap": [
+            "Slack lapel, pull them onto you"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that separates successful worm guard sweeps from failed attempts?",
-        "answer": "Maintaining constant lapel tension throughout the entire sweep arc is the single most critical mechanical detail. The moment tension is lost, the lapel stops functioning as a rigid lever and becomes a loose fabric that provides no mechanical advantage. The opponent's trapped leg immediately regains freedom of movement and can step to recover base. Tension must be maintained from setup through mount consolidation."
+        "answer": "Maintaining constant lapel tension throughout the entire sweep arc is the single most critical mechanical detail. The moment tension is lost, the lapel stops functioning as a rigid lever and becomes a loose fabric that provides no mechanical advantage. The opponent's trapped leg immediately regains freedom of movement and can step to recover base. Tension must be maintained from setup through mount consolidation.",
+        "answer_line": "Constant tension through the arc",
+        "distractors": {
+          "plausible": [
+            "Explosive leg lift is what matters",
+            "Deep collar grip does the work"
+          ],
+          "trap": [
+            "Let go of lapel to reset grips"
+          ]
+        }
       },
       {
         "question": "What are the most common failure points during the sweep execution and how do you prevent them?",
-        "answer": "The most common failure points are: attempting the sweep with slack in the lapel, which eliminates the fulcrum effect; missing the secondary grip, which allows the opponent to post; sweeping straight back instead of at an angle, which lets both legs brace; and releasing tension during the rotation. Prevention requires a systematic pre-sweep checklist: verify tension, confirm secondary grip, angle hips, then commit."
+        "answer": "The most common failure points are: attempting the sweep with slack in the lapel, which eliminates the fulcrum effect; missing the secondary grip, which allows the opponent to post; sweeping straight back instead of at an angle, which lets both legs brace; and releasing tension during the rotation. Prevention requires a systematic pre-sweep checklist: verify tension, confirm secondary grip, angle hips, then commit.",
+        "answer_line": "Tension, grip, angle, then commit",
+        "distractors": {
+          "plausible": [
+            "Rush the sweep on first contact",
+            "Sweep straight back, not angled"
+          ],
+          "trap": [
+            "Roll under them to force it"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest sweep mechanics from worm guard?",
-        "answer": "The strongest configuration is a deep far-collar grip combined with the lapel wrap. The far collar grip controls the opponent's furthest posting hand, meaning they have no available limb to arrest the sweep once the elevation begins. A near-collar grip is the second-best option. Sleeve grips are weaker because they only control one arm and the opponent can still post with the free hand."
+        "answer": "The strongest configuration is a deep far-collar grip combined with the lapel wrap. The far collar grip controls the opponent's furthest posting hand, meaning they have no available limb to arrest the sweep once the elevation begins. A near-collar grip is the second-best option. Sleeve grips are weaker because they only control one arm and the opponent can still post with the free hand.",
+        "answer_line": "Deep far-collar grip plus lapel",
+        "distractors": {
+          "plausible": [
+            "Near-collar grip plus lapel",
+            "Sleeve grip plus lapel wrap"
+          ],
+          "trap": [
+            "Drop lapel to grab both sleeves"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force during the sweep elevation?",
-        "answer": "The primary force direction is diagonally upward and toward the trapped leg side, creating a rotational arc around the trapped leg as a fulcrum point. The legs drive upward to elevate while the grips pull laterally toward the sweep direction. This diagonal force vector is critical because it converts the opponent's body weight into rotational momentum rather than requiring you to lift their entire weight straight up."
+        "answer": "The primary force direction is diagonally upward and toward the trapped leg side, creating a rotational arc around the trapped leg as a fulcrum point. The legs drive upward to elevate while the grips pull laterally toward the sweep direction. This diagonal force vector is critical because it converts the opponent's body weight into rotational momentum rather than requiring you to lift their entire weight straight up.",
+        "answer_line": "Diagonal, up toward trapped leg",
+        "distractors": {
+          "plausible": [
+            "Straight up, lifting full weight",
+            "Straight back, away from legs"
+          ],
+          "trap": [
+            "Pull downward into their hips"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base and sits low when they feel you loading the sweep - how do you adjust?",
-        "answer": "A wide low base defeats the standard sweep because both legs are stabilized. Two adjustments are available: first, add a De La Riva hook on the far leg to remove that leg's base contribution, restoring the sweep angle; second, switch to a collar drag threat to force their weight forward, then immediately redirect to the sweep when they react to the drag. The multi-directional threat breaks down the wide base defense."
+        "answer": "A wide low base defeats the standard sweep because both legs are stabilized. Two adjustments are available: first, add a De La Riva hook on the far leg to remove that leg's base contribution, restoring the sweep angle; second, switch to a collar drag threat to force their weight forward, then immediately redirect to the sweep when they react to the drag. The multi-directional threat breaks down the wide base defense.",
+        "answer_line": "Add DLR hook or drag threat",
+        "distractors": {
+          "plausible": [
+            "Force the sweep with more power",
+            "Switch grips to both sleeves"
+          ],
+          "trap": [
+            "Release lapel and re-angle hips"
+          ]
+        }
       },
       {
         "question": "If the sweep is blocked and you cannot complete the elevation, what chain attacks should follow?",
-        "answer": "If the sweep is blocked, immediately chain into alternative attacks rather than forcing a failed technique. The primary chains are: collar drag when the opponent bases backward after defending the sweep; transition to squid guard if you can advance the lapel position during the scramble; or switch to an X-guard entry by releasing the lapel and inserting butterfly hooks under the destabilized opponent. Never stay committed to a blocked sweep."
+        "answer": "If the sweep is blocked, immediately chain into alternative attacks rather than forcing a failed technique. The primary chains are: collar drag when the opponent bases backward after defending the sweep; transition to squid guard if you can advance the lapel position during the scramble; or switch to an X-guard entry by releasing the lapel and inserting butterfly hooks under the destabilized opponent. Never stay committed to a blocked sweep.",
+        "answer_line": "Chain to drag, squid, or X-guard",
+        "distractors": {
+          "plausible": [
+            "Reset and repeat the same sweep",
+            "Pull them into closed guard"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Worm Guard Sweep carries relatively low injury risk compared to submissions, but the lapel wrap around the opponent's leg can create uncomfortable pressure on the knee joint during explosive sweep attempts. Partners should communicate immediately if the lapel configuration causes any knee discomfort or restricts circulation. Avoid explosive jerking motions with the lapel that could hyperextend the trapped leg. When being swept, practice proper breakfalling technique to protect wrists and shoulders from posting injuries during the fall. Always practice on adequately padded surfaces, particularly when drilling the full sweep-to-mount completion at higher speeds. Release the lapel promptly once mount is secured to avoid unnecessary strain on the training partner's leg."
+    "safety_considerations": "The Worm Guard Sweep carries relatively low injury risk compared to submissions, but the lapel wrap around the opponent's leg can create uncomfortable pressure on the knee joint during explosive sweep attempts. Partners should communicate immediately if the lapel configuration causes any knee discomfort or restricts circulation. Avoid explosive jerking motions with the lapel that could hyperextend the trapped leg. When being swept, practice proper breakfalling technique to protect wrists and shoulders from posting injuries during the fall. Always practice on adequately padded surfaces, particularly when drilling the full sweep-to-mount completion at higher speeds. Release the lapel promptly once mount is secured to avoid unnecessary strain on the training partner's leg.",
+    "clips": [
+      {
+        "id": "rCFiQeV6aHU",
+        "title": "Sweep from Worm Guard",
+        "by": "Lucas Lima",
+        "vertical": false,
+        "channel": "American Grappling Federation",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BHwU-bbyvkc",
+        "title": "Worm Guard attacks: sweep and berimbolo",
+        "by": "Jamie",
+        "vertical": false,
+        "channel": "jamielovesmartialarts",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "v8GCc43GlXA",
+        "title": "De la worm sweep",
+        "by": "James Fisher",
+        "vertical": false,
+        "channel": "James Fisher",
+        "duration": 97,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Worm Guard Sweep Defender",
@@ -364,23 +485,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a worm guard sweep is being initiated rather than a collar drag or other attack?",
-        "answer": "The earliest distinguishing cue is the attacker angling their hips perpendicular to your body, which is specific to sweep setup. Collar drags require the attacker to stay more directly underneath you to pull forward and sit up. When you see hip angling combined with legs repositioning under your hips, the sweep is being loaded rather than a forward-pulling attack like the collar drag."
+        "answer": "The earliest distinguishing cue is the attacker angling their hips perpendicular to your body, which is specific to sweep setup. Collar drags require the attacker to stay more directly underneath you to pull forward and sit up. When you see hip angling combined with legs repositioning under your hips, the sweep is being loaded rather than a forward-pulling attack like the collar drag.",
+        "answer_line": "Hips angling perpendicular",
+        "distractors": {
+          "plausible": [
+            "Sitting up to pull collar",
+            "Gripping deeper on the lapel"
+          ],
+          "trap": [
+            "Wait until you feel elevation"
+          ]
+        }
       },
       {
         "question": "Why is stripping the lapel more strategically valuable than simply widening your base against the sweep?",
-        "answer": "Widening your base only addresses the current sweep attempt while leaving the worm guard intact for future attacks. Stripping the lapel eliminates the entire worm guard control system, neutralizing not just the sweep but all associated attacks including collar drags, back takes, and guard transitions. It solves the root cause rather than treating the symptom, and leaves you in a favorable open guard passing position."
+        "answer": "Widening your base only addresses the current sweep attempt while leaving the worm guard intact for future attacks. Stripping the lapel eliminates the entire worm guard control system, neutralizing not just the sweep but all associated attacks including collar drags, back takes, and guard transitions. It solves the root cause rather than treating the symptom, and leaves you in a favorable open guard passing position.",
+        "answer_line": "Removes the whole control system",
+        "distractors": {
+          "plausible": [
+            "It ends this sweep faster",
+            "It saves grip-fighting energy"
+          ],
+          "trap": [
+            "Stay heavy and ignore the lapel"
+          ]
+        }
       },
       {
         "question": "Your opponent has loaded the sweep and you feel your weight being elevated - what is your highest percentage response at this late stage?",
-        "answer": "At this late stage, your best option is to post aggressively with your free hand on the mat in the direction of the sweep and simultaneously try to extract your trapped leg from the lapel wrap. If you can post and maintain connection to the mat, you can arrest the rotation even with the elevation in progress. If the sweep completes despite posting, focus on landing in side control or half guard rather than being swept cleanly to mount by extending your posting arm and inserting a knee as you land."
+        "answer": "At this late stage, your best option is to post aggressively with your free hand on the mat in the direction of the sweep and simultaneously try to extract your trapped leg from the lapel wrap. If you can post and maintain connection to the mat, you can arrest the rotation even with the elevation in progress. If the sweep completes despite posting, focus on landing in side control or half guard rather than being swept cleanly to mount by extending your posting arm and inserting a knee as you land.",
+        "answer_line": "Post hand, extract trapped leg",
+        "distractors": {
+          "plausible": [
+            "Sit up and try to re-base",
+            "Grab their far sleeve to stop it"
+          ],
+          "trap": [
+            "Turn belly-down to avoid landing"
+          ]
+        }
       },
       {
         "question": "How does defending the worm guard sweep differ from defending standard butterfly or De La Riva sweeps?",
-        "answer": "The critical difference is that normal sweeps allow you to step your swept leg to recover base, whereas the worm guard lapel wrap immobilizes the trapped leg, removing your primary recovery mechanism. This means standard sweep defense principles like stepping and re-basing are unreliable. Instead, you must either prevent the sweep from loading through setup disruption or remove the lapel constraint entirely. Defensive strategies must account for the loss of leg mobility."
+        "answer": "The critical difference is that normal sweeps allow you to step your swept leg to recover base, whereas the worm guard lapel wrap immobilizes the trapped leg, removing your primary recovery mechanism. This means standard sweep defense principles like stepping and re-basing are unreliable. Instead, you must either prevent the sweep from loading through setup disruption or remove the lapel constraint entirely. Defensive strategies must account for the loss of leg mobility.",
+        "answer_line": "Trapped leg can't step to re-base",
+        "distractors": {
+          "plausible": [
+            "Same as standard sweep defense",
+            "Just post harder than usual"
+          ],
+          "trap": [
+            "Step the leg to recover base"
+          ]
+        }
       },
       {
         "question": "When should you attempt forward pressure versus disengagement as a defensive strategy against the sweep?",
-        "answer": "Use forward pressure when the attacker is beginning to angle their hips but has not yet loaded the sweep, as your weight pins them flat and prevents the hip angle needed for the mechanics. Use disengagement and lapel stripping when you have positional space and time to address the grip without being under immediate sweep threat. Avoid forward pressure if the attacker has already loaded the sweep with legs under your hips, as forward pressure at that point feeds directly into the overhead balloon sweep variation."
+        "answer": "Use forward pressure when the attacker is beginning to angle their hips but has not yet loaded the sweep, as your weight pins them flat and prevents the hip angle needed for the mechanics. Use disengagement and lapel stripping when you have positional space and time to address the grip without being under immediate sweep threat. Avoid forward pressure if the attacker has already loaded the sweep with legs under your hips, as forward pressure at that point feeds directly into the overhead balloon sweep variation.",
+        "answer_line": "Pressure early, strip with space",
+        "distractors": {
+          "plausible": [
+            "Disengage at every stage",
+            "Strip only after elevation starts"
+          ],
+          "trap": [
+            "Drive forward once sweep loads"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -403,6 +574,26 @@
         "phase": "Phase 4: Live Defensive Integration",
         "focus": "Full-speed defense in positional sparring with all worm guard attacks available",
         "description": "Positional sparring starting from opponent's established worm guard with all attacks available including sweep, collar drag, and transitions. Defender must recognize and defend each attack while working toward passing the guard. Builds realistic defensive reactions and develops the ability to chain defensive responses into passing sequences."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aR0dbddbfQA",
+        "title": "Passing the Polish Worm Rider lapel guard",
+        "by": "Daniel Maira",
+        "vertical": false,
+        "channel": "Movement Art",
+        "duration": 54,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "lACga4DakTM",
+        "title": "Modern lapel guard passing",
+        "by": "Romulo Barral",
+        "vertical": false,
+        "channel": "Romulo Barral",
+        "duration": 121,
+        "verified": "2026-07-15"
       }
     ]
   }

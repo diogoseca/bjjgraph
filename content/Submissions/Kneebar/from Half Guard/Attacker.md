@@ -170,6 +170,54 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kneebar from Half Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half Guard to Kneebar",
+      "description": "Kneebar from Half Guard (Attacker) film study: Half Guard to Kneebar, taught by CholoMMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uB23Ogno7DM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uB23Ogno7DM",
+      "url": "https://www.youtube.com/watch?v=uB23Ogno7DM",
+      "creator": { "@type": "Person", "name": "CholoMMA" },
+      "duration": "PT24S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar from Deep Half Guard",
+      "description": "Kneebar from Half Guard (Attacker) film study: Kneebar from Deep Half Guard, taught by Miles Moudy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ih_7aXNM6UU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ih_7aXNM6UU",
+      "url": "https://www.youtube.com/watch?v=ih_7aXNM6UU",
+      "creator": { "@type": "Person", "name": "Miles Moudy" },
+      "duration": "PT25S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Helicopter Kneebar from Half Guard",
+      "description": "Kneebar from Half Guard (Attacker) film study: Helicopter Kneebar from Half Guard, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IzKxUPKzr8A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IzKxUPKzr8A",
+      "url": "https://www.youtube.com/watch?v=IzKxUPKzr8A",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT58S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -180,6 +228,42 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kneebar from Half Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uB23Ogno7DM)
+
+<p class="clip-credit"><strong>Half Guard to Kneebar</strong> — taught by CholoMMA · 0:24 · <a href="https://www.youtube.com/watch?v=uB23Ogno7DM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ih_7aXNM6UU)
+
+<p class="clip-credit"><strong>Kneebar from Deep Half Guard</strong> — taught by Miles Moudy · 0:25 · <a href="https://www.youtube.com/watch?v=ih_7aXNM6UU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IzKxUPKzr8A)
+
+<p class="clip-credit"><strong>Helicopter Kneebar from Half Guard</strong> — taught by Revolution BJJ · 0:58 · <a href="https://www.youtube.com/watch?v=IzKxUPKzr8A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

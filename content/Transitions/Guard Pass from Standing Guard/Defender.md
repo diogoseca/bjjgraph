@@ -140,6 +140,54 @@ description: "Complete defensive guide for preventing the standing guard pass in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Guard Pass from Standing Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Guard retention: when to sit up and escape",
+      "description": "Guard Pass from Standing Guard (Defender) film study: Guard retention: when to sit up and escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Getting feet on biceps against a standing passer",
+      "description": "Guard Pass from Standing Guard (Defender) film study: Getting feet on biceps against a standing passer, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Bp0v7c_MrbY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Bp0v7c_MrbY",
+      "url": "https://www.youtube.com/watch?v=Bp0v7c_MrbY",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard retention when they hold on",
+      "description": "Guard Pass from Standing Guard (Defender) film study: Guard retention when they hold on, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Xj_MVwk2jq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Xj_MVwk2jq0",
+      "url": "https://www.youtube.com/watch?v=Xj_MVwk2jq0",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT46S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending against the standing guard pass requires early recognition of the pass
 **Opponent's Starting Position**: [[Positions/Standing Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Guard Pass from Standing Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard retention: when to sit up and escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Bp0v7c_MrbY)
+
+<p class="clip-credit"><strong>Getting feet on biceps against a standing passer</strong> — taught by Lachlan Giles · 2:05 · <a href="https://www.youtube.com/watch?v=Bp0v7c_MrbY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Xj_MVwk2jq0)
+
+<p class="clip-credit"><strong>Guard retention when they hold on</strong> — taught by Jean Jacques Machado · 0:46 · <a href="https://www.youtube.com/watch?v=Xj_MVwk2jq0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 39% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Standing",
-      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Standing. This technique is attempted in 16% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Peterson Roll",
-      "text": "From this position, attempt Peterson Roll. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Peterson Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sit Through Escape",
-      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Sit Through Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 3% of exchanges from this position.",
+      "name": "Execute Crab Ride Escape to Guard",
+      "text": "From this position, attempt Crab Ride Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Crab Ride Bottom defense in BJJ. Complete guide covering ho
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crab Ride (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the crab ride",
+      "description": "Crab Ride (Bottom) film study: Escaping the crab ride, taught by Brian Hawkins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-S6bU0mQp1Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-S6bU0mQp1Y",
+      "url": "https://www.youtube.com/watch?v=-S6bU0mQp1Y",
+      "creator": { "@type": "Person", "name": "Brian Hawkins" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crab Ride Defense",
+      "description": "Crab Ride (Bottom) film study: Crab Ride Defense, taught by Foley Dowd.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Abo6iBdWEIY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Abo6iBdWEIY",
+      "url": "https://www.youtube.com/watch?v=Abo6iBdWEIY",
+      "creator": { "@type": "Person", "name": "Foley Dowd" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Leg and Crab Ride Defense",
+      "description": "Crab Ride (Bottom) film study: Leg and Crab Ride Defense, taught by Nick Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NpFL7u6D7Bk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NpFL7u6D7Bk",
+      "url": "https://www.youtube.com/watch?v=NpFL7u6D7Bk",
+      "creator": { "@type": "Person", "name": "Nick Mitchell" },
+      "duration": "PT127S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ From the bottom perspective, Crab Ride is a high-pressure defensive position tha
 Strategically, Crab Ride Bottom is often a transitional state rather than a sustainable position. The bottom player must balance defensive priorities - protecting the neck from chokes, preventing the second hook, and maintaining base to avoid being flattened. Successful defense requires combining technical precision with explosive movement, as small windows of opportunity emerge when the top player adjusts their grips or shifts weight to improve position. Advanced practitioners can even counter-attack from this seemingly disadvantageous position, using the top player's commitment to the ride as an opportunity for reversals or leg attacks.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crab Ride (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-S6bU0mQp1Y)
+
+<p class="clip-credit"><strong>Escaping the crab ride</strong> — taught by Brian Hawkins · 1:18 · <a href="https://www.youtube.com/watch?v=-S6bU0mQp1Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Abo6iBdWEIY)
+
+<p class="clip-credit"><strong>Crab Ride Defense</strong> — taught by Foley Dowd · 2:03 · <a href="https://www.youtube.com/watch?v=Abo6iBdWEIY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NpFL7u6D7Bk)
+
+<p class="clip-credit"><strong>Leg and Crab Ride Defense</strong> — taught by Nick Mitchell · 2:07 · <a href="https://www.youtube.com/watch?v=NpFL7u6D7Bk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

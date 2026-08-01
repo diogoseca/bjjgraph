@@ -34,6 +34,54 @@ description: "Master the reversal from kneebar control in BJJ. Step-by-step guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reversal from Kneebar Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling kneebar escape",
+      "description": "Reversal from Kneebar Control film study: Rolling kneebar escape, taught by Renegade BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uJi9Pr2xxlI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uJi9Pr2xxlI",
+      "url": "https://www.youtube.com/watch?v=uJi9Pr2xxlI",
+      "creator": { "@type": "Person", "name": "Renegade BJJ" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kneebar escape from half guard",
+      "description": "Reversal from Kneebar Control film study: Kneebar escape from half guard, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_3SLMuTgp54/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_3SLMuTgp54",
+      "url": "https://www.youtube.com/watch?v=_3SLMuTgp54",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kneebar counter into your own kneebar",
+      "description": "Reversal from Kneebar Control film study: Kneebar counter into your own kneebar, taught by Gracie Westchase.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Oa0Ac9ILYu8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Oa0Ac9ILYu8",
+      "url": "https://www.youtube.com/watch?v=Oa0Ac9ILYu8",
+      "creator": { "@type": "Person", "name": "Gracie Westchase" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The strategic importance of this transition lies in its role within the modern l
 **Success Rate**: 35%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reversal from Kneebar Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uJi9Pr2xxlI)
+
+<p class="clip-credit"><strong>Rolling kneebar escape</strong> — taught by Renegade BJJ · 0:40 · <a href="https://www.youtube.com/watch?v=uJi9Pr2xxlI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_3SLMuTgp54)
+
+<p class="clip-credit"><strong>Kneebar escape from half guard</strong> — taught by Moncaio Brothers · 0:37 · <a href="https://www.youtube.com/watch?v=_3SLMuTgp54" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Oa0Ac9ILYu8)
+
+<p class="clip-credit"><strong>Kneebar counter into your own kneebar</strong> — taught by Gracie Westchase · 0:21 · <a href="https://www.youtube.com/watch?v=Oa0Ac9ILYu8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

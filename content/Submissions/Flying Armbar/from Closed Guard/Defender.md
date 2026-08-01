@@ -95,6 +95,14 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
         "@type": "Answer",
         "text": "Maintain a strong upright posture with your hips back and shoulders over your hips rather than leaning forward. Keep your elbows pinned to your ribs with your hands controlling your opponent's hips, knees, or pants rather than reaching forward for collar or sleeve grips. Never extend both arms simultaneously, and avoid posting on the mat with your hands inside their guard range. Your stance should be wide with slightly bent knees for stability and quick directional movement. This defensive posture eliminates the arm extension and forward weight commitment that flying armbar entries require."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "When is the flying armbar most defensible - during the entry or after the attacker lands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is most defensible during the entry, before both legs clamp. Once the attacker's legs land across your head and back and their knees pinch, the arm is largely lost. The entire effective defense lives in the first fraction of a second as they leave the ground, which is why prevention and early reaction matter far more than late escapes."
+      }
     }
   ]
 }
@@ -150,6 +158,54 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flying Armbar from Closed Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Favorite Armbar Escape",
+      "description": "Flying Armbar from Closed Guard (Defender) film study: Favorite Armbar Escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to defeat a juji-gatame armbar",
+      "description": "Flying Armbar from Closed Guard (Defender) film study: How to defeat a juji-gatame armbar, taught by Travis Stevens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/L2q__Z6hogQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/L2q__Z6hogQ",
+      "url": "https://www.youtube.com/watch?v=L2q__Z6hogQ",
+      "creator": { "@type": "Person", "name": "Travis Stevens" },
+      "duration": "PT241S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Armbar defense fundamentals",
+      "description": "Flying Armbar from Closed Guard (Defender) film study: Armbar defense fundamentals, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CDpv10qYFLo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/CDpv10qYFLo",
+      "url": "https://www.youtube.com/watch?v=CDpv10qYFLo",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +220,42 @@ If the attacker does initiate the jump, your response depends on timing. During 
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flying Armbar from Closed Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Favorite Armbar Escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=L2q__Z6hogQ)
+
+<p class="clip-credit"><strong>How to defeat a juji-gatame armbar</strong> — taught by Travis Stevens · 4:01 · <a href="https://www.youtube.com/watch?v=L2q__Z6hogQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=CDpv10qYFLo)
+
+<p class="clip-credit"><strong>Armbar defense fundamentals</strong> — taught by Gordon Ryan · 4:34 · <a href="https://www.youtube.com/watch?v=CDpv10qYFLo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

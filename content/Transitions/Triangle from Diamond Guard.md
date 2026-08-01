@@ -34,6 +34,54 @@ description: "Master the triangle setup from Diamond Guard in BJJ. Convert overh
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Diamond Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "High guard attacks with no escape",
+      "description": "Triangle from Diamond Guard film study: High guard attacks with no escape, taught by Avant-Garde BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VtSbv2sWvEw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VtSbv2sWvEw",
+      "url": "https://www.youtube.com/watch?v=VtSbv2sWvEw",
+      "creator": { "@type": "Person", "name": "Avant-Garde BJJ" },
+      "duration": "PT83S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "High guard attack entry",
+      "description": "Triangle from Diamond Guard film study: High guard attack entry, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4yoxzSAXe3A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4yoxzSAXe3A",
+      "url": "https://www.youtube.com/watch?v=4yoxzSAXe3A",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT51S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Diamond guard setup and two attacks",
+      "description": "Triangle from Diamond Guard film study: Diamond guard setup and two attacks, taught by Caron Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oqR6MLjUrd4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oqR6MLjUrd4",
+      "url": "https://www.youtube.com/watch?v=oqR6MLjUrd4",
+      "creator": { "@type": "Person", "name": "Caron Jiu Jitsu" },
+      "duration": "PT252S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ Advanced practitioners chain this triangle entry with omoplata and kimura threat
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Diamond Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VtSbv2sWvEw)
+
+<p class="clip-credit"><strong>High guard attacks with no escape</strong> — taught by Avant-Garde BJJ · 1:23 · <a href="https://www.youtube.com/watch?v=VtSbv2sWvEw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4yoxzSAXe3A)
+
+<p class="clip-credit"><strong>High guard attack entry</strong> — taught by Animal · 0:51 · <a href="https://www.youtube.com/watch?v=4yoxzSAXe3A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oqR6MLjUrd4)
+
+<p class="clip-credit"><strong>Diamond guard setup and two attacks</strong> — taught by Caron Jiu Jitsu · 4:12 · <a href="https://www.youtube.com/watch?v=oqR6MLjUrd4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

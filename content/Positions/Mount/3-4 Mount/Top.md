@@ -21,37 +21,37 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Mount to Armbar",
-      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Mount to Armbar. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 7% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
-      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt S-Mount Transition. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Consolidate Mount",
-      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Consolidate Mount. This technique is attempted in 26% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from 3-4 Mount",
+      "text": "From this position, attempt Cross Collar Choke from 3-4 Mount. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "3-4 Mount (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "S-Mount top troubleshooting",
+      "description": "3-4 Mount (Top) film study: S-Mount top troubleshooting, taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2Xm_mLp8xwk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2Xm_mLp8xwk",
+      "url": "https://www.youtube.com/watch?v=2Xm_mLp8xwk",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from S-Mount",
+      "description": "3-4 Mount (Top) film study: Armbar from S-Mount, taught by Fenrir Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2zSi7RlFJEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2zSi7RlFJEU",
+      "url": "https://www.youtube.com/watch?v=2zSi7RlFJEU",
+      "creator": { "@type": "Person", "name": "Fenrir Jiu-Jitsu" },
+      "duration": "PT78S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Switch-side armbar from S-Mount",
+      "description": "3-4 Mount (Top) film study: Switch-side armbar from S-Mount, taught by Darrin Lillian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5UtNLw7usQk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5UtNLw7usQk",
+      "url": "https://www.youtube.com/watch?v=5UtNLw7usQk",
+      "creator": { "@type": "Person", "name": "Darrin Lillian" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -164,6 +212,42 @@ This position emerged as practitioners recognized the tactical advantages of mai
 Strategically, 3-4 Mount Top excels as both a finishing position and a transitional control point. Advanced practitioners use this position to create submission dilemmas, particularly targeting armbars, Americanas, and collar chokes, while the asymmetric base provides resistance against the most common mount escapes. The position demands precise weight distribution and constant pressure adjustment to prevent the bottom player from recovering guard or escaping to less disadvantageous positions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 3-4 Mount (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2Xm_mLp8xwk)
+
+<p class="clip-credit"><strong>S-Mount top troubleshooting</strong> — taught by ZombieProofBJJ · 1:07 · <a href="https://www.youtube.com/watch?v=2Xm_mLp8xwk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2zSi7RlFJEU)
+
+<p class="clip-credit"><strong>Armbar from S-Mount</strong> — taught by Fenrir Jiu-Jitsu · 1:18 · <a href="https://www.youtube.com/watch?v=2zSi7RlFJEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5UtNLw7usQk)
+
+<p class="clip-credit"><strong>Switch-side armbar from S-Mount</strong> — taught by Darrin Lillian · 0:50 · <a href="https://www.youtube.com/watch?v=5UtNLw7usQk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

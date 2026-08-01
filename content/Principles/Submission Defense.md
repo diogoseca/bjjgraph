@@ -164,6 +164,43 @@ description: "Master submission defense in BJJ. Learn escape hierarchies, frame 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Submission Defense \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The first five escapes you need to know",
+      "description": "Submission Defense film study: The first five escapes you need to know, taught by Knight Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/775gXyYzB08/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/775gXyYzB08",
+      "url": "https://www.youtube.com/watch?v=775gXyYzB08",
+      "creator": { "@type": "Person", "name": "Knight Jiu-Jitsu" },
+      "duration": "PT521S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Favorite armbar escape",
+      "description": "Submission Defense film study: Favorite armbar escape, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Submission Defense?
@@ -177,6 +214,34 @@ The defensive hierarchy begins with positional awareness and proceeds through st
 Modern submission defense integrates concepts from multiple grappling disciplines, combining traditional Brazilian Jiu-Jitsu escape mechanics with wrestling's defensive urgency, judo's grip fighting principles, and contemporary no-gi innovations. The principle emphasizes that defensive skill development follows a different timeline than offensive techniques—requiring thousands of repetitions under progressive resistance to develop the automatic responses necessary when caught in high-stress situations. Understanding submission defense as a systematic principle rather than a collection of individual escapes allows practitioners to adapt their defensive responses across different submission types, positions, and rule sets.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Submission Defense in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=775gXyYzB08)
+
+<p class="clip-credit"><strong>The first five escapes you need to know</strong> — taught by Knight Jiu-Jitsu · 8:41 · <a href="https://www.youtube.com/watch?v=775gXyYzB08" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Favorite armbar escape</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

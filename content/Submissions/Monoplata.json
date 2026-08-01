@@ -16,7 +16,10 @@
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Closed Guard",
   "from_position": "Closed Guard/Bottom",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "variant_uniqueness": "Figure-four leg entanglement creates unique shoulder isolation unavailable from standard omoplata",
   "overview": "The Monoplata is an advanced shoulder lock submission that combines elements of the omoplata with unique figure-four leg control. Executed primarily from guard positions, particularly the rubber guard and mission control, this technique applies rotational pressure to the shoulder joint through a distinctive leg configuration that traps the opponent's arm while controlling their posture. The monoplata represents a sophisticated evolution of traditional shoulder attacks, offering practitioners a powerful finishing option when conventional submissions are defended. Unlike the traditional omoplata which uses both legs to isolate the arm, the monoplata employs a figure-four leg entanglement that creates exceptional control while maintaining offensive options. This submission has gained prominence in modern no-gi grappling due to its effectiveness against defensive posturing and its integration within systematic guard attack sequences.",
   "safety_considerations": {
@@ -176,6 +179,44 @@
       "variation_name": "Rolling Monoplata",
       "description": "After establishing figure-four, roll opponent over their trapped shoulder into monoplata position rather than adjusting angle from bottom. This dynamic entry creates more dramatic shoulder pressure and often secures faster finish.",
       "when_to_use": "When opponent maintains very strong base and refuses to be swept or off-balanced through traditional means"
+    }
+  ],
+  "clips": [
+    {
+      "id": "u9fF8OCRDks",
+      "title": "Monoplata from Triangle Choke",
+      "by": "Waza Brazilian Jiu Jitsu",
+      "vertical": false,
+      "channel": "Waza Brazilian Jiu Jitsu",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "5J6Gtv1hAMo",
+      "title": "Monoplata Trap System from Guard",
+      "by": "Johnny Jitsu",
+      "vertical": false,
+      "channel": "Johnny Jitsu",
+      "duration": 160,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "DeVb2R8SQL4",
+      "title": "Omoplata From Mount",
+      "by": "Jiu Jitsu With Andy",
+      "vertical": false,
+      "channel": "Jiu Jitsu With Andy ",
+      "duration": 18,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "kXwTSv13ATw",
+      "title": "Omoplata to Monoplata",
+      "by": "Ninjuh Moves",
+      "vertical": false,
+      "channel": "Ninjuh Moves",
+      "duration": 50,
+      "verified": "2026-07-14"
     }
   ]
 }

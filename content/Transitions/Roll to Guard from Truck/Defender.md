@@ -140,6 +140,32 @@ description: "Defend against the Roll to Guard escape from Truck top position. R
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll to Guard from Truck (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "MTS 178: The Truck In Transition",
+      "description": "Roll to Guard from Truck (Defender) film study: MTS 178: The Truck In Transition, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sCBGkcJCQYY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sCBGkcJCQYY",
+      "url": "https://www.youtube.com/watch?v=sCBGkcJCQYY",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +175,26 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 **Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll to Guard from Truck (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sCBGkcJCQYY)
+
+<p class="clip-credit"><strong>MTS 178: The Truck In Transition</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=sCBGkcJCQYY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

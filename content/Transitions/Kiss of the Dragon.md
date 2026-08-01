@@ -34,6 +34,54 @@ description: "Learn Kiss of the Dragon in BJJ. Advanced rolling back take from t
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kiss of the Dragon \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kiss of the dragon to backside 50/50",
+      "description": "Kiss of the Dragon film study: Kiss of the dragon to backside 50/50, taught by Mr. Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WUWYA0GXByQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WUWYA0GXByQ",
+      "url": "https://www.youtube.com/watch?v=WUWYA0GXByQ",
+      "creator": { "@type": "Person", "name": "Mr. Heel Hook" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kiss of the dragon to back take",
+      "description": "Kiss of the Dragon film study: Kiss of the dragon to back take, taught by Jeremy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F22cQo7QrZA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F22cQo7QrZA",
+      "url": "https://www.youtube.com/watch?v=F22cQo7QrZA",
+      "creator": { "@type": "Person", "name": "Jeremy" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kiss of the dragon breakdown",
+      "description": "Kiss of the Dragon film study: Kiss of the dragon breakdown, taught by Azamat Hamzathanov.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qrmHPGGRops/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qrmHPGGRops",
+      "url": "https://www.youtube.com/watch?v=qrmHPGGRops",
+      "creator": { "@type": "Person", "name": "Azamat Hamzathanov" },
+      "duration": "PT181S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technique exploits the moment when an opponent commits weight forward into t
 The technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. The hip grip serves as the anchor that keeps the rolling practitioner's body tracing a tight arc around the opponent rather than rolling into empty space. When executed properly, the Kiss of the Dragon provides one of the most direct paths from turtle top to full back control with hooks. The technique has gained prominence in modern competition grappling as a complement to traditional turtle attacks, creating a three-dimensional threat system that is extremely difficult to defend comprehensively.
 
 **From Position**: [[Positions/Turtle]] (Top)
-**Success Rate**: 50%
+**Success Rate**: 29%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kiss of the Dragon in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WUWYA0GXByQ)
+
+<p class="clip-credit"><strong>Kiss of the dragon to backside 50/50</strong> — taught by Mr. Heel Hook · 2:01 · <a href="https://www.youtube.com/watch?v=WUWYA0GXByQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F22cQo7QrZA)
+
+<p class="clip-credit"><strong>Kiss of the dragon to back take</strong> — taught by Jeremy · 0:44 · <a href="https://www.youtube.com/watch?v=F22cQo7QrZA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qrmHPGGRops)
+
+<p class="clip-credit"><strong>Kiss of the dragon breakdown</strong> — taught by Azamat Hamzathanov · 3:01 · <a href="https://www.youtube.com/watch?v=qrmHPGGRops" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

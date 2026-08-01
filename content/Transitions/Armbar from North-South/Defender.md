@@ -156,6 +156,54 @@ description: "How to defend against Armbar from North-South in BJJ. Recognition 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from North-South (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar escape fundamentals",
+      "description": "Armbar from North-South (Defender) film study: Armbar escape fundamentals, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNdKfUdgO4I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNdKfUdgO4I",
+      "url": "https://www.youtube.com/watch?v=kNdKfUdgO4I",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT92S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping North-South Based on Arm Position",
+      "description": "Armbar from North-South (Defender) film study: Escaping North-South Based on Arm Position, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KG916GxW-88/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KG916GxW-88",
+      "url": "https://www.youtube.com/watch?v=KG916GxW-88",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT737S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Defending the Armbar Under EBI Rules",
+      "description": "Armbar from North-South (Defender) film study: Defending the Armbar Under EBI Rules, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zwNOXB8GQ3w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zwNOXB8GQ3w",
+      "url": "https://www.youtube.com/watch?v=zwNOXB8GQ3w",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT208S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -169,6 +217,42 @@ The most dangerous moment for the defender is during the attacker's hip rotation
 **Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from North-South (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNdKfUdgO4I)
+
+<p class="clip-credit"><strong>Armbar escape fundamentals</strong> — taught by Matt Arroyo · 1:32 · <a href="https://www.youtube.com/watch?v=kNdKfUdgO4I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KG916GxW-88)
+
+<p class="clip-credit"><strong>Escaping North-South Based on Arm Position</strong> — taught by Lachlan Giles · 12:17 · <a href="https://www.youtube.com/watch?v=KG916GxW-88" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zwNOXB8GQ3w)
+
+<p class="clip-credit"><strong>Defending the Armbar Under EBI Rules</strong> — taught by Lachlan Giles · 3:28 · <a href="https://www.youtube.com/watch?v=zwNOXB8GQ3w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

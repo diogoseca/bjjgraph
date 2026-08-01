@@ -34,6 +34,43 @@ description: "Master Inside Ashi-Garami to Ushiro Ashi transition in BJJ. Follow
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami to Ushiro Ashi \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "V grip from top ushiro transition",
+      "description": "Inside Ashi-Garami to Ushiro Ashi film study: V grip from top ushiro transition, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lTsK9C_a6po/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lTsK9C_a6po",
+      "url": "https://www.youtube.com/watch?v=lTsK9C_a6po",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Sumi Gaeshi to Cross Ashi entanglement inversion",
+      "description": "Inside Ashi-Garami to Ushiro Ashi film study: Sumi Gaeshi to Cross Ashi entanglement inversion, taught by BJJFlowCharts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gc3kDoiiFAs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gc3kDoiiFAs",
+      "url": "https://www.youtube.com/watch?v=gc3kDoiiFAs",
+      "creator": { "@type": "Person", "name": "BJJFlowCharts" },
+      "duration": "PT83S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Mastery of this transition separates intermediate leg lock practitioners from ad
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami to Ushiro Ashi in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lTsK9C_a6po)
+
+<p class="clip-credit"><strong>V grip from top ushiro transition</strong> — taught by Gordon Ryan · 2:20 · <a href="https://www.youtube.com/watch?v=lTsK9C_a6po" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gc3kDoiiFAs)
+
+<p class="clip-credit"><strong>Sumi Gaeshi to Cross Ashi entanglement inversion</strong> — taught by BJJFlowCharts · 1:23 · <a href="https://www.youtube.com/watch?v=gc3kDoiiFAs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

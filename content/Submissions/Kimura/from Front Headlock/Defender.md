@@ -150,6 +150,54 @@ description: "Defend against the Kimura from front headlock in BJJ. Recognize gr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura from Front Headlock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front Headlock Sit-Out Reversal",
+      "description": "Kimura from Front Headlock (Defender) film study: Front Headlock Sit-Out Reversal, taught by takadadojokeith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/t4xBYQ1VauU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/t4xBYQ1VauU",
+      "url": "https://www.youtube.com/watch?v=t4xBYQ1VauU",
+      "creator": { "@type": "Person", "name": "takadadojokeith" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front Headlock Escape",
+      "description": "Kimura from Front Headlock (Defender) film study: Front Headlock Escape, taught by Erik Paulson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/18OPk9jF39A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/18OPk9jF39A",
+      "url": "https://www.youtube.com/watch?v=18OPk9jF39A",
+      "creator": { "@type": "Person", "name": "Erik Paulson" },
+      "duration": "PT109S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Front Headlock Escape to Kimura",
+      "description": "Kimura from Front Headlock (Defender) film study: Front Headlock Escape to Kimura, taught by Advanced Fighting Centre.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ShZv8y0u0vA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ShZv8y0u0vA",
+      "url": "https://www.youtube.com/watch?v=ShZv8y0u0vA",
+      "creator": { "@type": "Person", "name": "Advanced Fighting Centre" },
+      "duration": "PT62S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Kimura from front headlock requires recognizing the moment your op
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura from Front Headlock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=t4xBYQ1VauU)
+
+<p class="clip-credit"><strong>Front Headlock Sit-Out Reversal</strong> — taught by takadadojokeith · 0:28 · <a href="https://www.youtube.com/watch?v=t4xBYQ1VauU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=18OPk9jF39A)
+
+<p class="clip-credit"><strong>Front Headlock Escape</strong> — taught by Erik Paulson · 1:49 · <a href="https://www.youtube.com/watch?v=18OPk9jF39A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ShZv8y0u0vA)
+
+<p class="clip-credit"><strong>Front Headlock Escape to Kimura</strong> — taught by Advanced Fighting Centre · 1:02 · <a href="https://www.youtube.com/watch?v=ShZv8y0u0vA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

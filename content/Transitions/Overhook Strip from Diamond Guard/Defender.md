@@ -148,6 +148,32 @@ description: "Defend your diamond guard overhook against stripping attempts in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Overhook Strip from Diamond Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clearing the overhook and removing the angle",
+      "description": "Overhook Strip from Diamond Guard (Defender) film study: Clearing the overhook and removing the angle, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ovecwiNyE3k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ovecwiNyE3k",
+      "url": "https://www.youtube.com/watch?v=ovecwiNyE3k",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT386S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +183,26 @@ As the bottom player defending against the Overhook Strip from Diamond Guard, yo
 **Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Overhook Strip from Diamond Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ovecwiNyE3k)
+
+<p class="clip-credit"><strong>Clearing the overhook and removing the angle</strong> — taught by Lachlan Giles · 6:26 · <a href="https://www.youtube.com/watch?v=ovecwiNyE3k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

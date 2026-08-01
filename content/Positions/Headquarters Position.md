@@ -35,6 +35,43 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Headquarters Position \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing a Seated Guard With Underhooks",
+      "description": "Headquarters Position film study: Passing a Seated Guard With Underhooks, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zT3JjOR838w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zT3JjOR838w",
+      "url": "https://www.youtube.com/watch?v=zT3JjOR838w",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT143S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gordon Ryan Style Guard Pass",
+      "description": "Headquarters Position film study: Gordon Ryan Style Guard Pass, taught by Danny Brown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ACWzSbjbo2g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ACWzSbjbo2g",
+      "url": "https://www.youtube.com/watch?v=ACWzSbjbo2g",
+      "creator": { "@type": "Person", "name": "Danny Brown" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +107,34 @@ Headquarters offers a systematic approach to bypassing various guard configurati
 This position represents a fundamental evolution in guard passing theory, moving away from commitment-heavy explosive passes toward measured, reactive approaches that maintain safety while threatening multiple directions simultaneously. The passer can probe defenses methodically, returning to headquarters between attempts rather than overcommitting to single directions, creating grinding systematic pressure that exhausts defensive options over time.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Headquarters Position in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zT3JjOR838w)
+
+<p class="clip-credit"><strong>Passing a Seated Guard With Underhooks</strong> — taught by John Danaher · 2:23 · <a href="https://www.youtube.com/watch?v=zT3JjOR838w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ACWzSbjbo2g)
+
+<p class="clip-credit"><strong>Gordon Ryan Style Guard Pass</strong> — taught by Danny Brown · 3:29 · <a href="https://www.youtube.com/watch?v=ACWzSbjbo2g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -141,13 +206,13 @@ This position represents a fundamental evolution in guard passing theory, moving
 ### Available Transitions
 
 
-- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (30% of attempts)
+- **[[Transitions/Re-Guard from Headquarters/Attacker|Re-Guard from Headquarters]]** (39% of attempts)
 
-- **[[Transitions/Sweep from Headquarters/Attacker|Sweep from Headquarters]]** (25% of attempts)
+- **[[Transitions/Sweep from Headquarters/Attacker|Sweep from Headquarters]]** (18% of attempts)
 
-- **[[Transitions/Inversion from Headquarters/Attacker|Inversion from Headquarters]]** (25% of attempts)
+- **[[Transitions/Inversion from Headquarters/Attacker|Inversion from Headquarters]]** (19% of attempts)
 
-- **[[Transitions/Shin-to-Shin from Headquarters/Attacker|Shin-to-Shin from Headquarters]]** (20% of attempts)
+- **[[Transitions/Shin-to-Shin from Headquarters/Attacker|Shin-to-Shin from Headquarters]]** (24% of attempts)
 
 
 ### Common Mistakes
@@ -208,19 +273,19 @@ This position represents a fundamental evolution in guard passing theory, moving
 ### Available Transitions
 
 
-- **[[Transitions/Knee Cut from Headquarters/Attacker|Knee Cut from Headquarters]]** (28% of attempts)
+- **[[Transitions/Knee Cut from Headquarters/Attacker|Knee Cut from Headquarters]]** (22% of attempts)
 
-- **[[Transitions/Toreando from Headquarters/Attacker|Toreando from Headquarters]]** (18% of attempts)
+- **[[Transitions/Toreando from Headquarters/Attacker|Toreando from Headquarters]]** (14% of attempts)
 
-- **[[Transitions/Leg Drag from Headquarters/Attacker|Leg Drag from Headquarters]]** (17% of attempts)
+- **[[Transitions/Leg Drag from Headquarters/Attacker|Leg Drag from Headquarters]]** (18% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (9% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (12% of attempts)
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (10% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (12% of attempts)
 
-- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (5% of attempts)
+- **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (13% of attempts)
 
 
 ### Common Mistakes

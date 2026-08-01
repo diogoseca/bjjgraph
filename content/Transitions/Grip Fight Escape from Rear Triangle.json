@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Rear Triangle/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "Caught in one of BJJ's most dangerous back control configurations, the bottom player faces a rear triangle that fuses a blood choke with positional dominance, where explosive movement and frantic scrambling only tighten the finish. Rather than relying on those panic responses, this escape uses systematic hand fighting to dismantle the opponent's triangle lock grip by grip. The technique centers on using the free hand to target the structural weak points of the triangle configuration, specifically the ankle-to-knee connection that maintains the figure-four lock and the wrist controls that prevent arm extraction.\n\nThis approach is particularly valuable when the triangle is tight enough to prevent explosive escapes but has not yet produced a finishing choke. The grip fight creates incremental space by first controlling the opponent's choking leg, then working to loosen the ankle lock, and finally extracting the trapped arm from inside the triangle. The methodical nature of this escape makes it energy-efficient compared to explosive alternatives, though it requires precise knowledge of which grips to target and in what sequence. Timing is critical because the window between a locked triangle and a finishing choke can be measured in seconds.\n\nWithin the broader escape hierarchy from rear triangle bottom, the grip fight sits between passive survival and explosive escape attempts. It complements other defensive options like posture recovery and rolling escapes, often serving as the initial step that creates enough looseness in the triangle for more dynamic follow-up escapes to succeed. Practitioners who master this grip fight gain a calm, systematic tool for the most pressured moments in back defense.",
   "conditions": [
     "Caught in rear triangle bottom with at least one free hand available for grip fighting",
@@ -235,38 +247,147 @@
     "flashcards": [
       {
         "question": "When is the ideal moment to initiate the grip fight escape from a locked rear triangle?",
-        "answer": "The ideal moment is when the triangle is locked but the opponent is still working to tighten the choke or adjust their angle, meaning they have not yet achieved full carotid compression. You should initiate immediately after establishing defensive chin tuck and shoulder shrug posture. Waiting too long allows the opponent to optimize their finishing angle, while starting too early before protecting your neck means the grip fight accelerates the choke. The window opens when you feel the lock but can still breathe and think clearly."
+        "answer": "The ideal moment is when the triangle is locked but the opponent is still working to tighten the choke or adjust their angle, meaning they have not yet achieved full carotid compression. You should initiate immediately after establishing defensive chin tuck and shoulder shrug posture. Waiting too long allows the opponent to optimize their finishing angle, while starting too early before protecting your neck means the grip fight accelerates the choke. The window opens when you feel the lock but can still breathe and think clearly.",
+        "answer_line": "After chin tuck, still breathing",
+        "distractors": {
+          "plausible": [
+            "Wait until choke feels tight",
+            "Start before defending your neck"
+          ],
+          "trap": [
+            "Explode the moment it locks in"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can effectively begin the grip fight escape?",
-        "answer": "You need at least one free hand with functional grip strength available to fight the triangle lock. Your chin must be tucked to chest with face turned toward the non-choking leg to prevent the choke from finishing while you work. You must be able to identify the ankle-knee connection point by feel. If both hands are trapped or the choke is already producing tunnel vision, the grip fight is not viable and you should either tap or attempt an explosive positional escape instead."
+        "answer": "You need at least one free hand with functional grip strength available to fight the triangle lock. Your chin must be tucked to chest with face turned toward the non-choking leg to prevent the choke from finishing while you work. You must be able to identify the ankle-knee connection point by feel. If both hands are trapped or the choke is already producing tunnel vision, the grip fight is not viable and you should either tap or attempt an explosive positional escape instead.",
+        "answer_line": "One free hand to fight the lock",
+        "distractors": {
+          "plausible": [
+            "Both arms loose to pry it open",
+            "Wait for their squeeze to ease"
+          ],
+          "trap": [
+            "Turn your head into the choking leg"
+          ]
+        }
       },
       {
         "question": "Which specific structural point of the triangle should your free hand target first and why?",
-        "answer": "Target the ankle-knee connection where the opponent's choking leg ankle locks behind their opposite knee to form the figure-four. This is the single structural foundation of the entire triangle. Breaking this one connection point loosens the entire lock more effectively than stripping any hand grip or fighting any other control point. The ankle-knee joint is also mechanically vulnerable to lateral force because the figure-four relies on the ankle staying precisely in the knee crook."
+        "answer": "Target the ankle-knee connection where the opponent's choking leg ankle locks behind their opposite knee to form the figure-four. This is the single structural foundation of the entire triangle. Breaking this one connection point loosens the entire lock more effectively than stripping any hand grip or fighting any other control point. The ankle-knee joint is also mechanically vulnerable to lateral force because the figure-four relies on the ankle staying precisely in the knee crook.",
+        "answer_line": "Ankle-knee figure-four lock",
+        "distractors": {
+          "plausible": [
+            "Strip their choking hand first",
+            "Attack the top knee pressure"
+          ],
+          "trap": [
+            "Pull straight on their foot"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the grip fight escape fails and how do you prevent it?",
-        "answer": "The most common failure is losing grip strength through sustained pulling rather than burst efforts, resulting in forearm fatigue before the lock breaks. This is prevented by using short explosive bursts of one to two seconds timed with your exhale, rather than sustained pulling against the lock. Between bursts, maintain your grip position but relax the muscles. Each burst should be maximum effort. Additionally, targeting the correct direction of force, perpendicular to the lock rather than straight out, dramatically reduces the force required."
+        "answer": "The most common failure is losing grip strength through sustained pulling rather than burst efforts, resulting in forearm fatigue before the lock breaks. This is prevented by using short explosive bursts of one to two seconds timed with your exhale, rather than sustained pulling against the lock. Between bursts, maintain your grip position but relax the muscles. Each burst should be maximum effort. Additionally, targeting the correct direction of force, perpendicular to the lock rather than straight out, dramatically reduces the force required.",
+        "answer_line": "Sustained pull, not bursts",
+        "distractors": {
+          "plausible": [
+            "Not enough grip strength",
+            "Pulling straight out constantly"
+          ],
+          "trap": [
+            "Hold nonstop until it breaks"
+          ]
+        }
       },
       {
         "question": "How should you configure your gripping hand when targeting the ankle-knee connection?",
-        "answer": "Use a C-grip with fingers wrapped around the opponent's ankle bone and thumb pressing against the opposite side. The grip should be positioned directly at the point where the ankle crosses behind the knee, not higher on the shin or lower on the foot. Your wrist should be aligned with your forearm to maximize grip endurance and force transmission. Avoid a monkey grip with thumb on the same side as fingers, as this provides less control over the peeling direction."
+        "answer": "Use a C-grip with fingers wrapped around the opponent's ankle bone and thumb pressing against the opposite side. The grip should be positioned directly at the point where the ankle crosses behind the knee, not higher on the shin or lower on the foot. Your wrist should be aligned with your forearm to maximize grip endurance and force transmission. Avoid a monkey grip with thumb on the same side as fingers, as this provides less control over the peeling direction.",
+        "answer_line": "C-grip at ankle-knee point",
+        "distractors": {
+          "plausible": [
+            "C-grip higher on the shin",
+            "C-grip lower near the foot"
+          ],
+          "trap": [
+            "Monkey grip, thumb same side"
+          ]
+        }
       },
       {
         "question": "In which direction should you push the opponent's ankle to most effectively break the figure-four lock?",
-        "answer": "Push the ankle toward the opponent's far hip, perpendicular to the direction the ankle enters the knee crook. Most practitioners make the mistake of pulling the ankle straight out along its entry path, which fights the tightest part of the lock. By pushing perpendicular, you slide the ankle out of the groove with significantly less force required. Think of it as peeling the ankle sideways rather than pulling it backward through the lock."
+        "answer": "Push the ankle toward the opponent's far hip, perpendicular to the direction the ankle enters the knee crook. Most practitioners make the mistake of pulling the ankle straight out along its entry path, which fights the tightest part of the lock. By pushing perpendicular, you slide the ankle out of the groove with significantly less force required. Think of it as peeling the ankle sideways rather than pulling it backward through the lock.",
+        "answer_line": "Push ankle toward far hip",
+        "distractors": {
+          "plausible": [
+            "Pull ankle straight out",
+            "Push ankle toward your own hip"
+          ],
+          "trap": [
+            "Yank knee away from ankle"
+          ]
+        }
       },
       {
         "question": "Your opponent squeezes their triangle tighter as you begin fighting the ankle grip. How do you adjust?",
-        "answer": "Reinforce your chin tuck and shoulder shrug immediately to buy time against the increased pressure. Switch your grip fight timing to match the opponent's breathing: attack the ankle during their exhale when their squeezing power is reduced. If the tightening makes the ankle unreachable, temporarily switch to fighting their hand controls instead, which forces them to choose between maintaining the choke angle and defending their grips. Once their hands engage defensively, return to attacking the ankle."
+        "answer": "Reinforce your chin tuck and shoulder shrug immediately to buy time against the increased pressure. Switch your grip fight timing to match the opponent's breathing: attack the ankle during their exhale when their squeezing power is reduced. If the tightening makes the ankle unreachable, temporarily switch to fighting their hand controls instead, which forces them to choose between maintaining the choke angle and defending their grips. Once their hands engage defensively, return to attacking the ankle.",
+        "answer_line": "Attack ankle during their exhale",
+        "distractors": {
+          "plausible": [
+            "Push harder against the squeeze",
+            "Switch immediately to hand grips"
+          ],
+          "trap": [
+            "Release chin tuck to reach ankle"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully defends your ankle grip break by re-locking the triangle, what is your immediate follow-up?",
-        "answer": "Do not repeat the identical grip break attempt. Instead, chain into a different escape vector: attempt a hip escape to create angle, switch to the wrist peel variation targeting their hand grips, or use the disruption from your grip fight to attempt a posture recovery escape. Each failed grip break still loosens the triangle incrementally, so cycling between different attack points compounds these gains. If you have attempted three grip breaks without success, the triangle may be too tight for methodical escape and you should consider explosive alternatives or tapping."
+        "answer": "Do not repeat the identical grip break attempt. Instead, chain into a different escape vector: attempt a hip escape to create angle, switch to the wrist peel variation targeting their hand grips, or use the disruption from your grip fight to attempt a posture recovery escape. Each failed grip break still loosens the triangle incrementally, so cycling between different attack points compounds these gains. If you have attempted three grip breaks without success, the triangle may be too tight for methodical escape and you should consider explosive alternatives or tapping.",
+        "answer_line": "Switch to a different escape vector",
+        "distractors": {
+          "plausible": [
+            "Wait for their grip to tire",
+            "Squirm backward to slip free"
+          ],
+          "trap": [
+            "Posture up into the locked legs"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This escape involves fighting against a choking mechanism that can cause unconsciousness within seconds if the rear triangle is fully locked on the carotid arteries. Always practice with a cooperative partner initially and tap immediately if you experience lightheadedness, tunnel vision, or any neurological symptoms. The partner maintaining the rear triangle should apply controlled pressure and release immediately upon tap or verbal signal. Never attempt to fight through a fully sunk choke in training. When drilling grip breaks, be mindful of your partner's knee and ankle joints as forceful peeling can strain ligaments. Progress resistance gradually across training sessions."
+    "safety_considerations": "This escape involves fighting against a choking mechanism that can cause unconsciousness within seconds if the rear triangle is fully locked on the carotid arteries. Always practice with a cooperative partner initially and tap immediately if you experience lightheadedness, tunnel vision, or any neurological symptoms. The partner maintaining the rear triangle should apply controlled pressure and release immediately upon tap or verbal signal. Never attempt to fight through a fully sunk choke in training. When drilling grip breaks, be mindful of your partner's knee and ankle joints as forceful peeling can strain ligaments. Progress resistance gradually across training sessions.",
+    "clips": [
+      {
+        "id": "cWrV0wc6jyQ",
+        "title": "Back defense: the Home Alone escape",
+        "by": "Procel Brazilian Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "8XBJboAGzRk",
+        "title": "Escaping the Back: Clearing the Arm to the Other Side",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 260,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "k-lCzVAzJpg",
+        "title": "Escaping the Back with Leg Work Detail",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 421,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Grip Fight Escape from Rear Triangle Defender",
@@ -352,19 +473,59 @@
     "flashcards": [
       {
         "question": "How do you recognize the difference between a panicked escape attempt and a systematic grip fight from the bottom player?",
-        "answer": "A panicked escape involves explosive, undirected movements like wild bridging, frantic arm pulling, or full-body thrashing without targeting specific control points. A systematic grip fight shows deliberate hand placement targeting your ankle-knee connection, burst-and-rest timing patterns, maintained chin protection throughout the escape attempt, and progressive small gains rather than all-or-nothing efforts. The systematic grip fight is far more dangerous and requires immediate defensive response, while panicked escapes often tire the opponent without achieving structural damage to your triangle."
+        "answer": "A panicked escape involves explosive, undirected movements like wild bridging, frantic arm pulling, or full-body thrashing without targeting specific control points. A systematic grip fight shows deliberate hand placement targeting your ankle-knee connection, burst-and-rest timing patterns, maintained chin protection throughout the escape attempt, and progressive small gains rather than all-or-nothing efforts. The systematic grip fight is far more dangerous and requires immediate defensive response, while panicked escapes often tire the opponent without achieving structural damage to your triangle.",
+        "answer_line": "Deliberate grip, burst-rest timing",
+        "distractors": {
+          "plausible": [
+            "Any bridging is systematic effort",
+            "Fast movement means real danger"
+          ],
+          "trap": [
+            "Ignore small grip adjustments"
+          ]
+        }
       },
       {
         "question": "What is your immediate response when you feel the bottom player's hand wrapping around your ankle at the lock point?",
-        "answer": "Immediately squeeze your knees together to tighten the triangle lock and make the ankle harder to peel. Simultaneously use your nearest free hand to strip their grip by peeling their fingers off your ankle or pushing their wrist away from the connection point. If you cannot strip the grip immediately, increase choking pressure by angling your hips to force them to choose between maintaining the ankle grip and defending the choke. Speed of response is critical because once they establish a strong C-grip on your ankle, it becomes much harder to defend."
+        "answer": "Immediately squeeze your knees together to tighten the triangle lock and make the ankle harder to peel. Simultaneously use your nearest free hand to strip their grip by peeling their fingers off your ankle or pushing their wrist away from the connection point. If you cannot strip the grip immediately, increase choking pressure by angling your hips to force them to choose between maintaining the ankle grip and defending the choke. Speed of response is critical because once they establish a strong C-grip on your ankle, it becomes much harder to defend.",
+        "answer_line": "Squeeze knees, strip their grip",
+        "distractors": {
+          "plausible": [
+            "Wait to see if grip sticks",
+            "Loosen legs to reposition"
+          ],
+          "trap": [
+            "Ignore it and finish the choke"
+          ]
+        }
       },
       {
         "question": "Your bottom player has loosened the ankle lock significantly. What adjustments do you make to maintain dominant position?",
-        "answer": "If the ankle lock is loosened beyond recovery, do not waste energy trying to re-lock the triangle. Instead, immediately transition to standard back control by inserting your hooks and establishing a seatbelt grip while you still have back exposure. If hooks are already partially in, focus on securing full back control before the opponent can escape to turtle. Alternatively, if the opponent's arm is still partially trapped, transition to crucifix or armbar before they fully extract it. The key decision is recognizing the point of no return for the triangle and transitioning before you lose all positional advantage."
+        "answer": "If the ankle lock is loosened beyond recovery, do not waste energy trying to re-lock the triangle. Instead, immediately transition to standard back control by inserting your hooks and establishing a seatbelt grip while you still have back exposure. If hooks are already partially in, focus on securing full back control before the opponent can escape to turtle. Alternatively, if the opponent's arm is still partially trapped, transition to crucifix or armbar before they fully extract it. The key decision is recognizing the point of no return for the triangle and transitioning before you lose all positional advantage.",
+        "answer_line": "Transition to back control now",
+        "distractors": {
+          "plausible": [
+            "Keep fighting to re-lock triangle",
+            "Reset to guard and restart"
+          ],
+          "trap": [
+            "Squeeze harder and wait it out"
+          ]
+        }
       },
       {
         "question": "How do you balance maintaining the triangle choke threat while defending against the grip fight escape?",
-        "answer": "Alternate between offensive choke pressure and defensive grip protection in a rhythmic cycle. When you feel the opponent reaching for your ankle, briefly shift focus to stripping their grip or tightening the lock, then immediately return to choke pressure. The opponent cannot effectively fight your ankle while defending a tight choke, so maintaining high choking pressure is actually your best defense against the grip fight. Use your hands to cycle between attacking the opponent's neck and defending your ankle connection, never committing fully to one at the expense of the other."
+        "answer": "Alternate between offensive choke pressure and defensive grip protection in a rhythmic cycle. When you feel the opponent reaching for your ankle, briefly shift focus to stripping their grip or tightening the lock, then immediately return to choke pressure. The opponent cannot effectively fight your ankle while defending a tight choke, so maintaining high choking pressure is actually your best defense against the grip fight. Use your hands to cycle between attacking the opponent's neck and defending your ankle connection, never committing fully to one at the expense of the other.",
+        "answer_line": "Cycle choke pressure and defense",
+        "distractors": {
+          "plausible": [
+            "Focus only on choke pressure",
+            "Focus only on grip defense"
+          ],
+          "trap": [
+            "Release choke to fully defend grip"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -387,6 +548,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Full resistance application of grip fight defense",
         "description": "Start in locked rear triangle with partner using full effort grip fight escape. Practice maintaining position, defending the escape, and finishing submissions or transitioning to alternative dominant positions. Three-minute rounds with reset on escape or submission. Track success rate of maintaining position versus opponent escaping."
+      }
+    ],
+    "clips": [
+      {
+        "id": "kpUNco4wp0U",
+        "title": "Troubleshooting the rear triangle (ushiro sankaku)",
+        "by": "kangchenjj",
+        "vertical": false,
+        "channel": "kangchenjj",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
       }
     ]
   }

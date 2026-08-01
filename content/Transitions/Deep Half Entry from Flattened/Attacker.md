@@ -180,6 +180,54 @@ description: "Learn to execute the Deep Half Entry from Flattened Half Guard. St
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Deep Half Entry from Flattened (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Entering deep half guard from under knee on belly",
+      "description": "Deep Half Entry from Flattened (Attacker) film study: Entering deep half guard from under knee on belly, taught by Team Daruma Dojo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dalv3UtxCZ0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dalv3UtxCZ0",
+      "url": "https://www.youtube.com/watch?v=Dalv3UtxCZ0",
+      "creator": { "@type": "Person", "name": "Team Daruma Dojo" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Low grip and high grip for deep half guard",
+      "description": "Deep Half Entry from Flattened (Attacker) film study: Low grip and high grip for deep half guard, taught by Jeff Glover.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_IGB9jEvXfo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_IGB9jEvXfo",
+      "url": "https://www.youtube.com/watch?v=_IGB9jEvXfo",
+      "creator": { "@type": "Person", "name": "Jeff Glover" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Deep half guard sweep from under pressure",
+      "description": "Deep Half Entry from Flattened (Attacker) film study: Deep half guard sweep from under pressure, taught by Kyle Dimmitt.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZQzg3TnzMJI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ZQzg3TnzMJI",
+      "url": "https://www.youtube.com/watch?v=ZQzg3TnzMJI",
+      "creator": { "@type": "Person", "name": "Kyle Dimmitt" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 **From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Deep Half Entry from Flattened (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dalv3UtxCZ0)
+
+<p class="clip-credit"><strong>Entering deep half guard from under knee on belly</strong> — taught by Team Daruma Dojo · 1:08 · <a href="https://www.youtube.com/watch?v=Dalv3UtxCZ0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_IGB9jEvXfo)
+
+<p class="clip-credit"><strong>Low grip and high grip for deep half guard</strong> — taught by Jeff Glover · 0:42 · <a href="https://www.youtube.com/watch?v=_IGB9jEvXfo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ZQzg3TnzMJI)
+
+<p class="clip-credit"><strong>Deep half guard sweep from under pressure</strong> — taught by Kyle Dimmitt · 0:42 · <a href="https://www.youtube.com/watch?v=ZQzg3TnzMJI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

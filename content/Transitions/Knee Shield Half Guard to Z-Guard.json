@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Z-Guard/Bottom",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Knee Shield Half Guard/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 65,
+  "success_rate": {
+    "gi": 65,
+    "nogi": 65
+  },
   "overview": "The Transition to Z-Guard is a positional upgrade performed by the bottom player in Knee Shield Half Guard, where the knee shield is elevated from the opponent's hip or mid-torso to target the shoulder or collarbone. This elevation fundamentally transforms the guard's defensive geometry by creating a taller, more rigid frame that prevents the top player from settling weight and eliminates most direct pressure passing options. The transition requires coordinated hip movement, grip adjustment, and precise knee placement to achieve the characteristic Z-shaped body configuration that gives the position its name.\n\nStrategically, this transition represents one of the most important guard upgrades in the half guard system. Standard knee shield half guard already provides solid retention, but the elevated Z-Guard frame offers substantially better sweep angles, more effective distance management, and direct access to back take opportunities when the opponent attempts to circle the shield. The transition is most effective when the top player is momentarily off-balance, adjusting grips, or transitioning between passing strategies, creating a window where the bottom player can elevate the shield without resistance.\n\nThe mechanical key to the transition lies in generating hip elevation through a bridge or hip escape while simultaneously driving the knee shield upward along the opponent's torso from the standard position to the shoulder. This must be accompanied by grip adjustments, typically securing or deepening an underhook on the trapped leg side while establishing a controlling grip on the far side to prevent the top player from collapsing the newly elevated frame. When executed properly, the transition feels seamless and leaves the bottom player in a significantly stronger defensive and offensive position.",
   "variants_and_adaptations": [
     {
@@ -248,38 +260,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the knee shield elevation to Z-Guard?",
-        "answer": "The optimal window occurs when the opponent is transitioning between passing strategies, adjusting grips, or shifting their weight distribution. Specifically, look for the moment when they release one grip to establish another, when they shift from pressure passing to standing, or when they reposition their base. These transitions create brief periods of reduced pressure where the knee can travel upward without meeting full resistance."
+        "answer": "The optimal window occurs when the opponent is transitioning between passing strategies, adjusting grips, or shifting their weight distribution. Specifically, look for the moment when they release one grip to establish another, when they shift from pressure passing to standing, or when they reposition their base. These transitions create brief periods of reduced pressure where the knee can travel upward without meeting full resistance.",
+        "answer_line": "Grip release or weight shift",
+        "distractors": {
+          "plausible": [
+            "Whenever you feel strongest",
+            "Right after they crossface"
+          ],
+          "trap": [
+            "While they drive forward hard"
+          ]
+        }
       },
       {
         "question": "What conditions must exist in your knee shield half guard before you can attempt the Z-Guard transition?",
-        "answer": "Your hips must retain mobility and not be flattened to the mat. You need at least one controlling grip (underhook preferred) on the opponent's upper body. The opponent's crossface must be neutralized or absent so your head and shoulders can move. Your bottom leg hook must be secure on the opponent's trapped leg. Your current knee shield must have enough structural integrity to survive the momentary instability during elevation."
+        "answer": "Your hips must retain mobility and not be flattened to the mat. You need at least one controlling grip (underhook preferred) on the opponent's upper body. The opponent's crossface must be neutralized or absent so your head and shoulders can move. Your bottom leg hook must be secure on the opponent's trapped leg. Your current knee shield must have enough structural integrity to survive the momentary instability during elevation.",
+        "answer_line": "Underhook, free hips, no crossface",
+        "distractors": {
+          "plausible": [
+            "Just need the underhook grip",
+            "Flat hips, deep crossface control"
+          ],
+          "trap": [
+            "Release leg hook to move faster"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that distinguishes a successful Z-Guard elevation from a failed one?",
-        "answer": "The coordination between hip elevation and knee travel is the critical mechanical detail. The hip bridge or hip escape must create vertical space before the knee begins its upward journey. If you try to drive the knee upward without first lifting the opponent's weight off the shield through hip movement, the knee meets direct resistance and the transition stalls or gets stuffed. The hip moves first, the knee follows into the created space."
+        "answer": "The coordination between hip elevation and knee travel is the critical mechanical detail. The hip bridge or hip escape must create vertical space before the knee begins its upward journey. If you try to drive the knee upward without first lifting the opponent's weight off the shield through hip movement, the knee meets direct resistance and the transition stalls or gets stuffed. The hip moves first, the knee follows into the created space.",
+        "answer_line": "Hips lift first, knee follows",
+        "distractors": {
+          "plausible": [
+            "Knee and hip move together",
+            "Drive the knee up with strength"
+          ],
+          "trap": [
+            "Force the knee through resistance"
+          ]
+        }
       },
       {
         "question": "Why is the underhook so important during the Z-Guard transition specifically?",
-        "answer": "The underhook provides structural support that prevents the opponent from collapsing the knee shield during the vulnerable transition phase. When the knee is traveling from mid-torso to shoulder height, there is a brief moment where the frame is neither in its old stable position nor its new one. The underhook creates an upper body connection that maintains distance during this gap, essentially serving as a backup frame while the primary frame is being repositioned."
+        "answer": "The underhook provides structural support that prevents the opponent from collapsing the knee shield during the vulnerable transition phase. When the knee is traveling from mid-torso to shoulder height, there is a brief moment where the frame is neither in its old stable position nor its new one. The underhook creates an upper body connection that maintains distance during this gap, essentially serving as a backup frame while the primary frame is being repositioned.",
+        "answer_line": "Backup frame during the gap",
+        "distractors": {
+          "plausible": [
+            "Sets up the sweep directly",
+            "Controls their hips instead"
+          ],
+          "trap": [
+            "Let go of frame, all in on hook"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your knee shield leg at the ankle as you begin elevating. How do you adjust?",
-        "answer": "Use your far hand to strip their grip on your ankle by peeling their fingers or slapping their hand away. Maintain your underhook with your near arm throughout the grip fight. Once the grip is broken, immediately continue the elevation before they can re-grip. If the grip is too strong to strip, use the grip fighting exchange as a distraction to deepen your underhook, then attempt the elevation with the enhanced upper body control that makes their leg grip less effective."
+        "answer": "Use your far hand to strip their grip on your ankle by peeling their fingers or slapping their hand away. Maintain your underhook with your near arm throughout the grip fight. Once the grip is broken, immediately continue the elevation before they can re-grip. If the grip is too strong to strip, use the grip fighting exchange as a distraction to deepen your underhook, then attempt the elevation with the enhanced upper body control that makes their leg grip less effective.",
+        "answer_line": "Strip grip, keep underhook, elevate",
+        "distractors": {
+          "plausible": [
+            "Kick the leg free aggressively",
+            "Switch to a different guard"
+          ],
+          "trap": [
+            "Abandon underhook to fight grip"
+          ]
+        }
       },
       {
         "question": "What direction of force should the knee shield apply once it reaches the shoulder position?",
-        "answer": "The knee should drive outward and slightly upward into the opponent's shoulder at approximately a 45-degree angle relative to the mat. This direction creates maximum distance by pushing the opponent's upper body away while simultaneously loading the frame like a spring. Pure horizontal pressure is less effective because it does not address the opponent's ability to drive downward. The upward component prevents them from settling their weight onto the frame."
+        "answer": "The knee should drive outward and slightly upward into the opponent's shoulder at approximately a 45-degree angle relative to the mat. This direction creates maximum distance by pushing the opponent's upper body away while simultaneously loading the frame like a spring. Pure horizontal pressure is less effective because it does not address the opponent's ability to drive downward. The upward component prevents them from settling their weight onto the frame.",
+        "answer_line": "45-degree angle into shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight up into their chin",
+            "Pure horizontal push away"
+          ],
+          "trap": [
+            "Pull knee down and in tight"
+          ]
+        }
       },
       {
         "question": "The opponent drives heavy crossface pressure the moment you begin elevating. What is your response?",
-        "answer": "Abort the Z-Guard transition immediately and address the crossface threat first. Frame on their bicep with your far hand to create space, then establish a collar tie or swim for an underhook to neutralize the crossface. If the crossface is already deep and your position is deteriorating, abandon the elevation entirely and transition to deep half guard using the opponent's forward pressure to facilitate the dive. Never continue an elevation attempt against established crossface control."
+        "answer": "Abort the Z-Guard transition immediately and address the crossface threat first. Frame on their bicep with your far hand to create space, then establish a collar tie or swim for an underhook to neutralize the crossface. If the crossface is already deep and your position is deteriorating, abandon the elevation entirely and transition to deep half guard using the opponent's forward pressure to facilitate the dive. Never continue an elevation attempt against established crossface control.",
+        "answer_line": "Abort, frame bicep, fight crossface",
+        "distractors": {
+          "plausible": [
+            "Power through the elevation anyway",
+            "Push their head with your palm"
+          ],
+          "trap": [
+            "Continue the Z-Guard transition"
+          ]
+        }
       },
       {
         "question": "How do chain attacks factor into the Z-Guard transition strategy?",
-        "answer": "The transition itself should be viewed as the first link in an offensive chain, not an isolated positional adjustment. Upon achieving Z-Guard, immediately threaten an Old School sweep or underhook bump to force the opponent to defend rather than counter-attack your new frame. If they defend the sweep by posting, transition to a back take. If they drive forward to resist the bump, use their momentum for deep half entry. The Z-Guard transition only succeeds strategically if it is immediately followed by offensive pressure."
+        "answer": "The transition itself should be viewed as the first link in an offensive chain, not an isolated positional adjustment. Upon achieving Z-Guard, immediately threaten an Old School sweep or underhook bump to force the opponent to defend rather than counter-attack your new frame. If they defend the sweep by posting, transition to a back take. If they drive forward to resist the bump, use their momentum for deep half entry. The Z-Guard transition only succeeds strategically if it is immediately followed by offensive pressure.",
+        "answer_line": "Chain into sweep or bump instantly",
+        "distractors": {
+          "plausible": [
+            "Reset and rebuild base first",
+            "Wait for opponent to react first"
+          ],
+          "trap": [
+            "Hold Z-Guard passively and stall"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Transition to Z-Guard is a low-risk positional adjustment with minimal injury potential. The primary safety concern is maintaining awareness of your knee shield leg position during elevation to avoid hyperextension of the knee if the opponent suddenly drives forward while your leg is in transition. Practitioners with knee injuries should be cautious about the dynamic knee positioning required and may need to modify the technique with slower, more controlled movements. Always ensure your bottom leg hook is secure to prevent the opponent from passing into positions where your knee could be trapped at a vulnerable angle."
+    "safety_considerations": "The Transition to Z-Guard is a low-risk positional adjustment with minimal injury potential. The primary safety concern is maintaining awareness of your knee shield leg position during elevation to avoid hyperextension of the knee if the opponent suddenly drives forward while your leg is in transition. Practitioners with knee injuries should be cautious about the dynamic knee positioning required and may need to modify the technique with slower, more controlled movements. Always ensure your bottom leg hook is secure to prevent the opponent from passing into positions where your knee could be trapped at a vulnerable angle.",
+    "clips": [
+      {
+        "id": "T3Gwg-ABsZA",
+        "title": "Three attacking options from the Z-guard",
+        "by": "Way of BJJ",
+        "vertical": false,
+        "channel": "Way of BJJ",
+        "duration": 67,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "IUiFusjf86Q",
+        "title": "Triangle setup from the Z-guard",
+        "by": "Thunderdome BJJ",
+        "vertical": false,
+        "channel": "Thunderdome BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QZou9Q97APg",
+        "title": "Knee shield and half guard sweep variations, no-gi",
+        "by": "Kaynan Duarte",
+        "vertical": false,
+        "channel": "Kaynan Duarte",
+        "duration": 177,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Knee Shield Half Guard to Z-Guard Defender",
@@ -364,19 +485,59 @@
     "flashcards": [
       {
         "question": "What are the earliest physical cues that indicate the bottom player is about to attempt the Z-Guard transition?",
-        "answer": "The earliest cues are hip movement and grip adjustment. A short bridge or lateral hip escape creates the space needed for knee elevation, and this always precedes the knee movement itself. Additionally, the bottom player will often release a controlling grip momentarily to establish a deeper underhook or collar tie, which signals preparation for the transition. Recognizing these pre-movement indicators allows you to respond before the knee begins traveling."
+        "answer": "The earliest cues are hip movement and grip adjustment. A short bridge or lateral hip escape creates the space needed for knee elevation, and this always precedes the knee movement itself. Additionally, the bottom player will often release a controlling grip momentarily to establish a deeper underhook or collar tie, which signals preparation for the transition. Recognizing these pre-movement indicators allows you to respond before the knee begins traveling.",
+        "answer_line": "Hip escape and grip release",
+        "distractors": {
+          "plausible": [
+            "Deep breathing and stalling",
+            "Sudden outward leg kick"
+          ],
+          "trap": [
+            "Wait until knee reaches shoulder"
+          ]
+        }
       },
       {
         "question": "Why is it important to prevent the Z-Guard transition rather than just dealing with Z-Guard once it is established?",
-        "answer": "Z-Guard is significantly harder to pass than standard knee shield half guard. The elevated frame creates better distance, superior sweep angles, and direct back take access. Preventing the transition keeps the bottom player in a less advantageous position where your passing strategies are more effective. Additionally, the bottom player builds momentum through successful transitions, and each positional upgrade increases their confidence and offensive output."
+        "answer": "Z-Guard is significantly harder to pass than standard knee shield half guard. The elevated frame creates better distance, superior sweep angles, and direct back take access. Preventing the transition keeps the bottom player in a less advantageous position where your passing strategies are more effective. Additionally, the bottom player builds momentum through successful transitions, and each positional upgrade increases their confidence and offensive output.",
+        "answer_line": "Z-Guard is far harder to pass",
+        "distractors": {
+          "plausible": [
+            "Z-Guard is illegal in comp",
+            "Only matters for advanced belts"
+          ],
+          "trap": [
+            "Let it happen, pass it later"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hip escaping and you feel their knee shield starting to creep upward. What is your immediate response sequence?",
-        "answer": "First, drive your hips forward to apply a pressure surge that opposes their hip escape direction. Second, use your near hand to control their knee shield leg at the knee, pressing it downward to prevent further upward travel. Third, establish or re-establish your crossface with the far hand to limit their upper body mobility. The combination of forward pressure, leg control, and crossface addresses all three mechanical requirements the bottom player needs for a successful elevation."
+        "answer": "First, drive your hips forward to apply a pressure surge that opposes their hip escape direction. Second, use your near hand to control their knee shield leg at the knee, pressing it downward to prevent further upward travel. Third, establish or re-establish your crossface with the far hand to limit their upper body mobility. The combination of forward pressure, leg control, and crossface addresses all three mechanical requirements the bottom player needs for a successful elevation.",
+        "answer_line": "Press forward, pin knee, crossface",
+        "distractors": {
+          "plausible": [
+            "Sit back to create space",
+            "Grab both ankles and squeeze"
+          ],
+          "trap": [
+            "Post hands and lean back"
+          ]
+        }
       },
       {
         "question": "How do you balance preventing the Z-Guard transition with maintaining your own passing offense?",
-        "answer": "The prevention should be integrated into your passing strategy rather than treated as a separate task. Maintain the grips and pressure that both prevent the transition and enable your passes. A strong crossface prevents the elevation and sets up knee slice passes. Controlling the knee shield leg blocks the transition and opens smash pass entries. The key insight is that good passing pressure inherently denies the Z-Guard transition because both require controlling the same contact points."
+        "answer": "The prevention should be integrated into your passing strategy rather than treated as a separate task. Maintain the grips and pressure that both prevent the transition and enable your passes. A strong crossface prevents the elevation and sets up knee slice passes. Controlling the knee shield leg blocks the transition and opens smash pass entries. The key insight is that good passing pressure inherently denies the Z-Guard transition because both require controlling the same contact points.",
+        "answer_line": "Same grips serve both goals",
+        "distractors": {
+          "plausible": [
+            "Alternate between separate tasks",
+            "Prioritize prevention over passing"
+          ],
+          "trap": [
+            "Release control to speed up pass"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -399,6 +560,35 @@
         "phase": "Live Application",
         "focus": "Unconscious reaction in rolling",
         "description": "During regular rolling sessions, top player focuses on maintaining pressure that inherently denies Z-Guard transitions while executing their standard passing game. The goal is for transition prevention to become an automatic response embedded within the passing flow rather than a conscious separate action."
+      }
+    ],
+    "clips": [
+      {
+        "id": "GQeS3xTXlb0",
+        "title": "Passing the Z-guard straight to the back",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 48,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "y-VU4mS-7tU",
+        "title": "Z-guard darce pass",
+        "by": "Team GTW BJJ",
+        "vertical": false,
+        "channel": "Team GTW BJJ",
+        "duration": 90,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xXb65zA1yzs",
+        "title": "Passing half guard and Z-guard with tripod base",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 91,
+        "verified": "2026-07-15"
       }
     ]
   }

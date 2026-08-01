@@ -398,35 +398,115 @@
   "flashcards": [
     {
       "question": "What is the core philosophy of the Bernardo Faria Pressure System?",
-      "answer": "It prioritizes relentless forward weight and pressure over speed or athleticism, forcing opponents to carry your bodyweight until their guard collapses from exhaustion rather than from explosive scrambling."
+      "answer": "It prioritizes relentless forward weight and pressure over speed or athleticism, forcing opponents to carry your bodyweight until their guard collapses from exhaustion rather than from explosive scrambling.",
+      "answer_line": "Pressure over athleticism",
+      "distractors": {
+        "plausible": [
+          "Speed and scrambling wins",
+          "Flexibility and timing first"
+        ],
+        "trap": [
+          "Explosive bursts of energy"
+        ]
+      }
     },
     {
       "question": "Which three passing techniques serve as the system's primary weapons?",
-      "answer": "Knee slice variations, over-under passing, and bodylock control are the core passing tools, selected based on the opponent's guard structure and defensive reactions."
+      "answer": "Knee slice variations, over-under passing, and bodylock control are the core passing tools, selected based on the opponent's guard structure and defensive reactions.",
+      "answer_line": "Knee slice, over-under, bodylock",
+      "distractors": {
+        "plausible": [
+          "Toreando, leg drag, stack pass",
+          "X-pass, smash pass, long step"
+        ],
+        "trap": [
+          "Berimbolo and leg entanglements"
+        ]
+      }
     },
     {
       "question": "Why does the bodylock pass work especially well against butterfly and half guard?",
-      "answer": "Connecting the hands around the torso eliminates grip-fighting exchanges and controls the opponent's core directly, removing the framing and hooking options those guards rely on."
+      "answer": "Connecting the hands around the torso eliminates grip-fighting exchanges and controls the opponent's core directly, removing the framing and hooking options those guards rely on.",
+      "answer_line": "Controls core, kills grip fights",
+      "distractors": {
+        "plausible": [
+          "Flattens hips to the mat",
+          "Isolates the far-side underhook"
+        ],
+        "trap": [
+          "Grip fight for both wrists"
+        ]
+      }
     },
     {
       "question": "What should you prioritize first when an opponent establishes half guard against you?",
-      "answer": "Win the underhook battle immediately, then apply a crossface to flatten the opponent's back to the mat before systematically clearing the trapped bottom leg."
+      "answer": "Win the underhook battle immediately, then apply a crossface to flatten the opponent's back to the mat before systematically clearing the trapped bottom leg.",
+      "answer_line": "Win underhook, then crossface",
+      "distractors": {
+        "plausible": [
+          "Crossface, then fight underhook",
+          "Free the trapped leg first"
+        ],
+        "trap": [
+          "Grab both ankles and stack"
+        ]
+      }
     },
     {
       "question": "How does the system generate pressure without exhausting the practitioner?",
-      "answer": "By using weight distribution and skeletal alignment rather than muscular effort, dropping the hips and channeling bodyweight through chest and shoulder contact onto the opponent's hips and torso."
+      "answer": "By using weight distribution and skeletal alignment rather than muscular effort, dropping the hips and channeling bodyweight through chest and shoulder contact onto the opponent's hips and torso.",
+      "answer_line": "Skeleton and weight, not muscle",
+      "distractors": {
+        "plausible": [
+          "Constant driving leg pressure",
+          "Fast hip switches"
+        ],
+        "trap": [
+          "Squeeze hard with both arms"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake practitioners make when learning this system?",
-      "answer": "Substituting muscular strength for proper weight distribution, which burns energy quickly and produces far less effective pressure than letting the skeleton and bodyweight do the work."
+      "answer": "Substituting muscular strength for proper weight distribution, which burns energy quickly and produces far less effective pressure than letting the skeleton and bodyweight do the work.",
+      "answer_line": "Using muscle over weight",
+      "distractors": {
+        "plausible": [
+          "Passing too quickly",
+          "Ignoring grip fighting"
+        ],
+        "trap": [
+          "Resting all weight on the mat"
+        ]
+      }
     },
     {
       "question": "How should you handle a flexible opponent with a highly mobile guard?",
-      "answer": "Prioritize controlling the hips rather than the legs, and use bodylock and over-under positions that neutralize flexibility while systematically exhausting the opponent's mobility over time."
+      "answer": "Prioritize controlling the hips rather than the legs, and use bodylock and over-under positions that neutralize flexibility while systematically exhausting the opponent's mobility over time.",
+      "answer_line": "Control hips, not the legs",
+      "distractors": {
+        "plausible": [
+          "Chase the legs relentlessly",
+          "Match their flexibility"
+        ],
+        "trap": [
+          "Isolate one foot and crank"
+        ]
+      }
     },
     {
       "question": "Why is immediate position consolidation emphasized after a successful pass?",
-      "answer": "Securing crossface, underhook, or grapevines right away prevents the opponent from using the transitional moment to bridge, recover guard, or escape before pressure is reestablished."
+      "answer": "Securing crossface, underhook, or grapevines right away prevents the opponent from using the transitional moment to bridge, recover guard, or escape before pressure is reestablished.",
+      "answer_line": "Stops bridge, recovery, escape",
+      "distractors": {
+        "plausible": [
+          "Preps for the next submission",
+          "Rest before advancing"
+        ],
+        "trap": [
+          "Release grips to reset posture"
+        ]
+      }
     }
   ]
 }

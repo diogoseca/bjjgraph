@@ -161,6 +161,43 @@ description: "How to enter the Russian Cowboy single-hook back ride from Turtle 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Russian Cowboy (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle entry from turtle",
+      "description": "Turtle to Russian Cowboy (Attacker) film study: Saddle entry from turtle, taught by Mr. Heel Hook.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QGWoOMj8ywk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QGWoOMj8ywk",
+      "url": "https://www.youtube.com/watch?v=QGWoOMj8ywk",
+      "creator": { "@type": "Person", "name": "Mr. Heel Hook" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Russian Cowboy double kneebar entry",
+      "description": "Turtle to Russian Cowboy (Attacker) film study: Russian Cowboy double kneebar entry, taught by Dan the Wolfman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o9a6Dmge5Gg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o9a6Dmge5Gg",
+      "url": "https://www.youtube.com/watch?v=o9a6Dmge5Gg",
+      "creator": { "@type": "Person", "name": "Dan the Wolfman" },
+      "duration": "PT308S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -175,6 +212,34 @@ The transition lives or dies on two things: securing the upper body before you c
 **From Position**: [[Positions/Turtle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Russian Cowboy (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QGWoOMj8ywk)
+
+<p class="clip-credit"><strong>Saddle entry from turtle</strong> — taught by Mr. Heel Hook · 0:44 · <a href="https://www.youtube.com/watch?v=QGWoOMj8ywk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o9a6Dmge5Gg)
+
+<p class="clip-credit"><strong>Russian Cowboy double kneebar entry</strong> — taught by Dan the Wolfman · 5:08 · <a href="https://www.youtube.com/watch?v=o9a6Dmge5Gg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "summary": "The Elbow Escape from Back is a methodical back-control escape where the bottom player frames their elbows against the opponent's hooks and hip-escapes downward to clear the legs and recover half guard.",
   "overview": "The elbow escape from back control is a foundational defensive technique that allows the bottom player to systematically address the opponent's hook control and work toward recovering half guard. Unlike explosive escapes that rely on timing and athleticism, the elbow escape employs methodical framing against the opponent's legs combined with deliberate hip movement to create the space needed for positional recovery. This technique is considered essential knowledge for all practitioners because back control represents the most dangerous position in Brazilian Jiu-Jitsu, and having a reliable, repeatable escape methodology is critical for survival and competitive success.\n\nThe escape follows a strict operational sequence: first defending the neck against immediate choking threats, then establishing grip control on the opponent's harness or seatbelt, next using elbow frames against the hooks to create mechanical leverage, and finally executing a controlled hip escape to slide below the opponent's leg control. The turning phase is particularly critical because the escaper must turn toward the opponent rather than away to prevent the back controller from simply following and re-establishing hooks. When executed correctly, the escape terminates in half guard where the escaper traps one of the opponent's legs between their own and begins working from a significantly improved defensive position.\n\nStrategic integration of this escape with other back escape methods creates a layered defensive system. When the elbow escape is defended, the opponent's adjustments often create openings for alternative escapes such as the back door escape to turtle or turning to face for guard recovery. Conversely, failed attempts at other escapes can set up the elbow escape by forcing the back controller to make positional adjustments that expose their hooks to elbow framing. This interconnection makes the elbow escape a central component of any comprehensive back defense system rather than an isolated technique.",
   "conditions": [
@@ -241,38 +253,138 @@
     "flashcards": [
       {
         "question": "What is the absolute first priority before initiating any hip movement in the elbow escape?",
-        "answer": "Neck defense must be fully established through a deep chin tuck and two-on-one grip control on the opponent's choking arm before any other movement begins. Attempting to escape without securing the neck first exposes you to rear naked choke during the vulnerable hip escape and turning phases when your defensive structure is in transition."
+        "answer": "Neck defense must be fully established through a deep chin tuck and two-on-one grip control on the opponent's choking arm before any other movement begins. Attempting to escape without securing the neck first exposes you to rear naked choke during the vulnerable hip escape and turning phases when your defensive structure is in transition.",
+        "answer_line": "Chin tuck, two-on-one grip first",
+        "distractors": {
+          "plausible": [
+            "Hip escape before neck defense",
+            "Frame elbow against hook first"
+          ],
+          "trap": [
+            "Stand up to break hooks"
+          ]
+        }
       },
       {
         "question": "Where exactly should your elbow frame be positioned for maximum leverage against the opponent's top hook?",
-        "answer": "The elbow should be placed directly against the back of the opponent's knee or shin where the hook crosses your hip line. This positioning creates the shortest lever arm and maximum mechanical advantage for pushing the hook away during the hip escape. Placing the frame higher on the thigh reduces leverage and allows the opponent to easily readjust hook depth."
+        "answer": "The elbow should be placed directly against the back of the opponent's knee or shin where the hook crosses your hip line. This positioning creates the shortest lever arm and maximum mechanical advantage for pushing the hook away during the hip escape. Placing the frame higher on the thigh reduces leverage and allows the opponent to easily readjust hook depth.",
+        "answer_line": "Frame elbow at knee/shin line",
+        "distractors": {
+          "plausible": [
+            "Frame elbow on opponent's thigh",
+            "Push frame against their foot"
+          ],
+          "trap": [
+            "Grab the hook and pull it off"
+          ]
+        }
       },
       {
         "question": "Which direction should you turn during the escape and why is the opposite direction dangerous?",
-        "answer": "You must turn toward the opponent to face them directly. Turning away from the opponent is dangerous because it allows them to follow your rotation and re-establish both hooks from behind, often with tighter control than before. Turning into them blocks their ability to follow because your body creates a barrier, and the rotation naturally positions you for half guard with the trapped leg."
+        "answer": "You must turn toward the opponent to face them directly. Turning away from the opponent is dangerous because it allows them to follow your rotation and re-establish both hooks from behind, often with tighter control than before. Turning into them blocks their ability to follow because your body creates a barrier, and the rotation naturally positions you for half guard with the trapped leg.",
+        "answer_line": "Turn to face the opponent",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Turn whichever way is easier"
+          ],
+          "trap": [
+            "Turn away, then sit up fast"
+          ]
+        }
       },
       {
         "question": "Your opponent locks a body triangle instead of standard hooks - how does this change your escape approach?",
-        "answer": "With a body triangle, the standard hook-clearing elbow escape cannot proceed until the triangle lock is broken. You must first turn toward the side of the locking ankle, then work to push the top foot past the bottom knee to separate the triangle configuration. Only after breaking the body triangle can you proceed with the standard elbow escape sequence against the now-free legs."
+        "answer": "With a body triangle, the standard hook-clearing elbow escape cannot proceed until the triangle lock is broken. You must first turn toward the side of the locking ankle, then work to push the top foot past the bottom knee to separate the triangle configuration. Only after breaking the body triangle can you proceed with the standard elbow escape sequence against the now-free legs.",
+        "answer_line": "Break triangle, foot past knee",
+        "distractors": {
+          "plausible": [
+            "Attack hook escape as normal",
+            "Turn away from locked ankle"
+          ],
+          "trap": [
+            "Try to stand straight up"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you maintain on the opponent's choking arm throughout the hip escape phase?",
-        "answer": "Maintain a two-on-one grip with one hand controlling the opponent's wrist and the other controlling their forearm or elbow crease. This configuration prevents them from advancing the choking arm past your chin while allowing you to redirect their arm downward and away from your neck. The grip should remain intact until your body rotation eliminates the mechanical possibility of the choke."
+        "answer": "Maintain a two-on-one grip with one hand controlling the opponent's wrist and the other controlling their forearm or elbow crease. This configuration prevents them from advancing the choking arm past your chin while allowing you to redirect their arm downward and away from your neck. The grip should remain intact until your body rotation eliminates the mechanical possibility of the choke.",
+        "answer_line": "Control wrist and elbow crease",
+        "distractors": {
+          "plausible": [
+            "Grip only the wrist tightly",
+            "Pull the arm across your chest"
+          ],
+          "trap": [
+            "Let go to frame with both hands"
+          ]
+        }
       },
       {
         "question": "What critical action must you complete immediately as you finish turning to face the opponent?",
-        "answer": "You must immediately trap the opponent's remaining leg between your legs by pinching your knees together to establish half guard. This is the most time-sensitive moment in the escape because any delay allows the opponent to withdraw their leg and either re-take back control or advance to side control. The leg trap must happen before establishing frames or grips."
+        "answer": "You must immediately trap the opponent's remaining leg between your legs by pinching your knees together to establish half guard. This is the most time-sensitive moment in the escape because any delay allows the opponent to withdraw their leg and either re-take back control or advance to side control. The leg trap must happen before establishing frames or grips.",
+        "answer_line": "Trap the leg into half guard",
+        "distractors": {
+          "plausible": [
+            "Reestablish grips first",
+            "Push away to create distance"
+          ],
+          "trap": [
+            "Post hands and stand up"
+          ]
+        }
       },
       {
         "question": "Your opponent re-tightens their hooks each time you begin framing - what approach overcomes this reactive defense?",
-        "answer": "Work the hip escape in small incremental movements rather than attempting one large clearing motion. Each micro hip escape creates slightly more space even when the opponent tightens their hooks in response. The cumulative effect of multiple small escapes eventually moves your hips far enough below their hooks to clear them. Patience and persistent frame pressure overcome reactive hook tightening."
+        "answer": "Work the hip escape in small incremental movements rather than attempting one large clearing motion. Each micro hip escape creates slightly more space even when the opponent tightens their hooks in response. The cumulative effect of multiple small escapes eventually moves your hips far enough below their hooks to clear them. Patience and persistent frame pressure overcome reactive hook tightening.",
+        "answer_line": "Small incremental hip escapes",
+        "distractors": {
+          "plausible": [
+            "One big explosive hip escape",
+            "Stop and reset grips fully"
+          ],
+          "trap": [
+            "Force hook off with both hands"
+          ]
+        }
       },
       {
         "question": "If the elbow escape stalls during the hook-clearing phase, what alternative escape can you chain into?",
-        "answer": "The back door escape to turtle is the primary alternative when the elbow escape stalls. When the opponent tightens hooks to prevent your downward hip escape, their upper body control often loosens slightly, creating an opportunity to address the seatbelt and work toward sliding your back to the mat and escaping out the back door to turtle position. The opponent cannot simultaneously maximize hook defense and upper body control."
+        "answer": "The back door escape to turtle is the primary alternative when the elbow escape stalls. When the opponent tightens hooks to prevent your downward hip escape, their upper body control often loosens slightly, creating an opportunity to address the seatbelt and work toward sliding your back to the mat and escaping out the back door to turtle position. The opponent cannot simultaneously maximize hook defense and upper body control.",
+        "answer_line": "Back door escape to turtle",
+        "distractors": {
+          "plausible": [
+            "Switch straight to bridging",
+            "Fight harder for the hook"
+          ],
+          "trap": [
+            "Turn and reach for a leg"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The elbow escape is a low-risk technique for both practitioners when performed correctly. The primary safety concern involves the neck defense phase where improper hand fighting during drilling can lead to accidental finger injuries or neck strain from sustained choking pressure. Partners should apply submissions with controlled pressure during training, allowing adequate time for the escaper to work through the sequence before fully committing to chokes. Avoid explosive bridging movements that can strain the lower back, and communicate clearly if experiencing breathing difficulty or choking discomfort. The turning phase requires controlled rotation to avoid knee strain on the trapped leg."
+    "safety_considerations": "The elbow escape is a low-risk technique for both practitioners when performed correctly. The primary safety concern involves the neck defense phase where improper hand fighting during drilling can lead to accidental finger injuries or neck strain from sustained choking pressure. Partners should apply submissions with controlled pressure during training, allowing adequate time for the escaper to work through the sequence before fully committing to chokes. Avoid explosive bridging movements that can strain the lower back, and communicate clearly if experiencing breathing difficulty or choking discomfort. The turning phase requires controlled rotation to avoid knee strain on the trapped leg.",
+    "clips": [
+      {
+        "id": "Pt6pcB6i8tU",
+        "title": "Escape back control with a 2-on-1",
+        "by": "John Connors",
+        "vertical": false,
+        "channel": "John Connors, Old Man BJJ Black Belt",
+        "duration": 103,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zU2Baz5qm78",
+        "title": "Back escape into a half guard sweep",
+        "by": "Carpio Jiu Jitsu",
+        "vertical": false,
+        "channel": "Carpio Jiu Jitsu",
+        "duration": 190,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Elbow Escape from Back Defender",
@@ -350,23 +462,73 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that your opponent is beginning an elbow escape attempt?",
-        "answer": "The earliest cue is when the opponent begins two-on-one grip fighting on your choking arm combined with subtle controlled hip shifting downward. This grip fight signals they are methodically securing neck defense as the precursor to the framing phase, rather than the panicked arm flailing associated with less organized escape attempts."
+        "answer": "The earliest cue is when the opponent begins two-on-one grip fighting on your choking arm combined with subtle controlled hip shifting downward. This grip fight signals they are methodically securing neck defense as the precursor to the framing phase, rather than the panicked arm flailing associated with less organized escape attempts.",
+        "answer_line": "Grip fighting plus hip shift",
+        "distractors": {
+          "plausible": [
+            "Sudden violent arm flailing",
+            "Opponent tightening seatbelt"
+          ],
+          "trap": [
+            "They seem tired, easing up"
+          ]
+        }
       },
       {
         "question": "How should you adjust your hook depth when you feel an elbow frame building pressure against your top leg?",
-        "answer": "Drive your hook deeper by actively pulling your heel toward the opponent's far hip, increasing muscular engagement to resist the elbow frame. Simultaneously drive your hips forward to maintain hip-to-hip connection and eliminate the space the opponent needs for their downward hip escape. The combination of deeper hooks and forward hip pressure counters both the frame leverage and the hip escape direction."
+        "answer": "Drive your hook deeper by actively pulling your heel toward the opponent's far hip, increasing muscular engagement to resist the elbow frame. Simultaneously drive your hips forward to maintain hip-to-hip connection and eliminate the space the opponent needs for their downward hip escape. The combination of deeper hooks and forward hip pressure counters both the frame leverage and the hip escape direction.",
+        "answer_line": "Drive hook deeper, hips forward",
+        "distractors": {
+          "plausible": [
+            "Loosen hook to reposition later",
+            "Switch to body triangle now"
+          ],
+          "trap": [
+            "Release hook, grab far arm"
+          ]
+        }
       },
       {
         "question": "At what point during the escape should you transition to mount instead of fighting for back control?",
-        "answer": "Transition to mount when the opponent has cleared one hook and their body rotation has sufficient momentum that re-establishing the hook is unlikely before they complete the turn. The decision point is when you feel their hips rotate past approximately forty-five degrees toward facing you. At this angle, fighting for back control is lower percentage than flowing with their turn to establish mount."
+        "answer": "Transition to mount when the opponent has cleared one hook and their body rotation has sufficient momentum that re-establishing the hook is unlikely before they complete the turn. The decision point is when you feel their hips rotate past approximately forty-five degrees toward facing you. At this angle, fighting for back control is lower percentage than flowing with their turn to establish mount.",
+        "answer_line": "Once hips pass 45 degrees",
+        "distractors": {
+          "plausible": [
+            "As soon as one hook clears",
+            "Only after both hooks clear"
+          ],
+          "trap": [
+            "Never give up back, fight hooks"
+          ]
+        }
       },
       {
         "question": "What seatbelt adjustment prevents the opponent from successfully stripping your harness grip during the escape?",
-        "answer": "Clasp your hands tightly together at the centerline of the opponent's chest with your choking arm over their shoulder and control arm under their armpit. When they begin stripping, drive your chest pressure forward into their back to create compression that makes grip breaking mechanically harder. You can also switch to a higher seatbelt position with your choking arm across their throat."
+        "answer": "Clasp your hands tightly together at the centerline of the opponent's chest with your choking arm over their shoulder and control arm under their armpit. When they begin stripping, drive your chest pressure forward into their back to create compression that makes grip breaking mechanically harder. You can also switch to a higher seatbelt position with your choking arm across their throat.",
+        "answer_line": "Clasp hands, drive chest pressure",
+        "distractors": {
+          "plausible": [
+            "Switch to overhook grip instead",
+            "Loosen grip to reposition hands"
+          ],
+          "trap": [
+            "Let go and re-grip higher"
+          ]
+        }
       },
       {
         "question": "How does early recognition of the two-on-one grip fight inform your immediate defensive response?",
-        "answer": "Recognizing the two-on-one grip fight as the first phase of a systematic elbow escape tells you the opponent has shifted from panicked defense to organized escape methodology. This should trigger immediate tightening of all control points: deepen hooks, increase forward hip pressure, re-secure seatbelt with maximum chest-to-back connection, and consider proactive body triangle transition before the framing phase begins."
+        "answer": "Recognizing the two-on-one grip fight as the first phase of a systematic elbow escape tells you the opponent has shifted from panicked defense to organized escape methodology. This should trigger immediate tightening of all control points: deepen hooks, increase forward hip pressure, re-secure seatbelt with maximum chest-to-back connection, and consider proactive body triangle transition before the framing phase begins.",
+        "answer_line": "Tighten hooks, hips, seatbelt",
+        "distractors": {
+          "plausible": [
+            "Relax control, wait and see",
+            "Switch to a different choke"
+          ],
+          "trap": [
+            "Release grips to re-angle body"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -389,6 +551,26 @@
         "phase": "Phase 4: Full Positional Sparring",
         "focus": "Integrated back control retention against all escape methods at full intensity",
         "description": "Full-speed positional sparring from back control where the bottom player uses all available escapes including elbow escape, back door escape, and shoulder walk. Practice maintaining control, recognizing which escape is being attempted, and applying the appropriate defensive response. Two-minute rounds with reset after escape or submission."
+      }
+    ],
+    "clips": [
+      {
+        "id": "Rlk4mGg7vW4",
+        "title": "Maintaining back control with the hooks",
+        "by": "Gracie Charlottesville",
+        "vertical": false,
+        "channel": "Gracie Charlottesville",
+        "duration": 84,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "QekOjlzNWTI",
+        "title": "Countering the elbow escape to retake the back",
+        "by": "Brandon Quick",
+        "vertical": false,
+        "channel": "Brandon Quick",
+        "duration": 81,
+        "verified": "2026-07-16"
       }
     ]
   }

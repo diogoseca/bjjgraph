@@ -34,6 +34,43 @@ description: "Master the gogoplata to armbar chain in BJJ. Complete guide to tra
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gogoplata to Armbar \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Armbar and gogoplata transition",
+      "description": "Gogoplata to Armbar film study: Armbar and gogoplata transition, taught by Carlson Gracie Melbourne coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BZUaoH8vf0U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BZUaoH8vf0U",
+      "url": "https://www.youtube.com/watch?v=BZUaoH8vf0U",
+      "creator": { "@type": "Person", "name": "Carlson Gracie Melbourne coach" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Armbar from rubber guard",
+      "description": "Gogoplata to Armbar film study: Armbar from rubber guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ht6VYMYXHsI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ht6VYMYXHsI",
+      "url": "https://www.youtube.com/watch?v=ht6VYMYXHsI",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT260S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the gogoplata to armbar chain creates a powerful offensive dilemm
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gogoplata to Armbar in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BZUaoH8vf0U)
+
+<p class="clip-credit"><strong>Armbar and gogoplata transition</strong> — taught by Carlson Gracie Melbourne coach · 1:05 · <a href="https://www.youtube.com/watch?v=BZUaoH8vf0U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ht6VYMYXHsI)
+
+<p class="clip-credit"><strong>Armbar from rubber guard</strong> — taught by Eddie Bravo · 4:20 · <a href="https://www.youtube.com/watch?v=ht6VYMYXHsI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

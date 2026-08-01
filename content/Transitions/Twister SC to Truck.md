@@ -34,6 +34,43 @@ description: "Master the Twister Side Control to Truck transition. Learn to deep
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Twister SC to Truck \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Truck options from twister side control",
+      "description": "Twister SC to Truck film study: Truck options from twister side control, taught by Jeremiah Vance.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/im8KbQUyxLY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/im8KbQUyxLY",
+      "url": "https://www.youtube.com/watch?v=im8KbQUyxLY",
+      "creator": { "@type": "Person", "name": "Jeremiah Vance" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Twister side control attacks",
+      "description": "Twister SC to Truck film study: Twister side control attacks, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/odT3-cVWXdc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/odT3-cVWXdc",
+      "url": "https://www.youtube.com/watch?v=odT3-cVWXdc",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Success demands patience and mechanical precision rather than explosive movement
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Twister SC to Truck in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=im8KbQUyxLY)
+
+<p class="clip-credit"><strong>Truck options from twister side control</strong> — taught by Jeremiah Vance · 0:42 · <a href="https://www.youtube.com/watch?v=im8KbQUyxLY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=odT3-cVWXdc)
+
+<p class="clip-credit"><strong>Twister side control attacks</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=odT3-cVWXdc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

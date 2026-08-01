@@ -148,6 +148,54 @@ description: "How to defend against Switch to Anaconda Configuration in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Switch to Anaconda Configuration (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Anaconda choke defense",
+      "description": "Switch to Anaconda Configuration (Defender) film study: Anaconda choke defense, taught by Mamba BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N9MbEtAv_Lw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N9MbEtAv_Lw",
+      "url": "https://www.youtube.com/watch?v=N9MbEtAv_Lw",
+      "creator": { "@type": "Person", "name": "Mamba BJJ" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the anaconda choke",
+      "description": "Switch to Anaconda Configuration (Defender) film study: Escaping the anaconda choke, taught by SFS MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SXm9wA1HcvM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/SXm9wA1HcvM",
+      "url": "https://www.youtube.com/watch?v=SXm9wA1HcvM",
+      "creator": { "@type": "Person", "name": "SFS MMA" },
+      "duration": "PT64S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Stopping the anaconda choke with a wrestling counter",
+      "description": "Switch to Anaconda Configuration (Defender) film study: Stopping the anaconda choke with a wrestling counter, taught by Chewjitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PEL4kh7Bu8U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/PEL4kh7Bu8U",
+      "url": "https://www.youtube.com/watch?v=PEL4kh7Bu8U",
+      "creator": { "@type": "Person", "name": "Chewjitsu" },
+      "duration": "PT162S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The defender must also understand that remaining passive in turtle during this t
 **Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Switch to Anaconda Configuration (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N9MbEtAv_Lw)
+
+<p class="clip-credit"><strong>Anaconda choke defense</strong> — taught by Mamba BJJ · 1:02 · <a href="https://www.youtube.com/watch?v=N9MbEtAv_Lw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=SXm9wA1HcvM)
+
+<p class="clip-credit"><strong>Escaping the anaconda choke</strong> — taught by SFS MMA · 1:04 · <a href="https://www.youtube.com/watch?v=SXm9wA1HcvM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=PEL4kh7Bu8U)
+
+<p class="clip-credit"><strong>Stopping the anaconda choke with a wrestling counter</strong> — taught by Chewjitsu · 2:42 · <a href="https://www.youtube.com/watch?v=PEL4kh7Bu8U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Learn the forward roll escape from saddle in BJJ. Complete guide c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Forward Roll from Saddle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rolling out of the saddle to backside 50/50",
+      "description": "Forward Roll from Saddle film study: Rolling out of the saddle to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling Out of Heel Hooks",
+      "description": "Forward Roll from Saddle film study: Rolling Out of Heel Hooks, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
+      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT243S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Clearing the Kneeline: Leglock Defense",
+      "description": "Forward Roll from Saddle film study: Clearing the Kneeline: Leglock Defense, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JbRfIo1NTLk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JbRfIo1NTLk",
+      "url": "https://www.youtube.com/watch?v=JbRfIo1NTLk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The forward roll demands precise timing and full commitment. Hesitation during e
 **Success Rate**: 50%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Forward Roll from Saddle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Rolling out of the saddle to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
+
+<p class="clip-credit"><strong>Rolling Out of Heel Hooks</strong> — taught by Craig Jones · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JbRfIo1NTLk)
+
+<p class="clip-credit"><strong>Clearing the Kneeline: Leglock Defense</strong> — taught by Craig Jones · 4:34 · <a href="https://www.youtube.com/watch?v=JbRfIo1NTLk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

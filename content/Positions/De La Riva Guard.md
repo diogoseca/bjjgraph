@@ -35,6 +35,54 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back take from De La Riva",
+      "description": "De La Riva Guard film study: Back take from De La Riva, taught by Elite MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_V15lSbYA8k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_V15lSbYA8k",
+      "url": "https://www.youtube.com/watch?v=_V15lSbYA8k",
+      "creator": { "@type": "Person", "name": "Elite MMA" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "DLR mantis back take to bow and arrow",
+      "description": "De La Riva Guard film study: DLR mantis back take to bow and arrow, taught by War Room Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sktKJVpry0k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sktKJVpry0k",
+      "url": "https://www.youtube.com/watch?v=sktKJVpry0k",
+      "creator": { "@type": "Person", "name": "War Room Jiu Jitsu" },
+      "duration": "PT58S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Long De La Riva to back control",
+      "description": "De La Riva Guard film study: Long De La Riva to back control, taught by Jimmy Quinlan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/48WwhEdE0NY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/48WwhEdE0NY",
+      "url": "https://www.youtube.com/watch?v=48WwhEdE0NY",
+      "creator": { "@type": "Person", "name": "Jimmy Quinlan" },
+      "duration": "PT156S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +120,42 @@ The De La Riva system offers exceptional versatility for practitioners of all le
 The strategic genius of De La Riva Guard lies in its dilemma-based attack structure. Every defensive reaction by the top player opens a different offensive pathway for the guard player. Driving forward exposes the passer to berimbolo and inversion entries. Standing tall with weight back invites under-transitions to X-Guard and Single Leg X. Attempting to strip grips creates timing windows for basic sweeps. This layered threat matrix forces the top player into a reactive posture, constantly defending rather than initiating their own passing sequences. Understanding and exploiting this reaction-based framework is what separates competent DLR players from truly dangerous ones.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_V15lSbYA8k)
+
+<p class="clip-credit"><strong>Back take from De La Riva</strong> — taught by Elite MMA · 1:17 · <a href="https://www.youtube.com/watch?v=_V15lSbYA8k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sktKJVpry0k)
+
+<p class="clip-credit"><strong>DLR mantis back take to bow and arrow</strong> — taught by War Room Jiu Jitsu · 0:58 · <a href="https://www.youtube.com/watch?v=sktKJVpry0k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=48WwhEdE0NY)
+
+<p class="clip-credit"><strong>Long De La Riva to back control</strong> — taught by Jimmy Quinlan · 2:36 · <a href="https://www.youtube.com/watch?v=48WwhEdE0NY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,37 +217,33 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (14% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (17% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (18% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (9% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (8% of attempts)
 
-- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (7% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (22% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
+- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (3% of attempts)
 
-- **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** (5% of attempts)
+- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (2% of attempts)
 
-- **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (4% of attempts)
+- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (6% of attempts)
 
-- **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (4% of attempts)
+- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (11% of attempts)
 
-- **[[Transitions/Sickle Sweep/Attacker|Sickle Sweep]]** (4% of attempts)
+- **[[Omoplata from De La Riva Guard/Attacker|Omoplata from De La Riva Guard]]** (3% of attempts)
 
-- **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (6% of attempts)
-
-- **[[Omoplata from De La Riva Guard/Attacker|Omoplata from De La Riva Guard]]** (4% of attempts)
-
-- **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (3% of attempts)
+- **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (5% of attempts)
 
 - **[[Triangle Choke from De La Riva/Attacker|Triangle Choke from De La Riva]]** (3% of attempts)
 
-- **[[Transitions/De La Riva to Inverted Guard/Attacker|De La Riva to Inverted Guard]]** (5% of attempts)
+- **[[Transitions/De La Riva to Inverted Guard/Attacker|De La Riva to Inverted Guard]]** (4% of attempts)
 
-- **[[Transitions/De La Riva to Grasshopper Guard/Attacker|De La Riva to Grasshopper Guard]]** (6% of attempts)
+- **[[Transitions/De La Riva to Grasshopper Guard/Attacker|De La Riva to Grasshopper Guard]]** (1% of attempts)
 
-- **[[Transitions/De La Riva to Lapel Guard/Attacker|De La Riva to Lapel Guard]]** (6% of attempts)
+- **[[Transitions/De La Riva to Lapel Guard/Attacker|De La Riva to Lapel Guard]]** (0% of attempts)
 
 
 ### Common Mistakes
@@ -222,31 +302,31 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (25% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (10% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (6% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (5% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (4% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (3% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (4% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (8% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (7% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (13% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (2% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (3% of attempts)
 
-- **[[Transitions/Toreando Pass from De La Riva/Attacker|Toreando Pass from De La Riva]]** (8% of attempts)
+- **[[Transitions/Toreando Pass from De La Riva/Attacker|Toreando Pass from De La Riva]]** (9% of attempts)
 
-- **[[Transitions/Backstep from De La Riva/Attacker|Backstep from De La Riva]]** (7% of attempts)
+- **[[Transitions/Backstep from De La Riva/Attacker|Backstep from De La Riva]]** (6% of attempts)
 
 - **[[Transitions/Knee Slice from DLR/Attacker|Knee Slice from DLR]]** (5% of attempts)
 
-- **[[Transitions/Leg Drag from DLR/Attacker|Leg Drag from DLR]]** (3% of attempts)
+- **[[Transitions/Leg Drag from DLR/Attacker|Leg Drag from DLR]]** (6% of attempts)
 
 
 ### Common Mistakes

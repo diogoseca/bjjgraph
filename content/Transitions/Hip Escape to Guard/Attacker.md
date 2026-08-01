@@ -174,6 +174,43 @@ description: "How to execute Hip Escape to Guard in BJJ. Attacking perspective w
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape to Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Replace the guard from mount escape",
+      "description": "Hip Escape to Guard (Attacker) film study: Replace the guard from mount escape, taught by roninbjjmma.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mUhDnsgjCtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mUhDnsgjCtc",
+      "url": "https://www.youtube.com/watch?v=mUhDnsgjCtc",
+      "creator": { "@type": "Person", "name": "roninbjjmma" },
+      "duration": "PT74S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Modified mount escape to guard recovery",
+      "description": "Hip Escape to Guard (Attacker) film study: Modified mount escape to guard recovery, taught by Pathfinder Jiu-Jitsu Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3AMEkhiCU1A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3AMEkhiCU1A",
+      "url": "https://www.youtube.com/watch?v=3AMEkhiCU1A",
+      "creator": { "@type": "Person", "name": "Pathfinder Jiu-Jitsu Team" },
+      "duration": "PT20S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +224,34 @@ Strategically, this escape represents your primary pathway out of a position tha
 **From Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape to Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mUhDnsgjCtc)
+
+<p class="clip-credit"><strong>Replace the guard from mount escape</strong> — taught by roninbjjmma · 1:14 · <a href="https://www.youtube.com/watch?v=mUhDnsgjCtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3AMEkhiCU1A)
+
+<p class="clip-credit"><strong>Modified mount escape to guard recovery</strong> — taught by Pathfinder Jiu-Jitsu Team · 0:20 · <a href="https://www.youtube.com/watch?v=3AMEkhiCU1A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

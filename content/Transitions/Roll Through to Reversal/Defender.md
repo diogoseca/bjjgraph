@@ -140,6 +140,54 @@ description: "How to defend against Roll Through to Reversal in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Roll Through to Reversal (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front Headlock Defense: Peek Out",
+      "description": "Roll Through to Reversal (Defender) film study: Front Headlock Defense: Peek Out, taught by Film Study coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qXN9MA_kWGs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qXN9MA_kWGs",
+      "url": "https://www.youtube.com/watch?v=qXN9MA_kWGs",
+      "creator": { "@type": "Person", "name": "Film Study coach" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Front Headlock Turn Counter to Leg Attack",
+      "description": "Roll Through to Reversal (Defender) film study: Front Headlock Turn Counter to Leg Attack, taught by British Wrestling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4qSsXwqDWhI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4qSsXwqDWhI",
+      "url": "https://www.youtube.com/watch?v=4qSsXwqDWhI",
+      "creator": { "@type": "Person", "name": "British Wrestling coach" },
+      "duration": "PT32S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sucker Drag and Peek Out Counters",
+      "description": "Roll Through to Reversal (Defender) film study: Sucker Drag and Peek Out Counters, taught by Glover Teixeira.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F_cW7ETcTPg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/F_cW7ETcTPg",
+      "url": "https://www.youtube.com/watch?v=F_cW7ETcTPg",
+      "creator": { "@type": "Person", "name": "Glover Teixeira" },
+      "duration": "PT103S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -151,6 +199,42 @@ Defending the roll through is fundamentally about base awareness and reactive sp
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Roll Through to Reversal (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qXN9MA_kWGs)
+
+<p class="clip-credit"><strong>Front Headlock Defense: Peek Out</strong> — taught by Film Study coach · 1:38 · <a href="https://www.youtube.com/watch?v=qXN9MA_kWGs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4qSsXwqDWhI)
+
+<p class="clip-credit"><strong>Front Headlock Turn Counter to Leg Attack</strong> — taught by British Wrestling coach · 0:32 · <a href="https://www.youtube.com/watch?v=4qSsXwqDWhI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=F_cW7ETcTPg)
+
+<p class="clip-credit"><strong>Sucker Drag and Peek Out Counters</strong> — taught by Glover Teixeira · 1:43 · <a href="https://www.youtube.com/watch?v=F_cW7ETcTPg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

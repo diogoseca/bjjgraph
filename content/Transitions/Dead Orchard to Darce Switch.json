@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Darce Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Dead Orchard Control/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "The Dead Orchard to Darce Switch is a no-gi front-headlock chain attack that reconfigures an anaconda-style Dead Orchard grip into a Darce choke the instant the opponent defends by extracting their trapped arm or creating space.",
   "overview": "The Dead Orchard to Darce Switch is an advanced grip transition within the front headlock choke family, converting an anaconda-style Dead Orchard configuration into a Darce (brabo) choke setup. This switch exploits a fundamental defensive dilemma: when opponents defend the anaconda compression by creating space on the trapped arm side or attempting arm extraction, they inadvertently expose the threading pathway for the darce grip. The technique is most commonly applied in no-gi contexts where the absence of collar grips makes front headlock choke transitions especially potent.\n\nThe transition requires precise timing and understanding of both choke architectures. The anaconda grip wraps over the opponent's head and under their armpit, while the darce threads under the armpit first and across behind the neck. When the opponent defends the anaconda by pulling their trapped arm away or rotating their shoulder, the gap created between their arm and neck becomes the insertion point for the darce arm. The practitioner must maintain head control and shoulder pressure throughout the switch to prevent escape during the brief grip transition window.\n\nStrategically, this switch transforms a potentially stalling defensive situation into a renewed submission threat. Opponents who have partially defended the Dead Orchard control often relax momentarily when they feel anaconda pressure release, creating a critical window for darce grip establishment. This chain attack philosophy exemplifies the modern front headlock game where each defensive reaction opens a new offensive pathway, systematically overwhelming the defender with cascading threats that make sustained defense increasingly difficult.",
   "conditions": [
@@ -250,42 +262,152 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that indicates it is time to switch from Dead Orchard to Darce grip?",
-        "answer": "The primary trigger is when the opponent creates space on the trapped arm side, typically by pulling their arm away from your anaconda grip or rotating their shoulder to defend the choke. This defensive movement creates a gap between their arm and neck that serves as the insertion point for the darce arm threading. Attempting the switch without this trigger means fighting against a closed structure, which dramatically reduces success rate and wastes the transition window."
+        "answer": "The primary trigger is when the opponent creates space on the trapped arm side, typically by pulling their arm away from your anaconda grip or rotating their shoulder to defend the choke. This defensive movement creates a gap between their arm and neck that serves as the insertion point for the darce arm threading. Attempting the switch without this trigger means fighting against a closed structure, which dramatically reduces success rate and wastes the transition window.",
+        "answer_line": "Space opens on trapped-arm side",
+        "distractors": {
+          "plausible": [
+            "Opponent's far arm goes limp",
+            "Opponent turns head away"
+          ],
+          "trap": [
+            "Switch immediately, ignore grip"
+          ]
+        }
       },
       {
         "question": "How do you maintain control during the brief window when neither the anaconda nor darce grip is fully secured?",
-        "answer": "During the grip transition window, maintain control through constant shoulder pressure driving into the opponent's trapped shoulder and head. Your chest must remain connected to their upper back to prevent distance creation. Use your free hand to control their far hip or post for base. The shoulder pressure serves as your primary anchor point while your choking arm re-threads from anaconda to darce configuration."
+        "answer": "During the grip transition window, maintain control through constant shoulder pressure driving into the opponent's trapped shoulder and head. Your chest must remain connected to their upper back to prevent distance creation. Use your free hand to control their far hip or post for base. The shoulder pressure serves as your primary anchor point while your choking arm re-threads from anaconda to darce configuration.",
+        "answer_line": "Chest connected, shoulder pressure",
+        "distractors": {
+          "plausible": [
+            "Grip tightly with both hands",
+            "Drive weight onto their hips"
+          ],
+          "trap": [
+            "Release pressure to reposition"
+          ]
+        }
       },
       {
         "question": "What is the correct arm threading path when switching from anaconda to darce configuration?",
-        "answer": "In the anaconda configuration, your arm wraps over the opponent's head and under their nearside armpit. For the darce switch, you withdraw the choking arm from the anaconda position and re-thread it under the opponent's nearside armpit first, then reach across behind their neck toward the far shoulder. Your hand should pass the opponent's far shoulder before you lock the figure-four grip, ensuring sufficient depth for effective choke mechanics."
+        "answer": "In the anaconda configuration, your arm wraps over the opponent's head and under their nearside armpit. For the darce switch, you withdraw the choking arm from the anaconda position and re-thread it under the opponent's nearside armpit first, then reach across behind their neck toward the far shoulder. Your hand should pass the opponent's far shoulder before you lock the figure-four grip, ensuring sufficient depth for effective choke mechanics.",
+        "answer_line": "Thread under armpit then behind neck",
+        "distractors": {
+          "plausible": [
+            "Thread over head, then armpit",
+            "Reach across neck before armpit"
+          ],
+          "trap": [
+            "Rip arm free before rethreading"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully defends the switch by tucking their chin and clamping their elbow - what is your best follow-up?",
-        "answer": "When the opponent defends with chin tuck and elbow clamp, do not force the darce grip deeper. Instead, use their defensive shell against them by transitioning to mount or north-south where their tight defensive posture becomes a liability since they cannot frame effectively. Alternatively, return to the dead orchard anaconda configuration if your arm is still positioned to re-establish that grip. Maintain offensive momentum rather than stalling on a defended transition."
+        "answer": "When the opponent defends with chin tuck and elbow clamp, do not force the darce grip deeper. Instead, use their defensive shell against them by transitioning to mount or north-south where their tight defensive posture becomes a liability since they cannot frame effectively. Alternatively, return to the dead orchard anaconda configuration if your arm is still positioned to re-establish that grip. Maintain offensive momentum rather than stalling on a defended transition.",
+        "answer_line": "Abandon grip, advance position",
+        "distractors": {
+          "plausible": [
+            "Try a different choke immediately",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Force the darce grip deeper"
+          ]
+        }
       },
       {
         "question": "How does hip positioning change during the transition from dead orchard to darce control?",
-        "answer": "In dead orchard control, your hips are typically positioned to the side or slightly behind the opponent to support the anaconda compression angle. During the switch to darce, you need to walk your hips slightly more toward the opponent's far side to create the perpendicular pressure angle the darce requires. Your chest should end up driving into the side of the opponent's head rather than the back of their shoulder, establishing the wedge effect that closes the darce choke."
+        "answer": "In dead orchard control, your hips are typically positioned to the side or slightly behind the opponent to support the anaconda compression angle. During the switch to darce, you need to walk your hips slightly more toward the opponent's far side to create the perpendicular pressure angle the darce requires. Your chest should end up driving into the side of the opponent's head rather than the back of their shoulder, establishing the wedge effect that closes the darce choke.",
+        "answer_line": "Walk hips to the far side",
+        "distractors": {
+          "plausible": [
+            "Walk hips toward the near side",
+            "Keep hips behind, chest on back"
+          ],
+          "trap": [
+            "Sit back to create space"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you use when completing the darce lock after the switch?",
-        "answer": "After threading your arm under the opponent's armpit and across behind their neck, secure a figure-four grip by catching your own bicep with the free hand and placing the free hand behind the opponent's head or on your own chest. This creates the strongest compression angle for the darce choke. Use a gable grip for initial security if the figure-four is not immediately accessible, then transition to figure-four once the position is stabilized."
+        "answer": "After threading your arm under the opponent's armpit and across behind their neck, secure a figure-four grip by catching your own bicep with the free hand and placing the free hand behind the opponent's head or on your own chest. This creates the strongest compression angle for the darce choke. Use a gable grip for initial security if the figure-four is not immediately accessible, then transition to figure-four once the position is stabilized.",
+        "answer_line": "Figure-four: catch your own bicep",
+        "distractors": {
+          "plausible": [
+            "Gable grip locked around the neck",
+            "S-grip under the far armpit"
+          ],
+          "trap": [
+            "Let go with the free hand to base"
+          ]
+        }
       },
       {
         "question": "What distinguishes a switch attempt worth committing to from one that should be abandoned in favor of maintaining dead orchard?",
-        "answer": "Commit to the switch when there is clear space between the opponent's trapped arm and their neck, they are actively creating distance from the anaconda grip, and you can maintain shoulder pressure throughout. Abandon the switch if the opponent's arm stays tight without creating a threading gap, if you lose shoulder pressure during re-threading, or if the opponent begins building base and creating distance. Returning to dead orchard anaconda pressure is safer than committing to a poor darce entry."
+        "answer": "Commit to the switch when there is clear space between the opponent's trapped arm and their neck, they are actively creating distance from the anaconda grip, and you can maintain shoulder pressure throughout. Abandon the switch if the opponent's arm stays tight without creating a threading gap, if you lose shoulder pressure during re-threading, or if the opponent begins building base and creating distance. Returning to dead orchard anaconda pressure is safer than committing to a poor darce entry.",
+        "answer_line": "Clear gap and steady pressure",
+        "distractors": {
+          "plausible": [
+            "Opponent stops moving at all",
+            "You feel tired, so switch now"
+          ],
+          "trap": [
+            "Commit even if arm stays tight"
+          ]
+        }
       },
       {
         "question": "If both the darce switch and return to anaconda are blocked, what positional advances can you chain from the stalled front headlock position?",
-        "answer": "When both choke configurations are neutralized, use the front headlock control as a platform for positional advancement rather than continuing to force submissions. Your highest-percentage options are transitioning to mount by walking your hips around and stepping over the opponent's body, taking the back by driving them forward and securing hooks as they turtle, or moving to north-south to reset your offensive options. The opponent's tight defensive posture actually aids these transitions because their elbows are pinned and they cannot frame effectively against positional advances."
+        "answer": "When both choke configurations are neutralized, use the front headlock control as a platform for positional advancement rather than continuing to force submissions. Your highest-percentage options are transitioning to mount by walking your hips around and stepping over the opponent's body, taking the back by driving them forward and securing hooks as they turtle, or moving to north-south to reset your offensive options. The opponent's tight defensive posture actually aids these transitions because their elbows are pinned and they cannot frame effectively against positional advances.",
+        "answer_line": "Advance to mount, back, or N/S",
+        "distractors": {
+          "plausible": [
+            "Keep forcing the darce grip",
+            "Stall and reset your base"
+          ],
+          "trap": [
+            "Release the front headlock entirely"
+          ]
+        }
       },
       {
         "question": "What is the critical difference in compression angle between the anaconda and darce configurations, and how does this affect your body positioning during the switch?",
-        "answer": "The anaconda compresses by wrapping over the head and pulling the opponent's arm across their own neck, creating circular pressure with your body positioned behind or to the side. The darce compresses by threading under the armpit and across the neck, creating a wedge effect with your chest driving perpendicular into the side of the opponent's head. During the switch, you must rotate your body from the anaconda angle behind the opponent to the darce angle at their side, walking your hips toward their far side while your chest transitions from pressing on their upper back to pressing into the side of their head. Failing to complete this angular adjustment results in a structurally weak darce that lacks finishing power."
+        "answer": "The anaconda compresses by wrapping over the head and pulling the opponent's arm across their own neck, creating circular pressure with your body positioned behind or to the side. The darce compresses by threading under the armpit and across the neck, creating a wedge effect with your chest driving perpendicular into the side of the opponent's head. During the switch, you must rotate your body from the anaconda angle behind the opponent to the darce angle at their side, walking your hips toward their far side while your chest transitions from pressing on their upper back to pressing into the side of their head. Failing to complete this angular adjustment results in a structurally weak darce that lacks finishing power.",
+        "answer_line": "Chest shifts from back to side",
+        "distractors": {
+          "plausible": [
+            "Keep chest on their upper back",
+            "Pull hips away for space"
+          ],
+          "trap": [
+            "Stay behind them, wrap tighter"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Dead Orchard to Darce Switch involves neck compression mechanics that can cause cervical injury or unconsciousness if applied explosively. Always transition grips with controlled pressure and communicate with training partners about intensity levels. The darce choke can produce unconsciousness rapidly once the figure-four is locked. Release instantly upon tap or signs of distress including facial color changes, loss of muscle tone, or cessation of defensive movement. During drilling, practice the grip transition at reduced speed and intensity before adding resistance. Partners should tap early when caught in the darce rather than fighting through excessive pressure that risks neck injury."
+    "safety_considerations": "The Dead Orchard to Darce Switch involves neck compression mechanics that can cause cervical injury or unconsciousness if applied explosively. Always transition grips with controlled pressure and communicate with training partners about intensity levels. The darce choke can produce unconsciousness rapidly once the figure-four is locked. Release instantly upon tap or signs of distress including facial color changes, loss of muscle tone, or cessation of defensive movement. During drilling, practice the grip transition at reduced speed and intensity before adding resistance. Partners should tap early when caught in the darce rather than fighting through excessive pressure that risks neck injury.",
+    "clips": [
+      {
+        "id": "22EYQ2uhxQw",
+        "title": "Side control to north-south darce choke",
+        "by": "Gracie Westchase coach",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 75,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "4KtdjdrJLjM",
+        "title": "Darce choke demonstration",
+        "by": "bjjtaro",
+        "vertical": false,
+        "channel": "bjjtaro",
+        "duration": 24,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Dead Orchard to Darce Switch Defender",
@@ -370,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to switch from dead orchard to darce?",
-        "answer": "The earliest cue is a shift in pressure direction on your neck and trapped shoulder. When the opponent begins releasing the anaconda grip to re-thread for darce, you feel the circular compression around your head momentarily decrease and the angle of their arm changes. Their choking arm begins pulling away from over your head and moving toward your armpit area. This brief pressure release is your critical escape window and should trigger immediate defensive action."
+        "answer": "The earliest cue is a shift in pressure direction on your neck and trapped shoulder. When the opponent begins releasing the anaconda grip to re-thread for darce, you feel the circular compression around your head momentarily decrease and the angle of their arm changes. Their choking arm begins pulling away from over your head and moving toward your armpit area. This brief pressure release is your critical escape window and should trigger immediate defensive action.",
+        "answer_line": "Anaconda pressure suddenly eases",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your far leg",
+            "Opponent's hips post on mat"
+          ],
+          "trap": [
+            "Assume the choke attempt failed"
+          ]
+        }
       },
       {
         "question": "Why is the grip switch moment the best time to attempt escape rather than when either choke is fully established?",
-        "answer": "During the grip switch, neither the anaconda nor the darce is fully locked, creating a structural weakness in your opponent's control. They have temporarily released one grip configuration without fully establishing the other, meaning their control is at its weakest point. Your opponent's attention is focused on re-threading their arm rather than maintaining pressure, and their body position is transitioning between two different angles. This window typically lasts only one to two seconds, making immediate action essential."
+        "answer": "During the grip switch, neither the anaconda nor the darce is fully locked, creating a structural weakness in your opponent's control. They have temporarily released one grip configuration without fully establishing the other, meaning their control is at its weakest point. Your opponent's attention is focused on re-threading their arm rather than maintaining pressure, and their body position is transitioning between two different angles. This window typically lasts only one to two seconds, making immediate action essential.",
+        "answer_line": "Neither choke is fully locked yet",
+        "distractors": {
+          "plausible": [
+            "Opponent is most tired then",
+            "Your arms are strongest there"
+          ],
+          "trap": [
+            "Wait for the darce to lock first"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the anaconda pressure and moves their arm toward your armpit - what specific action prevents the darce from being established?",
-        "answer": "Immediately clamp your nearside elbow tight to your ribs and turn your shoulder inward to close the gap between your arm and your body. This blocks the darce arm from threading under your armpit. Simultaneously, use your free hand to push on their shoulder or bicep to create distance. If you prevent their arm from passing under your armpit, the darce cannot be established and you have neutralized the switch attempt entirely."
+        "answer": "Immediately clamp your nearside elbow tight to your ribs and turn your shoulder inward to close the gap between your arm and your body. This blocks the darce arm from threading under your armpit. Simultaneously, use your free hand to push on their shoulder or bicep to create distance. If you prevent their arm from passing under your armpit, the darce cannot be established and you have neutralized the switch attempt entirely.",
+        "answer_line": "Clamp elbow, block their armpit",
+        "distractors": {
+          "plausible": [
+            "Push on their head to create space",
+            "Grab their wrist and pull it away"
+          ],
+          "trap": [
+            "Let your arm hang loose at your side"
+          ]
+        }
       },
       {
         "question": "How should you position your body during the switch attempt to maximize your escape probability?",
-        "answer": "Turn your body toward your opponent rather than away, keeping your chest facing downward or toward their hips. Drive your hips away to create distance while maintaining your defensive shoulder position. Avoid turning your back, as this exposes you to back take opportunities during the scramble. If you can get to your knees during the transition window and square your hips, you significantly reduce the effectiveness of both the darce threading and any return to the anaconda configuration."
+        "answer": "Turn your body toward your opponent rather than away, keeping your chest facing downward or toward their hips. Drive your hips away to create distance while maintaining your defensive shoulder position. Avoid turning your back, as this exposes you to back take opportunities during the scramble. If you can get to your knees during the transition window and square your hips, you significantly reduce the effectiveness of both the darce threading and any return to the anaconda configuration.",
+        "answer_line": "Face them, drive hips away",
+        "distractors": {
+          "plausible": [
+            "Sit up and grab a far leg",
+            "Bridge hard and roll to guard"
+          ],
+          "trap": [
+            "Turn your back to create space"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous mistake when your opponent attempts the Dead Orchard to Darce switch?",
-        "answer": "The most dangerous mistake is relaxing when you feel the anaconda pressure release, interpreting it as your opponent losing control. This momentary relaxation allows them to complete the darce threading without resistance. Many practitioners feel relief when the anaconda loosens and pause their defensive efforts for a critical second. Instead, treat any change in your opponent's grip as an opportunity for immediate escape or at minimum an indicator to increase defensive vigilance and tighten your arm position against your body."
+        "answer": "The most dangerous mistake is relaxing when you feel the anaconda pressure release, interpreting it as your opponent losing control. This momentary relaxation allows them to complete the darce threading without resistance. Many practitioners feel relief when the anaconda loosens and pause their defensive efforts for a critical second. Instead, treat any change in your opponent's grip as an opportunity for immediate escape or at minimum an indicator to increase defensive vigilance and tighten your arm position against your body.",
+        "answer_line": "Relaxing when pressure releases",
+        "distractors": {
+          "plausible": [
+            "Overcommitting to the choke grip",
+            "Losing your base and posture"
+          ],
+          "trap": [
+            "Panicking and thrashing wildly"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -404,6 +576,26 @@
         "phase": "Phase 3: Live Defense",
         "focus": "Full resistance defensive sparring from the dead orchard position",
         "description": "Positional sparring starting from dead orchard control. Top player works to finish anaconda, switch to darce, or advance position. Bottom player works to survive and escape using all available defensive options at full resistance. Track escape rates over multiple sessions to measure defensive improvement and identify which defensive options work best against different opponents."
+      }
+    ],
+    "clips": [
+      {
+        "id": "ZCTAYYZMVUo",
+        "title": "Escaping the front headlock",
+        "by": "Satori BJJ coach",
+        "vertical": false,
+        "channel": "Satori BJJ",
+        "duration": 36,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "VZe2GY0_UIk",
+        "title": "Short drag front headlock escape",
+        "by": "Mason Parris",
+        "vertical": false,
+        "channel": "Merge Grappling",
+        "duration": 176,
+        "verified": "2026-07-15"
       }
     ]
   }

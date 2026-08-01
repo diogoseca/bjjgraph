@@ -164,6 +164,54 @@ description: "Master collar grip mechanics in BJJ. Learn deep grip penetration, 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Collar Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The one grip detail that makes the collar choke work",
+      "description": "Collar Control film study: The one grip detail that makes the collar choke work, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X93MdMlmrUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X93MdMlmrUg",
+      "url": "https://www.youtube.com/watch?v=X93MdMlmrUg",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Collar and sleeve control from closed guard",
+      "description": "Collar Control film study: Collar and sleeve control from closed guard, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P5SeCRensWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P5SeCRensWQ",
+      "url": "https://www.youtube.com/watch?v=P5SeCRensWQ",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT930S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Understanding and breaking gi collar grips",
+      "description": "Collar Control film study: Understanding and breaking gi collar grips, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y2XDKeuSOA0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Y2XDKeuSOA0",
+      "url": "https://www.youtube.com/watch?v=Y2XDKeuSOA0",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT657S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Collar Control?
@@ -173,6 +221,42 @@ description: "Master collar grip mechanics in BJJ. Learn deep grip penetration, 
 In gi jiu-jitsu the collar is the single most contested piece of fabric on the body, and the practitioners who win the grip exchanges around it tend to dictate the terms of every subsequent scramble. Unlike specific techniques, collar control is a comprehensive conceptual framework that applies across all phases of gi BJJ, from standing exchanges to dominant control positions. This concept encompasses the mechanics of collar grip establishment, the strategic use of deep collar grips to control opponent's head and spine positioning, and the integration of collar control with choking mechanics and sweep execution. Collar control serves as both a defensive mechanism that breaks opponent's posture and prevents effective pressure application, and an offensive foundation that enables direct choke submissions and powerful leverage-based attacks. The ability to establish and maintain effective collar control often determines success in both guard positions and dominant controls, making it one of the most essential and versatile conceptual elements in gi BJJ.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Collar Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X93MdMlmrUg)
+
+<p class="clip-credit"><strong>The one grip detail that makes the collar choke work</strong> — taught by Henry Akins · 1:17 · <a href="https://www.youtube.com/watch?v=X93MdMlmrUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P5SeCRensWQ)
+
+<p class="clip-credit"><strong>Collar and sleeve control from closed guard</strong> — taught by Roger Gracie · 15:30 · <a href="https://www.youtube.com/watch?v=P5SeCRensWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Y2XDKeuSOA0)
+
+<p class="clip-credit"><strong>Understanding and breaking gi collar grips</strong> — taught by RVV BJJ · 10:57 · <a href="https://www.youtube.com/watch?v=Y2XDKeuSOA0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

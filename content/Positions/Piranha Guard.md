@@ -34,6 +34,43 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Piranha Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Worm guard breakdown",
+      "description": "Piranha Guard film study: Worm guard breakdown, taught by Erich Munis.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QzwnLW735U8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QzwnLW735U8",
+      "url": "https://www.youtube.com/watch?v=QzwnLW735U8",
+      "creator": { "@type": "Person", "name": "Erich Munis" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Keenan\u0027s lapel guard concept",
+      "description": "Piranha Guard film study: Keenan\u0027s lapel guard concept, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/37RW-Z4xn0U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/37RW-Z4xn0U",
+      "url": "https://www.youtube.com/watch?v=37RW-Z4xn0U",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT100S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The position excels against opponents who attempt to establish standing passes o
 While technically demanding and primarily applicable in gi competition, Piranha Guard represents an evolution in contemporary guard development that emphasizes creative problem-solving and unconventional control methods. The position requires significant practice to master the lapel feeding mechanics, timing, and grip transitions, but rewards practitioners with a highly effective attacking system that creates constant dilemmas for opponents. Success in this position comes from maintaining constant lapel tension, staying mobile with hip movement, and recognizing the optimal moments to launch attacks based on the opponent's defensive reactions.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Piranha Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QzwnLW735U8)
+
+<p class="clip-credit"><strong>Worm guard breakdown</strong> — taught by Erich Munis · 0:53 · <a href="https://www.youtube.com/watch?v=QzwnLW735U8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=37RW-Z4xn0U)
+
+<p class="clip-credit"><strong>Keenan&#39;s lapel guard concept</strong> — taught by Keenan Cornelius · 1:40 · <a href="https://www.youtube.com/watch?v=37RW-Z4xn0U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,25 +202,25 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ### Available Transitions
 
 
-- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (21% of attempts)
+- **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (11% of attempts)
 
-- **[[Transitions/Collar Drag/Attacker|Collar Drag]]** (10% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (0% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (23% of attempts)
 
-- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (10% of attempts)
+- **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (13% of attempts)
 
-- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (10% of attempts)
+- **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (12% of attempts)
 
-- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (10% of attempts)
+- **[[Transitions/Berimbolo Entry/Attacker|Berimbolo Entry]]** (5% of attempts)
 
-- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (11% of attempts)
+- **[[Transitions/Flower Sweep/Attacker|Flower Sweep]]** (7% of attempts)
 
-- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (10% of attempts)
+- **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (29% of attempts)
 
-- **[[Transitions/Piranha Guard Sweep/Attacker|Piranha Guard Sweep]]** (5% of attempts)
+- **[[Transitions/Piranha Guard Sweep/Attacker|Piranha Guard Sweep]]** (0% of attempts)
 
-- **[[Transitions/Piranha to Worm Guard/Attacker|Piranha to Worm Guard]]** (3% of attempts)
+- **[[Transitions/Piranha to Worm Guard/Attacker|Piranha to Worm Guard]]** (0% of attempts)
 
 
 ### Common Mistakes
@@ -220,23 +285,23 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (20% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (16% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (17% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (11% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (7% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (15% of attempts)
 
-- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (14% of attempts)
+- **[[Transitions/Pressure Pass/Attacker|Pressure Pass]]** (11% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (11% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (9% of attempts)
 
-- **[[Transitions/Pass Piranha Guard/Attacker|Pass Piranha Guard]]** (5% of attempts)
+- **[[Transitions/Pass Piranha Guard/Attacker|Pass Piranha Guard]]** (14% of attempts)
 
-- **[[Transitions/Strip Lapel from Piranha/Attacker|Strip Lapel from Piranha]]** (3% of attempts)
+- **[[Transitions/Strip Lapel from Piranha/Attacker|Strip Lapel from Piranha]]** (0% of attempts)
 
 
 ### Common Mistakes

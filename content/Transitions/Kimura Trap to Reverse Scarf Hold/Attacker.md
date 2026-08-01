@@ -174,6 +174,54 @@ description: "How to execute the Kimura Trap to Reverse Scarf Hold transition in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kimura Trap to Reverse Scarf Hold (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kimura catch from the sidemount",
+      "description": "Kimura Trap to Reverse Scarf Hold (Attacker) film study: Kimura catch from the sidemount, taught by Animal.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9swfUrCXEDQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9swfUrCXEDQ",
+      "url": "https://www.youtube.com/watch?v=9swfUrCXEDQ",
+      "creator": { "@type": "Person", "name": "Animal" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Kimura trap from reverse kesa-gatame",
+      "description": "Kimura Trap to Reverse Scarf Hold (Attacker) film study: Kimura trap from reverse kesa-gatame, taught by Smith BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xLCWZaGPW0g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xLCWZaGPW0g",
+      "url": "https://www.youtube.com/watch?v=xLCWZaGPW0g",
+      "creator": { "@type": "Person", "name": "Smith BJJ" },
+      "duration": "PT140S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa gatame reverse arm attack roll over",
+      "description": "Kimura Trap to Reverse Scarf Hold (Attacker) film study: Kesa gatame reverse arm attack roll over, taught by Carlos Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5POG6rDBVLM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5POG6rDBVLM",
+      "url": "https://www.youtube.com/watch?v=5POG6rDBVLM",
+      "creator": { "@type": "Person", "name": "Carlos Machado" },
+      "duration": "PT113S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 **From Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kimura Trap to Reverse Scarf Hold (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9swfUrCXEDQ)
+
+<p class="clip-credit"><strong>Kimura catch from the sidemount</strong> — taught by Animal · 0:56 · <a href="https://www.youtube.com/watch?v=9swfUrCXEDQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xLCWZaGPW0g)
+
+<p class="clip-credit"><strong>Kimura trap from reverse kesa-gatame</strong> — taught by Smith BJJ · 2:20 · <a href="https://www.youtube.com/watch?v=xLCWZaGPW0g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5POG6rDBVLM)
+
+<p class="clip-credit"><strong>Kesa gatame reverse arm attack roll over</strong> — taught by Carlos Machado · 1:53 · <a href="https://www.youtube.com/watch?v=5POG6rDBVLM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

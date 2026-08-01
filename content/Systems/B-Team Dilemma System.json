@@ -373,35 +373,115 @@
   "flashcards": [
     {
       "question": "What is the core operating principle of the B-Team Dilemma System?",
-      "answer": "Every defensive reaction to one attack opens a different offensive opportunity, so the opponent is forced into a perpetual lose-lose chain of leg locks, back takes, and submissions with no safe defensive option."
+      "answer": "Every defensive reaction to one attack opens a different offensive opportunity, so the opponent is forced into a perpetual lose-lose chain of leg locks, back takes, and submissions with no safe defensive option.",
+      "answer_line": "Every reaction opens new attack",
+      "distractors": {
+        "plausible": [
+          "Chain moves for speed",
+          "Attack the closest submission"
+        ],
+        "trap": [
+          "Commit to one submission early"
+        ]
+      }
     },
     {
       "question": "How does the outside heel hook create the back-take dilemma?",
-      "answer": "When the opponent turns away to hide the heel and defend the outside heel hook, that rotation exposes their back, allowing you to insert hooks and take the back while keeping the leg entanglement as a backup option."
+      "answer": "When the opponent turns away to hide the heel and defend the outside heel hook, that rotation exposes their back, allowing you to insert hooks and take the back while keeping the leg entanglement as a backup option.",
+      "answer_line": "Turning to hide heel bares back",
+      "distractors": {
+        "plausible": [
+          "Heel hook forces guard pass",
+          "Opponent taps to escape hook"
+        ],
+        "trap": [
+          "Release leg to chase the back"
+        ]
+      }
     },
     {
       "question": "Why does the system prioritize position chains over individual submissions?",
-      "answer": "Success is measured by controlling tempo and forcing the opponent into progressively worse positions; cumulative pressure across multiple cycles degrades their defense until a finish becomes inevitable, rather than relying on a single attack landing."
+      "answer": "Success is measured by controlling tempo and forcing the opponent into progressively worse positions; cumulative pressure across multiple cycles degrades their defense until a finish becomes inevitable, rather than relying on a single attack landing.",
+      "answer_line": "Tempo control, cumulative pressure",
+      "distractors": {
+        "plausible": [
+          "One clean submission ends it",
+          "Speed beats sustained pressure"
+        ],
+        "trap": [
+          "Rush the first tap opportunity"
+        ]
+      }
     },
     {
       "question": "How do you re-enter a leg entanglement from back control when the choke is defended?",
-      "answer": "Defending the rear naked choke usually forces the opponent to lower their hips and create space; you exploit that hand-fighting and hip movement to slide back into outside ashi or the saddle, re-entering the leg attack."
+      "answer": "Defending the rear naked choke usually forces the opponent to lower their hips and create space; you exploit that hand-fighting and hip movement to slide back into outside ashi or the saddle, re-entering the leg attack.",
+      "answer_line": "Hip drop from choke reopens legs",
+      "distractors": {
+        "plausible": [
+          "Release back to reset position",
+          "Switch straight to armbar"
+        ],
+        "trap": [
+          "Abandon hooks, chase choke harder"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake practitioners make when applying this system?",
-      "answer": "Rushing to finish individual submissions before establishing control and genuine dilemmas, which lets the opponent reset; trusting the transition chain and maintaining offensive pressure is far more effective than chasing early taps."
+      "answer": "Rushing to finish individual submissions before establishing control and genuine dilemmas, which lets the opponent reset; trusting the transition chain and maintaining offensive pressure is far more effective than chasing early taps.",
+      "answer_line": "Rushing finishes before control",
+      "distractors": {
+        "plausible": [
+          "Ignoring leg entanglement entries",
+          "Cycling positions too slowly"
+        ],
+        "trap": [
+          "Trusting the chain too much"
+        ]
+      }
     },
     {
       "question": "How should the 50-50 guard be used within the dilemma system?",
-      "answer": "As an active attacking platform rather than a stalling position — threatening straight ankle locks, toe holds, and calf slicers to force reactions while keeping connection to back-exposure and re-entry opportunities."
+      "answer": "As an active attacking platform rather than a stalling position — threatening straight ankle locks, toe holds, and calf slicers to force reactions while keeping connection to back-exposure and re-entry opportunities.",
+      "answer_line": "Active attack platform, not stall",
+      "distractors": {
+        "plausible": [
+          "Stall to control the clock",
+          "Wait for opponent to attack"
+        ],
+        "trap": [
+          "Flatten out and hold position"
+        ]
+      }
     },
     {
       "question": "What role does the front headlock play in the system?",
-      "answer": "It acts as a standing and turtle-based entry point, using snap downs and go-behinds to feed into both leg entanglements and back control, connecting the takedown and scramble game to the core dilemma loops."
+      "answer": "It acts as a standing and turtle-based entry point, using snap downs and go-behinds to feed into both leg entanglements and back control, connecting the takedown and scramble game to the core dilemma loops.",
+      "answer_line": "Snap-down entry to legs and back",
+      "distractors": {
+        "plausible": [
+          "Pure takedown finishing move",
+          "Guillotine setup only"
+        ],
+        "trap": [
+          "Pull guard to reset from headlock"
+        ]
+      }
     },
     {
       "question": "When should you commit to a finish rather than continuing to cycle?",
-      "answer": "After two to four complete cycles, once the opponent's defensive reactions slow or become predictable; identify the position they defend worst after repeated exposure and commit fully to high-percentage finishing mechanics."
+      "answer": "After two to four complete cycles, once the opponent's defensive reactions slow or become predictable; identify the position they defend worst after repeated exposure and commit fully to high-percentage finishing mechanics.",
+      "answer_line": "After 2-4 cycles, defense fades",
+      "distractors": {
+        "plausible": [
+          "Commit on the very first cycle",
+          "Wait for a dominant position"
+        ],
+        "trap": [
+          "Force finish before fatigue sets in"
+        ]
+      }
     }
   ]
 }

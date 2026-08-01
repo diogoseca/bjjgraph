@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Mount/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "success"
     },
     {
       "to": "Inside Sankaku/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "failure"
     },
     {
       "to": "Saddle/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 30,
+  "success_rate": {
+    "gi": 30,
+    "nogi": 30
+  },
   "overview": "The Sweep from Inside Sankaku is a high-level reversal technique that transforms one of the most dangerous defensive positions in modern leg lock systems into an offensive opportunity. When trapped in Inside Sankaku, the bottom player faces immediate inside heel hook threats with limited escape options. However, the interconnection that gives the top player control also creates a mechanical link that can be exploited for sweeps when timing and leverage align correctly. The technique requires the bottom player to first neutralize the immediate submission threat by hiding the heel before committing to the reversal.\n\nThe sweep capitalizes on a fundamental vulnerability in the Inside Sankaku position: the top player must shift weight and attention toward the heel to finish the submission, creating momentary base instability. By timing the sweep to coincide with the opponent's commitment to the heel hook attack, the bottom player uses hip elevation, rotational force through the connected legs, and upper body grips to off-balance and reverse the position. The mechanical principle relies on the entanglement itself serving as a fulcrum, where the locked legs transfer force directly from hip movement to the opponent's center of gravity.\n\nSuccess with this technique requires disciplined patience and accurate reading of the opponent's weight distribution. Premature sweep attempts waste energy and expose the heel to submission, while delayed attempts miss the narrow window of vulnerability. The sweep integrates into a broader defensive strategy from Inside Sankaku that includes heel protection, escape attempts, and counter-entanglement, making it one weapon in an arsenal of bottom-position options rather than a standalone technique.",
   "conditions": [
     "Opponent has established Inside Sankaku control with your leg trapped in their figure-four configuration",
@@ -249,42 +261,152 @@
     "flashcards": [
       {
         "question": "What must you establish before any sweep attempt from Inside Sankaku bottom?",
-        "answer": "You must first secure complete heel protection by hiding your heel against your own hip with hand reinforcement, turning toes inward and knee outward. No sweep should be initiated until the inside heel hook threat is fully neutralized. Attempting a sweep with an exposed heel risks career-ending knee ligament damage, making heel protection the absolute non-negotiable prerequisite."
+        "answer": "You must first secure complete heel protection by hiding your heel against your own hip with hand reinforcement, turning toes inward and knee outward. No sweep should be initiated until the inside heel hook threat is fully neutralized. Attempting a sweep with an exposed heel risks career-ending knee ligament damage, making heel protection the absolute non-negotiable prerequisite.",
+        "answer_line": "Hide heel against hip first",
+        "distractors": {
+          "plausible": [
+            "Secure upper body grip first",
+            "Off-balance opponent's base"
+          ],
+          "trap": [
+            "Attempt sweep immediately"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to execute the sweep?",
-        "answer": "The optimal timing window is when the opponent shifts their weight forward or laterally to reach for the heel hook finish. This weight commitment compromises their base stability and creates directional vulnerability. The sweep should be timed to coincide with their maximum forward commitment, when their center of gravity is furthest from their base of support and their posting hand is occupied reaching for your foot."
+        "answer": "The optimal timing window is when the opponent shifts their weight forward or laterally to reach for the heel hook finish. This weight commitment compromises their base stability and creates directional vulnerability. The sweep should be timed to coincide with their maximum forward commitment, when their center of gravity is furthest from their base of support and their posting hand is occupied reaching for your foot.",
+        "answer_line": "When they reach for heel hook",
+        "distractors": {
+          "plausible": [
+            "Right after entering sankaku",
+            "When they posture up tall"
+          ],
+          "trap": [
+            "When your heel is exposed"
+          ]
+        }
       },
       {
         "question": "What grip must you secure on the opponent's upper body and why is it critical?",
-        "answer": "You must secure a grip on the opponent's far wrist, forearm, or posting hand on the same side you intend to sweep toward. This grip eliminates their ability to post that hand when swept, removing their primary base recovery mechanism. Without this grip, the opponent simply posts and recovers balance, making the sweep fail regardless of how strong your bridge is. In gi, a collar grip provides similar upper body control."
+        "answer": "You must secure a grip on the opponent's far wrist, forearm, or posting hand on the same side you intend to sweep toward. This grip eliminates their ability to post that hand when swept, removing their primary base recovery mechanism. Without this grip, the opponent simply posts and recovers balance, making the sweep fail regardless of how strong your bridge is. In gi, a collar grip provides similar upper body control.",
+        "answer_line": "Control their far posting hand",
+        "distractors": {
+          "plausible": [
+            "Grip their near collar",
+            "Underhook their far arm"
+          ],
+          "trap": [
+            "Release grips to bridge harder"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand to defend the sweep - how do you adjust?",
-        "answer": "When the opponent posts successfully, you have two options. First, intensify grip fighting to strip the post before re-attempting the sweep. Second, exploit the positional commitment by hip escaping in the opposite direction, since they have now committed their base to one side, creating an opening on the other. The posting defense actually creates an asymmetry you can exploit for alternative escapes."
+        "answer": "When the opponent posts successfully, you have two options. First, intensify grip fighting to strip the post before re-attempting the sweep. Second, exploit the positional commitment by hip escaping in the opposite direction, since they have now committed their base to one side, creating an opening on the other. The posting defense actually creates an asymmetry you can exploit for alternative escapes.",
+        "answer_line": "Strip grip or go opposite side",
+        "distractors": {
+          "plausible": [
+            "Bridge harder into the post",
+            "Abandon sweep, protect heel"
+          ],
+          "trap": [
+            "Force sweep through the post"
+          ]
+        }
       },
       {
         "question": "What is the primary mechanical principle that makes this sweep possible?",
-        "answer": "The leg entanglement itself serves as a fulcrum and force transmission system. Because the legs are interconnected through the figure-four configuration, hip bridge elevation and rotational force transfer directly from your body into the opponent's center of gravity. The same connection that gives the top player control becomes the lever through which the bottom player generates sweep force, turning the entanglement into both a weapon and a vulnerability."
+        "answer": "The leg entanglement itself serves as a fulcrum and force transmission system. Because the legs are interconnected through the figure-four configuration, hip bridge elevation and rotational force transfer directly from your body into the opponent's center of gravity. The same connection that gives the top player control becomes the lever through which the bottom player generates sweep force, turning the entanglement into both a weapon and a vulnerability.",
+        "answer_line": "Entanglement acts as lever",
+        "distractors": {
+          "plausible": [
+            "Hip bridge alone powers sweep",
+            "Grip strength drives the sweep"
+          ],
+          "trap": [
+            "Kick free then muscle sweep"
+          ]
+        }
       },
       {
         "question": "What happens if you half-commit to the sweep and pull back mid-execution?",
-        "answer": "Half-commitment creates the worst possible outcome: enough movement to momentarily expose your heel from its protected position without completing the reversal. The opponent can capitalize on the brief exposure to secure heel hook grips during the failed attempt. Full commitment with a failed sweep is always preferable to partial commitment, because at least the heel remains concealed throughout a fully committed attempt."
+        "answer": "Half-commitment creates the worst possible outcome: enough movement to momentarily expose your heel from its protected position without completing the reversal. The opponent can capitalize on the brief exposure to secure heel hook grips during the failed attempt. Full commitment with a failed sweep is always preferable to partial commitment, because at least the heel remains concealed throughout a fully committed attempt.",
+        "answer_line": "Heel exposed, no reversal",
+        "distractors": {
+          "plausible": [
+            "No real consequence occurs",
+            "Opponent just regains guard"
+          ],
+          "trap": [
+            "Pausing mid-sweep is safer"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to Saddle during your sweep attempt - what should you do?",
-        "answer": "Immediately abandon the sweep and address the new, more dangerous entanglement. The Saddle traps both legs and provides even tighter control than Inside Sankaku. Your priority shifts entirely to heel protection and defensive positioning in the Saddle. Continuing the sweep attempt against a Saddle transition wastes energy and allows the opponent to consolidate a worse position for you."
+        "answer": "Immediately abandon the sweep and address the new, more dangerous entanglement. The Saddle traps both legs and provides even tighter control than Inside Sankaku. Your priority shifts entirely to heel protection and defensive positioning in the Saddle. Continuing the sweep attempt against a Saddle transition wastes energy and allows the opponent to consolidate a worse position for you.",
+        "answer_line": "Abandon sweep, defend heel",
+        "distractors": {
+          "plausible": [
+            "Push through to finish sweep",
+            "Grip fight to reverse Saddle"
+          ],
+          "trap": [
+            "Ignore it, keep bridging"
+          ]
+        }
       },
       {
         "question": "After successfully completing the sweep, what immediate actions must you take?",
-        "answer": "You must immediately extract your trapped leg from the figure-four entanglement while maintaining heavy chest-to-chest pressure on the opponent. Use knee pressure and hip shifting to free your leg. Simultaneously establish mount control by pinching your knees against the opponent's hips and settling your weight. Any delay in clearing the entanglement allows the opponent to re-establish leg control or recover guard from bottom."
+        "answer": "You must immediately extract your trapped leg from the figure-four entanglement while maintaining heavy chest-to-chest pressure on the opponent. Use knee pressure and hip shifting to free your leg. Simultaneously establish mount control by pinching your knees against the opponent's hips and settling your weight. Any delay in clearing the entanglement allows the opponent to re-establish leg control or recover guard from bottom.",
+        "answer_line": "Extract leg, settle mount",
+        "distractors": {
+          "plausible": [
+            "Release pressure, reset base",
+            "Secure submission immediately"
+          ],
+          "trap": [
+            "Chase heel hook finish first"
+          ]
+        }
       },
       {
         "question": "If the bridge sweep fails repeatedly, what alternative defensive strategies should you pursue?",
-        "answer": "Transition to alternative Inside Sankaku defensive options: hip escape and leg extraction to recover guard, counter-entanglement to 50-50 Guard to neutralize the opponent's positional advantage, or Granby roll escape to disengage entirely. The sweep is one tool in a broader defensive toolkit. If the opponent consistently defends it, they are likely creating openings for other escape methods through their defensive positioning."
+        "answer": "Transition to alternative Inside Sankaku defensive options: hip escape and leg extraction to recover guard, counter-entanglement to 50-50 Guard to neutralize the opponent's positional advantage, or Granby roll escape to disengage entirely. The sweep is one tool in a broader defensive toolkit. If the opponent consistently defends it, they are likely creating openings for other escape methods through their defensive positioning.",
+        "answer_line": "Try hip escape or 50-50",
+        "distractors": {
+          "plausible": [
+            "Keep repeating same bridge",
+            "Force heel hook instead"
+          ],
+          "trap": [
+            "Stay put and turtle up"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Sweep from Inside Sankaku involves movement within an active leg entanglement where inside heel hook submissions are possible. Never attempt the sweep with an exposed heel, as the rotational forces involved can accelerate heel hook mechanics and cause devastating knee ligament injuries including ACL and MCL tears. Tap immediately if you feel heel hook pressure during the sweep attempt rather than continuing. Train this technique with controlled, progressive resistance and ensure your training partner understands the submission risks. Communication during drilling is essential to prevent injury."
+    "safety_considerations": "The Sweep from Inside Sankaku involves movement within an active leg entanglement where inside heel hook submissions are possible. Never attempt the sweep with an exposed heel, as the rotational forces involved can accelerate heel hook mechanics and cause devastating knee ligament injuries including ACL and MCL tears. Tap immediately if you feel heel hook pressure during the sweep attempt rather than continuing. Train this technique with controlled, progressive resistance and ensure your training partner understands the submission risks. Communication during drilling is essential to prevent injury.",
+    "clips": [
+      {
+        "id": "K5XhO7o5QN0",
+        "title": "Saddle entries from guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 66,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "6gkNbZWSBzU",
+        "title": "Mount escape to single leg X to saddle",
+        "by": "Combat Arts S&C",
+        "vertical": false,
+        "channel": "Combat Arts Strength and Conditioning",
+        "duration": 17,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Sweep from Inside Sankaku Defender",
@@ -370,19 +492,59 @@
     "flashcards": [
       {
         "question": "What is the earliest warning sign that the bottom player is setting up a sweep rather than focusing purely on escape?",
-        "answer": "The earliest warning sign is the bottom player establishing upper body grips on your wrist, forearm, or body while simultaneously hiding their heel. Pure escape attempts focus on leg extraction and hip movement away from you, while sweep setups require upper body connection to eliminate your posting base. The combination of heel hiding plus upper body grip establishment is the distinctive indicator of sweep intent."
+        "answer": "The earliest warning sign is the bottom player establishing upper body grips on your wrist, forearm, or body while simultaneously hiding their heel. Pure escape attempts focus on leg extraction and hip movement away from you, while sweep setups require upper body connection to eliminate your posting base. The combination of heel hiding plus upper body grip establishment is the distinctive indicator of sweep intent.",
+        "answer_line": "Heel hide plus grip fighting",
+        "distractors": {
+          "plausible": [
+            "Just hip escape movement",
+            "Just knee shield framing"
+          ],
+          "trap": [
+            "Aggressively chasing the heel"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you sense a sweep attempt is coming?",
-        "answer": "Lower your center of gravity by sinking your hips closer to the mat and widening your base by posting your far hand firmly. Avoid leaning forward, as this is exactly the weight distribution the sweep exploits. Shift weight laterally if possible, moving your center of gravity away from the bottom player's intended sweep direction. The goal is to make your base wider than the arc of their bridge can overcome."
+        "answer": "Lower your center of gravity by sinking your hips closer to the mat and widening your base by posting your far hand firmly. Avoid leaning forward, as this is exactly the weight distribution the sweep exploits. Shift weight laterally if possible, moving your center of gravity away from the bottom player's intended sweep direction. The goal is to make your base wider than the arc of their bridge can overcome.",
+        "answer_line": "Lower hips, widen base",
+        "distractors": {
+          "plausible": [
+            "Post forward, drive pressure",
+            "Sit back on your heels"
+          ],
+          "trap": [
+            "Lean forward to smash weight"
+          ]
+        }
       },
       {
         "question": "When is transitioning to Saddle the correct defensive response to persistent sweep threats?",
-        "answer": "Transition to Saddle when the bottom player has demonstrated strong upper body grip fighting that consistently threatens your base in Inside Sankaku. The Saddle traps both legs and eliminates the single-leg pivot point that makes the Inside Sankaku sweep mechanically viable. This is particularly appropriate when the bottom player has strong bridging power or when repeated grip stripping has been insufficient to stop sweep attempts."
+        "answer": "Transition to Saddle when the bottom player has demonstrated strong upper body grip fighting that consistently threatens your base in Inside Sankaku. The Saddle traps both legs and eliminates the single-leg pivot point that makes the Inside Sankaku sweep mechanically viable. This is particularly appropriate when the bottom player has strong bridging power or when repeated grip stripping has been insufficient to stop sweep attempts.",
+        "answer_line": "When grips keep threatening base",
+        "distractors": {
+          "plausible": [
+            "As soon as sankaku is entered",
+            "Only after landing heel hook"
+          ],
+          "trap": [
+            "Never, sankaku traps better"
+          ]
+        }
       },
       {
         "question": "Your opponent briefly releases heel protection to grab your wrist for the sweep - should you attack the heel or defend the sweep?",
-        "answer": "This presents a tactical dilemma. If the heel exposure is clear and you can secure grips quickly, attacking the heel forces them to abandon the sweep and return to defense. However, reaching aggressively for the heel shifts your weight forward, which enables the sweep. The safest approach is to threaten the heel with one hand while maintaining base with the other, forcing the bottom player to release their sweep grip to re-protect the heel without you committing your balance."
+        "answer": "This presents a tactical dilemma. If the heel exposure is clear and you can secure grips quickly, attacking the heel forces them to abandon the sweep and return to defense. However, reaching aggressively for the heel shifts your weight forward, which enables the sweep. The safest approach is to threaten the heel with one hand while maintaining base with the other, forcing the bottom player to release their sweep grip to re-protect the heel without you committing your balance.",
+        "answer_line": "Threaten heel, keep base",
+        "distractors": {
+          "plausible": [
+            "Fully commit to heel attack",
+            "Ignore it, defend the sweep"
+          ],
+          "trap": [
+            "Lunge forward for the heel"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -405,6 +567,26 @@
         "phase": "Phase 4: Counter-Offense",
         "focus": "Using sweep defense to create submission openings",
         "description": "Advanced drilling where the top player uses the bottom player's sweep attempts as submission opportunities. When they release heel protection for sweep grips, practice capitalizing on the heel exposure. Develop the ability to bait sweep attempts that lead to easier submission access."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bJHew8wUS88",
+        "title": "Inside sankaku counter: honey stick escape",
+        "by": "Combat by the Minute",
+        "vertical": false,
+        "channel": "Combat by the Minute",
+        "duration": 92,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q1JgpfFRDA4",
+        "title": "Inside sankaku counter to inside heel hook",
+        "by": "Pedro Rocha",
+        "vertical": false,
+        "channel": "BJJ ONLINE",
+        "duration": 163,
+        "verified": "2026-07-15"
       }
     ]
   }

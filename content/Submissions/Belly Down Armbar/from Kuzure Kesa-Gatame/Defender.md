@@ -150,6 +150,43 @@ description: "How to defend the belly down armbar from Kuzure Kesa-Gatame. Recog
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Belly Down Armbar from Kuzure Kesa-Gatame (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa Gatame Pressure Defense with Framing",
+      "description": "Belly Down Armbar from Kuzure Kesa-Gatame (Defender) film study: Kesa Gatame Pressure Defense with Framing, taught by Kohbukan Sisu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fvp5_BVEtLg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fvp5_BVEtLg",
+      "url": "https://www.youtube.com/watch?v=fvp5_BVEtLg",
+      "creator": { "@type": "Person", "name": "Kohbukan Sisu" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scarf Hold Escape Against a Bigger Opponent",
+      "description": "Belly Down Armbar from Kuzure Kesa-Gatame (Defender) film study: Scarf Hold Escape Against a Bigger Opponent, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KOdBUiy9QoA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KOdBUiy9QoA",
+      "url": "https://www.youtube.com/watch?v=KOdBUiy9QoA",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT182S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the belly down armbar from Kuzure Kesa-Gatame requires recognizing the
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Belly Down Armbar from Kuzure Kesa-Gatame (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fvp5_BVEtLg)
+
+<p class="clip-credit"><strong>Kesa Gatame Pressure Defense with Framing</strong> — taught by Kohbukan Sisu · 1:24 · <a href="https://www.youtube.com/watch?v=fvp5_BVEtLg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KOdBUiy9QoA)
+
+<p class="clip-credit"><strong>Scarf Hold Escape Against a Bigger Opponent</strong> — taught by John Connors · 3:02 · <a href="https://www.youtube.com/watch?v=KOdBUiy9QoA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

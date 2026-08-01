@@ -34,6 +34,54 @@ description: "Master the Knee on Belly transition in BJJ. Learn proper knee plac
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Knee on Belly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee On Belly Basics",
+      "description": "Knee on Belly film study: Knee On Belly Basics, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jV_z0mC4SNw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jV_z0mC4SNw",
+      "url": "https://www.youtube.com/watch?v=jV_z0mC4SNw",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT16S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "3 Attacks from Knee-on-Belly",
+      "description": "Knee on Belly film study: 3 Attacks from Knee-on-Belly, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XNhDD7N4JNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XNhDD7N4JNY",
+      "url": "https://www.youtube.com/watch?v=XNhDD7N4JNY",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Back Take from Knee on Belly",
+      "description": "Knee on Belly film study: Back Take from Knee on Belly, taught by AMAZIN BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4MDc03yp6zI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4MDc03yp6zI",
+      "url": "https://www.youtube.com/watch?v=4MDc03yp6zI",
+      "creator": { "@type": "Person", "name": "AMAZIN BJJ" },
+      "duration": "PT69S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The position's effectiveness stems from the concentrated pressure of your entire
 From a strategic perspective, Knee on Belly functions as a pressure multiplier that accelerates the pace of the match. The discomfort forces the bottom player to react rather than methodically defend, creating predictable movement patterns you can exploit. Common defensive reactions - pushing the knee, turning away, bridging - each open specific submission or positional advancement opportunities. Understanding this action-reaction dynamic transforms Knee on Belly from a static scoring position into an active hunting ground for finishing the match.
 
 **From Position**: [[Positions/Side Control]] (Top)
-**Success Rate**: 68%
+**Success Rate**: 48%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Knee on Belly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jV_z0mC4SNw)
+
+<p class="clip-credit"><strong>Knee On Belly Basics</strong> — taught by bjjtaro · 0:16 · <a href="https://www.youtube.com/watch?v=jV_z0mC4SNw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XNhDD7N4JNY)
+
+<p class="clip-credit"><strong>3 Attacks from Knee-on-Belly</strong> — taught by Lucas Lepri · 1:08 · <a href="https://www.youtube.com/watch?v=XNhDD7N4JNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4MDc03yp6zI)
+
+<p class="clip-credit"><strong>Back Take from Knee on Belly</strong> — taught by AMAZIN BJJ · 1:09 · <a href="https://www.youtube.com/watch?v=4MDc03yp6zI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

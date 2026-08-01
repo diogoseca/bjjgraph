@@ -18,7 +18,10 @@
   "target_area": "Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity",
   "starting_position": "50-50 Guard",
   "from_position": "50-50 Guard/Top",
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The heel hook from 50-50 Guard is one of the most technically demanding leg lock finishes in modern grappling. The 50-50 position creates a symmetrical leg entanglement where both practitioners have mirrored leg configurations, making heel exposure the central tactical problem. Unlike heel hooks from asymmetrical entanglements such as the Saddle or Inside Ashi-Garami where the attacker has a built-in positional advantage, the 50-50 requires the attacker to first break positional parity through superior inside control, grip fighting, and hip positioning before the heel becomes accessible for the finishing rotation.\n\nThe key strategic element is the battle for inside position. The practitioner who establishes inside leg control gains priority access to the opponent's heel while simultaneously protecting their own. From top 50-50, the attacker uses downward hip pressure to flatten the defender and prevent them from matching inside control. Once inside position is secured and the heel is exposed, the attacker cups the heel with a two-handed grip and applies controlled rotational force through the ankle that transmits destructive torque into the knee ligaments, primarily targeting the ACL, MCL, and LCL.\n\nThis submission carries extreme injury risk because knee ligaments can rupture before the defender feels significant pain. Unlike arm locks or chokes that produce progressive discomfort, the heel hook's damage mechanism bypasses normal pain signals. This characteristic makes strict adherence to safety protocols essential during training and demands that both partners understand proper tap signals and release procedures.",
   "safety_considerations": {
     "injury_risks": [
@@ -112,17 +115,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "50-50 Guard/Top",
-      "probability": 36,
+      "probability": {
+        "gi": 36,
+        "nogi": 36
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 19,
+      "probability": {
+        "gi": 19,
+        "nogi": 19
+      },
       "result": "counter"
     }
   ],
@@ -290,52 +302,181 @@
       {
         "question": "What anatomical structures does the heel hook from 50-50 Guard primarily attack?",
         "answer": "The heel hook primarily attacks the knee ligaments, specifically the ACL (anterior cruciate ligament), MCL (medial collateral ligament), and LCL (lateral collateral ligament) through rotational force transmitted from the ankle through the lower leg into the knee joint. Secondary targets include the ankle ligaments and meniscus cartilage. The rotational torque creates a twisting force that the knee joint is structurally weakest against.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "ACL, MCL, LCL of the knee",
+        "distractors": {
+          "plausible": [
+            "Ankle ligaments primarily",
+            "Calf muscle and Achilles"
+          ],
+          "trap": [
+            "Ride it out, no pain warning"
+          ]
+        }
       },
       {
         "question": "Why is inside position control the prerequisite for attacking the heel hook from 50-50?",
         "answer": "Inside position control determines heel access priority in the symmetrical 50-50 entanglement. The practitioner with inside leg control can access the opponent's heel while simultaneously shielding their own heel from counter-attack. Without inside position, the opponent can easily rotate their knee inward to hide the heel and can initiate their own attacks. Inside control also enables downward hip pressure that keeps the defender flat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grants heel access, hides yours",
+        "distractors": {
+          "plausible": [
+            "Only improves hip pressure",
+            "Needed for grip strength alone"
+          ],
+          "trap": [
+            "Not needed if foot is trapped"
+          ]
+        }
       },
       {
         "question": "What are the indicators that the heel hook is approaching the breaking point?",
         "answer": "The breaking point approaches when the opponent's foot begins externally rotating relative to their knee with the rotational force building progressively. Visual indicators include the toes pointing outward beyond their natural range while the knee remains relatively fixed. Tactile indicators include feeling the ankle joint reaching maximum rotation and the ligament tension transmitting through your grip. In training, you must stop well before this point since knee ligament damage occurs without warning pain signals.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Foot rotates out, no warning",
+        "distractors": {
+          "plausible": [
+            "Loud pop before the tap",
+            "Knee bends past 90 degrees"
+          ],
+          "trap": [
+            "Crank until they show pain"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hiding their heel by rotating their knee inward 5 seconds into your attack - what is the correct tactical response?",
         "answer": "After 5 seconds of unsuccessful heel exposure attempts against active defense, transition to a higher-percentage alternative rather than forcing the heel hook. Primary options are kneebar by controlling above the knee joint, back take by releasing the leg entanglement and circling behind, or transition to Inside Ashi-Garami or Honey Hole for better heel exposure angles. Continuing to force the heel exposure wastes energy and allows the defender to strengthen their defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chain to kneebar or back take",
+        "distractors": {
+          "plausible": [
+            "Switch hands and re-grip heel",
+            "Wait for them to tire out"
+          ],
+          "trap": [
+            "Keep cranking the hidden heel"
+          ]
+        }
       },
       {
         "question": "How should grip adjustments be managed during the heel hook finishing sequence?",
         "answer": "Grip adjustments must follow the one-hand-always-on principle where at least one hand maintains contact with the heel at all times. When deepening the grip, secure the new hand position before releasing the old one. The heel cup should pull the heel tight against your chest or sternum, creating a solid mechanical connection between your body rotation and the ankle. Never chase the heel with fingertips alone, and re-establish a full palm cup if the grip becomes shallow.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "One hand always stays on heel",
+        "distractors": {
+          "plausible": [
+            "Chase the heel with fingertips",
+            "Grip ankle bone, not heel"
+          ],
+          "trap": [
+            "Release grip fully to reset cup"
+          ]
+        }
       },
       {
         "question": "What is the correct release protocol after your training partner taps to the heel hook?",
         "answer": "Upon any tap signal, immediately stop all rotational pressure first. Then release your heel grip completely before unwrapping the leg entanglement. Allow your partner to extract their leg at their own pace without rushing the disentangle process. After release, verbally check with your partner about the status of their knee and ankle. Report any joint discomfort to the instructor immediately, even if it seems minor, since heel hook damage can present with delayed symptoms.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rotational pressure first",
+        "distractors": {
+          "plausible": [
+            "Unwrap leg, then release grip",
+            "Check knee before releasing"
+          ],
+          "trap": [
+            "Yank leg free to reset fast"
+          ]
+        }
       },
       {
         "question": "What common finishing error most frequently leads to failed heel hook attempts from 50-50?",
         "answer": "The most common finishing error is using arm strength to rotate the heel instead of generating torque through full-body hip rotation. Arms fatigue quickly and cannot produce the sustained rotational force needed against a properly defending opponent. The correct mechanic is pinning the heel against your chest and rotating your entire body through your hips and shoulders as a single unit, generating far more force with less energy expenditure and better grip stability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Using arms instead of hip rotation",
+        "distractors": {
+          "plausible": [
+            "Gripping too tight too early",
+            "Rotating too slowly for control"
+          ],
+          "trap": [
+            "Yanking the heel straight back"
+          ]
+        }
       },
       {
         "question": "How does the 50-50 Guard starting position change the heel hook compared to attacking from the Saddle or Inside Ashi-Garami?",
         "answer": "The 50-50 Guard creates a symmetrical entanglement where both practitioners have equal leg access, unlike the Saddle or Inside Ashi-Garami where the attacker has built-in positional advantage. This means the attacker must first win the inside position battle before the heel becomes accessible. The defender also has mirror counter-attack potential throughout the exchange, requiring the attacker to balance offense with defending their own heel. The symmetry reduces success rate but offers unique chain opportunities.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Symmetrical, must win inside first",
+        "distractors": {
+          "plausible": [
+            "Saddle gives attacker less control",
+            "50-50 needs no grip fighting"
+          ],
+          "trap": [
+            "Attacker always has heel access"
+          ]
+        }
       },
       {
         "question": "What competition strategy maximizes heel hook finishing rate from 50-50 under ADCC rules?",
         "answer": "Under ADCC rules where heel hooks are legal, the optimal strategy is establishing inside position immediately upon entering 50-50, applying heavy hip pressure to prevent the opponent from sitting up, and attacking the heel within the first 10-15 seconds before the opponent establishes a strong defensive pattern. If the initial heel hook fails, chain rapidly to kneebar or transition to Saddle for better control. Avoid extended stalemates in 50-50 which allow the opponent to recover and may lead to referee restarts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Get inside position, attack early",
+        "distractors": {
+          "plausible": [
+            "Chain to kneebar before the heel",
+            "Pressure hips before getting inside"
+          ],
+          "trap": [
+            "Turn away to escape the tangle"
+          ]
+        }
       },
       {
         "question": "Why is the heel hook considered more dangerous than other joint locks, and how does this affect training approach?",
         "answer": "The heel hook is more dangerous because knee ligaments lack significant pain receptors that would provide warning before structural failure. Unlike an armbar where progressive elbow pain signals increasing danger, the heel hook can rupture the ACL, MCL, or LCL before the defender feels meaningful discomfort. This means the attacker bears primary responsibility for controlled application speed. Training must always use slow progressive pressure over 5-7 seconds minimum, and both partners must understand tap signals and release protocols.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "No pain warning before injury",
+        "distractors": {
+          "plausible": [
+            "Knee ligaments are weaker tissue",
+            "Knees carry more of your weight"
+          ],
+          "trap": [
+            "Crank fast to test their defense"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "U1vlUbJN3sc",
+        "title": "True 50/50 heel hook",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 34,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "UuluKZKDt8w",
+        "title": "Heel hooks breakdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Jiu Jitsu Moves",
+        "duration": 64,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "eb6ujAO09SY",
+        "title": "Get the 50/50 heel hook",
+        "by": "Asaf Mich",
+        "vertical": false,
+        "channel": "Asaf Mich",
+        "duration": 123,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -429,27 +570,77 @@
       {
         "question": "How do you recognize that a heel hook from 50-50 Guard is being set up?",
         "answer": "The primary recognition cues are the attacker establishing inside leg position with their shin against your inner thigh, their hands moving toward your heel or ankle area with grip-fighting intent, and increased downward hip pressure designed to flatten you and prevent positional recovery. Once you feel any of these cues, immediately engage heel protection by rotating your knee inward and beginning defensive grip fighting.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Inside shin, heel grip, hip pressure",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar first",
+            "Sudden increase in scrambling"
+          ],
+          "trap": [
+            "Wait until pressure feels sharp"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to a heel hook from 50-50 Guard?",
         "answer": "Tap verbally by saying 'tap' clearly and loudly as the primary signal, since your hands may be occupied fighting grips. Simultaneously tap physically with your free hand on the opponent or the mat with multiple rapid taps. If verbal and hand taps are not possible, tap with your free foot. Tap early before feeling significant rotational pressure since knee ligament damage occurs without adequate pain warning. Never try to tough through a heel hook.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Yell 'tap' + free-hand tap early",
+        "distractors": {
+          "plausible": [
+            "Slap the mat once, stay silent",
+            "Signal with free foot first"
+          ],
+          "trap": [
+            "Wait for pain, then tap"
+          ]
+        }
       },
       {
         "question": "What defensive options are available against the heel hook from 50-50 Guard?",
         "answer": "The primary defensive hierarchy is: first, hide the heel by rotating your knee inward to mechanically protect the joint. Second, strip the attacker's grips through two-on-one fighting before they establish a deep heel cup. Third, extract your leg from the entanglement if inside position recovery is not achievable within 3-5 seconds. Fourth, counter-attack by matching inside position and threatening the attacker's heel, but only after your own heel is fully defended.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hide heel, strip grips, extract",
+        "distractors": {
+          "plausible": [
+            "Flatten out and grip their belt",
+            "Push opponent's hip away first"
+          ],
+          "trap": [
+            "Yank your leg free forcefully"
+          ]
+        }
       },
       {
         "question": "Why should you never attempt a counter-attack while the attacker has a grip on your heel?",
         "answer": "Counter-attacking while your heel is gripped creates catastrophic injury risk because the attacker can finish the heel hook during your counter-attempt. The rotational force needed to rupture knee ligaments can be applied in under two seconds, and the heel hook lacks progressive pain feedback that would warn you before structural damage. Always strip the attacker's heel grip completely before considering any offensive action.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Finish can land in under 2 seconds",
+        "distractors": {
+          "plausible": [
+            "It's fine once grip feels loose",
+            "Only risky against advanced players"
+          ],
+          "trap": [
+            "Counter to distract, then defend"
+          ]
+        }
       },
       {
         "question": "How do you decide whether to fight for position reversal or extract your leg and disengage?",
         "answer": "Assess inside position within the first 3-5 seconds of the engagement. If you have inside position parity or can realistically recover it through immediate hip movement, fight for reversal by matching the attacker's position and sweeping to top. If the attacker has clear inside control that you cannot match quickly, immediately shift to leg extraction and escape to standing or guard recovery. Fighting for reversal without inside position wastes energy and increases submission risk.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Assess inside position in 3-5 sec",
+        "distractors": {
+          "plausible": [
+            "Base the choice on grip strength",
+            "Always fight for the reversal"
+          ],
+          "trap": [
+            "Stall and wait the opponent out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -472,6 +663,35 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Surviving and escaping heel hooks in live rolling",
         "description": "Start from 50-50 bottom against trusted training partners with heel hook experience. The attacker uses full technique at controlled speed while you apply the complete defensive framework. Debrief after each repetition to identify defensive gaps and refine timing."
+      }
+    ],
+    "clips": [
+      {
+        "id": "pGfZotHVstE",
+        "title": "Heel hook escape from 50/50",
+        "by": "Caio Terra Academy",
+        "vertical": false,
+        "channel": "Caio Terra Academy - Sterling | Piranha BJJ & MMA",
+        "duration": 59,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "_hyZqLRwsWE",
+        "title": "Counter the 50/50 heel hook with a wristlock",
+        "by": "Whangarei BJJ",
+        "vertical": false,
+        "channel": "Whangarei BJJ",
+        "duration": 61,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "v3w0qXLKxug",
+        "title": "Defending heel hooks",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 92,
+        "verified": "2026-07-14"
       }
     ]
   }

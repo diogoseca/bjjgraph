@@ -20,38 +20,38 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata from Omoplata Control",
-      "text": "From this position, attempt Omoplata from Omoplata Control. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 18% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 30% of exchanges from this position.",
+      "name": "Execute Omoplata to Back",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Closed Guard to Omoplata",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Rolling Omoplata from Omoplata Control",
+      "text": "From this position, attempt Rolling Omoplata from Omoplata Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling Omoplata from Omoplata Control",
-      "text": "From this position, attempt Rolling Omoplata from Omoplata Control. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Cartwheel Escape from Omoplata",
+      "text": "From this position, attempt Cartwheel Escape from Omoplata. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata Control (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Mount escape into an omoplata",
+      "description": "Omoplata Control (Bottom) film study: Mount escape into an omoplata, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pgIEqjw9ovs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pgIEqjw9ovs",
+      "url": "https://www.youtube.com/watch?v=pgIEqjw9ovs",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT31S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Omoplata technique breakdown",
+      "description": "Omoplata Control (Bottom) film study: Omoplata technique breakdown, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oQAP8nARiHU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oQAP8nARiHU",
+      "url": "https://www.youtube.com/watch?v=oQAP8nARiHU",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT100S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Spinning omoplata setup",
+      "description": "Omoplata Control (Bottom) film study: Spinning omoplata setup, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HCuRfqaM0tM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HCuRfqaM0tM",
+      "url": "https://www.youtube.com/watch?v=HCuRfqaM0tM",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT96S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
 Omoplata Control Bottom represents the offensive application of this position where the bottom practitioner has secured the omoplata configuration while maintaining guard. This perspective offers exceptional attacking opportunities as you use your legs to trap and control the opponent's shoulder from the bottom position. The bottom position allows you to leverage your entire body weight and hip mobility to create rotational pressure on the opponent's shoulder joint while simultaneously threatening sweeps and transitions. From this position, you control the pace and direction of the engagement, forcing your opponent into defensive reactions that create openings for submission finishes, sweeps to dominant top positions, or transitions to back control. The key to success from the bottom perspective is understanding that the omoplata control creates a branching decision tree where each of the opponent's defensive options leads to a different high-percentage attack. Modern competition analysis shows that practitioners who maintain active hip movement and pressure from omoplata control bottom achieve positional advancement or submission approximately 80% of the time at advanced levels. The position requires excellent hip mobility, precise leg positioning, and the ability to read your opponent's weight distribution to capitalize on their defensive commitments. Understanding the biomechanics of shoulder rotation and the opponent's escape options allows you to stay one step ahead, transitioning seamlessly between finishing the shoulder lock, sweeping to mount or side control, or following to back control when they attempt to roll.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata Control (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pgIEqjw9ovs)
+
+<p class="clip-credit"><strong>Mount escape into an omoplata</strong> — taught by Clark Gracie · 0:31 · <a href="https://www.youtube.com/watch?v=pgIEqjw9ovs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oQAP8nARiHU)
+
+<p class="clip-credit"><strong>Omoplata technique breakdown</strong> — taught by Clark Gracie · 1:40 · <a href="https://www.youtube.com/watch?v=oQAP8nARiHU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HCuRfqaM0tM)
+
+<p class="clip-credit"><strong>Spinning omoplata setup</strong> — taught by Clark Gracie · 1:36 · <a href="https://www.youtube.com/watch?v=HCuRfqaM0tM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

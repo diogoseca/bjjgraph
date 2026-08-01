@@ -34,6 +34,54 @@ description: "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Single Leg X-Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Single Leg X entries and sweep",
+      "description": "Single Leg X-Guard film study: Single Leg X entries and sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y0C8vIeCrc0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y0C8vIeCrc0",
+      "url": "https://www.youtube.com/watch?v=y0C8vIeCrc0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT179S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Single Leg X guard options",
+      "description": "Single Leg X-Guard film study: Single Leg X guard options, taught by Steven Kaloustian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EcxCadpBePk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EcxCadpBePk",
+      "url": "https://www.youtube.com/watch?v=EcxCadpBePk",
+      "creator": { "@type": "Person", "name": "Steven Kaloustian" },
+      "duration": "PT97S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "One-Leg X guard sweep",
+      "description": "Single Leg X-Guard film study: One-Leg X guard sweep, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AhsXraebbdg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AhsXraebbdg",
+      "url": "https://www.youtube.com/watch?v=AhsXraebbdg",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT47S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master Single Leg X-Guard in BJJ. Strategic guide covering setup, 
 Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a cornerstone position that bridges traditional guard play with submission-oriented leg locking systems. The bottom player wraps one leg around the opponent's trapped leg (typically at the ankle or lower calf) while the other foot creates an active hook on the opponent's hip or inner thigh. This configuration creates exceptional control over the opponent's balance and base, offering powerful sweeping leverage and direct pathways to modern leg lock positions. SLX serves as both a high-percentage sweeping platform and a critical gateway position in the contemporary leg entanglement game, allowing practitioners to flow between upper body attacks through sweeps and lower body attacks through leg locks. The position's effectiveness stems from its ability to control the opponent's weight distribution while maintaining active offensive threats. By elevating and off-balancing the opponent, the bottom player can create sweep opportunities in multiple directions or transition seamlessly into more complex leg entanglements. The versatility of SLX makes it particularly valuable in no-gi competition, where it serves as a foundational element of modern guard retention and attack systems. The modern game has evolved significantly in how both players approach this position, with systematic methods emerging from competitors who have refined the position for maximum effectiveness. Understanding both perspectives—bottom and top—is essential for complete mastery of this critical modern BJJ position.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Single Leg X-Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y0C8vIeCrc0)
+
+<p class="clip-credit"><strong>Single Leg X entries and sweep</strong> — taught by Marcelo Garcia · 2:59 · <a href="https://www.youtube.com/watch?v=y0C8vIeCrc0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EcxCadpBePk)
+
+<p class="clip-credit"><strong>Single Leg X guard options</strong> — taught by Steven Kaloustian · 1:37 · <a href="https://www.youtube.com/watch?v=EcxCadpBePk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AhsXraebbdg)
+
+<p class="clip-credit"><strong>One-Leg X guard sweep</strong> — taught by Marcelo Garcia · 0:47 · <a href="https://www.youtube.com/watch?v=AhsXraebbdg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,33 +217,29 @@ Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a c
 ### Available Transitions
 
 
-- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (18% of attempts)
+- **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** (20% of attempts)
 
-- **[[Transitions/Ashi Entry from Leg Entanglement/Attacker|Ashi Entry from Leg Entanglement]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (9% of attempts)
 
-- **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (3% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (12% of attempts)
 
-- **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (9% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (2% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (4% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (1% of attempts)
 
-- **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** (3% of attempts)
+- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (6% of attempts)
 
-- **[[Transitions/Ankle Pick Sweep/Attacker|Ankle Pick Sweep]]** (8% of attempts)
-
-- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (7% of attempts)
-
-- **[[Transitions/Standing to Single Leg X/Attacker|Standing to Single Leg X]]** (2% of attempts)
+- **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (12% of attempts)
 
 - **[[Transitions/Heel Grab Sweep/Attacker|Heel Grab Sweep]]** (8% of attempts)
 
-- **[[Transitions/SLX to Ashi Garami/Attacker|SLX to Ashi Garami]]** (8% of attempts)
+- **[[Transitions/SLX to Ashi Garami/Attacker|SLX to Ashi Garami]]** (11% of attempts)
 
-- **[[Transitions/SLX to X-Guard/Attacker|SLX to X-Guard]]** (4% of attempts)
+- **[[Transitions/SLX to X-Guard/Attacker|SLX to X-Guard]]** (8% of attempts)
 
 - **[[Transitions/Single Leg X-Guard to Inside Sankaku/Attacker|Single Leg X-Guard to Inside Sankaku]]** (8% of attempts)
 
-- **[[Transitions/Single Leg X to Estima Lock/Attacker|Single Leg X to Estima Lock]]** (8% of attempts)
+- **[[Transitions/Single Leg X to Estima Lock/Attacker|Single Leg X to Estima Lock]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -224,21 +304,19 @@ Within the modern leg-entanglement game, Single Leg X-Guard (SLX) has become a c
 ### Available Transitions
 
 
-- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (14% of attempts)
+- **[[Transitions/Headquarters Pass/Attacker|Headquarters Pass]]** (11% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (12% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (12% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (7% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (27% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (8% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
+- **[[Kneebar from Single Leg X-Guard/Attacker|Kneebar from Single Leg X-Guard]]** (7% of attempts)
 
-- **[[Kneebar from Single Leg X-Guard/Attacker|Kneebar from Single Leg X-Guard]]** (10% of attempts)
+- **[[Transitions/Backstep from Single Leg X/Attacker|Backstep from Single Leg X]]** (24% of attempts)
 
-- **[[Transitions/Backstep from Single Leg X/Attacker|Backstep from Single Leg X]]** (8% of attempts)
-
-- **[[Transitions/Standing Escape from SLX/Attacker|Standing Escape from SLX]]** (6% of attempts)
+- **[[Transitions/Standing Escape from SLX/Attacker|Standing Escape from SLX]]** (31% of attempts)
 
 
 ### Common Mistakes

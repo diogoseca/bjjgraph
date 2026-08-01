@@ -148,6 +148,54 @@ description: "Defend against crucifix maintenance in BJJ. Recognition cues, syst
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crucifix Maintenance (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the crucifix under bulldog choke",
+      "description": "Crucifix Maintenance (Defender) film study: Escaping the crucifix under bulldog choke, taught by Mick Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wt2NW_hfTd0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wt2NW_hfTd0",
+      "url": "https://www.youtube.com/watch?v=Wt2NW_hfTd0",
+      "creator": { "@type": "Person", "name": "Mick Hall" },
+      "duration": "PT228S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix Escape Every White Belt Should Know",
+      "description": "Crucifix Maintenance (Defender) film study: Crucifix Escape Every White Belt Should Know, taught by BIG OSS Jiu-Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gUy0ycrx7mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gUy0ycrx7mM",
+      "url": "https://www.youtube.com/watch?v=gUy0ycrx7mM",
+      "creator": { "@type": "Person", "name": "BIG OSS Jiu-Jitsu" },
+      "duration": "PT743S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Catch Wrestling: Escaping the Defense Position",
+      "description": "Crucifix Maintenance (Defender) film study: Catch Wrestling: Escaping the Defense Position, taught by TakingItToTheMMAT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OALJtUQ1qCA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OALJtUQ1qCA",
+      "url": "https://www.youtube.com/watch?v=OALJtUQ1qCA",
+      "creator": { "@type": "Person", "name": "TakingItToTheMMAT" },
+      "duration": "PT273S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending against Crucifix Maintenance means systematically dismantling the oppo
 **Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crucifix Maintenance (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wt2NW_hfTd0)
+
+<p class="clip-credit"><strong>Escaping the crucifix under bulldog choke</strong> — taught by Mick Hall · 3:48 · <a href="https://www.youtube.com/watch?v=Wt2NW_hfTd0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gUy0ycrx7mM)
+
+<p class="clip-credit"><strong>Crucifix Escape Every White Belt Should Know</strong> — taught by BIG OSS Jiu-Jitsu · 12:23 · <a href="https://www.youtube.com/watch?v=gUy0ycrx7mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OALJtUQ1qCA)
+
+<p class="clip-credit"><strong>Catch Wrestling: Escaping the Defense Position</strong> — taught by TakingItToTheMMAT · 4:33 · <a href="https://www.youtube.com/watch?v=OALJtUQ1qCA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

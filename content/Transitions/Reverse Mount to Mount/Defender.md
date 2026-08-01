@@ -148,6 +148,54 @@ description: "Learn to defend and counter the reverse mount to standard mount ro
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Reverse Mount to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Inverted mount escape to ashi garami",
+      "description": "Reverse Mount to Mount (Defender) film study: Inverted mount escape to ashi garami, taught by Thunderdome BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bNdt6jVatj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bNdt6jVatj4",
+      "url": "https://www.youtube.com/watch?v=bNdt6jVatj4",
+      "creator": { "@type": "Person", "name": "Thunderdome BJJ" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Mount escape",
+      "description": "Reverse Mount to Mount (Defender) film study: Mount escape, taught by bjjtaro.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uTuPvxQUOo4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uTuPvxQUOo4",
+      "url": "https://www.youtube.com/watch?v=uTuPvxQUOo4",
+      "creator": { "@type": "Person", "name": "bjjtaro" },
+      "duration": "PT23S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape the mount",
+      "description": "Reverse Mount to Mount (Defender) film study: How to escape the mount, taught by Pantera Jiujitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R21vtm5BHF4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/R21vtm5BHF4",
+      "url": "https://www.youtube.com/watch?v=R21vtm5BHF4",
+      "creator": { "@type": "Person", "name": "Pantera Jiujitsu" },
+      "duration": "PT80S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defender must balance two competing priorities: acting early enough to catch
 **Opponent's Starting Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Reverse Mount to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bNdt6jVatj4)
+
+<p class="clip-credit"><strong>Inverted mount escape to ashi garami</strong> — taught by Thunderdome BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=bNdt6jVatj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uTuPvxQUOo4)
+
+<p class="clip-credit"><strong>Mount escape</strong> — taught by bjjtaro · 0:23 · <a href="https://www.youtube.com/watch?v=uTuPvxQUOo4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=R21vtm5BHF4)
+
+<p class="clip-credit"><strong>How to escape the mount</strong> — taught by Pantera Jiujitsu · 1:20 · <a href="https://www.youtube.com/watch?v=R21vtm5BHF4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

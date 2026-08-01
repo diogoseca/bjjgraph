@@ -34,6 +34,43 @@ description: "Master the Lapel to Spider Transition in BJJ. Convert lapel guard 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel to Spider Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Establishing an aggressive spider guard",
+      "description": "Lapel to Spider Guard film study: Establishing an aggressive spider guard, taught by Johnny Tama.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6gxvSjju4LE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6gxvSjju4LE",
+      "url": "https://www.youtube.com/watch?v=6gxvSjju4LE",
+      "creator": { "@type": "Person", "name": "Johnny Tama" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Lapel sweep to back take from worm guard",
+      "description": "Lapel to Spider Guard film study: Lapel sweep to back take from worm guard, taught by Rafael Mendes.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LmKuASuN_Hs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/LmKuASuN_Hs",
+      "url": "https://www.youtube.com/watch?v=LmKuASuN_Hs",
+      "creator": { "@type": "Person", "name": "Rafael Mendes" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,6 +108,34 @@ This transition is particularly valuable in competition where opponents train sp
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel to Spider Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6gxvSjju4LE)
+
+<p class="clip-credit"><strong>Establishing an aggressive spider guard</strong> — taught by Johnny Tama · 0:59 · <a href="https://www.youtube.com/watch?v=6gxvSjju4LE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=LmKuASuN_Hs)
+
+<p class="clip-credit"><strong>Lapel sweep to back take from worm guard</strong> — taught by Rafael Mendes · 0:55 · <a href="https://www.youtube.com/watch?v=LmKuASuN_Hs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

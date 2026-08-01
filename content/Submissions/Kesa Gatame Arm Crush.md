@@ -34,6 +34,43 @@ description: "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering e
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame Arm Crush \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "12 Kesa Gatame attacks",
+      "description": "Kesa Gatame Arm Crush film study: 12 Kesa Gatame attacks, taught by Johnny Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fB7gGDIm1i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fB7gGDIm1i8",
+      "url": "https://www.youtube.com/watch?v=fB7gGDIm1i8",
+      "creator": { "@type": "Person", "name": "Johnny Jitsu" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "High-percentage Kesa Gatame submissions",
+      "description": "Kesa Gatame Arm Crush film study: High-percentage Kesa Gatame submissions, taught by Stephan Kesting.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nKITSItbeyM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/nKITSItbeyM",
+      "url": "https://www.youtube.com/watch?v=nKITSItbeyM",
+      "creator": { "@type": "Person", "name": "Stephan Kesting" },
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -86,6 +123,34 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 </section>
 
 
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame Arm Crush in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fB7gGDIm1i8)
+
+<p class="clip-credit"><strong>12 Kesa Gatame attacks</strong> — taught by Johnny Jitsu · 1:28 · <a href="https://www.youtube.com/watch?v=fB7gGDIm1i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=nKITSItbeyM)
+
+<p class="clip-credit"><strong>High-percentage Kesa Gatame submissions</strong> — taught by Stephan Kesting · 3:40 · <a href="https://www.youtube.com/watch?v=nKITSItbeyM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+
 <section id="variants" class="content-section">
 
 ## What positions can you finish from?
@@ -95,7 +160,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame|Kesa Gatame]] | Top | 45% | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Defender|Defend →]] |
+| [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Defender|Defend →]] |
 
 
 </div>
@@ -120,7 +185,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 ## Related
 - [[Submissions/Kimura]] - Primary submission chain partner from kesa gatame - kimura defense often exposes the arm for the crush
 - [[Submissions/Arm Crush]] - Parent submission category sharing compression mechanics and elbow attack principles
-- [[Transitions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
+- [[Submissions/Arm Triangle]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
 - [[Submissions/Americana]] - Complementary shoulder lock creating attack chains from scarf hold positions
 - [[Submissions/Bicep Slicer]] - Related compression submission attacking similar forearm and bicep anatomical structures
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup

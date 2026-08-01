@@ -34,6 +34,54 @@ description: "Master the Baratoplata Setup from Meathook. Step-by-step shoulder 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Baratoplata Setup \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Baratoplata Entry",
+      "description": "Baratoplata Setup film study: Baratoplata Entry, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/16hTPPDyl5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/16hTPPDyl5E",
+      "url": "https://www.youtube.com/watch?v=16hTPPDyl5E",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT158S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Baratoplata from spider guard",
+      "description": "Baratoplata Setup film study: Baratoplata from spider guard, taught by Joao Miyao.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7PzrTuuHzZ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7PzrTuuHzZ4",
+      "url": "https://www.youtube.com/watch?v=7PzrTuuHzZ4",
+      "creator": { "@type": "Person", "name": "Joao Miyao" },
+      "duration": "PT362S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Baratoplata from top half guard",
+      "description": "Baratoplata Setup film study: Baratoplata from top half guard, taught by Juan Lopezcorrea.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TUDgZTMr3_o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TUDgZTMr3_o",
+      "url": "https://www.youtube.com/watch?v=TUDgZTMr3_o",
+      "creator": { "@type": "Person", "name": "Juan Lopezcorrea" },
+      "duration": "PT28S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ Strategically, the Baratoplata Setup exploits the fundamental weakness of Meatho
 The technique requires precise timing and mechanical understanding. Unlike straight armlocks that attack the elbow through hyperextension, the Baratoplata attacks the shoulder through internal rotation combined with extension. This creates a submission that is difficult to defend through strength alone, as the rotational component bypasses the larger muscle groups that typically protect against arm attacks. For purple and brown belt practitioners, the Baratoplata represents an evolution beyond basic Rubber Guard attacks into the system's deeper submission chains.
 
 **From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
-**Success Rate**: 50%
+**Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Baratoplata Setup in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=16hTPPDyl5E)
+
+<p class="clip-credit"><strong>Baratoplata Entry</strong> — taught by Coach Brian · 2:38 · <a href="https://www.youtube.com/watch?v=16hTPPDyl5E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7PzrTuuHzZ4)
+
+<p class="clip-credit"><strong>Baratoplata from spider guard</strong> — taught by Joao Miyao · 6:02 · <a href="https://www.youtube.com/watch?v=7PzrTuuHzZ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TUDgZTMr3_o)
+
+<p class="clip-credit"><strong>Baratoplata from top half guard</strong> — taught by Juan Lopezcorrea · 0:28 · <a href="https://www.youtube.com/watch?v=TUDgZTMr3_o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -76,7 +160,7 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Baratoplata]] | 50% |
+| Success | [[Positions/Omoplata Control]] | 50% |
 | Failure | [[Positions/Rubber Guard/Meathook]] | 25% |
 | Counter | [[Positions/Armbar Control]] | 15% |
 | Counter | [[Positions/Closed Guard]] | 10% |

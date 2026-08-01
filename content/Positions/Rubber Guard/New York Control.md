@@ -34,6 +34,43 @@ description: "Master New York Control in BJJ. Strategic rubber guard position co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "New York Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Rubber Guard Philosophy",
+      "description": "New York Control film study: Rubber Guard Philosophy, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tWAZbCiWQ9E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/tWAZbCiWQ9E",
+      "url": "https://www.youtube.com/watch?v=tWAZbCiWQ9E",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Eddie Bravo explains Rubber Guard",
+      "description": "New York Control film study: Eddie Bravo explains Rubber Guard, taught by Eddie Bravo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h1XzZDsUxHQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h1XzZDsUxHQ",
+      "url": "https://www.youtube.com/watch?v=h1XzZDsUxHQ",
+      "creator": { "@type": "Person", "name": "Eddie Bravo" },
+      "duration": "PT111S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -72,6 +109,34 @@ The position's integration within the broader 10th Planet system provides practi
 Competition application demonstrates New York Control's effectiveness in both gi and no-gi contexts, though the position achieves particular success in no-gi environments where traditional grips become unavailable to the top player. The flexibility requirements initially limit the position's accessibility, but dedicated practitioners who invest in developing the necessary range of motion gain access to a submission system that consistently produces finishes against opponents unfamiliar with rubber guard defensive protocols. Understanding both the attacking mechanics and defensive requirements proves essential for modern competitors seeking comprehensive guard system mastery.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch New York Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=tWAZbCiWQ9E)
+
+<p class="clip-credit"><strong>Rubber Guard Philosophy</strong> — taught by Eddie Bravo · 1:01 · <a href="https://www.youtube.com/watch?v=tWAZbCiWQ9E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h1XzZDsUxHQ)
+
+<p class="clip-credit"><strong>Eddie Bravo explains Rubber Guard</strong> — taught by Eddie Bravo · 1:51 · <a href="https://www.youtube.com/watch?v=h1XzZDsUxHQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -143,31 +208,31 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (6% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (7% of attempts)
 
-- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (13% of attempts)
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (8% of attempts)
 
-- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (7% of attempts)
+- **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** (9% of attempts)
 
-- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (6% of attempts)
+- **[[Transitions/Omoplata to Back/Attacker|Omoplata to Back]]** (9% of attempts)
 
-- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (7% of attempts)
+- **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** (8% of attempts)
 
 - **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** (9% of attempts)
 
-- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (9% of attempts)
+- **[[Transitions/New York to Invisible Collar/Attacker|New York to Invisible Collar]]** (7% of attempts)
 
-- **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** (8% of attempts)
+- **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** (7% of attempts)
 
-- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (6% of attempts)
+- **[[Transitions/Armbar from New York/Attacker|Armbar from New York]]** (6% of attempts)
 
-- **[[Kimura from New York Control/Attacker|Kimura from New York Control]]** (6% of attempts)
+- **[[Kimura from New York Control/Attacker|Kimura from New York Control]]** (7% of attempts)
 
-- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (7% of attempts)
+- **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (5% of attempts)
 
-- **[[Transitions/New York Control to Invisible Collar/Attacker|New York Control to Invisible Collar]]** (3% of attempts)
+- **[[Transitions/New York Control to Invisible Collar/Attacker|New York Control to Invisible Collar]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -228,21 +293,17 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Transitions/Overhook Escape/Attacker|Overhook Escape]]** (15% of attempts)
+- **[[Transitions/Overhook Escape/Attacker|Overhook Escape]]** (18% of attempts)
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (14% of attempts)
+- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (23% of attempts)
 
-- **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (24% of attempts)
+- **[[Transitions/Crossface to Combat Base/Attacker|Crossface to Combat Base]]** (16% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (11% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (16% of attempts)
 
-- **[[Transitions/Leg Extraction/Attacker|Leg Extraction]]** (15% of attempts)
+- **[[Transitions/New York Control Escape/Attacker|New York Control Escape]]** (13% of attempts)
 
-- **[[Transitions/Standing Escape/Attacker|Standing Escape]]** (13% of attempts)
-
-- **[[Transitions/New York Control Escape/Attacker|New York Control Escape]]** (5% of attempts)
-
-- **[[Transitions/Guard Pass from New York Control/Attacker|Guard Pass from New York Control]]** (3% of attempts)
+- **[[Transitions/Guard Pass from New York Control/Attacker|Guard Pass from New York Control]]** (14% of attempts)
 
 
 ### Common Mistakes

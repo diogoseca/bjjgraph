@@ -18,7 +18,10 @@
   "target_area": "Shoulder joint, rotator cuff, and shoulder capsule",
   "starting_position": "S Mount",
   "from_position": "S Mount/Top",
-  "success_rate": 62,
+  "success_rate": {
+    "gi": 62,
+    "nogi": 62
+  },
   "overview": "The Kimura from S Mount exploits one of the most dominant positions in Brazilian Jiu-Jitsu to attack the shoulder joint through rotational force. When the top practitioner establishes S Mount with perpendicular body alignment, the opponent's near arm is isolated between the legs. The natural defensive response of keeping the arm bent to defend the armbar creates an ideal Kimura opportunity. Rather than fighting to extend the arm for an armbar finish, the attacker secures a figure-four grip on the wrist and uses the mechanical advantage of the S Mount angle to rotate the shoulder past its safe range of motion.\n\nWhat makes this variation particularly effective is the control infrastructure already in place from S Mount. The leg over the head and the leg across the torso prevent escape while the hip-to-shoulder connection eliminates defensive space. The Kimura attack from this position benefits from gravity, bodyweight pressure, and structural leg control simultaneously. The opponent's mobility is severely compromised, making standard Kimura defenses like straightening the arm or rolling through nearly impossible to execute successfully.\n\nThis submission chains naturally with the armbar from S Mount, creating a powerful dilemma for the defender. When the opponent bends their arm to defend the armbar, they expose themselves to the Kimura. When they straighten to defend the Kimura, they feed the armbar. This attack-counterattack dynamic makes S Mount one of the most submission-rich positions in modern grappling, and the Kimura is a critical weapon in the S Mount submission arsenal that every serious practitioner must understand from both sides.",
   "safety_considerations": {
     "injury_risks": [
@@ -75,7 +78,7 @@
     "Americana",
     "Far Side Armbar",
     "Reverse Kimura",
-    "Gift Wrap Armbar"
+    "Gift Wrap Armbar from Gift Wrap"
   ],
   "related_content": [
     {
@@ -102,17 +105,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 62,
+      "probability": {
+        "gi": 62,
+        "nogi": 62
+      },
       "result": "success"
     },
     {
       "to": "S Mount/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Bottom",
-      "probability": 13,
+      "probability": {
+        "gi": 13,
+        "nogi": 13
+      },
       "result": "counter"
     }
   ],
@@ -285,52 +297,172 @@
       {
         "question": "What specific anatomical structures does the Kimura from S Mount attack?",
         "answer": "The Kimura from S Mount attacks the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. The rotational force created by the figure-four grip forces the humerus into internal rotation past its safe range, driving the wrist toward the lower back, stressing all of these structures simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder: rotator cuff & capsule",
+        "distractors": {
+          "plausible": [
+            "Elbow hyperextension only",
+            "Wrist and forearm tendons"
+          ],
+          "trap": [
+            "Cervical spine — crank the neck"
+          ]
+        }
       },
       {
         "question": "What defensive reaction from your opponent signals the ideal moment to transition from armbar threat to Kimura attack?",
         "answer": "When the opponent bends their trapped arm to defend the armbar, pulling their hand toward their body or gripping their own collar, this creates the ideal Kimura window. The bent-arm position exposes the wrist for figure-four grip acquisition while simultaneously removing the armbar threat. This bent-arm defense is the trigger to initiate the Kimura rather than continuing to fight for arm extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bends arm, grips own collar",
+        "distractors": {
+          "plausible": [
+            "Straightens arm to push away",
+            "Frames forearm on your chest"
+          ],
+          "trap": [
+            "Bridges hard for upa sweep"
+          ]
+        }
       },
       {
         "question": "Why is pinning the opponent's elbow to the mat critical before initiating the Kimura rotation?",
         "answer": "The elbow pinned against the mat creates the fulcrum point that concentrates rotational force on the shoulder joint. Without this fulcrum, the force dissipates through the entire arm and the opponent can absorb the rotation by moving their upper arm. The elbow-mat contact point acts like a hinge, ensuring all rotational energy transfers directly into the shoulder joint for maximum mechanical efficiency.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow pinned = fulcrum point",
+        "distractors": {
+          "plausible": [
+            "It stops them bridging you off",
+            "Blocks their free-hand frame"
+          ],
+          "trap": [
+            "Lift elbow, muscle the rotation"
+          ]
+        }
       },
       {
         "question": "Your opponent starts straightening their arm while you are establishing the figure-four grip - what adjustment prevents escape?",
         "answer": "Immediately abandon the Kimura grip attempt and transition to the armbar finish, since the opponent has voluntarily extended their arm into the exact position the armbar requires. This is the fundamental Kimura-armbar dilemma from S Mount. The extended arm is mechanically indefensible against a properly applied armbar from this position, so their defense against one attack feeds directly into the other.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Abandon Kimura, finish armbar",
+        "distractors": {
+          "plausible": [
+            "Force figure-four grip anyway",
+            "Re-bend their arm first"
+          ],
+          "trap": [
+            "Release all control, stand up"
+          ]
+        }
       },
       {
         "question": "How should you generate rotational force for the Kimura finish from S Mount?",
         "answer": "Use your entire body to generate rotational force rather than relying on arm strength alone. Keep your elbows tight to your torso and rotate your hips and trunk as a unit, like turning a steering wheel with your whole body. Your arms maintain the figure-four grip structure while your core and hips provide the primary power. This approach generates far more force with less fatigue than muscling the rotation with your biceps.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rotate hips and trunk as a unit",
+        "distractors": {
+          "plausible": [
+            "Bicep curl the wrist upward",
+            "Flare elbows wide for leverage"
+          ],
+          "trap": [
+            "Explosive yank — snaps shoulder"
+          ]
+        }
       },
       {
         "question": "What is the correct speed and protocol for applying the Kimura rotation in training?",
         "answer": "Apply the rotation slowly and progressively over 3-5 seconds minimum, giving your training partner adequate time to recognize the danger and tap. Never jerk, spike, or suddenly accelerate the rotation. Maintain smooth, continuous pressure and stop immediately when you feel or hear any tap signal. After release, return the arm to neutral position gently and allow your partner to self-assess their shoulder before continuing.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow, 3-5 sec, stop on tap",
+        "distractors": {
+          "plausible": [
+            "Fast enough they can't escape",
+            "Apply until you feel resistance"
+          ],
+          "trap": [
+            "Spike it to test their tap"
+          ]
+        }
       },
       {
         "question": "What should you do if your opponent begins hip escaping toward your legs during the Kimura attempt?",
         "answer": "Follow their hip movement by scooting your own hips in the same direction, maintaining the critical hip-to-shoulder connection. Do not chase with your upper body first, as this lifts your weight off their shoulder. If they create significant space despite your adjustment, you must decide quickly whether to complete the rotation before full escape or abandon the Kimura and consolidate S Mount control before they recover guard position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Scoot hips, stay connected",
+        "distractors": {
+          "plausible": [
+            "Squeeze the figure-four harder",
+            "Post free hand on mat to base"
+          ],
+          "trap": [
+            "Lunge upper body, lose the pin"
+          ]
+        }
       },
       {
         "question": "How does the figure-four grip structure maximize control over the opponent's shoulder joint?",
         "answer": "The figure-four creates a rigid mechanical framework where both hands work as a single unit, with your near hand controlling the opponent's wrist and your far hand gripping your own wrist to close the loop. Both thumbs pointing the same direction ensures consistent rotational direction. The locked structure prevents the opponent from rotating their forearm to relieve pressure, and the four-point contact distributes control force evenly across the grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Locked unit blocks forearm turn",
+        "distractors": {
+          "plausible": [
+            "Two separate wrist grips",
+            "Opposite thumb directions"
+          ],
+          "trap": [
+            "Interlace fingers — grip snaps"
+          ]
+        }
       },
       {
         "question": "What are the key indicators that the Kimura has reached the point of no escape for the defender?",
         "answer": "The submission is past the point of no escape when the figure-four is locked, the elbow is pinned to the mat, and the opponent's hand has been rotated past the plane of their body toward their back. At this stage, the only remaining defense is to tap. Any further rotation will cause damage to the shoulder joint. The attacker should still apply slowly since the defender may not yet realize the position is finished.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Grip locked, hand past body plane",
+        "distractors": {
+          "plausible": [
+            "Wrist grip secured only",
+            "Opponent stops struggling"
+          ],
+          "trap": [
+            "Wait for audible pop"
+          ]
+        }
       },
       {
         "question": "In competition, how do you set up the Kimura when your opponent maintains a strong collar grip defense from S Mount bottom?",
         "answer": "Strip the collar grip systematically by peeling fingers one at a time, starting with the pinky side. Alternatively, drive their elbow to the mat using your body weight, which changes the angle of their grip and makes it significantly weaker. You can also fake the armbar extension to force them to adjust their grip, creating the window to thread your hand under the wrist. Patience and positional pressure will eventually break any grip defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Strip pinky-side, pin elbow",
+        "distractors": {
+          "plausible": [
+            "Yank the whole grip at once",
+            "Pull straight back on wrist"
+          ],
+          "trap": [
+            "Post both hands, get bridged"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "pDByo2uZnzo",
+        "title": "Kimura from S Mount",
+        "by": "Marcus Ashcraft",
+        "vertical": false,
+        "channel": "Marcus Ashcraft",
+        "duration": 63,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "nH4ly3vk7WI",
+        "title": "S-Mount Armbar, Kimura, Far-side Armbar",
+        "by": "GB Costa Mesa",
+        "vertical": false,
+        "channel": "GBCostaMesa",
+        "duration": 24,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -419,27 +551,77 @@
       {
         "question": "What visual and tactile cues indicate the Kimura is being set up from S Mount rather than an armbar?",
         "answer": "The key cue is feeling the opponent's hand threading under your wrist from the outside rather than pulling your arm toward extension. You will feel a wrapping motion around your forearm as they set up the figure-four, and their grip emphasis shifts from your wrist to circling under and around your forearm. Their body position may also shift slightly as they prepare for rotational rather than linear force application.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand threads under, wraps forearm",
+        "distractors": {
+          "plausible": [
+            "Steady pull toward extension",
+            "Grip shifts to your bicep"
+          ],
+          "trap": [
+            "Extend arm — feeds the armbar"
+          ]
+        }
       },
       {
         "question": "At what point should you tap when caught in a Kimura from S Mount?",
         "answer": "Tap immediately once the figure-four grip is fully locked and you feel rotational pressure beginning to move your hand behind your back. Do not wait until you feel pain, as shoulder damage can occur rapidly once rotation begins past the safe range of motion. If your grip defense fails and rotation starts, there is no effective late-stage escape from a properly applied Kimura in S Mount. Tap early, train again tomorrow.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap at lock, before pain hits",
+        "distractors": {
+          "plausible": [
+            "Wait until the shoulder burns",
+            "Turn away from the trapped arm"
+          ],
+          "trap": [
+            "Ride it out until it pops"
+          ]
+        }
       },
       {
         "question": "What is the correct order of defensive priorities when facing a Kimura from S Mount?",
         "answer": "First priority is preventing the figure-four grip from being established by keeping your arm bent and gripping your own collar. Second priority is maintaining that grip structure through any grip-stripping attempts. Third priority is timing a hip escape during grip transitions to recover guard. If all three fail and the figure-four locks with rotation beginning, the fourth priority is tapping immediately to protect your shoulder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Deny the figure-four grip: arm bent",
+        "distractors": {
+          "plausible": [
+            "Hip escape first to recover guard",
+            "Tap at the first sign of the lock"
+          ],
+          "trap": [
+            "Straighten the arm to pull free"
+          ]
+        }
       },
       {
         "question": "Your opponent momentarily releases one hand to readjust their figure-four grip - what immediate action do you take?",
         "answer": "Pull your trapped arm back explosively toward your body and re-grip your own collar before they can re-establish control. Simultaneously begin a hip escape toward their legs to create distance. This is your best escape window since the figure-four structure is broken. Even a half-second of released pressure is enough to extract the arm if you react immediately and decisively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Yank arm back, re-grip collar",
+        "distractors": {
+          "plausible": [
+            "Bridge hard into their hips",
+            "Grab your own belt and hold"
+          ],
+          "trap": [
+            "Extend arm to test their grip"
+          ]
+        }
       },
       {
         "question": "Why is extending your arm to push the opponent away a critical error when defending the Kimura from S Mount?",
         "answer": "Extending the arm removes the bend that protects against both the Kimura and the armbar. A straight arm from S Mount is the ideal position for an armbar finish, so you would be trading one submission threat for another that may be even more immediately dangerous. The core principle is to keep the arm bent and use hip movement and free-arm frames for escape rather than pushing with the trapped arm.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Straight arm feeds the armbar",
+        "distractors": {
+          "plausible": [
+            "Bent arm blocks their hip escape",
+            "Extension tires your shoulder"
+          ],
+          "trap": [
+            "Push away and sit up to stand"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -462,6 +644,26 @@
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full resistance defense and escape",
         "description": "Start in S Mount bottom against a fully resisting partner who attacks Kimura and armbar combinations. Apply all defensive principles under realistic pressure. Goal is to successfully defend or escape without being submitted, developing composure and technical precision under full competition intensity."
+      }
+    ],
+    "clips": [
+      {
+        "id": "qVINUjefot8",
+        "title": "Bent armlock (Kimura) escape from mount",
+        "by": "Soma Academy",
+        "vertical": false,
+        "channel": "Soma Academy",
+        "duration": 72,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "GOLwVNTVcnY",
+        "title": "Kimura defense grip breaks",
+        "by": "Dirtball BJJ",
+        "vertical": false,
+        "channel": "Dirtball BJJ",
+        "duration": 81,
+        "verified": "2026-07-14"
       }
     ]
   }

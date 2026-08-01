@@ -174,6 +174,43 @@ description: "How to execute the Transition to Piranha Guard from Lapel Guard bo
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Lapel Guard to Piranha Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "New Lapel Guard Concept: Preview",
+      "description": "Lapel Guard to Piranha Guard (Attacker) film study: New Lapel Guard Concept: Preview, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kyIOqdPhYd8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kyIOqdPhYd8",
+      "url": "https://www.youtube.com/watch?v=kyIOqdPhYd8",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT534S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "How to Play Squid Guard: Top 5 Sweep Tricks",
+      "description": "Lapel Guard to Piranha Guard (Attacker) film study: How to Play Squid Guard: Top 5 Sweep Tricks, taught by Keenan Cornelius.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5M1TLgoOBNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/5M1TLgoOBNU",
+      "url": "https://www.youtube.com/watch?v=5M1TLgoOBNU",
+      "creator": { "@type": "Person", "name": "Keenan Cornelius" },
+      "duration": "PT564S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Transition to Piranha Guard requires reconfiguring your existing l
 **From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Lapel Guard to Piranha Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kyIOqdPhYd8)
+
+<p class="clip-credit"><strong>New Lapel Guard Concept: Preview</strong> — taught by Keenan Cornelius · 8:54 · <a href="https://www.youtube.com/watch?v=kyIOqdPhYd8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=5M1TLgoOBNU)
+
+<p class="clip-credit"><strong>How to Play Squid Guard: Top 5 Sweep Tricks</strong> — taught by Keenan Cornelius · 9:24 · <a href="https://www.youtube.com/watch?v=5M1TLgoOBNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

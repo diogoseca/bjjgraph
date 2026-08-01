@@ -108,35 +108,115 @@
     "flashcards": [
       {
         "question": "What is the primary weight distribution strategy for maintaining Technical Mount while setting up the armbar?",
-        "answer": "Weight should be distributed strategically between the posted leg and the inside knee, with hips elevated but remaining close to the opponent's body. The posted leg provides base against rolling while the inside leg maintains connection. Upper body weight stays over the opponent's chest with the head positioned on the opposite side of the attacked arm to prevent sit-up attempts and maintain control during the transition to armbar."
+        "answer": "Weight should be distributed strategically between the posted leg and the inside knee, with hips elevated but remaining close to the opponent's body. The posted leg provides base against rolling while the inside leg maintains connection. Upper body weight stays over the opponent's chest with the head positioned on the opposite side of the attacked arm to prevent sit-up attempts and maintain control during the transition to armbar.",
+        "answer_line": "Weight on posted leg, hips close",
+        "distractors": {
+          "plausible": [
+            "All weight straight down like mount",
+            "Head on same side as attacked arm"
+          ],
+          "trap": [
+            "Abandon base to chase the arm"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to bridge explosively while you have their arm controlled in Technical Mount—what adjustment do you make?",
-        "answer": "Ride the bridge by staying heavy on your inside leg and posted leg, keeping your hips tight to their shoulder. As they bridge, their arm often extends further due to the momentum, creating an even better armbar angle. Use their upward momentum to begin your leg swing-over, converting their escape attempt into your finishing opportunity. Never fight the bridge directly—flow with it and capitalize on the space it creates."
+        "answer": "Ride the bridge by staying heavy on your inside leg and posted leg, keeping your hips tight to their shoulder. As they bridge, their arm often extends further due to the momentum, creating an even better armbar angle. Use their upward momentum to begin your leg swing-over, converting their escape attempt into your finishing opportunity. Never fight the bridge directly—flow with it and capitalize on the space it creates.",
+        "answer_line": "Ride the bridge, swing leg over",
+        "distractors": {
+          "plausible": [
+            "Fight the bridge, hold them down",
+            "Release grips, reset to mount"
+          ],
+          "trap": [
+            "Post hand down to stop bridge"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Technical Mount before committing to the armbar finish?",
-        "answer": "Two-handed control of the opponent's arm is critical: one hand grips the wrist firmly while the other controls above the elbow or at the shoulder. This dual grip prevents arm retraction and maintains extension. The wrist grip controls rotation while the elbow grip prevents them from bending the arm. Never post the leg before securing both grips, as losing arm control while in the asymmetric position leaves you vulnerable to escape."
+        "answer": "Two-handed control of the opponent's arm is critical: one hand grips the wrist firmly while the other controls above the elbow or at the shoulder. This dual grip prevents arm retraction and maintains extension. The wrist grip controls rotation while the elbow grip prevents them from bending the arm. Never post the leg before securing both grips, as losing arm control while in the asymmetric position leaves you vulnerable to escape.",
+        "answer_line": "Wrist grip plus above-elbow grip",
+        "distractors": {
+          "plausible": [
+            "Control shoulder, ignore wrist",
+            "Grip wrist only, no elbow control"
+          ],
+          "trap": [
+            "Post leg before securing grips"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary escape from Technical Mount where the opponent turns away to defend the armbar?",
-        "answer": "Anticipate the turn and immediately transition to back control rather than forcing the armbar. Maintain wrist control as they turn, release the armbar grip, and establish seat belt control by threading your arm under their armpit. Your posted leg becomes your first hook as you follow their rotation. The key is reading their shoulder movement early—the moment they begin turning, abandon the armbar and take the back."
+        "answer": "Anticipate the turn and immediately transition to back control rather than forcing the armbar. Maintain wrist control as they turn, release the armbar grip, and establish seat belt control by threading your arm under their armpit. Your posted leg becomes your first hook as you follow their rotation. The key is reading their shoulder movement early—the moment they begin turning, abandon the armbar and take the back.",
+        "answer_line": "Release arm, take the back",
+        "distractors": {
+          "plausible": [
+            "Force the armbar through turn",
+            "Wait for full turn, then react"
+          ],
+          "trap": [
+            "Let go of wrist immediately"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you maintain when the opponent begins hand-fighting to retract their arm?",
-        "answer": "Prioritize the wrist grip above all else—if you lose the wrist, you lose the armbar. When they hand-fight, keep your wrist grip tight while using your elbow-controlling hand to fight their free hand away or pin it to their body. If they successfully begin retracting, immediately decide: either commit harder by sitting back to the armbar before they escape, or release and return to regular mount to reset. Never stay in half-committed Technical Mount with compromised grips."
+        "answer": "Prioritize the wrist grip above all else—if you lose the wrist, you lose the armbar. When they hand-fight, keep your wrist grip tight while using your elbow-controlling hand to fight their free hand away or pin it to their body. If they successfully begin retracting, immediately decide: either commit harder by sitting back to the armbar before they escape, or release and return to regular mount to reset. Never stay in half-committed Technical Mount with compromised grips.",
+        "answer_line": "Never lose the wrist grip",
+        "distractors": {
+          "plausible": [
+            "Prioritize elbow control instead",
+            "Grab both hands, let wrist go"
+          ],
+          "trap": [
+            "Stay half-committed, keep waiting"
+          ]
+        }
       },
       {
         "question": "How do you apply effective pressure in Technical Mount without compromising your base or submission angle?",
-        "answer": "Pressure in Technical Mount comes from hip proximity to the opponent's shoulder rather than chest-to-chest weight like standard mount. Keep your hips tight to their shoulder on the attacked arm side, using your inside knee to drive into their ribs for connection. Your upper body leans slightly toward their head, with your posted leg bearing enough weight to maintain base but not so much that your hips float away from their shoulder. The pressure pins their shoulder to the mat and prevents them from creating the rotation needed to escape."
+        "answer": "Pressure in Technical Mount comes from hip proximity to the opponent's shoulder rather than chest-to-chest weight like standard mount. Keep your hips tight to their shoulder on the attacked arm side, using your inside knee to drive into their ribs for connection. Your upper body leans slightly toward their head, with your posted leg bearing enough weight to maintain base but not so much that your hips float away from their shoulder. The pressure pins their shoulder to the mat and prevents them from creating the rotation needed to escape.",
+        "answer_line": "Hips tight to their shoulder",
+        "distractors": {
+          "plausible": [
+            "Chest-to-chest weight like mount",
+            "All weight on the posted leg"
+          ],
+          "trap": [
+            "Let hips float away from shoulder"
+          ]
+        }
       },
       {
         "question": "How do you manage energy in Technical Mount given its transitional nature?",
-        "answer": "Technical Mount is a high-intensity, short-duration position—treat it as a 3-8 second window, not a resting position. Enter with immediate attacking intent and commit to finishing quickly. If the armbar isn't there within a few seconds, either transition to back take or return to regular mount to conserve energy. Staying in Technical Mount trying to force submissions burns energy rapidly due to the asymmetric base requiring constant adjustment. Make a decision and execute—hesitation costs energy."
+        "answer": "Technical Mount is a high-intensity, short-duration position—treat it as a 3-8 second window, not a resting position. Enter with immediate attacking intent and commit to finishing quickly. If the armbar isn't there within a few seconds, either transition to back take or return to regular mount to conserve energy. Staying in Technical Mount trying to force submissions burns energy rapidly due to the asymmetric base requiring constant adjustment. Make a decision and execute—hesitation costs energy.",
+        "answer_line": "Attack fast, commit within seconds",
+        "distractors": {
+          "plausible": [
+            "Rest here to conserve energy",
+            "Hold position, wait for opening"
+          ],
+          "trap": [
+            "Force submission, ignore the clock"
+          ]
+        }
       },
       {
         "question": "Your opponent creates frames with their free arm against your hip to prevent you from completing the armbar swing-over—how do you recover?",
-        "answer": "Use the frame to your advantage by attacking the free arm instead. Their frame exposes that arm for gift wrap control—swim your hand under their framing arm and grab their far shoulder or collar. Once the gift wrap is secured, you can either return to the original armbar with superior control, attack the newly trapped arm, or use the gift wrap to take the back. Their defensive frame becomes your offensive opportunity."
+        "answer": "Use the frame to your advantage by attacking the free arm instead. Their frame exposes that arm for gift wrap control—swim your hand under their framing arm and grab their far shoulder or collar. Once the gift wrap is secured, you can either return to the original armbar with superior control, attack the newly trapped arm, or use the gift wrap to take the back. Their defensive frame becomes your offensive opportunity.",
+        "answer_line": "Attack the framing arm, gift wrap",
+        "distractors": {
+          "plausible": [
+            "Power through the frame by force",
+            "Abandon armbar, return to mount"
+          ],
+          "trap": [
+            "Push into the frame harder"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -306,43 +386,79 @@
     "transitions": [
       {
         "transition": "Armbar from Technical Mount",
-        "attempt_probability": 42
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Triangle Setup",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 13
+        }
       },
       {
         "transition": "Gift Wrap Control",
-        "attempt_probability": 6
-      },
-      {
-        "transition": "High Mount Transition",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 11
+        }
       },
       {
         "transition": "Technical Mount to Back Control",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 17
+        }
       },
       {
         "transition": "Technical Mount to Mount",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Technical Mount to S Mount",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
+        }
       },
       {
         "transition": "Americana from Technical Mount",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 6
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "9bH-UvKJBf4",
+        "title": "Technical mount attack sequence & back take",
+        "by": "DS Team Jiu Jitsu",
+        "vertical": false,
+        "channel": "DS Team Jiu Jitsu School",
+        "duration": 175,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "plD6TW7pFv4",
+        "title": "Mount to technical mount transition",
+        "by": "Dark Horse BJJ",
+        "vertical": false,
+        "channel": "Dark Horse Brazilian Jiu Jitsu",
+        "duration": 20,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -391,35 +507,115 @@
     "flashcards": [
       {
         "question": "What is the most critical defensive priority when you find yourself in Technical Mount Bottom?",
-        "answer": "Protecting your arms from extension is the absolute priority. Keep both elbows tight to your ribs with arms bent—never extend to push or frame until you've established proper defensive structure. The stepped leg creates an immediate pathway to armbar if either arm straightens. Everything else—breathing, hip movement, escape attempts—is secondary to keeping your arms safe from isolation and extension."
+        "answer": "Protecting your arms from extension is the absolute priority. Keep both elbows tight to your ribs with arms bent—never extend to push or frame until you've established proper defensive structure. The stepped leg creates an immediate pathway to armbar if either arm straightens. Everything else—breathing, hip movement, escape attempts—is secondary to keeping your arms safe from isolation and extension.",
+        "answer_line": "Keep both elbows tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Push frames to create space first",
+            "Focus on hip escape immediately"
+          ],
+          "trap": [
+            "Extend arm to push them off"
+          ]
+        }
       },
       {
         "question": "Your opponent shifts their weight forward to set up the armbar—what escape window does this create and how do you exploit it?",
-        "answer": "When they shift forward for the armbar, their weight comes off your hips, creating a brief window for hip escape. Immediately shrimp your hips away from them while keeping your threatened arm bent and tight. Use your free leg to push against their hip to generate additional space. Time the hip escape to coincide with their forward weight shift—this is your best chance to recover half guard or insert a knee shield before they complete the submission."
+        "answer": "When they shift forward for the armbar, their weight comes off your hips, creating a brief window for hip escape. Immediately shrimp your hips away from them while keeping your threatened arm bent and tight. Use your free leg to push against their hip to generate additional space. Time the hip escape to coincide with their forward weight shift—this is your best chance to recover half guard or insert a knee shield before they complete the submission.",
+        "answer_line": "Shrimp hips away as weight shifts",
+        "distractors": {
+          "plausible": [
+            "Wait for a bigger opening",
+            "Bridge explosively right now"
+          ],
+          "trap": [
+            "Straighten arm to push away"
+          ]
+        }
       },
       {
         "question": "What is the correct head position in Technical Mount Bottom and why is it critical?",
-        "answer": "Keep your head turned away from the stepped leg (toward the side where their normal mount leg is). Turning toward the stepped leg exposes your neck to triangle attacks—they can thread their arm around your neck while maintaining the armbar threat on your arm, creating dual submission threats. The turned-away head position also helps you see and defend against back takes if you manage to turn to your side during escape attempts."
+        "answer": "Keep your head turned away from the stepped leg (toward the side where their normal mount leg is). Turning toward the stepped leg exposes your neck to triangle attacks—they can thread their arm around your neck while maintaining the armbar threat on your arm, creating dual submission threats. The turned-away head position also helps you see and defend against back takes if you manage to turn to your side during escape attempts.",
+        "answer_line": "Turn head away from stepped leg",
+        "distractors": {
+          "plausible": [
+            "Keep head flat, face ceiling",
+            "Tuck chin down to defend choke"
+          ],
+          "trap": [
+            "Turn head toward the stepped leg"
+          ]
+        }
       },
       {
         "question": "How do you establish effective defensive frames without extending your arms and exposing them to armbar?",
-        "answer": "Use your free arm (the one not threatened by the stepped leg) to create a frame against their hip or chest with your elbow bent at 90 degrees—forearm perpendicular to their body, elbow tight to your ribs. Never push with a straightened arm. For the threatened arm, keep it bent and glued to your chest, using your hand to grip your own collar or grab your opposite shoulder. Frames should be structural, not muscular pushing."
+        "answer": "Use your free arm (the one not threatened by the stepped leg) to create a frame against their hip or chest with your elbow bent at 90 degrees—forearm perpendicular to their body, elbow tight to your ribs. Never push with a straightened arm. For the threatened arm, keep it bent and glued to your chest, using your hand to grip your own collar or grab your opposite shoulder. Frames should be structural, not muscular pushing.",
+        "answer_line": "Bent elbow frames, forearm across",
+        "distractors": {
+          "plausible": [
+            "Push hard with straight arms",
+            "Grip their collar, pull in"
+          ],
+          "trap": [
+            "Straighten arm to frame off hip"
+          ]
+        }
       },
       {
         "question": "When should you attempt to escape Technical Mount versus simply surviving and defending?",
-        "answer": "Attempt escapes only when the opponent commits to a submission attack or position transition—these moments shift their weight and create openings. When they commit forward for the armbar, their hip pressure decreases allowing hip escapes. When they adjust grips, brief windows open. Pure survival mode is appropriate when they're settled with heavy pressure and you're recovering breath or waiting for them to move. Never force escapes when they're stable—you'll burn energy and likely expose your arms."
+        "answer": "Attempt escapes only when the opponent commits to a submission attack or position transition—these moments shift their weight and create openings. When they commit forward for the armbar, their hip pressure decreases allowing hip escapes. When they adjust grips, brief windows open. Pure survival mode is appropriate when they're settled with heavy pressure and you're recovering breath or waiting for them to move. Never force escapes when they're stable—you'll burn energy and likely expose your arms.",
+        "answer_line": "Escape only when they commit",
+        "distractors": {
+          "plausible": [
+            "Escape constantly, never rest",
+            "Survive always, never attempt escape"
+          ],
+          "trap": [
+            "Force escape while they're stable"
+          ]
+        }
       },
       {
         "question": "What is the bridge and roll timing from Technical Mount Bottom and what makes it different from standard mount escapes?",
-        "answer": "The bridge and roll from Technical Mount is lower percentage than from regular mount because the asymmetric position compromises your bridging power on the stepped-leg side. Time the bridge when opponent's weight shifts toward the armbar setup—bridge toward the side of their normal mount leg (away from the stepped leg) where their base is weaker. The bridge must be more explosive than normal because you have less leverage. Often the bridge serves more to create hip escape opportunities than to complete a full reversal."
+        "answer": "The bridge and roll from Technical Mount is lower percentage than from regular mount because the asymmetric position compromises your bridging power on the stepped-leg side. Time the bridge when opponent's weight shifts toward the armbar setup—bridge toward the side of their normal mount leg (away from the stepped leg) where their base is weaker. The bridge must be more explosive than normal because you have less leverage. Often the bridge serves more to create hip escape opportunities than to complete a full reversal.",
+        "answer_line": "Bridge toward their mount-leg side",
+        "distractors": {
+          "plausible": [
+            "Bridge slow and steady, like mount",
+            "Skip the bridge, hip escape only"
+          ],
+          "trap": [
+            "Bridge toward the stepped-leg side"
+          ]
+        }
       },
       {
         "question": "If your arm becomes trapped and the opponent begins the armbar swing-over, what is your final defensive option?",
-        "answer": "Once the swing-over begins, your best option is to follow their rotation and turn with them, attempting to come up to your knees as they fall back. Grab your own hands together (gable grip) with the trapped arm to prevent extension. If you can get to your knees as they sit back, you can stack them and potentially free your arm. This requires committed explosive movement—half-measures at this stage result in finished armbars. The key is recognizing the swing-over early and immediately committing to the stack defense."
+        "answer": "Once the swing-over begins, your best option is to follow their rotation and turn with them, attempting to come up to your knees as they fall back. Grab your own hands together (gable grip) with the trapped arm to prevent extension. If you can get to your knees as they sit back, you can stack them and potentially free your arm. This requires committed explosive movement—half-measures at this stage result in finished armbars. The key is recognizing the swing-over early and immediately committing to the stack defense.",
+        "answer_line": "Turn with them, gable grip, stack",
+        "distractors": {
+          "plausible": [
+            "Pull arm free with sudden yank",
+            "Stay flat and wait it out"
+          ],
+          "trap": [
+            "Extend arm hard to break the grip"
+          ]
+        }
       },
       {
         "question": "How do you recover guard from Technical Mount Bottom once you've created space through hip escapes?",
-        "answer": "After creating space through hip escapes, immediately insert your knee between your bodies as a knee shield—aim to get your shin across their torso with your foot hooking their far hip. This is your half guard recovery. For full guard recovery, you need more space—continue shrimping until you can bring your far leg around their body and close your guard. Prioritize any guard recovery over staying flat—even quarter guard or butterfly hook gives you offensive options and removes immediate submission threats."
+        "answer": "After creating space through hip escapes, immediately insert your knee between your bodies as a knee shield—aim to get your shin across their torso with your foot hooking their far hip. This is your half guard recovery. For full guard recovery, you need more space—continue shrimping until you can bring your far leg around their body and close your guard. Prioritize any guard recovery over staying flat—even quarter guard or butterfly hook gives you offensive options and removes immediate submission threats.",
+        "answer_line": "Insert knee shield, then full guard",
+        "distractors": {
+          "plausible": [
+            "Stay flat, wait for more space",
+            "Go straight for full guard only"
+          ],
+          "trap": [
+            "Push away with straight arms"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -576,36 +772,209 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 40
+        "attempt_probability": {
+          "gi": 18,
+          "nogi": 18
+        }
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 13
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 16
+        }
       },
       {
         "transition": "Upa Escape",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 11,
+          "nogi": 11
+        }
       },
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 10
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       },
       {
         "transition": "Bridge and Roll",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Back Turn from Technical Mount",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       },
       {
         "transition": "Escape Technical Mount to Half Guard",
-        "attempt_probability": 15
+        "attempt_probability": {
+          "gi": 14,
+          "nogi": 14
+        }
       },
       {
         "transition": "Bridge from Technical Mount",
-        "attempt_probability": 4
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "_sBB-O8fqP4",
+        "title": "Standing up: escaping from bottom",
+        "by": "Priit Mihkelson",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 114,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "9252EvCT0q4",
+        "title": "Can't escape the mount? Try this escape",
+        "by": "Gabriel Gonzaga",
+        "vertical": false,
+        "channel": "Gabriel Gonzaga",
+        "duration": 93,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "2uuP147GoBk",
+        "title": "Bridge & roll mount escape",
+        "by": "Academy Jiu Jitsu",
+        "vertical": false,
+        "channel": "Academy Jiu Jitsu",
+        "duration": 62,
+        "verified": "2026-07-14"
       }
     ]
-  }
+  },
+  "flashcards_position": [
+    {
+      "question": "What leg configuration defines Technical Mount and gives it the alternate name S-mount?",
+      "answer": "Technical Mount is an asymmetric mount where the top player steps one leg up so its shin runs across or above the opponent's head or shoulder line, while the other leg stays hooked underneath near the armpit or hip. Viewed from the side, the posted stepped-up leg and the tucked inside leg form an S shape, which is why the position is also called S-mount. This trades the symmetrical two-knee base of regular mount for a stepped-leg structure oriented around one of the opponent's arms. The defining feature is that leg placement, not chest pressure alone, dictates the position's geometry.",
+      "answer_line": "One leg stepped up, S-shaped legs",
+      "distractors": {
+        "plausible": [
+          "Both knees pinch ribs like mount",
+          "Both legs hooked underneath hips"
+        ],
+        "trap": [
+          "Both legs crossed behind back"
+        ]
+      }
+    },
+    {
+      "question": "Why does the stepped-over leg make a single isolated arm the organizing center of Technical Mount?",
+      "answer": "Stepping one leg up over the head or shoulder walls off that side of the opponent's body and traps the near arm on the wrong side of that leg, cutting it off from the free arm. This isolates one specific limb, so the whole configuration is built around that arm rather than general torso control. That trapped arm becomes the shared reference point defining every threat and every defensive response. Because the structure hinges on it, control of that one arm is the pivot on which the position stands or falls for either player.",
+      "answer_line": "Traps near arm, cuts off far arm",
+      "distractors": {
+        "plausible": [
+          "Locks down opponent's entire torso",
+          "Pins both arms equally together"
+        ],
+        "trap": [
+          "Frees the near arm for defense"
+        ]
+      }
+    },
+    {
+      "question": "How does weight and hip placement in Technical Mount differ from the chest-to-chest pressure of standard mount?",
+      "answer": "Standard mount drives weight straight down through the chest onto the sternum with both knees pinching the ribs. Technical Mount instead shifts the hips toward the isolated-arm side and stacks weight over the shoulder rather than the center of the chest, with a large share of base carried on the posted leg. This produces a rotational, angled pressure aimed at the shoulder line instead of a flat downward pin. The result is a position that is inherently more mobile and less settled than mount, which is why it is treated as transitional rather than a resting pin.",
+      "answer_line": "Hips shift toward shoulder, angled",
+      "distractors": {
+        "plausible": [
+          "Flat downward pressure like mount",
+          "Weight centered on the chest"
+        ],
+        "trap": [
+          "Both knees pinch ribs, flat pin"
+        ]
+      }
+    },
+    {
+      "question": "What makes Technical Mount trade stability for offensive angle compared to regular mount?",
+      "answer": "Posting one leg up removes a point of contact with the mat and lifts weight off one side of the opponent, so the base becomes narrower and easier to disrupt than a grounded two-knee mount. In exchange, the stepped leg creates the head-side barrier and hip angle that set up armbar and back-take geometry a flat mount cannot reach. This is a deliberate exchange: the configuration spends the rolling resistance of full mount to buy a finishing angle. That reduced stability is exactly what both players read, because it shortens the window in which the position can be held before it must resolve.",
+      "answer_line": "Narrower base buys finishing angle",
+      "distractors": {
+        "plausible": [
+          "Same base stability as full mount",
+          "Two-knee base gives better angle"
+        ],
+        "trap": [
+          "Trades angle away for pure base"
+        ]
+      }
+    },
+    {
+      "question": "Why is the free arm and the head-turn direction a central dynamic of Technical Mount for both players?",
+      "answer": "With one arm isolated by the stepped leg, the opponent's free arm and the orientation of their head become the contested variables that decide what happens next. The free arm can either frame to create space or be captured to shut down defense, while the head turned toward the stepped leg exposes the neck and turned away protects it against the triangle. Because the isolated arm is already committed, these two remaining assets determine whether the position resolves toward a submission, a back exposure, or an escape. The whole exchange orbits how the free arm and head sit relative to the stepped leg.",
+      "answer_line": "Free arm and head decide outcome",
+      "distractors": {
+        "plausible": [
+          "Only the trapped arm matters",
+          "Leg position alone decides it"
+        ],
+        "trap": [
+          "Head direction is irrelevant here"
+        ]
+      }
+    },
+    {
+      "question": "What is the defensive dilemma that structurally characterizes Technical Mount?",
+      "answer": "The stepped-leg configuration layers multiple threats onto a single controlled arm so that each defensive choice opens another attack. Straightening the trapped arm to push feeds the armbar, leaving the neck exposed invites the triangle, and turning away to escape offers the back. These threats share the same setup, so defending one commits the bottom player toward another. This interlocking near-no-win structure, rather than any single technique, is what defines Technical Mount and explains why it is rated one of the highest-percentage positions from mount.",
+      "answer_line": "Every defense opens another attack",
+      "distractors": {
+        "plausible": [
+          "Only the armbar is a real threat",
+          "Escaping always removes all risk"
+        ],
+        "trap": [
+          "Straighten arm, ignore the neck"
+        ]
+      }
+    },
+    {
+      "question": "How does Technical Mount differ from a fully committed S-mount armbar position?",
+      "answer": "Technical Mount is the controlling stage where the leg is stepped up and the arm is isolated but the top player still sits upright and can shift between multiple options. A committed S-mount armbar is the resolution of that position, where the far leg has swung across the face, the top player has sat back, and the hips drop to extend the arm for the finish. The distinction matters because Technical Mount retains its optionality between armbar, triangle, and back take, whereas the finish has already spent that optionality on one attack. Recognizing which stage the exchange is in tells both players whether the position is still fluid or already converting to a submission.",
+      "answer_line": "Control stage vs finishing stage",
+      "distractors": {
+        "plausible": [
+          "Same position, different names only",
+          "S-mount comes before Technical Mount"
+        ],
+        "trap": [
+          "Sit back immediately to finish"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "pa4Aj431Yds",
+      "title": "Technical mount attacks overview",
+      "by": "Soma Academy",
+      "vertical": false,
+      "channel": "Soma Academy",
+      "duration": 110,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "pNp2-2-r2Ec",
+      "title": "Getting to technical mount from mount",
+      "by": "Danny Fung",
+      "vertical": false,
+      "channel": "Danny Fung",
+      "duration": 175,
+      "verified": "2026-07-14"
+    }
+  ]
 }

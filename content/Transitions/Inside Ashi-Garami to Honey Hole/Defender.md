@@ -148,6 +148,43 @@ description: "How to defend against Inside Ashi-Garami to Honey Hole in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inside Ashi-Garami to Honey Hole (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "3 escapes from saddle / 411 / honey hole",
+      "description": "Inside Ashi-Garami to Honey Hole (Defender) film study: 3 escapes from saddle / 411 / honey hole, taught by Because Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8D4EFJ3kG9w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8D4EFJ3kG9w",
+      "url": "https://www.youtube.com/watch?v=8D4EFJ3kG9w",
+      "creator": { "@type": "Person", "name": "Because Jitsu" },
+      "duration": "PT200S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Inside heel hook escape flow drill",
+      "description": "Inside Ashi-Garami to Honey Hole (Defender) film study: Inside heel hook escape flow drill, taught by Factory Fresh Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xgvsUAW8h8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xgvsUAW8h8o",
+      "url": "https://www.youtube.com/watch?v=xgvsUAW8h8o",
+      "creator": { "@type": "Person", "name": "Factory Fresh Jiu Jitsu" },
+      "duration": "PT90S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Defensive success depends heavily on maintaining awareness of the attacker's leg
 **Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inside Ashi-Garami to Honey Hole (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8D4EFJ3kG9w)
+
+<p class="clip-credit"><strong>3 escapes from saddle / 411 / honey hole</strong> — taught by Because Jitsu · 3:20 · <a href="https://www.youtube.com/watch?v=8D4EFJ3kG9w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xgvsUAW8h8o)
+
+<p class="clip-credit"><strong>Inside heel hook escape flow drill</strong> — taught by Factory Fresh Jiu Jitsu · 1:30 · <a href="https://www.youtube.com/watch?v=xgvsUAW8h8o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

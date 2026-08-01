@@ -150,6 +150,43 @@ description: "Learn to defend the outside heel hook from Honey Hole. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Outside Heel Hook from Honey Hole (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Saddle heel hook escape to 50/50",
+      "description": "Outside Heel Hook from Honey Hole (Defender) film study: Saddle heel hook escape to 50/50, taught by ZombieProof BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pCX38nCUGD0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/pCX38nCUGD0",
+      "url": "https://www.youtube.com/watch?v=pCX38nCUGD0",
+      "creator": { "@type": "Person", "name": "ZombieProof BJJ" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending heel hooks fundamentals",
+      "description": "Outside Heel Hook from Honey Hole (Defender) film study: Defending heel hooks fundamentals, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/v3w0qXLKxug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/v3w0qXLKxug",
+      "url": "https://www.youtube.com/watch?v=v3w0qXLKxug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the outside heel hook from Honey Hole requires recognizing the grip tr
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Outside Heel Hook from Honey Hole (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=pCX38nCUGD0)
+
+<p class="clip-credit"><strong>Saddle heel hook escape to 50/50</strong> — taught by ZombieProof BJJ · 1:05 · <a href="https://www.youtube.com/watch?v=pCX38nCUGD0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=v3w0qXLKxug)
+
+<p class="clip-credit"><strong>Defending heel hooks fundamentals</strong> — taught by Lachlan Giles · 1:32 · <a href="https://www.youtube.com/watch?v=v3w0qXLKxug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

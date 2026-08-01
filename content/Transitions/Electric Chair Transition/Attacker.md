@@ -174,6 +174,54 @@ description: "How to execute Electric Chair Transition in BJJ. Attacking perspec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair Transition (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric Chair from Lockdown Half Guard",
+      "description": "Electric Chair Transition (Attacker) film study: Electric Chair from Lockdown Half Guard, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
+      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric Chair Sweep from Lockdown",
+      "description": "Electric Chair Transition (Attacker) film study: Electric Chair Sweep from Lockdown, taught by Moncaio Brothers.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/adarj-QUB4Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/adarj-QUB4Y",
+      "url": "https://www.youtube.com/watch?v=adarj-QUB4Y",
+      "creator": { "@type": "Person", "name": "Moncaio Brothers" },
+      "duration": "PT47S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Electric Chair Sweep Breakdown",
+      "description": "Electric Chair Transition (Attacker) film study: Electric Chair Sweep Breakdown, taught by Asaf Mich.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CxxyZEd7-E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CxxyZEd7-E",
+      "url": "https://www.youtube.com/watch?v=9CxxyZEd7-E",
+      "creator": { "@type": "Person", "name": "Asaf Mich" },
+      "duration": "PT76S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 **From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair Transition (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+
+<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> — taught by Brandon McCaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=adarj-QUB4Y)
+
+<p class="clip-credit"><strong>Electric Chair Sweep from Lockdown</strong> — taught by Moncaio Brothers · 0:47 · <a href="https://www.youtube.com/watch?v=adarj-QUB4Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CxxyZEd7-E)
+
+<p class="clip-credit"><strong>Electric Chair Sweep Breakdown</strong> — taught by Asaf Mich · 1:16 · <a href="https://www.youtube.com/watch?v=9CxxyZEd7-E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

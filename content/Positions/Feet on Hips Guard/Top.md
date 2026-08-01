@@ -21,37 +21,37 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 37% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Double Under Pass",
-      "text": "From this position, attempt Double Under Pass. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Double Under Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Feet on Hips Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Monitoring Feet in Guard Passing",
+      "description": "Feet on Hips Guard (Top) film study: Monitoring Feet in Guard Passing, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YLPNsyHtREs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YLPNsyHtREs",
+      "url": "https://www.youtube.com/watch?v=YLPNsyHtREs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Foot on Your Hip? No Problem!",
+      "description": "Feet on Hips Guard (Top) film study: Foot on Your Hip? No Problem!, taught by Rickson Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JL4Bimt-Y0I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JL4Bimt-Y0I",
+      "url": "https://www.youtube.com/watch?v=JL4Bimt-Y0I",
+      "creator": { "@type": "Person", "name": "Rickson Gracie" },
+      "duration": "PT139S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Free Your Foot While Passing",
+      "description": "Feet on Hips Guard (Top) film study: Free Your Foot While Passing, taught by Kameron Ross.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kTSMGYlVJKY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kTSMGYlVJKY",
+      "url": "https://www.youtube.com/watch?v=kTSMGYlVJKY",
+      "creator": { "@type": "Person", "name": "Kameron Ross" },
+      "duration": "PT55S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master feet on hips guard top position in BJJ. Complete passing st
 Feet on Hips Guard Top is the passing perspective when facing an opponent who has established feet on your hips as defensive frames. This common open guard scenario requires systematic breakdown of the bottom player's leg frames through grip control, pressure application, and strategic positioning. Success demands understanding how to neutralize the pushing power of the legs while maintaining forward pressure and creating passing opportunities. The position requires patience and technical precision—rushing into passes often results in the bottom player re-establishing guard or executing sweeps. Effective top players focus on controlling the knees, breaking the frames methodically, and transitioning to more advantageous passing positions. Your primary objectives are establishing dominant grips (particularly pants grips at the knees), applying constant forward pressure to prevent guard recovery, and timing your passing attacks to coincide with the bottom player's frame adjustments. The position demands balance between aggression and control—too passive allows the bottom player to threaten attacks, too aggressive creates sweep opportunities.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Feet on Hips Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YLPNsyHtREs)
+
+<p class="clip-credit"><strong>Monitoring Feet in Guard Passing</strong> — taught by Gordon Ryan · 0:50 · <a href="https://www.youtube.com/watch?v=YLPNsyHtREs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JL4Bimt-Y0I)
+
+<p class="clip-credit"><strong>Foot on Your Hip? No Problem!</strong> — taught by Rickson Gracie · 2:19 · <a href="https://www.youtube.com/watch?v=JL4Bimt-Y0I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kTSMGYlVJKY)
+
+<p class="clip-credit"><strong>Free Your Foot While Passing</strong> — taught by Kameron Ross · 0:55 · <a href="https://www.youtube.com/watch?v=kTSMGYlVJKY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

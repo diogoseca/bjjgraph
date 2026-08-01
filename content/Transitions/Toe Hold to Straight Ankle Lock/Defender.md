@@ -140,6 +140,43 @@ description: "Master defending the grip switch from toe hold to straight ankle l
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold to Straight Ankle Lock (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight ankle lock defence and escapes",
+      "description": "Toe Hold to Straight Ankle Lock (Defender) film study: Straight ankle lock defence and escapes, taught by Jiu Jitsu Brotherhood.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vg-Luhls7yE/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vg-Luhls7yE",
+      "url": "https://www.youtube.com/watch?v=vg-Luhls7yE",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Brotherhood" },
+      "duration": "PT164S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Craig Jones leglock defense breakdown",
+      "description": "Toe Hold to Straight Ankle Lock (Defender) film study: Craig Jones leglock defense breakdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
+      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ From the defender's perspective, the attacker's grip switch from toe hold to str
 **Opponent's Starting Position**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold to Straight Ankle Lock (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vg-Luhls7yE)
+
+<p class="clip-credit"><strong>Straight ankle lock defence and escapes</strong> — taught by Jiu Jitsu Brotherhood · 2:44 · <a href="https://www.youtube.com/watch?v=vg-Luhls7yE" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+
+<p class="clip-credit"><strong>Craig Jones leglock defense breakdown</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

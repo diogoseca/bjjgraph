@@ -150,6 +150,54 @@ description: "Defend against the Americana from Technical Mount in BJJ. Recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Americana from Technical Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bent armlock escape from mount",
+      "description": "Americana from Technical Mount (Defender) film study: Bent armlock escape from mount, taught by Soma Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qVINUjefot8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qVINUjefot8",
+      "url": "https://www.youtube.com/watch?v=qVINUjefot8",
+      "creator": { "@type": "Person", "name": "Soma Academy" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defense against the Americana",
+      "description": "Americana from Technical Mount (Defender) film study: Defense against the Americana, taught by Kevin Conan Bankens.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qfoEZtys84k/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qfoEZtys84k",
+      "url": "https://www.youtube.com/watch?v=qfoEZtys84k",
+      "creator": { "@type": "Person", "name": "Kevin Conan Bankens" },
+      "duration": "PT42S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Simple Americana armlock escape",
+      "description": "Americana from Technical Mount (Defender) film study: Simple Americana armlock escape, taught by Eddie Kone.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZjUCo8os8Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZjUCo8os8Q",
+      "url": "https://www.youtube.com/watch?v=NZjUCo8os8Q",
+      "creator": { "@type": "Person", "name": "Eddie Kone" },
+      "duration": "PT61S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ Defending the Americana from Technical Mount requires immediate recognition of t
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Americana from Technical Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qVINUjefot8)
+
+<p class="clip-credit"><strong>Bent armlock escape from mount</strong> — taught by Soma Academy · 1:12 · <a href="https://www.youtube.com/watch?v=qVINUjefot8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qfoEZtys84k)
+
+<p class="clip-credit"><strong>Defense against the Americana</strong> — taught by Kevin Conan Bankens · 0:42 · <a href="https://www.youtube.com/watch?v=qfoEZtys84k" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZjUCo8os8Q)
+
+<p class="clip-credit"><strong>Simple Americana armlock escape</strong> — taught by Eddie Kone · 1:01 · <a href="https://www.youtube.com/watch?v=NZjUCo8os8Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

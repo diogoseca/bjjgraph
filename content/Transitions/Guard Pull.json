@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
-      "probability": 75,
+      "probability": {
+        "gi": 75,
+        "nogi": 75
+      },
       "result": "success"
     },
     {
       "to": "Standing Position/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "failure"
     },
     {
       "to": "Standing Position/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 75,
+  "success_rate": {
+    "gi": 75,
+    "nogi": 75
+  },
   "overview": "The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips.\n\nThe technique has become increasingly sophisticated in modern competition, with various entries designed to land directly into specific guard positions rather than a generic seated guard. Pulling to De La Riva, butterfly, single leg X, or collar-sleeve guard requires distinct grip configurations and sitting mechanics that must be drilled independently. The strategic decision of which guard to pull into depends on the opponent's stance, grip tendencies, and known passing preferences. Understanding when and how to pull guard effectively is essential for building a complete competition game, and the difference between a well-executed guard pull that leads to immediate offense versus a sloppy pull that leads to immediate passing pressure lies entirely in grip quality, timing, and landing position.",
   "conditions": [
     "Both practitioners standing with active grip engagement",
@@ -222,42 +234,161 @@
     "flashcards": [
       {
         "question": "Why is grip establishment critical before initiating a guard pull?",
-        "answer": "Grips provide the connection and control necessary to pull opponent into your guard structure and prevent them from disengaging or immediately passing. Without grips, opponent can simply step back, sprawl, or walk around your legs as you sit, leaving you in defensive bottom position with no guard established. Strong grips allow you to control their posture and distance throughout the entire transition and ensure you land in an offensive rather than defensive configuration."
+        "answer": "Grips provide the connection and control necessary to pull opponent into your guard structure and prevent them from disengaging or immediately passing. Without grips, opponent can simply step back, sprawl, or walk around your legs as you sit, leaving you in defensive bottom position with no guard established. Strong grips allow you to control their posture and distance throughout the entire transition and ensure you land in an offensive rather than defensive configuration.",
+        "answer_line": "Grips control posture and distance",
+        "distractors": {
+          "plausible": [
+            "Speed beats grips every time",
+            "Grips only matter after you sit"
+          ],
+          "trap": [
+            "Sit down with both hands free"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their weight heavily on their lead leg and leans forward slightly - how do you exploit this for a guard pull?",
-        "answer": "Their forward weight commitment creates the ideal timing window. Grip their collar and sleeve, then sharply pull them further forward while simultaneously sitting back and to the side. Their forward lean means they cannot retract their hips fast enough to sprawl or step back. Use the momentum of their forward weight to pull them directly into your closed guard or De La Riva hook. The key is pulling in the same direction their weight is already moving rather than fighting against their base."
+        "answer": "Their forward weight commitment creates the ideal timing window. Grip their collar and sleeve, then sharply pull them further forward while simultaneously sitting back and to the side. Their forward lean means they cannot retract their hips fast enough to sprawl or step back. Use the momentum of their forward weight to pull them directly into your closed guard or De La Riva hook. The key is pulling in the same direction their weight is already moving rather than fighting against their base.",
+        "answer_line": "Ride their forward momentum down",
+        "distractors": {
+          "plausible": [
+            "Wait until they circle away",
+            "Drop straight backward, no angle"
+          ],
+          "trap": [
+            "Turn away and sit, giving your back"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement when landing from a guard pull?",
-        "answer": "Landing with hips angled slightly to one side rather than flat on your back is the most critical hip detail. A flat landing pins your hips to the mat and eliminates the mobility needed for guard retention and offensive movement. By landing slightly on your hip with weight on your upper back and shoulder, you maintain the ability to shrimp, create angles, and adjust your guard position dynamically. This hip angle should be practiced until it becomes automatic during every pull variation."
+        "answer": "Landing with hips angled slightly to one side rather than flat on your back is the most critical hip detail. A flat landing pins your hips to the mat and eliminates the mobility needed for guard retention and offensive movement. By landing slightly on your hip with weight on your upper back and shoulder, you maintain the ability to shrimp, create angles, and adjust your guard position dynamically. This hip angle should be practiced until it becomes automatic during every pull variation.",
+        "answer_line": "Land on your hip, not flat",
+        "distractors": {
+          "plausible": [
+            "Land flat to spread your weight",
+            "Keep both shoulders squared down"
+          ],
+          "trap": [
+            "Drop straight onto your tailbone"
+          ]
+        }
       },
       {
         "question": "What grip configuration gives you the highest percentage closed guard pull in the gi?",
-        "answer": "Cross-collar grip combined with same-side sleeve grip at the wrist provides maximum control for closed guard pull. The cross-collar grip allows you to break their posture downward as you sit, pulling their upper body toward you. The sleeve grip prevents them from posting their hand or framing against your pull. Together, these grips create a two-point control system that guides the opponent directly into your closed guard while denying their primary defensive reactions of posting and creating distance."
+        "answer": "Cross-collar grip combined with same-side sleeve grip at the wrist provides maximum control for closed guard pull. The cross-collar grip allows you to break their posture downward as you sit, pulling their upper body toward you. The sleeve grip prevents them from posting their hand or framing against your pull. Together, these grips create a two-point control system that guides the opponent directly into your closed guard while denying their primary defensive reactions of posting and creating distance.",
+        "answer_line": "Cross-collar with same-side sleeve",
+        "distractors": {
+          "plausible": [
+            "Two sleeve grips, no collar",
+            "Belt and knee grips only"
+          ],
+          "trap": [
+            "Both lapels, both their arms free"
+          ]
+        }
       },
       {
         "question": "Your opponent breaks your collar grip as you begin sitting - what is your immediate response?",
-        "answer": "If the collar grip is broken mid-pull, immediately redirect your free hand to their head, behind their neck, or to their far lapel to maintain a pulling connection. Do not abandon the pull entirely as you are already committed to the sitting motion. Simultaneously accelerate your leg engagement by shooting your hips toward them and closing your guard faster than normal to compensate for the reduced upper body control. If connection is completely lost, abort and execute a technical stand-up rather than landing in a seated position with no grips."
+        "answer": "If the collar grip is broken mid-pull, immediately redirect your free hand to their head, behind their neck, or to their far lapel to maintain a pulling connection. Do not abandon the pull entirely as you are already committed to the sitting motion. Simultaneously accelerate your leg engagement by shooting your hips toward them and closing your guard faster than normal to compensate for the reduced upper body control. If connection is completely lost, abort and execute a technical stand-up rather than landing in a seated position with no grips.",
+        "answer_line": "Redirect grip, don't abandon pull",
+        "distractors": {
+          "plausible": [
+            "Abort immediately, stand back up",
+            "Switch to a double leg takedown"
+          ],
+          "trap": [
+            "Sit down anyway with no grips"
+          ]
+        }
       },
       {
         "question": "How does the direction of force differ between pulling to closed guard versus pulling to De La Riva guard?",
-        "answer": "For closed guard, the force is primarily downward and toward you, pulling the opponent's torso forward and down so you can wrap your legs around their waist at close range. For De La Riva, the force is more lateral and at an angle, pulling the opponent's upper body to one side while your bottom leg hooks behind their lead knee from the outside. The DLR pull requires you to sit slightly to the side rather than directly back, creating the angular displacement needed to insert the DLR hook effectively during the transition."
+        "answer": "For closed guard, the force is primarily downward and toward you, pulling the opponent's torso forward and down so you can wrap your legs around their waist at close range. For De La Riva, the force is more lateral and at an angle, pulling the opponent's upper body to one side while your bottom leg hooks behind their lead knee from the outside. The DLR pull requires you to sit slightly to the side rather than directly back, creating the angular displacement needed to insert the DLR hook effectively during the transition.",
+        "answer_line": "Closed pulls down, DLR pulls wide",
+        "distractors": {
+          "plausible": [
+            "Same downward pull for both",
+            "Sit straight back for DLR"
+          ],
+          "trap": [
+            "Sit flat, legs out, no hooks"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls aggressively as you sit, driving their hips back and chest into you - how do you recover?",
-        "answer": "Against an aggressive sprawl, immediately get your feet on their hips to create a frame that prevents them from flattening you. Use your grips to prevent their chest from collapsing your structure. From feet-on-hips, you can push them back to create space for open guard establishment or redirect into collar-sleeve guard. If the sprawl is too deep and they begin passing, hip escape away from the pressure side while maintaining at least one grip, then re-establish guard from the new angle. The worst response is to remain flat under their sprawl pressure."
+        "answer": "Against an aggressive sprawl, immediately get your feet on their hips to create a frame that prevents them from flattening you. Use your grips to prevent their chest from collapsing your structure. From feet-on-hips, you can push them back to create space for open guard establishment or redirect into collar-sleeve guard. If the sprawl is too deep and they begin passing, hip escape away from the pressure side while maintaining at least one grip, then re-establish guard from the new angle. The worst response is to remain flat under their sprawl pressure.",
+        "answer_line": "Feet on hips, frame them off",
+        "distractors": {
+          "plausible": [
+            "Grab their belt and hold on",
+            "Bridge up into their chest"
+          ],
+          "trap": [
+            "Turtle up under the sprawl"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is also attempting to pull guard simultaneously - what determines who gets the bottom position?",
-        "answer": "In IBJJF rules, simultaneous guard pulls result in a referee stand-up if neither establishes guard within a time limit. The practitioner who sits second is typically penalized with a disadvantage. To win the double pull scenario, commit fully and sit first with strong grips, then immediately close your guard or establish hooks before the opponent can. If you sit second, you must immediately begin passing from top position in the double guard pull to avoid the penalty. Recognizing when your opponent intends to pull and either pulling faster or staying standing to capitalize on their pull is a critical competition skill."
+        "answer": "In IBJJF rules, simultaneous guard pulls result in a referee stand-up if neither establishes guard within a time limit. The practitioner who sits second is typically penalized with a disadvantage. To win the double pull scenario, commit fully and sit first with strong grips, then immediately close your guard or establish hooks before the opponent can. If you sit second, you must immediately begin passing from top position in the double guard pull to avoid the penalty. Recognizing when your opponent intends to pull and either pulling faster or staying standing to capitalize on their pull is a critical competition skill.",
+        "answer_line": "Sit first, close guard fastest",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to commit first",
+            "Both pull, ref always resets"
+          ],
+          "trap": [
+            "Sit second and stall for stand-up"
+          ]
+        }
       },
       {
         "question": "What are the key differences between executing a guard pull in gi versus no-gi?",
-        "answer": "In gi, you have collar and sleeve grips that provide strong connection points for controlling posture during the pull. These grips allow more aggressive pulling force and more precise control of the opponent's upper body. In no-gi, you rely on head control, wrist grips, and overhooks which are less secure and easier for the opponent to strip. No-gi guard pulls require faster leg engagement since your grip connection is more tenuous. You must close guard or establish hooks quicker to compensate for reduced upper body control. The collar drag to guard pull is gi-specific, while the arm drag to guard pull works effectively in both contexts."
+        "answer": "In gi, you have collar and sleeve grips that provide strong connection points for controlling posture during the pull. These grips allow more aggressive pulling force and more precise control of the opponent's upper body. In no-gi, you rely on head control, wrist grips, and overhooks which are less secure and easier for the opponent to strip. No-gi guard pulls require faster leg engagement since your grip connection is more tenuous. You must close guard or establish hooks quicker to compensate for reduced upper body control. The collar drag to guard pull is gi-specific, while the arm drag to guard pull works effectively in both contexts.",
+        "answer_line": "No-gi: weak grips, fast hooks",
+        "distractors": {
+          "plausible": [
+            "Gi pulls need the faster hooks",
+            "Wrist control equals sleeve grip"
+          ],
+          "trap": [
+            "Hang on grips, legs never engage"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Guard pulling is generally a safe technique when executed properly, but several precautions ensure training safety. Always check surroundings before pulling to ensure adequate mat space behind you, as landing near walls or other training pairs can cause collisions. When drilling, communicate with partner about resistance level to prevent unexpected reactions. Maintain grip control throughout to prevent partner from falling awkwardly if they lose balance during the off-balancing phase. For newer practitioners, practice on softer surfaces initially and avoid pulling with excessive backward momentum until sitting mechanics are solid. In competition settings, be aware of mat boundaries to avoid pulling near edges where landing on hard surfaces is possible. Never pull guard if opponent is not engaged and prepared, as this can cause them to stumble forward awkwardly. When learning sacrifice pull variations, ensure you can safely break-fall and that partner understands the dynamic nature of the technique."
+    "safety_considerations": "Guard pulling is generally a safe technique when executed properly, but several precautions ensure training safety. Always check surroundings before pulling to ensure adequate mat space behind you, as landing near walls or other training pairs can cause collisions. When drilling, communicate with partner about resistance level to prevent unexpected reactions. Maintain grip control throughout to prevent partner from falling awkwardly if they lose balance during the off-balancing phase. For newer practitioners, practice on softer surfaces initially and avoid pulling with excessive backward momentum until sitting mechanics are solid. In competition settings, be aware of mat boundaries to avoid pulling near edges where landing on hard surfaces is possible. Never pull guard if opponent is not engaged and prepared, as this can cause them to stumble forward awkwardly. When learning sacrifice pull variations, ensure you can safely break-fall and that partner understands the dynamic nature of the technique.",
+    "clips": [
+      {
+        "id": "sWK9QdT0I_M",
+        "title": "Pulling closed guard from standing",
+        "by": "UAE Jiu Jitsu Federation",
+        "vertical": false,
+        "channel": "UAE Jiu Jitsu Federation",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CI1w02grvCs",
+        "title": "Pulling closed guard - setup and entry",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 44,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nw8Psj0tm5k",
+        "title": "Standing guard pull",
+        "by": "Daniel Frank",
+        "vertical": false,
+        "channel": "Daniel Frank",
+        "duration": 20,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Guard Pull Defender",
@@ -343,19 +474,59 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action when you recognize your opponent is about to pull guard?",
-        "answer": "Breaking their primary grip connection before they commit to sitting is the highest-priority defensive action. Without grips, the guard pull becomes a simple sit-down that leaves the puller in a disadvantaged seated position with no guard structure or posture control. Target the collar grip first as it provides the most pulling power, using a two-on-one strip or circular break. If you can deny the grip connection, every other aspect of the guard pull fails regardless of the puller's timing or technique."
+        "answer": "Breaking their primary grip connection before they commit to sitting is the highest-priority defensive action. Without grips, the guard pull becomes a simple sit-down that leaves the puller in a disadvantaged seated position with no guard structure or posture control. Target the collar grip first as it provides the most pulling power, using a two-on-one strip or circular break. If you can deny the grip connection, every other aspect of the guard pull fails regardless of the puller's timing or technique.",
+        "answer_line": "Break their collar grip first",
+        "distractors": {
+          "plausible": [
+            "Sprawl immediately, ignore grips",
+            "Strip the sleeve, not the collar"
+          ],
+          "trap": [
+            "Let them grip, counter after"
+          ]
+        }
       },
       {
         "question": "Your opponent has already sat and is closing their guard around your waist - what prevents them from locking their ankles?",
-        "answer": "Immediately widen your base by stepping one knee outward and driving your hip forward on the same side. This creates a wider circumference that makes it difficult for them to close their ankles behind your back. Simultaneously post one hand on their hip to create distance between your torso and their legs. If their ankles are nearly locked, use your hand to push down on one of their thighs while hip-switching to the same side. The key is reacting before the lock is complete, as once ankles are crossed the closed guard is established and you must begin a full guard opening sequence."
+        "answer": "Immediately widen your base by stepping one knee outward and driving your hip forward on the same side. This creates a wider circumference that makes it difficult for them to close their ankles behind your back. Simultaneously post one hand on their hip to create distance between your torso and their legs. If their ankles are nearly locked, use your hand to push down on one of their thighs while hip-switching to the same side. The key is reacting before the lock is complete, as once ankles are crossed the closed guard is established and you must begin a full guard opening sequence.",
+        "answer_line": "Widen base, hand on their hip",
+        "distractors": {
+          "plausible": [
+            "Pinch both knees tight together",
+            "Cross your arms over their shins"
+          ],
+          "trap": [
+            "Lean your chest over their hips"
+          ]
+        }
       },
       {
         "question": "How should your response differ when an opponent pulls to De La Riva versus pulling to closed guard?",
-        "answer": "Against a De La Riva pull, you must immediately address the DLR hook behind your knee by pushing their hooking foot off with your hand while circling your trapped leg backward to extract it. Step your lead leg back and establish a passing posture with your weight over their legs. Against a closed guard pull, your priority is preventing the ankle lock by widening your base and controlling their hips. The DLR defense requires leg management while the closed guard defense requires hip and distance management. Recognizing which guard they are pulling to based on their grip configuration allows you to select the correct defensive response before they land."
+        "answer": "Against a De La Riva pull, you must immediately address the DLR hook behind your knee by pushing their hooking foot off with your hand while circling your trapped leg backward to extract it. Step your lead leg back and establish a passing posture with your weight over their legs. Against a closed guard pull, your priority is preventing the ankle lock by widening your base and controlling their hips. The DLR defense requires leg management while the closed guard defense requires hip and distance management. Recognizing which guard they are pulling to based on their grip configuration allows you to select the correct defensive response before they land.",
+        "answer_line": "Clear hook for DLR, base for closed",
+        "distractors": {
+          "plausible": [
+            "Widen your base against both",
+            "Pass to the same side for both"
+          ],
+          "trap": [
+            "Back away from a De La Riva hook"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent pulls guard and you are now standing over them in open guard - what is your tactical priority?",
-        "answer": "Your immediate tactical priority is establishing grips on their legs or pants while maintaining upright posture, then beginning a systematic passing approach before they can establish their preferred guard hooks and grips. Control their knee line by gripping both pants at the knees and pushing them to one side. Do not rush forward into their guard structure, which feeds their game. Instead, use methodical footwork and grip fighting to deny their guard hooks while working toward a passing angle. In IBJJF rules, you also have the advantage of potential advantages for guard pass attempts, so a controlled passing approach generates scoring pressure."
+        "answer": "Your immediate tactical priority is establishing grips on their legs or pants while maintaining upright posture, then beginning a systematic passing approach before they can establish their preferred guard hooks and grips. Control their knee line by gripping both pants at the knees and pushing them to one side. Do not rush forward into their guard structure, which feeds their game. Instead, use methodical footwork and grip fighting to deny their guard hooks while working toward a passing angle. In IBJJF rules, you also have the advantage of potential advantages for guard pass attempts, so a controlled passing approach generates scoring pressure.",
+        "answer_line": "Grip pants, control the knee line",
+        "distractors": {
+          "plausible": [
+            "Stand tall with no grips",
+            "Grip the collar to posture them"
+          ],
+          "trap": [
+            "Dive into their closed guard"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -378,6 +549,35 @@
         "phase": "Month 3+: Live Standing to Guard Exchanges",
         "focus": "Full-speed guard pull defense integrated into standing exchanges",
         "description": "Full-resistance standing rounds where partner may attempt guard pulls at any time during grip fighting. Defender must recognize, react, and execute appropriate defensive response in real time. Include scenarios where both practitioners are grip fighting and the guard pull comes unexpectedly. Develop the ability to transition from guard pull defense directly into passing sequences without pause."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aaE1IFqvknI",
+        "title": "Countering the guard pull",
+        "by": "Seymour Yang",
+        "vertical": false,
+        "channel": "Meerkatsu's BJJ Videos",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oaOB2XovGYE",
+        "title": "Intercepting the guard pull",
+        "by": "Riccardo Ammendolia",
+        "vertical": false,
+        "channel": "Riccardo Ammendolia",
+        "duration": 49,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3vrSYH0xbxg",
+        "title": "Drill: countering the guard pull",
+        "by": "Seymour Yang",
+        "vertical": false,
+        "channel": "Meerkatsu's BJJ Videos",
+        "duration": 184,
+        "verified": "2026-07-15"
       }
     ]
   },

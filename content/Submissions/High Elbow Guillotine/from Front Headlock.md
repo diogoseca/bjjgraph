@@ -34,6 +34,54 @@ description: "Master the High Elbow Guillotine from Front Headlock with elevated
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "High Elbow Guillotine from Front Headlock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The Marcelotine Choke",
+      "description": "High Elbow Guillotine from Front Headlock film study: The Marcelotine Choke, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NUnTxPvjCa0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NUnTxPvjCa0",
+      "url": "https://www.youtube.com/watch?v=NUnTxPvjCa0",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Double Elbow to High Elbow Guillotine",
+      "description": "High Elbow Guillotine from Front Headlock film study: Double Elbow to High Elbow Guillotine, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IvSVZuezQGo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IvSVZuezQGo",
+      "url": "https://www.youtube.com/watch?v=IvSVZuezQGo",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT171S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "High Elbow Guillotine (Marcelotine)",
+      "description": "High Elbow Guillotine from Front Headlock film study: High Elbow Guillotine (Marcelotine), taught by Wrecking Crew BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9U5nyBImGj4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9U5nyBImGj4",
+      "url": "https://www.youtube.com/watch?v=9U5nyBImGj4",
+      "creator": { "@type": "Person", "name": "Wrecking Crew BJJ" },
+      "duration": "PT45S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +126,42 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 **Starting Position**: [[Positions/Front Headlock]] · **From**: [[Positions/Front Headlock]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch High Elbow Guillotine from Front Headlock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NUnTxPvjCa0)
+
+<p class="clip-credit"><strong>The Marcelotine Choke</strong> — taught by Marcelo Garcia · 1:13 · <a href="https://www.youtube.com/watch?v=NUnTxPvjCa0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IvSVZuezQGo)
+
+<p class="clip-credit"><strong>Double Elbow to High Elbow Guillotine</strong> — taught by Marcelo Garcia · 2:51 · <a href="https://www.youtube.com/watch?v=IvSVZuezQGo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9U5nyBImGj4)
+
+<p class="clip-credit"><strong>High Elbow Guillotine (Marcelotine)</strong> — taught by Wrecking Crew BJJ · 0:45 · <a href="https://www.youtube.com/watch?v=9U5nyBImGj4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -228,13 +312,11 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 ## Related
 - [[Submissions/High Elbow Guillotine]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
-- [[Transitions/Darce Choke]]
+- [[Submissions/Darce Choke]]
 - [[Transitions/Anaconda Choke]]
-- [[Submissions/Chin Strap Guillotine]]
 - [[Submissions/Japanese Necktie]]
-- [[Submissions/Von Flue Choke]]
 - [[Positions/Hindulotine]] - Intermediate control position providing rotational hip mechanics for the high elbow finish
 - [[Positions/Guillotine Control]] - Parent control position with standard guillotine mechanics
 - [[Positions/Closed Guard]] - Common guard recovery position after failed defense or counter

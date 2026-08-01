@@ -34,6 +34,54 @@ description: "Master the cross collar choke from closed guard with detailed grip
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Collar Choke from Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Cross Collar Chokes breakdown",
+      "description": "Cross Collar Choke from Closed Guard film study: Cross Collar Chokes breakdown, taught by Roger Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dfP-Ov8FBUo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dfP-Ov8FBUo",
+      "url": "https://www.youtube.com/watch?v=dfP-Ov8FBUo",
+      "creator": { "@type": "Person", "name": "Roger Gracie" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "The one thing that makes the cross collar choke easy",
+      "description": "Cross Collar Choke from Closed Guard film study: The one thing that makes the cross collar choke easy, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X93MdMlmrUg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X93MdMlmrUg",
+      "url": "https://www.youtube.com/watch?v=X93MdMlmrUg",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Finishing when you can\u0027t pull them in",
+      "description": "Cross Collar Choke from Closed Guard film study: Finishing when you can\u0027t pull them in, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TDBe1SHzHKo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TDBe1SHzHKo",
+      "url": "https://www.youtube.com/watch?v=TDBe1SHzHKo",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -54,7 +102,7 @@ description: "Master the cross collar choke from closed guard with detailed grip
 <span class="meta-chip">Choke</span>
 <span class="meta-chip">Blood Choke</span>
 <span class="meta-chip">Targets Carotid arteries</span>
-<span class="meta-chip">58% success</span>
+<span class="meta-chip">10% success</span>
 </div>
 
 > [!danger] Safety
@@ -78,6 +126,42 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 **Starting Position**: [[Positions/Closed Guard]] · **From**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Collar Choke from Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dfP-Ov8FBUo)
+
+<p class="clip-credit"><strong>Cross Collar Chokes breakdown</strong> — taught by Roger Gracie · 1:20 · <a href="https://www.youtube.com/watch?v=dfP-Ov8FBUo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X93MdMlmrUg)
+
+<p class="clip-credit"><strong>The one thing that makes the cross collar choke easy</strong> — taught by Henry Akins · 1:17 · <a href="https://www.youtube.com/watch?v=X93MdMlmrUg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TDBe1SHzHKo)
+
+<p class="clip-credit"><strong>Finishing when you can&#39;t pull them in</strong> — taught by Henry Akins · 0:51 · <a href="https://www.youtube.com/watch?v=TDBe1SHzHKo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -242,7 +326,7 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 ## Related
 - [[Submissions/Cross Collar Choke]]
 - [[Submissions/Ezekiel Choke]]
-- [[Transitions/Guillotine Choke]]
+- [[Submissions/Guillotine Choke]]
 - [[Submissions/Arm in Guillotine]]
 - [[Submissions/Kimura]]
 - [[Positions/Closed Guard]] - Primary starting position providing posture control for grip establishment

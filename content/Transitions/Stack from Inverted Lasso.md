@@ -34,6 +34,43 @@ description: "Master the stack pass from inverted lasso guard in BJJ. Complete g
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stack from Inverted Lasso \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Pressure passing the lasso guard",
+      "description": "Stack from Inverted Lasso film study: Pressure passing the lasso guard, taught by Alberto Serrano.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EdLPqtAm5yQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/EdLPqtAm5yQ",
+      "url": "https://www.youtube.com/watch?v=EdLPqtAm5yQ",
+      "creator": { "@type": "Person", "name": "Alberto Serrano" },
+      "duration": "PT123S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Over-under stack pass vs De La Riva",
+      "description": "Stack from Inverted Lasso film study: Over-under stack pass vs De La Riva, taught by Balance BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/krtNPm3OXtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/krtNPm3OXtc",
+      "url": "https://www.youtube.com/watch?v=krtNPm3OXtc",
+      "creator": { "@type": "Person", "name": "Balance BJJ" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ The stack from inverted lasso occupies a specific tactical niche in the guard pa
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stack from Inverted Lasso in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=EdLPqtAm5yQ)
+
+<p class="clip-credit"><strong>Pressure passing the lasso guard</strong> — taught by Alberto Serrano · 2:03 · <a href="https://www.youtube.com/watch?v=EdLPqtAm5yQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=krtNPm3OXtc)
+
+<p class="clip-credit"><strong>Over-under stack pass vs De La Riva</strong> — taught by Balance BJJ · 2:43 · <a href="https://www.youtube.com/watch?v=krtNPm3OXtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

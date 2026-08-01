@@ -140,6 +140,43 @@ description: "Learn to defend and counter the Scissor Sweep from Open Guard in B
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Scissor Sweep from Open Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending the scissor sweep position",
+      "description": "Scissor Sweep from Open Guard (Defender) film study: Defending the scissor sweep position, taught by Top Level Youth Competition Team.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ke2QNnPRrWQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ke2QNnPRrWQ",
+      "url": "https://www.youtube.com/watch?v=Ke2QNnPRrWQ",
+      "creator": { "@type": "Person", "name": "Top Level Youth Competition Team" },
+      "duration": "PT37S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Four levels of sweep defense",
+      "description": "Scissor Sweep from Open Guard (Defender) film study: Four levels of sweep defense, taught by Wim Deputter.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kNfVYhZbgrg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/kNfVYhZbgrg",
+      "url": "https://www.youtube.com/watch?v=kNfVYhZbgrg",
+      "creator": { "@type": "Person", "name": "Wim Deputter" },
+      "duration": "PT87S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Scissor Sweep from Open Guard requires early recognition of the se
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Scissor Sweep from Open Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ke2QNnPRrWQ)
+
+<p class="clip-credit"><strong>Defending the scissor sweep position</strong> — taught by Top Level Youth Competition Team · 0:37 · <a href="https://www.youtube.com/watch?v=Ke2QNnPRrWQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=kNfVYhZbgrg)
+
+<p class="clip-credit"><strong>Four levels of sweep defense</strong> — taught by Wim Deputter · 1:27 · <a href="https://www.youtube.com/watch?v=kNfVYhZbgrg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

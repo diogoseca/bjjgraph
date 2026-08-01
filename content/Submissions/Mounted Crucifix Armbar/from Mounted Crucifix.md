@@ -34,6 +34,43 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mounted Crucifix Armbar from Mounted Crucifix \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Straight Armbar From Inverted Crucifix",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix film study: Straight Armbar From Inverted Crucifix, taught by Laura Sanko.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hISwyzfmQr0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/hISwyzfmQr0",
+      "url": "https://www.youtube.com/watch?v=hISwyzfmQr0",
+      "creator": { "@type": "Person", "name": "Laura Sanko" },
+      "duration": "PT281S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Crucifix Attacks: Armbar and Rolling Reverse Omoplata",
+      "description": "Mounted Crucifix Armbar from Mounted Crucifix film study: Crucifix Attacks: Armbar and Rolling Reverse Omoplata, taught by Legion Jiu Jitsu Coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VL8WcZaILow/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/VL8WcZaILow",
+      "url": "https://www.youtube.com/watch?v=VL8WcZaILow",
+      "creator": { "@type": "Person", "name": "Legion Jiu Jitsu Coach" },
+      "duration": "PT441S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 **Starting Position**: [[Positions/Mount/Mounted Crucifix]] · **From**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mounted Crucifix Armbar from Mounted Crucifix in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=hISwyzfmQr0)
+
+<p class="clip-credit"><strong>Straight Armbar From Inverted Crucifix</strong> — taught by Laura Sanko · 4:41 · <a href="https://www.youtube.com/watch?v=hISwyzfmQr0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=VL8WcZaILow)
+
+<p class="clip-credit"><strong>Crucifix Attacks: Armbar and Rolling Reverse Omoplata</strong> — taught by Legion Jiu Jitsu Coach · 7:21 · <a href="https://www.youtube.com/watch?v=VL8WcZaILow" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -227,7 +292,6 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Armbar]]
 - [[Submissions/Spinning Armbar]]
-- [[Submissions/Gift Wrap Armbar]]
 - [[Submissions/Triangle Choke]]
 - [[Submissions/Bicep Slicer]]
 - [[Submissions/Belly Down Armbar]]

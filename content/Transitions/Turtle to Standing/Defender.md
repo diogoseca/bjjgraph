@@ -140,6 +140,43 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle to Standing (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock to stop the turtle standup",
+      "description": "Turtle to Standing (Defender) film study: Front headlock to stop the turtle standup, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JX0HL0WpYPs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JX0HL0WpYPs",
+      "url": "https://www.youtube.com/watch?v=JX0HL0WpYPs",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT478S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Riding the turtle roll to the far side with a near hook",
+      "description": "Turtle to Standing (Defender) film study: Riding the turtle roll to the far side with a near hook, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xYFYI9LkUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xYFYI9LkUQ",
+      "url": "https://www.youtube.com/watch?v=0xYFYI9LkUQ",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT144S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the top player in turtle, your objective when the bottom player attempts to s
 **Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle to Standing (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JX0HL0WpYPs)
+
+<p class="clip-credit"><strong>Front headlock to stop the turtle standup</strong> — taught by Gordon Ryan · 7:58 · <a href="https://www.youtube.com/watch?v=JX0HL0WpYPs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0xYFYI9LkUQ)
+
+<p class="clip-credit"><strong>Riding the turtle roll to the far side with a near hook</strong> — taught by Priit Mihkelson · 2:24 · <a href="https://www.youtube.com/watch?v=0xYFYI9LkUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

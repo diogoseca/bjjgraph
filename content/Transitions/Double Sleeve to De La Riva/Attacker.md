@@ -174,6 +174,43 @@ description: "Execute the Double Sleeve to De La Riva Guard transition. Step-by-
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Double Sleeve to De La Riva (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Entering De La Riva from closed guard",
+      "description": "Double Sleeve to De La Riva (Attacker) film study: Entering De La Riva from closed guard, taught by Affinity Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JUlOn-jrIzk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/JUlOn-jrIzk",
+      "url": "https://www.youtube.com/watch?v=JUlOn-jrIzk",
+      "creator": { "@type": "Person", "name": "Affinity Academy" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "De La Riva sweep trapping the sleeve",
+      "description": "Double Sleeve to De La Riva (Attacker) film study: De La Riva sweep trapping the sleeve, taught by Carlson Gracie Team CT.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Za6BUCYALrs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Za6BUCYALrs",
+      "url": "https://www.youtube.com/watch?v=Za6BUCYALrs",
+      "creator": { "@type": "Person", "name": "Carlson Gracie Team CT" },
+      "duration": "PT133S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ As the attacker executing this transition, your objective is to convert your bil
 **From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Double Sleeve to De La Riva (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=JUlOn-jrIzk)
+
+<p class="clip-credit"><strong>Entering De La Riva from closed guard</strong> — taught by Affinity Academy · 1:07 · <a href="https://www.youtube.com/watch?v=JUlOn-jrIzk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Za6BUCYALrs)
+
+<p class="clip-credit"><strong>De La Riva sweep trapping the sleeve</strong> — taught by Carlson Gracie Team CT · 2:13 · <a href="https://www.youtube.com/watch?v=Za6BUCYALrs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

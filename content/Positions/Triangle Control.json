@@ -79,31 +79,45 @@
     "transitions": [
       {
         "transition": "Triangle Escape",
-        "attempt_probability": 35
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Posture Recovery",
-        "attempt_probability": 26
-      },
-      {
-        "transition": "Stack Defense",
-        "attempt_probability": 20
+        "attempt_probability": {
+          "gi": 21,
+          "nogi": 21
+        }
       },
       {
         "transition": "Guard Recovery from Triangle Control",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 12
+        }
       },
       {
         "transition": "Triangle Clear to Side",
-        "attempt_probability": 7
+        "attempt_probability": {
+          "gi": 15,
+          "nogi": 16
+        }
       },
       {
         "transition": "Posture Up from Triangle",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 19
+        }
       },
       {
         "transition": "Stack Escape from Triangle",
-        "attempt_probability": 2
+        "attempt_probability": {
+          "gi": 13,
+          "nogi": 13
+        }
       }
     ],
     "decision_tree": [
@@ -312,6 +326,26 @@
       "submission defense training",
       "guard defense fundamentals",
       "triangle escape sequence"
+    ],
+    "clips": [
+      {
+        "id": "dJOw0ZEyXXc",
+        "title": "Triangle choke posture-up escape",
+        "by": "Cosens MMA",
+        "vertical": false,
+        "channel": "Cosens MMA LLC",
+        "duration": 73,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "sR2rS2dwpNY",
+        "title": "How to escape the triangle choke",
+        "by": "Rener & Ryron Gracie",
+        "vertical": false,
+        "channel": "Hayabusa",
+        "duration": 117,
+        "verified": "2026-07-14"
+      }
     ]
   },
   "bottom": {
@@ -348,36 +382,53 @@
     ],
     "transitions": [
       {
-        "transition": "Triangle Choke",
-        "attempt_probability": 32
+        "transition": "Triangle Choke from Triangle Control",
+        "attempt_probability": {
+          "gi": 39,
+          "nogi": 38
+        }
       },
       {
         "transition": "Triangle to Armbar",
-        "attempt_probability": 21
+        "attempt_probability": {
+          "gi": 17,
+          "nogi": 18
+        }
       },
       {
         "transition": "Triangle to Omoplata",
-        "attempt_probability": 12
+        "attempt_probability": {
+          "gi": 10,
+          "nogi": 10
+        }
       },
       {
         "transition": "Triangle to Back",
-        "attempt_probability": 8
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 11
+        }
       },
       {
         "transition": "Mounted Triangle",
-        "attempt_probability": 6
+        "attempt_probability": {
+          "gi": 12,
+          "nogi": 10
+        }
       },
       {
         "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 5
+        "attempt_probability": {
+          "gi": 6,
+          "nogi": 5
+        }
       },
       {
         "transition": "Inverted Triangle from Triangle Control",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Inverted Triangle",
-        "attempt_probability": 3
+        "attempt_probability": {
+          "gi": 7,
+          "nogi": 8
+        }
       }
     ],
     "decision_tree": [
@@ -566,6 +617,260 @@
       "guard attack submission chain",
       "offensive guard position BJJ",
       "triangle submission system"
+    ],
+    "clips": [
+      {
+        "id": "rQz3tjQZzjY",
+        "title": "Closed guard triangle inside entry",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 44,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "Gz1lhRuIQHk",
+        "title": "Wristlock triangle finish",
+        "by": "ZombieProofBJJ",
+        "vertical": false,
+        "channel": "ZombieProofBJJ",
+        "duration": 47,
+        "verified": "2026-07-14"
+      }
     ]
-  }
+  },
+  "flashcards_family": [
+    {
+      "question": "Why does every triangle variation isolate exactly one of the opponent's arms rather than trapping both or neither?",
+      "answer": "The triangle finishes by compressing both carotid arteries at once, and it needs one arm trapped inside the configuration to complete that geometry. The trapped arm's own shoulder and bicep are wedged against the near-side carotid while the attacker's thigh or shin closes the far side, turning the opponent's own limb into half of the strangle. With neither arm in, the opponent's two shoulders shield both carotids and the neck-only lock rarely closes; with both arms in, there is no shoulder wedging one artery and the figure-four cannot seat behind a single trapped shoulder. This one-arm-in, one-arm-out asymmetry is the defining structural constant across the front, rear, mounted, and inverted triangles alike.",
+      "answer_line": "Trapped arm blocks one carotid",
+      "distractors": {
+        "plausible": [
+          "Both arms trapped seals it tighter",
+          "Neither arm matters, just the neck"
+        ],
+        "trap": [
+          "Release the arm to squeeze harder"
+        ]
+      }
+    },
+    {
+      "question": "What universal leverage advantage explains why the triangle stays high-percentage regardless of which variation is applied?",
+      "answer": "Every triangle pits the attacker's legs and hips — the body's largest and strongest muscle groups — against the opponent's neck and single trapped arm, which cannot generate comparable force in defense. The figure-four lock lets the attacker sustain compression skeletally rather than through continuous muscular effort, so the strangle tightens over time while the defender fatigues. This strength-versus-structure mismatch is why the position favors the attacker across weight classes and rulesets. It embodies the core Jiu-Jitsu principle of directing your strongest mechanics against the opponent's most vulnerable anatomy.",
+      "answer_line": "Legs and hips overpower neck",
+      "distractors": {
+        "plausible": [
+          "Arm strength overpowers the neck",
+          "Constant muscular squeeze wins"
+        ],
+        "trap": [
+          "Muscle the squeeze non-stop"
+        ]
+      }
+    },
+    {
+      "question": "Why does creating an angle off the opponent's centerline matter in any triangle configuration?",
+      "answer": "A triangle applied square to the opponent's centerline leaves the choking leg roughly parallel to their shoulders, which lets them posture and defend almost indefinitely. Rotating to an angle — the position cites roughly 30-45 degrees off centerline, toward perpendicular to their spine — points the choking leg's knee at the trapped shoulder and lines the calf and thigh directly across both carotids. This rotation also shortens the distance the opponent must be pulled forward, deepening compression without extra squeezing. Whether the triangle is frontal, mounted, rear, or inverted, the finish generally lives in the angle rather than in raw leg strength.",
+      "answer_line": "Angle 30-45°, knee to shoulder",
+      "distractors": {
+        "plausible": [
+          "Stay square, just squeeze knees",
+          "Rotate to a full 90 degrees"
+        ],
+        "trap": [
+          "Flatten hips back to the mat"
+        ]
+      }
+    },
+    {
+      "question": "What makes any triangle function as an attacking hub rather than a single isolated finish?",
+      "answer": "The same leg configuration that threatens the strangle also controls the isolated arm and the opponent's posture, so each defensive reaction opens a different attack. Posturing up to relieve the neck extends the trapped arm and exposes the armbar; driving forward to stack collapses the angle and opens the omoplata or a sweep; extracting the arm concedes the back. Every escape attempt therefore trades one danger for another, creating a branching dilemma that deepens as fatigue accumulates. The triangle's power lies as much in this forcing-function quality as in the strangle itself.",
+      "answer_line": "Every escape opens a new attack",
+      "distractors": {
+        "plausible": [
+          "Posturing up fully escapes it",
+          "Stacking forward is always safe"
+        ],
+        "trap": [
+          "Extract the arm to escape safely"
+        ]
+      }
+    },
+    {
+      "question": "Across all triangle variations, why is controlling the opponent's head and posture as important as the leg lock itself?",
+      "answer": "The strangle only reaches finishing pressure when the opponent's head is pulled down and forward into the compression, because posture recovery restores vertical space and relieves the carotids. A perfectly locked figure-four with the opponent postured upright is a weak position; the same lock with the head broken down is a finish. Attackers therefore keep constant downward head control through grips on the head, neck, or trapped limb throughout every adjustment. Releasing that control to fix the legs is the most common way a triangle of any type is lost.",
+      "answer_line": "Pull head down, kill posture",
+      "distractors": {
+        "plausible": [
+          "Lock the legs, ignore the head",
+          "Fix the legs, then grip the head"
+        ],
+        "trap": [
+          "Let go of head to fix the legs"
+        ]
+      }
+    },
+    {
+      "question": "What is the universal defensive priority hierarchy for anyone caught in a triangle, regardless of variation?",
+      "answer": "The consistent order is protect the neck first, then attack the angle, then escape. The defender immediately tucks the chin and drives the trapped shoulder in to reduce arterial compression and buy time, since an unaddressed strangle can end the match before any escape matters. Next they work to square the attacker's hips back to the centerline, stripping the finishing angle even while the legs stay locked. Only once posture and angle are managed do they commit to a structured escape, because leaving before neutralizing the strangle typically deepens the very angle that finishes them.",
+      "answer_line": "Neck first, then angle, then escape",
+      "distractors": {
+        "plausible": [
+          "Escape first, fix the neck after",
+          "Fix the angle before the neck"
+        ],
+        "trap": [
+          "Rip the trapped arm free at once"
+        ]
+      }
+    },
+    {
+      "question": "Why is explosive, panicked movement counterproductive when defending any triangle?",
+      "answer": "Sudden thrashing or ripping the trapped arm free creates transient space that a skilled attacker converts directly into a tighter angle, an armbar, or a sweep, because the triangle is a forcing position where every reaction has a prepared counter. Explosive effort also spikes oxygen demand and chest expansion under a blood choke, accelerating the fatigue and lightheadedness that make the finish inevitable. Controlled, sequenced defense that addresses posture and angle first preserves both energy and the structural integrity needed to escape. Calm, methodical pressure-relief consistently outperforms strength-based scrambling across every triangle variant.",
+      "answer_line": "Explosive moves feed the choke",
+      "distractors": {
+        "plausible": [
+          "A fast escape beats slow defense",
+          "Save energy, wait it out limp"
+        ],
+        "trap": [
+          "Rip the trapped arm out fast"
+        ]
+      }
+    }
+  ],
+  "flashcards_position": [
+    {
+      "question": "What structural configuration defines the Triangle Control position?",
+      "answer": "Triangle Control is defined by a figure-four leg lock around the opponent's neck and one arm, formed when one leg crosses behind the neck and the other leg folds over that leg's shin or ankle. Critically, only one of the opponent's arms is trapped inside the loop while the other remains outside, creating the asymmetry that makes the choke work. This one-arm-in, one-arm-out relationship is the signature invariant of the position and distinguishes it from a simple leg-around-the-head clamp. The trapped arm effectively becomes part of the choking apparatus, occupying space against one carotid while the closing legs compress the other.",
+      "answer_line": "Figure-four: neck plus one arm",
+      "distractors": {
+        "plausible": [
+          "Both arms trapped inside the loop",
+          "Neither arm trapped, neck only"
+        ],
+        "trap": [
+          "Legs cross in front of the neck"
+        ]
+      }
+    },
+    {
+      "question": "Why is the roughly 30-45 degree angle off the centerline so central to how Triangle Control functions?",
+      "answer": "The angled position is what converts a loose leg wrap into a finishing-capable strangle, so it governs the entire positional battle regardless of who holds the advantage. When the guard player's hips are square to the opponent's centerline, the choking leg cannot direct its knee across toward the trapped shoulder, and the carotids are only partially compressed. Angling to 30-45 degrees points the choking knee toward the trapped shoulder, so the trapped arm presses one carotid while the choking leg compresses the other. This is why the angle is simultaneously the attacker's primary finishing objective and the defender's primary thing to deny.",
+      "answer_line": "Angle points knee at the shoulder",
+      "distractors": {
+        "plausible": [
+          "Square hips maximize compression",
+          "Angle away from trapped shoulder"
+        ],
+        "trap": [
+          "Flatten out to save energy"
+        ]
+      }
+    },
+    {
+      "question": "How does the trapped arm contribute to the compression rather than simply being controlled?",
+      "answer": "The trapped arm is a mechanical component of the choke, not just a limb that happens to be inside the legs. Pulled across the opponent's own neck, it presses into one carotid artery while the choking leg attacks the other, so the strangle closes from two sides using the opponent's own structure as a lever. This is why a triangle with the arm pulled tight across the neck finishes far faster than one where the arm hangs loose inside the loop. The shared consequence is that arm position is contested by both players: extracting or repositioning that arm materially changes how much pressure the configuration can generate.",
+      "answer_line": "Arm presses one carotid too",
+      "distractors": {
+        "plausible": [
+          "Arm is just controlled, not choking",
+          "Arm position doesn't matter much"
+        ],
+        "trap": [
+          "Let the trapped arm hang loose"
+        ]
+      }
+    },
+    {
+      "question": "What role does breaking and controlling the opponent's posture play in the Triangle Control dynamic?",
+      "answer": "The position only holds its choking potential while the trapped player's head and shoulders are pulled down and forward, eliminating the vertical space needed to relieve pressure. A postured-up, spine-aligned opponent can defend a locked triangle almost indefinitely because straightening the torso opens breathing room and slackens the leg lock's angle. Consequently, head-and-posture control through grips on the head, neck, or sleeve is the connective tissue that keeps the whole configuration alive. Posture is the central lever both players fight over: one works to keep it broken, the other to recover vertical alignment.",
+      "answer_line": "Broken posture keeps choke alive",
+      "distractors": {
+        "plausible": [
+          "Posture only matters for escape",
+          "Leg lock alone finishes regardless"
+        ],
+        "trap": [
+          "Let posture recover, squeeze harder"
+        ]
+      }
+    },
+    {
+      "question": "Why does active hip elevation change the pressure profile of Triangle Control compared to a flat, static squeeze?",
+      "answer": "Lifting the hips off the mat, using the shoulders and upper back as a base, converts a purely horizontal knee-squeeze into a downward-driving pressure vector through the neck. A flat triangle relies mostly on adducting the knees, which fatigues quickly and lets the opponent wait out the burst. Elevating the hips lets the larger muscles of the posterior chain and the body's weight load the lock, so compression becomes sustained structure rather than a muscular sprint. This is why the position rewards patient, constant pressure over explosive squeezing, and why keeping the hips pinned to the floor is a stalling point the defender seeks.",
+      "answer_line": "Lift hips, drive pressure down",
+      "distractors": {
+        "plausible": [
+          "Flat hips squeeze knees harder",
+          "Elevate hips only when escaping"
+        ],
+        "trap": [
+          "Keep hips pinned to the mat"
+        ]
+      }
+    },
+    {
+      "question": "How does Triangle Control differ from Armbar Control and Omoplata Control that sit adjacent to it in the attack chain?",
+      "answer": "All three isolate a limb from a guard-based angle, but they attack different structures and are separated by the opponent's reaction, which is why they chain together. Triangle Control strangles the neck with the legs while trapping one arm, so the finish is a blood choke; Armbar Control isolates that same trapped arm to hyperextend the elbow, typically opening when the opponent postures up out of the choke. Omoplata Control shifts to a shoulder lock using the legs against the far arm, usually becoming available when the opponent stacks forward or turns the shoulder in. The shared 30-45 degree hip angle and one-arm isolation are what let a player flow between them as the defender's posture and shoulder position change.",
+      "answer_line": "Neck, elbow, shoulder — same angle",
+      "distractors": {
+        "plausible": [
+          "They all crank the same arm",
+          "Only the leg position differs"
+        ],
+        "trap": [
+          "Ignore reactions, force the triangle"
+        ]
+      }
+    },
+    {
+      "question": "Why does Triangle Control behave as a branching submission platform rather than a single-outcome hold?",
+      "answer": "Because each defensive reaction to the choke opens a different attack, the position functions as a decision tree rather than a static hold. Posturing up exposes the trapped arm to the armbar; stacking forward or turning the shoulder in opens the omoplata; extracting the arm surrenders the back. This means the trapped player faces a perpetual dilemma in which relieving one threat manufactures another, while the controlling player treats the choke itself as a forcing mechanism that produces those reactions. Reading the position as a set of branching consequences, not a hold, is what both players must internalize to play it correctly.",
+      "answer_line": "Each escape opens a new attack",
+      "distractors": {
+        "plausible": [
+          "Posturing up opens the omoplata",
+          "Stack forward to hit the armbar"
+        ],
+        "trap": [
+          "Yank the trapped arm free"
+        ]
+      }
+    },
+    {
+      "question": "Why is Triangle Control considered mechanically favorable to the guard player despite being a bottom position?",
+      "answer": "The configuration pits the practitioner's legs and hips, among the body's strongest muscle groups, against the opponent's neck and single trapped arm, which are structurally weak by comparison. This leverage inversion is why a smaller player can control and finish a larger one from the bottom, and why the position is treated as offensive despite the guard player being underneath. The trapped player must generate escape force through a compromised base with broken posture, making pure strength an unreliable defense. Understanding this strength-versus-leverage asymmetry explains why the position's average outcomes favor the attacker and why disciplined mechanics beat muscling out.",
+      "answer_line": "Legs and hips outmuscle neck, arm",
+      "distractors": {
+        "plausible": [
+          "Bottom position is disadvantaged",
+          "Only technique matters, not leverage"
+        ],
+        "trap": [
+          "Muscle out with raw strength"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "OC8IOTnsETk",
+      "title": "Triangle attack overview",
+      "by": "Craig Jones",
+      "vertical": false,
+      "channel": "Denver Seminars",
+      "duration": 61,
+      "verified": "2026-07-14"
+    },
+    {
+      "id": "8-hYlvwOqgU",
+      "title": "Triangle choke for short legs (S-mount)",
+      "by": "Submission Radio",
+      "vertical": false,
+      "channel": "Submission Radio",
+      "duration": 105,
+      "verified": "2026-07-14"
+    }
+  ]
 }

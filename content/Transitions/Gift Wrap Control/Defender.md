@@ -148,6 +148,32 @@ description: "How to defend against Gift Wrap Control in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the Arm Wrap",
+      "description": "Gift Wrap Control (Defender) film study: Escaping the Arm Wrap, taught by Gracie Ohio Jiu-Jitsu Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BJv1DseDv8o/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BJv1DseDv8o",
+      "url": "https://www.youtube.com/watch?v=BJv1DseDv8o",
+      "creator": { "@type": "Person", "name": "Gracie Ohio Jiu-Jitsu Academy" },
+      "duration": "PT172S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +187,26 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 **Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BJv1DseDv8o)
+
+<p class="clip-credit"><strong>Escaping the Arm Wrap</strong> — taught by Gracie Ohio Jiu-Jitsu Academy · 2:52 · <a href="https://www.youtube.com/watch?v=BJv1DseDv8o" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

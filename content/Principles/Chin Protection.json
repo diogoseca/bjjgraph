@@ -417,39 +417,158 @@
   "flashcards": [
     {
       "question": "What is the primary purpose of chin protection in BJJ?",
-      "answer": "To deny the opponent the space needed to slide a forearm or collar across the neck, removing access to the carotid arteries and trachea that every choke requires to finish."
+      "answer": "To deny the opponent the space needed to slide a forearm or collar across the neck, removing access to the carotid arteries and trachea that every choke requires to finish.",
+      "answer_line": "Blocks choke access to neck",
+      "distractors": {
+        "plausible": [
+          "Prevents neck crank injuries",
+          "Reduces cardiovascular fatigue"
+        ],
+        "trap": [
+          "Only matters once choke is locked"
+        ]
+      }
     },
     {
       "question": "Why does elevating your shoulders matter when protecting your chin?",
-      "answer": "Raising the shoulders toward the ears shrinks the gaps on the lateral sides of the neck, blocking collar grips and arm insertions that a chin tuck alone leaves open."
+      "answer": "Raising the shoulders toward the ears shrinks the gaps on the lateral sides of the neck, blocking collar grips and arm insertions that a chin tuck alone leaves open.",
+      "answer_line": "Shrinks gaps for collar grips",
+      "distractors": {
+        "plausible": [
+          "Adds power to escapes",
+          "Improves posture and balance"
+        ],
+        "trap": [
+          "Lets you relax neck muscles"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake practitioners make when they feel choking pressure?",
-      "answer": "They instinctively extend the neck upward or backward to pull away from the pressure, which exposes the throat and hands the opponent the exact space needed to finish the choke."
+      "answer": "They instinctively extend the neck upward or backward to pull away from the pressure, which exposes the throat and hands the opponent the exact space needed to finish the choke.",
+      "answer_line": "Pulling neck back from pressure",
+      "distractors": {
+        "plausible": [
+          "Tapping too early in panic",
+          "Gripping opponent's sleeve"
+        ],
+        "trap": [
+          "Extending neck to create space"
+        ]
+      }
     },
     {
       "question": "How should chin protection integrate with hand fighting during a defensive sequence?",
-      "answer": "Chin protection is the structural foundation that buys time while active hand fighting clears the attacking arm and breaks grips; relying on head position alone lets the opponent slowly improve to a finish."
+      "answer": "Chin protection is the structural foundation that buys time while active hand fighting clears the attacking arm and breaks grips; relying on head position alone lets the opponent slowly improve to a finish.",
+      "answer_line": "Buys time for hand fighting",
+      "distractors": {
+        "plausible": [
+          "Replaces the need for grips",
+          "Works only after grips break"
+        ],
+        "trap": [
+          "Rely on head position alone"
+        ]
+      }
     },
     {
       "question": "In back control, which direction should chin pressure be applied against a rear naked choke?",
-      "answer": "Tuck the chin down and drive it backward into the opponent's choking arm, keeping the shoulders elevated so the forearm cannot pass under the jaw to reach the throat."
+      "answer": "Tuck the chin down and drive it backward into the opponent's choking arm, keeping the shoulders elevated so the forearm cannot pass under the jaw to reach the throat.",
+      "answer_line": "Tuck chin down and back",
+      "distractors": {
+        "plausible": [
+          "Turn chin toward the choking arm",
+          "Pull chin forward, away from arm"
+        ],
+        "trap": [
+          "Lift chin up to create space"
+        ]
+      }
     },
     {
       "question": "Why is preemptive chin protection more effective than reacting after grips are set?",
-      "answer": "Adopting protective posture before the opponent establishes deep grips prevents the submission from ever advancing, whereas reacting late forces a far harder uphill grip-breaking battle."
+      "answer": "Adopting protective posture before the opponent establishes deep grips prevents the submission from ever advancing, whereas reacting late forces a far harder uphill grip-breaking battle.",
+      "answer_line": "Prevents grips before they set",
+      "distractors": {
+        "plausible": [
+          "Saves energy for scrambles",
+          "Improves grip strength over time"
+        ],
+        "trap": [
+          "Wait until grips are deep to react"
+        ]
+      }
     },
     {
       "question": "How do you prevent panic-driven breathing while maintaining a chin tuck?",
-      "answer": "Practice deliberate nasal breathing under the compressed sensation, building tolerance so controlled breaths replace the breath-holding or shallow gasping that erodes endurance and decision-making."
+      "answer": "Practice deliberate nasal breathing under the compressed sensation, building tolerance so controlled breaths replace the breath-holding or shallow gasping that erodes endurance and decision-making.",
+      "answer_line": "Practice deliberate nasal breathing",
+      "distractors": {
+        "plausible": [
+          "Hold breath through pressure",
+          "Breathe fast to stay alert"
+        ],
+        "trap": [
+          "Gasp for air when panicking"
+        ]
+      }
     },
     {
       "question": "What role does chin protection play during escapes and scrambles?",
-      "answer": "It must be maintained through every phase of an escape, acting as a non-negotiable anchor that closes the brief windows of neck exposure an opponent would otherwise exploit during transitions."
+      "answer": "It must be maintained through every phase of an escape, acting as a non-negotiable anchor that closes the brief windows of neck exposure an opponent would otherwise exploit during transitions.",
+      "answer_line": "Maintain it through every phase",
+      "distractors": {
+        "plausible": [
+          "Only needed at escape's start",
+          "Pause it during transitions"
+        ],
+        "trap": [
+          "Drop it to move faster"
+        ]
+      }
     },
     {
       "question": "How does chin protection defend against front headlock chokes like the guillotine and d'arce?",
-      "answer": "Keeping the chin down against the opponent's forearm before a deep grip is set, while driving the forehead into their chest or hip, blocks the arm from advancing around the neck to complete the choke."
+      "answer": "Keeping the chin down against the opponent's forearm before a deep grip is set, while driving the forehead into their chest or hip, blocks the arm from advancing around the neck to complete the choke.",
+      "answer_line": "Chin down, forehead drives in",
+      "distractors": {
+        "plausible": [
+          "Chin down after grip is set",
+          "Post forehead on their shoulder"
+        ],
+        "trap": [
+          "Pull head back to create space"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "UuLU4f4NfYo",
+      "title": "Why the chin tuck fails against the rear naked choke",
+      "by": "YourKravMaga",
+      "vertical": false,
+      "channel": "YourKravMaga",
+      "duration": 63,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "znAUCgUkZ8s",
+      "title": "Late rear naked choke defense using the chin",
+      "by": "SBG PDX",
+      "vertical": false,
+      "channel": "SBG PDX & Vancouver BJJ and MMA Videos",
+      "duration": 272,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "q-2iAitqDE4",
+      "title": "Tracing the jaw to beat the chin defense",
+      "by": "Coach Brian",
+      "vertical": false,
+      "channel": "TeachMeGrappling Coach Brian",
+      "duration": 306,
+      "verified": "2026-07-15"
     }
   ]
 }

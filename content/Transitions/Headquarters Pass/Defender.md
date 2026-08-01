@@ -148,6 +148,54 @@ description: "How to defend against Headquarters Pass in BJJ. Recognition cues, 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Headquarters Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Knee-Elbow Retention vs the Knee Cut",
+      "description": "Headquarters Pass (Defender) film study: Knee-Elbow Retention vs the Knee Cut, taught by Cal McDonald.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rP8SOouke1s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rP8SOouke1s",
+      "url": "https://www.youtube.com/watch?v=rP8SOouke1s",
+      "creator": { "@type": "Person", "name": "Cal McDonald" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guard Retention: When To Sit Up Escape",
+      "description": "Headquarters Pass (Defender) film study: Guard Retention: When To Sit Up Escape, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lVLAROiSjNU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lVLAROiSjNU",
+      "url": "https://www.youtube.com/watch?v=lVLAROiSjNU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT136S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Knee Shield Defense vs Headquarters",
+      "description": "Headquarters Pass (Defender) film study: Knee Shield Defense vs Headquarters, taught by Jiu Jitsu Curriculum.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k4pZYVOwmbI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k4pZYVOwmbI",
+      "url": "https://www.youtube.com/watch?v=k4pZYVOwmbI",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu Curriculum" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Headquarters Pass requires understanding that your opponent has re
 **Opponent's Starting Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Headquarters Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rP8SOouke1s)
+
+<p class="clip-credit"><strong>Knee-Elbow Retention vs the Knee Cut</strong> — taught by Cal McDonald · 0:57 · <a href="https://www.youtube.com/watch?v=rP8SOouke1s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lVLAROiSjNU)
+
+<p class="clip-credit"><strong>Guard Retention: When To Sit Up Escape</strong> — taught by Lachlan Giles · 2:16 · <a href="https://www.youtube.com/watch?v=lVLAROiSjNU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k4pZYVOwmbI)
+
+<p class="clip-credit"><strong>Knee Shield Defense vs Headquarters</strong> — taught by Jiu Jitsu Curriculum · 1:57 · <a href="https://www.youtube.com/watch?v=k4pZYVOwmbI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -398,39 +398,149 @@
   "flashcards": [
     {
       "question": "What are the three components of any lever system in BJJ?",
-      "answer": "Every lever has a fulcrum (the pivot point), an effort arm (where you apply force), and a resistance arm (where the opponent's structure resists). Arranging these favorably is what multiplies your force."
+      "answer": "Every lever has a fulcrum (the pivot point), an effort arm (where you apply force), and a resistance arm (where the opponent's structure resists). Arranging these favorably is what multiplies your force.",
+      "answer_line": "Fulcrum, effort arm, resistance arm",
+      "distractors": {
+        "plausible": [
+          "Base, posture, grip",
+          "Weight, balance, timing"
+        ],
+        "trap": [
+          "Strength, speed, aggression"
+        ]
+      }
     },
     {
       "question": "Why can a smaller grappler control a much larger opponent using leverage?",
-      "answer": "By placing the fulcrum close to the resistance and applying force at the end of a long effort arm, a small input force produces a large output force, so precise positioning rather than raw strength decides the outcome."
+      "answer": "By placing the fulcrum close to the resistance and applying force at the end of a long effort arm, a small input force produces a large output force, so precise positioning rather than raw strength decides the outcome.",
+      "answer_line": "Close fulcrum, long effort arm",
+      "distractors": {
+        "plausible": [
+          "Faster reflexes beat size",
+          "Flexibility overcomes strength"
+        ],
+        "trap": [
+          "Match their power directly"
+        ]
+      }
     },
     {
       "question": "How do you maximize mechanical advantage in a lever arm ratio?",
-      "answer": "Lengthen the distance from the fulcrum to your effort point while shortening the distance from the fulcrum to the opponent's resistance point, aiming for at least a 2:1 ratio in your favor."
+      "answer": "Lengthen the distance from the fulcrum to your effort point while shortening the distance from the fulcrum to the opponent's resistance point, aiming for at least a 2:1 ratio in your favor.",
+      "answer_line": "Longer effort arm, shorter load arm",
+      "distractors": {
+        "plausible": [
+          "Apply force near the fulcrum",
+          "Aim for an even 1:1 ratio"
+        ],
+        "trap": [
+          "Pull straight into their strength"
+        ]
+      }
     },
     {
       "question": "At what angle should force be applied to a lever arm for maximum effect?",
-      "answer": "Force should be applied perpendicular (90 degrees) to the lever arm; even a 30-degree deviation can cut rotational effectiveness roughly in half because much of the force is lost in non-productive directions."
+      "answer": "Force should be applied perpendicular (90 degrees) to the lever arm; even a 30-degree deviation can cut rotational effectiveness roughly in half because much of the force is lost in non-productive directions.",
+      "answer_line": "Perpendicular, 90 degrees",
+      "distractors": {
+        "plausible": [
+          "45 degrees for balance",
+          "Parallel to the lever arm"
+        ],
+        "trap": [
+          "Angle doesn't matter, just force"
+        ]
+      }
     },
     {
       "question": "What is a compound leverage system?",
-      "answer": "It is the stacking of multiple simple levers—primary, secondary, and tertiary fulcrums—so each builds on the prior advantage, as seen in positions like the truck, ashi garami, or back control."
+      "answer": "It is the stacking of multiple simple levers—primary, secondary, and tertiary fulcrums—so each builds on the prior advantage, as seen in positions like the truck, ashi garami, or back control.",
+      "answer_line": "Stacked fulcrums building advantage",
+      "distractors": {
+        "plausible": [
+          "One strong fulcrum held longer",
+          "Randomly switching fulcrums"
+        ],
+        "trap": [
+          "Ignore fulcrums, use raw strength"
+        ]
+      }
     },
     {
       "question": "Why does a collapsed or bent arm ruin a leverage application?",
-      "answer": "Slack or flex anywhere in the kinetic chain dissipates force before it reaches the resistance point, so the lever fails even when the fulcrum and arm-length geometry are correct; rigidity is essential."
+      "answer": "Slack or flex anywhere in the kinetic chain dissipates force before it reaches the resistance point, so the lever fails even when the fulcrum and arm-length geometry are correct; rigidity is essential.",
+      "answer_line": "Slack drains force before resistance",
+      "distractors": {
+        "plausible": [
+          "Bent arm conserves energy",
+          "Fatigue slows the technique"
+        ],
+        "trap": [
+          "Bend the arm to absorb power"
+        ]
+      }
     },
     {
       "question": "What is the most common leverage error among lower belts?",
-      "answer": "Substituting muscular strength for proper positioning—forcing a technique with the arms instead of directing body weight through an optimal fulcrum—which fatigues quickly and fails against stronger opponents."
+      "answer": "Substituting muscular strength for proper positioning—forcing a technique with the arms instead of directing body weight through an optimal fulcrum—which fatigues quickly and fails against stronger opponents.",
+      "answer_line": "Muscling it instead of positioning",
+      "distractors": {
+        "plausible": [
+          "Moving too slowly overall",
+          "Overcommitting to one grip"
+        ],
+        "trap": [
+          "Relaxing and waiting for gaps"
+        ]
+      }
     },
     {
       "question": "How should you respond when a leverage system becomes compromised mid-technique?",
-      "answer": "Abandon the failing lever early and transition to a new fulcrum or angle rather than fighting to maintain it; chasing a dead leverage system wastes energy and lets the opponent improve position."
+      "answer": "Abandon the failing lever early and transition to a new fulcrum or angle rather than fighting to maintain it; chasing a dead leverage system wastes energy and lets the opponent improve position.",
+      "answer_line": "Abandon it, find a new fulcrum",
+      "distractors": {
+        "plausible": [
+          "Reset to neutral and restart",
+          "Hold position and wait it out"
+        ],
+        "trap": [
+          "Force through with more strength"
+        ]
+      }
     },
     {
       "question": "How do you disrupt an opponent's leverage while building your own?",
-      "answer": "Identify their fulcrum points and either eliminate them or extend their lever arms unfavorably, denying their mechanical advantage before you establish your own fulcrum and effort arm to take control."
+      "answer": "Identify their fulcrum points and either eliminate them or extend their lever arms unfavorably, denying their mechanical advantage before you establish your own fulcrum and effort arm to take control.",
+      "answer_line": "Break their fulcrum, extend arms",
+      "distractors": {
+        "plausible": [
+          "Copy their grip exactly",
+          "Focus only on your own offense"
+        ],
+        "trap": [
+          "Grip fight instead of positioning"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "RDlDO3DipSU",
+      "title": "Leverage explained: defending armbars with levers",
+      "by": "Stephan Kesting",
+      "vertical": false,
+      "channel": "Stephan Kesting",
+      "duration": 1019,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "PbpwQzUwmE8",
+      "title": "The surprising physics and levers behind jiu-jitsu",
+      "by": "BBC Reel",
+      "vertical": false,
+      "channel": "BBC Global",
+      "duration": 363,
+      "verified": "2026-07-15"
     }
   ]
 }

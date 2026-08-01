@@ -168,6 +168,54 @@ description: "How to execute Gift Wrap to Technical Mount in BJJ. Attacking pers
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Gift Wrap to Technical Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Arm drag to technical mount to gift wrap",
+      "description": "Gift Wrap to Technical Mount (Attacker) film study: Arm drag to technical mount to gift wrap, taught by Prof Lopez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ynBZ-d74qck/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ynBZ-d74qck",
+      "url": "https://www.youtube.com/watch?v=ynBZ-d74qck",
+      "creator": { "@type": "Person", "name": "Prof Lopez" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Gift wrap sweep to S-mount",
+      "description": "Gift Wrap to Technical Mount (Attacker) film study: Gift wrap sweep to S-mount, taught by Roland Larson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sxlBaiQj2Rc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sxlBaiQj2Rc",
+      "url": "https://www.youtube.com/watch?v=sxlBaiQj2Rc",
+      "creator": { "@type": "Person", "name": "Roland Larson" },
+      "duration": "PT36S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mount to gift wrap control",
+      "description": "Gift Wrap to Technical Mount (Attacker) film study: Mount to gift wrap control, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3yIMfhGHnk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/X3yIMfhGHnk",
+      "url": "https://www.youtube.com/watch?v=X3yIMfhGHnk",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT92S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -181,6 +229,42 @@ Strategically, this transition is particularly valuable when rear naked choke at
 **From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Gift Wrap to Technical Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ynBZ-d74qck)
+
+<p class="clip-credit"><strong>Arm drag to technical mount to gift wrap</strong> — taught by Prof Lopez · 0:50 · <a href="https://www.youtube.com/watch?v=ynBZ-d74qck" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sxlBaiQj2Rc)
+
+<p class="clip-credit"><strong>Gift wrap sweep to S-mount</strong> — taught by Roland Larson · 0:36 · <a href="https://www.youtube.com/watch?v=sxlBaiQj2Rc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=X3yIMfhGHnk)
+
+<p class="clip-credit"><strong>Mount to gift wrap control</strong> — taught by Henry Akins · 1:32 · <a href="https://www.youtube.com/watch?v=X3yIMfhGHnk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

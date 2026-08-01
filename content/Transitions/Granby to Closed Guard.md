@@ -34,6 +34,54 @@ description: "Learn Granby to Closed Guard recovery technique. Master Granby rol
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Granby to Closed Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Basic granby roll technique",
+      "description": "Granby to Closed Guard film study: Basic granby roll technique, taught by Danny Mitchell.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vyphbya8ZVQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vyphbya8ZVQ",
+      "url": "https://www.youtube.com/watch?v=vyphbya8ZVQ",
+      "creator": { "@type": "Person", "name": "Danny Mitchell" },
+      "duration": "PT44S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Progression of the granby roll",
+      "description": "Granby to Closed Guard film study: Progression of the granby roll, taught by Ryan Loder.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ww3UlhG2GzI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ww3UlhG2GzI",
+      "url": "https://www.youtube.com/watch?v=Ww3UlhG2GzI",
+      "creator": { "@type": "Person", "name": "Ryan Loder" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Turtle escape with the shoulder roll",
+      "description": "Granby to Closed Guard film study: Turtle escape with the shoulder roll, taught by BJJake.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/W0TCGKRcniA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/W0TCGKRcniA",
+      "url": "https://www.youtube.com/watch?v=W0TCGKRcniA",
+      "creator": { "@type": "Person", "name": "BJJake" },
+      "duration": "PT21S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +114,45 @@ The technique is particularly valuable because it works against forward pressure
 Mastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.
 
 **From Position**: [[Positions/Turtle]] (Bottom)
-**Success Rate**: 58%
+**Success Rate**: 40%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Granby to Closed Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vyphbya8ZVQ)
+
+<p class="clip-credit"><strong>Basic granby roll technique</strong> — taught by Danny Mitchell · 0:44 · <a href="https://www.youtube.com/watch?v=vyphbya8ZVQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ww3UlhG2GzI)
+
+<p class="clip-credit"><strong>Progression of the granby roll</strong> — taught by Ryan Loder · 0:59 · <a href="https://www.youtube.com/watch?v=Ww3UlhG2GzI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=W0TCGKRcniA)
+
+<p class="clip-credit"><strong>Turtle escape with the shoulder roll</strong> — taught by BJJake · 0:21 · <a href="https://www.youtube.com/watch?v=W0TCGKRcniA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -174,6 +174,54 @@ description: "How to execute Cross Ashi Transition in BJJ. Attacking perspective
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cross Ashi Transition (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly to reverse X to cross ashi to inside heel hook",
+      "description": "Cross Ashi Transition (Attacker) film study: Butterfly to reverse X to cross ashi to inside heel hook, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GqE4UobpkMs/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/GqE4UobpkMs",
+      "url": "https://www.youtube.com/watch?v=GqE4UobpkMs",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT88S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Cross ashi belly-down heel hook",
+      "description": "Cross Ashi Transition (Attacker) film study: Cross ashi belly-down heel hook, taught by BOWERHOUSE MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h_SRARh0B6U/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h_SRARh0B6U",
+      "url": "https://www.youtube.com/watch?v=h_SRARh0B6U",
+      "creator": { "@type": "Person", "name": "BOWERHOUSE MMA" },
+      "duration": "PT68S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Nasty heel hook from outside ashi garami",
+      "description": "Cross Ashi Transition (Attacker) film study: Nasty heel hook from outside ashi garami, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m4sGDhukUmk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m4sGDhukUmk",
+      "url": "https://www.youtube.com/watch?v=m4sGDhukUmk",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT141S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -187,6 +235,42 @@ Strategically, this transition serves as an essential tool when Ushiro Ashi-Gara
 **From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cross Ashi Transition (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=GqE4UobpkMs)
+
+<p class="clip-credit"><strong>Butterfly to reverse X to cross ashi to inside heel hook</strong> — taught by BOWERHOUSE MMA · 1:28 · <a href="https://www.youtube.com/watch?v=GqE4UobpkMs" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h_SRARh0B6U)
+
+<p class="clip-credit"><strong>Cross ashi belly-down heel hook</strong> — taught by BOWERHOUSE MMA · 1:08 · <a href="https://www.youtube.com/watch?v=h_SRARh0B6U" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m4sGDhukUmk)
+
+<p class="clip-credit"><strong>Nasty heel hook from outside ashi garami</strong> — taught by Craig Jones · 2:21 · <a href="https://www.youtube.com/watch?v=m4sGDhukUmk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

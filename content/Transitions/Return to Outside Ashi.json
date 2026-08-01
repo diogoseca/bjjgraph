@@ -14,21 +14,33 @@
   "outcomes": [
     {
       "to": "Outside Ashi-Garami/Top",
-      "probability": 65,
+      "probability": {
+        "gi": 65,
+        "nogi": 65
+      },
       "result": "success"
     },
     {
       "to": "Ushiro Ashi-Garami/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "50-50 Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "In high-level leg lock exchanges, an opponent's inversion is rarely a clean escape — it frequently leaves you holding the reversed ushiro configuration, where finishing leverage is compromised but control is not yet lost. Returning to outside ashi addresses exactly this moment: rather than continuing to attack from the disadvantaged ushiro angle, you reverse the opponent's hip rotation and re-establish the standard outside ashi-garami where heel hook and ankle lock mechanics are more straightforward.\n\nThe transition solves a fundamental problem in leg lock scrambles: when opponents invert to escape, the resulting ushiro configuration changes submission leverage angles and opens escape opportunities. By returning to outside ashi-garami, you restore optimal finishing mechanics while denying the opponent's escape progress. This is particularly valuable when your ushiro control is degrading or when the opponent is successfully working toward turtle recovery.\n\nStrategically, this transition represents a positional improvement rather than a direct submission attempt. While ushiro offers attack opportunities, outside ashi-garami provides superior hip control, clearer heel exposure, and better transition options to saddle or honey hole. Advanced practitioners recognize when maintaining ushiro is disadvantageous and proactively return to outside ashi before losing control entirely. The technique requires understanding both leg entanglement configurations and the biomechanical principles that make outside ashi preferable for most finishing sequences.",
   "related_content": [
     {
@@ -199,46 +211,175 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Return to Outside Ashi?",
-        "answer": "The primary goal is to re-establish the mechanically superior outside ashi-garami position after an opponent has inverted from standard leg entanglement, creating ushiro. This restores optimal heel hook finishing mechanics and denies the opponent's escape progress rather than continuing to attack from the compromised reversed angle."
+        "answer": "The primary goal is to re-establish the mechanically superior outside ashi-garami position after an opponent has inverted from standard leg entanglement, creating ushiro. This restores optimal heel hook finishing mechanics and denies the opponent's escape progress rather than continuing to attack from the compromised reversed angle.",
+        "answer_line": "Re-establish outside ashi-garami",
+        "distractors": {
+          "plausible": [
+            "Follow rotation to back control",
+            "Keep attacking from ushiro angle"
+          ],
+          "trap": [
+            "Abandon leg entanglement entirely"
+          ]
+        }
       },
       {
         "question": "Why is outside ashi-garami preferable to ushiro for finishing heel hooks?",
-        "answer": "Outside ashi-garami provides superior hip control with your hips facing the opponent's trapped leg directly, clearer heel exposure without the reversed angle complications, and better mechanical leverage for finishing. The standard configuration also offers more reliable transitions to saddle or honey hole if the heel hook is defended."
+        "answer": "Outside ashi-garami provides superior hip control with your hips facing the opponent's trapped leg directly, clearer heel exposure without the reversed angle complications, and better mechanical leverage for finishing. The standard configuration also offers more reliable transitions to saddle or honey hole if the heel hook is defended.",
+        "answer_line": "Hips face leg, clean heel exposure",
+        "distractors": {
+          "plausible": [
+            "Ushiro grips are more secure",
+            "Reversed angle adds more power"
+          ],
+          "trap": [
+            "Ushiro sets up straight ankle lock"
+          ]
+        }
       },
       {
         "question": "What indicates the optimal timing window for attempting this transition?",
-        "answer": "Initiate when opponent's inversion momentum has stalled and they're working to consolidate turtle or extract their leg slowly. Avoid attempting during active rotation as you'll fight against their momentum. The ideal window is when they pause between escape attempts or when their free leg stops actively pushing."
+        "answer": "Initiate when opponent's inversion momentum has stalled and they're working to consolidate turtle or extract their leg slowly. Avoid attempting during active rotation as you'll fight against their momentum. The ideal window is when they pause between escape attempts or when their free leg stops actively pushing.",
+        "answer_line": "Attempt when rotation stalls",
+        "distractors": {
+          "plausible": [
+            "Attempt during active rotation",
+            "Wait until they fully invert"
+          ],
+          "trap": [
+            "Attack mid-rotation for surprise"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free leg strongly as you begin the transition - how do you respond?",
-        "answer": "Hook behind their posting knee with your outside leg, converting their defensive post into a second trapped leg. This opens transition to saddle position instead of outside ashi. Alternatively, abandon the transition and follow their continued rotation to back control if their post is preventing any leg manipulation."
+        "answer": "Hook behind their posting knee with your outside leg, converting their defensive post into a second trapped leg. This opens transition to saddle position instead of outside ashi. Alternatively, abandon the transition and follow their continued rotation to back control if their post is preventing any leg manipulation.",
+        "answer_line": "Hook their knee, go to saddle",
+        "distractors": {
+          "plausible": [
+            "Force outside ashi through the post",
+            "Ignore post, keep pulling hips"
+          ],
+          "trap": [
+            "Release inside leg to grab post"
+          ]
+        }
       },
       {
         "question": "Which leg must maintain control throughout the entire transition and why?",
-        "answer": "Your inside leg must maintain control on opponent's thigh throughout the transition. This leg prevents complete leg extraction during the vulnerable moment when your outside leg repositions. Releasing inside leg control before outside leg re-establishes creates a gap that allows escape."
+        "answer": "Your inside leg must maintain control on opponent's thigh throughout the transition. This leg prevents complete leg extraction during the vulnerable moment when your outside leg repositions. Releasing inside leg control before outside leg re-establishes creates a gap that allows escape.",
+        "answer_line": "Inside leg holds thigh throughout",
+        "distractors": {
+          "plausible": [
+            "Outside leg holds thigh throughout",
+            "Upper body grip alone is enough"
+          ],
+          "trap": [
+            "Release inside leg to reposition"
+          ]
+        }
       },
       {
         "question": "What should you assess before initiating Return to Outside Ashi?",
-        "answer": "Assess your inside leg control depth (should be controlling their thigh with heel hooked behind knee or calf), opponent's rotation momentum (should be stalled, not active), opponent's free leg position (should not be actively posting or pushing), and whether your upper body grips can maintain heel/ankle control during leg repositioning."
+        "answer": "Assess your inside leg control depth (should be controlling their thigh with heel hooked behind knee or calf), opponent's rotation momentum (should be stalled, not active), opponent's free leg position (should not be actively posting or pushing), and whether your upper body grips can maintain heel/ankle control during leg repositioning.",
+        "answer_line": "Check leg control, momentum, grips",
+        "distractors": {
+          "plausible": [
+            "Only check opponent's grip strength",
+            "Only check your own fatigue level"
+          ],
+          "trap": [
+            "Attempt regardless of rotation state"
+          ]
+        }
       },
       {
         "question": "When should you abandon the transition attempt and follow to back control instead?",
-        "answer": "Abandon when opponent commits fully to turtle rotation with strong momentum, when your inside leg control has degraded below the threshold needed for transition, when their free leg posting effectively prevents any hip reversal, or when they've successfully created enough space that maintaining any leg entanglement becomes unlikely."
+        "answer": "Abandon when opponent commits fully to turtle rotation with strong momentum, when your inside leg control has degraded below the threshold needed for transition, when their free leg posting effectively prevents any hip reversal, or when they've successfully created enough space that maintaining any leg entanglement becomes unlikely.",
+        "answer_line": "Full rotation or lost leg control",
+        "distractors": {
+          "plausible": [
+            "Any resistance from opponent",
+            "First sign of opponent's post"
+          ],
+          "trap": [
+            "Keep forcing outside ashi anyway"
+          ]
+        }
       },
       {
         "question": "What is the critical action immediately after re-establishing outside ashi position?",
-        "answer": "Adjust your hip angle for optimal finishing mechanics before committing to submission. Take 2-3 seconds to confirm your hips face their trapped leg correctly, their heel is exposed, and they cannot re-invert by controlling their hip line with leg pressure. Rushing the attack from poor position reduces success significantly."
+        "answer": "Adjust your hip angle for optimal finishing mechanics before committing to submission. Take 2-3 seconds to confirm your hips face their trapped leg correctly, their heel is exposed, and they cannot re-invert by controlling their hip line with leg pressure. Rushing the attack from poor position reduces success significantly.",
+        "answer_line": "Adjust hip angle before attacking",
+        "distractors": {
+          "plausible": [
+            "Attack the heel hook instantly",
+            "Switch straight to saddle"
+          ],
+          "trap": [
+            "Release grips to reset position"
+          ]
+        }
       },
       {
         "question": "How does the hip switch variant differ from the standard transition technique?",
-        "answer": "The hip switch variant creates outside ashi by rotating your own hips toward the trapped leg rather than forcing the opponent's hips back to standard alignment. This works when opponents actively resist hip reversal or post effectively. You change your angle to create the configuration rather than changing theirs."
+        "answer": "The hip switch variant creates outside ashi by rotating your own hips toward the trapped leg rather than forcing the opponent's hips back to standard alignment. This works when opponents actively resist hip reversal or post effectively. You change your angle to create the configuration rather than changing theirs.",
+        "answer_line": "Rotate your hips, not theirs",
+        "distractors": {
+          "plausible": [
+            "Force their hips back to alignment",
+            "Switch to inside ashi instead"
+          ],
+          "trap": [
+            "Release inside leg to switch hips"
+          ]
+        }
       },
       {
         "question": "What happens if opponent counter-rotates into 50-50 during your transition attempt?",
-        "answer": "Accept 50-50 as a neutral outcome and work standard 50-50 techniques. The 50-50 is preferable to losing control entirely, as you maintain leg entanglement with submission and sweep options. Don't panic or over-commit trying to prevent the 50-50 entry if it means losing position completely."
+        "answer": "Accept 50-50 as a neutral outcome and work standard 50-50 techniques. The 50-50 is preferable to losing control entirely, as you maintain leg entanglement with submission and sweep options. Don't panic or over-commit trying to prevent the 50-50 entry if it means losing position completely.",
+        "answer_line": "Accept 50-50, keep entanglement",
+        "distractors": {
+          "plausible": [
+            "Panic and abandon all control",
+            "Force back to outside ashi now"
+          ],
+          "trap": [
+            "Release legs to prevent 50-50"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Return to Outside Ashi involves dynamic leg movement during active leg entanglement, creating knee and ankle injury risk if executed explosively without control. Practice the transition slowly before adding speed. When drilling, communicate clearly with partners about resistance levels and tap immediately if any joint feels compromised during the hip reversal. Avoid forcing the transition against strong resistance that could torque your own knees. The transition itself is relatively safe compared to submission finishes, but the follow-up heel hook attacks require careful application."
+    "safety_considerations": "Return to Outside Ashi involves dynamic leg movement during active leg entanglement, creating knee and ankle injury risk if executed explosively without control. Practice the transition slowly before adding speed. When drilling, communicate clearly with partners about resistance levels and tap immediately if any joint feels compromised during the hip reversal. Avoid forcing the transition against strong resistance that could torque your own knees. The transition itself is relatively safe compared to submission finishes, but the follow-up heel hook attacks require careful application.",
+    "clips": [
+      {
+        "id": "xvx03k3jiWo",
+        "title": "Outside ashi garami entry and control",
+        "by": "Team Strela",
+        "vertical": false,
+        "channel": "DARKSIDE | Team Strela",
+        "duration": 26,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "tLcHN042w48",
+        "title": "Outside ashi control and finishing mechanics",
+        "by": "Fox Den Martial Arts",
+        "vertical": false,
+        "channel": "Fox Den Martial Arts",
+        "duration": 86,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "HVc2CKdAfN0",
+        "title": "X-guard to cross ashi leg entanglement entry",
+        "by": "Johnny Jitsu",
+        "vertical": false,
+        "channel": "Johnny Jitsu",
+        "duration": 120,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Return to Outside Ashi Defender",
@@ -315,23 +456,73 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for defending against Return to Outside Ashi?",
-        "answer": "The most critical window is when the attacker releases their outside leg from the crossing position to reposition it for outside ashi. During this moment, their leg control is temporarily reduced to only inside leg and upper body grips, creating your best opportunity to accelerate escape, extract your trapped leg, or initiate counter-entanglement into 50-50."
+        "answer": "The most critical window is when the attacker releases their outside leg from the crossing position to reposition it for outside ashi. During this moment, their leg control is temporarily reduced to only inside leg and upper body grips, creating your best opportunity to accelerate escape, extract your trapped leg, or initiate counter-entanglement into 50-50.",
+        "answer_line": "When they release outside leg",
+        "distractors": {
+          "plausible": [
+            "When they first grip your ankle",
+            "After they fully finish transition"
+          ],
+          "trap": [
+            "Wait passively for their mistake"
+          ]
+        }
       },
       {
         "question": "Why is maintaining rotation momentum essential when the attacker begins this transition?",
-        "answer": "The attacker's transition relies on your inversion momentum stalling so they can reverse your hip orientation. Continuous rotation forces them to fight against moving hips rather than repositioning against a static target. Even small, constant hip movement makes the reversal significantly more difficult and often causes the attacker to abandon the attempt in favor of following to back control."
+        "answer": "The attacker's transition relies on your inversion momentum stalling so they can reverse your hip orientation. Continuous rotation forces them to fight against moving hips rather than repositioning against a static target. Even small, constant hip movement makes the reversal significantly more difficult and often causes the attacker to abandon the attempt in favor of following to back control.",
+        "answer_line": "Forces them to chase moving hips",
+        "distractors": {
+          "plausible": [
+            "Momentum tires out the attacker",
+            "Rotation resets their grips"
+          ],
+          "trap": [
+            "Stop moving to conserve energy"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun driving your knee line back and you feel your hips rotating toward them - what should you do?",
-        "answer": "Immediately post your free leg strongly against their hip or the mat to create a structural barrier preventing further hip reversal. Simultaneously increase your inversion effort by turning your shoulders and hips away. If the post is failing and they continue the reversal, transition your defense to counter-rotating into 50-50 by threading your free leg through their legs during the repositioning moment."
+        "answer": "Immediately post your free leg strongly against their hip or the mat to create a structural barrier preventing further hip reversal. Simultaneously increase your inversion effort by turning your shoulders and hips away. If the post is failing and they continue the reversal, transition your defense to counter-rotating into 50-50 by threading your free leg through their legs during the repositioning moment.",
+        "answer_line": "Post free leg, keep inverting",
+        "distractors": {
+          "plausible": [
+            "Grab their far collar for base",
+            "Stop moving and wait it out"
+          ],
+          "trap": [
+            "Relax hips to save energy"
+          ]
+        }
       },
       {
         "question": "When is accepting 50-50 a better defensive outcome than fighting to maintain ushiro?",
-        "answer": "Accept 50-50 when your inversion has stalled and the attacker is successfully reversing your hips but has not yet fully consolidated outside ashi. The 50-50 neutralizes their positional advantage by creating symmetrical entanglement, whereas fighting to maintain a degrading ushiro position may result in ending up in outside ashi with the attacker already having optimal finishing angle and grips established."
+        "answer": "Accept 50-50 when your inversion has stalled and the attacker is successfully reversing your hips but has not yet fully consolidated outside ashi. The 50-50 neutralizes their positional advantage by creating symmetrical entanglement, whereas fighting to maintain a degrading ushiro position may result in ending up in outside ashi with the attacker already having optimal finishing angle and grips established.",
+        "answer_line": "Before outside ashi is set",
+        "distractors": {
+          "plausible": [
+            "Only if you're about to be finished",
+            "Anytime rotation slows down"
+          ],
+          "trap": [
+            "Keep fighting until fully reversed"
+          ]
+        }
       },
       {
         "question": "How should you use your free leg defensively during this transition?",
-        "answer": "Your free leg is your primary defensive tool. Post it against the attacker's hip to create a frame preventing the hip reversal, push off the mat to generate rotation momentum for continued escape, or thread it through the attacker's legs to initiate 50-50 counter-entanglement. Never leave it passive. Be aware that the attacker may try to hook behind your posting knee, so maintain awareness of their outside leg position."
+        "answer": "Your free leg is your primary defensive tool. Post it against the attacker's hip to create a frame preventing the hip reversal, push off the mat to generate rotation momentum for continued escape, or thread it through the attacker's legs to initiate 50-50 counter-entanglement. Never leave it passive. Be aware that the attacker may try to hook behind your posting knee, so maintain awareness of their outside leg position.",
+        "answer_line": "Post, push, or thread for 50-50",
+        "distractors": {
+          "plausible": [
+            "Keep it tucked in for safety",
+            "Use it only to kick free"
+          ],
+          "trap": [
+            "Leave it passive to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -354,6 +545,35 @@
         "phase": "Week 7+",
         "focus": "Live integration",
         "description": "Apply defensive responses in positional sparring starting from ushiro ashi-garami. Partner has full freedom to attempt Return to Outside Ashi, maintain ushiro, or follow to back. Practice recognizing the transition among multiple possible attacker actions and responding with the highest-percentage defensive option."
+      }
+    ],
+    "clips": [
+      {
+        "id": "cRXsNPAgVLU",
+        "title": "Irimi ashi garami counter",
+        "by": "John Danaher",
+        "vertical": false,
+        "channel": "Dohn Janaher ",
+        "duration": 29,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "m4UEhHwbGfQ",
+        "title": "Ashi garami escape: sit over the foot to mount",
+        "by": "Troy Manning",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 76,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "L417yCl_-dc",
+        "title": "Leg defense from ashi garami",
+        "by": "The Coop BJJ",
+        "vertical": false,
+        "channel": "The Coop BJJ",
+        "duration": 48,
+        "verified": "2026-07-15"
       }
     ]
   },

@@ -140,6 +140,43 @@ description: "How to defend against De La Riva Sweep in BJJ. Recognition cues, d
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Over-under pass to shut down De La Riva",
+      "description": "De La Riva Sweep (Defender) film study: Over-under pass to shut down De La Riva, taught by Carpio Jiu Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KvdgeJjclTA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KvdgeJjclTA",
+      "url": "https://www.youtube.com/watch?v=KvdgeJjclTA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu coach" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Over-under stack pass against De La Riva",
+      "description": "De La Riva Sweep (Defender) film study: Over-under stack pass against De La Riva, taught by Balance BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/krtNPm3OXtc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/krtNPm3OXtc",
+      "url": "https://www.youtube.com/watch?v=krtNPm3OXtc",
+      "creator": { "@type": "Person", "name": "Balance BJJ coach" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -153,6 +190,34 @@ Defense against DLR sweeps is not purely reactive. The best defenders proactivel
 **Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KvdgeJjclTA)
+
+<p class="clip-credit"><strong>Over-under pass to shut down De La Riva</strong> — taught by Carpio Jiu Jitsu coach · 2:08 · <a href="https://www.youtube.com/watch?v=KvdgeJjclTA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=krtNPm3OXtc)
+
+<p class="clip-credit"><strong>Over-under stack pass against De La Riva</strong> — taught by Balance BJJ coach · 2:43 · <a href="https://www.youtube.com/watch?v=krtNPm3OXtc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

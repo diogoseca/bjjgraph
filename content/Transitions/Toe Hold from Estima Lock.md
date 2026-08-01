@@ -34,6 +34,43 @@ description: "Master the Toe Hold from Estima Lock in BJJ. Learn grip transition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold from Estima Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Estima lock key details and toe hold finish",
+      "description": "Toe Hold from Estima Lock film study: Estima lock key details and toe hold finish, taught by Brandon McCaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/enJwT6Ttreo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/enJwT6Ttreo",
+      "url": "https://www.youtube.com/watch?v=enJwT6Ttreo",
+      "creator": { "@type": "Person", "name": "Brandon McCaghren" },
+      "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Paper cutter toe hold from 50/50",
+      "description": "Toe Hold from Estima Lock film study: Paper cutter toe hold from 50/50, taught by Garden State BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xwaJm1Ft5lc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xwaJm1Ft5lc",
+      "url": "https://www.youtube.com/watch?v=xwaJm1Ft5lc",
+      "creator": { "@type": "Person", "name": "Garden State BJJ coach" },
+      "duration": "PT60S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ Strategically, this transition embodies the dilemma-based attacking philosophy c
 The mechanical execution requires maintaining hip pressure against the opponent's calf throughout the grip change, ensuring the leg remains isolated while the hands transition from the Estima Lock configuration to the toe hold wrap. The finish applies inward rotational force to the foot, stressing the ankle joint, surrounding ligaments, and potentially the knee through the connected kinetic chain. Understanding this complementary relationship between the Estima Lock and toe hold transforms a single-threat position into a dynamic submission system.
 
 **From Position**: [[Positions/Estima Lock Control]] (Top)
-**Success Rate**: 45%
+**Success Rate**: 26%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold from Estima Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=enJwT6Ttreo)
+
+<p class="clip-credit"><strong>Estima lock key details and toe hold finish</strong> — taught by Brandon McCaghren · 2:17 · <a href="https://www.youtube.com/watch?v=enJwT6Ttreo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xwaJm1Ft5lc)
+
+<p class="clip-credit"><strong>Paper cutter toe hold from 50/50</strong> — taught by Garden State BJJ coach · 1:00 · <a href="https://www.youtube.com/watch?v=xwaJm1Ft5lc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -76,7 +141,7 @@ The mechanical execution requires maintaining hip pressure against the opponent'
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Submissions/Toe Hold]] | 45% |
+| Success | [[Positions/Toe Hold Control]] | 45% |
 | Failure | [[Positions/Estima Lock Control]] | 35% |
 | Counter | [[Positions/Open Guard]] | 20% |
 
@@ -233,11 +298,11 @@ The Toe Hold from Estima Lock functions as a critical secondary attack within mo
 ## Related Techniques
 
 
-- [[Transitions/Estima Lock]] - Source position providing the established foot control from which this transition originates
+- [[Submissions/Estima Lock]] - Source position providing the established foot control from which this transition originates
 
 - [[Positions/Toe Hold Control]] - Related control position for extended toe hold attacks when immediate finish is unavailable
 
-- [[Transitions/Estima Lock]] - Primary submission from the source position that this transition complements as a chain attack
+- [[Submissions/Estima Lock]] - Primary submission from the source position that this transition complements as a chain attack
 
 - [[Transitions/Kneebar from Estima Lock]] - Alternative chain attack from same position targeting the knee rather than the ankle
 

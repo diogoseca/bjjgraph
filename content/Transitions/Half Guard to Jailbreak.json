@@ -18,24 +18,35 @@
   "outcomes": [
     {
       "to": "Jailbreak/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "summary": "Half Guard to Jailbreak is a 10th Planet entry in which the bottom half guard player secures a same-side underhook and turns into an inverted setup, converting the top player's forward crossface pressure into the Jailbreak escape junction.",
-  "overview": "Half Guard to Jailbreak is the entry that lands a flattened bottom half guard player into the Jailbreak position, the dynamic 10th Planet escape junction. Rather than grinding for a traditional knee-shield or frame recovery, the bottom player accepts the top player's forward pressure as fuel: they win or maintain the same-side underhook, tuck the chin, and turn their shoulders toward the trapped-leg side to load the explosive inversion.\n\nThe entry is fundamentally a baiting and timing exchange. A skilled passer wants to flatten the half guard bottom player with a heavy crossface and drive their weight forward to complete the pass. The Jailbreak entry uses that exact forward commitment - the moment the passer's center of gravity advances over a narrow base is the moment the underhook-and-invert becomes mechanically viable. The bottom player is not trying to sweep or recover guard in this single action; they are arriving at the Jailbreak junction from which the explosive roll, deep half dive, or back take then unfolds.\n\nBecause it trades the relative safety of a framed half guard for a committed, dynamic position, the entry carries real risk: if the underhook is lost or the timing is early, the passer can flatten the bottom player completely and finish the pass to side control. Executed against forward pressure with a tight underhook and tucked chin, however, it is one of the most reliable ways for a modern no-gi guard player to turn a losing flattened half guard into an active offensive scramble."
-  ,
+  "overview": "Half Guard to Jailbreak is the entry that lands a flattened bottom half guard player into the Jailbreak position, the dynamic 10th Planet escape junction. Rather than grinding for a traditional knee-shield or frame recovery, the bottom player accepts the top player's forward pressure as fuel: they win or maintain the same-side underhook, tuck the chin, and turn their shoulders toward the trapped-leg side to load the explosive inversion.\n\nThe entry is fundamentally a baiting and timing exchange. A skilled passer wants to flatten the half guard bottom player with a heavy crossface and drive their weight forward to complete the pass. The Jailbreak entry uses that exact forward commitment - the moment the passer's center of gravity advances over a narrow base is the moment the underhook-and-invert becomes mechanically viable. The bottom player is not trying to sweep or recover guard in this single action; they are arriving at the Jailbreak junction from which the explosive roll, deep half dive, or back take then unfolds.\n\nBecause it trades the relative safety of a framed half guard for a committed, dynamic position, the entry carries real risk: if the underhook is lost or the timing is early, the passer can flatten the bottom player completely and finish the pass to side control. Executed against forward pressure with a tight underhook and tucked chin, however, it is one of the most reliable ways for a modern no-gi guard player to turn a losing flattened half guard into an active offensive scramble.",
   "conditions": [
     "Bottom player is in bottom half guard, typically already flattened or being flattened by top pressure",
     "Bottom player has secured or can win the same-side underhook (same side as the trapped leg)",
@@ -79,8 +90,7 @@
   "attacker": {
     "name": "Half Guard to Jailbreak Attacker",
     "description": "How to enter the Jailbreak from bottom half guard. Underhook timing, chin tuck, inversion load, and the chain into the explosive 10th Planet escape junction.",
-    "overview": "As the attacker entering Half Guard to Jailbreak, you are the bottom half guard player turning a defensive, flattened position into an offensive junction. Your job in this single transition is not to finish a sweep or fully recover guard - it is to arrive cleanly at the Jailbreak position with your underhook intact and your inversion loaded. Everything downstream (the explosive roll to turtle, the back take, the deep half dive) depends on getting this entry right.\n\nThe entry hinges on two things: winning the same-side underhook and reading your opponent's forward pressure. When the passer commits their weight forward to flatten and pass you, their base narrows and their center of gravity advances - this is precisely the moment you turn into them, tuck your chin, and begin to invert. You are converting their pressure into your rotational momentum rather than fighting it head-on.\n\nThis is a high-reward, medium-risk action characteristic of the 10th Planet half guard game. Done with a tight underhook and correct timing, you land in a dynamic position with multiple offensive paths. Done with a loose underhook or premature timing, you hand the passer the flattening angle they wanted and risk being passed straight to side control. Commitment and connection are everything."
-  ,
+    "overview": "As the attacker entering Half Guard to Jailbreak, you are the bottom half guard player turning a defensive, flattened position into an offensive junction. Your job in this single transition is not to finish a sweep or fully recover guard - it is to arrive cleanly at the Jailbreak position with your underhook intact and your inversion loaded. Everything downstream (the explosive roll to turtle, the back take, the deep half dive) depends on getting this entry right.\n\nThe entry hinges on two things: winning the same-side underhook and reading your opponent's forward pressure. When the passer commits their weight forward to flatten and pass you, their base narrows and their center of gravity advances - this is precisely the moment you turn into them, tuck your chin, and begin to invert. You are converting their pressure into your rotational momentum rather than fighting it head-on.\n\nThis is a high-reward, medium-risk action characteristic of the 10th Planet half guard game. Done with a tight underhook and correct timing, you land in a dynamic position with multiple offensive paths. Done with a loose underhook or premature timing, you hand the passer the flattening angle they wanted and risk being passed straight to side control. Commitment and connection are everything.",
     "key_principles": [
       "Win and keep the same-side underhook - it is the structural fulcrum that lets you arrive at the Jailbreak with control rather than getting flattened",
       "Use the passer's forward pressure as fuel: enter when their weight commits over a narrow base, not when they are sitting back and based wide",
@@ -201,32 +211,101 @@
     "flashcards": [
       {
         "question": "What single control point must you secure before turning into the Jailbreak from half guard?",
-        "answer": "The same-side underhook - the underhook on the same side as your trapped leg, with the elbow drawn tight to your own hip. It is the structural fulcrum that lets you turn in without exposing your back or neck, and it keeps you connected to the opponent so they cannot peel you off as you invert. Turning in without it feeds your back and leads straight to being passed."
+        "answer": "The same-side underhook - the underhook on the same side as your trapped leg, with the elbow drawn tight to your own hip. It is the structural fulcrum that lets you turn in without exposing your back or neck, and it keeps you connected to the opponent so they cannot peel you off as you invert. Turning in without it feeds your back and leads straight to being passed.",
+        "answer_line": "Same-side underhook, elbow in",
+        "distractors": {
+          "plausible": [
+            "Far-side underhook first",
+            "Crossface before underhook"
+          ],
+          "trap": [
+            "Release half guard hooks early"
+          ]
+        }
       },
       {
         "question": "Why is the passer's forward pressure an advantage rather than a problem for this entry?",
-        "answer": "When the passer drives their weight forward to flatten and pass you, their base narrows and their center of gravity advances over you. That forward commitment is exactly the energy you convert into rotational momentum for the inversion. Instead of fighting the pressure head-on, you turn into it and corkscrew under it, so a heavier forward drive actually makes the Jailbreak entry more available, not less."
+        "answer": "When the passer drives their weight forward to flatten and pass you, their base narrows and their center of gravity advances over you. That forward commitment is exactly the energy you convert into rotational momentum for the inversion. Instead of fighting the pressure head-on, you turn into it and corkscrew under it, so a heavier forward drive actually makes the Jailbreak entry more available, not less.",
+        "answer_line": "Turn into their forward drive",
+        "distractors": {
+          "plausible": [
+            "Wait for them to sit back",
+            "Push back against the pressure"
+          ],
+          "trap": [
+            "Bridge and dump them off"
+          ]
+        }
       },
       {
         "question": "How do you decide between entering the Jailbreak versus diving to deep half?",
-        "answer": "Read the passer's base and weight. If they commit their weight forward over a narrow base, the Jailbreak turn-and-invert is viable because there is forward energy to redirect. If they sit back and base wide with their hips down, there is no forward weight to convert, so you dive underneath them to deep half instead. Both options use the same same-side underhook as the entry point - the passer's pressure dictates which you choose."
+        "answer": "Read the passer's base and weight. If they commit their weight forward over a narrow base, the Jailbreak turn-and-invert is viable because there is forward energy to redirect. If they sit back and base wide with their hips down, there is no forward weight to convert, so you dive underneath them to deep half instead. Both options use the same same-side underhook as the entry point - the passer's pressure dictates which you choose.",
+        "answer_line": "Forward base: turn; wide base: dive",
+        "distractors": {
+          "plausible": [
+            "Always turn to Jailbreak",
+            "Always dive to deep half"
+          ],
+          "trap": [
+            "Turn away from their pressure"
+          ]
+        }
       },
       {
         "question": "What protects your neck during the inversion, and where should your eyes go?",
-        "answer": "Tucking your chin hard to your chest and rounding your upper back protects the cervical spine and creates the granby-style rolling shape needed for a smooth turn. Your eyes should look toward your own belt rather than up at the opponent. Keeping the chin tucked throughout the turn is non-negotiable; failing to do so loads the neck and stalls the inversion."
+        "answer": "Tucking your chin hard to your chest and rounding your upper back protects the cervical spine and creates the granby-style rolling shape needed for a smooth turn. Your eyes should look toward your own belt rather than up at the opponent. Keeping the chin tucked throughout the turn is non-negotiable; failing to do so loads the neck and stalls the inversion.",
+        "answer_line": "Tuck chin, eyes to your belt",
+        "distractors": {
+          "plausible": [
+            "Tuck chin, eyes on opponent",
+            "Look up, chin tucked"
+          ],
+          "trap": [
+            "Look up at the ceiling"
+          ]
+        }
       },
       {
         "question": "Your turn is only halfway done and you feel yourself stalling - what went wrong and what do you do?",
-        "answer": "Hesitation at the halfway point is the most dangerous failure: you have given up your half guard frames without arriving at the Jailbreak, so the passer can flatten you to side control. The fix is to commit fully once you begin the turn - drive the free leg and finish all the way to the junction. The deeper lesson is to make the decision before you turn so you never enter half-committed."
+        "answer": "Hesitation at the halfway point is the most dangerous failure: you have given up your half guard frames without arriving at the Jailbreak, so the passer can flatten you to side control. The fix is to commit fully once you begin the turn - drive the free leg and finish all the way to the junction. The deeper lesson is to make the decision before you turn so you never enter half-committed.",
+        "answer_line": "Commit fully, drive through",
+        "distractors": {
+          "plausible": [
+            "Reverse back to start",
+            "Pause to reassess mid-turn"
+          ],
+          "trap": [
+            "Abandon frames, stay flat"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This entry involves an inverting, granby-style rotation, so neck safety is the foremost concern. The chin must be tucked to the chest and the load carried on the rounded upper back and shoulders, never on the crown of the head or an extended neck. Beginners should build the inversion gradually with a compliant partner before adding explosive speed or resistance, and should never force the turn if the neck feels compressed. Both partners should communicate during drilling, and the bottom player should abort the inversion if the underhook is lost rather than rolling through blind."
+    "safety_considerations": "This entry involves an inverting, granby-style rotation, so neck safety is the foremost concern. The chin must be tucked to the chest and the load carried on the rounded upper back and shoulders, never on the crown of the head or an extended neck. Beginners should build the inversion gradually with a compliant partner before adding explosive speed or resistance, and should never force the turn if the neck feels compressed. Both partners should communicate during drilling, and the bottom player should abort the inversion if the underhook is lost rather than rolling through blind.",
+    "clips": [
+      {
+        "id": "kFEDU0DVQ7I",
+        "title": "Jailbreak frame escape into a reversal sweep",
+        "by": "Redmond Fit coach",
+        "vertical": false,
+        "channel": "Redmond Fit",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "j25mgRF9wE4",
+        "title": "Framed jailbreak drill from half guard",
+        "by": "JitzLive coach",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 153,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Half Guard to Jailbreak Defender",
     "description": "How to defend against the Jailbreak entry from top half guard. Recognize the underhook turn, deny forward weight, and pass to side control before the inversion loads.",
-    "overview": "As the defender against Half Guard to Jailbreak, you are the top half guard player trying to flatten and pass while your opponent attempts to convert your pressure into an inverting escape. Your goal is to deny the entry before it loads - to flatten and pass straight to side control, or to strip the underhook so the turn-in exposes your opponent's back instead of escaping yours.\n\nThe key tension is that your own forward pressure is what feeds the Jailbreak. A reckless, over-committed weight drive over a narrow base gives the bottom player the exact rotational energy they want. The skilled defense is to apply pressure with a wide, heavy base, control the underhook side, and pass through angles that do not hand them the inversion. When you feel them tuck the chin and turn toward their trapped leg, you must immediately choose: kill the underhook and chase the back, or widen your base and switch your hips to deny the roll.\n\nThe highest-percentage defense prevents the entry entirely by stripping or limping-arm-ing the underhook before they can connect elbow to hip. Once the inversion is loaded, your window narrows quickly, and chasing the roll without a plan can hand them a back take. Read the underhook battle early and you control the entire exchange."
-  ,
+    "overview": "As the defender against Half Guard to Jailbreak, you are the top half guard player trying to flatten and pass while your opponent attempts to convert your pressure into an inverting escape. Your goal is to deny the entry before it loads - to flatten and pass straight to side control, or to strip the underhook so the turn-in exposes your opponent's back instead of escaping yours.\n\nThe key tension is that your own forward pressure is what feeds the Jailbreak. A reckless, over-committed weight drive over a narrow base gives the bottom player the exact rotational energy they want. The skilled defense is to apply pressure with a wide, heavy base, control the underhook side, and pass through angles that do not hand them the inversion. When you feel them tuck the chin and turn toward their trapped leg, you must immediately choose: kill the underhook and chase the back, or widen your base and switch your hips to deny the roll.\n\nThe highest-percentage defense prevents the entry entirely by stripping or limping-arm-ing the underhook before they can connect elbow to hip. Once the inversion is loaded, your window narrows quickly, and chasing the roll without a plan can hand them a back take. Read the underhook battle early and you control the entire exchange.",
     "key_principles": [
       "Control or strip the same-side underhook early - without it the bottom player cannot safely turn into the Jailbreak",
       "Pass with a wide, heavy base; do not over-commit weight forward over a narrow base that feeds their rotation",
@@ -294,15 +373,45 @@
     "flashcards": [
       {
         "question": "Why can your own forward pressure work against you when defending the Jailbreak entry?",
-        "answer": "The Jailbreak entry converts your forward weight into the bottom player's rotational momentum. If you over-commit your weight forward over a narrow base, you hand them exactly the energy they need to corkscrew under you and load the inversion. The defensive correction is to pressure with a wide, heavy base and your hips down so your weight is hard to redirect rather than charging forward where it feeds their turn."
+        "answer": "The Jailbreak entry converts your forward weight into the bottom player's rotational momentum. If you over-commit your weight forward over a narrow base, you hand them exactly the energy they need to corkscrew under you and load the inversion. The defensive correction is to pressure with a wide, heavy base and your hips down so your weight is hard to redirect rather than charging forward where it feeds their turn.",
+        "answer_line": "Pressure wide, hips down",
+        "distractors": {
+          "plausible": [
+            "Push forward harder",
+            "Narrow your base to pin"
+          ],
+          "trap": [
+            "Chase a tight forward crush"
+          ]
+        }
       },
       {
         "question": "What is the single most effective way to prevent the Jailbreak entry before it starts?",
-        "answer": "Win the underhook battle early. The bottom player needs the same-side underhook with their elbow glued to their hip to turn in safely. If you strip it, limp-arm it, or pin the underhooking arm before they connect, their turn-in exposes their own back instead of escaping, and you can flatten and pass to side control. Neglecting the underhook fight until it is seated is what gives them the entry."
+        "answer": "Win the underhook battle early. The bottom player needs the same-side underhook with their elbow glued to their hip to turn in safely. If you strip it, limp-arm it, or pin the underhooking arm before they connect, their turn-in exposes their own back instead of escaping, and you can flatten and pass to side control. Neglecting the underhook fight until it is seated is what gives them the entry.",
+        "answer_line": "Strip the underhook early",
+        "distractors": {
+          "plausible": [
+            "Crossface before it starts",
+            "Flatten them out immediately"
+          ],
+          "trap": [
+            "Wait until they turn in"
+          ]
+        }
       },
       {
         "question": "They have already begun the inversion and you cannot strip the underhook - what do you do?",
-        "answer": "Widen your base and switch your hips to absorb the rolling momentum rather than chasing the roll blindly. A wide base stalls the inversion and forces them back to a flat half guard. Only follow the turn if you are actively hunting their exposed back; an undisciplined chase while they keep the underhook can let them take your back instead."
+        "answer": "Widen your base and switch your hips to absorb the rolling momentum rather than chasing the roll blindly. A wide base stalls the inversion and forces them back to a flat half guard. Only follow the turn if you are actively hunting their exposed back; an undisciplined chase while they keep the underhook can let them take your back instead.",
+        "answer_line": "Widen base, switch hips",
+        "distractors": {
+          "plausible": [
+            "Chase the roll immediately",
+            "Strip the underhook now"
+          ],
+          "trap": [
+            "Turtle up and stall"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -320,6 +429,26 @@
         "phase": "Month 2+: Live containment",
         "focus": "Denying the Jailbreak under resistance and passing",
         "description": "Start in top half guard with the bottom player actively hunting the Jailbreak entry. Defend by controlling the underhook and base width, and score by passing to side control or stalling them flat. 4-5 minute rounds with increasing resistance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "aQ2vFXXBn-o",
+        "title": "Countering a full inversion from half guard",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "h26GaRXjSHo",
+        "title": "Counter to the half guard underhook",
+        "by": "Revolution Fitness Center",
+        "vertical": false,
+        "channel": "Revolution Fitness Center",
+        "duration": 55,
+        "verified": "2026-07-15"
       }
     ]
   },

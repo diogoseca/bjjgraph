@@ -174,6 +174,43 @@ description: "Learn to execute the Piranha Guard Sweep in BJJ. Step-by-step guid
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Piranha Guard Sweep (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Half guard lapel sweep",
+      "description": "Piranha Guard Sweep (Attacker) film study: Half guard lapel sweep, taught by Brazilian Top Team Happy Valley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DYLeL6H4g6g/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DYLeL6H4g6g",
+      "url": "https://www.youtube.com/watch?v=DYLeL6H4g6g",
+      "creator": { "@type": "Person", "name": "Brazilian Top Team Happy Valley" },
+      "duration": "PT77S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half guard lapel sweep, walk around finish",
+      "description": "Piranha Guard Sweep (Attacker) film study: Half guard lapel sweep, walk around finish, taught by Brazilian Top Team Happy Valley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-epOGEtHwSI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/-epOGEtHwSI",
+      "url": "https://www.youtube.com/watch?v=-epOGEtHwSI",
+      "creator": { "@type": "Person", "name": "Brazilian Top Team Happy Valley" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 **From Position**: [[Positions/Piranha Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Piranha Guard Sweep (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DYLeL6H4g6g)
+
+<p class="clip-credit"><strong>Half guard lapel sweep</strong> — taught by Brazilian Top Team Happy Valley · 1:17 · <a href="https://www.youtube.com/watch?v=DYLeL6H4g6g" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=-epOGEtHwSI)
+
+<p class="clip-credit"><strong>Half guard lapel sweep, walk around finish</strong> — taught by Brazilian Top Team Happy Valley · 2:17 · <a href="https://www.youtube.com/watch?v=-epOGEtHwSI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

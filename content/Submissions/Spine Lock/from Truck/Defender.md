@@ -150,6 +150,43 @@ description: "How to defend against Spine Lock in BJJ. Recognition, escape paths
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Spine Lock from Truck (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Hip Lock: Countering the Truck",
+      "description": "Spine Lock from Truck (Defender) film study: Hip Lock: Countering the Truck, taught by Christopher Hendrick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_0TeNLuarPU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_0TeNLuarPU",
+      "url": "https://www.youtube.com/watch?v=_0TeNLuarPU",
+      "creator": { "@type": "Person", "name": "Christopher Hendrick" },
+      "duration": "PT35S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Defending the Rolling Back Take (Truck Roll)",
+      "description": "Spine Lock from Truck (Defender) film study: Defending the Rolling Back Take (Truck Roll), taught by Brian Glick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WEpVDP7MRpo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WEpVDP7MRpo",
+      "url": "https://www.youtube.com/watch?v=WEpVDP7MRpo",
+      "creator": { "@type": "Person", "name": "Brian Glick" },
+      "duration": "PT209S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -162,6 +199,34 @@ The defensive framework centers on three sequential priorities: first, prevent f
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Spine Lock from Truck (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_0TeNLuarPU)
+
+<p class="clip-credit"><strong>Hip Lock: Countering the Truck</strong> — taught by Christopher Hendrick · 0:35 · <a href="https://www.youtube.com/watch?v=_0TeNLuarPU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WEpVDP7MRpo)
+
+<p class="clip-credit"><strong>Defending the Rolling Back Take (Truck Roll)</strong> — taught by Brian Glick · 3:29 · <a href="https://www.youtube.com/watch?v=WEpVDP7MRpo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Master the 50-50 Entry from Standing in BJJ. Step-by-step executio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "50-50 Entry from Standing \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Getting to backside 50/50",
+      "description": "50-50 Entry from Standing film study: Getting to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ucAwPgTLSpQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ucAwPgTLSpQ",
+      "url": "https://www.youtube.com/watch?v=ucAwPgTLSpQ",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT121S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Roll under to backside 50/50",
+      "description": "50-50 Entry from Standing film study: Roll under to backside 50/50, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DBbSqQf6iCo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DBbSqQf6iCo",
+      "url": "https://www.youtube.com/watch?v=DBbSqQf6iCo",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ From a strategic standpoint, the 50-50 entry from standing bypasses many traditi
 **Success Rate**: 52%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch 50-50 Entry from Standing in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ucAwPgTLSpQ)
+
+<p class="clip-credit"><strong>Getting to backside 50/50</strong> — taught by Lachlan Giles · 2:01 · <a href="https://www.youtube.com/watch?v=ucAwPgTLSpQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DBbSqQf6iCo)
+
+<p class="clip-credit"><strong>Roll under to backside 50/50</strong> — taught by Lachlan Giles · 1:50 · <a href="https://www.youtube.com/watch?v=DBbSqQf6iCo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -256,7 +321,7 @@ Strategically, the 50-50 entry from standing is particularly valuable in no-gi c
 
 - [[Positions/Ashi Garami/Saddle]] - Follow-up position achieved by adjusting from 50-50
 
-- [[Transitions/Heel Hook]] - Common submission finish from 50-50 position
+- [[Submissions/Heel Hook]] - Common submission finish from 50-50 position
 
 - [[Positions/Standing Position]] - Starting position for this entry technique
 

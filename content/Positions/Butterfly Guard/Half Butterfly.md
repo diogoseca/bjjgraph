@@ -34,6 +34,43 @@ description: "Master Half Butterfly guard in BJJ. Hybrid position combining butt
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Half Butterfly \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "What to do when flattened in butterfly guard",
+      "description": "Half Butterfly film study: What to do when flattened in butterfly guard, taught by Ante Dzolic.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ttMQzRPkHRA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ttMQzRPkHRA",
+      "url": "https://www.youtube.com/watch?v=ttMQzRPkHRA",
+      "creator": { "@type": "Person", "name": "Ante Dzolic" },
+      "duration": "PT125S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Basic butterfly sweep",
+      "description": "Half Butterfly film study: Basic butterfly sweep, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9XULQjZeOEU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9XULQjZeOEU",
+      "url": "https://www.youtube.com/watch?v=9XULQjZeOEU",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT243S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +103,34 @@ The asymmetric nature of Half Butterfly creates natural leverage advantages for 
 From the top perspective, Half Butterfly Top represents a critical transitional moment in the guard passing sequence where the passer has achieved partial success but not complete control. The top player must neutralize the remaining butterfly hook's lifting mechanism through precise weight distribution and pressure angles while simultaneously advancing the pass. This position requires careful weight distribution to prevent the butterfly hook from generating lifting power while maintaining forward pressure to complete the pass. Understanding both perspectives is essential for modern competitive grappling, as this position frequently appears in high-level matches and represents a key battleground between guard player and passer.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Half Butterfly in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ttMQzRPkHRA)
+
+<p class="clip-credit"><strong>What to do when flattened in butterfly guard</strong> — taught by Ante Dzolic · 2:05 · <a href="https://www.youtube.com/watch?v=ttMQzRPkHRA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9XULQjZeOEU)
+
+<p class="clip-credit"><strong>Basic butterfly sweep</strong> — taught by Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=9XULQjZeOEU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,29 +202,27 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Transitions/Basic Butterfly Sweep/Attacker|Basic Butterfly Sweep]]** (15% of attempts)
+- **[[Transitions/Basic Butterfly Sweep/Attacker|Basic Butterfly Sweep]]** (12% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (22% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (6% of attempts)
 
-- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (10% of attempts)
+- **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (12% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (12% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (10% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (8% of attempts)
 
-- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (4% of attempts)
+- **[[Transitions/Elevator Sweep/Attacker|Elevator Sweep]]** (5% of attempts)
 
-- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (5% of attempts)
+- **[[Transitions/Half Butterfly Sweep/Attacker|Half Butterfly Sweep]]** (14% of attempts)
 
-- **[[Transitions/Half Butterfly Sweep/Attacker|Half Butterfly Sweep]]** (4% of attempts)
+- **[[Transitions/Half Butterfly to Dogfight/Attacker|Half Butterfly to Dogfight]]** (12% of attempts)
 
-- **[[Transitions/Half Butterfly to Dogfight/Attacker|Half Butterfly to Dogfight]]** (5% of attempts)
+- **[[Transitions/Reguard from Half Butterfly/Attacker|Reguard from Half Butterfly]]** (10% of attempts)
 
-- **[[Transitions/Reguard from Half Butterfly/Attacker|Reguard from Half Butterfly]]** (3% of attempts)
-
-- **[[Transitions/Rolling Back Take from Half Butterfly/Attacker|Rolling Back Take from Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Rolling Back Take from Half Butterfly/Attacker|Rolling Back Take from Half Butterfly]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -220,23 +283,23 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (35% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (13% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (18% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (9% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (10% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (8% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (15% of attempts)
 
-- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (10% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard/Attacker|Half Guard to Flattened Half Guard]]** (13% of attempts)
 
-- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (5% of attempts)
+- **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (6% of attempts)
 
-- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (10% of attempts)
+- **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** (11% of attempts)
 
-- **[[Transitions/Pass Half Butterfly/Attacker|Pass Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Pass Half Butterfly/Attacker|Pass Half Butterfly]]** (10% of attempts)
 
-- **[[Transitions/Smash Half Butterfly/Attacker|Smash Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Smash Half Butterfly/Attacker|Smash Half Butterfly]]** (15% of attempts)
 
 
 ### Common Mistakes

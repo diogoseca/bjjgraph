@@ -140,6 +140,43 @@ description: "How to defend against Tomahawk Sweep in BJJ. Recognition cues, def
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tomahawk Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "The best way to get out of the X-guard",
+      "description": "Tomahawk Sweep (Defender) film study: The best way to get out of the X-guard, taught by Isaque Bahiense.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XhLd-CMQBUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XhLd-CMQBUQ",
+      "url": "https://www.youtube.com/watch?v=XhLd-CMQBUQ",
+      "creator": { "@type": "Person", "name": "Isaque Bahiense" },
+      "duration": "PT222S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing modern open guards before the sweep lands",
+      "description": "Tomahawk Sweep (Defender) film study: Passing modern open guards before the sweep lands, taught by Henry Akins.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jSSjp-anS5E/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jSSjp-anS5E",
+      "url": "https://www.youtube.com/watch?v=jSSjp-anS5E",
+      "creator": { "@type": "Person", "name": "Henry Akins" },
+      "duration": "PT168S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Tomahawk Sweep requires understanding the specific mechanics that 
 **Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Tomahawk Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XhLd-CMQBUQ)
+
+<p class="clip-credit"><strong>The best way to get out of the X-guard</strong> — taught by Isaque Bahiense · 3:42 · <a href="https://www.youtube.com/watch?v=XhLd-CMQBUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jSSjp-anS5E)
+
+<p class="clip-credit"><strong>Passing modern open guards before the sweep lands</strong> — taught by Henry Akins · 2:48 · <a href="https://www.youtube.com/watch?v=jSSjp-anS5E" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

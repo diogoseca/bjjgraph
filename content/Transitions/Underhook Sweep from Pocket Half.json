@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 43,
+      "probability": {
+        "gi": 43,
+        "nogi": 43
+      },
       "result": "success"
     },
     {
       "to": "Pocket Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Side Control/Bottom",
-      "probability": 22,
+      "probability": {
+        "gi": 22,
+        "nogi": 22
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 43,
+  "success_rate": {
+    "gi": 43,
+    "nogi": 43
+  },
   "overview": "The Underhook Sweep from Pocket Half Guard is a fundamental come-up sweep available when the bottom player has established deep underhook control in pocket half guard. The technique exploits the mechanical advantage created by the deep underhook controlling the opponent's upper body rotation, combined with the pocket space maintained by the bottom leg frame against the opponent's hip. By rising to the knees while maintaining underhook control, the bottom player generates sweeping momentum that compromises the top player's base and drives them onto their back.\n\nThis sweep is most effective when the top player commits weight forward or attempts to flatten the bottom player, as their forward energy redirects into sweeping power. Unlike the Old School Sweep which requires reaching behind the far leg, the Underhook Sweep relies primarily on the come-up mechanic - rising to your knees while driving through the opponent's compromised base. This makes it particularly effective against pressure passers whose forward momentum becomes the catalyst for reversal.\n\nStrategically, this technique creates a fundamental dilemma for the top player: pressure forward and feed the underhook sweep, or posture away and expose back takes and Old School variations. This push-pull dynamic makes pocket half guard a dangerous attacking platform where no safe equilibrium exists for the passer, and the underhook sweep is the primary tool that punishes forward commitment.",
   "conditions": [
     "Deep underhook secured on opponent's far side, reaching across their back to grip the far lat or belt",
@@ -252,38 +264,147 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the underhook sweep from pocket half guard?",
-        "answer": "The optimal timing is when the opponent commits their weight forward, either driving pressure to flatten you or attempting to strip your underhook. Their forward weight commitment shifts their center of gravity over their trapped leg, making them vulnerable to the come-up drive. Attempting the sweep when they are based back or have wide posture requires significantly more energy and has a much lower success rate."
+        "answer": "The optimal timing is when the opponent commits their weight forward, either driving pressure to flatten you or attempting to strip your underhook. Their forward weight commitment shifts their center of gravity over their trapped leg, making them vulnerable to the come-up drive. Attempting the sweep when they are based back or have wide posture requires significantly more energy and has a much lower success rate.",
+        "answer_line": "Their weight commits forward",
+        "distractors": {
+          "plausible": [
+            "When they base back wide",
+            "Right after underhook grip"
+          ],
+          "trap": [
+            "Wait until they whizzer you"
+          ]
+        }
       },
       {
         "question": "What grip depth on the underhook is required before attempting the sweep?",
-        "answer": "The underhook must reach completely across the opponent's back with your hand gripping their far lat, far armpit, or belt line. A grip that only reaches their near shoulder or mid-back provides insufficient leverage to control their upper body rotation during the come-up. If you cannot achieve this depth, you should re-swim the underhook deeper or transition to an alternative attack rather than attempting the sweep with a compromised grip."
+        "answer": "The underhook must reach completely across the opponent's back with your hand gripping their far lat, far armpit, or belt line. A grip that only reaches their near shoulder or mid-back provides insufficient leverage to control their upper body rotation during the come-up. If you cannot achieve this depth, you should re-swim the underhook deeper or transition to an alternative attack rather than attempting the sweep with a compromised grip.",
+        "answer_line": "Hand on far lat or belt line",
+        "distractors": {
+          "plausible": [
+            "Grip reaches near shoulder",
+            "Grip reaches mid-back"
+          ],
+          "trap": [
+            "Attempt sweep with shallow grip"
+          ]
+        }
       },
       {
         "question": "Why is the hip escape angle critical before building to the posting elbow?",
-        "answer": "The hip escape creates a 30-45 degree angle between your body and the opponent's line of pressure. Without this angle, their chest weight pins you flat and prevents you from rising to the elbow. The shrimp movement creates space to insert your elbow underneath you and provides the initial rotational angle needed to build upward. Skipping this step is the most common reason the come-up stalls immediately."
+        "answer": "The hip escape creates a 30-45 degree angle between your body and the opponent's line of pressure. Without this angle, their chest weight pins you flat and prevents you from rising to the elbow. The shrimp movement creates space to insert your elbow underneath you and provides the initial rotational angle needed to build upward. Skipping this step is the most common reason the come-up stalls immediately.",
+        "answer_line": "Shrimp for 30-45 degree angle",
+        "distractors": {
+          "plausible": [
+            "Build elbow post first",
+            "Bridge straight up first"
+          ],
+          "trap": [
+            "Skip angle, drive straight up"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand wide to prevent being swept - how do you adjust?",
-        "answer": "You have three options: first, use your free hand to chop or block their posting arm while continuing the drive through; second, change the angle of your drive to attack the side opposite their post, forcing them to reposition; third, switch to the roll-through variation which takes them over your body instead of pushing them directly backward over the post. The key is recognizing the post early and adapting before your momentum is spent."
+        "answer": "You have three options: first, use your free hand to chop or block their posting arm while continuing the drive through; second, change the angle of your drive to attack the side opposite their post, forcing them to reposition; third, switch to the roll-through variation which takes them over your body instead of pushing them directly backward over the post. The key is recognizing the post early and adapting before your momentum is spent.",
+        "answer_line": "Chop the post, change angle",
+        "distractors": {
+          "plausible": [
+            "Push through the post arm",
+            "Retreat to flat guard"
+          ],
+          "trap": [
+            "Force sweep straight into post"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the explosive hip thrust phase?",
-        "answer": "The hip thrust must drive your hips forward underneath you while simultaneously pulling with the underhook and driving your shoulder into the opponent's chest. All three forces must work in coordination: hips moving forward for power generation, underhook pulling their upper body toward your trapped leg side, and shoulder contact maintaining structural connection. If any of these three elements is missing, the sweep loses significant power and stalls."
+        "answer": "The hip thrust must drive your hips forward underneath you while simultaneously pulling with the underhook and driving your shoulder into the opponent's chest. All three forces must work in coordination: hips moving forward for power generation, underhook pulling their upper body toward your trapped leg side, and shoulder contact maintaining structural connection. If any of these three elements is missing, the sweep loses significant power and stalls.",
+        "answer_line": "Hips, underhook, shoulder together",
+        "distractors": {
+          "plausible": [
+            "Hip thrust alone drives it",
+            "Underhook pull alone drives it"
+          ],
+          "trap": [
+            "Push off the mat with legs only"
+          ]
+        }
       },
       {
         "question": "What should you do if the sweep stalls and you arrive in dogfight position?",
-        "answer": "If the sweep stalls in dogfight, do not try to force the original sweep direction. Instead, recognize that dogfight is a strong intermediate position and attack from there. Your underhook advantage in dogfight gives you access to the dogfight sweep, the back take by circling behind the opponent, and the option to re-pull to deep half guard. The worst response is retreating back to flat pocket half guard, as you surrender all the positional gains from the come-up."
+        "answer": "If the sweep stalls in dogfight, do not try to force the original sweep direction. Instead, recognize that dogfight is a strong intermediate position and attack from there. Your underhook advantage in dogfight gives you access to the dogfight sweep, the back take by circling behind the opponent, and the option to re-pull to deep half guard. The worst response is retreating back to flat pocket half guard, as you surrender all the positional gains from the come-up.",
+        "answer_line": "Attack from dogfight position",
+        "distractors": {
+          "plausible": [
+            "Re-pull to full guard",
+            "Push back to pocket half"
+          ],
+          "trap": [
+            "Retreat to flat pocket half"
+          ]
+        }
       },
       {
         "question": "How does the opponent's whizzer counter affect your sweep mechanics and what is the correct response?",
-        "answer": "A whizzer (overhook) on your underhook arm attempts to neutralize your pulling leverage by pinning your arm against your body and driving you back down. If the whizzer is shallow, you can power through it with committed hip drive since a shallow whizzer cannot overcome full-body momentum. If the whizzer is deep and established before your come-up, you should limp-arm to extract the underhook, or use the whizzer pressure to set up a back take by circling to the opposite side."
+        "answer": "A whizzer (overhook) on your underhook arm attempts to neutralize your pulling leverage by pinning your arm against your body and driving you back down. If the whizzer is shallow, you can power through it with committed hip drive since a shallow whizzer cannot overcome full-body momentum. If the whizzer is deep and established before your come-up, you should limp-arm to extract the underhook, or use the whizzer pressure to set up a back take by circling to the opposite side.",
+        "answer_line": "Power through shallow whizzer",
+        "distractors": {
+          "plausible": [
+            "Always limp-arm out immediately",
+            "Abandon underhook, restart"
+          ],
+          "trap": [
+            "Force through a deep whizzer"
+          ]
+        }
       },
       {
         "question": "What chain attacks are available if the opponent successfully defends the underhook sweep?",
-        "answer": "The primary chain attacks include: transitioning to the Old School Sweep by reaching behind their far leg when they base back to prevent your come-up; entering deep half guard by scooting your hips underneath when they sprawl; taking the back by circling behind them when they whizzer; and transitioning to dogfight sweep options when the come-up stalls midway. The pocket half guard system ensures that each defensive reaction to the underhook sweep exposes a different vulnerability."
+        "answer": "The primary chain attacks include: transitioning to the Old School Sweep by reaching behind their far leg when they base back to prevent your come-up; entering deep half guard by scooting your hips underneath when they sprawl; taking the back by circling behind them when they whizzer; and transitioning to dogfight sweep options when the come-up stalls midway. The pocket half guard system ensures that each defensive reaction to the underhook sweep exposes a different vulnerability.",
+        "answer_line": "Old School, deep half, back take",
+        "distractors": {
+          "plausible": [
+            "Only attempt Old School Sweep",
+            "Repeat underhook sweep only"
+          ],
+          "trap": [
+            "Give up hooks, reset guard"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This sweep involves explosive hip and shoulder rotation under load, creating potential strain on the lower back and shoulders. Ensure controlled execution during drilling phases, gradually increasing speed and resistance. The come-up phase places significant stress on the posting wrist and elbow, so practitioners with wrist or elbow injuries should modify to use a forearm post. The half guard leg lock can create knee torque on the trapped leg during the drive-through, so communicate with training partners about pressure levels. Always warm up the hips, lower back, and shoulders before drilling this technique at intensity."
+    "safety_considerations": "This sweep involves explosive hip and shoulder rotation under load, creating potential strain on the lower back and shoulders. Ensure controlled execution during drilling phases, gradually increasing speed and resistance. The come-up phase places significant stress on the posting wrist and elbow, so practitioners with wrist or elbow injuries should modify to use a forearm post. The half guard leg lock can create knee torque on the trapped leg during the drive-through, so communicate with training partners about pressure levels. Always warm up the hips, lower back, and shoulders before drilling this technique at intensity.",
+    "clips": [
+      {
+        "id": "BCnjULrSSPw",
+        "title": "3 underhook sweeps from knee shield half guard",
+        "by": "Kameron Ross",
+        "vertical": false,
+        "channel": "Kameron Ross",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "fCqC2CvOKt0",
+        "title": "Back pocket sweep from half guard",
+        "by": "Animal",
+        "vertical": false,
+        "channel": "Animal",
+        "duration": 51,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "W80zSgyOIuQ",
+        "title": "No-gi half guard underhook sweep",
+        "by": "Precision Martial Arts",
+        "vertical": false,
+        "channel": "Precision Martial Arts ",
+        "duration": 46,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Underhook Sweep from Pocket Half Defender",
@@ -369,23 +490,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the underhook sweep is being initiated?",
-        "answer": "The earliest cue is the bottom player performing a slight hip escape to create an angle away from you. This hip escape is the prerequisite for building to the posting elbow. Before the hip escape, the sweep cannot be initiated because there is no space to rise. Recognizing and shutting down this initial angle creation is the most efficient point to stop the sweep, requiring far less effort than stopping a sweep that is already in the come-up phase."
+        "answer": "The earliest cue is the bottom player performing a slight hip escape to create an angle away from you. This hip escape is the prerequisite for building to the posting elbow. Before the hip escape, the sweep cannot be initiated because there is no space to rise. Recognizing and shutting down this initial angle creation is the most efficient point to stop the sweep, requiring far less effort than stopping a sweep that is already in the come-up phase.",
+        "answer_line": "Slight hip escape angle",
+        "distractors": {
+          "plausible": [
+            "Underhook grip appears",
+            "Posting elbow rises"
+          ],
+          "trap": [
+            "Wait for the hip thrust"
+          ]
+        }
       },
       {
         "question": "Why is driving forward pressure dangerous when your opponent has a deep underhook in pocket half guard?",
-        "answer": "Forward pressure shifts your center of gravity over the opponent's trapped leg side, which is exactly the direction the sweep attacks. The deep underhook converts your forward momentum into pulling force that tips you over their body. The more you drive forward, the more energy you provide for the come-up sweep. This is the fundamental dilemma of pocket half guard top - pressure feeding sweeps while lack of pressure allows back takes and offensive transitions."
+        "answer": "Forward pressure shifts your center of gravity over the opponent's trapped leg side, which is exactly the direction the sweep attacks. The deep underhook converts your forward momentum into pulling force that tips you over their body. The more you drive forward, the more energy you provide for the come-up sweep. This is the fundamental dilemma of pocket half guard top - pressure feeding sweeps while lack of pressure allows back takes and offensive transitions.",
+        "answer_line": "Feeds momentum into the sweep",
+        "distractors": {
+          "plausible": [
+            "Only risks a guard pass",
+            "Only tires you out faster"
+          ],
+          "trap": [
+            "Drive forward to flatten them"
+          ]
+        }
       },
       {
         "question": "Your opponent has reached the elbow post and is beginning the hip thrust - what is your best defensive response?",
-        "answer": "At this stage, prevention has failed and you must resist the sweep in progress. Immediately base out wide with your free leg posted far to the side while driving your whizzer arm down to pin their underhook arm. Lower your center of gravity by dropping your hips. If you can stall the sweep at this point, the bottom player will be in an awkward dogfight-like position where you can re-settle your weight and work to flatten them. Do not try to drive forward as this accelerates the sweep."
+        "answer": "At this stage, prevention has failed and you must resist the sweep in progress. Immediately base out wide with your free leg posted far to the side while driving your whizzer arm down to pin their underhook arm. Lower your center of gravity by dropping your hips. If you can stall the sweep at this point, the bottom player will be in an awkward dogfight-like position where you can re-settle your weight and work to flatten them. Do not try to drive forward as this accelerates the sweep.",
+        "answer_line": "Base wide, pin whizzer, drop hips",
+        "distractors": {
+          "plausible": [
+            "Drive forward to flatten them",
+            "Retreat guard to reset"
+          ],
+          "trap": [
+            "Push forward to stop momentum"
+          ]
+        }
       },
       {
         "question": "How should your base differ when defending against the underhook sweep versus maintaining standard pocket half guard top pressure?",
-        "answer": "Standard pocket half guard top pressure uses a narrow, forward-weighted base to flatten the opponent. When defending the underhook sweep specifically, you need to widen your base laterally with your free leg posted out and shift your weight slightly back rather than forward. This creates a wider triangle of support that resists the lateral toppling force of the sweep. The trade-off is reduced flattening pressure, which is why actively stripping the underhook is preferable to passively defending in a widened base."
+        "answer": "Standard pocket half guard top pressure uses a narrow, forward-weighted base to flatten the opponent. When defending the underhook sweep specifically, you need to widen your base laterally with your free leg posted out and shift your weight slightly back rather than forward. This creates a wider triangle of support that resists the lateral toppling force of the sweep. The trade-off is reduced flattening pressure, which is why actively stripping the underhook is preferable to passively defending in a widened base.",
+        "answer_line": "Widen base, weight slightly back",
+        "distractors": {
+          "plausible": [
+            "Narrow base, weight forward",
+            "Base forward for max pressure"
+          ],
+          "trap": [
+            "Keep forward-weighted narrow base"
+          ]
+        }
       },
       {
         "question": "What passing opportunities open up when the opponent commits to the underhook sweep attempt?",
-        "answer": "When the opponent commits to the come-up, their focus shifts from guard retention to generating sweep power. This creates passing opportunities because they relax their leg lock and pocket frame to redirect energy into the come-up. If you successfully stuff the sweep with a whizzer and sprawl, you can immediately capitalize by driving a knee slice through their compromised half guard. Their failed sweep attempt often leaves their guard structure weakened and their energy depleted, creating a window for aggressive passing."
+        "answer": "When the opponent commits to the come-up, their focus shifts from guard retention to generating sweep power. This creates passing opportunities because they relax their leg lock and pocket frame to redirect energy into the come-up. If you successfully stuff the sweep with a whizzer and sprawl, you can immediately capitalize by driving a knee slice through their compromised half guard. Their failed sweep attempt often leaves their guard structure weakened and their energy depleted, creating a window for aggressive passing.",
+        "answer_line": "Knee slice after stuffing sweep",
+        "distractors": {
+          "plausible": [
+            "Pass while they're mid-thrust",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Pass before sweep is stuffed"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -408,6 +579,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance sweep defense with counter-passing",
         "description": "Full positional sparring from pocket half guard top. Partner attacks with underhook sweep and all chain attacks. You defend and attempt to pass. Track success rates of both sweep defense and passing completion. 5-minute rounds at competition pace."
+      }
+    ],
+    "clips": [
+      {
+        "id": "TwBbrjRxRRU",
+        "title": "Pick pocket method to pass the half guard",
+        "by": "Patrick Donabedian",
+        "vertical": false,
+        "channel": "Patrick Donabedian BJJ",
+        "duration": 93,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "I9lB7whMVig",
+        "title": "Killing the underhook from half guard top",
+        "by": "Jean Jacques Machado",
+        "vertical": false,
+        "channel": "JeanJacquesMachado",
+        "duration": 451,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "MXzHindquwU",
+        "title": "Defending the underhook in deep half guard",
+        "by": "Jeff Glover",
+        "vertical": false,
+        "channel": "thejiujitsupedia",
+        "duration": 93,
+        "verified": "2026-07-15"
       }
     ]
   }

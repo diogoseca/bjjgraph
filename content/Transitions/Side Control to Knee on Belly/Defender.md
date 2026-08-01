@@ -140,6 +140,54 @@ description: "Master defending the Side Control to Knee on Belly transition. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Side Control to Knee on Belly (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to escape the knee on belly position",
+      "description": "Side Control to Knee on Belly (Defender) film study: How to escape the knee on belly position, taught by Evolve MMA coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wn01Ynw7O28/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wn01Ynw7O28",
+      "url": "https://www.youtube.com/watch?v=Wn01Ynw7O28",
+      "creator": { "@type": "Person", "name": "Evolve MMA coach" },
+      "duration": "PT40S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "First principles knee-on-belly escape",
+      "description": "Side Control to Knee on Belly (Defender) film study: First principles knee-on-belly escape, taught by 40 Plus BJJ coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I9_3u9AcwAg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/I9_3u9AcwAg",
+      "url": "https://www.youtube.com/watch?v=I9_3u9AcwAg",
+      "creator": { "@type": "Person", "name": "40 Plus BJJ coach" },
+      "duration": "PT59S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sneaky knee on belly escape, gi and no-gi",
+      "description": "Side Control to Knee on Belly (Defender) film study: Sneaky knee on belly escape, gi and no-gi, taught by Zebulon Miller.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WIYwi1fKisU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/WIYwi1fKisU",
+      "url": "https://www.youtube.com/watch?v=WIYwi1fKisU",
+      "creator": { "@type": "Person", "name": "Zebulon Miller" },
+      "duration": "PT78S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +197,42 @@ Defending the Side Control to Knee on Belly transition requires recognizing the 
 **Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Side Control to Knee on Belly (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wn01Ynw7O28)
+
+<p class="clip-credit"><strong>How to escape the knee on belly position</strong> — taught by Evolve MMA coach · 0:40 · <a href="https://www.youtube.com/watch?v=Wn01Ynw7O28" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=I9_3u9AcwAg)
+
+<p class="clip-credit"><strong>First principles knee-on-belly escape</strong> — taught by 40 Plus BJJ coach · 0:59 · <a href="https://www.youtube.com/watch?v=I9_3u9AcwAg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=WIYwi1fKisU)
+
+<p class="clip-credit"><strong>Sneaky knee on belly escape, gi and no-gi</strong> — taught by Zebulon Miller · 1:18 · <a href="https://www.youtube.com/watch?v=WIYwi1fKisU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

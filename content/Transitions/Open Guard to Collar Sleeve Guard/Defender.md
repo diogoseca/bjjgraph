@@ -140,6 +140,43 @@ description: "Learn to prevent collar sleeve guard establishment from top positi
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Collar Sleeve Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Two ways to pass the collar and sleeve",
+      "description": "Open Guard to Collar Sleeve Guard (Defender) film study: Two ways to pass the collar and sleeve, taught by Carpio Jiu Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/N4M0VWhDkMA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/N4M0VWhDkMA",
+      "url": "https://www.youtube.com/watch?v=N4M0VWhDkMA",
+      "creator": { "@type": "Person", "name": "Carpio Jiu Jitsu" },
+      "duration": "PT103S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Breaking collar and sleeve grips",
+      "description": "Open Guard to Collar Sleeve Guard (Defender) film study: Breaking collar and sleeve grips, taught by Martial Arts Unlimited.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zuLPD05QWKI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zuLPD05QWKI",
+      "url": "https://www.youtube.com/watch?v=zuLPD05QWKI",
+      "creator": { "@type": "Person", "name": "Martial Arts Unlimited" },
+      "duration": "PT216S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ As the defender (top player), your objective is to prevent the bottom player fro
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Collar Sleeve Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=N4M0VWhDkMA)
+
+<p class="clip-credit"><strong>Two ways to pass the collar and sleeve</strong> — taught by Carpio Jiu Jitsu · 1:43 · <a href="https://www.youtube.com/watch?v=N4M0VWhDkMA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zuLPD05QWKI)
+
+<p class="clip-credit"><strong>Breaking collar and sleeve grips</strong> — taught by Martial Arts Unlimited · 3:36 · <a href="https://www.youtube.com/watch?v=zuLPD05QWKI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

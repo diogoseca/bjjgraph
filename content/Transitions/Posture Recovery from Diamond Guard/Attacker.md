@@ -180,6 +180,10 @@ description: "Master posture recovery from diamond guard as the top player. Step
 </script>
 
 
+
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +193,8 @@ As the top player trapped in diamond guard, your immediate priority is breaking 
 **From Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
+
+
 
 <section id="key-principles" class="content-section">
 

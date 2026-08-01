@@ -398,43 +398,172 @@
   "flashcards": [
     {
       "question": "What distinguishes a true fork attack from a simple combination?",
-      "answer": "A fork presents two or more simultaneous threats that are biomechanically impossible to defend at the same time, so any single defensive action necessarily exposes a different, equally prepared finish. A combination is sequential and lets the opponent reset their defense between attacks."
+      "answer": "A fork presents two or more simultaneous threats that are biomechanically impossible to defend at the same time, so any single defensive action necessarily exposes a different, equally prepared finish. A combination is sequential and lets the opponent reset their defense between attacks.",
+      "answer_line": "Two threats you can't defend both",
+      "distractors": {
+        "plausible": [
+          "Faster combo before recovery",
+          "Same attack, more pressure"
+        ],
+        "trap": [
+          "Attack strongest threat first"
+        ]
+      }
     },
     {
       "question": "Why must both threats in a fork be developed to equal readiness?",
-      "answer": "If one threat is more developed or telegraphed, the opponent recognizes it as the primary attack and specializes their entire defense on stopping it, collapsing the dilemma into a single, easily defendable threat."
+      "answer": "If one threat is more developed or telegraphed, the opponent recognizes it as the primary attack and specializes their entire defense on stopping it, collapsing the dilemma into a single, easily defendable threat.",
+      "answer_line": "Prevents defense specializing",
+      "distractors": {
+        "plausible": [
+          "Makes the finish come faster",
+          "Balances your grip pressure"
+        ],
+        "trap": [
+          "Focus all effort on one arm"
+        ]
+      }
     },
     {
       "question": "How does the classic closed guard triangle-armbar-omoplata fork work?",
-      "answer": "Defending the triangle exposes the trapped arm for the armbar, defending the armbar exposes the shoulder for the omoplata, and recovering posture re-exposes the neck for the triangle, so every defensive commitment opens a different prepared submission."
+      "answer": "Defending the triangle exposes the trapped arm for the armbar, defending the armbar exposes the shoulder for the omoplata, and recovering posture re-exposes the neck for the triangle, so every defensive commitment opens a different prepared submission.",
+      "answer_line": "Defend one, expose the next",
+      "distractors": {
+        "plausible": [
+          "Triangle first, then armbar",
+          "Omoplata sets up the triangle"
+        ],
+        "trap": [
+          "Posture up ignoring the arm"
+        ]
+      }
     },
     {
       "question": "What control prerequisite must be met before attempting a fork?",
-      "answer": "The position must provide enough control to maintain multiple simultaneous threats through the opponent's defensive movement. From marginal control, attempting a fork lets the opponent escape or reverse during multi-threat development."
+      "answer": "The position must provide enough control to maintain multiple simultaneous threats through the opponent's defensive movement. From marginal control, attempting a fork lets the opponent escape or reverse during multi-threat development.",
+      "answer_line": "Dominant control before forking",
+      "distractors": {
+        "plausible": [
+          "Any guard position works fine",
+          "Speed matters more than control"
+        ],
+        "trap": [
+          "Rush the fork from scramble"
+        ]
+      }
     },
     {
       "question": "How does the rear-naked-choke-versus-armbar fork from back control function?",
-      "answer": "Continuous hand-fighting creates binary choices: defending the neck frees the arms for an armbar, while defending the arms re-exposes the neck for the choke, so every defensive hand placement opens the alternative attack."
+      "answer": "Continuous hand-fighting creates binary choices: defending the neck frees the arms for an armbar, while defending the arms re-exposes the neck for the choke, so every defensive hand placement opens the alternative attack.",
+      "answer_line": "Defend neck, arms open up",
+      "distractors": {
+        "plausible": [
+          "Choke first, armbar as backup",
+          "Switch hooks to set up both"
+        ],
+        "trap": [
+          "Release seatbelt to isolate arm"
+        ]
+      }
     },
     {
       "question": "What is the most common error that creates a 'false' fork?",
-      "answer": "Developing one threat significantly more than the other; the imbalance telegraphs the primary attack and lets the opponent commit their full defense to a single option, nullifying the dilemma structure entirely."
+      "answer": "Developing one threat significantly more than the other; the imbalance telegraphs the primary attack and lets the opponent commit their full defense to a single option, nullifying the dilemma structure entirely.",
+      "answer_line": "Overdeveloping one threat",
+      "distractors": {
+        "plausible": [
+          "Moving too slow between attacks",
+          "Not chaining enough submissions"
+        ],
+        "trap": [
+          "Commit fully to the first look"
+        ]
+      }
     },
     {
       "question": "Why does the position-before-submission hierarchy still apply inside a fork?",
-      "answer": "Abandoning positional control to rush a finish lets the opponent escape during the scramble. Holding the dominant position lets you simply reconstruct the fork rather than gambling on a low-percentage submission."
+      "answer": "Abandoning positional control to rush a finish lets the opponent escape during the scramble. Holding the dominant position lets you simply reconstruct the fork rather than gambling on a low-percentage submission.",
+      "answer_line": "Hold position, don't rush finish",
+      "distractors": {
+        "plausible": [
+          "Finish fast before they escape",
+          "Reset the fork after any escape"
+        ],
+        "trap": [
+          "Abandon control for a finish"
+        ]
+      }
     },
     {
       "question": "How should you respond the instant the opponent commits to defending one threat?",
-      "answer": "Immediately execute the prepared counter-sequence for that defensive choice without hesitation. Deliberating between branches lets the window close and allows the opponent to recover and defend both threats again."
+      "answer": "Immediately execute the prepared counter-sequence for that defensive choice without hesitation. Deliberating between branches lets the window close and allows the opponent to recover and defend both threats again.",
+      "answer_line": "React instantly, no hesitation",
+      "distractors": {
+        "plausible": [
+          "Wait to confirm their commitment",
+          "Reassess the whole position first"
+        ],
+        "trap": [
+          "Pause to set grips again"
+        ]
+      }
     },
     {
       "question": "What makes two threats genuinely incompatible enough to form a fork?",
-      "answer": "Their defensive requirements must be mutually exclusive—physically defending one must necessarily expose the other—so a single defensive action cannot neutralize both threats at the same time."
+      "answer": "Their defensive requirements must be mutually exclusive—physically defending one must necessarily expose the other—so a single defensive action cannot neutralize both threats at the same time.",
+      "answer_line": "Defenses are mutually exclusive",
+      "distractors": {
+        "plausible": [
+          "Both attacks share one defense",
+          "Same limb, different angles"
+        ],
+        "trap": [
+          "Any two submissions combined"
+        ]
+      }
     },
     {
       "question": "How does a saddle heel-hook-versus-kneebar fork force a dilemma?",
-      "answer": "Defending heel exposure by straightening the leg creates kneebar vulnerability, while bending the leg to defend the knee re-exposes the heel, so the opponent's leg positioning dictates which submission becomes available."
+      "answer": "Defending heel exposure by straightening the leg creates kneebar vulnerability, while bending the leg to defend the knee re-exposes the heel, so the opponent's leg positioning dictates which submission becomes available.",
+      "answer_line": "Straighten or bend, both exposed",
+      "distractors": {
+        "plausible": [
+          "Heel hook first, then kneebar",
+          "Kneebar forces the tap fastest"
+        ],
+        "trap": [
+          "Straighten the leg to escape"
+        ]
+      }
+    }
+  ],
+  "clips": [
+    {
+      "id": "MubbYrvhahY",
+      "title": "Understanding offense and attack chains from closed guard",
+      "by": "Jon Thomas",
+      "vertical": false,
+      "channel": "JonThomasBJJ",
+      "duration": 591,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "Z_FBT8ZDSmo",
+      "title": "A full closed guard attack system",
+      "by": "Jon Thomas",
+      "vertical": false,
+      "channel": "JonThomasBJJ",
+      "duration": 498,
+      "verified": "2026-07-15"
+    },
+    {
+      "id": "p8fY7R6Rnu0",
+      "title": "Creating dilemmas for your opponent",
+      "by": "Be Strong Personal Training",
+      "vertical": false,
+      "channel": "Be Strong Personal Training",
+      "duration": 135,
+      "verified": "2026-07-15"
     }
   ]
 }

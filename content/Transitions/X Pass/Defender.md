@@ -148,6 +148,43 @@ description: "How to defend against X Pass in BJJ. Recognition cues, defensive o
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "X Pass (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Headquarters retention for the open guard player",
+      "description": "X Pass (Defender) film study: Headquarters retention for the open guard player, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7zCdpY8nKug/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/7zCdpY8nKug",
+      "url": "https://www.youtube.com/watch?v=7zCdpY8nKug",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT586S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pass defense: recover guard to technical stand up",
+      "description": "X Pass (Defender) film study: Pass defense: recover guard to technical stand up, taught by Lucas Lepri.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aIfwGOr12rk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/aIfwGOr12rk",
+      "url": "https://www.youtube.com/watch?v=aIfwGOr12rk",
+      "creator": { "@type": "Person", "name": "Lucas Lepri" },
+      "duration": "PT50S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 **Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch X Pass (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=7zCdpY8nKug)
+
+<p class="clip-credit"><strong>Headquarters retention for the open guard player</strong> — taught by Lachlan Giles · 9:46 · <a href="https://www.youtube.com/watch?v=7zCdpY8nKug" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=aIfwGOr12rk)
+
+<p class="clip-credit"><strong>Pass defense: recover guard to technical stand up</strong> — taught by Lucas Lepri · 0:50 · <a href="https://www.youtube.com/watch?v=aIfwGOr12rk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

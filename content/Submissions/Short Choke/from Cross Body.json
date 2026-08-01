@@ -17,7 +17,10 @@
   "target_area": "Neck",
   "starting_position": "Cross Body Ride",
   "from_position": "Cross Body Ride/Top",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "As the primary finishing threat of the cross body ride attack system, the Short Choke converts perpendicular control over a turtled opponent into a fight-ending submission. The attacker threads their choking forearm under the opponent's chin while maintaining perpendicular chest-to-back pressure, using body weight and arm compression to attack both carotid arteries simultaneously. This submission capitalizes on the unique control dynamics of the cross body ride, where the attacker's weight distribution and perpendicular angle create a choking platform that becomes extremely difficult to defend once the forearm is positioned beneath the chin.\n\nStrategically, the Short Choke creates a forcing function within the cross body ride attack system. When the opponent dedicates both hands to defending the choke by fighting grips and protecting the neck, they sacrifice the posting ability needed to prevent back takes and crucifix entries. When they prioritize preventing positional advancement by maintaining strong base and arm position, the choking arm can be threaded more easily under the exposed chin. This systematic dilemma structure is what makes the cross body ride such a potent attacking platform and the Short Choke its primary finishing threat.\n\nThe choke operates on blood restriction principles, compressing the carotid arteries bilaterally. When applied correctly with proper forearm positioning and body weight pressure, unconsciousness can occur within eight to twelve seconds of a fully locked submission. The cross body angle provides significant mechanical advantages because the attacker uses their entire body weight to drive the forearm into the neck rather than relying solely on arm squeeze, making this choke particularly effective even against larger opponents or in fatigued conditions where grip strength is compromised.",
   "safety_considerations": {
     "injury_risks": [
@@ -101,17 +104,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Cross Body Ride/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
@@ -285,52 +297,172 @@
       {
         "question": "What anatomical structures does the Short Choke from Cross Body primarily attack?",
         "answer": "The Short Choke primarily attacks the carotid arteries on both sides of the neck through bilateral compression using the blade of the forearm. Unlike tracheal chokes that restrict airflow, this blood choke restricts blood flow to the brain, causing unconsciousness within eight to twelve seconds when fully locked. The forearm must be positioned across the lateral sides of the neck with the wrist blade contacting both carotid arteries simultaneously for maximum effectiveness.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Carotid arteries (blood choke)",
+        "distractors": {
+          "plausible": [
+            "Trachea (airway choke)",
+            "Jugular vein, not carotid"
+          ],
+          "trap": [
+            "Cervical spine, twist neck"
+          ]
+        }
       },
       {
         "question": "What indicators confirm that the choke is properly locked and approaching the finish?",
         "answer": "Key indicators include the opponent's grip fighting becoming weaker and less coordinated, their body beginning to relax involuntarily, and a noticeable change in their breathing pattern becoming more labored or shallow. You should also feel the forearm seated deeply against the neck with no space between your wrist blade and their carotid arteries, and your grip should feel secure without requiring excessive muscular effort to maintain.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Weaker grip fight, body relaxes",
+        "distractors": {
+          "plausible": [
+            "Breathing steadies and deepens",
+            "Forearm feels loose and open"
+          ],
+          "trap": [
+            "Post up and crank when they slow"
+          ]
+        }
       },
       {
         "question": "What positional control must be established before attempting the Short Choke?",
         "answer": "You must first establish solid cross body ride with perpendicular chest-to-back contact, heavy shoulder pressure driving into the opponent's upper back, and hip control preventing them from rolling or creating distance. Without stable cross body control, the opponent can simply turn away, stand up, or create enough space to defend the choking arm effectively. The cross body pressure platform is what makes the choke mechanically effective and separates it from weaker choke attempts without positional dominance.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Solid cross body ride first",
+        "distractors": {
+          "plausible": [
+            "Just an underhook is enough",
+            "Lie parallel, chase the arm"
+          ],
+          "trap": [
+            "Post on knees to thread the arm"
+          ]
+        }
       },
       {
         "question": "At what stage does the Short Choke become past the point of no escape for the defender?",
         "answer": "The choke reaches the point of no escape once the forearm is fully threaded under the chin with a locked grip configuration and the attacker's body weight is committed to the squeeze. At this stage, the defender's only realistic option is to tap. The critical threshold is when the grip locks behind the neck, because before this point the defender can strip the arm or create space, but after grip consolidation the mechanical advantage overwhelmingly favors the attacker.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip locks behind the neck",
+        "distractors": {
+          "plausible": [
+            "Forearm first touches the neck",
+            "Opponent's posture starts to break"
+          ],
+          "trap": [
+            "Only once you feel lightheaded"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error when applying the Short Choke from Cross Body?",
         "answer": "The most common error is lifting chest pressure off the opponent's back to focus on pulling with the arms alone. When the attacker rises up to pull with their arms, they sacrifice the body weight component that provides most of the choking force and simultaneously create space for the opponent to escape, turn, or recover guard. The choke must be finished with body weight driving through the cross body connection, not with isolated arm strength.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lifting chest, pulling with arms",
+        "distractors": {
+          "plausible": [
+            "Threading the arm too slowly",
+            "Wrong hand cups the head"
+          ],
+          "trap": [
+            "Roll to your back to finish"
+          ]
+        }
       },
       {
         "question": "How should you adjust your approach if the opponent is actively fighting your choking hand with two-on-one grip control?",
         "answer": "Avoid engaging in a direct hand-versus-hand grip battle that stalls the attack. Instead, use incremental forearm walking to advance your choking arm in small movements between their defensive adjustments. Alternatively, threaten a different attack such as a crucifix entry or back take to force them to redirect their hands defensively, then immediately return to the choking arm thread during their grip transition. Patience and positional threats are more effective than forcing through established grips.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk the arm, threaten crucifix",
+        "distractors": {
+          "plausible": [
+            "Stall until their grips tire",
+            "Switch to the other side arm"
+          ],
+          "trap": [
+            "Abandon the ride to strip grips"
+          ]
+        }
       },
       {
         "question": "What are the critical safety protocols when applying the Short Choke in training?",
         "answer": "Apply pressure slowly and progressively, never jerking or spiking the choke. Monitor your training partner continuously for tap signals including verbal taps, hand taps on any surface, and foot taps. Release immediately upon any signal and check on your partner after release. Never apply the choke at full speed in drilling situations. If your partner goes limp or becomes unresponsive, release immediately, place them in recovery position with legs slightly elevated, and seek medical attention if they do not regain consciousness within fifteen seconds.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Only stop on a verbal tap",
+            "Start firm, then ease off slowly"
+          ],
+          "trap": [
+            "Crank fast to test the tap"
+          ]
+        }
       },
       {
         "question": "How do you set up the Short Choke effectively in a competition scenario?",
         "answer": "In competition, establish cross body ride first and use chain attacks to create the opening. Threaten crucifix entries and back takes to force the opponent to use their hands for positional defense, which opens the neck. Work incrementally by controlling the head first, then threading the arm in stages rather than attempting one large predictable movement. Use the clock, point advantage, and accumulated positional pressure to force the opponent into increasingly desperate escapes that expose the neck further.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cross body first, chain attacks",
+        "distractors": {
+          "plausible": [
+            "Stall for points, avoid attacks",
+            "Repeat one setup every time"
+          ],
+          "trap": [
+            "Dive for the neck, lose the ride"
+          ]
+        }
       },
       {
         "question": "How does adjusting your perpendicular angle affect the choke's finishing effectiveness?",
         "answer": "Slight angle adjustments significantly impact compression quality. Moving your hips slightly toward the opponent's head increases downward pressure on the choking arm and deepens the forearm into the neck. Moving too far past perpendicular toward the opponent's hips reduces your weight transfer into the choke. The optimal angle places your sternum directly above the choking arm, creating a straight line of force from your body weight through the perpendicular cross body connection through your forearm into their carotid arteries.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips toward head, sternum over arm",
+        "distractors": {
+          "plausible": [
+            "Square up flat on their back",
+            "Angle toward their hips for power"
+          ],
+          "trap": [
+            "Lean away to free up your hips"
+          ]
+        }
       },
       {
         "question": "What should you do if your training partner loses consciousness during the Short Choke?",
         "answer": "Immediately release all pressure and carefully position your partner on their side in the recovery position. Elevate their legs slightly to promote blood flow to the brain. Most practitioners regain consciousness within five to fifteen seconds after release of a blood choke. Do not shake them or pour water on their face. If they do not regain consciousness within fifteen seconds, call for emergency medical assistance immediately. After recovery, they should not continue training that session and should be monitored for any delayed symptoms.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release, recovery position, legs up",
+        "distractors": {
+          "plausible": [
+            "Shake them awake, pour water",
+            "Sit them up straight immediately"
+          ],
+          "trap": [
+            "Keep light pressure to be sure"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "nUxJy-aNHTY",
+        "title": "Back side control setup to rear naked choke",
+        "by": "David Avellan",
+        "vertical": false,
+        "channel": "David Avellan",
+        "duration": 227,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "zzovZGhewQY",
+        "title": "Back attack system for finishing chokes",
+        "by": "Jordan Preisinger",
+        "vertical": false,
+        "channel": "Jordan Teaches Jiujitsu",
+        "duration": 694,
+        "verified": "2026-07-15"
       }
     ]
   },
@@ -420,27 +552,77 @@
       {
         "question": "What is your immediate first priority when you feel the choking arm threading under your chin?",
         "answer": "Your absolute first priority is to tuck your chin tightly to your chest and bring both hands to your neck area to fight the choking arm before it can establish a grip. Every fraction of a second matters because once the forearm is fully under the chin with a locked grip, escape becomes nearly impossible. Fighting the arm early when it has no grip advantage is exponentially easier than fighting a locked choke. If the choke is fully locked, tap immediately rather than risk unconsciousness.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tuck chin, hands to neck fast",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll immediately",
+            "Push away with both arms"
+          ],
+          "trap": [
+            "Wait to see how tight it gets"
+          ]
+        }
       },
       {
         "question": "What visual and tactile cues indicate the Short Choke is being set up from Cross Body?",
         "answer": "Key recognition cues include the attacker shifting their near-side arm to control your head or cup your chin, a change in their weight distribution as they prepare to thread the far arm, and the feeling of their forearm beginning to slide across your neck from the far side. You may also notice the attacker's hips adjusting slightly toward your head to optimize the choking angle. Early recognition of these setup cues provides the largest defensive window for successful prevention.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Head/chin control, forearm sliding",
+        "distractors": {
+          "plausible": [
+            "Their knees pinch your hips",
+            "Their weight shifts to your legs"
+          ],
+          "trap": [
+            "Ignore it until the arm locks"
+          ]
+        }
       },
       {
         "question": "How do you prevent the choking grip from being fully established?",
         "answer": "Use a two-on-one grip on the attacking forearm, controlling at the wrist and elbow to prevent it from advancing under your chin. Keep your chin tucked to your chest creating a physical barrier the forearm must overcome. Actively pull the attacking arm away from your neck using your body rotation and hip movement, not just isolated hand strength. If you can prevent the grip lock, the attacker cannot generate sufficient compression to finish the choke regardless of their body weight advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Two-on-one grip, tuck chin tight",
+        "distractors": {
+          "plausible": [
+            "Pull the arm with hands alone",
+            "Flatten out and lie still"
+          ],
+          "trap": [
+            "Turn belly-down to hide the neck"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt an escape during the Short Choke defense?",
         "answer": "The optimal escape window is during the grip transition when the attacker moves from head control to threading the choking arm. During this transition, they momentarily reduce cross body pressure and shift their weight, creating space for hip escapes or granby rolls. Once the arm is under your chin, focus entirely on grip fighting rather than positional escape. Attempting to escape after the grip locks wastes energy and often worsens your position by creating more space for the attacker to settle their weight.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "During the grip transition",
+        "distractors": {
+          "plausible": [
+            "Right after the grip locks tight",
+            "While their chest pressure is heavy"
+          ],
+          "trap": [
+            "Wait until you feel lightheaded"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Short Choke rather than continue defending?",
         "answer": "Tap immediately when you feel the grip lock behind your neck and your chin defense has failed. Do not wait to feel the full compression effect, because blood chokes can cause unconsciousness within seconds of full application. If you feel lightheaded, see spots, or experience tingling, you are already past the safe defense window and must tap immediately. In training, there is never a good reason to risk unconsciousness when you can reset and practice your defense from an earlier stage of the sequence.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Immediately when grip locks in",
+        "distractors": {
+          "plausible": [
+            "Once your chin gets forced up",
+            "After you try one escape first"
+          ],
+          "trap": [
+            "Ride it out until you pass out"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -463,6 +645,26 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance defense in positional sparring",
         "description": "Defend the Short Choke under full competition-intensity resistance starting from cross body ride. Partner attacks with full commitment while you apply all defensive layers. Score escapes and successful defenses, building confidence and timing under realistic pressure conditions."
+      }
+    ],
+    "clips": [
+      {
+        "id": "bDZntPrcLpg",
+        "title": "Escaping Back Control - Turtle Escape",
+        "by": "BJJ101",
+        "vertical": false,
+        "channel": "BJJ101",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "XPWHqs67tt8",
+        "title": "Turtle Escape - Front Turtle",
+        "by": "Michael Daye",
+        "vertical": false,
+        "channel": "Michael Daye Landscaping and BJJ",
+        "duration": 60,
+        "verified": "2026-07-14"
       }
     ]
   }

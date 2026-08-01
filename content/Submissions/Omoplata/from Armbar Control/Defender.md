@@ -144,6 +144,54 @@ description: "Defend against the omoplata from armbar control in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Omoplata from Armbar Control (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Best way to escape the omoplata shoulder lock",
+      "description": "Omoplata from Armbar Control (Defender) film study: Best way to escape the omoplata shoulder lock, taught by John Connors.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocIHY3jBYIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ocIHY3jBYIQ",
+      "url": "https://www.youtube.com/watch?v=ocIHY3jBYIQ",
+      "creator": { "@type": "Person", "name": "John Connors" },
+      "duration": "PT62S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escape the omoplata when it\u0027s locked in",
+      "description": "Omoplata from Armbar Control (Defender) film study: Escape the omoplata when it\u0027s locked in, taught by Matt Arroyo.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jKdERMTQqPY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jKdERMTQqPY",
+      "url": "https://www.youtube.com/watch?v=jKdERMTQqPY",
+      "creator": { "@type": "Person", "name": "Matt Arroyo" },
+      "duration": "PT72S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Submission escape from the omoplata",
+      "description": "Omoplata from Armbar Control (Defender) film study: Submission escape from the omoplata, taught by Thiago Stefanutti.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xqBK1Y2BdSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xqBK1Y2BdSg",
+      "url": "https://www.youtube.com/watch?v=xqBK1Y2BdSg",
+      "creator": { "@type": "Person", "name": "Thiago Stefanutti" },
+      "duration": "PT17S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -154,6 +202,42 @@ Defending the omoplata from armbar control demands early recognition that the at
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Omoplata from Armbar Control (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ocIHY3jBYIQ)
+
+<p class="clip-credit"><strong>Best way to escape the omoplata shoulder lock</strong> — taught by John Connors · 1:02 · <a href="https://www.youtube.com/watch?v=ocIHY3jBYIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jKdERMTQqPY)
+
+<p class="clip-credit"><strong>Escape the omoplata when it&#39;s locked in</strong> — taught by Matt Arroyo · 1:12 · <a href="https://www.youtube.com/watch?v=jKdERMTQqPY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xqBK1Y2BdSg)
+
+<p class="clip-credit"><strong>Submission escape from the omoplata</strong> — taught by Thiago Stefanutti · 0:17 · <a href="https://www.youtube.com/watch?v=xqBK1Y2BdSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

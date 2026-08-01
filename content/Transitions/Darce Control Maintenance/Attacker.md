@@ -174,6 +174,54 @@ description: "Master the attacker's approach to maintaining Darce Control in BJJ
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Darce Control Maintenance (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Short arm darce grip and control details",
+      "description": "Darce Control Maintenance (Attacker) film study: Short arm darce grip and control details, taught by Travis Moore.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XpFxqgrhEgA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XpFxqgrhEgA",
+      "url": "https://www.youtube.com/watch?v=XpFxqgrhEgA",
+      "creator": { "@type": "Person", "name": "Travis Moore" },
+      "duration": "PT120S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Side control to north-south darce control",
+      "description": "Darce Control Maintenance (Attacker) film study: Side control to north-south darce control, taught by Gracie Westchase coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/22EYQ2uhxQw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/22EYQ2uhxQw",
+      "url": "https://www.youtube.com/watch?v=22EYQ2uhxQw",
+      "creator": { "@type": "Person", "name": "Gracie Westchase coach" },
+      "duration": "PT75S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Mounted darce control setup (no-gi)",
+      "description": "Darce Control Maintenance (Attacker) film study: Mounted darce control setup (no-gi), taught by ZombieProofBJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dpjc7ly_wSY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dpjc7ly_wSY",
+      "url": "https://www.youtube.com/watch?v=dpjc7ly_wSY",
+      "creator": { "@type": "Person", "name": "ZombieProofBJJ" },
+      "duration": "PT82S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker maintaining Darce Control, your primary objective is preserving 
 **From Position**: [[Positions/Darce Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Darce Control Maintenance (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XpFxqgrhEgA)
+
+<p class="clip-credit"><strong>Short arm darce grip and control details</strong> — taught by Travis Moore · 2:00 · <a href="https://www.youtube.com/watch?v=XpFxqgrhEgA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=22EYQ2uhxQw)
+
+<p class="clip-credit"><strong>Side control to north-south darce control</strong> — taught by Gracie Westchase coach · 1:15 · <a href="https://www.youtube.com/watch?v=22EYQ2uhxQw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dpjc7ly_wSY)
+
+<p class="clip-credit"><strong>Mounted darce control setup (no-gi)</strong> — taught by ZombieProofBJJ · 1:22 · <a href="https://www.youtube.com/watch?v=dpjc7ly_wSY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

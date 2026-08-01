@@ -150,6 +150,43 @@ description: "How to defend against Crotch Ripper in BJJ. Recognition, escape pa
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Crotch Ripper from Lockdown (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Passing the lockdown with a backstep",
+      "description": "Crotch Ripper from Lockdown (Defender) film study: Passing the lockdown with a backstep, taught by Peter Mettler.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ABSueJ6cwis/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/ABSueJ6cwis",
+      "url": "https://www.youtube.com/watch?v=ABSueJ6cwis",
+      "creator": { "@type": "Person", "name": "Peter Mettler" },
+      "duration": "PT98S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Top lockdown turk: countering the lockdown",
+      "description": "Crotch Ripper from Lockdown (Defender) film study: Top lockdown turk: countering the lockdown, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lwwIfCAA7Zc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/lwwIfCAA7Zc",
+      "url": "https://www.youtube.com/watch?v=lwwIfCAA7Zc",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT207S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +197,34 @@ Defending the Crotch Ripper requires understanding that this compression submiss
 
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Crotch Ripper from Lockdown (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=ABSueJ6cwis)
+
+<p class="clip-credit"><strong>Passing the lockdown with a backstep</strong> — taught by Peter Mettler · 1:38 · <a href="https://www.youtube.com/watch?v=ABSueJ6cwis" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=lwwIfCAA7Zc)
+
+<p class="clip-credit"><strong>Top lockdown turk: countering the lockdown</strong> — taught by Craig Jones · 3:27 · <a href="https://www.youtube.com/watch?v=lwwIfCAA7Zc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

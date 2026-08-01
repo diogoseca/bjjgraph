@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Turtle/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 10,
+      "probability": {
+        "gi": 10,
+        "nogi": 10
+      },
       "result": "success"
     },
     {
       "to": "Reverse Kesa-Gatame/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The bridge escape from Reverse Kesa-Gatame is a fundamental positional escape that exploits the inherent vulnerability of the reverse scarf hold: the top player's compromised base when facing toward the bottom player's legs. Unlike traditional side control escapes that rely primarily on shrimping and frame-based space creation, this escape leverages explosive hip extension to displace the top player's weight and create immediate space for positional improvement.\n\nThe technique works best when the top player commits their weight too far forward or sits too high on the chest, compromising their base stability. The bottom player plants both feet flat, generates explosive upward force through the hips, and directs the bridge toward the trapped arm side. This directional bridge exploits the top player's limited posting ability in the reverse orientation, where their arms are occupied with arm control rather than available for base recovery.\n\nStrategically, the bridge from Reverse Kesa-Gatame creates a binary risk-reward profile: either significant positional improvement to turtle or half guard, or potential worsening if the top player rides the bridge to mount. This makes proper timing and setup essential. The technique chains naturally with other escape methods—a bridge attempt that fails to fully displace the top player still disrupts their weight distribution, making subsequent shrimp or elbow escapes significantly more effective. For this reason, the bridge often functions as the opening salvo in a multi-escape sequence rather than a standalone technique.",
   "variants_and_adaptations": [
     {
@@ -249,38 +264,138 @@
     "flashcards": [
       {
         "question": "What weight distribution from the top player creates the optimal window for the bridge escape?",
-        "answer": "The bridge is most effective when the top player's weight is concentrated high on your chest or forward toward your head. This elevated weight position compromises their base stability and makes them vulnerable to displacement by the upward and lateral force of the bridge. When their hips are low and sprawled with heavy pressure on your ribs, the bridge becomes significantly harder and alternative shrimp-based escapes should be prioritized instead."
+        "answer": "The bridge is most effective when the top player's weight is concentrated high on your chest or forward toward your head. This elevated weight position compromises their base stability and makes them vulnerable to displacement by the upward and lateral force of the bridge. When their hips are low and sprawled with heavy pressure on your ribs, the bridge becomes significantly harder and alternative shrimp-based escapes should be prioritized instead.",
+        "answer_line": "Weight high on chest or head",
+        "distractors": {
+          "plausible": [
+            "Weight low and heavy on hips",
+            "Weight even across your torso"
+          ],
+          "trap": [
+            "Wait for hips to sink low"
+          ]
+        }
       },
       {
         "question": "Why must the bridge be directed toward the trapped arm side rather than straight upward?",
-        "answer": "Bridging toward the trapped arm side exploits the top player's weakest base direction in Reverse Kesa-Gatame. Because they face your legs with their arms committed to arm control, they have limited ability to post on the trapped arm side. A straight upward bridge gives them time to redistribute weight evenly, while a directional bridge toward their structural weakness creates maximum displacement with minimum energy expenditure."
+        "answer": "Bridging toward the trapped arm side exploits the top player's weakest base direction in Reverse Kesa-Gatame. Because they face your legs with their arms committed to arm control, they have limited ability to post on the trapped arm side. A straight upward bridge gives them time to redistribute weight evenly, while a directional bridge toward their structural weakness creates maximum displacement with minimum energy expenditure.",
+        "answer_line": "Bridge toward trapped-arm side",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up for power",
+            "Bridge toward your free arm"
+          ],
+          "trap": [
+            "Bridge toward opponent's head"
+          ]
+        }
       },
       {
         "question": "How should you adjust if the top player immediately sprawls to counter your bridge attempt?",
-        "answer": "If the opponent sprawls in response to your bridge, immediately transition to a shrimp-based escape rather than attempting a second bridge. The sprawl creates a momentary gap between your bodies as they drive their hips low. Use this gap to execute a hip escape toward your free arm side, working to insert your knee for half guard recovery. Chain the failed bridge directly into the follow-up escape without pausing."
+        "answer": "If the opponent sprawls in response to your bridge, immediately transition to a shrimp-based escape rather than attempting a second bridge. The sprawl creates a momentary gap between your bodies as they drive their hips low. Use this gap to execute a hip escape toward your free arm side, working to insert your knee for half guard recovery. Chain the failed bridge directly into the follow-up escape without pausing.",
+        "answer_line": "Shrimp toward your free-arm side",
+        "distractors": {
+          "plausible": [
+            "Bridge again immediately",
+            "Shrimp toward the trapped-arm side"
+          ],
+          "trap": [
+            "Hold the bridge, wait it out"
+          ]
+        }
       },
       {
         "question": "What foot placement maximizes bridge power and how does it protect against the mount transition?",
-        "answer": "Plant both feet flat with heels close to your buttocks and toes angled slightly outward for maximum explosive hip extension. To protect against the mount transition during the bridge, keep your elbows tight to your body and turn immediately at the peak rather than holding the elevated position. The faster you convert the bridge into a turn, the less opportunity the opponent has to step over into mount."
+        "answer": "Plant both feet flat with heels close to your buttocks and toes angled slightly outward for maximum explosive hip extension. To protect against the mount transition during the bridge, keep your elbows tight to your body and turn immediately at the peak rather than holding the elevated position. The faster you convert the bridge into a turn, the less opportunity the opponent has to step over into mount.",
+        "answer_line": "Heels close, turn fast at peak",
+        "distractors": {
+          "plausible": [
+            "Feet wide, hold bridge longer",
+            "Heels close, pause at peak"
+          ],
+          "trap": [
+            "Hold bridge high, delay the turn"
+          ]
+        }
       },
       {
         "question": "Your bridge partially succeeds but the opponent maintains chest contact—what is your immediate follow-up?",
-        "answer": "A partial bridge that does not fully displace the opponent still creates valuable space. Immediately convert to a hip escape on the same side you were bridging toward, using the space created to begin extracting your trapped shoulder. The partial bridge has disrupted their weight distribution even if it did not fully succeed, making the follow-up hip escape significantly more effective than it would be without the preceding bridge attempt."
+        "answer": "A partial bridge that does not fully displace the opponent still creates valuable space. Immediately convert to a hip escape on the same side you were bridging toward, using the space created to begin extracting your trapped shoulder. The partial bridge has disrupted their weight distribution even if it did not fully succeed, making the follow-up hip escape significantly more effective than it would be without the preceding bridge attempt.",
+        "answer_line": "Hip escape same side as bridge",
+        "distractors": {
+          "plausible": [
+            "Hip escape opposite side",
+            "Bridge again same direction"
+          ],
+          "trap": [
+            "Stay still, reset your base"
+          ]
+        }
       },
       {
         "question": "What role does the free arm play throughout the bridge escape sequence?",
-        "answer": "The free arm serves multiple critical functions throughout the escape. Initially, it frames against the opponent's hip or shoulder to create initial space and prevent them from driving weight lower. During the bridge, it pushes against the opponent to direct them off your centerline. As you turn to turtle, the free arm becomes your first posting point for establishing a four-point base. Active use of the free arm throughout the sequence dramatically increases escape success rate."
+        "answer": "The free arm serves multiple critical functions throughout the escape. Initially, it frames against the opponent's hip or shoulder to create initial space and prevent them from driving weight lower. During the bridge, it pushes against the opponent to direct them off your centerline. As you turn to turtle, the free arm becomes your first posting point for establishing a four-point base. Active use of the free arm throughout the sequence dramatically increases escape success rate.",
+        "answer_line": "Frame, push, then post to turtle",
+        "distractors": {
+          "plausible": [
+            "Only frame, keep arm passive",
+            "Push opponent's head away"
+          ],
+          "trap": [
+            "Grab opponent's collar and pull"
+          ]
+        }
       },
       {
         "question": "What is the critical timing difference between bridging from Reverse Kesa-Gatame versus traditional Kesa Gatame?",
-        "answer": "In Reverse Kesa-Gatame, the top player faces your legs rather than your head, which means their posting ability and base recovery direction differ fundamentally. The bridge should be directed toward the trapped arm side because the opponent's arms are positioned for arm control rather than posting. In traditional Kesa Gatame, the bridge direction goes toward the opponent's back. This directional difference is the most common error practitioners make when applying bridge escapes across scarf hold variants."
+        "answer": "In Reverse Kesa-Gatame, the top player faces your legs rather than your head, which means their posting ability and base recovery direction differ fundamentally. The bridge should be directed toward the trapped arm side because the opponent's arms are positioned for arm control rather than posting. In traditional Kesa Gatame, the bridge direction goes toward the opponent's back. This directional difference is the most common error practitioners make when applying bridge escapes across scarf hold variants.",
+        "answer_line": "Trapped-arm side, not their back",
+        "distractors": {
+          "plausible": [
+            "Same direction as traditional kesa",
+            "Toward opponent's legs always"
+          ],
+          "trap": [
+            "Bridge toward opponent's back"
+          ]
+        }
       },
       {
         "question": "Your first bridge fails to displace the opponent—what should you chain into rather than bridging again?",
-        "answer": "Never repeat an identical bridge, because the opponent will anticipate the timing and direction and simply ride the second attempt. Instead, immediately flow into a hip escape or elbow escape toward your free-arm side, exploiting the weight disruption the failed bridge created to insert your knee and recover half guard. If the opponent over-committed their weight forward chasing the bridge, a technical stand-up to disengage also opens up. Treat the failed bridge as a deliberate setup that loads the next escape, not as a wasted attempt."
+        "answer": "Never repeat an identical bridge, because the opponent will anticipate the timing and direction and simply ride the second attempt. Instead, immediately flow into a hip escape or elbow escape toward your free-arm side, exploiting the weight disruption the failed bridge created to insert your knee and recover half guard. If the opponent over-committed their weight forward chasing the bridge, a technical stand-up to disengage also opens up. Treat the failed bridge as a deliberate setup that loads the next escape, not as a wasted attempt.",
+        "answer_line": "Hip escape to free-arm side",
+        "distractors": {
+          "plausible": [
+            "Wait for opponent to overcommit",
+            "Attack for a submission instead"
+          ],
+          "trap": [
+            "Bridge again in same direction"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Bridge escapes involve explosive spinal extension and rotational forces on the lumbar spine. Warm up the lower back, hip flexors, and glutes thoroughly before drilling. During initial learning phases, the top player should allow controlled escape repetitions rather than resisting at maximum intensity. Tap immediately if neck or spinal discomfort occurs during the turning phase. Partners should communicate about intensity level and any pre-existing back or neck injuries before positional drilling. Avoid explosive bridging on hard surfaces without adequate mat padding."
+    "safety_considerations": "Bridge escapes involve explosive spinal extension and rotational forces on the lumbar spine. Warm up the lower back, hip flexors, and glutes thoroughly before drilling. During initial learning phases, the top player should allow controlled escape repetitions rather than resisting at maximum intensity. Tap immediately if neck or spinal discomfort occurs during the turning phase. Partners should communicate about intensity level and any pre-existing back or neck injuries before positional drilling. Avoid explosive bridging on hard surfaces without adequate mat padding.",
+    "clips": [
+      {
+        "id": "-zFQ6h4yKT4",
+        "title": "Kuzure kesa gatame escapes",
+        "by": "Kodokan",
+        "vertical": false,
+        "channel": "KODOKAN",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "iDi59hI5-YQ",
+        "title": "Kesa gatame bridge and reverse shrimp escape",
+        "by": "JitzLive",
+        "vertical": false,
+        "channel": "JitzLive",
+        "duration": 132,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bridge from Reverse Kesa-Gatame Defender",
@@ -358,19 +473,59 @@
     "flashcards": [
       {
         "question": "What are the earliest indicators that the bottom player is preparing a bridge escape?",
-        "answer": "The earliest cues are the bottom player planting both feet flat on the mat with heels drawn close to their hips, creating explosive hip extension potential. You may also feel their core tensioning and a slight weight shift toward the trapped arm side. Their free arm will move to establish a frame against your hip or shoulder. Recognizing these preparatory movements gives you time to sprawl and widen your base before the bridge launches."
+        "answer": "The earliest cues are the bottom player planting both feet flat on the mat with heels drawn close to their hips, creating explosive hip extension potential. You may also feel their core tensioning and a slight weight shift toward the trapped arm side. Their free arm will move to establish a frame against your hip or shoulder. Recognizing these preparatory movements gives you time to sprawl and widen your base before the bridge launches.",
+        "answer_line": "Feet planted, heels near hips",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar tighter",
+            "Hips shift toward the far side"
+          ],
+          "trap": [
+            "Deep breaths, totally relaxed"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you sense a bridge attempt is coming?",
-        "answer": "Immediately lower your hips and drive them toward the mat, sprawling your legs wider to create a more stable base. Your chest pressure should increase through your sternum onto their upper chest, creating maximum downward force that directly opposes the upward bridge vector. Avoid posting with your arms, which lifts your center of gravity. Let your skeletal structure and hip weight resist the bridge while keeping your arms available for arm control."
+        "answer": "Immediately lower your hips and drive them toward the mat, sprawling your legs wider to create a more stable base. Your chest pressure should increase through your sternum onto their upper chest, creating maximum downward force that directly opposes the upward bridge vector. Avoid posting with your arms, which lifts your center of gravity. Let your skeletal structure and hip weight resist the bridge while keeping your arms available for arm control.",
+        "answer_line": "Lower hips, sprawl, chest pressure",
+        "distractors": {
+          "plausible": [
+            "Post hands wide for balance",
+            "Raise hips to add downward force"
+          ],
+          "trap": [
+            "Post arms, release arm control"
+          ]
+        }
       },
       {
         "question": "When is it advantageous to ride the bridge to mount rather than simply resisting?",
-        "answer": "Riding the bridge to mount is advantageous when the bottom player commits fully to a large bridge that significantly elevates their hips. Their elevated hips create a pathway for your leg to step over. This works best against opponents who bridge predictably in direction and with full commitment. However, the timing must be precise—step over at the bridge's peak, not before or after. If you are not confident in your mount transition timing, simply resisting is the safer option."
+        "answer": "Riding the bridge to mount is advantageous when the bottom player commits fully to a large bridge that significantly elevates their hips. Their elevated hips create a pathway for your leg to step over. This works best against opponents who bridge predictably in direction and with full commitment. However, the timing must be precise—step over at the bridge's peak, not before or after. If you are not confident in your mount transition timing, simply resisting is the safer option.",
+        "answer_line": "Full commit, step over at peak",
+        "distractors": {
+          "plausible": [
+            "Any bridge, step over early",
+            "Ride every bridge to mount"
+          ],
+          "trap": [
+            "Step over before the peak"
+          ]
+        }
       },
       {
         "question": "What happens if you maintain arm control too aggressively during a bridge attempt?",
-        "answer": "Overly aggressive arm control during a bridge compromises your base because both hands are committed to controlling their arm, leaving no ability to post when the bridge displaces your balance. Release one control point to post against the mat while maintaining the other. Specifically, release the far-side arm to post while keeping the near-side armpit clamp on their arm, preserving both base recovery and continued arm control."
+        "answer": "Overly aggressive arm control during a bridge compromises your base because both hands are committed to controlling their arm, leaving no ability to post when the bridge displaces your balance. Release one control point to post against the mat while maintaining the other. Specifically, release the far-side arm to post while keeping the near-side armpit clamp on their arm, preserving both base recovery and continued arm control.",
+        "answer_line": "Release far arm, post to base",
+        "distractors": {
+          "plausible": [
+            "Keep both hands on their arm",
+            "Release both arms to post"
+          ],
+          "trap": [
+            "Grip harder with both hands"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -393,6 +548,26 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance pin maintenance against all escape attempts",
         "description": "Full-resistance positional sparring from Reverse Kesa-Gatame. Bottom player uses bridges mixed with shrimps and elbow escapes. Top player must maintain position, recognize each escape type, and respond appropriately while threatening submissions. Track position retention time across rounds."
+      }
+    ],
+    "clips": [
+      {
+        "id": "RYo2TWEnOiY",
+        "title": "Holding reverse kesa gatame and attacking the kimura",
+        "by": "BJJ4Breakfast",
+        "vertical": false,
+        "channel": "BJJ4Breakfast",
+        "duration": 234,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "xROpHA3sNlY",
+        "title": "Reverse kesa gatame escape",
+        "by": "Inverted Gear",
+        "vertical": false,
+        "channel": "Inverted Gear",
+        "duration": 109,
+        "verified": "2026-07-15"
       }
     ]
   }

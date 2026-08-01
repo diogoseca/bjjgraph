@@ -34,6 +34,54 @@ description: "Master Body Lock position in BJJ. Complete guide covering standing
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Nicky Rod\u0027s body lock pass concept",
+      "description": "Body Lock film study: Nicky Rod\u0027s body lock pass concept, taught by Professor Buck.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sztjmLZYxIQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sztjmLZYxIQ",
+      "url": "https://www.youtube.com/watch?v=sztjmLZYxIQ",
+      "creator": { "@type": "Person", "name": "Professor Buck" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Nicky Rod explains the body lock pass",
+      "description": "Body Lock film study: Nicky Rod explains the body lock pass, taught by Nicky Rodriguez.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/spB8qALp5rA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/spB8qALp5rA",
+      "url": "https://www.youtube.com/watch?v=spB8qALp5rA",
+      "creator": { "@type": "Person", "name": "Nicky Rodriguez" },
+      "duration": "PT221S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "4 body lock takedowns",
+      "description": "Body Lock film study: 4 body lock takedowns, taught by CSW Fullerton.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2gknwIfTeN0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2gknwIfTeN0",
+      "url": "https://www.youtube.com/watch?v=2gknwIfTeN0",
+      "creator": { "@type": "Person", "name": "CSW Fullerton" },
+      "duration": "PT194S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,6 +114,42 @@ The body lock represents one of the highest levels of standing control in both w
 The position is inherently transitional and requires immediate attack execution. Hesitation allows opponents time to establish defenses, break grips, or escape entirely. Modern no-gi competition has elevated the body lock to a primary offensive weapon, with elite competitors using it to consistently secure back control, execute high-amplitude throws, or force opponents into defensive positions that lead to dominant ground control. Mastery requires understanding weight distribution, hip positioning, timing, and the ability to read opponent defensive reactions to capitalize on openings as they appear.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sztjmLZYxIQ)
+
+<p class="clip-credit"><strong>Nicky Rod&#39;s body lock pass concept</strong> — taught by Professor Buck · 0:38 · <a href="https://www.youtube.com/watch?v=sztjmLZYxIQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=spB8qALp5rA)
+
+<p class="clip-credit"><strong>Nicky Rod explains the body lock pass</strong> — taught by Nicky Rodriguez · 3:41 · <a href="https://www.youtube.com/watch?v=spB8qALp5rA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2gknwIfTeN0)
+
+<p class="clip-credit"><strong>4 body lock takedowns</strong> — taught by CSW Fullerton · 3:14 · <a href="https://www.youtube.com/watch?v=2gknwIfTeN0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,25 +221,23 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Transitions/Grip Break/Attacker|Grip Break]]** (39% of attempts)
+- **[[Transitions/Grip Break/Attacker|Grip Break]]** (17% of attempts)
 
-- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (19% of attempts)
+- **[[Transitions/Sitting Guard Pull/Attacker|Sitting Guard Pull]]** (15% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (12% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (9% of attempts)
 
-- **[[Transitions/Whizzer/Attacker|Whizzer]]** (7% of attempts)
+- **[[Transitions/Whizzer/Attacker|Whizzer]]** (9% of attempts)
 
-- **[[Transitions/Sprawl Defense/Attacker|Sprawl Defense]]** (7% of attempts)
+- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (14% of attempts)
 
-- **[[Transitions/Turn In and Face/Attacker|Turn In and Face]]** (7% of attempts)
+- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (8% of attempts)
 
-- **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (5% of attempts)
+- **[[Transitions/Escape Body Lock/Attacker|Escape Body Lock]]** (10% of attempts)
 
-- **[[Transitions/Escape Body Lock/Attacker|Escape Body Lock]]** (2% of attempts)
+- **[[Transitions/Pummeling Escape from Body Lock/Attacker|Pummeling Escape from Body Lock]]** (12% of attempts)
 
-- **[[Transitions/Pummeling Escape from Body Lock/Attacker|Pummeling Escape from Body Lock]]** (1% of attempts)
-
-- **[[Transitions/Reversal from Body Lock/Attacker|Reversal from Body Lock]]** (1% of attempts)
+- **[[Transitions/Reversal from Body Lock/Attacker|Reversal from Body Lock]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -212,25 +294,25 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (14% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (18% of attempts)
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (8% of attempts)
 
-- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (10% of attempts)
+- **[[Transitions/Tani Otoshi/Attacker|Tani Otoshi]]** (9% of attempts)
 
-- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (8% of attempts)
+- **[[Transitions/Kosoto Gake/Attacker|Kosoto Gake]]** (11% of attempts)
 
-- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (40% of attempts)
+- **[[Transitions/Mat Return to Back Mount/Attacker|Mat Return to Back Mount]]** (12% of attempts)
 
-- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (5% of attempts)
+- **[[Transitions/Harai Goshi/Attacker|Harai Goshi]]** (3% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (14% of attempts)
 
-- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (3% of attempts)
+- **[[Transitions/Double Leg Finish/Attacker|Double Leg Finish]]** (5% of attempts)
 
-- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (1% of attempts)
+- **[[Transitions/Body Lock Takedown/Attacker|Body Lock Takedown]]** (14% of attempts)
 
-- **[[Transitions/Body Lock to Standing/Attacker|Body Lock to Standing]]** (1% of attempts)
+- **[[Transitions/Body Lock to Standing/Attacker|Body Lock to Standing]]** (6% of attempts)
 
 
 ### Common Mistakes

@@ -93,6 +93,14 @@ description: "Defend the Armbar from Crucifix in BJJ. Complete defensive guide c
         "@type": "Answer",
         "text": "Your immediate priority is preventing full arm extension by bending the elbow against the attacker's grip. Use your shoulder and bicep to curl the arm in while simultaneously grip fighting on the wrist to strip or rotate the attacker's hold. Combine this with hip movement to change the angle. If you cannot prevent extension, clasp your own hands together for additional resistance. If the arm becomes fully extended with the attacker's legs clamped, the position is nearly finished—prioritize disrupting the position through bridging before the hip drive completes the hyperextension."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the earliest recognition cue that your opponent is transitioning from choke threat to armbar from mounted crucifix?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The earliest cue is feeling the attacker's hands shift from your neck or collar area toward your wrist or forearm. This grip change indicates they are abandoning the choke and targeting the arm instead. You may also feel their weight begin shifting laterally toward the arm they intend to attack. Recognizing this transition at the grip-change stage gives you the maximum time window for defensive response — waiting until you feel hip pressure on your elbow means the armbar is already partially secured and escape probability has dropped significantly."
+      }
     }
   ]
 }
@@ -148,6 +156,54 @@ description: "Defend the Armbar from Crucifix in BJJ. Complete defensive guide c
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Armbar from Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Simple crucifix escape",
+      "description": "Armbar from Crucifix (Defender) film study: Simple crucifix escape, taught by Coach Brian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wrg5Tx-88yM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Wrg5Tx-88yM",
+      "url": "https://www.youtube.com/watch?v=Wrg5Tx-88yM",
+      "creator": { "@type": "Person", "name": "Coach Brian" },
+      "duration": "PT149S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Underused Armbar Escape Direction",
+      "description": "Armbar from Crucifix (Defender) film study: Underused Armbar Escape Direction, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oLccpWCMh70/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/oLccpWCMh70",
+      "url": "https://www.youtube.com/watch?v=oLccpWCMh70",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT585S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Countering the Roll to Far Side With Near Hook",
+      "description": "Armbar from Crucifix (Defender) film study: Countering the Roll to Far Side With Near Hook, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0xYFYI9LkUQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0xYFYI9LkUQ",
+      "url": "https://www.youtube.com/watch?v=0xYFYI9LkUQ",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT144S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +213,42 @@ Defending the armbar from crucifix requires immediate recognition of the transit
 **Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Armbar from Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Wrg5Tx-88yM)
+
+<p class="clip-credit"><strong>Simple crucifix escape</strong> — taught by Coach Brian · 2:29 · <a href="https://www.youtube.com/watch?v=Wrg5Tx-88yM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=oLccpWCMh70)
+
+<p class="clip-credit"><strong>Underused Armbar Escape Direction</strong> — taught by Priit Mihkelson · 9:45 · <a href="https://www.youtube.com/watch?v=oLccpWCMh70" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0xYFYI9LkUQ)
+
+<p class="clip-credit"><strong>Countering the Roll to Far Side With Near Hook</strong> — taught by Priit Mihkelson · 2:24 · <a href="https://www.youtube.com/watch?v=0xYFYI9LkUQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

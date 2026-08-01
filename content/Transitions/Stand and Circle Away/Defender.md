@@ -148,6 +148,43 @@ description: "How to defend against the Stand and Circle Away escape in BJJ. Rec
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Stand and Circle Away (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Front headlock short drag counter",
+      "description": "Stand and Circle Away (Defender) film study: Front headlock short drag counter, taught by OMJJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8amBNhArfwY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8amBNhArfwY",
+      "url": "https://www.youtube.com/watch?v=8amBNhArfwY",
+      "creator": { "@type": "Person", "name": "OMJJJ" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Keeping front headlock: get to side control",
+      "description": "Stand and Circle Away (Defender) film study: Keeping front headlock: get to side control, taught by Pineapple MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/HiyveeWT9QQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/HiyveeWT9QQ",
+      "url": "https://www.youtube.com/watch?v=HiyveeWT9QQ",
+      "creator": { "@type": "Person", "name": "Pineapple MMA" },
+      "duration": "PT160S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ The defensive framework against the Stand and Circle Away operates on a timeline
 **Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Stand and Circle Away (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8amBNhArfwY)
+
+<p class="clip-credit"><strong>Front headlock short drag counter</strong> — taught by OMJJJ · 1:20 · <a href="https://www.youtube.com/watch?v=8amBNhArfwY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=HiyveeWT9QQ)
+
+<p class="clip-credit"><strong>Keeping front headlock: get to side control</strong> — taught by Pineapple MMA · 2:40 · <a href="https://www.youtube.com/watch?v=HiyveeWT9QQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

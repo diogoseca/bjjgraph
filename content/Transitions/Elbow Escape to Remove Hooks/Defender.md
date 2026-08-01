@@ -148,6 +148,43 @@ description: "How to counter the Elbow Escape to Remove Hooks in BJJ. Recognitio
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Elbow Escape to Remove Hooks (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Maintaining back control with the hooks",
+      "description": "Elbow Escape to Remove Hooks (Defender) film study: Maintaining back control with the hooks, taught by Gracie Charlottesville.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rlk4mGg7vW4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Rlk4mGg7vW4",
+      "url": "https://www.youtube.com/watch?v=Rlk4mGg7vW4",
+      "creator": { "@type": "Person", "name": "Gracie Charlottesville" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Retaking the back when hooks get stripped",
+      "description": "Elbow Escape to Remove Hooks (Defender) film study: Retaking the back when hooks get stripped, taught by Brandon Quick.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QekOjlzNWTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/QekOjlzNWTI",
+      "url": "https://www.youtube.com/watch?v=QekOjlzNWTI",
+      "creator": { "@type": "Person", "name": "Brandon Quick" },
+      "duration": "PT81S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +198,34 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Elbow Escape to Remove Hooks (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Rlk4mGg7vW4)
+
+<p class="clip-credit"><strong>Maintaining back control with the hooks</strong> — taught by Gracie Charlottesville · 1:24 · <a href="https://www.youtube.com/watch?v=Rlk4mGg7vW4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=QekOjlzNWTI)
+
+<p class="clip-credit"><strong>Retaking the back when hooks get stripped</strong> — taught by Brandon Quick · 1:21 · <a href="https://www.youtube.com/watch?v=QekOjlzNWTI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

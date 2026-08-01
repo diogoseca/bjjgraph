@@ -351,35 +351,115 @@
   "flashcards": [
     {
       "question": "What control position forms the foundation of the 10th Planet Half Guard Bottom System?",
-      "answer": "The Lockdown - a figure-four leg trap where the bottom player threads their inside leg under and around the opponent's trapped leg and grabs their own shin, disrupting the opponent's base and enabling hip extension for sweeps."
+      "answer": "The Lockdown - a figure-four leg trap where the bottom player threads their inside leg under and around the opponent's trapped leg and grabs their own shin, disrupting the opponent's base and enabling hip extension for sweeps.",
+      "answer_line": "Lockdown figure-four leg trap",
+      "distractors": {
+        "plausible": [
+          "Deep Half Guard underhook",
+          "Butterfly hooks on hips"
+        ],
+        "trap": [
+          "Flat crossface frame defense"
+        ]
+      }
     },
     {
       "question": "How does the Electric Chair function within the system beyond being a submission?",
-      "answer": "Beyond finishing as a crotch-ripper, the Electric Chair is a constant threat that forces opponents to lean back or posture defensively, which opens the Old School sweep and back-take pathways when they react."
+      "answer": "Beyond finishing as a crotch-ripper, the Electric Chair is a constant threat that forces opponents to lean back or posture defensively, which opens the Old School sweep and back-take pathways when they react.",
+      "answer_line": "Constant threat opens sweeps",
+      "distractors": {
+        "plausible": [
+          "Only a finishing submission",
+          "Sets up guard passes only"
+        ],
+        "trap": [
+          "Release grip to reset guard"
+        ]
+      }
     },
     {
       "question": "When is the Old School sweep the correct attack from the Lockdown?",
-      "answer": "When the opponent defends the Electric Chair by driving low and forward with a flat posture - that forward pressure creates the ideal angle to secure the underhook and arm triangle and roll them over the shoulder."
+      "answer": "When the opponent defends the Electric Chair by driving low and forward with a flat posture - that forward pressure creates the ideal angle to secure the underhook and arm triangle and roll them over the shoulder.",
+      "answer_line": "Opponent flattens forward vs EC",
+      "distractors": {
+        "plausible": [
+          "When opponent postures upright",
+          "When opponent stands to base"
+        ],
+        "trap": [
+          "Release Lockdown to scramble"
+        ]
+      }
     },
     {
       "question": "What are whip-up mechanics and why do they matter?",
-      "answer": "The whip-up is an explosive hip extension from the Lockdown timed to the opponent's forward pressure, generating the off-balancing momentum needed to complete sweeps and scrambles without relying on raw strength."
+      "answer": "The whip-up is an explosive hip extension from the Lockdown timed to the opponent's forward pressure, generating the off-balancing momentum needed to complete sweeps and scrambles without relying on raw strength.",
+      "answer_line": "Explosive hip extension timing",
+      "distractors": {
+        "plausible": [
+          "Slow steady hip pressure",
+          "Bridge straight up and over"
+        ],
+        "trap": [
+          "Yank the leg with your arms"
+        ]
+      }
     },
     {
       "question": "What is the most common mistake practitioners make with the Lockdown?",
-      "answer": "Holding the Lockdown statically as a resting place rather than a launching platform, which lets the opponent settle, flatten you, and develop counters; you should attack or transition within 10-15 seconds."
+      "answer": "Holding the Lockdown statically as a resting place rather than a launching platform, which lets the opponent settle, flatten you, and develop counters; you should attack or transition within 10-15 seconds.",
+      "answer_line": "Static Lockdown, no attack",
+      "distractors": {
+        "plausible": [
+          "Chasing Electric Chair too early",
+          "Skipping the underhook battle"
+        ],
+        "trap": [
+          "Releasing legs to reset guard"
+        ]
+      }
     },
     {
       "question": "How should you respond when the opponent stands up or moves to combat base against the Lockdown?",
-      "answer": "Switch to Deep Half Guard entries or elevate on the underhook to a dogfight position; the Lockdown still controls the trapped leg, allowing single-leg attacks or technical standups as they change levels."
+      "answer": "Switch to Deep Half Guard entries or elevate on the underhook to a dogfight position; the Lockdown still controls the trapped leg, allowing single-leg attacks or technical standups as they change levels.",
+      "answer_line": "Elevate to Deep Half or dogfight",
+      "distractors": {
+        "plausible": [
+          "Release leg and rebuild guard",
+          "Chase Electric Chair harder"
+        ],
+        "trap": [
+          "Let go and turtle up"
+        ]
+      }
     },
     {
       "question": "Why is winning the underhook battle critical in this system?",
-      "answer": "The underhook controls the opponent's upper body while the Lockdown controls the lower body; without it the opponent establishes a dominant crossface, flattens you, and shuts down both sweeps and the Electric Chair."
+      "answer": "The underhook controls the opponent's upper body while the Lockdown controls the lower body; without it the opponent establishes a dominant crossface, flattens you, and shuts down both sweeps and the Electric Chair.",
+      "answer_line": "Underhook stops the crossface",
+      "distractors": {
+        "plausible": [
+          "Overhook stops the crossface",
+          "Grip fighting the far wrist"
+        ],
+        "trap": [
+          "Push off opponent's head"
+        ]
+      }
     },
     {
       "question": "What role does Deep Half Guard play in the system?",
-      "answer": "Deep Half is both a defensive safety valve when the Lockdown is threatened and an alternative attacking platform with its own sweep series, letting you maintain offense by flowing between the two configurations."
+      "answer": "Deep Half is both a defensive safety valve when the Lockdown is threatened and an alternative attacking platform with its own sweep series, letting you maintain offense by flowing between the two configurations.",
+      "answer_line": "Safety valve and attack platform",
+      "distractors": {
+        "plausible": [
+          "Only used to escape bad spots",
+          "Only a defensive stalling tool"
+        ],
+        "trap": [
+          "Abandon it, always rebuild guard"
+        ]
+      }
     }
   ]
 }

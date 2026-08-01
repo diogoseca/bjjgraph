@@ -34,6 +34,43 @@ description: "Master Limp Leg Extraction to Half Guard in BJJ. Escape leg entang
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Limp leg extraction to Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Freeing the trapped leg from leg entanglement",
+      "description": "Limp leg extraction to Half Guard film study: Freeing the trapped leg from leg entanglement, taught by Kuwy Jitsu.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m0NLphEuFoc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/m0NLphEuFoc",
+      "url": "https://www.youtube.com/watch?v=m0NLphEuFoc",
+      "creator": { "@type": "Person", "name": "Kuwy Jitsu" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Extracting the leg from a leglock entry",
+      "description": "Limp leg extraction to Half Guard film study: Extracting the leg from a leglock entry, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZbUhFapIhg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/uZbUhFapIhg",
+      "url": "https://www.youtube.com/watch?v=uZbUhFapIhg",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT163S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -66,9 +103,37 @@ The strategic importance of this escape lies in its energy efficiency and reliab
 Advanced practitioners recognize this escape as part of a larger defensive system within leg entanglement warfare. The transition to Half Guard provides immediate safety from leg lock submissions while establishing a stable platform for guard recovery or offensive sweeps. The position choice is deliberate: Half Guard offers superior hip mobility and framing options compared to other escape destinations, while keeping one leg engaged to prevent immediate passing attempts.
 
 **From Position**: [[Positions/Leg Knot]] (Bottom)
-**Success Rate**: 55%
+**Success Rate**: 41%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Limp leg extraction to Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=m0NLphEuFoc)
+
+<p class="clip-credit"><strong>Freeing the trapped leg from leg entanglement</strong> — taught by Kuwy Jitsu · 1:01 · <a href="https://www.youtube.com/watch?v=m0NLphEuFoc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=uZbUhFapIhg)
+
+<p class="clip-credit"><strong>Extracting the leg from a leglock entry</strong> — taught by Craig Jones · 2:43 · <a href="https://www.youtube.com/watch?v=uZbUhFapIhg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 
@@ -249,7 +314,7 @@ Limp Leg Extraction to Half Guard serves as a cornerstone defensive technique wi
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position with similar escape principles
 
-- [[Transitions/Heel Hook]] - Primary submission threat being defended during extraction
+- [[Submissions/Heel Hook]] - Primary submission threat being defended during extraction
 
 - [[Transitions/Counter-entangle to 50-50 Guard]] - Alternative defensive option when extraction is blocked
 

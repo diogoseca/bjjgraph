@@ -34,6 +34,54 @@ description: "Master the flattened half guard position in BJJ. Complete guide co
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Flattened Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Late correction to flatten the half guard player",
+      "description": "Flattened Half Guard film study: Late correction to flatten the half guard player, taught by Paul Schreiner.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0FxFdqZ8mus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/0FxFdqZ8mus",
+      "url": "https://www.youtube.com/watch?v=0FxFdqZ8mus",
+      "creator": { "@type": "Person", "name": "Paul Schreiner" },
+      "duration": "PT153S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Far side underhook pin on a flattened half guard",
+      "description": "Flattened Half Guard film study: Far side underhook pin on a flattened half guard, taught by Craig Jones.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mWimgVQrsMU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/mWimgVQrsMU",
+      "url": "https://www.youtube.com/watch?v=mWimgVQrsMU",
+      "creator": { "@type": "Person", "name": "Craig Jones" },
+      "duration": "PT137S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Recovering after getting flattened in half guard",
+      "description": "Flattened Half Guard film study: Recovering after getting flattened in half guard, taught by Inverted Gear.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NWie1oi3JSg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NWie1oi3JSg",
+      "url": "https://www.youtube.com/watch?v=NWie1oi3JSg",
+      "creator": { "@type": "Person", "name": "Inverted Gear" },
+      "duration": "PT274S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -70,6 +118,42 @@ From the top perspective, Flattened Half Guard represents the culmination of suc
 The position's place in the BJJ positional hierarchy reflects its defensive nature. While still technically a guard position, Flattened Half Guard scores no points for either player but represents a significant positional advantage for the top player. In competition, time spent in Flattened Half Guard often leads to passivity penalties for the bottom player if they cannot demonstrate active escape attempts. Understanding this position is essential for complete grappling development, as it teaches critical lessons about pressure management, frame recovery, and defensive patience that apply throughout the ground game.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Flattened Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=0FxFdqZ8mus)
+
+<p class="clip-credit"><strong>Late correction to flatten the half guard player</strong> — taught by Paul Schreiner · 2:33 · <a href="https://www.youtube.com/watch?v=0FxFdqZ8mus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=mWimgVQrsMU)
+
+<p class="clip-credit"><strong>Far side underhook pin on a flattened half guard</strong> — taught by Craig Jones · 2:17 · <a href="https://www.youtube.com/watch?v=mWimgVQrsMU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NWie1oi3JSg)
+
+<p class="clip-credit"><strong>Recovering after getting flattened in half guard</strong> — taught by Inverted Gear · 4:34 · <a href="https://www.youtube.com/watch?v=NWie1oi3JSg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -137,29 +221,29 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (68% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (6% of attempts)
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (4% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (7% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (2% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (1% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (3% of attempts)
 
-- **[[Transitions/Underhook Recovery from Flattened/Attacker|Underhook Recovery from Flattened]]** (0% of attempts)
+- **[[Transitions/Underhook Recovery from Flattened/Attacker|Underhook Recovery from Flattened]]** (16% of attempts)
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (0% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (3% of attempts)
 
-- **[[Transitions/Deep Half Entry from Flattened/Attacker|Deep Half Entry from Flattened]]** (0% of attempts)
+- **[[Transitions/Deep Half Entry from Flattened/Attacker|Deep Half Entry from Flattened]]** (5% of attempts)
 
-- **[[Transitions/Elbow Escape from Flattened Half/Attacker|Elbow Escape from Flattened Half]]** (0% of attempts)
+- **[[Transitions/Elbow Escape from Flattened Half/Attacker|Elbow Escape from Flattened Half]]** (10% of attempts)
 
-- **[[Transitions/Recover Knee Shield from Flattened Half/Attacker|Recover Knee Shield from Flattened Half]]** (0% of attempts)
+- **[[Transitions/Recover Knee Shield from Flattened Half/Attacker|Recover Knee Shield from Flattened Half]]** (12% of attempts)
 
-- **[[Transitions/Reversal from Flattened Half Guard/Attacker|Reversal from Flattened Half Guard]]** (1% of attempts)
+- **[[Transitions/Reversal from Flattened Half Guard/Attacker|Reversal from Flattened Half Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -212,13 +296,13 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (38% of attempts)
+- **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** (17% of attempts)
 
-- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (15% of attempts)
+- **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** (13% of attempts)
 
-- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (11% of attempts)
+- **[[Transitions/Underhook Pass/Attacker|Underhook Pass]]** (8% of attempts)
 
-- **[[Transitions/Back Take/Attacker|Back Take]]** (9% of attempts)
+- **[[Transitions/Back Take/Attacker|Back Take]]** (4% of attempts)
 
 - **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (9% of attempts)
 
@@ -226,11 +310,11 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 - **[[Kimura from Flattened Half Guard/Attacker|Kimura from Flattened Half Guard]]** (5% of attempts)
 
-- **[[Transitions/Complete Pass from Flattened Half/Attacker|Complete Pass from Flattened Half]]** (2% of attempts)
+- **[[Transitions/Complete Pass from Flattened Half/Attacker|Complete Pass from Flattened Half]]** (15% of attempts)
 
-- **[[Transitions/Knee Slide from Flattened Half/Attacker|Knee Slide from Flattened Half]]** (1% of attempts)
+- **[[Transitions/Knee Slide from Flattened Half/Attacker|Knee Slide from Flattened Half]]** (11% of attempts)
 
-- **[[Transitions/Cross Face Pass from Flattened Half/Attacker|Cross Face Pass from Flattened Half]]** (1% of attempts)
+- **[[Transitions/Cross Face Pass from Flattened Half/Attacker|Cross Face Pass from Flattened Half]]** (9% of attempts)
 
 
 ### Common Mistakes

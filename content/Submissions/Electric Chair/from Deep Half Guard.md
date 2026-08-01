@@ -34,6 +34,43 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Electric Chair from Deep Half Guard \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Electric Chair from Deep Half",
+      "description": "Electric Chair from Deep Half Guard film study: Electric Chair from Deep Half, taught by Heart \u0026 Dagger BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O18n2Z5HISI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/O18n2Z5HISI",
+      "url": "https://www.youtube.com/watch?v=O18n2Z5HISI",
+      "creator": { "@type": "Person", "name": "Heart \u0026 Dagger BJJ" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Electric Chair from Lockdown Half Guard",
+      "description": "Electric Chair from Deep Half Guard film study: Electric Chair from Lockdown Half Guard, taught by Brandon Mccaghren.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sMbaY4vG2mM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sMbaY4vG2mM",
+      "url": "https://www.youtube.com/watch?v=sMbaY4vG2mM",
+      "creator": { "@type": "Person", "name": "Brandon Mccaghren" },
+      "duration": "PT42S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -78,6 +115,34 @@ Historically developed and refined within the 10th Planet system, the Electric C
 **Starting Position**: [[Positions/Half Guard/Lockdown]] · **From**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Electric Chair from Deep Half Guard in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=O18n2Z5HISI)
+
+<p class="clip-credit"><strong>Electric Chair from Deep Half</strong> — taught by Heart &amp; Dagger BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=O18n2Z5HISI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sMbaY4vG2mM)
+
+<p class="clip-credit"><strong>Electric Chair from Lockdown Half Guard</strong> — taught by Brandon Mccaghren · 0:42 · <a href="https://www.youtube.com/watch?v=sMbaY4vG2mM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="outcomes" class="content-section">
 
@@ -265,11 +330,11 @@ Historically developed and refined within the 10th Planet system, the Electric C
 - [[Submissions/Twister]]
 - [[Transitions/Kneebar]]
 - [[Submissions/Toe Hold]]
-- [[Transitions/Heel Hook]]
+- [[Submissions/Heel Hook]]
 - [[Submissions/Straight Ankle Lock]]
 - [[Submissions/Achilles Lock]]
 - [[Submissions/Boston Crab]]
-- [[Transitions/Estima Lock]]
+- [[Submissions/Estima Lock]]
 - [[Positions/Half Guard/Lockdown]] - Primary starting position - Electric Chair is signature submission from lockdown control
 - [[Positions/Half Guard/Old School]] - Alternative attack from same lockdown setup; often used when Electric Chair is defended
 - [[Positions/Twister Control/Truck]] - Advanced position transition available from Electric Chair defensive reactions

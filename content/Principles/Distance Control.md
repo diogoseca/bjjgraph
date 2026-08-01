@@ -164,6 +164,54 @@ description: "Master Distance Control in BJJ. Learn frame mechanics, hip escape 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Distance Control \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Using the frame to manage distance",
+      "description": "Distance Control film study: Using the frame to manage distance, taught by MMA Academy Online.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zJhskfuh8Ts/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zJhskfuh8Ts",
+      "url": "https://www.youtube.com/watch?v=zJhskfuh8Ts",
+      "creator": { "@type": "Person", "name": "MMA Academy Online" },
+      "duration": "PT56S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Managing distance without hip escapes",
+      "description": "Distance Control film study: Managing distance without hip escapes, taught by Ryan Hall.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TjGVpKRUUWc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/TjGVpKRUUWc",
+      "url": "https://www.youtube.com/watch?v=TjGVpKRUUWc",
+      "creator": { "@type": "Person", "name": "Ryan Hall" },
+      "duration": "PT819S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Key guard retention and distance concepts",
+      "description": "Distance Control film study: Key guard retention and distance concepts, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cdV5cRGYsyA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cdV5cRGYsyA",
+      "url": "https://www.youtube.com/watch?v=cdV5cRGYsyA",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT513S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Distance Control?
@@ -177,6 +225,42 @@ At its core, Distance Control involves understanding how to use frames, hip move
 The mastery of Distance Control fundamentally changes a practitioner's defensive capabilities. Beginners often make the mistake of accepting compression and trying to escape from completely flattened positions, which is biomechanically nearly impossible against skilled opponents. Advanced practitioners understand that space must be created in increments—first creating breathing room, then hip mobility, then full body movement—and that each increment requires different techniques and timing. This concept underlies every escape in BJJ, from simple elbow escapes from side control to complex granby rolls from back control.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Distance Control in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zJhskfuh8Ts)
+
+<p class="clip-credit"><strong>Using the frame to manage distance</strong> — taught by MMA Academy Online · 0:56 · <a href="https://www.youtube.com/watch?v=zJhskfuh8Ts" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=TjGVpKRUUWc)
+
+<p class="clip-credit"><strong>Managing distance without hip escapes</strong> — taught by Ryan Hall · 13:39 · <a href="https://www.youtube.com/watch?v=TjGVpKRUUWc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cdV5cRGYsyA)
+
+<p class="clip-credit"><strong>Key guard retention and distance concepts</strong> — taught by Jordan Preisinger · 8:33 · <a href="https://www.youtube.com/watch?v=cdV5cRGYsyA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

@@ -34,6 +34,54 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Butterfly Pass \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Butterfly guard pass into knee on belly",
+      "description": "Butterfly Pass film study: Butterfly guard pass into knee on belly, taught by Dark Arts Jiu-Jitsu coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IGpcox5vWkw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IGpcox5vWkw",
+      "url": "https://www.youtube.com/watch?v=IGpcox5vWkw",
+      "creator": { "@type": "Person", "name": "Dark Arts Jiu-Jitsu coach" },
+      "duration": "PT89S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Half butterfly guard pass, no-gi",
+      "description": "Butterfly Pass film study: Half butterfly guard pass, no-gi, taught by Kieran Davern.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ll3fkZ2oQD0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Ll3fkZ2oQD0",
+      "url": "https://www.youtube.com/watch?v=Ll3fkZ2oQD0",
+      "creator": { "@type": "Person", "name": "Kieran Davern" },
+      "duration": "PT170S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Folding pass against butterfly guard",
+      "description": "Butterfly Pass film study: Folding pass against butterfly guard, taught by Unknown coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/231FhaqR008/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/231FhaqR008",
+      "url": "https://www.youtube.com/watch?v=231FhaqR008",
+      "creator": { "@type": "Person", "name": "Unknown coach" },
+      "duration": "PT137S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,9 +110,45 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 Within a pressure-passing game, the Butterfly Pass is the disciplined answer to one of BJJ's most dynamic offensive guards, where the bottom player's hooks threaten explosive sweeps, back takes, and leg-entanglement entries at every moment. Rather than trying to out-athlete the elevation, the passer wins by geometry and weight: a base wide enough that the hooks cannot find a sweeping angle, constant forward chest pressure that denies the seated posture sweeps require, and a methodical, one-hook-at-a-time clearing sequence. Success depends on recognizing when butterfly hooks are vulnerable, maintaining base through strategic weight shifting, and exploiting the opponent's defensive reactions to secure crossface and underhook control on the way to side control. This systematic approach is what makes the pass repeatable against resisting opponents rather than dependent on a single explosive movement, and it serves as the foundation for the broader family of butterfly guard passing strategies.
 
 **From Position**: [[Positions/Butterfly Guard]] (Top)
-**Success Rate**: 58%
+**Success Rate**: 36%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Butterfly Pass in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IGpcox5vWkw)
+
+<p class="clip-credit"><strong>Butterfly guard pass into knee on belly</strong> — taught by Dark Arts Jiu-Jitsu coach · 1:29 · <a href="https://www.youtube.com/watch?v=IGpcox5vWkw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Ll3fkZ2oQD0)
+
+<p class="clip-credit"><strong>Half butterfly guard pass, no-gi</strong> — taught by Kieran Davern · 2:50 · <a href="https://www.youtube.com/watch?v=Ll3fkZ2oQD0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=231FhaqR008)
+
+<p class="clip-credit"><strong>Folding pass against butterfly guard</strong> — taught by Unknown coach · 2:17 · <a href="https://www.youtube.com/watch?v=231FhaqR008" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

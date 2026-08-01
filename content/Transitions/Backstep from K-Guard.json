@@ -15,26 +15,41 @@
   "outcomes": [
     {
       "to": "Half Guard/Top",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "success"
     },
     {
       "to": "Headquarters Position/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "success"
     },
     {
       "to": "K-Guard/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Single Leg X-Guard/Top",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Within a systematic K-Guard passing game, the backstep functions as the directional-change answer to active hook retention. Unlike forward-pressure passes that attempt to drive through the hook structure, the backstep circumvents the bottom player's strongest retention mechanics by changing the plane of engagement — the top player posts on the free leg and withdraws the trapped leg backward and around the bottom player's leg configuration rather than fighting through it. This makes it a valuable secondary option when conventional pressure passing stalls against an active K-Guard retention system, and it pairs naturally with the knee slice and smash attempts that bait the very reactions it exploits.\n\nThe technique exploits a fundamental vulnerability in K-Guard's architecture: the inverted hook generates its strongest pulling force in a forward-to-lateral plane, making it less effective against backward extraction. By posting on the free leg and withdrawing the trapped leg in a circular arc behind the bottom player's hooks, the top player bypasses the primary retention mechanism entirely. The movement requires precise timing, as the bottom player's hooks are momentarily disengaged during the extraction, creating both opportunity for the passer and vulnerability if the bottom player transitions to Single Leg X-Guard or other leg entanglements.\n\nStrategically, the backstep serves as a pressure-release valve within the K-Guard passing system. When the bottom player has established strong hook tension and active frames that prevent forward-pressure passes, the backstep changes the angle of engagement entirely. The technique chains naturally with knee slice and smash pass attempts, as the bottom player's defensive adjustments to prevent those passes can create the openings needed for a successful backstep extraction.",
   "conditions": [
     "Top player's leg is trapped in K-Guard inverted hook system with both hooks active",
@@ -250,42 +265,161 @@
     "flashcards": [
       {
         "question": "What is the optimal moment to initiate the backstep from K-Guard?",
-        "answer": "The optimal timing is when the bottom player's inverted hook tension drops momentarily, typically after they commit to an offensive action such as a sweep attempt or grip adjustment. You can also create this window by feinting a forward-pressure pass that draws their defensive hooks into a reactive position, then immediately reversing direction with the backstep before they can readjust hook tension."
+        "answer": "The optimal timing is when the bottom player's inverted hook tension drops momentarily, typically after they commit to an offensive action such as a sweep attempt or grip adjustment. You can also create this window by feinting a forward-pressure pass that draws their defensive hooks into a reactive position, then immediately reversing direction with the backstep before they can readjust hook tension.",
+        "answer_line": "When their hook tension drops",
+        "distractors": {
+          "plausible": [
+            "Right after they load hooks",
+            "As soon as you grip crossface"
+          ],
+          "trap": [
+            "Pull straight back through hooks"
+          ]
+        }
       },
       {
         "question": "Why is a circular arc motion preferable to a straight-line extraction during the backstep?",
-        "answer": "The inverted hook in K-Guard creates a catching geometry strongest against direct backward pulling. A circular arc naturally routes the trapped leg around the hook's strongest retention plane, reducing the force needed for extraction and minimizing telegraphing. The curved path also maintains better base throughout the motion compared to a straight pull that creates momentary instability at the point of maximum hook resistance."
+        "answer": "The inverted hook in K-Guard creates a catching geometry strongest against direct backward pulling. A circular arc naturally routes the trapped leg around the hook's strongest retention plane, reducing the force needed for extraction and minimizing telegraphing. The curved path also maintains better base throughout the motion compared to a straight pull that creates momentary instability at the point of maximum hook resistance.",
+        "answer_line": "Arc avoids hook's strongest angle",
+        "distractors": {
+          "plausible": [
+            "Straight pull clears hooks fastest",
+            "Arc removes need for upper grips"
+          ],
+          "trap": [
+            "Yank straight back through hooks"
+          ]
+        }
       },
       {
         "question": "What grip must you maintain throughout the backstep to prevent the bottom player from following your movement?",
-        "answer": "Upper body control through crossface, collar grip, or underhook is essential throughout the entire backstep. This grip anchors the bottom player's torso stationary while your lower body changes position. Without this anchor, the bottom player hip escapes in the direction of your backstep, maintaining their guard structure despite the directional change. The far hip control serves as a secondary anchor that blocks their primary escape route."
+        "answer": "Upper body control through crossface, collar grip, or underhook is essential throughout the entire backstep. This grip anchors the bottom player's torso stationary while your lower body changes position. Without this anchor, the bottom player hip escapes in the direction of your backstep, maintaining their guard structure despite the directional change. The far hip control serves as a secondary anchor that blocks their primary escape route.",
+        "answer_line": "Crossface, collar, or underhook",
+        "distractors": {
+          "plausible": [
+            "Overhook on the far arm",
+            "Grip only the pants cuff"
+          ],
+          "trap": [
+            "Release grips to move faster"
+          ]
+        }
       },
       {
         "question": "Your opponent catches Single Leg X-Guard during your backstep attempt - what is the correct response?",
-        "answer": "Immediately post your free hand on the mat and address the SLX hooks before they consolidate. Drive your hip forward to compress their hook structure and prevent elevation. You can attempt a backstep from SLX or transition to a standard SLX passing sequence such as a knee slide or hip switch. The key is not to panic and pull away, which gives them the distance needed to complete the sweep."
+        "answer": "Immediately post your free hand on the mat and address the SLX hooks before they consolidate. Drive your hip forward to compress their hook structure and prevent elevation. You can attempt a backstep from SLX or transition to a standard SLX passing sequence such as a knee slide or hip switch. The key is not to panic and pull away, which gives them the distance needed to complete the sweep.",
+        "answer_line": "Post hand, drive hip into hooks",
+        "distractors": {
+          "plausible": [
+            "Hip switch before addressing hooks",
+            "Grab a heel hook grip instead"
+          ],
+          "trap": [
+            "Pull away to create distance"
+          ]
+        }
       },
       {
         "question": "What is the most critical setup element before attempting the backstep from K-Guard?",
-        "answer": "Controlling the bottom player's far hip is the most critical setup element. Without far hip control, the bottom player follows your backstep by hip escaping in the same direction, maintaining their guard structure despite the directional change. The far hip pin anchors them in place so that your leg extraction creates actual positional separation rather than simply moving both players in the same direction."
+        "answer": "Controlling the bottom player's far hip is the most critical setup element. Without far hip control, the bottom player follows your backstep by hip escaping in the same direction, maintaining their guard structure despite the directional change. The far hip pin anchors them in place so that your leg extraction creates actual positional separation rather than simply moving both players in the same direction.",
+        "answer_line": "Pin their far hip first",
+        "distractors": {
+          "plausible": [
+            "Secure a deep collar tie",
+            "Load weight on posting leg"
+          ],
+          "trap": [
+            "Chase the trapped ankle grip"
+          ]
+        }
       },
       {
         "question": "How does the backstep from K-Guard differ from a backstep from De La Riva Guard?",
-        "answer": "The primary difference lies in the hook geometry being bypassed. K-Guard's inverted hook creates lateral pulling force across the centerline, while DLR's hook wraps around the outside of the leg creating a different retention vector. The K-Guard backstep requires addressing both the inverted hook and the butterfly hook in sequence, whereas the DLR backstep primarily deals with the single DLR hook and far-side foot placement. The circular extraction arc is wider in K-Guard due to the dual-hook system."
+        "answer": "The primary difference lies in the hook geometry being bypassed. K-Guard's inverted hook creates lateral pulling force across the centerline, while DLR's hook wraps around the outside of the leg creating a different retention vector. The K-Guard backstep requires addressing both the inverted hook and the butterfly hook in sequence, whereas the DLR backstep primarily deals with the single DLR hook and far-side foot placement. The circular extraction arc is wider in K-Guard due to the dual-hook system.",
+        "answer_line": "K-Guard has two hooks to clear",
+        "distractors": {
+          "plausible": [
+            "DLR hook also pulls laterally",
+            "K-Guard arc is tighter than DLR"
+          ],
+          "trap": [
+            "Treat both backsteps the same way"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after clearing both hooks during the backstep?",
-        "answer": "Drive your hips forward immediately to consolidate into half guard top or headquarters position without any pause. Secure crossface or underhook control and threaten an immediate follow-up pass such as knee slice or leg drag. The brief window between hook clearance and guard re-establishment is where you extract maximum value from the backstep - any delay allows the bottom player to reorganize their defensive structure and re-establish hooks."
+        "answer": "Drive your hips forward immediately to consolidate into half guard top or headquarters position without any pause. Secure crossface or underhook control and threaten an immediate follow-up pass such as knee slice or leg drag. The brief window between hook clearance and guard re-establishment is where you extract maximum value from the backstep - any delay allows the bottom player to reorganize their defensive structure and re-establish hooks.",
+        "answer_line": "Drive forward, consolidate now",
+        "distractors": {
+          "plausible": [
+            "Pause to reset your grips first",
+            "Retreat to standing base"
+          ],
+          "trap": [
+            "Wait for them to re-hook first"
+          ]
+        }
       },
       {
         "question": "What is the single most common reason a backstep from K-Guard fails to clear the hooks?",
-        "answer": "The most common failure is neglecting the far hip - without pinning it, the bottom player simply hip escapes in the same direction as your backstep and follows you, keeping their hook structure intact despite the angle change. The second most common failure is attempting the extraction while the butterfly hook is loaded with elevation, which steals your posting base mid-movement. Pin the far hip and compress the butterfly hook before committing to the arc."
+        "answer": "The most common failure is neglecting the far hip - without pinning it, the bottom player simply hip escapes in the same direction as your backstep and follows you, keeping their hook structure intact despite the angle change. The second most common failure is attempting the extraction while the butterfly hook is loaded with elevation, which steals your posting base mid-movement. Pin the far hip and compress the butterfly hook before committing to the arc.",
+        "answer_line": "Not pinning the far hip first",
+        "distractors": {
+          "plausible": [
+            "Butterfly hook still loaded up",
+            "Extracting too slowly overall"
+          ],
+          "trap": [
+            "Chasing a deep collar grip instead"
+          ]
+        }
       },
       {
         "question": "Your backstep stalls because the bottom player re-loads strong inverted hook tension - what do you chain into?",
-        "answer": "Use the re-hook commitment against them. As they pull the trapped leg back across the centerline, their tension is now directed forward-laterally, which opens a forward-pressure pass. Feint to reset the backstep, then immediately switch to a knee slice or smash pass in the direction they just over-committed. Alternatively, redirect the extraction arc into a leg drag by catching their far leg across your body. The backstep and forward passes form a two-way dilemma that exhausts their retention."
+        "answer": "Use the re-hook commitment against them. As they pull the trapped leg back across the centerline, their tension is now directed forward-laterally, which opens a forward-pressure pass. Feint to reset the backstep, then immediately switch to a knee slice or smash pass in the direction they just over-committed. Alternatively, redirect the extraction arc into a leg drag by catching their far leg across your body. The backstep and forward passes form a two-way dilemma that exhausts their retention.",
+        "answer_line": "Chain into a forward smash pass",
+        "distractors": {
+          "plausible": [
+            "Reset and repeat backstep only",
+            "Switch straight to a submission"
+          ],
+          "trap": [
+            "Force backstep through resistance"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The backstep movement involves rotational forces on both players' knees during the extraction arc. Execute the circular arc motion with controlled speed to avoid sudden torque on the bottom player's hooked knee. Both partners should communicate immediately if knee pressure becomes uncomfortable during drilling. Start at reduced speed and intensity to develop familiarity with the movement pattern before adding resistance. Never force the trapped leg extraction against fully locked hooks, as this creates dangerous shearing forces on both players' knee joints."
+    "safety_considerations": "The backstep movement involves rotational forces on both players' knees during the extraction arc. Execute the circular arc motion with controlled speed to avoid sudden torque on the bottom player's hooked knee. Both partners should communicate immediately if knee pressure becomes uncomfortable during drilling. Start at reduced speed and intensity to develop familiarity with the movement pattern before adding resistance. Never force the trapped leg extraction against fully locked hooks, as this creates dangerous shearing forces on both players' knee joints.",
+    "clips": [
+      {
+        "id": "wkPHi2q1Cbo",
+        "title": "K guard to 411 leg entanglement",
+        "by": "10th Planet St Louis",
+        "vertical": false,
+        "channel": "10th Planet St Louis",
+        "duration": 41,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "i8nOBcGeXv8",
+        "title": "Back step pass into the saddle",
+        "by": "Rich Close Quarters BJJ",
+        "vertical": false,
+        "channel": "Rich Close Quarters Brazilian Jiu Jitsu (CQ Brazilian Jiu Jitsu)",
+        "duration": 70,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "oh-3fjFUImY",
+        "title": "No-gi back-step attacks",
+        "by": "C4 Brazilian Jiu Jitsu",
+        "vertical": false,
+        "channel": "C4 BRAZILIAN JIU JITSU",
+        "duration": 65,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Backstep from K-Guard Defender",
@@ -371,19 +505,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a backstep from K-Guard is being attempted?",
-        "answer": "The earliest cue is a weight shift toward the top player's free posting leg, which manifests as reduced pressure on the trapped leg side. This is often accompanied by their hand moving to control your far hip, which is a critical setup requirement for the backstep. Recognizing this preparatory weight transfer gives you the maximum time window to reinforce hooks or prepare a transition before the extraction motion begins."
+        "answer": "The earliest cue is a weight shift toward the top player's free posting leg, which manifests as reduced pressure on the trapped leg side. This is often accompanied by their hand moving to control your far hip, which is a critical setup requirement for the backstep. Recognizing this preparatory weight transfer gives you the maximum time window to reinforce hooks or prepare a transition before the extraction motion begins.",
+        "answer_line": "Weight shifts to their posting leg",
+        "distractors": {
+          "plausible": [
+            "They suddenly grip your collar",
+            "They flatten their hips down"
+          ],
+          "trap": [
+            "Wait until hooks fully clear"
+          ]
+        }
       },
       {
         "question": "When should you abandon K-Guard retention and transition to Single Leg X-Guard?",
-        "answer": "The transition point is when your inverted hook has been cleared from the trapped leg despite your defensive efforts. Once the inverted hook loses contact, K-Guard's primary retention mechanism is gone and attempting to re-hook becomes a low-percentage action. At this point, immediately redirect your legs to catch the backstepping leg at the hip for Single Leg X-Guard, where you have legitimate offensive sweep options rather than fighting a losing retention battle."
+        "answer": "The transition point is when your inverted hook has been cleared from the trapped leg despite your defensive efforts. Once the inverted hook loses contact, K-Guard's primary retention mechanism is gone and attempting to re-hook becomes a low-percentage action. At this point, immediately redirect your legs to catch the backstepping leg at the hip for Single Leg X-Guard, where you have legitimate offensive sweep options rather than fighting a losing retention battle.",
+        "answer_line": "Once inverted hook is cleared",
+        "distractors": {
+          "plausible": [
+            "As soon as they shift weight",
+            "When butterfly hook loads up"
+          ],
+          "trap": [
+            "Keep fighting to re-hook it"
+          ]
+        }
       },
       {
         "question": "How does loading the butterfly hook during a backstep attempt help your defense?",
-        "answer": "The butterfly hook creates upward elevation force that compromises the top player's base during the weight transfer phase of the backstep. Since the backstep requires stable posting on the free leg, elevation pressure destabilizes this posting position and can abort the backstep attempt entirely. Even if it does not prevent the backstep, the elevation forces the top player to address the butterfly hook threat before continuing, buying you additional reaction time to reinforce your hooks."
+        "answer": "The butterfly hook creates upward elevation force that compromises the top player's base during the weight transfer phase of the backstep. Since the backstep requires stable posting on the free leg, elevation pressure destabilizes this posting position and can abort the backstep attempt entirely. Even if it does not prevent the backstep, the elevation forces the top player to address the butterfly hook threat before continuing, buying you additional reaction time to reinforce your hooks.",
+        "answer_line": "Elevation destabilizes their post",
+        "distractors": {
+          "plausible": [
+            "It resets your inverted hook",
+            "It forces a mount transition"
+          ],
+          "trap": [
+            "It signals to release all grips"
+          ]
+        }
       },
       {
         "question": "What is the risk of over-committing to hip escape when following the backstep direction?",
-        "answer": "Over-rotation during the hip escape can expose your back to the top player, potentially giving them a back-take opportunity if they abandon the backstep and capitalize on your turning motion. The hip escape should be controlled and proportional - move enough to maintain your guard angle but keep awareness of your shoulder position relative to the mat. If you feel yourself turning past perpendicular, arrest the motion and re-establish frames before continuing."
+        "answer": "Over-rotation during the hip escape can expose your back to the top player, potentially giving them a back-take opportunity if they abandon the backstep and capitalize on your turning motion. The hip escape should be controlled and proportional - move enough to maintain your guard angle but keep awareness of your shoulder position relative to the mat. If you feel yourself turning past perpendicular, arrest the motion and re-establish frames before continuing.",
+        "answer_line": "Over-rotating exposes your back",
+        "distractors": {
+          "plausible": [
+            "It weakens your guard retention",
+            "It tires your hips too fast"
+          ],
+          "trap": [
+            "Keep turning past perpendicular"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -406,6 +580,26 @@
         "phase": "Full Situational Sparring",
         "focus": "Complete defensive decision-making integration",
         "description": "Start in K-Guard bottom against full-resistance top player who may or may not attempt the backstep. Practice the complete defensive decision tree: recognize backstep cues, attempt retention through hook tension, transition to Single Leg X if retention fails, and continue offensive sequences from the new position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "EPfM9pTRivE",
+        "title": "Kill the K guard with a kick spin maneuver",
+        "by": "Keenan Cornelius",
+        "vertical": false,
+        "channel": "Keenan Cornelius",
+        "duration": 196,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JxDViUC4xhk",
+        "title": "K guard defense",
+        "by": "Rodrigo Lopes",
+        "vertical": false,
+        "channel": "Pathfinder Jiu-Jitsu Team",
+        "duration": 289,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -18,7 +18,10 @@
   "target_area": "Elbow joint hyperextension and ulnar collateral ligament",
   "starting_position": "Lasso Guard",
   "from_position": "Lasso Guard/Bottom",
-  "success_rate": 50,
+  "success_rate": {
+    "gi": 50,
+    "nogi": 50
+  },
   "overview": "The belly down armbar finish from lasso guard exploits the unique arm isolation that lasso control provides. With the shin threaded across the opponent's tricep and a firm sleeve grip maintaining control, the guard player has already accomplished the most difficult part of any armbar attack — separating a single arm from the opponent's defensive structure. This pre-existing control makes the transition to an armbar position significantly more reliable than entries from other guard types, as the opponent cannot easily retract or hide the targeted arm.\n\nThe finishing sequence involves transitioning from the lasso configuration into a standard armbar position by swinging the non-lasso leg across the opponent's face while maintaining the sleeve grip. Once the legs frame around the arm, the attacker releases the lasso threading and rotates belly down, dramatically increasing the mechanical advantage against the elbow joint. The belly down position prevents the most common armbar escapes — stacking, hitchhiker rotation, and arm extraction — because the attacker's body weight pins the opponent while gravity assists the extension.\n\nFrom a strategic perspective, this submission works best when the opponent is focused on defending lasso sweeps. The constant sweep threats force the opponent to commit their weight in predictable patterns, creating windows where the armbar entry can be initiated before they recognize the shift from sweep attack to submission attack. This deception makes the belly down armbar from lasso guard a powerful secondary threat that capitalizes on the opponent's sweep defense reactions.",
   "safety_considerations": {
     "injury_risks": [
@@ -70,7 +73,7 @@
   "related_submissions": [
     "Belly Down Armbar",
     "Far Side Armbar",
-    "Flying Armbar",
+    "Flying Armbar from Closed Guard",
     "Armbar",
     "Arm Crush",
     "Bicep Slicer"
@@ -100,17 +103,26 @@
   "outcomes": [
     {
       "to": "game-over",
-      "probability": 50,
+      "probability": {
+        "gi": 50,
+        "nogi": 50
+      },
       "result": "success"
     },
     {
       "to": "Lasso Guard/Bottom",
-      "probability": 32,
+      "probability": {
+        "gi": 32,
+        "nogi": 32
+      },
       "result": "failure"
     },
     {
       "to": "Closed Guard/Top",
-      "probability": 18,
+      "probability": {
+        "gi": 18,
+        "nogi": 18
+      },
       "result": "counter"
     }
   ],
@@ -284,52 +296,181 @@
       {
         "question": "What anatomical structure does the belly down armbar from lasso guard primarily attack?",
         "answer": "The submission primarily attacks the elbow joint, targeting hyperextension of the ulnar collateral ligament and the joint capsule. The controlled extension against the natural range of motion creates pressure at the elbow that forces the tap before structural damage occurs. Secondary stress is placed on the biceps tendon as it resists the forced extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow joint hyperextension",
+        "distractors": {
+          "plausible": [
+            "Rotator cuff rotation",
+            "Wrist ligament flexion"
+          ],
+          "trap": [
+            "Neck - crank it to force a tap"
+          ]
+        }
       },
       {
         "question": "What is the primary advantage of initiating the armbar from lasso guard compared to other positions?",
         "answer": "The lasso guard provides pre-existing arm isolation that other positions lack. The shin threaded across the tricep combined with the sleeve grip means the targeted arm is already separated from the opponent's defensive structure before the armbar sequence begins, eliminating the most difficult step of the attack. This reduces the transition time and increases the success rate of the entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm already pre-isolated",
+        "distractors": {
+          "plausible": [
+            "Better base and posture",
+            "Easier back exposure"
+          ],
+          "trap": [
+            "Release the lasso to grab a leg"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stacking weight forward during the transition — what adjustment prevents escape?",
         "answer": "When the opponent stacks forward, redirect the attack to capitalize on their forward momentum. Switch to an overhead sweep using their committed weight, or abandon the armbar temporarily and transition to an omoplata or triangle entry that exploits their broken posture. Their stacking motion actually creates new submission opportunities if you adapt rather than forcing the original armbar.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Redirect into sweep or triangle",
+        "distractors": {
+          "plausible": [
+            "Release grips and reset",
+            "Pull them back down flat"
+          ],
+          "trap": [
+            "Force the armbar as they stack"
+          ]
+        }
       },
       {
         "question": "At what point during the sequence should you release the lasso threading from the opponent's arm?",
         "answer": "Release the lasso threading only after both legs are securely positioned and clamped around the arm in the armbar configuration. If you release the lasso too early, the opponent can retract their arm before you establish control with your legs. The lasso acts as your primary retention mechanism and must remain engaged until the secondary leg control is fully established and weight-bearing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "After legs fully clamp arm",
+        "distractors": {
+          "plausible": [
+            "Once you break their posture",
+            "Never — keep it to the finish"
+          ],
+          "trap": [
+            "Let it go during the leg swing"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the belly down armbar from lasso guard?",
         "answer": "The belly down position creates extreme mechanical advantage that can damage the elbow joint very rapidly. Always apply extension slowly and progressively, never jerk or spike the arm. Monitor for verbal and physical tap signals continuously. The prone position amplifies force beyond what most practitioners expect, making controlled application essential to prevent serious ligament damage or joint capsule tears.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Extend slowly, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Trust a verbal tap alone",
+            "Squeeze knees tighter for control"
+          ],
+          "trap": [
+            "Spike the arm to force the tap"
+          ]
+        }
       },
       {
         "question": "How should you release the belly down armbar after a tap to prevent injury?",
         "answer": "Upon any tap signal, immediately lower the wrist to release extension pressure first, then release the knee squeeze around the arm, and finally disengage completely. Do not wait for confirmation or a repeated tap. Check your training partner's arm mobility after release and look for signs of swelling, reduced range of motion, or pain before continuing the training session.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release extension pressure first",
+        "distractors": {
+          "plausible": [
+            "Release knees before the wrist",
+            "Let go of everything at once"
+          ],
+          "trap": [
+            "Hold briefly to confirm tap"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts a hitchhiker escape by rotating toward you during the belly down finish — how do you maintain control?",
         "answer": "Follow their rotation by adjusting your hip position to maintain perpendicular pressure on the elbow joint. Keep your knees pinched tightly and walk your hips toward their head to close any gap they create during the roll. The belly down position naturally resists hitchhiker escapes better than the supine armbar, but you must actively track their rotational movement to stay aligned with the elbow.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Track rotation, stay perpendicular",
+        "distractors": {
+          "plausible": [
+            "Grab their belt and hold on",
+            "Sit back to a supine armbar"
+          ],
+          "trap": [
+            "Let go of the legs to re-angle"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are necessary when transitioning from lasso control to the armbar finishing position?",
         "answer": "During the transition, switch from the single-hand sleeve grip to two-handed wrist control once your legs are securely clamped around the arm. The initial sleeve grip maintains retention during the leg swing transition, but wrist control provides more precise finishing mechanics. Grip the wrist with both hands, thumbs pointing the same direction, and pull it tight against your chest to control the exact angle of extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sleeve grip to two-hand wrist",
+        "distractors": {
+          "plausible": [
+            "Keep the single sleeve grip",
+            "Switch to a figure-four grip"
+          ],
+          "trap": [
+            "Release grip to adjust hips"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own wrist to create a defensive grip during the belly down finish — what is the correct response?",
         "answer": "Use a systematic grip-breaking approach. Bridge your hips upward to change the angle and create separation between their clasped hands. Apply a two-on-one peel by isolating the defending hand's fingers and peeling them off one side at a time. Alternatively, transition to a triangle threat by releasing one leg and threading it under the defending arm, which forces them to release the grip to defend the new submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge hips, peel the grip",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Switch sides to reset angle"
+          ],
+          "trap": [
+            "Release both legs to regrip"
+          ]
+        }
       },
       {
         "question": "Why is the belly down position more effective than the standard supine armbar finish for this technique?",
         "answer": "The belly down position eliminates the opponent's ability to stack, roll through, or extract the arm by pulling it toward themselves. Your body weight presses directly onto the opponent's back, gravity assists the extension force, and the opponent cannot generate the hip movement needed for most standard armbar escapes. This makes the belly down finish particularly reliable when you have successfully completed the rotation from the lasso guard entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Denies stack, roll, and extract",
+        "distractors": {
+          "plausible": [
+            "Gives a faster submission time",
+            "Easier to enter from any guard"
+          ],
+          "trap": [
+            "Release the legs once prone"
+          ]
+        }
+      }
+    ],
+    "clips": [
+      {
+        "id": "0Szhzt-o9Cs",
+        "title": "Lasso Tripod Finish with Armbar",
+        "by": "Marcos Tinoco",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "tb4J2D6Wm28",
+        "title": "Lasso Sweep to Armbar",
+        "by": "BJJ Recap",
+        "vertical": false,
+        "channel": "BJJ Recap",
+        "duration": 37,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "RdSVo5wesuE",
+        "title": "Lasso Guard to Armbar",
+        "by": "Sickness Ferro",
+        "vertical": false,
+        "channel": "Sickness Ferro",
+        "duration": 115,
+        "verified": "2026-07-14"
       }
     ]
   },
@@ -410,22 +551,62 @@
       {
         "question": "How do you recognize that the belly down armbar from lasso guard is being set up?",
         "answer": "Key indicators include dramatically increased sleeve grip tension pulling your lassoed arm forward and down, the guard player's non-lasso leg disengaging from your hip or bicep and moving upward toward your head, and their hips angling sharply perpendicular to your body to create rotational space. The shift from sideways sweep pressure to forward-and-down pulling pressure signals the transition from sweep attack to submission setup.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Sleeve pulls down, leg to head",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar",
+            "Their hips flatten to the mat"
+          ],
+          "trap": [
+            "Opponent's grip suddenly loosens"
+          ]
+        }
       },
       {
         "question": "What is the safest response when your arm is being extended in the belly down armbar position?",
         "answer": "Tap immediately using any available signal — verbal tap, hand tap on partner or mat, or foot tap on the mat. Do not attempt to fight the extension once the belly down position is established, as the mechanical advantage is extreme and the elbow can sustain ligament damage within a fraction of a second of continued pressure. Tap early and clearly using multiple signals simultaneously to ensure your partner recognizes the submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap early with voice, hand, or foot",
+        "distractors": {
+          "plausible": [
+            "Grab your own gi to stall",
+            "Bridge your hips upward hard"
+          ],
+          "trap": [
+            "Fight the extension until it pops"
+          ]
+        }
       },
       {
         "question": "What defensive options are available before the attacker completes the belly-down rotation?",
         "answer": "Before the rotation completes, your best options are stacking your weight forward to deny the space for the leg swing, extracting your arm during the brief transition window when the lasso threading is released but the armbar legs are not yet secured, or posturing up aggressively to break the sleeve grip entirely. All three options become largely unavailable once the belly down position is fully established with the arm trapped.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stack weight, extract the arm",
+        "distractors": {
+          "plausible": [
+            "Reach for their far lapel",
+            "Pull guard and stall for time"
+          ],
+          "trap": [
+            "Wait for the lock, then escape"
+          ]
+        }
       },
       {
         "question": "Why is it critical to defend during the transition phase rather than after the belly down position is established?",
         "answer": "The belly down armbar eliminates nearly all standard armbar escapes by using body weight and gravity to pin the opponent. The mechanical advantage in the prone position is overwhelming, making late-stage escapes unreliable and dangerous to attempt. During the transition from lasso to armbar, there are brief windows where grip changes occur and the attacker's control is temporarily reduced — these moments represent the realistic escape opportunities.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Late escapes rarely work",
+        "distractors": {
+          "plausible": [
+            "Grips are tightest mid-transition",
+            "Belly-down eases elbow pressure"
+          ],
+          "trap": [
+            "Save energy, escape after it locks"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -443,6 +624,26 @@
         "phase": "Phase 3: Live Defense Integration",
         "focus": "Defending under full resistance with realistic attacks",
         "description": "Positional sparring starting in the opponent's lasso guard. Partner attacks at 70-100% intensity with full commitment to the belly down armbar. Practice chaining defensive responses when the first defense fails. Include tap discipline training — practice tapping immediately when the belly down position is fully established rather than fighting a losing position."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xh2iJGUS-NQ",
+        "title": "The Best Armbar Escape",
+        "by": "Aaron Benzrihem",
+        "vertical": false,
+        "channel": "Aaron Benzrihem bjj",
+        "duration": 227,
+        "verified": "2026-07-14"
+      },
+      {
+        "id": "niXxzdQBFEo",
+        "title": "Passing the Lasso Guard",
+        "by": "Fargo BJJ Academy",
+        "vertical": false,
+        "channel": "Fargo BJJ Academy",
+        "duration": 25,
+        "verified": "2026-07-14"
       }
     ]
   }

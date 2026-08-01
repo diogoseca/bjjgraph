@@ -180,6 +180,54 @@ description: "Learn to execute the hand fight to turtle escape from back control
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hand Fight to Turtle from Back (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Turtle escape out of back control",
+      "description": "Hand Fight to Turtle from Back (Attacker) film study: Turtle escape out of back control, taught by Adnan Sadiq.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dHanNAj6B80/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dHanNAj6B80",
+      "url": "https://www.youtube.com/watch?v=dHanNAj6B80",
+      "creator": { "@type": "Person", "name": "Adnan Sadiq" },
+      "duration": "PT38S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shrugging back escape into turtle",
+      "description": "Hand Fight to Turtle from Back (Attacker) film study: Shrugging back escape into turtle, taught by Andy Tong.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/waVFl1Ip6VU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/waVFl1Ip6VU",
+      "url": "https://www.youtube.com/watch?v=waVFl1Ip6VU",
+      "creator": { "@type": "Person", "name": "Andy Tong" },
+      "duration": "PT33S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Escaping back control into turtle",
+      "description": "Hand Fight to Turtle from Back (Attacker) film study: Escaping back control into turtle, taught by BJJ101 coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bDZntPrcLpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bDZntPrcLpg",
+      "url": "https://www.youtube.com/watch?v=bDZntPrcLpg",
+      "creator": { "@type": "Person", "name": "BJJ101 coach" },
+      "duration": "PT37S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -189,6 +237,42 @@ As the practitioner trapped in back control, your primary objective is to system
 **From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hand Fight to Turtle from Back (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dHanNAj6B80)
+
+<p class="clip-credit"><strong>Turtle escape out of back control</strong> — taught by Adnan Sadiq · 0:38 · <a href="https://www.youtube.com/watch?v=dHanNAj6B80" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=waVFl1Ip6VU)
+
+<p class="clip-credit"><strong>Shrugging back escape into turtle</strong> — taught by Andy Tong · 0:33 · <a href="https://www.youtube.com/watch?v=waVFl1Ip6VU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bDZntPrcLpg)
+
+<p class="clip-credit"><strong>Escaping back control into turtle</strong> — taught by BJJ101 coach · 0:37 · <a href="https://www.youtube.com/watch?v=bDZntPrcLpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

@@ -34,6 +34,43 @@ description: "Learn the RDLR Backstep Counter for BJJ guard passing. Detailed gu
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "RDLR Backstep Counter \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "RDLR knee cut to backstep pass",
+      "description": "RDLR Backstep Counter film study: RDLR knee cut to backstep pass, taught by Andrew Smith.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gTbjLDdBC-I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/gTbjLDdBC-I",
+      "url": "https://www.youtube.com/watch?v=gTbjLDdBC-I",
+      "creator": { "@type": "Person", "name": "Andrew Smith" },
+      "duration": "PT84S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing reverse de la riva with a shin slice",
+      "description": "RDLR Backstep Counter film study: Passing reverse de la riva with a shin slice, taught by BJJ4Breakfast.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IdfQWVHikws/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/IdfQWVHikws",
+      "url": "https://www.youtube.com/watch?v=IdfQWVHikws",
+      "creator": { "@type": "Person", "name": "BJJ4Breakfast" },
+      "duration": "PT86S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +106,34 @@ Strategically, the RDLR Backstep Counter serves as a cornerstone of systematic R
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch RDLR Backstep Counter in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=gTbjLDdBC-I)
+
+<p class="clip-credit"><strong>RDLR knee cut to backstep pass</strong> — taught by Andrew Smith · 1:24 · <a href="https://www.youtube.com/watch?v=gTbjLDdBC-I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=IdfQWVHikws)
+
+<p class="clip-credit"><strong>Passing reverse de la riva with a shin slice</strong> — taught by BJJ4Breakfast · 1:26 · <a href="https://www.youtube.com/watch?v=IdfQWVHikws" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

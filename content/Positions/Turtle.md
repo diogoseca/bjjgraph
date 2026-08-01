@@ -34,6 +34,54 @@ description: "Master turtle position in BJJ. Strategic guide covering defensive 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Turtle \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Standing up from turtle (defensive BJJ)",
+      "description": "Turtle film study: Standing up from turtle (defensive BJJ), taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_sBB-O8fqP4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/_sBB-O8fqP4",
+      "url": "https://www.youtube.com/watch?v=_sBB-O8fqP4",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT114S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Belly-down ankle lock setup from turtle",
+      "description": "Turtle film study: Belly-down ankle lock setup from turtle, taught by Revolution BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Dyxkw13p49I/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/Dyxkw13p49I",
+      "url": "https://www.youtube.com/watch?v=Dyxkw13p49I",
+      "creator": { "@type": "Person", "name": "Revolution BJJ" },
+      "duration": "PT67S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Sneaky triangle from turtle position",
+      "description": "Turtle film study: Sneaky triangle from turtle position, taught by Submission Concepts San Antonio.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qitDr1GnnAk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/qitDr1GnnAk",
+      "url": "https://www.youtube.com/watch?v=qitDr1GnnAk",
+      "creator": { "@type": "Person", "name": "Submission Concepts San Antonio" },
+      "duration": "PT73S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -62,6 +110,42 @@ description: "Master turtle position in BJJ. Strategic guide covering defensive 
 Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where the practitioner is on hands and knees with their back exposed to the opponent. While traditionally viewed as a weak position in wrestling due to back exposure, modern BJJ has transformed the turtle into a dynamic guard recovery platform and attacking position. The turtle serves as a critical juncture between being passed and recovering guard, offering numerous defensive options, sweep opportunities, and even submission threats from both perspectives. From the bottom, the key lies in maintaining a tight defensive structure while actively working to improve position rather than remaining static. From the top, the position offers multiple attacking pathways including back takes, front headlock submissions, and crucifix entries. The position requires excellent awareness of back defense, understanding of weight distribution, and precise timing to execute rolls, stand-ups, and guard recoveries or attacks depending on which perspective you occupy. Success in turtle position from either angle demands constant movement, grip fighting excellence, and the ability to read opponent's weight distribution and intentions in real-time.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Turtle in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=_sBB-O8fqP4)
+
+<p class="clip-credit"><strong>Standing up from turtle (defensive BJJ)</strong> — taught by Priit Mihkelson · 1:54 · <a href="https://www.youtube.com/watch?v=_sBB-O8fqP4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=Dyxkw13p49I)
+
+<p class="clip-credit"><strong>Belly-down ankle lock setup from turtle</strong> — taught by Revolution BJJ · 1:07 · <a href="https://www.youtube.com/watch?v=Dyxkw13p49I" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=qitDr1GnnAk)
+
+<p class="clip-credit"><strong>Sneaky triangle from turtle position</strong> — taught by Submission Concepts San Antonio · 1:13 · <a href="https://www.youtube.com/watch?v=qitDr1GnnAk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -133,23 +217,23 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (15% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up/Attacker|Technical Stand-up]]** (15% of attempts)
 
-- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (7% of attempts)
+- **[[Transitions/Turtle to Standing/Attacker|Turtle to Standing]]** (14% of attempts)
 
-- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (11% of attempts)
 
-- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (8% of attempts)
+- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (7% of attempts)
 
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (4% of attempts)
 
-- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (16% of attempts)
+- **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** (13% of attempts)
 
-- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (12% of attempts)
+- **[[Transitions/Peterson Roll/Attacker|Peterson Roll]]** (8% of attempts)
 
-- **[[Transitions/Sit Out from Turtle/Attacker|Sit Out from Turtle]]** (6% of attempts)
+- **[[Transitions/Sit Out from Turtle/Attacker|Sit Out from Turtle]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -210,43 +294,43 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (56% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (22% of attempts)
 
-- **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** (3% of attempts)
+- **[[Transitions/Chair Sit to Back/Attacker|Chair Sit to Back]]** (11% of attempts)
 
-- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (2% of attempts)
+- **[[Transitions/Front Headlock to Anaconda/Attacker|Front Headlock to Anaconda]]** (8% of attempts)
 
-- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (2% of attempts)
+- **[[Transitions/Front Headlock to Darce/Attacker|Front Headlock to Darce]]** (10% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (2% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (5% of attempts)
 
-- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (5% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (13% of attempts)
 
-- **[[Transitions/Turtle to Truck Entry/Attacker|Turtle to Truck Entry]]** (2% of attempts)
+- **[[Transitions/Turtle to Truck Entry/Attacker|Turtle to Truck Entry]]** (4% of attempts)
 
-- **[[Transitions/Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (2% of attempts)
+- **[[Transitions/Arm Triangle from Turtle/Attacker|Arm Triangle from Turtle]]** (1% of attempts)
 
-- **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (1% of attempts)
+- **[[Transitions/Turtle Attack Sequence/Attacker|Turtle Attack Sequence]]** (6% of attempts)
 
-- **[[Transitions/Turtle to Matrix/Attacker|Turtle to Matrix]]** (1% of attempts)
+- **[[Transitions/Turtle to Matrix/Attacker|Turtle to Matrix]]** (3% of attempts)
 
-- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride/Attacker|Turtle to Rodeo Ride]]** (6% of attempts)
 
 - **[[Belly Down Armbar from Turtle/Attacker|Belly Down Armbar from Turtle]]** (1% of attempts)
 
-- **[[Submissions/Boston Crab/Attacker|Boston Crab]]** (1% of attempts)
-
-- **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (1% of attempts)
+- **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (0% of attempts)
 
 - **[[Boston Crab from Turtle/Attacker|Boston Crab from Turtle]]** (1% of attempts)
 
-- **[[Kimura from Turtle/Attacker|Kimura from Turtle]]** (1% of attempts)
+- **[[Kimura from Turtle/Attacker|Kimura from Turtle]]** (4% of attempts)
 
-- **[[Loop Choke from Turtle/Attacker|Loop Choke from Turtle]]** (1% of attempts)
+- **[[Loop Choke from Turtle/Attacker|Loop Choke from Turtle]]** (0% of attempts)
 
-- **[[Transitions/Turtle to Aoki Lock/Attacker|Turtle to Aoki Lock]]** (7% of attempts)
+- **[[Transitions/Turtle to Aoki Lock/Attacker|Turtle to Aoki Lock]]** (2% of attempts)
 
-- **[[Transitions/Turtle to Russian Cowboy/Attacker|Turtle to Russian Cowboy]]** (10% of attempts)
+- **[[Transitions/Turtle to Russian Cowboy/Attacker|Turtle to Russian Cowboy]]** (2% of attempts)
+
+- **[[Transitions/Kiss of the Dragon/Attacker|Kiss of the Dragon]]** (1% of attempts)
 
 
 ### Common Mistakes

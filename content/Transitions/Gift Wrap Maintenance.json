@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Gift Wrap/Top",
-      "probability": 60,
+      "probability": {
+        "gi": 60,
+        "nogi": 60
+      },
       "result": "success"
     },
     {
       "to": "Seat Belt Control Back/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "failure"
     },
     {
       "to": "Turtle/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 60,
+  "success_rate": {
+    "gi": 60,
+    "nogi": 60
+  },
   "overview": "Within the back-attack hierarchy, maintenance is what separates a fleeting arm trap from a sustained submission platform. Unlike offensive transitions that seek to advance position or attack submissions, maintenance focuses on the micro-adjustments necessary to sustain dominance: tightening wrist control as it loosens, driving hips forward when the opponent bridges, and cycling between hook pressure and chest connection to deny escape angles.\n\nThis transition represents the defensive backbone of the Gift Wrap system. Every submission chain from Gift Wrap—rear naked choke, armbar on the free arm, transition to crucifix—depends on reliable maintenance between attacks. Without it, each failed submission attempt degrades into standard seat belt back control or worse, as the opponent capitalizes on momentary looseness to recover their trapped arm. The ability to reset to solid Gift Wrap control after each offensive foray separates effective back attackers from those who achieve dominant position but cannot convert.\n\nMaintenance is not passive holding. It demands constant sensory feedback and responsive adjustment. The attacker reads the opponent's escape intentions through weight shifts, shoulder rotation, and hip movement, then applies targeted counter-pressure before those escape mechanics develop. The best Gift Wrap practitioners make maintenance appear effortless because they address problems at inception rather than after space has been created.",
   "conditions": [
     "Gift Wrap arm trap fully established with arm threaded under opponent's armpit",
@@ -75,7 +87,7 @@
       "relationship": "Primary submission enabled by reliable Gift Wrap maintenance"
     },
     {
-      "name": "Gift Wrap Armbar",
+      "name": "Gift Wrap Armbar from Gift Wrap",
       "relationship": "Secondary submission targeting the free arm from maintained Gift Wrap"
     },
     {
@@ -239,46 +251,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing for tightening the Gift Wrap arm trap during maintenance?",
-        "answer": "Tighten the arm trap during the opponent's exhalation or immediately after they complete an escape attempt and momentarily relax. These windows offer the least resistance to tightening. Attempting to tighten during an active escape attempt wastes energy and may be insufficient to overcome their movement. The best maintenance creates a ratchet effect—tightening during each rest phase so control progressively improves."
+        "answer": "Tighten the arm trap during the opponent's exhalation or immediately after they complete an escape attempt and momentarily relax. These windows offer the least resistance to tightening. Attempting to tighten during an active escape attempt wastes energy and may be insufficient to overcome their movement. The best maintenance creates a ratchet effect—tightening during each rest phase so control progressively improves.",
+        "answer_line": "Tighten on exhale or rest phase",
+        "distractors": {
+          "plausible": [
+            "Tighten during active escape attempt",
+            "Tighten steadily the whole time"
+          ],
+          "trap": [
+            "Unhook your legs to squeeze tighter"
+          ]
+        }
       },
       {
         "question": "What conditions indicate that your Gift Wrap maintenance is degrading and requires immediate correction?",
-        "answer": "Key indicators include feeling slack in the trapped arm's diagonal line across the chest, your chest lifting away from the opponent's back, hooks becoming shallow with heels sliding toward knee level, and the opponent's trapped arm drifting below their shoulder line toward their waist. Any single indicator requires immediate correction. Multiple simultaneous indicators suggest the control is close to failure."
+        "answer": "Key indicators include feeling slack in the trapped arm's diagonal line across the chest, your chest lifting away from the opponent's back, hooks becoming shallow with heels sliding toward knee level, and the opponent's trapped arm drifting below their shoulder line toward their waist. Any single indicator requires immediate correction. Multiple simultaneous indicators suggest the control is close to failure.",
+        "answer_line": "Slack in the arm's diagonal line",
+        "distractors": {
+          "plausible": [
+            "Hooks locked too deep and heavy",
+            "Your wrist grip feels too tight"
+          ],
+          "trap": [
+            "Sit up tall to reassess control"
+          ]
+        }
       },
       {
         "question": "What is the critical arm threading angle for maximum Gift Wrap retention?",
-        "answer": "The threading arm should enter under the opponent's armpit at approximately 45 degrees relative to their torso, creating a diagonal line from their armpit to the opposite shoulder. This angle creates a mechanical lock where the opponent's own shoulder joint prevents extraction. Threading too shallow allows the arm to be pulled straight out, while threading too deep creates uncomfortable pressure without optimizing control leverage."
+        "answer": "The threading arm should enter under the opponent's armpit at approximately 45 degrees relative to their torso, creating a diagonal line from their armpit to the opposite shoulder. This angle creates a mechanical lock where the opponent's own shoulder joint prevents extraction. Threading too shallow allows the arm to be pulled straight out, while threading too deep creates uncomfortable pressure without optimizing control leverage.",
+        "answer_line": "45-degree angle under armpit",
+        "distractors": {
+          "plausible": [
+            "Straight in, parallel to torso",
+            "As deep as possible, near spine"
+          ],
+          "trap": [
+            "Thread so deep your chest lifts off"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges while you maintain Gift Wrap—what is the most common failure point?",
-        "answer": "The most common failure is allowing your chest to separate from their back during the bridge. When the opponent bridges, the natural reaction is to lean back to absorb the force, but this creates the space they need for shoulder rotation and arm recovery. The correct response is to drive your hips and chest forward into the bridge, loading your weight onto them rather than pulling away, which collapses the bridge while maintaining all contact points."
+        "answer": "The most common failure is allowing your chest to separate from their back during the bridge. When the opponent bridges, the natural reaction is to lean back to absorb the force, but this creates the space they need for shoulder rotation and arm recovery. The correct response is to drive your hips and chest forward into the bridge, loading your weight onto them rather than pulling away, which collapses the bridge while maintaining all contact points.",
+        "answer_line": "Chest separating from their back",
+        "distractors": {
+          "plausible": [
+            "Losing the wrist grip first",
+            "Hooks slipping during the bridge"
+          ],
+          "trap": [
+            "Leaning back to absorb the bridge"
+          ]
+        }
       },
       {
         "question": "How should your controlling hand be positioned on the opponent's trapped wrist for optimal retention?",
-        "answer": "Grip their wrist or lower forearm with your thumb on the inside toward their body and fingers wrapping the outside. This grip orientation allows you to pull their arm across their chest while your forearm presses against the back of their upper arm, creating two opposing pressure points. Gripping too high on the forearm reduces leverage, while gripping the hand allows wrist rotation escape."
+        "answer": "Grip their wrist or lower forearm with your thumb on the inside toward their body and fingers wrapping the outside. This grip orientation allows you to pull their arm across their chest while your forearm presses against the back of their upper arm, creating two opposing pressure points. Gripping too high on the forearm reduces leverage, while gripping the hand allows wrist rotation escape.",
+        "answer_line": "Thumb inside, fingers wrap out",
+        "distractors": {
+          "plausible": [
+            "Grip high on the forearm",
+            "Grip the hand for wrist control"
+          ],
+          "trap": [
+            "Grip their fingers to hold it down"
+          ]
+        }
       },
       {
         "question": "In which direction should you apply primary force on the trapped arm to maximize retention?",
-        "answer": "Pull the trapped arm diagonally across the opponent's chest toward their opposite shoulder and slightly downward toward the mat. This direction pins the arm against their own body using their chest as a backstop while the downward component prevents them from lifting the arm over your control. Pulling straight across without the downward angle allows upward escape, while pulling purely downward doesn't utilize the chest as a control surface."
+        "answer": "Pull the trapped arm diagonally across the opponent's chest toward their opposite shoulder and slightly downward toward the mat. This direction pins the arm against their own body using their chest as a backstop while the downward component prevents them from lifting the arm over your control. Pulling straight across without the downward angle allows upward escape, while pulling purely downward doesn't utilize the chest as a control surface.",
+        "answer_line": "Diagonal across chest, downward",
+        "distractors": {
+          "plausible": [
+            "Straight across the chest only",
+            "Straight down toward the mat"
+          ],
+          "trap": [
+            "Pull the arm up and away"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their shoulder forward to extract the trapped arm—what is your immediate counter?",
-        "answer": "Drive your controlling elbow toward the opponent's hip on the trapped arm side while simultaneously tightening chest-to-back connection. This counters their shoulder rotation by applying force in the opposite rotational direction. Additionally, briefly threatening a rear naked choke with your free arm forces them to address the neck threat, interrupting the arm recovery sequence and combining anti-rotation pressure with offensive distraction."
+        "answer": "Drive your controlling elbow toward the opponent's hip on the trapped arm side while simultaneously tightening chest-to-back connection. This counters their shoulder rotation by applying force in the opposite rotational direction. Additionally, briefly threatening a rear naked choke with your free arm forces them to address the neck threat, interrupting the arm recovery sequence and combining anti-rotation pressure with offensive distraction.",
+        "answer_line": "Elbow to hip, tighten connection",
+        "distractors": {
+          "plausible": [
+            "Re-grip the wrist tighter",
+            "Sit back to reload your base"
+          ],
+          "trap": [
+            "Release arm to re-thread deeper"
+          ]
+        }
       },
       {
         "question": "If your maintenance is failing and the opponent is recovering their arm, what attack should you launch?",
-        "answer": "As the arm begins recovering, immediately attack the rear naked choke. During arm recovery, the opponent typically commits their free arm to pushing against your controlling arm, which removes it from neck defense. This creates a brief but high-percentage window for the choke. If the choke fails, the recovery process also loosens their overall defensive structure, which can be exploited to re-establish the Gift Wrap or transition to crucifix."
+        "answer": "As the arm begins recovering, immediately attack the rear naked choke. During arm recovery, the opponent typically commits their free arm to pushing against your controlling arm, which removes it from neck defense. This creates a brief but high-percentage window for the choke. If the choke fails, the recovery process also loosens their overall defensive structure, which can be exploited to re-establish the Gift Wrap or transition to crucifix.",
+        "answer_line": "Attack the rear naked choke",
+        "distractors": {
+          "plausible": [
+            "Switch immediately to armbar",
+            "Re-establish the arm trap first"
+          ],
+          "trap": [
+            "Dive for a leglock, lose the back"
+          ]
+        }
       },
       {
         "question": "What role do hooks play specifically in Gift Wrap maintenance versus standard back control?",
-        "answer": "In Gift Wrap maintenance, hooks serve primarily as an anti-shrimp anchor rather than the primary control element. Since the arm trap handles upper body control, hooks prevent the specific hip escape movement that would allow the opponent to slide their hips away and create the torso angle needed for arm recovery. Without hooks, even a perfect arm trap fails because the opponent can shrimp away and rotate their shoulders freely."
+        "answer": "In Gift Wrap maintenance, hooks serve primarily as an anti-shrimp anchor rather than the primary control element. Since the arm trap handles upper body control, hooks prevent the specific hip escape movement that would allow the opponent to slide their hips away and create the torso angle needed for arm recovery. Without hooks, even a perfect arm trap fails because the opponent can shrimp away and rotate their shoulders freely.",
+        "answer_line": "Anti-shrimp anchor, not control",
+        "distractors": {
+          "plausible": [
+            "Primary source of back control",
+            "Finishing choke leverage point"
+          ],
+          "trap": [
+            "Hooks are optional if arm trapped"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during extended Gift Wrap maintenance periods?",
-        "answer": "Rely on structural positioning rather than muscular effort for primary control. The arm threading angle, chest-to-back gravity, and hook placement should create a self-reinforcing structure that requires minimal active force. Save muscular effort for brief counter-pressure during escape attempts and for offensive threats. Between escape attempts, consciously relax your grip to functional minimum tension while maintaining positional alignment."
+        "answer": "Rely on structural positioning rather than muscular effort for primary control. The arm threading angle, chest-to-back gravity, and hook placement should create a self-reinforcing structure that requires minimal active force. Save muscular effort for brief counter-pressure during escape attempts and for offensive threats. Between escape attempts, consciously relax your grip to functional minimum tension while maintaining positional alignment.",
+        "answer_line": "Structure over muscle, relax between",
+        "distractors": {
+          "plausible": [
+            "Hold maximum grip pressure always",
+            "Re-tighten every few seconds"
+          ],
+          "trap": [
+            "Sit up off them to rest your chest"
+          ]
+        }
       }
     ],
-    "safety_considerations": "Gift Wrap Maintenance involves sustained pressure on the opponent's shoulder joint through the trapped arm position. Monitor for signs of shoulder distress including verbal indicators, tapping, or visible discomfort. The arm trap should create positional control without causing pain or injury to the shoulder joint. If the opponent indicates shoulder discomfort, adjust the arm angle to reduce joint stress while maintaining control. Never use the arm trap as a pain compliance technique—it is a positional control tool. Release immediately if your partner taps."
+    "safety_considerations": "Gift Wrap Maintenance involves sustained pressure on the opponent's shoulder joint through the trapped arm position. Monitor for signs of shoulder distress including verbal indicators, tapping, or visible discomfort. The arm trap should create positional control without causing pain or injury to the shoulder joint. If the opponent indicates shoulder discomfort, adjust the arm angle to reduce joint stress while maintaining control. Never use the arm trap as a pain compliance technique—it is a positional control tool. Release immediately if your partner taps.",
+    "clips": [
+      {
+        "id": "g4onw9pd4_s",
+        "title": "Getting and maintaining gift wrap control",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 121,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "eKTd-9SkrVk",
+        "title": "Holding the gift wrap to take the back",
+        "by": "Henry Akins",
+        "vertical": false,
+        "channel": "Henry Akins' Hidden Jiu-Jitsu",
+        "duration": 81,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "TqKNr2lC7B0",
+        "title": "Gift wrap control position details",
+        "by": "Ronin Dojo",
+        "vertical": false,
+        "channel": "Ronin Dojo",
+        "duration": 114,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Gift Wrap Maintenance Defender",
@@ -364,23 +505,73 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to attempt arm recovery against Gift Wrap Maintenance?",
-        "answer": "The optimal moment is during the attacker's transition between control phases—specifically when they adjust their wrist grip, shift hooks, or initiate a submission threat. Each of these actions requires the attacker to momentarily reduce pressure on at least one control point, creating a window of reduced resistance. The worst time is when the attacker has just re-established full control after their own adjustment."
+        "answer": "The optimal moment is during the attacker's transition between control phases—specifically when they adjust their wrist grip, shift hooks, or initiate a submission threat. Each of these actions requires the attacker to momentarily reduce pressure on at least one control point, creating a window of reduced resistance. The worst time is when the attacker has just re-established full control after their own adjustment.",
+        "answer_line": "During attacker's control transition",
+        "distractors": {
+          "plausible": [
+            "Right after they regain control",
+            "Only when fully exhausted"
+          ],
+          "trap": [
+            "Force it against the threaded angle"
+          ]
+        }
       },
       {
         "question": "What should your free arm prioritize during Gift Wrap Maintenance defense?",
-        "answer": "The free arm must prioritize neck defense above all other tasks. The rear naked choke is the most immediate finishing threat from Gift Wrap, and the trapped arm cannot help defend it. Keep the free hand positioned near your chin and jaw line, ready to grip-fight any choking arm that approaches your neck. Only repurpose the free arm for escape mechanics when you are certain no choke threat is imminent."
+        "answer": "The free arm must prioritize neck defense above all other tasks. The rear naked choke is the most immediate finishing threat from Gift Wrap, and the trapped arm cannot help defend it. Keep the free hand positioned near your chin and jaw line, ready to grip-fight any choking arm that approaches your neck. Only repurpose the free arm for escape mechanics when you are certain no choke threat is imminent.",
+        "answer_line": "Guard the neck from the choke",
+        "distractors": {
+          "plausible": [
+            "Push against the trapped arm",
+            "Grab the mat for extra base"
+          ],
+          "trap": [
+            "Reach back to strip their hooks"
+          ]
+        }
       },
       {
         "question": "Why is hip positioning more important than arm strength for escaping Gift Wrap control?",
-        "answer": "Hip positioning generates the torso angles and rotational mechanics needed for arm recovery, while arm strength alone cannot overcome the mechanical lock of a properly threaded arm trap. Shrimping creates the shoulder rotation angle that allows the trapped arm to withdraw along its entry path. Without hip movement, the arm must fight directly against the threading angle, which requires far more force than the defensive position allows."
+        "answer": "Hip positioning generates the torso angles and rotational mechanics needed for arm recovery, while arm strength alone cannot overcome the mechanical lock of a properly threaded arm trap. Shrimping creates the shoulder rotation angle that allows the trapped arm to withdraw along its entry path. Without hip movement, the arm must fight directly against the threading angle, which requires far more force than the defensive position allows.",
+        "answer_line": "Hips create the rotation angle",
+        "distractors": {
+          "plausible": [
+            "Pry the trapping wrist off",
+            "Bridge hard to break the lock"
+          ],
+          "trap": [
+            "Stay flat and yank the arm free"
+          ]
+        }
       },
       {
         "question": "Your attacker begins threatening a rear naked choke between maintenance cycles—how does this change your escape strategy?",
-        "answer": "The choke threat actually creates an escape opportunity if managed correctly. When the attacker commits their free arm to the choke attempt, their overall positional control temporarily decreases because they are redirecting attention toward the finish. Defend the choke with your free arm first, then immediately exploit the reduced positional control to attempt arm recovery or hip escape before they re-establish full maintenance."
+        "answer": "The choke threat actually creates an escape opportunity if managed correctly. When the attacker commits their free arm to the choke attempt, their overall positional control temporarily decreases because they are redirecting attention toward the finish. Defend the choke with your free arm first, then immediately exploit the reduced positional control to attempt arm recovery or hip escape before they re-establish full maintenance.",
+        "answer_line": "Defend choke first, then escape",
+        "distractors": {
+          "plausible": [
+            "Hip escape first, then block neck",
+            "Peel the grip with both hands"
+          ],
+          "trap": [
+            "Turn belly-down to bridge free"
+          ]
+        }
       },
       {
         "question": "How do you prevent energy depletion while defending Gift Wrap Maintenance over extended periods?",
-        "answer": "Keep your trapped arm completely relaxed between escape attempts—constant pulling accomplishes nothing against a locked position and drains energy rapidly. Breathe steadily through your nose to prevent respiratory fatigue. Focus movement energy into short, precise escape attempts during identified windows rather than continuous struggling. Accept that Gift Wrap defense is a patience game where one well-timed attempt succeeds more often than twenty poorly-timed ones."
+        "answer": "Keep your trapped arm completely relaxed between escape attempts—constant pulling accomplishes nothing against a locked position and drains energy rapidly. Breathe steadily through your nose to prevent respiratory fatigue. Focus movement energy into short, precise escape attempts during identified windows rather than continuous struggling. Accept that Gift Wrap defense is a patience game where one well-timed attempt succeeds more often than twenty poorly-timed ones.",
+        "answer_line": "Relax arm, breathe, be patient",
+        "distractors": {
+          "plausible": [
+            "Yank the trapped arm nonstop",
+            "Bridge repeatedly to tire them out"
+          ],
+          "trap": [
+            "Expose your neck to free the arm"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -403,6 +594,35 @@
         "phase": "Phase 4: Full Resistance Application",
         "focus": "Competition-intensity escape practice under realistic pressure",
         "description": "Partner maintains Gift Wrap and attacks at full resistance. Defender works complete escape sequences from recognition through execution. Measure success rate and identify personal weaknesses. Develop mental composure under the stress of full-resistance Gift Wrap maintenance."
+      }
+    ],
+    "clips": [
+      {
+        "id": "j5y349B6Go8",
+        "title": "Simple gift wrap escape",
+        "by": "Chewjitsu",
+        "vertical": false,
+        "channel": "Chewjitsu",
+        "duration": 160,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "q20Bxge55hk",
+        "title": "Super Simple Way to Avoid the Gift Wrap",
+        "by": "Coach Brian",
+        "vertical": false,
+        "channel": "TeachMeGrappling Coach Brian",
+        "duration": 719,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "hBdGx59z1TI",
+        "title": "Back and Choke Escape",
+        "by": "Infinity Martial Arts",
+        "vertical": false,
+        "channel": "Infinity Martial Arts",
+        "duration": 102,
+        "verified": "2026-07-15"
       }
     ]
   }

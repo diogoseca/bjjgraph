@@ -148,6 +148,54 @@ description: "How to defend against Triangle from Guard in BJJ. Recognition cues
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Triangle from Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Triangle defense from closed guard",
+      "description": "Triangle from Guard (Defender) film study: Triangle defense from closed guard, taught by Jiu Jitsu With Andy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YG1S8nMIdjY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/YG1S8nMIdjY",
+      "url": "https://www.youtube.com/watch?v=YG1S8nMIdjY",
+      "creator": { "@type": "Person", "name": "Jiu Jitsu With Andy" },
+      "duration": "PT61S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Posture up escape from the guard triangle",
+      "description": "Triangle from Guard (Defender) film study: Posture up escape from the guard triangle, taught by Cosens MMA.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dJOw0ZEyXXc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dJOw0ZEyXXc",
+      "url": "https://www.youtube.com/watch?v=dJOw0ZEyXXc",
+      "creator": { "@type": "Person", "name": "Cosens MMA" },
+      "duration": "PT73S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "How to escape a triangle choke",
+      "description": "Triangle from Guard (Defender) film study: How to escape a triangle choke, taught by Rener and Ryron Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sR2rS2dwpNY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sR2rS2dwpNY",
+      "url": "https://www.youtube.com/watch?v=sR2rS2dwpNY",
+      "creator": { "@type": "Person", "name": "Rener and Ryron Gracie" },
+      "duration": "PT117S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -161,6 +209,42 @@ The defender must operate on multiple defensive timelines simultaneously. The im
 **Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Triangle from Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=YG1S8nMIdjY)
+
+<p class="clip-credit"><strong>Triangle defense from closed guard</strong> — taught by Jiu Jitsu With Andy · 1:01 · <a href="https://www.youtube.com/watch?v=YG1S8nMIdjY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dJOw0ZEyXXc)
+
+<p class="clip-credit"><strong>Posture up escape from the guard triangle</strong> — taught by Cosens MMA · 1:13 · <a href="https://www.youtube.com/watch?v=dJOw0ZEyXXc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sR2rS2dwpNY)
+
+<p class="clip-credit"><strong>How to escape a triangle choke</strong> — taught by Rener and Ryron Gracie · 1:57 · <a href="https://www.youtube.com/watch?v=sR2rS2dwpNY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

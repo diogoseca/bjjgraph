@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Side Control/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Seated Guard/Top",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Increasingly prevalent in modern no-gi grappling, the Bodylock Pass from Seated has become a go-to answer for the seated guard that frustrates leg-based passing. Rather than fight the seated player's distance management, it neutralizes their primary defensive tool — their ability to frame and create space with their legs — by attacking the torso directly. The top player closes distance, clamps a body lock around the lower ribs, drives the opponent flat, and clears their legs to consolidate side control.\n\nThe strategic value of this pass lies in its ability to bypass the seated guard player's leg-based defense entirely. Rather than fighting to control or redirect the opponent's legs as with toreando or leg drag passes, the bodylock pass attacks the torso directly, establishing chest-to-chest connection that renders leg frames ineffective. The level change and forward drive create a dilemma: if the seated player posts their hands to maintain base, they cannot frame against the incoming bodylock; if they bring their hands forward to defend, they lose structural support and are easily driven backward.\n\nThis technique works particularly well when chained with other passing approaches from standing. If the seated guard player focuses on defending toreando or leg drag attempts, the bodylock entry catches them during grip transitions. The pass requires commitment and proper timing, as a poorly executed entry exposes the passer to butterfly sweeps and guard recovery. Success depends on an explosive level change, tight lock establishment, and relentless forward pressure that prevents the bottom player from creating any defensive structure.",
   "conditions": [
     "Opponent is seated with hands posted behind them in seated guard position",
@@ -241,38 +253,147 @@
     "flashcards": [
       {
         "question": "What is the optimal grip placement for the body lock, and why does this location provide maximum control?",
-        "answer": "The optimal grip placement is at the lower rib to waist level where the opponent's torso is narrowest. This provides maximum mechanical advantage because your arms have the shortest circumference to control, creating the tightest possible squeeze. Placing the lock too high allows it to slide off during bridging, while placing it too low gives insufficient control over the opponent's upper body and posture."
+        "answer": "The optimal grip placement is at the lower rib to waist level where the opponent's torso is narrowest. This provides maximum mechanical advantage because your arms have the shortest circumference to control, creating the tightest possible squeeze. Placing the lock too high allows it to slide off during bridging, while placing it too low gives insufficient control over the opponent's upper body and posture.",
+        "answer_line": "Lower ribs to waist level",
+        "distractors": {
+          "plausible": [
+            "High grip near the shoulders",
+            "Low grip around the hips"
+          ],
+          "trap": [
+            "Grip around the neck"
+          ]
+        }
       },
       {
         "question": "Your opponent posts both hands behind them for base as you approach - how do you exploit this positioning?",
-        "answer": "When both hands are posted behind the opponent, their arms cannot frame against your incoming level change. This is the ideal timing window because they must choose between maintaining their base and defending the lock. Execute an explosive level change and shoot directly for the body lock, driving your head into their chest before they can bring their hands forward to create any defensive frame structure."
+        "answer": "When both hands are posted behind the opponent, their arms cannot frame against your incoming level change. This is the ideal timing window because they must choose between maintaining their base and defending the lock. Execute an explosive level change and shoot directly for the body lock, driving your head into their chest before they can bring their hands forward to create any defensive frame structure.",
+        "answer_line": "Shoot in immediately, lock body",
+        "distractors": {
+          "plausible": [
+            "Grip fight their wrists first",
+            "Wait for a stronger opening"
+          ],
+          "trap": [
+            "Shoot for a single leg"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the leg-clearing phase of the pass?",
-        "answer": "The windshield wiper hip rotation is the most critical movement. After driving the opponent flat with the body lock, your hips must rotate and slide laterally past their thigh line in a sweeping arc. This hip rotation combined with constant downward pressure on their legs prevents them from reinserting hooks or recovering guard. Without this hip movement, you remain stuck between their legs regardless of upper body control quality."
+        "answer": "The windshield wiper hip rotation is the most critical movement. After driving the opponent flat with the body lock, your hips must rotate and slide laterally past their thigh line in a sweeping arc. This hip rotation combined with constant downward pressure on their legs prevents them from reinserting hooks or recovering guard. Without this hip movement, you remain stuck between their legs regardless of upper body control quality.",
+        "answer_line": "Windshield wiper hip rotation",
+        "distractors": {
+          "plausible": [
+            "Straight forward hip drive",
+            "Sit back to create space"
+          ],
+          "trap": [
+            "Release lock to clear legs"
+          ]
+        }
       },
       {
         "question": "The opponent inserts a butterfly hook just as you establish the lock - what is your immediate response?",
-        "answer": "Immediately pinch your knees together to neutralize the hook's lifting power while driving your weight forward and downward. Do not try to remove the hook with your hands, as this would compromise the body lock. Instead, use your forward drive to flatten the opponent despite the hook, removing its leverage angle. As they go flat, the hook loses its mechanical effectiveness and you can complete the pass through continuous pressure."
+        "answer": "Immediately pinch your knees together to neutralize the hook's lifting power while driving your weight forward and downward. Do not try to remove the hook with your hands, as this would compromise the body lock. Instead, use your forward drive to flatten the opponent despite the hook, removing its leverage angle. As they go flat, the hook loses its mechanical effectiveness and you can complete the pass through continuous pressure.",
+        "answer_line": "Pinch knees, drive forward",
+        "distractors": {
+          "plausible": [
+            "Pull the hook out by hand",
+            "Base out and stop pressure"
+          ],
+          "trap": [
+            "Post a hand to defend the hook"
+          ]
+        }
       },
       {
         "question": "Why is grip fighting before the level change essential rather than shooting directly for the lock?",
-        "answer": "Shooting against strong defensive frames leads to failed entries and wasted energy. Controlling one of the opponent's wrists and pulling it across their body eliminates that arm as a frame while disrupting their posted hand base. This creates an unguarded entry lane on one side of their body. The single-wrist control also prevents them from establishing collar ties or snap-downs that counter your level change effectively."
+        "answer": "Shooting against strong defensive frames leads to failed entries and wasted energy. Controlling one of the opponent's wrists and pulling it across their body eliminates that arm as a frame while disrupting their posted hand base. This creates an unguarded entry lane on one side of their body. The single-wrist control also prevents them from establishing collar ties or snap-downs that counter your level change effectively.",
+        "answer_line": "Pull one wrist across their body",
+        "distractors": {
+          "plausible": [
+            "Grip both sleeves at once",
+            "Push their head straight back"
+          ],
+          "trap": [
+            "Dive for the leg with head down"
+          ]
+        }
       },
       {
         "question": "What happens if you release the bodylock before fully clearing the opponent's legs, and how do you confirm it is safe to release?",
-        "answer": "Releasing early allows the opponent to immediately reinsert their legs for half guard or full guard recovery, completely negating the pass. The bodylock should be maintained until your hips have cleared past the opponent's thigh line and you feel no leg contact between your hips and their guard structure. The safe release point is when you can establish crossface pressure and your hips are positioned on the far side of their body with no leg obstruction remaining."
+        "answer": "Releasing early allows the opponent to immediately reinsert their legs for half guard or full guard recovery, completely negating the pass. The bodylock should be maintained until your hips have cleared past the opponent's thigh line and you feel no leg contact between your hips and their guard structure. The safe release point is when you can establish crossface pressure and your hips are positioned on the far side of their body with no leg obstruction remaining.",
+        "answer_line": "Wait until hips clear thigh line",
+        "distractors": {
+          "plausible": [
+            "Release as soon as they flatten",
+            "Release when their hips turn"
+          ],
+          "trap": [
+            "Release early to secure crossface"
+          ]
+        }
       },
       {
         "question": "How does the bodylock pass chain with the toreando pass to create a passing dilemma against seated guard?",
-        "answer": "When you threaten toreando passes by gripping pants or ankles, the seated guard player extends their legs to create distance and defensive frames. This leg extension creates the opening for a bodylock entry because their legs are occupied defending the toreando threat and cannot frame against your torso. Conversely, when they anticipate the bodylock and bring their arms forward to frame, their legs become available for toreando control. The two passes create a push-pull dilemma where defending one directly opens the other."
+        "answer": "When you threaten toreando passes by gripping pants or ankles, the seated guard player extends their legs to create distance and defensive frames. This leg extension creates the opening for a bodylock entry because their legs are occupied defending the toreando threat and cannot frame against your torso. Conversely, when they anticipate the bodylock and bring their arms forward to frame, their legs become available for toreando control. The two passes create a push-pull dilemma where defending one directly opens the other.",
+        "answer_line": "Toreando threat opens the lock",
+        "distractors": {
+          "plausible": [
+            "Attack legs and body together",
+            "Wait for them to overcommit"
+          ],
+          "trap": [
+            "Only threaten one pass, not both"
+          ]
+        }
       },
       {
         "question": "Once the body lock is clasped, in what direction must your force be applied to break the opponent's seated base?",
-        "answer": "Drive forward and slightly downward through your chest and hips, directing force through the opponent's centerline to fold them backward over their own hips. The vector is into and over them, not lifting up or pulling them toward you. Combined with head pressure on the near side, this forward-and-down drive collapses their posted-hand base and flattens them, at which point you redirect the pressure laterally to begin clearing the legs with the windshield wiper motion."
+        "answer": "Drive forward and slightly downward through your chest and hips, directing force through the opponent's centerline to fold them backward over their own hips. The vector is into and over them, not lifting up or pulling them toward you. Combined with head pressure on the near side, this forward-and-down drive collapses their posted-hand base and flattens them, at which point you redirect the pressure laterally to begin clearing the legs with the windshield wiper motion.",
+        "answer_line": "Drive forward and down",
+        "distractors": {
+          "plausible": [
+            "Lift and pull them upward",
+            "Push straight down only"
+          ],
+          "trap": [
+            "Pull them toward your hips"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The bodylock pass applies significant compressive force to the opponent's torso and ribcage during the squeeze and drive phases. Practitioners should be mindful of training partners with rib injuries or breathing difficulties and apply pressure progressively during drilling rather than explosively. When driving the opponent backward, control the descent to prevent their head from impacting the mat. Release the lock immediately if your partner signals distress or taps due to rib compression. Avoid cranking the lock upward toward the neck, which can create dangerous cervical spine pressure."
+    "safety_considerations": "The bodylock pass applies significant compressive force to the opponent's torso and ribcage during the squeeze and drive phases. Practitioners should be mindful of training partners with rib injuries or breathing difficulties and apply pressure progressively during drilling rather than explosively. When driving the opponent backward, control the descent to prevent their head from impacting the mat. Release the lock immediately if your partner signals distress or taps due to rib compression. Avoid cranking the lock upward toward the neck, which can create dangerous cervical spine pressure.",
+    "clips": [
+      {
+        "id": "pUaS-9hIFIE",
+        "title": "Applying the body lock pass effectively",
+        "by": "Lucas Barbosa",
+        "vertical": false,
+        "channel": "Atos Jiu-Jitsu HQ | World's Best BJJ Academy - Home Page",
+        "duration": 37,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "nqFlswgRLnE",
+        "title": "Body lock pass variation with leg split",
+        "by": "Spring Hill BJJ coach",
+        "vertical": false,
+        "channel": "SpringHillBjj",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "BhFDcDU7oX0",
+        "title": "Body lock passing details",
+        "by": "Nicky Ryan",
+        "vertical": false,
+        "channel": "BJJ Fanatics",
+        "duration": 123,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Bodylock Pass from Seated Defender",
@@ -357,19 +478,59 @@
     "flashcards": [
       {
         "question": "What is the earliest visual cue that your opponent is attempting a bodylock pass rather than a leg-based pass?",
-        "answer": "The earliest cue is the opponent's arms reaching wide around your body rather than targeting your legs, pants, or sleeves. Combined with a sudden level drop and forward shoulder drive aimed at your chest rather than your lower body, this signals a bodylock entry. Leg-based passes begin with grip fighting on your lower body, while the bodylock pass targets your torso directly with wide arm positioning."
+        "answer": "The earliest cue is the opponent's arms reaching wide around your body rather than targeting your legs, pants, or sleeves. Combined with a sudden level drop and forward shoulder drive aimed at your chest rather than your lower body, this signals a bodylock entry. Leg-based passes begin with grip fighting on your lower body, while the bodylock pass targets your torso directly with wide arm positioning.",
+        "answer_line": "Wide arm reach and level drop",
+        "distractors": {
+          "plausible": [
+            "Grip fighting on your pants",
+            "Hand fighting your sleeves"
+          ],
+          "trap": [
+            "Slow, methodical grip taking"
+          ]
+        }
       },
       {
         "question": "Once the bodylock is fully locked around your torso, what is your most effective immediate response?",
-        "answer": "Your most effective immediate response is to turn to your side and begin hip escaping before the attacker can drive you flat. Once flat on your back with the lock tight, escape becomes extremely difficult because your hips lose all lateral mobility. By turning to your side immediately, you maintain hip movement and can work to create angles that prevent the leg-clearing phase. Simultaneously attack one of the attacker's hands with both of yours to break the grip."
+        "answer": "Your most effective immediate response is to turn to your side and begin hip escaping before the attacker can drive you flat. Once flat on your back with the lock tight, escape becomes extremely difficult because your hips lose all lateral mobility. By turning to your side immediately, you maintain hip movement and can work to create angles that prevent the leg-clearing phase. Simultaneously attack one of the attacker's hands with both of yours to break the grip.",
+        "answer_line": "Turn to side, hip escape now",
+        "distractors": {
+          "plausible": [
+            "Push their head away first",
+            "Frame on their hips for space"
+          ],
+          "trap": [
+            "Stay flat, wait for a gap"
+          ]
+        }
       },
       {
         "question": "Why is the technical standup the highest-percentage defense against the bodylock pass, and when does this option expire?",
-        "answer": "The technical standup is highest-percentage because it completely removes you from the seated position where the bodylock pass is effective, resetting to standing where different engagement rules apply. This option expires once the attacker has closed to clinch range and initiated their explosive level change, approximately when they are within one arm's length of your torso. After this point, attempting to stand exposes your hips to the bodylock with even greater force."
+        "answer": "The technical standup is highest-percentage because it completely removes you from the seated position where the bodylock pass is effective, resetting to standing where different engagement rules apply. This option expires once the attacker has closed to clinch range and initiated their explosive level change, approximately when they are within one arm's length of your torso. After this point, attempting to stand exposes your hips to the bodylock with even greater force.",
+        "answer_line": "Technical standup before clinch",
+        "distractors": {
+          "plausible": [
+            "Sprawl and scramble away",
+            "Shoot in for a takedown"
+          ],
+          "trap": [
+            "Stand up after they clinch"
+          ]
+        }
       },
       {
         "question": "Your opponent has established a tight bodylock but has not yet cleared your legs - what guard recovery prevents the pass?",
-        "answer": "Closing your guard by wrapping your legs around the attacker's waist is the strongest immediate guard recovery because it prevents them from using the windshield wiper hip motion needed to clear your legs. With closed guard established, the bodylock becomes less effective as the attacker cannot drive past your leg barrier. From closed guard you can then work standard guard attacks while the attacker must first break open your guard before reattempting the pass."
+        "answer": "Closing your guard by wrapping your legs around the attacker's waist is the strongest immediate guard recovery because it prevents them from using the windshield wiper hip motion needed to clear your legs. With closed guard established, the bodylock becomes less effective as the attacker cannot drive past your leg barrier. From closed guard you can then work standard guard attacks while the attacker must first break open your guard before reattempting the pass.",
+        "answer_line": "Close guard around their waist",
+        "distractors": {
+          "plausible": [
+            "Insert a butterfly hook",
+            "Grab their far ankle"
+          ],
+          "trap": [
+            "Push away and scoot back"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -392,6 +553,35 @@
         "phase": "Phase 4: Live Application",
         "focus": "Full resistance seated guard defense integration",
         "description": "Positional sparring starting in seated guard with partner using bodylock pass as their primary attack. Defend with full toolbox of frames, counters, sweeps, and guard transitions against escalating resistance. Develop automatic defensive responses and identify personal weak points."
+      }
+    ],
+    "clips": [
+      {
+        "id": "AdEb7U9e4Z8",
+        "title": "Body lock pass counters",
+        "by": "Gracie Westchase coach",
+        "vertical": false,
+        "channel": "Gracie Westchase ",
+        "duration": 89,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "YVeeiNy43j4",
+        "title": "Body lock pass defense: inside position and elevator sweep",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 123,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "9DXogw_sChY",
+        "title": "Countering a failed body lock pass",
+        "by": "Factory Fresh coach",
+        "vertical": false,
+        "channel": "Factory Fresh Jiu Jitsu",
+        "duration": 139,
+        "verified": "2026-07-15"
       }
     ]
   }

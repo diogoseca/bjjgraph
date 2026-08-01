@@ -16,26 +16,41 @@
   "outcomes": [
     {
       "to": "Standing Rear Clinch/Top",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "success"
     },
     {
-      "to": "Clinch",
-      "probability": 20,
+      "to": "Clinch/Top",
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "success"
     },
     {
       "to": "Standing Rear Clinch/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Back Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "Bridging the worlds of wrestling and Brazilian Jiu-Jitsu, the Standing Switch is the go-to reversal for a grappler who has been forced into standing rear control and needs to invert the engagement before it reaches the mat. When an opponent has secured chest-to-back control with a bodylock or seatbelt grip, the switch exploits momentary weight distribution imbalances by redirecting the opponent's forward pressure through a sharp hip rotation combined with arm clearing mechanics. This technique bridges wrestling and jiu-jitsu skill sets, making it essential for practitioners who compete in no-gi or MMA formats where standing rear clinch encounters are frequent.\n\nStrategically, the standing switch creates a genuine reversal threat that forces the controlling player to respect defensive capabilities, preventing them from committing fully to takedown entries or mat returns. The technique is most effective when timed against the opponent's weight shifts during grip transitions or takedown setups, transforming their offensive commitment into vulnerability. Executing the switch at the precise moment when the opponent shifts their weight to one side or reaches for a new grip dramatically increases success probability.\n\nWithin the broader standing escape system, the switch complements hand fighting, pummeling, counter throws, and hip escape techniques. A credible switch threat opens other escape pathways because the opponent must allocate attention to preventing the reversal, creating windows for alternative escapes. Practitioners who develop the switch as part of an integrated standing defense system become significantly harder to control from behind, often turning what should be a dominant position for the attacker into a liability.",
   "conditions": [
     "Opponent has established standing rear clinch with body-to-body contact from behind",
@@ -104,7 +119,7 @@
       "relationship": "Related grip configuration that the switch must clear during execution"
     },
     {
-      "name": "Arm Drag from Standing",
+      "name": "Arm Drag",
       "relationship": "Similar reversal concept using arm drag mechanics from neutral standing position"
     }
   ],
@@ -257,38 +272,147 @@
     "flashcards": [
       {
         "question": "When should you initiate the standing switch relative to your opponent's grip transitions?",
-        "answer": "Initiate the switch during the brief moment when the opponent is transitioning between grip configurations—for example, when they release their bodylock to reach for a seatbelt grip, or when they adjust their hand lock. During these transitions, their controlling pressure drops momentarily and their grip structure is weakest. This timing window typically lasts less than one second, requiring you to be pre-loaded and ready to pivot explosively the instant you feel the grip pressure change through tactile feedback on your torso."
+        "answer": "Initiate the switch during the brief moment when the opponent is transitioning between grip configurations—for example, when they release their bodylock to reach for a seatbelt grip, or when they adjust their hand lock. During these transitions, their controlling pressure drops momentarily and their grip structure is weakest. This timing window typically lasts less than one second, requiring you to be pre-loaded and ready to pivot explosively the instant you feel the grip pressure change through tactile feedback on your torso.",
+        "answer_line": "Mid-transition between grips",
+        "distractors": {
+          "plausible": [
+            "Right after they lock in tight",
+            "When they drive forward hardest"
+          ],
+          "trap": [
+            "Only after their grip fully sets"
+          ]
+        }
       },
       {
         "question": "Why must you lower your center of gravity before initiating the hip switch, and what specific body positioning achieves this?",
-        "answer": "Lowering your center of gravity creates a pivot point below the opponent's hip level, which generates mechanical advantage for the rotation. You achieve this by bending your knees deeply, sinking your hips toward the mat, and slightly rounding your lower back to drop below their bodylock or seatbelt line. This lower position also makes it harder for the opponent to maintain chest-to-back connection because their arms must now control at a downward angle rather than straight across, reducing their grip efficiency."
+        "answer": "Lowering your center of gravity creates a pivot point below the opponent's hip level, which generates mechanical advantage for the rotation. You achieve this by bending your knees deeply, sinking your hips toward the mat, and slightly rounding your lower back to drop below their bodylock or seatbelt line. This lower position also makes it harder for the opponent to maintain chest-to-back connection because their arms must now control at a downward angle rather than straight across, reducing their grip efficiency.",
+        "answer_line": "Bend knees, sink hips low",
+        "distractors": {
+          "plausible": [
+            "Round upper back, drop head",
+            "Lean forward, bend at waist"
+          ],
+          "trap": [
+            "Stand tall to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent has a tight bodylock with locked hands and heavy forward pressure—how do you adjust the switch to handle this grip?",
-        "answer": "Against a tight bodylock with locked hands, use the inside switch variant where you reach back deep between your bodies and hook behind their near-side thigh for maximum leverage. The key adjustment is using their forward pressure against them by initiating the pivot suddenly, causing their momentum to carry them past your center line as you rotate underneath. You may also need to create a small frame with your elbow against their locked hands to generate enough separation for the hip pivot to begin."
+        "answer": "Against a tight bodylock with locked hands, use the inside switch variant where you reach back deep between your bodies and hook behind their near-side thigh for maximum leverage. The key adjustment is using their forward pressure against them by initiating the pivot suddenly, causing their momentum to carry them past your center line as you rotate underneath. You may also need to create a small frame with your elbow against their locked hands to generate enough separation for the hip pivot to begin.",
+        "answer_line": "Inside hook behind near thigh",
+        "distractors": {
+          "plausible": [
+            "Break grip with wrist control",
+            "Post hands on their forearms"
+          ],
+          "trap": [
+            "Push back into their pressure"
+          ]
+        }
       },
       {
         "question": "What are the primary grip requirements for the reaching arm during the switch, and what happens if you cannot reach deep enough?",
-        "answer": "The reaching arm must hook deep enough behind the opponent's near-side hip, thigh, or waist to create a genuine anchor point for the rotation. Ideally, your hand reaches past their hip to hook behind the far side of their thigh, creating a firm lever. If you cannot reach deep enough due to their grip configuration or body type, the pivot lacks sufficient rotational leverage and will stall midway. In this case, do not force the switch—use preliminary hand fighting to create space for a deeper reach, or transition to the outside duck-under variant."
+        "answer": "The reaching arm must hook deep enough behind the opponent's near-side hip, thigh, or waist to create a genuine anchor point for the rotation. Ideally, your hand reaches past their hip to hook behind the far side of their thigh, creating a firm lever. If you cannot reach deep enough due to their grip configuration or body type, the pivot lacks sufficient rotational leverage and will stall midway. In this case, do not force the switch—use preliminary hand fighting to create space for a deeper reach, or transition to the outside duck-under variant.",
+        "answer_line": "Hook deep behind near-side thigh",
+        "distractors": {
+          "plausible": [
+            "Grip their wrist for control",
+            "Hook shallow at the hip bone"
+          ],
+          "trap": [
+            "Force the pivot without a hook"
+          ]
+        }
       },
       {
         "question": "What is the most common defensive response you will encounter when executing the switch, and how do you overcome it?",
-        "answer": "The most common response is the opponent re-squaring their hips by widening their stance and driving their hips forward into your back the moment they feel your rotation beginning. This kills the pivot by adding resistance directly against your rotational force. To overcome this, initiate with explosive speed from a pre-loaded position rather than building gradually. Use feint movements like small hand fighting motions to desensitize the opponent before the real switch. Changing the direction of your initial movement before pivoting can also disrupt their reactive hip drive."
+        "answer": "The most common response is the opponent re-squaring their hips by widening their stance and driving their hips forward into your back the moment they feel your rotation beginning. This kills the pivot by adding resistance directly against your rotational force. To overcome this, initiate with explosive speed from a pre-loaded position rather than building gradually. Use feint movements like small hand fighting motions to desensitize the opponent before the real switch. Changing the direction of your initial movement before pivoting can also disrupt their reactive hip drive.",
+        "answer_line": "Explosive speed from pre-load",
+        "distractors": {
+          "plausible": [
+            "Gradually build rotational force",
+            "Match their hip pressure back"
+          ],
+          "trap": [
+            "Push straight into their drive"
+          ]
+        }
       },
       {
         "question": "How does the direction of force application differ between the inside switch and the outside duck-under switch?",
-        "answer": "In the inside switch, the primary force direction is rotational toward the opponent's body, pivoting your hips through the space between your torso and theirs. Your reaching arm pulls you through the inside channel around the opponent's near side. In the outside duck-under switch, the force initially moves away from the opponent as you duck your head and shoulders under their arm toward the outside, then circles back behind them. The inside switch is more direct and faster but requires more space, while the outside switch takes a longer path but works when the inside channel is blocked."
+        "answer": "In the inside switch, the primary force direction is rotational toward the opponent's body, pivoting your hips through the space between your torso and theirs. Your reaching arm pulls you through the inside channel around the opponent's near side. In the outside duck-under switch, the force initially moves away from the opponent as you duck your head and shoulders under their arm toward the outside, then circles back behind them. The inside switch is more direct and faster but requires more space, while the outside switch takes a longer path but works when the inside channel is blocked.",
+        "answer_line": "Inside in, outside away then behind",
+        "distractors": {
+          "plausible": [
+            "Outside in, inside ducks under",
+            "Both push straight into the hips"
+          ],
+          "trap": [
+            "Turn your back to duck under"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their near-side leg wide the moment you begin pivoting—how do you adjust mid-technique?",
-        "answer": "A wide near-side leg post creates a structural barrier against your rotation. Adjust by changing your pivot angle to go slightly under their posted leg, hooking your reaching arm lower to their ankle or calf instead of their thigh. Alternatively, use the wide post as an opportunity to change to an outside switch, ducking under their far-side arm since their wide stance has compromised their ability to drive forward pressure. If neither adjustment works, abandon the attempt cleanly and transition to pummeling or hand fighting before the opponent capitalizes."
+        "answer": "A wide near-side leg post creates a structural barrier against your rotation. Adjust by changing your pivot angle to go slightly under their posted leg, hooking your reaching arm lower to their ankle or calf instead of their thigh. Alternatively, use the wide post as an opportunity to change to an outside switch, ducking under their far-side arm since their wide stance has compromised their ability to drive forward pressure. If neither adjustment works, abandon the attempt cleanly and transition to pummeling or hand fighting before the opponent capitalizes.",
+        "answer_line": "Hook lower, target ankle/calf",
+        "distractors": {
+          "plausible": [
+            "Push straight through the leg",
+            "Switch to outside, go over leg"
+          ],
+          "trap": [
+            "Force the original angle anyway"
+          ]
+        }
       },
       {
         "question": "After completing a successful switch, what are the first three actions you should take and in what order?",
-        "answer": "First, immediately drive your chest into the opponent's back to establish firm chest-to-back contact before they can begin counter-rotating. Second, secure a controlling grip—preferably seatbelt with your choking arm over their shoulder—by wrapping your arms around their upper body and locking your hands. Third, angle your hips to one side at approximately 45 degrees to prevent them from executing their own switch reversal. The order is critical because chest contact prevents separation, the grip prevents escape, and the hip angle prevents the counter-switch."
+        "answer": "First, immediately drive your chest into the opponent's back to establish firm chest-to-back contact before they can begin counter-rotating. Second, secure a controlling grip—preferably seatbelt with your choking arm over their shoulder—by wrapping your arms around their upper body and locking your hands. Third, angle your hips to one side at approximately 45 degrees to prevent them from executing their own switch reversal. The order is critical because chest contact prevents separation, the grip prevents escape, and the hip angle prevents the counter-switch.",
+        "answer_line": "Chest, then seatbelt, then angle",
+        "distractors": {
+          "plausible": [
+            "Grip first, then chest, then angle",
+            "Angle hips before securing grip"
+          ],
+          "trap": [
+            "Go straight for a submission"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The standing switch involves rapid rotational forces on the spine and hips that require gradual training progression. Practice the pivot motion at low intensity initially and build toward explosive speed over time. Avoid forcing the rotation against extremely tight grips as this can strain the lower back or shoulder of the reaching arm. When drilling with partners, communicate clearly before explosive switch attempts to prevent collision injuries. On hard surfaces, be cautious of the mat return counter where the opponent drives you down during the switch—falling awkwardly during rotation can cause neck or shoulder injuries. Always warm up the hips, lower back, and shoulders thoroughly before switch practice."
+    "safety_considerations": "The standing switch involves rapid rotational forces on the spine and hips that require gradual training progression. Practice the pivot motion at low intensity initially and build toward explosive speed over time. Avoid forcing the rotation against extremely tight grips as this can strain the lower back or shoulder of the reaching arm. When drilling with partners, communicate clearly before explosive switch attempts to prevent collision injuries. On hard surfaces, be cautious of the mat return counter where the opponent drives you down during the switch—falling awkwardly during rotation can cause neck or shoulder injuries. Always warm up the hips, lower back, and shoulders thoroughly before switch practice.",
+    "clips": [
+      {
+        "id": "2VCyaassiRI",
+        "title": "Leg switch cutback from rear bodylock",
+        "by": "Procel BJJ",
+        "vertical": false,
+        "channel": "Procel Brazilian Jiu-Jitsu",
+        "duration": 52,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "NJfpYHK2N2I",
+        "title": "The standing switch for wrestling and MMA",
+        "by": "Danny Mitchell",
+        "vertical": false,
+        "channel": "Danny Mitchell MMA",
+        "duration": 114,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "qCGs54kGvQo",
+        "title": "Wrestling reversals: switch from bottom",
+        "by": "American University Wrestling",
+        "vertical": false,
+        "channel": "American University Wrestling",
+        "duration": 31,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Standing Switch from Rear Clinch Defender",
@@ -374,19 +498,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a standing switch?",
-        "answer": "The earliest cue is a sudden drop in the opponent's hip level accompanied by increased knee bend, lowering their center of gravity below your controlling grip line. This level change is the prerequisite for the switch because the opponent needs a pivot point below your grip to generate rotational leverage. You can feel this through your grips as the opponent's torso drops away from your chest contact and your arms begin to angle downward. Reacting at this pre-switch phase gives you the maximum time window to counter."
+        "answer": "The earliest cue is a sudden drop in the opponent's hip level accompanied by increased knee bend, lowering their center of gravity below your controlling grip line. This level change is the prerequisite for the switch because the opponent needs a pivot point below your grip to generate rotational leverage. You can feel this through your grips as the opponent's torso drops away from your chest contact and your arms begin to angle downward. Reacting at this pre-switch phase gives you the maximum time window to counter.",
+        "answer_line": "Sudden drop in their hip level",
+        "distractors": {
+          "plausible": [
+            "Increase in forward pressure",
+            "Tightening of their bodylock"
+          ],
+          "trap": [
+            "Wait for the full rotation"
+          ]
+        }
       },
       {
         "question": "Why is maintaining even weight distribution across the opponent's back essential for preventing the switch?",
-        "answer": "Even weight distribution denies the opponent a clear rotational path because they need to pivot toward the side where there is less resistance. If your weight is loaded to the right side of their back, they can switch left where your pressure is minimal. By keeping weight centered and evenly distributed, both sides present equal resistance to rotation, forcing the opponent to generate significantly more force to execute the switch in either direction. This even distribution also keeps your own base balanced and prevents them from using your asymmetric weight against you."
+        "answer": "Even weight distribution denies the opponent a clear rotational path because they need to pivot toward the side where there is less resistance. If your weight is loaded to the right side of their back, they can switch left where your pressure is minimal. By keeping weight centered and evenly distributed, both sides present equal resistance to rotation, forcing the opponent to generate significantly more force to execute the switch in either direction. This even distribution also keeps your own base balanced and prevents them from using your asymmetric weight against you.",
+        "answer_line": "Denies a low-resistance side",
+        "distractors": {
+          "plausible": [
+            "Loads weight to dominant side",
+            "Keeps grips tight, not weight"
+          ],
+          "trap": [
+            "Shift weight to one side"
+          ]
+        }
       },
       {
         "question": "Your opponent has attempted two switch feints but has not committed to a full attempt—how should this change your defensive approach?",
-        "answer": "Multiple feints indicate the opponent is testing your reactions and looking for a pattern to exploit. Avoid over-reacting to subsequent feints with large defensive movements, as this creates the timing windows they seek. Instead, maintain steady baseline pressure and grip tension without dramatic reactions. Simultaneously, recognize that a full-commitment switch is imminent and pre-load your mat return option so that when they finally commit, you can capitalize on their lowered base and rotational movement with an immediate takedown counter rather than a purely defensive response."
+        "answer": "Multiple feints indicate the opponent is testing your reactions and looking for a pattern to exploit. Avoid over-reacting to subsequent feints with large defensive movements, as this creates the timing windows they seek. Instead, maintain steady baseline pressure and grip tension without dramatic reactions. Simultaneously, recognize that a full-commitment switch is imminent and pre-load your mat return option so that when they finally commit, you can capitalize on their lowered base and rotational movement with an immediate takedown counter rather than a purely defensive response.",
+        "answer_line": "Stay calm, pre-load a counter",
+        "distractors": {
+          "plausible": [
+            "React big to each feint",
+            "Tighten grips after each feint"
+          ],
+          "trap": [
+            "Loosen up to bait a commitment"
+          ]
+        }
       },
       {
         "question": "How does the mat return counter work as a response to the switch, and what is the critical timing?",
-        "answer": "The mat return counter exploits the opponent's compromised base during the switch—when they drop their hips and begin rotating, their feet are no longer optimally positioned for balance. The critical timing is after the opponent has committed to the level change but before they complete significant rotation. At this moment, drive your hips forward and down while lifting slightly with your locked grip, then step your outside leg past their near-side hip to trip or drive them to the mat. If executed too early, they have not yet compromised their base. If too late, they complete the rotation and you drive into empty space."
+        "answer": "The mat return counter exploits the opponent's compromised base during the switch—when they drop their hips and begin rotating, their feet are no longer optimally positioned for balance. The critical timing is after the opponent has committed to the level change but before they complete significant rotation. At this moment, drive your hips forward and down while lifting slightly with your locked grip, then step your outside leg past their near-side hip to trip or drive them to the mat. If executed too early, they have not yet compromised their base. If too late, they complete the rotation and you drive into empty space.",
+        "answer_line": "After level change, before rotation",
+        "distractors": {
+          "plausible": [
+            "The instant they touch the mat",
+            "As soon as hips start dropping"
+          ],
+          "trap": [
+            "Wait until switch fully completes"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -409,6 +573,26 @@
         "phase": "Phase 4: Live Positional Sparring",
         "focus": "Applying switch defense under full resistance conditions",
         "description": "Start from standing rear clinch with partner working all available escapes including the switch at full intensity. Maintain control while reading and countering switch attempts in real time. Develop the ability to distinguish between feints and committed attempts while sustaining offensive pressure."
+      }
+    ],
+    "clips": [
+      {
+        "id": "8l-W5VTZC3E",
+        "title": "Rear bodylock: kimura counter to the sweep",
+        "by": "SBG Australia",
+        "vertical": false,
+        "channel": "SBG Australia",
+        "duration": 21,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "DFXdqByRxNg",
+        "title": "Standing Rear Body Lock: Counters, Attacks and Defense",
+        "by": "Brian Glick",
+        "vertical": false,
+        "channel": "Brian Glick",
+        "duration": 318,
+        "verified": "2026-07-15"
       }
     ]
   }

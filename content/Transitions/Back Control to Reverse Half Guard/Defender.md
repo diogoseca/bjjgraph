@@ -148,6 +148,54 @@ description: "Learn to defend the backstep to reverse half guard from back contr
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Reverse Half Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the back step to back take",
+      "description": "Back Control to Reverse Half Guard (Defender) film study: Countering the back step to back take, taught by For\u00e7a Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4swAdbsNv-0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4swAdbsNv-0",
+      "url": "https://www.youtube.com/watch?v=4swAdbsNv-0",
+      "creator": { "@type": "Person", "name": "For\u00e7a Martial Arts" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Escaping the back with correct leg work",
+      "description": "Back Control to Reverse Half Guard (Defender) film study: Escaping the back with correct leg work, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k-lCzVAzJpg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/k-lCzVAzJpg",
+      "url": "https://www.youtube.com/watch?v=k-lCzVAzJpg",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT421S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Dealing with the switch base from half guard",
+      "description": "Back Control to Reverse Half Guard (Defender) film study: Dealing with the switch base from half guard, taught by Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rja-2KKDGb0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rja-2KKDGb0",
+      "url": "https://www.youtube.com/watch?v=rja-2KKDGb0",
+      "creator": { "@type": "Person", "name": "Lachlan Giles" },
+      "duration": "PT284S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender, you are in the process of escaping back control when your oppon
 **Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Reverse Half Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4swAdbsNv-0)
+
+<p class="clip-credit"><strong>Countering the back step to back take</strong> — taught by Força Martial Arts · 1:34 · <a href="https://www.youtube.com/watch?v=4swAdbsNv-0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=k-lCzVAzJpg)
+
+<p class="clip-credit"><strong>Escaping the back with correct leg work</strong> — taught by Lachlan Giles · 7:01 · <a href="https://www.youtube.com/watch?v=k-lCzVAzJpg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rja-2KKDGb0)
+
+<p class="clip-credit"><strong>Dealing with the switch base from half guard</strong> — taught by Lachlan Giles · 4:44 · <a href="https://www.youtube.com/watch?v=rja-2KKDGb0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

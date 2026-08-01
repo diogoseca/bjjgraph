@@ -174,6 +174,54 @@ description: "Complete guide to executing the body triangle squeeze submission i
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Body Triangle Squeeze (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "How to properly use the body triangle",
+      "description": "Body Triangle Squeeze (Attacker) film study: How to properly use the body triangle, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8JwxpgWGsFU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8JwxpgWGsFU",
+      "url": "https://www.youtube.com/watch?v=8JwxpgWGsFU",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT294S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scorpion Rib Crusher Body Triangle Breakdown",
+      "description": "Body Triangle Squeeze (Attacker) film study: Scorpion Rib Crusher Body Triangle Breakdown, taught by Bloom BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8gNZDH1RvyQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/8gNZDH1RvyQ",
+      "url": "https://www.youtube.com/watch?v=8gNZDH1RvyQ",
+      "creator": { "@type": "Person", "name": "Bloom BJJ" },
+      "duration": "PT271S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Body Triangle Concepts",
+      "description": "Body Triangle Squeeze (Attacker) film study: Body Triangle Concepts, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yxOGv7-dBg4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/yxOGv7-dBg4",
+      "url": "https://www.youtube.com/watch?v=yxOGv7-dBg4",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT488S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 **From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Body Triangle Squeeze (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8JwxpgWGsFU)
+
+<p class="clip-credit"><strong>How to properly use the body triangle</strong> — taught by Gordon Ryan · 4:54 · <a href="https://www.youtube.com/watch?v=8JwxpgWGsFU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=8gNZDH1RvyQ)
+
+<p class="clip-credit"><strong>Scorpion Rib Crusher Body Triangle Breakdown</strong> — taught by Bloom BJJ · 4:31 · <a href="https://www.youtube.com/watch?v=8gNZDH1RvyQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=yxOGv7-dBg4)
+
+<p class="clip-credit"><strong>Body Triangle Concepts</strong> — taught by RVV BJJ · 8:08 · <a href="https://www.youtube.com/watch?v=yxOGv7-dBg4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 
@@ -238,7 +322,7 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 35% |
+| Success | [[Rear Naked Choke from Body Triangle]] | 35% |
 | Failure | [[Positions/Back Control/Body Triangle]] | 45% |
 | Counter | [[Positions/Back Control]] | 20% |
 

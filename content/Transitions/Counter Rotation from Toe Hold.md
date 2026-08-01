@@ -34,6 +34,54 @@ description: "Master the Counter Rotation from Toe Hold in BJJ. Learn to neutral
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Counter Rotation from Toe Hold \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Escaping the toe hold by rotating out",
+      "description": "Counter Rotation from Toe Hold film study: Escaping the toe hold by rotating out, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3a9k8-ZcYrk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/3a9k8-ZcYrk",
+      "url": "https://www.youtube.com/watch?v=3a9k8-ZcYrk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT106S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Toe Hold Defense: The Rolling Toe Hold Counter-Rotation",
+      "description": "Counter Rotation from Toe Hold film study: Toe Hold Defense: The Rolling Toe Hold Counter-Rotation, taught by RVV BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9GvicevbYsc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9GvicevbYsc",
+      "url": "https://www.youtube.com/watch?v=9GvicevbYsc",
+      "creator": { "@type": "Person", "name": "RVV BJJ" },
+      "duration": "PT453S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Rolling Out of Leg Locks",
+      "description": "Counter Rotation from Toe Hold film study: Rolling Out of Leg Locks, taught by Craig Jones and Lachlan Giles.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DrjbaXt-nTo/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/DrjbaXt-nTo",
+      "url": "https://www.youtube.com/watch?v=DrjbaXt-nTo",
+      "creator": { "@type": "Person", "name": "Craig Jones and Lachlan Giles" },
+      "duration": "PT243S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ This transition occupies a specialized niche in the leg lock defense hierarchy. 
 **Success Rate**: 45%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Counter Rotation from Toe Hold in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=3a9k8-ZcYrk)
+
+<p class="clip-credit"><strong>Escaping the toe hold by rotating out</strong> — taught by Gordon Ryan · 1:46 · <a href="https://www.youtube.com/watch?v=3a9k8-ZcYrk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9GvicevbYsc)
+
+<p class="clip-credit"><strong>Toe Hold Defense: The Rolling Toe Hold Counter-Rotation</strong> — taught by RVV BJJ · 7:33 · <a href="https://www.youtube.com/watch?v=9GvicevbYsc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=DrjbaXt-nTo)
+
+<p class="clip-credit"><strong>Rolling Out of Leg Locks</strong> — taught by Craig Jones and Lachlan Giles · 4:03 · <a href="https://www.youtube.com/watch?v=DrjbaXt-nTo" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

@@ -17,21 +17,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "success"
     },
     {
       "to": "High Mount/Bottom",
-      "probability": 40,
+      "probability": {
+        "gi": 40,
+        "nogi": 40
+      },
       "result": "failure"
     },
     {
       "to": "Mount/Bottom",
-      "probability": 25,
+      "probability": {
+        "gi": 25,
+        "nogi": 25
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 35,
+  "success_rate": {
+    "gi": 35,
+    "nogi": 35
+  },
   "overview": "The Trap and Roll from High Mount is a modified version of the fundamental upa escape, adapted for the unique challenges presented by an opponent who has walked their knees high toward the bottom player's armpits. In standard mount, the upa relies on trapping one arm and the corresponding foot, then bridging explosively to roll the opponent over for a clean reversal. From high mount, the biomechanical dynamics shift significantly: the top player's elevated knees reduce the bottom player's ability to generate bridging power through hip extension, and the compressed torso position limits rotational freedom. A full reversal is rare, making half guard recovery the realistic high-percentage outcome.\n\nThe key to making this escape work from high mount lies in timing and provocation. Rather than attempting the roll from a static position—where the top player's elevated weight distribution makes the bridge nearly impossible—the bottom player must wait for or create moments when the top player shifts weight forward. When the top player reaches for a collar, isolates an arm, or adjusts grips, their weight momentarily transfers from their hips to their hands, creating a brief window where the bridge becomes mechanically viable. This reactive timing differentiates the high mount version from the proactive upa used against standard mount.\n\nStrategic application of this escape requires understanding its role within the broader escape hierarchy from high mount. The Trap and Roll serves as a high-reward option that works best as a second-layer escape—triggered when the top player commits to an offensive action. Combining the trap and roll with frame-based escapes and elbow escapes creates a multi-layered defensive system that keeps the top player uncertain and prevents them from fully committing to submission sequences without consequence.",
   "conditions": [
     "Top player has shifted weight forward during a submission attempt or grip adjustment",
@@ -245,42 +257,161 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for attempting the Trap and Roll from High Mount?",
-        "answer": "The optimal window occurs when the top player shifts weight forward during a submission attempt, grip adjustment, or positional change. At this moment, their weight transfers from hips to hands, reducing the downward force on the chest and making the bridge mechanically viable. Attempting the roll against settled, static high mount pressure is nearly impossible due to the elevated knee positioning that eliminates bridge leverage."
+        "answer": "The optimal window occurs when the top player shifts weight forward during a submission attempt, grip adjustment, or positional change. At this moment, their weight transfers from hips to hands, reducing the downward force on the chest and making the bridge mechanically viable. Attempting the roll against settled, static high mount pressure is nearly impossible due to the elevated knee positioning that eliminates bridge leverage.",
+        "answer_line": "When their weight shifts forward",
+        "distractors": {
+          "plausible": [
+            "As soon as mount is secured",
+            "Anytime you feel strong enough"
+          ],
+          "trap": [
+            "During settled static pressure"
+          ]
+        }
       },
       {
         "question": "Why must you trap the arm before hooking the foot in the execution sequence?",
-        "answer": "The arm trap must come first because the top player's posting hand is their primary base recovery mechanism. If you hook the foot first, the top player can simply post their hands wide to maintain balance even without one foot. By trapping the arm first, you eliminate their ability to post on that side, and the subsequent foot hook removes their secondary base, creating the structural collapse needed for the escape."
+        "answer": "The arm trap must come first because the top player's posting hand is their primary base recovery mechanism. If you hook the foot first, the top player can simply post their hands wide to maintain balance even without one foot. By trapping the arm first, you eliminate their ability to post on that side, and the subsequent foot hook removes their secondary base, creating the structural collapse needed for the escape.",
+        "answer_line": "Arm trap removes their main post",
+        "distractors": {
+          "plausible": [
+            "Hook foot first, then trap arm",
+            "Trap both hands simultaneously"
+          ],
+          "trap": [
+            "Hook foot only, skip arm trap"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free hand wide when they feel you initiate the bridge—how do you adjust?",
-        "answer": "When the opponent posts wide to stop the roll, immediately abandon the trap and roll and transition to an elbow escape on the opposite side. Their wide posting hand creates space on the other side of their body, and their weight shift toward that hand means less pressure on your opposite hip. Use this opening to shrimp away from the posted hand, insert your knee, and recover to half guard through the newly created gap."
+        "answer": "When the opponent posts wide to stop the roll, immediately abandon the trap and roll and transition to an elbow escape on the opposite side. Their wide posting hand creates space on the other side of their body, and their weight shift toward that hand means less pressure on your opposite hip. Use this opening to shrimp away from the posted hand, insert your knee, and recover to half guard through the newly created gap.",
+        "answer_line": "Elbow escape to the open side",
+        "distractors": {
+          "plausible": [
+            "Force the bridge through anyway",
+            "Switch trap to the posted arm"
+          ],
+          "trap": [
+            "Keep bridging into the post"
+          ]
+        }
       },
       {
         "question": "What is the critical direction of force during the bridge in this technique?",
-        "answer": "The bridge must drive upward first to elevate the opponent's weight off the chest, then immediately angle at approximately 45 degrees toward the trapped arm side. A straight-up bridge without the angular component lacks the rotational force needed to displace the opponent. The diagonal drive exploits the structural weakness created by the arm and foot traps on one side, channeling force through the opponent's compromised base."
+        "answer": "The bridge must drive upward first to elevate the opponent's weight off the chest, then immediately angle at approximately 45 degrees toward the trapped arm side. A straight-up bridge without the angular component lacks the rotational force needed to displace the opponent. The diagonal drive exploits the structural weakness created by the arm and foot traps on one side, channeling force through the opponent's compromised base.",
+        "answer_line": "Up first, then 45° to trapped side",
+        "distractors": {
+          "plausible": [
+            "Straight up with no angle",
+            "45° away from trapped side"
+          ],
+          "trap": [
+            "Bridge straight into their post"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest arm trap against a resisting opponent?",
-        "answer": "The strongest configuration uses a two-on-one grip where one hand controls the wrist and the other cups the elbow, pulling the trapped arm diagonally across the chest toward the opposite hip. This creates a lever that uses the torso as a fulcrum, making it extremely difficult for the top player to extract their arm. The arm should cross the centerline, fully eliminating posting ability on that side."
+        "answer": "The strongest configuration uses a two-on-one grip where one hand controls the wrist and the other cups the elbow, pulling the trapped arm diagonally across the chest toward the opposite hip. This creates a lever that uses the torso as a fulcrum, making it extremely difficult for the top player to extract their arm. The arm should cross the centerline, fully eliminating posting ability on that side.",
+        "answer_line": "Two-on-one: wrist and elbow",
+        "distractors": {
+          "plausible": [
+            "Single wrist grip, pull straight",
+            "Grip the sleeve, not the arm"
+          ],
+          "trap": [
+            "Push the arm away from you"
+          ]
+        }
       },
       {
         "question": "How does the Trap and Roll from High Mount differ mechanically from the standard version from regular mount?",
-        "answer": "From high mount, the top player's knees are positioned near the armpits rather than at hip level, which eliminates the bottom player's primary bridge leverage. In standard mount, substantial hip extension force is available because the weight sits on the hips. In high mount, weight sits on the upper chest, requiring the bottom player to wait for weight shifts rather than bridging from static positions. The timing window is narrower, the technique becomes reactive rather than proactive, and the realistic success outcome is half guard recovery rather than a full reversal."
+        "answer": "From high mount, the top player's knees are positioned near the armpits rather than at hip level, which eliminates the bottom player's primary bridge leverage. In standard mount, substantial hip extension force is available because the weight sits on the hips. In high mount, weight sits on the upper chest, requiring the bottom player to wait for weight shifts rather than bridging from static positions. The timing window is narrower, the technique becomes reactive rather than proactive, and the realistic success outcome is half guard recovery rather than a full reversal.",
+        "answer_line": "Knees near armpits kill bridge power",
+        "distractors": {
+          "plausible": [
+            "Same leverage as regular mount",
+            "High mount is easier to bridge"
+          ],
+          "trap": [
+            "Bridge harder to force a reversal"
+          ]
+        }
       },
       {
         "question": "What should you do immediately after the bridge creates positional change to prevent re-passing?",
-        "answer": "Immediately insert a knee shield by shrimping the hips away and getting the inside knee between you and the opponent. Establish frames on the near-side hip and underhook or cross-face to control distance. Do not pause or settle—the opponent knows they have been displaced and will immediately attempt to re-pass or re-establish mount. Transition directly into active half guard offense to capitalize on the momentum."
+        "answer": "Immediately insert a knee shield by shrimping the hips away and getting the inside knee between you and the opponent. Establish frames on the near-side hip and underhook or cross-face to control distance. Do not pause or settle—the opponent knows they have been displaced and will immediately attempt to re-pass or re-establish mount. Transition directly into active half guard offense to capitalize on the momentum.",
+        "answer_line": "Knee shield in, frame, don't pause",
+        "distractors": {
+          "plausible": [
+            "Pause to reset your base first",
+            "Go straight for a submission"
+          ],
+          "trap": [
+            "Relax and let them settle"
+          ]
+        }
       },
       {
         "question": "Your opponent transitions to S Mount when they detect your arm trap—what is your immediate response?",
-        "answer": "Immediately abandon the trap and roll and switch to S Mount defense. Pull the threatened arm tight to your body, clasping hands together or gripping your own lapel to prevent extension. Turn your body toward the trapped arm to prevent the armbar finish. Use your free arm to push on their knee and create space. The priority shifts from escape to arm defense, as S Mount presents an immediate armbar threat that must be addressed before attempting further positional escapes."
+        "answer": "Immediately abandon the trap and roll and switch to S Mount defense. Pull the threatened arm tight to your body, clasping hands together or gripping your own lapel to prevent extension. Turn your body toward the trapped arm to prevent the armbar finish. Use your free arm to push on their knee and create space. The priority shifts from escape to arm defense, as S Mount presents an immediate armbar threat that must be addressed before attempting further positional escapes.",
+        "answer_line": "Defend arm, turn in, push knee",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for the roll",
+            "Extend arm to break their grip"
+          ],
+          "trap": [
+            "Pull away and expose the elbow"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to bait a submission attempt to create the weight shift needed for this escape?",
-        "answer": "Baiting is appropriate when the top player maintains disciplined static pressure without reaching for submissions, providing no natural weight shift opportunities. Slightly extend an arm or adjust head position to suggest vulnerability, but maintain the ability to defend the attack. The bait must be subtle enough that the opponent commits to reaching while you retain the structural ability to execute the trap before the submission develops past the point of defense."
+        "answer": "Baiting is appropriate when the top player maintains disciplined static pressure without reaching for submissions, providing no natural weight shift opportunities. Slightly extend an arm or adjust head position to suggest vulnerability, but maintain the ability to defend the attack. The bait must be subtle enough that the opponent commits to reaching while you retain the structural ability to execute the trap before the submission develops past the point of defense.",
+        "answer_line": "When top stays static, no openings",
+        "distractors": {
+          "plausible": [
+            "Bait constantly, no matter what",
+            "Only after they attack twice"
+          ],
+          "trap": [
+            "Fully extend arm as bait"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The Trap and Roll from High Mount involves explosive bridging that can strain the lower back and cervical spine if performed with poor mechanics. Always warm up the spine, hip flexors, and neck before drilling this technique. When training, partners maintaining mount should allow the roll to progress rather than resisting at dangerous angles that could cause knee or shoulder injuries to either player. Tap immediately if you feel your trapped arm being twisted during a failed attempt. During live training, communicate with your partner about bridging intensity to prevent neck compression injuries, particularly when the top player's weight is on the upper chest."
+    "safety_considerations": "The Trap and Roll from High Mount involves explosive bridging that can strain the lower back and cervical spine if performed with poor mechanics. Always warm up the spine, hip flexors, and neck before drilling this technique. When training, partners maintaining mount should allow the roll to progress rather than resisting at dangerous angles that could cause knee or shoulder injuries to either player. Tap immediately if you feel your trapped arm being twisted during a failed attempt. During live training, communicate with your partner about bridging intensity to prevent neck compression injuries, particularly when the top player's weight is on the upper chest.",
+    "clips": [
+      {
+        "id": "5EceltPECLg",
+        "title": "Trap and roll escape from mount, step by step",
+        "by": "Auburn Jiu Jitsu",
+        "vertical": false,
+        "channel": "Auburn Jiu Jitsu",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Ye08X4xjiUk",
+        "title": "Upa mount escape demonstration",
+        "by": "Team Daruma Dojo",
+        "vertical": false,
+        "channel": "Team Daruma Dojo",
+        "duration": 38,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "JoKL61nEZl0",
+        "title": "Trap and roll mount escape breakdown",
+        "by": "Topp Performance",
+        "vertical": false,
+        "channel": "Topp Performance",
+        "duration": 77,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Trap and Roll from High Mount Defender",
@@ -367,19 +498,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Trap and Roll attempt is developing?",
-        "answer": "The earliest cue is the bottom player using both hands to grip your wrist or forearm on one side, pulling it diagonally across their chest. This two-on-one grip fight on a single arm is the distinctive first step that differentiates the trap and roll from other defensive movements like framing or submission defense. Secondary cues include feeling their heel sliding toward your ankle and noticing their opposite foot planting flat for bridging power."
+        "answer": "The earliest cue is the bottom player using both hands to grip your wrist or forearm on one side, pulling it diagonally across their chest. This two-on-one grip fight on a single arm is the distinctive first step that differentiates the trap and roll from other defensive movements like framing or submission defense. Secondary cues include feeling their heel sliding toward your ankle and noticing their opposite foot planting flat for bridging power.",
+        "answer_line": "Two-hand grip fight on one arm",
+        "distractors": {
+          "plausible": [
+            "Heel sliding toward your ankle first",
+            "Foot planting flat for bridge"
+          ],
+          "trap": [
+            "Sudden hip bridge without grips"
+          ]
+        }
       },
       {
         "question": "How should you modify your submission approach from High Mount to prevent Trap and Roll opportunities?",
-        "answer": "Avoid extending both arms forward simultaneously, which shifts weight to your hands and creates bridging windows. Instead, maintain hip pressure while reaching with one hand at a time, keeping the other hand ready to post or retract. For collar chokes, advance your hips forward as your hands advance to keep weight on their chest. Alternate which arm reaches to prevent the bottom player from establishing the sustained two-on-one grip needed for the trap."
+        "answer": "Avoid extending both arms forward simultaneously, which shifts weight to your hands and creates bridging windows. Instead, maintain hip pressure while reaching with one hand at a time, keeping the other hand ready to post or retract. For collar chokes, advance your hips forward as your hands advance to keep weight on their chest. Alternate which arm reaches to prevent the bottom player from establishing the sustained two-on-one grip needed for the trap.",
+        "answer_line": "Alternate hands, keep hip pressure",
+        "distractors": {
+          "plausible": [
+            "Reach with both hands together",
+            "Post both hands wide for base"
+          ],
+          "trap": [
+            "Extend both arms to finish fast"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully traps your arm and hooks your foot—what is your best response?",
-        "answer": "If both your arm and foot are trapped before the bridge, immediately post your free hand as wide as possible on the mat and drive your weight forward into cross-face pressure. If the bridge is too powerful to stop with the post alone, flow with the movement by transitioning to technical mount during the positional change rather than fighting the roll from a losing mechanical position. Accepting a transition to a slightly less dominant position is better than being fully reversed."
+        "answer": "If both your arm and foot are trapped before the bridge, immediately post your free hand as wide as possible on the mat and drive your weight forward into cross-face pressure. If the bridge is too powerful to stop with the post alone, flow with the movement by transitioning to technical mount during the positional change rather than fighting the roll from a losing mechanical position. Accepting a transition to a slightly less dominant position is better than being fully reversed.",
+        "answer_line": "Post free hand, flow to tech mount",
+        "distractors": {
+          "plausible": [
+            "Fight the roll with pure strength",
+            "Trap their arm back immediately"
+          ],
+          "trap": [
+            "Stay rigid and resist the bridge"
+          ]
+        }
       },
       {
         "question": "Why is the transition to S Mount an effective counter when you detect the arm trap setup?",
-        "answer": "The transition works because it uses the bottom player's arm control against them. When they grip your arm with both hands for the trap, that arm is already isolated in the perfect position for an S Mount armbar. By swinging your leg over, you remove your foot from their hooking range while simultaneously threatening a high-percentage submission on the arm they have committed both hands to controlling. They face the dilemma of releasing the trap to defend the armbar or maintaining the trap while being submitted."
+        "answer": "The transition works because it uses the bottom player's arm control against them. When they grip your arm with both hands for the trap, that arm is already isolated in the perfect position for an S Mount armbar. By swinging your leg over, you remove your foot from their hooking range while simultaneously threatening a high-percentage submission on the arm they have committed both hands to controlling. They face the dilemma of releasing the trap to defend the armbar or maintaining the trap while being submitted.",
+        "answer_line": "Uses their own arm control vs them",
+        "distractors": {
+          "plausible": [
+            "Removes need to defend the trap",
+            "Forces them to release completely"
+          ],
+          "trap": [
+            "Gives them your back instead"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -402,6 +573,35 @@
         "phase": "Phase 4: Live Positional Defense",
         "focus": "Full resistance maintenance with offensive integration",
         "description": "Positional sparring from high mount where the bottom player specifically targets trap and roll combined with other escapes. Top player maintains position and advances while defending. Track the ratio of escapes prevented versus escapes converted into advancement opportunities."
+      }
+    ],
+    "clips": [
+      {
+        "id": "R21vtm5BHF4",
+        "title": "Escaping the mount when it feels impossible",
+        "by": "Pantera Jiujitsu",
+        "vertical": false,
+        "channel": "Pantera Jiujitsu",
+        "duration": 80,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "bf-8R9V6mLA",
+        "title": "How not to get swept from mount",
+        "by": "David Avellan",
+        "vertical": false,
+        "channel": "David Avellan",
+        "duration": 172,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "0dzzXGjWKWI",
+        "title": "Maintaining mount: preventing the bridge escape",
+        "by": "St. Paul BJJ coach",
+        "vertical": false,
+        "channel": "St. Paul Brazilian Jiu Jitsu",
+        "duration": 337,
+        "verified": "2026-07-15"
       }
     ]
   }

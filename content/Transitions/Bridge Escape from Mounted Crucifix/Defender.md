@@ -140,6 +140,43 @@ description: "Defend against the bridge escape from mounted crucifix in BJJ. Lea
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Bridge Escape from Mounted Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix: isolating the near arm with the top leg",
+      "description": "Bridge Escape from Mounted Crucifix (Defender) film study: Crucifix: isolating the near arm with the top leg, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rh7TUm0ysww/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rh7TUm0ysww",
+      "url": "https://www.youtube.com/watch?v=rh7TUm0ysww",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT151S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "No-gi mounted crucifix control",
+      "description": "Bridge Escape from Mounted Crucifix (Defender) film study: No-gi mounted crucifix control, taught by Esteem Jiujitsu HQ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4QlWJFhI7i8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4QlWJFhI7i8",
+      "url": "https://www.youtube.com/watch?v=4QlWJFhI7i8",
+      "creator": { "@type": "Person", "name": "Esteem Jiujitsu HQ" },
+      "duration": "PT124S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the bridge escape from mounted crucifix means maintaining one of the m
 **Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Bridge Escape from Mounted Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rh7TUm0ysww)
+
+<p class="clip-credit"><strong>Crucifix: isolating the near arm with the top leg</strong> — taught by Gordon Ryan · 2:31 · <a href="https://www.youtube.com/watch?v=rh7TUm0ysww" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4QlWJFhI7i8)
+
+<p class="clip-credit"><strong>No-gi mounted crucifix control</strong> — taught by Esteem Jiujitsu HQ · 2:04 · <a href="https://www.youtube.com/watch?v=4QlWJFhI7i8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -174,6 +174,54 @@ description: "Master executing the inverted lasso to lasso guard recovery. Learn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Inverted Lasso to Lasso Guard (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Lasso guard variations and how to establish them",
+      "description": "Inverted Lasso to Lasso Guard (Attacker) film study: Lasso guard variations and how to establish them, taught by Felipe Costa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n4ddjzGemrw/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/n4ddjzGemrw",
+      "url": "https://www.youtube.com/watch?v=n4ddjzGemrw",
+      "creator": { "@type": "Person", "name": "Felipe Costa" },
+      "duration": "PT28S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Late Stage Recovery To Lasso",
+      "description": "Inverted Lasso to Lasso Guard (Attacker) film study: Late Stage Recovery To Lasso, taught by Chelsea Leah.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1ZeXvHBibi8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/1ZeXvHBibi8",
+      "url": "https://www.youtube.com/watch?v=1ZeXvHBibi8",
+      "creator": { "@type": "Person", "name": "Chelsea Leah" },
+      "duration": "PT147S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Guard Retention to Lasso Guard",
+      "description": "Inverted Lasso to Lasso Guard (Attacker) film study: Guard Retention to Lasso Guard, taught by Clark Gracie.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bdAE36JZ_yk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/bdAE36JZ_yk",
+      "url": "https://www.youtube.com/watch?v=bdAE36JZ_yk",
+      "creator": { "@type": "Person", "name": "Clark Gracie" },
+      "duration": "PT204S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +231,42 @@ As the attacker (bottom player), your objective is to return from the inverted l
 **From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Inverted Lasso to Lasso Guard (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=n4ddjzGemrw)
+
+<p class="clip-credit"><strong>Lasso guard variations and how to establish them</strong> — taught by Felipe Costa · 0:28 · <a href="https://www.youtube.com/watch?v=n4ddjzGemrw" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=1ZeXvHBibi8)
+
+<p class="clip-credit"><strong>Late Stage Recovery To Lasso</strong> — taught by Chelsea Leah · 2:27 · <a href="https://www.youtube.com/watch?v=1ZeXvHBibi8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=bdAE36JZ_yk)
+
+<p class="clip-credit"><strong>Guard Retention to Lasso Guard</strong> — taught by Clark Gracie · 3:24 · <a href="https://www.youtube.com/watch?v=bdAE36JZ_yk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

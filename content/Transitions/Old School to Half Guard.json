@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Half Guard/Bottom",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "Old School/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Flattened Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "Born from the 10th Planet lockdown system, this transition addresses a specific tactical problem: what to do when a disciplined top player has neutralized your lockdown sweeps with deep whizzer and crossface pressure, leaving the position stalled. Rather than representing a defensive retreat, this transition reflects sophisticated positional awareness—recognizing when the opponent has effectively neutralized lockdown-specific threats and that alternative attacking angles are needed to continue advancing.\n\nThe mechanics center on safely releasing the lockdown figure-four configuration while maintaining half guard leg entanglement, then establishing knee shield or shin frames that create the distance management structure characteristic of standard half guard play. The critical challenge lies in the transition window between releasing lockdown control and establishing half guard frames—during this window, the top player has maximum opportunity to advance position through increased crossface pressure, smashing weight, or immediate passing attempts.\n\nSuccessful execution demands reading the positional dynamics accurately. When the opponent has established deep whizzer control, heavy crossface, and a wide base that neutralizes Old School sweep attempts, continuing to fight from a compromised lockdown position burns energy without productive return. The transition to half guard opens access to knee shield retention, deep half entries, butterfly half hooks, and standard underhook sweeps that present entirely different problems for the top player to solve.",
   "conditions": [
     "Bottom player has established Old School position with lockdown, underhook, and head control",
@@ -83,7 +95,7 @@
       "relationship": "Primary attack that may have been defended, prompting this reset"
     },
     {
-      "name": "Deep Half Entry from Half Guard",
+      "name": "Deep Half Entry",
       "relationship": "Follow-up offensive option available from recovered half guard"
     },
     {
@@ -247,38 +259,138 @@
     "flashcards": [
       {
         "question": "What is the most critical timing indicator for initiating the transition from Old School to Half Guard?",
-        "answer": "The primary indicator is when the top player has established deep whizzer control, heavy crossface pressure, and a wide base that effectively neutralizes your Old School sweep attempts. When you feel that your sweep entries are being stuffed consistently and the lockdown is creating a stalemate rather than offensive opportunities, it signals that continued Old School attacks will burn energy without result. The transition should happen proactively based on this read, not reactively after exhaustion."
+        "answer": "The primary indicator is when the top player has established deep whizzer control, heavy crossface pressure, and a wide base that effectively neutralizes your Old School sweep attempts. When you feel that your sweep entries are being stuffed consistently and the lockdown is creating a stalemate rather than offensive opportunities, it signals that continued Old School attacks will burn energy without result. The transition should happen proactively based on this read, not reactively after exhaustion.",
+        "answer_line": "Sweeps stuffed, lockdown stalls",
+        "distractors": {
+          "plausible": [
+            "Wait until fully exhausted",
+            "Opponent's grip loosens slightly"
+          ],
+          "trap": [
+            "Never transition, keep attacking"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep whizzer and heavy crossface in Old School—how do you create the space needed to insert a knee shield?",
-        "answer": "Start by sneaking a forearm frame onto their crossface shoulder while still maintaining lockdown and head control. This preliminary frame creates initial separation. When you release head control, use both hands framing on their shoulders to create a brief push-off that generates enough space for the knee to slide across their hip line. Time the knee insertion with a sharp hip escape away from them to maximize the distance created by your frames."
+        "answer": "Start by sneaking a forearm frame onto their crossface shoulder while still maintaining lockdown and head control. This preliminary frame creates initial separation. When you release head control, use both hands framing on their shoulders to create a brief push-off that generates enough space for the knee to slide across their hip line. Time the knee insertion with a sharp hip escape away from them to maximize the distance created by your frames.",
+        "answer_line": "Frame shoulder, then push off",
+        "distractors": {
+          "plausible": [
+            "Release head control first",
+            "Push with legs, no frames"
+          ],
+          "trap": [
+            "Release lockdown immediately"
+          ]
+        }
       },
       {
         "question": "What happens if you release the lockdown before establishing any defensive frames?",
-        "answer": "Releasing the lockdown without frames creates a catastrophic vulnerability window where you have neither the lockdown's positional control nor half guard's frame-based defense. The top player will immediately drive forward with unchecked pressure, flatten you, and likely establish a dominant crossface that leads to a flattened half guard or direct guard pass. This is the single most common and most punishing error in this transition."
+        "answer": "Releasing the lockdown without frames creates a catastrophic vulnerability window where you have neither the lockdown's positional control nor half guard's frame-based defense. The top player will immediately drive forward with unchecked pressure, flatten you, and likely establish a dominant crossface that leads to a flattened half guard or direct guard pass. This is the single most common and most punishing error in this transition.",
+        "answer_line": "Gap in control, get flattened",
+        "distractors": {
+          "plausible": [
+            "Minor loss of positioning",
+            "You get swept instead"
+          ],
+          "trap": [
+            "It's safe, always release first"
+          ]
+        }
       },
       {
         "question": "How should you sequence the release of your three main Old School controls during the transition?",
-        "answer": "The correct sequence is: first, establish forearm frames on the opponent's shoulders while still holding all Old School controls. Second, release head control and convert that hand to a frame. Third, dissolve the lockdown figure-four while maintaining half guard leg hooks. Fourth, immediately insert knee shield. The principle is always having a new control established before releasing an old one, ensuring continuous defensive structure at every stage of the transition."
+        "answer": "The correct sequence is: first, establish forearm frames on the opponent's shoulders while still holding all Old School controls. Second, release head control and convert that hand to a frame. Third, dissolve the lockdown figure-four while maintaining half guard leg hooks. Fourth, immediately insert knee shield. The principle is always having a new control established before releasing an old one, ensuring continuous defensive structure at every stage of the transition.",
+        "answer_line": "Frame, head, lockdown, knee shield",
+        "distractors": {
+          "plausible": [
+            "Release lockdown first always",
+            "Head control last, lockdown first"
+          ],
+          "trap": [
+            "Release everything at once"
+          ]
+        }
       },
       {
         "question": "Your opponent feels your lockdown tension decreasing and immediately drives forward with heavy pressure—how do you respond?",
-        "answer": "If you've established frames before the lockdown release, use them to absorb the forward drive and redirect it to the side while completing the knee shield insertion. If the pressure overwhelms your frames before the knee shield is in place, abandon the standard half guard transition and switch to the deep half bail variant—use their forward momentum to dive underneath their hips into deep half guard, which actually benefits from their aggressive forward pressure."
+        "answer": "If you've established frames before the lockdown release, use them to absorb the forward drive and redirect it to the side while completing the knee shield insertion. If the pressure overwhelms your frames before the knee shield is in place, abandon the standard half guard transition and switch to the deep half bail variant—use their forward momentum to dive underneath their hips into deep half guard, which actually benefits from their aggressive forward pressure.",
+        "answer_line": "Frame redirect, or deep half bail",
+        "distractors": {
+          "plausible": [
+            "Fight to keep the lockdown",
+            "Stand up to reset distance"
+          ],
+          "trap": [
+            "Let go and turtle away"
+          ]
+        }
       },
       {
         "question": "What distinguishes a tactical reset to half guard from simply losing the Old School position?",
-        "answer": "A tactical reset involves proactive decision-making, controlled sequential release of grips, and continuous maintenance of defensive structure throughout the transition. You choose when to transition based on reading the positional dynamics. Losing the position is reactive—the opponent strips your controls, you scramble to recover, and the transition happens chaotically without frames or preparation. The key difference is maintaining initiative and structural integrity throughout."
+        "answer": "A tactical reset involves proactive decision-making, controlled sequential release of grips, and continuous maintenance of defensive structure throughout the transition. You choose when to transition based on reading the positional dynamics. Losing the position is reactive—the opponent strips your controls, you scramble to recover, and the transition happens chaotically without frames or preparation. The key difference is maintaining initiative and structural integrity throughout.",
+        "answer_line": "Proactive control, not scramble",
+        "distractors": {
+          "plausible": [
+            "Faster technique execution",
+            "Better cardio management"
+          ],
+          "trap": [
+            "Whoever moves first wins"
+          ]
+        }
       },
       {
         "question": "If the knee shield insertion is blocked by the opponent grabbing your leg, what alternative framing options maintain half guard structure?",
-        "answer": "Switch immediately to a butterfly half guard by inserting a butterfly hook with your inside leg instead of the knee shield. The butterfly hook provides an instant elevation threat that forces the opponent to address sweeping danger rather than continuing to suppress your framing. Alternatively, use a shin-on-shin frame by placing your shin across their near thigh, which provides distance management similar to a knee shield while being harder for them to grab and push down."
+        "answer": "Switch immediately to a butterfly half guard by inserting a butterfly hook with your inside leg instead of the knee shield. The butterfly hook provides an instant elevation threat that forces the opponent to address sweeping danger rather than continuing to suppress your framing. Alternatively, use a shin-on-shin frame by placing your shin across their near thigh, which provides distance management similar to a knee shield while being harder for them to grab and push down.",
+        "answer_line": "Butterfly hook or shin frame",
+        "distractors": {
+          "plausible": [
+            "Push harder with the knee",
+            "Switch to full guard"
+          ],
+          "trap": [
+            "Abandon frames, turtle up"
+          ]
+        }
       },
       {
         "question": "Which direction should you hip escape during the transition, and why does the direction matter?",
-        "answer": "Hip escape away from the opponent toward the open side, never toward them. Escaping away creates the lateral distance and angle that standard half guard's knee shield and framing require, while escaping toward the opponent collapses your own space, feeds their crossface, and flattens you before the knee shield can be inserted. The direction of this single movement often determines whether you recover a functional half guard or end up in flattened half guard."
+        "answer": "Hip escape away from the opponent toward the open side, never toward them. Escaping away creates the lateral distance and angle that standard half guard's knee shield and framing require, while escaping toward the opponent collapses your own space, feeds their crossface, and flattens you before the knee shield can be inserted. The direction of this single movement often determines whether you recover a functional half guard or end up in flattened half guard.",
+        "answer_line": "Escape away, toward open side",
+        "distractors": {
+          "plausible": [
+            "Escape toward opponent's hips",
+            "Direction doesn't matter much"
+          ],
+          "trap": [
+            "Escape into the crossface side"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This transition is positionally focused with minimal injury risk, but practitioners should release the lockdown figure-four gradually rather than explosively to avoid jarring their partner's knee or ankle. During drilling, ensure the knee shield insertion is controlled to prevent accidentally striking the training partner's ribs or hip bone with the knee. When performing hip escapes during the transition, maintain awareness of surrounding mat space to avoid colliding with other training pairs. Partners working from top Old School should avoid driving extreme forward pressure during early drilling phases to allow the bottom player to develop the transition mechanics safely."
+    "safety_considerations": "This transition is positionally focused with minimal injury risk, but practitioners should release the lockdown figure-four gradually rather than explosively to avoid jarring their partner's knee or ankle. During drilling, ensure the knee shield insertion is controlled to prevent accidentally striking the training partner's ribs or hip bone with the knee. When performing hip escapes during the transition, maintain awareness of surrounding mat space to avoid colliding with other training pairs. Partners working from top Old School should avoid driving extreme forward pressure during early drilling phases to allow the bottom player to develop the transition mechanics safely.",
+    "clips": [
+      {
+        "id": "WGa86Z8B44Q",
+        "title": "Old school entry from half guard",
+        "by": "Coach SUL",
+        "vertical": false,
+        "channel": "Coach SUL",
+        "duration": 20,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Jnc2siD9cak",
+        "title": "Old school sweep from half guard",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 12,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Old School to Half Guard Defender",
@@ -364,19 +476,59 @@
     "flashcards": [
       {
         "question": "What early cues indicate the bottom player is about to transition from Old School to Half Guard?",
-        "answer": "The earliest cue is a decrease in lockdown tension on your trapped leg as the bottom player begins unhooking their controlling foot. Secondary cues include the bottom player releasing their head wrap grip and redirecting that hand toward your shoulder for a frame, and their underhook pressure shifting from a pulling motion to a pushing motion. These cues typically appear in sequence over 1-2 seconds before the full transition attempt."
+        "answer": "The earliest cue is a decrease in lockdown tension on your trapped leg as the bottom player begins unhooking their controlling foot. Secondary cues include the bottom player releasing their head wrap grip and redirecting that hand toward your shoulder for a frame, and their underhook pressure shifting from a pulling motion to a pushing motion. These cues typically appear in sequence over 1-2 seconds before the full transition attempt.",
+        "answer_line": "Lockdown eases, hand frames",
+        "distractors": {
+          "plausible": [
+            "Underhook pressure increases",
+            "Sudden explosive scramble"
+          ],
+          "trap": [
+            "Wait for full lockdown release"
+          ]
+        }
       },
       {
         "question": "When you feel the lockdown releasing, what immediate action has the highest success rate for preventing the reset?",
-        "answer": "Drive heavy crossface pressure forward through your shoulder while simultaneously dropping your chest weight onto their torso. The combination of crossface and chest pressure prevents the knee shield insertion that defines successful half guard recovery. This must happen immediately—within one second of feeling the lockdown release—because the transition window is brief and the bottom player is actively racing to establish frames."
+        "answer": "Drive heavy crossface pressure forward through your shoulder while simultaneously dropping your chest weight onto their torso. The combination of crossface and chest pressure prevents the knee shield insertion that defines successful half guard recovery. This must happen immediately—within one second of feeling the lockdown release—because the transition window is brief and the bottom player is actively racing to establish frames.",
+        "answer_line": "Crossface plus chest pressure now",
+        "distractors": {
+          "plausible": [
+            "Grab a leg to re-lock",
+            "Wait and see their reaction"
+          ],
+          "trap": [
+            "Back away to create space"
+          ]
+        }
       },
       {
         "question": "How should you adjust your pressure if the bottom player successfully inserts a knee shield during the transition?",
-        "answer": "If the knee shield is established, you have missed the primary counter window and must transition to standard half guard top passing strategies. Apply shoulder pressure into the knee shield to flatten it while fighting for crossface control. Consider long step pass or smash pass approaches that work against established knee shield. Do not continue trying to flatten someone who has already established frames—adapt to the new positional reality."
+        "answer": "If the knee shield is established, you have missed the primary counter window and must transition to standard half guard top passing strategies. Apply shoulder pressure into the knee shield to flatten it while fighting for crossface control. Consider long step pass or smash pass approaches that work against established knee shield. Do not continue trying to flatten someone who has already established frames—adapt to the new positional reality.",
+        "answer_line": "Switch to standard passing",
+        "distractors": {
+          "plausible": [
+            "Keep flattening the knee shield",
+            "Abandon the pass entirely"
+          ],
+          "trap": [
+            "Overcommit weight forward"
+          ]
+        }
       },
       {
         "question": "Why is it tactically important to prevent the bottom player from recovering standard half guard from Old School?",
-        "answer": "Old School bottom with a stalled lockdown is a relatively contained threat—the attack options are limited to lockdown-specific sweeps that you've already proven you can defend. Standard half guard bottom opens access to an entirely different and much broader offensive toolkit: knee shield retention, deep half entries, underhook sweeps, butterfly half hooks, and back takes. Allowing the transition means you must now defend against multiple threat systems instead of one."
+        "answer": "Old School bottom with a stalled lockdown is a relatively contained threat—the attack options are limited to lockdown-specific sweeps that you've already proven you can defend. Standard half guard bottom opens access to an entirely different and much broader offensive toolkit: knee shield retention, deep half entries, underhook sweeps, butterfly half hooks, and back takes. Allowing the transition means you must now defend against multiple threat systems instead of one.",
+        "answer_line": "Half guard opens more threats",
+        "distractors": {
+          "plausible": [
+            "It's just a rules preference",
+            "Old School is inherently unsafe"
+          ],
+          "trap": [
+            "Let them recover, easy pass"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -394,6 +546,35 @@
         "phase": "Phase 3: Pressure Integration",
         "focus": "Maintaining offensive pressure through transitions",
         "description": "Full positional sparring starting from Old School top. Partner attempts both Old School sweeps and half guard transitions while you maintain continuous defensive and offensive pressure. Practice reading which threat the bottom player is pursuing and applying the appropriate counter in real time. Develop the ability to seamlessly transition your top pressure between lockdown defense and transition window exploitation."
+      }
+    ],
+    "clips": [
+      {
+        "id": "zNYVPT5XExU",
+        "title": "Half guard recovery and lockdown defense",
+        "by": "Robot Dolphin Jiu-Jitsu",
+        "vertical": false,
+        "channel": "Robot Dolphin Jiu-Jitsu ",
+        "duration": 194,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "CmhIaSAJz_8",
+        "title": "Two ways to escape the half guard lockdown",
+        "by": "Ben Egli",
+        "vertical": false,
+        "channel": "Ben Egli",
+        "duration": 243,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "gtsKv_sDRnw",
+        "title": "Passing the lockdown half guard",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 359,
+        "verified": "2026-07-15"
       }
     ]
   }

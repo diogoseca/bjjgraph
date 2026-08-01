@@ -164,6 +164,54 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Leg Entanglement \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Leg locks and the four-part entanglement system",
+      "description": "Leg Entanglement film study: Leg locks and the four-part entanglement system, taught by John Danaher.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wMsYpNQyem8/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/wMsYpNQyem8",
+      "url": "https://www.youtube.com/watch?v=wMsYpNQyem8",
+      "creator": { "@type": "Person", "name": "John Danaher" },
+      "duration": "PT640S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Guide to the main leg entanglement positions",
+      "description": "Leg Entanglement film study: Guide to the main leg entanglement positions, taught by MMA Leech.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xWrEk9MbvUc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/xWrEk9MbvUc",
+      "url": "https://www.youtube.com/watch?v=xWrEk9MbvUc",
+      "creator": { "@type": "Person", "name": "MMA Leech" },
+      "duration": "PT805S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Terminology of ashi garami and leg entanglements",
+      "description": "Leg Entanglement film study: Terminology of ashi garami and leg entanglements, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fkl93-NakrI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fkl93-NakrI",
+      "url": "https://www.youtube.com/watch?v=fkl93-NakrI",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT79S"
+    }
+  ]
+}
+</script>
+
+
 <section id="overview" class="content-section">
 
 ## What is Leg Entanglement?
@@ -173,6 +221,42 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
 Once dismissed as a fringe area of grappling, leg entanglements have become the strategic centerpiece of modern no-gi BJJ, reshaping how practitioners approach lower-body control. Unlike specific leg lock techniques, leg entanglement is a comprehensive conceptual framework encompassing the principles, mechanics, and strategic approach to establishing and maintaining complex leg control positions. This concept includes understanding optimal entry paths, mechanical control principles, hierarchical relationships between different entanglements, and defensive countermeasures within the leg lock ecosystem. Leg entanglement serves as both the positional foundation for applying leg lock submissions and a sophisticated positional control system in its own right. The ability to effectively establish and navigate leg entanglements often determines success in modern leg lock-oriented BJJ, making it one of the most strategically significant conceptual elements in contemporary grappling. The hierarchical understanding of these positions—from basic outside ashi to advanced inside sankaku—forms the foundation of modern leg lock systems, requiring practitioners to develop both technical precision and strategic awareness to navigate this complex positional landscape.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Leg Entanglement in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=wMsYpNQyem8)
+
+<p class="clip-credit"><strong>Leg locks and the four-part entanglement system</strong> — taught by John Danaher · 10:40 · <a href="https://www.youtube.com/watch?v=wMsYpNQyem8" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=xWrEk9MbvUc)
+
+<p class="clip-credit"><strong>Guide to the main leg entanglement positions</strong> — taught by MMA Leech · 13:25 · <a href="https://www.youtube.com/watch?v=xWrEk9MbvUc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fkl93-NakrI)
+
+<p class="clip-credit"><strong>Terminology of ashi garami and leg entanglements</strong> — taught by Patrick Donabedian · 1:19 · <a href="https://www.youtube.com/watch?v=fkl93-NakrI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="building-blocks" class="content-section">
 

@@ -15,21 +15,33 @@
   "outcomes": [
     {
       "to": "Standing Position/Top",
-      "probability": 55,
+      "probability": {
+        "gi": 55,
+        "nogi": 55
+      },
       "result": "success"
     },
     {
       "to": "X-Guard/Bottom",
-      "probability": 30,
+      "probability": {
+        "gi": 30,
+        "nogi": 30
+      },
       "result": "failure"
     },
     {
       "to": "Open Guard/Top",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 55,
+  "success_rate": {
+    "gi": 55,
+    "nogi": 55
+  },
   "overview": "The X-Guard Technical Stand Up leverages the inherent mechanical advantage of X-Guard to transition safely from bottom position to dominant standing. Rather than committing to a traditional sweep that brings the opponent to the mat, this technique prioritizes reaching your feet while maintaining control of the opponent's trapped leg. The result is a standing position where you hold initiative, often with a single leg grip that creates immediate takedown or passing threats. This transition is particularly valuable in competition rulesets that reward top position and in no-gi grappling where extended X-Guard exchanges become energy-intensive. The technical stand up represents a lower-risk alternative to full sweeping attempts, making it an excellent secondary option when primary sweeps are being defended effectively. The opponent faces a dilemma: if they drive forward to prevent the stand-up, they expose themselves to elevation sweeps; if they stay neutral, the stand-up completes. The key mechanical principle involves using the X-Guard hooks to momentarily freeze the opponent's base while posting a hand behind you and driving your hips forward under your shoulders to stand. Timing is critical because the opponent must be sufficiently off-balanced that they cannot immediately punish the transition with a pass or counter-takedown. Advanced practitioners chain the technical stand up with X-Guard sweeps, creating a dual threat that forces defensive errors and makes the entire X-Guard bottom game significantly more dangerous.",
   "conditions": [
     "Opponent is standing or in combat base with one leg trapped in X-Guard configuration",
@@ -237,38 +249,138 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the technical stand up from X-Guard?",
-        "answer": "The optimal window opens when your opponent's weight shifts predominantly onto their free leg, reducing downward pressure on the controlled leg. This typically occurs when they attempt to establish grips, adjust their stance, or defend against a sweep threat. Initiating the stand-up during this weight shift ensures minimal resistance to your hip drive because the opponent cannot simultaneously press down on your hooks and maintain their adjusted posture."
+        "answer": "The optimal window opens when your opponent's weight shifts predominantly onto their free leg, reducing downward pressure on the controlled leg. This typically occurs when they attempt to establish grips, adjust their stance, or defend against a sweep threat. Initiating the stand-up during this weight shift ensures minimal resistance to your hip drive because the opponent cannot simultaneously press down on your hooks and maintain their adjusted posture.",
+        "answer_line": "Weight shifts to free leg",
+        "distractors": {
+          "plausible": [
+            "Right after entering X-Guard",
+            "When they stop moving"
+          ],
+          "trap": [
+            "Wait for them to pass guard"
+          ]
+        }
       },
       {
         "question": "What grip must you maintain throughout the entire stand-up sequence to prevent guard recovery by the opponent?",
-        "answer": "You must maintain control of the opponent's trapped leg at the ankle or lower pant throughout the entire stand-up. This grip prevents the opponent from simply stepping away as you stand, ensures you arrive on your feet with immediate offensive pressure, and denies them the ability to re-establish distance or pull guard. Releasing this grip prematurely converts a controlled stand-up into a neutral scramble where your advantage disappears."
+        "answer": "You must maintain control of the opponent's trapped leg at the ankle or lower pant throughout the entire stand-up. This grip prevents the opponent from simply stepping away as you stand, ensures you arrive on your feet with immediate offensive pressure, and denies them the ability to re-establish distance or pull guard. Releasing this grip prematurely converts a controlled stand-up into a neutral scramble where your advantage disappears.",
+        "answer_line": "Keep ankle/pant grip locked",
+        "distractors": {
+          "plausible": [
+            "Grip the collar instead",
+            "Grip the far leg instead"
+          ],
+          "trap": [
+            "Let go to post both hands"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your collar and pulls downward as you begin to post - how do you adjust?",
-        "answer": "Strip the collar grip immediately by circling your head and ducking your chin to the gripping side, using your free hand to peel their grip if necessary. If you cannot break the grip quickly, redirect your stand-up angle away from the gripping side to reduce their pulling leverage. Alternatively, use the collar grip against them by driving forward explosively as you stand, converting their downward pull into assistance for your forward momentum through the arc."
+        "answer": "Strip the collar grip immediately by circling your head and ducking your chin to the gripping side, using your free hand to peel their grip if necessary. If you cannot break the grip quickly, redirect your stand-up angle away from the gripping side to reduce their pulling leverage. Alternatively, use the collar grip against them by driving forward explosively as you stand, converting their downward pull into assistance for your forward momentum through the arc.",
+        "answer_line": "Strip grip, duck chin away",
+        "distractors": {
+          "plausible": [
+            "Back away to break the grip",
+            "Switch grip to their wrist"
+          ],
+          "trap": [
+            "Release your leg control hook"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that separates a successful stand-up from a failed attempt?",
-        "answer": "The hip drive forward and under the shoulders is the decisive mechanical element. The posting hand creates a pivot point, but the actual stand-up power comes from driving your hips forward in an arc until they are directly under your shoulders. Many practitioners fail because they try to lift themselves vertically with arm strength rather than driving hips horizontally forward. The correct motion resembles a pendulum where your hips travel forward while your upper body rises naturally."
+        "answer": "The hip drive forward and under the shoulders is the decisive mechanical element. The posting hand creates a pivot point, but the actual stand-up power comes from driving your hips forward in an arc until they are directly under your shoulders. Many practitioners fail because they try to lift themselves vertically with arm strength rather than driving hips horizontally forward. The correct motion resembles a pendulum where your hips travel forward while your upper body rises naturally.",
+        "answer_line": "Drive hips forward under you",
+        "distractors": {
+          "plausible": [
+            "Pull up hard with your arms",
+            "Push off the mat with legs"
+          ],
+          "trap": [
+            "Yank their leg to stand up"
+          ]
+        }
       },
       {
         "question": "What are the two most common failure points during the X-Guard Technical Stand Up and how are they corrected?",
-        "answer": "The two most common failures occur at the posting phase and the hook release phase. At the posting phase, practitioners post too far behind their body or use the wrong hand, creating a weak structural base that collapses under opponent pressure. The correction is posting close to the hip with compact arm structure. At the hook release phase, practitioners release their inside hook too early, allowing the opponent to step free before the bottom player reaches standing. The correction is maintaining hook contact until both feet are planted."
+        "answer": "The two most common failures occur at the posting phase and the hook release phase. At the posting phase, practitioners post too far behind their body or use the wrong hand, creating a weak structural base that collapses under opponent pressure. The correction is posting close to the hip with compact arm structure. At the hook release phase, practitioners release their inside hook too early, allowing the opponent to step free before the bottom player reaches standing. The correction is maintaining hook contact until both feet are planted.",
+        "answer_line": "Weak post, early hook release",
+        "distractors": {
+          "plausible": [
+            "Slow hips, late weight shift",
+            "Bad grip, wrong angle"
+          ],
+          "trap": [
+            "Release hook right after posting"
+          ]
+        }
       },
       {
         "question": "Why is this technique considered lower risk than committing to a full X-Guard sweep?",
-        "answer": "A full X-Guard sweep requires committing your entire body to the sweeping direction, and if it fails, you often end up in a compromised position with your guard structure broken. The technical stand up preserves your X-Guard structure as a fallback because your hooks are never fully abandoned during the transition. If the stand-up fails, you can simply sit back into X-Guard. This makes it a reversible action with minimal downside risk, unlike sweeps that commit you past the point of no return."
+        "answer": "A full X-Guard sweep requires committing your entire body to the sweeping direction, and if it fails, you often end up in a compromised position with your guard structure broken. The technical stand up preserves your X-Guard structure as a fallback because your hooks are never fully abandoned during the transition. If the stand-up fails, you can simply sit back into X-Guard. This makes it a reversible action with minimal downside risk, unlike sweeps that commit you past the point of no return.",
+        "answer_line": "Hooks stay live, can sit back",
+        "distractors": {
+          "plausible": [
+            "It uses less energy overall",
+            "It works against bigger opponents"
+          ],
+          "trap": [
+            "You fully commit like a sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by driving forward aggressively as you begin the stand-up - what is your response?",
-        "answer": "Use their forward drive to your advantage by converting to an elevation sweep. As they drive forward, extend your X-Guard hooks to elevate them over your body, using their own momentum to complete the sweep rather than fighting against their pressure. This makes the technical stand up a dual-threat action: if they stay back, you stand up successfully; if they drive forward, you elevate and sweep. The opponent is placed in a dilemma where both reactions benefit you."
+        "answer": "Use their forward drive to your advantage by converting to an elevation sweep. As they drive forward, extend your X-Guard hooks to elevate them over your body, using their own momentum to complete the sweep rather than fighting against their pressure. This makes the technical stand up a dual-threat action: if they stay back, you stand up successfully; if they drive forward, you elevate and sweep. The opponent is placed in a dilemma where both reactions benefit you.",
+        "answer_line": "Elevate them into a sweep",
+        "distractors": {
+          "plausible": [
+            "Post harder to stop them",
+            "Switch to a triangle"
+          ],
+          "trap": [
+            "Release hooks and stand fast"
+          ]
+        }
       },
       {
         "question": "What follow-up technique chain should you execute immediately after reaching standing position with the opponent's leg controlled?",
-        "answer": "Upon reaching standing with the opponent's leg controlled, immediately attack with a single leg finish by driving forward and angling to the outside, or transition to an ankle pick on the free leg if they post their far foot to defend. If the opponent sits to guard, maintain your grip advantage and begin a standing guard pass sequence. The key principle is never pausing at standing. Having a predetermined follow-up eliminates the dead time window where opponents recover their positioning and grips."
+        "answer": "Upon reaching standing with the opponent's leg controlled, immediately attack with a single leg finish by driving forward and angling to the outside, or transition to an ankle pick on the free leg if they post their far foot to defend. If the opponent sits to guard, maintain your grip advantage and begin a standing guard pass sequence. The key principle is never pausing at standing. Having a predetermined follow-up eliminates the dead time window where opponents recover their positioning and grips.",
+        "answer_line": "Finish single leg immediately",
+        "distractors": {
+          "plausible": [
+            "Reset stance before attacking",
+            "Let go and re-grip cleaner"
+          ],
+          "trap": [
+            "Pause to check your balance"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The X-Guard Technical Stand Up is a low-risk transition with no joint locks or chokes involved. The primary safety concern is maintaining balance during the stand-up phase to prevent awkward falls onto the training partner. Practitioners should avoid slamming or dropping weight onto the opponent's legs when standing, and the bottom player should release hooks cleanly if the top player begins to lose balance to prevent knee or ankle injuries. When drilling, ensure adequate mat space behind the bottom player for safe posting. During live sparring, be mindful of surrounding pairs when transitioning to standing."
+    "safety_considerations": "The X-Guard Technical Stand Up is a low-risk transition with no joint locks or chokes involved. The primary safety concern is maintaining balance during the stand-up phase to prevent awkward falls onto the training partner. Practitioners should avoid slamming or dropping weight onto the opponent's legs when standing, and the bottom player should release hooks cleanly if the top player begins to lose balance to prevent knee or ankle injuries. When drilling, ensure adequate mat space behind the bottom player for safe posting. During live sparring, be mindful of surrounding pairs when transitioning to standing.",
+    "clips": [
+      {
+        "id": "zfKTZUtT7ec",
+        "title": "X guard to technical stand up sweep",
+        "by": "Sdotbell",
+        "vertical": false,
+        "channel": "Sdotbell MMA (SdotbellMMA)",
+        "duration": 61,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "uN_h80PhmkY",
+        "title": "X-guard to technical stand up to back take",
+        "by": "Aibar Orazaly",
+        "vertical": false,
+        "channel": "Aibar Orazaly",
+        "duration": 10,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "X-Guard Technical Stand Up Defender",
@@ -354,19 +466,59 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is about to attempt a technical stand up from X-Guard?",
-        "answer": "The earliest cue is a shift in hand positioning where one hand releases from ankle or pant control and begins reaching behind their hip to establish a posting base on the mat. This is often preceded by a strong elevation push through their hooks to create momentary space. Recognizing this hand release gives you approximately one second to initiate your defensive response before the posting hand reaches the mat and the stand-up sequence becomes much harder to stop."
+        "answer": "The earliest cue is a shift in hand positioning where one hand releases from ankle or pant control and begins reaching behind their hip to establish a posting base on the mat. This is often preceded by a strong elevation push through their hooks to create momentary space. Recognizing this hand release gives you approximately one second to initiate your defensive response before the posting hand reaches the mat and the stand-up sequence becomes much harder to stop.",
+        "answer_line": "Hand releases toward the mat",
+        "distractors": {
+          "plausible": [
+            "Sudden hip escape movement",
+            "Strong hook elevation push"
+          ],
+          "trap": [
+            "Wait until they're standing"
+          ]
+        }
       },
       {
         "question": "Why is driving forward more effective than backing away when defending the technical stand up?",
-        "answer": "The technical stand up requires the bottom player to drive their hips forward and under their shoulders in an arc. If you back away, you create the exact space needed for this hip drive to succeed unimpeded. Driving forward collapses the available space, forces their hips back down, and puts your weight on top of their frame, making the stand-up mechanically impossible. Additionally, forward pressure keeps your hooks heavy and resistant to the shallowing movement they need to complete."
+        "answer": "The technical stand up requires the bottom player to drive their hips forward and under their shoulders in an arc. If you back away, you create the exact space needed for this hip drive to succeed unimpeded. Driving forward collapses the available space, forces their hips back down, and puts your weight on top of their frame, making the stand-up mechanically impossible. Additionally, forward pressure keeps your hooks heavy and resistant to the shallowing movement they need to complete.",
+        "answer_line": "Forward drive kills their space",
+        "distractors": {
+          "plausible": [
+            "Backing away tires them out",
+            "Sideways posting stops it"
+          ],
+          "trap": [
+            "Back away to create distance"
+          ]
+        }
       },
       {
         "question": "Your opponent has successfully posted and begun driving to standing - what is your best remaining defensive option?",
-        "answer": "Immediately transition to controlling the situation on your terms rather than fighting a losing battle against the completed stand-up. Grab their collar or head with your free hand and sit to guard, establishing grips before they fully stand. This converts the situation from a failed defense into an open guard exchange where you retain engagement and connection. If you have pant grips, pull their lead leg forward to off-balance them during the transition. The worst option is to remain passive and allow them to reach full standing with your leg controlled."
+        "answer": "Immediately transition to controlling the situation on your terms rather than fighting a losing battle against the completed stand-up. Grab their collar or head with your free hand and sit to guard, establishing grips before they fully stand. This converts the situation from a failed defense into an open guard exchange where you retain engagement and connection. If you have pant grips, pull their lead leg forward to off-balance them during the transition. The worst option is to remain passive and allow them to reach full standing with your leg controlled.",
+        "answer_line": "Grab collar, sit to guard",
+        "distractors": {
+          "plausible": [
+            "Keep fighting the post hand",
+            "Try to re-flatten them fast"
+          ],
+          "trap": [
+            "Stay passive, let them stand"
+          ]
+        }
       },
       {
         "question": "How does defending the technical stand up differ from defending a traditional X-Guard sweep?",
-        "answer": "Against sweeps, you defend by widening your base laterally and posting in the direction of the sweep because the threat is horizontal displacement. Against the technical stand up, the threat is vertical. The opponent is trying to come up underneath you rather than dump you to the side. This means your defense requires downward pressure and forward drive rather than lateral posting. Many practitioners make the critical error of defending the stand-up like a sweep, posting to the side while the opponent stands up directly underneath their center of gravity."
+        "answer": "Against sweeps, you defend by widening your base laterally and posting in the direction of the sweep because the threat is horizontal displacement. Against the technical stand up, the threat is vertical. The opponent is trying to come up underneath you rather than dump you to the side. This means your defense requires downward pressure and forward drive rather than lateral posting. Many practitioners make the critical error of defending the stand-up like a sweep, posting to the side while the opponent stands up directly underneath their center of gravity.",
+        "answer_line": "Drive forward, not lateral post",
+        "distractors": {
+          "plausible": [
+            "Widen base like sweep defense",
+            "Post to the sweep direction"
+          ],
+          "trap": [
+            "Post to the side as they rise"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -389,6 +541,35 @@
         "phase": "Phase 4: Counter-Offense Integration",
         "focus": "Punishing failed stand-up attempts with guard passing",
         "description": "When partner's stand-up attempt fails, immediately transition to guard passing attacks rather than resetting to neutral. Build the habit of capitalizing on the momentary hook disruption caused by the failed stand-up, creating a deterrent effect that makes the opponent less willing to attempt the technique in live rolling."
+      }
+    ],
+    "clips": [
+      {
+        "id": "gwEmeb9RSk4",
+        "title": "Single leg X guard sweep defense",
+        "by": "Tiger Muay Thai coach",
+        "vertical": false,
+        "channel": "Tiger Muay Thai and MMA Training Camp, Phuket, Thailand",
+        "duration": 227,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "st2eQddW4J4",
+        "title": "Defending the single leg X position",
+        "by": "Fit 2 Defend Academy",
+        "vertical": false,
+        "channel": "Fit 2 Defend Academy",
+        "duration": 144,
+        "verified": "2026-07-16"
+      },
+      {
+        "id": "LNyXkfENU5c",
+        "title": "X-Guard counter while standing",
+        "by": "Samy Aljamal",
+        "vertical": false,
+        "channel": "FIT Jiu Jitsu Jordan/ Samy Aljamal",
+        "duration": 79,
+        "verified": "2026-07-16"
       }
     ]
   }

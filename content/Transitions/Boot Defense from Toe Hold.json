@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
-      "probability": 45,
+      "probability": {
+        "gi": 45,
+        "nogi": 45
+      },
       "result": "success"
     },
     {
       "to": "Toe Hold Control/Bottom",
-      "probability": 35,
+      "probability": {
+        "gi": 35,
+        "nogi": 35
+      },
       "result": "failure"
     },
     {
       "to": "Kneebar Control/Bottom",
-      "probability": 20,
+      "probability": {
+        "gi": 20,
+        "nogi": 20
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 45,
+  "success_rate": {
+    "gi": 45,
+    "nogi": 45
+  },
   "overview": "The Boot Defense from Toe Hold is a fundamental defensive technique within the leg entanglement hierarchy where the bottom practitioner creates a rigid foot structure to neutralize the rotational pressure of an opponent's toe hold submission. The technique derives its name from the action of plantarflexing the foot—pointing the toes firmly—while internally rotating the shin, producing a boot-like rigidity that prevents the opponent from applying the twisting force required to complete the toe hold finish. This defense represents one of the primary first-line responses when caught in toe hold control, creating a critical window for systematic grip fighting and eventual leg extraction.\n\nThe mechanical principle centers on eliminating the slack in the ankle joint that toe holds exploit for rotational leverage. By engaging the posterior chain of the lower leg and maintaining firm toe extension, the defender transforms the ankle from a mobile joint with available rotational range into a relatively rigid structure resistant to figure-four torque. This rigidity alone does not escape the position—it functions as a temporary defensive shield that must be combined with active grip fighting on the opponent's wrists and deliberate leg extraction through circular movement. Practitioners who rely exclusively on the boot without progressing to grip breaks discover that experienced attackers adjust their angle, apply progressive pressure to break the rigidity, or transition to alternative leg attacks that circumvent the defense entirely.\n\nStrategic deployment requires reading the toe hold threat early in the grip establishment phase rather than reacting after full rotational pressure is applied. The boot defense integrates with comprehensive leg lock defensive systems, serving as the initial stabilization that creates time for more complete escapes such as guard recovery, counter-entanglement, or full leg extraction. Critically, practitioners must understand that the boot has a limited effective window—once the attacker adjusts angle and begins applying pressure against the rigid structure, continuing to defend without progressing toward escape risks ankle ligament damage. The discipline to tap when the boot fails and escape options are exhausted represents an essential component of safe toe hold defense.",
   "conditions": [
     "Opponent has established toe hold grip with both hands around your foot and ankle",
@@ -243,46 +255,166 @@
     "flashcards": [
       {
         "question": "What foot position creates maximum rigidity against toe hold rotational pressure?",
-        "answer": "Maximum plantarflexion with firm toe pointing combined with internal rotation of the shin and foot. This engages the posterior chain muscles of the lower leg while hiding the lateral ankle structures that the toe hold exploits for rotational leverage. The key is engaging both plantarflexion and internal rotation simultaneously rather than either in isolation, creating a rigid boot-like structure."
+        "answer": "Maximum plantarflexion with firm toe pointing combined with internal rotation of the shin and foot. This engages the posterior chain muscles of the lower leg while hiding the lateral ankle structures that the toe hold exploits for rotational leverage. The key is engaging both plantarflexion and internal rotation simultaneously rather than either in isolation, creating a rigid boot-like structure.",
+        "answer_line": "Point toes, plantarflex, rotate in",
+        "distractors": {
+          "plausible": [
+            "Dorsiflex foot, resist rotation",
+            "Point toes, rotate shin outward"
+          ],
+          "trap": [
+            "Relax the foot to absorb pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent's figure-four grip is locked—which hand should you target first with two-on-one control?",
-        "answer": "Target the top hand of the figure-four configuration first, as removing the top hand collapses the entire grip structure. Push this hand toward the bottom hand to break the figure-four chain. The top hand provides the rotational force while the bottom hand serves as the anchor, so removing the force-generating hand immediately reduces submission threat and opens the path for leg extraction."
+        "answer": "Target the top hand of the figure-four configuration first, as removing the top hand collapses the entire grip structure. Push this hand toward the bottom hand to break the figure-four chain. The top hand provides the rotational force while the bottom hand serves as the anchor, so removing the force-generating hand immediately reduces submission threat and opens the path for leg extraction.",
+        "answer_line": "Attack the top hand first",
+        "distractors": {
+          "plausible": [
+            "Attack the bottom hand first",
+            "Pry both hands apart together"
+          ],
+          "trap": [
+            "Grab your own foot and pull"
+          ]
+        }
       },
       {
         "question": "Why is circular leg extraction superior to pulling straight back when escaping after the boot defense?",
-        "answer": "Circular extraction uses hip rotation to guide the knee in a spiral path that exploits natural gaps in the opponent's grip configuration rather than fighting their grip strength at its strongest angle. Linear pulling creates additional stress on the ankle and simply reinforces the opponent's control line. The circular motion generates angular momentum that assists the escape while minimizing joint stress."
+        "answer": "Circular extraction uses hip rotation to guide the knee in a spiral path that exploits natural gaps in the opponent's grip configuration rather than fighting their grip strength at its strongest angle. Linear pulling creates additional stress on the ankle and simply reinforces the opponent's control line. The circular motion generates angular momentum that assists the escape while minimizing joint stress.",
+        "answer_line": "Rotate hips, spiral knee out",
+        "distractors": {
+          "plausible": [
+            "Pull leg straight back",
+            "Twist ankle first, then pull"
+          ],
+          "trap": [
+            "Yank leg back explosively"
+          ]
+        }
       },
       {
         "question": "You deploy the boot but feel your opponent shifting their hips to a perpendicular angle—what is happening and how do you respond?",
-        "answer": "The opponent is transitioning from the toe hold to a kneebar attack, exploiting the straightened leg that the boot creates. Immediately bend your knee and pull it toward your chest to prevent the extension they need for kneebar completion. This requires abandoning the rigid boot structure in favor of the bent-knee defense, recognizing that the submission threat has fundamentally changed."
+        "answer": "The opponent is transitioning from the toe hold to a kneebar attack, exploiting the straightened leg that the boot creates. Immediately bend your knee and pull it toward your chest to prevent the extension they need for kneebar completion. This requires abandoning the rigid boot structure in favor of the bent-knee defense, recognizing that the submission threat has fundamentally changed.",
+        "answer_line": "Bend knee, pull to chest",
+        "distractors": {
+          "plausible": [
+            "Keep leg straight, hold boot",
+            "Rotate hips away, stay rigid"
+          ],
+          "trap": [
+            "Extend leg fully to power out"
+          ]
+        }
       },
       {
         "question": "At what point during the toe hold sequence should the boot defense be deployed for maximum effectiveness?",
-        "answer": "Deploy the boot immediately upon recognizing the opponent's hands configuring around your foot in the toe hold grip pattern, before any rotational pressure begins. The boot is most effective as a preemptive defense during grip establishment rather than a reactive response to applied rotation. Every second of delay reduces effectiveness because rotational force progressively compromises ankle structural integrity."
+        "answer": "Deploy the boot immediately upon recognizing the opponent's hands configuring around your foot in the toe hold grip pattern, before any rotational pressure begins. The boot is most effective as a preemptive defense during grip establishment rather than a reactive response to applied rotation. Every second of delay reduces effectiveness because rotational force progressively compromises ankle structural integrity.",
+        "answer_line": "Deploy the instant grip forms",
+        "distractors": {
+          "plausible": [
+            "Deploy once rotation begins",
+            "Wait to confirm submission is on"
+          ],
+          "trap": [
+            "Wait until pressure builds first"
+          ]
+        }
       },
       {
         "question": "How do you maintain the boot while simultaneously grip fighting with your hands?",
-        "answer": "The boot is maintained entirely through lower leg muscle engagement and hip internal rotation, requiring no hand assistance whatsoever. Your hands are completely free to execute two-on-one wrist control and grip breaking on the opponent's figure-four configuration. The boot and grip fighting operate through independent body systems—lower body maintains rigidity while upper body attacks the grip structure."
+        "answer": "The boot is maintained entirely through lower leg muscle engagement and hip internal rotation, requiring no hand assistance whatsoever. Your hands are completely free to execute two-on-one wrist control and grip breaking on the opponent's figure-four configuration. The boot and grip fighting operate through independent body systems—lower body maintains rigidity while upper body attacks the grip structure.",
+        "answer_line": "Legs hold boot, hands grip-fight",
+        "distractors": {
+          "plausible": [
+            "One hand holds boot, one fights",
+            "Hands maintain boot structure"
+          ],
+          "trap": [
+            "Release boot to free both hands"
+          ]
+        }
       },
       {
         "question": "Your boot defense is holding but your opponent maintains the toe hold grip—how long should you continue before considering a tap?",
-        "answer": "The boot provides a limited defensive window of approximately three to five seconds of effective protection. If grip fighting is not progressing toward breaking the figure-four within this window and the opponent is maintaining or increasing pressure, tapping is the safe choice. Career longevity is more valuable than any single training round—ankle injuries from sustained toe hold pressure can be career-ending and require months of rehabilitation."
+        "answer": "The boot provides a limited defensive window of approximately three to five seconds of effective protection. If grip fighting is not progressing toward breaking the figure-four within this window and the opponent is maintaining or increasing pressure, tapping is the safe choice. Career longevity is more valuable than any single training round—ankle injuries from sustained toe hold pressure can be career-ending and require months of rehabilitation.",
+        "answer_line": "Tap by 3-5 seconds if stuck",
+        "distractors": {
+          "plausible": [
+            "Hold 10+ seconds before tapping",
+            "Tap immediately, no window at all"
+          ],
+          "trap": [
+            "Fight through any pain to escape"
+          ]
+        }
       },
       {
         "question": "What role does the free leg play during boot defense execution?",
-        "answer": "The free leg serves as an active defensive frame that pushes against the opponent's hips to create space, hooks their far leg to limit their angle adjustments, or prepares counter-entanglement positions like butterfly hook. Without active free leg engagement, the opponent has unrestricted ability to tighten control, adjust angles to defeat the boot, and prevent the space creation needed for leg extraction and guard recovery."
+        "answer": "The free leg serves as an active defensive frame that pushes against the opponent's hips to create space, hooks their far leg to limit their angle adjustments, or prepares counter-entanglement positions like butterfly hook. Without active free leg engagement, the opponent has unrestricted ability to tighten control, adjust angles to defeat the boot, and prevent the space creation needed for leg extraction and guard recovery.",
+        "answer_line": "Frame hips, hook their far leg",
+        "distractors": {
+          "plausible": [
+            "Kick free to create distance",
+            "Wrap free leg around trapped leg"
+          ],
+          "trap": [
+            "Tuck free leg away, stay still"
+          ]
+        }
       },
       {
         "question": "What grip configuration must exist before you commit to extracting the trapped leg?",
-        "answer": "You must first compromise the opponent's figure-four by breaking or significantly loosening the top hand's grip on your foot; extracting against an intact grip simply lets them re-establish control after a failed attempt. Confirm the top hand has been peeled toward the bottom hand and the closed chain is broken, then extract through circular hip motion. Grip break precedes extraction in every successful sequence."
+        "answer": "You must first compromise the opponent's figure-four by breaking or significantly loosening the top hand's grip on your foot; extracting against an intact grip simply lets them re-establish control after a failed attempt. Confirm the top hand has been peeled toward the bottom hand and the closed chain is broken, then extract through circular hip motion. Grip break precedes extraction in every successful sequence.",
+        "answer_line": "Break top hand grip, then extract",
+        "distractors": {
+          "plausible": [
+            "Loosen bottom hand, then extract",
+            "Extract leg, then fight the grip"
+          ],
+          "trap": [
+            "Yank leg free against full grip"
+          ]
+        }
       },
       {
         "question": "Your opponent loosens the toe hold to switch to a straight ankle lock—what does this transition window offer you?",
-        "answer": "The grip transition is the best escape window you will get because the closed chain is momentarily open and rotational pressure drops to near zero. Accelerate circular leg extraction immediately, driving the knee toward your chest before the new ankle lock grip establishes its own closed chain. Hesitating lets them settle into a fresh controlling grip; exploiting the loosening converts their adjustment into your escape."
+        "answer": "The grip transition is the best escape window you will get because the closed chain is momentarily open and rotational pressure drops to near zero. Accelerate circular leg extraction immediately, driving the knee toward your chest before the new ankle lock grip establishes its own closed chain. Hesitating lets them settle into a fresh controlling grip; exploiting the loosening converts their adjustment into your escape.",
+        "answer_line": "Extract now, before new grip sets",
+        "distractors": {
+          "plausible": [
+            "Wait for ankle lock to lock in",
+            "Reset boot, stay rigid and wait"
+          ],
+          "trap": [
+            "Pause to reassess the position"
+          ]
+        }
       }
     ],
-    "safety_considerations": "The boot defense has a limited effective window of three to five seconds. If the opponent breaks through the rigidity or the ankle experiences significant rotational stress despite the defense, tap immediately without hesitation. Ankle ligament injuries from toe holds can be severe and slow to heal, potentially requiring surgical intervention and months of rehabilitation. Never extend defense past the point where escape options are exhausted. In training, communicate openly with partners about pressure levels and maintain a tap-early culture for all rotational ankle submissions. Practice the boot initially at low resistance to develop proper mechanics before applying against realistic intensity. If you feel any sharp pain, popping, or sudden instability in the ankle, stop immediately regardless of the competitive situation."
+    "safety_considerations": "The boot defense has a limited effective window of three to five seconds. If the opponent breaks through the rigidity or the ankle experiences significant rotational stress despite the defense, tap immediately without hesitation. Ankle ligament injuries from toe holds can be severe and slow to heal, potentially requiring surgical intervention and months of rehabilitation. Never extend defense past the point where escape options are exhausted. In training, communicate openly with partners about pressure levels and maintain a tap-early culture for all rotational ankle submissions. Practice the boot initially at low resistance to develop proper mechanics before applying against realistic intensity. If you feel any sharp pain, popping, or sudden instability in the ankle, stop immediately regardless of the competitive situation.",
+    "clips": [
+      {
+        "id": "CUnX7TOpb-A",
+        "title": "Ankle lock escape — putting on the boot",
+        "by": "Ritchie Yip",
+        "vertical": false,
+        "channel": "Ritchie Yip",
+        "duration": 16,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3a9k8-ZcYrk",
+        "title": "Escaping the toe hold",
+        "by": "Gordon Ryan",
+        "vertical": false,
+        "channel": "The King Life",
+        "duration": 106,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Boot Defense from Toe Hold Defender",
@@ -368,19 +500,59 @@
     "flashcards": [
       {
         "question": "How do you recognize that your opponent has deployed the boot defense against your toe hold?",
-        "answer": "The immediate indicators are sudden rigidity in the foot with toes firmly pointed and the shin rotating inward. You will feel significant resistance to your rotational pressure that was absent before, and the opponent's hands will begin reaching for your wrists to initiate grip fighting. Recognizing these cues within the first second of deployment is critical for implementing effective counters before the defense stabilizes."
+        "answer": "The immediate indicators are sudden rigidity in the foot with toes firmly pointed and the shin rotating inward. You will feel significant resistance to your rotational pressure that was absent before, and the opponent's hands will begin reaching for your wrists to initiate grip fighting. Recognizing these cues within the first second of deployment is critical for implementing effective counters before the defense stabilizes.",
+        "answer_line": "Foot stiffens, hands grab wrists",
+        "distractors": {
+          "plausible": [
+            "Foot goes limp, hips shift away",
+            "Leg relaxes, they reach for collar"
+          ],
+          "trap": [
+            "Ignore it and crank harder"
+          ]
+        }
       },
       {
         "question": "Your opponent's boot is solid and you cannot complete the toe hold—what is your highest-percentage transition?",
-        "answer": "The highest-percentage transition is to kneebar, because the boot defense straightens the opponent's leg—the exact extension needed for kneebar application. Reposition your hips perpendicular to their leg, shift control from their foot to above their knee, and apply downward pressure. This converts their defensive adaptation into your offensive advantage by exploiting the mechanical consequence of the boot structure."
+        "answer": "The highest-percentage transition is to kneebar, because the boot defense straightens the opponent's leg—the exact extension needed for kneebar application. Reposition your hips perpendicular to their leg, shift control from their foot to above their knee, and apply downward pressure. This converts their defensive adaptation into your offensive advantage by exploiting the mechanical consequence of the boot structure.",
+        "answer_line": "Transition to kneebar",
+        "distractors": {
+          "plausible": [
+            "Transition to heel hook",
+            "Switch to straight ankle lock"
+          ],
+          "trap": [
+            "Force the toe hold rotation harder"
+          ]
+        }
       },
       {
         "question": "Why should you control the opponent's free leg during the boot defense exchange?",
-        "answer": "The free leg is the opponent's primary tool for creating defensive space—they use it to push on your hips, hook your far leg, or establish frames that facilitate grip fighting and eventual leg extraction. Without free leg control, the opponent has full ability to manage distance and create the angles needed for escape. Pinning the free leg with your hip or knee eliminates their most effective defensive resource during the entire exchange."
+        "answer": "The free leg is the opponent's primary tool for creating defensive space—they use it to push on your hips, hook your far leg, or establish frames that facilitate grip fighting and eventual leg extraction. Without free leg control, the opponent has full ability to manage distance and create the angles needed for escape. Pinning the free leg with your hip or knee eliminates their most effective defensive resource during the entire exchange.",
+        "answer_line": "Pin free leg, kill their frames",
+        "distractors": {
+          "plausible": [
+            "Control only the trapped foot",
+            "Grip their far arm instead"
+          ],
+          "trap": [
+            "Let free leg move, bait scramble"
+          ]
+        }
       },
       {
         "question": "What is the risk of applying excessive force to break through a solid boot defense?",
-        "answer": "Excessive force against the rigid boot structure creates serious injury risk to your training partner's ankle ligaments, particularly when combined with the internal rotation they are maintaining. The rigid structure can mask the actual stress being applied to the joint, meaning damage may occur before either party recognizes the danger. Additionally, explosive force telegraphs your intent and reduces your ability to maintain positional surprise for transitions."
+        "answer": "Excessive force against the rigid boot structure creates serious injury risk to your training partner's ankle ligaments, particularly when combined with the internal rotation they are maintaining. The rigid structure can mask the actual stress being applied to the joint, meaning damage may occur before either party recognizes the danger. Additionally, explosive force telegraphs your intent and reduces your ability to maintain positional surprise for transitions.",
+        "answer_line": "Risks ankle injury, tips your hand",
+        "distractors": {
+          "plausible": [
+            "Just tires you out, nothing more",
+            "Ends the fight with no cost"
+          ],
+          "trap": [
+            "Crank through it, the boot is safe"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -403,6 +575,26 @@
         "phase": "Competition Pressure",
         "focus": "Defeating boot under time pressure",
         "description": "Timed rounds where you must complete submission or maintain dominant control against boot defense. Partner uses full defensive repertoire including boot, grip fighting, and guard recovery. Develop decisive counter-strategy selection under realistic competition time constraints."
+      }
+    ],
+    "clips": [
+      {
+        "id": "P6jLVGue1As",
+        "title": "Countering the boot defense from outside ashi",
+        "by": "Team GTW BJJ",
+        "vertical": false,
+        "channel": "Team GTW BJJ",
+        "duration": 77,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Kx8gZ3QdO8s",
+        "title": "Crossover toe hold finish",
+        "by": "Bence Romanek",
+        "vertical": false,
+        "channel": "Bence Romanek",
+        "duration": 51,
+        "verified": "2026-07-15"
       }
     ]
   }

@@ -140,6 +140,43 @@ description: "Learn to defend and counter the Shin-to-Shin Sweep in BJJ. Recogni
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin Sweep (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Defending and countering the shin to shin guard",
+      "description": "Shin-to-Shin Sweep (Defender) film study: Defending and countering the shin to shin guard, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jlu1TzXffDA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/jlu1TzXffDA",
+      "url": "https://www.youtube.com/watch?v=jlu1TzXffDA",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT171S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Denying the shin-to-shin guard while passing",
+      "description": "Shin-to-Shin Sweep (Defender) film study: Denying the shin-to-shin guard while passing, taught by Mads H..",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rpRpBz4m114/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/rpRpBz4m114",
+      "url": "https://www.youtube.com/watch?v=rpRpBz4m114",
+      "creator": { "@type": "Person", "name": "Mads H." },
+      "duration": "PT239S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -149,6 +186,34 @@ Defending the Shin-to-Shin Sweep requires understanding the three forces driving
 **Opponent's Starting Position**: [[Positions/Shin-to-Shin Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin Sweep (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=jlu1TzXffDA)
+
+<p class="clip-credit"><strong>Defending and countering the shin to shin guard</strong> — taught by Jean Jacques Machado · 2:51 · <a href="https://www.youtube.com/watch?v=jlu1TzXffDA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=rpRpBz4m114)
+
+<p class="clip-credit"><strong>Denying the shin-to-shin guard while passing</strong> — taught by Mads H. · 3:59 · <a href="https://www.youtube.com/watch?v=rpRpBz4m114" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

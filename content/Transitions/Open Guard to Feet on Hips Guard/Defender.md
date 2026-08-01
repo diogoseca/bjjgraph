@@ -148,6 +148,54 @@ description: "How to defend against the transition to feet on hips guard in BJJ.
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Open Guard to Feet on Hips Guard (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Both Feet On Hips guard \u2014 mechanics and control",
+      "description": "Open Guard to Feet on Hips Guard (Defender) film study: Both Feet On Hips guard \u2014 mechanics and control, taught by Sathya Wiltse.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o2gll2GU85s/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o2gll2GU85s",
+      "url": "https://www.youtube.com/watch?v=o2gll2GU85s",
+      "creator": { "@type": "Person", "name": "Sathya Wiltse" },
+      "duration": "PT90S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Passing the guard when they have feet on hips",
+      "description": "Open Guard to Feet on Hips Guard (Defender) film study: Passing the guard when they have feet on hips, taught by Urbana Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fqC0g2NEbq0/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/fqC0g2NEbq0",
+      "url": "https://www.youtube.com/watch?v=fqC0g2NEbq0",
+      "creator": { "@type": "Person", "name": "Urbana Academy" },
+      "duration": "PT53S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Beating leg frames with hip and leg position",
+      "description": "Open Guard to Feet on Hips Guard (Defender) film study: Beating leg frames with hip and leg position, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4MVFbEwHLGM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/4MVFbEwHLGM",
+      "url": "https://www.youtube.com/watch?v=4MVFbEwHLGM",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT110S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the defender (top player), your objective is to prevent the bottom player fro
 **Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Open Guard to Feet on Hips Guard (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o2gll2GU85s)
+
+<p class="clip-credit"><strong>Both Feet On Hips guard — mechanics and control</strong> — taught by Sathya Wiltse · 1:30 · <a href="https://www.youtube.com/watch?v=o2gll2GU85s" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=fqC0g2NEbq0)
+
+<p class="clip-credit"><strong>Passing the guard when they have feet on hips</strong> — taught by Urbana Academy · 0:53 · <a href="https://www.youtube.com/watch?v=fqC0g2NEbq0" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=4MVFbEwHLGM)
+
+<p class="clip-credit"><strong>Beating leg frames with hip and leg position</strong> — taught by Jean Jacques Machado · 1:50 · <a href="https://www.youtube.com/watch?v=4MVFbEwHLGM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

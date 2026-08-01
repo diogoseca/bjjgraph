@@ -148,6 +148,54 @@ description: "How to defend against Back Control to Crucifix in BJJ. Recognition
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Back Control to Crucifix (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Crucifix escape via back roll",
+      "description": "Back Control to Crucifix (Defender) film study: Crucifix escape via back roll, taught by Adam Bradley.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6vb_D-aobfg/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/6vb_D-aobfg",
+      "url": "https://www.youtube.com/watch?v=6vb_D-aobfg",
+      "creator": { "@type": "Person", "name": "Adam Bradley" },
+      "duration": "PT189S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "5 mistakes defending the back take from turtle",
+      "description": "Back Control to Crucifix (Defender) film study: 5 mistakes defending the back take from turtle, taught by Priit Mihkelson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h2lCF7jLT_w/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/h2lCF7jLT_w",
+      "url": "https://www.youtube.com/watch?v=h2lCF7jLT_w",
+      "creator": { "@type": "Person", "name": "Priit Mihkelson" },
+      "duration": "PT456S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Many ways to escape the turtle",
+      "description": "Back Control to Crucifix (Defender) film study: Many ways to escape the turtle, taught by Jean Jacques Machado.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zxSKKUroV6Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zxSKKUroV6Q",
+      "url": "https://www.youtube.com/watch?v=zxSKKUroV6Q",
+      "creator": { "@type": "Person", "name": "Jean Jacques Machado" },
+      "duration": "PT214S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +207,42 @@ The defensive framework operates on three principles: deny the arm extension tha
 **Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Back Control to Crucifix (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=6vb_D-aobfg)
+
+<p class="clip-credit"><strong>Crucifix escape via back roll</strong> — taught by Adam Bradley · 3:09 · <a href="https://www.youtube.com/watch?v=6vb_D-aobfg" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=h2lCF7jLT_w)
+
+<p class="clip-credit"><strong>5 mistakes defending the back take from turtle</strong> — taught by Priit Mihkelson · 7:36 · <a href="https://www.youtube.com/watch?v=h2lCF7jLT_w" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zxSKKUroV6Q)
+
+<p class="clip-credit"><strong>Many ways to escape the turtle</strong> — taught by Jean Jacques Machado · 3:34 · <a href="https://www.youtube.com/watch?v=zxSKKUroV6Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

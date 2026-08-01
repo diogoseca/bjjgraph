@@ -34,6 +34,54 @@ description: "Master the Toe Hold to Straight Ankle Lock transition in BJJ. Comp
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Toe Hold to Straight Ankle Lock \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Corkscrew toehold counter to straight ankle locks",
+      "description": "Toe Hold to Straight Ankle Lock film study: Corkscrew toehold counter to straight ankle locks, taught by Patrick Donabedian.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cf-hK1t7qzU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/cf-hK1t7qzU",
+      "url": "https://www.youtube.com/watch?v=cf-hK1t7qzU",
+      "creator": { "@type": "Person", "name": "Patrick Donabedian" },
+      "duration": "PT65S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Chaining reverse toe hold and inside heel hook in 50/50",
+      "description": "Toe Hold to Straight Ankle Lock film study: Chaining reverse toe hold and inside heel hook in 50/50, taught by Unknown.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y3yldWyiSZY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/y3yldWyiSZY",
+      "url": "https://www.youtube.com/watch?v=y3yldWyiSZY",
+      "creator": { "@type": "Person", "name": "Unknown" },
+      "duration": "PT50S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "One minute toe hold finishing tweak",
+      "description": "Toe Hold to Straight Ankle Lock film study: One minute toe hold finishing tweak, taught by Albert.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/P7ua1JeOpQ4/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/P7ua1JeOpQ4",
+      "url": "https://www.youtube.com/watch?v=P7ua1JeOpQ4",
+      "creator": { "@type": "Person", "name": "Albert" },
+      "duration": "PT63S"
+    }
+  ]
+}
+</script>
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -69,6 +117,42 @@ The primary risk in this transition lies in the momentary grip release required 
 **Success Rate**: 55%
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Toe Hold to Straight Ankle Lock in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=cf-hK1t7qzU)
+
+<p class="clip-credit"><strong>Corkscrew toehold counter to straight ankle locks</strong> — taught by Patrick Donabedian · 1:05 · <a href="https://www.youtube.com/watch?v=cf-hK1t7qzU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=y3yldWyiSZY)
+
+<p class="clip-credit"><strong>Chaining reverse toe hold and inside heel hook in 50/50</strong> — taught by Unknown · 0:50 · <a href="https://www.youtube.com/watch?v=y3yldWyiSZY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=P7ua1JeOpQ4)
+
+<p class="clip-credit"><strong>One minute toe hold finishing tweak</strong> — taught by Albert · 1:03 · <a href="https://www.youtube.com/watch?v=P7ua1JeOpQ4" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="possible-outcomes" class="content-section">
 

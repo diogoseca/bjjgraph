@@ -174,6 +174,43 @@ description: "Complete guide to executing the Transition to 3-4 Mount from stand
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Mount to 3-4 Mount (Attacker) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Clearing the foot between mount and 3/4 mount",
+      "description": "Mount to 3-4 Mount (Attacker) film study: Clearing the foot between mount and 3/4 mount, taught by Mack Training Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OI73kR-gvbQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/OI73kR-gvbQ",
+      "url": "https://www.youtube.com/watch?v=OI73kR-gvbQ",
+      "creator": { "@type": "Person", "name": "Mack Training Academy" },
+      "duration": "PT94S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Consolidating and Passing 3/4 Mount with the Pry",
+      "description": "Mount to 3-4 Mount (Attacker) film study: Consolidating and Passing 3/4 Mount with the Pry, taught by Double Phoenix coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r3YtZkGq29Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/r3YtZkGq29Q",
+      "url": "https://www.youtube.com/watch?v=r3YtZkGq29Q",
+      "creator": { "@type": "Person", "name": "Double Phoenix coach" },
+      "duration": "PT220S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -183,6 +220,34 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 **From Position**: [[Positions/Mount]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Mount to 3-4 Mount (Attacker) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=OI73kR-gvbQ)
+
+<p class="clip-credit"><strong>Clearing the foot between mount and 3/4 mount</strong> — taught by Mack Training Academy · 1:34 · <a href="https://www.youtube.com/watch?v=OI73kR-gvbQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=r3YtZkGq29Q)
+
+<p class="clip-credit"><strong>Consolidating and Passing 3/4 Mount with the Pry</strong> — taught by Double Phoenix coach · 3:40 · <a href="https://www.youtube.com/watch?v=r3YtZkGq29Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="key-principles" class="content-section">
 

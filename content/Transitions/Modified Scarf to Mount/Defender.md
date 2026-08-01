@@ -148,6 +148,54 @@ description: "Defend the Modified Scarf Hold to Mount transition. Learn recognit
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modified Scarf to Mount (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Bridge and roll defense to scarf hold",
+      "description": "Modified Scarf to Mount (Defender) film study: Bridge and roll defense to scarf hold, taught by Satori BJJ.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NBBNLMCFvWM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NBBNLMCFvWM",
+      "url": "https://www.youtube.com/watch?v=NBBNLMCFvWM",
+      "creator": { "@type": "Person", "name": "Satori BJJ" },
+      "duration": "PT43S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Scarf hold escape: low underhook ghost escape",
+      "description": "Modified Scarf to Mount (Defender) film study: Scarf hold escape: low underhook ghost escape, taught by Mat Life Training Center.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/chpoSczCLTI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/chpoSczCLTI",
+      "url": "https://www.youtube.com/watch?v=chpoSczCLTI",
+      "creator": { "@type": "Person", "name": "Mat Life Training Center" },
+      "duration": "PT20S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kesa Gatame escape",
+      "description": "Modified Scarf to Mount (Defender) film study: Kesa Gatame escape, taught by SBG Australia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2M_6VytUaus/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/2M_6VytUaus",
+      "url": "https://www.youtube.com/watch?v=2M_6VytUaus",
+      "creator": { "@type": "Person", "name": "SBG Australia" },
+      "duration": "PT43S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ Defending the Modified Scarf to Mount transition requires recognizing the top pl
 **Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Modified Scarf to Mount (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NBBNLMCFvWM)
+
+<p class="clip-credit"><strong>Bridge and roll defense to scarf hold</strong> — taught by Satori BJJ · 0:43 · <a href="https://www.youtube.com/watch?v=NBBNLMCFvWM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=chpoSczCLTI)
+
+<p class="clip-credit"><strong>Scarf hold escape: low underhook ghost escape</strong> — taught by Mat Life Training Center · 0:20 · <a href="https://www.youtube.com/watch?v=chpoSczCLTI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=2M_6VytUaus)
+
+<p class="clip-credit"><strong>Kesa Gatame escape</strong> — taught by SBG Australia · 0:43 · <a href="https://www.youtube.com/watch?v=2M_6VytUaus" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

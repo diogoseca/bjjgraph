@@ -148,6 +148,54 @@ description: "How to counter the Rolling Kimura Escape in BJJ. Recognition cues,
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Rolling Kimura Escape (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the kimura defense to keep the lock",
+      "description": "Rolling Kimura Escape (Defender) film study: Countering the kimura defense to keep the lock, taught by Pendergrass Academy of Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BV9z8qQgsRQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/BV9z8qQgsRQ",
+      "url": "https://www.youtube.com/watch?v=BV9z8qQgsRQ",
+      "creator": { "@type": "Person", "name": "Pendergrass Academy of Martial Arts" },
+      "duration": "PT119S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Rolling Kimura Counter",
+      "description": "Rolling Kimura Escape (Defender) film study: Rolling Kimura Counter, taught by Shawn Williams.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sfHpgnrwVkc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/sfHpgnrwVkc",
+      "url": "https://www.youtube.com/watch?v=sfHpgnrwVkc",
+      "creator": { "@type": "Person", "name": "Shawn Williams" },
+      "duration": "PT189S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Kimura Trap Counter",
+      "description": "Rolling Kimura Escape (Defender) film study: Kimura Trap Counter, taught by Marcelo Garcia.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9CJx9mZimwQ/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/9CJx9mZimwQ",
+      "url": "https://www.youtube.com/watch?v=9CJx9mZimwQ",
+      "creator": { "@type": "Person", "name": "Marcelo Garcia" },
+      "duration": "PT300S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +205,42 @@ As the Kimura attacker (defender against the rolling escape), your primary conce
 **Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Rolling Kimura Escape (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=BV9z8qQgsRQ)
+
+<p class="clip-credit"><strong>Countering the kimura defense to keep the lock</strong> — taught by Pendergrass Academy of Martial Arts · 1:59 · <a href="https://www.youtube.com/watch?v=BV9z8qQgsRQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=sfHpgnrwVkc)
+
+<p class="clip-credit"><strong>Rolling Kimura Counter</strong> — taught by Shawn Williams · 3:09 · <a href="https://www.youtube.com/watch?v=sfHpgnrwVkc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=9CJx9mZimwQ)
+
+<p class="clip-credit"><strong>Kimura Trap Counter</strong> — taught by Marcelo Garcia · 5:00 · <a href="https://www.youtube.com/watch?v=9CJx9mZimwQ" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

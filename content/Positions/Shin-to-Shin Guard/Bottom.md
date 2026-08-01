@@ -27,31 +27,31 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute De La Riva Sweep",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 2% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Technical Stand Up to Single Leg",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Omoplata Sweep",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -153,6 +153,54 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Shin-to-Shin Guard (Bottom) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Shin to Shin Guard to Single Leg X Sweep",
+      "description": "Shin-to-Shin Guard (Bottom) film study: Shin to Shin Guard to Single Leg X Sweep, taught by Bermuda Martial Arts.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vKjAcZbsTwI/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/vKjAcZbsTwI",
+      "url": "https://www.youtube.com/watch?v=vKjAcZbsTwI",
+      "creator": { "@type": "Person", "name": "Bermuda Martial Arts" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Shin to Shin to Single Leg X Progression",
+      "description": "Shin-to-Shin Guard (Bottom) film study: Shin to Shin to Single Leg X Progression, taught by Robyn Sheehan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/o0TTMzFEG0Q/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/o0TTMzFEG0Q",
+      "url": "https://www.youtube.com/watch?v=o0TTMzFEG0Q",
+      "creator": { "@type": "Person", "name": "Robyn Sheehan" },
+      "duration": "PT128S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 3,
+      "name": "Shin to Shin to Double Leg Takedown",
+      "description": "Shin-to-Shin Guard (Bottom) film study: Shin to Shin to Double Leg Takedown, taught by Michael Hoffman.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dARW8ARiMcA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/dARW8ARiMcA",
+      "url": "https://www.youtube.com/watch?v=dARW8ARiMcA",
+      "creator": { "@type": "Person", "name": "Michael Hoffman" },
+      "duration": "PT40S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -160,6 +208,42 @@ description: "Master Shin-to-Shin Guard from bottom perspective. Learn shin conn
 Shin-to-Shin Guard from the bottom perspective represents one of the most versatile and dynamic positions in modern Brazilian Jiu-Jitsu guard systems. The position is built around a fundamental biomechanical principle: creating a perpendicular connection between your shin and the opponent's shin generates leverage that can control their base, manipulate their balance, and create pathways to dominant positions. From the bottom, the practitioner sits or reclines with one shin placed across the opponent's same-side shin at approximately the lower third of their tibia, while simultaneously managing upper body positioning through grips and frames. This dual-layer control system—leg connection plus upper body management—creates a sophisticated defensive barrier that prevents aggressive passing while setting up offensive opportunities. The beauty of shin-to-shin lies in its scalability and integration with modern guard systems. Beginners can use it as a simple distance management tool, maintaining space and preventing the opponent from establishing dominant passing positions. Intermediate practitioners begin to recognize the sweeping opportunities created by the shin connection, using off-balancing mechanics to generate attacks. Advanced players integrate shin-to-shin into comprehensive guard retention systems, flowing seamlessly between shin-to-shin, single leg X, full X-guard, and leg entanglement positions based on opponent reactions. The position's effectiveness in competition stems from its ability to create genuine dilemmas: opponents who attempt to aggressively clear the shin connection expose themselves to single leg X and leg lock entries, while those who maintain distance and try to work around the position allow the guard player to dictate engagement range and set up technical sweeps. Understanding the position requires mastering several interconnected elements: the biomechanics of the shin connection itself, the timing and angle adjustments needed to maintain connection against clearing attempts, the upper body control patterns that prevent the opponent from achieving dominant grips, and the transitional pathways that lead to related positions when shin-to-shin is compromised or when offensive opportunities emerge.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Shin-to-Shin Guard (Bottom) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=vKjAcZbsTwI)
+
+<p class="clip-credit"><strong>Shin to Shin Guard to Single Leg X Sweep</strong> — taught by Bermuda Martial Arts · 2:18 · <a href="https://www.youtube.com/watch?v=vKjAcZbsTwI" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=o0TTMzFEG0Q)
+
+<p class="clip-credit"><strong>Shin to Shin to Single Leg X Progression</strong> — taught by Robyn Sheehan · 2:08 · <a href="https://www.youtube.com/watch?v=o0TTMzFEG0Q" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=dARW8ARiMcA)
+
+<p class="clip-credit"><strong>Shin to Shin to Double Leg Takedown</strong> — taught by Michael Hoffman · 0:40 · <a href="https://www.youtube.com/watch?v=dARW8ARiMcA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

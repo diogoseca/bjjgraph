@@ -21,37 +21,37 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
     {
       "@type": "HowToStep",
       "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Toreando Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X Pass",
-      "text": "From this position, attempt X Pass. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt X Pass. This technique is attempted in 5% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
-      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 4% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -154,6 +154,43 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "De La Riva Guard (Top) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "De La Riva float pass",
+      "description": "De La Riva Guard (Top) film study: De La Riva float pass, taught by TrickyBJJ Academy.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/py3b0tmTJuU/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/py3b0tmTJuU",
+      "url": "https://www.youtube.com/watch?v=py3b0tmTJuU",
+      "creator": { "@type": "Person", "name": "TrickyBJJ Academy" },
+      "duration": "PT57S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Destroy the De La Riva pass",
+      "description": "De La Riva Guard (Top) film study: Destroy the De La Riva pass, taught by Augusto Frota.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/S5IKZijyNMc/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/S5IKZijyNMc",
+      "url": "https://www.youtube.com/watch?v=S5IKZijyNMc",
+      "creator": { "@type": "Person", "name": "Augusto Frota" },
+      "duration": "PT51S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <aside class="entity-relations">
@@ -170,6 +207,34 @@ The fundamental strategic tension for the top player is that DLR operates most e
 The most effective DLR passers develop a systematic approach that addresses each control element in sequence: first strip or neutralize the ankle grip, then address the DLR hook through positioning or backstep, and finally execute the guard pass before the bottom player can re-establish their control structure. This methodical dismantling of the guard's components is far more reliable than attempting to pass directly through an established DLR framework, which plays into the guard player's strengths and exposes the passer to sweeps and back takes.
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch De La Riva Guard (Top) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=py3b0tmTJuU)
+
+<p class="clip-credit"><strong>De La Riva float pass</strong> — taught by TrickyBJJ Academy · 0:57 · <a href="https://www.youtube.com/watch?v=py3b0tmTJuU" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=S5IKZijyNMc)
+
+<p class="clip-credit"><strong>Destroy the De La Riva pass</strong> — taught by Augusto Frota · 0:51 · <a href="https://www.youtube.com/watch?v=S5IKZijyNMc" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="state-invariants" class="content-section">
 

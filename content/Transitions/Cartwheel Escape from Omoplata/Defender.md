@@ -148,6 +148,43 @@ description: "Complete guide to preventing the Cartwheel Escape from Omoplata in
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Cartwheel Escape from Omoplata (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Countering the cartwheel escape",
+      "description": "Cartwheel Escape from Omoplata (Defender) film study: Countering the cartwheel escape, taught by Sam Wilkinson.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NZEf9jXzCYA/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/NZEf9jXzCYA",
+      "url": "https://www.youtube.com/watch?v=NZEf9jXzCYA",
+      "creator": { "@type": "Person", "name": "Sam Wilkinson" },
+      "duration": "PT80S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Finishing the omoplata against the common defense",
+      "description": "Cartwheel Escape from Omoplata (Defender) film study: Finishing the omoplata against the common defense, taught by Jon Thomas.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AHCYSGbEGHM/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/AHCYSGbEGHM",
+      "url": "https://www.youtube.com/watch?v=AHCYSGbEGHM",
+      "creator": { "@type": "Person", "name": "Jon Thomas" },
+      "duration": "PT425S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -157,6 +194,34 @@ As the defender holding the omoplata, your primary objective is to prevent the c
 **Opponent's Starting Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Cartwheel Escape from Omoplata (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=NZEf9jXzCYA)
+
+<p class="clip-credit"><strong>Countering the cartwheel escape</strong> — taught by Sam Wilkinson · 1:20 · <a href="https://www.youtube.com/watch?v=NZEf9jXzCYA" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=AHCYSGbEGHM)
+
+<p class="clip-credit"><strong>Finishing the omoplata against the common defense</strong> — taught by Jon Thomas · 7:05 · <a href="https://www.youtube.com/watch?v=AHCYSGbEGHM" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

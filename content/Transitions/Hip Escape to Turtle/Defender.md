@@ -148,6 +148,43 @@ description: "How to maintain body triangle and prevent Hip Escape to Turtle in 
 </script>
 
 
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hip Escape to Turtle (Defender) \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Back Attack Secrets: Keeping the Back",
+      "description": "Hip Escape to Turtle (Defender) film study: Back Attack Secrets: Keeping the Back, taught by Gordon Ryan.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zcJe8NnWtfk/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zcJe8NnWtfk",
+      "url": "https://www.youtube.com/watch?v=zcJe8NnWtfk",
+      "creator": { "@type": "Person", "name": "Gordon Ryan" },
+      "duration": "PT341S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Back Attack System: Holding the Back",
+      "description": "Hip Escape to Turtle (Defender) film study: Back Attack System: Holding the Back, taught by Jordan Preisinger.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zzovZGhewQY/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/zzovZGhewQY",
+      "url": "https://www.youtube.com/watch?v=zzovZGhewQY",
+      "creator": { "@type": "Person", "name": "Jordan Preisinger" },
+      "duration": "PT694S"
+    }
+  ]
+}
+</script>
+
+
+
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
@@ -159,6 +196,34 @@ Your primary tools are squeeze pressure modulation, upper body attack timing, an
 **Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Hip Escape to Turtle (Defender) in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zcJe8NnWtfk)
+
+<p class="clip-credit"><strong>Back Attack Secrets: Keeping the Back</strong> — taught by Gordon Ryan · 5:41 · <a href="https://www.youtube.com/watch?v=zcJe8NnWtfk" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=zzovZGhewQY)
+
+<p class="clip-credit"><strong>Back Attack System: Holding the Back</strong> — taught by Jordan Preisinger · 11:34 · <a href="https://www.youtube.com/watch?v=zzovZGhewQY" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
 
 <section id="recognition-cues" class="content-section">
 

@@ -16,21 +16,33 @@
   "outcomes": [
     {
       "to": "Back Control/Top",
-      "probability": 58,
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
       "result": "success"
     },
     {
       "to": "Electric Chair/Top",
-      "probability": 27,
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
-      "probability": 15,
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
       "result": "counter"
     }
   ],
-  "success_rate": 58,
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
   "overview": "The Back Take from Lockdown Defense is a high-level counter-offensive transition that transforms a defensive predicament into dominant position. When caught in the Electric Chair from top half guard, rather than fighting the lockdown directly, this technique exploits the opponent's commitment to the sweep by circling behind them. The key insight is that the bottom player's focus on extending your trapped leg creates blind spots in their back defense.\n\nThis transition represents a paradigm shift in lockdown defense philosophy. Instead of viewing the Electric Chair as purely a position to escape, experienced practitioners recognize it as an opportunity. When the bottom player extends their hips and commits to the crotch-splitting pressure, they necessarily expose their back. The backstep motion combined with proper weight distribution allows the top player to clear the lockdown while simultaneously establishing back control hooks.\n\nFrom a tactical perspective, this technique punishes overly aggressive lockdown attacks. When the bottom player fully commits to the Electric Chair extension, they sacrifice the ability to quickly recover guard position. The top player capitalizes on this commitment by timing the backstep precisely when the opponent's hips are maximally extended. This creates a powerful dilemma for lockdown players: commit fully and risk the back take, or hold back and reduce the effectiveness of their sweep and submission attempts.",
   "related_content": [
     {
@@ -215,46 +227,175 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the backstep?",
-        "answer": "The optimal timing is when the opponent fully commits to the Electric Chair extension with their hips maximally elevated and extended. At this point, they are most focused on the sweep or submission and their back is most exposed. Attempting too early when they can still retract leads to failed transitions."
+        "answer": "The optimal timing is when the opponent fully commits to the Electric Chair extension with their hips maximally elevated and extended. At this point, they are most focused on the sweep or submission and their back is most exposed. Attempting too early when they can still retract leads to failed transitions.",
+        "answer_line": "At max hip extension",
+        "distractors": {
+          "plausible": [
+            "As soon as hips start lifting",
+            "Once they retract to escape"
+          ],
+          "trap": [
+            "Right when lockdown locks in"
+          ]
+        }
       },
       {
         "question": "Your opponent starts to release lockdown pressure mid-backstep - how do you adjust?",
-        "answer": "Abandon the back take and immediately transition to passing their guard. Their lockdown release eliminates their leg control, giving you a free passing opportunity. Options include knee slice pass, smash pass, or leg weave depending on their defensive reactions and remaining grips."
+        "answer": "Abandon the back take and immediately transition to passing their guard. Their lockdown release eliminates their leg control, giving you a free passing opportunity. Options include knee slice pass, smash pass, or leg weave depending on their defensive reactions and remaining grips.",
+        "answer_line": "Abandon backstep, pass guard",
+        "distractors": {
+          "plausible": [
+            "Force the backstep through",
+            "Reset to Electric Chair"
+          ],
+          "trap": [
+            "Keep chasing the lost hook"
+          ]
+        }
       },
       {
         "question": "What is the most critical upper body control to maintain throughout the backstep?",
-        "answer": "The crossface is the most critical control. Your nearside arm drives your shoulder into the opponent's jaw, controlling their head and preventing them from turning to face you during the backstep rotation. Losing the crossface allows the opponent to rotate and recover guard or establish defensive frames."
+        "answer": "The crossface is the most critical control. Your nearside arm drives your shoulder into the opponent's jaw, controlling their head and preventing them from turning to face you during the backstep rotation. Losing the crossface allows the opponent to rotate and recover guard or establish defensive frames.",
+        "answer_line": "Crossface controlling head",
+        "distractors": {
+          "plausible": [
+            "Whizzer on far arm",
+            "Underhook on trapped side"
+          ],
+          "trap": [
+            "Let go to grab pants"
+          ]
+        }
       },
       {
         "question": "Why must the backstep arc be wider than a standard backstep pass?",
-        "answer": "The wider arc is necessary to clear the figure-four lockdown leg configuration. A standard backstep pass uses a tighter arc since no leg entanglement exists. The wide circular path allows your leg to trace around the lockdown while the opponent's hip extension creates the space needed for clearance."
+        "answer": "The wider arc is necessary to clear the figure-four lockdown leg configuration. A standard backstep pass uses a tighter arc since no leg entanglement exists. The wide circular path allows your leg to trace around the lockdown while the opponent's hip extension creates the space needed for clearance.",
+        "answer_line": "Clears the lockdown leg",
+        "distractors": {
+          "plausible": [
+            "Matches standard pass angle",
+            "Needed for base stability"
+          ],
+          "trap": [
+            "Tight arc avoids sweeps"
+          ]
+        }
       },
       {
         "question": "What grip configuration do you need before the backstep and what do you transition to after?",
-        "answer": "Before the backstep, maintain crossface with your nearside arm controlling opponent's head and far shoulder, with your farside arm establishing whizzer or underhook. After clearing, transition to seatbelt with one arm over the shoulder and one under the armpit, hands clasped at their chest for full back control."
+        "answer": "Before the backstep, maintain crossface with your nearside arm controlling opponent's head and far shoulder, with your farside arm establishing whizzer or underhook. After clearing, transition to seatbelt with one arm over the shoulder and one under the armpit, hands clasped at their chest for full back control.",
+        "answer_line": "Crossface then seatbelt",
+        "distractors": {
+          "plausible": [
+            "Underhook then bodylock",
+            "Whizzer then chokehold"
+          ],
+          "trap": [
+            "Release all grips mid-step"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges hard during your backstep, nearly reversing you - what went wrong and how do you fix it?",
-        "answer": "You likely initiated the backstep before the opponent fully committed to their extension, meaning they retained enough hip power and base to bridge. The fix is patience: wait for maximum hip extension before starting. If mid-backstep, drop your weight low, widen your base with the free leg, and ride the bridge before continuing."
+        "answer": "You likely initiated the backstep before the opponent fully committed to their extension, meaning they retained enough hip power and base to bridge. The fix is patience: wait for maximum hip extension before starting. If mid-backstep, drop your weight low, widen your base with the free leg, and ride the bridge before continuing.",
+        "answer_line": "Started early, ride the bridge",
+        "distractors": {
+          "plausible": [
+            "Grip broke, regrab crossface",
+            "Base too narrow, widen stance"
+          ],
+          "trap": [
+            "Bail out and give up hook"
+          ]
+        }
       },
       {
         "question": "You clear the lockdown and insert your first hook, but the opponent begins turtling before seatbelt is established - what is your response?",
-        "answer": "Maintain your first hook while immediately reaching over their back with both arms for harness control. If they turtle fully, transition to turtle back control attacks including rear naked choke setup or crucifix entry. The key is never losing the hook you have established while adapting your upper body control to their new posture."
+        "answer": "Maintain your first hook while immediately reaching over their back with both arms for harness control. If they turtle fully, transition to turtle back control attacks including rear naked choke setup or crucifix entry. The key is never losing the hook you have established while adapting your upper body control to their new posture.",
+        "answer_line": "Keep hook, get harness",
+        "distractors": {
+          "plausible": [
+            "Release hook, flatten them",
+            "Switch to seatbelt first"
+          ],
+          "trap": [
+            "Abandon hook for waist lock"
+          ]
+        }
       },
       {
         "question": "How does the direction of force change during the three phases of this technique?",
-        "answer": "Phase one drives force forward and downward through the chest to flatten the opponent. Phase two redirects force laterally and backward in the circular backstep arc to clear the trapped leg. Phase three drives force forward again, this time into the opponent's back to establish chest-to-back connection for back control. Each phase flows into the next."
+        "answer": "Phase one drives force forward and downward through the chest to flatten the opponent. Phase two redirects force laterally and backward in the circular backstep arc to clear the trapped leg. Phase three drives force forward again, this time into the opponent's back to establish chest-to-back connection for back control. Each phase flows into the next.",
+        "answer_line": "Down, then lateral, then forward",
+        "distractors": {
+          "plausible": [
+            "Forward the whole sequence",
+            "Lateral then down then lateral"
+          ],
+          "trap": [
+            "Backward pressure throughout"
+          ]
+        }
       },
       {
         "question": "If your backstep attempt fails and you end up back in Electric Chair, what options remain?",
-        "answer": "Return to standard lockdown defenses: limp leg escape to reduce lockdown effectiveness, forward pressure to prevent further extension, and lockdown break sequence targeting the foot triangle. You can re-attempt the backstep on the next full extension cycle, or switch to Darce choke setup if the opponent exposes their neck during their next attack."
+        "answer": "Return to standard lockdown defenses: limp leg escape to reduce lockdown effectiveness, forward pressure to prevent further extension, and lockdown break sequence targeting the foot triangle. You can re-attempt the backstep on the next full extension cycle, or switch to Darce choke setup if the opponent exposes their neck during their next attack.",
+        "answer_line": "Limp leg, pressure, retry",
+        "distractors": {
+          "plausible": [
+            "Force the backstep again now",
+            "Stand up and disengage"
+          ],
+          "trap": [
+            "Yank the trapped leg free"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can safely attempt this technique?",
-        "answer": "Four conditions are required: the opponent must have committed to Electric Chair extension with elevated hips, you must maintain some upper body control through crossface or underhook, your trapped leg must retain enough mobility for the backstep arc, and your free leg must have a stable posting position to serve as the pivot point for the circular motion."
+        "answer": "Four conditions are required: the opponent must have committed to Electric Chair extension with elevated hips, you must maintain some upper body control through crossface or underhook, your trapped leg must retain enough mobility for the backstep arc, and your free leg must have a stable posting position to serve as the pivot point for the circular motion.",
+        "answer_line": "Extension, control, mobility, post",
+        "distractors": {
+          "plausible": [
+            "Full mount and both hooks in",
+            "Opponent flat with no grips"
+          ],
+          "trap": [
+            "Any lockdown grip is enough"
+          ]
+        }
       }
     ],
-    "safety_considerations": "This technique is generally safe when practiced with control and awareness. The primary risk is to the practitioner performing the backstep if they attempt it while still tightly caught in the lockdown, which can cause knee strain from the rotational force. Always ensure adequate hip extension from the bottom player before attempting the backstep arc. For the bottom player, be aware that rapid release of the lockdown while your opponent is mid-backstep can cause them to land awkwardly. Practice with progressive resistance and communicate with training partners about comfort levels with the Electric Chair position before drilling live."
+    "safety_considerations": "This technique is generally safe when practiced with control and awareness. The primary risk is to the practitioner performing the backstep if they attempt it while still tightly caught in the lockdown, which can cause knee strain from the rotational force. Always ensure adequate hip extension from the bottom player before attempting the backstep arc. For the bottom player, be aware that rapid release of the lockdown while your opponent is mid-backstep can cause them to land awkwardly. Practice with progressive resistance and communicate with training partners about comfort levels with the Electric Chair position before drilling live.",
+    "clips": [
+      {
+        "id": "gLcZH8HPJEA",
+        "title": "Lockdown to rolling back take",
+        "by": "UFAI Grappling",
+        "vertical": false,
+        "channel": "UFAI GRAPPLING",
+        "duration": 43,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "Y0D5lpXsf1U",
+        "title": "Understanding the lockdown",
+        "by": "Brandon McCaghren",
+        "vertical": false,
+        "channel": "Brandon Mccaghren",
+        "duration": 503,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "OIr4wDxl-Ys",
+        "title": "Lockdown clinches",
+        "by": "Eddie Bravo",
+        "vertical": false,
+        "channel": "Eddie Bravo",
+        "duration": 60,
+        "verified": "2026-07-15"
+      }
+    ]
   },
   "defender": {
     "name": "Back Take from Lockdown Defense Defender",
@@ -340,23 +481,73 @@
     "flashcards": [
       {
         "question": "What is the earliest cue that indicates the top player is about to attempt the backstep back take?",
-        "answer": "The earliest cue is the top player's free leg beginning to step backward or widen its base in preparation for the circular arc. This is often accompanied by increased forward chest pressure as they load weight before initiating the backstep. Recognizing this leg movement gives you the maximum response time."
+        "answer": "The earliest cue is the top player's free leg beginning to step backward or widen its base in preparation for the circular arc. This is often accompanied by increased forward chest pressure as they load weight before initiating the backstep. Recognizing this leg movement gives you the maximum response time.",
+        "answer_line": "Free leg stepping back",
+        "distractors": {
+          "plausible": [
+            "Sudden release of crossface",
+            "Hips dropping flat to mat"
+          ],
+          "trap": [
+            "Opponent grabbing both pants"
+          ]
+        }
       },
       {
         "question": "Why is turning toward the opponent rather than away from them the correct defensive response?",
-        "answer": "Turning toward the opponent closes the angle they need for the back take by bringing your chest to face them, which prevents hook insertion and seatbelt establishment. Turning away accelerates their path to your back and makes it easier for them to slide behind you. Facing them forces a guard exchange rather than a back control situation."
+        "answer": "Turning toward the opponent closes the angle they need for the back take by bringing your chest to face them, which prevents hook insertion and seatbelt establishment. Turning away accelerates their path to your back and makes it easier for them to slide behind you. Facing them forces a guard exchange rather than a back control situation.",
+        "answer_line": "Closes angle, blocks hooks",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up",
+            "Protects the far side hip"
+          ],
+          "trap": [
+            "Turn away to hide the back"
+          ]
+        }
       },
       {
         "question": "When should you release the lockdown versus tighten it during backstep defense?",
-        "answer": "Tighten the lockdown if the backstep is in its early phase and your grip can stall the opponent's leg before it clears. Release the lockdown if the arc is more than halfway complete, because holding a compromised lockdown creates knee torque risk and wastes the time you need to recover guard. The decision point is whether the leg has cleared your knee line."
+        "answer": "Tighten the lockdown if the backstep is in its early phase and your grip can stall the opponent's leg before it clears. Release the lockdown if the arc is more than halfway complete, because holding a compromised lockdown creates knee torque risk and wastes the time you need to recover guard. The decision point is whether the leg has cleared your knee line.",
+        "answer_line": "Tighten early, release late",
+        "distractors": {
+          "plausible": [
+            "Always tighten to stall arc",
+            "Release immediately at start"
+          ],
+          "trap": [
+            "Hold tight past the knee line"
+          ]
+        }
       },
       {
         "question": "How can you use the backstep attempt offensively as the bottom player?",
-        "answer": "Advanced defenders can bait the backstep by offering partial extension, then quickly retracting to recover guard when the opponent commits to the circular motion. The opponent's failed backstep often leaves them off-balance with their weight committed laterally, creating sweep opportunities or allowing you to transition to deep half guard underneath them."
+        "answer": "Advanced defenders can bait the backstep by offering partial extension, then quickly retracting to recover guard when the opponent commits to the circular motion. The opponent's failed backstep often leaves them off-balance with their weight committed laterally, creating sweep opportunities or allowing you to transition to deep half guard underneath them.",
+        "answer_line": "Bait extension, then retract",
+        "distractors": {
+          "plausible": [
+            "Fully extend to force the pass",
+            "Hold lockdown tight the whole time"
+          ],
+          "trap": [
+            "Chase the sweep immediately"
+          ]
+        }
       },
       {
         "question": "Your opponent has cleared the lockdown and inserted one hook - what defensive options remain?",
-        "answer": "Immediately address the hook by trapping it with your legs while fighting the seatbelt grip with your hands. Turn aggressively toward the hook side to begin the back escape sequence. If you can prevent the second hook and seatbelt, you can often scramble to turtle or half guard. Priority shifts from preventing back take to standard back escape methodology."
+        "answer": "Immediately address the hook by trapping it with your legs while fighting the seatbelt grip with your hands. Turn aggressively toward the hook side to begin the back escape sequence. If you can prevent the second hook and seatbelt, you can often scramble to turtle or half guard. Priority shifts from preventing back take to standard back escape methodology.",
+        "answer_line": "Trap hook, turn into it",
+        "distractors": {
+          "plausible": [
+            "Turn away from the hook side",
+            "Fight the far-side underhook"
+          ],
+          "trap": [
+            "Post hands and turtle blind"
+          ]
+        }
       }
     ],
     "training_progressions": [
@@ -379,6 +570,26 @@
         "phase": "Week 7+",
         "focus": "Live positional sparring",
         "description": "Full resistance positional sparring from Electric Chair. Bottom player works Electric Chair attacks while defending backstep attempts. Top player mixes backstep back take with standard lockdown escapes. Score system: back take scores for top, sweep or submission scores for bottom, guard recovery is draw. Track defensive success rate."
+      }
+    ],
+    "clips": [
+      {
+        "id": "xIkXPK5h-4A",
+        "title": "Safely escaping the lockdown",
+        "by": "Lachlan Giles",
+        "vertical": false,
+        "channel": "Absolute MMA St Kilda - Melbourne",
+        "duration": 438,
+        "verified": "2026-07-15"
+      },
+      {
+        "id": "3A6oRsDf3oU",
+        "title": "Lockdown and electric chair counters and escapes",
+        "by": "Street Jitsu",
+        "vertical": false,
+        "channel": "Street Jitsu",
+        "duration": 286,
+        "verified": "2026-07-15"
       }
     ]
   },
